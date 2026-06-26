@@ -32,6 +32,21 @@
         {
           "year": 2025,
           "track": "综合",
+          "minScore": 461,
+          "minRank": 213063,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4085",
+      "majorKey": "fa5e32ff",
+      "majorName": "临床医学（仙桃）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
           "minScore": 490,
           "minRank": 184372,
           "maxScore": 0
@@ -149,8 +164,8 @@
   ],
   "plan2026": [
     {
-      "majorName": "临床医学",
-      "majorKey": "618f7040",
+      "majorName": "临床医学（仙桃）",
+      "majorKey": "fa5e32ff",
       "selKe": "不限",
       "plan": 16,
       "tuition": "5000",
@@ -161,40 +176,31 @@
       "equivRank": 184372
     },
     {
-      "majorName": "护理",
-      "majorKey": "a3db4652",
-      "selKe": "不限",
-      "plan": 10,
-      "tuition": "5000",
-      "schooling": "三年",
-      "menlei": "医",
-      "prevYear": 2025,
-      "prevRank": 212196,
-      "equivRank": 212196
-    },
-    {
-      "majorName": "学前教育",
-      "majorKey": "97716b64",
+      "majorName": "学前教育（仙桃）",
+      "majorKey": "ba602b63",
       "selKe": "不限",
       "plan": 4,
       "tuition": "5000",
       "schooling": "三年",
-      "menlei": "教",
-      "prevYear": 2025,
-      "prevRank": 235618,
-      "equivRank": 235618
+      "menlei": "教"
     },
     {
-      "majorName": "小学教育",
-      "majorKey": "c240892f",
+      "majorName": "小学教育（仙桃）",
+      "majorKey": "4bf3dc94",
       "selKe": "不限",
       "plan": 10,
       "tuition": "5000",
       "schooling": "三年",
-      "menlei": "教",
-      "prevYear": 2025,
-      "prevRank": 237729,
-      "equivRank": 237729
+      "menlei": "教"
+    },
+    {
+      "majorName": "护理（仙桃）",
+      "majorKey": "14b7e265",
+      "selKe": "不限",
+      "plan": 10,
+      "tuition": "5000",
+      "schooling": "三年",
+      "menlei": "医"
     }
   ]
 }

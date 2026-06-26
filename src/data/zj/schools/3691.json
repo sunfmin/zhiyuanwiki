@@ -125,7 +125,15 @@
           "minScore": 411,
           "minRank": 237170,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "3691",
+      "majorKey": "13d3126a",
+      "majorName": "学前教育（中外合作办学）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -137,8 +145,8 @@
     },
     {
       "schoolCode": "3691",
-      "majorKey": "ecb3782f",
-      "majorName": "室内艺术设计",
+      "majorKey": "0a59ff21",
+      "majorName": "室内艺术设计（中外合作办学）",
       "selKe": "不限",
       "years": [
         {
@@ -159,8 +167,8 @@
     },
     {
       "schoolCode": "3691",
-      "majorKey": "3d9020a8",
-      "majorName": "工商企业管理",
+      "majorKey": "f85b34fe",
+      "majorName": "工商企业管理（中外合作办学）",
       "selKe": "不限",
       "years": [
         {
@@ -197,6 +205,21 @@
           "track": "综合",
           "minScore": 441,
           "minRank": 229313,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3691",
+      "majorKey": "56144c88",
+      "majorName": "护理（中外合作办学）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 326,
+          "minRank": 280087,
           "maxScore": 0
         }
       ]
@@ -336,8 +359,8 @@
   ],
   "plan2026": [
     {
-      "majorName": "学前教育",
-      "majorKey": "97716b64",
+      "majorName": "学前教育（中外合作办学）",
+      "majorKey": "13d3126a",
       "selKe": "不限",
       "plan": 16,
       "tuition": "17000",
@@ -352,11 +375,10 @@
       "majorName": "护理",
       "majorKey": "a3db4652",
       "selKe": "不限",
-      "plan": 32,
-      "tuition": "16000",
+      "plan": 2,
+      "tuition": "11810",
       "schooling": "三年",
       "menlei": "医",
-      "coop": true,
       "prevYear": 2025,
       "prevRank": 229313,
       "equivRank": 229313
@@ -434,8 +456,21 @@
       "equivRank": 278127
     },
     {
-      "majorName": "室内艺术设计",
-      "majorKey": "ecb3782f",
+      "majorName": "护理（中外合作办学）",
+      "majorKey": "56144c88",
+      "selKe": "不限",
+      "plan": 30,
+      "tuition": "16000",
+      "schooling": "三年",
+      "menlei": "医",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 280087,
+      "equivRank": 280087
+    },
+    {
+      "majorName": "室内艺术设计（中外合作办学）",
+      "majorKey": "0a59ff21",
       "selKe": "不限",
       "plan": 18,
       "tuition": "17000",
@@ -447,8 +482,8 @@
       "equivRank": 281068
     },
     {
-      "majorName": "工商企业管理",
-      "majorKey": "3d9020a8",
+      "majorName": "工商企业管理（中外合作办学）",
+      "majorKey": "f85b34fe",
       "selKe": "不限",
       "plan": 19,
       "tuition": "17000",

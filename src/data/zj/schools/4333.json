@@ -155,6 +155,21 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 525,
+          "minRank": 142959,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4333",
+      "majorKey": "436fd9b6",
+      "majorName": "应用化学（中外合作办学）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
           "year": 2022,
           "track": "综合",
           "minScore": 549,
@@ -173,13 +188,6 @@
           "track": "综合",
           "minScore": 502,
           "minRank": 166918,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 525,
-          "minRank": 142959,
           "maxScore": 0
         }
       ]
@@ -381,6 +389,28 @@
         {
           "year": 2024,
           "track": "综合",
+          "minScore": 567,
+          "minRank": 90326,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 570,
+          "minRank": 87792,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4333",
+      "majorKey": "fea3e248",
+      "majorName": "英语（师范）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
           "minScore": 576,
           "minRank": 80028,
           "maxScore": 0
@@ -445,10 +475,10 @@
       "equivRank": 86224
     },
     {
-      "majorName": "英语",
-      "majorKey": "49c5cdf9",
+      "majorName": "英语（师范）",
+      "majorKey": "fea3e248",
       "selKe": "不限",
-      "plan": 8,
+      "plan": 5,
       "tuition": "4000",
       "schooling": "四年",
       "menlei": "文",
@@ -467,6 +497,18 @@
       "prevYear": 2025,
       "prevRank": 86877,
       "equivRank": 86877
+    },
+    {
+      "majorName": "英语",
+      "majorKey": "49c5cdf9",
+      "selKe": "不限",
+      "plan": 3,
+      "tuition": "4500",
+      "schooling": "四年",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 87792,
+      "equivRank": 87792
     },
     {
       "majorName": "国际经济与贸易",

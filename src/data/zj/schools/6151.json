@@ -169,6 +169,21 @@
       "selKe": "不限",
       "years": [
         {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 581,
+          "minRank": 74834,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6151",
+      "majorKey": "dccdae04",
+      "majorName": "汉语国际教育（师范）",
+      "selKe": "不限",
+      "years": [
+        {
           "year": 2022,
           "track": "综合",
           "minScore": 588,
@@ -181,13 +196,6 @@
           "minScore": 592,
           "minRank": 62267,
           "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 581,
-          "minRank": 74834,
-          "maxScore": 0
         }
       ]
     },
@@ -195,6 +203,21 @@
       "schoolCode": "6151",
       "majorKey": "97bc5998",
       "majorName": "汉语言文学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 596,
+          "minRank": 57019,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6151",
+      "majorKey": "d7131091",
+      "majorName": "汉语言文学（师范）",
       "selKe": "不限",
       "years": [
         {
@@ -216,13 +239,6 @@
           "track": "综合",
           "minScore": 603,
           "minRank": 50695,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 596,
-          "minRank": 57019,
           "maxScore": 0
         }
       ]
@@ -271,6 +287,21 @@
       "selKe": "不限",
       "years": [
         {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 580,
+          "minRank": 76084,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6151",
+      "majorKey": "fea3e248",
+      "majorName": "英语（师范）",
+      "selKe": "不限",
+      "years": [
+        {
           "year": 2023,
           "track": "综合",
           "minScore": 565,
@@ -282,13 +313,6 @@
           "track": "综合",
           "minScore": 593,
           "minRank": 61517,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 580,
-          "minRank": 76084,
           "maxScore": 0
         }
       ]
@@ -376,124 +400,103 @@
   ],
   "plan2026": [
     {
-      "majorName": "汉语言文学",
-      "majorKey": "97bc5998",
+      "majorName": "汉语言文学（师范）",
+      "majorKey": "d7131091",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5400",
       "schooling": "四年",
       "menlei": "文",
-      "prevYear": 2025,
-      "prevRank": 57019,
-      "equivRank": 57019
+      "prevYear": 2024,
+      "prevRank": 50695,
+      "equivRank": 52451
     },
     {
-      "majorName": "汉语国际教育",
-      "majorKey": "d2fbd5c5",
+      "majorName": "英语（师范）",
+      "majorKey": "fea3e248",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "5400",
+      "schooling": "四年",
+      "menlei": "文",
+      "prevYear": 2024,
+      "prevRank": 61517,
+      "equivRank": 63647
+    },
+    {
+      "majorName": "汉语国际教育（师范）",
+      "majorKey": "dccdae04",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5000",
       "schooling": "四年",
       "menlei": "文",
-      "prevYear": 2025,
-      "prevRank": 74834,
-      "equivRank": 74834
+      "prevYear": 2024,
+      "prevRank": 62267,
+      "equivRank": 64423
     },
     {
-      "majorName": "英语",
-      "majorKey": "49c5cdf9",
-      "selKe": "不限",
-      "plan": 2,
-      "tuition": "5400",
-      "schooling": "四年",
-      "menlei": "文",
-      "prevYear": 2025,
-      "prevRank": 76084,
-      "equivRank": 76084
-    },
-    {
-      "majorName": "计算机科学与技术",
-      "majorKey": "1d486608",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 3,
-      "tuition": "6480",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 98035,
-      "equivRank": 98035
-    },
-    {
-      "majorName": "软件工程",
-      "majorKey": "0c33cbdd",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 3,
-      "tuition": "6480",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 108985,
-      "equivRank": 108985
-    },
-    {
-      "majorName": "智能制造工程",
-      "majorKey": "ed53a26b",
+      "majorName": "化学工程与工艺（杨家岭校区）",
+      "majorKey": "f4b32bea",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6480",
       "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 113980,
-      "equivRank": 113980
+      "menlei": "工"
     },
     {
-      "majorName": "过程装备与控制工程",
-      "majorKey": "05c637f2",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "6000",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 121418,
-      "equivRank": 121418
-    },
-    {
-      "majorName": "化学工程与工艺",
-      "majorKey": "1f59c989",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "6480",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 136302,
-      "equivRank": 136302
-    },
-    {
-      "majorName": "土木工程",
-      "majorKey": "320e7128",
+      "majorName": "土木工程（新城校区）",
+      "majorKey": "bcb93735",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "6000",
       "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 160384,
-      "equivRank": 160384
+      "menlei": "工"
     },
     {
-      "majorName": "植物保护",
-      "majorKey": "c931a1e1",
+      "majorName": "智能制造工程（新城校区）",
+      "majorKey": "7e6593ee",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "6480",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "植物保护（杨家岭校区）",
+      "majorKey": "4fb03452",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "6000",
       "schooling": "四年",
-      "menlei": "农",
-      "prevYear": 2025,
-      "prevRank": 175451,
-      "equivRank": 175451
+      "menlei": "农"
+    },
+    {
+      "majorName": "计算机科学与技术（新城校区）",
+      "majorKey": "69d4e295",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 3,
+      "tuition": "6480",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "软件工程（新城校区）",
+      "majorKey": "1c867098",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 3,
+      "tuition": "6480",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "过程装备与控制工程（杨家岭校区）",
+      "majorKey": "6dbd0b5b",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "6000",
+      "schooling": "四年",
+      "menlei": "工"
     }
   ]
 }

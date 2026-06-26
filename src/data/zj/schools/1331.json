@@ -14,7 +14,15 @@
           "minScore": 580,
           "minRank": 75205,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "1331",
+      "majorKey": "808f5b4f",
+      "majorName": "中药学（中山校区）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -36,7 +44,15 @@
           "minScore": 598,
           "minRank": 55144,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "1331",
+      "majorKey": "9bc69f9e",
+      "majorName": "中西医临床医学（建华校区）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -50,6 +66,35 @@
       "schoolCode": "1331",
       "majorKey": "618f7040",
       "majorName": "临床医学",
+      "selKe": "物化生(3科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 628,
+          "minRank": 21170,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 635,
+          "minRank": 21616,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 626,
+          "minRank": 28314,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1331",
+      "majorKey": "db6c560f",
+      "majorName": "临床医学（5+3一体化）",
       "selKe": "物化生(3科必选)",
       "years": [
         {
@@ -78,6 +123,21 @@
           "track": "综合",
           "minScore": 636,
           "minRank": 18943,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1331",
+      "majorKey": "69e6bca3",
+      "majorName": "临床医学（中山校区）",
+      "selKe": "物化生(3科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 605,
+          "minRank": 46147,
           "maxScore": 0
         }
       ]
@@ -121,21 +181,6 @@
     },
     {
       "schoolCode": "1331",
-      "majorKey": "c7acab0a",
-      "majorName": "护理学",
-      "selKe": "生物必选",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 589,
-          "minRank": 64575,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolCode": "1331",
       "majorKey": "eb1e63cb",
       "majorName": "护理学类",
       "selKe": "生物必选",
@@ -159,6 +204,21 @@
           "track": "综合",
           "minScore": 597,
           "minRank": 57071,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1331",
+      "majorKey": "04cc3fd3",
+      "majorName": "护理学（建华校区）",
+      "selKe": "生物必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 589,
+          "minRank": 64575,
           "maxScore": 0
         }
       ]
@@ -205,7 +265,15 @@
           "minScore": 603,
           "minRank": 50009,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "1331",
+      "majorKey": "830f93d3",
+      "majorName": "精神医学（建华校区）",
+      "selKe": "物化生(3科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -234,7 +302,15 @@
           "minScore": 575,
           "minRank": 81717,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "1331",
+      "majorKey": "ed7d4555",
+      "majorName": "药学类（中山校区。含药学、药物制剂、药物分析、药物化学专业）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -278,7 +354,15 @@
           "minScore": 610,
           "minRank": 42648,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "1331",
+      "majorKey": "caf08a64",
+      "majorName": "麻醉学（建华校区）",
+      "selKe": "物化生(3科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -291,10 +375,10 @@
   ],
   "plan2026": [
     {
-      "majorName": "临床医学",
-      "majorKey": "618f7040",
+      "majorName": "临床医学（5+3一体化）",
+      "majorKey": "db6c560f",
       "selKe": "物化生(3科必选)",
-      "plan": 15,
+      "plan": 6,
       "tuition": "5700",
       "schooling": "五年",
       "menlei": "医",
@@ -303,8 +387,8 @@
       "equivRank": 18943
     },
     {
-      "majorName": "麻醉学",
-      "majorKey": "83eea431",
+      "majorName": "麻醉学（建华校区）",
+      "majorKey": "caf08a64",
       "selKe": "物化生(3科必选)",
       "plan": 2,
       "tuition": "5700",
@@ -315,8 +399,20 @@
       "equivRank": 43070
     },
     {
-      "majorName": "精神医学",
-      "majorKey": "e86ddf0a",
+      "majorName": "临床医学（中山校区）",
+      "majorKey": "69e6bca3",
+      "selKe": "物化生(3科必选)",
+      "plan": 9,
+      "tuition": "5700",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 46147,
+      "equivRank": 46147
+    },
+    {
+      "majorName": "精神医学（建华校区）",
+      "majorKey": "830f93d3",
       "selKe": "物化生(3科必选)",
       "plan": 2,
       "tuition": "5200",
@@ -327,8 +423,8 @@
       "equivRank": 57500
     },
     {
-      "majorName": "中西医临床医学",
-      "majorKey": "8a499b4f",
+      "majorName": "中西医临床医学（建华校区）",
+      "majorKey": "9bc69f9e",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "5200",
@@ -339,8 +435,8 @@
       "equivRank": 61659
     },
     {
-      "majorName": "护理学",
-      "majorKey": "c7acab0a",
+      "majorName": "护理学（建华校区）",
+      "majorKey": "04cc3fd3",
       "selKe": "生物必选",
       "plan": 4,
       "tuition": "5200",
@@ -351,8 +447,8 @@
       "equivRank": 64575
     },
     {
-      "majorName": "中药学",
-      "majorKey": "f9504a0c",
+      "majorName": "中药学（中山校区）",
+      "majorKey": "808f5b4f",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5200",
@@ -363,8 +459,8 @@
       "equivRank": 81662
     },
     {
-      "majorName": "药学类",
-      "majorKey": "41174006",
+      "majorName": "药学类（中山校区。含药学、药物制剂、药物分析、药物化学专业）",
+      "majorKey": "ed7d4555",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5200",

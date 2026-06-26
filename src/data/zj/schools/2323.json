@@ -4,8 +4,8 @@
   "leaves": [
     {
       "schoolCode": "2323",
-      "majorKey": "8aa56116",
-      "majorName": "会计学",
+      "majorKey": "e9008b06",
+      "majorName": "会计学（与澳大利亚麦考瑞大学2+2联合培养双学士学位。第三、四学年须赴澳大利亚麦考瑞大学学习，学费约45000澳元/学年，外方教学语言为英语）",
       "selKe": "不限",
       "years": [
         {
@@ -69,8 +69,8 @@
         {
           "year": 2023,
           "track": "综合",
-          "minScore": 580,
-          "minRank": 73934,
+          "minScore": 571,
+          "minRank": 83253,
           "maxScore": 0
         },
         {
@@ -85,6 +85,21 @@
           "track": "综合",
           "minScore": 593,
           "minRank": 59337,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2323",
+      "majorKey": "f4f1ac9a",
+      "majorName": "俄语（基础学科拔尖培养计划）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 580,
+          "minRank": 73934,
           "maxScore": 0
         }
       ]
@@ -164,8 +179,8 @@
     },
     {
       "schoolCode": "2323",
-      "majorKey": "1f59c989",
-      "majorName": "化学工程与工艺",
+      "majorKey": "7c7e1117",
+      "majorName": "化学工程与工艺（能源化工方向）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -520,7 +535,7 @@
       "schoolCode": "2323",
       "majorKey": "0ac1da59",
       "majorName": "生物技术",
-      "selKe": "物理、化学(2科必选)",
+      "selKe": "物/化/生(3选1)",
       "years": [
         {
           "year": 2022,
@@ -535,14 +550,30 @@
           "minScore": 590,
           "minRank": 62410,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "2323",
+      "majorKey": "f25fc5a2",
+      "majorName": "生物技术（中俄学院）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2024,
           "track": "综合",
           "minScore": 547,
           "minRank": 115121,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "2323",
+      "majorKey": "061f0469",
+      "majorName": "生物技术（部分专业课程俄语授课）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -721,8 +752,8 @@
     },
     {
       "schoolCode": "2323",
-      "majorKey": "8f1501ac",
-      "majorName": "翻译",
+      "majorKey": "2d1a3a99",
+      "majorName": "翻译（英语）",
       "selKe": "不限",
       "years": [
         {
@@ -865,6 +896,21 @@
     },
     {
       "schoolCode": "2323",
+      "majorKey": "ecb4a05a",
+      "majorName": "计算机科学与技术（与澳大利亚昆士兰大学2＋2联合培养双学士学位。第三、四学年须赴澳大利亚昆士兰大学学习，学费约53000澳元/学年，外方教学语言为英语）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 530,
+          "minRank": 136790,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2323",
       "majorKey": "1c1ee3f7",
       "majorName": "通信工程",
       "selKe": "物理、化学(2科必选)",
@@ -966,7 +1012,7 @@
       "majorName": "计算机科学与技术",
       "majorKey": "1d486608",
       "selKe": "物理、化学(2科必选)",
-      "plan": 6,
+      "plan": 2,
       "tuition": "6000",
       "schooling": "四年",
       "menlei": "工",
@@ -1059,8 +1105,8 @@
       "equivRank": 70506
     },
     {
-      "majorName": "会计学",
-      "majorKey": "8aa56116",
+      "majorName": "会计学（与澳大利亚麦考瑞大学2+2联合培养双学士学位。第三、四学年须赴澳大利亚麦考瑞大学学习，学费约45000澳元/学年，外方教学语言为英语）",
+      "majorKey": "e9008b06",
       "selKe": "不限",
       "plan": 3,
       "tuition": "3850",
@@ -1131,8 +1177,8 @@
       "equivRank": 78378
     },
     {
-      "majorName": "翻译",
-      "majorKey": "8f1501ac",
+      "majorName": "翻译（英语）",
+      "majorKey": "2d1a3a99",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5000",
@@ -1227,8 +1273,8 @@
       "equivRank": 113299
     },
     {
-      "majorName": "化学工程与工艺",
-      "majorKey": "1f59c989",
+      "majorName": "化学工程与工艺（能源化工方向）",
+      "majorKey": "7c7e1117",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4000",
@@ -1239,8 +1285,8 @@
       "equivRank": 124148
     },
     {
-      "majorName": "生物技术",
-      "majorKey": "0ac1da59",
+      "majorName": "生物技术（部分专业课程俄语授课）",
+      "majorKey": "061f0469",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6000",
@@ -1273,6 +1319,18 @@
       "prevYear": 2025,
       "prevRank": 135663,
       "equivRank": 135663
+    },
+    {
+      "majorName": "计算机科学与技术（与澳大利亚昆士兰大学2＋2联合培养双学士学位。第三、四学年须赴澳大利亚昆士兰大学学习，学费约53000澳元/学年，外方教学语言为英语）",
+      "majorKey": "ecb4a05a",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 4,
+      "tuition": "6000",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 136790,
+      "equivRank": 136790
     }
   ]
 }

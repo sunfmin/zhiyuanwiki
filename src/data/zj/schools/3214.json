@@ -116,6 +116,21 @@
           "minScore": 438,
           "minRank": 219091,
           "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3214",
+      "majorKey": "0b170a25",
+      "majorName": "机电一体化技术（中外合作办学）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 413,
+          "minRank": 235722,
+          "maxScore": 0
         },
         {
           "year": 2024,
@@ -135,8 +150,8 @@
     },
     {
       "schoolCode": "3214",
-      "majorKey": "a0f5df04",
-      "majorName": "现代物流管理",
+      "majorKey": "94c1a38a",
+      "majorName": "现代物流管理（中外合作办学）",
       "selKe": "不限",
       "years": [
         {
@@ -188,54 +203,42 @@
   ],
   "plan2026": [
     {
-      "majorName": "医学生物技术",
-      "majorKey": "f9aef78b",
+      "majorName": "医学生物技术（太仓）",
+      "majorKey": "d0ad1a9d",
       "selKe": "不限",
       "plan": 5,
       "tuition": "6200",
       "schooling": "三年",
-      "menlei": "医",
-      "prevYear": 2025,
-      "prevRank": 212196,
-      "equivRank": 212196
+      "menlei": "医"
     },
     {
-      "majorName": "大数据与财务管理",
-      "majorKey": "6daff4b6",
+      "majorName": "大数据与财务管理（太仓）",
+      "majorKey": "921572f4",
       "selKe": "不限",
       "plan": 5,
       "tuition": "4700",
       "schooling": "三年",
-      "menlei": "管",
-      "prevYear": 2025,
-      "prevRank": 223981,
-      "equivRank": 223981
+      "menlei": "管"
     },
     {
-      "majorName": "机电一体化技术",
-      "majorKey": "d4465443",
+      "majorName": "机电一体化技术（太仓）",
+      "majorKey": "40b9c635",
       "selKe": "不限",
       "plan": 15,
       "tuition": "18000",
       "schooling": "三年",
       "menlei": "工",
-      "coop": true,
-      "prevYear": 2025,
-      "prevRank": 233553,
-      "equivRank": 233553
+      "coop": true
     },
     {
-      "majorName": "现代物流管理",
-      "majorKey": "a0f5df04",
+      "majorName": "现代物流管理（太仓）",
+      "majorKey": "fe88572e",
       "selKe": "不限",
       "plan": 15,
       "tuition": "18000",
       "schooling": "三年",
       "menlei": "管",
-      "coop": true,
-      "prevYear": 2025,
-      "prevRank": 246361,
-      "equivRank": 246361
+      "coop": true
     }
   ]
 }

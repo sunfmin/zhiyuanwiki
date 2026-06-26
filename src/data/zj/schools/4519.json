@@ -6,6 +6,35 @@
       "schoolCode": "4519",
       "majorKey": "2285e5ca",
       "majorName": "中医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 600,
+          "minRank": 48057,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 604,
+          "minRank": 48877,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 565,
+          "minRank": 92743,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4519",
+      "majorKey": "0b4f2ce1",
+      "majorName": "中医学（5+3一体化）",
       "selKe": "不限",
       "years": [
         {
@@ -40,9 +69,24 @@
     },
     {
       "schoolCode": "4519",
+      "majorKey": "516ceda1",
+      "majorName": "中医学（仙葫校区）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 605,
+          "minRank": 46852,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4519",
       "majorKey": "0d418e8e",
       "majorName": "中医骨伤科学",
-      "selKe": "不限",
+      "selKe": "物理、化学(2科必选)",
       "years": [
         {
           "year": 2023,
@@ -57,7 +101,15 @@
           "minScore": 568,
           "minRank": 89499,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4519",
+      "majorKey": "6a6f3b45",
+      "majorName": "中医骨伤科学（仙葫校区）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -93,7 +145,15 @@
           "minScore": 489,
           "minRank": 180330,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4519",
+      "majorKey": "e82f40cb",
+      "majorName": "中药学（仙葫校区）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -129,7 +189,15 @@
           "minScore": 575,
           "minRank": 81441,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4519",
+      "majorKey": "c6fabfef",
+      "majorName": "临床医学（仙葫校区）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -195,7 +263,15 @@
           "minScore": 591,
           "minRank": 63491,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4519",
+      "majorKey": "5e64a296",
+      "majorName": "口腔医学（仙葫校区）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -217,7 +293,15 @@
           "minScore": 549,
           "minRank": 108427,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4519",
+      "majorKey": "190fbecf",
+      "majorName": "康复治疗学（中澳学分互认联合培养项目）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2024,
           "track": "综合",
@@ -260,7 +344,15 @@
           "minScore": 489,
           "minRank": 180715,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4519",
+      "majorKey": "7f72e2aa",
+      "majorName": "药学（仙葫校区）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -274,7 +366,7 @@
       "schoolCode": "4519",
       "majorKey": "c744f66e",
       "majorName": "针灸推拿学",
-      "selKe": "不限",
+      "selKe": "物理、化学(2科必选)",
       "years": [
         {
           "year": 2022,
@@ -296,7 +388,15 @@
           "minScore": 548,
           "minRank": 112986,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4519",
+      "majorKey": "ae0c48e5",
+      "majorName": "针灸推拿学（仙葫校区）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -324,10 +424,10 @@
   ],
   "plan2026": [
     {
-      "majorName": "中医学",
-      "majorKey": "2285e5ca",
+      "majorName": "中医学（5+3一体化）",
+      "majorKey": "0b4f2ce1",
       "selKe": "不限",
-      "plan": 8,
+      "plan": 2,
       "tuition": "6435",
       "schooling": "五年",
       "menlei": "医",
@@ -336,8 +436,20 @@
       "equivRank": 22571
     },
     {
-      "majorName": "中医骨伤科学",
-      "majorKey": "0d418e8e",
+      "majorName": "中医学（仙葫校区）",
+      "majorKey": "516ceda1",
+      "selKe": "不限",
+      "plan": 6,
+      "tuition": "6435",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 46852,
+      "equivRank": 46852
+    },
+    {
+      "majorName": "中医骨伤科学（仙葫校区）",
+      "majorKey": "6a6f3b45",
       "selKe": "不限",
       "plan": 2,
       "tuition": "6435",
@@ -348,8 +460,8 @@
       "equivRank": 49794
     },
     {
-      "majorName": "针灸推拿学",
-      "majorKey": "c744f66e",
+      "majorName": "针灸推拿学（仙葫校区）",
+      "majorKey": "ae0c48e5",
       "selKe": "不限",
       "plan": 3,
       "tuition": "6435",
@@ -360,8 +472,8 @@
       "equivRank": 53343
     },
     {
-      "majorName": "口腔医学",
-      "majorKey": "c162bced",
+      "majorName": "口腔医学（仙葫校区）",
+      "majorKey": "5e64a296",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "6435",
@@ -372,8 +484,8 @@
       "equivRank": 67124
     },
     {
-      "majorName": "临床医学",
-      "majorKey": "618f7040",
+      "majorName": "临床医学（仙葫校区）",
+      "majorKey": "c6fabfef",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "6435",
@@ -384,8 +496,8 @@
       "equivRank": 85084
     },
     {
-      "majorName": "中药学",
-      "majorKey": "f9504a0c",
+      "majorName": "中药学（仙葫校区）",
+      "majorKey": "e82f40cb",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6450",
@@ -396,8 +508,8 @@
       "equivRank": 132883
     },
     {
-      "majorName": "药学",
-      "majorKey": "e9e6a481",
+      "majorName": "药学（仙葫校区）",
+      "majorKey": "7f72e2aa",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6450",
@@ -408,8 +520,8 @@
       "equivRank": 143207
     },
     {
-      "majorName": "康复治疗学",
-      "majorKey": "a507c400",
+      "majorName": "康复治疗学（中澳学分互认联合培养项目）",
+      "majorKey": "190fbecf",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "6450",

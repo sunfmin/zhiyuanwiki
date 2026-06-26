@@ -11,6 +11,42 @@
         {
           "year": 2022,
           "track": "综合",
+          "minScore": 644,
+          "minRank": 11132,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 649,
+          "minRank": 13126,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 635,
+          "minRank": 21381,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 644,
+          "minRank": 14430,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4423",
+      "majorKey": "0b4f2ce1",
+      "majorName": "中医学（5+3一体化）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
           "minScore": 649,
           "minRank": 8732,
           "maxScore": 0
@@ -42,7 +78,7 @@
       "schoolCode": "4423",
       "majorKey": "0d418e8e",
       "majorName": "中医骨伤科学",
-      "selKe": "不限",
+      "selKe": "物理、化学(2科必选)",
       "years": [
         {
           "year": 2024,
@@ -50,7 +86,15 @@
           "minScore": 623,
           "minRank": 31175,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4423",
+      "majorKey": "89817f91",
+      "majorName": "中医骨伤科学（第二临床医学院）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -562,16 +606,28 @@
   ],
   "plan2026": [
     {
-      "majorName": "中医学",
-      "majorKey": "2285e5ca",
+      "majorName": "中医学（5+3一体化）",
+      "majorKey": "0b4f2ce1",
       "selKe": "不限",
-      "plan": 6,
+      "plan": 2,
       "tuition": "7660",
       "schooling": "五年",
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 7594,
       "equivRank": 7594
+    },
+    {
+      "majorName": "中医学",
+      "majorKey": "2285e5ca",
+      "selKe": "不限",
+      "plan": 4,
+      "tuition": "7660",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 14430,
+      "equivRank": 14430
     },
     {
       "majorName": "针灸推拿学",
@@ -586,8 +642,8 @@
       "equivRank": 15358
     },
     {
-      "majorName": "中医骨伤科学",
-      "majorKey": "0d418e8e",
+      "majorName": "中医骨伤科学（第二临床医学院）",
+      "majorKey": "89817f91",
       "selKe": "不限",
       "plan": 1,
       "tuition": "7660",

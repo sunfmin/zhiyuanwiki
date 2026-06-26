@@ -25,8 +25,8 @@
         {
           "year": 2024,
           "track": "综合",
-          "minScore": 542,
-          "minRank": 120947,
+          "minScore": 538,
+          "minRank": 125644,
           "maxScore": 0
         },
         {
@@ -34,6 +34,50 @@
           "track": "综合",
           "minScore": 538,
           "minRank": 127674,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6211",
+      "majorKey": "e5ada855",
+      "majorName": "会计学（数智会计方向）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 534,
+          "minRank": 130262,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 536,
+          "minRank": 129391,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6211",
+      "majorKey": "3f8ec738",
+      "majorName": "会计学（管理会计方向）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 542,
+          "minRank": 120947,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 537,
+          "minRank": 128435,
           "maxScore": 0
         }
       ]
@@ -237,6 +281,28 @@
     },
     {
       "schoolCode": "6211",
+      "majorKey": "1f8c09c9",
+      "majorName": "法学（律师实务方向）",
+      "selKe": "历史、思想政治(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 541,
+          "minRank": 122088,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 545,
+          "minRank": 118605,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6211",
       "majorKey": "8b6a817b",
       "majorName": "物流管理",
       "selKe": "不限",
@@ -254,7 +320,15 @@
           "minScore": 528,
           "minRank": 137276,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "6211",
+      "majorKey": "ebc73947",
+      "majorName": "物流管理（低空物流方向）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -276,7 +350,15 @@
           "minScore": 464,
           "minRank": 205186,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "6211",
+      "majorKey": "d61327f8",
+      "majorName": "网络工程（网络安全方向）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -327,7 +409,15 @@
           "minScore": 536,
           "minRank": 127959,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "6211",
+      "majorKey": "f4f72709",
+      "majorName": "财务管理（大数据财务分析方向）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -459,13 +549,25 @@
       "majorName": "法学",
       "majorKey": "a1113a1f",
       "selKe": "历史、思想政治(2科必选)",
-      "plan": 5,
+      "plan": 3,
       "tuition": "25000",
       "schooling": "四年",
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 113642,
       "equivRank": 113642
+    },
+    {
+      "majorName": "法学（律师实务方向）",
+      "majorKey": "1f8c09c9",
+      "selKe": "历史、思想政治(2科必选)",
+      "plan": 2,
+      "tuition": "25000",
+      "schooling": "四年",
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevRank": 118605,
+      "equivRank": 118605
     },
     {
       "majorName": "养老服务管理",
@@ -495,7 +597,7 @@
       "majorName": "会计学",
       "majorKey": "8aa56116",
       "selKe": "不限",
-      "plan": 8,
+      "plan": 3,
       "tuition": "25000",
       "schooling": "四年",
       "menlei": "管",
@@ -504,8 +606,32 @@
       "equivRank": 127674
     },
     {
-      "majorName": "财务管理",
-      "majorKey": "8220c852",
+      "majorName": "会计学（管理会计方向）",
+      "majorKey": "3f8ec738",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "25000",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 128435,
+      "equivRank": 128435
+    },
+    {
+      "majorName": "会计学（数智会计方向）",
+      "majorKey": "e5ada855",
+      "selKe": "不限",
+      "plan": 3,
+      "tuition": "25000",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 129391,
+      "equivRank": 129391
+    },
+    {
+      "majorName": "财务管理（大数据财务分析方向）",
+      "majorKey": "f4f72709",
       "selKe": "不限",
       "plan": 2,
       "tuition": "23000",
@@ -516,8 +642,8 @@
       "equivRank": 131232
     },
     {
-      "majorName": "物流管理",
-      "majorKey": "8b6a817b",
+      "majorName": "物流管理（低空物流方向）",
+      "majorKey": "ebc73947",
       "selKe": "不限",
       "plan": 3,
       "tuition": "21000",
@@ -600,8 +726,8 @@
       "equivRank": 184372
     },
     {
-      "majorName": "网络工程",
-      "majorKey": "b54c1697",
+      "majorName": "网络工程（网络安全方向）",
+      "majorKey": "d61327f8",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "23000",

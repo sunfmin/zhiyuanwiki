@@ -4,8 +4,8 @@
   "leaves": [
     {
       "schoolCode": "6159",
-      "majorKey": "97716b64",
-      "majorName": "学前教育",
+      "majorKey": "6e38b28d",
+      "majorName": "学前教育（师范）",
       "selKe": "不限",
       "years": [
         {
@@ -43,7 +43,15 @@
           "minScore": 419,
           "minRank": 237236,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "6159",
+      "majorKey": "abc8ff6d",
+      "majorName": "工程造价（太白校区。）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -72,7 +80,15 @@
           "minScore": 421,
           "minRank": 235901,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "6159",
+      "majorKey": "ef90eeda",
+      "majorName": "建筑工程技术（太白校区。）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -84,8 +100,8 @@
     },
     {
       "schoolCode": "6159",
-      "majorKey": "8c72bad4",
-      "majorName": "早期教育",
+      "majorKey": "833cdb52",
+      "majorName": "早期教育（郭杜校区。）",
       "selKe": "不限",
       "years": [
         {
@@ -100,40 +116,31 @@
   ],
   "plan2026": [
     {
-      "majorName": "建筑工程技术",
-      "majorKey": "904edf72",
+      "majorName": "工程造价（太白校区）",
+      "majorKey": "6933e6bc",
+      "selKe": "不限",
+      "plan": 10,
+      "tuition": "6500",
+      "schooling": "三年",
+      "menlei": "管"
+    },
+    {
+      "majorName": "建筑工程技术（太白校区）",
+      "majorKey": "a38b2c55",
       "selKe": "不限",
       "plan": 5,
       "tuition": "6500",
       "schooling": "三年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 240966,
-      "equivRank": 240966
+      "menlei": "工"
     },
     {
-      "majorName": "工程造价",
-      "majorKey": "b8be11ab",
+      "majorName": "早期教育（郭杜校区）",
+      "majorKey": "fafbd53d",
       "selKe": "不限",
       "plan": 10,
       "tuition": "6500",
       "schooling": "三年",
-      "menlei": "管",
-      "prevYear": 2025,
-      "prevRank": 244670,
-      "equivRank": 244670
-    },
-    {
-      "majorName": "早期教育",
-      "majorKey": "8c72bad4",
-      "selKe": "不限",
-      "plan": 10,
-      "tuition": "6500",
-      "schooling": "三年",
-      "menlei": "教",
-      "prevYear": 2025,
-      "prevRank": 247511,
-      "equivRank": 247511
+      "menlei": "教"
     }
   ]
 }

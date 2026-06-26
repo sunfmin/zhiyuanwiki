@@ -112,8 +112,8 @@
     },
     {
       "schoolCode": "3238",
-      "majorKey": "2079a63e",
-      "majorName": "大数据管理与应用",
+      "majorKey": "054f7d14",
+      "majorName": "大数据管理与应用（中外合作办学）",
       "selKe": "物理必选",
       "years": [
         {
@@ -193,6 +193,42 @@
           "track": "综合",
           "minScore": 635,
           "minRank": 19861,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3238",
+      "majorKey": "51d5e705",
+      "majorName": "工商管理（中外合作办学）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 593,
+          "minRank": 56304,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 595,
+          "minRank": 57330,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 608,
+          "minRank": 45534,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 605,
+          "minRank": 46334,
           "maxScore": 0
         }
       ]
@@ -582,8 +618,8 @@
     },
     {
       "schoolCode": "3238",
-      "majorKey": "bb33137b",
-      "majorName": "经济统计学",
+      "majorKey": "35121edd",
+      "majorName": "经济统计学（中外合作办学）",
       "selKe": "物理必选",
       "years": [
         {
@@ -840,6 +876,28 @@
       "selKe": "物理必选",
       "years": [
         {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 604,
+          "minRank": 49767,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 601,
+          "minRank": 51196,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3238",
+      "majorKey": "86ba20aa",
+      "majorName": "金融工程（中外合作办学）",
+      "selKe": "物理必选",
+      "years": [
+        {
           "year": 2022,
           "track": "综合",
           "minScore": 597,
@@ -856,15 +914,15 @@
         {
           "year": 2024,
           "track": "综合",
-          "minScore": 604,
-          "minRank": 49767,
+          "minScore": 593,
+          "minRank": 61700,
           "maxScore": 0
         },
         {
           "year": 2025,
           "track": "综合",
-          "minScore": 601,
-          "minRank": 51196,
+          "minScore": 585,
+          "minRank": 69545,
           "maxScore": 0
         }
       ]
@@ -962,11 +1020,10 @@
       "majorName": "工商管理",
       "majorKey": "07c28723",
       "selKe": "不限",
-      "plan": 4,
-      "tuition": "26400",
-      "schooling": "五年",
+      "plan": 2,
+      "tuition": "5200",
+      "schooling": "四年",
       "menlei": "管",
-      "coop": true,
       "prevYear": 2025,
       "prevRank": 22137,
       "equivRank": 22137
@@ -1116,6 +1173,19 @@
       "equivRank": 39846
     },
     {
+      "majorName": "工商管理（中外合作办学）",
+      "majorKey": "51d5e705",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "26400",
+      "schooling": "五年",
+      "menlei": "管",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 46334,
+      "equivRank": 46334
+    },
+    {
       "majorName": "物流管理",
       "majorKey": "8b6a817b",
       "selKe": "不限",
@@ -1131,11 +1201,10 @@
       "majorName": "金融工程",
       "majorKey": "e6a89fa4",
       "selKe": "物理必选",
-      "plan": 8,
-      "tuition": "57000",
+      "plan": 4,
+      "tuition": "5700",
       "schooling": "四年",
       "menlei": "经",
-      "coop": true,
       "prevYear": 2025,
       "prevRank": 51196,
       "equivRank": 51196
@@ -1189,8 +1258,8 @@
       "equivRank": 60085
     },
     {
-      "majorName": "大数据管理与应用",
-      "majorKey": "2079a63e",
+      "majorName": "大数据管理与应用（中外合作办学）",
+      "majorKey": "054f7d14",
       "selKe": "物理必选",
       "plan": 2,
       "tuition": "57000",
@@ -1202,8 +1271,8 @@
       "equivRank": 61172
     },
     {
-      "majorName": "经济统计学",
-      "majorKey": "bb33137b",
+      "majorName": "经济统计学（中外合作办学）",
+      "majorKey": "35121edd",
       "selKe": "物理必选",
       "plan": 2,
       "tuition": "57000",
@@ -1213,6 +1282,19 @@
       "prevYear": 2025,
       "prevRank": 64366,
       "equivRank": 64366
+    },
+    {
+      "majorName": "金融工程（中外合作办学）",
+      "majorKey": "86ba20aa",
+      "selKe": "物理必选",
+      "plan": 4,
+      "tuition": "57000",
+      "schooling": "四年",
+      "menlei": "经",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 69545,
+      "equivRank": 69545
     }
   ]
 }

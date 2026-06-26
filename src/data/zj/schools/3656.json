@@ -77,8 +77,8 @@
     },
     {
       "schoolCode": "3656",
-      "majorKey": "97716b64",
-      "majorName": "学前教育",
+      "majorKey": "6e38b28d",
+      "majorName": "学前教育（师范）",
       "selKe": "不限",
       "years": [
         {
@@ -207,8 +207,8 @@
     },
     {
       "schoolCode": "3656",
-      "majorKey": "618fdffd",
-      "majorName": "数学与应用数学",
+      "majorKey": "9f802a9c",
+      "majorName": "数学与应用数学（师范）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -489,8 +489,8 @@
     },
     {
       "schoolCode": "3656",
-      "majorKey": "97bc5998",
-      "majorName": "汉语言文学",
+      "majorKey": "d7131091",
+      "majorName": "汉语言文学（师范）",
       "selKe": "不限",
       "years": [
         {
@@ -656,8 +656,8 @@
     },
     {
       "schoolCode": "3656",
-      "majorKey": "49c5cdf9",
-      "majorName": "英语",
+      "majorKey": "fea3e248",
+      "majorName": "英语（师范）",
       "selKe": "不限",
       "years": [
         {
@@ -690,24 +690,40 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 535,
+          "minRank": 130171,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3656",
+      "majorKey": "ca2de2e6",
+      "majorName": "计算机科学与技术（智能科学方向）",
+      "selKe": "物理必选",
+      "years": [
+        {
           "year": 2023,
           "track": "综合",
           "minScore": 548,
           "minRank": 108823,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "3656",
+      "majorKey": "6e8f9853",
+      "majorName": "计算机科学与技术（软件开发方向）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2024,
           "track": "综合",
           "minScore": 533,
           "minRank": 130639,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 535,
-          "minRank": 130171,
           "maxScore": 0
         }
       ]
@@ -814,8 +830,8 @@
       "equivRank": 77428
     },
     {
-      "majorName": "汉语言文学",
-      "majorKey": "97bc5998",
+      "majorName": "汉语言文学（师范）",
+      "majorKey": "d7131091",
       "selKe": "不限",
       "plan": 1,
       "tuition": "3650",
@@ -826,8 +842,8 @@
       "equivRank": 79378
     },
     {
-      "majorName": "英语",
-      "majorKey": "49c5cdf9",
+      "majorName": "英语（师范）",
+      "majorKey": "fea3e248",
       "selKe": "不限",
       "plan": 1,
       "tuition": "3650",
@@ -922,8 +938,8 @@
       "equivRank": 123152
     },
     {
-      "majorName": "数学与应用数学",
-      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学（师范）",
+      "majorKey": "9f802a9c",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "4120",

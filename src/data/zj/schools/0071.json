@@ -490,6 +490,35 @@
     },
     {
       "schoolCode": "0071",
+      "majorKey": "56144c88",
+      "majorName": "护理（中外合作办学）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 476,
+          "minRank": 186590,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 488,
+          "minRank": 182233,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 490,
+          "minRank": 184372,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0071",
       "majorKey": "d95c547e",
       "majorName": "摄影摄像技术",
       "selKe": "不限",
@@ -1013,11 +1042,10 @@
       "majorName": "护理",
       "majorKey": "a3db4652",
       "selKe": "不限",
-      "plan": 63,
-      "tuition": "18000",
+      "plan": 23,
+      "tuition": "7500",
       "schooling": "三年",
       "menlei": "医",
-      "coop": true,
       "prevYear": 2025,
       "prevRank": 167742,
       "equivRank": 167742
@@ -1038,7 +1066,7 @@
       "majorName": "针灸推拿",
       "majorKey": "7b806226",
       "selKe": "不限",
-      "plan": 109,
+      "plan": 102,
       "tuition": "7500",
       "schooling": "三年",
       "menlei": "医",
@@ -1114,6 +1142,19 @@
       "tuition": "6600",
       "schooling": "三年",
       "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 184372,
+      "equivRank": 184372
+    },
+    {
+      "majorName": "护理（中外合作办学）",
+      "majorKey": "56144c88",
+      "selKe": "不限",
+      "plan": 40,
+      "tuition": "18000",
+      "schooling": "三年",
+      "menlei": "医",
+      "coop": true,
       "prevYear": 2025,
       "prevRank": 184372,
       "equivRank": 184372
@@ -1333,6 +1374,42 @@
       "prevYear": 2025,
       "prevRank": 223225,
       "equivRank": 223225
+    },
+    {
+      "majorName": "针灸推拿（为嵊泗县定向培养基层卫生人才,只招嵊泗县户籍考生。要求高考成绩不低于普通类二段线）",
+      "majorKey": "8b3ff34d",
+      "selKe": "不限",
+      "plan": 1,
+      "tuition": "7500",
+      "schooling": "三年",
+      "menlei": "医"
+    },
+    {
+      "majorName": "针灸推拿（为文成县定向培养基层卫生人才,只招文成县户籍考生。要求高考成绩不低于普通类二段线）",
+      "majorKey": "a9ce3219",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "7500",
+      "schooling": "三年",
+      "menlei": "医"
+    },
+    {
+      "majorName": "针灸推拿（为舟山市普陀区定向培养基层卫生人才,只招舟山市普陀区户籍考生。要求高考成绩不低于普通类二段线）",
+      "majorKey": "f991591b",
+      "selKe": "不限",
+      "plan": 3,
+      "tuition": "7500",
+      "schooling": "三年",
+      "menlei": "医"
+    },
+    {
+      "majorName": "针灸推拿（为龙游县定向培养基层卫生人才,只招龙游县户籍考生。要求高考成绩不低于普通类二段线）",
+      "majorKey": "cf665215",
+      "selKe": "不限",
+      "plan": 1,
+      "tuition": "7500",
+      "schooling": "三年",
+      "menlei": "医"
     }
   ]
 }

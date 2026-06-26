@@ -32,6 +32,43 @@
         {
           "year": 2025,
           "track": "综合",
+          "minScore": 558,
+          "minRank": 101943,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2137",
+      "majorKey": "aee349ab",
+      "majorName": "化学工程与工艺（中外合作办学）",
+      "selKe": "物理/化学(2选1)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 540,
+          "minRank": 119048,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 543,
+          "minRank": 114577,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2137",
+      "majorKey": "ff857504",
+      "majorName": "化学工程与工艺（卓越计划班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
           "minScore": 579,
           "minRank": 76206,
           "maxScore": 0
@@ -139,6 +176,21 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 540,
+          "minRank": 124514,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2137",
+      "majorKey": "05b8e6d3",
+      "majorName": "电气工程及其自动化（中外合作办学）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
           "year": 2022,
           "track": "综合",
           "minScore": 530,
@@ -162,16 +214,16 @@
         {
           "year": 2025,
           "track": "综合",
-          "minScore": 540,
-          "minRank": 124514,
+          "minScore": 522,
+          "minRank": 146228,
           "maxScore": 0
         }
       ]
     },
     {
       "schoolCode": "2137",
-      "majorKey": "f0f8c4c6",
-      "majorName": "石油工程",
+      "majorKey": "98f6083c",
+      "majorName": "石油工程（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -266,8 +318,8 @@
     },
     {
       "schoolCode": "2137",
-      "majorKey": "05c637f2",
-      "majorName": "过程装备与控制工程",
+      "majorKey": "793fb771",
+      "majorName": "过程装备与控制工程（卓越计划班）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -281,8 +333,8 @@
     },
     {
       "schoolCode": "2137",
-      "majorKey": "fc81313f",
-      "majorName": "高分子材料与工程",
+      "majorKey": "11a4df1a",
+      "majorName": "高分子材料与工程（卓越计划班）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -304,10 +356,10 @@
   ],
   "plan2026": [
     {
-      "majorName": "化学工程与工艺",
-      "majorKey": "1f59c989",
+      "majorName": "化学工程与工艺（卓越计划班）",
+      "majorKey": "ff857504",
       "selKe": "物理、化学(2科必选)",
-      "plan": 2,
+      "plan": 1,
       "tuition": "5200",
       "schooling": "四年",
       "menlei": "工",
@@ -316,8 +368,20 @@
       "equivRank": 76206
     },
     {
-      "majorName": "过程装备与控制工程",
-      "majorKey": "05c637f2",
+      "majorName": "化学工程与工艺",
+      "majorKey": "1f59c989",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 1,
+      "tuition": "5200",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 101943,
+      "equivRank": 101943
+    },
+    {
+      "majorName": "过程装备与控制工程（卓越计划班）",
+      "majorKey": "793fb771",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5200",
@@ -331,7 +395,7 @@
       "majorName": "电气工程及其自动化",
       "majorKey": "45947d31",
       "selKe": "物理、化学(2科必选)",
-      "plan": 7,
+      "plan": 5,
       "tuition": "5200",
       "schooling": "四年",
       "menlei": "工",
@@ -364,8 +428,8 @@
       "equivRank": 134115
     },
     {
-      "majorName": "高分子材料与工程",
-      "majorKey": "fc81313f",
+      "majorName": "高分子材料与工程（卓越计划班）",
+      "majorKey": "11a4df1a",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5200",
@@ -386,6 +450,19 @@
       "prevYear": 2025,
       "prevRank": 135218,
       "equivRank": 135218
+    },
+    {
+      "majorName": "电气工程及其自动化（中外合作办学）",
+      "majorKey": "05b8e6d3",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "35000",
+      "schooling": "四年",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 146228,
+      "equivRank": 146228
     }
   ]
 }

@@ -64,7 +64,15 @@
           "minScore": 553,
           "minRank": 107787,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "0019",
+      "majorKey": "c5ed3dbb",
+      "majorName": "化学工程与工艺（按绿色化工与制药进行培养）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -136,7 +144,51 @@
           "minScore": 581,
           "minRank": 74288,
           "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0019",
+      "majorKey": "b3aebe54",
+      "majorName": "国际经济与贸易（中外合作办学）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 558,
+          "minRank": 97272,
+          "maxScore": 0
         },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 556,
+          "minRank": 99504,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 573,
+          "minRank": 83657,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 570,
+          "minRank": 87411,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0019",
+      "majorKey": "577315ea",
+      "majorName": "国际经济与贸易（要求高考外语成绩不低于90分）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -396,7 +448,15 @@
           "minScore": 575,
           "minRank": 81575,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "0019",
+      "majorKey": "7bd795bb",
+      "majorName": "日语（要求高考外语成绩不低于90分）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -915,7 +975,15 @@
           "minScore": 578,
           "minRank": 77829,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "0019",
+      "majorKey": "9311b092",
+      "majorName": "英语（要求高考英语成绩不低于100分）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -1035,6 +1103,42 @@
     },
     {
       "schoolCode": "0019",
+      "majorKey": "31ea3245",
+      "majorName": "金融学（中外合作办学）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 558,
+          "minRank": 97718,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 555,
+          "minRank": 100903,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 570,
+          "minRank": 87050,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 567,
+          "minRank": 91432,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0019",
       "majorKey": "fc81313f",
       "majorName": "高分子材料与工程",
       "selKe": "物理、化学(2科必选)",
@@ -1111,7 +1215,7 @@
       "majorName": "金融学",
       "majorKey": "5a699e63",
       "selKe": "不限",
-      "plan": 147,
+      "plan": 95,
       "tuition": "5520",
       "schooling": "四年",
       "menlei": "经",
@@ -1132,10 +1236,10 @@
       "equivRank": 77521
     },
     {
-      "majorName": "国际经济与贸易",
-      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易（要求高考外语成绩不低于90分）",
+      "majorKey": "577315ea",
       "selKe": "不限",
-      "plan": 103,
+      "plan": 76,
       "tuition": "4800",
       "schooling": "四年",
       "menlei": "经",
@@ -1192,8 +1296,8 @@
       "equivRank": 80987
     },
     {
-      "majorName": "英语",
-      "majorKey": "49c5cdf9",
+      "majorName": "英语（要求高考英语成绩不低于100分）",
+      "majorKey": "9311b092",
       "selKe": "不限",
       "plan": 136,
       "tuition": "5520",
@@ -1204,8 +1308,8 @@
       "equivRank": 82008
     },
     {
-      "majorName": "日语",
-      "majorKey": "8f1def37",
+      "majorName": "日语（要求高考外语成绩不低于90分）",
+      "majorKey": "7bd795bb",
       "selKe": "不限",
       "plan": 43,
       "tuition": "4800",
@@ -1228,10 +1332,23 @@
       "equivRank": 85028
     },
     {
+      "majorName": "国际经济与贸易（中外合作办学）",
+      "majorKey": "b3aebe54",
+      "selKe": "不限",
+      "plan": 27,
+      "tuition": "28800",
+      "schooling": "四年",
+      "menlei": "经",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 87411,
+      "equivRank": 87411
+    },
+    {
       "majorName": "机械设计制造及其自动化",
       "majorKey": "55ff9da5",
       "selKe": "物理、化学(2科必选)",
-      "plan": 53,
+      "plan": 45,
       "tuition": "6325",
       "schooling": "四年",
       "menlei": "工",
@@ -1300,6 +1417,19 @@
       "equivRank": 90667
     },
     {
+      "majorName": "金融学（中外合作办学）",
+      "majorKey": "31ea3245",
+      "selKe": "不限",
+      "plan": 52,
+      "tuition": "28800",
+      "schooling": "四年",
+      "menlei": "经",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 91432,
+      "equivRank": 91432
+    },
+    {
       "majorName": "信息与计算科学",
       "majorKey": "f3fa4b3d",
       "selKe": "物理、化学(2科必选)",
@@ -1327,7 +1457,7 @@
       "majorName": "材料科学与工程",
       "majorKey": "c425ce53",
       "selKe": "物理、化学(2科必选)",
-      "plan": 20,
+      "plan": 10,
       "tuition": "5500",
       "schooling": "四年",
       "menlei": "工",
@@ -1351,7 +1481,7 @@
       "majorName": "工业设计",
       "majorKey": "fee47c1b",
       "selKe": "物理、化学(2科必选)",
-      "plan": 27,
+      "plan": 19,
       "tuition": "5500",
       "schooling": "四年",
       "menlei": "工",
@@ -1363,7 +1493,7 @@
       "majorName": "高分子材料与工程",
       "majorKey": "fc81313f",
       "selKe": "物理、化学(2科必选)",
-      "plan": 24,
+      "plan": 14,
       "tuition": "5500",
       "schooling": "四年",
       "menlei": "工",
@@ -1408,10 +1538,10 @@
       "equivRank": 100897
     },
     {
-      "majorName": "化学工程与工艺",
-      "majorKey": "1f59c989",
+      "majorName": "化学工程与工艺（按绿色化工与制药进行培养）",
+      "majorKey": "c5ed3dbb",
       "selKe": "物理、化学(2科必选)",
-      "plan": 30,
+      "plan": 20,
       "tuition": "5500",
       "schooling": "四年",
       "menlei": "工",
@@ -1435,13 +1565,67 @@
       "majorName": "土木工程",
       "majorKey": "320e7128",
       "selKe": "物理、化学(2科必选)",
-      "plan": 22,
+      "plan": 14,
       "tuition": "5500",
       "schooling": "四年",
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 109285,
       "equivRank": 109285
+    },
+    {
+      "majorName": "化学工程与工艺（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。按绿色化工与制药进行培养）",
+      "majorKey": "3f3617dd",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 10,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "土木工程（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程）",
+      "majorKey": "2ca9cdf0",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 8,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "工业设计（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程）",
+      "majorKey": "8303bbbb",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 8,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "机械设计制造及其自动化（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程）",
+      "majorKey": "6ecd34c5",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 8,
+      "tuition": "6325",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "材料科学与工程（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程）",
+      "majorKey": "14569b43",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 10,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "高分子材料与工程（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程）",
+      "majorKey": "5bc36f5f",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 10,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "工"
     }
   ]
 }

@@ -91,35 +91,6 @@
     },
     {
       "schoolCode": "4039",
-      "majorKey": "04ab47fe",
-      "majorName": "化学",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 666,
-          "minRank": 5979,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 660,
-          "minRank": 8307,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 653,
-          "minRank": 9924,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolCode": "4039",
       "majorKey": "d1bd847f",
       "majorName": "化学类",
       "selKe": "物理、化学(2科必选)",
@@ -156,9 +127,24 @@
     },
     {
       "schoolCode": "4039",
-      "majorKey": "c9800f2a",
-      "majorName": "历史学",
-      "selKe": "历史必选",
+      "majorKey": "4b0f4cb2",
+      "majorName": "化学（国家公费师范生）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 653,
+          "minRank": 9924,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4039",
+      "majorKey": "0dfc12db",
+      "majorName": "化学（师范）",
+      "selKe": "物理、化学(2科必选)",
       "years": [
         {
           "year": 2023,
@@ -168,10 +154,25 @@
           "maxScore": 0
         },
         {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 660,
+          "minRank": 8307,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4039",
+      "majorKey": "e7a3169a",
+      "majorName": "化学（英才班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
           "year": 2025,
           "track": "综合",
-          "minScore": 652,
-          "minRank": 10365,
+          "minScore": 639,
+          "minRank": 17433,
           "maxScore": 0
         }
       ]
@@ -200,22 +201,60 @@
     },
     {
       "schoolCode": "4039",
-      "majorKey": "d061ae24",
-      "majorName": "地理科学",
+      "majorKey": "2a7c6ec6",
+      "majorName": "历史学（国家公费师范生）",
+      "selKe": "历史必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 652,
+          "minRank": 10365,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4039",
+      "majorKey": "4c5c8bc7",
+      "majorName": "历史学（师范）",
+      "selKe": "历史/地理(2选1)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 666,
+          "minRank": 5979,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4039",
+      "majorKey": "87be2134",
+      "majorName": "地理科学（国家公费师范生）",
       "selKe": "地理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 654,
+          "minRank": 9488,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4039",
+      "majorKey": "198d794d",
+      "majorName": "地理科学（师范）",
+      "selKe": "物/化/地(3选1)",
       "years": [
         {
           "year": 2023,
           "track": "综合",
           "minScore": 672,
           "minRank": 4155,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 654,
-          "minRank": 9488,
           "maxScore": 0
         }
       ]
@@ -244,8 +283,8 @@
     },
     {
       "schoolCode": "4039",
-      "majorKey": "97716b64",
-      "majorName": "学前教育",
+      "majorKey": "6e38b28d",
+      "majorName": "学前教育（师范）",
       "selKe": "生/政/史(3选1)",
       "years": [
         {
@@ -253,28 +292,6 @@
           "track": "综合",
           "minScore": 666,
           "minRank": 5979,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolCode": "4039",
-      "majorKey": "17c0dc67",
-      "majorName": "心理学",
-      "selKe": "物理必选",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 659,
-          "minRank": 8666,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 655,
-          "minRank": 9037,
           "maxScore": 0
         }
       ]
@@ -317,8 +334,53 @@
     },
     {
       "schoolCode": "4039",
-      "majorKey": "6a15bc12",
-      "majorName": "思想政治教育",
+      "majorKey": "69be0b81",
+      "majorName": "心理学（国家公费师范生）",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 655,
+          "minRank": 9037,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4039",
+      "majorKey": "20582792",
+      "majorName": "心理学（师范）",
+      "selKe": "物理/生物(2选1)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 659,
+          "minRank": 8666,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4039",
+      "majorKey": "67b3630e",
+      "majorName": "思想政治教育（国家公费师范生）",
+      "selKe": "思想政治必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 654,
+          "minRank": 9488,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4039",
+      "majorKey": "47452c2f",
+      "majorName": "思想政治教育（师范）",
       "selKe": "思想政治必选",
       "years": [
         {
@@ -333,13 +395,6 @@
           "track": "综合",
           "minScore": 664,
           "minRank": 6842,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 654,
-          "minRank": 9488,
           "maxScore": 0
         }
       ]
@@ -404,21 +459,6 @@
     },
     {
       "schoolCode": "4039",
-      "majorKey": "4272328b",
-      "majorName": "教育学",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 651,
-          "minRank": 10810,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolCode": "4039",
       "majorKey": "7273f83c",
       "majorName": "教育学类",
       "selKe": "不限",
@@ -455,9 +495,24 @@
     },
     {
       "schoolCode": "4039",
+      "majorKey": "60d2006f",
+      "majorName": "教育学（创新实验班）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 651,
+          "minRank": 10810,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4039",
       "majorKey": "3e2b336a",
       "majorName": "教育技术学",
-      "selKe": "物理必选",
+      "selKe": "物/化/生(3选1)",
       "years": [
         {
           "year": 2022,
@@ -465,19 +520,35 @@
           "minScore": 645,
           "minRank": 10830,
           "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 660,
-          "minRank": 8261,
-          "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4039",
+      "majorKey": "553bf1cd",
+      "majorName": "教育技术学（信息学科创新实验班、智能教育实验班）",
+      "selKe": "物理必选",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
           "minScore": 626,
           "minRank": 27005,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4039",
+      "majorKey": "26d35d07",
+      "majorName": "教育技术学（师范）",
+      "selKe": "物/化/生(3选1)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 660,
+          "minRank": 8261,
           "maxScore": 0
         }
       ]
@@ -513,8 +584,23 @@
     },
     {
       "schoolCode": "4039",
-      "majorKey": "618fdffd",
-      "majorName": "数学与应用数学",
+      "majorKey": "1a45b70b",
+      "majorName": "数学与应用数学（国家公费师范生）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 646,
+          "minRank": 13406,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4039",
+      "majorKey": "9f802a9c",
+      "majorName": "数学与应用数学（师范）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -529,13 +615,6 @@
           "track": "综合",
           "minScore": 664,
           "minRank": 6842,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 646,
-          "minRank": 13406,
           "maxScore": 0
         }
       ]
@@ -658,8 +737,8 @@
     },
     {
       "schoolCode": "4039",
-      "majorKey": "b2ff5185",
-      "majorName": "朝鲜语",
+      "majorKey": "0c714843",
+      "majorName": "朝鲜语（韩语）",
       "selKe": "不限",
       "years": [
         {
@@ -680,8 +759,38 @@
     },
     {
       "schoolCode": "4039",
-      "majorKey": "97bc5998",
-      "majorName": "汉语言文学",
+      "majorKey": "eab9f8a0",
+      "majorName": "汉语言文学（国家公费师范生）",
+      "selKe": "历史必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 657,
+          "minRank": 8163,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4039",
+      "majorKey": "7ac264f7",
+      "majorName": "汉语言文学（国家拔尖学生培养基地班）",
+      "selKe": "历史必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 659,
+          "minRank": 7330,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4039",
+      "majorKey": "d7131091",
+      "majorName": "汉语言文学（师范）",
       "selKe": "历史必选",
       "years": [
         {
@@ -696,13 +805,6 @@
           "track": "综合",
           "minScore": 671,
           "minRank": 4627,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 659,
-          "minRank": 7330,
           "maxScore": 0
         }
       ]
@@ -760,42 +862,6 @@
     },
     {
       "schoolCode": "4039",
-      "majorKey": "653f630d",
-      "majorName": "物理学",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 648,
-          "minRank": 9143,
-          "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 667,
-          "minRank": 5647,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 659,
-          "minRank": 8688,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 650,
-          "minRank": 11301,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolCode": "4039",
       "majorKey": "3d12abf2",
       "majorName": "物理学类",
       "selKe": "物理、化学(2科必选)",
@@ -825,8 +891,90 @@
     },
     {
       "schoolCode": "4039",
-      "majorKey": "e0d708da",
-      "majorName": "特殊教育",
+      "majorKey": "ce60197b",
+      "majorName": "物理学（国家公费师范生）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 648,
+          "minRank": 12308,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4039",
+      "majorKey": "e8e53740",
+      "majorName": "物理学（国家拔尖学生培养基地班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 650,
+          "minRank": 11301,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4039",
+      "majorKey": "2ae0d6c6",
+      "majorName": "物理学（基地班）",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 648,
+          "minRank": 9143,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4039",
+      "majorKey": "bec128cc",
+      "majorName": "物理学（师范）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 667,
+          "minRank": 5647,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 659,
+          "minRank": 8688,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4039",
+      "majorKey": "c5eaefce",
+      "majorName": "物理学（理科人才基地班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 656,
+          "minRank": 9772,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4039",
+      "majorKey": "79d7e7d7",
+      "majorName": "特殊教育（师范）",
       "selKe": "生/政/史(3选1)",
       "years": [
         {
@@ -834,35 +982,6 @@
           "track": "综合",
           "minScore": 657,
           "minRank": 9564,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolCode": "4039",
-      "majorKey": "e2472a71",
-      "majorName": "生物科学",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 670,
-          "minRank": 4710,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 652,
-          "minRank": 11848,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 646,
-          "minRank": 13406,
           "maxScore": 0
         }
       ]
@@ -899,6 +1018,43 @@
           "track": "综合",
           "minScore": 642,
           "minRank": 15626,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4039",
+      "majorKey": "8a2bc067",
+      "majorName": "生物科学（国家公费师范生）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 646,
+          "minRank": 13406,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4039",
+      "majorKey": "80353860",
+      "majorName": "生物科学（师范）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 670,
+          "minRank": 4710,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 652,
+          "minRank": 11848,
           "maxScore": 0
         }
       ]
@@ -999,8 +1155,23 @@
     },
     {
       "schoolCode": "4039",
-      "majorKey": "b534555a",
-      "majorName": "科学教育",
+      "majorKey": "5b674696",
+      "majorName": "科学教育（国家公费师范生）",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 643,
+          "minRank": 15035,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4039",
+      "majorKey": "a9ae7a57",
+      "majorName": "科学教育（师范）",
       "selKe": "物理必选",
       "years": [
         {
@@ -1015,13 +1186,6 @@
           "track": "综合",
           "minScore": 650,
           "minRank": 12844,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 643,
-          "minRank": 15035,
           "maxScore": 0
         }
       ]
@@ -1151,8 +1315,23 @@
     },
     {
       "schoolCode": "4039",
-      "majorKey": "49c5cdf9",
-      "majorName": "英语",
+      "majorKey": "4d15cecf",
+      "majorName": "英语（国家公费师范生）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 656,
+          "minRank": 8584,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4039",
+      "majorKey": "fea3e248",
+      "majorName": "英语（师范）",
       "selKe": "不限",
       "years": [
         {
@@ -1160,13 +1339,6 @@
           "track": "综合",
           "minScore": 672,
           "minRank": 4155,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 656,
-          "minRank": 8584,
           "maxScore": 0
         }
       ]
@@ -1290,10 +1462,77 @@
   ],
   "plan2026": [
     {
-      "majorName": "汉语言文学",
-      "majorKey": "97bc5998",
+      "majorName": "地理科学（师范）",
+      "majorKey": "198d794d",
+      "selKe": "地理必选",
+      "plan": 2,
+      "schooling": "四年",
+      "menlei": "理",
+      "prevYear": 2023,
+      "prevRank": 4155,
+      "equivRank": 4354
+    },
+    {
+      "majorName": "英语（师范）",
+      "majorKey": "fea3e248",
+      "selKe": "不限",
+      "plan": 3,
+      "schooling": "四年",
+      "menlei": "文",
+      "prevYear": 2023,
+      "prevRank": 4155,
+      "equivRank": 4354
+    },
+    {
+      "majorName": "汉语言文学（师范）",
+      "majorKey": "d7131091",
       "selKe": "历史必选",
-      "plan": 6,
+      "plan": 4,
+      "schooling": "四年",
+      "menlei": "文",
+      "prevYear": 2024,
+      "prevRank": 4627,
+      "equivRank": 4787
+    },
+    {
+      "majorName": "历史学（师范）",
+      "majorKey": "4c5c8bc7",
+      "selKe": "历史必选",
+      "plan": 2,
+      "schooling": "四年",
+      "menlei": "史",
+      "prevYear": 2023,
+      "prevRank": 5979,
+      "equivRank": 6265
+    },
+    {
+      "majorName": "思想政治教育（师范）",
+      "majorKey": "47452c2f",
+      "selKe": "思想政治必选",
+      "plan": 3,
+      "schooling": "四年",
+      "menlei": "法",
+      "prevYear": 2024,
+      "prevRank": 6842,
+      "equivRank": 7079
+    },
+    {
+      "majorName": "数学与应用数学（师范）",
+      "majorKey": "9f802a9c",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 3,
+      "schooling": "四年",
+      "menlei": "理",
+      "prevYear": 2024,
+      "prevRank": 6842,
+      "equivRank": 7079
+    },
+    {
+      "majorName": "汉语言文学（国家拔尖学生培养基地班）",
+      "majorKey": "7ac264f7",
+      "selKe": "历史必选",
+      "plan": 2,
+      "tuition": "5850",
       "schooling": "四年",
       "menlei": "文",
       "prevYear": 2025,
@@ -1313,17 +1552,6 @@
       "equivRank": 7761
     },
     {
-      "majorName": "英语",
-      "majorKey": "49c5cdf9",
-      "selKe": "不限",
-      "plan": 3,
-      "schooling": "四年",
-      "menlei": "文",
-      "prevYear": 2025,
-      "prevRank": 8584,
-      "equivRank": 8584
-    },
-    {
       "majorName": "马克思主义理论类",
       "majorKey": "66836d02",
       "selKe": "思想政治必选",
@@ -1336,26 +1564,37 @@
       "equivRank": 8584
     },
     {
-      "majorName": "心理学",
-      "majorKey": "17c0dc67",
+      "majorName": "化学（师范）",
+      "majorKey": "0dfc12db",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 3,
+      "schooling": "四年",
+      "menlei": "理",
+      "prevYear": 2024,
+      "prevRank": 8307,
+      "equivRank": 8595
+    },
+    {
+      "majorName": "物理学（师范）",
+      "majorKey": "bec128cc",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 3,
+      "schooling": "四年",
+      "menlei": "理",
+      "prevYear": 2024,
+      "prevRank": 8688,
+      "equivRank": 8989
+    },
+    {
+      "majorName": "心理学（师范）",
+      "majorKey": "20582792",
       "selKe": "物理必选",
       "plan": 1,
       "schooling": "四年",
       "menlei": "理",
-      "prevYear": 2025,
-      "prevRank": 9037,
-      "equivRank": 9037
-    },
-    {
-      "majorName": "地理科学",
-      "majorKey": "d061ae24",
-      "selKe": "地理必选",
-      "plan": 2,
-      "schooling": "四年",
-      "menlei": "理",
-      "prevYear": 2025,
-      "prevRank": 9488,
-      "equivRank": 9488
+      "prevYear": 2023,
+      "prevRank": 8666,
+      "equivRank": 9080
     },
     {
       "majorName": "外国语言文学类",
@@ -1365,17 +1604,6 @@
       "tuition": "5850",
       "schooling": "四年",
       "menlei": "文",
-      "prevYear": 2025,
-      "prevRank": 9488,
-      "equivRank": 9488
-    },
-    {
-      "majorName": "思想政治教育",
-      "majorKey": "6a15bc12",
-      "selKe": "思想政治必选",
-      "plan": 3,
-      "schooling": "四年",
-      "menlei": "法",
       "prevYear": 2025,
       "prevRank": 9488,
       "equivRank": 9488
@@ -1393,18 +1621,6 @@
       "equivRank": 9488
     },
     {
-      "majorName": "数学类",
-      "majorKey": "33b3d741",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "5850",
-      "schooling": "四年",
-      "menlei": "理",
-      "prevYear": 2025,
-      "prevRank": 9488,
-      "equivRank": 9488
-    },
-    {
       "majorName": "经济学类",
       "majorKey": "0cabaa98",
       "selKe": "不限",
@@ -1415,17 +1631,6 @@
       "prevYear": 2025,
       "prevRank": 9488,
       "equivRank": 9488
-    },
-    {
-      "majorName": "化学",
-      "majorKey": "04ab47fe",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 5,
-      "schooling": "四年",
-      "menlei": "理",
-      "prevYear": 2025,
-      "prevRank": 9924,
-      "equivRank": 9924
     },
     {
       "majorName": "法学类",
@@ -1440,19 +1645,8 @@
       "equivRank": 9924
     },
     {
-      "majorName": "历史学",
-      "majorKey": "c9800f2a",
-      "selKe": "历史必选",
-      "plan": 2,
-      "schooling": "四年",
-      "menlei": "史",
-      "prevYear": 2025,
-      "prevRank": 10365,
-      "equivRank": 10365
-    },
-    {
-      "majorName": "教育学",
-      "majorKey": "4272328b",
+      "majorName": "教育学（创新实验班）",
+      "majorKey": "60d2006f",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4500",
@@ -1475,10 +1669,11 @@
       "equivRank": 11301
     },
     {
-      "majorName": "物理学",
-      "majorKey": "653f630d",
+      "majorName": "物理学（国家拔尖学生培养基地班）",
+      "majorKey": "e8e53740",
       "selKe": "物理、化学(2科必选)",
-      "plan": 4,
+      "plan": 1,
+      "tuition": "5850",
       "schooling": "四年",
       "menlei": "理",
       "prevYear": 2025,
@@ -1496,6 +1691,17 @@
       "prevYear": 2025,
       "prevRank": 11301,
       "equivRank": 11301
+    },
+    {
+      "majorName": "生物科学（师范）",
+      "majorKey": "80353860",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 1,
+      "schooling": "四年",
+      "menlei": "理",
+      "prevYear": 2024,
+      "prevRank": 11848,
+      "equivRank": 12258
     },
     {
       "majorName": "新闻传播学类",
@@ -1522,38 +1728,15 @@
       "equivRank": 12852
     },
     {
-      "majorName": "数学与应用数学",
-      "majorKey": "618fdffd",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 3,
-      "schooling": "四年",
-      "menlei": "理",
-      "prevYear": 2025,
-      "prevRank": 13406,
-      "equivRank": 13406
-    },
-    {
-      "majorName": "物理学类",
-      "majorKey": "3d12abf2",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 3,
-      "tuition": "5850",
-      "schooling": "四年",
-      "menlei": "理",
-      "prevYear": 2025,
-      "prevRank": 13406,
-      "equivRank": 13406
-    },
-    {
-      "majorName": "生物科学",
-      "majorKey": "e2472a71",
-      "selKe": "物理、化学(2科必选)",
+      "majorName": "科学教育（师范）",
+      "majorKey": "a9ae7a57",
+      "selKe": "物理必选",
       "plan": 1,
       "schooling": "四年",
-      "menlei": "理",
-      "prevYear": 2025,
-      "prevRank": 13406,
-      "equivRank": 13406
+      "menlei": "教",
+      "prevYear": 2024,
+      "prevRank": 12844,
+      "equivRank": 13289
     },
     {
       "majorName": "统计学",
@@ -1583,7 +1766,7 @@
       "majorName": "化学类",
       "majorKey": "d1bd847f",
       "selKe": "物理、化学(2科必选)",
-      "plan": 6,
+      "plan": 2,
       "tuition": "5850",
       "schooling": "四年",
       "menlei": "理",
@@ -1592,21 +1775,10 @@
       "equivRank": 15035
     },
     {
-      "majorName": "科学教育",
-      "majorKey": "b534555a",
-      "selKe": "物理必选",
-      "plan": 1,
-      "schooling": "四年",
-      "menlei": "教",
-      "prevYear": 2025,
-      "prevRank": 15035,
-      "equivRank": 15035
-    },
-    {
       "majorName": "生物科学类",
       "majorKey": "d47d0996",
       "selKe": "物理、化学(2科必选)",
-      "plan": 5,
+      "plan": 3,
       "tuition": "4500",
       "schooling": "四年",
       "menlei": "理",
@@ -1639,6 +1811,18 @@
       "equivRank": 16192
     },
     {
+      "majorName": "化学（英才班）",
+      "majorKey": "e7a3169a",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "5850",
+      "schooling": "四年",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 17433,
+      "equivRank": 17433
+    },
+    {
       "majorName": "电子商务",
       "majorKey": "0b52f20f",
       "selKe": "不限",
@@ -1663,8 +1847,8 @@
       "equivRank": 23836
     },
     {
-      "majorName": "教育技术学",
-      "majorKey": "3e2b336a",
+      "majorName": "教育技术学（信息学科创新实验班、智能教育实验班）",
+      "majorKey": "553bf1cd",
       "selKe": "物理必选",
       "plan": 1,
       "tuition": "5850",
@@ -1685,6 +1869,42 @@
       "prevYear": 2025,
       "prevRank": 27005,
       "equivRank": 27005
+    },
+    {
+      "majorName": "化学类（师范）",
+      "majorKey": "0bc96faa",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 4,
+      "tuition": "5850",
+      "schooling": "四年",
+      "menlei": "理"
+    },
+    {
+      "majorName": "数学类（师范）",
+      "majorKey": "37ca5d10",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "5850",
+      "schooling": "四年",
+      "menlei": "理"
+    },
+    {
+      "majorName": "物理学类（师范）",
+      "majorKey": "f65fdf4f",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 3,
+      "tuition": "5850",
+      "schooling": "四年",
+      "menlei": "理"
+    },
+    {
+      "majorName": "生物科学类（师范）",
+      "majorKey": "17b2b233",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "4500",
+      "schooling": "四年",
+      "menlei": "理"
     }
   ]
 }

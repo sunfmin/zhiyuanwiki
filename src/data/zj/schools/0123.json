@@ -140,13 +140,6 @@
       "selKe": "不限",
       "years": [
         {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 564,
-          "minRank": 90684,
-          "maxScore": 0
-        },
-        {
           "year": 2023,
           "track": "综合",
           "minScore": 562,
@@ -165,6 +158,21 @@
           "track": "综合",
           "minScore": 578,
           "minRank": 78256,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0123",
+      "majorKey": "ffe9e6f7",
+      "majorName": "工商管理（创业教育管理）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 564,
+          "minRank": 90684,
           "maxScore": 0
         }
       ]
@@ -847,7 +855,7 @@
       "majorName": "工商管理",
       "majorKey": "07c28723",
       "selKe": "不限",
-      "plan": 27,
+      "plan": 17,
       "tuition": "4800",
       "schooling": "四年",
       "menlei": "管",
@@ -871,7 +879,7 @@
       "majorName": "创业管理",
       "majorKey": "01f74c4e",
       "selKe": "不限",
-      "plan": 23,
+      "plan": 13,
       "tuition": "4800",
       "schooling": "四年",
       "menlei": "管",
@@ -907,7 +915,7 @@
       "majorName": "英语",
       "majorKey": "49c5cdf9",
       "selKe": "不限",
-      "plan": 80,
+      "plan": 70,
       "tuition": "4800",
       "schooling": "四年",
       "menlei": "文",
@@ -955,7 +963,7 @@
       "majorName": "电子信息工程",
       "majorKey": "fd603692",
       "selKe": "物理、化学(2科必选)",
-      "plan": 33,
+      "plan": 23,
       "tuition": "5500",
       "schooling": "四年",
       "menlei": "工",
@@ -1096,25 +1104,58 @@
       "equivRank": 116590
     },
     {
-      "majorName": "土木工程",
-      "majorKey": "320e7128",
+      "majorName": "创业管理（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程）",
+      "majorKey": "ccc4a67e",
+      "selKe": "不限",
+      "plan": 10,
+      "tuition": "4800",
+      "schooling": "四年",
+      "menlei": "管"
+    },
+    {
+      "majorName": "土木工程（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程）",
+      "majorKey": "2ca9cdf0",
       "selKe": "物理、化学(2科必选)",
       "plan": 10,
       "tuition": "5500",
       "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2022,
-      "prevRank": 109145,
-      "equivRank": 117988
+      "menlei": "工"
     },
     {
-      "majorName": "机械工程",
-      "majorKey": "bdb5a180",
+      "majorName": "工商管理（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程）",
+      "majorKey": "579e5d13",
+      "selKe": "不限",
+      "plan": 10,
+      "tuition": "4800",
+      "schooling": "四年",
+      "menlei": "管"
+    },
+    {
+      "majorName": "机械工程（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程）",
+      "majorKey": "d2480098",
       "selKe": "物理、化学(2科必选)",
       "plan": 10,
       "tuition": "6300",
       "schooling": "四年",
       "menlei": "工"
+    },
+    {
+      "majorName": "电子信息工程（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程）",
+      "majorKey": "088754a2",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 10,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "英语（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程）",
+      "majorKey": "512731d9",
+      "selKe": "不限",
+      "plan": 10,
+      "tuition": "4800",
+      "schooling": "四年",
+      "menlei": "文"
     }
   ]
 }

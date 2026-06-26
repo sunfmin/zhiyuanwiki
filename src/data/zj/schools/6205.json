@@ -61,6 +61,28 @@
         {
           "year": 2024,
           "track": "综合",
+          "minScore": 579,
+          "minRank": 77018,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 585,
+          "minRank": 68975,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6205",
+      "majorKey": "36a2bab6",
+      "majorName": "交通运输（茅以升班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
           "minScore": 590,
           "minRank": 63993,
           "maxScore": 0
@@ -202,7 +224,7 @@
       "schoolCode": "6205",
       "majorKey": "320e7128",
       "majorName": "土木工程",
-      "selKe": "物理、化学(2科必选)",
+      "selKe": "物理必选",
       "years": [
         {
           "year": 2022,
@@ -210,7 +232,37 @@
           "minScore": 578,
           "minRank": 73295,
           "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6205",
+      "majorKey": "a058c70a",
+      "majorName": "土木工程（茅以升班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 561,
+          "minRank": 97491,
+          "maxScore": 0
         },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 563,
+          "minRank": 95633,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6205",
+      "majorKey": "df882396",
+      "majorName": "土木工程（詹天佑班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2024,
           "track": "综合",
@@ -910,6 +962,21 @@
         {
           "year": 2024,
           "track": "综合",
+          "minScore": 540,
+          "minRank": 122495,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6205",
+      "majorKey": "a4f5beaa",
+      "majorName": "给排水科学与工程（茅以升班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
           "minScore": 551,
           "minRank": 109583,
           "maxScore": 0
@@ -1135,6 +1202,28 @@
         {
           "year": 2024,
           "track": "综合",
+          "minScore": 573,
+          "minRank": 83812,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 577,
+          "minRank": 79149,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6205",
+      "majorKey": "740b4e3f",
+      "majorName": "车辆工程（詹天佑班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
           "minScore": 582,
           "minRank": 72910,
           "maxScore": 0
@@ -1317,10 +1406,10 @@
   ],
   "plan2026": [
     {
-      "majorName": "交通运输",
-      "majorKey": "904549c4",
+      "majorName": "交通运输（茅以升班）",
+      "majorKey": "36a2bab6",
       "selKe": "物理、化学(2科必选)",
-      "plan": 6,
+      "plan": 1,
       "tuition": "4700",
       "schooling": "四年",
       "menlei": "工",
@@ -1329,10 +1418,10 @@
       "equivRank": 34239
     },
     {
-      "majorName": "车辆工程",
-      "majorKey": "92b6110d",
+      "majorName": "车辆工程（詹天佑班）",
+      "majorKey": "740b4e3f",
       "selKe": "物理、化学(2科必选)",
-      "plan": 4,
+      "plan": 2,
       "tuition": "4700",
       "schooling": "四年",
       "menlei": "工",
@@ -1363,6 +1452,18 @@
       "prevYear": 2025,
       "prevRank": 66954,
       "equivRank": 66954
+    },
+    {
+      "majorName": "交通运输",
+      "majorKey": "904549c4",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 5,
+      "tuition": "4700",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 68975,
+      "equivRank": 68975
     },
     {
       "majorName": "轨道交通信号与控制",
@@ -1399,6 +1500,18 @@
       "prevYear": 2025,
       "prevRank": 75790,
       "equivRank": 75790
+    },
+    {
+      "majorName": "车辆工程",
+      "majorKey": "92b6110d",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "4700",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 79149,
+      "equivRank": 79149
     },
     {
       "majorName": "工商管理",
@@ -1545,10 +1658,10 @@
       "equivRank": 90505
     },
     {
-      "majorName": "土木工程",
-      "majorKey": "320e7128",
+      "majorName": "土木工程（詹天佑班）",
+      "majorKey": "df882396",
       "selKe": "物理、化学(2科必选)",
-      "plan": 2,
+      "plan": 1,
       "tuition": "4700",
       "schooling": "四年",
       "menlei": "工",
@@ -1591,6 +1704,18 @@
       "prevYear": 2025,
       "prevRank": 95412,
       "equivRank": 95412
+    },
+    {
+      "majorName": "土木工程（茅以升班）",
+      "majorKey": "a058c70a",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 1,
+      "tuition": "4700",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 95633,
+      "equivRank": 95633
     },
     {
       "majorName": "地理信息科学",
@@ -1641,8 +1766,8 @@
       "equivRank": 101596
     },
     {
-      "majorName": "给排水科学与工程",
-      "majorKey": "b0765a88",
+      "majorName": "给排水科学与工程（茅以升班）",
+      "majorKey": "a4f5beaa",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "4700",

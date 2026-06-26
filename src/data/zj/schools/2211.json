@@ -35,22 +35,23 @@
       "schoolCode": "2211",
       "majorKey": "d8f4c9ac",
       "majorName": "光电信息科学与工程",
-      "selKe": "物理、化学(2科必选)",
+      "selKe": "物理必选",
       "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 508,
-          "minRank": 157861,
-          "maxScore": 0
-        },
         {
           "year": 2023,
           "track": "综合",
           "minScore": 504,
           "minRank": 157784,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "2211",
+      "majorKey": "7aa18219",
+      "majorName": "光电信息科学与工程（工学学位。）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2024,
           "track": "综合",
@@ -63,6 +64,73 @@
           "track": "综合",
           "minScore": 470,
           "minRank": 204772,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2211",
+      "majorKey": "2c57fb70",
+      "majorName": "光电信息科学与工程（工学学位）",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 504,
+          "minRank": 157854,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2211",
+      "majorKey": "d42e999e",
+      "majorName": "光电信息科学与工程（工学）",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 506,
+          "minRank": 159581,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2211",
+      "majorKey": "733a3d95",
+      "majorName": "光电信息科学与工程（理学学位。）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 462,
+          "minRank": 206176,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 469,
+          "minRank": 205725,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2211",
+      "majorKey": "54ab1142",
+      "majorName": "光电信息科学与工程（理学）",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 508,
+          "minRank": 157861,
           "maxScore": 0
         }
       ]
@@ -682,6 +750,18 @@
       "equivRank": 151347
     },
     {
+      "majorName": "光电信息科学与工程（工学学位）",
+      "majorKey": "2c57fb70",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 10,
+      "tuition": "26000",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2023,
+      "prevRank": 157854,
+      "equivRank": 165400
+    },
+    {
       "majorName": "新能源科学与工程",
       "majorKey": "42b22d93",
       "selKe": "物理、化学(2科必选)",
@@ -778,18 +858,6 @@
       "equivRank": 201929
     },
     {
-      "majorName": "光电信息科学与工程",
-      "majorKey": "d8f4c9ac",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 20,
-      "tuition": "26000",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 204772,
-      "equivRank": 204772
-    },
-    {
       "majorName": "数字经济",
       "majorKey": "ca37000f",
       "selKe": "物理、化学(2科必选)",
@@ -800,6 +868,15 @@
       "prevYear": 2025,
       "prevRank": 209501,
       "equivRank": 209501
+    },
+    {
+      "majorName": "光电信息科学与工程（理学学位）",
+      "majorKey": "51b0a9b4",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 10,
+      "tuition": "26000",
+      "schooling": "四年",
+      "menlei": "工"
     }
   ]
 }

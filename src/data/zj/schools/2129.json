@@ -40,6 +40,28 @@
     },
     {
       "schoolCode": "2129",
+      "majorKey": "aee349ab",
+      "majorName": "化学工程与工艺（中外合作办学）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 487,
+          "minRank": 182627,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 495,
+          "minRank": 178031,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2129",
       "majorKey": "320e7128",
       "majorName": "土木工程",
       "selKe": "物理、化学(2科必选)",
@@ -258,7 +280,7 @@
       "schoolCode": "2129",
       "majorKey": "0c33cbdd",
       "majorName": "软件工程",
-      "selKe": "物理、化学(2科必选)",
+      "selKe": "物理必选",
       "years": [
         {
           "year": 2022,
@@ -266,7 +288,15 @@
           "minScore": 557,
           "minRank": 98742,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "2129",
+      "majorKey": "979f7c1f",
+      "majorName": "软件工程（中外合作办学）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2023,
           "track": "综合",
@@ -404,11 +434,10 @@
       "majorName": "化学工程与工艺",
       "majorKey": "1f59c989",
       "selKe": "物理、化学(2科必选)",
-      "plan": 4,
-      "tuition": "45000",
+      "plan": 2,
+      "tuition": "5200",
       "schooling": "四年",
       "menlei": "工",
-      "coop": true,
       "prevYear": 2025,
       "prevRank": 138904,
       "equivRank": 138904
@@ -426,8 +455,8 @@
       "equivRank": 146042
     },
     {
-      "majorName": "软件工程",
-      "majorKey": "0c33cbdd",
+      "majorName": "软件工程（中外合作办学）",
+      "majorKey": "979f7c1f",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "35000",
@@ -437,6 +466,19 @@
       "prevYear": 2025,
       "prevRank": 155319,
       "equivRank": 155319
+    },
+    {
+      "majorName": "化学工程与工艺（中外合作办学）",
+      "majorKey": "aee349ab",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "45000",
+      "schooling": "四年",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 178031,
+      "equivRank": 178031
     }
   ]
 }

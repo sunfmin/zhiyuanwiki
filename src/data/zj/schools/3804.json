@@ -4,8 +4,8 @@
   "leaves": [
     {
       "schoolCode": "3804",
-      "majorKey": "e7baf0de",
-      "majorName": "休闲体育",
+      "majorKey": "093084ce",
+      "majorName": "休闲体育（高尔夫、户外运动、瑜伽方向）",
       "selKe": "不限",
       "years": [
         {
@@ -19,8 +19,8 @@
     },
     {
       "schoolCode": "3804",
-      "majorKey": "8b01cec4",
-      "majorName": "体育运营与管理",
+      "majorKey": "cbaa3cfa",
+      "majorName": "体育运营与管理（马术运动与管理方向）",
       "selKe": "不限",
       "years": [
         {
@@ -116,8 +116,8 @@
     },
     {
       "schoolCode": "3804",
-      "majorKey": "b888273b",
-      "majorName": "无人机应用技术",
+      "majorKey": "7c2a37d7",
+      "majorName": "无人机应用技术（eVTOL方向）",
       "selKe": "不限",
       "years": [
         {
@@ -161,8 +161,8 @@
     },
     {
       "schoolCode": "3804",
-      "majorKey": "a0f5df04",
-      "majorName": "现代物流管理",
+      "majorKey": "e2ab5ddc",
+      "majorName": "现代物流管理（医药物流SPD方向）",
       "selKe": "不限",
       "years": [
         {
@@ -171,7 +171,15 @@
           "minScore": 393,
           "minRank": 251240,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "3804",
+      "majorKey": "29032209",
+      "majorName": "现代物流管理（智慧医药物流SPD方向）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -193,7 +201,15 @@
           "minScore": 398,
           "minRank": 244676,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "3804",
+      "majorKey": "ce9f124c",
+      "majorName": "社会体育（篮足羽乒等球类方向）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2024,
           "track": "综合",
@@ -227,17 +243,25 @@
     },
     {
       "schoolCode": "3804",
-      "majorKey": "b6be2ccc",
-      "majorName": "舞台艺术设计与制作",
+      "majorKey": "701771dd",
+      "majorName": "稀土材料技术（新材料方向）",
       "selKe": "不限",
       "years": [
         {
-          "year": 2024,
+          "year": 2025,
           "track": "综合",
-          "minScore": 335,
-          "minRank": 270320,
+          "minScore": 341,
+          "minRank": 276665,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "3804",
+      "majorKey": "b4b30ddc",
+      "majorName": "舞台艺术设计与制作（舞台/灯光/音响/服装方向）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -246,17 +270,32 @@
           "maxScore": 0
         }
       ]
+    },
+    {
+      "schoolCode": "3804",
+      "majorKey": "f0a262a1",
+      "majorName": "舞台艺术设计与制作（舞台、灯光、音响、服装技术等方向）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 335,
+          "minRank": 270320,
+          "maxScore": 0
+        }
+      ]
     }
   ],
   "plan2026": [
     {
-      "majorName": "现代物流管理",
-      "majorKey": "a0f5df04",
+      "majorName": "现代物流管理（智慧医药物流SPD方向）",
+      "majorKey": "29032209",
       "selKe": "不限",
       "plan": 3,
       "tuition": "9064",
       "schooling": "三年",
-      "menlei": "管",
+      "menlei": "医",
       "prevYear": 2025,
       "prevRank": 260443,
       "equivRank": 260443
@@ -274,8 +313,8 @@
       "equivRank": 266694
     },
     {
-      "majorName": "舞台艺术设计与制作",
-      "majorKey": "b6be2ccc",
+      "majorName": "舞台艺术设计与制作（舞台/灯光/音响/服装方向）",
+      "majorKey": "b4b30ddc",
       "selKe": "不限",
       "plan": 5,
       "tuition": "9240",
@@ -289,7 +328,7 @@
       "majorName": "稀土材料技术",
       "majorKey": "f9a53469",
       "selKe": "不限",
-      "plan": 4,
+      "plan": 2,
       "tuition": "10120",
       "schooling": "三年",
       "menlei": "工",
@@ -322,8 +361,8 @@
       "equivRank": 271338
     },
     {
-      "majorName": "无人机应用技术",
-      "majorKey": "b888273b",
+      "majorName": "无人机应用技术（eVTOL方向）",
+      "majorKey": "7c2a37d7",
       "selKe": "不限",
       "plan": 3,
       "tuition": "12000",
@@ -332,6 +371,18 @@
       "prevYear": 2025,
       "prevRank": 272276,
       "equivRank": 272276
+    },
+    {
+      "majorName": "稀土材料技术（新材料方向）",
+      "majorKey": "701771dd",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "10120",
+      "schooling": "三年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 276665,
+      "equivRank": 276665
     },
     {
       "majorName": "光电显示技术",

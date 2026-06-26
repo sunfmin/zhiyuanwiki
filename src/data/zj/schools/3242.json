@@ -156,8 +156,8 @@
     },
     {
       "schoolCode": "3242",
-      "majorKey": "320e7128",
-      "majorName": "土木工程",
+      "majorKey": "da70fd7e",
+      "majorName": "土木工程（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -430,13 +430,6 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 585,
-          "minRank": 64432,
-          "maxScore": 0
-        },
-        {
           "year": 2023,
           "track": "综合",
           "minScore": 590,
@@ -455,6 +448,21 @@
           "track": "综合",
           "minScore": 592,
           "minRank": 60692,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3242",
+      "majorKey": "e8f84cfb",
+      "majorName": "数字媒体技术（嵌入式培养）",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 585,
+          "minRank": 64432,
           "maxScore": 0
         }
       ]
@@ -758,8 +766,8 @@
     },
     {
       "schoolCode": "3242",
-      "majorKey": "7faf2092",
-      "majorName": "环境工程",
+      "majorKey": "ea34adc8",
+      "majorName": "环境工程（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -859,8 +867,44 @@
     },
     {
       "schoolCode": "3242",
-      "majorKey": "45947d31",
-      "majorName": "电气工程及其自动化",
+      "majorKey": "05b8e6d3",
+      "majorName": "电气工程及其自动化（中外合作办学）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 611,
+          "minRank": 36011,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 625,
+          "minRank": 29390,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 625,
+          "minRank": 29073,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 623,
+          "minRank": 29055,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3242",
+      "majorKey": "1d66af1b",
+      "majorName": "电气工程及其自动化（电力系统及其自动化）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -889,6 +933,78 @@
           "track": "综合",
           "minScore": 637,
           "minRank": 18231,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3242",
+      "majorKey": "fa7e3e39",
+      "majorName": "电气工程及其自动化（电力系统继电保护）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 623,
+          "minRank": 25681,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 636,
+          "minRank": 21201,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 635,
+          "minRank": 21301,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 634,
+          "minRank": 20303,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3242",
+      "majorKey": "678774b5",
+      "majorName": "电气工程及其自动化（输配电工程）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 620,
+          "minRank": 28170,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 633,
+          "minRank": 23611,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 632,
+          "minRank": 23504,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 629,
+          "minRank": 23852,
           "maxScore": 0
         }
       ]
@@ -1018,8 +1134,8 @@
     },
     {
       "schoolCode": "3242",
-      "majorKey": "0c33cbdd",
-      "majorName": "软件工程",
+      "majorKey": "979f7c1f",
+      "majorName": "软件工程（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -1113,16 +1229,40 @@
   ],
   "plan2026": [
     {
-      "majorName": "电气工程及其自动化",
-      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化（电力系统及其自动化）",
+      "majorKey": "1d66af1b",
       "selKe": "物理、化学(2科必选)",
-      "plan": 19,
+      "plan": 5,
       "tuition": "5800",
       "schooling": "四年",
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 18231,
       "equivRank": 18231
+    },
+    {
+      "majorName": "电气工程及其自动化（电力系统继电保护）",
+      "majorKey": "fa7e3e39",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 5,
+      "tuition": "5800",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 20303,
+      "equivRank": 20303
+    },
+    {
+      "majorName": "电气工程及其自动化（输配电工程）",
+      "majorKey": "678774b5",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 5,
+      "tuition": "5800",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 23852,
+      "equivRank": 23852
     },
     {
       "majorName": "电气工程与智能控制",
@@ -1147,6 +1287,19 @@
       "prevYear": 2025,
       "prevRank": 24770,
       "equivRank": 24770
+    },
+    {
+      "majorName": "电气工程及其自动化（中外合作办学）",
+      "majorKey": "05b8e6d3",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 4,
+      "tuition": "26400",
+      "schooling": "四年",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 29055,
+      "equivRank": 29055
     },
     {
       "majorName": "自动化",
@@ -1413,8 +1566,8 @@
       "equivRank": 92023
     },
     {
-      "majorName": "软件工程",
-      "majorKey": "0c33cbdd",
+      "majorName": "软件工程（中外合作办学）",
+      "majorKey": "979f7c1f",
       "selKe": "物理、化学(2科必选)",
       "plan": 6,
       "tuition": "51000",
@@ -1438,8 +1591,8 @@
       "equivRank": 104461
     },
     {
-      "majorName": "土木工程",
-      "majorKey": "320e7128",
+      "majorName": "土木工程（中外合作办学）",
+      "majorKey": "da70fd7e",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "51000",
@@ -1451,8 +1604,8 @@
       "equivRank": 145356
     },
     {
-      "majorName": "环境工程",
-      "majorKey": "7faf2092",
+      "majorName": "环境工程（中外合作办学）",
+      "majorKey": "ea34adc8",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "51000",

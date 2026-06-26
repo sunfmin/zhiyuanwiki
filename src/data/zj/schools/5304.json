@@ -336,8 +336,8 @@
     },
     {
       "schoolCode": "5304",
-      "majorKey": "320e7128",
-      "majorName": "土木工程",
+      "majorKey": "da70fd7e",
+      "majorName": "土木工程（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -576,7 +576,22 @@
       "schoolCode": "5304",
       "majorKey": "bdb5a180",
       "majorName": "机械工程",
-      "selKe": "物理、化学(2科必选)",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 602,
+          "minRank": 50167,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5304",
+      "majorKey": "9036056c",
+      "majorName": "机械工程（机电工程学院）",
+      "selKe": "物理必选",
       "years": [
         {
           "year": 2022,
@@ -584,14 +599,15 @@
           "minScore": 597,
           "minRank": 50897,
           "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 602,
-          "minRank": 50167,
-          "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "5304",
+      "majorKey": "8f26e434",
+      "majorName": "机械工程（维德创新班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2024,
           "track": "综合",
@@ -870,8 +886,8 @@
     },
     {
       "schoolCode": "5304",
-      "majorKey": "7faf2092",
-      "majorName": "环境工程",
+      "majorKey": "3145761c",
+      "majorName": "环境工程（拔尖班）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -1340,44 +1356,8 @@
   ],
   "plan2026": [
     {
-      "majorName": "法学",
-      "majorKey": "a1113a1f",
-      "selKe": "不限",
-      "plan": 2,
-      "tuition": "4500",
-      "schooling": "四年",
-      "menlei": "法",
-      "prevYear": 2025,
-      "prevRank": 33035,
-      "equivRank": 33035
-    },
-    {
-      "majorName": "电气工程及其自动化",
-      "majorKey": "45947d31",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "5000",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 37785,
-      "equivRank": 37785
-    },
-    {
-      "majorName": "会计学",
-      "majorKey": "8aa56116",
-      "selKe": "不限",
-      "plan": 2,
-      "tuition": "4500",
-      "schooling": "四年",
-      "menlei": "管",
-      "prevYear": 2025,
-      "prevRank": 45001,
-      "equivRank": 45001
-    },
-    {
-      "majorName": "机械工程",
-      "majorKey": "bdb5a180",
+      "majorName": "机械工程（维德创新班）",
+      "majorKey": "8f26e434",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5900",
@@ -1388,164 +1368,8 @@
       "equivRank": 57019
     },
     {
-      "majorName": "自动化",
-      "majorKey": "da95770c",
-      "selKe": "物化生(3科必选)",
-      "plan": 2,
-      "tuition": "5000",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 58143,
-      "equivRank": 58143
-    },
-    {
-      "majorName": "通信工程",
-      "majorKey": "1c1ee3f7",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "5000",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 58143,
-      "equivRank": 58143
-    },
-    {
-      "majorName": "智能制造工程",
-      "majorKey": "ed53a26b",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "5000",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 59273,
-      "equivRank": 59273
-    },
-    {
-      "majorName": "能源与动力工程",
-      "majorKey": "34997647",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "5000",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 61619,
-      "equivRank": 61619
-    },
-    {
-      "majorName": "人工智能",
-      "majorKey": "2fec4169",
-      "selKe": "物化生(3科必选)",
-      "plan": 2,
-      "tuition": "5000",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 62803,
-      "equivRank": 62803
-    },
-    {
-      "majorName": "临床医学",
-      "majorKey": "618f7040",
-      "selKe": "物化生(3科必选)",
-      "plan": 2,
-      "tuition": "5500",
-      "schooling": "五年",
-      "menlei": "医",
-      "prevYear": 2025,
-      "prevRank": 65138,
-      "equivRank": 65138
-    },
-    {
-      "majorName": "国际经济与贸易",
-      "majorKey": "f8a1727e",
-      "selKe": "不限",
-      "plan": 2,
-      "tuition": "4500",
-      "schooling": "四年",
-      "menlei": "经",
-      "prevYear": 2025,
-      "prevRank": 67576,
-      "equivRank": 67576
-    },
-    {
-      "majorName": "汉语国际教育",
-      "majorKey": "d2fbd5c5",
-      "selKe": "历史必选",
-      "plan": 2,
-      "tuition": "4200",
-      "schooling": "四年",
-      "menlei": "文",
-      "prevYear": 2025,
-      "prevRank": 67576,
-      "equivRank": 67576
-    },
-    {
-      "majorName": "水利水电工程",
-      "majorKey": "c5a57efa",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "5900",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 72440,
-      "equivRank": 72440
-    },
-    {
-      "majorName": "储能科学与工程",
-      "majorKey": "b308db6c",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "5000",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 74834,
-      "equivRank": 74834
-    },
-    {
-      "majorName": "材料科学与工程",
-      "majorKey": "c425ce53",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 4,
-      "tuition": "5900",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 76084,
-      "equivRank": 76084
-    },
-    {
-      "majorName": "信息管理与信息系统",
-      "majorKey": "55e3bd26",
-      "selKe": "物理必选",
-      "plan": 2,
-      "tuition": "4500",
-      "schooling": "四年",
-      "menlei": "管",
-      "prevYear": 2025,
-      "prevRank": 77327,
-      "equivRank": 77327
-    },
-    {
-      "majorName": "测控技术与仪器",
-      "majorKey": "1bd76ba8",
-      "selKe": "物化生(3科必选)",
-      "plan": 2,
-      "tuition": "5000",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 77327,
-      "equivRank": 77327
-    },
-    {
-      "majorName": "环境工程",
-      "majorKey": "7faf2092",
+      "majorName": "环境工程（拔尖班）",
+      "majorKey": "3145761c",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5900",
@@ -1556,200 +1380,8 @@
       "equivRank": 83385
     },
     {
-      "majorName": "材料成型及控制工程",
-      "majorKey": "98867766",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "5000",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 84608,
-      "equivRank": 84608
-    },
-    {
-      "majorName": "交通工程",
-      "majorKey": "24d6dbdf",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "5900",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 87006,
-      "equivRank": 87006
-    },
-    {
-      "majorName": "应用化学",
-      "majorKey": "25624660",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "5900",
-      "schooling": "四年",
-      "menlei": "理",
-      "prevYear": 2025,
-      "prevRank": 88225,
-      "equivRank": 88225
-    },
-    {
-      "majorName": "测绘工程",
-      "majorKey": "a6fe1434",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "5000",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 89443,
-      "equivRank": 89443
-    },
-    {
-      "majorName": "冶金工程",
-      "majorKey": "8a0736ce",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "5900",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 91868,
-      "equivRank": 91868
-    },
-    {
-      "majorName": "生物工程",
-      "majorKey": "14eeb10f",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "5900",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 100479,
-      "equivRank": 100479
-    },
-    {
-      "majorName": "金融学",
-      "majorKey": "5a699e63",
-      "selKe": "物理必选",
-      "plan": 2,
-      "tuition": "4500",
-      "schooling": "四年",
-      "menlei": "经",
-      "prevYear": 2025,
-      "prevRank": 102929,
-      "equivRank": 102929
-    },
-    {
-      "majorName": "宝石及材料工艺学",
-      "majorKey": "091a218e",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "5000",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 104123,
-      "equivRank": 104123
-    },
-    {
-      "majorName": "工商管理",
-      "majorKey": "07c28723",
-      "selKe": "物理必选",
-      "plan": 2,
-      "tuition": "4500",
-      "schooling": "四年",
-      "menlei": "管",
-      "prevYear": 2025,
-      "prevRank": 104123,
-      "equivRank": 104123
-    },
-    {
-      "majorName": "过程装备与控制工程",
-      "majorKey": "05c637f2",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "5000",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 104123,
-      "equivRank": 104123
-    },
-    {
-      "majorName": "食品科学与工程类",
-      "majorKey": "6e702db2",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "5000",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 104123,
-      "equivRank": 104123
-    },
-    {
-      "majorName": "制药工程",
-      "majorKey": "28bd788f",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "5000",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 107736,
-      "equivRank": 107736
-    },
-    {
-      "majorName": "采矿工程",
-      "majorKey": "3f9a4574",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "5000",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 116520,
-      "equivRank": 116520
-    },
-    {
-      "majorName": "资源勘查工程",
-      "majorKey": "412efb99",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "5000",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 117730,
-      "equivRank": 117730
-    },
-    {
-      "majorName": "矿物加工工程",
-      "majorKey": "6f3db462",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "5000",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 123986,
-      "equivRank": 123986
-    },
-    {
-      "majorName": "护理学",
-      "majorKey": "c7acab0a",
-      "selKe": "化学、生物(2科必选)",
-      "plan": 2,
-      "tuition": "5000",
-      "schooling": "四年",
-      "menlei": "医",
-      "prevYear": 2025,
-      "prevRank": 130146,
-      "equivRank": 130146
-    },
-    {
-      "majorName": "土木工程",
-      "majorKey": "320e7128",
+      "majorName": "土木工程（中外合作办学）",
+      "majorKey": "da70fd7e",
       "selKe": "物理、化学(2科必选)",
       "plan": 10,
       "tuition": "29000",
@@ -1759,6 +1391,294 @@
       "prevYear": 2025,
       "prevRank": 158030,
       "equivRank": 158030
+    },
+    {
+      "majorName": "临床医学（呈贡校区）",
+      "majorKey": "ea0d8ab0",
+      "selKe": "物化生(3科必选)",
+      "plan": 2,
+      "tuition": "5500",
+      "schooling": "五年",
+      "menlei": "医"
+    },
+    {
+      "majorName": "交通工程（呈贡校区）",
+      "majorKey": "ddb9e0ef",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "5900",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "人工智能（呈贡校区）",
+      "majorKey": "e4728869",
+      "selKe": "物化生(3科必选)",
+      "plan": 2,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "会计学（呈贡校区）",
+      "majorKey": "6fd284a6",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "4500",
+      "schooling": "四年",
+      "menlei": "管"
+    },
+    {
+      "majorName": "信息管理与信息系统（呈贡校区）",
+      "majorKey": "11b37996",
+      "selKe": "物理必选",
+      "plan": 2,
+      "tuition": "4500",
+      "schooling": "四年",
+      "menlei": "管"
+    },
+    {
+      "majorName": "储能科学与工程（莲华校区）",
+      "majorKey": "d6549a5b",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "冶金工程（莲华校区）",
+      "majorKey": "daf0fb49",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "5900",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "制药工程（呈贡校区）",
+      "majorKey": "049d0e7f",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "国际经济与贸易（呈贡校区）",
+      "majorKey": "965164ee",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "4500",
+      "schooling": "四年",
+      "menlei": "经"
+    },
+    {
+      "majorName": "宝石及材料工艺学（莲华校区）",
+      "majorKey": "8bc9fb09",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "工商管理（呈贡校区）",
+      "majorKey": "14892cdb",
+      "selKe": "物理必选",
+      "plan": 2,
+      "tuition": "4500",
+      "schooling": "四年",
+      "menlei": "管"
+    },
+    {
+      "majorName": "应用化学（呈贡校区）",
+      "majorKey": "4e141810",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "5900",
+      "schooling": "四年",
+      "menlei": "理"
+    },
+    {
+      "majorName": "护理学（呈贡校区）",
+      "majorKey": "10eedca2",
+      "selKe": "化学、生物(2科必选)",
+      "plan": 2,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "医"
+    },
+    {
+      "majorName": "智能制造工程（呈贡校区）",
+      "majorKey": "36f85d43",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "材料成型及控制工程（莲华校区）",
+      "majorKey": "c1720dc1",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "材料科学与工程（莲华校区）",
+      "majorKey": "d5e3b698",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 4,
+      "tuition": "5900",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "水利水电工程（呈贡校区）",
+      "majorKey": "5cb44cb2",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "5900",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "汉语国际教育（呈贡校区）",
+      "majorKey": "2f37750d",
+      "selKe": "历史必选",
+      "plan": 2,
+      "tuition": "4200",
+      "schooling": "四年",
+      "menlei": "文"
+    },
+    {
+      "majorName": "法学（呈贡校区）",
+      "majorKey": "9af1872f",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "4500",
+      "schooling": "四年",
+      "menlei": "法"
+    },
+    {
+      "majorName": "测控技术与仪器（呈贡校区）",
+      "majorKey": "9705f5d8",
+      "selKe": "物化生(3科必选)",
+      "plan": 2,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "测绘工程（莲华校区）",
+      "majorKey": "2b303363",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "生物工程（呈贡校区）",
+      "majorKey": "f6e8e4ff",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "5900",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "电气工程及其自动化（呈贡校区）",
+      "majorKey": "ae275c91",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "矿物加工工程（莲华校区）",
+      "majorKey": "1fa8b675",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "能源与动力工程（莲华校区）",
+      "majorKey": "3d477174",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "自动化（呈贡校区）",
+      "majorKey": "a69cc0b4",
+      "selKe": "物化生(3科必选)",
+      "plan": 2,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "资源勘查工程（莲华校区）",
+      "majorKey": "f404e3c2",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "过程装备与控制工程（呈贡校区）",
+      "majorKey": "27a7238a",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "通信工程（呈贡校区）",
+      "majorKey": "fcfe3da7",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "采矿工程（莲华校区）",
+      "majorKey": "4eb03fa3",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "金融学（呈贡校区）",
+      "majorKey": "e354ea1b",
+      "selKe": "物理必选",
+      "plan": 2,
+      "tuition": "4500",
+      "schooling": "四年",
+      "menlei": "经"
+    },
+    {
+      "majorName": "食品科学与工程类（呈贡校区含食品科学与工程、食品质量与安全专业）",
+      "majorKey": "b95362d8",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "工"
     }
   ]
 }

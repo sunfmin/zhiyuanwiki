@@ -76,8 +76,8 @@
     },
     {
       "schoolCode": "0018",
-      "majorKey": "4150dfbb",
-      "majorName": "会展经济与管理",
+      "majorKey": "0e8f791d",
+      "majorName": "会展经济与管理（中外合作办学）",
       "selKe": "不限",
       "years": [
         {
@@ -221,8 +221,8 @@
     },
     {
       "schoolCode": "0018",
-      "majorKey": "fee47c1b",
-      "majorName": "工业设计",
+      "majorKey": "12acf2fd",
+      "majorName": "工业设计（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -970,7 +970,15 @@
           "minScore": 590,
           "minRank": 64666,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "0018",
+      "majorKey": "9311b092",
+      "majorName": "英语（要求高考英语成绩不低于100分）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -1065,6 +1073,28 @@
           "minRank": 60238,
           "maxScore": 0
         },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 586,
+          "minRank": 69093,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 587,
+          "minRank": 67027,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0018",
+      "majorKey": "c2a7c4d0",
+      "majorName": "计算机科学与技术（拔尖创新班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2024,
           "track": "综合",
@@ -1189,6 +1219,42 @@
           "maxScore": 0
         }
       ]
+    },
+    {
+      "schoolCode": "0018",
+      "majorKey": "31ea3245",
+      "majorName": "金融学（中外合作办学）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 574,
+          "minRank": 78401,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 569,
+          "minRank": 85114,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 580,
+          "minRank": 76009,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 575,
+          "minRank": 81603,
+          "maxScore": 0
+        }
+      ]
     }
   ],
   "plan2026": [
@@ -1205,10 +1271,10 @@
       "equivRank": 51373
     },
     {
-      "majorName": "计算机科学与技术",
-      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术（拔尖创新班）",
+      "majorKey": "c2a7c4d0",
       "selKe": "物理、化学(2科必选)",
-      "plan": 109,
+      "plan": 10,
       "tuition": "6300",
       "schooling": "四年",
       "menlei": "工",
@@ -1268,11 +1334,10 @@
       "majorName": "金融学",
       "majorKey": "5a699e63",
       "selKe": "不限",
-      "plan": 175,
-      "tuition": "58000",
+      "plan": 59,
+      "tuition": "4800",
       "schooling": "四年",
       "menlei": "经",
-      "coop": true,
       "prevYear": 2025,
       "prevRank": 60796,
       "equivRank": 60796
@@ -1326,10 +1391,10 @@
       "equivRank": 65481
     },
     {
-      "majorName": "英语",
-      "majorKey": "49c5cdf9",
+      "majorName": "英语（要求高考英语成绩不低于100分）",
+      "majorKey": "9311b092",
       "selKe": "不限",
-      "plan": 78,
+      "plan": 68,
       "tuition": "4800",
       "schooling": "四年",
       "menlei": "文",
@@ -1348,6 +1413,18 @@
       "prevYear": 2025,
       "prevRank": 66564,
       "equivRank": 66564
+    },
+    {
+      "majorName": "计算机科学与技术",
+      "majorKey": "1d486608",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 99,
+      "tuition": "6300",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 67027,
+      "equivRank": 67027
     },
     {
       "majorName": "旅游管理",
@@ -1518,8 +1595,21 @@
       "equivRank": 80302
     },
     {
-      "majorName": "会展经济与管理",
-      "majorKey": "4150dfbb",
+      "majorName": "金融学（中外合作办学）",
+      "majorKey": "31ea3245",
+      "selKe": "不限",
+      "plan": 116,
+      "tuition": "58000",
+      "schooling": "四年",
+      "menlei": "经",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 81603,
+      "equivRank": 81603
+    },
+    {
+      "majorName": "会展经济与管理（中外合作办学）",
+      "majorKey": "0e8f791d",
       "selKe": "不限",
       "plan": 60,
       "tuition": "58000",
@@ -1534,7 +1624,7 @@
       "majorName": "药学",
       "majorKey": "e9e6a481",
       "selKe": "物理、化学(2科必选)",
-      "plan": 46,
+      "plan": 6,
       "tuition": "5500",
       "schooling": "四年",
       "menlei": "医",
@@ -1546,7 +1636,7 @@
       "majorName": "土木工程",
       "majorKey": "320e7128",
       "selKe": "物理、化学(2科必选)",
-      "plan": 46,
+      "plan": 6,
       "tuition": "5500",
       "schooling": "四年",
       "menlei": "工",
@@ -1555,8 +1645,8 @@
       "equivRank": 89857
     },
     {
-      "majorName": "工业设计",
-      "majorKey": "fee47c1b",
+      "majorName": "工业设计（中外合作办学）",
+      "majorKey": "12acf2fd",
       "selKe": "物理、化学(2科必选)",
       "plan": 56,
       "tuition": "63000",
@@ -1571,13 +1661,49 @@
       "majorName": "护理学",
       "majorKey": "c7acab0a",
       "selKe": "化学必选",
-      "plan": 80,
+      "plan": 50,
       "tuition": "5500",
       "schooling": "四年",
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 99356,
       "equivRank": 99356
+    },
+    {
+      "majorName": "土木工程（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程）",
+      "majorKey": "2ca9cdf0",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 40,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "护理学（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程）",
+      "majorKey": "4f32c02a",
+      "selKe": "化学必选",
+      "plan": 30,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "医"
+    },
+    {
+      "majorName": "英语（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。要求高考英语成绩不低于100分）",
+      "majorKey": "6c694a90",
+      "selKe": "不限",
+      "plan": 10,
+      "tuition": "4800",
+      "schooling": "四年",
+      "menlei": "文"
+    },
+    {
+      "majorName": "药学（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程）",
+      "majorKey": "6dbf8b31",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 40,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "医"
     }
   ]
 }

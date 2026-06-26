@@ -4,17 +4,10 @@
   "leaves": [
     {
       "schoolCode": "9003",
-      "majorKey": "618f7040",
-      "majorName": "临床医学",
+      "majorKey": "2ec083fd",
+      "majorName": "临床医学（临床医疗通科医师）",
       "selKe": "物理、化学(2科必选)",
       "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 650,
-          "minRank": 8388,
-          "maxScore": 0
-        },
         {
           "year": 2023,
           "track": "综合",
@@ -25,8 +18,83 @@
         {
           "year": 2024,
           "track": "综合",
-          "minScore": 657,
-          "minRank": 9543,
+          "minScore": 630,
+          "minRank": 25630,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "9003",
+      "majorKey": "9e0d0f93",
+      "majorName": "临床医学（临床心理医师）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 611,
+          "minRank": 40819,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "9003",
+      "majorKey": "a4bc5858",
+      "majorName": "临床医学（临床通科医师（武警）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 617,
+          "minRank": 34876,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "9003",
+      "majorKey": "a8db60fd",
+      "majorName": "临床医学（临床通科医师）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 617,
+          "minRank": 34876,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "9003",
+      "majorKey": "5140382c",
+      "majorName": "临床医学（五年制）",
+      "selKe": "化学/生物(2选1)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 650,
+          "minRank": 8388,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "9003",
+      "majorKey": "c08a5033",
+      "majorName": "临床医学（八年制）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 633,
+          "minRank": 18156,
           "maxScore": 0
         },
         {
@@ -40,8 +108,52 @@
     },
     {
       "schoolCode": "9003",
-      "majorKey": "1954d9c9",
-      "majorName": "预防医学",
+      "majorKey": "b59e0565",
+      "majorName": "临床医学（高级临床医师）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 637,
+          "minRank": 20885,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 657,
+          "minRank": 9543,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "9003",
+      "majorKey": "24de0133",
+      "majorName": "预防医学（五年制）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 618,
+          "minRank": 35802,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 599,
+          "minRank": 55083,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "9003",
+      "majorKey": "53143a50",
+      "majorName": "预防医学（八年制）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -77,8 +189,8 @@
   ],
   "plan2026": [
     {
-      "majorName": "预防医学",
-      "majorKey": "1954d9c9",
+      "majorName": "预防医学（八年制）",
+      "majorKey": "53143a50",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "schooling": "八年",
@@ -88,15 +200,48 @@
       "equivRank": 23836
     },
     {
-      "majorName": "临床医学",
-      "majorKey": "618f7040",
+      "majorName": "临床医学（八年制）",
+      "majorKey": "c08a5033",
       "selKe": "物理、化学(2科必选)",
-      "plan": 11,
-      "schooling": "五年",
+      "plan": 2,
+      "schooling": "八年",
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 33035,
       "equivRank": 33035
+    },
+    {
+      "majorName": "临床医学（临床通科医师（武警）",
+      "majorKey": "a4bc5858",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 1,
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 34876,
+      "equivRank": 34876
+    },
+    {
+      "majorName": "临床医学（临床通科医师）",
+      "majorKey": "a8db60fd",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 6,
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 34876,
+      "equivRank": 34876
+    },
+    {
+      "majorName": "临床医学（临床心理医师）",
+      "majorKey": "9e0d0f93",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 40819,
+      "equivRank": 40819
     }
   ]
 }

@@ -4,8 +4,8 @@
   "leaves": [
     {
       "schoolCode": "4468",
-      "majorKey": "8aa56116",
-      "majorName": "会计学",
+      "majorKey": "6ebd7c02",
+      "majorName": "会计学（国际班）",
       "selKe": "不限",
       "years": [
         {
@@ -14,7 +14,45 @@
           "minScore": 581,
           "minRank": 74460,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4468",
+      "majorKey": "8c3f266d",
+      "majorName": "会计学（广州校区。该校另行收取较高课程培训费。）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 531,
+          "minRank": 136302,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4468",
+      "majorKey": "ead6fbbc",
+      "majorName": "会计学（广州校区。该校另行收取较高课程培训费）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 529,
+          "minRank": 137915,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4468",
+      "majorKey": "8047dc0f",
+      "majorName": "会计学（第一学年在肇庆校区，第二学年起在广州校区）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -26,8 +64,8 @@
     },
     {
       "schoolCode": "4468",
-      "majorKey": "c8cc37b2",
-      "majorName": "传播学",
+      "majorKey": "12f63596",
+      "majorName": "传播学（国际班）",
       "selKe": "不限",
       "years": [
         {
@@ -36,7 +74,45 @@
           "minScore": 580,
           "minRank": 76186,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4468",
+      "majorKey": "43e74be1",
+      "majorName": "传播学（广州校区。该校另行收取较高课程培训费。）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 526,
+          "minRank": 142327,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4468",
+      "majorKey": "24a05188",
+      "majorName": "传播学（广州校区。该校另行收取较高课程培训费）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 524,
+          "minRank": 144213,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4468",
+      "majorKey": "66d5398b",
+      "majorName": "传播学（第一学年在肇庆校区，第二学年起在广州校区）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -49,10 +125,10 @@
   ],
   "plan2026": [
     {
-      "majorName": "会计学",
-      "majorKey": "8aa56116",
+      "majorName": "会计学（第一学年在肇庆校区，第二学年起在广州校区）",
+      "majorKey": "8047dc0f",
       "selKe": "不限",
-      "plan": 13,
+      "plan": 1,
       "tuition": "35000",
       "schooling": "四年",
       "menlei": "管",
@@ -61,16 +137,40 @@
       "equivRank": 110178
     },
     {
-      "majorName": "传播学",
-      "majorKey": "c8cc37b2",
+      "majorName": "传播学（第一学年在肇庆校区，第二学年起在广州校区）",
+      "majorKey": "66d5398b",
       "selKe": "不限",
-      "plan": 9,
+      "plan": 1,
       "tuition": "35000",
       "schooling": "四年",
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 126536,
       "equivRank": 126536
+    },
+    {
+      "majorName": "会计学（广州校区。该校另行收取较高课程培训费）",
+      "majorKey": "ead6fbbc",
+      "selKe": "不限",
+      "plan": 12,
+      "tuition": "35000",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 137915,
+      "equivRank": 137915
+    },
+    {
+      "majorName": "传播学（广州校区。该校另行收取较高课程培训费）",
+      "majorKey": "24a05188",
+      "selKe": "不限",
+      "plan": 8,
+      "tuition": "35000",
+      "schooling": "四年",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 144213,
+      "equivRank": 144213
     }
   ]
 }

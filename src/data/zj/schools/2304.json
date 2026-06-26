@@ -4,17 +4,10 @@
   "leaves": [
     {
       "schoolCode": "2304",
-      "majorKey": "1f0182ac",
-      "majorName": "农林经济管理",
+      "majorKey": "3d25b384",
+      "majorName": "农林经济管理（拔尖人才培养班）",
       "selKe": "不限",
       "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 629,
-          "minRank": 26216,
-          "maxScore": 0
-        },
         {
           "year": 2024,
           "track": "综合",
@@ -33,8 +26,23 @@
     },
     {
       "schoolCode": "2304",
-      "majorKey": "ca01c9a2",
-      "majorName": "动物科学",
+      "majorKey": "c90e6991",
+      "majorName": "农林经济管理（本硕博班）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 629,
+          "minRank": 26216,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2304",
+      "majorKey": "8a6cd39a",
+      "majorName": "动物科学（中美121双学位项目）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -70,28 +78,6 @@
     },
     {
       "schoolCode": "2304",
-      "majorKey": "07c28723",
-      "majorName": "工商管理",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 623,
-          "minRank": 31393,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 611,
-          "minRank": 40629,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolCode": "2304",
       "majorKey": "b74128f4",
       "majorName": "工商管理类",
       "selKe": "不限",
@@ -115,6 +101,28 @@
           "track": "综合",
           "minScore": 625,
           "minRank": 27449,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2304",
+      "majorKey": "49f44233",
+      "majorName": "工商管理（中美121双学位项目）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 623,
+          "minRank": 31393,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 611,
+          "minRank": 40629,
           "maxScore": 0
         }
       ]
@@ -186,8 +194,8 @@
     },
     {
       "schoolCode": "2304",
-      "majorKey": "e2472a71",
-      "majorName": "生物科学",
+      "majorKey": "99813245",
+      "majorName": "生物科学（中美121双学位项目）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -245,8 +253,8 @@
     },
     {
       "schoolCode": "2304",
-      "majorKey": "1d486608",
-      "majorName": "计算机科学与技术",
+      "majorKey": "78125504",
+      "majorName": "计算机科学与技术（中美121双学位项目）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -339,21 +347,6 @@
     },
     {
       "schoolCode": "2304",
-      "majorKey": "7b7511cd",
-      "majorName": "食品科学与工程",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 584,
-          "minRank": 70220,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolCode": "2304",
       "majorKey": "6e702db2",
       "majorName": "食品科学与工程类",
       "selKe": "物理、化学(2科必选)",
@@ -387,12 +380,27 @@
           "maxScore": 0
         }
       ]
+    },
+    {
+      "schoolCode": "2304",
+      "majorKey": "f70a8431",
+      "majorName": "食品科学与工程（中美121双学位项目）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 584,
+          "minRank": 70220,
+          "maxScore": 0
+        }
+      ]
     }
   ],
   "plan2026": [
     {
-      "majorName": "农林经济管理",
-      "majorKey": "1f0182ac",
+      "majorName": "农林经济管理（拔尖人才培养班）",
+      "majorKey": "3d25b384",
       "selKe": "不限",
       "plan": 2,
       "tuition": "3500",
@@ -475,8 +483,8 @@
       "equivRank": 39517
     },
     {
-      "majorName": "工商管理",
-      "majorKey": "07c28723",
+      "majorName": "工商管理（中美121双学位项目）",
+      "majorKey": "49f44233",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5000",
@@ -499,8 +507,8 @@
       "equivRank": 51592
     },
     {
-      "majorName": "食品科学与工程",
-      "majorKey": "7b7511cd",
+      "majorName": "食品科学与工程（中美121双学位项目）",
+      "majorKey": "f70a8431",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5500",
@@ -511,8 +519,8 @@
       "equivRank": 70220
     },
     {
-      "majorName": "生物科学",
-      "majorKey": "e2472a71",
+      "majorName": "生物科学（中美121双学位项目）",
+      "majorKey": "99813245",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5000",
@@ -523,8 +531,8 @@
       "equivRank": 111914
     },
     {
-      "majorName": "动物科学",
-      "majorKey": "ca01c9a2",
+      "majorName": "动物科学（中美121双学位项目）",
+      "majorKey": "8a6cd39a",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5000",

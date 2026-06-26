@@ -6,7 +6,7 @@
       "schoolCode": "3516",
       "majorKey": "2285e5ca",
       "majorName": "中医学",
-      "selKe": "生物必选",
+      "selKe": "物理、生物(2科必选)",
       "years": [
         {
           "year": 2022,
@@ -28,7 +28,15 @@
           "minScore": 616,
           "minRank": 37640,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "3516",
+      "majorKey": "7f7f2576",
+      "majorName": "中医学（旗山校区）",
+      "selKe": "生物必选",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -40,8 +48,8 @@
     },
     {
       "schoolCode": "3516",
-      "majorKey": "0d418e8e",
-      "majorName": "中医骨伤科学",
+      "majorKey": "2e1b1732",
+      "majorName": "中医骨伤科学（旗山校区）",
       "selKe": "物理、生物(2科必选)",
       "years": [
         {
@@ -79,7 +87,15 @@
           "minScore": 589,
           "minRank": 65261,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "3516",
+      "majorKey": "78f8e02c",
+      "majorName": "中药学（旗山校区）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -115,7 +131,15 @@
           "minScore": 622,
           "minRank": 31731,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "3516",
+      "majorKey": "1377ed87",
+      "majorName": "中西医临床医学（旗山校区）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -129,7 +153,7 @@
       "schoolCode": "3516",
       "majorKey": "618f7040",
       "majorName": "临床医学",
-      "selKe": "物理、化学(2科必选)",
+      "selKe": "化学、生物(2科必选)",
       "years": [
         {
           "year": 2022,
@@ -144,7 +168,15 @@
           "minScore": 637,
           "minRank": 20296,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "3516",
+      "majorKey": "b455b2f8",
+      "majorName": "临床医学（旗山校区）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -245,7 +277,7 @@
       "schoolCode": "3516",
       "majorKey": "c7acab0a",
       "majorName": "护理学",
-      "selKe": "生物必选",
+      "selKe": "不限",
       "years": [
         {
           "year": 2022,
@@ -259,6 +291,21 @@
           "track": "综合",
           "minScore": 600,
           "minRank": 52863,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3516",
+      "majorKey": "550c4ae0",
+      "majorName": "护理学（中外合作办学）",
+      "selKe": "生物必选",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 567,
+          "minRank": 88019,
           "maxScore": 0
         },
         {
@@ -303,7 +350,15 @@
           "minScore": 604,
           "minRank": 49018,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "3516",
+      "majorKey": "53af052d",
+      "majorName": "药学（旗山校区）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -346,7 +401,7 @@
       "schoolCode": "3516",
       "majorKey": "c744f66e",
       "majorName": "针灸推拿学",
-      "selKe": "生物必选",
+      "selKe": "物理、生物(2科必选)",
       "years": [
         {
           "year": 2022,
@@ -368,7 +423,15 @@
           "minScore": 606,
           "minRank": 46921,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "3516",
+      "majorKey": "06efdd52",
+      "majorName": "针灸推拿学（旗山校区）",
+      "selKe": "生物必选",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -381,8 +444,8 @@
   ],
   "plan2026": [
     {
-      "majorName": "中医学",
-      "majorKey": "2285e5ca",
+      "majorName": "中医学（旗山校区）",
+      "majorKey": "7f7f2576",
       "selKe": "生物必选",
       "plan": 2,
       "tuition": "6760",
@@ -393,8 +456,8 @@
       "equivRank": 25597
     },
     {
-      "majorName": "针灸推拿学",
-      "majorKey": "c744f66e",
+      "majorName": "针灸推拿学（旗山校区）",
+      "majorKey": "06efdd52",
       "selKe": "生物必选",
       "plan": 1,
       "tuition": "6760",
@@ -405,8 +468,8 @@
       "equivRank": 26542
     },
     {
-      "majorName": "临床医学",
-      "majorKey": "618f7040",
+      "majorName": "临床医学（旗山校区）",
+      "majorKey": "b455b2f8",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "6760",
@@ -417,8 +480,8 @@
       "equivRank": 37329
     },
     {
-      "majorName": "中西医临床医学",
-      "majorKey": "8a499b4f",
+      "majorName": "中西医临床医学（旗山校区）",
+      "majorKey": "1377ed87",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "6760",
@@ -429,8 +492,8 @@
       "equivRank": 39273
     },
     {
-      "majorName": "药学",
-      "majorKey": "e9e6a481",
+      "majorName": "药学（旗山校区）",
+      "majorKey": "53af052d",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "6760",
@@ -441,8 +504,8 @@
       "equivRank": 52751
     },
     {
-      "majorName": "中医骨伤科学",
-      "majorKey": "0d418e8e",
+      "majorName": "中医骨伤科学（旗山校区）",
+      "majorKey": "2e1b1732",
       "selKe": "物理、生物(2科必选)",
       "plan": 1,
       "tuition": "6760",
@@ -453,8 +516,8 @@
       "equivRank": 53101
     },
     {
-      "majorName": "护理学",
-      "majorKey": "c7acab0a",
+      "majorName": "护理学（中外合作办学）",
+      "majorKey": "550c4ae0",
       "selKe": "生物必选",
       "plan": 2,
       "tuition": "20000",
@@ -466,8 +529,8 @@
       "equivRank": 74359
     },
     {
-      "majorName": "中药学",
-      "majorKey": "f9504a0c",
+      "majorName": "中药学（旗山校区）",
+      "majorKey": "78f8e02c",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "6760",

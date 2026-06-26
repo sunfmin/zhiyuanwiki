@@ -4,8 +4,8 @@
   "leaves": [
     {
       "schoolCode": "5120",
-      "majorKey": "0cf20d83",
-      "majorName": "中国古典学",
+      "majorKey": "4c6a3908",
+      "majorName": "中国古典学（江安校区）",
       "selKe": "不限",
       "years": [
         {
@@ -41,17 +41,10 @@
     },
     {
       "schoolCode": "5120",
-      "majorKey": "618f7040",
-      "majorName": "临床医学",
+      "majorKey": "5140382c",
+      "majorName": "临床医学（五年制）",
       "selKe": "物理、化学(2科必选)",
       "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 665,
-          "minRank": 2992,
-          "maxScore": 0
-        },
         {
           "year": 2023,
           "track": "综合",
@@ -62,10 +55,48 @@
         {
           "year": 2024,
           "track": "综合",
+          "minScore": 673,
+          "minRank": 3931,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "436093c1",
+      "majorName": "临床医学（五年）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 665,
+          "minRank": 2992,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "c08a5033",
+      "majorName": "临床医学（八年制）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
           "minScore": 687,
           "minRank": 1267,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "7c4bf49f",
+      "majorName": "临床医学（江安校区）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -77,17 +108,10 @@
     },
     {
       "schoolCode": "5120",
-      "majorKey": "e70fa033",
-      "majorName": "人文科学试验班",
+      "majorKey": "c870ad46",
+      "majorName": "人文科学试验班（中文与新闻传播）",
       "selKe": "不限",
       "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 661,
-          "minRank": 7801,
-          "maxScore": 0
-        },
         {
           "year": 2024,
           "track": "综合",
@@ -106,8 +130,23 @@
     },
     {
       "schoolCode": "5120",
-      "majorKey": "8aa56116",
-      "majorName": "会计学",
+      "majorKey": "def0bf2d",
+      "majorName": "人文科学试验班（信息管理）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 661,
+          "minRank": 7801,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "401ec553",
+      "majorName": "会计学（ACCA）",
       "selKe": "不限",
       "years": [
         {
@@ -182,7 +221,15 @@
           "minScore": 660,
           "minRank": 8290,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "ce982b7b",
+      "majorName": "公共管理类（江安校区。含行政管理、劳动与社会保障、土地资源管理、信息资源管理、社会工作专业）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -218,7 +265,15 @@
           "minScore": 655,
           "minRank": 10177,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "88698422",
+      "majorName": "化学类（江安校区。含化学、应用化学专业）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -257,20 +312,6 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 652,
-          "minRank": 7183,
-          "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 663,
-          "minRank": 6742,
-          "maxScore": 0
-        },
-        {
           "year": 2024,
           "track": "综合",
           "minScore": 657,
@@ -288,8 +329,30 @@
     },
     {
       "schoolCode": "5120",
-      "majorKey": "696c3187",
-      "majorName": "医学试验班",
+      "majorKey": "451efff3",
+      "majorName": "医学技术类（医学技术与智能制造双学士学位）",
+      "selKe": "物/化/生(3选1)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 652,
+          "minRank": 7183,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 663,
+          "minRank": 6742,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "12f664d0",
+      "majorName": "医学试验班（医学基础与法医学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -334,34 +397,13 @@
       "schoolCode": "5120",
       "majorKey": "c162bced",
       "majorName": "口腔医学",
-      "selKe": "物理、化学(2科必选)",
+      "selKe": "物/化/生(3选1)",
       "years": [
         {
           "year": 2022,
           "track": "综合",
-          "minScore": 680,
-          "minRank": 677,
-          "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 693,
-          "minRank": 520,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 691,
-          "minRank": 902,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 681,
-          "minRank": 1452,
+          "minScore": 671,
+          "minRank": 1765,
           "maxScore": 0
         }
       ]
@@ -384,6 +426,116 @@
           "track": "综合",
           "minScore": 660,
           "minRank": 7949,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "cda546aa",
+      "majorName": "口腔医学（5+3一体化）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 678,
+          "minRank": 901,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 689,
+          "minRank": 823,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 689,
+          "minRank": 1129,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 677,
+          "minRank": 2094,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "b719194f",
+      "majorName": "口腔医学（五年制）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 679,
+          "minRank": 2215,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 678,
+          "minRank": 2766,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "51f6103c",
+      "majorName": "口腔医学（八年制）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 693,
+          "minRank": 520,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 691,
+          "minRank": 902,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "7b7c46d9",
+      "majorName": "口腔医学（本硕博贯通式培养）",
+      "selKe": "物/化/生(3选1)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 680,
+          "minRank": 677,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "dc5305fe",
+      "majorName": "口腔医学（江安校区）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 681,
+          "minRank": 1452,
           "maxScore": 0
         }
       ]
@@ -414,7 +566,15 @@
           "minScore": 662,
           "minRank": 7524,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "471809dc",
+      "majorName": "哲学（江安校区）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -426,8 +586,8 @@
     },
     {
       "schoolCode": "5120",
-      "majorKey": "b5171121",
-      "majorName": "国际政治",
+      "majorKey": "fa5b428a",
+      "majorName": "国际政治（江安校区）",
       "selKe": "思想政治必选",
       "years": [
         {
@@ -473,7 +633,15 @@
           "minScore": 650,
           "minRank": 8173,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "0d45007e",
+      "majorName": "基础医学（基地班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2023,
           "track": "综合",
@@ -507,8 +675,8 @@
     },
     {
       "schoolCode": "5120",
-      "majorKey": "13c18eb7",
-      "majorName": "工业工程",
+      "majorKey": "81dd7129",
+      "majorName": "工业工程（中外合作办学）",
       "selKe": "物理必选",
       "years": [
         {
@@ -560,7 +728,15 @@
           "minScore": 663,
           "minRank": 7025,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "1e4905c5",
+      "majorName": "工商管理类（江安校区。含市场营销、人力资源管理、财务管理、会计学（ACCA）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -572,8 +748,96 @@
     },
     {
       "schoolCode": "5120",
-      "majorKey": "b363aa3d",
-      "majorName": "工科试验班",
+      "majorKey": "cac058e2",
+      "majorName": "工科试验班（先进低碳材料与食品健康）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 655,
+          "minRank": 10081,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 649,
+          "minRank": 11631,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "4f25c64f",
+      "majorName": "工科试验班（先进低碳材料）",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 648,
+          "minRank": 9312,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 659,
+          "minRank": 8603,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "06ad5dbc",
+      "majorName": "工科试验班（先进化工与高端装备类）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 657,
+          "minRank": 9143,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 652,
+          "minRank": 10259,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "91a77c7f",
+      "majorName": "工科试验班（动力装备与安全）",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 647,
+          "minRank": 9680,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 658,
+          "minRank": 8997,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "3aa00229",
+      "majorName": "工科试验班（智能制造）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -608,6 +872,65 @@
     },
     {
       "schoolCode": "5120",
+      "majorKey": "d984fb4f",
+      "majorName": "工科试验班（绿色化工与生物医药）",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 657,
+          "minRank": 9108,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "86b781bf",
+      "majorName": "工科试验班（绿色城市与智慧建造）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 654,
+          "minRank": 10462,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 648,
+          "minRank": 12267,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "7f257235",
+      "majorName": "工科试验班（食品健康与安全）",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 645,
+          "minRank": 10495,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 654,
+          "minRank": 10885,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
       "majorKey": "8c993eb0",
       "majorName": "工程力学",
       "selKe": "物理必选",
@@ -630,8 +953,8 @@
     },
     {
       "schoolCode": "5120",
-      "majorKey": "b86f75b5",
-      "majorName": "广播电视编导",
+      "majorKey": "a3ad4e1a",
+      "majorName": "广播电视编导（江安校区。艺术类专业，进校后不能转入非艺术类专业。授予艺术学学士学位。要求高考成绩不低于特殊类型招生控制线）",
       "selKe": "不限",
       "years": [
         {
@@ -696,8 +1019,8 @@
     },
     {
       "schoolCode": "5120",
-      "majorKey": "618fdffd",
-      "majorName": "数学与应用数学",
+      "majorKey": "f993b51e",
+      "majorName": "数学与应用数学（数学经济学双学士学位）",
       "selKe": "物理必选",
       "years": [
         {
@@ -806,8 +1129,8 @@
     },
     {
       "schoolCode": "5120",
-      "majorKey": "55ff9da5",
-      "majorName": "机械设计制造及其自动化",
+      "majorKey": "ae7e82c7",
+      "majorName": "机械设计制造及其自动化（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -835,8 +1158,8 @@
     },
     {
       "schoolCode": "5120",
-      "majorKey": "c425ce53",
-      "majorName": "材料科学与工程",
+      "majorKey": "39cb7775",
+      "majorName": "材料科学与工程（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -864,8 +1187,8 @@
     },
     {
       "schoolCode": "5120",
-      "majorKey": "b2ac374c",
-      "majorName": "材料类",
+      "majorKey": "d76f65dc",
+      "majorName": "材料类（新能源与纳米材料）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -908,8 +1231,8 @@
     },
     {
       "schoolCode": "5120",
-      "majorKey": "97bc5998",
-      "majorName": "汉语言文学",
+      "majorKey": "f50f82a9",
+      "majorName": "汉语言文学（基地班）",
       "selKe": "不限",
       "years": [
         {
@@ -969,7 +1292,15 @@
           "minScore": 667,
           "minRank": 5514,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "11c8e38c",
+      "majorName": "法学（江安校区）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -1013,7 +1344,15 @@
           "minScore": 659,
           "minRank": 8490,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "2e3752d4",
+      "majorName": "物理学类（江安校区。含物理学、微电子科学与工程、核工程与核技术专业）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -1035,7 +1374,15 @@
           "minScore": 661,
           "minRank": 7727,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "46db176e",
+      "majorName": "生物医学工程类（江安校区。含生物医学工程、医学信息工程专业）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -1083,8 +1430,8 @@
     },
     {
       "schoolCode": "5120",
-      "majorKey": "fd603692",
-      "majorName": "电子信息工程",
+      "majorKey": "635403c8",
+      "majorName": "电子信息工程（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -1136,7 +1483,15 @@
           "minScore": 661,
           "minRank": 7599,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "4481c0cf",
+      "majorName": "电子信息类（江安校区。含电子信息工程、光电信息科学与工程、通信工程专业）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -1148,8 +1503,8 @@
     },
     {
       "schoolCode": "5120",
-      "majorKey": "45947d31",
-      "majorName": "电气工程及其自动化",
+      "majorKey": "05b8e6d3",
+      "majorName": "电气工程及其自动化（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -1208,7 +1563,15 @@
           "minScore": 660,
           "minRank": 8227,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "3b8951c2",
+      "majorName": "电气类（江安校区。含电气工程及其自动化、自动化专业）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -1242,8 +1605,8 @@
     },
     {
       "schoolCode": "5120",
-      "majorKey": "78bffed9",
-      "majorName": "管理科学与工程类",
+      "majorKey": "9a7e09c6",
+      "majorName": "管理科学与工程类（江安校区。含管理科学、工业工程专业）",
       "selKe": "物理必选",
       "years": [
         {
@@ -1369,7 +1732,15 @@
           "minScore": 656,
           "minRank": 9834,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "9bddafec",
+      "majorName": "药学类（江安校区。含药学、临床药学专业）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -1381,8 +1752,8 @@
     },
     {
       "schoolCode": "5120",
-      "majorKey": "1d486608",
-      "majorName": "计算机科学与技术",
+      "majorKey": "d655935e",
+      "majorName": "计算机科学与技术（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -1395,8 +1766,8 @@
         {
           "year": 2023,
           "track": "综合",
-          "minScore": 664,
-          "minRank": 6558,
+          "minScore": 653,
+          "minRank": 11012,
           "maxScore": 0
         },
         {
@@ -1404,6 +1775,21 @@
           "track": "综合",
           "minScore": 655,
           "minRank": 10051,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "4a6fd361",
+      "majorName": "计算机科学与技术（计算机与金融双学士学位）",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 664,
+          "minRank": 6558,
           "maxScore": 0
         }
       ]
@@ -1490,8 +1876,8 @@
     },
     {
       "schoolCode": "5120",
-      "majorKey": "1954d9c9",
-      "majorName": "预防医学",
+      "majorKey": "988cf7ec",
+      "majorName": "预防医学（预防与软件双学士学位）",
       "selKe": "物/化/生(3选1)",
       "years": [
         {
@@ -1536,7 +1922,15 @@
           "minScore": 657,
           "minRank": 9468,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "25c87bec",
+      "majorName": "高分子材料与工程（江安校区）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -1549,10 +1943,10 @@
   ],
   "plan2026": [
     {
-      "majorName": "口腔医学",
-      "majorKey": "c162bced",
+      "majorName": "口腔医学（江安校区）",
+      "majorKey": "dc5305fe",
       "selKe": "物理、化学(2科必选)",
-      "plan": 7,
+      "plan": 5,
       "tuition": "7250",
       "schooling": "五年",
       "menlei": "医",
@@ -1561,8 +1955,20 @@
       "equivRank": 1452
     },
     {
-      "majorName": "临床医学",
-      "majorKey": "618f7040",
+      "majorName": "口腔医学（5+3一体化）",
+      "majorKey": "cda546aa",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "7250",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 2094,
+      "equivRank": 2094
+    },
+    {
+      "majorName": "临床医学（江安校区）",
+      "majorKey": "7c4bf49f",
       "selKe": "物理、化学(2科必选)",
       "plan": 6,
       "tuition": "7250",
@@ -1573,8 +1979,8 @@
       "equivRank": 2349
     },
     {
-      "majorName": "法学",
-      "majorKey": "a1113a1f",
+      "majorName": "法学（江安校区）",
+      "majorKey": "11c8e38c",
       "selKe": "不限",
       "plan": 4,
       "tuition": "6000",
@@ -1585,20 +1991,20 @@
       "equivRank": 5640
     },
     {
-      "majorName": "人文科学试验班",
-      "majorKey": "e70fa033",
+      "majorName": "人文科学试验班（中文与新闻传播）",
+      "majorKey": "c870ad46",
       "selKe": "不限",
       "plan": 11,
       "tuition": "6000",
       "schooling": "四年",
-      "menlei": "他",
+      "menlei": "文",
       "prevYear": 2025,
       "prevRank": 6214,
       "equivRank": 6214
     },
     {
-      "majorName": "工商管理类",
-      "majorKey": "b74128f4",
+      "majorName": "工商管理类（江安校区。含市场营销、人力资源管理、财务管理、会计学（ACCA）",
+      "majorKey": "1e4905c5",
       "selKe": "不限",
       "plan": 9,
       "tuition": "6000",
@@ -1609,8 +2015,8 @@
       "equivRank": 6794
     },
     {
-      "majorName": "中国古典学",
-      "majorKey": "0cf20d83",
+      "majorName": "中国古典学（江安校区）",
+      "majorKey": "4c6a3908",
       "selKe": "不限",
       "plan": 3,
       "tuition": "6000",
@@ -1621,8 +2027,8 @@
       "equivRank": 6852
     },
     {
-      "majorName": "哲学",
-      "majorKey": "34eac38f",
+      "majorName": "哲学（江安校区）",
+      "majorKey": "471809dc",
       "selKe": "不限",
       "plan": 3,
       "tuition": "4800",
@@ -1669,8 +2075,8 @@
       "equivRank": 8008
     },
     {
-      "majorName": "公共管理类",
-      "majorKey": "63da9816",
+      "majorName": "公共管理类（江安校区。含行政管理、劳动与社会保障、土地资源管理、信息资源管理、社会工作专业）",
+      "majorKey": "ce982b7b",
       "selKe": "不限",
       "plan": 6,
       "tuition": "6000",
@@ -1693,8 +2099,8 @@
       "equivRank": 8145
     },
     {
-      "majorName": "国际政治",
-      "majorKey": "b5171121",
+      "majorName": "国际政治（江安校区）",
+      "majorKey": "fa5b428a",
       "selKe": "思想政治必选",
       "plan": 4,
       "tuition": "6000",
@@ -1705,8 +2111,8 @@
       "equivRank": 8148
     },
     {
-      "majorName": "电子信息类",
-      "majorKey": "5e0efed0",
+      "majorName": "电子信息类（江安校区。含电子信息工程、光电信息科学与工程、通信工程专业）",
+      "majorKey": "4481c0cf",
       "selKe": "物理、化学(2科必选)",
       "plan": 8,
       "tuition": "6500",
@@ -1717,8 +2123,8 @@
       "equivRank": 8397
     },
     {
-      "majorName": "生物医学工程类",
-      "majorKey": "93f68d56",
+      "majorName": "生物医学工程类（江安校区。含生物医学工程、医学信息工程专业）",
+      "majorKey": "46db176e",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "6500",
@@ -1729,8 +2135,8 @@
       "equivRank": 8672
     },
     {
-      "majorName": "电气类",
-      "majorKey": "e1371d8e",
+      "majorName": "电气类（江安校区。含电气工程及其自动化、自动化专业）",
+      "majorKey": "3b8951c2",
       "selKe": "物理、化学(2科必选)",
       "plan": 20,
       "tuition": "6500",
@@ -1741,20 +2147,20 @@
       "equivRank": 8930
     },
     {
-      "majorName": "工科试验班",
-      "majorKey": "b363aa3d",
+      "majorName": "工科试验班（智能制造）",
+      "majorKey": "3aa00229",
       "selKe": "物理、化学(2科必选)",
-      "plan": 50,
+      "plan": 10,
       "tuition": "6500",
       "schooling": "四年",
-      "menlei": "他",
+      "menlei": "工",
       "prevYear": 2025,
       "prevRank": 9093,
       "equivRank": 9093
     },
     {
-      "majorName": "物理学类",
-      "majorKey": "3d12abf2",
+      "majorName": "物理学类（江安校区。含物理学、微电子科学与工程、核工程与核技术专业）",
+      "majorKey": "2e3752d4",
       "selKe": "物理、化学(2科必选)",
       "plan": 8,
       "tuition": "6500",
@@ -1765,8 +2171,8 @@
       "equivRank": 9604
     },
     {
-      "majorName": "高分子材料与工程",
-      "majorKey": "fc81313f",
+      "majorName": "高分子材料与工程（江安校区）",
+      "majorKey": "25c87bec",
       "selKe": "物理、化学(2科必选)",
       "plan": 8,
       "tuition": "6500",
@@ -1789,8 +2195,20 @@
       "equivRank": 10225
     },
     {
-      "majorName": "管理科学与工程类",
-      "majorKey": "78bffed9",
+      "majorName": "工科试验班（先进化工与高端装备类）",
+      "majorKey": "06ad5dbc",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 13,
+      "tuition": "6500",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 10259,
+      "equivRank": 10259
+    },
+    {
+      "majorName": "管理科学与工程类（江安校区。含管理科学、工业工程专业）",
+      "majorKey": "9a7e09c6",
       "selKe": "物理必选",
       "plan": 5,
       "tuition": "6000",
@@ -1801,8 +2219,8 @@
       "equivRank": 10891
     },
     {
-      "majorName": "医学试验班",
-      "majorKey": "696c3187",
+      "majorName": "医学试验班（医学基础与法医学）",
+      "majorKey": "12f664d0",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "7250",
@@ -1813,8 +2231,8 @@
       "equivRank": 10954
     },
     {
-      "majorName": "化学类",
-      "majorKey": "d1bd847f",
+      "majorName": "化学类（江安校区。含化学、应用化学专业）",
+      "majorKey": "88698422",
       "selKe": "物理、化学(2科必选)",
       "plan": 13,
       "tuition": "6500",
@@ -1825,8 +2243,8 @@
       "equivRank": 11092
     },
     {
-      "majorName": "电气工程及其自动化",
-      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化（中外合作办学）",
+      "majorKey": "05b8e6d3",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "80000",
@@ -1850,8 +2268,20 @@
       "equivRank": 11548
     },
     {
-      "majorName": "广播电视编导",
-      "majorKey": "b86f75b5",
+      "majorName": "工科试验班（先进低碳材料与食品健康）",
+      "majorKey": "cac058e2",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 14,
+      "tuition": "6500",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 11631,
+      "equivRank": 11631
+    },
+    {
+      "majorName": "广播电视编导（江安校区。艺术类专业，进校后不能转入非艺术类专业。授予艺术学学士学位。要求高考成绩不低于特殊类型招生控制线）",
+      "majorKey": "a3ad4e1a",
       "selKe": "不限",
       "plan": 3,
       "tuition": "12500",
@@ -1862,8 +2292,20 @@
       "equivRank": 12188
     },
     {
-      "majorName": "药学类",
-      "majorKey": "41174006",
+      "majorName": "工科试验班（绿色城市与智慧建造）",
+      "majorKey": "86b781bf",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 13,
+      "tuition": "6500",
+      "schooling": "四年",
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 12267,
+      "equivRank": 12267
+    },
+    {
+      "majorName": "药学类（江安校区。含药学、临床药学专业）",
+      "majorKey": "9bddafec",
       "selKe": "物理、化学(2科必选)",
       "plan": 10,
       "tuition": "7250",

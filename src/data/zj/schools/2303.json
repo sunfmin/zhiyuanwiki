@@ -69,35 +69,6 @@
     },
     {
       "schoolCode": "2303",
-      "majorKey": "04ab47fe",
-      "majorName": "化学",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 597,
-          "minRank": 55053,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 604,
-          "minRank": 49767,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 596,
-          "minRank": 56637,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolCode": "2303",
       "majorKey": "d1bd847f",
       "majorName": "化学类",
       "selKe": "物理、化学(2科必选)",
@@ -128,6 +99,35 @@
           "track": "综合",
           "minScore": 605,
           "minRank": 46943,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2303",
+      "majorKey": "f9726dd4",
+      "majorName": "化学（中外合作办学）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 597,
+          "minRank": 55053,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 604,
+          "minRank": 49767,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 596,
+          "minRank": 56637,
           "maxScore": 0
         }
       ]
@@ -309,8 +309,8 @@
     },
     {
       "schoolCode": "2303",
-      "majorKey": "8f88d485",
-      "majorName": "智慧林业",
+      "majorKey": "0131fc14",
+      "majorName": "智慧林业（拔尖人才成栋班）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -425,8 +425,8 @@
     },
     {
       "schoolCode": "2303",
-      "majorKey": "710bfc36",
-      "majorName": "机械类",
+      "majorKey": "f0740ab9",
+      "majorName": "机械类（机电）",
       "selKe": "物理必选",
       "years": [
         {
@@ -434,6 +434,21 @@
           "track": "综合",
           "minScore": 607,
           "minRank": 40910,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2303",
+      "majorKey": "aa496798",
+      "majorName": "机械类（车辆）",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 602,
+          "minRank": 45781,
           "maxScore": 0
         }
       ]
@@ -577,8 +592,8 @@
     },
     {
       "schoolCode": "2303",
-      "majorKey": "0ac1da59",
-      "majorName": "生物技术",
+      "majorKey": "2a290dfb",
+      "majorName": "生物技术（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -600,21 +615,6 @@
           "track": "综合",
           "minScore": 596,
           "minRank": 55847,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolCode": "2303",
-      "majorKey": "e2472a71",
-      "majorName": "生物科学",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 614,
-          "minRank": 37096,
           "maxScore": 0
         }
       ]
@@ -651,6 +651,21 @@
           "track": "综合",
           "minScore": 612,
           "minRank": 39287,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2303",
+      "majorKey": "65e009b8",
+      "majorName": "生物科学（拔尖人才成栋班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 614,
+          "minRank": 37096,
           "maxScore": 0
         }
       ]
@@ -752,8 +767,8 @@
     },
     {
       "schoolCode": "2303",
-      "majorKey": "1d486608",
-      "majorName": "计算机科学与技术",
+      "majorKey": "d655935e",
+      "majorName": "计算机科学与技术（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -1061,8 +1076,8 @@
       "equivRank": 36823
     },
     {
-      "majorName": "生物科学",
-      "majorKey": "e2472a71",
+      "majorName": "生物科学（拔尖人才成栋班）",
+      "majorKey": "65e009b8",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5400",
@@ -1085,8 +1100,8 @@
       "equivRank": 39287
     },
     {
-      "majorName": "智慧林业",
-      "majorKey": "8f88d485",
+      "majorName": "智慧林业（拔尖人才成栋班）",
+      "majorKey": "0131fc14",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5000",
@@ -1121,8 +1136,8 @@
       "equivRank": 40412
     },
     {
-      "majorName": "计算机科学与技术",
-      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术（中外合作办学）",
+      "majorKey": "d655935e",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "60000",
@@ -1218,8 +1233,8 @@
       "equivRank": 54947
     },
     {
-      "majorName": "生物技术",
-      "majorKey": "0ac1da59",
+      "majorName": "生物技术（中外合作办学）",
+      "majorKey": "2a290dfb",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "60000",
@@ -1231,8 +1246,8 @@
       "equivRank": 55847
     },
     {
-      "majorName": "化学",
-      "majorKey": "04ab47fe",
+      "majorName": "化学（中外合作办学）",
+      "majorKey": "f9726dd4",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "60000",

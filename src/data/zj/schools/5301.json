@@ -39,17 +39,25 @@
       "selKe": "地理必选",
       "years": [
         {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 559,
-          "minRank": 96372,
-          "maxScore": 0
-        },
-        {
           "year": 2024,
           "track": "综合",
           "minScore": 571,
           "minRank": 86723,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5301",
+      "majorKey": "198d794d",
+      "majorName": "地理科学（师范）",
+      "selKe": "地理必选",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 559,
+          "minRank": 96372,
           "maxScore": 0
         },
         {
@@ -68,6 +76,21 @@
       "selKe": "不限",
       "years": [
         {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 564,
+          "minRank": 94935,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5301",
+      "majorKey": "6e38b28d",
+      "majorName": "学前教育（师范）",
+      "selKe": "不限",
+      "years": [
+        {
           "year": 2022,
           "track": "综合",
           "minScore": 559,
@@ -82,13 +105,6 @@
           "maxScore": 0
         },
         {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 564,
-          "minRank": 94935,
-          "maxScore": 0
-        },
-        {
           "year": 2025,
           "track": "综合",
           "minScore": 558,
@@ -99,8 +115,8 @@
     },
     {
       "schoolCode": "5301",
-      "majorKey": "6a15bc12",
-      "majorName": "思想政治教育",
+      "majorKey": "47452c2f",
+      "majorName": "思想政治教育（师范）",
       "selKe": "思想政治必选",
       "years": [
         {
@@ -126,6 +142,21 @@
       "selKe": "物理必选",
       "years": [
         {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 528,
+          "minRank": 137276,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5301",
+      "majorKey": "26d35d07",
+      "majorName": "教育技术学（师范）",
+      "selKe": "物理必选",
+      "years": [
+        {
           "year": 2022,
           "track": "综合",
           "minScore": 556,
@@ -137,13 +168,6 @@
           "track": "综合",
           "minScore": 523,
           "minRank": 136846,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 528,
-          "minRank": 137276,
           "maxScore": 0
         },
         {
@@ -196,7 +220,15 @@
           "minScore": 516,
           "minRank": 151417,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "5301",
+      "majorKey": "dd4048b0",
+      "majorName": "新能源科学与工程（国际新能源技术方向）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -218,7 +250,15 @@
           "minScore": 571,
           "minRank": 86723,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "5301",
+      "majorKey": "d7131091",
+      "majorName": "汉语言文学（师范）",
+      "selKe": "历史必选",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -309,6 +349,21 @@
       "selKe": "历史必选",
       "years": [
         {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 564,
+          "minRank": 94935,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5301",
+      "majorKey": "fea3e248",
+      "majorName": "英语（师范）",
+      "selKe": "史/政/地(3选1)",
+      "years": [
+        {
           "year": 2022,
           "track": "综合",
           "minScore": 562,
@@ -321,13 +376,6 @@
           "minScore": 553,
           "minRank": 103427,
           "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 564,
-          "minRank": 94935,
-          "maxScore": 0
         }
       ]
     },
@@ -335,6 +383,21 @@
       "schoolCode": "5301",
       "majorKey": "1d486608",
       "majorName": "计算机科学与技术",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 518,
+          "minRank": 149046,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5301",
+      "majorKey": "882ec7e1",
+      "majorName": "计算机科学与技术（师范）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -349,13 +412,6 @@
           "track": "综合",
           "minScore": 540,
           "minRank": 117885,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 518,
-          "minRank": 149046,
           "maxScore": 0
         },
         {
@@ -415,8 +471,8 @@
   ],
   "plan2026": [
     {
-      "majorName": "汉语言文学",
-      "majorKey": "97bc5998",
+      "majorName": "汉语言文学（师范）",
+      "majorKey": "d7131091",
       "selKe": "历史必选",
       "plan": 3,
       "tuition": "4200",
@@ -427,8 +483,8 @@
       "equivRank": 92678
     },
     {
-      "majorName": "地理科学",
-      "majorKey": "d061ae24",
+      "majorName": "地理科学（师范）",
+      "majorKey": "198d794d",
       "selKe": "地理必选",
       "plan": 5,
       "tuition": "5000",
@@ -451,8 +507,8 @@
       "equivRank": 101383
     },
     {
-      "majorName": "学前教育",
-      "majorKey": "97716b64",
+      "majorName": "学前教育（师范）",
+      "majorKey": "6e38b28d",
       "selKe": "不限",
       "plan": 4,
       "tuition": "4200",
@@ -475,8 +531,8 @@
       "equivRank": 102784
     },
     {
-      "majorName": "计算机科学与技术",
-      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术（师范）",
+      "majorKey": "882ec7e1",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "5000",
@@ -487,8 +543,8 @@
       "equivRank": 163388
     },
     {
-      "majorName": "新能源科学与工程",
-      "majorKey": "42b22d93",
+      "majorName": "新能源科学与工程（国际新能源技术方向）",
+      "majorKey": "dd4048b0",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "5000",
@@ -499,8 +555,8 @@
       "equivRank": 165624
     },
     {
-      "majorName": "教育技术学",
-      "majorKey": "3e2b336a",
+      "majorName": "教育技术学（师范）",
+      "majorKey": "26d35d07",
       "selKe": "物理必选",
       "plan": 3,
       "tuition": "5000",

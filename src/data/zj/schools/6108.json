@@ -33,8 +33,8 @@
     },
     {
       "schoolCode": "6108",
-      "majorKey": "04ab47fe",
-      "majorName": "化学",
+      "majorKey": "0dfc12db",
+      "majorName": "化学（师范）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -49,21 +49,6 @@
           "track": "综合",
           "minScore": 646,
           "minRank": 13406,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolCode": "6108",
-      "majorKey": "c9800f2a",
-      "majorName": "历史学",
-      "selKe": "历史/地理(2选1)",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 669,
-          "minRank": 5013,
           "maxScore": 0
         }
       ]
@@ -100,6 +85,21 @@
           "track": "综合",
           "minScore": 651,
           "minRank": 10710,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6108",
+      "majorKey": "4c5c8bc7",
+      "majorName": "历史学（师范）",
+      "selKe": "历史/地理(2选1)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 669,
+          "minRank": 5013,
           "maxScore": 0
         }
       ]
@@ -173,8 +173,8 @@
     },
     {
       "schoolCode": "6108",
-      "majorKey": "a4eb0b48",
-      "majorName": "心理学类",
+      "majorKey": "74f327a1",
+      "majorName": "心理学类（雁塔校区。含心理学（泽如拔尖基地班）",
       "selKe": "物理、生物(2科必选)",
       "years": [
         {
@@ -203,8 +203,23 @@
     },
     {
       "schoolCode": "6108",
-      "majorKey": "618fdffd",
-      "majorName": "数学与应用数学",
+      "majorKey": "1a45b70b",
+      "majorName": "数学与应用数学（国家公费师范生）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 643,
+          "minRank": 16712,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6108",
+      "majorKey": "9f802a9c",
+      "majorName": "数学与应用数学（师范）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -212,13 +227,6 @@
           "track": "综合",
           "minScore": 664,
           "minRank": 6725,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 643,
-          "minRank": 16712,
           "maxScore": 0
         },
         {
@@ -319,8 +327,23 @@
     },
     {
       "schoolCode": "6108",
-      "majorKey": "97bc5998",
-      "majorName": "汉语言文学",
+      "majorKey": "eab9f8a0",
+      "majorName": "汉语言文学（国家公费师范生）",
+      "selKe": "历史必选",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 652,
+          "minRank": 11848,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6108",
+      "majorKey": "d7131091",
+      "majorName": "汉语言文学（师范）",
       "selKe": "历史必选",
       "years": [
         {
@@ -331,46 +354,10 @@
           "maxScore": 0
         },
         {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 652,
-          "minRank": 11848,
-          "maxScore": 0
-        },
-        {
           "year": 2025,
           "track": "综合",
           "minScore": 658,
           "minRank": 7761,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolCode": "6108",
-      "majorKey": "653f630d",
-      "majorName": "物理学",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 662,
-          "minRank": 7486,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 643,
-          "minRank": 16712,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 648,
-          "minRank": 12308,
           "maxScore": 0
         }
       ]
@@ -413,22 +400,37 @@
     },
     {
       "schoolCode": "6108",
-      "majorKey": "e2472a71",
-      "majorName": "生物科学",
+      "majorKey": "ce60197b",
+      "majorName": "物理学（国家公费师范生）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 643,
+          "minRank": 16712,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6108",
+      "majorKey": "bec128cc",
+      "majorName": "物理学（师范）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
           "year": 2023,
           "track": "综合",
-          "minScore": 665,
-          "minRank": 6338,
+          "minScore": 662,
+          "minRank": 7486,
           "maxScore": 0
         },
         {
-          "year": 2024,
+          "year": 2025,
           "track": "综合",
-          "minScore": 650,
-          "minRank": 12844,
+          "minScore": 648,
+          "minRank": 12308,
           "maxScore": 0
         }
       ]
@@ -471,8 +473,38 @@
     },
     {
       "schoolCode": "6108",
-      "majorKey": "14856541",
-      "majorName": "电子信息科学与技术",
+      "majorKey": "8a2bc067",
+      "majorName": "生物科学（国家公费师范生）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 650,
+          "minRank": 12844,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6108",
+      "majorKey": "80353860",
+      "majorName": "生物科学（师范）",
+      "selKe": "物/化/生(3选1)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 665,
+          "minRank": 6338,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6108",
+      "majorKey": "604b8b23",
+      "majorName": "电子信息科学与技术（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -486,8 +518,23 @@
     },
     {
       "schoolCode": "6108",
-      "majorKey": "49c5cdf9",
-      "majorName": "英语",
+      "majorKey": "4d15cecf",
+      "majorName": "英语（国家公费师范生）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 654,
+          "minRank": 10917,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6108",
+      "majorKey": "fea3e248",
+      "majorName": "英语（师范）",
       "selKe": "不限",
       "years": [
         {
@@ -495,13 +542,6 @@
           "track": "综合",
           "minScore": 670,
           "minRank": 4710,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 654,
-          "minRank": 10917,
           "maxScore": 0
         },
         {
@@ -515,8 +555,8 @@
     },
     {
       "schoolCode": "6108",
-      "majorKey": "1d486608",
-      "majorName": "计算机科学与技术",
+      "majorKey": "cde81970",
+      "majorName": "计算机科学与技术（国家公费师范生）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -589,8 +629,8 @@
   ],
   "plan2026": [
     {
-      "majorName": "英语",
-      "majorKey": "49c5cdf9",
+      "majorName": "英语（师范）",
+      "majorKey": "fea3e248",
       "selKe": "不限",
       "plan": 1,
       "schooling": "四年",
@@ -600,8 +640,8 @@
       "equivRank": 6226
     },
     {
-      "majorName": "汉语言文学",
-      "majorKey": "97bc5998",
+      "majorName": "汉语言文学（师范）",
+      "majorKey": "d7131091",
       "selKe": "历史必选",
       "plan": 3,
       "schooling": "四年",
@@ -611,8 +651,8 @@
       "equivRank": 7761
     },
     {
-      "majorName": "数学与应用数学",
-      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学（师范）",
+      "majorKey": "9f802a9c",
       "selKe": "物理、化学(2科必选)",
       "plan": 6,
       "schooling": "四年",
@@ -658,8 +698,8 @@
       "equivRank": 11392
     },
     {
-      "majorName": "物理学",
-      "majorKey": "653f630d",
+      "majorName": "物理学（师范）",
+      "majorKey": "bec128cc",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "schooling": "四年",
@@ -669,8 +709,8 @@
       "equivRank": 12308
     },
     {
-      "majorName": "化学",
-      "majorKey": "04ab47fe",
+      "majorName": "化学（师范）",
+      "majorKey": "0dfc12db",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "schooling": "四年",
@@ -776,8 +816,8 @@
       "equivRank": 31124
     },
     {
-      "majorName": "心理学类",
-      "majorKey": "a4eb0b48",
+      "majorName": "心理学类（雁塔校区。含心理学（泽如拔尖基地班）",
+      "majorKey": "74f327a1",
       "selKe": "物理、生物(2科必选)",
       "plan": 2,
       "tuition": "6600",
@@ -788,8 +828,8 @@
       "equivRank": 32267
     },
     {
-      "majorName": "电子信息科学与技术",
-      "majorKey": "14856541",
+      "majorName": "电子信息科学与技术（中外合作办学）",
+      "majorKey": "604b8b23",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "65000",

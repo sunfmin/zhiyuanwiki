@@ -4,8 +4,8 @@
   "leaves": [
     {
       "schoolCode": "4023",
-      "majorKey": "2fec4169",
-      "majorName": "人工智能",
+      "majorKey": "ec4db755",
+      "majorName": "人工智能（智能驾驶）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -21,7 +21,15 @@
           "minScore": 529,
           "minRank": 135073,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4023",
+      "majorKey": "5a1efc38",
+      "majorName": "人工智能（汽车智能安全）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -109,7 +117,7 @@
       "schoolCode": "4023",
       "majorKey": "3bcfe22a",
       "majorName": "智能车辆工程",
-      "selKe": "物理、化学(2科必选)",
+      "selKe": "物理必选",
       "years": [
         {
           "year": 2023,
@@ -117,7 +125,15 @@
           "minScore": 540,
           "minRank": 117324,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4023",
+      "majorKey": "51fe18fa",
+      "majorName": "智能车辆工程（智能驾驶）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2024,
           "track": "综合",
@@ -187,8 +203,8 @@
     },
     {
       "schoolCode": "4023",
-      "majorKey": "72c52639",
-      "majorName": "材料物理",
+      "majorKey": "3e89fce1",
+      "majorName": "材料物理（车载芯片）",
       "selKe": "物理必选",
       "years": [
         {
@@ -217,8 +233,8 @@
     },
     {
       "schoolCode": "4023",
-      "majorKey": "94c614cf",
-      "majorName": "焊接技术与工程",
+      "majorKey": "81a7a200",
+      "majorName": "焊接技术与工程（材料数字化连接与智能制造）",
       "selKe": "物理必选",
       "years": [
         {
@@ -290,6 +306,42 @@
     },
     {
       "schoolCode": "4023",
+      "majorKey": "12f47e4f",
+      "majorName": "车辆工程（中外合作办学）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 532,
+          "minRank": 129271,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 524,
+          "minRank": 136355,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 525,
+          "minRank": 139737,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 507,
+          "minRank": 164242,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4023",
       "majorKey": "0c33cbdd",
       "majorName": "软件工程",
       "selKe": "物理、化学(2科必选)",
@@ -323,11 +375,10 @@
       "majorName": "车辆工程",
       "majorKey": "92b6110d",
       "selKe": "物理、化学(2科必选)",
-      "plan": 7,
-      "tuition": "30000",
+      "plan": 3,
+      "tuition": "5200",
       "schooling": "四年",
       "menlei": "工",
-      "coop": true,
       "prevYear": 2025,
       "prevRank": 122254,
       "equivRank": 122254
@@ -345,8 +396,8 @@
       "equivRank": 134689
     },
     {
-      "majorName": "人工智能",
-      "majorKey": "2fec4169",
+      "majorName": "人工智能（汽车智能安全）",
+      "majorKey": "5a1efc38",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5200",
@@ -357,8 +408,8 @@
       "equivRank": 135078
     },
     {
-      "majorName": "智能车辆工程",
-      "majorKey": "3bcfe22a",
+      "majorName": "智能车辆工程（智能驾驶）",
+      "majorKey": "51fe18fa",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "5200",
@@ -439,6 +490,19 @@
       "prevYear": 2025,
       "prevRank": 143902,
       "equivRank": 143902
+    },
+    {
+      "majorName": "车辆工程（中外合作办学）",
+      "majorKey": "12f47e4f",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 4,
+      "tuition": "30000",
+      "schooling": "四年",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 164242,
+      "equivRank": 164242
     }
   ]
 }

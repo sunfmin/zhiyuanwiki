@@ -14,12 +14,35 @@
           "minScore": 443,
           "minRank": 221555,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4338",
+      "majorKey": "5c8d7f73",
+      "majorName": "商务英语（商务校区。）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
           "minScore": 436,
           "minRank": 232866,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4338",
+      "majorKey": "f3f91a26",
+      "majorName": "商务英语（外贸校区。）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 430,
+          "minRank": 237023,
           "maxScore": 0
         }
       ]
@@ -50,7 +73,15 @@
           "minScore": 429,
           "minRank": 231160,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4338",
+      "majorKey": "9e4e4667",
+      "majorName": "国际商务（商务校区。）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -62,8 +93,8 @@
     },
     {
       "schoolCode": "4338",
-      "majorKey": "f8a1727e",
-      "majorName": "国际经济与贸易",
+      "majorKey": "591e7ebd",
+      "majorName": "国际经济与贸易（外贸校区。）",
       "selKe": "不限",
       "years": [
         {
@@ -101,7 +132,15 @@
           "minScore": 466,
           "minRank": 202903,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4338",
+      "majorKey": "ab09aea8",
+      "majorName": "大数据与财务管理（商务校区。）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -137,7 +176,15 @@
           "minScore": 430,
           "minRank": 230369,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4338",
+      "majorKey": "1f4a1b9a",
+      "majorName": "现代物流管理（商务校区。）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -173,7 +220,15 @@
           "minScore": 434,
           "minRank": 228037,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4338",
+      "majorKey": "46091a4b",
+      "majorName": "电子商务（商务校区。）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -231,7 +286,15 @@
           "minScore": 429,
           "minRank": 231362,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4338",
+      "majorKey": "e571435d",
+      "majorName": "连锁经营与管理（商务校区。）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -244,88 +307,76 @@
   ],
   "plan2026": [
     {
-      "majorName": "大数据与财务管理",
-      "majorKey": "6daff4b6",
+      "majorName": "商务英语（商务校区）",
+      "majorKey": "cf5593c6",
+      "selKe": "不限",
+      "plan": 4,
+      "tuition": "3200",
+      "schooling": "三年",
+      "menlei": "文"
+    },
+    {
+      "majorName": "商务英语（外贸校区）",
+      "majorKey": "d2dd6f69",
+      "selKe": "不限",
+      "plan": 5,
+      "tuition": "3200",
+      "schooling": "三年",
+      "menlei": "文"
+    },
+    {
+      "majorName": "国际商务（商务校区）",
+      "majorKey": "e5b197d2",
+      "selKe": "不限",
+      "plan": 3,
+      "tuition": "3500",
+      "schooling": "三年",
+      "menlei": "管"
+    },
+    {
+      "majorName": "国际经济与贸易（外贸校区）",
+      "majorKey": "d48efcec",
+      "selKe": "不限",
+      "plan": 5,
+      "tuition": "3850",
+      "schooling": "三年",
+      "menlei": "经"
+    },
+    {
+      "majorName": "大数据与财务管理（商务校区）",
+      "majorKey": "ab770b0f",
       "selKe": "不限",
       "plan": 3,
       "tuition": "3850",
       "schooling": "三年",
-      "menlei": "管",
-      "prevYear": 2025,
-      "prevRank": 212196,
-      "equivRank": 212196
+      "menlei": "管"
     },
     {
-      "majorName": "连锁经营与管理",
-      "majorKey": "ea814555",
+      "majorName": "现代物流管理（商务校区）",
+      "majorKey": "6590cb15",
+      "selKe": "不限",
+      "plan": 3,
+      "tuition": "3500",
+      "schooling": "三年",
+      "menlei": "管"
+    },
+    {
+      "majorName": "电子商务（商务校区）",
+      "majorKey": "d7a9eb2e",
+      "selKe": "不限",
+      "plan": 5,
+      "tuition": "3850",
+      "schooling": "三年",
+      "menlei": "管"
+    },
+    {
+      "majorName": "连锁经营与管理（商务校区）",
+      "majorKey": "f1ab6a8c",
       "selKe": "不限",
       "plan": 2,
       "tuition": "3500",
       "schooling": "三年",
-      "menlei": "管",
-      "prevYear": 2025,
-      "prevRank": 230723,
-      "equivRank": 230723
-    },
-    {
-      "majorName": "商务英语",
-      "majorKey": "4428fd77",
-      "selKe": "不限",
-      "plan": 9,
-      "tuition": "3200",
-      "schooling": "三年",
-      "menlei": "文",
-      "prevYear": 2025,
-      "prevRank": 232866,
-      "equivRank": 232866
-    },
-    {
-      "majorName": "国际商务",
-      "majorKey": "4c4c62eb",
-      "selKe": "不限",
-      "plan": 3,
-      "tuition": "3500",
-      "schooling": "三年",
-      "menlei": "管",
-      "prevYear": 2025,
-      "prevRank": 233553,
-      "equivRank": 233553
-    },
-    {
-      "majorName": "现代物流管理",
-      "majorKey": "a0f5df04",
-      "selKe": "不限",
-      "plan": 3,
-      "tuition": "3500",
-      "schooling": "三年",
-      "menlei": "管",
-      "prevYear": 2025,
-      "prevRank": 234973,
-      "equivRank": 234973
-    },
-    {
-      "majorName": "电子商务",
-      "majorKey": "0b52f20f",
-      "selKe": "不限",
-      "plan": 5,
-      "tuition": "3850",
-      "schooling": "三年",
-      "menlei": "管",
-      "prevYear": 2025,
-      "prevRank": 234973,
-      "equivRank": 234973
-    },
-    {
-      "majorName": "国际经济与贸易",
-      "majorKey": "f8a1727e",
-      "selKe": "不限",
-      "plan": 5,
-      "tuition": "3850",
-      "schooling": "三年",
-      "menlei": "经",
-      "prevYear": 2025,
-      "prevRank": 237023,
-      "equivRank": 237023
+      "menlei": "管"
     }
   ]
 }

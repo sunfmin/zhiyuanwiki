@@ -4,8 +4,8 @@
   "leaves": [
     {
       "schoolCode": "1326",
-      "majorKey": "55e3bd26",
-      "majorName": "信息管理与信息系统",
+      "majorKey": "91c5ad1c",
+      "majorName": "信息管理与信息系统（中外合作办学）",
       "selKe": "物理必选",
       "years": [
         {
@@ -108,8 +108,8 @@
     },
     {
       "schoolCode": "1326",
-      "majorKey": "37356fa4",
-      "majorName": "环境科学",
+      "majorKey": "d564f0aa",
+      "majorName": "环境科学（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -255,6 +255,28 @@
     },
     {
       "schoolCode": "1326",
+      "majorKey": "d655935e",
+      "majorName": "计算机科学与技术（中外合作办学）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 531,
+          "minRank": 132721,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 528,
+          "minRank": 138863,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1326",
       "majorKey": "d4e859f9",
       "majorName": "轻化工程",
       "selKe": "物理/化学(2选1)",
@@ -270,8 +292,8 @@
     },
     {
       "schoolCode": "1326",
-      "majorKey": "9f804adb",
-      "majorName": "金属材料工程",
+      "majorKey": "cf58e6bd",
+      "majorName": "金属材料工程（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -322,18 +344,30 @@
       "majorName": "计算机科学与技术",
       "majorKey": "1d486608",
       "selKe": "物理、化学(2科必选)",
-      "plan": 7,
-      "tuition": "52000",
+      "plan": 3,
+      "tuition": "4900",
       "schooling": "四年",
       "menlei": "工",
-      "coop": true,
       "prevYear": 2025,
       "prevRank": 94694,
       "equivRank": 94694
     },
     {
-      "majorName": "信息管理与信息系统",
-      "majorKey": "55e3bd26",
+      "majorName": "计算机科学与技术（中外合作办学）",
+      "majorKey": "d655935e",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 4,
+      "tuition": "52000",
+      "schooling": "四年",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 138863,
+      "equivRank": 138863
+    },
+    {
+      "majorName": "信息管理与信息系统（中外合作办学）",
+      "majorKey": "91c5ad1c",
       "selKe": "物理必选",
       "plan": 4,
       "tuition": "52000",
@@ -345,8 +379,8 @@
       "equivRank": 144332
     },
     {
-      "majorName": "金属材料工程",
-      "majorKey": "9f804adb",
+      "majorName": "金属材料工程（中外合作办学）",
+      "majorKey": "cf58e6bd",
       "selKe": "物理、化学(2科必选)",
       "plan": 10,
       "tuition": "38000",
@@ -358,8 +392,8 @@
       "equivRank": 169885
     },
     {
-      "majorName": "环境科学",
-      "majorKey": "37356fa4",
+      "majorName": "环境科学（中外合作办学）",
+      "majorKey": "d564f0aa",
       "selKe": "物理、化学(2科必选)",
       "plan": 6,
       "tuition": "38000",

@@ -40,6 +40,42 @@
     },
     {
       "schoolCode": "0232",
+      "majorKey": "b94941ab",
+      "majorName": "健康管理（中外合作办学）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 378,
+          "minRank": 250769,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 393,
+          "minRank": 247470,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 406,
+          "minRank": 244447,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 413,
+          "minRank": 247511,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0232",
       "majorKey": "a0b9e84e",
       "majorName": "大数据技术",
       "selKe": "不限",
@@ -263,11 +299,10 @@
       "majorName": "健康管理",
       "majorKey": "a9aac189",
       "selKe": "不限",
-      "plan": 85,
-      "tuition": "20000",
+      "plan": 25,
+      "tuition": "6000",
       "schooling": "三年",
       "menlei": "管",
-      "coop": true,
       "prevYear": 2025,
       "prevRank": 221591,
       "equivRank": 221591
@@ -319,6 +354,19 @@
       "prevYear": 2025,
       "prevRank": 230723,
       "equivRank": 230723
+    },
+    {
+      "majorName": "健康管理（中外合作办学）",
+      "majorKey": "b94941ab",
+      "selKe": "不限",
+      "plan": 60,
+      "tuition": "20000",
+      "schooling": "三年",
+      "menlei": "管",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 247511,
+      "equivRank": 247511
     }
   ]
 }

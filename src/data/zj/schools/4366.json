@@ -834,6 +834,28 @@
         {
           "year": 2023,
           "track": "综合",
+          "minScore": 561,
+          "minRank": 93784,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 542,
+          "minRank": 121570,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4366",
+      "majorKey": "e31be27a",
+      "majorName": "木材科学与工程（院士卓越班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
           "minScore": 565,
           "minRank": 90138,
           "maxScore": 0
@@ -843,13 +865,6 @@
           "track": "综合",
           "minScore": 542,
           "minRank": 120141,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 542,
-          "minRank": 121570,
           "maxScore": 0
         }
       ]
@@ -973,8 +988,23 @@
     },
     {
       "schoolCode": "4366",
-      "majorKey": "61e687fe",
-      "majorName": "林学",
+      "majorKey": "0fd9447f",
+      "majorName": "林学类",
+      "selKe": "物/化/生(3选1)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 572,
+          "minRank": 81018,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4366",
+      "majorKey": "ba25add4",
+      "majorName": "林学（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -989,21 +1019,6 @@
           "track": "综合",
           "minScore": 506,
           "minRank": 165877,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolCode": "4366",
-      "majorKey": "0fd9447f",
-      "majorName": "林学类",
-      "selKe": "物/化/生(3选1)",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 572,
-          "minRank": 81018,
           "maxScore": 0
         }
       ]
@@ -1158,6 +1173,21 @@
       "schoolCode": "4366",
       "majorKey": "11cedbac",
       "majorName": "生态学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 530,
+          "minRank": 136443,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4366",
+      "majorKey": "1015060c",
+      "majorName": "生态学（陶铸实验班）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -1456,8 +1486,23 @@
     },
     {
       "schoolCode": "4366",
-      "majorKey": "5a699e63",
-      "majorName": "金融学",
+      "majorKey": "b39b8034",
+      "majorName": "金融学类",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 588,
+          "minRank": 61130,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4366",
+      "majorKey": "31ea3245",
+      "majorName": "金融学（中外合作办学）",
       "selKe": "不限",
       "years": [
         {
@@ -1472,21 +1517,6 @@
           "track": "综合",
           "minScore": 579,
           "minRank": 76677,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolCode": "4366",
-      "majorKey": "b39b8034",
-      "majorName": "金融学类",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 588,
-          "minRank": 61130,
           "maxScore": 0
         }
       ]
@@ -1650,8 +1680,8 @@
       "equivRank": 76207
     },
     {
-      "majorName": "金融学",
-      "majorKey": "5a699e63",
+      "majorName": "金融学（中外合作办学）",
+      "majorKey": "31ea3245",
       "selKe": "不限",
       "plan": 2,
       "tuition": "38000",
@@ -1855,10 +1885,10 @@
       "equivRank": 113444
     },
     {
-      "majorName": "生态学",
-      "majorKey": "11cedbac",
+      "majorName": "生态学（陶铸实验班）",
+      "majorKey": "1015060c",
       "selKe": "物理、化学(2科必选)",
-      "plan": 4,
+      "plan": 2,
       "tuition": "4500",
       "schooling": "四年",
       "menlei": "理",
@@ -2011,6 +2041,18 @@
       "equivRank": 136390
     },
     {
+      "majorName": "生态学",
+      "majorKey": "11cedbac",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "4500",
+      "schooling": "四年",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 136443,
+      "equivRank": 136443
+    },
+    {
       "majorName": "环境科学",
       "majorKey": "37356fa4",
       "selKe": "物理、化学(2科必选)",
@@ -2035,8 +2077,8 @@
       "equivRank": 141729
     },
     {
-      "majorName": "林学",
-      "majorKey": "61e687fe",
+      "majorName": "林学（中外合作办学）",
+      "majorKey": "ba25add4",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "37000",

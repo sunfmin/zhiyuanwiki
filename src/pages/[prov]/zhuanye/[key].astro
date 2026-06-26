@@ -41,7 +41,9 @@ const cfg = provinceConfig(prov);
         </thead>
         <tbody>
           {
-            major.schools.map((s) => (
+            major.schools.map((s) => {
+              const dir = s.mn && s.mn.startsWith(major.name) ? s.mn.slice(major.name.length) : "";
+              return (
               <tr class="border-b border-slate-100">
                 <td class="py-2 pr-4">
                   <a
@@ -50,12 +52,14 @@ const cfg = provinceConfig(prov);
                   >
                     {s.sn}
                   </a>
+                  {dir && <span class="ml-1 text-xs text-slate-400">{dir}</span>}
                 </td>
                 <td class="py-2 pr-4 tabular-nums">{s.minRank.toLocaleString()}</td>
                 <td class="py-2 pr-4">{s.track}</td>
                 <td class="py-2 pr-4 tabular-nums">{s.year}</td>
               </tr>
-            ))
+              );
+            })
           }
         </tbody>
       </table>

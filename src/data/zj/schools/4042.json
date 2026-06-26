@@ -64,7 +64,15 @@
           "minScore": 444,
           "minRank": 221061,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4042",
+      "majorKey": "67a771b5",
+      "majorName": "人工智能技术应用（第一学年在武穴校区。）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -183,13 +191,6 @@
       "selKe": "不限",
       "years": [
         {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 487,
-          "minRank": 180552,
-          "maxScore": 0
-        },
-        {
           "year": 2023,
           "track": "综合",
           "minScore": 465,
@@ -201,6 +202,21 @@
           "track": "综合",
           "minScore": 467,
           "minRank": 202233,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4042",
+      "majorKey": "6e38b28d",
+      "majorName": "学前教育（师范）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 487,
+          "minRank": 180552,
           "maxScore": 0
         }
       ]
@@ -318,7 +334,30 @@
           "minScore": 484,
           "minRank": 185892,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4042",
+      "majorKey": "c0fd275f",
+      "majorName": "护理（第一学年在武穴校区。）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 475,
+          "minRank": 199963,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4042",
+      "majorKey": "6886135a",
+      "majorName": "护理（第一学年在武穴校区）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -330,8 +369,8 @@
     },
     {
       "schoolCode": "4042",
-      "majorKey": "ce82f7c6",
-      "majorName": "数字化设计与制造技术",
+      "majorKey": "9e71a5ab",
+      "majorName": "数字化设计与制造技术（第一学年在武穴校区。）",
       "selKe": "不限",
       "years": [
         {
@@ -508,7 +547,15 @@
           "minScore": 451,
           "minRank": 215431,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4042",
+      "majorKey": "eb1ee37d",
+      "majorName": "老年保健与管理（第一学年在武穴校区。）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -696,8 +743,8 @@
       "equivRank": 182914
     },
     {
-      "majorName": "护理",
-      "majorKey": "a3db4652",
+      "majorName": "护理（第一学年在武穴校区）",
+      "majorKey": "6886135a",
       "selKe": "不限",
       "plan": 8,
       "tuition": "5000",
@@ -718,30 +765,6 @@
       "prevYear": 2025,
       "prevRank": 221591,
       "equivRank": 221591
-    },
-    {
-      "majorName": "老年保健与管理",
-      "majorKey": "9140b2cc",
-      "selKe": "不限",
-      "plan": 8,
-      "tuition": "5000",
-      "schooling": "三年",
-      "menlei": "管",
-      "prevYear": 2025,
-      "prevRank": 224734,
-      "equivRank": 224734
-    },
-    {
-      "majorName": "人工智能技术应用",
-      "majorKey": "d722f594",
-      "selKe": "不限",
-      "plan": 6,
-      "tuition": "5000",
-      "schooling": "三年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 225499,
-      "equivRank": 225499
     },
     {
       "majorName": "新能源汽车技术",
@@ -768,16 +791,31 @@
       "equivRank": 231464
     },
     {
-      "majorName": "数字化设计与制造技术",
-      "majorKey": "ce82f7c6",
+      "majorName": "人工智能技术应用（第一学年在武穴校区）",
+      "majorKey": "ed98c254",
+      "selKe": "不限",
+      "plan": 6,
+      "tuition": "5000",
+      "schooling": "三年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "数字化设计与制造技术（第一学年在武穴校区）",
+      "majorKey": "7c206a8e",
       "selKe": "不限",
       "plan": 8,
       "tuition": "5000",
       "schooling": "三年",
-      "menlei": "艺",
-      "prevYear": 2025,
-      "prevRank": 232866,
-      "equivRank": 232866
+      "menlei": "艺"
+    },
+    {
+      "majorName": "老年保健与管理（第一学年在武穴校区）",
+      "majorKey": "94fddeac",
+      "selKe": "不限",
+      "plan": 8,
+      "tuition": "5000",
+      "schooling": "三年",
+      "menlei": "管"
     }
   ]
 }

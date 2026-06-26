@@ -11,6 +11,42 @@
         {
           "year": 2022,
           "track": "综合",
+          "minScore": 587,
+          "minRank": 62179,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 591,
+          "minRank": 61402,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 585,
+          "minRank": 69885,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 576,
+          "minRank": 79826,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5220",
+      "majorKey": "5e749dc3",
+      "majorName": "临床医学（珠海校区）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
           "minScore": 601,
           "minRank": 46376,
           "maxScore": 0
@@ -51,6 +87,35 @@
           "minRank": 31071,
           "maxScore": 0
         },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 621,
+          "minRank": 33048,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 592,
+          "minRank": 62207,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 582,
+          "minRank": 72984,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5220",
+      "majorKey": "352bf80e",
+      "majorName": "口腔医学（珠海校区）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2023,
           "track": "综合",
@@ -113,11 +178,11 @@
   ],
   "plan2026": [
     {
-      "majorName": "口腔医学",
-      "majorKey": "c162bced",
+      "majorName": "口腔医学（珠海校区）",
+      "majorKey": "352bf80e",
       "selKe": "物理、化学(2科必选)",
-      "plan": 12,
-      "tuition": "4500",
+      "plan": 2,
+      "tuition": "6960",
       "schooling": "五年",
       "menlei": "医",
       "prevYear": 2025,
@@ -125,16 +190,40 @@
       "equivRank": 46557
     },
     {
-      "majorName": "临床医学",
-      "majorKey": "618f7040",
+      "majorName": "临床医学（珠海校区）",
+      "majorKey": "5e749dc3",
       "selKe": "物理、化学(2科必选)",
-      "plan": 21,
-      "tuition": "4500",
+      "plan": 4,
+      "tuition": "6960",
       "schooling": "五年",
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 60939,
       "equivRank": 60939
+    },
+    {
+      "majorName": "口腔医学",
+      "majorKey": "c162bced",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 10,
+      "tuition": "4500",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 72984,
+      "equivRank": 72984
+    },
+    {
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 17,
+      "tuition": "4500",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 79826,
+      "equivRank": 79826
     },
     {
       "majorName": "麻醉学",

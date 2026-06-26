@@ -4,8 +4,8 @@
   "leaves": [
     {
       "schoolCode": "5170",
-      "majorKey": "11fef64a",
-      "majorName": "医学影像技术",
+      "majorKey": "b56691d9",
+      "majorName": "医学影像技术（眉山校区。）",
       "selKe": "不限",
       "years": [
         {
@@ -41,8 +41,8 @@
     },
     {
       "schoolCode": "5170",
-      "majorKey": "2d65ec0d",
-      "majorName": "医学美容技术",
+      "majorKey": "6e87b2ac",
+      "majorName": "医学美容技术（眉山校区。）",
       "selKe": "不限",
       "years": [
         {
@@ -73,7 +73,15 @@
           "minScore": 417,
           "minRank": 238632,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "5170",
+      "majorKey": "40444451",
+      "majorName": "口腔医学技术（眉山校区。）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -102,7 +110,15 @@
           "minScore": 328,
           "minRank": 271652,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "5170",
+      "majorKey": "6017f763",
+      "majorName": "学前教育（眉山校区。）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -114,8 +130,8 @@
     },
     {
       "schoolCode": "5170",
-      "majorKey": "1bca1cda",
-      "majorName": "宠物医疗技术",
+      "majorKey": "2bae4a57",
+      "majorName": "宠物医疗技术（成都校区。）",
       "selKe": "不限",
       "years": [
         {
@@ -146,20 +162,13 @@
           "minScore": 405,
           "minRank": 245303,
           "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 490,
-          "minRank": 184372,
-          "maxScore": 0
         }
       ]
     },
     {
       "schoolCode": "5170",
-      "majorKey": "b888273b",
-      "majorName": "无人机应用技术",
+      "majorKey": "2b44ab51",
+      "majorName": "护理（眉山校区。）",
       "selKe": "不限",
       "years": [
         {
@@ -173,8 +182,38 @@
     },
     {
       "schoolCode": "5170",
-      "majorKey": "6f339615",
-      "majorName": "网络直播与运营",
+      "majorKey": "73f2ea58",
+      "majorName": "护理（眉山校区）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 490,
+          "minRank": 184372,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5170",
+      "majorKey": "1a83bb92",
+      "majorName": "无人机应用技术（眉山校区。）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 268,
+          "minRank": 290790,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5170",
+      "majorKey": "bda91704",
+      "majorName": "网络直播与运营（眉山校区。）",
       "selKe": "不限",
       "years": [
         {
@@ -205,7 +244,15 @@
           "minScore": 328,
           "minRank": 271711,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "5170",
+      "majorKey": "1f3ffe74",
+      "majorName": "美术教育（眉山校区。）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -218,8 +265,8 @@
   ],
   "plan2026": [
     {
-      "majorName": "护理",
-      "majorKey": "a3db4652",
+      "majorName": "护理（眉山校区）",
+      "majorKey": "73f2ea58",
       "selKe": "不限",
       "plan": 35,
       "tuition": "17800",
@@ -230,100 +277,76 @@
       "equivRank": 184372
     },
     {
-      "majorName": "宠物医疗技术",
-      "majorKey": "1bca1cda",
-      "selKe": "不限",
-      "plan": 30,
-      "tuition": "17800",
-      "schooling": "三年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 283214,
-      "equivRank": 283214
-    },
-    {
-      "majorName": "美术教育",
-      "majorKey": "4fffd9a5",
-      "selKe": "不限",
-      "plan": 20,
-      "tuition": "17800",
-      "schooling": "三年",
-      "menlei": "艺",
-      "prevYear": 2025,
-      "prevRank": 286787,
-      "equivRank": 286787
-    },
-    {
-      "majorName": "医学影像技术",
-      "majorKey": "11fef64a",
+      "majorName": "医学影像技术（眉山校区）",
+      "majorKey": "04819630",
       "selKe": "不限",
       "plan": 35,
       "tuition": "17800",
       "schooling": "三年",
-      "menlei": "医",
-      "prevYear": 2025,
-      "prevRank": 290790,
-      "equivRank": 290790
+      "menlei": "医"
     },
     {
-      "majorName": "医学美容技术",
-      "majorKey": "2d65ec0d",
+      "majorName": "医学美容技术（眉山校区）",
+      "majorKey": "d16923db",
       "selKe": "不限",
       "plan": 25,
       "tuition": "17800",
       "schooling": "三年",
-      "menlei": "医",
-      "prevYear": 2025,
-      "prevRank": 290790,
-      "equivRank": 290790
+      "menlei": "医"
     },
     {
-      "majorName": "口腔医学技术",
-      "majorKey": "e849f952",
+      "majorName": "口腔医学技术（眉山校区）",
+      "majorKey": "03591558",
       "selKe": "不限",
       "plan": 65,
       "tuition": "17800",
       "schooling": "三年",
-      "menlei": "医",
-      "prevYear": 2025,
-      "prevRank": 290790,
-      "equivRank": 290790
+      "menlei": "医"
     },
     {
-      "majorName": "学前教育",
-      "majorKey": "97716b64",
+      "majorName": "学前教育（眉山校区）",
+      "majorKey": "01361dd6",
       "selKe": "不限",
       "plan": 20,
       "tuition": "17800",
       "schooling": "三年",
-      "menlei": "教",
-      "prevYear": 2025,
-      "prevRank": 290790,
-      "equivRank": 290790
+      "menlei": "教"
     },
     {
-      "majorName": "无人机应用技术",
-      "majorKey": "b888273b",
+      "majorName": "宠物医疗技术（成都校区）",
+      "majorKey": "58110862",
+      "selKe": "不限",
+      "plan": 30,
+      "tuition": "17800",
+      "schooling": "三年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "无人机应用技术（眉山校区）",
+      "majorKey": "930c767d",
       "selKe": "不限",
       "plan": 20,
       "tuition": "17800",
       "schooling": "三年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 290790,
-      "equivRank": 290790
+      "menlei": "工"
     },
     {
-      "majorName": "网络直播与运营",
-      "majorKey": "6f339615",
+      "majorName": "网络直播与运营（眉山校区）",
+      "majorKey": "7751c703",
       "selKe": "不限",
       "plan": 20,
       "tuition": "15600",
       "schooling": "三年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 290790,
-      "equivRank": 290790
+      "menlei": "工"
+    },
+    {
+      "majorName": "美术教育（眉山校区）",
+      "majorKey": "33f31e53",
+      "selKe": "不限",
+      "plan": 20,
+      "tuition": "17800",
+      "schooling": "三年",
+      "menlei": "艺"
     }
   ]
 }

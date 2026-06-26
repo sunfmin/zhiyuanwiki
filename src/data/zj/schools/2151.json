@@ -115,7 +115,15 @@
           "minScore": 531,
           "minRank": 132769,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "2151",
+      "majorKey": "9d43c292",
+      "majorName": "城乡规划（要求考生有一定的美术基础）",
+      "selKe": "物理必选",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -235,6 +243,35 @@
         {
           "year": 2024,
           "track": "综合",
+          "minScore": 556,
+          "minRank": 103618,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 532,
+          "minRank": 133961,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2151",
+      "majorKey": "2208af8d",
+      "majorName": "工程造价（中外合作办学）",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 537,
+          "minRank": 121108,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
           "minScore": 558,
           "minRank": 101202,
           "maxScore": 0
@@ -303,7 +340,15 @@
           "minScore": 595,
           "minRank": 58918,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "2151",
+      "majorKey": "fe0d209b",
+      "majorName": "建筑学（要求考生有一定的美术基础）",
+      "selKe": "物理必选",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -416,8 +461,8 @@
     },
     {
       "schoolCode": "2151",
-      "majorKey": "bb0a25bd",
-      "majorName": "数据科学与大数据技术",
+      "majorKey": "3a857c7f",
+      "majorName": "数据科学与大数据技术（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -743,7 +788,7 @@
       "schoolCode": "2151",
       "majorKey": "1d486608",
       "majorName": "计算机科学与技术",
-      "selKe": "物理、化学(2科必选)",
+      "selKe": "物理必选",
       "years": [
         {
           "year": 2022,
@@ -757,6 +802,21 @@
           "track": "综合",
           "minScore": 596,
           "minRank": 56670,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2151",
+      "majorKey": "d655935e",
+      "majorName": "计算机科学与技术（中外合作办学）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 547,
+          "minRank": 109860,
           "maxScore": 0
         },
         {
@@ -873,7 +933,15 @@
           "minScore": 532,
           "minRank": 132126,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "2151",
+      "majorKey": "7ace0486",
+      "majorName": "风景园林（要求考生有一定的美术基础）",
+      "selKe": "物理必选",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -982,8 +1050,8 @@
       "equivRank": 92668
     },
     {
-      "majorName": "城乡规划",
-      "majorKey": "2a1f2fe5",
+      "majorName": "城乡规划（要求考生有一定的美术基础）",
+      "majorKey": "9d43c292",
       "selKe": "物理必选",
       "plan": 1,
       "tuition": "5200",
@@ -994,8 +1062,8 @@
       "equivRank": 93504
     },
     {
-      "majorName": "建筑学",
-      "majorKey": "6b32f2c4",
+      "majorName": "建筑学（要求考生有一定的美术基础）",
+      "majorKey": "fe0d209b",
       "selKe": "物理必选",
       "plan": 1,
       "tuition": "5200",
@@ -1030,10 +1098,10 @@
       "equivRank": 113460
     },
     {
-      "majorName": "工程造价",
-      "majorKey": "b8be11ab",
+      "majorName": "工程造价（中外合作办学）",
+      "majorKey": "2208af8d",
       "selKe": "物理必选",
-      "plan": 2,
+      "plan": 1,
       "tuition": "50000",
       "schooling": "四年",
       "menlei": "管",
@@ -1067,6 +1135,18 @@
       "equivRank": 131693
     },
     {
+      "majorName": "工程造价",
+      "majorKey": "b8be11ab",
+      "selKe": "物理必选",
+      "plan": 1,
+      "tuition": "5200",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 133961,
+      "equivRank": 133961
+    },
+    {
       "majorName": "工程管理",
       "majorKey": "4166f1ff",
       "selKe": "物理必选",
@@ -1079,8 +1159,8 @@
       "equivRank": 134738
     },
     {
-      "majorName": "风景园林",
-      "majorKey": "9b8820c1",
+      "majorName": "风景园林（要求考生有一定的美术基础）",
+      "majorKey": "7ace0486",
       "selKe": "物理必选",
       "plan": 1,
       "tuition": "5200",
@@ -1103,8 +1183,8 @@
       "equivRank": 136742
     },
     {
-      "majorName": "计算机科学与技术",
-      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术（中外合作办学）",
+      "majorKey": "d655935e",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "50000",
@@ -1164,8 +1244,8 @@
       "equivRank": 150446
     },
     {
-      "majorName": "数据科学与大数据技术",
-      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术（中外合作办学）",
+      "majorKey": "3a857c7f",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "50000",

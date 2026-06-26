@@ -165,7 +165,7 @@
       "schoolCode": "0125",
       "majorKey": "320e7128",
       "majorName": "土木工程",
-      "selKe": "物理、化学(2科必选)",
+      "selKe": "物理必选",
       "years": [
         {
           "year": 2022,
@@ -180,7 +180,15 @@
           "minScore": 548,
           "minRank": 108865,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "0125",
+      "majorKey": "1c559be0",
+      "majorName": "土木工程（智能建造方向）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2024,
           "track": "综合",
@@ -295,7 +303,15 @@
           "minScore": 578,
           "minRank": 77675,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "0125",
+      "majorKey": "746ffc9b",
+      "majorName": "工商管理（数智化管理方向）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -1185,8 +1201,8 @@
       "equivRank": 79335
     },
     {
-      "majorName": "工商管理",
-      "majorKey": "07c28723",
+      "majorName": "工商管理（数智化管理方向）",
+      "majorKey": "746ffc9b",
       "selKe": "不限",
       "plan": 25,
       "tuition": "4800",
@@ -1296,7 +1312,7 @@
       "majorName": "机械设计制造及其自动化",
       "majorKey": "55ff9da5",
       "selKe": "物理、化学(2科必选)",
-      "plan": 50,
+      "plan": 35,
       "tuition": "5500",
       "schooling": "四年",
       "menlei": "工",
@@ -1404,7 +1420,7 @@
       "majorName": "工业设计",
       "majorKey": "fee47c1b",
       "selKe": "物理、化学(2科必选)",
-      "plan": 20,
+      "plan": 5,
       "tuition": "5500",
       "schooling": "四年",
       "menlei": "工",
@@ -1428,7 +1444,7 @@
       "majorName": "化学工程与工艺",
       "majorKey": "1f59c989",
       "selKe": "物理、化学(2科必选)",
-      "plan": 20,
+      "plan": 5,
       "tuition": "5500",
       "schooling": "四年",
       "menlei": "工",
@@ -1449,10 +1465,10 @@
       "equivRank": 128264
     },
     {
-      "majorName": "土木工程",
-      "majorKey": "320e7128",
+      "majorName": "土木工程（智能建造方向）",
+      "majorKey": "1c559be0",
       "selKe": "物理、化学(2科必选)",
-      "plan": 20,
+      "plan": 5,
       "tuition": "5500",
       "schooling": "四年",
       "menlei": "工",
@@ -1483,6 +1499,42 @@
       "prevYear": 2025,
       "prevRank": 130325,
       "equivRank": 130325
+    },
+    {
+      "majorName": "化学工程与工艺（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程）",
+      "majorKey": "78e77f29",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 15,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "土木工程（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程）",
+      "majorKey": "2ca9cdf0",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 15,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "工业设计（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程）",
+      "majorKey": "8303bbbb",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 15,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "机械设计制造及其自动化（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程）",
+      "majorKey": "6ecd34c5",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 15,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "工"
     }
   ]
 }

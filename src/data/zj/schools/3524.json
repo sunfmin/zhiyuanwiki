@@ -69,8 +69,8 @@
     },
     {
       "schoolCode": "3524",
-      "majorKey": "97716b64",
-      "majorName": "学前教育",
+      "majorKey": "6e38b28d",
+      "majorName": "学前教育（师范）",
       "selKe": "不限",
       "years": [
         {
@@ -440,7 +440,15 @@
           "minScore": 558,
           "minRank": 102022,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "3524",
+      "majorKey": "42ba5222",
+      "majorName": "航海技术（学校提醒:不适宜女生报考）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -505,7 +513,15 @@
           "minScore": 561,
           "minRank": 98484,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "3524",
+      "majorKey": "6fbba96b",
+      "majorName": "船舶电子电气工程（学校提醒:不适宜女生报考）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -558,12 +574,42 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 554,
+          "minRank": 102591,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 560,
+          "minRank": 99605,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3524",
+      "majorKey": "59643668",
+      "majorName": "轮机工程（船机修造方向）",
+      "selKe": "物理必选",
+      "years": [
+        {
           "year": 2022,
           "track": "综合",
           "minScore": 572,
           "minRank": 80262,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "3524",
+      "majorKey": "9eb38519",
+      "majorName": "轮机工程（陆上方向）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2023,
           "track": "综合",
@@ -686,8 +732,8 @@
       "equivRank": 66858
     },
     {
-      "majorName": "学前教育",
-      "majorKey": "97716b64",
+      "majorName": "学前教育（师范）",
+      "majorKey": "6e38b28d",
       "selKe": "不限",
       "plan": 5,
       "tuition": "5460",
@@ -698,8 +744,8 @@
       "equivRank": 69475
     },
     {
-      "majorName": "航海技术",
-      "majorKey": "8f20480e",
+      "majorName": "航海技术（学校提醒:不适宜女生报考）",
+      "majorKey": "42ba5222",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "5460",
@@ -710,10 +756,10 @@
       "equivRank": 76084
     },
     {
-      "majorName": "轮机工程",
-      "majorKey": "7115c029",
+      "majorName": "轮机工程（陆上方向）",
+      "majorKey": "9eb38519",
       "selKe": "物理、化学(2科必选)",
-      "plan": 7,
+      "plan": 2,
       "tuition": "5460",
       "schooling": "四年",
       "menlei": "工",
@@ -734,8 +780,8 @@
       "equivRank": 77395
     },
     {
-      "majorName": "船舶电子电气工程",
-      "majorKey": "d05a55f7",
+      "majorName": "船舶电子电气工程（学校提醒:不适宜女生报考）",
+      "majorKey": "6fbba96b",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5460",
@@ -780,6 +826,15 @@
       "prevYear": 2025,
       "prevRank": 113695,
       "equivRank": 113695
+    },
+    {
+      "majorName": "轮机工程（学校提醒:不适宜女生报考）",
+      "majorKey": "cb390451",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 5,
+      "tuition": "5460",
+      "schooling": "四年",
+      "menlei": "工"
     }
   ]
 }

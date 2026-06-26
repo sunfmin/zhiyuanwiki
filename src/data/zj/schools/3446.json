@@ -149,8 +149,8 @@
     },
     {
       "schoolCode": "3446",
-      "majorKey": "97716b64",
-      "majorName": "学前教育",
+      "majorKey": "6e38b28d",
+      "majorName": "学前教育（师范）",
       "selKe": "不限",
       "years": [
         {
@@ -178,8 +178,8 @@
     },
     {
       "schoolCode": "3446",
-      "majorKey": "c240892f",
-      "majorName": "小学教育",
+      "majorKey": "983355fa",
+      "majorName": "小学教育（师范）",
       "selKe": "不限",
       "years": [
         {
@@ -280,8 +280,8 @@
     },
     {
       "schoolCode": "3446",
-      "majorKey": "618fdffd",
-      "majorName": "数学与应用数学",
+      "majorKey": "9f802a9c",
+      "majorName": "数学与应用数学（师范）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -553,6 +553,28 @@
       "selKe": "不限",
       "years": [
         {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 585,
+          "minRank": 70440,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 581,
+          "minRank": 74219,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3446",
+      "majorKey": "e930ccdd",
+      "majorName": "物流管理（中外合作办学）",
+      "selKe": "不限",
+      "years": [
+        {
           "year": 2022,
           "track": "综合",
           "minScore": 559,
@@ -569,15 +591,15 @@
         {
           "year": 2024,
           "track": "综合",
-          "minScore": 585,
-          "minRank": 70440,
+          "minScore": 571,
+          "minRank": 86307,
           "maxScore": 0
         },
         {
           "year": 2025,
           "track": "综合",
-          "minScore": 581,
-          "minRank": 74219,
+          "minScore": 572,
+          "minRank": 85215,
           "maxScore": 0
         }
       ]
@@ -933,8 +955,8 @@
       "equivRank": 66134
     },
     {
-      "majorName": "小学教育",
-      "majorKey": "c240892f",
+      "majorName": "小学教育（师范）",
+      "majorKey": "983355fa",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4900",
@@ -972,11 +994,10 @@
       "majorName": "物流管理",
       "majorKey": "8b6a817b",
       "selKe": "不限",
-      "plan": 4,
-      "tuition": "21000",
+      "plan": 2,
+      "tuition": "5635",
       "schooling": "四年",
       "menlei": "管",
-      "coop": true,
       "prevYear": 2025,
       "prevRank": 74219,
       "equivRank": 74219
@@ -1066,6 +1087,19 @@
       "equivRank": 83789
     },
     {
+      "majorName": "物流管理（中外合作办学）",
+      "majorKey": "e930ccdd",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "21000",
+      "schooling": "四年",
+      "menlei": "管",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 85215,
+      "equivRank": 85215
+    },
+    {
       "majorName": "机械电子工程",
       "majorKey": "4ef2a1b4",
       "selKe": "物理、化学(2科必选)",
@@ -1090,8 +1124,8 @@
       "equivRank": 88327
     },
     {
-      "majorName": "数学与应用数学",
-      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学（师范）",
+      "majorKey": "9f802a9c",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5980",

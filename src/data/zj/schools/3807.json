@@ -36,7 +36,15 @@
           "minScore": 518,
           "minRank": 148777,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "3807",
+      "majorKey": "faad52af",
+      "majorName": "口腔医学（中外合作办学）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -67,12 +75,27 @@
           "maxScore": 0
         }
       ]
+    },
+    {
+      "schoolCode": "3807",
+      "majorKey": "56144c88",
+      "majorName": "护理（中外合作办学）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 448,
+          "minRank": 223981,
+          "maxScore": 0
+        }
+      ]
     }
   ],
   "plan2026": [
     {
-      "majorName": "口腔医学",
-      "majorKey": "c162bced",
+      "majorName": "口腔医学（中外合作办学）",
+      "majorKey": "faad52af",
       "selKe": "不限",
       "plan": 5,
       "tuition": "12000",
@@ -87,11 +110,10 @@
       "majorName": "护理",
       "majorKey": "a3db4652",
       "selKe": "不限",
-      "plan": 10,
-      "tuition": "12000",
+      "plan": 5,
+      "tuition": "5000",
       "schooling": "三年",
       "menlei": "医",
-      "coop": true,
       "prevYear": 2025,
       "prevRank": 183177,
       "equivRank": 183177
@@ -107,6 +129,19 @@
       "prevYear": 2025,
       "prevRank": 184372,
       "equivRank": 184372
+    },
+    {
+      "majorName": "护理（中外合作办学）",
+      "majorKey": "56144c88",
+      "selKe": "不限",
+      "plan": 5,
+      "tuition": "12000",
+      "schooling": "三年",
+      "menlei": "医",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 223981,
+      "equivRank": 223981
     }
   ]
 }

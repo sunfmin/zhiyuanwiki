@@ -21,7 +21,7 @@
       "schoolCode": "4337",
       "majorKey": "04ab47fe",
       "majorName": "化学",
-      "selKe": "物理、化学(2科必选)",
+      "selKe": "物/化/技(3选1)",
       "years": [
         {
           "year": 2022,
@@ -29,7 +29,15 @@
           "minScore": 565,
           "minRank": 89548,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4337",
+      "majorKey": "0dfc12db",
+      "majorName": "化学（师范）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2023,
           "track": "综合",
@@ -91,8 +99,8 @@
     },
     {
       "schoolCode": "4337",
-      "majorKey": "97716b64",
-      "majorName": "学前教育",
+      "majorKey": "13d3126a",
+      "majorName": "学前教育（中外合作办学）",
       "selKe": "不限",
       "years": [
         {
@@ -346,8 +354,8 @@
       "equivRank": 94673
     },
     {
-      "majorName": "学前教育",
-      "majorKey": "97716b64",
+      "majorName": "学前教育（中外合作办学）",
+      "majorKey": "13d3126a",
       "selKe": "不限",
       "plan": 6,
       "tuition": "18000",
@@ -395,8 +403,8 @@
       "equivRank": 148641
     },
     {
-      "majorName": "化学",
-      "majorKey": "04ab47fe",
+      "majorName": "化学（师范）",
+      "majorKey": "0dfc12db",
       "selKe": "物理、化学(2科必选)",
       "plan": 6,
       "tuition": "4000",

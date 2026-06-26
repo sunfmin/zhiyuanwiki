@@ -16,17 +16,25 @@
           "maxScore": 0
         },
         {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 697,
-          "minRank": 437,
-          "maxScore": 0
-        },
-        {
           "year": 2025,
           "track": "综合",
           "minScore": 694,
           "minRank": 278,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3102",
+      "majorKey": "0a6119a9",
+      "majorName": "人文科学试验班（拔尖学生培养基地）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 697,
+          "minRank": 437,
           "maxScore": 0
         }
       ]
@@ -55,8 +63,8 @@
     },
     {
       "schoolCode": "3102",
-      "majorKey": "33b3d741",
-      "majorName": "数学类",
+      "majorKey": "0f272717",
+      "majorName": "数学类（拔尖学生培养基地）",
       "selKe": "物理必选",
       "years": [
         {
@@ -70,8 +78,8 @@
     },
     {
       "schoolCode": "3102",
-      "majorKey": "331c4c8e",
-      "majorName": "新闻传播学类",
+      "majorKey": "67fc4885",
+      "majorName": "新闻传播学类（卓越新闻人才计划）",
       "selKe": "不限",
       "years": [
         {
@@ -163,12 +171,35 @@
           "maxScore": 0
         },
         {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 695,
+          "minRank": 217,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3102",
+      "majorKey": "053dcbd5",
+      "majorName": "理科试验班（相辉学堂相辉计划）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
           "year": 2024,
           "track": "综合",
           "minScore": 701,
           "minRank": 222,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "3102",
+      "majorKey": "cbc67456",
+      "majorName": "理科试验班（相辉学堂）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -180,9 +211,9 @@
     },
     {
       "schoolCode": "3102",
-      "majorKey": "0cabaa98",
-      "majorName": "经济学类",
-      "selKe": "不限",
+      "majorKey": "33236ec2",
+      "majorName": "经济学类（拔尖学生培养基地）",
+      "selKe": "物理/化学(2选1)",
       "years": [
         {
           "year": 2022,
@@ -190,7 +221,15 @@
           "minScore": 690,
           "minRank": 174,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "3102",
+      "majorKey": "b954234a",
+      "majorName": "经济学类（拔尖班）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2024,
           "track": "综合",
@@ -239,8 +278,8 @@
     },
     {
       "schoolCode": "3102",
-      "majorKey": "5af2c3fd",
-      "majorName": "马克思主义理论",
+      "majorKey": "3d93ce91",
+      "majorName": "马克思主义理论（望道班）",
       "selKe": "思想政治必选",
       "years": [
         {
@@ -262,16 +301,28 @@
   ],
   "plan2026": [
     {
-      "majorName": "理科试验班",
-      "majorKey": "54728189",
+      "majorName": "理科试验班（相辉学堂）",
+      "majorKey": "cbc67456",
       "selKe": "物理、化学(2科必选)",
-      "plan": 4,
+      "plan": 1,
       "tuition": "7000",
       "schooling": "四年",
       "menlei": "他",
       "prevYear": 2025,
       "prevRank": 113,
       "equivRank": 113
+    },
+    {
+      "majorName": "理科试验班",
+      "majorKey": "54728189",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 3,
+      "tuition": "7000",
+      "schooling": "四年",
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 217,
+      "equivRank": 217
     },
     {
       "majorName": "人文科学试验班",
@@ -286,8 +337,8 @@
       "equivRank": 278
     },
     {
-      "majorName": "马克思主义理论",
-      "majorKey": "5af2c3fd",
+      "majorName": "马克思主义理论（望道班）",
+      "majorKey": "3d93ce91",
       "selKe": "思想政治必选",
       "plan": 3,
       "tuition": "6500",
@@ -298,16 +349,13 @@
       "equivRank": 2391
     },
     {
-      "majorName": "朝鲜语",
-      "majorKey": "b2ff5185",
+      "majorName": "朝鲜语（转专业范围限外国语言文学学院内）",
+      "majorKey": "d6c428fa",
       "selKe": "不限",
       "plan": 3,
       "tuition": "6500",
       "schooling": "四年",
-      "menlei": "文",
-      "prevYear": 2024,
-      "prevRank": 4627,
-      "equivRank": 4787
+      "menlei": "文"
     }
   ]
 }

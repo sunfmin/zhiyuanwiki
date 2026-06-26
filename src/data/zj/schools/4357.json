@@ -56,6 +56,21 @@
     },
     {
       "schoolCode": "4357",
+      "majorKey": "962c77a9",
+      "majorName": "医学影像技术（智慧影像方向）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 447,
+          "minRank": 224734,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4357",
       "majorKey": "4428fd77",
       "majorName": "商务英语",
       "selKe": "不限",
@@ -65,6 +80,21 @@
           "track": "综合",
           "minScore": 490,
           "minRank": 184372,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4357",
+      "majorKey": "978fdfee",
+      "majorName": "商务英语（跨境电子商务运营服务与管理方向）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 326,
+          "minRank": 280087,
           "maxScore": 0
         }
       ]
@@ -266,7 +296,7 @@
       "majorName": "商务英语",
       "majorKey": "4428fd77",
       "selKe": "不限",
-      "plan": 4,
+      "plan": 2,
       "tuition": "13800",
       "schooling": "三年",
       "menlei": "文",
@@ -278,7 +308,7 @@
       "majorName": "医学影像技术",
       "majorKey": "11fef64a",
       "selKe": "不限",
-      "plan": 6,
+      "plan": 3,
       "tuition": "17800",
       "schooling": "三年",
       "menlei": "医",
@@ -299,6 +329,30 @@
       "equivRank": 187636
     },
     {
+      "majorName": "医学影像技术（智慧影像方向）",
+      "majorKey": "962c77a9",
+      "selKe": "不限",
+      "plan": 3,
+      "tuition": "17800",
+      "schooling": "三年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 224734,
+      "equivRank": 224734
+    },
+    {
+      "majorName": "商务英语（跨境电子商务运营服务与管理方向）",
+      "majorKey": "978fdfee",
+      "selKe": "不限",
+      "plan": 1,
+      "tuition": "13800",
+      "schooling": "三年",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 280087,
+      "equivRank": 280087
+    },
+    {
       "majorName": "助产",
       "majorKey": "b7060f34",
       "selKe": "不限",
@@ -306,6 +360,15 @@
       "tuition": "17800",
       "schooling": "三年",
       "menlei": "医"
+    },
+    {
+      "majorName": "商务英语（报关报检方向）",
+      "majorKey": "01f82003",
+      "selKe": "不限",
+      "plan": 1,
+      "tuition": "13800",
+      "schooling": "三年",
+      "menlei": "文"
     }
   ]
 }

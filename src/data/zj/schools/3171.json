@@ -4,8 +4,38 @@
   "leaves": [
     {
       "schoolCode": "3171",
-      "majorKey": "618f7040",
-      "majorName": "临床医学",
+      "majorKey": "d6d59681",
+      "majorName": "临床医学（上海）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 690,
+          "minRank": 468,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3171",
+      "majorKey": "568ce48e",
+      "majorName": "临床医学（卓越医生计划）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 699,
+          "minRank": 329,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3171",
+      "majorKey": "bf4e77bc",
+      "majorName": "临床医学（本博连读，卓越医生计划）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -21,27 +51,13 @@
           "minScore": 696,
           "minRank": 324,
           "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 699,
-          "minRank": 329,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 690,
-          "minRank": 468,
-          "maxScore": 0
         }
       ]
     },
     {
       "schoolCode": "3171",
-      "majorKey": "696c3187",
-      "majorName": "医学试验班",
+      "majorKey": "a65531be",
+      "majorName": "医学试验班（上海）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -56,8 +72,8 @@
   ],
   "plan2026": [
     {
-      "majorName": "临床医学",
-      "majorKey": "618f7040",
+      "majorName": "临床医学（上海）",
+      "majorKey": "d6d59681",
       "selKe": "物理、化学(2科必选)",
       "plan": 8,
       "tuition": "7400",
@@ -68,8 +84,8 @@
       "equivRank": 468
     },
     {
-      "majorName": "医学试验班",
-      "majorKey": "696c3187",
+      "majorName": "医学试验班（上海）",
+      "majorKey": "a65531be",
       "selKe": "物理、化学(2科必选)",
       "plan": 12,
       "tuition": "7400",

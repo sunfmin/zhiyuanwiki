@@ -318,8 +318,8 @@
     },
     {
       "schoolCode": "3268",
-      "majorKey": "bb0a25bd",
-      "majorName": "数据科学与大数据技术",
+      "majorKey": "3a857c7f",
+      "majorName": "数据科学与大数据技术（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -486,6 +486,21 @@
     },
     {
       "schoolCode": "3268",
+      "majorKey": "d14f7347",
+      "majorName": "物联网工程（中外合作办学）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 550,
+          "minRank": 112665,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3268",
       "majorKey": "7ab09507",
       "majorName": "环境科学与工程",
       "selKe": "物/化/生(3选1)",
@@ -531,6 +546,21 @@
           "track": "综合",
           "minScore": 567,
           "minRank": 90715,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3268",
+      "majorKey": "635403c8",
+      "majorName": "电子信息工程（中外合作办学）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 529,
+          "minRank": 137872,
           "maxScore": 0
         }
       ]
@@ -675,8 +705,8 @@
         {
           "year": 2022,
           "track": "综合",
-          "minScore": 567,
-          "minRank": 86541,
+          "minScore": 566,
+          "minRank": 87582,
           "maxScore": 0
         },
         {
@@ -698,6 +728,21 @@
           "track": "综合",
           "minScore": 571,
           "minRank": 85838,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3268",
+      "majorKey": "afe16da8",
+      "majorName": "计算机科学与技术（嵌入式培养）",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 567,
+          "minRank": 86541,
           "maxScore": 0
         }
       ]
@@ -852,11 +897,10 @@
       "majorName": "物联网工程",
       "majorKey": "1da18825",
       "selKe": "物理、化学(2科必选)",
-      "plan": 4,
-      "tuition": "50000",
+      "plan": 2,
+      "tuition": "5800",
       "schooling": "四年",
       "menlei": "工",
-      "coop": true,
       "prevYear": 2025,
       "prevRank": 81518,
       "equivRank": 81518
@@ -913,11 +957,10 @@
       "majorName": "电子信息工程",
       "majorKey": "fd603692",
       "selKe": "物理、化学(2科必选)",
-      "plan": 4,
-      "tuition": "50000",
+      "plan": 2,
+      "tuition": "5800",
       "schooling": "四年",
       "menlei": "工",
-      "coop": true,
       "prevYear": 2025,
       "prevRank": 90715,
       "equivRank": 90715
@@ -1019,8 +1062,34 @@
       "equivRank": 109011
     },
     {
-      "majorName": "数据科学与大数据技术",
-      "majorKey": "bb0a25bd",
+      "majorName": "物联网工程（中外合作办学）",
+      "majorKey": "d14f7347",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "50000",
+      "schooling": "四年",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 112665,
+      "equivRank": 112665
+    },
+    {
+      "majorName": "电子信息工程（中外合作办学）",
+      "majorKey": "635403c8",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "50000",
+      "schooling": "四年",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 137872,
+      "equivRank": 137872
+    },
+    {
+      "majorName": "数据科学与大数据技术（中外合作办学）",
+      "majorKey": "3a857c7f",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "50000",

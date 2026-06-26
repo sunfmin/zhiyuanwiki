@@ -80,6 +80,9 @@ func parsePlan2026Rows(rows [][]string) ([]PlanRow2026, error) {
 		if name == "" || code == "" {
 			continue
 		}
+		remark := strings.TrimSpace(core.Cell(r, cRemark))
+		// 大类按方向拆分，与专业录取分数叶子同口径挂接（计划/位次各自对应）。
+		name = majorIdent(name, remark)
 		year, _ := core.ParseLeadingInt(core.Cell(r, cYear))
 		plan, _ := core.ParseLeadingInt(core.Cell(r, cPlan))
 		out = append(out, PlanRow2026{
@@ -88,7 +91,7 @@ func parsePlan2026Rows(rows [][]string) ([]PlanRow2026, error) {
 			SchoolName: strings.TrimSpace(core.Cell(r, cSchoolName)),
 			AdmitType:  strings.TrimSpace(core.Cell(r, cAdmit)),
 			MajorName:  name,
-			Remark:     strings.TrimSpace(core.Cell(r, cRemark)),
+			Remark:     remark,
 			SelKe:      strings.TrimSpace(core.Cell(r, cSelKe)),
 			Plan:       plan,
 			Schooling:  strings.TrimSpace(core.Cell(r, cSchooling)),

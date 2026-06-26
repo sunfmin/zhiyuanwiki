@@ -28,7 +28,15 @@
           "minScore": 559,
           "minRank": 100219,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "5035",
+      "majorKey": "b8275bcb",
+      "majorName": "中医学（大学城校区）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -79,7 +87,15 @@
           "minScore": 554,
           "minRank": 105839,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "5035",
+      "majorKey": "35364f7d",
+      "majorName": "临床医学（大学城校区）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -115,7 +131,15 @@
           "minScore": 522,
           "minRank": 143509,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "5035",
+      "majorKey": "41f7990f",
+      "majorName": "医学检验技术（大学城校区）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -166,7 +190,15 @@
           "minScore": 569,
           "minRank": 88355,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "5035",
+      "majorKey": "fbe9615e",
+      "majorName": "口腔医学（大学城校区）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -202,7 +234,15 @@
           "minScore": 544,
           "minRank": 118110,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "5035",
+      "majorKey": "b124bf13",
+      "majorName": "护理（大学城校区）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -275,7 +315,15 @@
           "minScore": 505,
           "minRank": 162899,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "5035",
+      "majorKey": "bd264f7a",
+      "majorName": "药学（大学城校区）",
+      "selKe": "化学必选",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -303,8 +351,8 @@
   ],
   "plan2026": [
     {
-      "majorName": "口腔医学",
-      "majorKey": "c162bced",
+      "majorName": "口腔医学（大学城校区）",
+      "majorKey": "fbe9615e",
       "selKe": "不限",
       "plan": 1,
       "tuition": "8125",
@@ -315,8 +363,8 @@
       "equivRank": 98537
     },
     {
-      "majorName": "中医学",
-      "majorKey": "2285e5ca",
+      "majorName": "中医学（大学城校区）",
+      "majorKey": "b8275bcb",
       "selKe": "不限",
       "plan": 2,
       "tuition": "8125",
@@ -327,10 +375,10 @@
       "equivRank": 101330
     },
     {
-      "majorName": "临床医学",
-      "majorKey": "618f7040",
+      "majorName": "临床医学（大学城校区）",
+      "majorKey": "35364f7d",
       "selKe": "不限",
-      "plan": 16,
+      "plan": 1,
       "tuition": "8125",
       "schooling": "三年",
       "menlei": "医",
@@ -339,8 +387,8 @@
       "equivRank": 107934
     },
     {
-      "majorName": "护理",
-      "majorKey": "a3db4652",
+      "majorName": "护理（大学城校区）",
+      "majorKey": "b124bf13",
       "selKe": "不限",
       "plan": 2,
       "tuition": "8125",
@@ -351,8 +399,8 @@
       "equivRank": 122414
     },
     {
-      "majorName": "医学检验技术",
-      "majorKey": "f106fa76",
+      "majorName": "医学检验技术（大学城校区）",
+      "majorKey": "41f7990f",
       "selKe": "不限",
       "plan": 2,
       "tuition": "8125",
@@ -363,8 +411,8 @@
       "equivRank": 142290
     },
     {
-      "majorName": "药学",
-      "majorKey": "e9e6a481",
+      "majorName": "药学（大学城校区）",
+      "majorKey": "bd264f7a",
       "selKe": "化学必选",
       "plan": 2,
       "tuition": "8125",
@@ -375,8 +423,26 @@
       "equivRank": 180234
     },
     {
-      "majorName": "康复治疗技术",
-      "majorKey": "4fab0557",
+      "majorName": "临床医学（定向培养军士生。只招男生。武警。要求政考、体检。要求高考成绩不低于普通类二段线。大学城校区）",
+      "majorKey": "5c4f9799",
+      "selKe": "不限",
+      "plan": 5,
+      "tuition": "8125",
+      "schooling": "三年",
+      "menlei": "医"
+    },
+    {
+      "majorName": "临床医学（定向培养军士生。只招男生。陆军。要求政考、体检。要求高考成绩不低于普通类二段线。大学城校区）",
+      "majorKey": "53c78c0d",
+      "selKe": "不限",
+      "plan": 10,
+      "tuition": "8125",
+      "schooling": "三年",
+      "menlei": "医"
+    },
+    {
+      "majorName": "康复治疗技术（定向培养军士生。只招男生。武警。要求政考、体检。要求高考成绩不低于普通类二段线。大学城校区）",
+      "majorKey": "81b3e6c4",
       "selKe": "不限",
       "plan": 5,
       "tuition": "8125",

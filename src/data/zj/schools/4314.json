@@ -76,8 +76,8 @@
     },
     {
       "schoolCode": "4314",
-      "majorKey": "9aafa3cc",
-      "majorName": "保险学",
+      "majorKey": "bc8dc030",
+      "majorName": "保险学（风险管理实验班）",
       "selKe": "不限",
       "years": [
         {
@@ -315,8 +315,8 @@
     },
     {
       "schoolCode": "4314",
-      "majorKey": "f8a1727e",
-      "majorName": "国际经济与贸易",
+      "majorKey": "ff643c16",
+      "majorName": "国际经济与贸易（实验班）",
       "selKe": "不限",
       "years": [
         {
@@ -349,6 +349,21 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 651,
+          "minRank": 11886,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4314",
+      "majorKey": "2005599b",
+      "majorName": "土木工程（智能土木实验班）",
+      "selKe": "物理必选",
+      "years": [
+        {
           "year": 2022,
           "track": "综合",
           "minScore": 643,
@@ -360,13 +375,6 @@
           "track": "综合",
           "minScore": 654,
           "minRank": 10836,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 651,
-          "minRank": 11886,
           "maxScore": 0
         }
       ]
@@ -540,8 +548,8 @@
     },
     {
       "schoolCode": "4314",
-      "majorKey": "8c993eb0",
-      "majorName": "工程力学",
+      "majorKey": "abf087d0",
+      "majorName": "工程力学（力学实验班）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -656,8 +664,8 @@
     },
     {
       "schoolCode": "4314",
-      "majorKey": "b176ee03",
-      "majorName": "建筑环境与能源应用工程",
+      "majorKey": "4639fb0f",
+      "majorName": "建筑环境与能源应用工程（低碳建筑实验班）",
       "selKe": "物理必选",
       "years": [
         {
@@ -1404,7 +1412,7 @@
       "schoolCode": "4314",
       "majorKey": "34997647",
       "majorName": "能源与动力工程",
-      "selKe": "物理、化学(2科必选)",
+      "selKe": "物理/化学(2选1)",
       "years": [
         {
           "year": 2022,
@@ -1412,7 +1420,15 @@
           "minScore": 648,
           "minRank": 9006,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4314",
+      "majorKey": "bf8dd86e",
+      "majorName": "能源与动力工程（未来能源与动力创新实验班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2023,
           "track": "综合",
@@ -1467,8 +1483,8 @@
     },
     {
       "schoolCode": "4314",
-      "majorKey": "49c5cdf9",
-      "majorName": "英语",
+      "majorKey": "f80324ec",
+      "majorName": "英语（语言智能实验班）",
       "selKe": "不限",
       "years": [
         {
@@ -1562,6 +1578,50 @@
           "track": "综合",
           "minScore": 656,
           "minRank": 8414,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4314",
+      "majorKey": "e689f0db",
+      "majorName": "计算机科学与技术（智能实验班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 655,
+          "minRank": 8712,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4314",
+      "majorKey": "2eae1c03",
+      "majorName": "计算机科学与技术（智能班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 651,
+          "minRank": 7867,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 662,
+          "minRank": 7419,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 662,
+          "minRank": 7458,
           "maxScore": 0
         }
       ]
@@ -1802,7 +1862,7 @@
       "majorName": "计算机科学与技术",
       "majorKey": "1d486608",
       "selKe": "物理、化学(2科必选)",
-      "plan": 10,
+      "plan": 6,
       "tuition": "6500",
       "schooling": "四年",
       "menlei": "工",
@@ -1845,6 +1905,18 @@
       "prevYear": 2025,
       "prevRank": 8641,
       "equivRank": 8641
+    },
+    {
+      "majorName": "计算机科学与技术（智能实验班）",
+      "majorKey": "e689f0db",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 4,
+      "tuition": "6500",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 8712,
+      "equivRank": 8712
     },
     {
       "majorName": "电子信息工程",
@@ -2027,8 +2099,8 @@
       "equivRank": 9946
     },
     {
-      "majorName": "工程力学",
-      "majorKey": "8c993eb0",
+      "majorName": "工程力学（力学实验班）",
+      "majorKey": "abf087d0",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6500",

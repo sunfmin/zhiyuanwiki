@@ -55,8 +55,8 @@
     },
     {
       "schoolCode": "2107",
-      "majorKey": "07c28723",
-      "majorName": "工商管理",
+      "majorKey": "be28e859",
+      "majorName": "工商管理（学术互认）",
       "selKe": "不限",
       "years": [
         {
@@ -65,7 +65,15 @@
           "minScore": 557,
           "minRank": 99153,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "2107",
+      "majorKey": "c8cfe2bc",
+      "majorName": "工商管理（本科学术互认课程项目）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2023,
           "track": "综合",
@@ -142,8 +150,23 @@
     },
     {
       "schoolCode": "2107",
-      "majorKey": "4ef2a1b4",
-      "majorName": "机械电子工程",
+      "majorKey": "09be5856",
+      "majorName": "机械工程（中外合作办学）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 542,
+          "minRank": 121419,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2107",
+      "majorKey": "0c0c1a7a",
+      "majorName": "机械电子工程（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -330,8 +353,8 @@
     },
     {
       "schoolCode": "2107",
-      "majorKey": "da95770c",
-      "majorName": "自动化",
+      "majorKey": "f710f312",
+      "majorName": "自动化（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -345,17 +368,25 @@
     },
     {
       "schoolCode": "2107",
-      "majorKey": "1d486608",
-      "majorName": "计算机科学与技术",
+      "majorKey": "d655935e",
+      "majorName": "计算机科学与技术（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
-          "year": 2022,
+          "year": 2025,
           "track": "综合",
-          "minScore": 559,
-          "minRank": 95518,
+          "minScore": 545,
+          "minRank": 117731,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "2107",
+      "majorKey": "554f88cf",
+      "majorName": "计算机科学与技术（本科学术互认课程项目）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2023,
           "track": "综合",
@@ -375,6 +406,21 @@
           "track": "综合",
           "minScore": 559,
           "minRank": 100480,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2107",
+      "majorKey": "6f745212",
+      "majorName": "计算机科学与技术（本科学术互认课程）",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 559,
+          "minRank": 95518,
           "maxScore": 0
         }
       ]
@@ -458,6 +504,28 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 535,
+          "minRank": 129108,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 539,
+          "minRank": 125246,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2107",
+      "majorKey": "c0f24030",
+      "majorName": "食品科学与工程（卓越人才培养实验班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
           "year": 2022,
           "track": "综合",
           "minScore": 561,
@@ -469,13 +537,6 @@
           "track": "综合",
           "minScore": 560,
           "minRank": 95270,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 535,
-          "minRank": 129108,
           "maxScore": 0
         },
         {
@@ -603,8 +664,8 @@
       "equivRank": 70026
     },
     {
-      "majorName": "工商管理",
-      "majorKey": "07c28723",
+      "majorName": "工商管理（本科学术互认课程项目）",
+      "majorKey": "c8cfe2bc",
       "selKe": "不限",
       "plan": 4,
       "tuition": "25000",
@@ -615,10 +676,10 @@
       "equivRank": 90632
     },
     {
-      "majorName": "食品科学与工程",
-      "majorKey": "7b7511cd",
+      "majorName": "食品科学与工程（卓越人才培养实验班）",
+      "majorKey": "c0f24030",
       "selKe": "物理、化学(2科必选)",
-      "plan": 5,
+      "plan": 2,
       "tuition": "5200",
       "schooling": "四年",
       "menlei": "工",
@@ -630,20 +691,19 @@
       "majorName": "机械工程",
       "majorKey": "bdb5a180",
       "selKe": "物理、化学(2科必选)",
-      "plan": 3,
-      "tuition": "40000",
+      "plan": 1,
+      "tuition": "5200",
       "schooling": "四年",
       "menlei": "工",
-      "coop": true,
       "prevYear": 2025,
       "prevRank": 99219,
       "equivRank": 99219
     },
     {
-      "majorName": "计算机科学与技术",
-      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术（本科学术互认课程项目）",
+      "majorKey": "554f88cf",
       "selKe": "物理、化学(2科必选)",
-      "plan": 6,
+      "plan": 4,
       "tuition": "25000",
       "schooling": "四年",
       "menlei": "工",
@@ -652,8 +712,8 @@
       "equivRank": 100480
     },
     {
-      "majorName": "自动化",
-      "majorKey": "da95770c",
+      "majorName": "自动化（中外合作办学）",
+      "majorKey": "f710f312",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "40000",
@@ -689,8 +749,21 @@
       "equivRank": 117731
     },
     {
-      "majorName": "机械电子工程",
-      "majorKey": "4ef2a1b4",
+      "majorName": "计算机科学与技术（中外合作办学）",
+      "majorKey": "d655935e",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "40000",
+      "schooling": "四年",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 117731,
+      "equivRank": 117731
+    },
+    {
+      "majorName": "机械电子工程（中外合作办学）",
+      "majorKey": "0c0c1a7a",
       "selKe": "物理、化学(2科必选)",
       "plan": 6,
       "tuition": "35000",
@@ -700,6 +773,19 @@
       "prevYear": 2025,
       "prevRank": 118978,
       "equivRank": 118978
+    },
+    {
+      "majorName": "机械工程（中外合作办学）",
+      "majorKey": "09be5856",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "40000",
+      "schooling": "四年",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 121419,
+      "equivRank": 121419
     },
     {
       "majorName": "生物质能源与材料",
@@ -724,6 +810,18 @@
       "prevYear": 2025,
       "prevRank": 122713,
       "equivRank": 122713
+    },
+    {
+      "majorName": "食品科学与工程",
+      "majorKey": "7b7511cd",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 3,
+      "tuition": "5200",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 125246,
+      "equivRank": 125246
     },
     {
       "majorName": "生物工程",

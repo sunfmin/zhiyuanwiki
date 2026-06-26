@@ -28,7 +28,15 @@
           "minScore": 556,
           "minRank": 103572,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "1343",
+      "majorKey": "ffc78c4a",
+      "majorName": "会计学（南校区）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -64,12 +72,35 @@
           "minScore": 479,
           "minRank": 190956,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "1343",
+      "majorKey": "5c00d5a5",
+      "majorName": "土木工程（南校区。）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
           "minScore": 514,
           "minRank": 156842,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1343",
+      "majorKey": "74d703a4",
+      "majorName": "土木工程（南校区）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 490,
+          "minRank": 184372,
           "maxScore": 0
         }
       ]
@@ -100,7 +131,15 @@
           "minScore": 507,
           "minRank": 160894,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "1343",
+      "majorKey": "187c5d31",
+      "majorName": "工程管理（南校区）",
+      "selKe": "物理必选",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -136,7 +175,15 @@
           "minScore": 500,
           "minRank": 169309,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "1343",
+      "majorKey": "18dedbae",
+      "majorName": "电子信息工程（南校区）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -172,7 +219,15 @@
           "minScore": 500,
           "minRank": 168535,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "1343",
+      "majorKey": "4fed64b3",
+      "majorName": "电气工程及其自动化（南校区）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -185,8 +240,8 @@
   ],
   "plan2026": [
     {
-      "majorName": "会计学",
-      "majorKey": "8aa56116",
+      "majorName": "会计学（南校区）",
+      "majorKey": "ffc78c4a",
       "selKe": "不限",
       "plan": 5,
       "tuition": "10000",
@@ -197,20 +252,8 @@
       "equivRank": 102381
     },
     {
-      "majorName": "土木工程",
-      "majorKey": "320e7128",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 7,
-      "tuition": "10000",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 156842,
-      "equivRank": 156842
-    },
-    {
-      "majorName": "电气工程及其自动化",
-      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化（南校区）",
+      "majorKey": "4fed64b3",
       "selKe": "物理、化学(2科必选)",
       "plan": 7,
       "tuition": "10000",
@@ -221,8 +264,8 @@
       "equivRank": 159243
     },
     {
-      "majorName": "电子信息工程",
-      "majorKey": "fd603692",
+      "majorName": "电子信息工程（南校区）",
+      "majorKey": "18dedbae",
       "selKe": "物理、化学(2科必选)",
       "plan": 6,
       "tuition": "10000",
@@ -233,8 +276,8 @@
       "equivRank": 170892
     },
     {
-      "majorName": "工程管理",
-      "majorKey": "4166f1ff",
+      "majorName": "工程管理（南校区）",
+      "majorKey": "187c5d31",
       "selKe": "物理必选",
       "plan": 5,
       "tuition": "10000",
@@ -243,6 +286,18 @@
       "prevYear": 2025,
       "prevRank": 181370,
       "equivRank": 181370
+    },
+    {
+      "majorName": "土木工程（南校区）",
+      "majorKey": "74d703a4",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 7,
+      "tuition": "10000",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 184372,
+      "equivRank": 184372
     }
   ]
 }

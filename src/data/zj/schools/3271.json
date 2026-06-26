@@ -9,20 +9,6 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 564,
-          "minRank": 89551,
-          "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 563,
-          "minRank": 91830,
-          "maxScore": 0
-        },
-        {
           "year": 2024,
           "track": "综合",
           "minScore": 551,
@@ -40,8 +26,30 @@
     },
     {
       "schoolCode": "3271",
-      "majorKey": "30e8a552",
-      "majorName": "公共事业管理",
+      "majorKey": "c7e3134e",
+      "majorName": "临床医学（全科医学）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 564,
+          "minRank": 89551,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 563,
+          "minRank": 91830,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3271",
+      "majorKey": "9887adbc",
+      "majorName": "公共事业管理（卫生事业管理）",
       "selKe": "不限",
       "years": [
         {
@@ -236,8 +244,8 @@
   ],
   "plan2026": [
     {
-      "majorName": "公共事业管理",
-      "majorKey": "30e8a552",
+      "majorName": "公共事业管理（卫生事业管理）",
+      "majorKey": "9887adbc",
       "selKe": "不限",
       "plan": 3,
       "tuition": "18000",

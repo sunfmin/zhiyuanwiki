@@ -83,6 +83,78 @@
         {
           "year": 2022,
           "track": "综合",
+          "minScore": 546,
+          "minRank": 112252,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 542,
+          "minRank": 115235,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 560,
+          "minRank": 98942,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 560,
+          "minRank": 100133,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0186",
+      "majorKey": "38d54712",
+      "majorName": "会计学（国际会计ACCA）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 546,
+          "minRank": 111775,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 541,
+          "minRank": 116570,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 559,
+          "minRank": 100712,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 558,
+          "minRank": 102235,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0186",
+      "majorKey": "148f27b4",
+      "majorName": "会计学（注册会计）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
           "minScore": 552,
           "minRank": 104763,
           "maxScore": 0
@@ -364,8 +436,8 @@
     },
     {
       "schoolCode": "0186",
-      "majorKey": "d054f8d1",
-      "majorName": "应用统计学",
+      "majorKey": "79d73b18",
+      "majorName": "应用统计学（金融统计）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -790,10 +862,10 @@
   ],
   "plan2026": [
     {
-      "majorName": "会计学",
-      "majorKey": "8aa56116",
+      "majorName": "会计学（注册会计）",
+      "majorKey": "148f27b4",
       "selKe": "不限",
-      "plan": 170,
+      "plan": 46,
       "tuition": "24750",
       "schooling": "四年",
       "menlei": "管",
@@ -812,6 +884,30 @@
       "prevYear": 2025,
       "prevRank": 99918,
       "equivRank": 99918
+    },
+    {
+      "majorName": "会计学",
+      "majorKey": "8aa56116",
+      "selKe": "不限",
+      "plan": 74,
+      "tuition": "24750",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 100133,
+      "equivRank": 100133
+    },
+    {
+      "majorName": "会计学（国际会计ACCA）",
+      "majorKey": "38d54712",
+      "selKe": "不限",
+      "plan": 50,
+      "tuition": "24750",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 102235,
+      "equivRank": 102235
     },
     {
       "majorName": "人力资源管理",
@@ -1042,8 +1138,8 @@
       "equivRank": 167777
     },
     {
-      "majorName": "应用统计学",
-      "majorKey": "d054f8d1",
+      "majorName": "应用统计学（金融统计）",
+      "majorKey": "79d73b18",
       "selKe": "物理、化学(2科必选)",
       "plan": 38,
       "tuition": "18000",

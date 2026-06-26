@@ -75,6 +75,28 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 560,
+          "minRank": 99095,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 558,
+          "minRank": 102382,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6105",
+      "majorKey": "12acf2fd",
+      "majorName": "工业设计（中外合作办学）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
           "year": 2022,
           "track": "综合",
           "minScore": 559,
@@ -91,15 +113,15 @@
         {
           "year": 2024,
           "track": "综合",
-          "minScore": 560,
-          "minRank": 99095,
+          "minScore": 548,
+          "minRank": 113061,
           "maxScore": 0
         },
         {
           "year": 2025,
           "track": "综合",
-          "minScore": 558,
-          "minRank": 102382,
+          "minScore": 550,
+          "minRank": 111883,
           "maxScore": 0
         }
       ]
@@ -266,8 +288,8 @@
     },
     {
       "schoolCode": "6105",
-      "majorKey": "55ff9da5",
-      "majorName": "机械设计制造及其自动化",
+      "majorKey": "ae7e82c7",
+      "majorName": "机械设计制造及其自动化（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -478,8 +500,8 @@
     },
     {
       "schoolCode": "6105",
-      "majorKey": "1d486608",
-      "majorName": "计算机科学与技术",
+      "majorKey": "d655935e",
+      "majorName": "计算机科学与技术（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -707,8 +729,8 @@
       "equivRank": 76266
     },
     {
-      "majorName": "机械设计制造及其自动化",
-      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化（中外合作办学）",
+      "majorKey": "ae7e82c7",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "60000",
@@ -720,8 +742,8 @@
       "equivRank": 85836
     },
     {
-      "majorName": "计算机科学与技术",
-      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术（中外合作办学）",
+      "majorKey": "d655935e",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "60000",
@@ -760,11 +782,10 @@
       "majorName": "工业设计",
       "majorKey": "fee47c1b",
       "selKe": "物理、化学(2科必选)",
-      "plan": 8,
-      "tuition": "60000",
+      "plan": 4,
+      "tuition": "6000",
       "schooling": "四年",
       "menlei": "工",
-      "coop": true,
       "prevYear": 2025,
       "prevRank": 102382,
       "equivRank": 102382
@@ -780,6 +801,19 @@
       "prevYear": 2025,
       "prevRank": 105836,
       "equivRank": 105836
+    },
+    {
+      "majorName": "工业设计（中外合作办学）",
+      "majorKey": "12acf2fd",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 4,
+      "tuition": "60000",
+      "schooling": "四年",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 111883,
+      "equivRank": 111883
     },
     {
       "majorName": "环境科学与工程类",

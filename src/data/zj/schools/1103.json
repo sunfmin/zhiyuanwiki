@@ -70,8 +70,23 @@
     },
     {
       "schoolCode": "1103",
-      "majorKey": "f5e060b4",
-      "majorName": "文科试验班类",
+      "majorKey": "c66985c2",
+      "majorName": "文科试验班类（不限选考科目类专业）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 701,
+          "minRank": 92,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1103",
+      "majorKey": "69cfd923",
+      "majorName": "文科试验班类（文科基础类专业）",
       "selKe": "不限",
       "years": [
         {
@@ -93,13 +108,6 @@
           "track": "综合",
           "minScore": 707,
           "minRank": 69,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 701,
-          "minRank": 92,
           "maxScore": 0
         }
       ]
@@ -123,7 +131,7 @@
       "schoolCode": "1103",
       "majorKey": "3af900ce",
       "majorName": "理科试验班类",
-      "selKe": "物理、化学(2科必选)",
+      "selKe": "物理必选",
       "years": [
         {
           "year": 2022,
@@ -138,7 +146,15 @@
           "minScore": 712,
           "minRank": 13,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "1103",
+      "majorKey": "a20de061",
+      "majorName": "理科试验班类（元培）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2024,
           "track": "综合",
@@ -151,6 +167,42 @@
           "track": "综合",
           "minScore": 712,
           "minRank": 5,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1103",
+      "majorKey": "d02f59bf",
+      "majorName": "理科试验班类（理科基础类专业）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 695,
+          "minRank": 85,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 703,
+          "minRank": 94,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 707,
+          "minRank": 78,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 700,
+          "minRank": 100,
           "maxScore": 0
         }
       ]
@@ -173,10 +225,10 @@
   ],
   "plan2026": [
     {
-      "majorName": "理科试验班类",
-      "majorKey": "3af900ce",
+      "majorName": "理科试验班类（元培）",
+      "majorKey": "a20de061",
       "selKe": "物理、化学(2科必选)",
-      "plan": 26,
+      "plan": 2,
       "tuition": "5300",
       "schooling": "四年",
       "menlei": "他",
@@ -197,8 +249,8 @@
       "equivRank": 24
     },
     {
-      "majorName": "文科试验班类",
-      "majorKey": "f5e060b4",
+      "majorName": "文科试验班类（不限选考科目类专业）",
+      "majorKey": "c66985c2",
       "selKe": "不限",
       "plan": 6,
       "tuition": "5000",
@@ -207,6 +259,18 @@
       "prevYear": 2025,
       "prevRank": 92,
       "equivRank": 92
+    },
+    {
+      "majorName": "理科试验班类（理科基础类专业）",
+      "majorKey": "d02f59bf",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 24,
+      "tuition": "5300",
+      "schooling": "四年",
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 100,
+      "equivRank": 100
     },
     {
       "majorName": "印地语",

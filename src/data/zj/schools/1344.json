@@ -113,6 +113,21 @@
         {
           "year": 2025,
           "track": "综合",
+          "minScore": 481,
+          "minRank": 193949,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1344",
+      "majorKey": "f9baf216",
+      "majorName": "临床医学（中外合作办学）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
           "minScore": 503,
           "minRank": 169401,
           "maxScore": 0
@@ -202,15 +217,15 @@
         {
           "year": 2023,
           "track": "综合",
-          "minScore": 505,
-          "minRank": 156980,
+          "minScore": 502,
+          "minRank": 160756,
           "maxScore": 0
         },
         {
           "year": 2024,
           "track": "综合",
-          "minScore": 510,
-          "minRank": 157595,
+          "minScore": 507,
+          "minRank": 161338,
           "maxScore": 0
         },
         {
@@ -239,6 +254,42 @@
     },
     {
       "schoolCode": "1344",
+      "majorKey": "faad52af",
+      "majorName": "口腔医学（中外合作办学）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 505,
+          "minRank": 161441,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 505,
+          "minRank": 156980,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 510,
+          "minRank": 157595,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 499,
+          "minRank": 174153,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1344",
       "majorKey": "4fab0557",
       "majorName": "康复治疗技术",
       "selKe": "不限",
@@ -248,6 +299,21 @@
           "track": "综合",
           "minScore": 423,
           "minRank": 241578,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1344",
+      "majorKey": "5ae8a7c9",
+      "majorName": "康复治疗技术（中外合作办学）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 411,
+          "minRank": 248653,
           "maxScore": 0
         }
       ]
@@ -354,7 +420,7 @@
       "majorName": "口腔医学",
       "majorKey": "c162bced",
       "selKe": "不限",
-      "plan": 8,
+      "plan": 6,
       "tuition": "21900",
       "schooling": "三年",
       "menlei": "医",
@@ -363,10 +429,10 @@
       "equivRank": 168546
     },
     {
-      "majorName": "临床医学",
-      "majorKey": "618f7040",
+      "majorName": "临床医学（中外合作办学）",
+      "majorKey": "f9baf216",
       "selKe": "不限",
-      "plan": 2,
+      "plan": 1,
       "tuition": "32000",
       "schooling": "三年",
       "menlei": "医",
@@ -374,6 +440,19 @@
       "prevYear": 2025,
       "prevRank": 169401,
       "equivRank": 169401
+    },
+    {
+      "majorName": "口腔医学（中外合作办学）",
+      "majorKey": "faad52af",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "36800",
+      "schooling": "三年",
+      "menlei": "医",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 174153,
+      "equivRank": 174153
     },
     {
       "majorName": "口腔医学技术",
@@ -386,6 +465,18 @@
       "prevYear": 2025,
       "prevRank": 190798,
       "equivRank": 190798
+    },
+    {
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "selKe": "不限",
+      "plan": 1,
+      "tuition": "21900",
+      "schooling": "三年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 193949,
+      "equivRank": 193949
     },
     {
       "majorName": "针灸推拿",
@@ -475,11 +566,10 @@
       "majorName": "康复治疗技术",
       "majorKey": "4fab0557",
       "selKe": "不限",
-      "plan": 4,
-      "tuition": "27000",
+      "plan": 2,
+      "tuition": "17500",
       "schooling": "三年",
       "menlei": "医",
-      "coop": true,
       "prevYear": 2025,
       "prevRank": 241578,
       "equivRank": 241578
@@ -495,6 +585,19 @@
       "prevYear": 2025,
       "prevRank": 243458,
       "equivRank": 243458
+    },
+    {
+      "majorName": "康复治疗技术（中外合作办学）",
+      "majorKey": "5ae8a7c9",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "27000",
+      "schooling": "三年",
+      "menlei": "医",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 248653,
+      "equivRank": 248653
     },
     {
       "majorName": "助产",

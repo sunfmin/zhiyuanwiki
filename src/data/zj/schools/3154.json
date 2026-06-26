@@ -105,8 +105,8 @@
     },
     {
       "schoolCode": "3154",
-      "majorKey": "4c4c62eb",
-      "majorName": "国际商务",
+      "majorKey": "512297e0",
+      "majorName": "国际商务（跨境贸易）",
       "selKe": "不限",
       "years": [
         {
@@ -141,8 +141,23 @@
     },
     {
       "schoolCode": "3154",
-      "majorKey": "49f153aa",
-      "majorName": "大数据与会计",
+      "majorKey": "bdf59f99",
+      "majorName": "大数据与会计（助理会计师、涉外会计）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 384,
+          "minRank": 262176,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3154",
+      "majorKey": "cdc3d6b0",
+      "majorName": "大数据与会计（助理会计师，涉外会计）",
       "selKe": "不限",
       "years": [
         {
@@ -164,13 +179,6 @@
           "track": "综合",
           "minScore": 380,
           "minRank": 256833,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 384,
-          "minRank": 262176,
           "maxScore": 0
         }
       ]
@@ -386,8 +394,8 @@
     },
     {
       "schoolCode": "3154",
-      "majorKey": "2d06ee1d",
-      "majorName": "新能源汽车检测与维修技术",
+      "majorKey": "59360790",
+      "majorName": "新能源汽车检测与维修技术（高本贯通）",
       "selKe": "不限",
       "years": [
         {
@@ -683,8 +691,8 @@
     },
     {
       "schoolCode": "3154",
-      "majorKey": "faccc9c5",
-      "majorName": "计算机应用技术",
+      "majorKey": "f4e38a4f",
+      "majorName": "计算机应用技术（移动互联网应用软件开发）",
       "selKe": "不限",
       "years": [
         {
@@ -791,6 +799,28 @@
     },
     {
       "schoolCode": "3154",
+      "majorKey": "5993e411",
+      "majorName": "酒店管理与数字化运营（中马合作）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 305,
+          "minRank": 275390,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 332,
+          "minRank": 278804,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3154",
       "majorKey": "71ce49b4",
       "majorName": "餐饮智能管理",
       "selKe": "不限",
@@ -819,6 +849,43 @@
         {
           "year": 2025,
           "track": "综合",
+          "minScore": 358,
+          "minRank": 271962,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3154",
+      "majorKey": "cf4c42f0",
+      "majorName": "餐饮智能管理（中马合作）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 286,
+          "minRank": 278113,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 331,
+          "minRank": 279033,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3154",
+      "majorKey": "f4eaad41",
+      "majorName": "餐饮智能管理（高本贯通）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
           "minScore": 407,
           "minRank": 250871,
           "maxScore": 0
@@ -828,8 +895,8 @@
   ],
   "plan2026": [
     {
-      "majorName": "新能源汽车检测与维修技术",
-      "majorKey": "2d06ee1d",
+      "majorName": "新能源汽车检测与维修技术（高本贯通）",
+      "majorKey": "59360790",
       "selKe": "不限",
       "plan": 20,
       "tuition": "23800",
@@ -840,10 +907,10 @@
       "equivRank": 219976
     },
     {
-      "majorName": "餐饮智能管理",
-      "majorKey": "71ce49b4",
+      "majorName": "餐饮智能管理（高本贯通）",
+      "majorKey": "f4eaad41",
       "selKe": "不限",
-      "plan": 27,
+      "plan": 13,
       "tuition": "26000",
       "schooling": "三年",
       "menlei": "管",
@@ -852,32 +919,8 @@
       "equivRank": 250871
     },
     {
-      "majorName": "机电一体化技术",
-      "majorKey": "d4465443",
-      "selKe": "不限",
-      "plan": 33,
-      "tuition": "21800",
-      "schooling": "三年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 255080,
-      "equivRank": 255080
-    },
-    {
-      "majorName": "护理",
-      "majorKey": "a3db4652",
-      "selKe": "不限",
-      "plan": 60,
-      "tuition": "24800",
-      "schooling": "三年",
-      "menlei": "医",
-      "prevYear": 2025,
-      "prevRank": 259516,
-      "equivRank": 259516
-    },
-    {
-      "majorName": "大数据与会计",
-      "majorKey": "49f153aa",
+      "majorName": "大数据与会计（助理会计师、涉外会计）",
+      "majorKey": "bdf59f99",
       "selKe": "不限",
       "plan": 10,
       "tuition": "21800",
@@ -888,80 +931,8 @@
       "equivRank": 262176
     },
     {
-      "majorName": "电子商务",
-      "majorKey": "0b52f20f",
-      "selKe": "不限",
-      "plan": 5,
-      "tuition": "21800",
-      "schooling": "三年",
-      "menlei": "管",
-      "prevYear": 2025,
-      "prevRank": 263435,
-      "equivRank": 263435
-    },
-    {
-      "majorName": "工业机器人技术",
-      "majorKey": "26a2bf3f",
-      "selKe": "不限",
-      "plan": 35,
-      "tuition": "21800",
-      "schooling": "三年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 263831,
-      "equivRank": 263831
-    },
-    {
-      "majorName": "新能源汽车技术",
-      "majorKey": "ccb39427",
-      "selKe": "不限",
-      "plan": 48,
-      "tuition": "21800",
-      "schooling": "三年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 267094,
-      "equivRank": 267094
-    },
-    {
-      "majorName": "机械制造及自动化",
-      "majorKey": "734f4824",
-      "selKe": "不限",
-      "plan": 33,
-      "tuition": "21800",
-      "schooling": "三年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 267094,
-      "equivRank": 267094
-    },
-    {
-      "majorName": "数控技术",
-      "majorKey": "750aa39a",
-      "selKe": "不限",
-      "plan": 30,
-      "tuition": "21800",
-      "schooling": "三年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 268589,
-      "equivRank": 268589
-    },
-    {
-      "majorName": "会展策划与管理",
-      "majorKey": "45b24776",
-      "selKe": "不限",
-      "plan": 6,
-      "tuition": "21800",
-      "schooling": "三年",
-      "menlei": "管",
-      "prevYear": 2025,
-      "prevRank": 269985,
-      "equivRank": 269985
-    },
-    {
-      "majorName": "国际商务",
-      "majorKey": "4c4c62eb",
+      "majorName": "国际商务（跨境贸易）",
+      "majorKey": "512297e0",
       "selKe": "不限",
       "plan": 20,
       "tuition": "21800",
@@ -972,105 +943,8 @@
       "equivRank": 270323
     },
     {
-      "majorName": "药学",
-      "majorKey": "e9e6a481",
-      "selKe": "不限",
-      "plan": 45,
-      "tuition": "21800",
-      "schooling": "三年",
-      "menlei": "医",
-      "prevYear": 2025,
-      "prevRank": 273173,
-      "equivRank": 273173
-    },
-    {
-      "majorName": "酒店管理与数字化运营",
-      "majorKey": "0a7dd809",
-      "selKe": "不限",
-      "plan": 18,
-      "tuition": "30000",
-      "schooling": "三年",
-      "menlei": "管",
-      "coop": true,
-      "prevYear": 2025,
-      "prevRank": 274079,
-      "equivRank": 274079
-    },
-    {
-      "majorName": "物联网应用技术",
-      "majorKey": "2f3bc529",
-      "selKe": "不限",
-      "plan": 25,
-      "tuition": "21800",
-      "schooling": "三年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 274352,
-      "equivRank": 274352
-    },
-    {
-      "majorName": "智能制造装备技术",
-      "majorKey": "f5b55f2b",
-      "selKe": "不限",
-      "plan": 32,
-      "tuition": "21800",
-      "schooling": "三年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 274638,
-      "equivRank": 274638
-    },
-    {
-      "majorName": "计算机网络技术",
-      "majorKey": "547b1c20",
-      "selKe": "不限",
-      "plan": 50,
-      "tuition": "21800",
-      "schooling": "三年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 275431,
-      "equivRank": 275431
-    },
-    {
-      "majorName": "商务日语",
-      "majorKey": "7d7a8c31",
-      "selKe": "不限",
-      "plan": 18,
-      "tuition": "21800",
-      "schooling": "三年",
-      "menlei": "文",
-      "prevYear": 2025,
-      "prevRank": 275694,
-      "equivRank": 275694
-    },
-    {
-      "majorName": "智能网联汽车技术",
-      "majorKey": "04bb17fe",
-      "selKe": "不限",
-      "plan": 45,
-      "tuition": "21800",
-      "schooling": "三年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 276178,
-      "equivRank": 276178
-    },
-    {
-      "majorName": "移动互联应用技术",
-      "majorKey": "6d218a69",
-      "selKe": "不限",
-      "plan": 28,
-      "tuition": "21800",
-      "schooling": "三年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 276665,
-      "equivRank": 276665
-    },
-    {
-      "majorName": "计算机应用技术",
-      "majorKey": "faccc9c5",
+      "majorName": "计算机应用技术（移动互联网应用软件开发）",
+      "majorKey": "f4e38a4f",
       "selKe": "不限",
       "plan": 60,
       "tuition": "21800",
@@ -1081,40 +955,204 @@
       "equivRank": 277145
     },
     {
-      "majorName": "学前教育",
-      "majorKey": "97716b64",
+      "majorName": "会展策划与管理（青浦校区）",
+      "majorKey": "1509adee",
+      "selKe": "不限",
+      "plan": 6,
+      "tuition": "21800",
+      "schooling": "三年",
+      "menlei": "管"
+    },
+    {
+      "majorName": "商务日语（嘉定校区）",
+      "majorKey": "89b4d257",
+      "selKe": "不限",
+      "plan": 18,
+      "tuition": "21800",
+      "schooling": "三年",
+      "menlei": "文"
+    },
+    {
+      "majorName": "学前教育（嘉定校区）",
+      "majorKey": "cb7f2c8a",
       "selKe": "不限",
       "plan": 32,
       "tuition": "21800",
       "schooling": "三年",
-      "menlei": "教",
-      "prevYear": 2025,
-      "prevRank": 277370,
-      "equivRank": 277370
+      "menlei": "教"
     },
     {
-      "majorName": "宝玉石鉴定与加工",
-      "majorKey": "baaaab7f",
+      "majorName": "宝玉石鉴定与加工（嘉定校区）",
+      "majorKey": "f2c4d5fd",
       "selKe": "不限",
       "plan": 25,
       "tuition": "21800",
       "schooling": "三年",
-      "menlei": "他",
-      "prevYear": 2025,
-      "prevRank": 277370,
-      "equivRank": 277370
+      "menlei": "他"
     },
     {
-      "majorName": "空中乘务",
-      "majorKey": "e19c4c71",
+      "majorName": "工业机器人技术（嘉定校区）",
+      "majorKey": "968597bd",
+      "selKe": "不限",
+      "plan": 35,
+      "tuition": "21800",
+      "schooling": "三年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "护理（青浦校区）",
+      "majorKey": "22c40882",
+      "selKe": "不限",
+      "plan": 60,
+      "tuition": "24800",
+      "schooling": "三年",
+      "menlei": "医"
+    },
+    {
+      "majorName": "数控技术（嘉定校区）",
+      "majorKey": "09a738a0",
+      "selKe": "不限",
+      "plan": 30,
+      "tuition": "21800",
+      "schooling": "三年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "新能源汽车技术（嘉定校区）",
+      "majorKey": "9c234265",
+      "selKe": "不限",
+      "plan": 48,
+      "tuition": "21800",
+      "schooling": "三年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "智能制造装备技术（嘉定校区）",
+      "majorKey": "60ff87a9",
+      "selKe": "不限",
+      "plan": 32,
+      "tuition": "21800",
+      "schooling": "三年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "智能网联汽车技术（嘉定校区）",
+      "majorKey": "c6f169d4",
+      "selKe": "不限",
+      "plan": 45,
+      "tuition": "21800",
+      "schooling": "三年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "机械制造及自动化（嘉定校区）",
+      "majorKey": "7e72114a",
+      "selKe": "不限",
+      "plan": 33,
+      "tuition": "21800",
+      "schooling": "三年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "机电一体化技术（嘉定校区）",
+      "majorKey": "5cbd0241",
+      "selKe": "不限",
+      "plan": 33,
+      "tuition": "21800",
+      "schooling": "三年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "物联网应用技术（嘉定校区）",
+      "majorKey": "637aa74f",
+      "selKe": "不限",
+      "plan": 25,
+      "tuition": "21800",
+      "schooling": "三年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "电子商务（青浦校区）",
+      "majorKey": "9d0f18e7",
+      "selKe": "不限",
+      "plan": 5,
+      "tuition": "21800",
+      "schooling": "三年",
+      "menlei": "管"
+    },
+    {
+      "majorName": "移动互联应用技术（嘉定校区）",
+      "majorKey": "e713148f",
+      "selKe": "不限",
+      "plan": 28,
+      "tuition": "21800",
+      "schooling": "三年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "空中乘务（青浦校区）",
+      "majorKey": "b1c82d0d",
       "selKe": "不限",
       "plan": 20,
       "tuition": "24800",
       "schooling": "三年",
-      "menlei": "他",
-      "prevYear": 2025,
-      "prevRank": 277611,
-      "equivRank": 277611
+      "menlei": "他"
+    },
+    {
+      "majorName": "药学（嘉定校区）",
+      "majorKey": "b26a6647",
+      "selKe": "不限",
+      "plan": 45,
+      "tuition": "21800",
+      "schooling": "三年",
+      "menlei": "医"
+    },
+    {
+      "majorName": "计算机网络技术（嘉定校区）",
+      "majorKey": "dc4ef9f6",
+      "selKe": "不限",
+      "plan": 50,
+      "tuition": "21800",
+      "schooling": "三年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "酒店管理与数字化运营（中外合作办学）",
+      "majorKey": "f4cee22b",
+      "selKe": "不限",
+      "plan": 12,
+      "tuition": "30000",
+      "schooling": "三年",
+      "menlei": "管",
+      "coop": true
+    },
+    {
+      "majorName": "酒店管理与数字化运营（青浦校区）",
+      "majorKey": "9fea3605",
+      "selKe": "不限",
+      "plan": 6,
+      "tuition": "24800",
+      "schooling": "三年",
+      "menlei": "管"
+    },
+    {
+      "majorName": "餐饮智能管理（中外合作办学）",
+      "majorKey": "7d2ec27a",
+      "selKe": "不限",
+      "plan": 11,
+      "tuition": "30000",
+      "schooling": "三年",
+      "menlei": "管",
+      "coop": true
+    },
+    {
+      "majorName": "餐饮智能管理（青浦校区）",
+      "majorKey": "a4e746a8",
+      "selKe": "不限",
+      "plan": 3,
+      "tuition": "26000",
+      "schooling": "三年",
+      "menlei": "管"
     }
   ]
 }

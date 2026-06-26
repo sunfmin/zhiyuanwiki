@@ -82,6 +82,7 @@ export interface MajorIndexEntry {
 export type MajorSchool = {
   sc: string;
   sn: string;
+  mn?: string; // 叶子全名（含方向后缀），用于专业页内消歧（如大类各方向）
   mk: string;
   minRank: number;
   year: number;

@@ -6,7 +6,7 @@
       "schoolCode": "6111",
       "majorKey": "2285e5ca",
       "majorName": "中医学",
-      "selKe": "不限",
+      "selKe": "物理、化学(2科必选)",
       "years": [
         {
           "year": 2022,
@@ -28,7 +28,15 @@
           "minScore": 594,
           "minRank": 59840,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "6111",
+      "majorKey": "e907fefd",
+      "majorName": "中医学（西安）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -57,7 +65,15 @@
           "minScore": 586,
           "minRank": 68692,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "6111",
+      "majorKey": "b4996300",
+      "majorName": "中西医临床医学（西安）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -93,7 +109,15 @@
           "minScore": 590,
           "minRank": 63939,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "6111",
+      "majorKey": "3dad4a0b",
+      "majorName": "临床医学（西安）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -106,8 +130,8 @@
   ],
   "plan2026": [
     {
-      "majorName": "中医学",
-      "majorKey": "2285e5ca",
+      "majorName": "中医学（西安）",
+      "majorKey": "e907fefd",
       "selKe": "不限",
       "plan": 2,
       "tuition": "6955",
@@ -118,8 +142,8 @@
       "equivRank": 38710
     },
     {
-      "majorName": "临床医学",
-      "majorKey": "618f7040",
+      "majorName": "临床医学（西安）",
+      "majorKey": "3dad4a0b",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6500",
@@ -130,8 +154,8 @@
       "equivRank": 66409
     },
     {
-      "majorName": "中西医临床医学",
-      "majorKey": "8a499b4f",
+      "majorName": "中西医临床医学（西安）",
+      "majorKey": "b4996300",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "6500",

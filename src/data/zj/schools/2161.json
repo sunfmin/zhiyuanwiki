@@ -11,6 +11,114 @@
         {
           "year": 2022,
           "track": "综合",
+          "minScore": 639,
+          "minRank": 13644,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 644,
+          "minRank": 15738,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 640,
+          "minRank": 18593,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 631,
+          "minRank": 23012,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2161",
+      "majorKey": "db6c560f",
+      "majorName": "临床医学（5+3一体化）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 651,
+          "minRank": 7523,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 664,
+          "minRank": 6339,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 662,
+          "minRank": 7566,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 654,
+          "minRank": 9278,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2161",
+      "majorKey": "d1de1734",
+      "majorName": "临床医学（检验医师培养试验班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 644,
+          "minRank": 10835,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 649,
+          "minRank": 12976,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 648,
+          "minRank": 13882,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 638,
+          "minRank": 17621,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2161",
+      "majorKey": "d87becc5",
+      "majorName": "临床医学（红医班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
           "minScore": 657,
           "minRank": 5247,
           "maxScore": 0
@@ -32,8 +140,8 @@
         {
           "year": 2025,
           "track": "综合",
-          "minScore": 654,
-          "minRank": 9278,
+          "minScore": 653,
+          "minRank": 9770,
           "maxScore": 0
         }
       ]
@@ -257,8 +365,8 @@
     },
     {
       "schoolCode": "2161",
-      "majorKey": "0ac1da59",
-      "majorName": "生物技术",
+      "majorKey": "2a290dfb",
+      "majorName": "生物技术（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -293,8 +401,8 @@
     },
     {
       "schoolCode": "2161",
-      "majorKey": "dc8e7679",
-      "majorName": "药物制剂",
+      "majorKey": "0145db9b",
+      "majorName": "药物制剂（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -395,16 +503,40 @@
   ],
   "plan2026": [
     {
-      "majorName": "临床医学",
-      "majorKey": "618f7040",
+      "majorName": "临床医学（5+3一体化）",
+      "majorKey": "db6c560f",
       "selKe": "物理、化学(2科必选)",
-      "plan": 13,
+      "plan": 2,
       "tuition": "6050",
       "schooling": "五年",
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 9278,
       "equivRank": 9278
+    },
+    {
+      "majorName": "临床医学（红医班）",
+      "majorKey": "d87becc5",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 1,
+      "tuition": "6050",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 9770,
+      "equivRank": 9770
+    },
+    {
+      "majorName": "临床医学（检验医师培养试验班）",
+      "majorKey": "d1de1734",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 1,
+      "tuition": "6050",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 17621,
+      "equivRank": 17621
     },
     {
       "majorName": "口腔医学",
@@ -417,6 +549,18 @@
       "prevYear": 2025,
       "prevRank": 17644,
       "equivRank": 17644
+    },
+    {
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 9,
+      "tuition": "6050",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 23012,
+      "equivRank": 23012
     },
     {
       "majorName": "麻醉学",
@@ -479,8 +623,8 @@
       "equivRank": 48751
     },
     {
-      "majorName": "药物制剂",
-      "majorKey": "dc8e7679",
+      "majorName": "药物制剂（中外合作办学）",
+      "majorKey": "0145db9b",
       "selKe": "物理、化学(2科必选)",
       "plan": 7,
       "tuition": "69000",
@@ -492,8 +636,8 @@
       "equivRank": 113315
     },
     {
-      "majorName": "生物技术",
-      "majorKey": "0ac1da59",
+      "majorName": "生物技术（中外合作办学）",
+      "majorKey": "2a290dfb",
       "selKe": "物理、化学(2科必选)",
       "plan": 7,
       "tuition": "69000",

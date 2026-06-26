@@ -210,8 +210,8 @@
     },
     {
       "schoolCode": "5133",
-      "majorKey": "c23e4b23",
-      "majorName": "艺术教育",
+      "majorKey": "07916e50",
+      "majorName": "艺术教育（创新实验班。）",
       "selKe": "不限",
       "years": [
         {
@@ -222,21 +222,24 @@
           "maxScore": 0
         }
       ]
+    },
+    {
+      "schoolCode": "5133",
+      "majorKey": "bc4d6ce7",
+      "majorName": "艺术教育（创新实验班）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 538,
+          "minRank": 127653,
+          "maxScore": 0
+        }
+      ]
     }
   ],
   "plan2026": [
-    {
-      "majorName": "艺术教育",
-      "majorKey": "c23e4b23",
-      "selKe": "不限",
-      "plan": 5,
-      "tuition": "17000",
-      "schooling": "四年",
-      "menlei": "教",
-      "prevYear": 2025,
-      "prevRank": 99218,
-      "equivRank": 99218
-    },
     {
       "majorName": "会计学",
       "majorKey": "8aa56116",
@@ -248,6 +251,18 @@
       "prevYear": 2025,
       "prevRank": 107296,
       "equivRank": 107296
+    },
+    {
+      "majorName": "艺术教育（创新实验班）",
+      "majorKey": "bc4d6ce7",
+      "selKe": "不限",
+      "plan": 5,
+      "tuition": "17000",
+      "schooling": "四年",
+      "menlei": "教",
+      "prevYear": 2025,
+      "prevRank": 127653,
+      "equivRank": 127653
     },
     {
       "majorName": "早期教育",

@@ -4,8 +4,8 @@
   "leaves": [
     {
       "schoolCode": "4318",
-      "majorKey": "2fec4169",
-      "majorName": "人工智能",
+      "majorKey": "c4f40764",
+      "majorName": "人工智能（智能医学创新班）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -207,8 +207,8 @@
     },
     {
       "schoolCode": "4318",
-      "majorKey": "bb0a25bd",
-      "majorName": "数据科学与大数据技术",
+      "majorKey": "a889f209",
+      "majorName": "数据科学与大数据技术（医药大数据创新班）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -325,8 +325,8 @@
     },
     {
       "schoolCode": "4318",
-      "majorKey": "55ff9da5",
-      "majorName": "机械设计制造及其自动化",
+      "majorKey": "ae7e82c7",
+      "majorName": "机械设计制造及其自动化（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -343,6 +343,21 @@
           "minRank": 143472,
           "maxScore": 0
         },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 522,
+          "minRank": 146261,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4318",
+      "majorKey": "c5f3c019",
+      "majorName": "机械设计制造及其自动化（医疗器械装备创新班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -369,8 +384,8 @@
     },
     {
       "schoolCode": "4318",
-      "majorKey": "fd603692",
-      "majorName": "电子信息工程",
+      "majorKey": "c6e5efdd",
+      "majorName": "电子信息工程（智能影像创新班）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -422,7 +437,7 @@
       "schoolCode": "4318",
       "majorKey": "45947d31",
       "majorName": "电气工程及其自动化",
-      "selKe": "物理、化学(2科必选)",
+      "selKe": "物理必选",
       "years": [
         {
           "year": 2022,
@@ -436,6 +451,21 @@
           "track": "综合",
           "minScore": 546,
           "minRank": 110856,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4318",
+      "majorKey": "05b8e6d3",
+      "majorName": "电气工程及其自动化（中外合作办学）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 538,
+          "minRank": 120061,
           "maxScore": 0
         },
         {
@@ -564,8 +594,8 @@
     },
     {
       "schoolCode": "4318",
-      "majorKey": "0c33cbdd",
-      "majorName": "软件工程",
+      "majorKey": "979f7c1f",
+      "majorName": "软件工程（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -801,14 +831,13 @@
       "equivRank": 124532
     },
     {
-      "majorName": "机械设计制造及其自动化",
-      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化（医疗器械装备创新班）",
+      "majorKey": "c5f3c019",
       "selKe": "物理、化学(2科必选)",
-      "plan": 5,
-      "tuition": "22000",
+      "plan": 2,
+      "tuition": "5900",
       "schooling": "四年",
       "menlei": "工",
-      "coop": true,
       "prevYear": 2025,
       "prevRank": 126949,
       "equivRank": 126949
@@ -838,8 +867,8 @@
       "equivRank": 131620
     },
     {
-      "majorName": "电子信息工程",
-      "majorKey": "fd603692",
+      "majorName": "电子信息工程（智能影像创新班）",
+      "majorKey": "c6e5efdd",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5900",
@@ -850,8 +879,8 @@
       "equivRank": 132811
     },
     {
-      "majorName": "数据科学与大数据技术",
-      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术（医药大数据创新班）",
+      "majorKey": "a889f209",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5900",
@@ -874,8 +903,8 @@
       "equivRank": 139249
     },
     {
-      "majorName": "电气工程及其自动化",
-      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化（中外合作办学）",
+      "majorKey": "05b8e6d3",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "22000",
@@ -911,8 +940,8 @@
       "equivRank": 142545
     },
     {
-      "majorName": "人工智能",
-      "majorKey": "2fec4169",
+      "majorName": "人工智能（智能医学创新班）",
+      "majorKey": "c4f40764",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5900",
@@ -921,6 +950,19 @@
       "prevYear": 2025,
       "prevRank": 144739,
       "equivRank": 144739
+    },
+    {
+      "majorName": "机械设计制造及其自动化（中外合作办学）",
+      "majorKey": "ae7e82c7",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 3,
+      "tuition": "22000",
+      "schooling": "四年",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 146261,
+      "equivRank": 146261
     },
     {
       "majorName": "统计学",
@@ -947,8 +989,8 @@
       "equivRank": 153480
     },
     {
-      "majorName": "软件工程",
-      "majorKey": "0c33cbdd",
+      "majorName": "软件工程（中外合作办学）",
+      "majorKey": "979f7c1f",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "25400",

@@ -72,7 +72,15 @@
           "minScore": 534,
           "minRank": 129906,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "1305",
+      "majorKey": "6bc5433c",
+      "majorName": "工商管理（黄骅）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -86,6 +94,21 @@
       "schoolCode": "1305",
       "majorKey": "bdb5a180",
       "majorName": "机械工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 486,
+          "minRank": 188688,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1305",
+      "majorKey": "0a33fe37",
+      "majorName": "机械工程（黄骅）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -123,7 +146,15 @@
           "minScore": 531,
           "minRank": 133521,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "1305",
+      "majorKey": "7bf76c54",
+      "majorName": "物流管理（黄骅）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -171,6 +202,21 @@
         {
           "year": 2025,
           "track": "综合",
+          "minScore": 488,
+          "minRank": 186576,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1305",
+      "majorKey": "d2dee7aa",
+      "majorName": "电气工程及其自动化（黄骅）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
           "minScore": 490,
           "minRank": 184372,
           "maxScore": 0
@@ -203,7 +249,15 @@
           "minScore": 529,
           "minRank": 135721,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "1305",
+      "majorKey": "7e0edc52",
+      "majorName": "英语（黄骅）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -254,7 +308,15 @@
           "minScore": 537,
           "minRank": 126318,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "1305",
+      "majorKey": "65284c61",
+      "majorName": "财务管理（黄骅）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -289,8 +351,8 @@
   ],
   "plan2026": [
     {
-      "majorName": "财务管理",
-      "majorKey": "8220c852",
+      "majorName": "财务管理（黄骅）",
+      "majorKey": "65284c61",
       "selKe": "不限",
       "plan": 12,
       "tuition": "19000",
@@ -301,8 +363,8 @@
       "equivRank": 127529
     },
     {
-      "majorName": "工商管理",
-      "majorKey": "07c28723",
+      "majorName": "工商管理（黄骅）",
+      "majorKey": "6bc5433c",
       "selKe": "不限",
       "plan": 12,
       "tuition": "19000",
@@ -313,8 +375,8 @@
       "equivRank": 131359
     },
     {
-      "majorName": "物流管理",
-      "majorKey": "8b6a817b",
+      "majorName": "物流管理（黄骅）",
+      "majorKey": "7bf76c54",
       "selKe": "不限",
       "plan": 8,
       "tuition": "19000",
@@ -325,8 +387,8 @@
       "equivRank": 131772
     },
     {
-      "majorName": "英语",
-      "majorKey": "49c5cdf9",
+      "majorName": "英语（黄骅）",
+      "majorKey": "7e0edc52",
       "selKe": "不限",
       "plan": 12,
       "tuition": "21000",
@@ -337,8 +399,8 @@
       "equivRank": 137155
     },
     {
-      "majorName": "机械工程",
-      "majorKey": "bdb5a180",
+      "majorName": "机械工程（黄骅）",
+      "majorKey": "0a33fe37",
       "selKe": "物理、化学(2科必选)",
       "plan": 6,
       "tuition": "21000",
@@ -349,8 +411,8 @@
       "equivRank": 184372
     },
     {
-      "majorName": "电气工程及其自动化",
-      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化（黄骅）",
+      "majorKey": "d2dee7aa",
       "selKe": "物理、化学(2科必选)",
       "plan": 12,
       "tuition": "21000",
@@ -361,16 +423,13 @@
       "equivRank": 184372
     },
     {
-      "majorName": "计算机科学与技术",
-      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术（黄骅）",
+      "majorKey": "9e5a88bf",
       "selKe": "物理、化学(2科必选)",
       "plan": 8,
       "tuition": "21000",
       "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 188688,
-      "equivRank": 188688
+      "menlei": "工"
     }
   ]
 }

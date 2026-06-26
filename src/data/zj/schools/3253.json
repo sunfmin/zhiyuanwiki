@@ -587,13 +587,6 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 531,
-          "minRank": 130230,
-          "maxScore": 0
-        },
-        {
           "year": 2023,
           "track": "综合",
           "minScore": 531,
@@ -612,6 +605,21 @@
           "track": "综合",
           "minScore": 505,
           "minRank": 166295,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3253",
+      "majorKey": "214c2aff",
+      "majorName": "物联网工程（嵌入式培养）",
+      "selKe": "物理、技术(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 531,
+          "minRank": 130230,
           "maxScore": 0
         }
       ]
@@ -835,8 +843,8 @@
         {
           "year": 2022,
           "track": "综合",
-          "minScore": 536,
-          "minRank": 123817,
+          "minScore": 535,
+          "minRank": 124977,
           "maxScore": 0
         },
         {
@@ -864,17 +872,25 @@
     },
     {
       "schoolCode": "3253",
-      "majorKey": "1c1ee3f7",
-      "majorName": "通信工程",
-      "selKe": "物理、化学(2科必选)",
+      "majorKey": "df0de9a7",
+      "majorName": "软件工程（嵌入式培养）",
+      "selKe": "物理必选",
       "years": [
         {
           "year": 2022,
           "track": "综合",
-          "minScore": 528,
-          "minRank": 133829,
+          "minScore": 536,
+          "minRank": 123817,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "3253",
+      "majorKey": "1c1ee3f7",
+      "majorName": "通信工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2023,
           "track": "综合",
@@ -894,6 +910,21 @@
           "track": "综合",
           "minScore": 504,
           "minRank": 167454,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3253",
+      "majorKey": "a534af71",
+      "majorName": "通信工程（嵌入式培养）",
+      "selKe": "物理、技术(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 528,
+          "minRank": 133829,
           "maxScore": 0
         }
       ]

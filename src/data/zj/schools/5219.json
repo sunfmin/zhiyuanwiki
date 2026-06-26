@@ -4,35 +4,6 @@
   "leaves": [
     {
       "schoolCode": "5219",
-      "majorKey": "d061ae24",
-      "majorName": "地理科学",
-      "selKe": "地理必选",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 559,
-          "minRank": 96632,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 576,
-          "minRank": 80193,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 567,
-          "minRank": 91819,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolCode": "5219",
       "majorKey": "da4cc459",
       "majorName": "地理科学类",
       "selKe": "地理必选",
@@ -48,8 +19,45 @@
     },
     {
       "schoolCode": "5219",
-      "majorKey": "97716b64",
-      "majorName": "学前教育",
+      "majorKey": "198d794d",
+      "majorName": "地理科学（师范）",
+      "selKe": "地理必选",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 559,
+          "minRank": 96632,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 576,
+          "minRank": 80193,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5219",
+      "majorKey": "7a4becdb",
+      "majorName": "地理科学（都匀）",
+      "selKe": "地理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 567,
+          "minRank": 91819,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5219",
+      "majorKey": "6e38b28d",
+      "majorName": "学前教育（师范）",
       "selKe": "不限",
       "years": [
         {
@@ -72,7 +80,15 @@
           "minScore": 572,
           "minRank": 84640,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "5219",
+      "majorKey": "7177f51b",
+      "majorName": "学前教育（都匀）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -84,8 +100,8 @@
     },
     {
       "schoolCode": "5219",
-      "majorKey": "97bc5998",
-      "majorName": "汉语言文学",
+      "majorKey": "d7131091",
+      "majorName": "汉语言文学（师范）",
       "selKe": "不限",
       "years": [
         {
@@ -108,7 +124,15 @@
           "minScore": 580,
           "minRank": 75238,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "5219",
+      "majorKey": "79432767",
+      "majorName": "汉语言文学（都匀）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -120,8 +144,8 @@
     },
     {
       "schoolCode": "5219",
-      "majorKey": "653f630d",
-      "majorName": "物理学",
+      "majorKey": "bec128cc",
+      "majorName": "物理学（师范）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -144,7 +168,15 @@
           "minScore": 486,
           "minRank": 184162,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "5219",
+      "majorKey": "9f74930e",
+      "majorName": "物理学（都匀）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -157,8 +189,8 @@
   ],
   "plan2026": [
     {
-      "majorName": "汉语言文学",
-      "majorKey": "97bc5998",
+      "majorName": "汉语言文学（都匀）",
+      "majorKey": "79432767",
       "selKe": "不限",
       "plan": 1,
       "tuition": "4100",
@@ -169,8 +201,8 @@
       "equivRank": 84695
     },
     {
-      "majorName": "地理科学",
-      "majorKey": "d061ae24",
+      "majorName": "地理科学（都匀）",
+      "majorKey": "7a4becdb",
       "selKe": "地理必选",
       "plan": 1,
       "tuition": "4200",
@@ -181,8 +213,8 @@
       "equivRank": 91819
     },
     {
-      "majorName": "学前教育",
-      "majorKey": "97716b64",
+      "majorName": "学前教育（都匀）",
+      "majorKey": "7177f51b",
       "selKe": "不限",
       "plan": 1,
       "tuition": "4100",
@@ -193,8 +225,8 @@
       "equivRank": 100617
     },
     {
-      "majorName": "物理学",
-      "majorKey": "653f630d",
+      "majorName": "物理学（都匀）",
+      "majorKey": "9f74930e",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "4200",

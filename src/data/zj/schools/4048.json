@@ -66,7 +66,15 @@
           "minScore": 599,
           "minRank": 55083,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4048",
+      "majorKey": "bf623595",
+      "majorName": "土木工程（智慧土木方向）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -154,7 +162,15 @@
           "minScore": 592,
           "minRank": 62826,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4048",
+      "majorKey": "d4f50731",
+      "majorName": "数学与应用数学（大数据与科学计算方向）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -305,8 +321,8 @@
     },
     {
       "schoolCode": "4048",
-      "majorKey": "e2472a71",
-      "majorName": "生物科学",
+      "majorKey": "22de3613",
+      "majorName": "生物科学（生科、生态学方向）",
       "selKe": "物/化/生(3选1)",
       "years": [
         {
@@ -356,6 +372,72 @@
     },
     {
       "schoolCode": "4048",
+      "majorKey": "05b8e6d3",
+      "majorName": "电气工程及其自动化（中外合作办学）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 624,
+          "minRank": 29951,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 626,
+          "minRank": 28859,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4048",
+      "majorKey": "3f7cbe00",
+      "majorName": "电气工程及其自动化（直流技术方向）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 629,
+          "minRank": 24154,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4048",
+      "majorKey": "072e0ca5",
+      "majorName": "电气工程及其自动化（输电线路工程方向）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 632,
+          "minRank": 23828,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 632,
+          "minRank": 24121,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 629,
+          "minRank": 24007,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4048",
       "majorKey": "8230723d",
       "majorName": "计算机类",
       "selKe": "物理必选",
@@ -397,13 +479,37 @@
       "majorName": "电气工程及其自动化",
       "majorKey": "45947d31",
       "selKe": "物理、化学(2科必选)",
-      "plan": 10,
+      "plan": 6,
       "tuition": "5850",
       "schooling": "四年",
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 21779,
       "equivRank": 21779
+    },
+    {
+      "majorName": "电气工程及其自动化（输电线路工程方向）",
+      "majorKey": "072e0ca5",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "5850",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 24007,
+      "equivRank": 24007
+    },
+    {
+      "majorName": "电气工程及其自动化（直流技术方向）",
+      "majorKey": "3f7cbe00",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "5850",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 24154,
+      "equivRank": 24154
     },
     {
       "majorName": "智能电网信息工程",
@@ -466,8 +572,8 @@
       "equivRank": 61319
     },
     {
-      "majorName": "土木工程",
-      "majorKey": "320e7128",
+      "majorName": "土木工程（智慧土木方向）",
+      "majorKey": "bf623595",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5850",
@@ -478,8 +584,8 @@
       "equivRank": 62220
     },
     {
-      "majorName": "数学与应用数学",
-      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学（大数据与科学计算方向）",
+      "majorKey": "d4f50731",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "4500",

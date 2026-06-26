@@ -45,13 +45,6 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 670,
-          "minRank": 1931,
-          "maxScore": 0
-        },
-        {
           "year": 2023,
           "track": "综合",
           "minScore": 681,
@@ -63,13 +56,6 @@
           "track": "综合",
           "minScore": 684,
           "minRank": 1658,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 675,
-          "minRank": 2519,
           "maxScore": 0
         }
       ]
@@ -98,8 +84,89 @@
     },
     {
       "schoolCode": "4055",
+      "majorKey": "db6c560f",
+      "majorName": "临床医学（5+3一体化）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 665,
+          "minRank": 3000,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 676,
+          "minRank": 2982,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 676,
+          "minRank": 3168,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 667,
+          "minRank": 4560,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
+      "majorKey": "02e3848f",
+      "majorName": "临床医学（8年）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 675,
+          "minRank": 2519,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
+      "majorKey": "1bd1acbd",
+      "majorName": "临床医学（本博融通）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 670,
+          "minRank": 1931,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
       "majorKey": "2fec4169",
       "majorName": "人工智能",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 669,
+          "minRank": 3745,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
+      "majorKey": "2b38e7bd",
+      "majorName": "人工智能（自强班）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -113,8 +180,8 @@
     },
     {
       "schoolCode": "4055",
-      "majorKey": "e70fa033",
-      "majorName": "人文科学试验班",
+      "majorKey": "cc66237c",
+      "majorName": "人文科学试验班（弘毅学堂）",
       "selKe": "历史必选",
       "years": [
         {
@@ -282,7 +349,51 @@
           "minScore": 683,
           "minRank": 1955,
           "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
+      "majorKey": "cda546aa",
+      "majorName": "口腔医学（5+3一体化）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 670,
+          "minRank": 2005,
+          "maxScore": 0
         },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 682,
+          "minRank": 1813,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 682,
+          "minRank": 2001,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 672,
+          "minRank": 3016,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
+      "majorKey": "fcbf004a",
+      "majorName": "口腔医学（8年）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -330,8 +441,8 @@
     },
     {
       "schoolCode": "4055",
-      "majorKey": "f8a1727e",
-      "majorName": "国际经济与贸易",
+      "majorKey": "871dce9e",
+      "majorName": "国际经济与贸易（弘毅学堂数字贸易与金融试验班）",
       "selKe": "物理/历史(2选1)",
       "years": [
         {
@@ -388,8 +499,23 @@
     },
     {
       "schoolCode": "4055",
-      "majorKey": "112364a6",
-      "majorName": "导航工程",
+      "majorKey": "1ec90911",
+      "majorName": "导航工程（智能导航创新班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 664,
+          "minRank": 5373,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
+      "majorKey": "10eedb83",
+      "majorName": "导航工程（智能导航本硕试验班）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -397,13 +523,6 @@
           "track": "综合",
           "minScore": 671,
           "minRank": 4404,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 664,
-          "minRank": 5373,
           "maxScore": 0
         }
       ]
@@ -432,9 +551,69 @@
     },
     {
       "schoolCode": "4055",
-      "majorKey": "b363aa3d",
-      "majorName": "工科试验班",
-      "selKe": "物理、化学(2科必选)",
+      "majorKey": "17a0c28c",
+      "majorName": "工科试验班（A智能机器人试验班）",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 662,
+          "minRank": 3730,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
+      "majorKey": "9b60f961",
+      "majorName": "工科试验班（A电气类卓越工程师培养计划）",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 660,
+          "minRank": 4483,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
+      "majorKey": "c001bb81",
+      "majorName": "工科试验班（B含卓越工程师教育培养计划）",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 655,
+          "minRank": 5998,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
+      "majorKey": "4b74066c",
+      "majorName": "工科试验班（动力与机械类）",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 670,
+          "minRank": 4480,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
+      "majorKey": "33fb725e",
+      "majorName": "工科试验班（弘毅学堂）",
+      "selKe": "物理必选",
       "years": [
         {
           "year": 2022,
@@ -442,21 +621,97 @@
           "minScore": 668,
           "minRank": 2289,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
+      "majorKey": "6a683ab7",
+      "majorName": "工科试验班（数智土木类试验班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
-          "year": 2023,
+          "year": 2024,
           "track": "综合",
-          "minScore": 676,
-          "minRank": 3016,
+          "minScore": 664,
+          "minRank": 6833,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
+      "majorKey": "2d0c0e81",
+      "majorName": "工科试验班（智慧能源与智能制造类）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 670,
+          "minRank": 4649,
           "maxScore": 0
         },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 664,
+          "minRank": 5456,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
+      "majorKey": "7f3865d0",
+      "majorName": "工科试验班（智慧能源创新班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 663,
+          "minRank": 5747,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
+      "majorKey": "750f7e91",
+      "majorName": "工科试验班（智能机器人试验班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2024,
           "track": "综合",
           "minScore": 674,
           "minRank": 3699,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
+      "majorKey": "f8869a51",
+      "majorName": "工科试验班（智能电气试验班）",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 674,
+          "minRank": 3416,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
+      "majorKey": "35f8e23d",
+      "majorName": "工科试验班（机器人与智能机械试验班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -468,9 +723,83 @@
     },
     {
       "schoolCode": "4055",
-      "majorKey": "6b32f2c4",
-      "majorName": "建筑学",
+      "majorKey": "36a7ebcb",
+      "majorName": "工科试验班（电气类）",
       "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 670,
+          "minRank": 4450,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 672,
+          "minRank": 4182,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 666,
+          "minRank": 4809,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
+      "majorKey": "2e88b7c3",
+      "majorName": "工科试验班（碳中和本硕博试验班）",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 676,
+          "minRank": 3016,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
+      "majorKey": "18c17007",
+      "majorName": "工科试验班（碳中和自强班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 663,
+          "minRank": 5542,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
+      "majorKey": "50f73760",
+      "majorName": "工科试验班（碳中和试验班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 672,
+          "minRank": 4161,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
+      "majorKey": "e485ac4a",
+      "majorName": "建筑学（中外合作办学）",
+      "selKe": "物理必选",
       "years": [
         {
           "year": 2022,
@@ -478,7 +807,15 @@
           "minScore": 650,
           "minRank": 8305,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
+      "majorKey": "08666ba1",
+      "majorName": "建筑学（人工智能试验班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2023,
           "track": "综合",
@@ -497,8 +834,8 @@
     },
     {
       "schoolCode": "4055",
-      "majorKey": "e063e51a",
-      "majorName": "微电子科学与工程",
+      "majorKey": "79d65f8f",
+      "majorName": "微电子科学与工程（集成电路学院）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -540,6 +877,21 @@
         {
           "year": 2025,
           "track": "综合",
+          "minScore": 665,
+          "minRank": 4985,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
+      "majorKey": "7c54e91c",
+      "majorName": "数学类（数学自强班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
           "minScore": 667,
           "minRank": 4521,
           "maxScore": 0
@@ -548,8 +900,8 @@
     },
     {
       "schoolCode": "4055",
-      "majorKey": "f5e060b4",
-      "majorName": "文科试验班类",
+      "majorKey": "107286b7",
+      "majorName": "文科试验班类（弘毅学堂）",
       "selKe": "不限",
       "years": [
         {
@@ -606,8 +958,8 @@
     },
     {
       "schoolCode": "4055",
-      "majorKey": "301e14e8",
-      "majorName": "机器人工程",
+      "majorKey": "7d64e602",
+      "majorName": "机器人工程（机器入学院）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -715,8 +1067,8 @@
     },
     {
       "schoolCode": "4055",
-      "majorKey": "7faf2092",
-      "majorName": "环境工程",
+      "majorKey": "5083a132",
+      "majorName": "环境工程（本硕国际试验班）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -730,8 +1082,23 @@
     },
     {
       "schoolCode": "4055",
-      "majorKey": "54728189",
-      "majorName": "理科试验班",
+      "majorKey": "bcffea11",
+      "majorName": "理科试验班（弘毅双学位试验班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 670,
+          "minRank": 3454,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
+      "majorKey": "efd21332",
+      "majorName": "理科试验班（弘毅学堂）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -766,15 +1133,30 @@
     },
     {
       "schoolCode": "4055",
-      "majorKey": "e2472a71",
-      "majorName": "生物科学",
+      "majorKey": "85d1fb65",
+      "majorName": "理科试验班（空间信息与国土资源类）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
-          "year": 2024,
+          "year": 2023,
           "track": "综合",
-          "minScore": 669,
-          "minRank": 5115,
+          "minScore": 668,
+          "minRank": 5131,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
+      "majorKey": "1d94d58c",
+      "majorName": "理科试验班（空间信息与资源环境类）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 655,
+          "minRank": 5995,
           "maxScore": 0
         }
       ]
@@ -817,6 +1199,21 @@
     },
     {
       "schoolCode": "4055",
+      "majorKey": "e6f6ab1c",
+      "majorName": "生物科学（精英班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 669,
+          "minRank": 5115,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
       "majorKey": "5e0efed0",
       "majorName": "电子信息类",
       "selKe": "物理、化学(2科必选)",
@@ -841,34 +1238,35 @@
           "minScore": 668,
           "minRank": 5212,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
+      "majorKey": "0fdf29d2",
+      "majorName": "电子信息类（地球与空间科学技术学院）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
-          "minScore": 663,
-          "minRank": 5712,
+          "minScore": 662,
+          "minRank": 5982,
           "maxScore": 0
         }
       ]
     },
     {
       "schoolCode": "4055",
-      "majorKey": "bda0ff17",
-      "majorName": "经济学",
-      "selKe": "不限",
+      "majorKey": "7f1ded23",
+      "majorName": "电子信息类（电子信息学院）",
+      "selKe": "物理、化学(2科必选)",
       "years": [
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 675,
-          "minRank": 3501,
-          "maxScore": 0
-        },
         {
           "year": 2025,
           "track": "综合",
-          "minScore": 671,
-          "minRank": 3433,
+          "minScore": 663,
+          "minRank": 5712,
           "maxScore": 0
         }
       ]
@@ -911,17 +1309,40 @@
     },
     {
       "schoolCode": "4055",
-      "majorKey": "3093c484",
-      "majorName": "网络空间安全",
-      "selKe": "物理、化学(2科必选)",
+      "majorKey": "0885b0ba",
+      "majorName": "经济学（数智经济与管理创新班）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 671,
+          "minRank": 3433,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
+      "majorKey": "9be521cd",
+      "majorName": "经济学（数智经济与管理试验班）",
+      "selKe": "不限",
       "years": [
         {
           "year": 2024,
           "track": "综合",
-          "minScore": 678,
-          "minRank": 2767,
+          "minScore": 675,
+          "minRank": 3501,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
+      "majorKey": "5bb88f4a",
+      "majorName": "网络空间安全（创新班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -933,8 +1354,23 @@
     },
     {
       "schoolCode": "4055",
-      "majorKey": "1d486608",
-      "majorName": "计算机科学与技术",
+      "majorKey": "3313a0c0",
+      "majorName": "网络空间安全（本硕博试验班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 678,
+          "minRank": 2767,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
+      "majorKey": "7addf25c",
+      "majorName": "计算机科学与技术（弘毅本博试验班）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -955,8 +1391,44 @@
     },
     {
       "schoolCode": "4055",
-      "majorKey": "8230723d",
-      "majorName": "计算机类",
+      "majorKey": "7c3f11d7",
+      "majorName": "计算机类（国家网络安全学院）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 661,
+          "minRank": 4169,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 673,
+          "minRank": 3705,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 672,
+          "minRank": 4205,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 666,
+          "minRank": 4651,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
+      "majorKey": "46a7a8c1",
+      "majorName": "计算机类（计算机学院）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -991,8 +1463,8 @@
     },
     {
       "schoolCode": "4055",
-      "majorKey": "0c33cbdd",
-      "majorName": "软件工程",
+      "majorKey": "1d4affae",
+      "majorName": "软件工程（特软班）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -1042,9 +1514,9 @@
     },
     {
       "schoolCode": "4055",
-      "majorKey": "b39b8034",
-      "majorName": "金融学类",
-      "selKe": "不限",
+      "majorKey": "1a7b805f",
+      "majorName": "金融学类（弘毅学堂数理经济与数理金融试验班）",
+      "selKe": "物理/历史(2选1)",
       "years": [
         {
           "year": 2022,
@@ -1059,7 +1531,15 @@
           "minScore": 675,
           "minRank": 3147,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4055",
+      "majorKey": "b5c7ec37",
+      "majorName": "金融学类（弘毅学堂）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2024,
           "track": "综合",
@@ -1106,20 +1586,20 @@
       "equivRank": 2000
     },
     {
-      "majorName": "临床医学",
-      "majorKey": "618f7040",
+      "majorName": "临床医学（8年）",
+      "majorKey": "02e3848f",
       "selKe": "物理、化学(2科必选)",
-      "plan": 12,
+      "plan": 2,
       "tuition": "5850",
-      "schooling": "五年",
+      "schooling": "八年",
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 2519,
       "equivRank": 2519
     },
     {
-      "majorName": "软件工程",
-      "majorKey": "0c33cbdd",
+      "majorName": "软件工程（特软班）",
+      "majorKey": "1d4affae",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5850",
@@ -1130,20 +1610,32 @@
       "equivRank": 2599
     },
     {
-      "majorName": "口腔医学",
-      "majorKey": "c162bced",
+      "majorName": "口腔医学（8年）",
+      "majorKey": "fcbf004a",
       "selKe": "物理、化学(2科必选)",
-      "plan": 4,
+      "plan": 2,
       "tuition": "5850",
-      "schooling": "五年",
+      "schooling": "八年",
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 2793,
       "equivRank": 2793
     },
     {
-      "majorName": "网络空间安全",
-      "majorKey": "3093c484",
+      "majorName": "口腔医学（5+3一体化）",
+      "majorKey": "cda546aa",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "5850",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 3016,
+      "equivRank": 3016
+    },
+    {
+      "majorName": "网络空间安全（创新班）",
+      "majorKey": "5bb88f4a",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5850",
@@ -1154,10 +1646,10 @@
       "equivRank": 3196
     },
     {
-      "majorName": "人工智能",
-      "majorKey": "2fec4169",
+      "majorName": "人工智能（自强班）",
+      "majorKey": "2b38e7bd",
       "selKe": "物理、化学(2科必选)",
-      "plan": 2,
+      "plan": 1,
       "tuition": "5850",
       "schooling": "四年",
       "menlei": "工",
@@ -1166,8 +1658,8 @@
       "equivRank": 3197
     },
     {
-      "majorName": "文科试验班类",
-      "majorKey": "f5e060b4",
+      "majorName": "文科试验班类（弘毅学堂）",
+      "majorKey": "107286b7",
       "selKe": "不限",
       "plan": 5,
       "tuition": "5850",
@@ -1178,10 +1670,10 @@
       "equivRank": 3322
     },
     {
-      "majorName": "理科试验班",
-      "majorKey": "54728189",
+      "majorName": "理科试验班（弘毅学堂）",
+      "majorKey": "efd21332",
       "selKe": "物理、化学(2科必选)",
-      "plan": 4,
+      "plan": 2,
       "tuition": "5850",
       "schooling": "四年",
       "menlei": "他",
@@ -1190,8 +1682,8 @@
       "equivRank": 3403
     },
     {
-      "majorName": "经济学",
-      "majorKey": "bda0ff17",
+      "majorName": "经济学（数智经济与管理创新班）",
+      "majorKey": "0885b0ba",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5850",
@@ -1202,16 +1694,40 @@
       "equivRank": 3433
     },
     {
-      "majorName": "工科试验班",
-      "majorKey": "b363aa3d",
+      "majorName": "理科试验班（弘毅双学位试验班）",
+      "majorKey": "bcffea11",
       "selKe": "物理、化学(2科必选)",
-      "plan": 28,
-      "tuition": "4500",
+      "plan": 2,
+      "tuition": "5850",
       "schooling": "四年",
       "menlei": "他",
       "prevYear": 2025,
+      "prevRank": 3454,
+      "equivRank": 3454
+    },
+    {
+      "majorName": "工科试验班（机器人与智能机械试验班）",
+      "majorKey": "35f8e23d",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "4500",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
       "prevRank": 3602,
       "equivRank": 3602
+    },
+    {
+      "majorName": "人工智能",
+      "majorKey": "2fec4169",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 1,
+      "tuition": "5850",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 3745,
+      "equivRank": 3745
     },
     {
       "majorName": "中国语言文学类",
@@ -1226,10 +1742,10 @@
       "equivRank": 3984
     },
     {
-      "majorName": "计算机类",
-      "majorKey": "8230723d",
+      "majorName": "计算机类（计算机学院）",
+      "majorKey": "46a7a8c1",
       "selKe": "物理、化学(2科必选)",
-      "plan": 14,
+      "plan": 6,
       "tuition": "5850",
       "schooling": "四年",
       "menlei": "工",
@@ -1238,8 +1754,8 @@
       "equivRank": 4053
     },
     {
-      "majorName": "机器人工程",
-      "majorKey": "301e14e8",
+      "majorName": "机器人工程（机器入学院）",
+      "majorKey": "7d64e602",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5850",
@@ -1274,16 +1790,28 @@
       "equivRank": 4504
     },
     {
-      "majorName": "数学类",
-      "majorKey": "33b3d741",
+      "majorName": "数学类（数学自强班）",
+      "majorKey": "7c54e91c",
       "selKe": "物理、化学(2科必选)",
-      "plan": 4,
+      "plan": 2,
       "tuition": "4500",
       "schooling": "四年",
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 4521,
       "equivRank": 4521
+    },
+    {
+      "majorName": "临床医学（5+3一体化）",
+      "majorKey": "db6c560f",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 10,
+      "tuition": "5850",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 4560,
+      "equivRank": 4560
     },
     {
       "majorName": "经济学类",
@@ -1298,6 +1826,30 @@
       "equivRank": 4604
     },
     {
+      "majorName": "计算机类（国家网络安全学院）",
+      "majorKey": "7c3f11d7",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 8,
+      "tuition": "5850",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 4651,
+      "equivRank": 4651
+    },
+    {
+      "majorName": "工科试验班（电气类）",
+      "majorKey": "36a7ebcb",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 15,
+      "tuition": "4500",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 4809,
+      "equivRank": 4809
+    },
+    {
       "majorName": "哲学类",
       "majorKey": "d027e8b0",
       "selKe": "不限",
@@ -1310,8 +1862,8 @@
       "equivRank": 4824
     },
     {
-      "majorName": "微电子科学与工程",
-      "majorKey": "e063e51a",
+      "majorName": "微电子科学与工程（集成电路学院）",
+      "majorKey": "79d65f8f",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4500",
@@ -1320,6 +1872,18 @@
       "prevYear": 2025,
       "prevRank": 4860,
       "equivRank": 4860
+    },
+    {
+      "majorName": "数学类",
+      "majorKey": "33b3d741",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "4500",
+      "schooling": "四年",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 4985,
+      "equivRank": 4985
     },
     {
       "majorName": "公共管理类",
@@ -1334,8 +1898,8 @@
       "equivRank": 5125
     },
     {
-      "majorName": "导航工程",
-      "majorKey": "112364a6",
+      "majorName": "导航工程（智能导航创新班）",
+      "majorKey": "1ec90911",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "4500",
@@ -1346,16 +1910,52 @@
       "equivRank": 5373
     },
     {
-      "majorName": "电子信息类",
-      "majorKey": "5e0efed0",
+      "majorName": "工科试验班（智慧能源与智能制造类）",
+      "majorKey": "2d0c0e81",
       "selKe": "物理、化学(2科必选)",
-      "plan": 22,
+      "plan": 6,
+      "tuition": "4500",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 5456,
+      "equivRank": 5456
+    },
+    {
+      "majorName": "工科试验班（碳中和自强班）",
+      "majorKey": "18c17007",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "4500",
+      "schooling": "四年",
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 5542,
+      "equivRank": 5542
+    },
+    {
+      "majorName": "电子信息类（电子信息学院）",
+      "majorKey": "7f1ded23",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 19,
       "tuition": "5850",
       "schooling": "四年",
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 5712,
       "equivRank": 5712
+    },
+    {
+      "majorName": "工科试验班（智慧能源创新班）",
+      "majorKey": "7f3865d0",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 3,
+      "tuition": "4500",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 5747,
+      "equivRank": 5747
     },
     {
       "majorName": "遥感科学与技术",
@@ -1368,6 +1968,18 @@
       "prevYear": 2025,
       "prevRank": 5872,
       "equivRank": 5872
+    },
+    {
+      "majorName": "电子信息类（地球与空间科学技术学院）",
+      "majorKey": "0fdf29d2",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 3,
+      "tuition": "5850",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 5982,
+      "equivRank": 5982
     },
     {
       "majorName": "物理学类",

@@ -4,8 +4,8 @@
   "leaves": [
     {
       "schoolCode": "3480",
-      "majorKey": "97716b64",
-      "majorName": "学前教育",
+      "majorKey": "6e38b28d",
+      "majorName": "学前教育（师范）",
       "selKe": "不限",
       "years": [
         {
@@ -73,7 +73,15 @@
           "minScore": 436,
           "minRank": 226215,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "3480",
+      "majorKey": "1e0baa84",
+      "majorName": "机电一体化技术（敬亭山校区。）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -86,20 +94,8 @@
   ],
   "plan2026": [
     {
-      "majorName": "机电一体化技术",
-      "majorKey": "d4465443",
-      "selKe": "不限",
-      "plan": 10,
-      "tuition": "3900",
-      "schooling": "三年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 226282,
-      "equivRank": 226282
-    },
-    {
-      "majorName": "学前教育",
-      "majorKey": "97716b64",
+      "majorName": "学前教育（师范）",
+      "majorKey": "6e38b28d",
       "selKe": "不限",
       "plan": 10,
       "tuition": "3500",
@@ -108,6 +104,15 @@
       "prevYear": 2025,
       "prevRank": 232172,
       "equivRank": 232172
+    },
+    {
+      "majorName": "机电一体化技术（敬亭山校区）",
+      "majorKey": "3eea3e83",
+      "selKe": "不限",
+      "plan": 10,
+      "tuition": "3900",
+      "schooling": "三年",
+      "menlei": "工"
     }
   ]
 }

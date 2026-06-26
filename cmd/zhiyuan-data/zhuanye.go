@@ -7,12 +7,16 @@ import (
 	"os"
 	"path/filepath"
 	"sort"
+
+	"github.com/sunfmin/zhiyuanwiki/internal/core"
+	"github.com/sunfmin/zhiyuanwiki/internal/zj"
 )
 
 type majorSchool struct {
 	SchoolCode string `json:"sc"`
 	SchoolName string `json:"sn"`
-	MajorKey   string `json:"mk"`
+	MajorName  string `json:"mn,omitempty"` // 叶子全名（含方向后缀，用于专业页内消歧）
+	MajorKey   string `json:"mk"`           // 叶子键（含方向），#z 锚点用
 	MinRank    int    `json:"minRank"`
 	Year       int    `json:"year"`
 	Track      string `json:"track"`
@@ -66,13 +70,20 @@ func zhuanyeCmd(args []string) {
 					latest = y
 				}
 			}
-			md := details[lf.MajorKey]
+			// 专业索引按「基名」跨校归并（浙江大类方向折叠回基名）；锚点仍用叶子键。
+			baseName := lf.MajorName
+			if p.slug == "zj" {
+				baseName = zj.BaseMajorName(lf.MajorName)
+			}
+			baseKey := core.MajorKey(baseName)
+			md := details[baseKey]
 			if md == nil {
-				md = &majorDetail{Key: lf.MajorKey, Name: lf.MajorName}
-				details[lf.MajorKey] = md
+				md = &majorDetail{Key: baseKey, Name: baseName}
+				details[baseKey] = md
 			}
 			md.Schools = append(md.Schools, majorSchool{
-				SchoolCode: d.Code, SchoolName: d.Name, MajorKey: lf.MajorKey,
+				SchoolCode: d.Code, SchoolName: d.Name,
+				MajorName: lf.MajorName, MajorKey: lf.MajorKey,
 				MinRank: latest.MinRank, Year: latest.Year, Track: latest.Track,
 			})
 		}

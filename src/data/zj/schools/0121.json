@@ -499,7 +499,15 @@
           "minScore": 574,
           "minRank": 82758,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "0121",
+      "majorKey": "7b290779",
+      "majorName": "英语（要求高考英语成绩不低于105分）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -728,8 +736,8 @@
       "equivRank": 86720
     },
     {
-      "majorName": "英语",
-      "majorKey": "49c5cdf9",
+      "majorName": "英语（要求高考英语成绩不低于105分）",
+      "majorKey": "7b290779",
       "selKe": "不限",
       "plan": 63,
       "tuition": "4800",
@@ -755,7 +763,7 @@
       "majorName": "电气工程及其自动化",
       "majorKey": "45947d31",
       "selKe": "物理、化学(2科必选)",
-      "plan": 30,
+      "plan": 20,
       "tuition": "5500",
       "schooling": "四年",
       "menlei": "工",
@@ -767,7 +775,7 @@
       "majorName": "电子信息工程",
       "majorKey": "fd603692",
       "selKe": "物理、化学(2科必选)",
-      "plan": 30,
+      "plan": 20,
       "tuition": "5500",
       "schooling": "四年",
       "menlei": "工",
@@ -779,7 +787,7 @@
       "majorName": "计算机科学与技术",
       "majorKey": "1d486608",
       "selKe": "物理、化学(2科必选)",
-      "plan": 30,
+      "plan": 20,
       "tuition": "5500",
       "schooling": "四年",
       "menlei": "工",
@@ -810,6 +818,33 @@
       "prevYear": 2025,
       "prevRank": 116183,
       "equivRank": 116183
+    },
+    {
+      "majorName": "电子信息工程（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程）",
+      "majorKey": "088754a2",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 10,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "电气工程及其自动化（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程）",
+      "majorKey": "1828bba1",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 10,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "计算机科学与技术（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程）",
+      "majorKey": "3d641ed0",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 10,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "工"
     }
   ]
 }

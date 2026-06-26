@@ -4,8 +4,8 @@
   "leaves": [
     {
       "schoolCode": "1352",
-      "majorKey": "c04dc2b1",
-      "majorName": "司法警察学",
+      "majorKey": "8b47f82e",
+      "majorName": "司法警察学（只招男生）",
       "selKe": "不限",
       "years": [
         {
@@ -34,8 +34,8 @@
     },
     {
       "schoolCode": "1352",
-      "majorKey": "a5b00ae5",
-      "majorName": "监狱学",
+      "majorKey": "bbb8b53a",
+      "majorName": "监狱学（只招男生）",
       "selKe": "不限",
       "years": [
         {
@@ -43,6 +43,21 @@
           "track": "综合",
           "minScore": 607,
           "minRank": 46013,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1352",
+      "majorKey": "d2dc9963",
+      "majorName": "监狱学（心理矫治方向）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 605,
+          "minRank": 47983,
           "maxScore": 0
         }
       ]
@@ -64,8 +79,8 @@
     },
     {
       "schoolCode": "1352",
-      "majorKey": "062bcf46",
-      "majorName": "行政管理",
+      "majorKey": "89fa7f6d",
+      "majorName": "行政管理（警察管理方向）",
       "selKe": "不限",
       "years": [
         {
@@ -80,40 +95,61 @@
   ],
   "plan2026": [
     {
-      "majorName": "司法警察学",
-      "majorKey": "c04dc2b1",
+      "majorName": "监狱学（心理矫治方向）",
+      "majorKey": "d2dc9963",
+      "selKe": "不限",
+      "plan": 1,
+      "tuition": "5060",
+      "schooling": "四年",
+      "menlei": "法",
+      "prevYear": 2023,
+      "prevRank": 47983,
+      "equivRank": 50277
+    },
+    {
+      "majorName": "司法警察学（只招男生。须政治考察合格。按相关公告（通知）",
+      "majorKey": "8396b65f",
       "selKe": "不限",
       "plan": 9,
       "tuition": "5060",
       "schooling": "四年",
-      "menlei": "法",
-      "prevYear": 2023,
-      "prevRank": 42216,
-      "equivRank": 44234
+      "menlei": "法"
     },
     {
-      "majorName": "监狱学",
-      "majorKey": "a5b00ae5",
+      "majorName": "监狱学（只招男生。须政治考察合格。按相关公告（通知）",
+      "majorKey": "0d401903",
       "selKe": "不限",
-      "plan": 7,
+      "plan": 2,
       "tuition": "5060",
       "schooling": "四年",
-      "menlei": "法",
-      "prevYear": 2023,
-      "prevRank": 46013,
-      "equivRank": 48212
+      "menlei": "法"
     },
     {
-      "majorName": "社区矫正",
-      "majorKey": "0c7297c6",
+      "majorName": "监狱学（政治工作方向）",
+      "majorKey": "5ff9cebb",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "5060",
+      "schooling": "四年",
+      "menlei": "法"
+    },
+    {
+      "majorName": "监狱学（矫正教育方向）",
+      "majorKey": "27d3085a",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "5060",
+      "schooling": "四年",
+      "menlei": "法"
+    },
+    {
+      "majorName": "社区矫正（只招男生。须政治考察合格。按相关公告（通知）",
+      "majorKey": "e120891e",
       "selKe": "不限",
       "plan": 4,
       "tuition": "5060",
       "schooling": "四年",
-      "menlei": "法",
-      "prevYear": 2023,
-      "prevRank": 70865,
-      "equivRank": 74252
+      "menlei": "法"
     }
   ]
 }

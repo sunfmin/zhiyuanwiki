@@ -144,7 +144,7 @@
       "schoolCode": "4355",
       "majorKey": "04ab47fe",
       "majorName": "化学",
-      "selKe": "物理、化学(2科必选)",
+      "selKe": "物理/化学(2选1)",
       "years": [
         {
           "year": 2022,
@@ -152,7 +152,15 @@
           "minScore": 564,
           "minRank": 90722,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4355",
+      "majorKey": "0dfc12db",
+      "majorName": "化学（师范）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2023,
           "track": "综合",
@@ -173,7 +181,7 @@
       "schoolCode": "4355",
       "majorKey": "c9800f2a",
       "majorName": "历史学",
-      "selKe": "不限",
+      "selKe": "历史/地理(2选1)",
       "years": [
         {
           "year": 2022,
@@ -181,7 +189,15 @@
           "minScore": 578,
           "minRank": 73862,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4355",
+      "majorKey": "4c5c8bc7",
+      "majorName": "历史学（师范）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2023,
           "track": "综合",
@@ -255,7 +271,15 @@
           "minScore": 571,
           "minRank": 82274,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4355",
+      "majorKey": "6e38b28d",
+      "majorName": "学前教育（师范）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2023,
           "track": "综合",
@@ -284,7 +308,15 @@
           "minScore": 580,
           "minRank": 71471,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4355",
+      "majorKey": "983355fa",
+      "majorName": "小学教育（师范）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2023,
           "track": "综合",
@@ -320,7 +352,15 @@
           "minScore": 576,
           "minRank": 76250,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4355",
+      "majorKey": "47452c2f",
+      "majorName": "思想政治教育（师范）",
+      "selKe": "思想政治必选",
+      "years": [
         {
           "year": 2023,
           "track": "综合",
@@ -348,7 +388,7 @@
       "schoolCode": "4355",
       "majorKey": "618fdffd",
       "majorName": "数学与应用数学",
-      "selKe": "物理、化学(2科必选)",
+      "selKe": "物理必选",
       "years": [
         {
           "year": 2022,
@@ -356,7 +396,15 @@
           "minScore": 552,
           "minRank": 105341,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4355",
+      "majorKey": "9f802a9c",
+      "majorName": "数学与应用数学（师范）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2023,
           "track": "综合",
@@ -522,7 +570,15 @@
           "minScore": 579,
           "minRank": 72677,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4355",
+      "majorKey": "d7131091",
+      "majorName": "汉语言文学（师范）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2023,
           "track": "综合",
@@ -613,8 +669,8 @@
     },
     {
       "schoolCode": "4355",
-      "majorKey": "653f630d",
-      "majorName": "物理学",
+      "majorKey": "bec128cc",
+      "majorName": "物理学（师范）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -700,8 +756,8 @@
     },
     {
       "schoolCode": "4355",
-      "majorKey": "e2472a71",
-      "majorName": "生物科学",
+      "majorKey": "80353860",
+      "majorName": "生物科学（师范）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -869,7 +925,15 @@
           "minScore": 578,
           "minRank": 73862,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4355",
+      "majorKey": "fea3e248",
+      "majorName": "英语（师范）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2023,
           "track": "综合",
@@ -1125,8 +1189,8 @@
       "equivRank": 77027
     },
     {
-      "majorName": "汉语言文学",
-      "majorKey": "97bc5998",
+      "majorName": "汉语言文学（师范）",
+      "majorKey": "d7131091",
       "selKe": "不限",
       "plan": 3,
       "tuition": "4000",
@@ -1149,8 +1213,8 @@
       "equivRank": 79768
     },
     {
-      "majorName": "思想政治教育",
-      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育（师范）",
+      "majorKey": "47452c2f",
       "selKe": "思想政治必选",
       "plan": 2,
       "tuition": "4000",
@@ -1173,8 +1237,8 @@
       "equivRank": 83958
     },
     {
-      "majorName": "英语",
-      "majorKey": "49c5cdf9",
+      "majorName": "英语（师范）",
+      "majorKey": "fea3e248",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4000",
@@ -1209,8 +1273,8 @@
       "equivRank": 93465
     },
     {
-      "majorName": "小学教育",
-      "majorKey": "c240892f",
+      "majorName": "小学教育（师范）",
+      "majorKey": "983355fa",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4000",
@@ -1269,8 +1333,8 @@
       "equivRank": 133831
     },
     {
-      "majorName": "物理学",
-      "majorKey": "653f630d",
+      "majorName": "物理学（师范）",
+      "majorKey": "bec128cc",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4000",
@@ -1437,8 +1501,8 @@
       "equivRank": 154738
     },
     {
-      "majorName": "数学与应用数学",
-      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学（师范）",
+      "majorKey": "9f802a9c",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "4000",
@@ -1449,8 +1513,8 @@
       "equivRank": 155972
     },
     {
-      "majorName": "生物科学",
-      "majorKey": "e2472a71",
+      "majorName": "生物科学（师范）",
+      "majorKey": "80353860",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4000",
@@ -1461,8 +1525,8 @@
       "equivRank": 160598
     },
     {
-      "majorName": "化学",
-      "majorKey": "04ab47fe",
+      "majorName": "化学（师范）",
+      "majorKey": "0dfc12db",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4000",

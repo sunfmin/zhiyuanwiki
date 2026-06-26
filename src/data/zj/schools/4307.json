@@ -195,8 +195,8 @@
     },
     {
       "schoolCode": "4307",
-      "majorKey": "67470343",
-      "majorName": "小学英语教育",
+      "majorKey": "7d354abe",
+      "majorName": "小学英语教育（师范）",
       "selKe": "不限",
       "years": [
         {
@@ -319,8 +319,8 @@
     },
     {
       "schoolCode": "4307",
-      "majorKey": "ec77cae2",
-      "majorName": "旅游管理",
+      "majorKey": "41b36fa7",
+      "majorName": "旅游管理（韩语方向）",
       "selKe": "不限",
       "years": [
         {
@@ -414,8 +414,8 @@
         {
           "year": 2022,
           "track": "综合",
-          "minScore": 508,
-          "minRank": 158153,
+          "minScore": 500,
+          "minRank": 166905,
           "maxScore": 0
         },
         {
@@ -430,6 +430,35 @@
           "track": "综合",
           "minScore": 515,
           "minRank": 151851,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4307",
+      "majorKey": "4960b22b",
+      "majorName": "民政服务与管理（社会组织服务与管理方向）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 508,
+          "minRank": 158153,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 503,
+          "minRank": 159633,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 514,
+          "minRank": 153559,
           "maxScore": 0
         }
       ]
@@ -626,8 +655,23 @@
     },
     {
       "schoolCode": "4307",
-      "majorKey": "8000e20b",
-      "majorName": "软件技术",
+      "majorKey": "13c62c8e",
+      "majorName": "软件技术（企业信息化管理方向）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 490,
+          "minRank": 184372,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4307",
+      "majorKey": "df81f58b",
+      "majorName": "软件技术（大数据应用开发方向）",
       "selKe": "不限",
       "years": [
         {
@@ -637,6 +681,21 @@
           "minRank": 170042,
           "maxScore": 0
         },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 500,
+          "minRank": 172080,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4307",
+      "majorKey": "f1923c5b",
+      "majorName": "软件技术（移动与人工智能应用开发方向）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2023,
           "track": "综合",
@@ -650,7 +709,15 @@
           "minScore": 514,
           "minRank": 153414,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4307",
+      "majorKey": "ca4d713c",
+      "majorName": "软件技术（软件开发方向）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -863,10 +930,10 @@
       "equivRank": 161204
     },
     {
-      "majorName": "软件技术",
-      "majorKey": "8000e20b",
+      "majorName": "软件技术（软件开发方向）",
+      "majorKey": "ca4d713c",
       "selKe": "不限",
-      "plan": 8,
+      "plan": 2,
       "tuition": "7800",
       "schooling": "三年",
       "menlei": "工",
@@ -911,6 +978,18 @@
       "equivRank": 169144
     },
     {
+      "majorName": "软件技术（大数据应用开发方向）",
+      "majorKey": "df81f58b",
+      "selKe": "不限",
+      "plan": 3,
+      "tuition": "7800",
+      "schooling": "三年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 172080,
+      "equivRank": 172080
+    },
+    {
       "majorName": "集成电路技术",
       "majorKey": "24b39c5e",
       "selKe": "不限",
@@ -952,6 +1031,18 @@
       "selKe": "不限",
       "plan": 2,
       "tuition": "3500",
+      "schooling": "三年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 184372,
+      "equivRank": 184372
+    },
+    {
+      "majorName": "软件技术（企业信息化管理方向）",
+      "majorKey": "13c62c8e",
+      "selKe": "不限",
+      "plan": 3,
+      "tuition": "7800",
       "schooling": "三年",
       "menlei": "管",
       "prevYear": 2025,

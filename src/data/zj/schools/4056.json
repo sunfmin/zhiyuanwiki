@@ -171,8 +171,8 @@
     },
     {
       "schoolCode": "4056",
-      "majorKey": "4166f1ff",
-      "majorName": "工程管理",
+      "majorKey": "78386492",
+      "majorName": "工程管理（工程概预算）",
       "selKe": "物理必选",
       "years": [
         {
@@ -279,13 +279,6 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 521,
-          "minRank": 142074,
-          "maxScore": 0
-        },
-        {
           "year": 2023,
           "track": "综合",
           "minScore": 521,
@@ -304,6 +297,21 @@
           "track": "综合",
           "minScore": 495,
           "minRank": 177807,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4056",
+      "majorKey": "236db1b7",
+      "majorName": "机械电子工程（智能机器人及编程）",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 521,
+          "minRank": 142074,
           "maxScore": 0
         }
       ]
@@ -382,8 +390,8 @@
     },
     {
       "schoolCode": "4056",
-      "majorKey": "b436d441",
-      "majorName": "电子信息工程技术",
+      "majorKey": "f206f82c",
+      "majorName": "电子信息工程技术（三年制）",
       "selKe": "不限",
       "years": [
         {
@@ -392,7 +400,15 @@
           "minScore": 507,
           "minRank": 158973,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4056",
+      "majorKey": "a758b149",
+      "majorName": "电子信息工程技术（专科专业）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2023,
           "track": "综合",
@@ -434,6 +450,21 @@
           "track": "综合",
           "minScore": 541,
           "minRank": 123202,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4056",
+      "majorKey": "2dd92f22",
+      "majorName": "电子商务（三年制）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 498,
+          "minRank": 168189,
           "maxScore": 0
         }
       ]
@@ -803,8 +834,8 @@
       "equivRank": 183473
     },
     {
-      "majorName": "工程管理",
-      "majorKey": "4166f1ff",
+      "majorName": "工程管理（工程概预算）",
+      "majorKey": "78386492",
       "selKe": "物理必选",
       "plan": 3,
       "tuition": "21000",

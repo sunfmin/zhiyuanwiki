@@ -48,6 +48,28 @@
     },
     {
       "schoolCode": "3314",
+      "majorKey": "45505317",
+      "majorName": "广播电视编导（中外合作办学）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 532,
+          "minRank": 132571,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 547,
+          "minRank": 115964,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3314",
       "majorKey": "913de9bc",
       "majorName": "影视技术",
       "selKe": "不限",
@@ -98,17 +120,25 @@
       "selKe": "不限",
       "years": [
         {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 563,
-          "minRank": 96123,
-          "maxScore": 0
-        },
-        {
           "year": 2025,
           "track": "综合",
           "minScore": 566,
           "minRank": 92592,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3314",
+      "majorKey": "064ff08a",
+      "majorName": "新闻传播学类（新闻学、广告学、传播学、网络与新媒体、数字出版）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 563,
+          "minRank": 96123,
           "maxScore": 0
         }
       ]
@@ -233,13 +263,26 @@
       "majorName": "广播电视编导",
       "majorKey": "b86f75b5",
       "selKe": "不限",
-      "plan": 45,
+      "plan": 35,
       "tuition": "35000",
       "schooling": "四年",
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 112364,
       "equivRank": 112364
+    },
+    {
+      "majorName": "广播电视编导（中外合作办学）",
+      "majorKey": "45505317",
+      "selKe": "不限",
+      "plan": 10,
+      "tuition": "27600",
+      "schooling": "四年",
+      "menlei": "艺",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 115964,
+      "equivRank": 115964
     }
   ]
 }

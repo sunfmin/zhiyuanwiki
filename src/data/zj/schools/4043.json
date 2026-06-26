@@ -127,13 +127,6 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 544,
-          "minRank": 114371,
-          "maxScore": 0
-        },
-        {
           "year": 2023,
           "track": "综合",
           "minScore": 543,
@@ -152,6 +145,21 @@
           "track": "综合",
           "minScore": 532,
           "minRank": 133924,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4043",
+      "majorKey": "a6ef2a72",
+      "majorName": "环境工程（荆楚卓越计划）",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 544,
+          "minRank": 114371,
           "maxScore": 0
         }
       ]
@@ -204,7 +212,15 @@
           "minScore": 570,
           "minRank": 87335,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4043",
+      "majorKey": "17cb0928",
+      "majorName": "英语（要求高考英语成绩不低于90分）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -217,8 +233,8 @@
   ],
   "plan2026": [
     {
-      "majorName": "英语",
-      "majorKey": "49c5cdf9",
+      "majorName": "英语（要求高考英语成绩不低于90分）",
+      "majorKey": "17cb0928",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5200",

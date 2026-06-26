@@ -154,13 +154,6 @@
       "selKe": "不限",
       "years": [
         {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 413,
-          "minRank": 235618,
-          "maxScore": 0
-        },
-        {
           "year": 2023,
           "track": "综合",
           "minScore": 425,
@@ -179,6 +172,42 @@
           "track": "综合",
           "minScore": 455,
           "minRank": 218243,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0111",
+      "majorKey": "e8ac4eb1",
+      "majorName": "工业机器人技术（中外合作办学）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 413,
+          "minRank": 235618,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 419,
+          "minRank": 232293,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 434,
+          "minRank": 227892,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 444,
+          "minRank": 227042,
           "maxScore": 0
         }
       ]
@@ -209,7 +238,15 @@
           "minScore": 439,
           "minRank": 224058,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "0111",
+      "majorKey": "b042e39b",
+      "majorName": "应用化工技术（岱山校区。）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -404,7 +441,30 @@
           "minScore": 437,
           "minRank": 225441,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "0111",
+      "majorKey": "d1f73d00",
+      "majorName": "油气储运技术（岱山校区。）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 445,
+          "minRank": 226282,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0111",
+      "majorKey": "f6b16437",
+      "majorName": "油气储运技术（岱山校区）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -513,7 +573,15 @@
           "minScore": 435,
           "minRank": 227155,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "0111",
+      "majorKey": "40823bdf",
+      "majorName": "石油化工技术（岱山校区。）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -591,6 +659,42 @@
           "track": "综合",
           "minScore": 490,
           "minRank": 184372,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0111",
+      "majorKey": "c8e99b9e",
+      "majorName": "船舶工程技术（中外合作办学）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 399,
+          "minRank": 242192,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 416,
+          "minRank": 233880,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 431,
+          "minRank": 230074,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 441,
+          "minRank": 229313,
           "maxScore": 0
         }
       ]
@@ -751,7 +855,15 @@
           "minScore": 435,
           "minRank": 226912,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "0111",
+      "majorKey": "866430b9",
+      "majorName": "高分子合成技术（岱山校区。）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -800,8 +912,8 @@
       "equivRank": 184372
     },
     {
-      "majorName": "油气储运技术",
-      "majorKey": "6ce8a00d",
+      "majorName": "油气储运技术（岱山校区）",
+      "majorKey": "f6b16437",
       "selKe": "不限",
       "plan": 20,
       "tuition": "6600",
@@ -839,7 +951,7 @@
       "majorName": "船舶工程技术",
       "majorKey": "3ee92848",
       "selKe": "不限",
-      "plan": 35,
+      "plan": 20,
       "tuition": "6600",
       "schooling": "三年",
       "menlei": "工",
@@ -887,11 +999,10 @@
       "majorName": "工业机器人技术",
       "majorKey": "26a2bf3f",
       "selKe": "不限",
-      "plan": 30,
-      "tuition": "18000",
+      "plan": 15,
+      "tuition": "6600",
       "schooling": "三年",
       "menlei": "工",
-      "coop": true,
       "prevYear": 2025,
       "prevRank": 218243,
       "equivRank": 218243
@@ -933,42 +1044,6 @@
       "equivRank": 223225
     },
     {
-      "majorName": "石油化工技术",
-      "majorKey": "24dbedc0",
-      "selKe": "不限",
-      "plan": 24,
-      "tuition": "6000",
-      "schooling": "三年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 223981,
-      "equivRank": 223981
-    },
-    {
-      "majorName": "高分子合成技术",
-      "majorKey": "c6049ef2",
-      "selKe": "不限",
-      "plan": 15,
-      "tuition": "6600",
-      "schooling": "三年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 223981,
-      "equivRank": 223981
-    },
-    {
-      "majorName": "应用化工技术",
-      "majorKey": "413a7fac",
-      "selKe": "不限",
-      "plan": 20,
-      "tuition": "6000",
-      "schooling": "三年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 224734,
-      "equivRank": 224734
-    },
-    {
       "majorName": "食品检验检测技术",
       "majorKey": "78263751",
       "selKe": "不限",
@@ -993,6 +1068,19 @@
       "equivRank": 226282
     },
     {
+      "majorName": "工业机器人技术（中外合作办学）",
+      "majorKey": "e8ac4eb1",
+      "selKe": "不限",
+      "plan": 15,
+      "tuition": "18000",
+      "schooling": "三年",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 227042,
+      "equivRank": 227042
+    },
+    {
       "majorName": "跨境电子商务",
       "majorKey": "48469b36",
       "selKe": "不限",
@@ -1005,6 +1093,19 @@
       "equivRank": 227042
     },
     {
+      "majorName": "船舶工程技术（中外合作办学）",
+      "majorKey": "c8e99b9e",
+      "selKe": "不限",
+      "plan": 15,
+      "tuition": "16000",
+      "schooling": "三年",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 229313,
+      "equivRank": 229313
+    },
+    {
       "majorName": "定制旅行管理与服务",
       "majorKey": "16f33104",
       "selKe": "不限",
@@ -1015,6 +1116,33 @@
       "prevYear": 2025,
       "prevRank": 231464,
       "equivRank": 231464
+    },
+    {
+      "majorName": "应用化工技术（岱山校区）",
+      "majorKey": "eb677ede",
+      "selKe": "不限",
+      "plan": 20,
+      "tuition": "6000",
+      "schooling": "三年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "石油化工技术（岱山校区）",
+      "majorKey": "6e306bda",
+      "selKe": "不限",
+      "plan": 24,
+      "tuition": "6000",
+      "schooling": "三年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "高分子合成技术（岱山校区）",
+      "majorKey": "18d86b90",
+      "selKe": "不限",
+      "plan": 15,
+      "tuition": "6600",
+      "schooling": "三年",
+      "menlei": "工"
     }
   ]
 }

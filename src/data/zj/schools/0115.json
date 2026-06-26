@@ -4,8 +4,8 @@
   "leaves": [
     {
       "schoolCode": "0115",
-      "majorKey": "97716b64",
-      "majorName": "学前教育",
+      "majorKey": "6e38b28d",
+      "majorName": "学前教育（师范）",
       "selKe": "不限",
       "years": [
         {
@@ -98,8 +98,59 @@
     },
     {
       "schoolCode": "0115",
-      "majorKey": "e0d708da",
-      "majorName": "特殊教育",
+      "majorKey": "79d7e7d7",
+      "majorName": "特殊教育（师范）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 499,
+          "minRank": 167929,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 493,
+          "minRank": 169747,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 508,
+          "minRank": 160187,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 505,
+          "minRank": 167178,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0115",
+      "majorKey": "ee9cd5d5",
+      "majorName": "特殊教育（手语翻译方向）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 523,
+          "minRank": 142450,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0115",
+      "majorKey": "f2ac620a",
+      "majorName": "特殊教育（手语翻译）",
       "selKe": "不限",
       "years": [
         {
@@ -114,13 +165,6 @@
           "track": "综合",
           "minScore": 508,
           "minRank": 153885,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 523,
-          "minRank": 142450,
           "maxScore": 0
         },
         {
@@ -164,11 +208,11 @@
   ],
   "plan2026": [
     {
-      "majorName": "特殊教育",
-      "majorKey": "e0d708da",
+      "majorName": "特殊教育（手语翻译）",
+      "majorKey": "f2ac620a",
       "selKe": "不限",
-      "plan": 75,
-      "tuition": "6600",
+      "plan": 15,
+      "tuition": "6000",
       "schooling": "三年",
       "menlei": "教",
       "prevYear": 2025,
@@ -176,8 +220,20 @@
       "equivRank": 146897
     },
     {
-      "majorName": "学前教育",
-      "majorKey": "97716b64",
+      "majorName": "特殊教育（师范）",
+      "majorKey": "79d7e7d7",
+      "selKe": "不限",
+      "plan": 60,
+      "tuition": "6600",
+      "schooling": "三年",
+      "menlei": "教",
+      "prevYear": 2025,
+      "prevRank": 167178,
+      "equivRank": 167178
+    },
+    {
+      "majorName": "学前教育（师范）",
+      "majorKey": "6e38b28d",
       "selKe": "不限",
       "plan": 7,
       "tuition": "6000",

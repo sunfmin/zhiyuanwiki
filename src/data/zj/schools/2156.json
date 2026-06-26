@@ -4,8 +4,8 @@
   "leaves": [
     {
       "schoolCode": "2156",
-      "majorKey": "c9800f2a",
-      "majorName": "历史学",
+      "majorKey": "4c5c8bc7",
+      "majorName": "历史学（师范）",
       "selKe": "历史必选",
       "years": [
         {
@@ -76,8 +76,8 @@
     },
     {
       "schoolCode": "2156",
-      "majorKey": "f8a1727e",
-      "majorName": "国际经济与贸易",
+      "majorKey": "b3aebe54",
+      "majorName": "国际经济与贸易（中外合作办学）",
       "selKe": "不限",
       "years": [
         {
@@ -112,8 +112,8 @@
     },
     {
       "schoolCode": "2156",
-      "majorKey": "97716b64",
-      "majorName": "学前教育",
+      "majorKey": "6e38b28d",
+      "majorName": "学前教育（师范）",
       "selKe": "不限",
       "years": [
         {
@@ -184,8 +184,8 @@
     },
     {
       "schoolCode": "2156",
-      "majorKey": "618fdffd",
-      "majorName": "数学与应用数学",
+      "majorKey": "9f802a9c",
+      "majorName": "数学与应用数学（师范）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -235,8 +235,8 @@
     },
     {
       "schoolCode": "2156",
-      "majorKey": "97bc5998",
-      "majorName": "汉语言文学",
+      "majorKey": "d7131091",
+      "majorName": "汉语言文学（师范）",
       "selKe": "不限",
       "years": [
         {
@@ -264,8 +264,8 @@
     },
     {
       "schoolCode": "2156",
-      "majorKey": "a1113a1f",
-      "majorName": "法学",
+      "majorKey": "dec88f91",
+      "majorName": "法学（中外合作办学）",
       "selKe": "不限",
       "years": [
         {
@@ -279,8 +279,8 @@
     },
     {
       "schoolCode": "2156",
-      "majorKey": "653f630d",
-      "majorName": "物理学",
+      "majorKey": "bec128cc",
+      "majorName": "物理学（师范）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -354,7 +354,15 @@
           "minScore": 491,
           "minRank": 178099,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "2156",
+      "majorKey": "82720a33",
+      "majorName": "网络工程（后两年学费13500元/年）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -412,7 +420,51 @@
           "minScore": 557,
           "minRank": 102034,
           "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2156",
+      "majorKey": "d655935e",
+      "majorName": "计算机科学与技术（中外合作办学）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 535,
+          "minRank": 125342,
+          "maxScore": 0
         },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 535,
+          "minRank": 123197,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 505,
+          "minRank": 163618,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 508,
+          "minRank": 162792,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2156",
+      "majorKey": "e7b5d206",
+      "majorName": "计算机科学与技术（后两年学费13500元/年）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -448,7 +500,15 @@
           "minScore": 544,
           "minRank": 117460,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "2156",
+      "majorKey": "f02fa609",
+      "majorName": "软件工程（后两年学费13500元/年）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -496,8 +556,8 @@
     },
     {
       "schoolCode": "2156",
-      "majorKey": "5a699e63",
-      "majorName": "金融学",
+      "majorKey": "31ea3245",
+      "majorName": "金融学（中外合作办学）",
       "selKe": "不限",
       "years": [
         {
@@ -533,8 +593,8 @@
   ],
   "plan2026": [
     {
-      "majorName": "汉语言文学",
-      "majorKey": "97bc5998",
+      "majorName": "汉语言文学（师范）",
+      "majorKey": "d7131091",
       "selKe": "不限",
       "plan": 3,
       "tuition": "4800",
@@ -545,8 +605,8 @@
       "equivRank": 64892
     },
     {
-      "majorName": "历史学",
-      "majorKey": "c9800f2a",
+      "majorName": "历史学（师范）",
+      "majorKey": "4c5c8bc7",
       "selKe": "历史必选",
       "plan": 5,
       "tuition": "4800",
@@ -581,8 +641,8 @@
       "equivRank": 95083
     },
     {
-      "majorName": "学前教育",
-      "majorKey": "97716b64",
+      "majorName": "学前教育（师范）",
+      "majorKey": "6e38b28d",
       "selKe": "不限",
       "plan": 10,
       "tuition": "4800",
@@ -605,8 +665,8 @@
       "equivRank": 96536
     },
     {
-      "majorName": "金融学",
-      "majorKey": "5a699e63",
+      "majorName": "金融学（中外合作办学）",
+      "majorKey": "31ea3245",
       "selKe": "不限",
       "plan": 4,
       "tuition": "40000",
@@ -618,8 +678,8 @@
       "equivRank": 97808
     },
     {
-      "majorName": "国际经济与贸易",
-      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易（中外合作办学）",
+      "majorKey": "b3aebe54",
       "selKe": "不限",
       "plan": 3,
       "tuition": "40000",
@@ -631,21 +691,20 @@
       "equivRank": 98894
     },
     {
-      "majorName": "计算机科学与技术",
-      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术（后两年学费13500元/年）",
+      "majorKey": "e7b5d206",
       "selKe": "物理、化学(2科必选)",
-      "plan": 8,
-      "tuition": "45000",
+      "plan": 2,
+      "tuition": "4800",
       "schooling": "四年",
       "menlei": "工",
-      "coop": true,
       "prevYear": 2025,
       "prevRank": 102043,
       "equivRank": 102043
     },
     {
-      "majorName": "软件工程",
-      "majorKey": "0c33cbdd",
+      "majorName": "软件工程（后两年学费13500元/年）",
+      "majorKey": "f02fa609",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4800",
@@ -668,8 +727,8 @@
       "equivRank": 123612
     },
     {
-      "majorName": "数学与应用数学",
-      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学（师范）",
+      "majorKey": "9f802a9c",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "5200",
@@ -680,8 +739,8 @@
       "equivRank": 128926
     },
     {
-      "majorName": "物理学",
-      "majorKey": "653f630d",
+      "majorName": "物理学（师范）",
+      "majorKey": "bec128cc",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "5200",
@@ -692,8 +751,8 @@
       "equivRank": 129254
     },
     {
-      "majorName": "网络工程",
-      "majorKey": "b54c1697",
+      "majorName": "网络工程（后两年学费13500元/年）",
+      "majorKey": "82720a33",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4800",
@@ -702,6 +761,19 @@
       "prevYear": 2025,
       "prevRank": 138917,
       "equivRank": 138917
+    },
+    {
+      "majorName": "计算机科学与技术（中外合作办学）",
+      "majorKey": "d655935e",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 6,
+      "tuition": "45000",
+      "schooling": "四年",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 162792,
+      "equivRank": 162792
     },
     {
       "majorName": "古生物学",

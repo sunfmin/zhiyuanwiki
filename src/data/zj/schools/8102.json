@@ -48,8 +48,30 @@
     },
     {
       "schoolCode": "8102",
-      "majorKey": "42f46f7c",
-      "majorName": "工学院",
+      "majorKey": "b43a5cc9",
+      "majorName": "工学院（工程类）",
+      "selKe": "物/化/生(3选1)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 652,
+          "minRank": 11960,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 653,
+          "minRank": 11376,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "8102",
+      "majorKey": "ec5803e4",
+      "majorName": "工学院（资讯科技及工程类）",
       "selKe": "物/化/生(3选1)",
       "years": [
         {
@@ -70,8 +92,8 @@
     },
     {
       "schoolCode": "8102",
-      "majorKey": "ed53a26b",
-      "majorName": "智能制造工程",
+      "majorKey": "fd6d8798",
+      "majorName": "智能制造工程（内地与港澳台地区合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -85,8 +107,8 @@
     },
     {
       "schoolCode": "8102",
-      "majorKey": "c425ce53",
-      "majorName": "材料科学与工程",
+      "majorKey": "a8543ce0",
+      "majorName": "材料科学与工程（内地与港澳台地区合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -159,8 +181,8 @@
     },
     {
       "schoolCode": "8102",
-      "majorKey": "34997647",
-      "majorName": "能源与动力工程",
+      "majorKey": "8557a2c4",
+      "majorName": "能源与动力工程（内地与港澳台地区合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -196,8 +218,8 @@
     },
     {
       "schoolCode": "8102",
-      "majorKey": "1d486608",
-      "majorName": "计算机科学与技术",
+      "majorKey": "c3743bfb",
+      "majorName": "计算机科学与技术（内地与港澳台地区合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -212,44 +234,8 @@
   ],
   "plan2026": [
     {
-      "majorName": "工学院",
-      "majorKey": "42f46f7c",
-      "selKe": "物理必选",
-      "plan": 3,
-      "tuition": "170000",
-      "schooling": "四年",
-      "menlei": "他",
-      "prevYear": 2024,
-      "prevRank": 6450,
-      "equivRank": 6673
-    },
-    {
-      "majorName": "商学院",
-      "majorKey": "d487b5eb",
-      "selKe": "不限",
-      "plan": 1,
-      "tuition": "170000",
-      "schooling": "四年",
-      "menlei": "他",
-      "prevYear": 2024,
-      "prevRank": 9543,
-      "equivRank": 9873
-    },
-    {
-      "majorName": "理学院",
-      "majorKey": "33f89c80",
-      "selKe": "物理必选",
-      "plan": 1,
-      "tuition": "170000",
-      "schooling": "四年",
-      "menlei": "他",
-      "prevYear": 2024,
-      "prevRank": 9982,
-      "equivRank": 10328
-    },
-    {
-      "majorName": "计算机科学与技术",
-      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术（内地与港澳台地区合作办学）",
+      "majorKey": "c3743bfb",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "115000",
@@ -261,32 +247,8 @@
       "equivRank": 13664
     },
     {
-      "majorName": "人文社会科学院",
-      "majorKey": "f38b4f84",
-      "selKe": "不限",
-      "plan": 1,
-      "tuition": "170000",
-      "schooling": "四年",
-      "menlei": "他",
-      "prevYear": 2024,
-      "prevRank": 13882,
-      "equivRank": 14363
-    },
-    {
-      "majorName": "能源及环境学院",
-      "majorKey": "679c703f",
-      "selKe": "物理必选",
-      "plan": 3,
-      "tuition": "170000",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2024,
-      "prevRank": 14383,
-      "equivRank": 14881
-    },
-    {
-      "majorName": "材料科学与工程",
-      "majorKey": "c425ce53",
+      "majorName": "材料科学与工程（内地与港澳台地区合作办学）",
+      "majorKey": "a8543ce0",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "115000",
@@ -298,8 +260,8 @@
       "equivRank": 15743
     },
     {
-      "majorName": "智能制造工程",
-      "majorKey": "ed53a26b",
+      "majorName": "智能制造工程（内地与港澳台地区合作办学）",
+      "majorKey": "fd6d8798",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "115000",
@@ -311,8 +273,8 @@
       "equivRank": 16080
     },
     {
-      "majorName": "能源与动力工程",
-      "majorKey": "34997647",
+      "majorName": "能源与动力工程（内地与港澳台地区合作办学）",
+      "majorKey": "8557a2c4",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "115000",
@@ -324,8 +286,8 @@
       "equivRank": 17566
     },
     {
-      "majorName": "创意媒体学院",
-      "majorKey": "7f1f90d9",
+      "majorName": "人文社会科学院（要求高考成绩（不含加分）",
+      "majorKey": "303772a3",
       "selKe": "不限",
       "plan": 1,
       "tuition": "170000",
@@ -333,8 +295,35 @@
       "menlei": "他"
     },
     {
-      "majorName": "法律",
-      "majorKey": "8beab537",
+      "majorName": "创意媒体学院（要求高考成绩（不含加分）",
+      "majorKey": "036997ec",
+      "selKe": "不限",
+      "plan": 1,
+      "tuition": "170000",
+      "schooling": "四年",
+      "menlei": "他"
+    },
+    {
+      "majorName": "商学院（要求高考成绩（不含加分）",
+      "majorKey": "7368d6da",
+      "selKe": "不限",
+      "plan": 1,
+      "tuition": "170000",
+      "schooling": "四年",
+      "menlei": "他"
+    },
+    {
+      "majorName": "工学院（要求高考成绩（不含加分）",
+      "majorKey": "865c0e6b",
+      "selKe": "物理必选",
+      "plan": 3,
+      "tuition": "170000",
+      "schooling": "四年",
+      "menlei": "他"
+    },
+    {
+      "majorName": "法律（学院报读法律学院的学生,必须将法律学院列为首三个专业志愿,才会被考虑。法律学学制4年,法律学与工商管理学（会计）",
+      "majorKey": "5a22c688",
       "selKe": "不限",
       "plan": 1,
       "tuition": "170000",
@@ -342,8 +331,17 @@
       "menlei": "法"
     },
     {
-      "majorName": "生物医学院",
-      "majorKey": "17de4a94",
+      "majorName": "理学院（要求高考成绩（不含加分）",
+      "majorKey": "b592cfc7",
+      "selKe": "物理必选",
+      "plan": 1,
+      "tuition": "170000",
+      "schooling": "四年",
+      "menlei": "他"
+    },
+    {
+      "majorName": "生物医学院（生物医学工程学系）",
+      "majorKey": "7f53f694",
       "selKe": "物理必选",
       "plan": 2,
       "tuition": "170000",
@@ -351,8 +349,17 @@
       "menlei": "医"
     },
     {
-      "majorName": "计算学院",
-      "majorKey": "fc429594",
+      "majorName": "能源及环境学院（要求高考成绩（不含加分）",
+      "majorKey": "c97c3266",
+      "selKe": "物理必选",
+      "plan": 3,
+      "tuition": "170000",
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "计算学院（要求高考成绩（不含加分）",
+      "majorKey": "55a7a0f3",
       "selKe": "物理必选",
       "plan": 2,
       "tuition": "170000",
@@ -360,8 +367,8 @@
       "menlei": "他"
     },
     {
-      "majorName": "赛马会动物医学及生命科学院",
-      "majorKey": "7e5f4fcd",
+      "majorName": "赛马会动物医学及生命科学院（兽医学）",
+      "majorKey": "07aa0a15",
       "selKe": "化学、生物(2科必选)",
       "plan": 3,
       "tuition": "350000",

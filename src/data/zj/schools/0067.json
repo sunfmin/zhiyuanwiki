@@ -76,8 +76,8 @@
     },
     {
       "schoolCode": "0067",
-      "majorKey": "e92e42ba",
-      "majorName": "书画艺术",
+      "majorKey": "bc030cca",
+      "majorName": "书画艺术（书法）",
       "selKe": "不限",
       "years": [
         {
@@ -437,8 +437,8 @@
     },
     {
       "schoolCode": "0067",
-      "majorKey": "97716b64",
-      "majorName": "学前教育",
+      "majorKey": "6e38b28d",
+      "majorName": "学前教育（师范）",
       "selKe": "不限",
       "years": [
         {
@@ -503,6 +503,21 @@
           "track": "综合",
           "minScore": 440,
           "minRank": 230003,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0067",
+      "majorKey": "0a59ff21",
+      "majorName": "室内艺术设计（中外合作办学）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 440,
+          "minRank": 219991,
           "maxScore": 0
         }
       ]
@@ -611,8 +626,8 @@
     },
     {
       "schoolCode": "0067",
-      "majorKey": "69243991",
-      "majorName": "建设工程管理",
+      "majorKey": "14a6dae5",
+      "majorName": "建设工程管理（BIM技术）",
       "selKe": "不限",
       "years": [
         {
@@ -663,6 +678,42 @@
           "track": "综合",
           "minScore": 490,
           "minRank": 184372,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0067",
+      "majorKey": "56144c88",
+      "majorName": "护理（中外合作办学）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 472,
+          "minRank": 194550,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 476,
+          "minRank": 187163,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 477,
+          "minRank": 193166,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 453,
+          "minRank": 219976,
           "maxScore": 0
         }
       ]
@@ -1118,8 +1169,8 @@
       "equivRank": 184372
     },
     {
-      "majorName": "学前教育",
-      "majorKey": "97716b64",
+      "majorName": "学前教育（师范）",
+      "majorKey": "6e38b28d",
       "selKe": "不限",
       "plan": 100,
       "tuition": "6900",
@@ -1133,7 +1184,7 @@
       "majorName": "护理",
       "majorKey": "a3db4652",
       "selKe": "不限",
-      "plan": 285,
+      "plan": 265,
       "tuition": "16800",
       "schooling": "三年",
       "menlei": "医",
@@ -1185,6 +1236,19 @@
       "tuition": "15800",
       "schooling": "三年",
       "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 219976,
+      "equivRank": 219976
+    },
+    {
+      "majorName": "护理（中外合作办学）",
+      "majorKey": "56144c88",
+      "selKe": "不限",
+      "plan": 20,
+      "tuition": "26000",
+      "schooling": "三年",
+      "menlei": "医",
+      "coop": true,
       "prevYear": 2025,
       "prevRank": 219976,
       "equivRank": 219976
@@ -1322,8 +1386,8 @@
       "equivRank": 231464
     },
     {
-      "majorName": "建设工程管理",
-      "majorKey": "69243991",
+      "majorName": "建设工程管理（BIM技术）",
+      "majorKey": "14a6dae5",
       "selKe": "不限",
       "plan": 15,
       "tuition": "14800",

@@ -155,6 +155,42 @@
         {
           "year": 2022,
           "track": "综合",
+          "minScore": 581,
+          "minRank": 69671,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 586,
+          "minRank": 67460,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 559,
+          "minRank": 99802,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 544,
+          "minRank": 119534,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6516",
+      "majorKey": "db6c560f",
+      "majorName": "临床医学（5+3一体化）",
+      "selKe": "物化生(3科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
           "minScore": 616,
           "minRank": 31735,
           "maxScore": 0
@@ -178,6 +214,42 @@
           "track": "综合",
           "minScore": 615,
           "minRank": 36356,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6516",
+      "majorKey": "651a5611",
+      "majorName": "临床医学（5+3一体化，儿科学）",
+      "selKe": "物化生(3科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 614,
+          "minRank": 33102,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 620,
+          "minRank": 33639,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 604,
+          "minRank": 48969,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 610,
+          "minRank": 41766,
           "maxScore": 0
         }
       ]
@@ -561,16 +633,28 @@
   ],
   "plan2026": [
     {
-      "majorName": "临床医学",
-      "majorKey": "618f7040",
+      "majorName": "临床医学（5+3一体化）",
+      "majorKey": "db6c560f",
       "selKe": "物化生(3科必选)",
-      "plan": 17,
+      "plan": 1,
       "tuition": "4000",
       "schooling": "五年",
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 36356,
       "equivRank": 36356
+    },
+    {
+      "majorName": "临床医学（5+3一体化，儿科学）",
+      "majorKey": "651a5611",
+      "selKe": "物化生(3科必选)",
+      "plan": 1,
+      "tuition": "4000",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 41766,
+      "equivRank": 41766
     },
     {
       "majorName": "针灸推拿学",
@@ -643,6 +727,18 @@
       "prevYear": 2025,
       "prevRank": 117367,
       "equivRank": 117367
+    },
+    {
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "selKe": "物化生(3科必选)",
+      "plan": 15,
+      "tuition": "4000",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 119534,
+      "equivRank": 119534
     },
     {
       "majorName": "儿科学",

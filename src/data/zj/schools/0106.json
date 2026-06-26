@@ -288,6 +288,28 @@
           "minScore": 468,
           "minRank": 200834,
           "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0106",
+      "majorKey": "fdbc9328",
+      "majorName": "建筑工程技术（中外合作办学）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 435,
+          "minRank": 220942,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 446,
+          "minRank": 219456,
+          "maxScore": 0
         },
         {
           "year": 2025,
@@ -546,6 +568,21 @@
     },
     {
       "schoolCode": "0106",
+      "majorKey": "0b170a25",
+      "majorName": "机电一体化技术（中外合作办学）",
+      "selKe": "物/化/技(3选1)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 457,
+          "minRank": 206686,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0106",
       "majorKey": "38b5eece",
       "majorName": "水利工程",
       "selKe": "不限",
@@ -576,6 +613,78 @@
           "track": "综合",
           "minScore": 490,
           "minRank": 183764,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0106",
+      "majorKey": "91c0cb24",
+      "majorName": "水利工程（中外合作办学）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 460,
+          "minRank": 204678,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 452,
+          "minRank": 208536,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 454,
+          "minRank": 213333,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 457,
+          "minRank": 216518,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0106",
+      "majorKey": "020a4d90",
+      "majorName": "水利工程（土地整治）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 477,
+          "minRank": 189799,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 474,
+          "minRank": 188388,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 483,
+          "minRank": 186866,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 490,
+          "minRank": 184372,
           "maxScore": 0
         }
       ]
@@ -954,7 +1063,7 @@
       "majorName": "水利工程",
       "majorKey": "38b5eece",
       "selKe": "不限",
-      "plan": 158,
+      "plan": 90,
       "tuition": "7500",
       "schooling": "三年",
       "menlei": "工",
@@ -1047,8 +1156,8 @@
       "equivRank": 184372
     },
     {
-      "majorName": "建筑工程技术",
-      "majorKey": "904edf72",
+      "majorName": "建筑工程技术（中外合作办学）",
+      "majorKey": "fdbc9328",
       "selKe": "不限",
       "plan": 40,
       "tuition": "18000",
@@ -1125,6 +1234,18 @@
       "selKe": "不限",
       "plan": 107,
       "tuition": "6600",
+      "schooling": "三年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 184372,
+      "equivRank": 184372
+    },
+    {
+      "majorName": "水利工程（土地整治）",
+      "majorKey": "020a4d90",
+      "selKe": "不限",
+      "plan": 22,
+      "tuition": "7500",
       "schooling": "三年",
       "menlei": "工",
       "prevYear": 2025,
@@ -1238,6 +1359,19 @@
       "prevYear": 2025,
       "prevRank": 206643,
       "equivRank": 206643
+    },
+    {
+      "majorName": "水利工程（中外合作办学）",
+      "majorKey": "91c0cb24",
+      "selKe": "不限",
+      "plan": 46,
+      "tuition": "18000",
+      "schooling": "三年",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 216518,
+      "equivRank": 216518
     }
   ]
 }

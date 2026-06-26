@@ -4,8 +4,8 @@
   "leaves": [
     {
       "schoolCode": "1311",
-      "majorKey": "94de24ed",
-      "majorName": "仪器类",
+      "majorKey": "19e2f5d2",
+      "majorName": "仪器类（智能光电感知）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -134,8 +134,8 @@
     },
     {
       "schoolCode": "1311",
-      "majorKey": "d054f8d1",
-      "majorName": "应用统计学",
+      "majorKey": "1d1bf073",
+      "majorName": "应用统计学（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -170,8 +170,8 @@
     },
     {
       "schoolCode": "1311",
-      "majorKey": "618fdffd",
-      "majorName": "数学与应用数学",
+      "majorKey": "6fd7cebf",
+      "majorName": "数学与应用数学（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -509,13 +509,6 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 634,
-          "minRank": 16914,
-          "maxScore": 0
-        },
-        {
           "year": 2023,
           "track": "综合",
           "minScore": 652,
@@ -534,6 +527,42 @@
           "track": "综合",
           "minScore": 648,
           "minRank": 11828,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1311",
+      "majorKey": "d655935e",
+      "majorName": "计算机科学与技术（中外合作办学）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 634,
+          "minRank": 16914,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 646,
+          "minRank": 14639,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 648,
+          "minRank": 13476,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 644,
+          "minRank": 14158,
           "maxScore": 0
         }
       ]
@@ -560,13 +589,6 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 632,
-          "minRank": 18233,
-          "maxScore": 0
-        },
-        {
           "year": 2023,
           "track": "综合",
           "minScore": 648,
@@ -588,6 +610,42 @@
           "maxScore": 0
         }
       ]
+    },
+    {
+      "schoolCode": "1311",
+      "majorKey": "22a23569",
+      "majorName": "通信工程（中外合作办学）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 632,
+          "minRank": 18233,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 644,
+          "minRank": 16274,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 644,
+          "minRank": 15574,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 639,
+          "minRank": 16882,
+          "maxScore": 0
+        }
+      ]
     }
   ],
   "plan2026": [
@@ -595,7 +653,7 @@
       "majorName": "计算机科学与技术",
       "majorKey": "1d486608",
       "selKe": "物理、化学(2科必选)",
-      "plan": 9,
+      "plan": 5,
       "tuition": "6240",
       "schooling": "四年",
       "menlei": "工",
@@ -643,11 +701,10 @@
       "majorName": "通信工程",
       "majorKey": "1c1ee3f7",
       "selKe": "物理、化学(2科必选)",
-      "plan": 7,
-      "tuition": "56000",
+      "plan": 3,
+      "tuition": "6240",
       "schooling": "四年",
       "menlei": "工",
-      "coop": true,
       "prevYear": 2025,
       "prevRank": 13381,
       "equivRank": 13381
@@ -665,8 +722,8 @@
       "equivRank": 13507
     },
     {
-      "majorName": "仪器类",
-      "majorKey": "94de24ed",
+      "majorName": "仪器类（智能光电感知）",
+      "majorKey": "19e2f5d2",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6240",
@@ -687,6 +744,19 @@
       "prevYear": 2025,
       "prevRank": 14005,
       "equivRank": 14005
+    },
+    {
+      "majorName": "计算机科学与技术（中外合作办学）",
+      "majorKey": "d655935e",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 4,
+      "tuition": "56000",
+      "schooling": "四年",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 14158,
+      "equivRank": 14158
     },
     {
       "majorName": "经济学类",
@@ -773,6 +843,19 @@
       "equivRank": 16703
     },
     {
+      "majorName": "通信工程（中外合作办学）",
+      "majorKey": "22a23569",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 4,
+      "tuition": "56000",
+      "schooling": "四年",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 16882,
+      "equivRank": 16882
+    },
+    {
       "majorName": "电子商务",
       "majorKey": "0b52f20f",
       "selKe": "物理必选",
@@ -785,8 +868,8 @@
       "equivRank": 19461
     },
     {
-      "majorName": "应用统计学",
-      "majorKey": "d054f8d1",
+      "majorName": "应用统计学（中外合作办学）",
+      "majorKey": "1d1bf073",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "56000",
@@ -798,8 +881,8 @@
       "equivRank": 19698
     },
     {
-      "majorName": "数学与应用数学",
-      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学（中外合作办学）",
+      "majorKey": "6fd7cebf",
       "selKe": "物理、化学(2科必选)",
       "plan": 9,
       "tuition": "50000",

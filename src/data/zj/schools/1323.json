@@ -24,6 +24,21 @@
       "selKe": "不限",
       "years": [
         {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 592,
+          "minRank": 61878,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1323",
+      "majorKey": "3ae9870c",
+      "majorName": "会计学（中外合作办学）",
+      "selKe": "不限",
+      "years": [
+        {
           "year": 2022,
           "track": "综合",
           "minScore": 553,
@@ -40,8 +55,8 @@
         {
           "year": 2024,
           "track": "综合",
-          "minScore": 592,
-          "minRank": 61878,
+          "minScore": 564,
+          "minRank": 93783,
           "maxScore": 0
         },
         {
@@ -261,6 +276,28 @@
     },
     {
       "schoolCode": "1323",
+      "majorKey": "31ea3245",
+      "majorName": "金融学（中外合作办学）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 549,
+          "minRank": 107906,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 553,
+          "minRank": 108839,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1323",
       "majorKey": "e6a89fa4",
       "majorName": "金融工程",
       "selKe": "物理必选",
@@ -323,11 +360,10 @@
       "majorName": "金融学",
       "majorKey": "5a699e63",
       "selKe": "不限",
-      "plan": 8,
-      "tuition": "25000",
+      "plan": 3,
+      "tuition": "5060",
       "schooling": "四年",
       "menlei": "经",
-      "coop": true,
       "prevYear": 2025,
       "prevRank": 89779,
       "equivRank": 89779
@@ -345,8 +381,8 @@
       "equivRank": 97455
     },
     {
-      "majorName": "会计学",
-      "majorKey": "8aa56116",
+      "majorName": "会计学（中外合作办学）",
+      "majorKey": "3ae9870c",
       "selKe": "不限",
       "plan": 5,
       "tuition": "25000",
@@ -356,6 +392,19 @@
       "prevYear": 2025,
       "prevRank": 98373,
       "equivRank": 98373
+    },
+    {
+      "majorName": "金融学（中外合作办学）",
+      "majorKey": "31ea3245",
+      "selKe": "不限",
+      "plan": 5,
+      "tuition": "25000",
+      "schooling": "四年",
+      "menlei": "经",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 108839,
+      "equivRank": 108839
     },
     {
       "majorName": "金融科技",

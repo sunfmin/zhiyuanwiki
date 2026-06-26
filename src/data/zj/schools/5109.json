@@ -70,8 +70,8 @@
     },
     {
       "schoolCode": "5109",
-      "majorKey": "8aa56116",
-      "majorName": "会计学",
+      "majorKey": "f31835b4",
+      "majorName": "会计学（中外高水平大学学生交流计划）",
       "selKe": "不限",
       "years": [
         {
@@ -187,8 +187,8 @@
     },
     {
       "schoolCode": "5109",
-      "majorKey": "97716b64",
-      "majorName": "学前教育",
+      "majorKey": "6e38b28d",
+      "majorName": "学前教育（师范）",
       "selKe": "不限",
       "years": [
         {
@@ -223,8 +223,8 @@
     },
     {
       "schoolCode": "5109",
-      "majorKey": "c240892f",
-      "majorName": "小学教育",
+      "majorKey": "983355fa",
+      "majorName": "小学教育（师范）",
       "selKe": "不限",
       "years": [
         {
@@ -288,8 +288,8 @@
     },
     {
       "schoolCode": "5109",
-      "majorKey": "b8be11ab",
-      "majorName": "工程造价",
+      "majorKey": "2208af8d",
+      "majorName": "工程造价（中外合作办学）",
       "selKe": "物理必选",
       "years": [
         {
@@ -438,6 +438,28 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 586,
+          "minRank": 69059,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 587,
+          "minRank": 66875,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5109",
+      "majorKey": "3a857c7f",
+      "majorName": "数据科学与大数据技术（中外合作办学）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
           "year": 2022,
           "track": "综合",
           "minScore": 574,
@@ -454,15 +476,15 @@
         {
           "year": 2024,
           "track": "综合",
-          "minScore": 586,
-          "minRank": 69059,
+          "minScore": 562,
+          "minRank": 96182,
           "maxScore": 0
         },
         {
           "year": 2025,
           "track": "综合",
-          "minScore": 587,
-          "minRank": 66875,
+          "minScore": 562,
+          "minRank": 96886,
           "maxScore": 0
         }
       ]
@@ -790,8 +812,8 @@
     },
     {
       "schoolCode": "5109",
-      "majorKey": "fff04889",
-      "majorName": "网络与新媒体",
+      "majorKey": "ff8068ab",
+      "majorName": "网络与新媒体（中外合作办学）",
       "selKe": "不限",
       "years": [
         {
@@ -915,7 +937,15 @@
           "minScore": 597,
           "minRank": 56252,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "5109",
+      "majorKey": "1dc8bd0e",
+      "majorName": "计算机科学与技术（中外高水平大学学生交流计划）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -1068,8 +1098,8 @@
       "equivRank": 45968
     },
     {
-      "majorName": "小学教育",
-      "majorKey": "c240892f",
+      "majorName": "小学教育（师范）",
+      "majorKey": "983355fa",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5520",
@@ -1140,8 +1170,8 @@
       "equivRank": 54320
     },
     {
-      "majorName": "学前教育",
-      "majorKey": "97716b64",
+      "majorName": "学前教育（师范）",
+      "majorKey": "6e38b28d",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5520",
@@ -1251,18 +1281,17 @@
       "majorName": "数据科学与大数据技术",
       "majorKey": "bb0a25bd",
       "selKe": "物理、化学(2科必选)",
-      "plan": 6,
-      "tuition": "60000",
+      "plan": 3,
+      "tuition": "5980",
       "schooling": "四年",
       "menlei": "工",
-      "coop": true,
       "prevYear": 2025,
       "prevRank": 66875,
       "equivRank": 66875
     },
     {
-      "majorName": "会计学",
-      "majorKey": "8aa56116",
+      "majorName": "会计学（中外高水平大学学生交流计划）",
+      "majorKey": "f31835b4",
       "selKe": "不限",
       "plan": 5,
       "tuition": "5520",
@@ -1274,8 +1303,8 @@
       "equivRank": 67958
     },
     {
-      "majorName": "计算机科学与技术",
-      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术（中外高水平大学学生交流计划）",
+      "majorKey": "1dc8bd0e",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "5980",
@@ -1287,8 +1316,8 @@
       "equivRank": 71825
     },
     {
-      "majorName": "网络与新媒体",
-      "majorKey": "fff04889",
+      "majorName": "网络与新媒体（中外合作办学）",
+      "majorKey": "ff8068ab",
       "selKe": "不限",
       "plan": 5,
       "tuition": "60000",
@@ -1324,8 +1353,21 @@
       "equivRank": 94692
     },
     {
-      "majorName": "工程造价",
-      "majorKey": "b8be11ab",
+      "majorName": "数据科学与大数据技术（中外合作办学）",
+      "majorKey": "3a857c7f",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 3,
+      "tuition": "60000",
+      "schooling": "四年",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 96886,
+      "equivRank": 96886
+    },
+    {
+      "majorName": "工程造价（中外合作办学）",
+      "majorKey": "2208af8d",
       "selKe": "物理必选",
       "plan": 20,
       "tuition": "22000",

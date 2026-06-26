@@ -4,8 +4,8 @@
   "leaves": [
     {
       "schoolCode": "1132",
-      "majorKey": "e7baf0de",
-      "majorName": "休闲体育",
+      "majorKey": "252bccb4",
+      "majorName": "休闲体育（中外合作办学）",
       "selKe": "不限",
       "years": [
         {
@@ -69,8 +69,8 @@
     },
     {
       "schoolCode": "1132",
-      "majorKey": "7d0b62a8",
-      "majorName": "俄语",
+      "majorKey": "e9e9966d",
+      "majorName": "俄语（国际体育组织人才实验班）",
       "selKe": "不限",
       "years": [
         {
@@ -293,6 +293,35 @@
     },
     {
       "schoolCode": "1132",
+      "majorKey": "3970e018",
+      "majorName": "旅游管理（中外合作办学）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 580,
+          "minRank": 73631,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 592,
+          "minRank": 62417,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 589,
+          "minRank": 64561,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1132",
       "majorKey": "9431d607",
       "majorName": "智能体育工程",
       "selKe": "物理必选",
@@ -387,8 +416,8 @@
     },
     {
       "schoolCode": "1132",
-      "majorKey": "e5fc6283",
-      "majorName": "法语",
+      "majorKey": "d5373984",
+      "majorName": "法语（国际体育组织人才实验班）",
       "selKe": "不限",
       "years": [
         {
@@ -496,8 +525,8 @@
     },
     {
       "schoolCode": "1132",
-      "majorKey": "be4d6166",
-      "majorName": "葡萄牙语",
+      "majorKey": "bd47be83",
+      "majorName": "葡萄牙语（国际体育组织人才实验班）",
       "selKe": "不限",
       "years": [
         {
@@ -659,11 +688,10 @@
       "majorName": "旅游管理",
       "majorKey": "ec77cae2",
       "selKe": "不限",
-      "plan": 5,
-      "tuition": "75000",
+      "plan": 1,
+      "tuition": "5000",
       "schooling": "四年",
       "menlei": "管",
-      "coop": true,
       "prevYear": 2025,
       "prevRank": 21251,
       "equivRank": 21251
@@ -729,8 +757,8 @@
       "equivRank": 28881
     },
     {
-      "majorName": "休闲体育",
-      "majorKey": "e7baf0de",
+      "majorName": "休闲体育（中外合作办学）",
+      "majorKey": "252bccb4",
       "selKe": "不限",
       "plan": 5,
       "tuition": "75000",
@@ -740,6 +768,19 @@
       "prevYear": 2025,
       "prevRank": 61491,
       "equivRank": 61491
+    },
+    {
+      "majorName": "旅游管理（中外合作办学）",
+      "majorKey": "3970e018",
+      "selKe": "不限",
+      "plan": 4,
+      "tuition": "75000",
+      "schooling": "四年",
+      "menlei": "管",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 64561,
+      "equivRank": 64561
     }
   ]
 }

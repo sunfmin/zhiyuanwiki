@@ -21,13 +21,6 @@
           "minScore": 579,
           "minRank": 77352,
           "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 576,
-          "minRank": 80528,
-          "maxScore": 0
         }
       ]
     },
@@ -48,8 +41,23 @@
     },
     {
       "schoolCode": "4216",
-      "majorKey": "618fdffd",
-      "majorName": "数学与应用数学",
+      "majorKey": "746ffc9b",
+      "majorName": "工商管理（数智化管理方向）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 576,
+          "minRank": 80528,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4216",
+      "majorKey": "9f802a9c",
+      "majorName": "数学与应用数学（师范）",
       "selKe": "物理必选",
       "years": [
         {
@@ -100,8 +108,8 @@
     },
     {
       "schoolCode": "4216",
-      "majorKey": "5f3767bd",
-      "majorName": "水产养殖学",
+      "majorKey": "ea7ab64c",
+      "majorName": "水产养殖学（智慧渔业方向）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -144,8 +152,8 @@
     },
     {
       "schoolCode": "4216",
-      "majorKey": "97bc5998",
-      "majorName": "汉语言文学",
+      "majorKey": "d7131091",
+      "majorName": "汉语言文学（师范）",
       "selKe": "不限",
       "years": [
         {
@@ -226,7 +234,15 @@
           "minScore": 549,
           "minRank": 111583,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4216",
+      "majorKey": "2aa02123",
+      "majorName": "电子信息工程（科技创新港校区）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -238,8 +254,8 @@
     },
     {
       "schoolCode": "4216",
-      "majorKey": "1d486608",
-      "majorName": "计算机科学与技术",
+      "majorKey": "882ec7e1",
+      "majorName": "计算机科学与技术（师范）",
       "selKe": "物理必选",
       "years": [
         {
@@ -254,8 +270,8 @@
   ],
   "plan2026": [
     {
-      "majorName": "汉语言文学",
-      "majorKey": "97bc5998",
+      "majorName": "汉语言文学（师范）",
+      "majorKey": "d7131091",
       "selKe": "不限",
       "plan": 10,
       "tuition": "4840",
@@ -278,8 +294,8 @@
       "equivRank": 53347
     },
     {
-      "majorName": "工商管理",
-      "majorKey": "07c28723",
+      "majorName": "工商管理（数智化管理方向）",
+      "majorKey": "746ffc9b",
       "selKe": "不限",
       "plan": 10,
       "tuition": "4400",
@@ -302,8 +318,8 @@
       "equivRank": 86499
     },
     {
-      "majorName": "电子信息工程",
-      "majorKey": "fd603692",
+      "majorName": "电子信息工程（科技创新港校区）",
+      "majorKey": "2aa02123",
       "selKe": "物理、化学(2科必选)",
       "plan": 10,
       "tuition": "5000",
@@ -314,8 +330,8 @@
       "equivRank": 109920
     },
     {
-      "majorName": "水产养殖学",
-      "majorKey": "5f3767bd",
+      "majorName": "水产养殖学（智慧渔业方向）",
+      "majorKey": "ea7ab64c",
       "selKe": "物理、化学(2科必选)",
       "plan": 7,
       "tuition": "5000",

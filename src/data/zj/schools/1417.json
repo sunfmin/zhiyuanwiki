@@ -4,8 +4,8 @@
   "leaves": [
     {
       "schoolCode": "1417",
-      "majorKey": "97716b64",
-      "majorName": "学前教育",
+      "majorKey": "6e38b28d",
+      "majorName": "学前教育（师范）",
       "selKe": "不限",
       "years": [
         {
@@ -40,8 +40,8 @@
     },
     {
       "schoolCode": "1417",
-      "majorKey": "c240892f",
-      "majorName": "小学教育",
+      "majorKey": "983355fa",
+      "majorName": "小学教育（师范）",
       "selKe": "不限",
       "years": [
         {
@@ -264,9 +264,9 @@
     },
     {
       "schoolCode": "1417",
-      "majorKey": "e2472a71",
-      "majorName": "生物科学",
-      "selKe": "物理、化学(2科必选)",
+      "majorKey": "f3955e40",
+      "majorName": "生物科学（检验与检测方向）",
+      "selKe": "物/化/生(3选1)",
       "years": [
         {
           "year": 2022,
@@ -274,7 +274,15 @@
           "minScore": 552,
           "minRank": 104237,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "1417",
+      "majorKey": "11fd5cef",
+      "majorName": "生物科学（检验与检测）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2023,
           "track": "综合",
@@ -315,9 +323,9 @@
     },
     {
       "schoolCode": "1417",
-      "majorKey": "178ae2b7",
-      "majorName": "电子科学与技术",
-      "selKe": "物理、化学(2科必选)",
+      "majorKey": "660c4eb5",
+      "majorName": "电子科学与技术（印制电路技术与工艺方向）",
+      "selKe": "物理必选",
       "years": [
         {
           "year": 2022,
@@ -325,7 +333,15 @@
           "minScore": 532,
           "minRank": 128846,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "1417",
+      "majorKey": "284f172a",
+      "majorName": "电子科学与技术（印制电路技术与工艺）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2023,
           "track": "综合",
@@ -463,8 +479,8 @@
       "equivRank": 98839
     },
     {
-      "majorName": "小学教育",
-      "majorKey": "c240892f",
+      "majorName": "小学教育（师范）",
+      "majorKey": "983355fa",
       "selKe": "不限",
       "plan": 8,
       "tuition": "5040",
@@ -475,8 +491,8 @@
       "equivRank": 99143
     },
     {
-      "majorName": "学前教育",
-      "majorKey": "97716b64",
+      "majorName": "学前教育（师范）",
+      "majorKey": "6e38b28d",
       "selKe": "不限",
       "plan": 8,
       "tuition": "5040",
@@ -547,8 +563,8 @@
       "equivRank": 152807
     },
     {
-      "majorName": "电子科学与技术",
-      "majorKey": "178ae2b7",
+      "majorName": "电子科学与技术（印制电路技术与工艺）",
+      "majorKey": "284f172a",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "5376",
@@ -583,8 +599,8 @@
       "equivRank": 169852
     },
     {
-      "majorName": "生物科学",
-      "majorKey": "e2472a71",
+      "majorName": "生物科学（检验与检测）",
+      "majorKey": "11fd5cef",
       "selKe": "物理、化学(2科必选)",
       "plan": 8,
       "tuition": "5376",

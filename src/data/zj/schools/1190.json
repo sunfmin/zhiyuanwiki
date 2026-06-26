@@ -4,8 +4,8 @@
   "leaves": [
     {
       "schoolCode": "1190",
-      "majorKey": "e8c4da5d",
-      "majorName": "应急装备技术与工程",
+      "majorKey": "528781ec",
+      "majorName": "应急装备技术与工程（森林消防方向）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -13,6 +13,21 @@
           "track": "综合",
           "minScore": 608,
           "minRank": 45534,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1190",
+      "majorKey": "2fa9c783",
+      "majorName": "应急装备技术与工程（消防救援方向）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 606,
+          "minRank": 47617,
           "maxScore": 0
         },
         {
@@ -26,8 +41,30 @@
     },
     {
       "schoolCode": "1190",
-      "majorKey": "6a15bc12",
-      "majorName": "思想政治教育",
+      "majorKey": "b54a1d93",
+      "majorName": "思想政治教育（森林消防方向）",
+      "selKe": "思想政治必选",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 596,
+          "minRank": 56972,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 612,
+          "minRank": 39811,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1190",
+      "majorKey": "7a1a6ff8",
+      "majorName": "思想政治教育（消防救援方向）",
       "selKe": "思想政治必选",
       "years": [
         {
@@ -43,20 +80,13 @@
           "minScore": 626,
           "minRank": 28859,
           "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 612,
-          "minRank": 39811,
-          "maxScore": 0
         }
       ]
     },
     {
       "schoolCode": "1190",
-      "majorKey": "6332a75d",
-      "majorName": "消防工程",
+      "majorKey": "dcd97483",
+      "majorName": "消防工程（消防救援方向）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -77,8 +107,8 @@
     },
     {
       "schoolCode": "1190",
-      "majorKey": "ccbc1616",
-      "majorName": "火灾勘查",
+      "majorKey": "7ec3a7dc",
+      "majorName": "火灾勘查（消防救援方向）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -106,8 +136,8 @@
     },
     {
       "schoolCode": "1190",
-      "majorKey": "1c1ee3f7",
-      "majorName": "通信工程",
+      "majorKey": "5971ca6d",
+      "majorName": "通信工程（消防救援方向）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -128,8 +158,8 @@
     },
     {
       "schoolCode": "1190",
-      "majorKey": "62f76a53",
-      "majorName": "飞行器控制与信息工程",
+      "majorKey": "989f7349",
+      "majorName": "飞行器控制与信息工程（消防救援方向）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -158,59 +188,44 @@
   ],
   "plan2026": [
     {
-      "majorName": "火灾勘查",
-      "majorKey": "ccbc1616",
+      "majorName": "应急装备技术与工程（消防救援,限男）",
+      "majorKey": "7a7fd7d2",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 21651,
-      "equivRank": 21651
+      "menlei": "工"
     },
     {
-      "majorName": "通信工程",
-      "majorKey": "1c1ee3f7",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 1,
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 27005,
-      "equivRank": 27005
-    },
-    {
-      "majorName": "应急装备技术与工程",
-      "majorKey": "e8c4da5d",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 1,
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 33926,
-      "equivRank": 33926
-    },
-    {
-      "majorName": "飞行器控制与信息工程",
-      "majorKey": "62f76a53",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 33926,
-      "equivRank": 33926
-    },
-    {
-      "majorName": "思想政治教育",
-      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育（森林消防,限男）",
+      "majorKey": "d8071042",
       "selKe": "思想政治必选",
       "plan": 1,
       "schooling": "四年",
-      "menlei": "法",
-      "prevYear": 2025,
-      "prevRank": 39811,
-      "equivRank": 39811
+      "menlei": "法"
+    },
+    {
+      "majorName": "火灾勘查（消防救援,限男）",
+      "majorKey": "d1e4825b",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 1,
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "通信工程（消防救援,限男）",
+      "majorKey": "78377658",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 1,
+      "schooling": "四年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "飞行器控制与信息工程（消防救援,限男）",
+      "majorKey": "70eb02c4",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "schooling": "四年",
+      "menlei": "工"
     }
   ]
 }

@@ -618,6 +618,42 @@
     },
     {
       "schoolCode": "4362",
+      "majorKey": "ae7e82c7",
+      "majorName": "机械设计制造及其自动化（中外合作办学）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 588,
+          "minRank": 61323,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 598,
+          "minRank": 54406,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 598,
+          "minRank": 55237,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 600,
+          "minRank": 51599,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4362",
       "majorKey": "e6cfcc6c",
       "majorName": "材料化学",
       "selKe": "化学必选",
@@ -655,8 +691,8 @@
     },
     {
       "schoolCode": "4362",
-      "majorKey": "b2ac374c",
-      "majorName": "材料类",
+      "majorKey": "2e73411b",
+      "majorName": "材料类（师昌绪班）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -734,6 +770,50 @@
         {
           "year": 2022,
           "track": "综合",
+          "minScore": 643,
+          "minRank": 11753,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 649,
+          "minRank": 12960,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 646,
+          "minRank": 13368,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4362",
+      "majorKey": "932ef560",
+      "majorName": "法学类",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 650,
+          "minRank": 12965,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4362",
+      "majorKey": "4ff14848",
+      "majorName": "法学（卓越班）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
           "minScore": 645,
           "minRank": 10832,
           "maxScore": 0
@@ -757,21 +837,6 @@
           "track": "综合",
           "minScore": 648,
           "minRank": 12287,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolCode": "4362",
-      "majorKey": "932ef560",
-      "majorName": "法学类",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 650,
-          "minRank": 12965,
           "maxScore": 0
         }
       ]
@@ -1335,16 +1400,28 @@
   ],
   "plan2026": [
     {
-      "majorName": "法学",
-      "majorKey": "a1113a1f",
+      "majorName": "法学（卓越班）",
+      "majorKey": "4ff14848",
       "selKe": "不限",
-      "plan": 7,
+      "plan": 2,
       "tuition": "5500",
       "schooling": "四年",
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 12287,
       "equivRank": 12287
+    },
+    {
+      "majorName": "法学",
+      "majorKey": "a1113a1f",
+      "selKe": "不限",
+      "plan": 5,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevRank": 13368,
+      "equivRank": 13368
     },
     {
       "majorName": "知识产权",
@@ -1590,7 +1667,7 @@
       "majorName": "机械设计制造及其自动化",
       "majorKey": "55ff9da5",
       "selKe": "物理、化学(2科必选)",
-      "plan": 9,
+      "plan": 6,
       "tuition": "6500",
       "schooling": "四年",
       "menlei": "工",
@@ -1611,8 +1688,8 @@
       "equivRank": 42322
     },
     {
-      "majorName": "材料类",
-      "majorKey": "b2ac374c",
+      "majorName": "材料类（师昌绪班）",
+      "majorKey": "2e73411b",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6500",
@@ -1729,6 +1806,19 @@
       "prevYear": 2025,
       "prevRank": 50075,
       "equivRank": 50075
+    },
+    {
+      "majorName": "机械设计制造及其自动化（中外合作办学）",
+      "majorKey": "ae7e82c7",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 3,
+      "tuition": "23000",
+      "schooling": "四年",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 51599,
+      "equivRank": 51599
     },
     {
       "majorName": "工业设计",

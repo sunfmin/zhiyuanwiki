@@ -444,6 +444,21 @@
     },
     {
       "schoolCode": "1317",
+      "majorKey": "3a857c7f",
+      "majorName": "数据科学与大数据技术（中外合作办学）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 493,
+          "minRank": 181112,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1317",
       "majorKey": "301e14e8",
       "majorName": "机器人工程",
       "selKe": "物理、化学(2科必选)",
@@ -1038,42 +1053,6 @@
       "equivRank": 79803
     },
     {
-      "majorName": "城乡规划",
-      "majorKey": "2a1f2fe5",
-      "selKe": "不限",
-      "plan": 2,
-      "tuition": "5300",
-      "schooling": "五年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 85792,
-      "equivRank": 85792
-    },
-    {
-      "majorName": "风景园林",
-      "majorKey": "9b8820c1",
-      "selKe": "不限",
-      "plan": 2,
-      "tuition": "4900",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 87006,
-      "equivRank": 87006
-    },
-    {
-      "majorName": "建筑学",
-      "majorKey": "6b32f2c4",
-      "selKe": "不限",
-      "plan": 2,
-      "tuition": "5300",
-      "schooling": "五年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 88225,
-      "equivRank": 88225
-    },
-    {
       "majorName": "机械设计制造及其自动化",
       "majorKey": "55ff9da5",
       "selKe": "物理、化学(2科必选)",
@@ -1185,11 +1164,10 @@
       "majorName": "数据科学与大数据技术",
       "majorKey": "bb0a25bd",
       "selKe": "物理、化学(2科必选)",
-      "plan": 4,
-      "tuition": "39000",
+      "plan": 2,
+      "tuition": "4900",
       "schooling": "四年",
       "menlei": "工",
-      "coop": true,
       "prevYear": 2025,
       "prevRank": 99218,
       "equivRank": 99218
@@ -1325,6 +1303,46 @@
       "prevYear": 2025,
       "prevRank": 148397,
       "equivRank": 148397
+    },
+    {
+      "majorName": "数据科学与大数据技术（中外合作办学）",
+      "majorKey": "3a857c7f",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "39000",
+      "schooling": "四年",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 181112,
+      "equivRank": 181112
+    },
+    {
+      "majorName": "城乡规划（要求考生有一定的美术基础）",
+      "majorKey": "9d43c292",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "5300",
+      "schooling": "五年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "建筑学（要求考生有一定的美术基础）",
+      "majorKey": "fe0d209b",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "5300",
+      "schooling": "五年",
+      "menlei": "工"
+    },
+    {
+      "majorName": "风景园林（要求考生有一定的美术基础）",
+      "majorKey": "7ace0486",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "4900",
+      "schooling": "四年",
+      "menlei": "工"
     }
   ]
 }

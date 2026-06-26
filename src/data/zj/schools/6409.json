@@ -122,7 +122,15 @@
           "minScore": 572,
           "minRank": 84469,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "6409",
+      "majorKey": "aa60decf",
+      "majorName": "中西医临床医学（创新人才培养班，仝班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -141,17 +149,39 @@
         {
           "year": 2022,
           "track": "综合",
-          "minScore": 613,
-          "minRank": 34663,
+          "minScore": 605,
+          "minRank": 42573,
           "maxScore": 0
         },
         {
           "year": 2023,
           "track": "综合",
-          "minScore": 618,
-          "minRank": 35390,
+          "minScore": 604,
+          "minRank": 48030,
           "maxScore": 0
         },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 583,
+          "minRank": 72135,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 573,
+          "minRank": 83661,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6409",
+      "majorKey": "ea7f2474",
+      "majorName": "临床医学（创新人才培养班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2024,
           "track": "综合",
@@ -164,6 +194,28 @@
           "track": "综合",
           "minScore": 612,
           "minRank": 38939,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6409",
+      "majorKey": "554e616b",
+      "majorName": "临床医学（卓越医生实验班）",
+      "selKe": "化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 613,
+          "minRank": 34663,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 618,
+          "minRank": 35390,
           "maxScore": 0
         }
       ]
@@ -415,10 +467,32 @@
         {
           "year": 2023,
           "track": "综合",
-          "minScore": 625,
-          "minRank": 29546,
+          "minScore": 620,
+          "minRank": 33968,
           "maxScore": 0
         },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 605,
+          "minRank": 48412,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 594,
+          "minRank": 58790,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6409",
+      "majorKey": "85b31c13",
+      "majorName": "口腔医学（创新人才培养班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2024,
           "track": "综合",
@@ -431,6 +505,21 @@
           "track": "综合",
           "minScore": 598,
           "minRank": 54301,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6409",
+      "majorKey": "0645a7c8",
+      "majorName": "口腔医学（卓越医生实验班）",
+      "selKe": "化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 625,
+          "minRank": 29546,
           "maxScore": 0
         }
       ]
@@ -700,10 +789,10 @@
   ],
   "plan2026": [
     {
-      "majorName": "临床医学",
-      "majorKey": "618f7040",
+      "majorName": "临床医学（创新人才培养班）",
+      "majorKey": "ea7f2474",
       "selKe": "物理、化学(2科必选)",
-      "plan": 11,
+      "plan": 1,
       "tuition": "5800",
       "schooling": "五年",
       "menlei": "医",
@@ -712,16 +801,28 @@
       "equivRank": 38939
     },
     {
-      "majorName": "口腔医学",
-      "majorKey": "c162bced",
+      "majorName": "口腔医学（创新人才培养班）",
+      "majorKey": "85b31c13",
       "selKe": "物理、化学(2科必选)",
-      "plan": 2,
+      "plan": 1,
       "tuition": "5800",
       "schooling": "五年",
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 54301,
       "equivRank": 54301
+    },
+    {
+      "majorName": "口腔医学",
+      "majorKey": "c162bced",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 1,
+      "tuition": "5800",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 58790,
+      "equivRank": 58790
     },
     {
       "majorName": "麻醉学",
@@ -796,8 +897,20 @@
       "equivRank": 81378
     },
     {
-      "majorName": "中西医临床医学",
-      "majorKey": "8a499b4f",
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 10,
+      "tuition": "5800",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 83661,
+      "equivRank": 83661
+    },
+    {
+      "majorName": "中西医临床医学（创新人才培养班，仝班）",
+      "majorKey": "aa60decf",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5300",

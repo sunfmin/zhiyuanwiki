@@ -236,6 +236,21 @@
     },
     {
       "schoolCode": "3694",
+      "majorKey": "56144c88",
+      "majorName": "护理（中外合作办学）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 281,
+          "minRank": 288106,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3694",
       "majorKey": "889e9381",
       "majorName": "数字媒体技术",
       "selKe": "不限",
@@ -648,11 +663,10 @@
       "majorName": "护理",
       "majorKey": "a3db4652",
       "selKe": "不限",
-      "plan": 110,
-      "tuition": "23800",
+      "plan": 30,
+      "tuition": "10600",
       "schooling": "三年",
       "menlei": "医",
-      "coop": true,
       "prevYear": 2025,
       "prevRank": 258075,
       "equivRank": 258075
@@ -728,6 +742,19 @@
       "prevYear": 2025,
       "prevRank": 276665,
       "equivRank": 276665
+    },
+    {
+      "majorName": "护理（中外合作办学）",
+      "majorKey": "56144c88",
+      "selKe": "不限",
+      "plan": 80,
+      "tuition": "23800",
+      "schooling": "三年",
+      "menlei": "医",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 288106,
+      "equivRank": 288106
     }
   ]
 }

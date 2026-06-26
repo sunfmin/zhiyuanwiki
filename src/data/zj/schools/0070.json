@@ -256,6 +256,21 @@
     },
     {
       "schoolCode": "0070",
+      "majorKey": "e8ac4eb1",
+      "majorName": "工业机器人技术（中外合作办学）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 454,
+          "minRank": 219114,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0070",
       "majorKey": "4dc0f93c",
       "majorName": "工业过程自动化技术",
       "selKe": "不限",
@@ -604,6 +619,42 @@
           "track": "综合",
           "minScore": 490,
           "minRank": 184372,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0070",
+      "majorKey": "3970e018",
+      "majorName": "旅游管理（中外合作办学）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 433,
+          "minRank": 224156,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 422,
+          "minRank": 230558,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 437,
+          "minRank": 225755,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 454,
+          "minRank": 219114,
           "maxScore": 0
         }
       ]
@@ -1255,11 +1306,10 @@
       "majorName": "工业机器人技术",
       "majorKey": "26a2bf3f",
       "selKe": "不限",
-      "plan": 77,
-      "tuition": "18800",
+      "plan": 22,
+      "tuition": "6600",
       "schooling": "三年",
       "menlei": "工",
-      "coop": true,
       "prevYear": 2025,
       "prevRank": 184372,
       "equivRank": 184372
@@ -1340,11 +1390,10 @@
       "majorName": "旅游管理",
       "majorKey": "ec77cae2",
       "selKe": "不限",
-      "plan": 35,
-      "tuition": "16800",
+      "plan": 15,
+      "tuition": "6900",
       "schooling": "三年",
       "menlei": "管",
-      "coop": true,
       "prevYear": 2025,
       "prevRank": 184372,
       "equivRank": 184372
@@ -1564,6 +1613,32 @@
       "prevYear": 2025,
       "prevRank": 204772,
       "equivRank": 204772
+    },
+    {
+      "majorName": "工业机器人技术（中外合作办学）",
+      "majorKey": "e8ac4eb1",
+      "selKe": "不限",
+      "plan": 55,
+      "tuition": "18800",
+      "schooling": "三年",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 219114,
+      "equivRank": 219114
+    },
+    {
+      "majorName": "旅游管理（中外合作办学）",
+      "majorKey": "3970e018",
+      "selKe": "不限",
+      "plan": 20,
+      "tuition": "16800",
+      "schooling": "三年",
+      "menlei": "管",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 219114,
+      "equivRank": 219114
     }
   ]
 }

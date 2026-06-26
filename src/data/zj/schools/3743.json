@@ -232,7 +232,15 @@
           "minScore": 573,
           "minRank": 81278,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "3743",
+      "majorKey": "d71e11b9",
+      "majorName": "国际经济与贸易（国际投融资方向）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2024,
           "track": "综合",
@@ -253,7 +261,7 @@
       "schoolCode": "3743",
       "majorKey": "320e7128",
       "majorName": "土木工程",
-      "selKe": "物理、化学(2科必选)",
+      "selKe": "物理必选",
       "years": [
         {
           "year": 2022,
@@ -268,7 +276,37 @@
           "minScore": 570,
           "minRank": 84064,
           "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3743",
+      "majorKey": "8a07ee97",
+      "majorName": "土木工程（交通基础设施工程方向）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 529,
+          "minRank": 135445,
+          "maxScore": 0
         },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 532,
+          "minRank": 133815,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3743",
+      "majorKey": "3ca453f2",
+      "majorName": "土木工程（建筑工程方向）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2024,
           "track": "综合",
@@ -1203,8 +1241,8 @@
       "equivRank": 76015
     },
     {
-      "majorName": "国际经济与贸易",
-      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易（国际投融资方向）",
+      "majorKey": "d71e11b9",
       "selKe": "不限",
       "plan": 2,
       "tuition": "6600",
@@ -1335,10 +1373,10 @@
       "equivRank": 118578
     },
     {
-      "majorName": "土木工程",
-      "majorKey": "320e7128",
+      "majorName": "土木工程（建筑工程方向）",
+      "majorKey": "3ca453f2",
       "selKe": "物理、化学(2科必选)",
-      "plan": 4,
+      "plan": 2,
       "tuition": "6600",
       "schooling": "四年",
       "menlei": "工",
@@ -1381,6 +1419,18 @@
       "prevYear": 2025,
       "prevRank": 126590,
       "equivRank": 126590
+    },
+    {
+      "majorName": "土木工程（交通基础设施工程方向）",
+      "majorKey": "8a07ee97",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "6600",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 133815,
+      "equivRank": 133815
     },
     {
       "majorName": "资源勘查工程",

@@ -40,6 +40,21 @@
         {
           "year": 2025,
           "track": "综合",
+          "minScore": 633,
+          "minRank": 20957,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1149",
+      "majorKey": "f599e923",
+      "majorName": "人工智能（拔尖创新班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
           "minScore": 635,
           "minRank": 19494,
           "maxScore": 0
@@ -48,8 +63,8 @@
     },
     {
       "schoolCode": "1149",
-      "majorKey": "c9800f2a",
-      "majorName": "历史学",
+      "majorKey": "db13aa28",
+      "majorName": "历史学（教育部拔尖计划实验班）",
       "selKe": "历史必选",
       "years": [
         {
@@ -200,8 +215,8 @@
     },
     {
       "schoolCode": "1149",
-      "majorKey": "618fdffd",
-      "majorName": "数学与应用数学",
+      "majorKey": "0d4476ab",
+      "majorName": "数学与应用数学（教育部拔尖计划实验班）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -217,7 +232,7 @@
       "schoolCode": "1149",
       "majorKey": "33b3d741",
       "majorName": "数学类",
-      "selKe": "物理、化学(2科必选)",
+      "selKe": "物理必选",
       "years": [
         {
           "year": 2022,
@@ -225,7 +240,15 @@
           "minScore": 641,
           "minRank": 12936,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "1149",
+      "majorKey": "9e841109",
+      "majorName": "数学类（数理实验班）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2023,
           "track": "综合",
@@ -266,8 +289,8 @@
     },
     {
       "schoolCode": "1149",
-      "majorKey": "97bc5998",
-      "majorName": "汉语言文学",
+      "majorKey": "a7a70e9e",
+      "majorName": "汉语言文学（教育部拔尖计划实验班）",
       "selKe": "不限",
       "years": [
         {
@@ -319,7 +342,15 @@
           "minScore": 639,
           "minRank": 19527,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "1149",
+      "majorKey": "2b6287a2",
+      "majorName": "法语（世界史双学士学位项目）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2024,
           "track": "综合",
@@ -434,8 +465,8 @@
   ],
   "plan2026": [
     {
-      "majorName": "汉语言文学",
-      "majorKey": "97bc5998",
+      "majorName": "汉语言文学（教育部拔尖计划实验班）",
+      "majorKey": "a7a70e9e",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5000",
@@ -446,8 +477,8 @@
       "equivRank": 9826
     },
     {
-      "majorName": "历史学",
-      "majorKey": "c9800f2a",
+      "majorName": "历史学（教育部拔尖计划实验班）",
+      "majorKey": "db13aa28",
       "selKe": "历史必选",
       "plan": 2,
       "tuition": "5000",
@@ -458,8 +489,8 @@
       "equivRank": 10258
     },
     {
-      "majorName": "法语",
-      "majorKey": "e5fc6283",
+      "majorName": "法语（世界史双学士学位项目）",
+      "majorKey": "2b6287a2",
       "selKe": "不限",
       "plan": 2,
       "tuition": "6000",
@@ -482,8 +513,8 @@
       "equivRank": 16009
     },
     {
-      "majorName": "数学与应用数学",
-      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学（教育部拔尖计划实验班）",
+      "majorKey": "0d4476ab",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5000",
@@ -530,10 +561,10 @@
       "equivRank": 19409
     },
     {
-      "majorName": "人工智能",
-      "majorKey": "2fec4169",
+      "majorName": "人工智能（拔尖创新班）",
+      "majorKey": "f599e923",
       "selKe": "物理、化学(2科必选)",
-      "plan": 2,
+      "plan": 1,
       "tuition": "5000",
       "schooling": "四年",
       "menlei": "工",
@@ -542,8 +573,8 @@
       "equivRank": 19494
     },
     {
-      "majorName": "数学类",
-      "majorKey": "33b3d741",
+      "majorName": "数学类（数理实验班）",
+      "majorKey": "9e841109",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "5000",
@@ -552,6 +583,18 @@
       "prevYear": 2025,
       "prevRank": 20206,
       "equivRank": 20206
+    },
+    {
+      "majorName": "人工智能",
+      "majorKey": "2fec4169",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 1,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 20957,
+      "equivRank": 20957
     },
     {
       "majorName": "软件工程",

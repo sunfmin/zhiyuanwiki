@@ -26,8 +26,8 @@
     },
     {
       "schoolCode": "4226",
-      "majorKey": "c9800f2a",
-      "majorName": "历史学",
+      "majorKey": "4c5c8bc7",
+      "majorName": "历史学（师范）",
       "selKe": "历史/地理(2选1)",
       "years": [
         {
@@ -77,8 +77,8 @@
     },
     {
       "schoolCode": "4226",
-      "majorKey": "d061ae24",
-      "majorName": "地理科学",
+      "majorKey": "198d794d",
+      "majorName": "地理科学（师范）",
       "selKe": "地理必选",
       "years": [
         {
@@ -122,8 +122,8 @@
     },
     {
       "schoolCode": "4226",
-      "majorKey": "6a15bc12",
-      "majorName": "思想政治教育",
+      "majorKey": "47452c2f",
+      "majorName": "思想政治教育（师范）",
       "selKe": "思想政治必选",
       "years": [
         {
@@ -142,17 +142,25 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 553,
-          "minRank": 102592,
-          "maxScore": 0
-        },
-        {
           "year": 2024,
           "track": "综合",
           "minScore": 487,
           "minRank": 183284,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4226",
+      "majorKey": "9f802a9c",
+      "majorName": "数学与应用数学（师范）",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 553,
+          "minRank": 102592,
           "maxScore": 0
         }
       ]
@@ -188,8 +196,8 @@
     },
     {
       "schoolCode": "4226",
-      "majorKey": "97bc5998",
-      "majorName": "汉语言文学",
+      "majorKey": "d7131091",
+      "majorName": "汉语言文学（师范）",
       "selKe": "历史、思想政治(2科必选)",
       "years": [
         {
@@ -210,8 +218,8 @@
     },
     {
       "schoolCode": "4226",
-      "majorKey": "653f630d",
-      "majorName": "物理学",
+      "majorKey": "bec128cc",
+      "majorName": "物理学（师范）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -230,6 +238,21 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 487,
+          "minRank": 183284,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4226",
+      "majorKey": "80353860",
+      "majorName": "生物科学（师范）",
+      "selKe": "化学/生物(2选1)",
+      "years": [
+        {
           "year": 2022,
           "track": "综合",
           "minScore": 575,
@@ -241,13 +264,6 @@
           "track": "综合",
           "minScore": 576,
           "minRank": 78041,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 487,
-          "minRank": 183284,
           "maxScore": 0
         }
       ]
@@ -269,8 +285,8 @@
     },
     {
       "schoolCode": "4226",
-      "majorKey": "b534555a",
-      "majorName": "科学教育",
+      "majorKey": "a9ae7a57",
+      "majorName": "科学教育（师范）",
       "selKe": "物理必选",
       "years": [
         {
@@ -300,8 +316,8 @@
   ],
   "plan2026": [
     {
-      "majorName": "思想政治教育",
-      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育（师范）",
+      "majorKey": "47452c2f",
       "selKe": "思想政治必选",
       "plan": 7,
       "tuition": "4400",
@@ -312,8 +328,8 @@
       "equivRank": 87142
     },
     {
-      "majorName": "汉语言文学",
-      "majorKey": "97bc5998",
+      "majorName": "汉语言文学（师范）",
+      "majorKey": "d7131091",
       "selKe": "历史、思想政治(2科必选)",
       "plan": 7,
       "tuition": "4400",
@@ -324,8 +340,8 @@
       "equivRank": 87963
     },
     {
-      "majorName": "地理科学",
-      "majorKey": "d061ae24",
+      "majorName": "地理科学（师范）",
+      "majorKey": "198d794d",
       "selKe": "地理必选",
       "plan": 5,
       "tuition": "5000",
@@ -348,8 +364,8 @@
       "equivRank": 95989
     },
     {
-      "majorName": "科学教育",
-      "majorKey": "b534555a",
+      "majorName": "科学教育（师范）",
+      "majorKey": "a9ae7a57",
       "selKe": "物理必选",
       "plan": 4,
       "tuition": "4400",
@@ -360,8 +376,8 @@
       "equivRank": 140911
     },
     {
-      "majorName": "物理学",
-      "majorKey": "653f630d",
+      "majorName": "物理学（师范）",
+      "majorKey": "bec128cc",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "5000",

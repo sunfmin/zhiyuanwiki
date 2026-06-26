@@ -33,8 +33,8 @@
     },
     {
       "schoolCode": "6210",
-      "majorKey": "2c02b07e",
-      "majorName": "大气探测技术",
+      "majorKey": "74fd3be5",
+      "majorName": "大气探测技术（空军）",
       "selKe": "不限",
       "years": [
         {
@@ -199,6 +199,21 @@
           "maxScore": 0
         }
       ]
+    },
+    {
+      "schoolCode": "6210",
+      "majorKey": "f470e95a",
+      "majorName": "计算机应用技术（武警部队）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 403,
+          "minRank": 253041,
+          "maxScore": 0
+        }
+      ]
     }
   ],
   "plan2026": [
@@ -278,7 +293,7 @@
       "majorName": "计算机应用技术",
       "majorKey": "faccc9c5",
       "selKe": "不限",
-      "plan": 8,
+      "plan": 3,
       "tuition": "4500",
       "schooling": "三年",
       "menlei": "工",
@@ -287,16 +302,22 @@
       "equivRank": 179051
     },
     {
-      "majorName": "大气探测技术",
-      "majorKey": "2c02b07e",
+      "majorName": "大气探测技术（定向培养军士生。只招男生。空军。要求政考、体检。要求高考成绩不低于普通类二段线）",
+      "majorKey": "ec0a69e4",
       "selKe": "不限",
       "plan": 5,
       "tuition": "8000",
       "schooling": "三年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 239016,
-      "equivRank": 239016
+      "menlei": "工"
+    },
+    {
+      "majorName": "计算机应用技术（定向培养军士生。只招男生。武警。要求政考、体检。要求高考成绩不低于普通类二段线）",
+      "majorKey": "e1e33927",
+      "selKe": "不限",
+      "plan": 5,
+      "tuition": "8000",
+      "schooling": "三年",
+      "menlei": "法"
     }
   ]
 }

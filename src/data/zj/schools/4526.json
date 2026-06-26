@@ -28,7 +28,7 @@
       "schoolCode": "4526",
       "majorKey": "bb0a25bd",
       "majorName": "数据科学与大数据技术",
-      "selKe": "物理、化学(2科必选)",
+      "selKe": "物理必选",
       "years": [
         {
           "year": 2023,
@@ -36,7 +36,15 @@
           "minScore": 529,
           "minRank": 130054,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4526",
+      "majorKey": "3a857c7f",
+      "majorName": "数据科学与大数据技术（中外合作办学）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -73,6 +81,21 @@
           "minRank": 167199,
           "maxScore": 0
         },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 502,
+          "minRank": 170229,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4526",
+      "majorKey": "3970e018",
+      "majorName": "旅游管理（中外合作办学）",
+      "selKe": "不限",
+      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -128,42 +151,6 @@
     },
     {
       "schoolCode": "4526",
-      "majorKey": "ec686c36",
-      "majorName": "酒店管理",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 525,
-          "minRank": 138028,
-          "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 510,
-          "minRank": 151288,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 519,
-          "minRank": 147363,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 524,
-          "minRank": 144537,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolCode": "4526",
       "majorKey": "0a7dd809",
       "majorName": "酒店管理与数字化运营",
       "selKe": "不限",
@@ -200,6 +187,42 @@
     },
     {
       "schoolCode": "4526",
+      "majorKey": "c92356ac",
+      "majorName": "酒店管理（中外合作办学）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 525,
+          "minRank": 138028,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 510,
+          "minRank": 151288,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 519,
+          "minRank": 147363,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 524,
+          "minRank": 144537,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4526",
       "majorKey": "63b95502",
       "majorName": "食品质量与安全",
       "selKe": "物理、化学(2科必选)",
@@ -216,10 +239,10 @@
   ],
   "plan2026": [
     {
-      "majorName": "旅游管理",
-      "majorKey": "ec77cae2",
+      "majorName": "旅游管理（中外合作办学）",
+      "majorKey": "3970e018",
       "selKe": "不限",
-      "plan": 5,
+      "plan": 3,
       "tuition": "59800",
       "schooling": "四年",
       "menlei": "管",
@@ -229,8 +252,8 @@
       "equivRank": 143278
     },
     {
-      "majorName": "酒店管理",
-      "majorKey": "ec686c36",
+      "majorName": "酒店管理（中外合作办学）",
+      "majorKey": "c92356ac",
       "selKe": "不限",
       "plan": 10,
       "tuition": "39300",
@@ -252,6 +275,18 @@
       "prevYear": 2025,
       "prevRank": 170163,
       "equivRank": 170163
+    },
+    {
+      "majorName": "旅游管理",
+      "majorKey": "ec77cae2",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "6500",
+      "schooling": "三年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 170229,
+      "equivRank": 170229
     },
     {
       "majorName": "烹饪工艺与营养",
@@ -278,8 +313,8 @@
       "equivRank": 183257
     },
     {
-      "majorName": "数据科学与大数据技术",
-      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术（中外合作办学）",
+      "majorKey": "3a857c7f",
       "selKe": "物理、化学(2科必选)",
       "plan": 9,
       "tuition": "59800",

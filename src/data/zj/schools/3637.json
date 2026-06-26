@@ -68,6 +68,21 @@
         {
           "year": 2025,
           "track": "综合",
+          "minScore": 621,
+          "minRank": 30878,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3637",
+      "majorKey": "0b4f2ce1",
+      "majorName": "中医学（5+3一体化）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
           "minScore": 638,
           "minRank": 17675,
           "maxScore": 0
@@ -672,16 +687,28 @@
   ],
   "plan2026": [
     {
-      "majorName": "中医学",
-      "majorKey": "2285e5ca",
+      "majorName": "中医学（5+3一体化）",
+      "majorKey": "0b4f2ce1",
       "selKe": "不限",
-      "plan": 3,
+      "plan": 1,
       "tuition": "5220",
       "schooling": "五年",
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 17675,
       "equivRank": 17675
+    },
+    {
+      "majorName": "中医学",
+      "majorKey": "2285e5ca",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "5220",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 30878,
+      "equivRank": 30878
     },
     {
       "majorName": "针灸推拿学",

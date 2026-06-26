@@ -4,35 +4,6 @@
   "leaves": [
     {
       "schoolCode": "2301",
-      "majorKey": "04ab47fe",
-      "majorName": "化学",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 545,
-          "minRank": 112517,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 519,
-          "minRank": 146777,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 500,
-          "minRank": 172649,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolCode": "2301",
       "majorKey": "1f59c989",
       "majorName": "化学工程与工艺",
       "selKe": "物理、化学(2科必选)",
@@ -62,8 +33,37 @@
     },
     {
       "schoolCode": "2301",
-      "majorKey": "97716b64",
-      "majorName": "学前教育",
+      "majorKey": "0dfc12db",
+      "majorName": "化学（师范）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 545,
+          "minRank": 112517,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 519,
+          "minRank": 146777,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 500,
+          "minRank": 172649,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2301",
+      "majorKey": "6e38b28d",
+      "majorName": "学前教育（师范）",
       "selKe": "不限",
       "years": [
         {
@@ -77,8 +77,8 @@
     },
     {
       "schoolCode": "2301",
-      "majorKey": "c240892f",
-      "majorName": "小学教育",
+      "majorKey": "983355fa",
+      "majorName": "小学教育（师范）",
       "selKe": "不限",
       "years": [
         {
@@ -142,8 +142,8 @@
     },
     {
       "schoolCode": "2301",
-      "majorKey": "618fdffd",
-      "majorName": "数学与应用数学",
+      "majorKey": "9f802a9c",
+      "majorName": "数学与应用数学（师范）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -200,8 +200,8 @@
     },
     {
       "schoolCode": "2301",
-      "majorKey": "d2fbd5c5",
-      "majorName": "汉语国际教育",
+      "majorKey": "dccdae04",
+      "majorName": "汉语国际教育（师范）",
       "selKe": "史政地(3科必选)",
       "years": [
         {
@@ -236,8 +236,8 @@
     },
     {
       "schoolCode": "2301",
-      "majorKey": "97bc5998",
-      "majorName": "汉语言文学",
+      "majorKey": "d7131091",
+      "majorName": "汉语言文学（师范）",
       "selKe": "史政地(3科必选)",
       "years": [
         {
@@ -317,8 +317,8 @@
   ],
   "plan2026": [
     {
-      "majorName": "汉语言文学",
-      "majorKey": "97bc5998",
+      "majorName": "汉语言文学（师范）",
+      "majorKey": "d7131091",
       "selKe": "史政地(3科必选)",
       "plan": 3,
       "tuition": "4000",
@@ -329,8 +329,8 @@
       "equivRank": 95199
     },
     {
-      "majorName": "汉语国际教育",
-      "majorKey": "d2fbd5c5",
+      "majorName": "汉语国际教育（师范）",
+      "majorKey": "dccdae04",
       "selKe": "史政地(3科必选)",
       "plan": 2,
       "tuition": "4000",
@@ -341,8 +341,8 @@
       "equivRank": 97066
     },
     {
-      "majorName": "小学教育",
-      "majorKey": "c240892f",
+      "majorName": "小学教育（师范）",
+      "majorKey": "983355fa",
       "selKe": "不限",
       "plan": 5,
       "tuition": "3000",
@@ -365,8 +365,8 @@
       "equivRank": 101957
     },
     {
-      "majorName": "学前教育",
-      "majorKey": "97716b64",
+      "majorName": "学前教育（师范）",
+      "majorKey": "6e38b28d",
       "selKe": "不限",
       "plan": 5,
       "tuition": "3500",
@@ -401,8 +401,8 @@
       "equivRank": 169115
     },
     {
-      "majorName": "数学与应用数学",
-      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学（师范）",
+      "majorKey": "9f802a9c",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "3500",
@@ -413,8 +413,8 @@
       "equivRank": 172347
     },
     {
-      "majorName": "化学",
-      "majorKey": "04ab47fe",
+      "majorName": "化学（师范）",
+      "majorKey": "0dfc12db",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "2500",

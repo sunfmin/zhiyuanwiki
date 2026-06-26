@@ -110,13 +110,6 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 581,
-          "minRank": 69138,
-          "maxScore": 0
-        },
-        {
           "year": 2023,
           "track": "综合",
           "minScore": 589,
@@ -128,6 +121,21 @@
           "track": "综合",
           "minScore": 556,
           "minRank": 103298,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6218",
+      "majorKey": "c0559585",
+      "majorName": "刑事科学技术（物证鉴定技术方向）",
+      "selKe": "物/化/生(3选1)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 581,
+          "minRank": 69138,
           "maxScore": 0
         }
       ]
@@ -337,8 +345,8 @@
         {
           "year": 2022,
           "track": "综合",
-          "minScore": 595,
-          "minRank": 53946,
+          "minScore": 590,
+          "minRank": 58583,
           "maxScore": 0
         },
         {
@@ -358,8 +366,141 @@
         {
           "year": 2025,
           "track": "综合",
+          "minScore": 597,
+          "minRank": 55032,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6218",
+      "majorKey": "b89bedc4",
+      "majorName": "法学（卓越法治基地实验班政府法治方向）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 595,
+          "minRank": 53946,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 595,
+          "minRank": 57589,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6218",
+      "majorKey": "05b2061b",
+      "majorName": "法学（卓越法治基地实验班智慧法治方向）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 589,
+          "minRank": 60819,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 591,
+          "minRank": 61903,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6218",
+      "majorKey": "c2b5e2d5",
+      "majorName": "法学（卓越法治基地实验班生态环境法治方向）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 589,
+          "minRank": 60712,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 593,
+          "minRank": 59587,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6218",
+      "majorKey": "321ec29b",
+      "majorName": "法学（卓越法治基地实验班纪检方向）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 590,
+          "minRank": 58923,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6218",
+      "majorKey": "0a873d65",
+      "majorName": "法学（涉外法治人才协同培养创新基地班）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
           "minScore": 602,
           "minRank": 49435,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6218",
+      "majorKey": "3b457f78",
+      "majorName": "法学（涉外法治方向）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 592,
+          "minRank": 56531,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 595,
+          "minRank": 57902,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6218",
+      "majorKey": "69016814",
+      "majorName": "法学（西部基层卓越法治人才基地班）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 597,
+          "minRank": 55719,
           "maxScore": 0
         }
       ]
@@ -498,16 +639,40 @@
   ],
   "plan2026": [
     {
-      "majorName": "法学",
-      "majorKey": "a1113a1f",
+      "majorName": "法学（涉外法治人才协同培养创新基地班）",
+      "majorKey": "0a873d65",
       "selKe": "不限",
-      "plan": 16,
+      "plan": 1,
       "tuition": "4300",
       "schooling": "四年",
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 49435,
       "equivRank": 49435
+    },
+    {
+      "majorName": "法学",
+      "majorKey": "a1113a1f",
+      "selKe": "不限",
+      "plan": 12,
+      "tuition": "4300",
+      "schooling": "四年",
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevRank": 55032,
+      "equivRank": 55032
+    },
+    {
+      "majorName": "法学（西部基层卓越法治人才基地班）",
+      "majorKey": "69016814",
+      "selKe": "不限",
+      "plan": 3,
+      "tuition": "4300",
+      "schooling": "四年",
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevRank": 55719,
+      "equivRank": 55719
     },
     {
       "majorName": "司法鉴定学",

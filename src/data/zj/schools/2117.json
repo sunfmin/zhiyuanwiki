@@ -47,6 +47,57 @@
         {
           "year": 2022,
           "track": "综合",
+          "minScore": 634,
+          "minRank": 16910,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 640,
+          "minRank": 18508,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 638,
+          "minRank": 19290,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 624,
+          "minRank": 27870,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2117",
+      "majorKey": "3099576f",
+      "majorName": "临床医学（5+3—体化，儿科学）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 628,
+          "minRank": 24903,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2117",
+      "majorKey": "db6c560f",
+      "majorName": "临床医学（5+3一体化）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
           "minScore": 648,
           "minRank": 9242,
           "maxScore": 0
@@ -177,8 +228,8 @@
     },
     {
       "schoolCode": "2117",
-      "majorKey": "8ca67fa5",
-      "majorName": "基础医学",
+      "majorKey": "b52dc621",
+      "majorName": "基础医学（其震班）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -308,10 +359,10 @@
   ],
   "plan2026": [
     {
-      "majorName": "临床医学",
-      "majorKey": "618f7040",
+      "majorName": "临床医学（5+3一体化）",
+      "majorKey": "db6c560f",
       "selKe": "物理、化学(2科必选)",
-      "plan": 8,
+      "plan": 2,
       "tuition": "5500",
       "schooling": "五年",
       "menlei": "医",
@@ -330,6 +381,30 @@
       "prevYear": 2025,
       "prevRank": 19001,
       "equivRank": 19001
+    },
+    {
+      "majorName": "临床医学（5+3—体化，儿科学）",
+      "majorKey": "3099576f",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "5500",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 24903,
+      "equivRank": 24903
+    },
+    {
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 4,
+      "tuition": "5500",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 27870,
+      "equivRank": 27870
     },
     {
       "majorName": "眼视光医学",
@@ -380,8 +455,8 @@
       "equivRank": 52145
     },
     {
-      "majorName": "基础医学",
-      "majorKey": "8ca67fa5",
+      "majorName": "基础医学（其震班）",
+      "majorKey": "b52dc621",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5500",

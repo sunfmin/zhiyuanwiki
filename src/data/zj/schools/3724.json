@@ -244,6 +244,28 @@
     },
     {
       "schoolCode": "3724",
+      "majorKey": "3970e018",
+      "majorName": "旅游管理（中外合作办学）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 408,
+          "minRank": 243358,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 411,
+          "minRank": 248653,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3724",
       "majorKey": "d4465443",
       "majorName": "机电一体化技术",
       "selKe": "不限",
@@ -535,7 +557,7 @@
       "majorName": "旅游管理",
       "majorKey": "ec77cae2",
       "selKe": "不限",
-      "plan": 6,
+      "plan": 4,
       "tuition": "5520",
       "schooling": "三年",
       "menlei": "管",
@@ -578,6 +600,19 @@
       "prevYear": 2025,
       "prevRank": 243458,
       "equivRank": 243458
+    },
+    {
+      "majorName": "旅游管理（中外合作办学）",
+      "majorKey": "3970e018",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "18000",
+      "schooling": "三年",
+      "menlei": "管",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 248653,
+      "equivRank": 248653
     }
   ]
 }

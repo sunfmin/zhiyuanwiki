@@ -25,6 +25,28 @@
         {
           "year": 2024,
           "track": "综合",
+          "minScore": 657,
+          "minRank": 9494,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 653,
+          "minRank": 9736,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2124",
+      "majorKey": "6453e271",
+      "majorName": "人工智能（未来技术学院）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
           "minScore": 658,
           "minRank": 9042,
           "maxScore": 0
@@ -415,8 +437,8 @@
     },
     {
       "schoolCode": "2124",
-      "majorKey": "c425ce53",
-      "majorName": "材料科学与工程",
+      "majorKey": "39cb7775",
+      "majorName": "材料科学与工程（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -488,8 +510,8 @@
     },
     {
       "schoolCode": "2124",
-      "majorKey": "27c81131",
-      "majorName": "生物医学工程",
+      "majorKey": "d4f7fad3",
+      "majorName": "生物医学工程（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -667,13 +689,6 @@
           "maxScore": 0
         },
         {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 658,
-          "minRank": 8915,
-          "maxScore": 0
-        },
-        {
           "year": 2024,
           "track": "综合",
           "minScore": 656,
@@ -691,8 +706,38 @@
     },
     {
       "schoolCode": "2124",
-      "majorKey": "0c33cbdd",
-      "majorName": "软件工程",
+      "majorKey": "8a5fc78f",
+      "majorName": "计算机类（部分课程采用英文教材和英语授课。含计算机科学与技术、物联网工程专业）",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 658,
+          "minRank": 8915,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2124",
+      "majorKey": "0687a5e9",
+      "majorName": "计算机类（部分课程采用英文教材和英语授课。学年学费标准大一、大二5200元/年,大三、大四16000元/年。含软件工程、信息安全、数字媒体技术专业）",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 656,
+          "minRank": 9653,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2124",
+      "majorKey": "d201f79d",
+      "majorName": "软件工程（特色班）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -707,10 +752,10 @@
   ],
   "plan2026": [
     {
-      "majorName": "人工智能",
-      "majorKey": "2fec4169",
+      "majorName": "人工智能（未来技术学院）",
+      "majorKey": "6453e271",
       "selKe": "物理、化学(2科必选)",
-      "plan": 4,
+      "plan": 2,
       "tuition": "6240",
       "schooling": "四年",
       "menlei": "工",
@@ -743,6 +788,18 @@
       "equivRank": 9562
     },
     {
+      "majorName": "人工智能",
+      "majorKey": "2fec4169",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "6240",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 9736,
+      "equivRank": 9736
+    },
+    {
       "majorName": "机器人工程",
       "majorKey": "301e14e8",
       "selKe": "物理、化学(2科必选)",
@@ -755,8 +812,8 @@
       "equivRank": 9969
     },
     {
-      "majorName": "软件工程",
-      "majorKey": "0c33cbdd",
+      "majorName": "软件工程（特色班）",
+      "majorKey": "d201f79d",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "16000",
@@ -959,8 +1016,8 @@
       "equivRank": 16861
     },
     {
-      "majorName": "生物医学工程",
-      "majorKey": "27c81131",
+      "majorName": "生物医学工程（中外合作办学）",
+      "majorKey": "d4f7fad3",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "45000",
@@ -972,8 +1029,8 @@
       "equivRank": 17696
     },
     {
-      "majorName": "材料科学与工程",
-      "majorKey": "c425ce53",
+      "majorName": "材料科学与工程（中外合作办学）",
+      "majorKey": "39cb7775",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "30000",

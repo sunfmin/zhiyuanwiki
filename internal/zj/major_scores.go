@@ -63,6 +63,7 @@ func parseMajorScoreRows(rows [][]string) ([]core.MajorScoreRow, error) {
 	cSchoolCode := col("院校代码")
 	cSchoolName := col("院校名称")
 	cMajor := col("专业", "专业名称")
+	cRemark := col("专业备注")
 	cSelKe := col("选科要求")
 	cMin := col("最低分数", "最低分")
 	cRank := col("最低位次")
@@ -84,6 +85,8 @@ func parseMajorScoreRows(rows [][]string) ([]core.MajorScoreRow, error) {
 		if name == "" || code == "" {
 			continue
 		}
+		// 大类按方向（专业备注首括号）拆分，使各方向独立成叶子（计划/位次各自对应）。
+		name = majorIdent(name, core.Cell(r, cRemark))
 		year, _ := core.ParseLeadingInt(core.Cell(r, cYear))
 		minScore, _ := core.ParseLeadingInt(core.Cell(r, cMin))
 		out = append(out, core.MajorScoreRow{

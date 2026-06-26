@@ -76,8 +76,8 @@
     },
     {
       "schoolCode": "4037",
-      "majorKey": "1f0182ac",
-      "majorName": "农林经济管理",
+      "majorKey": "a0743ab2",
+      "majorName": "农林经济管理（中外合作办学）",
       "selKe": "不限",
       "years": [
         {
@@ -139,13 +139,6 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 626,
-          "minRank": 22862,
-          "maxScore": 0
-        },
-        {
           "year": 2023,
           "track": "综合",
           "minScore": 632,
@@ -170,17 +163,25 @@
     },
     {
       "schoolCode": "4037",
-      "majorKey": "c6cedaad",
-      "majorName": "园林",
-      "selKe": "物理、生物(2科必选)",
+      "majorKey": "58eb5d92",
+      "majorName": "动物科学（国家卓越农林人才计划）",
+      "selKe": "物/化/生(3选1)",
       "years": [
         {
           "year": 2022,
           "track": "综合",
-          "minScore": 631,
-          "minRank": 18892,
+          "minScore": 626,
+          "minRank": 22862,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4037",
+      "majorKey": "c6cedaad",
+      "majorName": "园林",
+      "selKe": "物理、生物(2科必选)",
+      "years": [
         {
           "year": 2023,
           "track": "综合",
@@ -206,17 +207,25 @@
     },
     {
       "schoolCode": "4037",
-      "majorKey": "e735f557",
-      "majorName": "园艺",
-      "selKe": "物理、化学(2科必选)",
+      "majorKey": "fd84cb5d",
+      "majorName": "园林（国家卓越农林人才计划）",
+      "selKe": "物/化/生(3选1)",
       "years": [
         {
           "year": 2022,
           "track": "综合",
-          "minScore": 628,
-          "minRank": 21568,
+          "minScore": 631,
+          "minRank": 18892,
           "maxScore": 0
-        },
+        }
+      ]
+    },
+    {
+      "schoolCode": "4037",
+      "majorKey": "e735f557",
+      "majorName": "园艺",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
         {
           "year": 2023,
           "track": "综合",
@@ -236,6 +245,43 @@
           "track": "综合",
           "minScore": 624,
           "minRank": 28155,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4037",
+      "majorKey": "1afd97c9",
+      "majorName": "园艺（中外合作办学）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 569,
+          "minRank": 88776,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 587,
+          "minRank": 66353,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4037",
+      "majorKey": "eee9b373",
+      "majorName": "园艺（国家卓越农林人才计划）",
+      "selKe": "物/化/生(3选1)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 628,
+          "minRank": 21568,
           "maxScore": 0
         }
       ]
@@ -624,8 +670,8 @@
     },
     {
       "schoolCode": "4037",
-      "majorKey": "11cedbac",
-      "majorName": "生态学",
+      "majorKey": "f843f3b2",
+      "majorName": "生态学（中外合作办学）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -1206,11 +1252,10 @@
       "majorName": "园艺",
       "majorKey": "e735f557",
       "selKe": "物理、化学(2科必选)",
-      "plan": 13,
-      "tuition": "58000",
+      "plan": 3,
+      "tuition": "4500",
       "schooling": "四年",
       "menlei": "农",
-      "coop": true,
       "prevYear": 2025,
       "prevRank": 28155,
       "equivRank": 28155
@@ -1252,8 +1297,8 @@
       "equivRank": 32819
     },
     {
-      "majorName": "农林经济管理",
-      "majorKey": "1f0182ac",
+      "majorName": "农林经济管理（中外合作办学）",
+      "majorKey": "a0743ab2",
       "selKe": "不限",
       "plan": 15,
       "tuition": "58000",
@@ -1361,8 +1406,21 @@
       "equivRank": 48216
     },
     {
-      "majorName": "生态学",
-      "majorKey": "11cedbac",
+      "majorName": "园艺（中外合作办学）",
+      "majorKey": "1afd97c9",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 10,
+      "tuition": "58000",
+      "schooling": "四年",
+      "menlei": "农",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 66353,
+      "equivRank": 66353
+    },
+    {
+      "majorName": "生态学（中外合作办学）",
+      "majorKey": "f843f3b2",
       "selKe": "物理、化学(2科必选)",
       "plan": 10,
       "tuition": "58000",
