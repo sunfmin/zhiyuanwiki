@@ -17,6 +17,8 @@ type PlanRow struct {
 	GroupCode  string // 专业组代码（3 位，逐年变）
 	GroupName  string
 	MajorName  string
+	FullName   string // 专业全称（用于中外合作判定）
+	Remark     string // 专业备注（用于中外合作判定）
 	SelKe      string
 	Plan       int
 	Schooling  string // 学制
@@ -58,6 +60,7 @@ func parsePlanRows(rows [][]string) ([]PlanRow, error) {
 	cSchoolCode, cSchoolName := col("院校代码"), col("院校名称")
 	cGroup, cGroupName := col("专业组代码"), col("专业组名称")
 	cMajor, cSelKe := col("专业名称"), col("选科要求")
+	cFull, cRemark := col("专业全称"), col("专业备注")
 	cPlan, cSchooling, cTuition := col("计划人数"), col("学制"), col("学费")
 
 	var out []PlanRow
@@ -84,6 +87,8 @@ func parsePlanRows(rows [][]string) ([]PlanRow, error) {
 			GroupCode:  strings.TrimSpace(cell(r, cGroup)),
 			GroupName:  strings.TrimSpace(cell(r, cGroupName)),
 			MajorName:  name,
+			FullName:   strings.TrimSpace(cell(r, cFull)),
+			Remark:     strings.TrimSpace(cell(r, cRemark)),
 			SelKe:      strings.TrimSpace(cell(r, cSelKe)),
 			Plan:       plan,
 			Schooling:  strings.TrimSpace(cell(r, cSchooling)),
@@ -102,6 +107,8 @@ type GroupMajor struct {
 	SelKe     string `json:"selKe"`
 	Plan      int    `json:"plan"`
 	Tuition   string `json:"tuition"`
+	Menlei    string `json:"menlei,omitempty"` // 学科门类 1 字码（见 menlei.go），未命中省略
+	Coop      bool   `json:"coop,omitempty"`   // 中外合作办学
 	PrevYear  int    `json:"prevYear,omitempty"`  // 挂接到的最近年份
 	PrevRank  int    `json:"prevRank,omitempty"`  // 该年最低位次
 	EquivRank int    `json:"equivRank,omitempty"` // 等效到 planYear
@@ -131,8 +138,9 @@ func leafLatest(l *MajorLeaf) *YearScore {
 }
 
 // BuildGroups2026 把招生计划行按院校→组聚合成单年视图，并用 leaves（按院校代码+专业名）
-// 挂接每个组内专业的往年最低位次与等效位次。返回 院校代码 → 组列表。
-func BuildGroups2026(plan []PlanRow, leaves []MajorLeaf, totals map[YearTrack]int) map[string][]Group2026 {
+// 挂接每个组内专业的往年最低位次与等效位次。menlei（可为 nil）把专业名归到学科门类码。
+// 返回 院校代码 → 组列表。
+func BuildGroups2026(plan []PlanRow, leaves []MajorLeaf, totals map[YearTrack]int, menlei func(string) string) map[string][]Group2026 {
 	leafIdx := map[string]*MajorLeaf{}
 	for i := range leaves {
 		leafIdx[leaves[i].SchoolCode+"/"+leaves[i].MajorKey] = &leaves[i]
@@ -159,6 +167,10 @@ func BuildGroups2026(plan []PlanRow, leaves []MajorLeaf, totals map[YearTrack]in
 			SelKe:     r.SelKe,
 			Plan:      r.Plan,
 			Tuition:   r.Tuition,
+			Coop:      IsCoop(r.MajorName, r.FullName, r.Remark),
+		}
+		if menlei != nil {
+			gm.Menlei = menlei(r.MajorName)
 		}
 		if lf := leafIdx[r.SchoolCode+"/"+gm.MajorKey]; lf != nil {
 			if p := leafLatest(lf); p != nil {

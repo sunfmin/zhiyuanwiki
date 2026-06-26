@@ -85,7 +85,7 @@ func TestBuildGroups2026(t *testing.T) {
 			Years: []YearScore{{Year: 2025, Track: "物理", MinScore: 690, MinRank: 120}}},
 	}
 	totals := map[YearTrack]int{}
-	groups := BuildGroups2026(plan, leaves, totals)
+	groups := BuildGroups2026(plan, leaves, totals, nil)
 
 	gs := groups["1003"]
 	if len(gs) != 1 || gs[0].GroupCode != "009" {

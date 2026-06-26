@@ -40,4 +40,7 @@ export interface LocEntry {
   r: number; // 等效位次
   py: number; // 挂接年份
   gs: number; // 组内专业数
+  mc?: string; // 学科门类 1 字码（见 src/lib/filters.ts CATEGORIES）
+  tu?: number; // 学费（元/年，待定/无→省略）
+  cw?: boolean; // 中外合作办学
 }

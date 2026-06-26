@@ -31,6 +31,8 @@
           "selKe": "不限",
           "plan": 2,
           "tuition": "70000",
+          "menlei": "文",
+          "coop": true,
           "prevYear": 2024,
           "prevRank": 20357,
           "equivRank": 20357
@@ -48,7 +50,9 @@
           "majorKey": "bda0ff17",
           "selKe": "不限",
           "plan": 2,
-          "tuition": "70000"
+          "tuition": "70000",
+          "menlei": "经",
+          "coop": true
         }
       ]
     },
@@ -63,21 +67,27 @@
           "majorKey": "e2472a71",
           "selKe": "化学",
           "plan": 1,
-          "tuition": "70000"
+          "tuition": "70000",
+          "menlei": "理",
+          "coop": true
         },
         {
           "majorName": "人工智能",
           "majorKey": "2fec4169",
           "selKe": "化学",
           "plan": 1,
-          "tuition": "50000"
+          "tuition": "50000",
+          "menlei": "工",
+          "coop": true
         },
         {
           "majorName": "电子与计算机工程",
           "majorKey": "92e14fa5",
           "selKe": "化学",
           "plan": 1,
-          "tuition": "50000"
+          "tuition": "50000",
+          "menlei": "工",
+          "coop": true
         }
       ]
     }

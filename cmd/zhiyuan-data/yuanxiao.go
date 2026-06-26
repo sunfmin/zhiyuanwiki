@@ -42,6 +42,17 @@ type schoolIndexEntry struct {
 	IsShuangYiLiu bool `json:"isShuangYiLiu,omitempty"`
 }
 
+// schoolMetaOut 是 public/data/school-meta.json 的一条（按院校代码建键），承载位次定位结果过滤
+// 用的院校级属性。紧凑键、空值省略；客户端一次性 fetch、按 sc 挂接。见 ADR-0008。
+type schoolMetaOut struct {
+	Province string   `json:"p,omitempty"`  // 省份
+	City     string   `json:"c,omitempty"`  // 城市
+	CityTier string   `json:"ct,omitempty"` // 城市层级
+	Owner    string   `json:"o,omitempty"`  // 办学性质
+	Kind     string   `json:"k,omitempty"`  // 学校类别
+	Levels   []string `json:"lv,omitempty"` // 层次：["985","211","双一流"] 中为真者
+}
+
 // tagSourceFiles 列出含「_985/_211/双一流」列的旧格式文件（相对数据根目录）。
 // 跨年合并以最大化覆盖（标签是院校级属性，与年份无关；缺失项静默跳过）。
 func tagSourceFiles(src string) []string {
@@ -106,6 +117,7 @@ func yuanxiaoCmd(args []string) {
 	fs := flag.NewFlagSet("yuanxiao", flag.ExitOnError)
 	src := fs.String("src", defaultSrc(), "官方数据根目录")
 	out := fs.String("out", filepath.Join("src", "data"), "JSON 输出目录")
+	pub := fs.String("pub", filepath.Join("public", "data"), "客户端公开数据目录（school-meta.json）")
 	_ = fs.Parse(args)
 
 	scoreDir := filepath.Join(*src,
@@ -133,6 +145,13 @@ func yuanxiaoCmd(args []string) {
 
 	schools, leaves := hlj.AggregateLeaves(all)
 
+	// 院校属性（省份/城市/办学性质/学校类别 + 985/211/双一流）与 专业名→学科门类 映射，
+	// 均取自万师兄旧格式表（按校名挂接）。见 ADR-0008。
+	tagFiles := tagSourceFiles(*src)
+	meta := hlj.LoadSchoolMeta(tagFiles)
+	menlei := hlj.LoadMenlei(tagFiles)
+	fmt.Printf("  院校属性库 %d 所 · 专业→门类精确映射 %d 条\n", meta.Len(), menlei.Len())
+
 	// 一分一段总人数（用于等效位次缩放）。目前仅 2026 物理为 .xlsx 可读；
 	// 历史年份为 .xls，待接入后等效位次方能跨年缩放，否则回退原位次。
 	totals := map[hlj.YearTrack]int{}
@@ -151,7 +170,7 @@ func yuanxiaoCmd(args []string) {
 		groupsByCode = map[string][]hlj.Group2026{}
 	} else {
 		fmt.Printf("  2026 招生计划：%d 行（物理/历史·本科批）\n", len(planRows))
-		groupsByCode = hlj.BuildGroups2026(planRows, leaves, totals)
+		groupsByCode = hlj.BuildGroups2026(planRows, leaves, totals, menlei.Code)
 	}
 
 	// 按院校分组叶子
@@ -160,12 +179,10 @@ func yuanxiaoCmd(args []string) {
 		byCode[lf.SchoolCode] = append(byCode[lf.SchoolCode], lf)
 	}
 
-	// schools.json 索引
-	// 院校层次标签（985/211/双一流），按院校名挂接。
-	tags := hlj.LoadSchoolTags(tagSourceFiles(*src))
-	tagged, n985, n211, nSyl := 0, 0, 0, 0
-
+	// schools.json 索引 + school-meta.json 过滤属性表（均按院校名挂接 meta）。
 	index := make([]schoolIndexEntry, 0, len(schools))
+	metaOut := make(map[string]schoolMetaOut, len(schools))
+	tagged, n985, n211, nSyl := 0, 0, 0, 0
 	for _, s := range schools {
 		lvs := byCode[s.Code]
 		e := schoolIndexEntry{
@@ -173,24 +190,34 @@ func yuanxiaoCmd(args []string) {
 			Wuli:  rangeForTrack(lvs, "物理"),
 			Lishi: rangeForTrack(lvs, "历史"),
 		}
-		if t, ok := tags.Lookup(s.Name); ok {
-			e.Is985, e.Is211, e.IsShuangYiLiu = t.Is985, t.Is211, t.IsShuangYiLiu
+		if m, ok := meta.Lookup(s.Name); ok {
+			e.Is985, e.Is211, e.IsShuangYiLiu = m.Is985, m.Is211, m.IsShuangYiLiu
 			tagged++
-			if t.Is985 {
+			if m.Is985 {
 				n985++
 			}
-			if t.Is211 {
+			if m.Is211 {
 				n211++
 			}
-			if t.IsShuangYiLiu {
+			if m.IsShuangYiLiu {
 				nSyl++
+			}
+			metaOut[s.Code] = schoolMetaOut{
+				Province: m.Province, City: m.City, CityTier: hlj.CityTier(m.City),
+				Owner: m.Ownership, Kind: m.Kind, Levels: m.Levels(),
 			}
 		}
 		index = append(index, e)
 	}
-	fmt.Printf("  院校层次：标签库 %d 所 · 挂接 %d/%d 所（985=%d 211=%d 双一流=%d）\n",
-		tags.Len(), tagged, len(schools), n985, n211, nSyl)
+	fmt.Printf("  院校属性挂接 %d/%d 所（985=%d 211=%d 双一流=%d）\n",
+		tagged, len(schools), n985, n211, nSyl)
 	writeJSON(filepath.Join(*out, "schools.json"), index)
+
+	if err := os.MkdirAll(*pub, 0o755); err != nil {
+		fatal(err)
+	}
+	writeJSON(filepath.Join(*pub, "school-meta.json"), metaOut)
+	fmt.Printf("  院校过滤属性：%d 所 → %s\n", len(metaOut), filepath.Join(*pub, "school-meta.json"))
 
 	// 每校详情
 	detailDir := filepath.Join(*out, "schools")

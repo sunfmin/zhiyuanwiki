@@ -7,6 +7,8 @@ import (
 	"os"
 	"path/filepath"
 	"sort"
+
+	"github.com/sunfmin/zhiyuanwiki/internal/hlj"
 )
 
 // locatorEntry 是一个可填报的 2026 组内专业（含挂接的往年/等效位次），供客户端定位。
@@ -23,6 +25,9 @@ type locatorEntry struct {
 	Rank       int    `json:"r"`  // 等效位次（无则往年最低位次）
 	PrevYear   int    `json:"py"` // 挂接到的年份
 	GroupSize  int    `json:"gs"` // 组内专业数（服从调剂提示）
+	Menlei     string `json:"mc,omitempty"` // 学科门类 1 字码（过滤用）
+	Tuition    int    `json:"tu,omitempty"` // 学费（元/年，待定/无→0）
+	Coop       bool   `json:"cw,omitempty"` // 中外合作办学
 }
 
 // dingweiCmd 从已生成的 school 详情构建按科类分片的定位索引到 public/data/。
@@ -64,6 +69,7 @@ func dingweiCmd(args []string) {
 					MajorName: m.MajorName, MajorKey: m.MajorKey,
 					SelKe: m.SelKe, Plan: m.Plan,
 					Rank: rank, PrevYear: m.PrevYear, GroupSize: size,
+					Menlei: m.Menlei, Tuition: hlj.ParseTuition(m.Tuition), Coop: m.Coop,
 				})
 			}
 		}

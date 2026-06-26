@@ -193,7 +193,8 @@
           "majorKey": "7b7511cd",
           "selKe": "化学",
           "plan": 1,
-          "tuition": "4600"
+          "tuition": "4600",
+          "menlei": "工"
         },
         {
           "majorName": "植物保护",
@@ -201,6 +202,7 @@
           "selKe": "化学",
           "plan": 1,
           "tuition": "待定",
+          "menlei": "农",
           "prevYear": 2025,
           "prevRank": 35620,
           "equivRank": 35620
@@ -211,6 +213,7 @@
           "selKe": "化学",
           "plan": 1,
           "tuition": "待定",
+          "menlei": "工",
           "prevYear": 2025,
           "prevRank": 35963,
           "equivRank": 35963
@@ -220,7 +223,8 @@
           "majorKey": "cd7e1ba1",
           "selKe": "化学",
           "plan": 1,
-          "tuition": "待定"
+          "tuition": "待定",
+          "menlei": "农"
         },
         {
           "majorName": "林学",
@@ -228,6 +232,7 @@
           "selKe": "化学",
           "plan": 1,
           "tuition": "待定",
+          "menlei": "农",
           "prevYear": 2025,
           "prevRank": 36322,
           "equivRank": 36322
@@ -245,14 +250,18 @@
           "majorKey": "7b7511cd",
           "selKe": "化学",
           "plan": 2,
-          "tuition": "36000"
+          "tuition": "36000",
+          "menlei": "工",
+          "coop": true
         },
         {
           "majorName": "农业资源与环境",
           "majorKey": "cd7e1ba1",
           "selKe": "化学",
           "plan": 2,
-          "tuition": "36000"
+          "tuition": "36000",
+          "menlei": "农",
+          "coop": true
         }
       ]
     }

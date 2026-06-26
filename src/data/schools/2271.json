@@ -946,7 +946,8 @@
           "majorKey": "5a699e63",
           "selKe": "不限",
           "plan": 2,
-          "tuition": "4920"
+          "tuition": "4920",
+          "menlei": "经"
         },
         {
           "majorName": "法学",
@@ -954,6 +955,7 @@
           "selKe": "不限",
           "plan": 4,
           "tuition": "4920",
+          "menlei": "法",
           "prevYear": 2025,
           "prevRank": 2268,
           "equivRank": 2268
@@ -964,6 +966,7 @@
           "selKe": "不限",
           "plan": 3,
           "tuition": "4920",
+          "menlei": "文",
           "prevYear": 2025,
           "prevRank": 2423,
           "equivRank": 2423
@@ -973,21 +976,24 @@
           "majorKey": "28c62e21",
           "selKe": "不限",
           "plan": 3,
-          "tuition": "4920"
+          "tuition": "4920",
+          "menlei": "管"
         },
         {
           "majorName": "行政管理",
           "majorKey": "062bcf46",
           "selKe": "不限",
           "plan": 5,
-          "tuition": "4920"
+          "tuition": "4920",
+          "menlei": "管"
         },
         {
           "majorName": "旅游管理",
           "majorKey": "ec77cae2",
           "selKe": "不限",
           "plan": 2,
-          "tuition": "4920"
+          "tuition": "4920",
+          "menlei": "管"
         }
       ]
     },
@@ -1002,7 +1008,9 @@
           "majorKey": "ec77cae2",
           "selKe": "不限",
           "plan": 2,
-          "tuition": "24000"
+          "tuition": "24000",
+          "menlei": "管",
+          "coop": true
         }
       ]
     },
@@ -1017,7 +1025,8 @@
           "majorKey": "fd907dda",
           "selKe": "政治",
           "plan": 2,
-          "tuition": "4920"
+          "tuition": "4920",
+          "menlei": "法"
         }
       ]
     },
@@ -1033,6 +1042,7 @@
           "selKe": "不限",
           "plan": 1,
           "tuition": "4920",
+          "menlei": "文",
           "prevYear": 2025,
           "prevRank": 2423,
           "equivRank": 2423
@@ -1051,6 +1061,7 @@
           "selKe": "不限",
           "plan": 2,
           "tuition": "4920",
+          "menlei": "文",
           "prevYear": 2025,
           "prevRank": 32535,
           "equivRank": 32535
@@ -1060,14 +1071,16 @@
           "majorKey": "28c62e21",
           "selKe": "不限",
           "plan": 3,
-          "tuition": "4920"
+          "tuition": "4920",
+          "menlei": "管"
         },
         {
           "majorName": "行政管理",
           "majorKey": "062bcf46",
           "selKe": "不限",
           "plan": 2,
-          "tuition": "4920"
+          "tuition": "4920",
+          "menlei": "管"
         }
       ]
     },
@@ -1083,6 +1096,8 @@
           "selKe": "不限",
           "plan": 6,
           "tuition": "24000",
+          "menlei": "管",
+          "coop": true,
           "prevYear": 2025,
           "prevRank": 26183,
           "equivRank": 26183
@@ -1100,7 +1115,9 @@
           "majorKey": "ec77cae2",
           "selKe": "不限",
           "plan": 2,
-          "tuition": "24000"
+          "tuition": "24000",
+          "menlei": "管",
+          "coop": true
         }
       ]
     },
@@ -1115,14 +1132,16 @@
           "majorKey": "e2472a71",
           "selKe": "化学",
           "plan": 3,
-          "tuition": "5040"
+          "tuition": "5040",
+          "menlei": "理"
         },
         {
           "majorName": "生态学",
           "majorKey": "11cedbac",
           "selKe": "化学",
           "plan": 2,
-          "tuition": "5040"
+          "tuition": "5040",
+          "menlei": "理"
         },
         {
           "majorName": "化学工程与工艺",
@@ -1130,6 +1149,7 @@
           "selKe": "化学",
           "plan": 4,
           "tuition": "5040",
+          "menlei": "工",
           "prevYear": 2025,
           "prevRank": 15503,
           "equivRank": 15503
@@ -1139,14 +1159,16 @@
           "majorKey": "63b95502",
           "selKe": "化学",
           "plan": 2,
-          "tuition": "5040"
+          "tuition": "5040",
+          "menlei": "工"
         },
         {
           "majorName": "酿酒工程",
           "majorKey": "5354ffc5",
           "selKe": "化学",
           "plan": 2,
-          "tuition": "5040"
+          "tuition": "5040",
+          "menlei": "工"
         },
         {
           "majorName": "药学",
@@ -1154,6 +1176,7 @@
           "selKe": "化学",
           "plan": 2,
           "tuition": "5040",
+          "menlei": "医",
           "prevYear": 2025,
           "prevRank": 22130,
           "equivRank": 22130
@@ -1172,6 +1195,7 @@
           "selKe": "化学",
           "plan": 3,
           "tuition": "5040",
+          "menlei": "工",
           "prevYear": 2025,
           "prevRank": 12977,
           "equivRank": 12977
@@ -1181,14 +1205,16 @@
           "majorKey": "14856541",
           "selKe": "化学",
           "plan": 4,
-          "tuition": "5040"
+          "tuition": "5040",
+          "menlei": "工"
         },
         {
           "majorName": "计算机科学与技术",
           "majorKey": "1d486608",
           "selKe": "化学",
           "plan": 3,
-          "tuition": "5040"
+          "tuition": "5040",
+          "menlei": "工"
         },
         {
           "majorName": "数据科学与大数据技术",
@@ -1196,6 +1222,7 @@
           "selKe": "化学",
           "plan": 3,
           "tuition": "5040",
+          "menlei": "工",
           "prevYear": 2025,
           "prevRank": 8081,
           "equivRank": 8081
@@ -1213,7 +1240,8 @@
           "majorKey": "c425ce53",
           "selKe": "化学",
           "plan": 5,
-          "tuition": "5040"
+          "tuition": "5040",
+          "menlei": "工"
         },
         {
           "majorName": "冶金工程",
@@ -1221,6 +1249,7 @@
           "selKe": "化学",
           "plan": 2,
           "tuition": "5040",
+          "menlei": "工",
           "prevYear": 2025,
           "prevRank": 23694,
           "equivRank": 23694
@@ -1230,7 +1259,8 @@
           "majorKey": "fc81313f",
           "selKe": "化学",
           "plan": 3,
-          "tuition": "5040"
+          "tuition": "5040",
+          "menlei": "工"
         },
         {
           "majorName": "水文与水资源工程",
@@ -1238,6 +1268,7 @@
           "selKe": "化学",
           "plan": 3,
           "tuition": "5040",
+          "menlei": "工",
           "prevYear": 2025,
           "prevRank": 22735,
           "equivRank": 22735
@@ -1247,14 +1278,16 @@
           "majorKey": "3f9a4574",
           "selKe": "化学",
           "plan": 2,
-          "tuition": "5040"
+          "tuition": "5040",
+          "menlei": "工"
         },
         {
           "majorName": "矿物加工工程",
           "majorKey": "6f3db462",
           "selKe": "化学",
           "plan": 2,
-          "tuition": "5040"
+          "tuition": "5040",
+          "menlei": "工"
         },
         {
           "majorName": "农业机械化及其自动化",
@@ -1262,6 +1295,7 @@
           "selKe": "化学",
           "plan": 2,
           "tuition": "5040",
+          "menlei": "工",
           "prevYear": 2025,
           "prevRank": 14998,
           "equivRank": 14998
@@ -1280,6 +1314,8 @@
           "selKe": "化学",
           "plan": 6,
           "tuition": "60000",
+          "menlei": "工",
+          "coop": true,
           "prevYear": 2025,
           "prevRank": 17040,
           "equivRank": 17040
@@ -1298,6 +1334,8 @@
           "selKe": "化学",
           "plan": 5,
           "tuition": "60000",
+          "menlei": "工",
+          "coop": true,
           "prevYear": 2025,
           "prevRank": 15503,
           "equivRank": 15503
@@ -1316,6 +1354,8 @@
           "selKe": "化学",
           "plan": 5,
           "tuition": "60000",
+          "menlei": "工",
+          "coop": true,
           "prevYear": 2025,
           "prevRank": 35620,
           "equivRank": 35620
@@ -1333,7 +1373,8 @@
           "majorKey": "fd907dda",
           "selKe": "政治",
           "plan": 2,
-          "tuition": "4920"
+          "tuition": "4920",
+          "menlei": "法"
         }
       ]
     },
@@ -1349,6 +1390,7 @@
           "selKe": "化学",
           "plan": 1,
           "tuition": "5040",
+          "menlei": "工",
           "prevYear": 2025,
           "prevRank": 23694,
           "equivRank": 23694

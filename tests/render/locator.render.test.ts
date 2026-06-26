@@ -42,3 +42,51 @@ test(
   },
   60_000,
 );
+
+test(
+  "施加过滤（专业大类=工学 + 省份=北京）后三档计数收窄、chip 常显",
+  async () => {
+    const { page, browser, out } = await renderToImage({
+      baseURL: server.baseURL,
+      name: "locator-filtered",
+      path: "/dingwei",
+      viewport: { width: 1180, height: 1280 },
+      fullPage: false,
+      interact: async (p) => {
+        await p.getByPlaceholder("输入分数", { exact: true }).fill("520");
+        await p.waitForFunction(
+          () => document.querySelectorAll('a[href^="/yuanxiao/"]').length > 0,
+          { timeout: 8_000 },
+        );
+        const before = await p.locator('a[href^="/yuanxiao/"]').count();
+
+        // 展开筛选面板，选 专业大类=工学 + 省份=北京（北京 chip 由 meta 派生）。
+        await p.getByRole("button", { name: "筛选" }).click();
+        await p.getByRole("button", { name: "工学", exact: true }).first().click();
+        await p.getByRole("button", { name: "北京", exact: true }).first().click();
+
+        // 过滤后渲染数 < 过滤前（且仍有结果）。
+        await p.waitForFunction(
+          (n) => {
+            const c = document.querySelectorAll('a[href^="/yuanxiao/"]').length;
+            return c > 0 && c < n;
+          },
+          before,
+          { timeout: 8_000 },
+        );
+      },
+    });
+
+    // 生效过滤以可移除 chip 常显；三档计数已是过滤后的数。
+    const mainText = await page.locator("main").innerText();
+    expect(mainText).toContain("工学");
+    expect(mainText).toContain("北京");
+    expect(mainText).toContain("清除全部");
+    const cards = await page.locator('a[href^="/yuanxiao/"]').count();
+    expect(cards).toBeGreaterThan(0);
+    console.log(`过滤后渲染 ${cards} 个可填报项 → ${out}`);
+
+    await browser.close();
+  },
+  60_000,
+);

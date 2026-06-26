@@ -203,6 +203,7 @@
           "selKe": "不限",
           "plan": 3,
           "tuition": "5100",
+          "menlei": "文",
           "prevYear": 2025,
           "prevRank": 53055,
           "equivRank": 53055
@@ -221,6 +222,7 @@
           "selKe": "不限",
           "plan": 2,
           "tuition": "5600",
+          "menlei": "经",
           "prevYear": 2025,
           "prevRank": 56516,
           "equivRank": 56516
@@ -231,6 +233,7 @@
           "selKe": "不限",
           "plan": 2,
           "tuition": "5600",
+          "menlei": "经",
           "prevYear": 2025,
           "prevRank": 56516,
           "equivRank": 56516
@@ -241,6 +244,7 @@
           "selKe": "不限",
           "plan": 2,
           "tuition": "5100",
+          "menlei": "文",
           "prevYear": 2025,
           "prevRank": 53055,
           "equivRank": 53055
@@ -258,7 +262,8 @@
           "majorKey": "618fdffd",
           "selKe": "化学",
           "plan": 2,
-          "tuition": "5250"
+          "tuition": "5250",
+          "menlei": "理"
         },
         {
           "majorName": "物理学",
@@ -266,6 +271,7 @@
           "selKe": "化学",
           "plan": 2,
           "tuition": "5250",
+          "menlei": "理",
           "prevYear": 2025,
           "prevRank": 44500,
           "equivRank": 44500
@@ -276,6 +282,7 @@
           "selKe": "化学",
           "plan": 2,
           "tuition": "5880",
+          "menlei": "工",
           "prevYear": 2025,
           "prevRank": 55743,
           "equivRank": 55743
@@ -286,6 +293,7 @@
           "selKe": "化学",
           "plan": 7,
           "tuition": "5880",
+          "menlei": "工",
           "prevYear": 2025,
           "prevRank": 51508,
           "equivRank": 51508
@@ -296,6 +304,7 @@
           "selKe": "化学",
           "plan": 5,
           "tuition": "5880",
+          "menlei": "工",
           "prevYear": 2025,
           "prevRank": 52639,
           "equivRank": 52639
@@ -305,7 +314,8 @@
           "majorKey": "2fec4169",
           "selKe": "化学",
           "plan": 3,
-          "tuition": "5880"
+          "tuition": "5880",
+          "menlei": "工"
         },
         {
           "majorName": "智能建造",
@@ -313,6 +323,7 @@
           "selKe": "化学",
           "plan": 5,
           "tuition": "5600",
+          "menlei": "工",
           "prevYear": 2025,
           "prevRank": 57273,
           "equivRank": 57273
@@ -331,6 +342,7 @@
           "selKe": "化学",
           "plan": 3,
           "tuition": "5250",
+          "menlei": "理",
           "prevYear": 2025,
           "prevRank": 41266,
           "equivRank": 41266
@@ -340,14 +352,16 @@
           "majorKey": "e2472a71",
           "selKe": "化学",
           "plan": 3,
-          "tuition": "5250"
+          "tuition": "5250",
+          "menlei": "理"
         },
         {
           "majorName": "食品科学与工程",
           "majorKey": "7b7511cd",
           "selKe": "化学",
           "plan": 2,
-          "tuition": "5880"
+          "tuition": "5880",
+          "menlei": "工"
         }
       ]
     },
@@ -363,6 +377,8 @@
           "selKe": "化学",
           "plan": 2,
           "tuition": "待定",
+          "menlei": "工",
+          "coop": true,
           "prevYear": 2025,
           "prevRank": 55743,
           "equivRank": 55743
