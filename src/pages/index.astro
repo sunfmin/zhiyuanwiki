@@ -1,6 +1,5 @@
 ---
 import Base from "../layouts/Base.astro";
-import Ping from "../components/Ping.tsx";
 
 const doors = [
   {
@@ -34,9 +33,10 @@ const doors = [
       }
     </div>
 
-    <div class="mt-12 flex items-center gap-3 text-sm text-slate-500">
-      <Ping client:load />
-      <span>← 仅用于验证客户端 island 通路</span>
-    </div>
+    <p class="mt-10 text-sm text-slate-500">
+      第一次报志愿？先读
+      <a href="/guide/" class="text-teal-700 underline">报志愿指南</a>
+      ——平行志愿怎么投、等效位次法、冲 / 稳 / 保、怎么防被组内调剂。
+    </p>
   </section>
 </Base>

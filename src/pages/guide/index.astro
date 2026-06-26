@@ -1,0 +1,31 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getCollection } from "astro:content";
+
+const guides = (await getCollection("guide")).sort((a, b) => a.data.order - b.data.order);
+---
+
+<Base title="报志愿指南 · 高考志愿数据 Wiki" description="平行志愿、等效位次法、冲稳保分档、防组内调剂等方法论文章。">
+  <section class="mx-auto max-w-2xl px-4 py-12">
+    <h1 class="text-2xl font-bold">报志愿指南</h1>
+    <p class="mt-2 text-slate-600">看懂规则与方法，再去[位次定位]和翻院校 / 专业数据，事半功倍。</p>
+
+    <ul class="mt-8 space-y-3">
+      {
+        guides.map((g) => (
+          <li>
+            <a
+              href={`/guide/${g.id}/`}
+              class="block rounded-xl border border-slate-200 bg-white p-4 hover:border-slate-400"
+            >
+              <div class="font-semibold">{g.data.title}</div>
+              {g.data.description && (
+                <div class="mt-1 text-sm text-slate-500">{g.data.description}</div>
+              )}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+</Base>

@@ -1,1 +1,40 @@
 @import "tailwindcss";
+
+/* 方法论文章正文（轻量 prose，免 typography 插件） */
+.guide-content {
+  line-height: 1.8;
+  color: #1e293b;
+}
+.guide-content h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+.guide-content h3 {
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.guide-content p {
+  margin: 0.75rem 0;
+}
+.guide-content ul {
+  list-style: disc;
+  padding-left: 1.4rem;
+  margin: 0.75rem 0;
+}
+.guide-content ol {
+  list-style: decimal;
+  padding-left: 1.4rem;
+  margin: 0.75rem 0;
+}
+.guide-content li {
+  margin: 0.3rem 0;
+}
+.guide-content strong {
+  font-weight: 600;
+}
+.guide-content a {
+  color: #0f766e;
+  text-decoration: underline;
+}

@@ -31,6 +31,29 @@ go test ./...
 go run ./cmd/zhiyuan-data help
 ```
 
+## 部署（Cloudflare Pages）
+
+静态产出托管在 Cloudflare Pages（ADR-0006）。CI 只跑 `npm run build`（读仓库内已提交的
+`src/data` JSON）；**不在 CI 跑 Go 预处理**——原始 xlsx 不入仓库，数据由维护者本地
+`go run ./cmd/zhiyuan-data ...` 生成后提交。
+
+两种接法，二选一：
+
+1. **Dashboard 连仓库**（推荐）：在 Cloudflare Pages 新建项目连本仓库，构建命令
+   `npm run build`，输出目录 `dist`。之后推送 main 自动构建部署。
+2. **GitHub Actions**：`.github/workflows/deploy.yml` 已就绪。在仓库 Secrets 配
+   `CLOUDFLARE_API_TOKEN` 与 `CLOUDFLARE_ACCOUNT_ID`，并先建好名为 `zhiyuanwiki` 的
+   Pages 项目。
+
+## 重新生成数据
+
+```sh
+go run ./cmd/zhiyuan-data fenduan    # 一分一段 → JSON
+go run ./cmd/zhiyuan-data yuanxiao   # 院校 / 院校×专业 / 2026 组视图
+go run ./cmd/zhiyuan-data zhuanye    # 专业跨校聚合
+go run ./cmd/zhiyuan-data dingwei    # 位次定位索引
+```
+
 ## 数据来源与免责
 
 数据源自黑龙江省招生考试信息港（lzk.hl.cn）官方公开数据，及万师兄·高考志愿填报大数据

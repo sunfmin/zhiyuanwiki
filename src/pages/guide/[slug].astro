@@ -1,0 +1,22 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getCollection, render } from "astro:content";
+
+export async function getStaticPaths() {
+  const guides = await getCollection("guide");
+  return guides.map((g) => ({ params: { slug: g.id }, props: { g } }));
+}
+
+const { g } = Astro.props;
+const { Content } = await render(g);
+---
+
+<Base title={`${g.data.title} · 指南 · 高考志愿数据 Wiki`} description={g.data.description}>
+  <article class="mx-auto max-w-2xl px-4 py-12">
+    <a href="/guide/" class="text-sm text-slate-500 hover:text-slate-800">← 报志愿指南</a>
+    <h1 class="mt-2 text-2xl font-bold">{g.data.title}</h1>
+    <div class="guide-content mt-6">
+      <Content />
+    </div>
+  </article>
+</Base>
