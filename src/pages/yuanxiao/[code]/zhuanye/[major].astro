@@ -1,6 +1,7 @@
 ---
 import Base from "../../../../layouts/Base.astro";
 import RankTrend from "../../../../components/RankTrend.astro";
+import MyRankBadge from "../../../../components/MyRankBadge.tsx";
 
 type Year = { year: number; track: string; minScore: number; minRank: number; maxScore: number };
 type Leaf = { majorKey: string; majorName: string; selKe: string; years: Year[] };
@@ -51,9 +52,13 @@ const tracks = [...new Set(leaf.years.map((y) => y.track))];
     {
       tracks.map((tr) => {
         const ys = leaf.years.filter((y) => y.track === tr).sort((a, b) => a.year - b.year);
+        const latestRank = ys.length ? ys[ys.length - 1].minRank : 0;
         return (
           <div class="mt-8">
-            <h2 class="text-lg font-semibold">{tr}类</h2>
+            <h2 class="text-lg font-semibold">
+              {tr}类
+              <MyRankBadge client:load rank={latestRank} track={tr} />
+            </h2>
             <div class="mt-3 overflow-x-auto">
               <table class="w-full border-collapse text-sm">
                 <thead>
