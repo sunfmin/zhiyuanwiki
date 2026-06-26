@@ -22,7 +22,13 @@ test(
       viewport: { width: 1120, height: 1600 },
       fullPage: true,
       interact: async (p) => {
-        // 院校名先到，确认真实数据已就绪。
+        await p.getByRole("heading", { level: 1, name: "浙江大学" }).waitFor({ timeout: 8_000 });
+        // 模拟访客在「位次定位」存过位次，重载让 island 给每个专业 summary 填冲/稳/保。
+        await p.evaluate(() => {
+          localStorage.setItem("myRank.zj", "3718");
+          localStorage.setItem("myTrack.zj", "综合");
+        });
+        await p.reload({ waitUntil: "networkidle" });
         await p.getByRole("heading", { level: 1, name: "浙江大学" }).waitFor({ timeout: 8_000 });
         // 展开前 3 个专业，让历年位次表 + 走势 sparkline 在截图里可见（默认折叠）。
         const details = p.locator("main details");
@@ -61,6 +67,13 @@ test(
     expect(mainText).toContain("全部专业 · 历年录取位次");
     const leafCount = await main.locator("details").count();
     expect(leafCount).toBe(32);
+
+    // 3b) 浙江=单科类「综合」：展开后不应再出现冗余的「综合类」分头（<h3>），
+    //     冲/稳/保角标改挂到每个专业的 summary 行上（无需展开即可见）。见用户反馈。
+    expect(await main.locator("details h3").count()).toBe(0);
+    expect(await main.locator("summary .rank-badge").count()).toBe(32);
+    // 冲/稳/保 island 按存入的位次 3,718 给 summary 角标就地填值。
+    expect(mainText).toContain("按你的位次 3,718");
 
     // 4) 抽样真实专业名（分别来自 plan2026 与 leaves）确实出现在页面上。
     expect(mainText).toContain("工科试验班（竺可桢学院图灵班）");
