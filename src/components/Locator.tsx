@@ -167,7 +167,7 @@ export default function Locator({ wuliTable }: { wuliTable: YiFenYiDuan }) {
                   {list.slice(0, CAP).map((e) => (
                     <li class="rounded-lg bg-white/70 p-2 text-sm">
                       <a
-                        href={`/yuanxiao/${e.sc}/zhuanye/${e.mk}/`}
+                        href={`/yuanxiao/${e.sc}/#z-${e.mk}`}
                         class="font-medium text-slate-900 hover:underline"
                       >
                         {e.sn} · {e.mn}
