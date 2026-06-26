@@ -10,6 +10,15 @@ const {
   title = "高考志愿数据 Wiki",
   description = "用历年官方数据帮助高考考生选择院校与专业（黑龙江物理 / 历史类先行）",
 } = Astro.props;
+
+// 省份切换：目前只有黑龙江有数据，其余省份选中后提示"暂未开放"并回退。
+const ACTIVE_PROVINCE = "黑龙江";
+const provinces = [
+  "北京", "天津", "河北", "山西", "内蒙古", "辽宁", "吉林", "黑龙江",
+  "上海", "江苏", "浙江", "安徽", "福建", "江西", "山东", "河南",
+  "湖北", "湖南", "广东", "广西", "海南", "重庆", "四川", "贵州",
+  "云南", "西藏", "陕西", "甘肃", "青海", "宁夏", "新疆",
+];
 ---
 
 <html lang="zh-CN">
@@ -22,13 +31,34 @@ const {
   </head>
   <body class="min-h-screen flex flex-col bg-slate-50 text-slate-900 antialiased">
     <header class="border-b border-slate-200 bg-white">
-      <nav class="mx-auto max-w-5xl px-4 py-3 flex items-center gap-6 text-sm">
+      <nav class="mx-auto max-w-5xl px-4 py-3 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm">
         <a href="/" class="font-semibold">高考志愿数据 Wiki</a>
         <a href="/dingwei" class="text-slate-600 hover:text-slate-900">位次定位</a>
         <a href="/yuanxiao" class="text-slate-600 hover:text-slate-900">院校</a>
         <a href="/zhuanye" class="text-slate-600 hover:text-slate-900">专业</a>
         <a href="/guide" class="text-slate-600 hover:text-slate-900">指南</a>
+        <label class="ml-auto flex items-center gap-1 text-slate-500">
+          省份
+          <select
+            id="province-select"
+            class="rounded-md border border-slate-300 bg-white px-2 py-1 text-slate-900"
+          >
+            {
+              provinces.map((p) => (
+                <option value={p} selected={p === ACTIVE_PROVINCE}>
+                  {p}
+                </option>
+              ))
+            }
+          </select>
+        </label>
       </nav>
+      <div
+        id="province-notice"
+        hidden
+        class="mx-auto max-w-5xl px-4 pb-3 text-sm text-amber-700"
+      >
+      </div>
     </header>
 
     <main class="flex-1">
@@ -37,11 +67,32 @@ const {
 
     <footer class="border-t border-slate-200 bg-white">
       <div class="mx-auto max-w-5xl px-4 py-6 text-xs text-slate-500 space-y-1">
-        <p>
-          数据来源：黑龙江省招生考试信息港（lzk.hl.cn）官方公开数据，及万师兄·高考志愿填报大数据（第三方整理）。
-        </p>
         <p>本站数据<strong>仅供参考</strong>，一切以各省考试院及院校最新官方公布为准。</p>
       </div>
     </footer>
+
+    <script is:inline>
+      (function () {
+        var sel = document.getElementById("province-select");
+        var notice = document.getElementById("province-notice");
+        if (!sel || !notice) return;
+        var timer;
+        sel.addEventListener("change", function () {
+          var p = sel.value;
+          if (p === "黑龙江") {
+            notice.hidden = true;
+            return;
+          }
+          notice.textContent =
+            "「" + p + "」的数据还在整理中，暂时切换不了，目前仅支持「黑龙江」。";
+          notice.hidden = false;
+          sel.value = "黑龙江";
+          if (timer) clearTimeout(timer);
+          timer = setTimeout(function () {
+            notice.hidden = true;
+          }, 4000);
+        });
+      })();
+    </script>
   </body>
 </html>

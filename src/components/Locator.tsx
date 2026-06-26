@@ -5,6 +5,7 @@ import { classify, selKeAllows, type Bucket, type LocEntry } from "../lib/dingwe
 type Track = "物理" | "历史";
 const RESELECT = ["化学", "生物", "政治", "地理"] as const;
 const CAP = 60;
+const LS_KEY = "dingwei.input"; // 记住上次输入：科类 / 分或位次 / 再选科目
 
 const trackFile: Record<Track, string> = {
   物理: "/data/locator-wuli.json",
@@ -23,6 +24,33 @@ export default function Locator({ wuliTable }: { wuliTable: YiFenYiDuan }) {
 
   // 历史类暂无 2026 一分一段，强制按位次输入。
   const effectiveMode: "score" | "rank" = track === "历史" ? "rank" : mode;
+
+  // 挂载后恢复上次输入（localStorage）；ready 之前不回写，避免用默认值覆盖已存值。
+  const [ready, setReady] = useState(false);
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem(LS_KEY);
+      if (raw) {
+        const s = JSON.parse(raw) as Partial<{ track: Track; mode: "score" | "rank"; val: string; sel: Record<string, boolean> }>;
+        if (s.track === "物理" || s.track === "历史") setTrack(s.track);
+        if (s.mode === "score" || s.mode === "rank") setMode(s.mode);
+        if (typeof s.val === "string") setVal(s.val);
+        if (s.sel && typeof s.sel === "object") setSel((p) => ({ ...p, ...s.sel }));
+      }
+    } catch {
+      /* 隐私模式 / 损坏数据忽略 */
+    }
+    setReady(true);
+  }, []);
+
+  useEffect(() => {
+    if (!ready) return;
+    try {
+      localStorage.setItem(LS_KEY, JSON.stringify({ track, mode, val, sel }));
+    } catch {
+      /* 忽略 */
+    }
+  }, [ready, track, mode, val, sel]);
 
   useEffect(() => {
     const file = trackFile[track];

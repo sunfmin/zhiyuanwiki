@@ -1,11 +1,37 @@
-import { useState } from "preact/hooks";
+import { useEffect, useState } from "preact/hooks";
 import { scoreToRank, rankToScore, type YiFenYiDuan } from "../lib/fenduan";
 
 type Mode = "s2r" | "r2s";
+const LS_KEY = "fenduan.input"; // 记住上次的换算方向与输入值
 
 export default function FenduanLookup({ table }: { table: YiFenYiDuan }) {
   const [mode, setMode] = useState<Mode>("s2r");
   const [val, setVal] = useState("");
+
+  // 挂载后恢复上次输入；ready 之前不回写，避免用默认值覆盖已存值。
+  const [ready, setReady] = useState(false);
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem(LS_KEY);
+      if (raw) {
+        const s = JSON.parse(raw) as Partial<{ mode: Mode; val: string }>;
+        if (s.mode === "s2r" || s.mode === "r2s") setMode(s.mode);
+        if (typeof s.val === "string") setVal(s.val);
+      }
+    } catch {
+      /* 隐私模式 / 损坏数据忽略 */
+    }
+    setReady(true);
+  }, []);
+
+  useEffect(() => {
+    if (!ready) return;
+    try {
+      localStorage.setItem(LS_KEY, JSON.stringify({ mode, val }));
+    } catch {
+      /* 忽略 */
+    }
+  }, [ready, mode, val]);
 
   const n = parseInt(val, 10);
   const valid = !Number.isNaN(n) && n > 0;

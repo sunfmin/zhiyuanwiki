@@ -3,15 +3,30 @@ import Base from "../../layouts/Base.astro";
 import SchoolSearch from "../../components/SchoolSearch.tsx";
 import schools from "../../data/schools.json";
 
-type Entry = { code: string; name: string; leafCount: number };
-const list = (schools as Entry[]).slice().sort((a, b) => b.leafCount - a.leafCount);
+type TR = { year: number; minScore: number; maxScore: number; minRank: number; maxRank: number };
+type Entry = {
+  code: string;
+  name: string;
+  leafCount: number;
+  wuli?: TR;
+  lishi?: TR;
+  is985?: boolean;
+  is211?: boolean;
+  isShuangYiLiu?: boolean;
+};
+// 排序由 island 按所选科类完成（物理/历史可切换），这里原样传入。
+const list = schools as Entry[];
 ---
 
 <Base title="院校浏览 · 高考志愿数据 Wiki" description="搜索并浏览院校的历年专业录取分数线、位次走势与 2026 招生专业组。">
   <section class="mx-auto max-w-5xl px-4 py-12">
     <h1 class="text-2xl font-bold">院校浏览</h1>
     <p class="mt-2 text-slate-600">
-      黑龙江 2023–2025 物理 / 历史类本科批有录取记录的院校。搜院校名进去看历年走势与 2026 报考视图。
+      黑龙江 2023–2025 物理 / 历史类本科批有录取记录的院校，共 {list.length} 所。可按物理类或历史类排序，每校的物理、历史录取线区间分开列出。搜院校名进去看历年走势与 2026 报考视图。
+    </p>
+
+    <p class="mt-2 text-xs text-slate-400">
+      区间取该校最新年份各专业录取线的范围：分 = 最低分–最高分，位次 = 最好位次–最差位次（数值越小越靠前）。物理 / 历史是两套独立的全省排名，故分开列、不可跨类比位次。
     </p>
 
     <div class="mt-8">
