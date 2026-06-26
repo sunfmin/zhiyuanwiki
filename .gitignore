@@ -1,0 +1,15 @@
+# node / astro
+node_modules/
+dist/
+.astro/
+*.log
+npm-debug.log*
+
+# go
+/bin/
+zhiyuan-data
+
+# os / editor
+.DS_Store
+.vscode/
+*.swp

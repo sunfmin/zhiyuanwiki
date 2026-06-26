@@ -1,0 +1,42 @@
+---
+import Base from "../layouts/Base.astro";
+import Ping from "../components/Ping.tsx";
+
+const doors = [
+  {
+    href: "/dingwei",
+    title: "位次定位",
+    desc: "输入分数或位次 + 选科，看冲 / 稳 / 保",
+  },
+  { href: "/yuanxiao", title: "院校浏览", desc: "按院校查历年投档线与位次走势" },
+  { href: "/zhuanye", title: "专业浏览", desc: "按专业横向比较各院校录取水平" },
+];
+---
+
+<Base>
+  <section class="mx-auto max-w-5xl px-4 py-16">
+    <h1 class="text-3xl font-bold tracking-tight sm:text-4xl">高考志愿数据 Wiki</h1>
+    <p class="mt-3 text-slate-600">
+      黑龙江 · 物理类 / 历史类 · 用历年官方数据，把分数换成位次，帮你选院校与专业。
+    </p>
+
+    <div class="mt-10 grid gap-4 sm:grid-cols-3">
+      {
+        doors.map((d) => (
+          <a
+            href={d.href}
+            class="block rounded-xl border border-slate-200 bg-white p-5 transition hover:border-slate-400 hover:shadow-sm"
+          >
+            <div class="text-lg font-semibold">{d.title}</div>
+            <div class="mt-1 text-sm text-slate-500">{d.desc}</div>
+          </a>
+        ))
+      }
+    </div>
+
+    <div class="mt-12 flex items-center gap-3 text-sm text-slate-500">
+      <Ping client:load />
+      <span>← 仅用于验证客户端 island 通路</span>
+    </div>
+  </section>
+</Base>
