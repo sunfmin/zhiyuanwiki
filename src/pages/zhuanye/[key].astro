@@ -1,0 +1,74 @@
+---
+import Base from "../../layouts/Base.astro";
+
+type MajorSchool = {
+  sc: string;
+  sn: string;
+  mk: string;
+  minRank: number;
+  year: number;
+  track: string;
+};
+type Detail = { key: string; name: string; schools: MajorSchool[] };
+
+export function getStaticPaths() {
+  const files = import.meta.glob<{ default: Detail }>("/src/data/majors/*.json", {
+    eager: true,
+  });
+  return Object.values(files).map((m) => ({
+    params: { key: m.default.key },
+    props: { major: m.default },
+  }));
+}
+
+const { major } = Astro.props as { major: Detail };
+---
+
+<Base
+  title={`${major.name} · 专业 · 高考志愿数据 Wiki`}
+  description={`开设 ${major.name} 的各院校在黑龙江的录取最低位次横向比较。`}
+>
+  <section class="mx-auto max-w-3xl px-4 py-12">
+    <a href="/zhuanye/" class="text-sm text-slate-500 hover:text-slate-800">← 专业浏览</a>
+    <h1 class="mt-2 text-2xl font-bold">{major.name}</h1>
+    <p class="mt-1 text-sm text-slate-500">
+      {major.schools.length} 所院校开设（按最近最低位次排序）
+    </p>
+
+    <div class="mt-6 overflow-x-auto">
+      <table class="w-full border-collapse text-sm">
+        <thead>
+          <tr class="border-b border-slate-300 text-left text-slate-500">
+            <th class="py-2 pr-4">院校</th>
+            <th class="py-2 pr-4">最近最低位次</th>
+            <th class="py-2 pr-4">科类</th>
+            <th class="py-2 pr-4">年份</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            major.schools.map((s) => (
+              <tr class="border-b border-slate-100">
+                <td class="py-2 pr-4">
+                  <a
+                    href={`/yuanxiao/${s.sc}/zhuanye/${s.mk}/`}
+                    class="font-medium text-slate-900 hover:underline"
+                  >
+                    {s.sn}
+                  </a>
+                </td>
+                <td class="py-2 pr-4 tabular-nums">{s.minRank.toLocaleString()}</td>
+                <td class="py-2 pr-4">{s.track}</td>
+                <td class="py-2 pr-4 tabular-nums">{s.year}</td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+
+    <p class="mt-10 text-xs text-slate-400">
+      数据来源：万师兄·高考志愿填报大数据（第三方整理）。仅供参考，以官方及院校最新公布为准。
+    </p>
+  </section>
+</Base>

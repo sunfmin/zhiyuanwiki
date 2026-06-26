@@ -1,10 +1,32 @@
 ---
 import Base from "../../layouts/Base.astro";
+import majors from "../../data/majors.json";
+
+type Entry = { key: string; name: string; schoolCount: number };
+const list = majors as Entry[];
 ---
 
-<Base title="专业浏览 · 高考志愿数据 Wiki">
-  <section class="mx-auto max-w-5xl px-4 py-16">
+<Base title="专业浏览 · 高考志愿数据 Wiki" description="按专业横向比较开设该专业的各院校录取位次。">
+  <section class="mx-auto max-w-5xl px-4 py-12">
     <h1 class="text-2xl font-bold">专业浏览</h1>
-    <p class="mt-3 text-slate-600">建设中 —— 见 issue #7（专业浏览轴）。</p>
+    <p class="mt-2 text-slate-600">
+      共 {list.length} 个专业（按开设院校数排序，黑龙江 2023–2025 物理 / 历史类）。点进任一专业横向比较各院校录取位次。
+    </p>
+
+    <ul class="mt-8 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        list.map((m) => (
+          <li>
+            <a
+              href={`/zhuanye/${m.key}/`}
+              class="flex items-baseline justify-between rounded-lg border border-slate-200 bg-white px-3 py-2 hover:border-slate-400"
+            >
+              <span class="font-medium">{m.name}</span>
+              <span class="ml-2 shrink-0 text-xs text-slate-400">{m.schoolCount} 校</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
   </section>
 </Base>
