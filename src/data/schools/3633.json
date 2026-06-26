@@ -214,5 +214,77 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "22500",
+          "prevYear": 2025,
+          "prevRank": 22737,
+          "equivRank": 22737
+        },
+        {
+          "majorName": "人力资源管理",
+          "majorKey": "5a324641",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "22500"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械类",
+          "majorKey": "710bfc36",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "24500",
+          "prevYear": 2025,
+          "prevRank": 88520,
+          "equivRank": 88520
+        },
+        {
+          "majorName": "新能源汽车工程",
+          "majorKey": "039d4de9",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "24500",
+          "prevYear": 2024,
+          "prevRank": 92406,
+          "equivRank": 92406
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "24500",
+          "prevYear": 2025,
+          "prevRank": 91270,
+          "equivRank": 91270
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "24500"
+        }
+      ]
+    }
   ]
 }

@@ -119,5 +119,75 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "22800",
+          "prevYear": 2025,
+          "prevRank": 17663,
+          "equivRank": 17663
+        },
+        {
+          "majorName": "健康服务与管理",
+          "majorKey": "4fa2a9fc",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "22800"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "22800",
+          "prevYear": 2025,
+          "prevRank": 71023,
+          "equivRank": 71023
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "能源与环境系统工程",
+          "majorKey": "c0c8480c",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "22800"
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "22800",
+          "prevYear": 2025,
+          "prevRank": 75357,
+          "equivRank": 75357
+        }
+      ]
+    }
   ]
 }

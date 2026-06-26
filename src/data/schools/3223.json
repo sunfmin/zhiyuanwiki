@@ -184,5 +184,95 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "42000",
+          "prevYear": 2025,
+          "prevRank": 20367,
+          "equivRank": 20367
+        },
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "42000",
+          "prevYear": 2025,
+          "prevRank": 18361,
+          "equivRank": 18361
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "42000",
+          "prevYear": 2025,
+          "prevRank": 13262,
+          "equivRank": 13262
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "数字经济",
+          "majorKey": "ca37000f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "42000"
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "42000",
+          "prevYear": 2024,
+          "prevRank": 82877,
+          "equivRank": 82877
+        },
+        {
+          "majorName": "宝石及材料工艺学",
+          "majorKey": "091a218e",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "42000"
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "42000",
+          "prevYear": 2025,
+          "prevRank": 63704,
+          "equivRank": 63704
+        }
+      ]
+    }
   ]
 }

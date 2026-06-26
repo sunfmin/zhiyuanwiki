@@ -187,5 +187,71 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000",
+          "prevYear": 2025,
+          "prevRank": 8595,
+          "equivRank": 8595
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "历史",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "政治",
+          "plan": 2,
+          "tuition": "5000",
+          "prevYear": 2025,
+          "prevRank": 9066,
+          "equivRank": 9066
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "应用化学",
+          "majorKey": "25624660",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "6000",
+          "prevYear": 2025,
+          "prevRank": 51159,
+          "equivRank": 51159
+        },
+        {
+          "majorName": "食品安全与检测",
+          "majorKey": "96ba607c",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "6000",
+          "prevYear": 2025,
+          "prevRank": 50793,
+          "equivRank": 50793
+        }
+      ]
+    }
   ]
 }

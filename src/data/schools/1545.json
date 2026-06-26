@@ -127,5 +127,57 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "日语",
+          "majorKey": "8f1def37",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "5200",
+          "prevYear": 2025,
+          "prevRank": 12684,
+          "equivRank": 12684
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "纳米材料与技术",
+          "majorKey": "28e28fed",
+          "selKe": "化学",
+          "plan": 6,
+          "tuition": "5800"
+        },
+        {
+          "majorName": "储能科学与工程",
+          "majorKey": "b308db6c",
+          "selKe": "化学",
+          "plan": 10,
+          "tuition": "5800"
+        },
+        {
+          "majorName": "化学工程与工艺",
+          "majorKey": "1f59c989",
+          "selKe": "化学",
+          "plan": 8,
+          "tuition": "5800",
+          "prevYear": 2025,
+          "prevRank": 55356,
+          "equivRank": 55356
+        }
+      ]
+    }
   ]
 }

@@ -76,5 +76,43 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "4200",
+          "prevYear": 2025,
+          "prevRank": 50394,
+          "equivRank": 50394
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4200",
+          "prevYear": 2025,
+          "prevRank": 52639,
+          "equivRank": 52639
+        }
+      ]
+    }
   ]
 }

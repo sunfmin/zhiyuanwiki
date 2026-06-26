@@ -24,5 +24,52 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5000"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5000"
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "环境工程",
+          "majorKey": "7faf2092",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5900"
+        }
+      ]
+    }
   ]
 }

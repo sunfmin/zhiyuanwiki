@@ -178,5 +178,94 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "广播电视编导",
+          "majorKey": "b86f75b5",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "14000",
+          "prevYear": 2025,
+          "prevRank": 7524,
+          "equivRank": 7524
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000"
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5400"
+        },
+        {
+          "majorName": "人力资源管理",
+          "majorKey": "5a324641",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5000"
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6480",
+          "prevYear": 2025,
+          "prevRank": 16298,
+          "equivRank": 16298
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "第004组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "6480"
+        },
+        {
+          "majorName": "机械电子工程",
+          "majorKey": "4ef2a1b4",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "6480"
+        }
+      ]
+    }
   ]
 }

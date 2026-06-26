@@ -46,5 +46,50 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "知识产权",
+          "majorKey": "f3a3be38",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "35000"
+        },
+        {
+          "majorName": "新闻学",
+          "majorKey": "9c5f4a34",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "35000",
+          "prevYear": 2025,
+          "prevRank": 23497,
+          "equivRank": 23497
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "广播电视编导",
+          "majorKey": "b86f75b5",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "58000",
+          "prevYear": 2025,
+          "prevRank": 92633,
+          "equivRank": 92633
+        }
+      ]
+    }
   ]
 }

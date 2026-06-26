@@ -190,5 +190,98 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "俄语",
+          "majorKey": "7d0b62a8",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "33800",
+          "prevYear": 2025,
+          "prevRank": 90580,
+          "equivRank": 90580
+        },
+        {
+          "majorName": "日语",
+          "majorKey": "8f1def37",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "33800",
+          "prevYear": 2025,
+          "prevRank": 95200,
+          "equivRank": 95200
+        },
+        {
+          "majorName": "朝鲜语",
+          "majorKey": "b2ff5185",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "33800",
+          "prevYear": 2025,
+          "prevRank": 96930,
+          "equivRank": 96930
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "俄语",
+          "majorKey": "7d0b62a8",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "33800",
+          "prevYear": 2025,
+          "prevRank": 90580,
+          "equivRank": 90580
+        },
+        {
+          "majorName": "日语",
+          "majorKey": "8f1def37",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "33800",
+          "prevYear": 2025,
+          "prevRank": 95200,
+          "equivRank": 95200
+        },
+        {
+          "majorName": "朝鲜语",
+          "majorKey": "b2ff5185",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "33800",
+          "prevYear": 2025,
+          "prevRank": 96930,
+          "equivRank": 96930
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数据科学",
+          "majorKey": "5ce793fe",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "33800"
+        }
+      ]
+    }
   ]
 }

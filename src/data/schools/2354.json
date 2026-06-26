@@ -304,5 +304,120 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "农林经济管理",
+          "majorKey": "1f0182ac",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "待定",
+          "prevYear": 2025,
+          "prevRank": 16982,
+          "equivRank": 16982
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "生物技术",
+          "majorKey": "0ac1da59",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "3080",
+          "prevYear": 2025,
+          "prevRank": 71394,
+          "equivRank": 71394
+        },
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "3080"
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "3360",
+          "prevYear": 2025,
+          "prevRank": 63704,
+          "equivRank": 63704
+        },
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "3360",
+          "prevYear": 2025,
+          "prevRank": 72617,
+          "equivRank": 72617
+        },
+        {
+          "majorName": "环境工程",
+          "majorKey": "7faf2092",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "待定",
+          "prevYear": 2025,
+          "prevRank": 72617,
+          "equivRank": 72617
+        },
+        {
+          "majorName": "农学",
+          "majorKey": "c10bcf22",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "待定",
+          "prevYear": 2025,
+          "prevRank": 71023,
+          "equivRank": 71023
+        },
+        {
+          "majorName": "智慧农业",
+          "majorKey": "67ecef51",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "待定"
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "第004组",
+      "track": "物理",
+      "selKe": "生物",
+      "majors": [
+        {
+          "majorName": "园林",
+          "majorKey": "c6cedaad",
+          "selKe": "生物",
+          "plan": 3,
+          "tuition": "待定"
+        }
+      ]
+    }
   ]
 }

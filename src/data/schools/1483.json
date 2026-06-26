@@ -244,5 +244,79 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "应用物理学",
+          "majorKey": "409f7ac3",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "7000"
+        },
+        {
+          "majorName": "机械类",
+          "majorKey": "710bfc36",
+          "selKe": "化学",
+          "plan": 14,
+          "tuition": "7000",
+          "prevYear": 2025,
+          "prevRank": 23036,
+          "equivRank": 23036
+        },
+        {
+          "majorName": "材料成型及控制工程",
+          "majorKey": "98867766",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "7000",
+          "prevYear": 2025,
+          "prevRank": 23358,
+          "equivRank": 23358
+        },
+        {
+          "majorName": "电气类",
+          "majorKey": "e1371d8e",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "7000",
+          "prevYear": 2025,
+          "prevRank": 21238,
+          "equivRank": 21238
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 6,
+          "tuition": "7000",
+          "prevYear": 2025,
+          "prevRank": 20052,
+          "equivRank": 20052
+        },
+        {
+          "majorName": "飞行器制造工程",
+          "majorKey": "263043c1",
+          "selKe": "化学",
+          "plan": 7,
+          "tuition": "7000",
+          "prevYear": 2025,
+          "prevRank": 22735,
+          "equivRank": 22735
+        },
+        {
+          "majorName": "飞行器运维工程",
+          "majorKey": "e5bdb392",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "7000"
+        }
+      ]
+    }
   ]
 }

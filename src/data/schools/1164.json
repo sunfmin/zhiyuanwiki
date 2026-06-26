@@ -348,5 +348,83 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4600",
+          "prevYear": 2025,
+          "prevRank": 16982,
+          "equivRank": 16982
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4900",
+          "prevYear": 2025,
+          "prevRank": 16458,
+          "equivRank": 16458
+        },
+        {
+          "majorName": "市场营销",
+          "majorKey": "28c62e21",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4600",
+          "prevYear": 2025,
+          "prevRank": 14332,
+          "equivRank": 14332
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "4900",
+          "prevYear": 2025,
+          "prevRank": 51159,
+          "equivRank": 51159
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4900",
+          "prevYear": 2025,
+          "prevRank": 48936,
+          "equivRank": 48936
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "4900",
+          "prevYear": 2025,
+          "prevRank": 51159,
+          "equivRank": 51159
+        }
+      ]
+    }
   ]
 }

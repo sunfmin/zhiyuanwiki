@@ -149,5 +149,83 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "新闻学",
+          "majorKey": "9c5f4a34",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "6000",
+          "prevYear": 2025,
+          "prevRank": 11211,
+          "equivRank": 11211
+        },
+        {
+          "majorName": "广告学",
+          "majorKey": "e9c95a9c",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6000",
+          "prevYear": 2025,
+          "prevRank": 11859,
+          "equivRank": 11859
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "知识产权",
+          "majorKey": "f3a3be38",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000"
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "大数据管理与应用",
+          "majorKey": "2079a63e",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000",
+          "prevYear": 2025,
+          "prevRank": 44500,
+          "equivRank": 44500
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "第004组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "水利水电工程",
+          "majorKey": "c5a57efa",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5900"
+        }
+      ]
+    }
   ]
 }

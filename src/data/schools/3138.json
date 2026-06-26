@@ -89,5 +89,45 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "化学",
+          "plan": 20,
+          "tuition": "29000",
+          "prevYear": 2025,
+          "prevRank": 54591,
+          "equivRank": 54591
+        },
+        {
+          "majorName": "针灸推拿学",
+          "majorKey": "c744f66e",
+          "selKe": "化学",
+          "plan": 12,
+          "tuition": "29000",
+          "prevYear": 2025,
+          "prevRank": 54591,
+          "equivRank": 54591
+        },
+        {
+          "majorName": "中西医临床医学",
+          "majorKey": "8a499b4f",
+          "selKe": "化学",
+          "plan": 10,
+          "tuition": "29000",
+          "prevYear": 2025,
+          "prevRank": 52639,
+          "equivRank": 52639
+        }
+      ]
+    }
   ]
 }

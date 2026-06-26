@@ -220,5 +220,110 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "46600"
+        },
+        {
+          "majorName": "商务英语",
+          "majorKey": "4428fd77",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "46600",
+          "prevYear": 2025,
+          "prevRank": 84950,
+          "equivRank": 84950
+        },
+        {
+          "majorName": "跨境电子商务",
+          "majorKey": "48469b36",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "46600",
+          "prevYear": 2025,
+          "prevRank": 87799,
+          "equivRank": 87799
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "商务英语",
+          "majorKey": "4428fd77",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "46600",
+          "prevYear": 2025,
+          "prevRank": 84950,
+          "equivRank": 84950
+        },
+        {
+          "majorName": "跨境电子商务",
+          "majorKey": "48469b36",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "46600",
+          "prevYear": 2025,
+          "prevRank": 87799,
+          "equivRank": 87799
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "数字经济",
+          "majorKey": "ca37000f",
+          "selKe": "不限",
+          "plan": 14,
+          "tuition": "59000"
+        },
+        {
+          "majorName": "大数据管理与应用",
+          "majorKey": "2079a63e",
+          "selKe": "不限",
+          "plan": 15,
+          "tuition": "59000"
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "第004组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "47600",
+          "prevYear": 2025,
+          "prevRank": 89886,
+          "equivRank": 89886
+        }
+      ]
+    }
   ]
 }

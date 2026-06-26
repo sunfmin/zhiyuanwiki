@@ -150,5 +150,80 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "冶金工程",
+          "majorKey": "8a0736ce",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "4500"
+        },
+        {
+          "majorName": "自动化",
+          "majorKey": "da95770c",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "4500",
+          "prevYear": 2025,
+          "prevRank": 69792,
+          "equivRank": 69792
+        },
+        {
+          "majorName": "铁道工程",
+          "majorKey": "69661bee",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "4500",
+          "prevYear": 2025,
+          "prevRank": 72617,
+          "equivRank": 72617
+        },
+        {
+          "majorName": "化学工程与工艺",
+          "majorKey": "1f59c989",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4500"
+        },
+        {
+          "majorName": "矿物加工工程",
+          "majorKey": "6f3db462",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4500"
+        },
+        {
+          "majorName": "智能采矿工程",
+          "majorKey": "eaea9a3b",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4500"
+        },
+        {
+          "majorName": "环境科学与工程",
+          "majorKey": "7ab09507",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "4500"
+        },
+        {
+          "majorName": "安全工程",
+          "majorKey": "e16fbe20",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4500",
+          "prevYear": 2025,
+          "prevRank": 72209,
+          "equivRank": 72209
+        }
+      ]
+    }
   ]
 }

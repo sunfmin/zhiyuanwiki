@@ -32,5 +32,86 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "15000"
+        },
+        {
+          "majorName": "电子商务",
+          "majorKey": "0b52f20f",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "15000"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "15000"
+        },
+        {
+          "majorName": "电子商务",
+          "majorKey": "0b52f20f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "15000"
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "16000",
+          "prevYear": 2025,
+          "prevRank": 67363,
+          "equivRank": 67363
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "16000"
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "16000",
+          "prevYear": 2025,
+          "prevRank": 68163,
+          "equivRank": 68163
+        }
+      ]
+    }
   ]
 }

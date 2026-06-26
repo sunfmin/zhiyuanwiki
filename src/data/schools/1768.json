@@ -83,5 +83,40 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "政治",
+          "plan": 2,
+          "tuition": "3650"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "食品质量与安全",
+          "majorKey": "63b95502",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4120",
+          "prevYear": 2025,
+          "prevRank": 52234,
+          "equivRank": 52234
+        }
+      ]
+    }
   ]
 }

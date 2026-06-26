@@ -210,5 +210,78 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "26400"
+        },
+        {
+          "majorName": "电子商务",
+          "majorKey": "0b52f20f",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "26400",
+          "prevYear": 2025,
+          "prevRank": 19800,
+          "equivRank": 19800
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "28600",
+          "prevYear": 2025,
+          "prevRank": 20191,
+          "equivRank": 20191
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融科技",
+          "majorKey": "683be8da",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "26400",
+          "prevYear": 2025,
+          "prevRank": 80081,
+          "equivRank": 80081
+        },
+        {
+          "majorName": "大数据管理与应用",
+          "majorKey": "2079a63e",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "26400",
+          "prevYear": 2025,
+          "prevRank": 76944,
+          "equivRank": 76944
+        }
+      ]
+    }
   ]
 }

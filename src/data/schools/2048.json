@@ -90,5 +90,55 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械工程",
+          "majorKey": "bdb5a180",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5710",
+          "prevYear": 2025,
+          "prevRank": 28157,
+          "equivRank": 28157
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5710",
+          "prevYear": 2025,
+          "prevRank": 26527,
+          "equivRank": 26527
+        },
+        {
+          "majorName": "制药工程",
+          "majorKey": "28bd788f",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5710",
+          "prevYear": 2025,
+          "prevRank": 36685,
+          "equivRank": 36685
+        },
+        {
+          "majorName": "交通工程",
+          "majorKey": "24d6dbdf",
+          "selKe": "化学",
+          "plan": 7,
+          "tuition": "5710",
+          "prevYear": 2025,
+          "prevRank": 32535,
+          "equivRank": 32535
+        }
+      ]
+    }
   ]
 }

@@ -192,5 +192,103 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "21000",
+          "prevYear": 2025,
+          "prevRank": 22977,
+          "equivRank": 22977
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "21000",
+          "prevYear": 2025,
+          "prevRank": 22203,
+          "equivRank": 22203
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "21000"
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "数字经济",
+          "majorKey": "ca37000f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "21000"
+        },
+        {
+          "majorName": "工程造价",
+          "majorKey": "b8be11ab",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "21000",
+          "prevYear": 2025,
+          "prevRank": 85669,
+          "equivRank": 85669
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "第004组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "21000",
+          "prevYear": 2025,
+          "prevRank": 72994,
+          "equivRank": 72994
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "21000",
+          "prevYear": 2025,
+          "prevRank": 75755,
+          "equivRank": 75755
+        }
+      ]
+    }
   ]
 }

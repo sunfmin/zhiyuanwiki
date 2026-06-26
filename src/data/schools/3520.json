@@ -60,5 +60,35 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "22000",
+          "prevYear": 2025,
+          "prevRank": 48235,
+          "equivRank": 48235
+        },
+        {
+          "majorName": "麻醉学",
+          "majorKey": "83eea431",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "22000",
+          "prevYear": 2025,
+          "prevRank": 47067,
+          "equivRank": 47067
+        }
+      ]
+    }
   ]
 }

@@ -60,5 +60,43 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5000",
+          "prevYear": 2025,
+          "prevRank": 11473,
+          "equivRank": 11473
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "生物",
+      "majors": [
+        {
+          "majorName": "园林",
+          "majorKey": "c6cedaad",
+          "selKe": "生物",
+          "plan": 4,
+          "tuition": "6000",
+          "prevYear": 2025,
+          "prevRank": 68163,
+          "equivRank": 68163
+        }
+      ]
+    }
   ]
 }

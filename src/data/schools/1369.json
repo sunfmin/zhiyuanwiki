@@ -177,5 +177,70 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5060"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5500",
+          "prevYear": 2025,
+          "prevRank": 64096,
+          "equivRank": 64096
+        },
+        {
+          "majorName": "统计学",
+          "majorKey": "24c5453f",
+          "selKe": "化学",
+          "plan": 7,
+          "tuition": "5000",
+          "prevYear": 2025,
+          "prevRank": 64900,
+          "equivRank": 64900
+        },
+        {
+          "majorName": "机器人工程",
+          "majorKey": "301e14e8",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5400",
+          "prevYear": 2025,
+          "prevRank": 61673,
+          "equivRank": 61673
+        },
+        {
+          "majorName": "道路桥梁与渡河工程",
+          "majorKey": "1319cb6a",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5400",
+          "prevYear": 2025,
+          "prevRank": 66122,
+          "equivRank": 66122
+        }
+      ]
+    }
   ]
 }

@@ -60,5 +60,43 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "政治",
+          "plan": 5,
+          "tuition": "4200",
+          "prevYear": 2025,
+          "prevRank": 16458,
+          "equivRank": 16458
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5000",
+          "prevYear": 2025,
+          "prevRank": 66529,
+          "equivRank": 66529
+        }
+      ]
+    }
   ]
 }

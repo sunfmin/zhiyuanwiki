@@ -134,5 +134,61 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不限",
+          "plan": 7,
+          "tuition": "4200",
+          "prevYear": 2025,
+          "prevRank": 16286,
+          "equivRank": 16286
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "应用统计学",
+          "majorKey": "d054f8d1",
+          "selKe": "化学",
+          "plan": 6,
+          "tuition": "4600",
+          "prevYear": 2025,
+          "prevRank": 74217,
+          "equivRank": 74217
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学和生物",
+      "majors": [
+        {
+          "majorName": "生物技术",
+          "majorKey": "0ac1da59",
+          "selKe": "化学和生物",
+          "plan": 7,
+          "tuition": "4600",
+          "prevYear": 2025,
+          "prevRank": 69004,
+          "equivRank": 69004
+        }
+      ]
+    }
   ]
 }

@@ -263,5 +263,78 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "艺术教育",
+          "majorKey": "c23e4b23",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "29700",
+          "prevYear": 2025,
+          "prevRank": 91949,
+          "equivRank": 91949
+        },
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "不限",
+          "plan": 7,
+          "tuition": "29700",
+          "prevYear": 2025,
+          "prevRank": 92302,
+          "equivRank": 92302
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "29700",
+          "prevYear": 2025,
+          "prevRank": 92302,
+          "equivRank": 92302
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "智能交互设计",
+          "majorKey": "e231c3a1",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "29700",
+          "prevYear": 2025,
+          "prevRank": 89886,
+          "equivRank": 89886
+        },
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "29700"
+        }
+      ]
+    }
   ]
 }

@@ -185,5 +185,85 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "34800",
+          "prevYear": 2025,
+          "prevRank": 80081,
+          "equivRank": 80081
+        },
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "34800",
+          "prevYear": 2025,
+          "prevRank": 22977,
+          "equivRank": 22977
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "34800",
+          "prevYear": 2025,
+          "prevRank": 25614,
+          "equivRank": 25614
+        },
+        {
+          "majorName": "物流管理",
+          "majorKey": "8b6a817b",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "34800",
+          "prevYear": 2025,
+          "prevRank": 25818,
+          "equivRank": 25818
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "风景园林",
+          "majorKey": "9b8820c1",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "34800"
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "34800"
+        }
+      ]
+    }
   ]
 }

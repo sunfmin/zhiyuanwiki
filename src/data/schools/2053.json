@@ -188,5 +188,53 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "人文科学试验班",
+          "majorKey": "e70fa033",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "140000",
+          "prevYear": 2025,
+          "prevRank": 109,
+          "equivRank": 109
+        },
+        {
+          "majorName": "经济管理试验班",
+          "majorKey": "47abff30",
+          "selKe": "不限",
+          "plan": 7,
+          "tuition": "140000",
+          "prevYear": 2025,
+          "prevRank": 174,
+          "equivRank": 174
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "理科试验班",
+          "majorKey": "54728189",
+          "selKe": "化学",
+          "plan": 12,
+          "tuition": "140000",
+          "prevYear": 2025,
+          "prevRank": 3167,
+          "equivRank": 3167
+        }
+      ]
+    }
   ]
 }

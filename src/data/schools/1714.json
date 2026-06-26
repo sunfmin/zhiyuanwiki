@@ -200,5 +200,64 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5040"
+        },
+        {
+          "majorName": "市场营销",
+          "majorKey": "28c62e21",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5040",
+          "prevYear": 2025,
+          "prevRank": 61243,
+          "equivRank": 61243
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "智能车辆工程",
+          "majorKey": "3bcfe22a",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5040"
+        },
+        {
+          "majorName": "高分子材料与工程",
+          "majorKey": "fc81313f",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5040",
+          "prevYear": 2025,
+          "prevRank": 61673,
+          "equivRank": 61673
+        },
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5040"
+        }
+      ]
+    }
   ]
 }

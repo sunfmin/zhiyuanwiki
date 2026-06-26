@@ -75,5 +75,80 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4500",
+          "prevYear": 2025,
+          "prevRank": 11398,
+          "equivRank": 11398
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4200",
+          "prevYear": 2025,
+          "prevRank": 64096,
+          "equivRank": 64096
+        },
+        {
+          "majorName": "中草药栽培与鉴定",
+          "majorKey": "6726c2e9",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4200"
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4200"
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "第004组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "智能医学工程",
+          "majorKey": "11a5a631",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4200"
+        }
+      ]
+    }
   ]
 }

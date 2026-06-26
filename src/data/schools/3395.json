@@ -61,5 +61,44 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "25500"
+        },
+        {
+          "majorName": "市场营销",
+          "majorKey": "28c62e21",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "23500"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "23500"
+        }
+      ]
+    }
   ]
 }

@@ -179,5 +179,99 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "34800"
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "34800",
+          "prevYear": 2023,
+          "prevRank": 22580,
+          "equivRank": 22580
+        },
+        {
+          "majorName": "商务英语",
+          "majorKey": "4428fd77",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "34800"
+        },
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "34800",
+          "prevYear": 2025,
+          "prevRank": 27950,
+          "equivRank": 27950
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "35800",
+          "prevYear": 2023,
+          "prevRank": 64366,
+          "equivRank": 64366
+        },
+        {
+          "majorName": "物联网工程",
+          "majorKey": "1da18825",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "34800",
+          "prevYear": 2025,
+          "prevRank": 93273,
+          "equivRank": 93273
+        },
+        {
+          "majorName": "环境工程",
+          "majorKey": "7faf2092",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "34800"
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "地理",
+      "majors": [
+        {
+          "majorName": "人文地理与城乡规划",
+          "majorKey": "d7013734",
+          "selKe": "地理",
+          "plan": 4,
+          "tuition": "34800"
+        }
+      ]
+    }
   ]
 }

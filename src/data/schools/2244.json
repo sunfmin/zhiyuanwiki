@@ -110,5 +110,86 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4800",
+          "prevYear": 2025,
+          "prevRank": 43784,
+          "equivRank": 43784
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4800",
+          "prevYear": 2025,
+          "prevRank": 43784,
+          "equivRank": 43784
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "烹饪与营养教育",
+          "majorKey": "8742ced2",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5200",
+          "prevYear": 2025,
+          "prevRank": 55356,
+          "equivRank": 55356
+        },
+        {
+          "majorName": "食品营养与健康",
+          "majorKey": "b069d960",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5200"
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "第004组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "建筑电气与智能化",
+          "majorKey": "3f1c9a86",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "38000",
+          "prevYear": 2025,
+          "prevRank": 70605,
+          "equivRank": 70605
+        }
+      ]
+    }
   ]
 }

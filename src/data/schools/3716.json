@@ -134,5 +134,76 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "16960",
+          "prevYear": 2025,
+          "prevRank": 18015,
+          "equivRank": 18015
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "健康服务与管理",
+          "majorKey": "4fa2a9fc",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "16960"
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "18020",
+          "prevYear": 2025,
+          "prevRank": 62092,
+          "equivRank": 62092
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "第004组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "18020",
+          "prevYear": 2025,
+          "prevRank": 72617,
+          "equivRank": 72617
+        }
+      ]
+    }
   ]
 }

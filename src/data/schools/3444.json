@@ -238,5 +238,89 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "19000"
+        },
+        {
+          "majorName": "商务英语",
+          "majorKey": "4428fd77",
+          "selKe": "不限",
+          "plan": 6,
+          "tuition": "22800",
+          "prevYear": 2024,
+          "prevRank": 22801,
+          "equivRank": 22801
+        },
+        {
+          "majorName": "健康服务与管理",
+          "majorKey": "4fa2a9fc",
+          "selKe": "不限",
+          "plan": 7,
+          "tuition": "22800"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "数字经济",
+          "majorKey": "ca37000f",
+          "selKe": "不限",
+          "plan": 6,
+          "tuition": "19000"
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "19000",
+          "prevYear": 2025,
+          "prevRank": 79727,
+          "equivRank": 79727
+        },
+        {
+          "majorName": "网络工程",
+          "majorKey": "b54c1697",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "19000",
+          "prevYear": 2025,
+          "prevRank": 73396,
+          "equivRank": 73396
+        },
+        {
+          "majorName": "葡萄与葡萄酒工程",
+          "majorKey": "c6b832d2",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "22800"
+        }
+      ]
+    }
   ]
 }

@@ -200,5 +200,83 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "35000",
+          "prevYear": 2025,
+          "prevRank": 14662,
+          "equivRank": 14662
+        },
+        {
+          "majorName": "劳动与社会保障",
+          "majorKey": "41438d10",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "35000",
+          "prevYear": 2025,
+          "prevRank": 12136,
+          "equivRank": 12136
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机器人工程",
+          "majorKey": "301e14e8",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "35000",
+          "prevYear": 2025,
+          "prevRank": 55743,
+          "equivRank": 55743
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "35000",
+          "prevYear": 2025,
+          "prevRank": 52234,
+          "equivRank": 52234
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "35000",
+          "prevYear": 2025,
+          "prevRank": 55743,
+          "equivRank": 55743
+        },
+        {
+          "majorName": "食品质量与安全",
+          "majorKey": "63b95502",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "35000",
+          "prevYear": 2025,
+          "prevRank": 51159,
+          "equivRank": 51159
+        }
+      ]
+    }
   ]
 }

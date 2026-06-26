@@ -161,5 +161,87 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "人文类",
+          "majorKey": "bb0f0b59",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "待定",
+          "prevYear": 2025,
+          "prevRank": 609,
+          "equivRank": 609
+        },
+        {
+          "majorName": "商科类",
+          "majorKey": "237c33bd",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "待定",
+          "prevYear": 2025,
+          "prevRank": 2943,
+          "equivRank": 2943
+        },
+        {
+          "majorName": "半免学费奖学金类",
+          "majorKey": "fe4342d3",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "待定"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "理科类",
+          "majorKey": "1660382e",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "待定",
+          "prevYear": 2025,
+          "prevRank": 2943,
+          "equivRank": 2943
+        },
+        {
+          "majorName": "工科类",
+          "majorKey": "ea410cea",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "待定",
+          "prevYear": 2025,
+          "prevRank": 2943,
+          "equivRank": 2943
+        },
+        {
+          "majorName": "半免学费奖学金类",
+          "majorKey": "fe4342d3",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "待定"
+        },
+        {
+          "majorName": "商科类",
+          "majorKey": "237c33bd",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "待定",
+          "prevYear": 2025,
+          "prevRank": 2943,
+          "equivRank": 2943
+        }
+      ]
+    }
   ]
 }

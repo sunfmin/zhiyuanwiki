@@ -210,5 +210,52 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "待定",
+          "prevYear": 2025,
+          "prevRank": 10772,
+          "equivRank": 10772
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "待定",
+          "prevYear": 2025,
+          "prevRank": 6159,
+          "equivRank": 6159
+        },
+        {
+          "majorName": "飞行器设计与工程",
+          "majorKey": "601791dc",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "待定",
+          "prevYear": 2025,
+          "prevRank": 9509,
+          "equivRank": 9509
+        },
+        {
+          "majorName": "飞行器动力工程",
+          "majorKey": "c044672a",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "待定"
+        }
+      ]
+    }
   ]
 }

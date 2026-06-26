@@ -75,5 +75,55 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4900"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "知识产权",
+          "majorKey": "f3a3be38",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4900",
+          "prevYear": 2025,
+          "prevRank": 45231,
+          "equivRank": 45231
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电子信息科学与技术",
+          "majorKey": "14856541",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5200"
+        }
+      ]
+    }
   ]
 }

@@ -76,5 +76,43 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "48000",
+          "prevYear": 2025,
+          "prevRank": 76158,
+          "equivRank": 76158
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "48000",
+          "prevYear": 2025,
+          "prevRank": 72994,
+          "equivRank": 72994
+        }
+      ]
+    }
   ]
 }

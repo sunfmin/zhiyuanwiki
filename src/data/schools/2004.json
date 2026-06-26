@@ -278,5 +278,116 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "商务英语",
+          "majorKey": "4428fd77",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4500"
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "商务英语",
+          "majorKey": "4428fd77",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4500"
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000"
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "材料成型及控制工程",
+          "majorKey": "98867766",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5900"
+        },
+        {
+          "majorName": "高分子材料与工程",
+          "majorKey": "fc81313f",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5900",
+          "prevYear": 2025,
+          "prevRank": 48596,
+          "equivRank": 48596
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5900",
+          "prevYear": 2025,
+          "prevRank": 40193,
+          "equivRank": 40193
+        },
+        {
+          "majorName": "机器人工程",
+          "majorKey": "301e14e8",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5900",
+          "prevYear": 2025,
+          "prevRank": 48235,
+          "equivRank": 48235
+        },
+        {
+          "majorName": "智能建造",
+          "majorKey": "2363aecb",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5900",
+          "prevYear": 2025,
+          "prevRank": 49672,
+          "equivRank": 49672
+        },
+        {
+          "majorName": "生物工程",
+          "majorKey": "14eeb10f",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5900",
+          "prevYear": 2025,
+          "prevRank": 49313,
+          "equivRank": 49313
+        }
+      ]
+    }
   ]
 }

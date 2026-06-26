@@ -112,5 +112,91 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "15000"
+        },
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "15000",
+          "prevYear": 2025,
+          "prevRank": 19057,
+          "equivRank": 19057
+        },
+        {
+          "majorName": "市场营销",
+          "majorKey": "28c62e21",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "15000"
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "15000",
+          "prevYear": 2025,
+          "prevRank": 19608,
+          "equivRank": 19608
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "16000"
+        },
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "16000",
+          "prevYear": 2025,
+          "prevRank": 60870,
+          "equivRank": 60870
+        },
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "16000",
+          "prevYear": 2025,
+          "prevRank": 64470,
+          "equivRank": 64470
+        },
+        {
+          "majorName": "数字媒体技术",
+          "majorKey": "889e9381",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "16000"
+        }
+      ]
+    }
   ]
 }

@@ -60,5 +60,43 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4400",
+          "prevYear": 2025,
+          "prevRank": 7390,
+          "equivRank": 7390
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "应用化学",
+          "majorKey": "25624660",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5000",
+          "prevYear": 2025,
+          "prevRank": 46685,
+          "equivRank": 46685
+        }
+      ]
+    }
   ]
 }

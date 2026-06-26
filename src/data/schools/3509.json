@@ -68,5 +68,35 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "20000",
+          "prevYear": 2025,
+          "prevRank": 56148,
+          "equivRank": 56148
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "23000",
+          "prevYear": 2025,
+          "prevRank": 53055,
+          "equivRank": 53055
+        }
+      ]
+    }
   ]
 }

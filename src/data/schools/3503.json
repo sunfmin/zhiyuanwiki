@@ -62,5 +62,63 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "22800",
+          "prevYear": 2025,
+          "prevRank": 14044,
+          "equivRank": 14044
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "22800",
+          "prevYear": 2025,
+          "prevRank": 14044,
+          "equivRank": 14044
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "22800",
+          "prevYear": 2025,
+          "prevRank": 60117,
+          "equivRank": 60117
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "22800",
+          "prevYear": 2025,
+          "prevRank": 62502,
+          "equivRank": 62502
+        }
+      ]
+    }
   ]
 }

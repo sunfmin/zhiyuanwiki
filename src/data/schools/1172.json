@@ -32,5 +32,32 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "智能建造工程",
+          "majorKey": "fab031de",
+          "selKe": "不限",
+          "plan": 10,
+          "tuition": "4900"
+        },
+        {
+          "majorName": "机械电子工程技术",
+          "majorKey": "6c9e381b",
+          "selKe": "不限",
+          "plan": 10,
+          "tuition": "4900",
+          "prevYear": 2025,
+          "prevRank": 56882,
+          "equivRank": 56882
+        }
+      ]
+    }
   ]
 }

@@ -273,5 +273,83 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "航海技术",
+          "majorKey": "8f20480e",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "4600",
+          "prevYear": 2025,
+          "prevRank": 37360,
+          "equivRank": 37360
+        },
+        {
+          "majorName": "轮机工程",
+          "majorKey": "7115c029",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "4600",
+          "prevYear": 2025,
+          "prevRank": 35295,
+          "equivRank": 35295
+        },
+        {
+          "majorName": "船舶电子电气工程",
+          "majorKey": "d05a55f7",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "4600",
+          "prevYear": 2025,
+          "prevRank": 37001,
+          "equivRank": 37001
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械工程",
+          "majorKey": "bdb5a180",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "4600",
+          "prevYear": 2025,
+          "prevRank": 40193,
+          "equivRank": 40193
+        },
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "4600",
+          "prevYear": 2025,
+          "prevRank": 39107,
+          "equivRank": 39107
+        },
+        {
+          "majorName": "自动化",
+          "majorKey": "da95770c",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "4600",
+          "prevYear": 2025,
+          "prevRank": 39823,
+          "equivRank": 39823
+        }
+      ]
+    }
   ]
 }

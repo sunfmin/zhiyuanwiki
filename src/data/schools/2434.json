@@ -193,5 +193,99 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5100",
+          "prevYear": 2025,
+          "prevRank": 11611,
+          "equivRank": 11611
+        },
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000",
+          "prevYear": 2025,
+          "prevRank": 11859,
+          "equivRank": 11859
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4700",
+          "prevYear": 2025,
+          "prevRank": 10223,
+          "equivRank": 10223
+        },
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4700",
+          "prevYear": 2025,
+          "prevRank": 13129,
+          "equivRank": 13129
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5700",
+          "prevYear": 2025,
+          "prevRank": 49313,
+          "equivRank": 49313
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "第004组",
+      "track": "物理",
+      "selKe": "化学和生物",
+      "majors": [
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "化学和生物",
+          "plan": 3,
+          "tuition": "5600",
+          "prevYear": 2025,
+          "prevRank": 55356,
+          "equivRank": 55356
+        }
+      ]
+    }
   ]
 }

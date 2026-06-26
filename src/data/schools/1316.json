@@ -244,5 +244,101 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4800",
+          "prevYear": 2025,
+          "prevRank": 50020,
+          "equivRank": 50020
+        },
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4800",
+          "prevYear": 2025,
+          "prevRank": 48936,
+          "equivRank": 48936
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4800",
+          "prevYear": 2025,
+          "prevRank": 50020,
+          "equivRank": 50020
+        },
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4800",
+          "prevYear": 2025,
+          "prevRank": 48936,
+          "equivRank": 48936
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200",
+          "prevYear": 2025,
+          "prevRank": 36322,
+          "equivRank": 36322
+        },
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200",
+          "prevYear": 2025,
+          "prevRank": 38757,
+          "equivRank": 38757
+        },
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200",
+          "prevYear": 2025,
+          "prevRank": 38402,
+          "equivRank": 38402
+        }
+      ]
+    }
   ]
 }

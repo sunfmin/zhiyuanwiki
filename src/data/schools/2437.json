@@ -180,5 +180,71 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "非物质文化遗产保护",
+          "majorKey": "eff7d0aa",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "8100",
+          "prevYear": 2025,
+          "prevRank": 15943,
+          "equivRank": 15943
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5000",
+          "prevYear": 2023,
+          "prevRank": 11859,
+          "equivRank": 11859
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电气工程与智能控制",
+          "majorKey": "c9ebf22b",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5600",
+          "prevYear": 2025,
+          "prevRank": 64900,
+          "equivRank": 64900
+        },
+        {
+          "majorName": "化学工程与工艺",
+          "majorKey": "1f59c989",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5600",
+          "prevYear": 2025,
+          "prevRank": 65328,
+          "equivRank": 65328
+        }
+      ]
+    }
   ]
 }

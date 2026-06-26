@@ -90,5 +90,55 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "审计学",
+          "majorKey": "87f6e6a2",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "27000"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融工程",
+          "majorKey": "e6a89fa4",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "25000",
+          "prevYear": 2025,
+          "prevRank": 75007,
+          "equivRank": 75007
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "康复治疗学",
+          "majorKey": "a507c400",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "27000"
+        }
+      ]
+    }
   ]
 }

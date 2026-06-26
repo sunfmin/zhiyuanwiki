@@ -106,5 +106,65 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4200"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "教育技术学",
+          "majorKey": "3e2b336a",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000",
+          "prevYear": 2023,
+          "prevRank": 56469,
+          "equivRank": 56469
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5000"
+        },
+        {
+          "majorName": "葡萄与葡萄酒工程",
+          "majorKey": "c6b832d2",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5000",
+          "prevYear": 2025,
+          "prevRank": 77329,
+          "equivRank": 77329
+        }
+      ]
+    }
   ]
 }

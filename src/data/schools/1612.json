@@ -157,5 +157,70 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "俄语",
+          "majorKey": "7d0b62a8",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4800",
+          "prevYear": 2025,
+          "prevRank": 16286,
+          "equivRank": 16286
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5500",
+          "prevYear": 2025,
+          "prevRank": 50020,
+          "equivRank": 50020
+        },
+        {
+          "majorName": "材料科学与工程",
+          "majorKey": "c425ce53",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5500"
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6300",
+          "prevYear": 2025,
+          "prevRank": 52639,
+          "equivRank": 52639
+        },
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6300",
+          "prevYear": 2025,
+          "prevRank": 52639,
+          "equivRank": 52639
+        }
+      ]
+    }
   ]
 }

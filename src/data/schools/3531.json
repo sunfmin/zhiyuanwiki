@@ -99,5 +99,109 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "数字人文",
+          "majorKey": "aa66e27a",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "20000"
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "20000"
+        },
+        {
+          "majorName": "广播电视编导",
+          "majorKey": "b86f75b5",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "29800",
+          "prevYear": 2025,
+          "prevRank": 17316,
+          "equivRank": 17316
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "20000"
+        },
+        {
+          "majorName": "广播电视编导",
+          "majorKey": "b86f75b5",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "29800",
+          "prevYear": 2025,
+          "prevRank": 17316,
+          "equivRank": 17316
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "20000",
+          "prevYear": 2025,
+          "prevRank": 77329,
+          "equivRank": 77329
+        },
+        {
+          "majorName": "智能科学与技术",
+          "majorKey": "0637b0d6",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "20000"
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "20000",
+          "prevYear": 2025,
+          "prevRank": 76540,
+          "equivRank": 76540
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "20000",
+          "prevYear": 2025,
+          "prevRank": 76540,
+          "equivRank": 76540
+        }
+      ]
+    }
   ]
 }

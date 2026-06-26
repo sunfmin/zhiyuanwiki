@@ -158,5 +158,57 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "新闻学",
+          "majorKey": "9c5f4a34",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000",
+          "prevYear": 2025,
+          "prevRank": 14191,
+          "equivRank": 14191
+        },
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6000"
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6000",
+          "prevYear": 2025,
+          "prevRank": 44500,
+          "equivRank": 44500
+        }
+      ]
+    }
   ]
 }

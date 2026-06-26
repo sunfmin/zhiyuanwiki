@@ -257,5 +257,111 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "贸易经济",
+          "majorKey": "8b94c422",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "26500",
+          "prevYear": 2024,
+          "prevRank": 65617,
+          "equivRank": 65617
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "26000",
+          "prevYear": 2025,
+          "prevRank": 75755,
+          "equivRank": 75755
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "贸易经济",
+          "majorKey": "8b94c422",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "26500",
+          "prevYear": 2024,
+          "prevRank": 65617,
+          "equivRank": 65617
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 6,
+          "tuition": "26000",
+          "prevYear": 2025,
+          "prevRank": 75755,
+          "equivRank": 75755
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "26500",
+          "prevYear": 2025,
+          "prevRank": 73796,
+          "equivRank": 73796
+        },
+        {
+          "majorName": "中药学",
+          "majorKey": "f9504a0c",
+          "selKe": "化学",
+          "plan": 6,
+          "tuition": "26000",
+          "prevYear": 2025,
+          "prevRank": 77329,
+          "equivRank": 77329
+        },
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "化学",
+          "plan": 11,
+          "tuition": "27500",
+          "prevYear": 2025,
+          "prevRank": 76944,
+          "equivRank": 76944
+        },
+        {
+          "majorName": "医学影像技术",
+          "majorKey": "11fef64a",
+          "selKe": "化学",
+          "plan": 11,
+          "tuition": "27500",
+          "prevYear": 2025,
+          "prevRank": 77743,
+          "equivRank": 77743
+        }
+      ]
+    }
   ]
 }

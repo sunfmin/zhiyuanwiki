@@ -230,5 +230,55 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "应用化学",
+          "majorKey": "25624660",
+          "selKe": "化学",
+          "plan": 7,
+          "tuition": "4800",
+          "prevYear": 2025,
+          "prevRank": 27830,
+          "equivRank": 27830
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化学",
+          "plan": 7,
+          "tuition": "6325",
+          "prevYear": 2025,
+          "prevRank": 23694,
+          "equivRank": 23694
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "6325",
+          "prevYear": 2025,
+          "prevRank": 24002,
+          "equivRank": 24002
+        },
+        {
+          "majorName": "化学工程与工艺",
+          "majorKey": "1f59c989",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5500",
+          "prevYear": 2025,
+          "prevRank": 27830,
+          "equivRank": 27830
+        }
+      ]
+    }
   ]
 }

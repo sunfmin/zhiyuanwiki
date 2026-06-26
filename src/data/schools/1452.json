@@ -128,5 +128,43 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "8140",
+          "prevYear": 2025,
+          "prevRank": 202,
+          "equivRank": 202
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物",
+          "plan": 3,
+          "tuition": "7400",
+          "prevYear": 2025,
+          "prevRank": 2215,
+          "equivRank": 2215
+        }
+      ]
+    }
   ]
 }

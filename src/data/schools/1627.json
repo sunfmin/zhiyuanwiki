@@ -76,5 +76,45 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5500",
+          "prevYear": 2025,
+          "prevRank": 35295,
+          "equivRank": 35295
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5500",
+          "prevYear": 2025,
+          "prevRank": 35963,
+          "equivRank": 35963
+        },
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5500",
+          "prevYear": 2025,
+          "prevRank": 35963,
+          "equivRank": 35963
+        }
+      ]
+    }
   ]
 }

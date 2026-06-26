@@ -83,5 +83,69 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5500"
+        },
+        {
+          "majorName": "电子信息科学与技术",
+          "majorKey": "14856541",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "6600"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5500"
+        },
+        {
+          "majorName": "智能制造工程",
+          "majorKey": "ed53a26b",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5500"
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5500",
+          "prevYear": 2025,
+          "prevRank": 67770,
+          "equivRank": 67770
+        }
+      ]
+    }
   ]
 }

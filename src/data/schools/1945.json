@@ -136,5 +136,60 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4000"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械类",
+          "majorKey": "710bfc36",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200",
+          "prevYear": 2025,
+          "prevRank": 38757,
+          "equivRank": 38757
+        },
+        {
+          "majorName": "化学工程与工艺",
+          "majorKey": "1f59c989",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "4000",
+          "prevYear": 2025,
+          "prevRank": 46345,
+          "equivRank": 46345
+        },
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4000",
+          "prevYear": 2025,
+          "prevRank": 47483,
+          "equivRank": 47483
+        }
+      ]
+    }
   ]
 }

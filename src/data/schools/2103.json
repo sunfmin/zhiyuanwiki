@@ -264,5 +264,128 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "智能制造工程",
+          "majorKey": "ed53a26b",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4600",
+          "prevYear": 2025,
+          "prevRank": 32879,
+          "equivRank": 32879
+        },
+        {
+          "majorName": "自动化",
+          "majorKey": "da95770c",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4600"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "7500",
+          "prevYear": 2025,
+          "prevRank": 35620,
+          "equivRank": 35620
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械工程",
+          "majorKey": "bdb5a180",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "45000",
+          "prevYear": 2025,
+          "prevRank": 53827,
+          "equivRank": 53827
+        },
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "45000",
+          "prevYear": 2025,
+          "prevRank": 35620,
+          "equivRank": 35620
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "第004组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "工业设计",
+          "majorKey": "fee47c1b",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "60000"
+        },
+        {
+          "majorName": "测控技术与仪器",
+          "majorKey": "1bd76ba8",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "60000"
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "60000",
+          "prevYear": 2025,
+          "prevRank": 35620,
+          "equivRank": 35620
+        }
+      ]
+    },
+    {
+      "groupCode": "005",
+      "groupName": "第005组",
+      "track": "物理",
+      "selKe": "化学和生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学和生物",
+          "plan": 2,
+          "tuition": "5400",
+          "prevYear": 2025,
+          "prevRank": 54207,
+          "equivRank": 54207
+        }
+      ]
+    }
   ]
 }

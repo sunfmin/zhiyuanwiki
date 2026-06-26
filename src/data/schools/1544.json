@@ -46,5 +46,35 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "应用化学",
+          "majorKey": "25624660",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5500",
+          "prevYear": 2025,
+          "prevRank": 47067,
+          "equivRank": 47067
+        },
+        {
+          "majorName": "交通工程",
+          "majorKey": "24d6dbdf",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5800",
+          "prevYear": 2025,
+          "prevRank": 47867,
+          "equivRank": 47867
+        }
+      ]
+    }
   ]
 }

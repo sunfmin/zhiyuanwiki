@@ -217,5 +217,71 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "社会工作",
+          "majorKey": "fd907dda",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5200",
+          "prevYear": 2025,
+          "prevRank": 12004,
+          "equivRank": 12004
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "俄语",
+          "majorKey": "7d0b62a8",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "5200",
+          "prevYear": 2025,
+          "prevRank": 55356,
+          "equivRank": 55356
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械电子工程",
+          "majorKey": "4ef2a1b4",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5800",
+          "prevYear": 2025,
+          "prevRank": 43011,
+          "equivRank": 43011
+        },
+        {
+          "majorName": "园艺",
+          "majorKey": "e735f557",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "2500",
+          "prevYear": 2025,
+          "prevRank": 45980,
+          "equivRank": 45980
+        }
+      ]
+    }
   ]
 }

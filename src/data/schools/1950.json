@@ -141,5 +141,78 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5200",
+          "prevYear": 2025,
+          "prevRank": 7855,
+          "equivRank": 7855
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4000",
+          "prevYear": 2025,
+          "prevRank": 40193,
+          "equivRank": 40193
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械电子工程",
+          "majorKey": "4ef2a1b4",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200"
+        },
+        {
+          "majorName": "智能制造工程",
+          "majorKey": "ed53a26b",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4000",
+          "prevYear": 2025,
+          "prevRank": 47867,
+          "equivRank": 47867
+        },
+        {
+          "majorName": "环境工程",
+          "majorKey": "7faf2092",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200",
+          "prevYear": 2025,
+          "prevRank": 48235,
+          "equivRank": 48235
+        }
+      ]
+    }
   ]
 }

@@ -308,5 +308,133 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "3650"
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "3880",
+          "prevYear": 2025,
+          "prevRank": 10074,
+          "equivRank": 10074
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "3650",
+          "prevYear": 2025,
+          "prevRank": 12852,
+          "equivRank": 12852
+        },
+        {
+          "majorName": "商务英语",
+          "majorKey": "4428fd77",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "3880",
+          "prevYear": 2025,
+          "prevRank": 11611,
+          "equivRank": 11611
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4350",
+          "prevYear": 2025,
+          "prevRank": 59709,
+          "equivRank": 59709
+        },
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4350",
+          "prevYear": 2023,
+          "prevRank": 44435,
+          "equivRank": 44435
+        },
+        {
+          "majorName": "物联网工程",
+          "majorKey": "1da18825",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4350",
+          "prevYear": 2025,
+          "prevRank": 56882,
+          "equivRank": 56882
+        },
+        {
+          "majorName": "智能科学与技术",
+          "majorKey": "0637b0d6",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4350"
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "第004组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4350",
+          "prevYear": 2025,
+          "prevRank": 61243,
+          "equivRank": 61243
+        },
+        {
+          "majorName": "智能建造",
+          "majorKey": "2363aecb",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4350",
+          "prevYear": 2025,
+          "prevRank": 65328,
+          "equivRank": 65328
+        }
+      ]
+    }
   ]
 }

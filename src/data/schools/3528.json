@@ -182,5 +182,112 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "21000",
+          "prevYear": 2025,
+          "prevRank": 74217,
+          "equivRank": 74217
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "22000",
+          "prevYear": 2025,
+          "prevRank": 73396,
+          "equivRank": 73396
+        },
+        {
+          "majorName": "供应链管理",
+          "majorKey": "ca969af2",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "20000",
+          "prevYear": 2025,
+          "prevRank": 70212,
+          "equivRank": 70212
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "21000",
+          "prevYear": 2025,
+          "prevRank": 74217,
+          "equivRank": 74217
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "22000",
+          "prevYear": 2025,
+          "prevRank": 73396,
+          "equivRank": 73396
+        },
+        {
+          "majorName": "供应链管理",
+          "majorKey": "ca969af2",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "20000",
+          "prevYear": 2025,
+          "prevRank": 70212,
+          "equivRank": 70212
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "智能交互设计",
+          "majorKey": "e231c3a1",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "22900"
+        },
+        {
+          "majorName": "智能视觉工程",
+          "majorKey": "625e280c",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "22900"
+        },
+        {
+          "majorName": "机器人工程",
+          "majorKey": "301e14e8",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "22900"
+        }
+      ]
+    }
   ]
 }

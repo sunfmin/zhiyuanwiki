@@ -180,5 +180,81 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4600"
+        },
+        {
+          "majorName": "植物保护",
+          "majorKey": "c931a1e1",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "待定",
+          "prevYear": 2025,
+          "prevRank": 35620,
+          "equivRank": 35620
+        },
+        {
+          "majorName": "生物育种技术",
+          "majorKey": "0d9beddc",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "待定",
+          "prevYear": 2025,
+          "prevRank": 35963,
+          "equivRank": 35963
+        },
+        {
+          "majorName": "农业资源与环境",
+          "majorKey": "cd7e1ba1",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "待定"
+        },
+        {
+          "majorName": "林学",
+          "majorKey": "61e687fe",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "待定",
+          "prevYear": 2025,
+          "prevRank": 36322,
+          "equivRank": 36322
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "36000"
+        },
+        {
+          "majorName": "农业资源与环境",
+          "majorKey": "cd7e1ba1",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "36000"
+        }
+      ]
+    }
   ]
 }

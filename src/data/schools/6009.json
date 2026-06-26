@@ -90,5 +90,71 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "制药工程",
+          "majorKey": "28bd788f",
+          "selKe": "化学",
+          "plan": 8,
+          "tuition": "待定",
+          "prevYear": 2025,
+          "prevRank": 66938,
+          "equivRank": 66938
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "医学影像技术",
+          "majorKey": "11fef64a",
+          "selKe": "化学",
+          "plan": 7,
+          "tuition": "待定",
+          "prevYear": 2025,
+          "prevRank": 58869,
+          "equivRank": 58869
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学和生物",
+      "majors": [
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "化学和生物",
+          "plan": 8,
+          "tuition": "待定",
+          "prevYear": 2025,
+          "prevRank": 64900,
+          "equivRank": 64900
+        },
+        {
+          "majorName": "康复治疗学",
+          "majorKey": "a507c400",
+          "selKe": "化学和生物",
+          "plan": 4,
+          "tuition": "待定",
+          "prevYear": 2025,
+          "prevRank": 64900,
+          "equivRank": 64900
+        }
+      ]
+    }
   ]
 }

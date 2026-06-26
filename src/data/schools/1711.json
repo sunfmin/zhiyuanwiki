@@ -289,5 +289,108 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5040",
+          "prevYear": 2025,
+          "prevRank": 7524,
+          "equivRank": 7524
+        },
+        {
+          "majorName": "广告学",
+          "majorKey": "e9c95a9c",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5460",
+          "prevYear": 2025,
+          "prevRank": 5358,
+          "equivRank": 5358
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5040",
+          "prevYear": 2025,
+          "prevRank": 39463,
+          "equivRank": 39463
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5460",
+          "prevYear": 2025,
+          "prevRank": 38757,
+          "equivRank": 38757
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5460",
+          "prevYear": 2025,
+          "prevRank": 46685,
+          "equivRank": 46685
+        },
+        {
+          "majorName": "机器人工程",
+          "majorKey": "301e14e8",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5040"
+        },
+        {
+          "majorName": "信息安全",
+          "majorKey": "e6801f33",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5460",
+          "prevYear": 2025,
+          "prevRank": 49313,
+          "equivRank": 49313
+        },
+        {
+          "majorName": "纺织工程",
+          "majorKey": "262ecb48",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5460",
+          "prevYear": 2025,
+          "prevRank": 49672,
+          "equivRank": 49672
+        }
+      ]
+    }
   ]
 }

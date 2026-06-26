@@ -65,6 +65,14 @@ func (y *YiFenYiDuan) RankToScore(rank int) (score int, ok bool) {
 	return y.Entries[0].Score, true
 }
 
+// Total 返回该科类该年的考生总人数（=最低分段的累计人数）。
+func (y *YiFenYiDuan) Total() int {
+	if len(y.Entries) == 0 {
+		return 0
+	}
+	return y.Entries[0].Cumulative // Entries 升序，最低分累计最大
+}
+
 var digitsRe = regexp.MustCompile(`\d+`)
 
 // parseLeadingInt 抽取字符串中第一段连续数字。处理 "700以上" → 700。

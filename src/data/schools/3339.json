@@ -209,5 +209,60 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "城市管理",
+          "majorKey": "7e3b067d",
+          "selKe": "不限",
+          "plan": 6,
+          "tuition": "21200",
+          "prevYear": 2025,
+          "prevRank": 22737,
+          "equivRank": 22737
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "22700",
+          "prevYear": 2025,
+          "prevRank": 86385,
+          "equivRank": 86385
+        },
+        {
+          "majorName": "工业设计",
+          "majorKey": "fee47c1b",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "22700"
+        },
+        {
+          "majorName": "安全工程",
+          "majorKey": "e16fbe20",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "22700",
+          "prevYear": 2025,
+          "prevRank": 91949,
+          "equivRank": 91949
+        }
+      ]
+    }
   ]
 }

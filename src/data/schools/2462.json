@@ -171,5 +171,89 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "4500",
+          "prevYear": 2025,
+          "prevRank": 8355,
+          "equivRank": 8355
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4500",
+          "prevYear": 2025,
+          "prevRank": 7058,
+          "equivRank": 7058
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "历史",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "政治",
+          "plan": 2,
+          "tuition": "4500",
+          "prevYear": 2025,
+          "prevRank": 5787,
+          "equivRank": 5787
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5000",
+          "prevYear": 2025,
+          "prevRank": 50793,
+          "equivRank": 50793
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "第004组",
+      "track": "物理",
+      "selKe": "地理",
+      "majors": [
+        {
+          "majorName": "地理信息科学",
+          "majorKey": "f9ecceea",
+          "selKe": "地理",
+          "plan": 3,
+          "tuition": "5000",
+          "prevYear": 2025,
+          "prevRank": 57714,
+          "equivRank": 57714
+        }
+      ]
+    }
   ]
 }

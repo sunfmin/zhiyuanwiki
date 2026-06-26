@@ -215,5 +215,91 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "文科试验班类",
+          "majorKey": "f5e060b4",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6500",
+          "prevYear": 2025,
+          "prevRank": 903,
+          "equivRank": 903
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "理科试验班",
+          "majorKey": "54728189",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "7000",
+          "prevYear": 2025,
+          "prevRank": 5669,
+          "equivRank": 5669
+        },
+        {
+          "majorName": "材料类",
+          "majorKey": "b2ac374c",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "7000",
+          "prevYear": 2025,
+          "prevRank": 5843,
+          "equivRank": 5843
+        },
+        {
+          "majorName": "电气类",
+          "majorKey": "e1371d8e",
+          "selKe": "化学",
+          "plan": 12,
+          "tuition": "7000",
+          "prevYear": 2025,
+          "prevRank": 5669,
+          "equivRank": 5669
+        },
+        {
+          "majorName": "电子信息类",
+          "majorKey": "5e0efed0",
+          "selKe": "化学",
+          "plan": 10,
+          "tuition": "7000",
+          "prevYear": 2025,
+          "prevRank": 5517,
+          "equivRank": 5517
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电气类",
+          "majorKey": "e1371d8e",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "7000",
+          "prevYear": 2025,
+          "prevRank": 5669,
+          "equivRank": 5669
+        }
+      ]
+    }
   ]
 }

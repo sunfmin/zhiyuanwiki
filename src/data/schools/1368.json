@@ -134,5 +134,133 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "教育学",
+          "majorKey": "4272328b",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5280"
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5060"
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4600",
+          "prevYear": 2025,
+          "prevRank": 14332,
+          "equivRank": 14332
+        },
+        {
+          "majorName": "编辑出版学",
+          "majorKey": "22544579",
+          "selKe": "不限",
+          "plan": 6,
+          "tuition": "6820",
+          "prevYear": 2025,
+          "prevRank": 15943,
+          "equivRank": 15943
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数字经济",
+          "majorKey": "ca37000f",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5280"
+        },
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5500"
+        },
+        {
+          "majorName": "材料成型及控制工程",
+          "majorKey": "98867766",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5940"
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "7500",
+          "prevYear": 2025,
+          "prevRank": 60870,
+          "equivRank": 60870
+        },
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5400"
+        },
+        {
+          "majorName": "机器人工程",
+          "majorKey": "301e14e8",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5400"
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5400"
+        },
+        {
+          "majorName": "化学工程与工业生物工程",
+          "majorKey": "9dde0fee",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5400"
+        },
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5940",
+          "prevYear": 2025,
+          "prevRank": 63704,
+          "equivRank": 63704
+        },
+        {
+          "majorName": "生物工程",
+          "majorKey": "14eeb10f",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5400"
+        }
+      ]
+    }
   ]
 }

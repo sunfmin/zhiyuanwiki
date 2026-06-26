@@ -277,5 +277,63 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "100000",
+          "prevYear": 2025,
+          "prevRank": 2215,
+          "equivRank": 2215
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "100000",
+          "prevYear": 2025,
+          "prevRank": 9114,
+          "equivRank": 9114
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "100000",
+          "prevYear": 2025,
+          "prevRank": 9509,
+          "equivRank": 9509
+        },
+        {
+          "majorName": "环境工程",
+          "majorKey": "7faf2092",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "100000",
+          "prevYear": 2025,
+          "prevRank": 12290,
+          "equivRank": 12290
+        }
+      ]
+    }
   ]
 }

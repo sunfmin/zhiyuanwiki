@@ -97,5 +97,53 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "审计学",
+          "majorKey": "87f6e6a2",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "4600",
+          "prevYear": 2025,
+          "prevRank": 9189,
+          "equivRank": 9189
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械电子工程",
+          "majorKey": "4ef2a1b4",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5300",
+          "prevYear": 2025,
+          "prevRank": 45615,
+          "equivRank": 45615
+        },
+        {
+          "majorName": "自动化",
+          "majorKey": "da95770c",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5300",
+          "prevYear": 2025,
+          "prevRank": 44871,
+          "equivRank": 44871
+        }
+      ]
+    }
   ]
 }

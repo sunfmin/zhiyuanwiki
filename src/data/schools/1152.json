@@ -149,5 +149,91 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "工程造价",
+          "majorKey": "b8be11ab",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5060",
+          "prevYear": 2024,
+          "prevRank": 73355,
+          "equivRank": 73355
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "能源动力类",
+          "majorKey": "3f8d675b",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "4900",
+          "prevYear": 2025,
+          "prevRank": 60117,
+          "equivRank": 60117
+        },
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5390",
+          "prevYear": 2025,
+          "prevRank": 61243,
+          "equivRank": 61243
+        },
+        {
+          "majorName": "建筑电气与智能化",
+          "majorKey": "3f1c9a86",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4900",
+          "prevYear": 2025,
+          "prevRank": 60117,
+          "equivRank": 60117
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5390",
+          "prevYear": 2024,
+          "prevRank": 78108,
+          "equivRank": 78108
+        },
+        {
+          "majorName": "给排水科学与工程",
+          "majorKey": "b0765a88",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4900",
+          "prevYear": 2024,
+          "prevRank": 78108,
+          "equivRank": 78108
+        }
+      ]
+    }
   ]
 }

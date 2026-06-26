@@ -457,5 +457,71 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "政治",
+          "plan": 2,
+          "tuition": "5280",
+          "prevYear": 2025,
+          "prevRank": 33883,
+          "equivRank": 33883
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5500",
+          "prevYear": 2025,
+          "prevRank": 30815,
+          "equivRank": 30815
+        },
+        {
+          "majorName": "飞行器设计与工程",
+          "majorKey": "601791dc",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5500",
+          "prevYear": 2025,
+          "prevRank": 30143,
+          "equivRank": 30143
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "政治",
+          "plan": 1,
+          "tuition": "5280",
+          "prevYear": 2025,
+          "prevRank": 33883,
+          "equivRank": 33883
+        }
+      ]
+    }
   ]
 }

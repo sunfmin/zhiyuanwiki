@@ -120,5 +120,32 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5800",
+          "prevYear": 2025,
+          "prevRank": 37001,
+          "equivRank": 37001
+        },
+        {
+          "majorName": "材料成型及控制工程",
+          "majorKey": "98867766",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5800"
+        }
+      ]
+    }
   ]
 }

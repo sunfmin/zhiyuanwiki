@@ -229,5 +229,103 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4000"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "历史",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "政治",
+          "plan": 2,
+          "tuition": "4000",
+          "prevYear": 2025,
+          "prevRank": 9809,
+          "equivRank": 9809
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4000",
+          "prevYear": 2025,
+          "prevRank": 52234,
+          "equivRank": 52234
+        },
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4000",
+          "prevYear": 2025,
+          "prevRank": 66938,
+          "equivRank": 66938
+        },
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5900"
+        },
+        {
+          "majorName": "卫生检验与检疫",
+          "majorKey": "2c72d9e9",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "7500",
+          "prevYear": 2025,
+          "prevRank": 64096,
+          "equivRank": 64096
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "第004组",
+      "track": "物理",
+      "selKe": "地理",
+      "majors": [
+        {
+          "majorName": "地理信息科学",
+          "majorKey": "f9ecceea",
+          "selKe": "地理",
+          "plan": 2,
+          "tuition": "4500",
+          "prevYear": 2025,
+          "prevRank": 57273,
+          "equivRank": 57273
+        }
+      ]
+    }
   ]
 }

@@ -200,5 +200,75 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4270",
+          "prevYear": 2025,
+          "prevRank": 13559,
+          "equivRank": 13559
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4790"
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "第004组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "农学",
+          "majorKey": "c10bcf22",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "3750",
+          "prevYear": 2025,
+          "prevRank": 66122,
+          "equivRank": 66122
+        },
+        {
+          "majorName": "园艺",
+          "majorKey": "e735f557",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "3750",
+          "prevYear": 2025,
+          "prevRank": 67770,
+          "equivRank": 67770
+        },
+        {
+          "majorName": "土地科学与技术",
+          "majorKey": "b074d3f0",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "3750"
+        }
+      ]
+    }
   ]
 }

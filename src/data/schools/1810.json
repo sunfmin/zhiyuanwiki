@@ -322,5 +322,68 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 6,
+          "tuition": "4400",
+          "prevYear": 2025,
+          "prevRank": 4667,
+          "equivRank": 4667
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5200",
+          "prevYear": 2025,
+          "prevRank": 4667,
+          "equivRank": 4667
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "智慧农业",
+          "majorKey": "67ecef51",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5500"
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学和生物",
+      "majors": [
+        {
+          "majorName": "生物制药",
+          "majorKey": "97b7b689",
+          "selKe": "化学和生物",
+          "plan": 3,
+          "tuition": "6300",
+          "prevYear": 2025,
+          "prevRank": 45980,
+          "equivRank": 45980
+        }
+      ]
+    }
   ]
 }

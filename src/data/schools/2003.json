@@ -148,5 +148,60 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000",
+          "prevYear": 2025,
+          "prevRank": 7177,
+          "equivRank": 7177
+        },
+        {
+          "majorName": "公共事业管理",
+          "majorKey": "30e8a552",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000",
+          "prevYear": 2025,
+          "prevRank": 7177,
+          "equivRank": 7177
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5900",
+          "prevYear": 2025,
+          "prevRank": 35963,
+          "equivRank": 35963
+        },
+        {
+          "majorName": "智能建造",
+          "majorKey": "2363aecb",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5900"
+        }
+      ]
+    }
   ]
 }

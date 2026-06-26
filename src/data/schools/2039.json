@@ -212,5 +212,103 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "体育教育",
+          "majorKey": "d7e2a3c1",
+          "selKe": "不限",
+          "plan": 0,
+          "tuition": "6230"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5510",
+          "prevYear": 2025,
+          "prevRank": 3684,
+          "equivRank": 3684
+        },
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5510",
+          "prevYear": 2025,
+          "prevRank": 4351,
+          "equivRank": 4351
+        },
+        {
+          "majorName": "行政管理",
+          "majorKey": "062bcf46",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5510",
+          "prevYear": 2025,
+          "prevRank": 4176,
+          "equivRank": 4176
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "体育教育",
+          "majorKey": "d7e2a3c1",
+          "selKe": "不限",
+          "plan": 0,
+          "tuition": "6230"
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "第004组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "微电子科学与工程",
+          "majorKey": "e063e51a",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6850",
+          "prevYear": 2025,
+          "prevRank": 15759,
+          "equivRank": 15759
+        },
+        {
+          "majorName": "智能建造",
+          "majorKey": "2363aecb",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6850",
+          "prevYear": 2025,
+          "prevRank": 17306,
+          "equivRank": 17306
+        }
+      ]
+    }
   ]
 }

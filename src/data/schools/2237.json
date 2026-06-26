@@ -60,5 +60,43 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "人力资源管理",
+          "majorKey": "5a324641",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4800",
+          "prevYear": 2025,
+          "prevRank": 12684,
+          "equivRank": 12684
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "制药工程",
+          "majorKey": "28bd788f",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200",
+          "prevYear": 2025,
+          "prevRank": 53422,
+          "equivRank": 53422
+        }
+      ]
+    }
   ]
 }

@@ -142,5 +142,63 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "日语",
+          "majorKey": "8f1def37",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5520",
+          "prevYear": 2025,
+          "prevRank": 6703,
+          "equivRank": 6703
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5520",
+          "prevYear": 2025,
+          "prevRank": 6703,
+          "equivRank": 6703
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5980",
+          "prevYear": 2025,
+          "prevRank": 17836,
+          "equivRank": 17836
+        },
+        {
+          "majorName": "能源与动力工程",
+          "majorKey": "34997647",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5980",
+          "prevYear": 2025,
+          "prevRank": 16566,
+          "equivRank": 16566
+        }
+      ]
+    }
   ]
 }

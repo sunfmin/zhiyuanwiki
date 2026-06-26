@@ -47,5 +47,53 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "待定",
+          "prevYear": 2025,
+          "prevRank": 2735,
+          "equivRank": 2735
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学和生物",
+      "majors": [
+        {
+          "majorName": "生态学",
+          "majorKey": "11cedbac",
+          "selKe": "化学和生物",
+          "plan": 1,
+          "tuition": "待定",
+          "prevYear": 2025,
+          "prevRank": 33556,
+          "equivRank": 33556
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学和生物",
+          "plan": 1,
+          "tuition": "3360",
+          "prevYear": 2025,
+          "prevRank": 21497,
+          "equivRank": 21497
+        }
+      ]
+    }
   ]
 }

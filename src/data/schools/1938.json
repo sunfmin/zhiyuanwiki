@@ -184,5 +184,77 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4500",
+          "prevYear": 2025,
+          "prevRank": 2800,
+          "equivRank": 2800
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4500"
+        },
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4500",
+          "prevYear": 2025,
+          "prevRank": 16806,
+          "equivRank": 16806
+        },
+        {
+          "majorName": "材料类",
+          "majorKey": "b2ac374c",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5850",
+          "prevYear": 2025,
+          "prevRank": 18106,
+          "equivRank": 18106
+        },
+        {
+          "majorName": "电子信息类",
+          "majorKey": "5e0efed0",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5850",
+          "prevYear": 2025,
+          "prevRank": 15759,
+          "equivRank": 15759
+        },
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5850"
+        }
+      ]
+    }
   ]
 }

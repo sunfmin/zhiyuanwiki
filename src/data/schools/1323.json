@@ -345,5 +345,50 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "朝鲜语",
+          "majorKey": "b2ff5185",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4800",
+          "prevYear": 2025,
+          "prevRank": 15465,
+          "equivRank": 15465
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "种子科学与工程",
+          "majorKey": "34c4b01e",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4900",
+          "prevYear": 2025,
+          "prevRank": 64096,
+          "equivRank": 64096
+        },
+        {
+          "majorName": "生物育种技术",
+          "majorKey": "0d9beddc",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4900"
+        }
+      ]
+    }
   ]
 }

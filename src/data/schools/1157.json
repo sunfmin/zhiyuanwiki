@@ -96,5 +96,43 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4600",
+          "prevYear": 2025,
+          "prevRank": 7855,
+          "equivRank": 7855
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "4900",
+          "prevYear": 2025,
+          "prevRank": 44131,
+          "equivRank": 44131
+        }
+      ]
+    }
   ]
 }

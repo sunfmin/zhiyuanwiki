@@ -143,5 +143,53 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "俄语",
+          "majorKey": "7d0b62a8",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5200",
+          "prevYear": 2025,
+          "prevRank": 12988,
+          "equivRank": 12988
+        },
+        {
+          "majorName": "朝鲜语",
+          "majorKey": "b2ff5185",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5200",
+          "prevYear": 2025,
+          "prevRank": 14512,
+          "equivRank": 14512
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "湿地保护与恢复",
+          "majorKey": "6a5d1029",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "2500",
+          "prevYear": 2025,
+          "prevRank": 60117,
+          "equivRank": 60117
+        }
+      ]
+    }
   ]
 }

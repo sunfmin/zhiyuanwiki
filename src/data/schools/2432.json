@@ -230,5 +230,130 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5600",
+          "prevYear": 2024,
+          "prevRank": 66015,
+          "equivRank": 66015
+        },
+        {
+          "majorName": "化学工程与工艺",
+          "majorKey": "1f59c989",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5600",
+          "prevYear": 2024,
+          "prevRank": 67894,
+          "equivRank": 67894
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6000"
+        },
+        {
+          "majorName": "智能制造工程",
+          "majorKey": "ed53a26b",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5600"
+        },
+        {
+          "majorName": "焊接技术与工程",
+          "majorKey": "94c614cf",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "6000"
+        },
+        {
+          "majorName": "机器人工程",
+          "majorKey": "301e14e8",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5600"
+        },
+        {
+          "majorName": "环境工程",
+          "majorKey": "7faf2092",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5600"
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "新能源科学与工程",
+          "majorKey": "42b22d93",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5600"
+        },
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5600"
+        },
+        {
+          "majorName": "资源勘查工程",
+          "majorKey": "412efb99",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5600",
+          "prevYear": 2023,
+          "prevRank": 61919,
+          "equivRank": 61919
+        },
+        {
+          "majorName": "石油工程",
+          "majorKey": "f0f8c4c6",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6000",
+          "prevYear": 2024,
+          "prevRank": 65617,
+          "equivRank": 65617
+        },
+        {
+          "majorName": "油气储运工程",
+          "majorKey": "c9b2e9e3",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "6000",
+          "prevYear": 2024,
+          "prevRank": 68294,
+          "equivRank": 68294
+        }
+      ]
+    }
   ]
 }

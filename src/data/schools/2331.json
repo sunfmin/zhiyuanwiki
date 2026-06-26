@@ -179,5 +179,104 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4200",
+          "prevYear": 2025,
+          "prevRank": 14841,
+          "equivRank": 14841
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4200",
+          "prevYear": 2025,
+          "prevRank": 14512,
+          "equivRank": 14512
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "数字人文",
+          "majorKey": "aa66e27a",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4200",
+          "prevYear": 2025,
+          "prevRank": 55743,
+          "equivRank": 55743
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5000",
+          "prevYear": 2025,
+          "prevRank": 46345,
+          "equivRank": 46345
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "第004组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "26000",
+          "prevYear": 2023,
+          "prevRank": 56868,
+          "equivRank": 56868
+        }
+      ]
+    },
+    {
+      "groupCode": "005",
+      "groupName": "第005组",
+      "track": "物理",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "政治",
+          "plan": 1,
+          "tuition": "4500"
+        }
+      ]
+    }
   ]
 }

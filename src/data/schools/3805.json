@@ -178,5 +178,80 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "27500",
+          "prevYear": 2025,
+          "prevRank": 18697,
+          "equivRank": 18697
+        },
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "27500",
+          "prevYear": 2025,
+          "prevRank": 18177,
+          "equivRank": 18177
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "27500",
+          "prevYear": 2025,
+          "prevRank": 18361,
+          "equivRank": 18361
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电子信息科学与技术",
+          "majorKey": "14856541",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "27500"
+        },
+        {
+          "majorName": "数字媒体技术",
+          "majorKey": "889e9381",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "27500",
+          "prevYear": 2025,
+          "prevRank": 75755,
+          "equivRank": 75755
+        },
+        {
+          "majorName": "电子与计算机工程",
+          "majorKey": "92e14fa5",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "27500",
+          "prevYear": 2025,
+          "prevRank": 75755,
+          "equivRank": 75755
+        }
+      ]
+    }
   ]
 }

@@ -301,5 +301,101 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "大数据管理与应用",
+          "majorKey": "2079a63e",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "待定"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "大数据管理与应用",
+          "majorKey": "2079a63e",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "待定"
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "待定"
+        },
+        {
+          "majorName": "遥感科学与技术",
+          "majorKey": "8cb98cd7",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "待定"
+        },
+        {
+          "majorName": "信息对抗技术",
+          "majorKey": "206b10fc",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "待定",
+          "prevYear": 2025,
+          "prevRank": 5669,
+          "equivRank": 5669
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "第004组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "待定"
+        },
+        {
+          "majorName": "遥感科学与技术",
+          "majorKey": "8cb98cd7",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "待定"
+        },
+        {
+          "majorName": "信息对抗技术",
+          "majorKey": "206b10fc",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "待定",
+          "prevYear": 2025,
+          "prevRank": 5669,
+          "equivRank": 5669
+        }
+      ]
+    }
   ]
 }

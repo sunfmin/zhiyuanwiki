@@ -127,5 +127,60 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "市场营销",
+          "majorKey": "28c62e21",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "15000",
+          "prevYear": 2025,
+          "prevRank": 16982,
+          "equivRank": 16982
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "15000",
+          "prevYear": 2025,
+          "prevRank": 16613,
+          "equivRank": 16613
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "16000"
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "16000",
+          "prevYear": 2025,
+          "prevRank": 77329,
+          "equivRank": 77329
+        }
+      ]
+    }
   ]
 }

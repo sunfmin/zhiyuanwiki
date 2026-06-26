@@ -374,5 +374,77 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "5510"
+        },
+        {
+          "majorName": "人力资源管理",
+          "majorKey": "5a324641",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "5510"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "6960",
+          "prevYear": 2025,
+          "prevRank": 28157,
+          "equivRank": 28157
+        },
+        {
+          "majorName": "药物制剂",
+          "majorKey": "dc8e7679",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "6960",
+          "prevYear": 2024,
+          "prevRank": 34515,
+          "equivRank": 34515
+        },
+        {
+          "majorName": "海洋药学",
+          "majorKey": "1ca19af0",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "6960",
+          "prevYear": 2025,
+          "prevRank": 34920,
+          "equivRank": 34920
+        },
+        {
+          "majorName": "中药制药",
+          "majorKey": "fba2c77b",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "6960",
+          "prevYear": 2025,
+          "prevRank": 35620,
+          "equivRank": 35620
+        }
+      ]
+    }
   ]
 }

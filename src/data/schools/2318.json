@@ -194,5 +194,116 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4200",
+          "prevYear": 2025,
+          "prevRank": 7739,
+          "equivRank": 7739
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "日语",
+          "majorKey": "8f1def37",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4200",
+          "prevYear": 2025,
+          "prevRank": 10919,
+          "equivRank": 10919
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "历史",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "政治",
+          "plan": 3,
+          "tuition": "4200",
+          "prevYear": 2024,
+          "prevRank": 3930,
+          "equivRank": 3930
+        }
+      ]
+    },
+    {
+      "groupCode": "005",
+      "groupName": "第005组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4500"
+        }
+      ]
+    },
+    {
+      "groupCode": "006",
+      "groupName": "第006组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5000"
+        },
+        {
+          "majorName": "统计学",
+          "majorKey": "24c5453f",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5000",
+          "prevYear": 2024,
+          "prevRank": 43986,
+          "equivRank": 43986
+        }
+      ]
+    },
+    {
+      "groupCode": "007",
+      "groupName": "第007组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5000"
+        }
+      ]
+    }
   ]
 }

@@ -126,5 +126,71 @@
         }
       ]
     }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "日语",
+          "majorKey": "8f1def37",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4200",
+          "prevYear": 2025,
+          "prevRank": 10649,
+          "equivRank": 10649
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "历史",
+      "selKe": "政治和地理",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "政治和地理",
+          "plan": 3,
+          "tuition": "4200",
+          "prevYear": 2025,
+          "prevRank": 5533,
+          "equivRank": 5533
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5000",
+          "prevYear": 2025,
+          "prevRank": 30478,
+          "equivRank": 30478
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5000",
+          "prevYear": 2025,
+          "prevRank": 31161,
+          "equivRank": 31161
+        }
+      ]
+    }
   ]
 }
