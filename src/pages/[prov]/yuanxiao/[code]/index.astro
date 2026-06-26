@@ -3,6 +3,7 @@ import Base from "../../../../layouts/Base.astro";
 import RankTrend from "../../../../components/RankTrend.astro";
 import SchoolBadges from "../../../../components/SchoolBadges.tsx";
 import { provinceConfig } from "../../../../lib/provinces";
+import { schoolsOf } from "../../../../lib/data";
 import type { SchoolDetail, Leaf } from "../../../../lib/data";
 
 export function getStaticPaths() {
@@ -25,6 +26,18 @@ const plan = school.plan2026 ?? [];
 const unit = cfg.fillModel === "group" ? "院校专业组" : "招生专业";
 const unitCount = cfg.fillModel === "group" ? groups.length : plan.length;
 const tracksLabel = cfg.tracks.map((t) => t.name).join(" / ");
+
+// 院校身份头：层次徽标 + 录取区间，取自构建期索引（schools.json，仅含有录取记录的院校）。
+// 位次是全站的决策数（站名即「位次」），故把位次区间做成首屏最醒目的读数。
+const idx = schoolsOf(prov).find((s) => s.code === school.code);
+const multiTrack = cfg.tracks.length > 1;
+const hasRange = !!idx && cfg.tracks.some((t) => idx.ranges?.[t.name]);
+const tiers = [
+  idx?.is985 && { label: "985", cls: "bg-rose-50 text-rose-700 ring-rose-200" },
+  idx?.is211 && { label: "211", cls: "bg-indigo-50 text-indigo-700 ring-indigo-200" },
+  idx?.isShuangYiLiu && { label: "双一流", cls: "bg-amber-50 text-amber-700 ring-amber-200" },
+].filter(Boolean) as { label: string; cls: string }[];
+const fmt = (n?: number) => (n ? n.toLocaleString("en-US") : "—");
 ---
 
 <Base
@@ -34,10 +47,55 @@ const tracksLabel = cfg.tracks.map((t) => t.name).join(" / ");
 >
   <section class="mx-auto max-w-4xl px-4 py-12">
     <a href={`/${prov}/yuanxiao/`} class="text-sm text-slate-500 hover:text-slate-800">← 院校浏览</a>
-    <h1 class="mt-2 text-2xl font-bold">{school.name}</h1>
-    <p class="mt-1 text-sm text-slate-500">
+
+    <div class="mt-3 flex flex-wrap items-center gap-x-3 gap-y-2">
+      <h1 class="text-3xl font-bold tracking-tight sm:text-4xl">{school.name}</h1>
+      {
+        tiers.map((t) => (
+          <span class={`rounded-md px-2 py-0.5 text-xs font-semibold ring-1 ring-inset ${t.cls}`}>
+            {t.label}
+          </span>
+        ))
+      }
+    </div>
+
+    <p class="mt-2 text-sm text-slate-500">
       院校代码 {school.code} · {unitCount} 个 2026 {unit} · {leaves.length} 个专业有 2022–2025 录取记录
     </p>
+
+    {
+      hasRange && (
+        <div class="mt-5 rounded-xl border border-slate-200 bg-white px-5 py-4">
+          <div class="text-xs text-slate-500">历年录取区间（最新一年 · 位次越靠前越难考）</div>
+          <div class="mt-2 space-y-1.5">
+            {cfg.tracks.map((t) => {
+              const r = idx!.ranges?.[t.name];
+              if (!r) return null;
+              return (
+                <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                  {multiTrack && (
+                    <span class="w-9 shrink-0 text-sm font-medium text-slate-600">{t.name}类</span>
+                  )}
+                  <span class="flex items-baseline gap-1.5">
+                    <span class="text-xs text-slate-500">位次</span>
+                    <span class="text-2xl font-bold tabular-nums text-slate-900">{fmt(r.minRank)}</span>
+                    <span class="text-slate-300">–</span>
+                    <span class="text-2xl font-bold tabular-nums text-slate-900">{fmt(r.maxRank)}</span>
+                  </span>
+                  <span class="flex items-baseline gap-1.5">
+                    <span class="text-xs text-slate-500">分</span>
+                    <span class="text-base font-semibold tabular-nums text-slate-700">
+                      {r.minScore}–{r.maxScore}
+                    </span>
+                  </span>
+                  <span class="text-xs text-slate-400">{r.year}</span>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )
+    }
 
     {/* 黑龙江：院校专业组视图 */}
     {
@@ -80,7 +138,14 @@ const tracksLabel = cfg.tracks.map((t) => t.name).join(" / ");
                           <td class="py-1.5 pr-4 tabular-nums">{m.plan || "—"}</td>
                           <td class="py-1.5 pr-4 tabular-nums">{m.tuition || "—"}</td>
                           <td class="py-1.5 pr-4 tabular-nums">
-                            {m.prevRank ? `${m.prevRank.toLocaleString()}（${m.prevYear}）` : "—"}
+                            {m.prevRank ? (
+                              <>
+                                <span class="font-semibold text-slate-900">{m.prevRank.toLocaleString()}</span>
+                                <span class="ml-1 text-xs text-slate-400">{m.prevYear}</span>
+                              </>
+                            ) : (
+                              "—"
+                            )}
                           </td>
                         </tr>
                       ))}
@@ -126,7 +191,14 @@ const tracksLabel = cfg.tracks.map((t) => t.name).join(" / ");
                     <td class="py-1.5 pr-4 tabular-nums">{m.plan || "—"}</td>
                     <td class="py-1.5 pr-4 tabular-nums">{m.tuition || "—"}</td>
                     <td class="py-1.5 pr-4 tabular-nums">
-                      {m.prevRank ? `${m.prevRank.toLocaleString()}（${m.prevYear}）` : "—"}
+                      {m.prevRank ? (
+                        <>
+                          <span class="font-semibold text-slate-900">{m.prevRank.toLocaleString()}</span>
+                          <span class="ml-1 text-xs text-slate-400">{m.prevYear}</span>
+                        </>
+                      ) : (
+                        "—"
+                      )}
                     </td>
                   </tr>
                 ))}
