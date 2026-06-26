@@ -12,8 +12,9 @@ jobs:
       contents: read
       deployments: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      # 这些 action 用支持 Node 24 的大版本，避免 Node 20 弃用告警。
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: npm
@@ -21,16 +22,10 @@ jobs:
       # 只跑 astro build：读取仓库内已提交的 src/data JSON。
       # 不在 CI 跑 Go 预处理——原始 xlsx 不入仓库（ADR-0005），数据由维护者本地生成后提交。
       - run: npm run build
-      # 幂等地确保 Pages 项目存在（已存在则报错，被 continue-on-error 吞掉）。
-      - name: Ensure Cloudflare Pages project
-        continue-on-error: true
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages project create zhiyuanwiki --production-branch main
+      # Pages 项目须预先建好（见 README）。原先的"幂等创建"步骤在项目已存在时每次报错、
+      # 产生误导性的 "Action failed" 注解，已移除。
       - name: Deploy to Cloudflare Pages
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
