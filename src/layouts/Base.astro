@@ -11,6 +11,16 @@ const {
   description = "用历年官方数据帮助高考考生选择院校与专业（黑龙江物理 / 历史类先行）",
 } = Astro.props;
 
+// 顶部导航：位次定位是主页（/）。当前所在区块高亮。
+const path = Astro.url.pathname;
+const navLinks = [
+  { href: "/", label: "位次定位" },
+  { href: "/yuanxiao", label: "院校" },
+  { href: "/zhuanye", label: "专业" },
+  { href: "/guide", label: "指南" },
+];
+const isActive = (href: string) => (href === "/" ? path === "/" : path.startsWith(href));
+
 // 省份切换：目前只有黑龙江有数据，其余省份选中后提示"暂未开放"并回退。
 const ACTIVE_PROVINCE = "黑龙江";
 const provinces = [
@@ -31,17 +41,37 @@ const provinces = [
   </head>
   <body class="min-h-screen flex flex-col bg-slate-50 text-slate-900 antialiased">
     <header class="border-b border-slate-200 bg-white">
-      <nav class="mx-auto max-w-5xl px-4 py-3 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm">
-        <a href="/" class="font-semibold">高考志愿数据 Wiki</a>
-        <a href="/dingwei" class="text-slate-600 hover:text-slate-900">位次定位</a>
-        <a href="/yuanxiao" class="text-slate-600 hover:text-slate-900">院校</a>
-        <a href="/zhuanye" class="text-slate-600 hover:text-slate-900">专业</a>
-        <a href="/guide" class="text-slate-600 hover:text-slate-900">指南</a>
-        <label class="ml-auto flex items-center gap-1 text-slate-500">
-          省份
+      <nav class="mx-auto flex max-w-5xl items-center gap-3 px-4 py-2.5 sm:gap-5">
+        <a href="/" class="flex shrink-0 items-center gap-2" aria-label="高考志愿数据 Wiki 首页">
+          <span class="grid h-7 w-7 place-items-center rounded-lg bg-slate-900 text-sm font-bold text-white">
+            位
+          </span>
+          <span class="hidden text-sm font-semibold tracking-tight text-slate-900 sm:inline">
+            高考志愿数据
+          </span>
+        </a>
+        <div class="flex items-center gap-1 overflow-x-auto text-sm">
+          {
+            navLinks.map((l) => (
+              <a
+                href={l.href}
+                aria-current={isActive(l.href) ? "page" : undefined}
+                class={`shrink-0 rounded-md px-2 py-1 transition ${
+                  isActive(l.href)
+                    ? "bg-slate-100 font-medium text-slate-900"
+                    : "text-slate-500 hover:text-slate-900"
+                }`}
+              >
+                {l.label}
+              </a>
+            ))
+          }
+        </div>
+        <label class="ml-auto flex shrink-0 items-center gap-1 text-xs text-slate-500">
+          <span class="hidden sm:inline">省份</span>
           <select
             id="province-select"
-            class="rounded-md border border-slate-300 bg-white px-2 py-1 text-slate-900"
+            class="rounded-md border border-slate-300 bg-white px-2 py-1 text-sm text-slate-900"
           >
             {
               provinces.map((p) => (
@@ -53,12 +83,7 @@ const provinces = [
           </select>
         </label>
       </nav>
-      <div
-        id="province-notice"
-        hidden
-        class="mx-auto max-w-5xl px-4 pb-3 text-sm text-amber-700"
-      >
-      </div>
+      <div id="province-notice" hidden class="mx-auto max-w-5xl px-4 pb-3 text-sm text-amber-700"></div>
     </header>
 
     <main class="flex-1">

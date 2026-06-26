@@ -71,12 +71,15 @@ describe("matchesFilters — 未知（未挂接 meta）", () => {
   });
 });
 
-describe("matchesFilters — 专业关键词（大小写/子串）", () => {
+describe("matchesFilters — 专业关键词（空格=OR、大小写、子串）", () => {
   it.each([
     ["子串命中", entry({ mn: "计算机科学与技术" }), "计算机", true],
     ["不命中", entry({ mn: "临床医学" }), "计算机", false],
     ["大小写不敏感", entry({ mn: "AI与大数据" }), "ai", true],
     ["空关键词放行", entry({ mn: "随便" }), "  ", true],
+    ["空格分隔-命中其一即可（OR）", entry({ mn: "软件工程" }), "计算机 软件", true],
+    ["空格分隔-多词都不命中", entry({ mn: "临床医学" }), "计算机 软件", false],
+    ["多个空格/前后空格-正常分词", entry({ mn: "网络空间安全" }), "  计算机   网络 ", true],
   ])("%s", (_n, e, kw, want) => {
     expect(matchesFilters(e as LocEntry, meta, f({ keyword: kw as string }))).toBe(want);
   });

@@ -15,7 +15,7 @@ test(
     const { page, browser, out } = await renderToImage({
       baseURL: server.baseURL,
       name: "locator-results",
-      path: "/dingwei",
+      path: "/",
       viewport: { width: 1180, height: 1120 },
       fullPage: false, // 只截首屏：控件 + 三列顶部，便于看清设计细节
       interact: async (p) => {
@@ -49,7 +49,7 @@ test(
     const { page, browser, out } = await renderToImage({
       baseURL: server.baseURL,
       name: "locator-filtered",
-      path: "/dingwei",
+      path: "/",
       viewport: { width: 1180, height: 1280 },
       fullPage: false,
       interact: async (p) => {

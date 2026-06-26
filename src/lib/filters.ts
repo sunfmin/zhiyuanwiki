@@ -50,7 +50,7 @@ export interface Filters {
   kinds: string[]; // 学校类别（OR）
   cityTiers: string[]; // 城市层级（OR）
   categories: string[]; // 专业大类=门类码（OR）
-  keyword: string; // 专业关键词（子串、大小写不敏感）
+  keyword: string; // 专业关键词（空格分隔多词=任一匹配 OR；子串、大小写不敏感）
   minPlan: number; // 计划人数下限（>=，0=不限）
   maxGroupSize: number; // 组内专业数上限（<=，0=不限）
   hideCoopHighFee: boolean; // 隐藏中外合作及高收费
@@ -103,8 +103,13 @@ export function matchesFilters(e: LocEntry, meta: SchoolMetaMap, f: Filters): bo
 
   if (f.categories.length && !(e.mc && f.categories.includes(e.mc))) return false;
 
+  // 关键词：空格分隔多词，命中任一即可（OR）；子串、大小写不敏感。
   const kw = f.keyword.trim().toLowerCase();
-  if (kw && !(e.mn || "").toLowerCase().includes(kw)) return false;
+  if (kw) {
+    const name = (e.mn || "").toLowerCase();
+    const terms = kw.split(/\s+/).filter(Boolean);
+    if (!terms.some((t) => name.includes(t))) return false;
+  }
 
   if (f.minPlan > 0 && (e.pl || 0) < f.minPlan) return false;
   if (f.maxGroupSize > 0 && (e.gs || 0) > f.maxGroupSize) return false;

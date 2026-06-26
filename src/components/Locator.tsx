@@ -31,6 +31,7 @@ export default function Locator({ wuliTable }: { wuliTable: YiFenYiDuan }) {
   const [sel, setSel] = useState<Record<string, boolean>>({ 化学: true, 生物: true, 政治: false, 地理: false });
   const [filters, setFilters] = useState<Filters>(emptyFilters);
   const [panelOpen, setPanelOpen] = useState(false);
+  const [activeTier, setActiveTier] = useState<Bucket>("冲"); // 手机窄屏一次看一档
 
   const [entries, setEntries] = useState<LocEntry[]>([]);
   const [meta, setMeta] = useState<SchoolMetaMap>({});
@@ -146,10 +147,10 @@ export default function Locator({ wuliTable }: { wuliTable: YiFenYiDuan }) {
     return out;
   }, [entries, V, chosen, meta, filters]);
 
-  const cfg: { key: Bucket; meaning: string; bar: string; label: string; delta: string }[] = [
-    { key: "冲", meaning: "够一够 · 偏难", bar: "bg-rose-500", label: "text-rose-700", delta: "text-rose-600" },
-    { key: "稳", meaning: "较稳妥 · 匹配", bar: "bg-amber-500", label: "text-amber-700", delta: "text-amber-600" },
-    { key: "保", meaning: "兜得住 · 保底", bar: "bg-emerald-500", label: "text-emerald-700", delta: "text-emerald-600" },
+  const cfg: { key: Bucket; meaning: string; bar: string; label: string; delta: string; tint: string }[] = [
+    { key: "冲", meaning: "够一够 · 偏难", bar: "bg-rose-500", label: "text-rose-700", delta: "text-rose-600", tint: "bg-rose-50 ring-rose-200" },
+    { key: "稳", meaning: "较稳妥 · 匹配", bar: "bg-amber-500", label: "text-amber-700", delta: "text-amber-600", tint: "bg-amber-50 ring-amber-200" },
+    { key: "保", meaning: "兜得住 · 保底", bar: "bg-emerald-500", label: "text-emerald-700", delta: "text-emerald-600", tint: "bg-emerald-50 ring-emerald-200" },
   ];
 
   // 每个选项相对“你”的位次差：高你 = 录取线更靠前（要往上够），低你 = 你已越过（有富余）。
@@ -313,7 +314,7 @@ export default function Locator({ wuliTable }: { wuliTable: YiFenYiDuan }) {
                   type="text"
                   value={filters.keyword}
                   onInput={(e) => setFilters((p) => ({ ...p, keyword: (e.target as HTMLInputElement).value }))}
-                  placeholder="如 计算机、临床、师范…"
+                  placeholder="空格分隔=任一匹配，如 计算机 软件"
                   class="w-full max-w-xs rounded-lg border border-slate-300 px-3 py-1.5 text-sm focus:border-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-200 sm:max-w-sm"
                 />
               </div>
@@ -355,11 +356,38 @@ export default function Locator({ wuliTable }: { wuliTable: YiFenYiDuan }) {
       {/* 结果 */}
       {loading && <p class="mt-6 text-sm text-slate-500">加载定位数据…</p>}
       {!loading && V > 0 && (
-        <div class="mt-4 grid gap-4 lg:grid-cols-3">
-          {cfg.map(({ key, meaning, bar, label, delta: deltaCls }) => {
-            const list = buckets[key];
-            return (
-              <div class="overflow-hidden rounded-xl border border-slate-200 bg-white">
+        <>
+          {/* 手机：冲/稳/保 切换（窄屏一次看一档，避免三档纵向堆叠的长滚动）。随页滚动吸顶。 */}
+          <div class="sticky top-0 z-20 mt-4 bg-slate-50/95 py-2 backdrop-blur lg:hidden">
+            <div class="flex gap-1 rounded-xl border border-slate-200 bg-white p-1 shadow-sm">
+              {cfg.map(({ key, label, tint }) => {
+                const on = key === activeTier;
+                return (
+                  <button
+                    type="button"
+                    onClick={() => setActiveTier(key)}
+                    aria-pressed={on}
+                    class={`flex-1 rounded-lg py-1.5 text-center transition ${on ? `${tint} ring-1` : "hover:bg-slate-50"}`}
+                  >
+                    <span class={`text-sm font-bold ${on ? label : "text-slate-500"}`}>{key}</span>
+                    <span class={`ml-1 text-xs tabular-nums ${on ? label : "text-slate-400"}`}>
+                      {buckets[key].length}
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
+          <div class="mt-3 grid gap-4 lg:mt-4 lg:grid-cols-3">
+            {cfg.map(({ key, meaning, bar, label, delta: deltaCls }) => {
+              const list = buckets[key];
+              return (
+                <div
+                  class={`overflow-hidden rounded-xl border border-slate-200 bg-white ${
+                    key === activeTier ? "" : "hidden lg:block"
+                  }`}
+                >
                 <div class={`h-1 ${bar}`} />
                 <div class="flex items-baseline justify-between px-3 pt-2.5">
                   <div class="flex items-baseline gap-1.5">
@@ -375,30 +403,45 @@ export default function Locator({ wuliTable }: { wuliTable: YiFenYiDuan }) {
                   录取位次 · 与你差距
                 </div>
                 <ul class="divide-y divide-slate-100 border-t border-slate-100">
-                  {list.slice(0, CAP).map((e) => (
-                    <li>
-                      <a href={`/yuanxiao/${e.sc}/#z-${e.mk}`} class="block px-3 py-2 hover:bg-slate-50">
-                        <div class="flex items-start justify-between gap-2">
-                          <div class="min-w-0">
-                            <div class="truncate text-sm font-medium text-slate-900">{e.sn}</div>
-                            <div class="truncate text-xs text-slate-500">{e.mn}</div>
-                          </div>
-                          <div class="shrink-0 text-right leading-tight">
-                            <div class="text-sm font-semibold tabular-nums text-slate-800">
-                              {e.r.toLocaleString()}
+                  {list.slice(0, CAP).map((e) => {
+                    const m = meta[e.sc];
+                    const lv = topLevel(m?.lv);
+                    const city = m?.c?.replace(/[市]$/, "");
+                    return (
+                      <li>
+                        <a href={`/yuanxiao/${e.sc}/#z-${e.mk}`} class="block px-3 py-2 hover:bg-slate-50">
+                          <div class="flex items-start justify-between gap-2">
+                            <div class="min-w-0">
+                              <div class="flex items-center gap-1.5">
+                                <span class="truncate text-sm font-medium text-slate-900">{e.sn}</span>
+                                {lv && (
+                                  <span class={`shrink-0 rounded px-1 py-px text-[10px] font-medium ${levelCls(lv)}`}>
+                                    {lv}
+                                  </span>
+                                )}
+                              </div>
+                              <div class="truncate text-xs text-slate-500">{e.mn}</div>
                             </div>
-                            <div class={`text-[11px] tabular-nums ${deltaCls}`}>{delta(e.r)}</div>
+                            <div class="shrink-0 text-right leading-tight">
+                              <div class="text-sm font-semibold tabular-nums text-slate-800">
+                                {e.r.toLocaleString()}
+                              </div>
+                              <div class={`text-[11px] tabular-nums ${deltaCls}`}>{delta(e.r)}</div>
+                            </div>
                           </div>
-                        </div>
-                        <div class="mt-1 flex flex-wrap gap-x-2 text-[11px] text-slate-400">
-                          <span>计划 {e.pl || "—"}</span>
-                          <span>选科 {e.sk || "不限"}</span>
-                          {e.gs > 1 && <span>组内 {e.gs} 专业 · 服从可调剂</span>}
-                          {e.cw && <span class="text-violet-500">中外合作</span>}
-                        </div>
-                      </a>
-                    </li>
-                  ))}
+                          <div class="mt-1 flex flex-wrap gap-x-2 text-[11px] text-slate-400">
+                            {city && <span class="text-slate-500">{city}</span>}
+                            {m?.k && <span>{m.k}</span>}
+                            <span>计划 {e.pl || "—"}</span>
+                            <span>选科 {e.sk || "不限"}</span>
+                            {e.gs > 1 && <span>组内 {e.gs} 专业 · 服从可调剂</span>}
+                            {m?.o === "民办" && <span class="text-amber-600">民办</span>}
+                            {e.cw && <span class="text-violet-500">中外合作</span>}
+                          </div>
+                        </a>
+                      </li>
+                    );
+                  })}
                   {list.length === 0 && (
                     <li class="px-3 py-3 text-xs text-slate-300">
                       {activeFilters ? "这一档无符合筛选的" : "这一档暂无可填"}
@@ -406,9 +449,10 @@ export default function Locator({ wuliTable }: { wuliTable: YiFenYiDuan }) {
                   )}
                 </ul>
               </div>
-            );
-          })}
-        </div>
+              );
+            })}
+          </div>
+        </>
       )}
       {!loading && V <= 0 && (
         <div class="mt-6 rounded-xl border border-dashed border-slate-300 bg-white px-4 py-10 text-center">
@@ -421,6 +465,20 @@ export default function Locator({ wuliTable }: { wuliTable: YiFenYiDuan }) {
       )}
     </div>
   );
+}
+
+// 院校层次显示：只取最高一档（985 ⊃ 211 ⊃ 双一流），列表里一个 pill 足矣。
+const LEVEL_RANK = ["985", "211", "双一流"];
+function topLevel(lv?: string[]): string | undefined {
+  if (!lv) return undefined;
+  return LEVEL_RANK.find((t) => lv.includes(t));
+}
+function levelCls(lv: string): string {
+  return lv === "985"
+    ? "bg-indigo-50 text-indigo-600"
+    : lv === "211"
+      ? "bg-sky-50 text-sky-600"
+      : "bg-violet-50 text-violet-700";
 }
 
 // 去重 + 中文排序（忽略空值），用于从 meta 派生省份/类别选项。
