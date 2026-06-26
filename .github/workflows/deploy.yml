@@ -21,9 +21,17 @@ jobs:
       # 只跑 astro build：读取仓库内已提交的 src/data JSON。
       # 不在 CI 跑 Go 预处理——原始 xlsx 不入仓库（ADR-0005），数据由维护者本地生成后提交。
       - run: npm run build
+      # 幂等地确保 Pages 项目存在（已存在则报错，被 continue-on-error 吞掉）。
+      - name: Ensure Cloudflare Pages project
+        continue-on-error: true
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages project create zhiyuanwiki --production-branch main
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy dist --project-name=zhiyuanwiki
+          command: pages deploy dist --project-name=zhiyuanwiki --branch=main --commit-dirty=true
