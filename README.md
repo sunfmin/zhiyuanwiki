@@ -1,16 +1,18 @@
-# 高考志愿数据 Wiki（黑龙江先行）
+# 高考志愿数据 Wiki（黑龙江 · 浙江）
 
 用历年官方数据帮助高考考生选择院校与专业的公开 wiki。数据百科 + 方法论混合站，
-Astro 静态生成 + 客户端位次定位 island，无服务端。
+Astro 静态生成 + 客户端位次定位 island，无服务端。对称 `/[省]/` 路由：`/hlj/`（黑龙江，
+物理/历史）、`/zj/`（浙江，综合·专业平行志愿），根 `/` 跳默认省。
 
-设计文档见 [`CONTEXT.md`](./CONTEXT.md)（术语表）与 [`docs/adr/`](./docs/adr/)（架构决策）。
+设计文档见 [`CONTEXT.md`](./CONTEXT.md)（术语表）与 [`docs/adr/`](./docs/adr/)（架构决策；
+多省份泛化见 [`0009`](./docs/adr/0009-multi-province-zhejiang.md)）。
 
 ## 结构
 
-- `src/` — Astro 站点（页面、布局、Preact island、方法论文章）
-- `cmd/zhiyuan-data/` — Go 数据预处理工具：官方 xlsx → 结构化 JSON
-- `internal/` — Go 领域逻辑（位次换算、等效位次、挂接、选科判定）
-- `src/data/` — 预处理生成、提交进仓库的 JSON（原始 xlsx 不入仓库）
+- `src/` — Astro 站点（页面 `src/pages/[prov]/…`、布局、Preact island、方法论文章）
+- `cmd/zhiyuan-data/` — Go 数据预处理工具：官方 xlsx → 结构化 JSON（`-prov` 选省份）
+- `internal/core` — 省份无关原语；`internal/hlj`、`internal/zj` — 各省专属解析
+- `src/data/<省>/`、`public/data/<省>/` — 预处理生成、提交进仓库的 JSON（原始 xlsx 不入仓库）
 
 ## 开发
 
@@ -47,14 +49,20 @@ go run ./cmd/zhiyuan-data help
 
 ## 重新生成数据
 
+每个命令用 `-prov hlj|zj` 选省份（默认 hlj），产物落到 `src/data/<省>/`、`public/data/<省>/`：
+
 ```sh
-go run ./cmd/zhiyuan-data fenduan    # 一分一段 → JSON
-go run ./cmd/zhiyuan-data yuanxiao   # 院校 / 院校×专业 / 2026 组视图
-go run ./cmd/zhiyuan-data zhuanye    # 专业跨校聚合
-go run ./cmd/zhiyuan-data dingwei    # 位次定位索引
+for P in hlj zj; do
+  go run ./cmd/zhiyuan-data fenduan  -prov $P   # 一分一段 → JSON
+  go run ./cmd/zhiyuan-data yuanxiao -prov $P   # 院校 / 院校×专业 / 2026 报考视图
+  go run ./cmd/zhiyuan-data zhuanye  -prov $P   # 专业跨校聚合
+  go run ./cmd/zhiyuan-data dingwei  -prov $P   # 位次定位索引
+done
 ```
+
+渲染测试（Playwright，前置 `npm run build`）：`npm run test:render`。
 
 ## 数据来源与免责
 
-数据源自黑龙江省招生考试信息港（lzk.hl.cn）官方公开数据，及万师兄·高考志愿填报大数据
-（第三方整理）。本站数据**仅供参考**，一切以各省考试院及院校最新官方公布为准。
+数据源自各省招生考试院官方公开数据（黑龙江 lzk.hl.cn；浙江省教育考试院），及万师兄·
+高考志愿填报大数据（第三方整理）。本站数据**仅供参考**，一切以各省考试院及院校最新官方公布为准。

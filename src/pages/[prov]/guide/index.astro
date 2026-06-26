@@ -1,0 +1,47 @@
+---
+import Base from "../../../layouts/Base.astro";
+import { getCollection } from "astro:content";
+import { PROVINCE_SLUGS, provinceConfig } from "../../../lib/provinces";
+
+export async function getStaticPaths() {
+  const guides = (await getCollection("guide")).sort((a, b) => a.data.order - b.data.order);
+  return PROVINCE_SLUGS.map((prov) => ({ params: { prov }, props: { prov, guides } }));
+}
+
+const { prov, guides } = Astro.props;
+const cfg = provinceConfig(prov);
+---
+
+<Base
+  prov={prov}
+  title={`报志愿指南 · ${cfg.name} · 高考志愿数据 Wiki`}
+  description="平行志愿、等效位次法、冲稳保分档、防调剂等方法论文章。"
+>
+  <section class="mx-auto max-w-2xl px-4 py-12">
+    <h1 class="text-2xl font-bold">报志愿指南</h1>
+    <p class="mt-2 text-slate-600">看懂规则与方法，再去位次定位和翻院校 / 专业数据，事半功倍。</p>
+    {
+      cfg.fillModel === "major" && (
+        <p class="mt-2 rounded-lg bg-amber-50 px-3 py-2 text-sm text-amber-800">
+          注意：{cfg.name}实行<strong>专业平行志愿</strong>（按院校×专业投档、无组内调剂），下文涉及"院校专业组 / 服从调剂"的部分按{cfg.name}规则理解。
+        </p>
+      )
+    }
+
+    <ul class="mt-8 space-y-3">
+      {
+        guides.map((g) => (
+          <li>
+            <a
+              href={`/${prov}/guide/${g.id}/`}
+              class="block rounded-xl border border-slate-200 bg-white p-4 hover:border-slate-400"
+            >
+              <div class="font-semibold">{g.data.title}</div>
+              {g.data.description && <div class="mt-1 text-sm text-slate-500">{g.data.description}</div>}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+</Base>

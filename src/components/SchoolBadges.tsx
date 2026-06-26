@@ -13,7 +13,7 @@ const cls: Record<Bucket, string> = {
  * 就地填上冲/稳/保。并在 URL 带 #z-{专业键} 时自动展开对应专业区块并滚动到位。
  * 用一个 island 注解整页，避免每个专业各挂一个 island。
  */
-export default function SchoolBadges() {
+export default function SchoolBadges({ prov }: { prov: string }) {
   useEffect(() => {
     // 锚点：展开并滚动到目标 <details>
     const hash = decodeURIComponent(location.hash.replace(/^#/, ""));
@@ -29,8 +29,8 @@ export default function SchoolBadges() {
     let V = 0;
     let myTrack = "";
     try {
-      V = parseInt(localStorage.getItem("myRank") || "0", 10) || 0;
-      myTrack = localStorage.getItem("myTrack") || "";
+      V = parseInt(localStorage.getItem(`myRank.${prov}`) || "0", 10) || 0;
+      myTrack = localStorage.getItem(`myTrack.${prov}`) || "";
     } catch {
       /* ignore */
     }
@@ -43,6 +43,6 @@ export default function SchoolBadges() {
       el.textContent = `按你的位次 ${V.toLocaleString()}：${b === "out" ? "够不着" : b}`;
       el.className = `rank-badge ml-2 rounded px-2 py-0.5 text-xs font-medium ${cls[b]}`;
     });
-  }, []);
+  }, [prov]);
   return null;
 }

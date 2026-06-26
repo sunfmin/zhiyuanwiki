@@ -4,20 +4,21 @@ import "testing"
 
 func TestEquivRank(t *testing.T) {
 	totals := map[YearTrack]int{
-		{2025, "物理"}: 100000,
-		{2026, "物理"}: 110000,
+		{Year: 2025, Track: "物理"}: 100000,
+		{Year: 2026, Track: "物理"}: 110000,
 	}
+	yt := func(y int, tr string) YearTrack { return YearTrack{Year: y, Track: tr} }
 	tests := []struct {
-		name             string
-		rank             int
-		from, to         YearTrack
-		want             int
+		name     string
+		rank     int
+		from, to YearTrack
+		want     int
 	}{
-		{"按总人数比例放大", 100, YearTrack{2025, "物理"}, YearTrack{2026, "物理"}, 110},
-		{"同年同科类-原样", 100, YearTrack{2026, "物理"}, YearTrack{2026, "物理"}, 100},
-		{"缺from总人数-回退原位次", 100, YearTrack{2024, "物理"}, YearTrack{2026, "物理"}, 100},
-		{"缺to总人数-回退原位次", 100, YearTrack{2025, "物理"}, YearTrack{2026, "历史"}, 100},
-		{"非正位次-原样", 0, YearTrack{2025, "物理"}, YearTrack{2026, "物理"}, 0},
+		{"按总人数比例放大", 100, yt(2025, "物理"), yt(2026, "物理"), 110},
+		{"同年同科类-原样", 100, yt(2026, "物理"), yt(2026, "物理"), 100},
+		{"缺from总人数-回退原位次", 100, yt(2024, "物理"), yt(2026, "物理"), 100},
+		{"缺to总人数-回退原位次", 100, yt(2025, "物理"), yt(2026, "历史"), 100},
+		{"非正位次-原样", 0, yt(2025, "物理"), yt(2026, "物理"), 0},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {

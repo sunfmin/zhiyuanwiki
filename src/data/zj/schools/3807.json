@@ -1,0 +1,112 @@
+{
+  "code": "3807",
+  "name": "宜春职业技术学院",
+  "leaves": [
+    {
+      "schoolCode": "3807",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 536,
+          "minRank": 127670,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 490,
+          "minRank": 184372,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3807",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 518,
+          "minRank": 148777,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 513,
+          "minRank": 157253,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3807",
+      "majorKey": "a3db4652",
+      "majorName": "护理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 489,
+          "minRank": 181027,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 491,
+          "minRank": 183177,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "口腔医学",
+      "majorKey": "c162bced",
+      "selKe": "不限",
+      "plan": 5,
+      "tuition": "12000",
+      "schooling": "三年",
+      "menlei": "医",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 157253,
+      "equivRank": 157253
+    },
+    {
+      "majorName": "护理",
+      "majorKey": "a3db4652",
+      "selKe": "不限",
+      "plan": 10,
+      "tuition": "12000",
+      "schooling": "三年",
+      "menlei": "医",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 183177,
+      "equivRank": 183177
+    },
+    {
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "selKe": "不限",
+      "plan": 10,
+      "tuition": "5000",
+      "schooling": "三年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 184372,
+      "equivRank": 184372
+    }
+  ]
+}

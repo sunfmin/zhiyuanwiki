@@ -8,16 +8,18 @@ import (
 	"os"
 )
 
-const usage = `zhiyuan-data — 高考志愿数据预处理工具（黑龙江）
+const usage = `zhiyuan-data — 高考志愿数据预处理工具（多省份）
 
 用法:
-  zhiyuan-data <command> [flags]
+  zhiyuan-data <command> [-prov hlj|zj] [flags]
 
-命令（随切片逐步实现）:
+命令:
   fenduan    解析一分一段表 → JSON
-  yuanxiao   解析专业录取分数线 → 院校 / 院校×专业 JSON
+  yuanxiao   解析专业录取分数线 → 院校 / 院校×专业 / 2026 报考视图 JSON
+  zhuanye    跨校聚合专业 → 专业索引与详情
   dingwei    构建位次定位索引
 
+-prov 选择省份（默认 hlj 黑龙江；zj 浙江），产物按 src/data/<slug>、public/data/<slug> 分目录。
 原始数据默认从 ~/Developments/zhiyuan/官方数据 读取（用 -src 覆盖）。
 `
 

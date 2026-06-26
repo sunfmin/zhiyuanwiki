@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "preact/hooks";
 import { scoreToRank, type YiFenYiDuan } from "../lib/fenduan";
-import { classify, selKeAllows, type Bucket, type LocEntry } from "../lib/dingwei";
+import { classify, selKeAllows, selKeAllowsZJ, type Bucket, type LocEntry } from "../lib/dingwei";
+import { provinceConfig, trackSlugOf } from "../lib/provinces";
 import {
   matchesFilters,
   emptyFilters,
@@ -14,50 +15,54 @@ import {
   type SchoolMetaMap,
 } from "../lib/filters";
 
-type Track = "物理" | "历史";
-const RESELECT = ["化学", "生物", "政治", "地理"] as const;
+const PRIMARY_RESELECT = ["化学", "生物", "政治", "地理"]; // 黑龙江：首选物理/历史外的再选
+const ZJ_SUBJECTS = ["物理", "化学", "生物", "政治", "历史", "地理", "技术"]; // 浙江 7选3
 const CAP = 60;
-const LS_KEY = "dingwei.input"; // 记住上次输入：科类 / 分或位次 / 再选科目 / 过滤
 
-const trackFile: Record<Track, string> = {
-  物理: "/data/locator-wuli.json",
-  历史: "/data/locator-lishi.json",
-};
+export default function Locator({ prov, table }: { prov: string; table: YiFenYiDuan }) {
+  const cfg = provinceConfig(prov);
+  const multiTrack = cfg.tracks.length > 1;
+  const pick3 = cfg.subjectMode === "pick3of7";
+  const matchSelKe = pick3 ? selKeAllowsZJ : selKeAllows;
+  const unit = cfg.fillModel === "group" ? "院校专业组" : "院校×专业";
+  const LS_KEY = `dingwei.input.${prov}`;
 
-export default function Locator({ wuliTable }: { wuliTable: YiFenYiDuan }) {
-  const [track, setTrack] = useState<Track>("物理");
+  const [track, setTrack] = useState<string>(cfg.tracks[0].name);
   const [mode, setMode] = useState<"score" | "rank">("score");
   const [val, setVal] = useState("");
-  const [sel, setSel] = useState<Record<string, boolean>>({ 化学: true, 生物: true, 政治: false, 地理: false });
+  const [sel, setSel] = useState<Record<string, boolean>>(
+    pick3 ? { 物理: true, 化学: true, 生物: true } : { 化学: true, 生物: true, 政治: false, 地理: false },
+  );
   const [filters, setFilters] = useState<Filters>(emptyFilters);
   const [panelOpen, setPanelOpen] = useState(false);
-  const [activeTier, setActiveTier] = useState<Bucket>("冲"); // 手机窄屏一次看一档
+  const [activeTier, setActiveTier] = useState<Bucket>("冲");
 
   const [entries, setEntries] = useState<LocEntry[]>([]);
   const [meta, setMeta] = useState<SchoolMetaMap>({});
   const [loading, setLoading] = useState(false);
   const cache = useRef<Record<string, LocEntry[]>>({});
 
-  // 历史类暂无 2026 一分一段，强制按位次输入。
-  const effectiveMode: "score" | "rank" = track === "历史" ? "rank" : mode;
+  // 当前科类是否有一分一段表（=能按分数输入）；否则强制按位次（如黑龙江历史类）。
+  const canScore = track === cfg.fenduanTrack;
+  const effectiveMode: "score" | "rank" = canScore ? mode : "rank";
 
-  // 挂载后恢复上次输入（localStorage）；ready 之前不回写，避免用默认值覆盖已存值。
+  // 挂载后恢复上次输入（localStorage，按省命名空间）；ready 之前不回写。
   const [ready, setReady] = useState(false);
   useEffect(() => {
     try {
       const raw = localStorage.getItem(LS_KEY);
       if (raw) {
         const s = JSON.parse(raw) as Partial<{
-          track: Track;
+          track: string;
           mode: "score" | "rank";
           val: string;
           sel: Record<string, boolean>;
           filters: Partial<Filters>;
         }>;
-        if (s.track === "物理" || s.track === "历史") setTrack(s.track);
+        if (s.track && cfg.tracks.some((t) => t.name === s.track)) setTrack(s.track);
         if (s.mode === "score" || s.mode === "rank") setMode(s.mode);
         if (typeof s.val === "string") setVal(s.val);
-        if (s.sel && typeof s.sel === "object") setSel((p) => ({ ...p, ...s.sel }));
+        if (s.sel && typeof s.sel === "object") setSel(s.sel);
         if (s.filters && typeof s.filters === "object") setFilters((p) => ({ ...p, ...s.filters }));
       }
     } catch {
@@ -75,18 +80,18 @@ export default function Locator({ wuliTable }: { wuliTable: YiFenYiDuan }) {
     }
   }, [ready, track, mode, val, sel, filters]);
 
-  // 院校属性表一次性 fetch（过滤院校级维度时按 sc 挂接）。
   useEffect(() => {
-    fetch("/data/school-meta.json")
+    fetch(`/data/${prov}/school-meta.json`)
       .then((r) => r.json())
       .then((d: SchoolMetaMap) => setMeta(d))
       .catch(() => {
         /* 拿不到则院校级过滤不生效，专业级仍可用 */
       });
-  }, []);
+  }, [prov]);
 
   useEffect(() => {
-    const file = trackFile[track];
+    const slug = trackSlugOf(cfg, track);
+    const file = `/data/${prov}/locator-${slug}.json`;
     if (cache.current[track]) {
       setEntries(cache.current[track]);
       return;
@@ -99,34 +104,38 @@ export default function Locator({ wuliTable }: { wuliTable: YiFenYiDuan }) {
         setEntries(d);
       })
       .finally(() => setLoading(false));
-  }, [track]);
+  }, [prov, track]);
 
+  // 已选科目集合：黑龙江=首选+再选；浙江=7选3 所选。
   const chosen = useMemo(() => {
+    if (pick3) {
+      const s = new Set<string>();
+      for (const k of ZJ_SUBJECTS) if (sel[k]) s.add(k);
+      return s;
+    }
     const s = new Set<string>([track]);
-    for (const k of RESELECT) if (sel[k]) s.add(k);
+    for (const k of PRIMARY_RESELECT) if (sel[k]) s.add(k);
     return s;
-  }, [track, sel]);
+  }, [track, sel, pick3]);
 
-  // 访客位次
   const V = useMemo(() => {
     const n = parseInt(val, 10);
     if (Number.isNaN(n) || n <= 0) return 0;
     if (effectiveMode === "rank") return n;
-    return scoreToRank(wuliTable, n) ?? 0;
-  }, [val, effectiveMode, wuliTable]);
+    return scoreToRank(table, n) ?? 0;
+  }, [val, effectiveMode, table]);
 
   useEffect(() => {
     if (V > 0) {
       try {
-        localStorage.setItem("myRank", String(V));
-        localStorage.setItem("myTrack", track);
+        localStorage.setItem(`myRank.${prov}`, String(V));
+        localStorage.setItem(`myTrack.${prov}`, track);
       } catch {
         /* 隐私模式等忽略 */
       }
     }
-  }, [V, track]);
+  }, [V, track, prov]);
 
-  // 过滤维度选项：省份/学校类别从已加载的 meta 派生（只列出现存值），其余为固定表。
   const provinceOpts = useMemo(() => distinctSorted(Object.values(meta).map((m) => m.p)), [meta]);
   const kindOpts = useMemo(() => distinctSorted(Object.values(meta).map((m) => m.k)), [meta]);
 
@@ -136,24 +145,25 @@ export default function Locator({ wuliTable }: { wuliTable: YiFenYiDuan }) {
     const out: Record<Bucket, LocEntry[]> = { 冲: [], 稳: [], 保: [], out: [] };
     if (V <= 0) return out;
     for (const e of entries) {
-      if (!selKeAllows(e.sk, chosen)) continue;
+      if (!matchSelKe(e.sk, chosen)) continue;
       if (!matchesFilters(e, meta, filters)) continue;
       const b = classify(V, e.r);
       if (b !== "out") out[b].push(e);
     }
-    for (const k of ["冲", "稳", "保"] as Bucket[]) {
-      out[k].sort((a, b) => a.r - b.r);
-    }
+    // 冲：录取位次降序（最接近你、最够得着的在前）——否则"前 60"会被远不可及的极限冲塞满，
+    // 把真正能搏的近档挤出视野。稳/保：升序（最好的、刚兜住的在前）。
+    out["冲"].sort((a, b) => b.r - a.r);
+    out["稳"].sort((a, b) => a.r - b.r);
+    out["保"].sort((a, b) => a.r - b.r);
     return out;
-  }, [entries, V, chosen, meta, filters]);
+  }, [entries, V, chosen, meta, filters, matchSelKe]);
 
-  const cfg: { key: Bucket; meaning: string; bar: string; label: string; delta: string; tint: string }[] = [
+  const cfgT: { key: Bucket; meaning: string; bar: string; label: string; delta: string; tint: string }[] = [
     { key: "冲", meaning: "够一够 · 偏难", bar: "bg-rose-500", label: "text-rose-700", delta: "text-rose-600", tint: "bg-rose-50 ring-rose-200" },
     { key: "稳", meaning: "较稳妥 · 匹配", bar: "bg-amber-500", label: "text-amber-700", delta: "text-amber-600", tint: "bg-amber-50 ring-amber-200" },
     { key: "保", meaning: "兜得住 · 保底", bar: "bg-emerald-500", label: "text-emerald-700", delta: "text-emerald-600", tint: "bg-emerald-50 ring-emerald-200" },
   ];
 
-  // 每个选项相对“你”的位次差：高你 = 录取线更靠前（要往上够），低你 = 你已越过（有富余）。
   function delta(R: number): string {
     const d = R - V;
     if (d === 0) return "与你持平";
@@ -165,7 +175,6 @@ export default function Locator({ wuliTable }: { wuliTable: YiFenYiDuan }) {
       active ? "bg-white text-slate-900 shadow-sm" : "text-slate-500 hover:text-slate-700"
     }`;
 
-  // ── 过滤操作 ──
   function toggle(key: "provinces" | "levels" | "ownership" | "kinds" | "cityTiers" | "categories", v: string) {
     setFilters((p) => {
       const arr = p[key];
@@ -176,7 +185,15 @@ export default function Locator({ wuliTable }: { wuliTable: YiFenYiDuan }) {
     setFilters(emptyFilters());
   }
 
-  // 当前生效过滤 → 可移除 chip（即使面板收起也常显）。
+  // 浙江 7选3：最多选 3 科。
+  function toggleSubject(s: string) {
+    setSel((p) => {
+      const on = !!p[s];
+      if (!on && pick3 && ZJ_SUBJECTS.filter((k) => p[k]).length >= 3) return p; // 已满 3 科
+      return { ...p, [s]: !on };
+    });
+  }
+
   const chips: { id: string; text: string; remove: () => void }[] = [];
   for (const p of filters.provinces) chips.push({ id: `p-${p}`, text: p, remove: () => toggle("provinces", p) });
   for (const l of filters.levels) chips.push({ id: `l-${l}`, text: l, remove: () => toggle("levels", l) });
@@ -185,31 +202,33 @@ export default function Locator({ wuliTable }: { wuliTable: YiFenYiDuan }) {
   for (const t of filters.cityTiers) chips.push({ id: `ct-${t}`, text: t, remove: () => toggle("cityTiers", t) });
   for (const c of filters.categories)
     chips.push({ id: `c-${c}`, text: CATEGORY_LABEL[c] || c, remove: () => toggle("categories", c) });
-  if (filters.keyword.trim())
-    chips.push({ id: "kw", text: `关键词「${filters.keyword.trim()}」`, remove: () => setFilters((p) => ({ ...p, keyword: "" })) });
+  if (filters.keyword.trim()) {
+    const kwShown = filters.keyword.trim().split(/\s+/).filter(Boolean).join(" 或 ");
+    chips.push({ id: "kw", text: `关键词「${kwShown}」`, remove: () => setFilters((p) => ({ ...p, keyword: "" })) });
+  }
   if (filters.minPlan > 0)
     chips.push({ id: "mp", text: `计划 ≥ ${filters.minPlan}`, remove: () => setFilters((p) => ({ ...p, minPlan: 0 })) });
-  if (filters.maxGroupSize > 0)
+  if (cfg.fillModel === "group" && filters.maxGroupSize > 0)
     chips.push({ id: "mg", text: `组内 ≤ ${filters.maxGroupSize}`, remove: () => setFilters((p) => ({ ...p, maxGroupSize: 0 })) });
   if (filters.hideCoopHighFee)
     chips.push({ id: "hf", text: "隐藏中外 / 高收费", remove: () => setFilters((p) => ({ ...p, hideCoopHighFee: false })) });
 
   return (
     <div>
-      {/* 控制台 + 位次主角 */}
       <div class="rounded-2xl border border-slate-200 bg-white p-5 sm:p-6">
         <div class="flex flex-col gap-5 sm:flex-row sm:items-end sm:justify-between">
-          {/* 输入 */}
           <div class="space-y-3">
             <div class="flex flex-wrap items-center gap-2">
-              <div class="inline-flex rounded-lg bg-slate-100 p-0.5">
-                {(["物理", "历史"] as Track[]).map((t) => (
-                  <button type="button" onClick={() => setTrack(t)} class={seg(track === t)}>
-                    {t}类
-                  </button>
-                ))}
-              </div>
-              {track === "物理" && (
+              {multiTrack && (
+                <div class="inline-flex rounded-lg bg-slate-100 p-0.5">
+                  {cfg.tracks.map((t) => (
+                    <button type="button" onClick={() => setTrack(t.name)} class={seg(track === t.name)}>
+                      {t.name}类
+                    </button>
+                  ))}
+                </div>
+              )}
+              {canScore && (
                 <div class="inline-flex rounded-lg bg-slate-100 p-0.5">
                   <button type="button" onClick={() => setMode("score")} class={seg(mode === "score")}>
                     分数
@@ -229,11 +248,11 @@ export default function Locator({ wuliTable }: { wuliTable: YiFenYiDuan }) {
               />
             </div>
             <div class="flex flex-wrap items-center gap-1.5">
-              <span class="text-xs text-slate-400">再选科目</span>
-              {RESELECT.map((s) => (
+              <span class="text-xs text-slate-400">{pick3 ? "选考科目（7选3）" : "再选科目"}</span>
+              {(pick3 ? ZJ_SUBJECTS : PRIMARY_RESELECT).map((s) => (
                 <button
                   type="button"
-                  onClick={() => setSel((p) => ({ ...p, [s]: !p[s] }))}
+                  onClick={() => toggleSubject(s)}
                   class={`rounded-full px-2.5 py-0.5 text-xs font-medium transition ${
                     sel[s] ? "bg-slate-800 text-white" : "border border-slate-300 text-slate-500 hover:border-slate-400"
                   }`}
@@ -244,7 +263,6 @@ export default function Locator({ wuliTable }: { wuliTable: YiFenYiDuan }) {
             </div>
           </div>
 
-          {/* 你的位次：本屏主角 */}
           <div class="shrink-0 sm:text-right">
             {V > 0 ? (
               <>
@@ -252,7 +270,9 @@ export default function Locator({ wuliTable }: { wuliTable: YiFenYiDuan }) {
                 <div class="mt-0.5 text-4xl font-bold tabular-nums tracking-tight text-slate-900 sm:text-5xl">
                   {V.toLocaleString()}
                 </div>
-                <div class="mt-1 text-xs text-slate-500">{track}类 · 等效到 2026 · 越小越靠前</div>
+                <div class="mt-1 text-xs text-slate-500">
+                  {track}类 · 等效到 {cfg.fenduanYear} · 越小越靠前
+                </div>
               </>
             ) : (
               <div class="text-sm text-slate-400">
@@ -261,12 +281,11 @@ export default function Locator({ wuliTable }: { wuliTable: YiFenYiDuan }) {
             )}
           </div>
         </div>
-        {track === "历史" && (
-          <p class="mt-3 text-xs text-amber-700">历史类暂缺 2026 一分一段，请直接输入位次。</p>
+        {multiTrack && !canScore && (
+          <p class="mt-3 text-xs text-amber-700">{track}类暂缺 {cfg.fenduanYear} 一分一段，请直接输入位次。</p>
         )}
       </div>
 
-      {/* 筛选：默认收起，生效过滤以常显 chip 显示 */}
       {V > 0 && (
         <div class="mt-4 rounded-xl border border-slate-200 bg-white">
           <div class="flex flex-wrap items-center gap-2 px-3 py-2.5">
@@ -286,16 +305,15 @@ export default function Locator({ wuliTable }: { wuliTable: YiFenYiDuan }) {
               <span class="text-xs">{panelOpen ? "▲" : "▼"}</span>
             </button>
 
-            {/* 常显 active chips */}
             {chips.map((c) => (
               <button
                 type="button"
                 key={c.id}
                 onClick={c.remove}
-                class="inline-flex items-center gap-1 rounded-full bg-slate-100 px-2.5 py-1 text-xs text-slate-700 hover:bg-slate-200"
+                class="inline-flex max-w-full items-center gap-1 rounded-full bg-slate-100 px-2.5 py-1 text-left text-xs text-slate-700 hover:bg-slate-200"
               >
-                {c.text}
-                <span class="text-slate-400">✕</span>
+                <span class="min-w-0 break-words">{c.text}</span>
+                <span class="shrink-0 text-slate-400">✕</span>
               </button>
             ))}
             {activeFilters && (
@@ -333,11 +351,13 @@ export default function Locator({ wuliTable }: { wuliTable: YiFenYiDuan }) {
                   value={filters.minPlan}
                   onChange={(n) => setFilters((p) => ({ ...p, minPlan: n }))}
                 />
-                <NumField
-                  label="组内专业数上限"
-                  value={filters.maxGroupSize}
-                  onChange={(n) => setFilters((p) => ({ ...p, maxGroupSize: n }))}
-                />
+                {cfg.fillModel === "group" && (
+                  <NumField
+                    label="组内专业数上限"
+                    value={filters.maxGroupSize}
+                    onChange={(n) => setFilters((p) => ({ ...p, maxGroupSize: n }))}
+                  />
+                )}
                 <label class="flex cursor-pointer items-center gap-2 text-sm text-slate-700">
                   <input
                     type="checkbox"
@@ -353,14 +373,12 @@ export default function Locator({ wuliTable }: { wuliTable: YiFenYiDuan }) {
         </div>
       )}
 
-      {/* 结果 */}
       {loading && <p class="mt-6 text-sm text-slate-500">加载定位数据…</p>}
       {!loading && V > 0 && (
         <>
-          {/* 手机：冲/稳/保 切换（窄屏一次看一档，避免三档纵向堆叠的长滚动）。随页滚动吸顶。 */}
           <div class="sticky top-0 z-20 mt-4 bg-slate-50/95 py-2 backdrop-blur lg:hidden">
             <div class="flex gap-1 rounded-xl border border-slate-200 bg-white p-1 shadow-sm">
-              {cfg.map(({ key, label, tint }) => {
+              {cfgT.map(({ key, label, tint }) => {
                 const on = key === activeTier;
                 return (
                   <button
@@ -380,7 +398,7 @@ export default function Locator({ wuliTable }: { wuliTable: YiFenYiDuan }) {
           </div>
 
           <div class="mt-3 grid gap-4 lg:mt-4 lg:grid-cols-3">
-            {cfg.map(({ key, meaning, bar, label, delta: deltaCls }) => {
+            {cfgT.map(({ key, meaning, bar, label, delta: deltaCls }) => {
               const list = buckets[key];
               return (
                 <div
@@ -409,7 +427,7 @@ export default function Locator({ wuliTable }: { wuliTable: YiFenYiDuan }) {
                     const city = m?.c?.replace(/[市]$/, "");
                     return (
                       <li>
-                        <a href={`/yuanxiao/${e.sc}/#z-${e.mk}`} class="block px-3 py-2 hover:bg-slate-50">
+                        <a href={`/${prov}/yuanxiao/${e.sc}/#z-${e.mk}`} class="block px-3 py-2 hover:bg-slate-50">
                           <div class="flex items-start justify-between gap-2">
                             <div class="min-w-0">
                               <div class="flex items-center gap-1.5">
@@ -434,7 +452,7 @@ export default function Locator({ wuliTable }: { wuliTable: YiFenYiDuan }) {
                             {m?.k && <span>{m.k}</span>}
                             <span>计划 {e.pl || "—"}</span>
                             <span>选科 {e.sk || "不限"}</span>
-                            {e.gs > 1 && <span>组内 {e.gs} 专业 · 服从可调剂</span>}
+                            {cfg.fillModel === "group" && (e.gs ?? 0) > 1 && <span>组内 {e.gs} 专业 · 服从可调剂</span>}
                             {m?.o === "民办" && <span class="text-amber-600">民办</span>}
                             {e.cw && <span class="text-violet-500">中外合作</span>}
                           </div>
@@ -459,7 +477,7 @@ export default function Locator({ wuliTable }: { wuliTable: YiFenYiDuan }) {
           <p class="text-sm text-slate-500">
             输入分数或位次，按等效位次给出 <span class="font-medium text-rose-600">冲</span> /{" "}
             <span class="font-medium text-amber-600">稳</span> /{" "}
-            <span class="font-medium text-emerald-600">保</span> 的可填报院校专业组。
+            <span class="font-medium text-emerald-600">保</span> 的可填报{unit}。
           </p>
         </div>
       )}
@@ -467,7 +485,6 @@ export default function Locator({ wuliTable }: { wuliTable: YiFenYiDuan }) {
   );
 }
 
-// 院校层次显示：只取最高一档（985 ⊃ 211 ⊃ 双一流），列表里一个 pill 足矣。
 const LEVEL_RANK = ["985", "211", "双一流"];
 function topLevel(lv?: string[]): string | undefined {
   if (!lv) return undefined;
@@ -481,14 +498,12 @@ function levelCls(lv: string): string {
       : "bg-violet-50 text-violet-700";
 }
 
-// 去重 + 中文排序（忽略空值），用于从 meta 派生省份/类别选项。
 function distinctSorted(xs: (string | undefined)[]): string[] {
   const set = new Set<string>();
   for (const x of xs) if (x) set.add(x);
   return [...set].sort((a, b) => a.localeCompare(b, "zh"));
 }
 
-// 一行多选 chip：维度间 AND、组内 OR。
 function ChipRow({
   label,
   options,
@@ -526,7 +541,6 @@ function ChipRow({
   );
 }
 
-// 数字下限/上限输入（空=不限，存为 0）。
 function NumField({ label, value, onChange }: { label: string; value: number; onChange: (n: number) => void }) {
   return (
     <div class="flex flex-col gap-1.5">

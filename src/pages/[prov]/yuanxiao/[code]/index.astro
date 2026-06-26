@@ -1,0 +1,206 @@
+---
+import Base from "../../../../layouts/Base.astro";
+import RankTrend from "../../../../components/RankTrend.astro";
+import SchoolBadges from "../../../../components/SchoolBadges.tsx";
+import { provinceConfig } from "../../../../lib/provinces";
+import type { SchoolDetail, Leaf } from "../../../../lib/data";
+
+export function getStaticPaths() {
+  const files = import.meta.glob<{ default: SchoolDetail }>("/src/data/*/schools/*.json", {
+    eager: true,
+  });
+  return Object.entries(files).map(([path, m]) => {
+    const prov = path.split("/")[3]; // /src/data/<prov>/schools/<code>.json
+    return { params: { prov, code: m.default.code }, props: { prov, school: m.default } };
+  });
+}
+
+const { prov, school } = Astro.props as { prov: string; school: SchoolDetail };
+const cfg = provinceConfig(prov);
+
+const latest = (l: Leaf) => l.years.reduce((a, b) => (b.year >= a.year ? b : a), l.years[0]);
+const leaves = school.leaves.slice().sort((a, b) => latest(a).minRank - latest(b).minRank);
+const groups = school.groups2026 ?? [];
+const plan = school.plan2026 ?? [];
+const unit = cfg.fillModel === "group" ? "院校专业组" : "招生专业";
+const unitCount = cfg.fillModel === "group" ? groups.length : plan.length;
+const tracksLabel = cfg.tracks.map((t) => t.name).join(" / ");
+---
+
+<Base
+  prov={prov}
+  title={`${school.name} · 院校 · 高考志愿数据 Wiki`}
+  description={`${school.name}在${cfg.name}的 2026 招生与历年专业录取位次（2022–2025）。`}
+>
+  <section class="mx-auto max-w-4xl px-4 py-12">
+    <a href={`/${prov}/yuanxiao/`} class="text-sm text-slate-500 hover:text-slate-800">← 院校浏览</a>
+    <h1 class="mt-2 text-2xl font-bold">{school.name}</h1>
+    <p class="mt-1 text-sm text-slate-500">
+      院校代码 {school.code} · {unitCount} 个 2026 {unit} · {leaves.length} 个专业有 2022–2025 录取记录
+    </p>
+
+    {/* 黑龙江：院校专业组视图 */}
+    {
+      cfg.fillModel === "group" && groups.length > 0 && (
+        <div class="mt-8">
+          <h2 class="text-lg font-semibold">2026 报考视图（院校专业组）</h2>
+          <p class="mt-1 text-xs text-slate-500">
+            平行志愿按院校专业组填报。组号逐年变，故往年位次按"院校 + 专业名"挂接到组内专业（非按组号）。
+          </p>
+          <div class="mt-4 space-y-6">
+            {groups.map((g) => (
+              <div class="rounded-xl border border-slate-200 bg-white p-4">
+                <div class="flex flex-wrap items-baseline gap-2">
+                  <span class="font-semibold">{g.groupName}</span>
+                  <span class="rounded bg-slate-100 px-1.5 py-0.5 text-xs text-slate-600">{g.track}类</span>
+                  {g.selKe && (
+                    <span class="rounded bg-amber-50 px-1.5 py-0.5 text-xs text-amber-700">选科：{g.selKe}</span>
+                  )}
+                </div>
+                <div class="mt-3 overflow-x-auto">
+                  <table class="w-full border-collapse text-sm">
+                    <thead>
+                      <tr class="border-b border-slate-300 text-left text-slate-500">
+                        <th class="py-1.5 pr-4">组内专业</th>
+                        <th class="py-1.5 pr-4">选科</th>
+                        <th class="py-1.5 pr-4">计划</th>
+                        <th class="py-1.5 pr-4">学费</th>
+                        <th class="py-1.5 pr-4">往年最低位次</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {g.majors.map((m) => (
+                        <tr class="border-b border-slate-100">
+                          <td class="py-1.5 pr-4">
+                            <a href={`#z-${m.majorKey}`} class="text-slate-900 hover:underline">
+                              {m.majorName}
+                            </a>
+                          </td>
+                          <td class="py-1.5 pr-4 text-slate-600">{m.selKe || "—"}</td>
+                          <td class="py-1.5 pr-4 tabular-nums">{m.plan || "—"}</td>
+                          <td class="py-1.5 pr-4 tabular-nums">{m.tuition || "—"}</td>
+                          <td class="py-1.5 pr-4 tabular-nums">
+                            {m.prevRank ? `${m.prevRank.toLocaleString()}（${m.prevYear}）` : "—"}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )
+    }
+
+    {/* 浙江：院校×专业视图（专业平行志愿，每个专业独立投档，无组内调剂） */}
+    {
+      cfg.fillModel === "major" && plan.length > 0 && (
+        <div class="mt-8">
+          <h2 class="text-lg font-semibold">2026 报考视图（招生专业）</h2>
+          <p class="mt-1 text-xs text-slate-500">
+            专业平行志愿：每个院校×专业是一个独立投档单位（无组内调剂）。往年位次按"院校 + 专业名"挂接。
+          </p>
+          <div class="mt-4 overflow-x-auto rounded-xl border border-slate-200 bg-white">
+            <table class="w-full border-collapse text-sm">
+              <thead>
+                <tr class="border-b border-slate-300 text-left text-slate-500">
+                  <th class="py-2 pl-4 pr-4">专业</th>
+                  <th class="py-2 pr-4">选科</th>
+                  <th class="py-2 pr-4">计划</th>
+                  <th class="py-2 pr-4">学费</th>
+                  <th class="py-2 pr-4">往年最低位次</th>
+                </tr>
+              </thead>
+              <tbody>
+                {plan.map((m) => (
+                  <tr class="border-b border-slate-100">
+                    <td class="py-1.5 pl-4 pr-4">
+                      <a href={`#z-${m.majorKey}`} class="text-slate-900 hover:underline">
+                        {m.majorName}
+                      </a>
+                      {m.coop && <span class="ml-1 text-xs text-violet-500">中外</span>}
+                    </td>
+                    <td class="py-1.5 pr-4 text-slate-600">{m.selKe || "不限"}</td>
+                    <td class="py-1.5 pr-4 tabular-nums">{m.plan || "—"}</td>
+                    <td class="py-1.5 pr-4 tabular-nums">{m.tuition || "—"}</td>
+                    <td class="py-1.5 pr-4 tabular-nums">
+                      {m.prevRank ? `${m.prevRank.toLocaleString()}（${m.prevYear}）` : "—"}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )
+    }
+
+    <div class="mt-12">
+      <h2 class="text-lg font-semibold">全部专业 · 历年录取位次</h2>
+      <p class="mt-1 text-xs text-slate-500">点开专业看历年最低分 / 最低位次走势（2022–2025 {tracksLabel}类）。</p>
+      <div class="mt-4">
+        {
+          leaves.map((l) => {
+            const tracks = [...new Set(l.years.map((y) => y.track))];
+            const y0 = latest(l);
+            return (
+              <details id={`z-${l.majorKey}`} class="border-b border-slate-100">
+                <summary class="flex cursor-pointer flex-wrap items-baseline justify-between gap-x-3 py-2">
+                  <span class="font-medium text-slate-900">{l.majorName}</span>
+                  <span class="text-sm text-slate-500">
+                    最近最低位次 {y0.minRank.toLocaleString()} · {y0.track}类 · 选科 {l.selKe || "—"}
+                  </span>
+                </summary>
+                <div class="pb-5 pl-1">
+                  {tracks.map((tr) => {
+                    const ys = l.years.filter((y) => y.track === tr).sort((a, b) => a.year - b.year);
+                    const latestRank = ys.length ? ys[ys.length - 1].minRank : 0;
+                    return (
+                      <div class="mt-3">
+                        <h3 class="text-sm font-semibold">
+                          {tr}类
+                          <span class="rank-badge" data-rank={latestRank} data-track={tr} />
+                        </h3>
+                        <div class="mt-2 overflow-x-auto">
+                          <table class="w-full border-collapse text-sm">
+                            <thead>
+                              <tr class="border-b border-slate-300 text-left text-slate-500">
+                                <th class="py-1 pr-4">年份</th>
+                                <th class="py-1 pr-4">最低分</th>
+                                <th class="py-1 pr-4">最低位次</th>
+                                <th class="py-1 pr-4">最高分</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {ys.map((y) => (
+                                <tr class="border-b border-slate-100 tabular-nums">
+                                  <td class="py-1 pr-4">{y.year}</td>
+                                  <td class="py-1 pr-4">{y.minScore || "—"}</td>
+                                  <td class="py-1 pr-4">{y.minRank.toLocaleString()}</td>
+                                  <td class="py-1 pr-4">{y.maxScore || "—"}</td>
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        </div>
+                        <div class="mt-2">
+                          <RankTrend points={ys.map((y) => ({ year: y.year, minRank: y.minRank }))} />
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </details>
+            );
+          })
+        }
+      </div>
+    </div>
+
+    <SchoolBadges client:load prov={prov} />
+
+    <p class="mt-10 text-xs text-slate-400">仅供参考，以官方及院校最新公布为准。</p>
+  </section>
+</Base>

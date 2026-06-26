@@ -1,23 +1,10 @@
 package hlj
 
 import (
-	"regexp"
 	"strings"
 
 	"github.com/xuri/excelize/v2"
 )
-
-var parenRe = regexp.MustCompile(`[(（].*?[)）]`)
-
-// normName 归一化院校/专业名：全角括号/空格→半角、去空白。
-func normName(s string) string {
-	return strings.NewReplacer("（", "(", "）", ")", "　", "", " ", "").Replace(strings.TrimSpace(s))
-}
-
-// baseName 去掉括号注记（分校/校区），用于母体标签继承。
-func baseName(s string) string {
-	return strings.TrimSpace(parenRe.ReplaceAllString(normName(s), ""))
-}
 
 // SchoolMeta 是院校级属性（与年份无关），用于位次定位结果过滤。来自万师兄旧格式表，
 // 按校名挂接（含 985/211/双一流，与 tags.go 同源）。城市层级由 CityTier 另算。见 ADR-0008。

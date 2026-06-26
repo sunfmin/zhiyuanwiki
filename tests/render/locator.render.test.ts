@@ -15,7 +15,7 @@ test(
     const { page, browser, out } = await renderToImage({
       baseURL: server.baseURL,
       name: "locator-results",
-      path: "/",
+      path: "/hlj/",
       viewport: { width: 1180, height: 1120 },
       fullPage: false, // 只截首屏：控件 + 三列顶部，便于看清设计细节
       interact: async (p) => {
@@ -24,7 +24,7 @@ test(
         await p.getByPlaceholder("输入分数", { exact: true }).fill("520");
         await p.getByText("你的全省位次").waitFor({ timeout: 8_000 });
         await p.waitForFunction(
-          () => document.querySelectorAll('a[href^="/yuanxiao/"]').length > 0,
+          () => document.querySelectorAll('a[href^="/hlj/yuanxiao/"]').length > 0,
           { timeout: 8_000 },
         );
       },
@@ -34,7 +34,7 @@ test(
     const mainText = await page.locator("main").innerText();
     expect(mainText).toContain("你的全省位次");
     for (const b of ["冲", "稳", "保"]) expect(mainText).toContain(b);
-    const cards = await page.locator('a[href^="/yuanxiao/"]').count();
+    const cards = await page.locator('a[href^="/hlj/yuanxiao/"]').count();
     expect(cards).toBeGreaterThan(0);
     console.log(`渲染 ${cards} 个可填报项 → ${out}`);
 
@@ -49,16 +49,16 @@ test(
     const { page, browser, out } = await renderToImage({
       baseURL: server.baseURL,
       name: "locator-filtered",
-      path: "/",
+      path: "/hlj/",
       viewport: { width: 1180, height: 1280 },
       fullPage: false,
       interact: async (p) => {
         await p.getByPlaceholder("输入分数", { exact: true }).fill("520");
         await p.waitForFunction(
-          () => document.querySelectorAll('a[href^="/yuanxiao/"]').length > 0,
+          () => document.querySelectorAll('a[href^="/hlj/yuanxiao/"]').length > 0,
           { timeout: 8_000 },
         );
-        const before = await p.locator('a[href^="/yuanxiao/"]').count();
+        const before = await p.locator('a[href^="/hlj/yuanxiao/"]').count();
 
         // 展开筛选面板，选 专业大类=工学 + 省份=北京（北京 chip 由 meta 派生）。
         await p.getByRole("button", { name: "筛选" }).click();
@@ -68,7 +68,7 @@ test(
         // 过滤后渲染数 < 过滤前（且仍有结果）。
         await p.waitForFunction(
           (n) => {
-            const c = document.querySelectorAll('a[href^="/yuanxiao/"]').length;
+            const c = document.querySelectorAll('a[href^="/hlj/yuanxiao/"]').length;
             return c > 0 && c < n;
           },
           before,
@@ -82,7 +82,7 @@ test(
     expect(mainText).toContain("工学");
     expect(mainText).toContain("北京");
     expect(mainText).toContain("清除全部");
-    const cards = await page.locator('a[href^="/yuanxiao/"]').count();
+    const cards = await page.locator('a[href^="/hlj/yuanxiao/"]').count();
     expect(cards).toBeGreaterThan(0);
     console.log(`过滤后渲染 ${cards} 个可填报项 → ${out}`);
 

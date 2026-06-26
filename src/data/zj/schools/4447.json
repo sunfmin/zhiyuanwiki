@@ -1,0 +1,74 @@
+{
+  "code": "4447",
+  "name": "香港中文大学（深圳）",
+  "leaves": [
+    {
+      "schoolCode": "4447",
+      "majorKey": "54728189",
+      "majorName": "理科试验班",
+      "selKe": "物/化/生(3选1)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 668,
+          "minRank": 5312,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4447",
+      "majorKey": "47abff30",
+      "majorName": "经济管理试验班",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 666,
+          "minRank": 5979,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "理科试验班",
+      "majorKey": "54728189",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 167,
+      "tuition": "140000",
+      "schooling": "四年",
+      "menlei": "他",
+      "coop": true,
+      "prevYear": 2023,
+      "prevRank": 5312,
+      "equivRank": 5566
+    },
+    {
+      "majorName": "经济管理试验班",
+      "majorKey": "47abff30",
+      "selKe": "不限",
+      "plan": 85,
+      "tuition": "140000",
+      "schooling": "四年",
+      "menlei": "经",
+      "coop": true,
+      "prevYear": 2023,
+      "prevRank": 5979,
+      "equivRank": 6265
+    },
+    {
+      "majorName": "人文科学试验班",
+      "majorKey": "e70fa033",
+      "selKe": "不限",
+      "plan": 23,
+      "tuition": "140000",
+      "schooling": "四年",
+      "menlei": "他",
+      "coop": true
+    }
+  ]
+}

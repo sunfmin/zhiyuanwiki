@@ -107,8 +107,8 @@ type GroupMajor struct {
 	SelKe     string `json:"selKe"`
 	Plan      int    `json:"plan"`
 	Tuition   string `json:"tuition"`
-	Menlei    string `json:"menlei,omitempty"` // 学科门类 1 字码（见 menlei.go），未命中省略
-	Coop      bool   `json:"coop,omitempty"`   // 中外合作办学
+	Menlei    string `json:"menlei,omitempty"`    // 学科门类 1 字码（见 menlei.go），未命中省略
+	Coop      bool   `json:"coop,omitempty"`      // 中外合作办学
 	PrevYear  int    `json:"prevYear,omitempty"`  // 挂接到的最近年份
 	PrevRank  int    `json:"prevRank,omitempty"`  // 该年最低位次
 	EquivRank int    `json:"equivRank,omitempty"` // 等效到 planYear
@@ -177,7 +177,7 @@ func BuildGroups2026(plan []PlanRow, leaves []MajorLeaf, totals map[YearTrack]in
 				gm.PrevYear = p.Year
 				gm.PrevRank = p.MinRank
 				gm.EquivRank = EquivRank(p.MinRank,
-					YearTrack{p.Year, p.Track}, YearTrack{r.Year, r.Track}, totals)
+					YearTrack{Year: p.Year, Track: p.Track}, YearTrack{Year: r.Year, Track: r.Track}, totals)
 			}
 		}
 		g.Majors = append(g.Majors, gm)

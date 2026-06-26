@@ -1,0 +1,78 @@
+{
+  "code": "1179",
+  "name": "北方工业大学",
+  "leaves": [
+    {
+      "schoolCode": "1179",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 588,
+          "minRank": 66786,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 584,
+          "minRank": 70076,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1179",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 579,
+          "minRank": 77231,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 585,
+          "minRank": 68793,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "机械设计制造及其自动化",
+      "majorKey": "55ff9da5",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 3,
+      "tuition": "65000",
+      "schooling": "四年",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 68793,
+      "equivRank": 68793
+    },
+    {
+      "majorName": "数据科学与大数据技术",
+      "majorKey": "bb0a25bd",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "65000",
+      "schooling": "四年",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 70076,
+      "equivRank": 70076
+    }
+  ]
+}

@@ -30,17 +30,20 @@ type majorIndexEntry struct {
 	SchoolCount int    `json:"schoolCount"`
 }
 
-// zhuanyeCmd 按归一化专业名（majorKey）跨校聚合院校×专业叶子 → 专业索引与专业详情。
-// 依赖先跑过 `yuanxiao`。
+// zhuanyeCmd 按归一化专业名（majorKey）跨校聚合院校×专业叶子 → 专业索引与专业详情（按省份分目录）。
+// 依赖先跑过 `yuanxiao -prov <slug>`。科类无关，黑龙江/浙江通用。
 func zhuanyeCmd(args []string) {
 	fs := flag.NewFlagSet("zhuanye", flag.ExitOnError)
-	in := fs.String("in", filepath.Join("src", "data", "schools"), "school 详情 JSON 目录")
-	out := fs.String("out", filepath.Join("src", "data"), "JSON 输出目录")
+	in := fs.String("in", filepath.Join("src", "data"), "src/data 目录（其下按省份 slug 分目录）")
+	out := fs.String("out", filepath.Join("src", "data"), "JSON 输出目录（其下按省份 slug 分目录）")
+	provSlug := fs.String("prov", "hlj", "省份 slug：hlj / zj")
 	_ = fs.Parse(args)
+	p := mustProv(*provSlug)
 
-	files, err := filepath.Glob(filepath.Join(*in, "*.json"))
+	schoolsDir := filepath.Join(srcDir(*in, p), "schools")
+	files, err := filepath.Glob(filepath.Join(schoolsDir, "*.json"))
 	if err != nil || len(files) == 0 {
-		fatal(fmt.Errorf("未找到 school 详情（先跑 yuanxiao）：%v", err))
+		fatal(fmt.Errorf("未找到 %s 的 school 详情（先跑 yuanxiao -prov %s）：%v", p.name, p.slug, err))
 	}
 
 	details := map[string]*majorDetail{}
@@ -57,7 +60,6 @@ func zhuanyeCmd(args []string) {
 			if len(lf.Years) == 0 {
 				continue
 			}
-			// 最近年份数据点
 			latest := lf.Years[0]
 			for _, y := range lf.Years {
 				if y.Year >= latest.Year {
@@ -76,7 +78,8 @@ func zhuanyeCmd(args []string) {
 		}
 	}
 
-	detailDir := filepath.Join(*out, "majors")
+	outBase := srcDir(*out, p)
+	detailDir := filepath.Join(outBase, "majors")
 	if err := os.MkdirAll(detailDir, 0o755); err != nil {
 		fatal(err)
 	}
@@ -92,7 +95,7 @@ func zhuanyeCmd(args []string) {
 		}
 		return index[i].Name < index[j].Name
 	})
-	writeJSON(filepath.Join(*out, "majors.json"), index)
+	writeJSON(filepath.Join(outBase, "majors.json"), index)
 
-	fmt.Printf("✓ 专业 %d 个（跨校聚合）→ %s\n", len(index), *out)
+	fmt.Printf("✓ %s · 专业 %d 个（跨校聚合）→ %s\n", p.name, len(index), outBase)
 }

@@ -1,0 +1,62 @@
+{
+  "code": "3575",
+  "name": "宁德师范学院",
+  "leaves": [
+    {
+      "schoolCode": "3575",
+      "majorKey": "25624660",
+      "majorName": "应用化学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 512,
+          "minRank": 158144,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3575",
+      "majorKey": "0ac1da59",
+      "majorName": "生物技术",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 523,
+          "minRank": 145395,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "生物技术",
+      "majorKey": "0ac1da59",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 1,
+      "tuition": "5200",
+      "schooling": "四年",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 145395,
+      "equivRank": 145395
+    },
+    {
+      "majorName": "应用化学",
+      "majorKey": "25624660",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "4800",
+      "schooling": "四年",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 158144,
+      "equivRank": 158144
+    }
+  ]
+}

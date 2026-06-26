@@ -1,28 +1,37 @@
 ---
 import "../styles/global.css";
+import { provinceConfig, PROVINCES } from "../lib/provinces";
 
 interface Props {
+  prov: string;
   title?: string;
   description?: string;
 }
 
 const {
+  prov,
   title = "高考志愿数据 Wiki",
-  description = "用历年官方数据帮助高考考生选择院校与专业（黑龙江物理 / 历史类先行）",
+  description = "用历年官方数据帮助高考考生选择院校与专业。",
 } = Astro.props;
 
-// 顶部导航：位次定位是主页（/）。当前所在区块高亮。
-const path = Astro.url.pathname;
-const navLinks = [
-  { href: "/", label: "位次定位" },
-  { href: "/yuanxiao", label: "院校" },
-  { href: "/zhuanye", label: "专业" },
-  { href: "/guide", label: "指南" },
-];
-const isActive = (href: string) => (href === "/" ? path === "/" : path.startsWith(href));
+const cfg = provinceConfig(prov);
 
-// 省份切换：目前只有黑龙江有数据，其余省份选中后提示"暂未开放"并回退。
-const ACTIVE_PROVINCE = "黑龙江";
+// 顶部导航：位次定位是省份主页（/<prov>/）。当前所在区块高亮。
+// 路径形如 /<prov>/[section]/...；section 为空即定位主页。
+const path = Astro.url.pathname;
+const seg = path.split("/").filter(Boolean); // ["hlj","yuanxiao",...]
+const section = seg[1] ?? "";
+const navLinks = [
+  { section: "", href: `/${prov}/`, label: "位次定位" },
+  { section: "yuanxiao", href: `/${prov}/yuanxiao`, label: "院校" },
+  { section: "zhuanye", href: `/${prov}/zhuanye`, label: "专业" },
+  { section: "guide", href: `/${prov}/guide`, label: "指南" },
+];
+
+// 省份切换：有数据的省（黑龙江/浙江）可切换并跳到同区块；其余省提示"暂未开放"并回退。
+const enabledNames = Object.fromEntries(
+  Object.values(PROVINCES).map((p) => [p.name, p.slug]),
+);
 const provinces = [
   "北京", "天津", "河北", "山西", "内蒙古", "辽宁", "吉林", "黑龙江",
   "上海", "江苏", "浙江", "安徽", "福建", "江西", "山东", "河南",
@@ -42,7 +51,7 @@ const provinces = [
   <body class="min-h-screen flex flex-col bg-slate-50 text-slate-900 antialiased">
     <header class="border-b border-slate-200 bg-white">
       <nav class="mx-auto flex max-w-5xl items-center gap-3 px-4 py-2.5 sm:gap-5">
-        <a href="/" class="flex shrink-0 items-center gap-2" aria-label="高考志愿数据 Wiki 首页">
+        <a href={`/${prov}/`} class="flex shrink-0 items-center gap-2" aria-label="高考志愿数据 Wiki 首页">
           <span class="grid h-7 w-7 place-items-center rounded-lg bg-slate-900 text-sm font-bold text-white">
             位
           </span>
@@ -55,9 +64,9 @@ const provinces = [
             navLinks.map((l) => (
               <a
                 href={l.href}
-                aria-current={isActive(l.href) ? "page" : undefined}
+                aria-current={l.section === section ? "page" : undefined}
                 class={`shrink-0 rounded-md px-2 py-1 transition ${
-                  isActive(l.href)
+                  l.section === section
                     ? "bg-slate-100 font-medium text-slate-900"
                     : "text-slate-500 hover:text-slate-900"
                 }`}
@@ -71,11 +80,13 @@ const provinces = [
           <span class="hidden sm:inline">省份</span>
           <select
             id="province-select"
+            data-section={section}
+            data-current={cfg.name}
             class="rounded-md border border-slate-300 bg-white px-2 py-1 text-sm text-slate-900"
           >
             {
               provinces.map((p) => (
-                <option value={p} selected={p === ACTIVE_PROVINCE}>
+                <option value={p} selected={p === cfg.name}>
                   {p}
                 </option>
               ))
@@ -96,22 +107,25 @@ const provinces = [
       </div>
     </footer>
 
-    <script is:inline>
+    <script is:inline define:vars={{ enabledNames }}>
       (function () {
         var sel = document.getElementById("province-select");
         var notice = document.getElementById("province-notice");
         if (!sel || !notice) return;
+        var section = sel.dataset.section || "";
+        var current = sel.dataset.current;
         var timer;
         sel.addEventListener("change", function () {
-          var p = sel.value;
-          if (p === "黑龙江") {
-            notice.hidden = true;
+          var name = sel.value;
+          var slug = enabledNames[name];
+          if (slug) {
+            location.href = "/" + slug + "/" + section;
             return;
           }
           notice.textContent =
-            "「" + p + "」的数据还在整理中，暂时切换不了，目前仅支持「黑龙江」。";
+            "「" + name + "」的数据还在整理中，目前支持「黑龙江」「浙江」。";
           notice.hidden = false;
-          sel.value = "黑龙江";
+          sel.value = current;
           if (timer) clearTimeout(timer);
           timer = setTimeout(function () {
             notice.hidden = true;

@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+/* 兜底：任何元素的横向溢出都不应把整页撑出横向滚动条（手机上尤其明显）。
+   用 overflow-x: clip 而非 hidden —— clip 不创建滚动容器，页面里的 position: sticky
+   （如位次定位的冲/稳/保吸顶切换条）仍正常工作；纵向滚动也不受影响。 */
+html {
+  overflow-x: clip;
+}
+
 /* 方法论文章正文（轻量 prose，免 typography 插件） */
 .guide-content {
   line-height: 1.8;
