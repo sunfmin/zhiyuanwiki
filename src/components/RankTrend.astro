@@ -1,0 +1,49 @@
+---
+// 单科类的最低位次走势 sparkline。位次越小越好 → 画在越靠上。
+interface Pt {
+  year: number;
+  minRank: number;
+}
+interface Props {
+  points: Pt[];
+}
+const { points } = Astro.props;
+const pts = points.filter((p) => p.minRank > 0).sort((a, b) => a.year - b.year);
+
+const w = 260;
+const h = 64;
+const pad = 8;
+let poly = "";
+let dots: { x: number; y: number; year: number; rank: number }[] = [];
+if (pts.length >= 1) {
+  const ranks = pts.map((p) => p.minRank);
+  const min = Math.min(...ranks);
+  const max = Math.max(...ranks);
+  const span = max - min || 1;
+  const n = pts.length;
+  dots = pts.map((p, i) => {
+    const x = n === 1 ? w / 2 : pad + (i * (w - 2 * pad)) / (n - 1);
+    const y = pad + ((p.minRank - min) / span) * (h - 2 * pad); // min(最好) → 顶部
+    return { x, y, year: p.year, rank: p.minRank };
+  });
+  poly = dots.map((d) => `${d.x},${d.y}`).join(" ");
+}
+---
+
+{
+  pts.length >= 2 && (
+    <svg viewBox={`0 0 ${w} ${h}`} class="w-full max-w-[260px] text-emerald-600">
+      <polyline
+        points={poly}
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.5"
+      />
+      {dots.map((d) => (
+        <circle cx={d.x} cy={d.y} r="2.5" fill="currentColor">
+          <title>{`${d.year}：最低位次 ${d.rank.toLocaleString()}`}</title>
+        </circle>
+      ))}
+    </svg>
+  )
+}

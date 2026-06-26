@@ -1,0 +1,70 @@
+---
+import Base from "../../../layouts/Base.astro";
+
+type Year = { year: number; track: string; minScore: number; minRank: number; maxScore: number };
+type Leaf = { majorKey: string; majorName: string; selKe: string; years: Year[] };
+type Detail = { code: string; name: string; leaves: Leaf[] };
+
+export function getStaticPaths() {
+  const files = import.meta.glob<{ default: Detail }>("/src/data/schools/*.json", {
+    eager: true,
+  });
+  return Object.values(files).map((m) => ({
+    params: { code: m.default.code },
+    props: { school: m.default },
+  }));
+}
+
+const { school } = Astro.props as { school: Detail };
+
+const latest = (l: Leaf) => l.years.reduce((a, b) => (b.year >= a.year ? b : a), l.years[0]);
+const leaves = school.leaves.slice().sort((a, b) => latest(a).minRank - latest(b).minRank);
+---
+
+<Base
+  title={`${school.name} · 院校 · 高考志愿数据 Wiki`}
+  description={`${school.name}在黑龙江的历年专业录取分数线与位次（2023–2025）。`}
+>
+  <section class="mx-auto max-w-4xl px-4 py-12">
+    <a href="/yuanxiao/" class="text-sm text-slate-500 hover:text-slate-800">← 院校浏览</a>
+    <h1 class="mt-2 text-2xl font-bold">{school.name}</h1>
+    <p class="mt-1 text-sm text-slate-500">
+      院校代码 {school.code} · {leaves.length} 个专业有录取记录（2023–2025 物理 / 历史类本科批）
+    </p>
+
+    <div class="mt-6 overflow-x-auto">
+      <table class="w-full border-collapse text-sm">
+        <thead>
+          <tr class="border-b border-slate-300 text-left text-slate-500">
+            <th class="py-2 pr-4">专业</th>
+            <th class="py-2 pr-4">最近最低位次</th>
+            <th class="py-2 pr-4">科类</th>
+            <th class="py-2 pr-4">选科要求</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            leaves.map((l) => {
+              const y = latest(l);
+              return (
+                <tr class="border-b border-slate-100">
+                  <td class="py-2 pr-4">
+                    <a
+                      href={`/yuanxiao/${school.code}/zhuanye/${l.majorKey}/`}
+                      class="font-medium text-slate-900 hover:underline"
+                    >
+                      {l.majorName}
+                    </a>
+                  </td>
+                  <td class="py-2 pr-4 tabular-nums">{y.minRank.toLocaleString()}</td>
+                  <td class="py-2 pr-4">{y.track}</td>
+                  <td class="py-2 pr-4 text-slate-600">{l.selKe || "—"}</td>
+                </tr>
+              );
+            })
+          }
+        </tbody>
+      </table>
+    </div>
+  </section>
+</Base>
