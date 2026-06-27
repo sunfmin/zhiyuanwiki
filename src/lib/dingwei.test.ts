@@ -1,5 +1,12 @@
 import { describe, it, expect } from "vitest";
-import { classify, bucketize, selKeAllows, type LocEntry } from "./dingwei";
+import {
+  classify,
+  bucketize,
+  assembleColumns,
+  selKeAllows,
+  type LocEntry,
+  type BucketGroups,
+} from "./dingwei";
 
 describe("classify", () => {
   // R=10000 录取位次。
@@ -72,5 +79,50 @@ describe("selKeAllows", () => {
 
   it("物化生不能报要求地理的组", () => {
     expect(selKeAllows("地理", wuhuasheng)).toBe(false);
+  });
+});
+
+describe("assembleColumns", () => {
+  // n 条占位条目；base 错开 r 以免与其它桶撞键（assembleColumns 只看数量，不看 r）。
+  const mk = (n: number, base = 1000): LocEntry[] => Array.from({ length: n }, (_, i) => e(base + i));
+  const groups = (g: Partial<BucketGroups>): BucketGroups => ({
+    够不着: [], 冲: [], 稳: [], 保: [], 过保: [], ...g,
+  });
+
+  it("稳列永远无远档", () => {
+    const cols = assembleColumns(groups({ 稳: mk(3), 够不着: mk(50, 5000), 过保: mk(50, 9000) }), { cap: 30, target: 100 });
+    expect(cols.稳.far).toBeNull();
+  });
+
+  it("冲列稀疏：主档只装真档（不凑数），末尾用够不着补齐到 target", () => {
+    const cols = assembleColumns(groups({ 冲: mk(3), 够不着: mk(200, 5000) }), { cap: 30, target: 100 });
+    expect(cols.冲.all.length).toBe(3); // 主档不被远档撑大
+    expect(cols.冲.capped.length).toBe(3); // 少于 cap，不截断
+    expect(cols.冲.hasMore).toBe(false);
+    expect(cols.冲.far?.bucket).toBe("够不着");
+    expect(cols.冲.far?.entries.length).toBe(97); // 100 - 3
+  });
+
+  it("保列稀疏：末尾用过保补齐到 target", () => {
+    const cols = assembleColumns(groups({ 保: mk(10), 过保: mk(200, 5000) }), { cap: 30, target: 100 });
+    expect(cols.保.far?.bucket).toBe("过保");
+    expect(cols.保.far?.entries.length).toBe(90); // 100 - 10
+  });
+
+  it("真实档 ≥ target 则不补远档", () => {
+    const cols = assembleColumns(groups({ 冲: mk(120), 够不着: mk(50, 5000) }), { cap: 30, target: 100 });
+    expect(cols.冲.far).toBeNull();
+  });
+
+  it("密集：收起态截断到 cap，hasMore 为真，all 仍保留全部", () => {
+    const cols = assembleColumns(groups({ 冲: mk(50) }), { cap: 30, target: 100 });
+    expect(cols.冲.all.length).toBe(50);
+    expect(cols.冲.capped.length).toBe(30);
+    expect(cols.冲.hasMore).toBe(true);
+  });
+
+  it("远档桶为空则不挂（即便未达 target）", () => {
+    const cols = assembleColumns(groups({ 冲: mk(3) }), { cap: 30, target: 100 });
+    expect(cols.冲.far).toBeNull();
   });
 });

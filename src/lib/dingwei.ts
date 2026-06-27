@@ -44,6 +44,50 @@ export function bucketize(V: number, entries: LocEntry[]): BucketGroups {
   return out;
 }
 
+// 列装配（ADR-0010 承重规则的唯一实现，原内联在 Locator.render）。
+// TIER_CAP：密集时每主档收起态先显多少条——纯展示上限，防刷屏，绝不向上填满主档。
+// TARGET：冲/保列用远档「补齐」到的目标条数（「保证 100」的浏览量诉求，只发生在远档区）。
+export const TIER_CAP = 30;
+export const TARGET = 100;
+
+// 主档 → 远档映射：冲列末尾挂「够不着」、保列末尾挂「过保」、稳列无远档。
+const FAR_OF: Record<MainTier, "够不着" | "过保" | null> = { 冲: "够不着", 稳: null, 保: "过保" };
+
+export interface TierColumn {
+  tier: MainTier;
+  all: LocEntry[]; // 全部真实档（计数、「展开剩余」用）——主档只装真档，不凑数
+  capped: LocEntry[]; // 收起态主列（截断到 cap）
+  hasMore: boolean; // all 超过 cap，可「展开剩余」
+  // 远档预览：把本列补齐到 target（真实档已 ≥target、或远档桶为空 → null，即不挂）。
+  far: { bucket: "够不着" | "过保"; entries: LocEntry[] } | null;
+}
+
+/**
+ * 把分档结果装配成冲/稳/保三列。**主档只装真档**（不凑数）：密集时收起态截断到 cap、可展开；
+ * 稀疏就有几条显几条。仅在**远档区**用「够不着」/「过保」把冲列、保列各补齐到 target
+ * （真实档已 ≥target 则不补），**稳列无远档**。补进来的远档归调用方降级展示，绝不冒充冲/保。
+ */
+export function assembleColumns(
+  groups: BucketGroups,
+  opts: { cap?: number; target?: number } = {},
+): Record<MainTier, TierColumn> {
+  const cap = opts.cap ?? TIER_CAP;
+  const target = opts.target ?? TARGET;
+  const out = {} as Record<MainTier, TierColumn>;
+  for (const tier of MAIN_TIERS) {
+    const all = groups[tier];
+    const farBucket = FAR_OF[tier];
+    let far: TierColumn["far"] = null;
+    if (farBucket) {
+      const need = Math.max(0, target - all.length);
+      const entries = need > 0 ? groups[farBucket].slice(0, need) : [];
+      if (entries.length > 0) far = { bucket: farBucket, entries };
+    }
+    out[tier] = { tier, all, capped: all.slice(0, cap), hasMore: all.length > cap, far };
+  }
+  return out;
+}
+
 const SUBJECTS = ["物理", "历史", "化学", "生物", "政治", "地理"];
 
 /** 黑龙江选科判定（"不限"/"化学"/"化学和生物"/"化学或生物"），与 Go SelKeAllows 镜像。 */

@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "preact/hooks";
 import { scoreToRank, rankToScore, type YiFenYiDuan } from "../lib/fenduan";
-import { bucketize, selKeAllows, selKeAllowsZJ, type MainTier, type LocEntry } from "../lib/dingwei";
+import { bucketize, assembleColumns, selKeAllows, selKeAllowsZJ, type MainTier, type LocEntry } from "../lib/dingwei";
 import { provinceConfig, trackSlugOf } from "../lib/provinces";
 import {
   matchesFilters,
@@ -17,12 +17,11 @@ import {
 
 const PRIMARY_RESELECT = ["化学", "生物", "政治", "地理"]; // 黑龙江：首选物理/历史外的再选
 const ZJ_SUBJECTS = ["物理", "化学", "生物", "政治", "历史", "地理", "技术"]; // 浙江 7选3
-// 冲稳保按把握比值分档（见 dingwei.bucketize / ADR-0010），主档绝不凑数。
-// 这里只管"显示多少"：密集时每主档先显 TIER_CAP 条 + 展开更多。
-const TIER_CAP = 30;
-// 远档（够不着/过保）把所在列"补齐"到 TARGET 条：真实冲/保不够 100 时，
-// 用够不着/过保把冲列、保列各补到 100——补进来的仍在"仅供参考"折叠区、置灰、明确标记，绝不冒充冲/保。
-const TARGET = 100;
+// 远档预览的说明文案。承重的分列/截断/补齐规则已在 dingwei.assembleColumns（见 ADR-0010），这里只剩 UI copy。
+const FAR_NOTE: Record<"够不着" | "过保", string> = {
+  够不着: "比冲更难，基本搏不到",
+  过保: "比保更易，白白浪费位次",
+};
 
 export default function Locator({ prov, table }: { prov: string; table: YiFenYiDuan }) {
   const cfg = provinceConfig(prov);
@@ -159,18 +158,14 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
     return bucketize(V, eligible);
   }, [entries, V, chosen, meta, filters, matchSelKe]);
 
+  // 三列装配（截断 + 远档补齐到约 100）全在纯函数里，承重规则不再内联于 render。
+  const columns = useMemo(() => assembleColumns(buckets), [buckets]);
+
   const cfgT: { key: MainTier; meaning: string; bar: string; label: string; tint: string }[] = [
     { key: "冲", meaning: "够一够 · 偏难", bar: "bg-rose-500", label: "text-rose-700", tint: "bg-rose-50 ring-rose-200" },
     { key: "稳", meaning: "较稳妥 · 匹配", bar: "bg-amber-500", label: "text-amber-700", tint: "bg-amber-50 ring-amber-200" },
     { key: "保", meaning: "兜得住 · 保底", bar: "bg-emerald-500", label: "text-emerald-700", tint: "bg-emerald-50 ring-emerald-200" },
   ];
-
-  // 远档配置：冲列末尾挂"够不着"，保列末尾挂"过保"；稳列无远档。
-  const farOf: Record<MainTier, { key: "够不着" | "过保"; note: string } | null> = {
-    冲: { key: "够不着", note: "比冲更难，基本搏不到" },
-    稳: null,
-    保: { key: "过保", note: "比保更易，白白浪费位次" },
-  };
 
   // 等效分：位次仍是基准，分数只作"感知"辅助，仅在当前科类有一分一段表时给出，并标"约"。
   const myScore = canScore && V > 0 ? rankToScore(table, V) : null;
@@ -495,7 +490,7 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
                   >
                     <span class={`text-sm font-bold ${on ? label : "text-slate-500"}`}>{key}</span>
                     <span class={`ml-1 text-xs tabular-nums ${on ? label : "text-slate-400"}`}>
-                      {buckets[key].length}
+                      {columns[key].all.length}
                     </span>
                   </button>
                 );
@@ -505,11 +500,8 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
 
           <div class="mt-3 grid gap-4 lg:mt-4 lg:grid-cols-3">
             {cfgT.map(({ key, meaning, bar, label }) => {
-              const list = buckets[key];
-              const shown = expanded[key] ? list : list.slice(0, TIER_CAP);
-              const far = farOf[key];
-              // 远档只补真实档之外的缺口：把本列补齐到 TARGET 条（真实档已 ≥100 则不补）。
-              const farShown = far ? buckets[far.key].slice(0, Math.max(0, TARGET - list.length)) : [];
+              const col = columns[key];
+              const shown = expanded[key] ? col.all : col.capped;
               return (
                 <div
                   class={`overflow-hidden rounded-xl border border-slate-200 bg-white ${
@@ -522,38 +514,38 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
                     <span class={`text-base font-bold ${label}`}>{key}</span>
                     <span class="text-xs text-slate-400">{meaning}</span>
                   </div>
-                  <span class="text-xs tabular-nums text-slate-400">{list.length} 个</span>
+                  <span class="text-xs tabular-nums text-slate-400">{col.all.length} 个</span>
                 </div>
                 <div class="px-3 pb-1.5 pt-1 text-right text-[10px] tracking-wide text-slate-400">
                   {canScore ? "等效分 · 与你差距" : "录取位次 · 与你差距"}
                 </div>
                 <ul class="divide-y divide-slate-100 border-t border-slate-100">
                   {shown.map((e) => renderRow(e))}
-                  {list.length === 0 && (
+                  {col.all.length === 0 && (
                     <li class="px-3 py-3 text-xs text-slate-300">
                       {activeFilters ? "这一档无符合筛选的" : "这一档暂无可填"}
                     </li>
                   )}
                 </ul>
-                {list.length > TIER_CAP && !expanded[key] && (
+                {col.hasMore && !expanded[key] && (
                   <button
                     type="button"
                     onClick={() => setExpanded((p) => ({ ...p, [key]: true }))}
                     class="w-full border-t border-slate-100 px-3 py-2 text-xs text-slate-500 hover:bg-slate-50"
                   >
-                    展开剩余 {list.length - TIER_CAP} 个 ▾
+                    展开剩余 {col.all.length - col.capped.length} 个 ▾
                   </button>
                 )}
-                {far && farShown.length > 0 && (
+                {col.far && (
                   <details class="border-t-2 border-dashed border-slate-300 bg-slate-100/70">
                     <summary class="flex cursor-pointer list-none flex-wrap items-center gap-x-1.5 gap-y-0.5 px-3 py-2.5 text-xs hover:bg-slate-200/60">
                       <span class="text-slate-400">▸</span>
-                      <span class="rounded bg-slate-200 px-1.5 py-0.5 font-medium text-slate-600">{far.key}</span>
-                      <span class="text-slate-500">{farShown.length} 个 · 仅供参考</span>
-                      <span class="w-full text-slate-400 sm:ml-auto sm:w-auto">{far.note}</span>
+                      <span class="rounded bg-slate-200 px-1.5 py-0.5 font-medium text-slate-600">{col.far.bucket}</span>
+                      <span class="text-slate-500">{col.far.entries.length} 个 · 仅供参考</span>
+                      <span class="w-full text-slate-400 sm:ml-auto sm:w-auto">{FAR_NOTE[col.far.bucket]}</span>
                     </summary>
                     <ul class="divide-y divide-slate-200/70 border-t border-dashed border-slate-300">
-                      {farShown.map((e) => renderRow(e, true))}
+                      {col.far.entries.map((e) => renderRow(e, true))}
                     </ul>
                   </details>
                 )}
