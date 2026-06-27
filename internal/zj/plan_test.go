@@ -14,10 +14,11 @@ func TestParsePlan2026Rows(t *testing.T) {
 		// 艺术类应被科类过滤
 		{"2026", "某美院", "0003", "艺术类", "艺术类本科批", "艺术类", "美术", "03", "", "", "不限", "5", "四年", "10000"},
 	}
-	got, err := parsePlan2026Rows(rows)
+	s, err := core.NewSheet(rows, plan2026Header)
 	if err != nil {
 		t.Fatal(err)
 	}
+	got := parsePlan2026Sheet(s)
 	if len(got) != 2 {
 		t.Fatalf("解析到 %d 行，想要 2（综合·收录批次）", len(got))
 	}

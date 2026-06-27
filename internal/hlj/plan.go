@@ -1,11 +1,8 @@
 package hlj
 
 import (
-	"fmt"
 	"sort"
 	"strings"
-
-	"github.com/xuri/excelize/v2"
 
 	"github.com/sunfmin/zhiyuanwiki/internal/core"
 )
@@ -27,37 +24,22 @@ type PlanRow struct {
 	Tuition    string // 学费
 }
 
-// ParsePlanXLSX 解析招生计划 xlsx，只返回新科类（物理/历史）本科批行。表头驱动。
-func ParsePlanXLSX(path string) ([]PlanRow, error) {
-	f, err := excelize.OpenFile(path)
-	if err != nil {
-		return nil, fmt.Errorf("打开 %s: %w", path, err)
-	}
-	defer f.Close()
-	sheets := f.GetSheetList()
-	if len(sheets) == 0 {
-		return nil, fmt.Errorf("%s: 无 sheet", path)
-	}
-	rows, err := f.GetRows(sheets[0])
-	if err != nil {
-		return nil, fmt.Errorf("读 %s: %w", path, err)
-	}
-	return parsePlanRows(rows)
+// planHeader 判定招生计划表的表头行（含院校代码/专业名称/计划人数）。
+func planHeader(r []string) bool {
+	return core.HasCell(r, "院校代码") && core.HasCell(r, "专业名称") && core.HasCell(r, "计划人数")
 }
 
-func parsePlanRows(rows [][]string) ([]PlanRow, error) {
-	headerIdx := -1
-	for i, r := range rows {
-		if core.HasCell(r, "院校代码") && core.HasCell(r, "专业名称") && core.HasCell(r, "计划人数") {
-			headerIdx = i
-			break
-		}
+// ParsePlanXLSX 解析招生计划 xlsx，只返回新科类（物理/历史）本科批行。表头驱动。
+func ParsePlanXLSX(path string) ([]PlanRow, error) {
+	s, err := core.OpenSheet(path, planHeader)
+	if err != nil {
+		return nil, err
 	}
-	if headerIdx < 0 {
-		return nil, fmt.Errorf("未找到含\"院校代码/专业名称/计划人数\"的表头行")
-	}
-	h := rows[headerIdx]
-	col := func(names ...string) int { return core.FindCol(h, names...) }
+	return parsePlanSheet(s), nil
+}
+
+func parsePlanSheet(s *core.Sheet) []PlanRow {
+	col := s.Col
 	cYear, cTrack, cBatch := col("年份"), col("科类"), col("批次")
 	cSchoolCode, cSchoolName := col("院校代码"), col("院校名称")
 	cGroup, cGroupName := col("专业组代码"), col("专业组名称")
@@ -66,7 +48,7 @@ func parsePlanRows(rows [][]string) ([]PlanRow, error) {
 	cPlan, cSchooling, cTuition := col("计划人数"), col("学制"), col("学费")
 
 	var out []PlanRow
-	for _, r := range rows[headerIdx+1:] {
+	for _, r := range s.Data {
 		track := strings.TrimSpace(core.Cell(r, cTrack))
 		if !newGaokaoTracks[track] {
 			continue
@@ -97,7 +79,7 @@ func parsePlanRows(rows [][]string) ([]PlanRow, error) {
 			Tuition:    strings.TrimSpace(core.Cell(r, cTuition)),
 		})
 	}
-	return out, nil
+	return out
 }
 
 // ── 2026 院校专业组视图（组 = 单年视图；历史由组内专业按院校+专业名挂接）──

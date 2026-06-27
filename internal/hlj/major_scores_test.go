@@ -45,10 +45,11 @@ func TestParseMajorScoreRows(t *testing.T) {
 		// 提前批（非本科批）应被排除
 		{"2025", "黑龙江", "提前批", "物理", "7777", "提前校", "001", "01", "测试", "", "不限", "400", "100", "450"},
 	}
-	got, err := parseMajorScoreRows(rows)
+	s, err := core.NewSheet(rows, majorScoreHeader)
 	if err != nil {
 		t.Fatal(err)
 	}
+	got := parseMajorScoreSheet(s)
 	if len(got) != 2 {
 		t.Fatalf("解析到 %d 行，想要 2（物理+历史本科批含位次）", len(got))
 	}

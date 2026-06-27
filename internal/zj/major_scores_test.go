@@ -1,6 +1,10 @@
 package zj
 
-import "testing"
+import (
+	"testing"
+
+	"github.com/sunfmin/zhiyuanwiki/internal/core"
+)
 
 func TestParseMajorScoreRows(t *testing.T) {
 	rows := [][]string{
@@ -14,10 +18,11 @@ func TestParseMajorScoreRows(t *testing.T) {
 		// 位次缺失应被排除
 		{"2025", "无位次校", "0005", "综合", "普通类一段", "测试", "05", "", "", "不限", "1", "500", "", "浙江", "公办", "否", "否"},
 	}
-	got, err := parseMajorScoreRows(rows)
+	s, err := core.NewSheet(rows, majorScoreHeader)
 	if err != nil {
 		t.Fatal(err)
 	}
+	got := parseMajorScoreSheet(s)
 	if len(got) != 2 {
 		t.Fatalf("解析到 %d 行，想要 2（综合·收录批次·含位次）", len(got))
 	}

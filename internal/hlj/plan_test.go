@@ -67,10 +67,11 @@ func TestParsePlanRows(t *testing.T) {
 		// 高职专科批应排除
 		{"2026", "黑龙江", "物理", "高职专科批", "普通", "4245", "某专科", "4245001", "001", "第001组", "01", "x", "工业机器人技术", "", "不限", "10", "3", "6000"},
 	}
-	got, err := parsePlanRows(rows)
+	s, err := core.NewSheet(rows, planHeader)
 	if err != nil {
 		t.Fatal(err)
 	}
+	got := parsePlanSheet(s)
 	if len(got) != 2 {
 		t.Fatalf("解析到 %d 行，想要 2（本科批）", len(got))
 	}
