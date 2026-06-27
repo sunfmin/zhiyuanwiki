@@ -150,9 +150,10 @@ func (ai *AttrIndex) addLianRows(rows [][]string) {
 	cTags := core.FindCol(h, "院校标签")
 	for _, r := range rows[headerIdx+1:] {
 		is985, is211, syl := tagsOf(core.Cell(r, cTags))
+		prov := strings.TrimSpace(core.Cell(r, cProv))
 		ai.merge(core.Cell(r, cCode), SchoolAttr{
-			Province:      strings.TrimSpace(core.Cell(r, cProv)),
-			City:          strings.TrimSpace(core.Cell(r, cCity)),
+			Province:      prov,
+			City:          core.NormCity(prov, core.Cell(r, cCity)),
 			CityTier:      cityTierOf(core.Cell(r, cTier)),
 			Kind:          strings.TrimSpace(core.Cell(r, cKind)),
 			Is985:         is985,

@@ -22,8 +22,8 @@ func TestSchoolMetaLookup(t *testing.T) {
 		wantFound bool
 		want      SchoolMeta
 	}{
-		{"全列解析", "北京大学", true,
-			SchoolMeta{Province: "北京", City: "北京市", Ownership: "公办", Kind: "综合类", Is985: true, Is211: true, IsShuangYiLiu: true}},
+		{"全列解析（直辖市城市归一为市名）", "北京大学", true,
+			SchoolMeta{Province: "北京", City: "北京", Ownership: "公办", Kind: "综合类", Is985: true, Is211: true, IsShuangYiLiu: true}},
 		{"无层次但有属性也收录", "哈尔滨理工大学", true,
 			SchoolMeta{Province: "黑龙江", City: "哈尔滨市", Ownership: "公办", Kind: "理工类"}},
 		{"民办", "某民办学院", true,
@@ -73,7 +73,7 @@ func TestSchoolMetaMergeFirstNonEmpty(t *testing.T) {
 	})
 	si.AddRows([][]string{
 		{"学校", "省份", "城市", "办学性质", "双一流"},
-		{"测试大学", "上海", "南京市", "", "是"}, // 省份已有不覆盖；城市补空；双一流 OR
+		{"测试大学", "浙江", "南京市", "", "是"}, // 省份已有不覆盖；城市补空；双一流 OR
 	})
 	got, _ := si.Lookup("测试大学")
 	want := SchoolMeta{Province: "江苏", City: "南京市", Ownership: "公办", IsShuangYiLiu: true}

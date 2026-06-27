@@ -107,9 +107,10 @@ func (si *SchoolMetaIndex) AddRows(rows [][]string) {
 		if name == "" {
 			continue
 		}
+		prov := strings.TrimSpace(core.Cell(r, cProv))
 		v := SchoolMeta{
-			Province:      strings.TrimSpace(core.Cell(r, cProv)),
-			City:          strings.TrimSpace(core.Cell(r, cCity)),
+			Province:      prov,
+			City:          core.NormCity(prov, core.Cell(r, cCity)),
 			Ownership:     strings.TrimSpace(core.Cell(r, cOwner)),
 			Kind:          strings.TrimSpace(core.Cell(r, cKind)),
 			Is985:         core.Cell(r, c985) == "是",

@@ -28,6 +28,20 @@ var cityTierMap = map[string]string{
 	"晋中": "三线", "三亚": "三线",
 }
 
+// municipalities 是四个直辖市（裸名）。其下无地级市层级，源数据「城市」列填的是辖区
+// （如 西南大学→北碚区、复旦→徐汇区），当城市展示读着别扭——直辖市本身才是城市。
+var municipalities = map[string]bool{"北京": true, "上海": true, "天津": true, "重庆": true}
+
+// NormCity 归一化「城市」列：直辖市的辖区（北碚区→重庆、海淀区→北京）回填为直辖市名；
+// 其余省份原样返回。省份按裸名（去「市」后缀）匹配。
+func NormCity(province, city string) string {
+	bare := strings.TrimSuffix(strings.TrimSpace(province), "市")
+	if municipalities[bare] {
+		return bare
+	}
+	return strings.TrimSpace(city)
+}
+
 var cityStrip = strings.NewReplacer("市", "", "特别行政区", "")
 
 // CityTier 返回城市层级（一线/新一线/二线/三线）；裸名匹配（去常见后缀）。未知返回 ""。
