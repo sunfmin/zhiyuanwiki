@@ -6,20 +6,45 @@ export type Bucket = "够不着" | "冲" | "稳" | "保" | "过保";
 export type MainTier = "冲" | "稳" | "保";
 export const MAIN_TIERS: MainTier[] = ["冲", "稳", "保"];
 
+// 把握比值阈值——**唯一定义**，classify 与 reachColor 共享（ADR-0010「一处定义、N 处消费」）。
+// 收紧 chongMax(1.15) 等值时，分档与配色一起跟上，不再各写各的。
+export const RATIO = {
+  chongMax: 1.15, // 冲上界：> 即「够不着」
+  wenMax: 1.02, // 稳上界 / 冲下界：> 即「冲」
+  baoMax: 0.9, // 保上界 / 稳下界：> 即「稳」
+  baoMin: 0.75, // 保下界：≥ 即「保」，< 即「过保」
+  chongAmberMax: 1.08, // reachColor 专属：冲区内「较易（琥珀）」与「偏难（红）」的配色分界
+} as const;
+
 /**
  * 冲稳保分档。V=访客位次，R=该专业等效录取位次（越小越难）。
  * 按比值 V/R 贴把握标签——你明显好于线→保；约等于→稳；略低于→冲；
  * 太难→够不着；太易（白白浪费位次）→过保。无效输入→null（不是某一档）。
- * 阈值沿用院校页角标历史值 1.02/1.15/0.90；0.75 是新加的保档下限。
+ * 阈值见 RATIO（一处定义）。
  */
 export function classify(V: number, R: number): Bucket | null {
   if (R <= 0 || V <= 0) return null;
   const ratio = V / R;
-  if (ratio > 1.15) return "够不着";
-  if (ratio > 1.02) return "冲";
-  if (ratio > 0.9) return "稳";
-  if (ratio >= 0.75) return "保";
+  if (ratio > RATIO.chongMax) return "够不着";
+  if (ratio > RATIO.wenMax) return "冲";
+  if (ratio > RATIO.baoMax) return "稳";
+  if (ratio >= RATIO.baoMin) return "保";
   return "过保";
+}
+
+// 把握配色档：稳得住（绿）/ 较易冲（琥珀）/ 偏难·够不着（红）。view 把它映射成颜色类。
+export type ReachLevel = "easy" | "mid" | "hard";
+
+/**
+ * 按把握给「与你差距」着色，**与 classify 共享 RATIO**（不再像旧 reachTint 自抄阈值）：
+ * ≤wenMax→easy；其上到 chongAmberMax→mid；再上（含够不着）→hard。
+ * R≤0（理论无效，实际不进列）→ ratio 0 → easy，沿用原 reachTint 行为。
+ */
+export function reachColor(V: number, R: number): ReachLevel {
+  const ratio = R > 0 ? V / R : 0;
+  if (ratio <= RATIO.wenMax) return "easy";
+  if (ratio <= RATIO.chongAmberMax) return "mid";
+  return "hard";
 }
 
 export type BucketGroups = Record<Bucket, LocEntry[]>;

@@ -1,6 +1,15 @@
 import { useEffect, useMemo, useRef, useState } from "preact/hooks";
 import { scoreToRank, rankToScore, type YiFenYiDuan } from "../lib/fenduan";
-import { bucketize, assembleColumns, selKeAllows, selKeAllowsZJ, type MainTier, type LocEntry } from "../lib/dingwei";
+import {
+  bucketize,
+  assembleColumns,
+  reachColor,
+  selKeAllows,
+  selKeAllowsZJ,
+  type MainTier,
+  type LocEntry,
+  type ReachLevel,
+} from "../lib/dingwei";
 import { provinceConfig, trackSlugOf } from "../lib/provinces";
 import {
   matchesFilters,
@@ -21,6 +30,12 @@ const ZJ_SUBJECTS = ["物理", "化学", "生物", "政治", "历史", "地理",
 const FAR_NOTE: Record<"够不着" | "过保", string> = {
   够不着: "比冲更难，基本搏不到",
   过保: "比保更易，白白浪费位次",
+};
+// 把握配色档 → 文字色类（承重阈值在 dingwei.reachColor，这里只剩 view 映射）。
+const REACH_CLS: Record<ReachLevel, string> = {
+  easy: "text-emerald-600",
+  mid: "text-amber-600",
+  hard: "text-rose-600",
 };
 
 export default function Locator({ prov, table }: { prov: string; table: YiFenYiDuan }) {
@@ -187,13 +202,8 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
     return d > 0 ? `约 高你 ${d} 分` : `约 低你 ${-d} 分`;
   }
 
-  // 按把握给差距着色：稳/保→绿（稳得住）、较易的冲→琥珀、偏难的冲/够不着→红。一列扫下去成频谱。
-  function reachTint(R: number): string {
-    const ratio = R > 0 ? V / R : 0;
-    if (ratio <= 1.02) return "text-emerald-600";
-    if (ratio <= 1.08) return "text-amber-600";
-    return "text-rose-600";
-  }
+  // 按把握给差距着色：稳/保→绿、较易冲→琥珀、偏难冲/够不着→红。阈值在 dingwei.reachColor（与 classify 同源）。
+  const reachTint = (R: number) => REACH_CLS[reachColor(V, R)];
 
   // 单条候选行。主列与远档预览复用；muted=远档预览（置灰）。
   const renderRow = (e: LocEntry, muted = false) => {

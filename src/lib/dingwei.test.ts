@@ -1,6 +1,7 @@
 import { describe, it, expect } from "vitest";
 import {
   classify,
+  reachColor,
   bucketize,
   assembleColumns,
   selKeAllows,
@@ -24,6 +25,28 @@ describe("classify", () => {
     ["录取位次无效-null", 10000, 0, null],
   ])("%s", (_n, V, R, want) => {
     expect(classify(V as number, R as number)).toBe(want);
+  });
+});
+
+describe("reachColor 与 classify 共享阈值", () => {
+  // R=10000。配色频谱：≤1.02 easy（稳得住）/ ≤1.08 mid（较易冲）/ >1.08 hard（偏难·够不着）。
+  it.each([
+    ["稳区→easy", 9000, 10000, "easy"],
+    ["持平→easy", 10000, 10000, "easy"],
+    ["边界1.02→easy", 10200, 10000, "easy"],
+    ["较易冲→mid", 10500, 10000, "mid"],
+    ["边界1.08→mid", 10800, 10000, "mid"],
+    ["偏难冲→hard", 11000, 10000, "hard"],
+    ["够不着→hard", 13000, 10000, "hard"],
+    ["R无效→easy（沿用旧行为）", 10000, 0, "easy"],
+  ])("%s", (_n, V, R, want) => {
+    expect(reachColor(V as number, R as number)).toBe(want);
+  });
+
+  it("wenMax 边界与 classify 一致：刚过 1.02 既是「冲」也是「mid」（不再是 easy）", () => {
+    // ratio 1.03：classify→冲；reachColor→mid。两者拐点同源，不会再各说各话。
+    expect(classify(10300, 10000)).toBe("冲");
+    expect(reachColor(10300, 10000)).toBe("mid");
   });
 });
 
