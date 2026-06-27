@@ -28,7 +28,9 @@ func fenduanCmd(args []string) {
 		// 目前仅 2026 物理为 .xlsx 可读（历史年份为 .xls，待接入）。
 		jobs = append(jobs, job{filepath.Join(*src, "黑龙江2026物理类一分一段表.xlsx"), "物理", 2026})
 	case "zj":
-		for y := 2022; y <= 2025; y++ {
+		// 2026 起官方源是省考试院 PDF（《浙江省2026年普通高校招生成绩分数段表(总分)》，
+		// zjzs.net art_45_12452），导出为同名 xlsx 放进源目录即可与历年统一回流。
+		for y := 2022; y <= 2026; y++ {
 			jobs = append(jobs, job{
 				zjPath(*src, zjDataDir, "一分一段", fmt.Sprintf("浙江%d年的一分一段表.xlsx", y)),
 				"综合", y})
@@ -40,6 +42,11 @@ func fenduanCmd(args []string) {
 		fatal(err)
 	}
 	for _, j := range jobs {
+		// 源文件缺失则跳过（增量回流：只重建本机有源表的年份），其余错误仍硬失败以暴露问题。
+		if _, statErr := os.Stat(j.path); os.IsNotExist(statErr) {
+			fmt.Printf("⚠ 跳过 %s · %s %d：源文件不存在 %s\n", p.name, j.track, j.year, j.path)
+			continue
+		}
 		y, err := core.ParseYiFenYiDuanXLSX(j.path, p.name, j.track, j.year)
 		if err != nil {
 			fatal(err)

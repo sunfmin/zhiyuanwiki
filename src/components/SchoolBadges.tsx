@@ -2,10 +2,11 @@ import { useEffect } from "preact/hooks";
 import { classify, type Bucket } from "../lib/dingwei";
 
 const cls: Record<Bucket, string> = {
+  够不着: "bg-slate-100 text-slate-500",
   冲: "bg-rose-100 text-rose-700",
   稳: "bg-amber-100 text-amber-700",
   保: "bg-emerald-100 text-emerald-700",
-  out: "bg-slate-100 text-slate-500",
+  过保: "bg-slate-100 text-slate-500",
 };
 
 /**
@@ -40,7 +41,8 @@ export default function SchoolBadges({ prov }: { prov: string }) {
       const tr = el.dataset.track || "";
       if (r <= 0 || (myTrack && tr && myTrack !== tr)) return;
       const b = classify(V, r);
-      el.textContent = `按你的位次 ${V.toLocaleString()}：${b === "out" ? "够不着" : b}`;
+      if (!b) return; // 无效输入：不渲染角标
+      el.textContent = `按你的位次 ${V.toLocaleString()}：${b}`;
       el.className = `rank-badge ml-2 rounded px-2 py-0.5 text-xs font-medium ${cls[b]}`;
     });
   }, [prov]);

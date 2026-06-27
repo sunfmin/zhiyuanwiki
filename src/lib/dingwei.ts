@@ -1,18 +1,47 @@
 // 位次定位：冲/稳/保分档 + 选科判定。纯函数，可测；与 Go internal/hlj 选科逻辑镜像。
 
-export type Bucket = "冲" | "稳" | "保" | "out";
+// 把握频谱（难 → 易）。够不着/过保是两端"远档"，不是冲/保。详见 ADR-0010 与 CONTEXT.md。
+export type Bucket = "够不着" | "冲" | "稳" | "保" | "过保";
+// 冲稳保三主档（定位页分列、院校页角标主色）。
+export type MainTier = "冲" | "稳" | "保";
+export const MAIN_TIERS: MainTier[] = ["冲", "稳", "保"];
 
 /**
  * 冲稳保分档。V=访客位次，R=该专业等效录取位次（越小越难）。
- * 阈值：你的位次明显好于录取线→保；约等于→稳；略低于→冲；太低→够不着。
+ * 按比值 V/R 贴把握标签——你明显好于线→保；约等于→稳；略低于→冲；
+ * 太难→够不着；太易（白白浪费位次）→过保。无效输入→null（不是某一档）。
+ * 阈值沿用院校页角标历史值 1.02/1.15/0.90；0.75 是新加的保档下限。
  */
-export function classify(V: number, R: number): Bucket {
-  if (R <= 0 || V <= 0) return "out";
+export function classify(V: number, R: number): Bucket | null {
+  if (R <= 0 || V <= 0) return null;
   const ratio = V / R;
-  if (ratio <= 0.9) return "保";
-  if (ratio <= 1.02) return "稳";
-  if (ratio <= 1.15) return "冲";
-  return "out";
+  if (ratio > 1.15) return "够不着";
+  if (ratio > 1.02) return "冲";
+  if (ratio > 0.9) return "稳";
+  if (ratio >= 0.75) return "保";
+  return "过保";
+}
+
+export type BucketGroups = Record<Bucket, LocEntry[]>;
+
+const emptyGroups = (): BucketGroups => ({ 够不着: [], 冲: [], 稳: [], 保: [], 过保: [] });
+
+/**
+ * 按把握把候选分档：classify 分组 + 每档"最贴近本人位次"在前（按 |R−V| 升序）。
+ * **不凑数、不截断**——稀疏就有几条显几条，密集时的显示上限由调用方（UI）处理。
+ * 调用方须先做选科 / 筛选过滤；r≤0 的条目（classify 返回 null）自动落空。
+ */
+export function bucketize(V: number, entries: LocEntry[]): BucketGroups {
+  const out = emptyGroups();
+  if (V <= 0) return out;
+  for (const e of entries) {
+    const b = classify(V, e.r);
+    if (b) out[b].push(e);
+  }
+  for (const k of Object.keys(out) as Bucket[]) {
+    out[k].sort((a, b) => Math.abs(a.r - V) - Math.abs(b.r - V));
+  }
+  return out;
 }
 
 const SUBJECTS = ["物理", "历史", "化学", "生物", "政治", "地理"];

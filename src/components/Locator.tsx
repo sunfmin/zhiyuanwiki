@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "preact/hooks";
-import { scoreToRank, type YiFenYiDuan } from "../lib/fenduan";
-import { selKeAllows, selKeAllowsZJ, type Bucket, type LocEntry } from "../lib/dingwei";
+import { scoreToRank, rankToScore, type YiFenYiDuan } from "../lib/fenduan";
+import { bucketize, selKeAllows, selKeAllowsZJ, type MainTier, type LocEntry } from "../lib/dingwei";
 import { provinceConfig, trackSlugOf } from "../lib/provinces";
 import {
   matchesFilters,
@@ -17,9 +17,12 @@ import {
 
 const PRIMARY_RESELECT = ["化学", "生物", "政治", "地理"]; // 黑龙江：首选物理/历史外的再选
 const ZJ_SUBJECTS = ["物理", "化学", "生物", "政治", "历史", "地理", "技术"]; // 浙江 7选3
-// 不按百分比分档，只按“排位上下”取个数：把过滤后的可填项按等效位次排好，
-// 稳=最贴你水平的 WINDOW 个，冲=再往上 WINDOW 个（更难），保=再往下 WINDOW 个（更易）。
-const WINDOW = 100;
+// 冲稳保按把握比值分档（见 dingwei.bucketize / ADR-0010），主档绝不凑数。
+// 这里只管"显示多少"：密集时每主档先显 TIER_CAP 条 + 展开更多。
+const TIER_CAP = 30;
+// 远档（够不着/过保）把所在列"补齐"到 TARGET 条：真实冲/保不够 100 时，
+// 用够不着/过保把冲列、保列各补到 100——补进来的仍在"仅供参考"折叠区、置灰、明确标记，绝不冒充冲/保。
+const TARGET = 100;
 
 export default function Locator({ prov, table }: { prov: string; table: YiFenYiDuan }) {
   const cfg = provinceConfig(prov);
@@ -37,7 +40,8 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
   );
   const [filters, setFilters] = useState<Filters>(emptyFilters);
   const [panelOpen, setPanelOpen] = useState(false);
-  const [activeTier, setActiveTier] = useState<Bucket>("冲");
+  const [activeTier, setActiveTier] = useState<MainTier>("冲");
+  const [expanded, setExpanded] = useState<Record<MainTier, boolean>>({ 冲: false, 稳: false, 保: false });
 
   const [entries, setEntries] = useState<LocEntry[]>([]);
   const [meta, setMeta] = useState<SchoolMetaMap>({});
@@ -144,9 +148,7 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
   const activeFilters = anyActive(filters);
 
   const buckets = useMemo(() => {
-    const out: Record<Bucket, LocEntry[]> = { 冲: [], 稳: [], 保: [], out: [] };
-    if (V <= 0) return out;
-    // 先按选科 + 用户筛选过滤（凑数就在符合条件的集合里凑），再按等效位次升序（越小越难）。
+    // 先按选科 + 用户筛选过滤，再交给纯函数 bucketize 按把握比值分档（每档最贴你水平在前，不凑数）。
     const eligible: LocEntry[] = [];
     for (const e of entries) {
       if (e.r <= 0) continue;
@@ -154,34 +156,103 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
       if (!matchesFilters(e, meta, filters)) continue;
       eligible.push(e);
     }
-    eligible.sort((a, b) => a.r - b.r);
-    // 你的位次在排序里的落点：之前(更小/更难)是冲向，之后(更大/更易)是保向。
-    let pivot = eligible.findIndex((e) => e.r >= V);
-    if (pivot < 0) pivot = eligible.length; // 全部都比你难
-    const half = Math.floor(WINDOW / 2);
-    const wenStart = Math.max(0, pivot - half); // 稳：你上下各半，最贴你水平
-    const wenEnd = Math.min(eligible.length, pivot + (WINDOW - half));
-    out["稳"] = eligible.slice(wenStart, wenEnd);
-    out["冲"] = eligible.slice(Math.max(0, wenStart - WINDOW), wenStart); // 稳之上更难的一档
-    out["保"] = eligible.slice(wenEnd, wenEnd + WINDOW); // 稳之下更易的一档
-    // 冲降序（最够得着的在前），稳/保升序（最贴你水平的在前）。
-    out["冲"].sort((a, b) => b.r - a.r);
-    out["稳"].sort((a, b) => a.r - b.r);
-    out["保"].sort((a, b) => a.r - b.r);
-    return out;
+    return bucketize(V, eligible);
   }, [entries, V, chosen, meta, filters, matchSelKe]);
 
-  const cfgT: { key: Bucket; meaning: string; bar: string; label: string; delta: string; tint: string }[] = [
-    { key: "冲", meaning: "够一够 · 偏难", bar: "bg-rose-500", label: "text-rose-700", delta: "text-rose-600", tint: "bg-rose-50 ring-rose-200" },
-    { key: "稳", meaning: "较稳妥 · 匹配", bar: "bg-amber-500", label: "text-amber-700", delta: "text-amber-600", tint: "bg-amber-50 ring-amber-200" },
-    { key: "保", meaning: "兜得住 · 保底", bar: "bg-emerald-500", label: "text-emerald-700", delta: "text-emerald-600", tint: "bg-emerald-50 ring-emerald-200" },
+  const cfgT: { key: MainTier; meaning: string; bar: string; label: string; tint: string }[] = [
+    { key: "冲", meaning: "够一够 · 偏难", bar: "bg-rose-500", label: "text-rose-700", tint: "bg-rose-50 ring-rose-200" },
+    { key: "稳", meaning: "较稳妥 · 匹配", bar: "bg-amber-500", label: "text-amber-700", tint: "bg-amber-50 ring-amber-200" },
+    { key: "保", meaning: "兜得住 · 保底", bar: "bg-emerald-500", label: "text-emerald-700", tint: "bg-emerald-50 ring-emerald-200" },
   ];
+
+  // 远档配置：冲列末尾挂"够不着"，保列末尾挂"过保"；稳列无远档。
+  const farOf: Record<MainTier, { key: "够不着" | "过保"; note: string } | null> = {
+    冲: { key: "够不着", note: "比冲更难，基本搏不到" },
+    稳: null,
+    保: { key: "过保", note: "比保更易，白白浪费位次" },
+  };
+
+  // 等效分：位次仍是基准，分数只作"感知"辅助，仅在当前科类有一分一段表时给出，并标"约"。
+  const myScore = canScore && V > 0 ? rankToScore(table, V) : null;
+  const scoreOf = (R: number) => (canScore ? rankToScore(table, R) : null);
 
   function delta(R: number): string {
     const d = R - V;
     if (d === 0) return "与你持平";
     return d < 0 ? `↑ 高你 ${(-d).toLocaleString()} 位` : `↓ 低你 ${d.toLocaleString()} 位`;
   }
+
+  // 分数差（约）：录取线高你几分 / 低你几分。
+  function scoreDelta(R: number): string | null {
+    if (myScore == null) return null;
+    const rs = scoreOf(R);
+    if (rs == null) return null;
+    const d = rs - myScore;
+    if (d === 0) return "约 持平";
+    return d > 0 ? `约 高你 ${d} 分` : `约 低你 ${-d} 分`;
+  }
+
+  // 按把握给差距着色：稳/保→绿（稳得住）、较易的冲→琥珀、偏难的冲/够不着→红。一列扫下去成频谱。
+  function reachTint(R: number): string {
+    const ratio = R > 0 ? V / R : 0;
+    if (ratio <= 1.02) return "text-emerald-600";
+    if (ratio <= 1.08) return "text-amber-600";
+    return "text-rose-600";
+  }
+
+  // 单条候选行。主列与远档预览复用；muted=远档预览（置灰）。
+  const renderRow = (e: LocEntry, muted = false) => {
+    const m = meta[e.sc];
+    const lv = topLevel(m?.lv);
+    const city = m?.c?.replace(/[市]$/, "");
+    const rs = scoreOf(e.r);
+    const sd = scoreDelta(e.r);
+    return (
+      <li key={`${e.sc}-${e.mk}`}>
+        <a
+          href={`/${prov}/yuanxiao/${e.sc}/#z-${e.mk}`}
+          class={`block px-3 py-2 hover:bg-slate-50 ${muted ? "opacity-60 grayscale" : ""}`}
+        >
+          <div class="flex items-start justify-between gap-2">
+            <div class="min-w-0">
+              <div class="flex items-center gap-1.5">
+                <span class="truncate text-sm font-medium text-slate-900">{e.sn}</span>
+                {lv && (
+                  <span class={`shrink-0 rounded px-1 py-px text-[10px] font-medium ${levelCls(lv)}`}>{lv}</span>
+                )}
+              </div>
+              <div class="truncate text-xs text-slate-500">{e.mn}</div>
+            </div>
+            <div class="shrink-0 text-right leading-tight">
+              {rs != null ? (
+                <>
+                  <div class="text-sm font-semibold tabular-nums text-slate-800">约 {rs} 分</div>
+                  {sd && <div class={`text-[11px] tabular-nums ${reachTint(e.r)}`}>{sd}</div>}
+                  <div class="text-[10px] tabular-nums text-slate-400">
+                    位次 {e.r.toLocaleString()} · {delta(e.r)}
+                  </div>
+                </>
+              ) : (
+                <>
+                  <div class="text-sm font-semibold tabular-nums text-slate-800">{e.r.toLocaleString()}</div>
+                  <div class={`text-[11px] tabular-nums ${reachTint(e.r)}`}>{delta(e.r)}</div>
+                </>
+              )}
+            </div>
+          </div>
+          <div class="mt-1 flex flex-wrap gap-x-2 text-[11px] text-slate-400">
+            {city && <span class="text-slate-500">{city}</span>}
+            {m?.k && <span>{m.k}</span>}
+            <span>计划 {e.pl || "—"}</span>
+            <span>选科 {e.sk || "不限"}</span>
+            {cfg.fillModel === "group" && (e.gs ?? 0) > 1 && <span>组内 {e.gs} 专业 · 服从可调剂</span>}
+            {m?.o === "民办" && <span class="text-amber-600">民办</span>}
+            {e.cw && <span class="text-violet-500">中外合作</span>}
+          </div>
+        </a>
+      </li>
+    );
+  };
 
   const seg = (active: boolean) =>
     `rounded-md px-3 py-1 text-sm font-medium transition ${
@@ -223,6 +294,18 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
   return (
     <div>
       <div class="rounded-2xl border border-slate-200 bg-white p-5 sm:p-6">
+        {/* 数据基准年：明确告知位次换算用的是哪一年的官方一分一段（取自实际装载的表，非配置常量）。 */}
+        {canScore && (
+          <div class="mb-4 flex flex-wrap items-center gap-x-2 gap-y-1 text-xs">
+            <span class="inline-flex items-center rounded-md bg-emerald-50 px-2 py-0.5 font-semibold text-emerald-700 ring-1 ring-emerald-600/20">
+              {table.year} 年一分一段
+            </span>
+            <span class="text-slate-500">
+              位次换算基于{table.province}
+              {table.year}年{table.track}类官方一分一段表（{table.entries.length} 个分数段）
+            </span>
+          </div>
+        )}
         <div class="flex flex-col gap-5 sm:flex-row sm:items-end sm:justify-between">
           <div class="space-y-3">
             <div class="flex flex-wrap items-center gap-2">
@@ -421,8 +504,12 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
           </div>
 
           <div class="mt-3 grid gap-4 lg:mt-4 lg:grid-cols-3">
-            {cfgT.map(({ key, meaning, bar, label, delta: deltaCls }) => {
+            {cfgT.map(({ key, meaning, bar, label }) => {
               const list = buckets[key];
+              const shown = expanded[key] ? list : list.slice(0, TIER_CAP);
+              const far = farOf[key];
+              // 远档只补真实档之外的缺口：把本列补齐到 TARGET 条（真实档已 ≥100 则不补）。
+              const farShown = far ? buckets[far.key].slice(0, Math.max(0, TARGET - list.length)) : [];
               return (
                 <div
                   class={`overflow-hidden rounded-xl border border-slate-200 bg-white ${
@@ -438,54 +525,38 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
                   <span class="text-xs tabular-nums text-slate-400">{list.length} 个</span>
                 </div>
                 <div class="px-3 pb-1.5 pt-1 text-right text-[10px] tracking-wide text-slate-400">
-                  录取位次 · 与你差距
+                  {canScore ? "等效分 · 与你差距" : "录取位次 · 与你差距"}
                 </div>
                 <ul class="divide-y divide-slate-100 border-t border-slate-100">
-                  {list.map((e) => {
-                    const m = meta[e.sc];
-                    const lv = topLevel(m?.lv);
-                    const city = m?.c?.replace(/[市]$/, "");
-                    return (
-                      <li>
-                        <a href={`/${prov}/yuanxiao/${e.sc}/#z-${e.mk}`} class="block px-3 py-2 hover:bg-slate-50">
-                          <div class="flex items-start justify-between gap-2">
-                            <div class="min-w-0">
-                              <div class="flex items-center gap-1.5">
-                                <span class="truncate text-sm font-medium text-slate-900">{e.sn}</span>
-                                {lv && (
-                                  <span class={`shrink-0 rounded px-1 py-px text-[10px] font-medium ${levelCls(lv)}`}>
-                                    {lv}
-                                  </span>
-                                )}
-                              </div>
-                              <div class="truncate text-xs text-slate-500">{e.mn}</div>
-                            </div>
-                            <div class="shrink-0 text-right leading-tight">
-                              <div class="text-sm font-semibold tabular-nums text-slate-800">
-                                {e.r.toLocaleString()}
-                              </div>
-                              <div class={`text-[11px] tabular-nums ${deltaCls}`}>{delta(e.r)}</div>
-                            </div>
-                          </div>
-                          <div class="mt-1 flex flex-wrap gap-x-2 text-[11px] text-slate-400">
-                            {city && <span class="text-slate-500">{city}</span>}
-                            {m?.k && <span>{m.k}</span>}
-                            <span>计划 {e.pl || "—"}</span>
-                            <span>选科 {e.sk || "不限"}</span>
-                            {cfg.fillModel === "group" && (e.gs ?? 0) > 1 && <span>组内 {e.gs} 专业 · 服从可调剂</span>}
-                            {m?.o === "民办" && <span class="text-amber-600">民办</span>}
-                            {e.cw && <span class="text-violet-500">中外合作</span>}
-                          </div>
-                        </a>
-                      </li>
-                    );
-                  })}
+                  {shown.map((e) => renderRow(e))}
                   {list.length === 0 && (
                     <li class="px-3 py-3 text-xs text-slate-300">
                       {activeFilters ? "这一档无符合筛选的" : "这一档暂无可填"}
                     </li>
                   )}
                 </ul>
+                {list.length > TIER_CAP && !expanded[key] && (
+                  <button
+                    type="button"
+                    onClick={() => setExpanded((p) => ({ ...p, [key]: true }))}
+                    class="w-full border-t border-slate-100 px-3 py-2 text-xs text-slate-500 hover:bg-slate-50"
+                  >
+                    展开剩余 {list.length - TIER_CAP} 个 ▾
+                  </button>
+                )}
+                {far && farShown.length > 0 && (
+                  <details class="border-t-2 border-dashed border-slate-300 bg-slate-100/70">
+                    <summary class="flex cursor-pointer list-none flex-wrap items-center gap-x-1.5 gap-y-0.5 px-3 py-2.5 text-xs hover:bg-slate-200/60">
+                      <span class="text-slate-400">▸</span>
+                      <span class="rounded bg-slate-200 px-1.5 py-0.5 font-medium text-slate-600">{far.key}</span>
+                      <span class="text-slate-500">{farShown.length} 个 · 仅供参考</span>
+                      <span class="w-full text-slate-400 sm:ml-auto sm:w-auto">{far.note}</span>
+                    </summary>
+                    <ul class="divide-y divide-slate-200/70 border-t border-dashed border-slate-300">
+                      {farShown.map((e) => renderRow(e, true))}
+                    </ul>
+                  </details>
+                )}
               </div>
               );
             })}

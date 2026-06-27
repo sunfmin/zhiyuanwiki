@@ -1,5 +1,5 @@
 // 渲染浙江「位次定位」结果画面 → out/locator-zj.png。
-// 浙江=单科类「综合」（无物理/历史切换）+ 7选3 选考；用真实 2025 综合一分一段换算位次，
+// 浙江=单科类「综合」（无物理/历史切换）+ 7选3 选考；用真实 2026 综合一分一段换算位次，
 // 真实 locator-zonghe 数据填三档。验证多省份泛化在浙江侧端到端可用。见 ADR-0009。
 import { afterAll, beforeAll, expect, test } from "vitest";
 import { startPreview, renderToImage, type Preview } from "./render-glue";
@@ -32,6 +32,9 @@ test(
 
     const mainText = await page.locator("main").innerText();
     expect(mainText).toContain("你的全省位次");
+    // 数据基准年须明显可见：换算所用一分一段的年份与口径。
+    expect(mainText).toContain("2026 年一分一段");
+    expect(mainText).toContain("2026年综合类官方一分一段表");
     for (const b of ["冲", "稳", "保"]) expect(mainText).toContain(b);
     // 浙江特有：7选3 选考（含「技术」），且无物理/历史科类切换按钮。
     expect(mainText).toContain("选考科目（7选3）");

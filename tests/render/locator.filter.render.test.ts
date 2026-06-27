@@ -25,20 +25,33 @@ test(
       viewport: { width: 1180, height: 1480 },
       fullPage: false,
       interact: async (p) => {
-        await p.getByPlaceholder("输入分数", { exact: true }).fill("600");
+        // 用 650 分（约位次 1.2 万）——够得着 985 工学才有真实主档可收窄；低分（如 600）下
+        // 985 工学按比值全是「够不着」，主档为空，无法验证「常显筛选即时生效仍有结果」。
+        await p.getByPlaceholder("输入分数", { exact: true }).fill("650");
         await p.getByText("你的全省位次").waitFor({ timeout: 8_000 });
         await p.waitForFunction(
           () => document.querySelectorAll('a[href^="/zj/yuanxiao/"]').length > 0,
           { timeout: 8_000 },
         );
 
+        // 只数主档卡片（排除「仅供参考」远档折叠区）：远档会反向把列补齐到约 100（ADR-0010），
+        // 令「总卡片数」非单调；筛选收窄只对主档成立。
+        const mainCount = () =>
+          p.evaluate(() =>
+            [...document.querySelectorAll('a[href^="/zj/yuanxiao/"]')].filter(
+              (a) => !a.closest("details"),
+            ).length,
+          );
+
         // 收起态：常显维度全部可见，应用最常用的两项（无需点开「更多筛选」）。
-        const before = await p.locator('a[href^="/zj/yuanxiao/"]').count();
+        const before = await mainCount();
         await p.getByRole("button", { name: "工学", exact: true }).first().click(); // 专业大类
         await p.getByRole("button", { name: "985", exact: true }).first().click(); // 院校层次
         await p.waitForFunction(
           (n) => {
-            const c = document.querySelectorAll('a[href^="/zj/yuanxiao/"]').length;
+            const c = [...document.querySelectorAll('a[href^="/zj/yuanxiao/"]')].filter(
+              (a) => !a.closest("details"),
+            ).length;
             return c > 0 && c < n;
           },
           before,
@@ -60,9 +73,13 @@ test(
 
     // 契约 3：常显维度即时生效——选了工学 + 985 后仍有结果，且「清除全部」常驻。
     expect(mainText).toContain("清除全部");
-    const cards = await page.locator('a[href^="/zj/yuanxiao/"]').count();
+    const cards = await page.evaluate(() =>
+      [...document.querySelectorAll('a[href^="/zj/yuanxiao/"]')].filter(
+        (a) => !a.closest("details"),
+      ).length,
+    );
     expect(cards).toBeGreaterThan(0);
-    console.log(`优化筛选区渲染 ${cards} 个可填报项 → ${out}`);
+    console.log(`优化筛选区渲染 ${cards} 个主档可填报项 → ${out}`);
 
     await browser.close();
   },

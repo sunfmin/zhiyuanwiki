@@ -106,7 +106,7 @@ export function majorsOf(prov: string): MajorIndexEntry[] {
   return ((majorsIndex[`/src/data/${prov}/majors.json`] as any)?.default ?? []) as MajorIndexEntry[];
 }
 
-// fenduanOf 取该省定位/换算所用的一分一段表（黑龙江 2026 物理；浙江 2025 综合）。
+// fenduanOf 取该省定位/换算所用的一分一段表（黑龙江 2026 物理；浙江 2026 综合）。
 export function fenduanOf(prov: string): YiFenYiDuan {
   const cfg = provinceConfig(prov);
   const slug = trackSlugOf(cfg, cfg.fenduanTrack);

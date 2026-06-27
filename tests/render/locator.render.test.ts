@@ -58,7 +58,15 @@ test(
           () => document.querySelectorAll('a[href^="/hlj/yuanxiao/"]').length > 0,
           { timeout: 8_000 },
         );
-        const before = await p.locator('a[href^="/hlj/yuanxiao/"]').count();
+        // 只数主档卡片（排除「仅供参考」远档折叠区）：筛选收窄的是真实可填档，而远档会反向
+        // 把冲/保列补齐到约 100（ADR-0010），令「总卡片数」非单调；故收窄只对主档成立。
+        const mainCount = () =>
+          p.evaluate(() =>
+            [...document.querySelectorAll('a[href^="/hlj/yuanxiao/"]')].filter(
+              (a) => !a.closest("details"),
+            ).length,
+          );
+        const before = await mainCount();
 
         // 专业大类常显——无需点「更多筛选」即可直接选「工学」；选中即生效（「清除全部」随之出现）。
         await p.getByRole("button", { name: "工学", exact: true }).first().click();
@@ -68,10 +76,12 @@ test(
         await p.getByRole("button", { name: "更多筛选" }).click();
         await p.getByRole("button", { name: "北京", exact: true }).first().click();
 
-        // 工学 + 北京 双维度过滤后渲染数 < 过滤前（且仍有结果）。
+        // 工学 + 北京 双维度过滤后主档卡片 < 过滤前（且仍有结果）。
         await p.waitForFunction(
           (n) => {
-            const c = document.querySelectorAll('a[href^="/hlj/yuanxiao/"]').length;
+            const c = [...document.querySelectorAll('a[href^="/hlj/yuanxiao/"]')].filter(
+              (a) => !a.closest("details"),
+            ).length;
             return c > 0 && c < n;
           },
           before,
@@ -85,9 +95,13 @@ test(
     expect(mainText).toContain("工学");
     expect(mainText).toContain("北京");
     expect(mainText).toContain("清除全部");
-    const cards = await page.locator('a[href^="/hlj/yuanxiao/"]').count();
+    const cards = await page.evaluate(() =>
+      [...document.querySelectorAll('a[href^="/hlj/yuanxiao/"]')].filter(
+        (a) => !a.closest("details"),
+      ).length,
+    );
     expect(cards).toBeGreaterThan(0);
-    console.log(`过滤后渲染 ${cards} 个可填报项 → ${out}`);
+    console.log(`过滤后渲染 ${cards} 个主档可填报项 → ${out}`);
 
     await browser.close();
   },
