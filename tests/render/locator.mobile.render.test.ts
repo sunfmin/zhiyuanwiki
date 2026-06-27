@@ -41,8 +41,8 @@ test(
 );
 
 // 回归：iPhone Pro Max 量级窄屏不应出现整页横向滚动条（html.scrollWidth ≤ clientWidth）。
-// 即使带结果 + 展开筛选 + 极端长关键词 chip 也不能把整页撑宽。
-// 兜底来自 global.css 的 html { overflow-x: clip } + Locator chip 的可换行加固。
+// 即使带结果 + 展开「更多筛选」抽屉（含 30+ 学校类别、34 省份长列）+ 常显关键词框里塞极端长串，
+// 也不能把整页撑宽。兜底来自 global.css 的 html { overflow-x: clip } + chip / 输入框的可换行与 max-w 加固。
 test(
   "手机窄屏：整页无横向溢出",
   async () => {
@@ -58,10 +58,10 @@ test(
           () => document.querySelectorAll('a[href^="/hlj/yuanxiao/"]').length > 0,
           { timeout: 8_000 },
         );
-        await p.getByRole("button", { name: "筛选" }).click();
-        await p
-          .getByPlaceholder(/空格分隔/)
-          .fill("计算机科学与技术 软件工程 人工智能 数据科学 电子信息工程 自动化");
+        // 关键词框常显，免展开即可填；再展开「更多筛选」把最长的省份/类别列也纳入溢出考验。
+        const longKw = "计算机科学与技术 软件工程 人工智能 数据科学 电子信息工程 自动化";
+        await p.getByPlaceholder(/空格分隔/).fill(longKw);
+        await p.getByRole("button", { name: "更多筛选" }).click();
         await p.waitForTimeout(150);
       },
     });
@@ -72,9 +72,10 @@ test(
     }));
     expect(scrollW).toBeLessThanOrEqual(clientW);
 
-    // OR 关系在 chip 上要显式体现（空格分隔 = 任一匹配）。
-    const chip = await page.locator('button:has-text("关键词")').first().innerText();
-    expect(chip).toContain("或");
+    // OR 语义在常显关键词框的占位符里说明（空格分隔 = 任一匹配）。
+    const kw = page.getByPlaceholder(/空格分隔/);
+    expect(await kw.getAttribute("placeholder")).toContain("任一匹配");
+    expect(await kw.inputValue()).toContain("软件工程");
 
     await browser.close();
   },
@@ -82,7 +83,7 @@ test(
 );
 
 test(
-  "手机窄屏：展开筛选面板",
+  "手机窄屏：常显快捷筛选 + 展开更多筛选抽屉",
   async () => {
     const { browser, out } = await renderToImage({
       baseURL: server.baseURL,
@@ -96,8 +97,9 @@ test(
           () => document.querySelectorAll('a[href^="/hlj/yuanxiao/"]').length > 0,
           { timeout: 8_000 },
         );
-        await p.getByRole("button", { name: "筛选" }).click();
+        // 专业大类常显——直接选「工学」；再展开抽屉看到其余维度。
         await p.getByRole("button", { name: "工学", exact: true }).first().click();
+        await p.getByRole("button", { name: "更多筛选" }).click();
       },
     });
     console.log(`手机筛选面板 → ${out}`);

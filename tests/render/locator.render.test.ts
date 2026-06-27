@@ -44,7 +44,7 @@ test(
 );
 
 test(
-  "施加过滤（专业大类=工学 + 省份=北京）后三档计数收窄、chip 常显",
+  "施加过滤：工学（常显快捷筛选，免展开）+ 北京（更多筛选抽屉内）后三档收窄、抽屉外 chip 常显",
   async () => {
     const { page, browser, out } = await renderToImage({
       baseURL: server.baseURL,
@@ -60,12 +60,15 @@ test(
         );
         const before = await p.locator('a[href^="/hlj/yuanxiao/"]').count();
 
-        // 展开筛选面板，选 专业大类=工学 + 省份=北京（北京 chip 由 meta 派生）。
-        await p.getByRole("button", { name: "筛选" }).click();
+        // 专业大类常显——无需点「更多筛选」即可直接选「工学」；选中即生效（「清除全部」随之出现）。
         await p.getByRole("button", { name: "工学", exact: true }).first().click();
+        await p.getByText("清除全部").waitFor({ timeout: 4_000 });
+
+        // 省份在「更多筛选」抽屉内——展开后选「北京」（北京 chip 由 meta 派生）。
+        await p.getByRole("button", { name: "更多筛选" }).click();
         await p.getByRole("button", { name: "北京", exact: true }).first().click();
 
-        // 过滤后渲染数 < 过滤前（且仍有结果）。
+        // 工学 + 北京 双维度过滤后渲染数 < 过滤前（且仍有结果）。
         await p.waitForFunction(
           (n) => {
             const c = document.querySelectorAll('a[href^="/hlj/yuanxiao/"]').length;
@@ -77,7 +80,7 @@ test(
       },
     });
 
-    // 生效过滤以可移除 chip 常显；三档计数已是过滤后的数。
+    // 生效过滤后：工学（常显大类的选中态）+ 北京（抽屉维度）+ 清除全部 均在 DOM。
     const mainText = await page.locator("main").innerText();
     expect(mainText).toContain("工学");
     expect(mainText).toContain("北京");

@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "preact/hooks";
 import { scoreToRank, type YiFenYiDuan } from "../lib/fenduan";
-import { classify, selKeAllows, selKeAllowsZJ, type Bucket, type LocEntry } from "../lib/dingwei";
+import { selKeAllows, selKeAllowsZJ, type Bucket, type LocEntry } from "../lib/dingwei";
 import { provinceConfig, trackSlugOf } from "../lib/provinces";
 import {
   matchesFilters,
@@ -17,7 +17,9 @@ import {
 
 const PRIMARY_RESELECT = ["化学", "生物", "政治", "地理"]; // 黑龙江：首选物理/历史外的再选
 const ZJ_SUBJECTS = ["物理", "化学", "生物", "政治", "历史", "地理", "技术"]; // 浙江 7选3
-const CAP = 60;
+// 不按百分比分档，只按“排位上下”取个数：把过滤后的可填项按等效位次排好，
+// 稳=最贴你水平的 WINDOW 个，冲=再往上 WINDOW 个（更难），保=再往下 WINDOW 个（更易）。
+const WINDOW = 100;
 
 export default function Locator({ prov, table }: { prov: string; table: YiFenYiDuan }) {
   const cfg = provinceConfig(prov);
@@ -144,14 +146,25 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
   const buckets = useMemo(() => {
     const out: Record<Bucket, LocEntry[]> = { 冲: [], 稳: [], 保: [], out: [] };
     if (V <= 0) return out;
+    // 先按选科 + 用户筛选过滤（凑数就在符合条件的集合里凑），再按等效位次升序（越小越难）。
+    const eligible: LocEntry[] = [];
     for (const e of entries) {
+      if (e.r <= 0) continue;
       if (!matchSelKe(e.sk, chosen)) continue;
       if (!matchesFilters(e, meta, filters)) continue;
-      const b = classify(V, e.r);
-      if (b !== "out") out[b].push(e);
+      eligible.push(e);
     }
-    // 冲：录取位次降序（最接近你、最够得着的在前）——否则"前 60"会被远不可及的极限冲塞满，
-    // 把真正能搏的近档挤出视野。稳/保：升序（最好的、刚兜住的在前）。
+    eligible.sort((a, b) => a.r - b.r);
+    // 你的位次在排序里的落点：之前(更小/更难)是冲向，之后(更大/更易)是保向。
+    let pivot = eligible.findIndex((e) => e.r >= V);
+    if (pivot < 0) pivot = eligible.length; // 全部都比你难
+    const half = Math.floor(WINDOW / 2);
+    const wenStart = Math.max(0, pivot - half); // 稳：你上下各半，最贴你水平
+    const wenEnd = Math.min(eligible.length, pivot + (WINDOW - half));
+    out["稳"] = eligible.slice(wenStart, wenEnd);
+    out["冲"] = eligible.slice(Math.max(0, wenStart - WINDOW), wenStart); // 稳之上更难的一档
+    out["保"] = eligible.slice(wenEnd, wenEnd + WINDOW); // 稳之下更易的一档
+    // 冲降序（最够得着的在前），稳/保升序（最贴你水平的在前）。
     out["冲"].sort((a, b) => b.r - a.r);
     out["稳"].sort((a, b) => a.r - b.r);
     out["保"].sort((a, b) => a.r - b.r);
@@ -194,24 +207,18 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
     });
   }
 
-  const chips: { id: string; text: string; remove: () => void }[] = [];
-  for (const p of filters.provinces) chips.push({ id: `p-${p}`, text: p, remove: () => toggle("provinces", p) });
-  for (const l of filters.levels) chips.push({ id: `l-${l}`, text: l, remove: () => toggle("levels", l) });
-  for (const o of filters.ownership) chips.push({ id: `o-${o}`, text: o, remove: () => toggle("ownership", o) });
-  for (const k of filters.kinds) chips.push({ id: `k-${k}`, text: k, remove: () => toggle("kinds", k) });
-  for (const t of filters.cityTiers) chips.push({ id: `ct-${t}`, text: t, remove: () => toggle("cityTiers", t) });
-  for (const c of filters.categories)
-    chips.push({ id: `c-${c}`, text: CATEGORY_LABEL[c] || c, remove: () => toggle("categories", c) });
-  if (filters.keyword.trim()) {
-    const kwShown = filters.keyword.trim().split(/\s+/).filter(Boolean).join(" 或 ");
-    chips.push({ id: "kw", text: `关键词「${kwShown}」`, remove: () => setFilters((p) => ({ ...p, keyword: "" })) });
-  }
+  // 抽屉内（高级/体积大）维度的已选 chip：抽屉收起时也常显，便于一眼看到并移除被折叠的筛选。
+  // 快捷区维度（大类/层次/城市/关键词）的选中态在常显控件上已可见，不再重复成 chip。
+  const advChips: { id: string; text: string; remove: () => void }[] = [];
+  for (const o of filters.ownership) advChips.push({ id: `o-${o}`, text: o, remove: () => toggle("ownership", o) });
+  for (const k of filters.kinds) advChips.push({ id: `k-${k}`, text: k, remove: () => toggle("kinds", k) });
+  for (const p of filters.provinces) advChips.push({ id: `p-${p}`, text: p, remove: () => toggle("provinces", p) });
   if (filters.minPlan > 0)
-    chips.push({ id: "mp", text: `计划 ≥ ${filters.minPlan}`, remove: () => setFilters((p) => ({ ...p, minPlan: 0 })) });
+    advChips.push({ id: "mp", text: `计划 ≥ ${filters.minPlan}`, remove: () => setFilters((p) => ({ ...p, minPlan: 0 })) });
   if (cfg.fillModel === "group" && filters.maxGroupSize > 0)
-    chips.push({ id: "mg", text: `组内 ≤ ${filters.maxGroupSize}`, remove: () => setFilters((p) => ({ ...p, maxGroupSize: 0 })) });
+    advChips.push({ id: "mg", text: `组内 ≤ ${filters.maxGroupSize}`, remove: () => setFilters((p) => ({ ...p, maxGroupSize: 0 })) });
   if (filters.hideCoopHighFee)
-    chips.push({ id: "hf", text: "隐藏中外 / 高收费", remove: () => setFilters((p) => ({ ...p, hideCoopHighFee: false })) });
+    advChips.push({ id: "hf", text: "隐藏中外 / 高收费", remove: () => setFilters((p) => ({ ...p, hideCoopHighFee: false })) });
 
   return (
     <div>
@@ -288,44 +295,18 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
 
       {V > 0 && (
         <div class="mt-4 rounded-xl border border-slate-200 bg-white">
-          <div class="flex flex-wrap items-center gap-2 px-3 py-2.5">
-            <button
-              type="button"
-              onClick={() => setPanelOpen((o) => !o)}
-              class={`inline-flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-sm font-medium transition ${
-                activeFilters
-                  ? "border-slate-800 bg-slate-800 text-white"
-                  : "border-slate-300 text-slate-600 hover:border-slate-400"
-              }`}
-            >
-              <span>筛选</span>
-              {chips.length > 0 && (
-                <span class="rounded-full bg-white/20 px-1.5 text-xs tabular-nums">{chips.length}</span>
-              )}
-              <span class="text-xs">{panelOpen ? "▲" : "▼"}</span>
-            </button>
-
-            {chips.map((c) => (
-              <button
-                type="button"
-                key={c.id}
-                onClick={c.remove}
-                class="inline-flex max-w-full items-center gap-1 rounded-full bg-slate-100 px-2.5 py-1 text-left text-xs text-slate-700 hover:bg-slate-200"
-              >
-                <span class="min-w-0 break-words">{c.text}</span>
-                <span class="shrink-0 text-slate-400">✕</span>
-              </button>
-            ))}
-            {activeFilters && (
-              <button type="button" onClick={clearAll} class="ml-auto text-xs text-slate-400 hover:text-slate-700">
-                清除全部
-              </button>
-            )}
-          </div>
-
-          {panelOpen && (
-            <div class="space-y-4 border-t border-slate-100 px-3 py-4">
-              <ChipRow label="专业大类" options={CATEGORIES.map((c) => c.code)} selected={filters.categories} labelOf={(c) => CATEGORY_LABEL[c] || c} onToggle={(v) => toggle("categories", v)} />
+          {/* 常显快捷筛选：最常用的几项无需展开即可用——选什么（大类 / 关键词）、够多好（层次）、大致在哪（城市层级）。 */}
+          <div class="space-y-4 px-4 py-4">
+            <ChipRow
+              label="专业大类"
+              options={CATEGORIES.map((c) => c.code)}
+              selected={filters.categories}
+              labelOf={(c) => CATEGORY_LABEL[c] || c}
+              onToggle={(v) => toggle("categories", v)}
+            />
+            <div class="flex flex-wrap gap-x-8 gap-y-4">
+              <ChipRow label="院校层次" options={[...LEVELS]} selected={filters.levels} onToggle={(v) => toggle("levels", v)} />
+              <ChipRow label="城市层级" options={[...CITY_TIERS]} selected={filters.cityTiers} onToggle={(v) => toggle("cityTiers", v)} />
               <div class="flex flex-col gap-1.5">
                 <span class="text-xs font-medium text-slate-400">专业关键词</span>
                 <input
@@ -333,12 +314,54 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
                   value={filters.keyword}
                   onInput={(e) => setFilters((p) => ({ ...p, keyword: (e.target as HTMLInputElement).value }))}
                   placeholder="空格分隔=任一匹配，如 计算机 软件"
-                  class="w-full max-w-xs rounded-lg border border-slate-300 px-3 py-1.5 text-sm focus:border-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-200 sm:max-w-sm"
+                  class="w-72 max-w-full rounded-lg border border-slate-300 px-3 py-1.5 text-sm focus:border-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-200"
                 />
               </div>
-              <ChipRow label="院校层次" options={[...LEVELS]} selected={filters.levels} onToggle={(v) => toggle("levels", v)} />
+            </div>
+          </div>
+
+          {/* 控制条：更多筛选开关 + 抽屉内已选 chip（收起时也常显，避免「看不见的筛选」）+ 清除全部。 */}
+          <div class="flex flex-wrap items-center gap-2 border-t border-slate-100 px-4 py-2.5">
+            <button
+              type="button"
+              onClick={() => setPanelOpen((o) => !o)}
+              aria-expanded={panelOpen}
+              class={`inline-flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-sm font-medium transition ${
+                advChips.length > 0
+                  ? "border-slate-800 text-slate-800"
+                  : "border-slate-300 text-slate-600 hover:border-slate-400"
+              }`}
+            >
+              <span>更多筛选</span>
+              {advChips.length > 0 && (
+                <span class="rounded-full bg-slate-800 px-1.5 text-xs tabular-nums text-white">{advChips.length}</span>
+              )}
+              <span class="text-xs text-slate-400">{panelOpen ? "▴" : "▾"}</span>
+            </button>
+
+            {!panelOpen &&
+              advChips.map((c) => (
+                <button
+                  type="button"
+                  key={c.id}
+                  onClick={c.remove}
+                  class="inline-flex max-w-full items-center gap-1 rounded-full bg-slate-100 px-2.5 py-1 text-left text-xs text-slate-700 hover:bg-slate-200"
+                >
+                  <span class="min-w-0 break-words">{c.text}</span>
+                  <span class="shrink-0 text-slate-400">✕</span>
+                </button>
+              ))}
+            {activeFilters && (
+              <button type="button" onClick={clearAll} class="ml-auto text-xs text-slate-400 hover:text-slate-700">
+                清除全部
+              </button>
+            )}
+          </div>
+
+          {/* 抽屉：不常用 / 选项体积大的维度，浅底色区分于上方常显的主筛选。 */}
+          {panelOpen && (
+            <div class="space-y-4 rounded-b-xl border-t border-slate-100 bg-slate-50/70 px-4 py-4">
               <ChipRow label="办学性质" options={[...OWNERSHIPS]} selected={filters.ownership} onToggle={(v) => toggle("ownership", v)} />
-              <ChipRow label="城市层级" options={[...CITY_TIERS]} selected={filters.cityTiers} onToggle={(v) => toggle("cityTiers", v)} />
               {kindOpts.length > 0 && (
                 <ChipRow label="学校类别" options={kindOpts} selected={filters.kinds} onToggle={(v) => toggle("kinds", v)} />
               )}
@@ -412,16 +435,13 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
                     <span class={`text-base font-bold ${label}`}>{key}</span>
                     <span class="text-xs text-slate-400">{meaning}</span>
                   </div>
-                  <span class="text-xs tabular-nums text-slate-400">
-                    {list.length}
-                    {list.length > CAP ? ` · 前 ${CAP}` : ""} 个
-                  </span>
+                  <span class="text-xs tabular-nums text-slate-400">{list.length} 个</span>
                 </div>
                 <div class="px-3 pb-1.5 pt-1 text-right text-[10px] tracking-wide text-slate-400">
                   录取位次 · 与你差距
                 </div>
                 <ul class="divide-y divide-slate-100 border-t border-slate-100">
-                  {list.slice(0, CAP).map((e) => {
+                  {list.map((e) => {
                     const m = meta[e.sc];
                     const lv = topLevel(m?.lv);
                     const city = m?.c?.replace(/[市]$/, "");
