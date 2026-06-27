@@ -1,6 +1,10 @@
 package hlj
 
-import "testing"
+import (
+	"testing"
+
+	"github.com/sunfmin/zhiyuanwiki/internal/core"
+)
 
 func TestNormalizeMajorName(t *testing.T) {
 	tests := []struct{ in, want string }{
@@ -9,7 +13,7 @@ func TestNormalizeMajorName(t *testing.T) {
 		{"数据 科学", "数据科学"},
 	}
 	for _, tt := range tests {
-		if got := NormalizeMajorName(tt.in); got != tt.want {
+		if got := core.NormalizeMajorName(tt.in); got != tt.want {
 			t.Errorf("NormalizeMajorName(%q) = %q，想要 %q", tt.in, got, tt.want)
 		}
 	}
@@ -17,14 +21,14 @@ func TestNormalizeMajorName(t *testing.T) {
 
 func TestMajorKey(t *testing.T) {
 	// 确定性 + 对归一化前的空格不敏感。
-	if MajorKey("计算机科学与技术") != MajorKey(" 计算机科学与技术 ") {
+	if core.MajorKey("计算机科学与技术") != core.MajorKey(" 计算机科学与技术 ") {
 		t.Error("MajorKey 应对首尾空格不敏感")
 	}
-	if MajorKey("计算机科学与技术") == MajorKey("软件工程") {
+	if core.MajorKey("计算机科学与技术") == core.MajorKey("软件工程") {
 		t.Error("不同专业名应得不同 key")
 	}
-	if len(MajorKey("法学")) != 8 {
-		t.Errorf("MajorKey 应为 8 位十六进制，得 %q", MajorKey("法学"))
+	if len(core.MajorKey("法学")) != 8 {
+		t.Errorf("MajorKey 应为 8 位十六进制，得 %q", core.MajorKey("法学"))
 	}
 }
 
@@ -54,14 +58,14 @@ func TestParseMajorScoreRows(t *testing.T) {
 }
 
 func TestAggregateLeaves(t *testing.T) {
-	rows := []MajorScoreRow{
+	rows := []core.MajorScoreRow{
 		{Year: 2024, Track: "物理", SchoolCode: "1003", SchoolName: "清华大学", MajorName: "计算机科学与技术", SelKe: "化学", MinScore: 688, MinRank: 150, MaxScore: 700},
 		{Year: 2025, Track: "物理", SchoolCode: "1003", SchoolName: "清华大学", MajorName: "计算机科学与技术", SelKe: "化学", MinScore: 690, MinRank: 120, MaxScore: 700},
 		// 同年同科类同叶子的第二条，位次更低（更难）应胜出
 		{Year: 2025, Track: "物理", SchoolCode: "1003", SchoolName: "清华大学", MajorName: "计算机科学与技术", SelKe: "化学", MinScore: 692, MinRank: 100, MaxScore: 701},
 		{Year: 2025, Track: "物理", SchoolCode: "1003", SchoolName: "清华大学", MajorName: "法学", SelKe: "不限", MinScore: 680, MinRank: 400, MaxScore: 690},
 	}
-	schools, leaves := AggregateLeaves(rows)
+	schools, leaves := core.AggregateLeaves(rows)
 	if len(schools) != 1 || schools[0].Code != "1003" {
 		t.Fatalf("schools = %+v", schools)
 	}
@@ -69,7 +73,7 @@ func TestAggregateLeaves(t *testing.T) {
 		t.Fatalf("leaves = %d，想要 2（计算机 + 法学）", len(leaves))
 	}
 	// 找计算机叶子
-	var cs *MajorLeaf
+	var cs *core.MajorLeaf
 	for i := range leaves {
 		if leaves[i].MajorName == "计算机科学与技术" {
 			cs = &leaves[i]

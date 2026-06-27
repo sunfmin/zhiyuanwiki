@@ -4,10 +4,12 @@ import (
 	"strings"
 
 	"github.com/xuri/excelize/v2"
+
+	"github.com/sunfmin/zhiyuanwiki/internal/core"
 )
 
 // SchoolMeta 是院校级属性（与年份无关），用于位次定位结果过滤。来自万师兄旧格式表，
-// 按校名挂接（含 985/211/双一流，与 tags.go 同源）。城市层级由 CityTier 另算。见 ADR-0008。
+// 按校名挂接（含 985/211/双一流，与 tags.go 同源）。城市层级由 core.CityTier 另算。见 ADR-0008。
 type SchoolMeta struct {
 	Province      string // 省份（院校所在地，非考生生源地）
 	City          string // 城市
@@ -79,8 +81,8 @@ func (si *SchoolMetaIndex) merge(m map[string]*SchoolMeta, key string, v SchoolM
 func (si *SchoolMetaIndex) AddRows(rows [][]string) {
 	headerIdx := -1
 	for i := 0; i < len(rows) && i < 4; i++ {
-		if hasCell(rows[i], "学校") &&
-			(hasCell(rows[i], "省份") || hasCell(rows[i], "办学性质") || hasCell(rows[i], "双一流")) {
+		if core.HasCell(rows[i], "学校") &&
+			(core.HasCell(rows[i], "省份") || core.HasCell(rows[i], "办学性质") || core.HasCell(rows[i], "双一流")) {
 			headerIdx = i
 			break
 		}
@@ -89,45 +91,45 @@ func (si *SchoolMetaIndex) AddRows(rows [][]string) {
 		return
 	}
 	h := rows[headerIdx]
-	cName := findCol(h, "学校", "院校名称")
+	cName := core.FindCol(h, "学校", "院校名称")
 	if cName < 0 {
 		return
 	}
-	cProv := findCol(h, "省份")
-	cCity := findCol(h, "城市")
-	cOwner := findCol(h, "办学性质")
-	cKind := findCol(h, "学校类别")
-	c985 := findCol(h, "_985", "985")
-	c211 := findCol(h, "_211", "211")
-	cSyl := findCol(h, "双一流")
+	cProv := core.FindCol(h, "省份")
+	cCity := core.FindCol(h, "城市")
+	cOwner := core.FindCol(h, "办学性质")
+	cKind := core.FindCol(h, "学校类别")
+	c985 := core.FindCol(h, "_985", "985")
+	c211 := core.FindCol(h, "_211", "211")
+	cSyl := core.FindCol(h, "双一流")
 	for _, r := range rows[headerIdx+1:] {
-		name := strings.TrimSpace(cell(r, cName))
+		name := strings.TrimSpace(core.Cell(r, cName))
 		if name == "" {
 			continue
 		}
 		v := SchoolMeta{
-			Province:      strings.TrimSpace(cell(r, cProv)),
-			City:          strings.TrimSpace(cell(r, cCity)),
-			Ownership:     strings.TrimSpace(cell(r, cOwner)),
-			Kind:          strings.TrimSpace(cell(r, cKind)),
-			Is985:         cell(r, c985) == "是",
-			Is211:         cell(r, c211) == "是",
-			IsShuangYiLiu: cell(r, cSyl) == "是",
+			Province:      strings.TrimSpace(core.Cell(r, cProv)),
+			City:          strings.TrimSpace(core.Cell(r, cCity)),
+			Ownership:     strings.TrimSpace(core.Cell(r, cOwner)),
+			Kind:          strings.TrimSpace(core.Cell(r, cKind)),
+			Is985:         core.Cell(r, c985) == "是",
+			Is211:         core.Cell(r, c211) == "是",
+			IsShuangYiLiu: core.Cell(r, cSyl) == "是",
 		}
 		if !v.any() {
 			continue
 		}
-		si.merge(si.byNorm, normName(name), v)
-		si.merge(si.byBase, baseName(name), v)
+		si.merge(si.byNorm, core.NormName(name), v)
+		si.merge(si.byBase, core.BaseName(name), v)
 	}
 }
 
 // Lookup 查院校属性：精确名优先，再退到去括号基名。
 func (si *SchoolMetaIndex) Lookup(name string) (SchoolMeta, bool) {
-	if v, ok := si.byNorm[normName(name)]; ok {
+	if v, ok := si.byNorm[core.NormName(name)]; ok {
 		return *v, true
 	}
-	if v, ok := si.byBase[baseName(name)]; ok {
+	if v, ok := si.byBase[core.BaseName(name)]; ok {
 		return *v, true
 	}
 	return SchoolMeta{}, false

@@ -1,17 +1,21 @@
 package hlj
 
-import "testing"
+import (
+	"testing"
+
+	"github.com/sunfmin/zhiyuanwiki/internal/core"
+)
 
 func TestEquivRank(t *testing.T) {
-	totals := map[YearTrack]int{
+	totals := map[core.YearTrack]int{
 		{Year: 2025, Track: "物理"}: 100000,
 		{Year: 2026, Track: "物理"}: 110000,
 	}
-	yt := func(y int, tr string) YearTrack { return YearTrack{Year: y, Track: tr} }
+	yt := func(y int, tr string) core.YearTrack { return core.YearTrack{Year: y, Track: tr} }
 	tests := []struct {
 		name     string
 		rank     int
-		from, to YearTrack
+		from, to core.YearTrack
 		want     int
 	}{
 		{"按总人数比例放大", 100, yt(2025, "物理"), yt(2026, "物理"), 110},
@@ -22,7 +26,7 @@ func TestEquivRank(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := EquivRank(tt.rank, tt.from, tt.to, totals); got != tt.want {
+			if got := core.EquivRank(tt.rank, tt.from, tt.to, totals); got != tt.want {
 				t.Errorf("EquivRank = %d，想要 %d", got, tt.want)
 			}
 		})
@@ -81,11 +85,11 @@ func TestBuildGroups2026(t *testing.T) {
 		{Year: 2026, Track: "物理", SchoolCode: "1003", SchoolName: "清华大学", GroupCode: "009", GroupName: "第009组", MajorName: "法学", SelKe: "化学", Plan: 3},
 	}
 	// 注意：往年叶子的组号是 012（2023），与 2026 的 009 不同——必须按院校+专业名挂接，不按组号。
-	leaves := []MajorLeaf{
-		{SchoolCode: "1003", MajorKey: MajorKey("计算机类"), MajorName: "计算机类",
-			Years: []YearScore{{Year: 2025, Track: "物理", MinScore: 690, MinRank: 120}}},
+	leaves := []core.MajorLeaf{
+		{SchoolCode: "1003", MajorKey: core.MajorKey("计算机类"), MajorName: "计算机类",
+			Years: []core.YearScore{{Year: 2025, Track: "物理", MinScore: 690, MinRank: 120}}},
 	}
-	totals := map[YearTrack]int{}
+	totals := map[core.YearTrack]int{}
 	groups := BuildGroups2026(plan, leaves, totals, nil)
 
 	gs := groups["1003"]

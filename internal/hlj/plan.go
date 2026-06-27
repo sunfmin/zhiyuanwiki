@@ -6,6 +6,8 @@ import (
 	"strings"
 
 	"github.com/xuri/excelize/v2"
+
+	"github.com/sunfmin/zhiyuanwiki/internal/core"
 )
 
 // PlanRow 是招生计划里的一行（某年某院校专业组下的一个专业）。
@@ -46,7 +48,7 @@ func ParsePlanXLSX(path string) ([]PlanRow, error) {
 func parsePlanRows(rows [][]string) ([]PlanRow, error) {
 	headerIdx := -1
 	for i, r := range rows {
-		if hasCell(r, "院校代码") && hasCell(r, "专业名称") && hasCell(r, "计划人数") {
+		if core.HasCell(r, "院校代码") && core.HasCell(r, "专业名称") && core.HasCell(r, "计划人数") {
 			headerIdx = i
 			break
 		}
@@ -55,7 +57,7 @@ func parsePlanRows(rows [][]string) ([]PlanRow, error) {
 		return nil, fmt.Errorf("未找到含\"院校代码/专业名称/计划人数\"的表头行")
 	}
 	h := rows[headerIdx]
-	col := func(names ...string) int { return findCol(h, names...) }
+	col := func(names ...string) int { return core.FindCol(h, names...) }
 	cYear, cTrack, cBatch := col("年份"), col("科类"), col("批次")
 	cSchoolCode, cSchoolName := col("院校代码"), col("院校名称")
 	cGroup, cGroupName := col("专业组代码"), col("专业组名称")
@@ -65,34 +67,34 @@ func parsePlanRows(rows [][]string) ([]PlanRow, error) {
 
 	var out []PlanRow
 	for _, r := range rows[headerIdx+1:] {
-		track := strings.TrimSpace(cell(r, cTrack))
+		track := strings.TrimSpace(core.Cell(r, cTrack))
 		if !newGaokaoTracks[track] {
 			continue
 		}
-		if !strings.Contains(cell(r, cBatch), "本科") {
+		if !strings.Contains(core.Cell(r, cBatch), "本科") {
 			continue
 		}
-		name := strings.TrimSpace(cell(r, cMajor))
-		code := strings.TrimSpace(cell(r, cSchoolCode))
+		name := strings.TrimSpace(core.Cell(r, cMajor))
+		code := strings.TrimSpace(core.Cell(r, cSchoolCode))
 		if name == "" || code == "" {
 			continue
 		}
-		year, _ := parseLeadingInt(cell(r, cYear))
-		plan, _ := parseLeadingInt(cell(r, cPlan))
+		year, _ := core.ParseLeadingInt(core.Cell(r, cYear))
+		plan, _ := core.ParseLeadingInt(core.Cell(r, cPlan))
 		out = append(out, PlanRow{
 			Year:       year,
 			Track:      track,
 			SchoolCode: code,
-			SchoolName: strings.TrimSpace(cell(r, cSchoolName)),
-			GroupCode:  strings.TrimSpace(cell(r, cGroup)),
-			GroupName:  strings.TrimSpace(cell(r, cGroupName)),
+			SchoolName: strings.TrimSpace(core.Cell(r, cSchoolName)),
+			GroupCode:  strings.TrimSpace(core.Cell(r, cGroup)),
+			GroupName:  strings.TrimSpace(core.Cell(r, cGroupName)),
 			MajorName:  name,
-			FullName:   strings.TrimSpace(cell(r, cFull)),
-			Remark:     strings.TrimSpace(cell(r, cRemark)),
-			SelKe:      strings.TrimSpace(cell(r, cSelKe)),
+			FullName:   strings.TrimSpace(core.Cell(r, cFull)),
+			Remark:     strings.TrimSpace(core.Cell(r, cRemark)),
+			SelKe:      strings.TrimSpace(core.Cell(r, cSelKe)),
 			Plan:       plan,
-			Schooling:  strings.TrimSpace(cell(r, cSchooling)),
-			Tuition:    strings.TrimSpace(cell(r, cTuition)),
+			Schooling:  strings.TrimSpace(core.Cell(r, cSchooling)),
+			Tuition:    strings.TrimSpace(core.Cell(r, cTuition)),
 		})
 	}
 	return out, nil
@@ -124,7 +126,7 @@ type Group2026 struct {
 }
 
 // leafLatest 返回叶子最近年份的数据点。
-func leafLatest(l *MajorLeaf) *YearScore {
+func leafLatest(l *core.MajorLeaf) *core.YearScore {
 	if len(l.Years) == 0 {
 		return nil
 	}
@@ -140,8 +142,8 @@ func leafLatest(l *MajorLeaf) *YearScore {
 // BuildGroups2026 把招生计划行按院校→组聚合成单年视图，并用 leaves（按院校代码+专业名）
 // 挂接每个组内专业的往年最低位次与等效位次。menlei（可为 nil）把专业名归到学科门类码。
 // 返回 院校代码 → 组列表。
-func BuildGroups2026(plan []PlanRow, leaves []MajorLeaf, totals map[YearTrack]int, menlei func(string) string) map[string][]Group2026 {
-	leafIdx := map[string]*MajorLeaf{}
+func BuildGroups2026(plan []PlanRow, leaves []core.MajorLeaf, totals map[core.YearTrack]int, menlei func(string) string) map[string][]Group2026 {
+	leafIdx := map[string]*core.MajorLeaf{}
 	for i := range leaves {
 		leafIdx[leaves[i].SchoolCode+"/"+leaves[i].MajorKey] = &leaves[i]
 	}
@@ -162,12 +164,12 @@ func BuildGroups2026(plan []PlanRow, leaves []MajorLeaf, totals map[YearTrack]in
 			g.SelKe = "" // 组内选科不统一
 		}
 		gm := GroupMajor{
-			MajorName: NormalizeMajorName(r.MajorName),
-			MajorKey:  MajorKey(r.MajorName),
+			MajorName: core.NormalizeMajorName(r.MajorName),
+			MajorKey:  core.MajorKey(r.MajorName),
 			SelKe:     r.SelKe,
 			Plan:      r.Plan,
 			Tuition:   r.Tuition,
-			Coop:      IsCoop(r.MajorName, r.FullName, r.Remark),
+			Coop:      core.IsCoop(r.MajorName, r.FullName, r.Remark),
 		}
 		if menlei != nil {
 			gm.Menlei = menlei(r.MajorName)
@@ -176,8 +178,8 @@ func BuildGroups2026(plan []PlanRow, leaves []MajorLeaf, totals map[YearTrack]in
 			if p := leafLatest(lf); p != nil {
 				gm.PrevYear = p.Year
 				gm.PrevRank = p.MinRank
-				gm.EquivRank = EquivRank(p.MinRank,
-					YearTrack{Year: p.Year, Track: p.Track}, YearTrack{Year: r.Year, Track: r.Track}, totals)
+				gm.EquivRank = core.EquivRank(p.MinRank,
+					core.YearTrack{Year: p.Year, Track: p.Track}, core.YearTrack{Year: r.Year, Track: r.Track}, totals)
 			}
 		}
 		g.Majors = append(g.Majors, gm)

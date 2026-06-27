@@ -60,12 +60,12 @@ func buildHLJBundle(src string) schoolBundle {
 
 	tagFiles := tagSourceFiles(src)
 	meta := hlj.LoadSchoolMeta(tagFiles)
-	menlei := hlj.LoadMenlei(tagFiles)
+	menlei := core.LoadMenlei(tagFiles)
 	fmt.Printf("  院校属性库 %d 所 · 专业→门类精确映射 %d 条\n", meta.Len(), menlei.Len())
 
 	// 一分一段总人数（用于等效位次缩放）。目前仅 2026 物理为 .xlsx 可读。
 	totals := map[core.YearTrack]int{}
-	if y, err := hlj.ParseYiFenYiDuanXLSX(
+	if y, err := core.ParseYiFenYiDuanXLSX(
 		filepath.Join(src, "黑龙江2026物理类一分一段表.xlsx"), "黑龙江", "物理", 2026); err == nil {
 		totals[core.YearTrack{Year: 2026, Track: "物理"}] = y.Total()
 	}

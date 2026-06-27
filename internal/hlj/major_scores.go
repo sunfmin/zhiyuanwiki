@@ -5,6 +5,8 @@ import (
 	"strings"
 
 	"github.com/xuri/excelize/v2"
+
+	"github.com/sunfmin/zhiyuanwiki/internal/core"
 )
 
 // 新科类口径（物理/历史）。旧高考的理科/文科不进位次模型。
@@ -12,7 +14,7 @@ var newGaokaoTracks = map[string]bool{"物理": true, "历史": true}
 
 // ParseMajorScoresXLSX 解析一个年份的专业录取分数线 xlsx，只返回新科类（物理/历史）、
 // 本科批、且含最低位次的行。表头驱动（容忍有/无标题行、列序不同、sheet 名不同）。
-func ParseMajorScoresXLSX(path string) ([]MajorScoreRow, error) {
+func ParseMajorScoresXLSX(path string) ([]core.MajorScoreRow, error) {
 	f, err := excelize.OpenFile(path)
 	if err != nil {
 		return nil, fmt.Errorf("打开 %s: %w", path, err)
@@ -29,10 +31,10 @@ func ParseMajorScoresXLSX(path string) ([]MajorScoreRow, error) {
 	return parseMajorScoreRows(rows)
 }
 
-func parseMajorScoreRows(rows [][]string) ([]MajorScoreRow, error) {
+func parseMajorScoreRows(rows [][]string) ([]core.MajorScoreRow, error) {
 	headerIdx := -1
 	for i, r := range rows {
-		if hasCell(r, "院校代码") && hasCell(r, "专业名称") {
+		if core.HasCell(r, "院校代码") && core.HasCell(r, "专业名称") {
 			headerIdx = i
 			break
 		}
@@ -41,7 +43,7 @@ func parseMajorScoreRows(rows [][]string) ([]MajorScoreRow, error) {
 		return nil, fmt.Errorf("未找到含\"院校代码\"+\"专业名称\"的表头行")
 	}
 	h := rows[headerIdx]
-	col := func(names ...string) int { return findCol(h, names...) }
+	col := func(names ...string) int { return core.FindCol(h, names...) }
 	cTrack := col("科类")
 	cBatch := col("批次", "批次名称")
 	cSchoolCode := col("院校代码")
@@ -53,34 +55,34 @@ func parseMajorScoreRows(rows [][]string) ([]MajorScoreRow, error) {
 	cRank := col("最低位次")
 	cMax := col("最高分")
 
-	var out []MajorScoreRow
+	var out []core.MajorScoreRow
 	for _, r := range rows[headerIdx+1:] {
-		track := strings.TrimSpace(cell(r, cTrack))
+		track := strings.TrimSpace(core.Cell(r, cTrack))
 		if !newGaokaoTracks[track] {
 			continue
 		}
-		if !strings.Contains(cell(r, cBatch), "本科") {
+		if !strings.Contains(core.Cell(r, cBatch), "本科") {
 			continue
 		}
-		year, _ := parseLeadingInt(cell(r, col("年份")))
-		minRank, hasRank := parseLeadingInt(cell(r, cRank))
+		year, _ := core.ParseLeadingInt(core.Cell(r, col("年份")))
+		minRank, hasRank := core.ParseLeadingInt(core.Cell(r, cRank))
 		if !hasRank {
 			continue // 位次缺失行不进位次模型
 		}
-		minScore, _ := parseLeadingInt(cell(r, cMin))
-		maxScore, _ := parseLeadingInt(cell(r, cMax))
-		name := strings.TrimSpace(cell(r, cMajor))
+		minScore, _ := core.ParseLeadingInt(core.Cell(r, cMin))
+		maxScore, _ := core.ParseLeadingInt(core.Cell(r, cMax))
+		name := strings.TrimSpace(core.Cell(r, cMajor))
 		if name == "" {
 			continue
 		}
-		out = append(out, MajorScoreRow{
+		out = append(out, core.MajorScoreRow{
 			Year:       year,
 			Track:      track,
-			SchoolCode: strings.TrimSpace(cell(r, cSchoolCode)),
-			SchoolName: strings.TrimSpace(cell(r, cSchoolName)),
-			GroupCode:  strings.TrimSpace(cell(r, cGroup)),
+			SchoolCode: strings.TrimSpace(core.Cell(r, cSchoolCode)),
+			SchoolName: strings.TrimSpace(core.Cell(r, cSchoolName)),
+			GroupCode:  strings.TrimSpace(core.Cell(r, cGroup)),
 			MajorName:  name,
-			SelKe:      strings.TrimSpace(cell(r, cSelKe)),
+			SelKe:      strings.TrimSpace(core.Cell(r, cSelKe)),
 			MinScore:   minScore,
 			MinRank:    minRank,
 			MaxScore:   maxScore,

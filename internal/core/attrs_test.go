@@ -1,4 +1,4 @@
-package hlj
+package core
 
 import "testing"
 
