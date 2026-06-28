@@ -56,6 +56,15 @@ func (ai *AttrIndex) Lookup(code string) (SchoolAttr, bool) {
 	return SchoolAttr{}, false
 }
 
+// All 返回全部 院校代码 → 属性（已归一化代码键），供入库 staging 落 school_attr。
+func (ai *AttrIndex) All() map[string]SchoolAttr {
+	out := make(map[string]SchoolAttr, len(ai.byCode))
+	for k, v := range ai.byCode {
+		out[k] = *v
+	}
+	return out
+}
+
 func (ai *AttrIndex) merge(code string, v SchoolAttr) {
 	code = core.NormSchoolCode(code)
 	if code == "" || !v.any() {

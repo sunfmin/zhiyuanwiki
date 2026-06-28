@@ -38,6 +38,11 @@ CREATE TABLE IF NOT EXISTS yifenyiduan (    -- 各省 一分一段 行
   prov TEXT, year INTEGER, track TEXT, score INTEGER, count INTEGER, cum INTEGER,
   control_line INTEGER  -- 本科批控制线（特控线），同一 年×科类 各行相同
 );
+CREATE TABLE IF NOT EXISTS school_attr (   -- 省专属·按院校代码的院校属性（浙江「一表联动」等）
+  prov TEXT, school_code TEXT, province TEXT, city TEXT, city_tier TEXT,
+  ownership TEXT, kind TEXT, is985 INTEGER, is211 INTEGER, syl INTEGER,
+  PRIMARY KEY (prov, school_code)
+);
 CREATE INDEX IF NOT EXISTS idx_score_prov ON major_score(prov);
 CREATE INDEX IF NOT EXISTS idx_plan_prov  ON plan(prov);
 CREATE INDEX IF NOT EXISTS idx_yfd_prov   ON yifenyiduan(prov);
@@ -171,6 +176,52 @@ func (d *DB) ReplacePlan(prov string, rows []core.PlanRow) error {
 			if _, err := st.Exec(prov, r.Year, r.Track, r.Batch, r.SchoolCode, r.SchoolName,
 				r.GroupCode, r.GroupName, r.MajorName, r.FullName, r.Remark, r.SelKe,
 				r.Plan, r.Schooling, r.Tuition); err != nil {
+				return err
+			}
+		}
+		return nil
+	})
+}
+
+// SchoolAttr 是省专属·按院校代码的院校属性（如浙江「一表联动」自带的 城市层级/类型/层次）。
+// 与全国 school 表（按校名、无 city_tier）互补：major 模型省份的录取数据按院校代码挂接，
+// 校名易因校区/分校歧义，且 city_tier 是源表显式标签而非由城市名推算——故另立按码投影。
+type SchoolAttr struct {
+	Code, Province, City, CityTier, Ownership, Kind string
+	Is985, Is211, Syl                               bool
+}
+
+// Levels 返回该校层次标签数组（985/211/双一流），仅含为真者。
+func (a SchoolAttr) Levels() []string {
+	var lv []string
+	if a.Is985 {
+		lv = append(lv, "985")
+	}
+	if a.Is211 {
+		lv = append(lv, "211")
+	}
+	if a.Syl {
+		lv = append(lv, "双一流")
+	}
+	return lv
+}
+
+// ReplaceSchoolAttrs 按省幂等重写省专属按码院校属性。
+func (d *DB) ReplaceSchoolAttrs(prov string, attrs []SchoolAttr) error {
+	return d.tx(func(t *sql.Tx) error {
+		if _, err := t.Exec(`DELETE FROM school_attr WHERE prov=?`, prov); err != nil {
+			return err
+		}
+		st, err := t.Prepare(`INSERT OR REPLACE INTO school_attr
+			(prov,school_code,province,city,city_tier,ownership,kind,is985,is211,syl)
+			VALUES (?,?,?,?,?,?,?,?,?,?)`)
+		if err != nil {
+			return err
+		}
+		defer st.Close()
+		for _, a := range attrs {
+			if _, err := st.Exec(prov, a.Code, a.Province, a.City, a.CityTier,
+				a.Ownership, a.Kind, b2i(a.Is985), b2i(a.Is211), b2i(a.Syl)); err != nil {
 				return err
 			}
 		}

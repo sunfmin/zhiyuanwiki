@@ -14,15 +14,16 @@ type province struct {
 	slug   string   // 数据目录与 URL 段：hlj / zj
 	name   string   // 黑龙江 / 浙江
 	tracks []string // 科类：黑龙江=[物理,历史]；浙江=[综合]
+	model  string   // 填报模型：group=院校专业组（多数省）；major=专业平行志愿（浙江）。决定 yuanxiao 投影路径。
 }
 
 var provinces = map[string]province{
-	"hlj": {slug: "hlj", name: "黑龙江", tracks: []string{"物理", "历史"}},
-	"zj":  {slug: "zj", name: "浙江", tracks: []string{"综合"}},
-	"js":  {slug: "js", name: "江苏", tracks: []string{"物理", "历史"}},
-	"hn":  {slug: "hn", name: "湖南", tracks: []string{"物理", "历史"}},
-	"sc":  {slug: "sc", name: "四川", tracks: []string{"物理", "历史"}},
-	"ah":  {slug: "ah", name: "安徽", tracks: []string{"物理", "历史"}},
+	"hlj": {slug: "hlj", name: "黑龙江", tracks: []string{"物理", "历史"}, model: "group"},
+	"zj":  {slug: "zj", name: "浙江", tracks: []string{"综合"}, model: "major"},
+	"js":  {slug: "js", name: "江苏", tracks: []string{"物理", "历史"}, model: "group"},
+	"hn":  {slug: "hn", name: "湖南", tracks: []string{"物理", "历史"}, model: "group"},
+	"sc":  {slug: "sc", name: "四川", tracks: []string{"物理", "历史"}, model: "group"},
+	"ah":  {slug: "ah", name: "安徽", tracks: []string{"物理", "历史"}, model: "group"},
 }
 
 // trackSlug 把科类名映射成 ascii 文件名片段（定位索引/一分一段文件名）。

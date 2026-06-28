@@ -102,15 +102,17 @@ func buildDBBundleMajor(dbPath string, p province) schoolBundle {
 	fmt.Printf("  专业录取分数：%d 行（%s·含位次）\n", len(scores), strings.Join(p.tracks, "/"))
 	schools, leaves := core.AggregateLeaves(scores)
 
-	idx, err := db.SchoolIndex()
-	if err != nil {
-		fatal(err)
-	}
 	menlei, err := db.Menlei()
 	if err != nil {
 		fatal(err)
 	}
-	fmt.Printf("  全国院校属性 %d 所 · 专业→门类 %d 条\n", idx.Len(), menlei.Len())
+	// 院校属性走省专属按码表（浙江「一表联动」：含 city_tier、按院校代码挂接），不用全国 school 表
+	// （按校名、无 city_tier，且 城市/类型 命名与浙江源大相径庭，会整体回归）。见 #21。
+	attrs, err := db.SchoolAttrs(p.slug)
+	if err != nil {
+		fatal(err)
+	}
+	fmt.Printf("  院校属性（按代码）%d 所 · 专业→门类 %d 条\n", len(attrs), menlei.Len())
 
 	totals, err := db.LoadTotals(p.slug)
 	if err != nil {
@@ -138,12 +140,12 @@ func buildDBBundleMajor(dbPath string, p province) schoolBundle {
 		d := schoolDetail{School: s, Leaves: byCode[s.Code], Plan2026: planByCode[s.Code]}
 		planCount += len(d.Plan2026)
 		b.details[s.Code] = d
-		if m, ok := idx.Lookup(s.Name); ok {
+		if a, ok := attrs[s.Code]; ok {
 			matched++
-			b.levels[s.Code] = [3]bool{m.Is985, m.Is211, m.Syl}
+			b.levels[s.Code] = [3]bool{a.Is985, a.Is211, a.Syl}
 			b.meta[s.Code] = schoolMetaOut{
-				Province: m.Province, City: m.City, CityTier: core.CityTier(m.City),
-				Owner: m.Ownership, Kind: m.Kind, Levels: levelsOf(m),
+				Province: a.Province, City: a.City, CityTier: a.CityTier,
+				Owner: a.Ownership, Kind: a.Kind, Levels: a.Levels(),
 			}
 		}
 	}
