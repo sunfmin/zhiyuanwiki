@@ -1,0 +1,194 @@
+{
+  "code": "0077",
+  "name": "北京大学医学部",
+  "leaves": [
+    {
+      "schoolCode": "0077",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 682,
+          "minRank": 212,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0077",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 687,
+          "minRank": 109,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0077",
+      "majorKey": "8ca67fa5",
+      "majorName": "基础医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 678,
+          "minRank": 355,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0077",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 635,
+          "minRank": 7273,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0077",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 676,
+          "minRank": 436,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0077",
+      "majorKey": "1954d9c9",
+      "majorName": "预防医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 675,
+          "minRank": 489,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "基础医学",
+          "majorKey": "8ca67fa5",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "8年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 355,
+          "equivRank": 355
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化",
+          "plan": 6,
+          "tuition": "8年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 212,
+          "equivRank": 212
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "5年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 212,
+          "equivRank": 212
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "8年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 109,
+          "equivRank": 109
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "5年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 109,
+          "equivRank": 109
+        },
+        {
+          "majorName": "预防医学",
+          "majorKey": "1954d9c9",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "7年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 489,
+          "equivRank": 489
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化",
+          "plan": 7,
+          "tuition": "6年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 436,
+          "equivRank": 436
+        },
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化",
+          "plan": 8,
+          "tuition": "4年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 7273,
+          "equivRank": 7273
+        }
+      ]
+    }
+  ]
+}

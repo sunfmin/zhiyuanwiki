@@ -1,0 +1,120 @@
+{
+  "code": "1483",
+  "name": "山西医药学院",
+  "leaves": [
+    {
+      "schoolCode": "1483",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 529,
+          "minRank": 88298,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1483",
+      "majorKey": "9b0a4bb0",
+      "majorName": "医学实验技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 516,
+          "minRank": 104652,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1483",
+      "majorKey": "11fef64a",
+      "majorName": "医学影像技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 515,
+          "minRank": 105921,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1483",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 517,
+          "minRank": 103352,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化",
+          "plan": 13,
+          "tuition": "5年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 88298,
+          "equivRank": 88298
+        },
+        {
+          "majorName": "医学实验技术",
+          "majorKey": "9b0a4bb0",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "4年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 104652,
+          "equivRank": 104652
+        },
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "4年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 103352,
+          "equivRank": 103352
+        },
+        {
+          "majorName": "医学影像技术",
+          "majorKey": "11fef64a",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "4年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 105921,
+          "equivRank": 105921
+        }
+      ]
+    }
+  ]
+}

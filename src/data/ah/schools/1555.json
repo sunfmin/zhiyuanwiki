@@ -1,0 +1,102 @@
+{
+  "code": "1555",
+  "name": "河北水利电力学院",
+  "leaves": [
+    {
+      "schoolCode": "1555",
+      "majorKey": "34a322af",
+      "majorName": "农业水利工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 502,
+          "minRank": 132119,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1555",
+      "majorKey": "6b32f2c4",
+      "majorName": "建筑学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 499,
+          "minRank": 136506,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1555",
+      "majorKey": "a6fe1434",
+      "majorName": "测绘工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 504,
+          "minRank": 129182,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "建筑学",
+          "majorKey": "6b32f2c4",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4900元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 136506,
+          "equivRank": 136506
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "测绘工程",
+          "majorKey": "a6fe1434",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "4900元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 129182,
+          "equivRank": 129182
+        },
+        {
+          "majorName": "农业水利工程",
+          "majorKey": "34a322af",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "4900元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 132119,
+          "equivRank": 132119
+        }
+      ]
+    }
+  ]
+}

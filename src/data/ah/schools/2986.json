@@ -1,0 +1,112 @@
+{
+  "code": "2986",
+  "name": "中央美术学院",
+  "leaves": [
+    {
+      "schoolCode": "2986",
+      "majorKey": "ae17c365",
+      "majorName": "艺术史论",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 560,
+          "minRank": 11176,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 565,
+          "minRank": 55105,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2986",
+      "majorKey": "44d89b18",
+      "majorName": "艺术管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 575,
+          "minRank": 7632,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 579,
+          "minRank": 42731,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "艺术史论",
+          "majorKey": "ae17c365",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "45000元/年",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 11176,
+          "equivRank": 11176
+        },
+        {
+          "majorName": "艺术管理",
+          "majorKey": "44d89b18",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "45000元/年",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 7632,
+          "equivRank": 7632
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "艺术史论",
+          "majorKey": "ae17c365",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "45000元/年",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 55105,
+          "equivRank": 55105
+        },
+        {
+          "majorName": "艺术管理",
+          "majorKey": "44d89b18",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "45000元/年",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 42731,
+          "equivRank": 42731
+        }
+      ]
+    }
+  ]
+}

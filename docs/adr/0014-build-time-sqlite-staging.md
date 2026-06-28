@@ -55,27 +55,38 @@ DB 是**规范化真相**，JSON 是**派生投影**——契合本仓 single-so
 
 ## 接入新省份的配方
 
-江苏走通了这条路（`internal/js` + `import`/`yuanxiao`/`fenduan` 的 js 分支）。加一省：
+江苏/湖南/四川/安徽走通了这条路。**编排已收敛**：`import.go` 的 `provParsers` 注册表是「构建期
+staging 管线」省份的单一登记处——登记即走 `import → DB → 投影`，`fenduan`/`yuanxiao` 据此分流
+（不再有 `case "<slug>"`）；DB 投影 `buildDBBundle` 是省份无关的，**不再每省照抄**。加一省：
 
-1. 写 `internal/<省>` 解析器——多数能照抄 `internal/js`，只改**科类取值**（物理类/历史类→归一）
-   与**批次过滤**（留本科、丢专科/艺体）。这是真正因省而异的部分（ADR-0013）。
-2. `import.go`：登记 `provDirName[slug]` + 加 `importXX` 分支入库。
+1. 写 `internal/<省>` 解析器——多数照抄 `internal/hn`（统一格式 3+1+2 省）。真正因省而异（ADR-0013）：
+   **科类取值**（物理类/历史类→归一；老文理省是文/理）、**批次过滤**、以及招生计划的**组代码列名**
+   （`所属专业组` vs `专业组代码`）与**专业名尾注**（部分省计划名带「（包含专业…）（XX校区）」，
+   录取分数表用裸名，须 `core.StripParenTail` 截断才能按名挂接）。
+2. `import.go`：`provDirName[slug]` + `provParsers[slug]` 一行（三个解析函数）；该省没有统一
+   「全国高校在X的招生计划」合表、或老文理副本体积更大时，填 `PlanMust` 精确指向其 2025 计划文件。
 3. `provinces.go`（Go）+ `src/lib/provinces.ts`（前端镜像）各加一条；3+1+2 省 `fillModel:"group"`。
-4. `yuanxiao.go` / `fenduan.go` 加 `case "<slug>"` 走 DB 投影（`buildXXBundle` 照抄 `buildJSBundle`）。
-5. 跑 `import → fenduan → yuanxiao → zhuanye → dingwei`，再 build/test。
+4. （投影无需改动——`yuanxiao`/`fenduan` 见 `provParsers` 即走 `buildDBBundle`/`fenduanFromDB`。）
+5. 跑 `import → fenduan → yuanxiao → zhuanye → dingwei`，再 build/test，最后开浏览器人工核对。
 
-**坑**：Go 把 `*_js.go`、`*_amd64.go` 等当 GOOS/GOARCH 构建约束——`js` 是 GOOS=wasm，
-文件名 `yuanxiao_js.go` 在 darwin 会被**静默排除**。江苏的 cmd 文件命名为 `yuanxiao_jiangsu.go`。
-（包目录名 `internal/js/` 不受影响，只有文件名后缀触发。）
+**坑一**：Go 把 `*_js.go`、`*_amd64.go` 等当 GOOS/GOARCH 构建约束——`js` 是 GOOS=wasm，
+文件名 `yuanxiao_js.go` 在 darwin 会被**静默排除**（包目录名 `internal/js/` 不受影响）。
+**坑二**：院校专业组在 3+1+2 下是按 (院校,**科类**,组代码) 一等的——见 ADR-0015。
 
-## 省份就绪度（按源表格式，截至 2026-06）
+## 省份就绪度（按真实可导性，截至 2026-06；判据 = 录取分数 schema + 招生计划组代码可得性）
 
-- **可直接导（22-25 多年·含位次·内联院校属性）**：浙江✓ 江苏✓ 湖南 重庆 贵州 西藏 新疆 海南 宁夏
-- **可导（仅 2025 或分年文件·同 schema·含位次）**：黑龙江✓ 云南 四川 安徽 江西 广西 河南 湖北 北京 天津 辽宁 甘肃 福建 内蒙 吉林
-- **需单独啃（表头异常/无合表/无位次）**：山西 陕西 上海 青海 河北
+- **已接入**：黑龙江✓ 浙江✓ 江苏✓ 湖南✓ 四川✓ 安徽✓
+- **干净的 group 直接导（物理类/历史类·含位次·招生计划带组代码）**：广西 江西 湖北 云南 河南
+  （均为 2025 单年·统一格式，计划名带尾注须 `StripParenTail`，配方同四川/安徽）。
+- **3+1+2 但招生计划无组代码（组 fill≈0%）**：重庆 贵州 辽宁——本数据源未含院校专业组，
+  group 模型会退化成「每校一个伪组」。要么走 `major` 模型（院校×专业，需 DB 版 `BuildPlanMajors`），
+  要么暂缓。**本轮已评估并暂缓**（见会话决策）。
+- **综合 3+3**：海南/北京/天津 是综合+院校专业组（可 group）；山东/上海 是专业平行志愿（走 `major`）。
+- **老文理（理科/文科）**：新疆 陕西 西藏 青海——位次列稀疏，需文/理科口径，单独啃。
+- **格式异常/无合表**：山西 甘肃（物理/历史无「类」、单年）河北 内蒙 吉林（无 专业录取分数 合表）。
 
-填报模型按高考制度分：3+3（综合）= 浙江/上海/山东/海南/北京/天津 走 `major`；
-3+1+2（物理/历史）= 其余多数走 `group`；老文理（新疆/西藏）需文/理科口径。
+填报模型按高考制度：3+3 综合走 `major`（浙江）或 group（海南/京津）；3+1+2 多数走 `group`；
+但 group 模型**要求招生计划带院校专业组代码**——这是比「高考制度」更硬的可导性判据（重庆即栽在此）。
 
 ## 给未来的人
 

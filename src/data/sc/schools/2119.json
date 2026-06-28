@@ -1,0 +1,174 @@
+{
+  "code": "2119",
+  "name": "大连医科大学",
+  "leaves": [
+    {
+      "schoolCode": "2119",
+      "majorKey": "8a499b4f",
+      "majorName": "中西医临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 609,
+          "minRank": 18260,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2119",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 630,
+          "minRank": 8961,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2119",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 616,
+          "minRank": 14761,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2119",
+      "majorKey": "f84887da",
+      "majorName": "眼视光医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 606,
+          "minRank": 19899,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "中医康复学",
+          "majorKey": "8de47a9e",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "5年",
+          "menlei": "医"
+        },
+        {
+          "majorName": "中西医临床医学",
+          "majorKey": "8a499b4f",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 18260,
+          "equivRank": 18260
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 8961,
+          "equivRank": 8961
+        }
+      ]
+    },
+    {
+      "groupCode": "103",
+      "groupName": "103",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 8961,
+          "equivRank": 8961
+        }
+      ]
+    },
+    {
+      "groupCode": "104",
+      "groupName": "104",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化",
+          "plan": 15,
+          "tuition": "5年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 8961,
+          "equivRank": 8961
+        },
+        {
+          "majorName": "眼视光医学",
+          "majorKey": "f84887da",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 19899,
+          "equivRank": 19899
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 14761,
+          "equivRank": 14761
+        }
+      ]
+    }
+  ]
+}

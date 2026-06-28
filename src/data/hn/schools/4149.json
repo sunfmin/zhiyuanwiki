@@ -1,0 +1,73 @@
+{
+  "code": "4149",
+  "name": "郑州师范学院",
+  "leaves": [
+    {
+      "schoolCode": "4149",
+      "majorKey": "f9ecceea",
+      "majorName": "地理信息科学",
+      "selKe": "首选物理，再选思想政治、地理(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 461,
+          "minRank": 138327,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4149",
+      "majorKey": "4ea26300",
+      "majorName": "广播电视学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 488,
+          "minRank": 29918,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（101）",
+      "groupName": "（101）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "广播电视学",
+          "majorKey": "4ea26300",
+          "selKe": "首选历史，再选不限",
+          "plan": 3,
+          "tuition": "4400",
+          "menlei": "文",
+          "prevYear": 2024,
+          "prevRank": 29918,
+          "equivRank": 28533
+        }
+      ]
+    },
+    {
+      "groupCode": "（102）",
+      "groupName": "（102）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "首选物理，再选化学",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "理"
+        }
+      ]
+    }
+  ]
+}

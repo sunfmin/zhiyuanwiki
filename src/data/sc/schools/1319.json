@@ -1,0 +1,195 @@
+{
+  "code": "1319",
+  "name": "河北医科大学",
+  "leaves": [
+    {
+      "schoolCode": "1319",
+      "majorKey": "f9504a0c",
+      "majorName": "中药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 539,
+          "minRank": 77689,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1319",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 575,
+          "minRank": 41558,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1319",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 574,
+          "minRank": 42395,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1319",
+      "majorKey": "11fef64a",
+      "majorName": "医学影像技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 536,
+          "minRank": 81156,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1319",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选历史，再选生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 547,
+          "minRank": 21412,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1319",
+      "majorKey": "1954d9c9",
+      "majorName": "预防医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 534,
+          "minRank": 83509,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1319",
+      "majorKey": "83eea431",
+      "majorName": "麻醉学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 575,
+          "minRank": 41558,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "预防医学",
+          "majorKey": "1954d9c9",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "5年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 83509,
+          "equivRank": 83509
+        },
+        {
+          "majorName": "中药学",
+          "majorKey": "f9504a0c",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "4年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 77689,
+          "equivRank": 77689
+        },
+        {
+          "majorName": "医学影像技术",
+          "majorKey": "11fef64a",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "4年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 81156,
+          "equivRank": 81156
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "化和生",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化和生",
+          "plan": 8,
+          "tuition": "5年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 41558,
+          "equivRank": 41558
+        },
+        {
+          "majorName": "麻醉学",
+          "majorKey": "83eea431",
+          "selKe": "化和生",
+          "plan": 2,
+          "tuition": "5年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 41558,
+          "equivRank": 41558
+        },
+        {
+          "majorName": "医学影像学",
+          "majorKey": "5780af73",
+          "selKe": "化和生",
+          "plan": 2,
+          "tuition": "5年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 42395,
+          "equivRank": 42395
+        }
+      ]
+    }
+  ]
+}

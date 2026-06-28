@@ -1,0 +1,128 @@
+{
+  "code": "4442",
+  "name": "广东金融学院",
+  "leaves": [
+    {
+      "schoolCode": "4442",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 553,
+          "minRank": 8676,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 553,
+          "minRank": 39143,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4442",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 546,
+          "minRank": 10177,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 551,
+          "minRank": 40582,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（101）",
+      "groupName": "（101）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "首选历史，再选不限",
+          "plan": 2,
+          "tuition": "5050",
+          "menlei": "经",
+          "prevYear": 2024,
+          "prevRank": 10177,
+          "equivRank": 9706
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "首选历史，再选不限",
+          "plan": 2,
+          "tuition": "5050",
+          "menlei": "管",
+          "prevYear": 2024,
+          "prevRank": 8676,
+          "equivRank": 8274
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "首选历史，再选不限",
+          "plan": 1,
+          "tuition": "5050",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "（102）",
+      "groupName": "（102）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "首选物理，再选不限",
+          "plan": 2,
+          "tuition": "5050",
+          "menlei": "经",
+          "prevYear": 2024,
+          "prevRank": 40582,
+          "equivRank": 45104
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "首选物理，再选不限",
+          "plan": 2,
+          "tuition": "5050",
+          "menlei": "管",
+          "prevYear": 2024,
+          "prevRank": 39143,
+          "equivRank": 43505
+        },
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "首选物理，再选不限",
+          "plan": 1,
+          "tuition": "5050",
+          "menlei": "经"
+        }
+      ]
+    }
+  ]
+}

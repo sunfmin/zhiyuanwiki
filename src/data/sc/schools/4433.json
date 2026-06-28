@@ -1,0 +1,128 @@
+{
+  "code": "4433",
+  "name": "肇庆医学院",
+  "leaves": [
+    {
+      "schoolCode": "4433",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 525,
+          "minRank": 94428,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4433",
+      "majorKey": "e849f952",
+      "majorName": "口腔医学技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 516,
+          "minRank": 105920,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4433",
+      "majorKey": "a507c400",
+      "majorName": "康复治疗学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 518,
+          "minRank": 103351,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4433",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 524,
+          "minRank": 95738,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "5年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 94428,
+          "equivRank": 94428
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "4年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 95738,
+          "equivRank": 95738
+        },
+        {
+          "majorName": "口腔医学技术",
+          "majorKey": "e849f952",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "4年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 105920,
+          "equivRank": 105920
+        },
+        {
+          "majorName": "康复治疗学",
+          "majorKey": "a507c400",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "4年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 103351,
+          "equivRank": 103351
+        },
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "4年",
+          "menlei": "医"
+        }
+      ]
+    }
+  ]
+}

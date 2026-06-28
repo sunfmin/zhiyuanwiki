@@ -1,0 +1,144 @@
+{
+  "code": "1250",
+  "name": "滇池学院",
+  "leaves": [
+    {
+      "schoolCode": "1250",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 494,
+          "minRank": 36355,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1250",
+      "majorKey": "b8be11ab",
+      "majorName": "工程造价",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 476,
+          "minRank": 170300,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1250",
+      "majorKey": "bda0ff17",
+      "majorName": "经济学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 493,
+          "minRank": 36833,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1250",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 483,
+          "minRank": 160272,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "22000元/年",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 36355,
+          "equivRank": 36355
+        },
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "22000元/年",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 36833,
+          "equivRank": 36833
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "22000元/年",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "工程造价",
+          "majorKey": "b8be11ab",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "22000元/年",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 170300,
+          "equivRank": 170300
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "22000元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 160272,
+          "equivRank": 160272
+        }
+      ]
+    }
+  ]
+}

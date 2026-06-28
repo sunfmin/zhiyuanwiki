@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"sort"
+	"strings"
 )
 
 // province 是一个省份的预处理配置：slug（数据目录/URL 段）、中文名、科类列表。
@@ -18,6 +20,9 @@ var provinces = map[string]province{
 	"hlj": {slug: "hlj", name: "黑龙江", tracks: []string{"物理", "历史"}},
 	"zj":  {slug: "zj", name: "浙江", tracks: []string{"综合"}},
 	"js":  {slug: "js", name: "江苏", tracks: []string{"物理", "历史"}},
+	"hn":  {slug: "hn", name: "湖南", tracks: []string{"物理", "历史"}},
+	"sc":  {slug: "sc", name: "四川", tracks: []string{"物理", "历史"}},
+	"ah":  {slug: "ah", name: "安徽", tracks: []string{"物理", "历史"}},
 }
 
 // trackSlug 把科类名映射成 ascii 文件名片段（定位索引/一分一段文件名）。
@@ -32,7 +37,12 @@ var trackSlug = map[string]string{
 func mustProv(slug string) province {
 	p, ok := provinces[slug]
 	if !ok {
-		fmt.Fprintf(os.Stderr, "未知省份 %q（支持：hlj, zj）\n", slug)
+		slugs := make([]string, 0, len(provinces))
+		for s := range provinces {
+			slugs = append(slugs, s)
+		}
+		sort.Strings(slugs)
+		fmt.Fprintf(os.Stderr, "未知省份 %q（支持：%s）\n", slug, strings.Join(slugs, ", "))
 		os.Exit(2)
 	}
 	return p

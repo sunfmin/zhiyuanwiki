@@ -1,0 +1,118 @@
+{
+  "code": "5361",
+  "name": "文山学院",
+  "leaves": [
+    {
+      "schoolCode": "5361",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 454,
+          "minRank": 120234,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 452,
+          "minRank": 129414,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 458,
+          "minRank": 142419,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 454,
+          "minRank": 148351,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5361",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 481,
+          "minRank": 37942,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 461,
+          "minRank": 37952,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 475,
+          "minRank": 36096,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 484,
+          "minRank": 34000,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（101）",
+      "groupName": "（101）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "首选历史，再选不限",
+          "plan": 5,
+          "tuition": "4200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 34000,
+          "equivRank": 34000
+        }
+      ]
+    },
+    {
+      "groupCode": "（102）",
+      "groupName": "（102）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "首选物理，再选化学",
+          "plan": 5,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 148351,
+          "equivRank": 148351
+        }
+      ]
+    }
+  ]
+}

@@ -10,8 +10,11 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/sunfmin/zhiyuanwiki/internal/ah"
 	"github.com/sunfmin/zhiyuanwiki/internal/core"
+	"github.com/sunfmin/zhiyuanwiki/internal/hn"
 	"github.com/sunfmin/zhiyuanwiki/internal/js"
+	"github.com/sunfmin/zhiyuanwiki/internal/sc"
 	"github.com/sunfmin/zhiyuanwiki/internal/store"
 )
 
@@ -24,6 +27,30 @@ func importDefaultSrc() string {
 // provDirName 是某省在 各省份/ 下的子目录名（多数=中文名；个别带后缀，按需登记）。
 var provDirName = map[string]string{
 	"js": "江苏",
+	"hn": "湖南",
+	"sc": "四川",
+	"ah": "安徽",
+}
+
+// provParser 是某省入库所需的三个解析函数（签名一致，实现在 internal/<省>）。这张表是
+// 「构建期 staging 管线」省份的注册处：在表中 = 走 import→DB→投影，fenduan/yuanxiao 据此分流。
+// 逐行解析仍各在各省的包（ADR-0013 有意为之），这里只是选包派发，不是共用解析配置。
+type provParser struct {
+	Scores func(path string) ([]core.MajorScoreRow, error)
+	Plan   func(path string) ([]core.PlanRow, error)
+	YFD    func(path, province string, year int) ([]*core.YiFenYiDuan, error)
+	// PlanMust 覆盖招生计划文件的（整路径）子串匹配；nil=默认 ["招生计划"]。个别省没有统一的
+	// 「全国高校在X的招生计划」合表、且老文理副本体积更大，需精确指向该省 2025 计划文件。
+	PlanMust []string
+}
+
+var provParsers = map[string]provParser{
+	"js": {Scores: js.ParseScores, Plan: js.ParsePlan, YFD: js.ParseYiFenYiDuan},
+	"hn": {Scores: hn.ParseScores, Plan: hn.ParsePlan, YFD: hn.ParseYiFenYiDuan},
+	"sc": {Scores: sc.ParseScores, Plan: sc.ParsePlan, YFD: sc.ParseYiFenYiDuan,
+		PlanMust: []string{"2025年-招生计划"}},
+	"ah": {Scores: ah.ParseScores, Plan: ah.ParsePlan, YFD: ah.ParseYiFenYiDuan,
+		PlanMust: []string{"安徽-2025-招生计划"}},
 }
 
 // importCmd 把官方 xlsx 解析入 SQLite staging（按省幂等）。全国表（院校属性/专业门类）每次刷新。
@@ -49,12 +76,11 @@ func importCmd(args []string) {
 		importNational(db, *src)
 	}
 
-	switch p.slug {
-	case "js":
-		importJS(db, *src, p)
-	default:
-		fatal(fmt.Errorf("import 暂未支持省份 %q（先在 import.go 接入解析）", p.slug))
+	parser, ok := provParsers[p.slug]
+	if !ok {
+		fatal(fmt.Errorf("import 暂未支持省份 %q（先写 internal/%s 解析器并登记 provParsers）", p.slug, p.slug))
 	}
+	importProvince(db, *src, p, parser)
 }
 
 // importNational 刷新全国院校属性 + 专业门类（全量替换）。文件在任一省的 college_data 下，取首个。
@@ -79,25 +105,31 @@ func importNational(db *store.DB, src string) {
 	}
 }
 
-// importJS 解析江苏 专业录取分数/招生计划/一分一段 → DB（按省幂等）。
-func importJS(db *store.DB, src string, p province) {
+// importProvince 解析某省 专业录取分数/招生计划/一分一段 → DB（按省幂等）。文件用子树 glob
+// 按名定位（路径嵌套层数因省而异，见 ADR-0014），逐行解析委派给该省 provParser。
+func importProvince(db *store.DB, src string, p province, parser provParser) {
 	root := filepath.Join(src, provDirName[p.slug])
+	tracks := strings.Join(p.tracks, "/")
 
 	scorePath := findFile(root, []string{"专业录取分数"}, []string{"艺术", "艺考"})
 	if scorePath == "" {
 		fatal(fmt.Errorf("%s：未找到 专业录取分数 xlsx（在 %s 下）", p.name, root))
 	}
-	scores, err := js.ParseScores(scorePath)
+	scores, err := parser.Scores(scorePath)
 	if err != nil {
 		fatal(err)
 	}
 	if err := db.ReplaceScores(p.slug, scores); err != nil {
 		fatal(err)
 	}
-	fmt.Printf("  专业录取分数：%d 行（物理/历史·本科·含位次）→ major_score\n", len(scores))
+	fmt.Printf("  专业录取分数：%d 行（%s·本科·含位次）→ major_score\n", len(scores), tracks)
 
-	if planPath := findFile(root, []string{"招生计划"}, []string{"艺术", "艺考"}); planPath != "" {
-		plan, err := js.ParsePlan(planPath)
+	planMust := parser.PlanMust
+	if planMust == nil {
+		planMust = []string{"招生计划"}
+	}
+	if planPath := findFile(root, planMust, []string{"艺术", "艺考"}); planPath != "" {
+		plan, err := parser.Plan(planPath)
 		if err != nil {
 			fatal(err)
 		}
@@ -106,27 +138,35 @@ func importJS(db *store.DB, src string, p province) {
 		}
 		fmt.Printf("  招生计划：%d 行 → plan\n", len(plan))
 	} else {
-		fmt.Fprintln(os.Stderr, "⚠ 未找到江苏招生计划，跳过（报考视图将为空）")
+		fmt.Fprintf(os.Stderr, "⚠ 未找到%s招生计划，跳过（报考视图将为空）\n", p.name)
 	}
 
 	var allYfd []*core.YiFenYiDuan
+	seenYT := map[core.YearTrack]bool{} // 防重复源文件（如四川/安徽 2025 一分一段有两份副本）
 	for _, yf := range findFiles(root, []string{"一分一段表"}, []string{"艺术", "艺考"}) {
 		year := yearFromName(filepath.Base(yf))
 		if year == 0 {
 			continue
 		}
-		yds, err := js.ParseYiFenYiDuan(yf, p.name, year)
+		yds, err := parser.YFD(yf, p.name, year)
 		if err != nil {
 			fmt.Fprintf(os.Stderr, "⚠ 一分一段 %s 解析失败：%v\n", filepath.Base(yf), err)
 			continue
 		}
-		allYfd = append(allYfd, yds...)
+		for _, y := range yds {
+			yt := core.YearTrack{Year: y.Year, Track: y.Track}
+			if seenYT[yt] {
+				continue // 已有该 年×科类（findFiles 按体积降序，保留首个=最全副本）
+			}
+			seenYT[yt] = true
+			allYfd = append(allYfd, y)
+		}
 	}
 	if err := db.ReplaceYiFenYiDuan(p.slug, allYfd); err != nil {
 		fatal(err)
 	}
 	fmt.Printf("  一分一段：%d 个(年×科类) → yifenyiduan\n", len(allYfd))
-	fmt.Printf("✓ 江苏入库完成 → %s\n", "out/zhiyuan.db")
+	fmt.Printf("✓ %s入库完成 → %s\n", p.name, "out/zhiyuan.db")
 }
 
 // ── 全国表解析（非省份专属，就近放 import 编排处，复用 core.OpenSheet）──

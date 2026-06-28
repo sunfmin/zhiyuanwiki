@@ -1,0 +1,79 @@
+{
+  "code": "3127",
+  "name": "上海中医药大学",
+  "leaves": [
+    {
+      "schoolCode": "3127",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 618,
+          "minRank": 9205,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3127",
+      "majorKey": "c744f66e",
+      "majorName": "针灸推拿学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 597,
+          "minRank": 17176,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（101）",
+      "groupName": "（101）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "首选物理，再选化学",
+          "plan": 2,
+          "tuition": "8100",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 9205,
+          "equivRank": 9205
+        },
+        {
+          "majorName": "针灸推拿学",
+          "majorKey": "c744f66e",
+          "selKe": "首选物理，再选化学",
+          "plan": 1,
+          "tuition": "8100",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 17176,
+          "equivRank": 17176
+        },
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "首选物理，再选化学",
+          "plan": 1,
+          "tuition": "8100",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 9205,
+          "equivRank": 9205
+        }
+      ]
+    }
+  ]
+}

@@ -62,6 +62,48 @@ export const PROVINCES: Record<string, ProvinceConfig> = {
     intro: "江苏 · 2025",
     batchLabel: "本科批 · 物理 / 历史（院校专业组）",
   },
+  hn: {
+    slug: "hn",
+    name: "湖南",
+    tracks: [
+      { name: "物理", slug: "wuli" },
+      { name: "历史", slug: "lishi" },
+    ],
+    fillModel: "group",
+    subjectMode: "primary+reselect",
+    fenduanTrack: "物理",
+    fenduanYear: 2025,
+    intro: "湖南 · 2025",
+    batchLabel: "本科批 · 物理 / 历史（院校专业组）",
+  },
+  sc: {
+    slug: "sc",
+    name: "四川",
+    tracks: [
+      { name: "物理", slug: "wuli" },
+      { name: "历史", slug: "lishi" },
+    ],
+    fillModel: "group",
+    subjectMode: "primary+reselect",
+    fenduanTrack: "物理",
+    fenduanYear: 2025,
+    intro: "四川 · 2025",
+    batchLabel: "本科批 · 物理 / 历史（院校专业组）",
+  },
+  ah: {
+    slug: "ah",
+    name: "安徽",
+    tracks: [
+      { name: "物理", slug: "wuli" },
+      { name: "历史", slug: "lishi" },
+    ],
+    fillModel: "group",
+    subjectMode: "primary+reselect",
+    fenduanTrack: "物理",
+    fenduanYear: 2025,
+    intro: "安徽 · 2025",
+    batchLabel: "本科批 · 物理 / 历史（院校专业组）",
+  },
 };
 
 export const PROVINCE_SLUGS = Object.keys(PROVINCES);

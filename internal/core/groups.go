@@ -59,6 +59,24 @@ func leafLatest(l *MajorLeaf) *YearScore {
 	return best
 }
 
+// leafLatestForTrack 返回叶子在指定科类下最近年份的数据点；该科类无往年线则回退到全科类最近点
+// （3+1+2 下同名专业可能仅在另一科类有往年录取线，回退好过完全无位次）。
+func leafLatestForTrack(l *MajorLeaf, track string) *YearScore {
+	var best *YearScore
+	for i := range l.Years {
+		if l.Years[i].Track != track {
+			continue
+		}
+		if best == nil || l.Years[i].Year >= best.Year {
+			best = &l.Years[i]
+		}
+	}
+	if best == nil {
+		return leafLatest(l)
+	}
+	return best
+}
+
 // BuildGroups2026 把招生计划行按院校→组聚合成单年视图，并用 leaves（按院校代码+专业名）
 // 挂接每个组内专业的往年最低位次与等效位次。menlei（可为 nil）把专业名归到学科门类码。
 // 返回 院校代码 → 组列表。
@@ -68,12 +86,14 @@ func BuildGroups2026(plan []PlanRow, leaves []MajorLeaf, totals map[YearTrack]in
 		leafIdx[leaves[i].SchoolCode+"/"+leaves[i].MajorKey] = &leaves[i]
 	}
 
-	type gkey struct{ school, group string }
+	// 院校专业组在 3+1+2 下是按 (院校, 科类, 组代码) 一等的：同校同号的物理组与历史组是两个组。
+	// 故键必须含科类——个别省（四川/安徽等）的组代码在两科类间复用，缺科类会把历史专业并进物理组。
+	type gkey struct{ school, track, group string }
 	order := []gkey{}
 	groups := map[gkey]*Group2026{}
 
 	for _, r := range plan {
-		k := gkey{r.SchoolCode, r.GroupCode}
+		k := gkey{r.SchoolCode, r.Track, r.GroupCode}
 		g := groups[k]
 		if g == nil {
 			g = &Group2026{GroupCode: r.GroupCode, GroupName: r.GroupName, Track: r.Track, SelKe: r.SelKe}
@@ -95,7 +115,7 @@ func BuildGroups2026(plan []PlanRow, leaves []MajorLeaf, totals map[YearTrack]in
 			gm.Menlei = menlei(r.MajorName)
 		}
 		if lf := leafIdx[r.SchoolCode+"/"+gm.MajorKey]; lf != nil {
-			if p := leafLatest(lf); p != nil {
+			if p := leafLatestForTrack(lf, r.Track); p != nil {
 				gm.PrevYear = p.Year
 				gm.PrevRank = p.MinRank
 				gm.EquivRank = EquivRank(p.MinRank,
@@ -110,7 +130,12 @@ func BuildGroups2026(plan []PlanRow, leaves []MajorLeaf, totals map[YearTrack]in
 		out[k.school] = append(out[k.school], *groups[k])
 	}
 	for code := range out {
-		sort.Slice(out[code], func(i, j int) bool { return out[code][i].GroupCode < out[code][j].GroupCode })
+		sort.Slice(out[code], func(i, j int) bool {
+			if out[code][i].Track != out[code][j].Track {
+				return out[code][i].Track < out[code][j].Track
+			}
+			return out[code][i].GroupCode < out[code][j].GroupCode
+		})
 	}
 	return out
 }

@@ -1,0 +1,128 @@
+{
+  "code": "1107",
+  "name": "长春职业技术大学",
+  "leaves": [
+    {
+      "schoolCode": "1107",
+      "majorKey": "a8fb44ce",
+      "majorName": "新能源汽车工程技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 488,
+          "minRank": 152846,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1107",
+      "majorKey": "57377dd0",
+      "majorName": "智能制造工程技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 488,
+          "minRank": 152846,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1107",
+      "majorKey": "02164ef1",
+      "majorName": "电气工程及自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 489,
+          "minRank": 151358,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1107",
+      "majorKey": "94699a4b",
+      "majorName": "食品工程技术",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 486,
+          "minRank": 155807,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "002",
+      "groupName": "002专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "新能源汽车工程技术",
+          "majorKey": "a8fb44ce",
+          "selKe": "化学",
+          "plan": 10,
+          "tuition": "8800元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 152846,
+          "equivRank": 152846
+        },
+        {
+          "majorName": "智能制造工程技术",
+          "majorKey": "57377dd0",
+          "selKe": "化学",
+          "plan": 10,
+          "tuition": "8800元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 152846,
+          "equivRank": 152846
+        },
+        {
+          "majorName": "电气工程及自动化",
+          "majorKey": "02164ef1",
+          "selKe": "化学",
+          "plan": 10,
+          "tuition": "8800元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 151358,
+          "equivRank": 151358
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003专业组",
+      "track": "物理",
+      "selKe": "化学+生物学",
+      "majors": [
+        {
+          "majorName": "食品工程技术",
+          "majorKey": "94699a4b",
+          "selKe": "化学+生物学",
+          "plan": 9,
+          "tuition": "8800元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 155807,
+          "equivRank": 155807
+        }
+      ]
+    }
+  ]
+}

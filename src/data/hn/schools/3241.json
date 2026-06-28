@@ -1,0 +1,119 @@
+{
+  "code": "3241",
+  "name": "常州工学院",
+  "leaves": [
+    {
+      "schoolCode": "3241",
+      "majorKey": "d8f4c9ac",
+      "majorName": "光电信息科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 513,
+          "minRank": 74125,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 519,
+          "minRank": 70143,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3241",
+      "majorKey": "1f59c989",
+      "majorName": "化学工程与工艺",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 475,
+          "minRank": 97137,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3241",
+      "majorKey": "ed53a26b",
+      "majorName": "智能制造工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 511,
+          "minRank": 71675,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 516,
+          "minRank": 70965,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 523,
+          "minRank": 66378,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3241",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 495,
+          "minRank": 76748,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（102）",
+      "groupName": "（102）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "光电信息科学与工程",
+          "majorKey": "d8f4c9ac",
+          "selKe": "首选物理，再选化学",
+          "plan": 3,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 70143,
+          "equivRank": 70143
+        },
+        {
+          "majorName": "智能制造工程",
+          "majorKey": "ed53a26b",
+          "selKe": "首选物理，再选化学",
+          "plan": 2,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 66378,
+          "equivRank": 66378
+        }
+      ]
+    }
+  ]
+}

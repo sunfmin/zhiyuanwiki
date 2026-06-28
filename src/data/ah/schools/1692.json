@@ -1,0 +1,154 @@
+{
+  "code": "1692",
+  "name": "湖南科技学院",
+  "leaves": [
+    {
+      "schoolCode": "1692",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 508,
+          "minRank": 123337,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1692",
+      "majorKey": "3e2b336a",
+      "majorName": "教育技术学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 507,
+          "minRank": 124829,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1692",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 509,
+          "minRank": 121838,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1692",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 517,
+          "minRank": 25852,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1692",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 516,
+          "minRank": 26278,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "学费待定",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 25852,
+          "equivRank": 25852
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "学费待定",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 26278,
+          "equivRank": 26278
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "教育技术学",
+          "majorKey": "3e2b336a",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "学费待定",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 124829,
+          "equivRank": 124829
+        },
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "学费待定",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 121838,
+          "equivRank": 121838
+        },
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "学费待定",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 123337,
+          "equivRank": 123337
+        }
+      ]
+    }
+  ]
+}

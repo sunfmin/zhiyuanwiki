@@ -22,13 +22,16 @@ func yuanxiaoCmd(args []string) {
 	p := mustProv(*provSlug)
 
 	var b schoolBundle
-	switch p.slug {
-	case "hlj":
+	switch {
+	case p.slug == "hlj":
 		b = buildHLJBundle(*src)
-	case "zj":
+	case p.slug == "zj":
 		b = buildZJBundle(*src)
-	case "js":
-		b = buildJSBundle(*dbPath, p)
+	default: // 构建期 staging 管线省份（js/hn/cq…）：从 SQLite 投影，见 ADR-0014
+		if _, ok := provParsers[p.slug]; !ok {
+			fatal(fmt.Errorf("yuanxiao 暂未支持省份 %q", p.slug))
+		}
+		b = buildDBBundle(*dbPath, p)
 	}
 	emitSchoolData(p, b, srcDir(*out, p), pubDir(*pub, p))
 }

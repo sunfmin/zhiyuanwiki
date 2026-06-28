@@ -1,0 +1,120 @@
+{
+  "code": "1415",
+  "name": "运城学院",
+  "leaves": [
+    {
+      "schoolCode": "1415",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 494,
+          "minRank": 135473,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1415",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 495,
+          "minRank": 134050,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1415",
+      "majorKey": "c425ce53",
+      "majorName": "材料科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 494,
+          "minRank": 135473,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1415",
+      "majorKey": "1c1ee3f7",
+      "majorName": "通信工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 495,
+          "minRank": 134050,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化",
+          "plan": 10,
+          "tuition": "4年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 134050,
+          "equivRank": 134050
+        },
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "化",
+          "plan": 15,
+          "tuition": "4年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 134050,
+          "equivRank": 134050
+        },
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化",
+          "plan": 8,
+          "tuition": "4年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 135473,
+          "equivRank": 135473
+        },
+        {
+          "majorName": "材料科学与工程",
+          "majorKey": "c425ce53",
+          "selKe": "化",
+          "plan": 15,
+          "tuition": "4年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 135473,
+          "equivRank": 135473
+        }
+      ]
+    }
+  ]
+}

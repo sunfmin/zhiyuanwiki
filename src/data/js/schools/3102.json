@@ -412,8 +412,8 @@
           "menlei": "经",
           "coop": true,
           "prevYear": 2025,
-          "prevRank": 6732,
-          "equivRank": 1843
+          "prevRank": 1489,
+          "equivRank": 1489
         },
         {
           "majorName": "传播学",
@@ -457,7 +457,7 @@
       "groupCode": "（03）",
       "groupName": "（03）",
       "track": "历史",
-      "selKe": "",
+      "selKe": "首选历史，再选不限",
       "majors": [
         {
           "majorName": "经济学类",
@@ -601,18 +601,6 @@
           "prevYear": 2025,
           "prevRank": 156,
           "equivRank": 156
-        },
-        {
-          "majorName": "金融学",
-          "majorKey": "5a699e63",
-          "selKe": "首选物理，再选不限",
-          "plan": 12,
-          "tuition": "70000",
-          "menlei": "经",
-          "coop": true,
-          "prevYear": 2025,
-          "prevRank": 6732,
-          "equivRank": 6732
         }
       ]
     },
@@ -620,7 +608,7 @@
       "groupCode": "（04）",
       "groupName": "（04）",
       "track": "历史",
-      "selKe": "",
+      "selKe": "首选历史，再选思想政治",
       "majors": [
         {
           "majorName": "国际政治",
@@ -643,7 +631,35 @@
           "prevYear": 2025,
           "prevRank": 125,
           "equivRank": 125
-        },
+        }
+      ]
+    },
+    {
+      "groupCode": "（03）",
+      "groupName": "（03）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "首选物理，再选不限",
+          "plan": 12,
+          "tuition": "70000",
+          "menlei": "经",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 6732,
+          "equivRank": 6732
+        }
+      ]
+    },
+    {
+      "groupCode": "（04）",
+      "groupName": "（04）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
         {
           "majorName": "数学与应用数学",
           "majorKey": "618fdffd",

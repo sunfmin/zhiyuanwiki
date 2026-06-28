@@ -21,7 +21,8 @@ func fenduanCmd(args []string) {
 	_ = fs.Parse(args)
 	p := mustProv(*provSlug)
 
-	if p.slug == "js" {
+	// 构建期 staging 管线省份（js/hn/cq…）：从 SQLite 投影；其余从官方 xlsx 读。见 ADR-0014。
+	if _, ok := provParsers[p.slug]; ok {
 		fenduanFromDB(*dbPath, *out, p)
 		return
 	}

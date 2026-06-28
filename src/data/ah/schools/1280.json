@@ -1,0 +1,154 @@
+{
+  "code": "1280",
+  "name": "福建警察学院",
+  "leaves": [
+    {
+      "schoolCode": "1280",
+      "majorKey": "e6801f33",
+      "majorName": "信息安全",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 522,
+          "minRank": 104065,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1280",
+      "majorKey": "7cad2a20",
+      "majorName": "应急管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 517,
+          "minRank": 110771,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1280",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 536,
+          "minRank": 18524,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 525,
+          "minRank": 100155,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1280",
+      "majorKey": "ad068215",
+      "majorName": "海外安全管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 516,
+          "minRank": 112140,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 7,
+          "tuition": "4800元/年",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 18524,
+          "equivRank": 18524
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4800元/年",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 100155,
+          "equivRank": 100155
+        },
+        {
+          "majorName": "应急管理",
+          "majorKey": "7cad2a20",
+          "selKe": "不限",
+          "plan": 7,
+          "tuition": "4800元/年",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 110771,
+          "equivRank": 110771
+        },
+        {
+          "majorName": "海外安全管理",
+          "majorKey": "ad068215",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "4800元/年",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 112140,
+          "equivRank": 112140
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "信息安全",
+          "majorKey": "e6801f33",
+          "selKe": "化学",
+          "plan": 7,
+          "tuition": "4800元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 104065,
+          "equivRank": 104065
+        }
+      ]
+    }
+  ]
+}

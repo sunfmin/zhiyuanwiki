@@ -1,0 +1,128 @@
+{
+  "code": "1740",
+  "name": "淮阴师范学院",
+  "leaves": [
+    {
+      "schoolCode": "1740",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 546,
+          "minRank": 15309,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1740",
+      "majorKey": "37356fa4",
+      "majorName": "环境科学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 512,
+          "minRank": 117743,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1740",
+      "majorKey": "14eeb10f",
+      "majorName": "生物工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 514,
+          "minRank": 114928,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1740",
+      "majorKey": "0ac1da59",
+      "majorName": "生物技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 512,
+          "minRank": 117743,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5200元/年",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 15309,
+          "equivRank": 15309
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "环境科学",
+          "majorKey": "37356fa4",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5800元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 117743,
+          "equivRank": 117743
+        },
+        {
+          "majorName": "生物工程",
+          "majorKey": "14eeb10f",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5800元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 114928,
+          "equivRank": 114928
+        },
+        {
+          "majorName": "生物技术",
+          "majorKey": "0ac1da59",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5500元/年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 117743,
+          "equivRank": 117743
+        }
+      ]
+    }
+  ]
+}

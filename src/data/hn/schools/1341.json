@@ -1,0 +1,156 @@
+{
+  "code": "1341",
+  "name": "华北理工大学轻工学院",
+  "leaves": [
+    {
+      "schoolCode": "1341",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 438,
+          "minRank": 51131,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 456,
+          "minRank": 45830,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1341",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 433,
+          "minRank": 149863,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 443,
+          "minRank": 162597,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1341",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 433,
+          "minRank": 149863,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 451,
+          "minRank": 151919,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1341",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 439,
+          "minRank": 50536,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 454,
+          "minRank": 46834,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（101）",
+      "groupName": "（101）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "首选历史，再选不限",
+          "plan": 5,
+          "tuition": "19500",
+          "menlei": "管",
+          "prevYear": 2024,
+          "prevRank": 46834,
+          "equivRank": 44666
+        },
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "首选历史，再选不限",
+          "plan": 5,
+          "tuition": "19500",
+          "menlei": "管",
+          "prevYear": 2024,
+          "prevRank": 45830,
+          "equivRank": 43708
+        }
+      ]
+    },
+    {
+      "groupCode": "（102）",
+      "groupName": "（102）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "首选物理，再选化学",
+          "plan": 6,
+          "tuition": "22000",
+          "menlei": "工",
+          "prevYear": 2024,
+          "prevRank": 162597,
+          "equivRank": 180715
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "首选物理，再选化学",
+          "plan": 4,
+          "tuition": "22000",
+          "menlei": "工",
+          "prevYear": 2024,
+          "prevRank": 151919,
+          "equivRank": 168848
+        }
+      ]
+    }
+  ]
+}

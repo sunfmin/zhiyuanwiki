@@ -1,0 +1,120 @@
+{
+  "code": "5358",
+  "name": "昭通学院",
+  "leaves": [
+    {
+      "schoolCode": "5358",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 490,
+          "minRank": 32337,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 487,
+          "minRank": 30378,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5358",
+      "majorKey": "062bcf46",
+      "majorName": "行政管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 487,
+          "minRank": 34137,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 483,
+          "minRank": 32241,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5358",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 458,
+          "minRank": 115703,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 471,
+          "minRank": 124739,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（101）",
+      "groupName": "（101）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "首选历史，再选不限",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "文",
+          "prevYear": 2024,
+          "prevRank": 30378,
+          "equivRank": 28971
+        }
+      ]
+    },
+    {
+      "groupCode": "（102）",
+      "groupName": "（102）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "首选物理，再选化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2024,
+          "prevRank": 124739,
+          "equivRank": 138639
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "首选物理，再选化学",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

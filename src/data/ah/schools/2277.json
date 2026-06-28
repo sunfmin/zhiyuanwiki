@@ -1,0 +1,76 @@
+{
+  "code": "2277",
+  "name": "山西工程科技职业大学",
+  "leaves": [
+    {
+      "schoolCode": "2277",
+      "majorKey": "e3b353e3",
+      "majorName": "应用英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 503,
+          "minRank": 32050,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2277",
+      "majorKey": "05d426cd",
+      "majorName": "建筑工程",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 489,
+          "minRank": 151358,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "应用英语",
+          "majorKey": "e3b353e3",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4500元/年",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 32050,
+          "equivRank": 32050
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "建筑工程",
+          "majorKey": "05d426cd",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4800元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 151358,
+          "equivRank": 151358
+        }
+      ]
+    }
+  ]
+}

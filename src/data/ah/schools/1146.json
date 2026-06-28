@@ -1,0 +1,226 @@
+{
+  "code": "1146",
+  "name": "成都师范学院",
+  "leaves": [
+    {
+      "schoolCode": "1146",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 539,
+          "minRank": 17557,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1146",
+      "majorKey": "889e9381",
+      "majorName": "数字媒体技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 544,
+          "minRank": 77227,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1146",
+      "majorKey": "ca37000f",
+      "majorName": "数字经济",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 523,
+          "minRank": 102791,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1146",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 522,
+          "minRank": 104065,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1146",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 544,
+          "minRank": 15933,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 544,
+          "minRank": 77227,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1146",
+      "majorKey": "178ae2b7",
+      "majorName": "电子科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 524,
+          "minRank": 101477,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1146",
+      "majorKey": "63b95502",
+      "majorName": "食品质量与安全",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 531,
+          "minRank": 92564,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "数字经济",
+          "majorKey": "ca37000f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4800元/年",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 102791,
+          "equivRank": 102791
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002专业组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4800元/年",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 77227,
+          "equivRank": 77227
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "食品质量与安全",
+          "majorKey": "63b95502",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 92564,
+          "equivRank": 92564
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "004专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5200元/年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 104065,
+          "equivRank": 104065
+        },
+        {
+          "majorName": "电子科学与技术",
+          "majorKey": "178ae2b7",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5200元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 101477,
+          "equivRank": 101477
+        }
+      ]
+    },
+    {
+      "groupCode": "005",
+      "groupName": "005专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数字媒体技术",
+          "majorKey": "889e9381",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 77227,
+          "equivRank": 77227
+        }
+      ]
+    }
+  ]
+}

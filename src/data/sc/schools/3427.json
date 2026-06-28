@@ -1,0 +1,178 @@
+{
+  "code": "3427",
+  "name": "安庆师范大学",
+  "leaves": [
+    {
+      "schoolCode": "3427",
+      "majorKey": "a9584ad9",
+      "majorName": "中国语言文学类",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 556,
+          "minRank": 17556,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3427",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 529,
+          "minRank": 89512,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3427",
+      "majorKey": "d061ae24",
+      "majorName": "地理科学",
+      "selKe": "首选历史，再选地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 546,
+          "minRank": 21880,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3427",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 552,
+          "minRank": 19276,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3427",
+      "majorKey": "8230723d",
+      "majorName": "计算机类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 545,
+          "minRank": 70843,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "中国语言文学类",
+          "majorKey": "a9584ad9",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "4年",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 17556,
+          "equivRank": 17556
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "历史",
+      "selKe": "政",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "政",
+          "plan": 3,
+          "tuition": "4年",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 19276,
+          "equivRank": 19276
+        }
+      ]
+    },
+    {
+      "groupCode": "103",
+      "groupName": "103",
+      "track": "历史",
+      "selKe": "地",
+      "majors": [
+        {
+          "majorName": "地理科学",
+          "majorKey": "d061ae24",
+          "selKe": "地",
+          "plan": 3,
+          "tuition": "4年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 21880,
+          "equivRank": 21880
+        }
+      ]
+    },
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "计算机类",
+          "majorKey": "8230723d",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "4年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 70843,
+          "equivRank": 70843
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "4年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 89512,
+          "equivRank": 89512
+        }
+      ]
+    }
+  ]
+}

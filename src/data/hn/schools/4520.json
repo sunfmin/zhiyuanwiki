@@ -1,0 +1,90 @@
+{
+  "code": "4520",
+  "name": "广西警察学院",
+  "leaves": [
+    {
+      "schoolCode": "4520",
+      "majorKey": "e6801f33",
+      "majorName": "信息安全",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 491,
+          "minRank": 99003,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（101）",
+      "groupName": "（101）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "国际经贸规则",
+          "majorKey": "454d8669",
+          "selKe": "首选历史，再选不限",
+          "plan": 3,
+          "tuition": "4200",
+          "menlei": "法"
+        },
+        {
+          "majorName": "司法鉴定学",
+          "majorKey": "9e01dc0e",
+          "selKe": "首选历史，再选不限",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "（102）",
+      "groupName": "（102）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "司法鉴定学",
+          "majorKey": "9e01dc0e",
+          "selKe": "首选物理，再选不限",
+          "plan": 3,
+          "tuition": "4200",
+          "menlei": "法"
+        },
+        {
+          "majorName": "国际经贸规则",
+          "majorKey": "454d8669",
+          "selKe": "首选物理，再选不限",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "（103）",
+      "groupName": "（103）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "信息安全",
+          "majorKey": "e6801f33",
+          "selKe": "首选物理，再选化学",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2024,
+          "prevRank": 99003,
+          "equivRank": 110035
+        }
+      ]
+    }
+  ]
+}

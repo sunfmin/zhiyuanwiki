@@ -1,0 +1,316 @@
+{
+  "code": "5086",
+  "name": "天津医科大学临床医学院",
+  "leaves": [
+    {
+      "schoolCode": "5086",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 537,
+          "minRank": 85340,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5086",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 485,
+          "minRank": 157276,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5086",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 551,
+          "minRank": 69512,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5086",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 485,
+          "minRank": 157276,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5086",
+      "majorKey": "d35344f4",
+      "majorName": "眼视光学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 493,
+          "minRank": 145426,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5086",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 485,
+          "minRank": 157276,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "健康服务与管理",
+          "majorKey": "4fa2a9fc",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "15000元/年",
+          "menlei": "管"
+        },
+        {
+          "majorName": "公共事业管理",
+          "majorKey": "30e8a552",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "15000元/年",
+          "menlei": "管"
+        },
+        {
+          "majorName": "市场营销",
+          "majorKey": "28c62e21",
+          "selKe": "不限",
+          "plan": 7,
+          "tuition": "15000元/年",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002专业组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "15000元/年",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "公共事业管理",
+          "majorKey": "30e8a552",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "15000元/年",
+          "menlei": "管"
+        },
+        {
+          "majorName": "市场营销",
+          "majorKey": "28c62e21",
+          "selKe": "不限",
+          "plan": 8,
+          "tuition": "15000元/年",
+          "menlei": "管"
+        },
+        {
+          "majorName": "健康服务与管理",
+          "majorKey": "4fa2a9fc",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "15000元/年",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002专业组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 6,
+          "tuition": "15000元/年",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化学",
+          "plan": 6,
+          "tuition": "20000元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 157276,
+          "equivRank": 157276
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "004专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 8,
+          "tuition": "20000元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 157276,
+          "equivRank": 157276
+        }
+      ]
+    },
+    {
+      "groupCode": "005",
+      "groupName": "005专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "康复治疗学",
+          "majorKey": "a507c400",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "20000元/年",
+          "menlei": "医"
+        },
+        {
+          "majorName": "医学影像技术",
+          "majorKey": "11fef64a",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "20000元/年",
+          "menlei": "医"
+        },
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "20000元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 157276,
+          "equivRank": 157276
+        },
+        {
+          "majorName": "眼视光学",
+          "majorKey": "d35344f4",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "20000元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 145426,
+          "equivRank": 145426
+        }
+      ]
+    },
+    {
+      "groupCode": "006",
+      "groupName": "006专业组",
+      "track": "物理",
+      "selKe": "化学+生物学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学+生物学",
+          "plan": 5,
+          "tuition": "20000元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 85340,
+          "equivRank": 85340
+        }
+      ]
+    },
+    {
+      "groupCode": "007",
+      "groupName": "007专业组",
+      "track": "物理",
+      "selKe": "化学+生物学",
+      "majors": [
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "化学+生物学",
+          "plan": 4,
+          "tuition": "20000元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 69512,
+          "equivRank": 69512
+        }
+      ]
+    }
+  ]
+}

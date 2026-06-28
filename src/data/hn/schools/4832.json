@@ -1,0 +1,134 @@
+{
+  "code": "4832",
+  "name": "湖北医药学院药护学院",
+  "leaves": [
+    {
+      "schoolCode": "4832",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 461,
+          "minRank": 119901,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 443,
+          "minRank": 162597,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4832",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 450,
+          "minRank": 153289,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4832",
+      "majorKey": "1954d9c9",
+      "majorName": "预防医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 443,
+          "minRank": 162597,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4832",
+      "majorKey": "83eea431",
+      "majorName": "麻醉学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 463,
+          "minRank": 117788,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 447,
+          "minRank": 157289,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（101）",
+      "groupName": "（101）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "麻醉学",
+          "majorKey": "83eea431",
+          "selKe": "首选物理，再选化学",
+          "plan": 3,
+          "tuition": "20000",
+          "menlei": "医",
+          "prevYear": 2024,
+          "prevRank": 157289,
+          "equivRank": 174816
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "首选物理，再选化学",
+          "plan": 3,
+          "tuition": "20000",
+          "menlei": "医",
+          "prevYear": 2024,
+          "prevRank": 162597,
+          "equivRank": 180715
+        },
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "首选物理，再选化学",
+          "plan": 3,
+          "tuition": "18000",
+          "menlei": "医",
+          "prevYear": 2024,
+          "prevRank": 153289,
+          "equivRank": 170370
+        },
+        {
+          "majorName": "预防医学",
+          "majorKey": "1954d9c9",
+          "selKe": "首选物理，再选化学",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "医",
+          "prevYear": 2024,
+          "prevRank": 162597,
+          "equivRank": 180715
+        }
+      ]
+    }
+  ]
+}

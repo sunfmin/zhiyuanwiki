@@ -1,0 +1,102 @@
+{
+  "code": "3227",
+  "name": "淮阴师范学院",
+  "leaves": [
+    {
+      "schoolCode": "3227",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 553,
+          "minRank": 62454,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3227",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 556,
+          "minRank": 17556,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3227",
+      "majorKey": "f3a3be38",
+      "majorName": "知识产权",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 520,
+          "minRank": 35652,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "4年",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 17556,
+          "equivRank": 17556
+        },
+        {
+          "majorName": "知识产权",
+          "majorKey": "f3a3be38",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4年",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 35652,
+          "equivRank": 35652
+        }
+      ]
+    },
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "4年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 62454,
+          "equivRank": 62454
+        }
+      ]
+    }
+  ]
+}

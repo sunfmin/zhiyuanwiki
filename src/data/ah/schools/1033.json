@@ -1,0 +1,210 @@
+{
+  "code": "1033",
+  "name": "北京大学医学部",
+  "leaves": [
+    {
+      "schoolCode": "1033",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 681,
+          "minRank": 265,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1033",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 680,
+          "minRank": 312,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1033",
+      "majorKey": "8ca67fa5",
+      "majorName": "基础医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 678,
+          "minRank": 390,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1033",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 663,
+          "minRank": 43,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1033",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 675,
+          "minRank": 547,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1033",
+      "majorKey": "1954d9c9",
+      "majorName": "预防医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 674,
+          "minRank": 619,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "6000元/年",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 43,
+          "equivRank": 43
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 8,
+          "tuition": "6000元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 265,
+          "equivRank": 265
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "6000元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 312,
+          "equivRank": 312
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "6000元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 265,
+          "equivRank": 265
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "6000元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 312,
+          "equivRank": 312
+        },
+        {
+          "majorName": "基础医学",
+          "majorKey": "8ca67fa5",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "6000元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 390,
+          "equivRank": 390
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "6000元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 547,
+          "equivRank": 547
+        },
+        {
+          "majorName": "预防医学",
+          "majorKey": "1954d9c9",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "6000元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 619,
+          "equivRank": 619
+        }
+      ]
+    }
+  ]
+}

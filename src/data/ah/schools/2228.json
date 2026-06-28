@@ -1,0 +1,188 @@
+{
+  "code": "2228",
+  "name": "山东航空学院",
+  "leaves": [
+    {
+      "schoolCode": "2228",
+      "majorKey": "904549c4",
+      "majorName": "交通运输",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 538,
+          "minRank": 84178,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2228",
+      "majorKey": "25624660",
+      "majorName": "应用化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 506,
+          "minRank": 126302,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2228",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 504,
+          "minRank": 129182,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2228",
+      "majorKey": "0ac1da59",
+      "majorName": "生物技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 504,
+          "minRank": 129182,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2228",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 516,
+          "minRank": 26278,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 530,
+          "minRank": 93829,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5280元/年",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 26278,
+          "equivRank": 26278
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5280元/年",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 93829,
+          "equivRank": 93829
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "交通运输",
+          "majorKey": "904549c4",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5500元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 84178,
+          "equivRank": 84178
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "应用化学",
+          "majorKey": "25624660",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "6300元/年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 126302,
+          "equivRank": 126302
+        },
+        {
+          "majorName": "生物技术",
+          "majorKey": "0ac1da59",
+          "selKe": "化学",
+          "plan": 6,
+          "tuition": "6300元/年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 129182,
+          "equivRank": 129182
+        },
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "6600元/年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 129182,
+          "equivRank": 129182
+        }
+      ]
+    }
+  ]
+}

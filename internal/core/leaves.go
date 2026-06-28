@@ -30,6 +30,17 @@ func NormalizeMajorName(s string) string {
 	return s
 }
 
+// StripParenTail 截去专业名从首个全/半角括号起的尾注（校区/「包含专业：…」/办学地点/语种等）。
+// 部分省的招生计划用带尾注的专业名，而录取分数表用裸名；截断后两表才能按 (院校,专业名) 挂接。
+// 录取分数表本就无括号（各省均验证为 0），故对其调用是恒等；仅在招生计划解析处按需使用。
+func StripParenTail(s string) string {
+	s = strings.TrimSpace(s)
+	if i := strings.IndexAny(s, "（("); i >= 0 {
+		s = s[:i]
+	}
+	return strings.TrimSpace(s)
+}
+
 // MajorKey 由归一化专业名生成确定性短哈希，作为叶子页 URL 段（ascii、跨重建稳定）。
 func MajorKey(majorName string) string {
 	h := fnv.New32a()

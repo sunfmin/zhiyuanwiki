@@ -1,0 +1,188 @@
+{
+  "code": "2785",
+  "name": "许昌学院",
+  "leaves": [
+    {
+      "schoolCode": "2785",
+      "majorKey": "5a324641",
+      "majorName": "人力资源管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 508,
+          "minRank": 29805,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2785",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 506,
+          "minRank": 30698,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2785",
+      "majorKey": "b8236e06",
+      "majorName": "戏剧影视文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 503,
+          "minRank": 32050,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2785",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 522,
+          "minRank": 104065,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2785",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 515,
+          "minRank": 113545,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2785",
+      "majorKey": "1319cb6a",
+      "majorName": "道路桥梁与渡河工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 514,
+          "minRank": 114928,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "人力资源管理",
+          "majorKey": "5a324641",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4400元/年",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 29805,
+          "equivRank": 29805
+        },
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "不限",
+          "plan": 6,
+          "tuition": "4400元/年",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 30698,
+          "equivRank": 30698
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002专业组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "戏剧影视文学",
+          "majorKey": "b8236e06",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "8000元/年",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 32050,
+          "equivRank": 32050
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5000元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 104065,
+          "equivRank": 104065
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 7,
+          "tuition": "5000元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 113545,
+          "equivRank": 113545
+        },
+        {
+          "majorName": "道路桥梁与渡河工程",
+          "majorKey": "1319cb6a",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5000元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 114928,
+          "equivRank": 114928
+        }
+      ]
+    }
+  ]
+}

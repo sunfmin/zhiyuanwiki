@@ -1,0 +1,213 @@
+{
+  "code": "1099",
+  "name": "长春科技学院",
+  "leaves": [
+    {
+      "schoolCode": "1099",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 480,
+          "minRank": 43266,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 455,
+          "minRank": 199321,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1099",
+      "majorKey": "f9504a0c",
+      "majorName": "中药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 464,
+          "minRank": 187325,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1099",
+      "majorKey": "b3e5d67f",
+      "majorName": "动物医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 462,
+          "minRank": 189977,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1099",
+      "majorKey": "301e14e8",
+      "majorName": "机器人工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 474,
+          "minRank": 173255,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1099",
+      "majorKey": "d2fbd5c5",
+      "majorName": "汉语国际教育",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 454,
+          "minRank": 200651,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1099",
+      "majorKey": "8230723d",
+      "majorName": "计算机类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 467,
+          "minRank": 183207,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1099",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 470,
+          "minRank": 179032,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语国际教育",
+          "majorKey": "d2fbd5c5",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "26000元/年",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 200651,
+          "equivRank": 200651
+        },
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "不限",
+          "plan": 30,
+          "tuition": "39000元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 199321,
+          "equivRank": 199321
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 6,
+          "tuition": "27000元/年",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 179032,
+          "equivRank": 179032
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "计算机类",
+          "majorKey": "8230723d",
+          "selKe": "化学",
+          "plan": 6,
+          "tuition": "28000元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 183207,
+          "equivRank": 183207
+        },
+        {
+          "majorName": "机器人工程",
+          "majorKey": "301e14e8",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "28000元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 173255,
+          "equivRank": 173255
+        },
+        {
+          "majorName": "动物医学",
+          "majorKey": "b3e5d67f",
+          "selKe": "化学",
+          "plan": 20,
+          "tuition": "28000元/年",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 189977,
+          "equivRank": 189977
+        },
+        {
+          "majorName": "中药学",
+          "majorKey": "f9504a0c",
+          "selKe": "化学",
+          "plan": 9,
+          "tuition": "28000元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 187325,
+          "equivRank": 187325
+        }
+      ]
+    }
+  ]
+}

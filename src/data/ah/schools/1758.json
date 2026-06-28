@@ -1,0 +1,136 @@
+{
+  "code": "1758",
+  "name": "吉林工程技术师范学院",
+  "leaves": [
+    {
+      "schoolCode": "1758",
+      "majorKey": "4272328b",
+      "majorName": "教育学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 501,
+          "minRank": 32982,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1758",
+      "majorKey": "a8fb44ce",
+      "majorName": "新能源汽车工程技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 489,
+          "minRank": 151358,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1758",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 490,
+          "minRank": 149816,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1758",
+      "majorKey": "7b7511cd",
+      "majorName": "食品科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 489,
+          "minRank": 151358,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "教育学",
+          "majorKey": "4272328b",
+          "selKe": "不限",
+          "plan": 11,
+          "tuition": "5280元/年",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 32982,
+          "equivRank": 32982
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "新能源汽车工程技术",
+          "majorKey": "a8fb44ce",
+          "selKe": "化学",
+          "plan": 10,
+          "tuition": "学费待定",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 151358,
+          "equivRank": 151358
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 15,
+          "tuition": "7500元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 149816,
+          "equivRank": 149816
+        },
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "化学",
+          "plan": 15,
+          "tuition": "5940元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 151358,
+          "equivRank": 151358
+        }
+      ]
+    }
+  ]
+}

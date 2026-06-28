@@ -1,0 +1,124 @@
+{
+  "code": "5163",
+  "name": "绵阳城市学院",
+  "leaves": [
+    {
+      "schoolCode": "5163",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 469,
+          "minRank": 46121,
+          "maxScore": 0
+        },
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 445,
+          "minRank": 130071,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 446,
+          "minRank": 46324,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5163",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 431,
+          "minRank": 152039,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 443,
+          "minRank": 162597,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5163",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 460,
+          "minRank": 43783,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5163",
+      "majorKey": "e6a89fa4",
+      "majorName": "金融工程",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 443,
+          "minRank": 132242,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（101）",
+      "groupName": "（101）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "首选历史，再选不限",
+          "plan": 2,
+          "tuition": "16960",
+          "menlei": "管",
+          "prevYear": 2024,
+          "prevRank": 43783,
+          "equivRank": 41756
+        }
+      ]
+    },
+    {
+      "groupCode": "（102）",
+      "groupName": "（102）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "首选物理，再选化学",
+          "plan": 2,
+          "tuition": "18020",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}
