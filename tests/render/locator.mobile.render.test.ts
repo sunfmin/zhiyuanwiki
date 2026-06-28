@@ -58,9 +58,11 @@ test(
           () => document.querySelectorAll('a[href^="/hlj/yuanxiao/"]').length > 0,
           { timeout: 8_000 },
         );
-        // 关键词框常显，免展开即可填；再展开「更多筛选」把最长的省份/类别列也纳入溢出考验。
-        const longKw = "计算机科学与技术 软件工程 人工智能 数据科学 电子信息工程 自动化";
-        await p.getByPlaceholder(/空格分隔/).fill(longKw);
+        // 院校 / 专业两个关键词框都常显，各塞极端长串；再展开「更多筛选」把最长的省份/类别列也纳入溢出考验。
+        const longMajor = "计算机科学与技术 软件工程 人工智能 数据科学 电子信息工程 自动化";
+        const longSchool = "哈尔滨工业大学 黑龙江中医药大学 哈尔滨师范大学 东北农业大学";
+        await p.getByPlaceholder("空格分隔=任一匹配，如 计算机 软件", { exact: true }).fill(longMajor);
+        await p.getByPlaceholder("空格分隔=任一匹配，如 浙江大学 师范", { exact: true }).fill(longSchool);
         await p.getByRole("button", { name: "更多筛选" }).click();
         await p.waitForTimeout(150);
       },
@@ -72,8 +74,8 @@ test(
     }));
     expect(scrollW).toBeLessThanOrEqual(clientW);
 
-    // OR 语义在常显关键词框的占位符里说明（空格分隔 = 任一匹配）。
-    const kw = page.getByPlaceholder(/空格分隔/);
+    // OR 语义在常显关键词框的占位符里说明（空格分隔 = 任一匹配）；以专业框为例校验。
+    const kw = page.getByPlaceholder("空格分隔=任一匹配，如 计算机 软件", { exact: true });
     expect(await kw.getAttribute("placeholder")).toContain("任一匹配");
     expect(await kw.inputValue()).toContain("软件工程");
 

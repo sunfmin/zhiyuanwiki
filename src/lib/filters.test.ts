@@ -81,7 +81,32 @@ describe("matchesFilters — 专业关键词（空格=OR、大小写、子串）
     ["空格分隔-多词都不命中", entry({ mn: "临床医学" }), "计算机 软件", false],
     ["多个空格/前后空格-正常分词", entry({ mn: "网络空间安全" }), "  计算机   网络 ", true],
   ])("%s", (_n, e, kw, want) => {
-    expect(matchesFilters(e as LocEntry, meta, f({ keyword: kw as string }))).toBe(want);
+    expect(matchesFilters(e as LocEntry, meta, f({ majorKeyword: kw as string }))).toBe(want);
+  });
+});
+
+describe("matchesFilters — 院校关键词（同语义，匹配院校名 e.sn）", () => {
+  it.each([
+    ["子串命中", entry({ sn: "北京大学" }), "北京", true],
+    ["不命中", entry({ sn: "北京大学" }), "清华", false],
+    ["大小写不敏感", entry({ sn: "MIT 学院" }), "mit", true],
+    ["空关键词放行", entry({ sn: "随便大学" }), "  ", true],
+    ["空格分隔-命中其一即可（OR）", entry({ sn: "哈尔滨工业大学" }), "北京 哈尔滨", true],
+    ["空格分隔-多词都不命中", entry({ sn: "复旦大学" }), "北京 哈尔滨", false],
+  ])("%s", (_n, e, kw, want) => {
+    expect(matchesFilters(e as LocEntry, meta, f({ schoolKeyword: kw as string }))).toBe(want);
+  });
+});
+
+describe("matchesFilters — 院校关键词 AND 专业关键词（两框正交，框间 AND）", () => {
+  const e = entry({ sn: "北京大学", mn: "计算机科学与技术" }); // 北大·计算机
+  it.each([
+    ["两框都命中 → 通过", "北京", "计算机", true],
+    ["院校中专业不中 → 不通过", "北京", "临床", false],
+    ["专业中院校不中 → 不通过", "清华", "计算机", false],
+    ["两框都不中 → 不通过", "清华", "临床", false],
+  ])("%s", (_n, sk, mk, want) => {
+    expect(matchesFilters(e, meta, f({ schoolKeyword: sk as string, majorKeyword: mk as string }))).toBe(want);
   });
 });
 
@@ -115,7 +140,8 @@ describe("anyActive / emptyFilters", () => {
   });
   it.each([
     ["省份", f({ provinces: ["北京"] })],
-    ["关键词", f({ keyword: "x" })],
+    ["专业关键词", f({ majorKeyword: "x" })],
+    ["院校关键词", f({ schoolKeyword: "x" })],
     ["计划下限", f({ minPlan: 5 })],
     ["隐藏开关", f({ hideCoopHighFee: true })],
   ])("%s 生效 → true", (_n, flt) => {

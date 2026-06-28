@@ -395,16 +395,21 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
             <div class="flex flex-wrap gap-x-8 gap-y-4">
               <ChipRow label="院校层次" options={[...LEVELS]} selected={filters.levels} onToggle={(v) => toggle("levels", v)} />
               <ChipRow label="城市层级" options={[...CITY_TIERS]} selected={filters.cityTiers} onToggle={(v) => toggle("cityTiers", v)} />
-              <div class="flex flex-col gap-1.5">
-                <span class="text-xs font-medium text-slate-400">专业关键词</span>
-                <input
-                  type="text"
-                  value={filters.keyword}
-                  onInput={(e) => setFilters((p) => ({ ...p, keyword: (e.target as HTMLInputElement).value }))}
-                  placeholder="空格分隔=任一匹配，如 计算机 软件"
-                  class="w-72 max-w-full rounded-lg border border-slate-300 px-3 py-1.5 text-sm focus:border-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-200"
-                />
-              </div>
+            </div>
+            {/* 院校 / 专业两个关键词框并排：框内空格分隔=任一匹配(OR)，两框之间 AND，于是「某校的某专业」可精确命中。 */}
+            <div class="flex flex-wrap gap-x-6 gap-y-4">
+              <KeywordField
+                label="院校关键词"
+                value={filters.schoolKeyword}
+                onInput={(v) => setFilters((p) => ({ ...p, schoolKeyword: v }))}
+                placeholder="空格分隔=任一匹配，如 浙江大学 师范"
+              />
+              <KeywordField
+                label="专业关键词"
+                value={filters.majorKeyword}
+                onInput={(v) => setFilters((p) => ({ ...p, majorKeyword: v }))}
+                placeholder="空格分隔=任一匹配，如 计算机 软件"
+              />
             </div>
           </div>
 
@@ -630,6 +635,31 @@ function ChipRow({
           );
         })}
       </div>
+    </div>
+  );
+}
+
+function KeywordField({
+  label,
+  value,
+  onInput,
+  placeholder,
+}: {
+  label: string;
+  value: string;
+  onInput: (v: string) => void;
+  placeholder: string;
+}) {
+  return (
+    <div class="flex flex-col gap-1.5">
+      <span class="text-xs font-medium text-slate-400">{label}</span>
+      <input
+        type="text"
+        value={value}
+        onInput={(e) => onInput((e.target as HTMLInputElement).value)}
+        placeholder={placeholder}
+        class="w-72 max-w-full rounded-lg border border-slate-300 px-3 py-1.5 text-sm focus:border-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-200"
+      />
     </div>
   );
 }

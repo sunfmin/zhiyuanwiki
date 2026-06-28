@@ -50,7 +50,8 @@ export interface Filters {
   kinds: string[]; // 学校类别（OR）
   cityTiers: string[]; // 城市层级（OR）
   categories: string[]; // 专业大类=门类码（OR）
-  keyword: string; // 专业关键词（空格分隔多词=任一匹配 OR；子串、大小写不敏感）
+  majorKeyword: string; // 专业关键词：匹配专业名 e.mn（空格分隔多词=任一匹配 OR；子串、大小写不敏感）
+  schoolKeyword: string; // 院校关键词：匹配院校名 e.sn（同语义）；与专业关键词两框之间 AND
   minPlan: number; // 计划人数下限（>=，0=不限）
   maxGroupSize: number; // 组内专业数上限（<=，0=不限）
   hideCoopHighFee: boolean; // 隐藏中外合作及高收费
@@ -64,7 +65,8 @@ export function emptyFilters(): Filters {
     kinds: [],
     cityTiers: [],
     categories: [],
-    keyword: "",
+    majorKeyword: "",
+    schoolKeyword: "",
     minPlan: 0,
     maxGroupSize: 0,
     hideCoopHighFee: false,
@@ -80,7 +82,8 @@ export function anyActive(f: Filters): boolean {
     f.kinds.length > 0 ||
     f.cityTiers.length > 0 ||
     f.categories.length > 0 ||
-    f.keyword.trim() !== "" ||
+    f.majorKeyword.trim() !== "" ||
+    f.schoolKeyword.trim() !== "" ||
     f.minPlan > 0 ||
     f.maxGroupSize > 0 ||
     f.hideCoopHighFee
@@ -103,17 +106,24 @@ export function matchesFilters(e: LocEntry, meta: SchoolMetaMap, f: Filters): bo
 
   if (f.categories.length && !(e.mc && f.categories.includes(e.mc))) return false;
 
-  // 关键词：空格分隔多词，命中任一即可（OR）；子串、大小写不敏感。
-  const kw = f.keyword.trim().toLowerCase();
-  if (kw) {
-    const name = (e.mn || "").toLowerCase();
-    const terms = kw.split(/\s+/).filter(Boolean);
-    if (!terms.some((t) => name.includes(t))) return false;
-  }
+  // 专业 / 院校关键词：各自空格分隔多词、命中任一即可（OR）；两框之间 AND。
+  if (!keywordHit(f.majorKeyword, e.mn)) return false;
+  if (!keywordHit(f.schoolKeyword, e.sn)) return false;
 
   if (f.minPlan > 0 && (e.pl || 0) < f.minPlan) return false;
   if (f.maxGroupSize > 0 && (e.gs || 0) > f.maxGroupSize) return false;
   if (f.hideCoopHighFee && (e.cw || (e.tu || 0) >= HIGH_FEE)) return false;
 
   return true;
+}
+
+/**
+ * 关键词框命中：空格分隔多词、命中任一即可（OR）；子串、大小写不敏感。空关键词放行。
+ * 专业框与院校框共用此语义（仅作用字段不同：专业名 / 院校名），保持两框完全对称。
+ */
+function keywordHit(keyword: string, target: string): boolean {
+  const kw = keyword.trim().toLowerCase();
+  if (!kw) return true;
+  const name = (target || "").toLowerCase();
+  return kw.split(/\s+/).filter(Boolean).some((t) => name.includes(t));
 }
