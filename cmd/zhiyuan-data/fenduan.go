@@ -33,9 +33,6 @@ func fenduanCmd(args []string) {
 	}
 	var jobs []job
 	switch p.slug {
-	case "hlj":
-		// 目前仅 2026 物理为 .xlsx 可读（历史年份为 .xls，待接入）。
-		jobs = append(jobs, job{filepath.Join(*src, "黑龙江2026物理类一分一段表.xlsx"), "物理", 2026})
 	case "zj":
 		// 2026 起官方源是省考试院 PDF（《浙江省2026年普通高校招生成绩分数段表(总分)》，
 		// zjzs.net art_45_12452），导出为同名 xlsx 放进源目录即可与历年统一回流。

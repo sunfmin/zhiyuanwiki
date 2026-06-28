@@ -12,6 +12,7 @@ import (
 
 	"github.com/sunfmin/zhiyuanwiki/internal/ah"
 	"github.com/sunfmin/zhiyuanwiki/internal/core"
+	"github.com/sunfmin/zhiyuanwiki/internal/hlj"
 	"github.com/sunfmin/zhiyuanwiki/internal/hn"
 	"github.com/sunfmin/zhiyuanwiki/internal/js"
 	"github.com/sunfmin/zhiyuanwiki/internal/sc"
@@ -26,10 +27,11 @@ func importDefaultSrc() string {
 
 // provDirName 是某省在 各省份/ 下的子目录名（多数=中文名；个别带后缀，按需登记）。
 var provDirName = map[string]string{
-	"js": "江苏",
-	"hn": "湖南",
-	"sc": "四川",
-	"ah": "安徽",
+	"js":  "江苏",
+	"hn":  "湖南",
+	"sc":  "四川",
+	"ah":  "安徽",
+	"hlj": "黑龙江", // 各省份/黑龙江（仅一分一段从这里取；分数/计划走万师兄树，见 importHLJ）
 }
 
 // provParser 是某省入库所需的三个解析函数（签名一致，实现在 internal/<省>）。这张表是
@@ -51,6 +53,9 @@ var provParsers = map[string]provParser{
 		PlanMust: []string{"2025年-招生计划"}},
 	"ah": {Scores: ah.ParseScores, Plan: ah.ParsePlan, YFD: ah.ParseYiFenYiDuan,
 		PlanMust: []string{"安徽-2025-招生计划"}},
+	// 黑龙江也是 staging 省（组模型，走 buildDBBundle），但源异构、跨两棵树，入库走 importHLJ
+	// 而非通用 importProvince；这里登记是给 fenduan/yuanxiao 的「是否 staging」分流用。
+	"hlj": {Scores: hlj.ParseMajorScoresXLSX, Plan: hlj.ParsePlanXLSX, YFD: hlj.ParseYiFenYiDuan},
 }
 
 // importCmd 把官方 xlsx 解析入 SQLite staging（按省幂等）。全国表（院校属性/专业门类）每次刷新。
@@ -76,6 +81,11 @@ func importCmd(args []string) {
 		importNational(db, *src)
 	}
 
+	// 黑龙江源异构、跨两棵树，走专用 importHLJ（见 ADR-0014 / issue #19）；其余走通用 importProvince。
+	if p.slug == "hlj" {
+		importHLJ(db, *src, p)
+		return
+	}
 	parser, ok := provParsers[p.slug]
 	if !ok {
 		fatal(fmt.Errorf("import 暂未支持省份 %q（先写 internal/%s 解析器并登记 provParsers）", p.slug, p.slug))

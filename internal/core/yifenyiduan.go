@@ -94,6 +94,12 @@ func ParseYiFenYiDuanXLSX(path, province, track string, year int) (*YiFenYiDuan,
 	return parseYiFenYiDuanRows(rows, province, track, year)
 }
 
+// ParseYiFenYiDuanRows 用已读入的行表解析单科类一分一段（表头驱动）。给跨包复用：
+// 省份解析器拿到 rows 后无需重开文件即可解析（如黑龙江按文件名定科类的逐科类表）。
+func ParseYiFenYiDuanRows(rows [][]string, province, track string, year int) (*YiFenYiDuan, error) {
+	return parseYiFenYiDuanRows(rows, province, track, year)
+}
+
 // parseYiFenYiDuanRows 是纯逻辑部分，便于用内存中的行表做单元测试。
 func parseYiFenYiDuanRows(rows [][]string, province, track string, year int) (*YiFenYiDuan, error) {
 	headerIdx := -1
