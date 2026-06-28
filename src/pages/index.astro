@@ -4,11 +4,17 @@
 // 列分两轴——省情（本期仅新高考模式）/ 本站收录（招生院校·数据条·覆盖年份·名校）。
 import Base from "../layouts/Base.astro";
 import { PROVINCE_ROSTER, liveSlugByName, provinceConfig } from "../lib/provinces";
-import { buildProvinceRows, summarize, coverageYears } from "../lib/landing";
-import { schoolsOf } from "../lib/data";
+import { buildProvinceRows, summarize, coverageYears, type Gaokao } from "../lib/landing";
+import { schoolsOf, homeSchoolsOf, gaokaoOf } from "../lib/data";
 
 const live = liveSlugByName();
-const rows = buildProvinceRows(PROVINCE_ROSTER, live, (slug) => summarize(schoolsOf(slug)));
+const rows = buildProvinceRows(
+  PROVINCE_ROSTER,
+  live,
+  (slug) => summarize(schoolsOf(slug)),
+  (name) => homeSchoolsOf(name),
+  (slug) => gaokaoOf(slug),
+);
 
 // 新高考模式（省情轴，配置派生）：3+1+2 物理/历史 或 3+3 综合。
 function modeLabel(slug: string): string {
@@ -17,6 +23,8 @@ function modeLabel(slug: string): string {
   return `${mode} · ${c.tracks.map((t) => t.name).join("/")}`;
 }
 const fmt = (n: number) => n.toLocaleString("zh-CN");
+// 高考人数显示成「万」（含一位小数），title 给精确人数与年份。
+const wan = (g: Gaokao) => `${(g.count / 10000).toFixed(1)}万`;
 const liveCount = rows.filter((r) => r.live).length;
 ---
 
@@ -37,13 +45,15 @@ const liveCount = rows.filter((r) => r.live).length;
         <thead>
           <tr class="text-xs text-slate-400">
             <th class="px-3 py-1.5 text-left font-medium" rowspan="2">省份</th>
-            <th class="border-l border-slate-200 px-3 py-1.5 text-center font-medium">省情</th>
+            <th class="border-l border-slate-200 px-3 py-1.5 text-center font-medium" colspan="3">省情</th>
             <th class="border-l border-slate-200 px-3 py-1.5 text-center font-medium" colspan="5">
               本站收录
             </th>
           </tr>
           <tr class="text-xs text-slate-500">
             <th class="border-l border-slate-200 px-3 py-1.5 text-left font-medium">新高考</th>
+            <th class="px-3 py-1.5 text-right font-medium">本省院校</th>
+            <th class="px-3 py-1.5 text-right font-medium">高考人数<sup class="text-slate-300">*</sup></th>
             <th class="border-l border-slate-200 px-3 py-1.5 text-right font-medium">招生院校</th>
             <th class="px-3 py-1.5 text-right font-medium">数据条</th>
             <th class="px-3 py-1.5 text-right font-medium">覆盖年份</th>
@@ -63,6 +73,15 @@ const liveCount = rows.filter((r) => r.live).length;
                     </a>
                   </td>
                   <td class="border-l border-slate-100 px-3 py-2 text-slate-600">{modeLabel(r.slug)}</td>
+                  <td class="px-3 py-2 text-right tabular-nums text-slate-600">
+                    {r.homeSchools ?? "—"}
+                  </td>
+                  <td
+                    class="px-3 py-2 text-right tabular-nums text-slate-600"
+                    title={r.gaokao ? `${fmt(r.gaokao.count)} 人（${r.gaokao.year} 统考排名）` : undefined}
+                  >
+                    {r.gaokao ? wan(r.gaokao) : "—"}
+                  </td>
                   <td class="border-l border-slate-100 px-3 py-2 text-right tabular-nums">
                     {fmt(r.coverage!.recruitSchools)}
                   </td>
@@ -78,6 +97,8 @@ const liveCount = rows.filter((r) => r.live).length;
                     <span class="ml-2 rounded bg-slate-100 px-1.5 py-0.5 text-xs text-slate-400">敬请期待</span>
                   </td>
                   <td class="border-l border-slate-100 px-3 py-2" />
+                  <td class="px-3 py-2 text-right tabular-nums text-slate-500">{r.homeSchools ?? "—"}</td>
+                  <td class="px-3 py-2 text-right">—</td>
                   <td class="border-l border-slate-100 px-3 py-2 text-right">—</td>
                   <td class="px-3 py-2 text-right">—</td>
                   <td class="px-3 py-2 text-right">—</td>
@@ -104,8 +125,12 @@ const liveCount = rows.filter((r) => r.live).length;
                 <div>
                   <div class="font-semibold text-slate-900">{r.name}</div>
                   <div class="mt-0.5 text-xs text-slate-500">
-                    {modeLabel(r.slug)} · 收录 {fmt(r.coverage!.recruitSchools)} 所院校 · 数据到{" "}
-                    {coverageYears(r.coverage)}
+                    {modeLabel(r.slug)}
+                    {r.gaokao && <> · 高考 {wan(r.gaokao)}</>}
+                    {r.homeSchools != null && <> · 本省 {r.homeSchools} 校</>}
+                  </div>
+                  <div class="mt-0.5 text-xs text-slate-400">
+                    收录 {fmt(r.coverage!.recruitSchools)} 所 · 数据到 {coverageYears(r.coverage)}
                   </div>
                 </div>
                 <span class="text-slate-400">→</span>
@@ -113,7 +138,12 @@ const liveCount = rows.filter((r) => r.live).length;
             </li>
           ) : (
             <li class="flex items-center justify-between rounded-xl border border-dashed border-slate-200 bg-white/60 p-4">
-              <span class="text-slate-400">{r.name}</span>
+              <span class="text-slate-400">
+                {r.name}
+                {r.homeSchools != null && (
+                  <span class="ml-2 text-xs text-slate-400">本省 {r.homeSchools} 校</span>
+                )}
+              </span>
               <span class="rounded bg-slate-100 px-1.5 py-0.5 text-xs text-slate-400">敬请期待</span>
             </li>
           ),
@@ -121,8 +151,15 @@ const liveCount = rows.filter((r) => r.live).length;
       }
     </ul>
 
-    <p class="mt-8 text-xs text-slate-400">
-      「招生院校 / 数据条 / 覆盖年份」是本站收录范围，受收录年份影响，非各省真实规模。仅供参考，以官方为准。
+    <p class="mt-8 space-y-1 text-xs text-slate-400">
+      <span class="block">
+        <sup>*</sup>高考人数为<strong>参加统一高考排名的人数</strong>（各科类一分一段最大累计之和），
+        不含高职单招/中职对口，非报名人数；黑龙江缺历史科一分一段，暂显「—」。
+      </span>
+      <span class="block">
+        「本省院校」是校址在该省的高校数（省情事实）；「招生院校 / 数据条 / 覆盖年份」是本站收录范围，
+        受收录年份影响，非各省真实规模。仅供参考，以官方为准。
+      </span>
     </p>
   </section>
 </Base>

@@ -78,6 +78,31 @@ func TestSchoolIndexNameAndBaseLookup(t *testing.T) {
 	}
 }
 
+func TestHomeSchoolCounts(t *testing.T) {
+	db := openTmp(t)
+	if err := db.ReplaceSchools([]SchoolInfo{
+		{Name: "南京大学", Province: "江苏"},
+		{Name: "东南大学", Province: "江苏"},
+		{Name: "浙江大学", Province: "浙江"},
+		{Name: "无省份校", Province: ""}, // 空省份不计入
+	}); err != nil {
+		t.Fatal(err)
+	}
+	counts, err := db.HomeSchoolCounts()
+	if err != nil {
+		t.Fatal(err)
+	}
+	if counts["江苏"] != 2 {
+		t.Errorf("江苏 本省院校应 2，got %d", counts["江苏"])
+	}
+	if counts["浙江"] != 1 {
+		t.Errorf("浙江 本省院校应 1，got %d", counts["浙江"])
+	}
+	if _, ok := counts[""]; ok {
+		t.Error("空省份不应入表")
+	}
+}
+
 func TestMenleiFromCatalog(t *testing.T) {
 	db := openTmp(t)
 	if err := db.ReplaceCatalog([]CatalogRow{

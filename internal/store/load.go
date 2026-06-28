@@ -94,6 +94,28 @@ func (d *DB) LoadYiFenYiDuan(prov, province string) ([]*core.YiFenYiDuan, error)
 	return out, rows.Err()
 }
 
+// HomeSchoolCounts 返回各省「本省院校数」= 校址在该省的高校数（全国 school 表按 province 计数）。
+// 是不受本站收录年份影响的省情事实（见 CONTEXT.md「本省院校」），全 31 省皆有（含未上线省）。
+// 键为中文省名（北京/江苏/内蒙古…，与花名册一致）；港澳台等非统招地区一并返回，前端按花名册取用。
+func (d *DB) HomeSchoolCounts() (map[string]int, error) {
+	rows, err := d.sql.Query(`SELECT province, COUNT(*) FROM school
+		WHERE province IS NOT NULL AND province != '' GROUP BY province`)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+	out := map[string]int{}
+	for rows.Next() {
+		var prov string
+		var n int
+		if err := rows.Scan(&prov, &n); err != nil {
+			return nil, err
+		}
+		out[prov] = n
+	}
+	return out, rows.Err()
+}
+
 // Menlei 从全国专业门类表重建分类器（精确映射 + 关键词兜底由 core 提供）。
 func (d *DB) Menlei() (*core.MenleiClassifier, error) {
 	rows, err := d.sql.Query(`SELECT major,menlei FROM major_catalog`)

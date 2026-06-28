@@ -19,6 +19,7 @@ const usage = `zhiyuan-data — 高考志愿数据预处理工具（多省份）
   yuanxiao   解析专业录取分数线 → 院校 / 院校×专业 / 2026 报考视图 JSON
   zhuanye    跨校聚合专业 → 专业索引与详情
   dingwei    构建位次定位索引
+  landing    产出省份列表落地页全国数据（本省院校数）→ src/data/home-schools.json
 
 -prov 选择省份（默认 hlj 黑龙江；zj 浙江），产物按 src/data/<slug>、public/data/<slug> 分目录。
 原始数据默认从 ~/Developments/zhiyuan/官方数据 读取（用 -src 覆盖）。
@@ -42,6 +43,8 @@ func main() {
 		dingweiCmd(os.Args[2:])
 	case "zhuanye":
 		zhuanyeCmd(os.Args[2:])
+	case "landing":
+		landingCmd(os.Args[2:])
 	default:
 		fmt.Fprintf(os.Stderr, "未知命令 %q\n\n%s", os.Args[1], usage)
 		os.Exit(2)

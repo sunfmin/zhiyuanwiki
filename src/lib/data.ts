@@ -2,6 +2,8 @@
 // （每省各一两个文件）；每校/每专业详情的大 glob 留在各自详情页内联，避免被所有页打包。
 import type { YiFenYiDuan } from "./fenduan";
 import { provinceConfig, trackSlugOf } from "./provinces";
+import { gaokaoLatestCommon, type Gaokao } from "./landing";
+import homeSchoolsData from "../data/home-schools.json";
 
 export type TrackRange = {
   year: number;
@@ -112,4 +114,34 @@ export function fenduanOf(prov: string): YiFenYiDuan {
   const slug = trackSlugOf(cfg, cfg.fenduanTrack);
   const key = `/src/data/${prov}/yifenyiduan/${slug}-${cfg.fenduanYear}.json`;
   return (fenduanTables[key] as any).default as YiFenYiDuan;
+}
+
+// 本省院校数（省情）：校址在该省的高校数，来自 landing emit 的全国 school 表投影（中文省名→数）。
+const homeSchools = homeSchoolsData as Record<string, number>;
+export function homeSchoolsOf(name: string): number | undefined {
+  return homeSchools[name];
+}
+
+// gaokaoOf 算某省高考人数（统考排名人数）：从已收录的各科类一分一段表，取最新共同年的最大累计求和。
+// 数据全在前端（hlj/zj 不在 staging DB，但 committed 一分一段是 6 省统一源）。见 ADR-0016。
+export function gaokaoOf(prov: string): Gaokao | undefined {
+  const cfg = provinceConfig(prov);
+  const avail = new Map<string, Map<number, number>>();
+  for (const t of cfg.tracks) {
+    const slug = trackSlugOf(cfg, t.name);
+    const byYear = new Map<number, number>();
+    for (const key of Object.keys(fenduanTables)) {
+      const m = key.match(/\/src\/data\/([^/]+)\/yifenyiduan\/([^/]+)-(\d+)\.json$/);
+      if (!m || m[1] !== prov || m[2] !== slug) continue;
+      const tbl = (fenduanTables[key] as any).default as YiFenYiDuan;
+      let mx = 0;
+      for (const e of tbl.entries) if (e.cumulative > mx) mx = e.cumulative;
+      byYear.set(Number(m[3]), mx);
+    }
+    avail.set(t.name, byYear);
+  }
+  return gaokaoLatestCommon(
+    cfg.tracks.map((t) => t.name),
+    avail,
+  );
 }

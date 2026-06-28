@@ -44,32 +44,68 @@ export function summarize(schools: SchoolIndexEntry[]): CoverageSummary {
   };
 }
 
+// Gaokao 是某省的高考人数（统考排名人数，见 CONTEXT.md）及其所属年份。
+export interface Gaokao {
+  count: number; // = 各配置科类「最新共同年」一分一段最大累计之和
+  year: number;
+}
+
+// gaokaoLatestCommon 取各配置科类都有数据的「最新共同年」，把各科类该年最大累计求和。
+// 任一科类无数据（如黑龙江缺历史一分一段）→ 无共同年 → undefined（页面显示「—」，不凑不全的数）。
+// avail：科类名 → (年份 → 该年最大累计)。
+export function gaokaoLatestCommon(
+  tracks: string[],
+  avail: Map<string, Map<number, number>>,
+): Gaokao | undefined {
+  const perTrack = tracks.map((t) => avail.get(t) ?? new Map<number, number>());
+  if (perTrack.some((m) => m.size === 0)) return undefined;
+  const common = [...perTrack[0].keys()].filter((y) => perTrack.every((m) => m.has(y)));
+  if (common.length === 0) return undefined;
+  const year = Math.max(...common);
+  let count = 0;
+  for (const m of perTrack) count += m.get(year)!;
+  return { count, year };
+}
+
 // ProvinceRow 是落地页一行：已上线（有 slug、可点、带收录摘要）或敬请期待（无 slug）。
 export interface ProvinceRow {
   name: string;
   pinyin: string;
   slug?: string; // 有 = 已上线，整行链到 /[slug]/
   live: boolean;
-  coverage?: CoverageSummary; // 仅已上线省有
+  homeSchools?: number; // 本省院校数（省情）——全 31 省皆有（含未上线）
+  coverage?: CoverageSummary; // 本站收录——仅已上线省
+  gaokao?: Gaokao; // 高考人数（省情）——仅已上线且科类数据完整
 }
 
-// buildProvinceRows 把花名册排成展示顺序：已上线置顶（暂按招生院校数降序，高考人数排序
-// 在 #16 接管）→ 敬请期待按拼音 A→Z。coverageOf 仅对已上线 slug 调用。
+// buildProvinceRows 把花名册排成展示顺序：已上线置顶（按高考人数降序，缺高考人数的省如黑龙江
+// 殿后）→ 敬请期待按拼音 A→Z。coverageOf/gaokaoOf 仅对已上线 slug 调用；homeOf 对全部省按名取。
 export function buildProvinceRows(
   roster: RosterEntry[],
   liveByName: Map<string, string>,
   coverageOf: (slug: string) => CoverageSummary,
+  homeOf: (name: string) => number | undefined,
+  gaokaoOf: (slug: string) => Gaokao | undefined,
 ): ProvinceRow[] {
   const rows: ProvinceRow[] = roster.map((r) => {
     const slug = liveByName.get(r.name);
+    const homeSchools = homeOf(r.name);
     return slug
-      ? { name: r.name, pinyin: r.pinyin, slug, live: true, coverage: coverageOf(slug) }
-      : { name: r.name, pinyin: r.pinyin, live: false };
+      ? {
+          name: r.name,
+          pinyin: r.pinyin,
+          slug,
+          live: true,
+          homeSchools,
+          coverage: coverageOf(slug),
+          gaokao: gaokaoOf(slug),
+        }
+      : { name: r.name, pinyin: r.pinyin, live: false, homeSchools };
   });
 
   const live = rows
     .filter((r) => r.live)
-    .sort((a, b) => (b.coverage?.recruitSchools ?? 0) - (a.coverage?.recruitSchools ?? 0));
+    .sort((a, b) => (b.gaokao?.count ?? -1) - (a.gaokao?.count ?? -1));
   const pending = rows
     .filter((r) => !r.live)
     .sort((a, b) => a.pinyin.localeCompare(b.pinyin));

@@ -24,6 +24,9 @@ test(
     expect(mainText).toContain("选择你的省份");
     expect(mainText).toContain("敬请期待"); // 未上线省状态
     expect(mainText).toContain("河南"); // 未上线大省在册
+    expect(mainText).toContain("高考人数"); // 省情列
+    expect(mainText).toContain("本省院校"); // 省情列
+    expect(mainText).toContain("185"); // 河南本省院校（未上线行也填省情）
 
     // 6 个已上线省各有一个进入 /[slug]/ 的链接（桌面表 + 手机卡片各一份 → 去重后 6 个 slug）。
     const liveSlugs = await page.evaluate(() => {

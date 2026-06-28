@@ -3,6 +3,7 @@ import {
   summarize,
   buildProvinceRows,
   coverageYears,
+  gaokaoLatestCommon,
   type CoverageSummary,
 } from "./landing";
 import type { SchoolIndexEntry } from "./data";
@@ -53,42 +54,86 @@ describe("coverageYears — 覆盖年份展示", () => {
   });
 });
 
-describe("buildProvinceRows — 已上线置顶 + 敬请期待拼音 A→Z", () => {
+describe("gaokaoLatestCommon — 最新共同年的各科类最大累计之和", () => {
+  it("3+1+2：取两科类都有的最新年，物理+历史相加", () => {
+    const avail = new Map([
+      ["物理", new Map([[2024, 180000], [2025, 190000]])],
+      ["历史", new Map([[2024, 45000], [2025, 47000]])],
+    ]);
+    expect(gaokaoLatestCommon(["物理", "历史"], avail)).toEqual({ count: 237000, year: 2025 });
+  });
+
+  it("单科类（综合）：直接取最新年最大累计", () => {
+    const avail = new Map([["综合", new Map([[2025, 390000], [2026, 395000]])]]);
+    expect(gaokaoLatestCommon(["综合"], avail)).toEqual({ count: 395000, year: 2026 });
+  });
+
+  it("某科类完全缺数据（黑龙江缺历史）→ undefined", () => {
+    const avail = new Map([
+      ["物理", new Map([[2026, 190000]])],
+      ["历史", new Map<number, number>()],
+    ]);
+    expect(gaokaoLatestCommon(["物理", "历史"], avail)).toBeUndefined();
+  });
+
+  it("两科类年份无交集 → undefined（不跨年硬凑）", () => {
+    const avail = new Map([
+      ["物理", new Map([[2025, 1]])],
+      ["历史", new Map([[2024, 1]])],
+    ]);
+    expect(gaokaoLatestCommon(["物理", "历史"], avail)).toBeUndefined();
+  });
+});
+
+describe("buildProvinceRows — 已上线按高考人数降序 + 敬请期待拼音 A→Z", () => {
   const roster: RosterEntry[] = [
     { name: "安徽", pinyin: "anhui" },
     { name: "浙江", pinyin: "zhejiang" },
+    { name: "黑龙江", pinyin: "heilongjiang" }, // 已上线但无高考人数（缺历史）
     { name: "河南", pinyin: "henan" }, // 未上线
     { name: "北京", pinyin: "beijing" }, // 未上线
   ];
   const live = new Map([
     ["浙江", "zj"],
     ["安徽", "ah"],
+    ["黑龙江", "hlj"],
   ]);
   const cov: Record<string, CoverageSummary> = {
     zj: { recruitSchools: 1693, dataRows: 41692, minYear: 2022, maxYear: 2025, count985: 50, count211: 126 },
     ah: { recruitSchools: 472, dataRows: 8970, minYear: 2025, maxYear: 2025, count985: 10, count211: 44 },
+    hlj: { recruitSchools: 1077, dataRows: 19895, minYear: 2023, maxYear: 2025, count985: 50, count211: 134 },
   };
-  const rows = buildProvinceRows(roster, live, (s) => cov[s]);
+  const home: Record<string, number> = { 浙江: 113, 安徽: 128, 黑龙江: 82, 河南: 185, 北京: 102 };
+  const gk: Record<string, { count: number; year: number } | undefined> = {
+    zj: { count: 390000, year: 2026 },
+    ah: { count: 236000, year: 2025 },
+    hlj: undefined, // 缺历史
+  };
+  const rows = buildProvinceRows(roster, live, (s) => cov[s], (n) => home[n], (s) => gk[s]);
 
-  it("已上线在前，按招生院校数降序（浙江 1693 > 安徽 472）", () => {
-    expect(rows.slice(0, 2).map((r) => r.name)).toEqual(["浙江", "安徽"]);
-    expect(rows[0].slug).toBe("zj");
-    expect(rows[0].coverage?.recruitSchools).toBe(1693);
+  it("已上线按高考人数降序，无高考人数的黑龙江殿后（仍在已上线段内）", () => {
+    expect(rows.slice(0, 3).map((r) => r.name)).toEqual(["浙江", "安徽", "黑龙江"]);
+    expect(rows[2].slug).toBe("hlj");
+    expect(rows[2].gaokao).toBeUndefined();
   });
 
-  it("敬请期待在后，按拼音 A→Z（北京 beijing < 河南 henan）", () => {
-    expect(rows.slice(2).map((r) => r.name)).toEqual(["北京", "河南"]);
-    expect(rows[2].live).toBe(false);
-    expect(rows[2].slug).toBeUndefined();
-    expect(rows[2].coverage).toBeUndefined();
+  it("本省院校数全省皆有（含未上线河南 185）", () => {
+    expect(rows.find((r) => r.name === "河南")?.homeSchools).toBe(185);
+    expect(rows.find((r) => r.name === "浙江")?.homeSchools).toBe(113);
   });
 
-  it("不为未上线省调用 coverageOf", () => {
-    const calls: string[] = [];
-    buildProvinceRows(roster, live, (s) => {
-      calls.push(s);
-      return cov[s];
-    });
-    expect(calls.sort()).toEqual(["ah", "zj"]);
+  it("敬请期待在后，按拼音 A→Z（北京 < 河南），无 coverage/gaokao", () => {
+    expect(rows.slice(3).map((r) => r.name)).toEqual(["北京", "河南"]);
+    expect(rows[3].live).toBe(false);
+    expect(rows[3].coverage).toBeUndefined();
+    expect(rows[3].gaokao).toBeUndefined();
+  });
+
+  it("不为未上线省调用 coverageOf / gaokaoOf", () => {
+    const cCalls: string[] = [];
+    const gCalls: string[] = [];
+    buildProvinceRows(roster, live, (s) => { cCalls.push(s); return cov[s]; }, (n) => home[n], (s) => { gCalls.push(s); return gk[s]; });
+    expect(cCalls.sort()).toEqual(["ah", "hlj", "zj"]);
+    expect(gCalls.sort()).toEqual(["ah", "hlj", "zj"]);
   });
 });
