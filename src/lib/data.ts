@@ -4,6 +4,7 @@ import type { YiFenYiDuan } from "./fenduan";
 import { provinceConfig, trackSlugOf } from "./provinces";
 import { gaokaoLatestCommon, type Gaokao } from "./landing";
 import homeSchoolsData from "../data/home-schools.json";
+import benkePlanData from "../data/benke-plan.json";
 
 export type TrackRange = {
   year: number;
@@ -120,6 +121,13 @@ export function fenduanOf(prov: string): YiFenYiDuan {
 const homeSchools = homeSchoolsData as Record<string, number>;
 export function homeSchoolsOf(name: string): number | undefined {
   return homeSchools[name];
+}
+
+// 本科招生计划（省情）：该省最新年本科批招生计划总数，来自 landing emit 的 plan 表投影（slug→{plan,year}）。
+// 仅已入库省有值（pending 省显「—」）。配合高考人数可粗读本省本科竞争度。
+const benkePlan = benkePlanData as Record<string, { plan: number; year: number }>;
+export function benkePlanOf(slug: string): { plan: number; year: number } | undefined {
+  return benkePlan[slug];
 }
 
 // benkeLineOf 取某省「物理本科线」（本科批控制线）：物理科一分一段最新年的 controlLine。

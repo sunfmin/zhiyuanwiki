@@ -21,14 +21,13 @@ function school(over: Partial<SchoolIndexEntry> = {}): SchoolIndexEntry {
 }
 
 describe("summarize — 本站收录摘要", () => {
-  it("汇总院校数 / 数据条 / 名校 / 覆盖年份跨多校多科类", () => {
+  it("汇总院校数 / 名校 / 覆盖年份跨多校多科类", () => {
     const c = summarize([
       school({ name: "北京大学", leafCount: 10, is985: true, is211: true, ranges: { 物理: { year: 2022 } as any } }),
       school({ name: "苏州大学", leafCount: 5, is211: true, ranges: { 历史: { year: 2025 } as any } }),
       school({ name: "某职院", leafCount: 3, ranges: {} }),
     ]);
     expect(c.recruitSchools).toBe(3);
-    expect(c.dataRows).toBe(18);
     expect(c.count985).toBe(1);
     expect(c.count211).toBe(2);
     expect(c.minYear).toBe(2022);
@@ -49,7 +48,7 @@ describe("summarize — 本站收录摘要", () => {
 
   it("空省 → 年份为 0，计数为 0", () => {
     const c = summarize([]);
-    expect(c).toEqual({ recruitSchools: 0, dataRows: 0, minYear: 0, maxYear: 0, count985: 0, count211: 0 });
+    expect(c).toEqual({ recruitSchools: 0, minYear: 0, maxYear: 0, count985: 0, count211: 0 });
   });
 });
 
@@ -75,7 +74,7 @@ describe("famousCount — 分校区前缀收口", () => {
 
 describe("coverageYears — 覆盖年份展示", () => {
   const c = (minYear: number, maxYear: number): CoverageSummary => ({
-    recruitSchools: 0, dataRows: 0, minYear, maxYear, count985: 0, count211: 0,
+    recruitSchools: 0, minYear, maxYear, count985: 0, count211: 0,
   });
   it.each([
     ["跨年", c(2022, 2025), "2022–2025"],
@@ -122,7 +121,7 @@ describe("buildProvinceRows — 已上线按高考人数降序 + 敬请期待拼
   const roster: RosterEntry[] = [
     { name: "安徽", pinyin: "anhui" },
     { name: "浙江", pinyin: "zhejiang" },
-    { name: "黑龙江", pinyin: "heilongjiang" }, // 已上线但无高考人数（缺历史）
+    { name: "黑龙江", pinyin: "heilongjiang" }, // 测试夹具：本例假设其无高考人数，验证降序兜底殿后
     { name: "河南", pinyin: "henan" }, // 未上线
     { name: "北京", pinyin: "beijing" }, // 未上线
   ];
@@ -132,24 +131,31 @@ describe("buildProvinceRows — 已上线按高考人数降序 + 敬请期待拼
     ["黑龙江", "hlj"],
   ]);
   const cov: Record<string, CoverageSummary> = {
-    zj: { recruitSchools: 1693, dataRows: 41692, minYear: 2022, maxYear: 2025, count985: 50, count211: 126 },
-    ah: { recruitSchools: 472, dataRows: 8970, minYear: 2025, maxYear: 2025, count985: 10, count211: 44 },
-    hlj: { recruitSchools: 1077, dataRows: 19895, minYear: 2023, maxYear: 2025, count985: 50, count211: 134 },
+    zj: { recruitSchools: 1693, minYear: 2022, maxYear: 2025, count985: 50, count211: 126 },
+    ah: { recruitSchools: 472, minYear: 2025, maxYear: 2025, count985: 10, count211: 44 },
+    hlj: { recruitSchools: 1077, minYear: 2023, maxYear: 2025, count985: 50, count211: 134 },
   };
   const home: Record<string, number> = { 浙江: 113, 安徽: 128, 黑龙江: 82, 河南: 185, 北京: 102 };
   const gk: Record<string, { count: number; year: number } | undefined> = {
     zj: { count: 390000, year: 2026 },
     ah: { count: 236000, year: 2025 },
-    hlj: undefined, // 缺历史
+    hlj: undefined, // 夹具：测无高考人数的已上线省殿后
   };
   const bk: Record<string, { line: number; year: number } | undefined> = {
     zj: undefined, // 综合无物理本科线
     ah: { line: 461, year: 2025 },
-    hlj: undefined,
+    hlj: { line: 360, year: 2025 },
   };
-  const rows = buildProvinceRows(roster, live, (s) => cov[s], (n) => home[n], (s) => gk[s], (s) => bk[s]);
+  const bp: Record<string, { plan: number; year: number } | undefined> = {
+    zj: { plan: 250878, year: 2026 },
+    ah: { plan: 213876, year: 2025 },
+    hlj: { plan: 101612, year: 2026 },
+  };
+  const rows = buildProvinceRows(
+    roster, live, (s) => cov[s], (n) => home[n], (s) => gk[s], (s) => bk[s], (s) => bp[s],
+  );
 
-  it("已上线按高考人数降序，无高考人数的黑龙江殿后（仍在已上线段内）", () => {
+  it("已上线按高考人数降序，无高考人数的省殿后（仍在已上线段内）", () => {
     expect(rows.slice(0, 3).map((r) => r.name)).toEqual(["浙江", "安徽", "黑龙江"]);
     expect(rows[2].slug).toBe("hlj");
     expect(rows[2].gaokao).toBeUndefined();
@@ -163,6 +169,11 @@ describe("buildProvinceRows — 已上线按高考人数降序 + 敬请期待拼
   it("物理本科线：安徽 461 有值，浙江（综合）无", () => {
     expect(rows.find((r) => r.name === "安徽")?.benkeLine).toEqual({ line: 461, year: 2025 });
     expect(rows.find((r) => r.name === "浙江")?.benkeLine).toBeUndefined();
+  });
+
+  it("本科招生计划：已上线省带 plan，未上线省无", () => {
+    expect(rows.find((r) => r.name === "浙江")?.benkePlan).toEqual({ plan: 250878, year: 2026 });
+    expect(rows.find((r) => r.name === "河南")?.benkePlan).toBeUndefined();
   });
 
   it("敬请期待在后，按拼音 A→Z（北京 < 河南），无 coverage/gaokao", () => {
@@ -181,6 +192,7 @@ describe("buildProvinceRows — 已上线按高考人数降序 + 敬请期待拼
       (n) => home[n],
       (s) => { gCalls.push(s); return gk[s]; },
       (s) => bk[s],
+      (s) => bp[s],
     );
     expect(cCalls.sort()).toEqual(["ah", "hlj", "zj"]);
     expect(gCalls.sort()).toEqual(["ah", "hlj", "zj"]);

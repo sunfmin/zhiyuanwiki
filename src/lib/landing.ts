@@ -8,7 +8,6 @@ import type { RosterEntry } from "./provinces";
 // 招生院校数受收录年份影响（见 CONTEXT.md「招生院校」），并列时须配覆盖年份作口径。
 export interface CoverageSummary {
   recruitSchools: number; // 招生院校（可报考）数 = schools.json 行数
-  dataRows: number; // 数据条数 = 院校×专业叶子汇总
   minYear: number; // 覆盖年份下界（无数据为 0）
   maxYear: number; // 覆盖年份上界（无数据为 0）
   count985: number; // 名校数：985（修 tag 前为过标值，见 #18）
@@ -26,13 +25,11 @@ export function famousCount(names: string[]): number {
 
 // summarize 把一省的院校索引汇总成收录摘要。
 export function summarize(schools: SchoolIndexEntry[]): CoverageSummary {
-  let dataRows = 0;
   const names985: string[] = [];
   const names211: string[] = [];
   let minYear = Infinity;
   let maxYear = 0;
   for (const s of schools) {
-    dataRows += s.leafCount ?? 0;
     if (s.is985) names985.push(s.name);
     if (s.is211) names211.push(s.name);
     for (const track of Object.keys(s.ranges ?? {})) {
@@ -45,7 +42,6 @@ export function summarize(schools: SchoolIndexEntry[]): CoverageSummary {
   }
   return {
     recruitSchools: schools.length,
-    dataRows,
     minYear: minYear === Infinity ? 0 : minYear,
     maxYear,
     count985: famousCount(names985),
@@ -82,6 +78,12 @@ export interface BenkeLine {
   year: number;
 }
 
+// BenkePlan 是某省最新年本科招生计划总数及其年份（省情：本省本科批招生计划规模）。
+export interface BenkePlan {
+  plan: number;
+  year: number;
+}
+
 // ProvinceRow 是落地页一行：已上线（有 slug、可点、带收录摘要）或敬请期待（无 slug）。
 export interface ProvinceRow {
   name: string;
@@ -92,10 +94,11 @@ export interface ProvinceRow {
   coverage?: CoverageSummary; // 本站收录——仅已上线省
   gaokao?: Gaokao; // 高考人数（省情）——仅已上线且科类数据完整
   benkeLine?: BenkeLine; // 物理本科线（省情）——仅有物理科一分一段控制线的省
+  benkePlan?: BenkePlan; // 本科招生计划（省情）——仅已入库省（plan 表有该省）
 }
 
-// buildProvinceRows 把花名册排成展示顺序：已上线置顶（按高考人数降序，缺高考人数的省如黑龙江
-// 殿后）→ 敬请期待按拼音 A→Z。coverageOf/gaokaoOf/benkeOf 仅对已上线 slug 调用；homeOf 按名取全省。
+// buildProvinceRows 把花名册排成展示顺序：已上线置顶（按高考人数降序，缺高考人数的省殿后）
+// → 敬请期待按拼音 A→Z。coverageOf/gaokaoOf/benkeOf/planOf 仅对已上线 slug 调用；homeOf 按名取全省。
 export function buildProvinceRows(
   roster: RosterEntry[],
   liveByName: Map<string, string>,
@@ -103,6 +106,7 @@ export function buildProvinceRows(
   homeOf: (name: string) => number | undefined,
   gaokaoOf: (slug: string) => Gaokao | undefined,
   benkeOf: (slug: string) => BenkeLine | undefined,
+  planOf: (slug: string) => BenkePlan | undefined,
 ): ProvinceRow[] {
   const rows: ProvinceRow[] = roster.map((r) => {
     const slug = liveByName.get(r.name);
@@ -117,6 +121,7 @@ export function buildProvinceRows(
           coverage: coverageOf(slug),
           gaokao: gaokaoOf(slug),
           benkeLine: benkeOf(slug),
+          benkePlan: planOf(slug),
         }
       : { name: r.name, pinyin: r.pinyin, live: false, homeSchools };
   });

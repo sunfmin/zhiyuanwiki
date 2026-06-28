@@ -117,6 +117,34 @@ func (d *DB) HomeSchoolCounts() (map[string]int, error) {
 	return out, rows.Err()
 }
 
+// PlanTotal 是某省某年的本科招生计划总数（plan 表只收本科批，见各省解析器）。
+type PlanTotal struct {
+	Year  int `json:"year"`
+	Total int `json:"plan"` // 本科批招生计划总数
+}
+
+// PlanTotalsLatest 返回各省「最新年本科招生计划总数」（slug → 最新年的 SUM(plan)）。
+// 落地页省情轴用：配合高考人数可粗读本省本科竞争度。无 plan 的省不出现在结果里。
+func (d *DB) PlanTotalsLatest() (map[string]PlanTotal, error) {
+	rows, err := d.sql.Query(`SELECT prov, year, SUM(plan) FROM plan GROUP BY prov, year`)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+	out := map[string]PlanTotal{}
+	for rows.Next() {
+		var prov string
+		var year, sum int
+		if err := rows.Scan(&prov, &year, &sum); err != nil {
+			return nil, err
+		}
+		if cur, ok := out[prov]; !ok || year > cur.Year {
+			out[prov] = PlanTotal{Year: year, Total: sum}
+		}
+	}
+	return out, rows.Err()
+}
+
 // SchoolAttrs 读某省按院校代码的院校属性（school_attr 表）→ code → 属性。空表返回空 map。
 func (d *DB) SchoolAttrs(prov string) (map[string]SchoolAttr, error) {
 	rows, err := d.sql.Query(`SELECT school_code,province,city,city_tier,ownership,kind,is985,is211,syl
