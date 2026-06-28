@@ -65,7 +65,7 @@ func (d *DB) LoadTotals(prov string) (map[core.YearTrack]int, error) {
 
 // LoadYiFenYiDuan 读某省全部一分一段，按 年×科类 分组成 YiFenYiDuan（升序），province 为中文省名。
 func (d *DB) LoadYiFenYiDuan(prov, province string) ([]*core.YiFenYiDuan, error) {
-	rows, err := d.sql.Query(`SELECT year,track,score,count,cum FROM yifenyiduan WHERE prov=?
+	rows, err := d.sql.Query(`SELECT year,track,score,count,cum,control_line FROM yifenyiduan WHERE prov=?
 		ORDER BY year,track,score`, prov)
 	if err != nil {
 		return nil, err
@@ -76,12 +76,13 @@ func (d *DB) LoadYiFenYiDuan(prov, province string) ([]*core.YiFenYiDuan, error)
 	for rows.Next() {
 		var yt core.YearTrack
 		var e core.FenduanEntry
-		if err := rows.Scan(&yt.Year, &yt.Track, &e.Score, &e.Count, &e.Cumulative); err != nil {
+		var control int
+		if err := rows.Scan(&yt.Year, &yt.Track, &e.Score, &e.Count, &e.Cumulative, &control); err != nil {
 			return nil, err
 		}
 		y := byKey[yt]
 		if y == nil {
-			y = &core.YiFenYiDuan{Province: province, Track: yt.Track, Year: yt.Year}
+			y = &core.YiFenYiDuan{Province: province, Track: yt.Track, Year: yt.Year, ControlLine: control}
 			byKey[yt] = y
 			order = append(order, yt)
 		}

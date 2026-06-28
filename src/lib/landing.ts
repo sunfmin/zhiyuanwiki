@@ -67,6 +67,12 @@ export function gaokaoLatestCommon(
   return { count, year };
 }
 
+// BenkeLine 是某省物理本科线（本科批控制线）及其年份。
+export interface BenkeLine {
+  line: number;
+  year: number;
+}
+
 // ProvinceRow 是落地页一行：已上线（有 slug、可点、带收录摘要）或敬请期待（无 slug）。
 export interface ProvinceRow {
   name: string;
@@ -76,16 +82,18 @@ export interface ProvinceRow {
   homeSchools?: number; // 本省院校数（省情）——全 31 省皆有（含未上线）
   coverage?: CoverageSummary; // 本站收录——仅已上线省
   gaokao?: Gaokao; // 高考人数（省情）——仅已上线且科类数据完整
+  benkeLine?: BenkeLine; // 物理本科线（省情）——仅有物理科一分一段控制线的省
 }
 
 // buildProvinceRows 把花名册排成展示顺序：已上线置顶（按高考人数降序，缺高考人数的省如黑龙江
-// 殿后）→ 敬请期待按拼音 A→Z。coverageOf/gaokaoOf 仅对已上线 slug 调用；homeOf 对全部省按名取。
+// 殿后）→ 敬请期待按拼音 A→Z。coverageOf/gaokaoOf/benkeOf 仅对已上线 slug 调用；homeOf 按名取全省。
 export function buildProvinceRows(
   roster: RosterEntry[],
   liveByName: Map<string, string>,
   coverageOf: (slug: string) => CoverageSummary,
   homeOf: (name: string) => number | undefined,
   gaokaoOf: (slug: string) => Gaokao | undefined,
+  benkeOf: (slug: string) => BenkeLine | undefined,
 ): ProvinceRow[] {
   const rows: ProvinceRow[] = roster.map((r) => {
     const slug = liveByName.get(r.name);
@@ -99,6 +107,7 @@ export function buildProvinceRows(
           homeSchools,
           coverage: coverageOf(slug),
           gaokao: gaokaoOf(slug),
+          benkeLine: benkeOf(slug),
         }
       : { name: r.name, pinyin: r.pinyin, live: false, homeSchools };
   });

@@ -79,6 +79,9 @@ func TestParseYiFenYiDuan(t *testing.T) {
 	if wuli.Total() != 144 { // 升序后最低分(692)累计=144
 		t.Errorf("Total()=%d, want 144", wuli.Total())
 	}
+	if wuli.ControlLine != 422 { // 物理本科批控制线（本科线），取自本科批行；专科批的 200 不取
+		t.Errorf("ControlLine=%d, want 422（本科批控制线）", wuli.ControlLine)
+	}
 	if r, _ := wuli.ScoreToRank(693); r != 126 { // 693-750 顶段取前导数 693 → 累计 126
 		t.Errorf("ScoreToRank(693)=%d, want 126", r)
 	}

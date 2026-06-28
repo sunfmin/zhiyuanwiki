@@ -35,7 +35,8 @@ CREATE TABLE IF NOT EXISTS plan (           -- 各省 招生计划 行
   plan INTEGER, schooling TEXT, tuition TEXT
 );
 CREATE TABLE IF NOT EXISTS yifenyiduan (    -- 各省 一分一段 行
-  prov TEXT, year INTEGER, track TEXT, score INTEGER, count INTEGER, cum INTEGER
+  prov TEXT, year INTEGER, track TEXT, score INTEGER, count INTEGER, cum INTEGER,
+  control_line INTEGER  -- 本科批控制线（特控线），同一 年×科类 各行相同
 );
 CREATE INDEX IF NOT EXISTS idx_score_prov ON major_score(prov);
 CREATE INDEX IF NOT EXISTS idx_plan_prov  ON plan(prov);
@@ -183,14 +184,14 @@ func (d *DB) ReplaceYiFenYiDuan(prov string, yfds []*core.YiFenYiDuan) error {
 		if _, err := t.Exec(`DELETE FROM yifenyiduan WHERE prov=?`, prov); err != nil {
 			return err
 		}
-		st, err := t.Prepare(`INSERT INTO yifenyiduan (prov,year,track,score,count,cum) VALUES (?,?,?,?,?,?)`)
+		st, err := t.Prepare(`INSERT INTO yifenyiduan (prov,year,track,score,count,cum,control_line) VALUES (?,?,?,?,?,?,?)`)
 		if err != nil {
 			return err
 		}
 		defer st.Close()
 		for _, y := range yfds {
 			for _, e := range y.Entries {
-				if _, err := st.Exec(prov, y.Year, y.Track, e.Score, e.Count, e.Cumulative); err != nil {
+				if _, err := st.Exec(prov, y.Year, y.Track, e.Score, e.Count, e.Cumulative, y.ControlLine); err != nil {
 					return err
 				}
 			}

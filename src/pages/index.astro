@@ -5,7 +5,7 @@
 import Base from "../layouts/Base.astro";
 import { PROVINCE_ROSTER, liveSlugByName, provinceConfig } from "../lib/provinces";
 import { buildProvinceRows, summarize, coverageYears, type Gaokao } from "../lib/landing";
-import { schoolsOf, homeSchoolsOf, gaokaoOf } from "../lib/data";
+import { schoolsOf, homeSchoolsOf, gaokaoOf, benkeLineOf } from "../lib/data";
 
 const live = liveSlugByName();
 const rows = buildProvinceRows(
@@ -14,6 +14,7 @@ const rows = buildProvinceRows(
   (slug) => summarize(schoolsOf(slug)),
   (name) => homeSchoolsOf(name),
   (slug) => gaokaoOf(slug),
+  (slug) => benkeLineOf(slug),
 );
 
 // 新高考模式（省情轴，配置派生）：3+1+2 物理/历史 或 3+3 综合。
@@ -45,7 +46,7 @@ const liveCount = rows.filter((r) => r.live).length;
         <thead>
           <tr class="text-xs text-slate-400">
             <th class="px-3 py-1.5 text-left font-medium" rowspan="2">省份</th>
-            <th class="border-l border-slate-200 px-3 py-1.5 text-center font-medium" colspan="3">省情</th>
+            <th class="border-l border-slate-200 px-3 py-1.5 text-center font-medium" colspan="4">省情</th>
             <th class="border-l border-slate-200 px-3 py-1.5 text-center font-medium" colspan="5">
               本站收录
             </th>
@@ -54,6 +55,7 @@ const liveCount = rows.filter((r) => r.live).length;
             <th class="border-l border-slate-200 px-3 py-1.5 text-left font-medium">新高考</th>
             <th class="px-3 py-1.5 text-right font-medium">本省院校</th>
             <th class="px-3 py-1.5 text-right font-medium">高考人数<sup class="text-slate-300">*</sup></th>
+            <th class="px-3 py-1.5 text-right font-medium">本科线<sup class="text-slate-300">†</sup></th>
             <th class="border-l border-slate-200 px-3 py-1.5 text-right font-medium">招生院校</th>
             <th class="px-3 py-1.5 text-right font-medium">数据条</th>
             <th class="px-3 py-1.5 text-right font-medium">覆盖年份</th>
@@ -82,6 +84,12 @@ const liveCount = rows.filter((r) => r.live).length;
                   >
                     {r.gaokao ? wan(r.gaokao) : "—"}
                   </td>
+                  <td
+                    class="px-3 py-2 text-right tabular-nums text-slate-600"
+                    title={r.benkeLine ? `${r.benkeLine.year} 物理类本科批控制线` : undefined}
+                  >
+                    {r.benkeLine ? r.benkeLine.line : "—"}
+                  </td>
                   <td class="border-l border-slate-100 px-3 py-2 text-right tabular-nums">
                     {fmt(r.coverage!.recruitSchools)}
                   </td>
@@ -98,6 +106,7 @@ const liveCount = rows.filter((r) => r.live).length;
                   </td>
                   <td class="border-l border-slate-100 px-3 py-2" />
                   <td class="px-3 py-2 text-right tabular-nums text-slate-500">{r.homeSchools ?? "—"}</td>
+                  <td class="px-3 py-2 text-right">—</td>
                   <td class="px-3 py-2 text-right">—</td>
                   <td class="border-l border-slate-100 px-3 py-2 text-right">—</td>
                   <td class="px-3 py-2 text-right">—</td>
@@ -128,6 +137,7 @@ const liveCount = rows.filter((r) => r.live).length;
                     {modeLabel(r.slug)}
                     {r.gaokao && <> · 高考 {wan(r.gaokao)}</>}
                     {r.homeSchools != null && <> · 本省 {r.homeSchools} 校</>}
+                    {r.benkeLine && <> · 本科线 {r.benkeLine.line}</>}
                   </div>
                   <div class="mt-0.5 text-xs text-slate-400">
                     收录 {fmt(r.coverage!.recruitSchools)} 所 · 数据到 {coverageYears(r.coverage)}
@@ -155,6 +165,10 @@ const liveCount = rows.filter((r) => r.live).length;
       <span class="block">
         <sup>*</sup>高考人数为<strong>参加统一高考排名的人数</strong>（各科类一分一段最大累计之和），
         不含高职单招/中职对口，非报名人数；黑龙江缺历史科一分一段，暂显「—」。
+      </span>
+      <span class="block">
+        <sup>†</sup>本科线为<strong>物理类本科批最低控制线</strong>（源一分一段自带，如江苏 2025 物理 463），
+        非更高的特殊类型招生控制线；浙江综合科、无物理科控制线的省显「—」。
       </span>
       <span class="block">
         「本省院校」是校址在该省的高校数（省情事实）；「招生院校 / 数据条 / 覆盖年份」是本站收录范围，

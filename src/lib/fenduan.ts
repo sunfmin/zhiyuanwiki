@@ -10,6 +10,7 @@ export interface YiFenYiDuan {
   province: string;
   track: string;
   year: number;
+  controlLine?: number; // 本科批控制线（本科线），源一分一段表自带；缺则省略
   entries: FenduanEntry[]; // 按 score 升序
 }
 

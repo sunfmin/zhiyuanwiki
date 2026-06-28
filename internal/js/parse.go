@@ -158,12 +158,14 @@ func parseYiFenYiDuan(s *core.Sheet, province string, year int) []*core.YiFenYiD
 	cTrack, cBatch := s.Col("科类"), s.Col("批次")
 	cScore := s.ColContains("分数", "分段")
 	cCount, cCum := s.ColContains("本段人数"), s.ColContains("累计")
+	cControl := s.ColContains("控制线") // 本科批控制线（特控线），源表自带；缺列则 -1
 
 	byTrack := map[string]*core.YiFenYiDuan{}
 	var order []string
 	for _, r := range s.Data {
 		track := canonTrack(core.Cell(r, cTrack))
-		if !keep[track] || !batchKeep(core.Cell(r, cBatch)) {
+		batch := core.Cell(r, cBatch)
+		if !keep[track] || !batchKeep(batch) {
 			continue
 		}
 		score, ok := core.ParseLeadingInt(core.Cell(r, cScore))
@@ -180,6 +182,12 @@ func parseYiFenYiDuan(s *core.Sheet, province string, year int) []*core.YiFenYiD
 			y = &core.YiFenYiDuan{Province: province, Track: track, Year: year}
 			byTrack[track] = y
 			order = append(order, track)
+		}
+		// 控制线只取主「本科批」（非提前批），同年同科类各行相同，取首个即可。
+		if y.ControlLine == 0 && strings.Contains(batch, "本科批") {
+			if cl, ok := core.ParseLeadingInt(core.Cell(r, cControl)); ok {
+				y.ControlLine = cl
+			}
 		}
 		y.Entries = append(y.Entries, core.FenduanEntry{Score: score, Count: count, Cumulative: cum})
 	}

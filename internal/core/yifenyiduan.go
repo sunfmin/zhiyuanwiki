@@ -11,10 +11,11 @@ import (
 // YiFenYiDuan 是某省某科类某年的一分一段表：分数 → 累计位次。
 // Entries 按分数升序排列；累计人数即该分数的位次。
 type YiFenYiDuan struct {
-	Province string         `json:"province"`
-	Track    string         `json:"track"`
-	Year     int            `json:"year"`
-	Entries  []FenduanEntry `json:"entries"`
+	Province    string         `json:"province"`
+	Track       string         `json:"track"`
+	Year        int            `json:"year"`
+	ControlLine int            `json:"controlLine,omitempty"` // 本科批控制线（特控线），源一分一段表自带；缺则 0/省略
+	Entries     []FenduanEntry `json:"entries"`
 }
 
 // FenduanEntry 一个分数段：Score 该分数，Count 该分数人数，

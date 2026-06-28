@@ -122,6 +122,21 @@ export function homeSchoolsOf(name: string): number | undefined {
   return homeSchools[name];
 }
 
+// benkeLineOf 取某省「物理本科线」（本科批控制线）：物理科一分一段最新年的 controlLine。
+// 源一分一段「控制线」列是本科批控制线（本科线，如江苏 2025 物理 463），不是更高的特控线。
+// 无物理科（浙江综合）或源无控制线（黑龙江走 core 解析路径未采）→ undefined → 显「—」。
+export function benkeLineOf(prov: string): { line: number; year: number } | undefined {
+  let best: { line: number; year: number } | undefined;
+  for (const key of Object.keys(fenduanTables)) {
+    const m = key.match(/\/src\/data\/([^/]+)\/yifenyiduan\/wuli-(\d+)\.json$/);
+    if (!m || m[1] !== prov) continue;
+    const tbl = (fenduanTables[key] as any).default as YiFenYiDuan;
+    const year = Number(m[2]);
+    if (tbl.controlLine && (!best || year > best.year)) best = { line: tbl.controlLine, year };
+  }
+  return best;
+}
+
 // gaokaoOf 算某省高考人数（统考排名人数）：从已收录的各科类一分一段表，取最新共同年的最大累计求和。
 // 数据全在前端（hlj/zj 不在 staging DB，但 committed 一分一段是 6 省统一源）。见 ADR-0016。
 export function gaokaoOf(prov: string): Gaokao | undefined {

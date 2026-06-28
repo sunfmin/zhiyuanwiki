@@ -109,7 +109,12 @@ describe("buildProvinceRows — 已上线按高考人数降序 + 敬请期待拼
     ah: { count: 236000, year: 2025 },
     hlj: undefined, // 缺历史
   };
-  const rows = buildProvinceRows(roster, live, (s) => cov[s], (n) => home[n], (s) => gk[s]);
+  const bk: Record<string, { line: number; year: number } | undefined> = {
+    zj: undefined, // 综合无物理本科线
+    ah: { line: 461, year: 2025 },
+    hlj: undefined,
+  };
+  const rows = buildProvinceRows(roster, live, (s) => cov[s], (n) => home[n], (s) => gk[s], (s) => bk[s]);
 
   it("已上线按高考人数降序，无高考人数的黑龙江殿后（仍在已上线段内）", () => {
     expect(rows.slice(0, 3).map((r) => r.name)).toEqual(["浙江", "安徽", "黑龙江"]);
@@ -122,6 +127,11 @@ describe("buildProvinceRows — 已上线按高考人数降序 + 敬请期待拼
     expect(rows.find((r) => r.name === "浙江")?.homeSchools).toBe(113);
   });
 
+  it("物理本科线：安徽 461 有值，浙江（综合）无", () => {
+    expect(rows.find((r) => r.name === "安徽")?.benkeLine).toEqual({ line: 461, year: 2025 });
+    expect(rows.find((r) => r.name === "浙江")?.benkeLine).toBeUndefined();
+  });
+
   it("敬请期待在后，按拼音 A→Z（北京 < 河南），无 coverage/gaokao", () => {
     expect(rows.slice(3).map((r) => r.name)).toEqual(["北京", "河南"]);
     expect(rows[3].live).toBe(false);
@@ -132,7 +142,13 @@ describe("buildProvinceRows — 已上线按高考人数降序 + 敬请期待拼
   it("不为未上线省调用 coverageOf / gaokaoOf", () => {
     const cCalls: string[] = [];
     const gCalls: string[] = [];
-    buildProvinceRows(roster, live, (s) => { cCalls.push(s); return cov[s]; }, (n) => home[n], (s) => { gCalls.push(s); return gk[s]; });
+    buildProvinceRows(
+      roster, live,
+      (s) => { cCalls.push(s); return cov[s]; },
+      (n) => home[n],
+      (s) => { gCalls.push(s); return gk[s]; },
+      (s) => bk[s],
+    );
     expect(cCalls.sort()).toEqual(["ah", "hlj", "zj"]);
     expect(gCalls.sort()).toEqual(["ah", "hlj", "zj"]);
   });
