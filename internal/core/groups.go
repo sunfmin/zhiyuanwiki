@@ -7,6 +7,7 @@ import "sort"
 type PlanRow struct {
 	Year       int
 	Track      string
+	Batch      string // 批次/招生类型：组模型省份留空；浙江(major)落「招生类型」以还原中外合作判定
 	SchoolCode string
 	SchoolName string
 	GroupCode  string // 专业组代码（逐年变）

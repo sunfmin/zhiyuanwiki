@@ -168,7 +168,7 @@ func (d *DB) ReplacePlan(prov string, rows []core.PlanRow) error {
 		}
 		defer st.Close()
 		for _, r := range rows {
-			if _, err := st.Exec(prov, r.Year, r.Track, "", r.SchoolCode, r.SchoolName,
+			if _, err := st.Exec(prov, r.Year, r.Track, r.Batch, r.SchoolCode, r.SchoolName,
 				r.GroupCode, r.GroupName, r.MajorName, r.FullName, r.Remark, r.SelKe,
 				r.Plan, r.Schooling, r.Tuition); err != nil {
 				return err

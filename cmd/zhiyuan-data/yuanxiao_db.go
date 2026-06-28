@@ -6,6 +6,7 @@ import (
 
 	"github.com/sunfmin/zhiyuanwiki/internal/core"
 	"github.com/sunfmin/zhiyuanwiki/internal/store"
+	"github.com/sunfmin/zhiyuanwiki/internal/zj"
 )
 
 // buildDBBundle 从 SQLite staging 投影某省院校数据（构建期 staging 管线省份共用，见 ADR-0014）：
@@ -77,6 +78,76 @@ func buildDBBundle(dbPath string, p province) schoolBundle {
 	}
 	fmt.Printf("  报考视图：院校专业组 %d 个（计划年 %d）· 院校属性命中 %d/%d\n",
 		groupCount, planYear(plan), matched, len(schools))
+	return b
+}
+
+// buildDBBundleMajor 从 SQLite staging 投影 major 模型省份（浙江：综合·专业平行志愿，无组）的院校
+// 数据，与 buildDBBundle 同形，只是报考视图走 zj.BuildPlan2026 产 plan2026（院校×专业）而非
+// groups2026。计划行经 zj.FromCorePlan 从统一 plan 表还原成 PlanRow2026（招生类型从 Batch 列取回）。
+// 见 ADR-0014 / issue #20。院校属性此处仍按全国 school 表挂接；浙江特有 city_tier/按码属性的保全在 #21。
+func buildDBBundleMajor(dbPath string, p province) schoolBundle {
+	db, err := store.Open(dbPath)
+	if err != nil {
+		fatal(err)
+	}
+	defer db.Close()
+
+	scores, err := db.LoadScores(p.slug)
+	if err != nil {
+		fatal(err)
+	}
+	if len(scores) == 0 {
+		fatal(fmt.Errorf("DB 无%s分数行——先跑 `zhiyuan-data import -prov %s`", p.name, p.slug))
+	}
+	fmt.Printf("  专业录取分数：%d 行（%s·含位次）\n", len(scores), strings.Join(p.tracks, "/"))
+	schools, leaves := core.AggregateLeaves(scores)
+
+	idx, err := db.SchoolIndex()
+	if err != nil {
+		fatal(err)
+	}
+	menlei, err := db.Menlei()
+	if err != nil {
+		fatal(err)
+	}
+	fmt.Printf("  全国院校属性 %d 所 · 专业→门类 %d 条\n", idx.Len(), menlei.Len())
+
+	totals, err := db.LoadTotals(p.slug)
+	if err != nil {
+		fatal(err)
+	}
+	planAll, err := db.LoadPlan(p.slug)
+	if err != nil {
+		fatal(err)
+	}
+	planByCode := zj.BuildPlan2026(zj.FromCorePlan(planAll), leaves, totals, zjRefYear, menlei)
+
+	byCode := map[string][]core.MajorLeaf{}
+	for _, lf := range leaves {
+		byCode[lf.SchoolCode] = append(byCode[lf.SchoolCode], lf)
+	}
+
+	b := schoolBundle{
+		schools: schools, leaves: leaves,
+		details: map[string]schoolDetail{},
+		meta:    map[string]schoolMetaOut{},
+		levels:  map[string][3]bool{},
+	}
+	planCount, matched := 0, 0
+	for _, s := range schools {
+		d := schoolDetail{School: s, Leaves: byCode[s.Code], Plan2026: planByCode[s.Code]}
+		planCount += len(d.Plan2026)
+		b.details[s.Code] = d
+		if m, ok := idx.Lookup(s.Name); ok {
+			matched++
+			b.levels[s.Code] = [3]bool{m.Is985, m.Is211, m.Syl}
+			b.meta[s.Code] = schoolMetaOut{
+				Province: m.Province, City: m.City, CityTier: core.CityTier(m.City),
+				Owner: m.Ownership, Kind: m.Kind, Levels: levelsOf(m),
+			}
+		}
+	}
+	fmt.Printf("  报考视图：院校×专业 %d 个 · 院校属性命中 %d/%d\n", planCount, matched, len(schools))
 	return b
 }
 

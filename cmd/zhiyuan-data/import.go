@@ -81,9 +81,13 @@ func importCmd(args []string) {
 		importNational(db, *src)
 	}
 
-	// 黑龙江源异构、跨两棵树，走专用 importHLJ（见 ADR-0014 / issue #19）；其余走通用 importProvince。
-	if p.slug == "hlj" {
+	// 黑龙江/浙江源异构、布局特殊，走专用 import（见 ADR-0014 / issue #19、#20）；其余走通用 importProvince。
+	switch p.slug {
+	case "hlj":
 		importHLJ(db, *src, p)
+		return
+	case "zj":
+		importZJ(db, p)
 		return
 	}
 	parser, ok := provParsers[p.slug]

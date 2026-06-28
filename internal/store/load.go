@@ -26,7 +26,7 @@ func (d *DB) LoadScores(prov string) ([]core.MajorScoreRow, error) {
 
 // LoadPlan 读某省全部招生计划行。
 func (d *DB) LoadPlan(prov string) ([]core.PlanRow, error) {
-	rows, err := d.sql.Query(`SELECT year,track,school_code,school_name,group_code,group_name,major,full_name,remark,sel_ke,plan,schooling,tuition
+	rows, err := d.sql.Query(`SELECT year,track,batch,school_code,school_name,group_code,group_name,major,full_name,remark,sel_ke,plan,schooling,tuition
 		FROM plan WHERE prov=?`, prov)
 	if err != nil {
 		return nil, err
@@ -35,7 +35,7 @@ func (d *DB) LoadPlan(prov string) ([]core.PlanRow, error) {
 	var out []core.PlanRow
 	for rows.Next() {
 		var r core.PlanRow
-		if err := rows.Scan(&r.Year, &r.Track, &r.SchoolCode, &r.SchoolName, &r.GroupCode, &r.GroupName,
+		if err := rows.Scan(&r.Year, &r.Track, &r.Batch, &r.SchoolCode, &r.SchoolName, &r.GroupCode, &r.GroupName,
 			&r.MajorName, &r.FullName, &r.Remark, &r.SelKe, &r.Plan, &r.Schooling, &r.Tuition); err != nil {
 			return nil, err
 		}
