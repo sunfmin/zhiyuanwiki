@@ -109,6 +109,53 @@ export const PROVINCES: Record<string, ProvinceConfig> = {
 export const PROVINCE_SLUGS = Object.keys(PROVINCES);
 export const DEFAULT_PROVINCE = "hlj";
 
+// 全国 31 省级行政区花名册（港澳台不计入高考统招）。落地页名单与 Base 省份切换器共用的
+// 单一真相源——省名 + 拼音（用于落地页「敬请期待」段按拼音 A→Z 排序）。是否已上线由
+// PROVINCES（已配置数据的省）派生，见 liveSlugByName。见 ADR-0016。
+export interface RosterEntry {
+  name: string; // 中文省名
+  pinyin: string; // 全拼，用于 A→Z 排序（山西 shanxi / 陕西 shaanxi 天然有别）
+}
+
+export const PROVINCE_ROSTER: RosterEntry[] = [
+  { name: "北京", pinyin: "beijing" },
+  { name: "天津", pinyin: "tianjin" },
+  { name: "河北", pinyin: "hebei" },
+  { name: "山西", pinyin: "shanxi" },
+  { name: "内蒙古", pinyin: "neimenggu" },
+  { name: "辽宁", pinyin: "liaoning" },
+  { name: "吉林", pinyin: "jilin" },
+  { name: "黑龙江", pinyin: "heilongjiang" },
+  { name: "上海", pinyin: "shanghai" },
+  { name: "江苏", pinyin: "jiangsu" },
+  { name: "浙江", pinyin: "zhejiang" },
+  { name: "安徽", pinyin: "anhui" },
+  { name: "福建", pinyin: "fujian" },
+  { name: "江西", pinyin: "jiangxi" },
+  { name: "山东", pinyin: "shandong" },
+  { name: "河南", pinyin: "henan" },
+  { name: "湖北", pinyin: "hubei" },
+  { name: "湖南", pinyin: "hunan" },
+  { name: "广东", pinyin: "guangdong" },
+  { name: "广西", pinyin: "guangxi" },
+  { name: "海南", pinyin: "hainan" },
+  { name: "重庆", pinyin: "chongqing" },
+  { name: "四川", pinyin: "sichuan" },
+  { name: "贵州", pinyin: "guizhou" },
+  { name: "云南", pinyin: "yunnan" },
+  { name: "西藏", pinyin: "xizang" },
+  { name: "陕西", pinyin: "shaanxi" },
+  { name: "甘肃", pinyin: "gansu" },
+  { name: "青海", pinyin: "qinghai" },
+  { name: "宁夏", pinyin: "ningxia" },
+  { name: "新疆", pinyin: "xinjiang" },
+];
+
+// liveSlugByName 把已上线省名映射到其 slug（落地页据此决定行是否可点进 /[slug]/）。
+export function liveSlugByName(): Map<string, string> {
+  return new Map(Object.values(PROVINCES).map((p) => [p.name, p.slug]));
+}
+
 export function provinceConfig(slug: string): ProvinceConfig {
   return PROVINCES[slug] ?? PROVINCES[DEFAULT_PROVINCE];
 }

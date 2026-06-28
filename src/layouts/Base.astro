@@ -1,9 +1,9 @@
 ---
 import "../styles/global.css";
-import { provinceConfig, PROVINCES } from "../lib/provinces";
+import { provinceConfig, PROVINCES, PROVINCE_ROSTER } from "../lib/provinces";
 
 interface Props {
-  prov: string;
+  prov?: string; // 省份页传入；落地页（省份列表页 /）不传，渲染极简头部
   title?: string;
   description?: string;
 }
@@ -14,30 +14,28 @@ const {
   description = "用历年官方数据帮助高考考生选择院校与专业。",
 } = Astro.props;
 
-const cfg = provinceConfig(prov);
+const cfg = prov ? provinceConfig(prov) : null;
 
 // 顶部导航：位次定位是省份主页（/<prov>/）。当前所在区块高亮。
-// 路径形如 /<prov>/[section]/...；section 为空即定位主页。
+// 路径形如 /<prov>/[section]/...；section 为空即定位主页。落地页无 prov → 无省份导航。
 const path = Astro.url.pathname;
 const seg = path.split("/").filter(Boolean); // ["hlj","yuanxiao",...]
-const section = seg[1] ?? "";
-const navLinks = [
-  { section: "", href: `/${prov}/`, label: "位次定位" },
-  { section: "yuanxiao", href: `/${prov}/yuanxiao`, label: "院校" },
-  { section: "zhuanye", href: `/${prov}/zhuanye`, label: "专业" },
-  { section: "guide", href: `/${prov}/guide`, label: "指南" },
-];
+const section = prov ? (seg[1] ?? "") : "";
+const navLinks = prov
+  ? [
+      { section: "", href: `/${prov}/`, label: "位次定位" },
+      { section: "yuanxiao", href: `/${prov}/yuanxiao`, label: "院校" },
+      { section: "zhuanye", href: `/${prov}/zhuanye`, label: "专业" },
+      { section: "guide", href: `/${prov}/guide`, label: "指南" },
+    ]
+  : [];
 
-// 省份切换：有数据的省（黑龙江/浙江）可切换并跳到同区块；其余省提示"暂未开放"并回退。
+// 省份切换：已上线省可切换并跳到同区块；其余省提示"暂未开放"并回退（支持名单从配置派生）。
 const enabledNames = Object.fromEntries(
   Object.values(PROVINCES).map((p) => [p.name, p.slug]),
 );
-const provinces = [
-  "北京", "天津", "河北", "山西", "内蒙古", "辽宁", "吉林", "黑龙江",
-  "上海", "江苏", "浙江", "安徽", "福建", "江西", "山东", "河南",
-  "湖北", "湖南", "广东", "广西", "海南", "重庆", "四川", "贵州",
-  "云南", "西藏", "陕西", "甘肃", "青海", "宁夏", "新疆",
-];
+const supportedNames = Object.keys(enabledNames).join("」「");
+const provinces = PROVINCE_ROSTER.map((r) => r.name);
 ---
 
 <html lang="zh-CN">
@@ -51,50 +49,52 @@ const provinces = [
   <body class="min-h-screen flex flex-col bg-slate-50 text-slate-900 antialiased">
     <header class="border-b border-slate-200 bg-white">
       <nav class="mx-auto flex max-w-5xl items-center gap-3 px-4 py-2.5 sm:gap-5">
-        <a href={`/${prov}/`} class="flex shrink-0 items-center gap-2" aria-label="高考志愿数据 Wiki 首页">
+        <a href={prov ? `/${prov}/` : "/"} class="flex shrink-0 items-center gap-2" aria-label="高考志愿数据 Wiki 首页">
           <span class="grid h-7 w-7 place-items-center rounded-lg bg-slate-900 text-sm font-bold text-white">
             位
           </span>
-          <span class="hidden text-sm font-semibold tracking-tight text-slate-900 sm:inline">
+          <span class="text-sm font-semibold tracking-tight text-slate-900">
             高考志愿数据
           </span>
         </a>
-        <div class="flex items-center gap-1 overflow-x-auto text-sm">
-          {
-            navLinks.map((l) => (
-              <a
-                href={l.href}
-                aria-current={l.section === section ? "page" : undefined}
-                class={`shrink-0 rounded-md px-2 py-1 transition ${
-                  l.section === section
-                    ? "bg-slate-100 font-medium text-slate-900"
-                    : "text-slate-500 hover:text-slate-900"
-                }`}
-              >
-                {l.label}
-              </a>
-            ))
-          }
-        </div>
-        <label class="ml-auto flex shrink-0 items-center gap-1 text-xs text-slate-500">
-          <span class="hidden sm:inline">省份</span>
-          <select
-            id="province-select"
-            data-section={section}
-            data-current={cfg.name}
-            class="rounded-md border border-slate-300 bg-white px-2 py-1 text-sm text-slate-900"
-          >
-            {
-              provinces.map((p) => (
-                <option value={p} selected={p === cfg.name}>
-                  {p}
-                </option>
-              ))
-            }
-          </select>
-        </label>
+        {
+          prov && cfg && (
+            <>
+              <div class="flex items-center gap-1 overflow-x-auto text-sm">
+                {navLinks.map((l) => (
+                  <a
+                    href={l.href}
+                    aria-current={l.section === section ? "page" : undefined}
+                    class={`shrink-0 rounded-md px-2 py-1 transition ${
+                      l.section === section
+                        ? "bg-slate-100 font-medium text-slate-900"
+                        : "text-slate-500 hover:text-slate-900"
+                    }`}
+                  >
+                    {l.label}
+                  </a>
+                ))}
+              </div>
+              <label class="ml-auto flex shrink-0 items-center gap-1 text-xs text-slate-500">
+                <span class="hidden sm:inline">省份</span>
+                <select
+                  id="province-select"
+                  data-section={section}
+                  data-current={cfg.name}
+                  class="rounded-md border border-slate-300 bg-white px-2 py-1 text-sm text-slate-900"
+                >
+                  {provinces.map((p) => (
+                    <option value={p} selected={p === cfg.name}>
+                      {p}
+                    </option>
+                  ))}
+                </select>
+              </label>
+            </>
+          )
+        }
       </nav>
-      <div id="province-notice" hidden class="mx-auto max-w-5xl px-4 pb-3 text-sm text-amber-700"></div>
+      {prov && <div id="province-notice" hidden class="mx-auto max-w-5xl px-4 pb-3 text-sm text-amber-700"></div>}
     </header>
 
     <main class="flex-1">
@@ -107,31 +107,35 @@ const provinces = [
       </div>
     </footer>
 
-    <script is:inline define:vars={{ enabledNames }}>
-      (function () {
-        var sel = document.getElementById("province-select");
-        var notice = document.getElementById("province-notice");
-        if (!sel || !notice) return;
-        var section = sel.dataset.section || "";
-        var current = sel.dataset.current;
-        var timer;
-        sel.addEventListener("change", function () {
-          var name = sel.value;
-          var slug = enabledNames[name];
-          if (slug) {
-            location.href = "/" + slug + "/" + section;
-            return;
-          }
-          notice.textContent =
-            "「" + name + "」的数据还在整理中，目前支持「黑龙江」「浙江」。";
-          notice.hidden = false;
-          sel.value = current;
-          if (timer) clearTimeout(timer);
-          timer = setTimeout(function () {
-            notice.hidden = true;
-          }, 4000);
-        });
-      })();
-    </script>
+    {
+      prov && (
+        <script is:inline define:vars={{ enabledNames, supportedNames }}>
+          (function () {
+            var sel = document.getElementById("province-select");
+            var notice = document.getElementById("province-notice");
+            if (!sel || !notice) return;
+            var section = sel.dataset.section || "";
+            var current = sel.dataset.current;
+            var timer;
+            sel.addEventListener("change", function () {
+              var name = sel.value;
+              var slug = enabledNames[name];
+              if (slug) {
+                location.href = "/" + slug + "/" + section;
+                return;
+              }
+              notice.textContent =
+                "「" + name + "」的数据还在整理中，目前支持「" + supportedNames + "」。";
+              notice.hidden = false;
+              sel.value = current;
+              if (timer) clearTimeout(timer);
+              timer = setTimeout(function () {
+                notice.hidden = true;
+              }, 4000);
+            });
+          })();
+        </script>
+      )
+    }
   </body>
 </html>

@@ -1,17 +1,128 @@
 ---
-// 根路径跳转到默认省份（黑龙江）。对称 /[prov]/ 路由下，/ 只做落地跳转。见 ADR-0009。
-import { DEFAULT_PROVINCE } from "../lib/provinces";
-const target = `/${DEFAULT_PROVINCE}/`;
+// 省份列表落地页（替换旧的「跳转默认省」根路由，见 ADR-0016）。
+// 纯静态：列全 31 省，已上线置顶可点进 /[slug]/，未上线置灰「敬请期待」。
+// 列分两轴——省情（本期仅新高考模式）/ 本站收录（招生院校·数据条·覆盖年份·名校）。
+import Base from "../layouts/Base.astro";
+import { PROVINCE_ROSTER, liveSlugByName, provinceConfig } from "../lib/provinces";
+import { buildProvinceRows, summarize, coverageYears } from "../lib/landing";
+import { schoolsOf } from "../lib/data";
+
+const live = liveSlugByName();
+const rows = buildProvinceRows(PROVINCE_ROSTER, live, (slug) => summarize(schoolsOf(slug)));
+
+// 新高考模式（省情轴，配置派生）：3+1+2 物理/历史 或 3+3 综合。
+function modeLabel(slug: string): string {
+  const c = provinceConfig(slug);
+  const mode = c.subjectMode === "pick3of7" ? "3+3" : "3+1+2";
+  return `${mode} · ${c.tracks.map((t) => t.name).join("/")}`;
+}
+const fmt = (n: number) => n.toLocaleString("zh-CN");
+const liveCount = rows.filter((r) => r.live).length;
 ---
 
-<html lang="zh-CN">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="refresh" content={`0; url=${target}`} />
-    <link rel="canonical" href={target} />
-    <title>高考志愿数据 Wiki</title>
-  </head>
-  <body>
-    <p>正在前往 <a href={target}>高考志愿数据 Wiki</a>…</p>
-  </body>
-</html>
+<Base
+  title="全国高考志愿数据 Wiki · 选择省份"
+  description={`覆盖 ${liveCount} 省的历年官方录取数据：按等效位次给出冲 / 稳 / 保。选择你的省份开始。`}
+>
+  <section class="mx-auto max-w-5xl px-4 py-8 sm:py-12">
+    <h1 class="text-2xl font-bold tracking-tight sm:text-3xl">选择你的省份</h1>
+    <p class="mt-2 max-w-2xl text-sm text-slate-600 sm:text-base">
+      用历年官方数据按<strong>等效位次</strong>给出冲 / 稳 / 保的可填报院校与专业。
+      已上线 {liveCount} 省，点击进入位次定位；其余省份陆续接入。
+    </p>
+
+    {/* 桌面：分组宽表（省情 / 本站收录两轴） */}
+    <div class="mt-6 hidden overflow-x-auto md:block">
+      <table class="w-full border-collapse text-sm">
+        <thead>
+          <tr class="text-xs text-slate-400">
+            <th class="px-3 py-1.5 text-left font-medium" rowspan="2">省份</th>
+            <th class="border-l border-slate-200 px-3 py-1.5 text-center font-medium">省情</th>
+            <th class="border-l border-slate-200 px-3 py-1.5 text-center font-medium" colspan="5">
+              本站收录
+            </th>
+          </tr>
+          <tr class="text-xs text-slate-500">
+            <th class="border-l border-slate-200 px-3 py-1.5 text-left font-medium">新高考</th>
+            <th class="border-l border-slate-200 px-3 py-1.5 text-right font-medium">招生院校</th>
+            <th class="px-3 py-1.5 text-right font-medium">数据条</th>
+            <th class="px-3 py-1.5 text-right font-medium">覆盖年份</th>
+            <th class="px-3 py-1.5 text-right font-medium">985</th>
+            <th class="px-3 py-1.5 text-right font-medium">211</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            rows.map((r) =>
+              r.live && r.slug ? (
+                <tr class="border-t border-slate-100 hover:bg-slate-50">
+                  <td class="px-3 py-2 font-medium">
+                    <a href={`/${r.slug}/`} class="text-slate-900 hover:text-blue-700 hover:underline">
+                      {r.name}
+                      <span class="ml-1 text-xs text-slate-400">→</span>
+                    </a>
+                  </td>
+                  <td class="border-l border-slate-100 px-3 py-2 text-slate-600">{modeLabel(r.slug)}</td>
+                  <td class="border-l border-slate-100 px-3 py-2 text-right tabular-nums">
+                    {fmt(r.coverage!.recruitSchools)}
+                  </td>
+                  <td class="px-3 py-2 text-right tabular-nums text-slate-600">{fmt(r.coverage!.dataRows)}</td>
+                  <td class="px-3 py-2 text-right tabular-nums text-slate-600">{coverageYears(r.coverage)}</td>
+                  <td class="px-3 py-2 text-right tabular-nums text-slate-600">{r.coverage!.count985}</td>
+                  <td class="px-3 py-2 text-right tabular-nums text-slate-600">{r.coverage!.count211}</td>
+                </tr>
+              ) : (
+                <tr class="border-t border-slate-100 text-slate-400">
+                  <td class="px-3 py-2">
+                    {r.name}
+                    <span class="ml-2 rounded bg-slate-100 px-1.5 py-0.5 text-xs text-slate-400">敬请期待</span>
+                  </td>
+                  <td class="border-l border-slate-100 px-3 py-2" />
+                  <td class="border-l border-slate-100 px-3 py-2 text-right">—</td>
+                  <td class="px-3 py-2 text-right">—</td>
+                  <td class="px-3 py-2 text-right">—</td>
+                  <td class="px-3 py-2 text-right">—</td>
+                  <td class="px-3 py-2 text-right">—</td>
+                </tr>
+              ),
+            )
+          }
+        </tbody>
+      </table>
+    </div>
+
+    {/* 手机：每省一张卡片 */}
+    <ul class="mt-6 space-y-2 md:hidden">
+      {
+        rows.map((r) =>
+          r.live && r.slug ? (
+            <li>
+              <a
+                href={`/${r.slug}/`}
+                class="flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4 transition hover:border-slate-400 hover:shadow-sm"
+              >
+                <div>
+                  <div class="font-semibold text-slate-900">{r.name}</div>
+                  <div class="mt-0.5 text-xs text-slate-500">
+                    {modeLabel(r.slug)} · 收录 {fmt(r.coverage!.recruitSchools)} 所院校 · 数据到{" "}
+                    {coverageYears(r.coverage)}
+                  </div>
+                </div>
+                <span class="text-slate-400">→</span>
+              </a>
+            </li>
+          ) : (
+            <li class="flex items-center justify-between rounded-xl border border-dashed border-slate-200 bg-white/60 p-4">
+              <span class="text-slate-400">{r.name}</span>
+              <span class="rounded bg-slate-100 px-1.5 py-0.5 text-xs text-slate-400">敬请期待</span>
+            </li>
+          ),
+        )
+      }
+    </ul>
+
+    <p class="mt-8 text-xs text-slate-400">
+      「招生院校 / 数据条 / 覆盖年份」是本站收录范围，受收录年份影响，非各省真实规模。仅供参考，以官方为准。
+    </p>
+  </section>
+</Base>
