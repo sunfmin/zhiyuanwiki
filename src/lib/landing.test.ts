@@ -4,6 +4,7 @@ import {
   buildProvinceRows,
   coverageYears,
   gaokaoLatestCommon,
+  famousCount,
   type CoverageSummary,
 } from "./landing";
 import type { SchoolIndexEntry } from "./data";
@@ -22,9 +23,9 @@ function school(over: Partial<SchoolIndexEntry> = {}): SchoolIndexEntry {
 describe("summarize — 本站收录摘要", () => {
   it("汇总院校数 / 数据条 / 名校 / 覆盖年份跨多校多科类", () => {
     const c = summarize([
-      school({ leafCount: 10, is985: true, is211: true, ranges: { 物理: { year: 2022 } as any } }),
-      school({ leafCount: 5, is211: true, ranges: { 历史: { year: 2025 } as any } }),
-      school({ leafCount: 3, ranges: {} }),
+      school({ name: "北京大学", leafCount: 10, is985: true, is211: true, ranges: { 物理: { year: 2022 } as any } }),
+      school({ name: "苏州大学", leafCount: 5, is211: true, ranges: { 历史: { year: 2025 } as any } }),
+      school({ name: "某职院", leafCount: 3, ranges: {} }),
     ]);
     expect(c.recruitSchools).toBe(3);
     expect(c.dataRows).toBe(18);
@@ -34,10 +35,42 @@ describe("summarize — 本站收录摘要", () => {
     expect(c.maxYear).toBe(2025);
   });
 
+  it("名校数把分校区/医学院收口到母体（哈工大本部+威海+深圳 计 1 所 985）", () => {
+    const c = summarize([
+      school({ name: "哈尔滨工业大学", is985: true, is211: true }),
+      school({ name: "哈尔滨工业大学(威海校区)", is985: true, is211: true }),
+      school({ name: "哈尔滨工业大学(深圳)", is985: true, is211: true }),
+      school({ name: "北京大学", is985: true, is211: true }),
+      school({ name: "北京大学医学部", is985: true, is211: true }),
+    ]);
+    expect(c.count985).toBe(2); // 哈工大 + 北大，校区/医学部并入
+    expect(c.count211).toBe(2);
+  });
+
   it("空省 → 年份为 0，计数为 0", () => {
     const c = summarize([]);
     expect(c).toEqual({ recruitSchools: 0, dataRows: 0, minYear: 0, maxYear: 0, count985: 0, count211: 0 });
   });
+});
+
+describe("famousCount — 分校区前缀收口", () => {
+  it("母体存在时，校区/医学院/分校并入母体", () => {
+    expect(
+      famousCount([
+        "哈尔滨工业大学",
+        "哈尔滨工业大学(威海校区)",
+        "哈尔滨工业大学(深圳)",
+        "东北大学",
+        "东北大学秦皇岛分校",
+        "复旦大学",
+        "复旦大学上海医学院",
+      ]),
+    ).toBe(3); // 哈工大 / 东北大学 / 复旦
+  });
+  it("无前缀关系的独立大学各计一所；重复名去重", () => {
+    expect(famousCount(["北京大学", "清华大学", "北京大学"])).toBe(2);
+  });
+  it("空", () => expect(famousCount([])).toBe(0));
 });
 
 describe("coverageYears — 覆盖年份展示", () => {

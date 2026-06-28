@@ -15,17 +15,26 @@ export interface CoverageSummary {
   count211: number; // 名校数：211
 }
 
+// famousCount 数「名校数」时把分校区/医学院收口到母体大学：一所校只在「没有任何同档校名是它的
+// 前缀」时计入。如此「哈尔滨工业大学(威海校区)」「北京大学医学部」「东北大学秦皇岛分校」并入母体，
+// 全国 985 计数回到 39（而非含校区的 50）。分校的 985 标签本身不删——它确是 985 校区，院校筛选/徽章
+// 仍该显示；只是「名校数」按母体大学去重计数。见 ADR-0016。
+export function famousCount(names: string[]): number {
+  const uniq = [...new Set(names)];
+  return uniq.filter((n) => !uniq.some((m) => m !== n && n.startsWith(m))).length;
+}
+
 // summarize 把一省的院校索引汇总成收录摘要。
 export function summarize(schools: SchoolIndexEntry[]): CoverageSummary {
   let dataRows = 0;
-  let count985 = 0;
-  let count211 = 0;
+  const names985: string[] = [];
+  const names211: string[] = [];
   let minYear = Infinity;
   let maxYear = 0;
   for (const s of schools) {
     dataRows += s.leafCount ?? 0;
-    if (s.is985) count985++;
-    if (s.is211) count211++;
+    if (s.is985) names985.push(s.name);
+    if (s.is211) names211.push(s.name);
     for (const track of Object.keys(s.ranges ?? {})) {
       const y = s.ranges[track]?.year;
       if (typeof y === "number" && y > 0) {
@@ -39,8 +48,8 @@ export function summarize(schools: SchoolIndexEntry[]): CoverageSummary {
     dataRows,
     minYear: minYear === Infinity ? 0 : minYear,
     maxYear,
-    count985,
-    count211,
+    count985: famousCount(names985),
+    count211: famousCount(names211),
   };
 }
 
