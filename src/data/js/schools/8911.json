@@ -1,0 +1,194 @@
+{
+  "code": "8911",
+  "name": "西北大学现代学院",
+  "leaves": [
+    {
+      "schoolCode": "8911",
+      "majorKey": "b86f75b5",
+      "majorName": "广播电视编导",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 484,
+          "minRank": 55402,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 477,
+          "minRank": 191363,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "8911",
+      "majorKey": "ca37000f",
+      "majorName": "数字经济",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 480,
+          "minRank": 169209,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 483,
+          "minRank": 184370,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "8911",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 475,
+          "minRank": 53640,
+          "maxScore": 0
+        },
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 452,
+          "minRank": 149533,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 474,
+          "minRank": 53767,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 469,
+          "minRank": 156709,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "8911",
+      "majorKey": "e6a89fa4",
+      "majorName": "金融工程",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 499,
+          "minRank": 146448,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 484,
+          "minRank": 183221,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "电影学",
+          "majorKey": "83596f16",
+          "selKe": "首选历史，再选不限",
+          "plan": 1,
+          "tuition": "30000",
+          "menlei": "艺"
+        },
+        {
+          "majorName": "广播电视编导",
+          "majorKey": "b86f75b5",
+          "selKe": "首选历史，再选不限",
+          "plan": 1,
+          "tuition": "26000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 191363,
+          "equivRank": 52397
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "金融工程",
+          "majorKey": "e6a89fa4",
+          "selKe": "首选物理，再选不限",
+          "plan": 2,
+          "tuition": "25000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 183221,
+          "equivRank": 183221
+        },
+        {
+          "majorName": "数字经济",
+          "majorKey": "ca37000f",
+          "selKe": "首选物理，再选不限",
+          "plan": 1,
+          "tuition": "26000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 184370,
+          "equivRank": 184370
+        }
+      ]
+    },
+    {
+      "groupCode": "（03）",
+      "groupName": "（03）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "电影学",
+          "majorKey": "83596f16",
+          "selKe": "首选物理，再选不限",
+          "plan": 1,
+          "tuition": "30000",
+          "menlei": "艺"
+        },
+        {
+          "majorName": "广播电视编导",
+          "majorKey": "b86f75b5",
+          "selKe": "首选物理，再选不限",
+          "plan": 1,
+          "tuition": "26000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 191363,
+          "equivRank": 191363
+        }
+      ]
+    }
+  ]
+}

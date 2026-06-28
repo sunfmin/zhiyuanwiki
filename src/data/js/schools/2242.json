@@ -1,0 +1,192 @@
+{
+  "code": "2242",
+  "name": "浙江大学医学院",
+  "leaves": [
+    {
+      "schoolCode": "2242",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 651,
+          "minRank": 662,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 671,
+          "minRank": 1048,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 672,
+          "minRank": 887,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 659,
+          "minRank": 2209,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2242",
+      "majorKey": "a191bc68",
+      "majorName": "医学试验班类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 649,
+          "minRank": 800,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 670,
+          "minRank": 1162,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 669,
+          "minRank": 1172,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 655,
+          "minRank": 3081,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2242",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 650,
+          "minRank": 730,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 671,
+          "minRank": 1048,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 668,
+          "minRank": 1284,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 657,
+          "minRank": 2618,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2242",
+      "majorKey": "41220568",
+      "majorName": "生物医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 646,
+          "minRank": 5633,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "首选物理，再选化学",
+          "plan": 7,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 2209,
+          "equivRank": 2209
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "首选物理，再选化学",
+          "plan": 5,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 2618,
+          "equivRank": 2618
+        },
+        {
+          "majorName": "医学试验班类",
+          "majorKey": "a191bc68",
+          "selKe": "首选物理，再选化学",
+          "plan": 4,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 3081,
+          "equivRank": 3081
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "生物医学",
+          "majorKey": "41220568",
+          "selKe": "首选物理，再选化学",
+          "plan": 6,
+          "tuition": "160000",
+          "menlei": "医",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 5633,
+          "equivRank": 5633
+        }
+      ]
+    }
+  ]
+}

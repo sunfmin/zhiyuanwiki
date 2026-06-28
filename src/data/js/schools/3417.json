@@ -1,0 +1,173 @@
+{
+  "code": "3417",
+  "name": "山西大同大学",
+  "leaves": [
+    {
+      "schoolCode": "3417",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 527,
+          "minRank": 79238,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 562,
+          "minRank": 65451,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 570,
+          "minRank": 58417,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 568,
+          "minRank": 69540,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3417",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 507,
+          "minRank": 32917,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 518,
+          "minRank": 31921,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 523,
+          "minRank": 29991,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 538,
+          "minRank": 29351,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3417",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 506,
+          "minRank": 33553,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 519,
+          "minRank": 31465,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 527,
+          "minRank": 28204,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 545,
+          "minRank": 26047,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "首选历史，再选不限",
+          "plan": 10,
+          "tuition": "4500",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 26047,
+          "equivRank": 26047
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "历史",
+      "selKe": "首选历史，再选思想政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "首选历史，再选思想政治",
+          "plan": 5,
+          "tuition": "4500",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 29351,
+          "equivRank": 29351
+        }
+      ]
+    },
+    {
+      "groupCode": "（03）",
+      "groupName": "（03）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "首选物理，再选化学、生物(2科必选)",
+          "plan": 10,
+          "tuition": "5480",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 69540,
+          "equivRank": 69540
+        }
+      ]
+    }
+  ]
+}

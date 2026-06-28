@@ -70,3 +70,26 @@ func FindCol(header []string, names ...string) int {
 	}
 	return -1
 }
+
+// HasCellContains 行内有单元格包含子串 s 时为真（容忍带单位后缀的表头，如「累计人数(人)」）。
+func HasCellContains(row []string, s string) bool {
+	for _, c := range row {
+		if strings.Contains(c, s) {
+			return true
+		}
+	}
+	return false
+}
+
+// FindColContains 返回首个包含任一候选子串的列下标；找不到返回 -1。
+// 用于带单位后缀的表头（如「分数(分)」「本段人数(人)」），精确匹配不适用时。
+func FindColContains(header []string, names ...string) int {
+	for i, c := range header {
+		for _, n := range names {
+			if strings.Contains(c, n) {
+				return i
+			}
+		}
+	}
+	return -1
+}

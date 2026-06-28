@@ -14,6 +14,7 @@ const usage = `zhiyuan-data — 高考志愿数据预处理工具（多省份）
   zhiyuan-data <command> [-prov hlj|zj] [flags]
 
 命令:
+  import     解析官方 xlsx + 全国表 → SQLite staging（按省幂等，见 ADR-0014）
   fenduan    解析一分一段表 → JSON
   yuanxiao   解析专业录取分数线 → 院校 / 院校×专业 / 2026 报考视图 JSON
   zhuanye    跨校聚合专业 → 专业索引与详情
@@ -31,6 +32,8 @@ func main() {
 	switch os.Args[1] {
 	case "-h", "--help", "help":
 		fmt.Print(usage)
+	case "import":
+		importCmd(os.Args[2:])
 	case "fenduan":
 		fenduanCmd(os.Args[2:])
 	case "yuanxiao":

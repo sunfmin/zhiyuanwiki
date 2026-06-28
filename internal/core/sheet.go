@@ -52,3 +52,7 @@ func NewSheet(rows [][]string, isHeader func(row []string) bool) (*Sheet, error)
 
 // Col 返回表头中首个匹配 names 之一的列下标；未命中 -1（同 FindCol）。
 func (s *Sheet) Col(names ...string) int { return FindCol(s.Header, names...) }
+
+// ColContains 返回表头中首个包含 names 之一的列下标；未命中 -1（同 FindColContains）。
+// 用于带单位后缀的表头（如「累计人数(人)」）。
+func (s *Sheet) ColContains(names ...string) int { return FindColContains(s.Header, names...) }

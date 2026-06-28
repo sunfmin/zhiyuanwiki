@@ -1,0 +1,94 @@
+{
+  "code": "2547",
+  "name": "江西飞行学院",
+  "leaves": [
+    {
+      "schoolCode": "2547",
+      "majorKey": "4ef2a1b4",
+      "majorName": "机械电子工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 539,
+          "minRank": 108073,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2547",
+      "majorKey": "263043c1",
+      "majorName": "飞行器制造工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 541,
+          "minRank": 105341,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2547",
+      "majorKey": "e5bdb392",
+      "majorName": "飞行器运维工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 543,
+          "minRank": 102526,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "飞行器运维工程",
+          "majorKey": "e5bdb392",
+          "selKe": "首选物理，再选化学",
+          "plan": 1,
+          "tuition": "4120",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 102526,
+          "equivRank": 102526
+        },
+        {
+          "majorName": "机械电子工程",
+          "majorKey": "4ef2a1b4",
+          "selKe": "首选物理，再选化学",
+          "plan": 1,
+          "tuition": "4120",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 108073,
+          "equivRank": 108073
+        },
+        {
+          "majorName": "飞行器制造工程",
+          "majorKey": "263043c1",
+          "selKe": "首选物理，再选化学",
+          "plan": 1,
+          "tuition": "4120",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 105341,
+          "equivRank": 105341
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "code": "2512",
+  "name": "江西警察学院",
+  "leaves": [
+    {
+      "schoolCode": "2512",
+      "majorKey": "e6801f33",
+      "majorName": "信息安全",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 512,
+          "minRank": 95227,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 522,
+          "minRank": 105372,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 528,
+          "minRank": 108842,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 531,
+          "minRank": 119385,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2512",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 517,
+          "minRank": 26994,
+          "maxScore": 0
+        },
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 515,
+          "minRank": 92075,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 534,
+          "minRank": 24523,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 527,
+          "minRank": 100233,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 539,
+          "minRank": 22877,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 540,
+          "minRank": 93432,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 557,
+          "minRank": 20493,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 554,
+          "minRank": 87528,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "首选历史，再选不限",
+          "plan": 3,
+          "tuition": "3880",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 87528,
+          "equivRank": 23966
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "首选物理，再选不限",
+          "plan": 4,
+          "tuition": "3880",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 87528,
+          "equivRank": 87528
+        }
+      ]
+    },
+    {
+      "groupCode": "（03）",
+      "groupName": "（03）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "信息安全",
+          "majorKey": "e6801f33",
+          "selKe": "首选物理，再选化学",
+          "plan": 5,
+          "tuition": "4350",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 119385,
+          "equivRank": 119385
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "code": "8878",
+  "name": "云南经济管理学院",
+  "leaves": [
+    {
+      "schoolCode": "8878",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 457,
+          "minRank": 166664,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "8878",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 475,
+          "minRank": 53640,
+          "maxScore": 0
+        },
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 439,
+          "minRank": 158510,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 474,
+          "minRank": 53767,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 458,
+          "minRank": 165876,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 481,
+          "minRank": 168025,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 497,
+          "minRank": 49120,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 481,
+          "minRank": 186727,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "8878",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 474,
+          "minRank": 54319,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "8878",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 457,
+          "minRank": 166664,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 463,
+          "minRank": 186998,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 466,
+          "minRank": 202992,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "8878",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 440,
+          "minRank": 157869,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 459,
+          "minRank": 165041,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "首选历史，再选不限",
+          "plan": 2,
+          "tuition": "22000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 186727,
+          "equivRank": 51128
+        }
+      ]
+    },
+    {
+      "groupCode": "（03）",
+      "groupName": "（03）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "首选物理，再选不限",
+          "plan": 4,
+          "tuition": "22000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 186727,
+          "equivRank": 186727
+        }
+      ]
+    },
+    {
+      "groupCode": "（04）",
+      "groupName": "（04）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "首选物理，再选化学",
+          "plan": 4,
+          "tuition": "22000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 202992,
+          "equivRank": 202992
+        }
+      ]
+    }
+  ]
+}

@@ -16,7 +16,8 @@ func yuanxiaoCmd(args []string) {
 	src := fs.String("src", defaultSrc(), "官方数据根目录")
 	out := fs.String("out", filepath.Join("src", "data"), "JSON 输出目录（其下按省份 slug 分目录）")
 	pub := fs.String("pub", filepath.Join("public", "data"), "客户端公开数据目录（其下按省份 slug 分目录）")
-	provSlug := fs.String("prov", "hlj", "省份 slug：hlj / zj")
+	dbPath := fs.String("db", filepath.Join("out", "zhiyuan.db"), "SQLite staging 库（DB 投影省份用，如 js）")
+	provSlug := fs.String("prov", "hlj", "省份 slug：hlj / zj / js")
 	_ = fs.Parse(args)
 	p := mustProv(*provSlug)
 
@@ -26,6 +27,8 @@ func yuanxiaoCmd(args []string) {
 		b = buildHLJBundle(*src)
 	case "zj":
 		b = buildZJBundle(*src)
+	case "js":
+		b = buildJSBundle(*dbPath, p)
 	}
 	emitSchoolData(p, b, srcDir(*out, p), pubDir(*pub, p))
 }

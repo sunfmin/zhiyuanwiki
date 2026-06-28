@@ -1,0 +1,180 @@
+{
+  "code": "8483",
+  "name": "黑龙江工商学院",
+  "leaves": [
+    {
+      "schoolCode": "8483",
+      "majorKey": "4ef2a1b4",
+      "majorName": "机械电子工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 437,
+          "minRank": 159761,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 455,
+          "minRank": 168261,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 462,
+          "minRank": 187958,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 463,
+          "minRank": 205975,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "8483",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 437,
+          "minRank": 159761,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 458,
+          "minRank": 165876,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "8483",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 437,
+          "minRank": 159761,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 461,
+          "minRank": 163419,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 463,
+          "minRank": 205975,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "8483",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 438,
+          "minRank": 159118,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 461,
+          "minRank": 163419,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "8483",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 472,
+          "minRank": 55584,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 475,
+          "minRank": 53261,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "首选物理，再选化学",
+          "plan": 15,
+          "tuition": "25800",
+          "menlei": "工",
+          "prevYear": 2023,
+          "prevRank": 163419,
+          "equivRank": 193981
+        },
+        {
+          "majorName": "机械电子工程",
+          "majorKey": "4ef2a1b4",
+          "selKe": "首选物理，再选化学",
+          "plan": 10,
+          "tuition": "25800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 205975,
+          "equivRank": 205975
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "首选物理，再选化学",
+          "plan": 5,
+          "tuition": "25800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 205975,
+          "equivRank": 205975
+        }
+      ]
+    }
+  ]
+}

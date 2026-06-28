@@ -1,0 +1,165 @@
+{
+  "code": "5521",
+  "name": "桂林航天工业学院",
+  "leaves": [
+    {
+      "schoolCode": "5521",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 543,
+          "minRank": 62277,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 559,
+          "minRank": 68330,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 557,
+          "minRank": 72743,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 562,
+          "minRank": 77093,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5521",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 546,
+          "minRank": 59117,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 562,
+          "minRank": 65451,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 557,
+          "minRank": 72743,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 563,
+          "minRank": 75837,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5521",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 504,
+          "minRank": 34791,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 517,
+          "minRank": 32407,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 521,
+          "minRank": 30977,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 537,
+          "minRank": 29839,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "首选历史，再选不限",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 29839,
+          "equivRank": 29839
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "首选物理，再选化学",
+          "plan": 3,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 75837,
+          "equivRank": 75837
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "首选物理，再选化学",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 77093,
+          "equivRank": 77093
+        }
+      ]
+    }
+  ]
+}

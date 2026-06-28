@@ -1,0 +1,199 @@
+{
+  "code": "3131",
+  "name": "外交学院",
+  "leaves": [
+    {
+      "schoolCode": "3131",
+      "majorKey": "df0f6208",
+      "majorName": "外交学",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 634,
+          "minRank": 958,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 615,
+          "minRank": 22495,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3131",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 631,
+          "minRank": 1171,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 641,
+          "minRank": 7529,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3131",
+      "majorKey": "8f1501ac",
+      "majorName": "翻译",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 617,
+          "minRank": 2644,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3131",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 623,
+          "minRank": 1928,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "首选历史，再选不限",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 1928,
+          "equivRank": 1928
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "首选历史，再选不限",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 1928,
+          "equivRank": 1928
+        },
+        {
+          "majorName": "翻译",
+          "majorKey": "8f1501ac",
+          "selKe": "首选历史，再选不限",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 2644,
+          "equivRank": 2644
+        },
+        {
+          "majorName": "日语",
+          "majorKey": "8f1def37",
+          "selKe": "首选历史，再选不限",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "文"
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "首选历史，再选不限",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 7529,
+          "equivRank": 2062
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "历史",
+      "selKe": "首选历史，再选思想政治",
+      "majors": [
+        {
+          "majorName": "外交学",
+          "majorKey": "df0f6208",
+          "selKe": "首选历史，再选思想政治",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 22495,
+          "equivRank": 6159
+        }
+      ]
+    },
+    {
+      "groupCode": "（03）",
+      "groupName": "（03）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "首选物理，再选不限",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 7529,
+          "equivRank": 7529
+        }
+      ]
+    },
+    {
+      "groupCode": "（04）",
+      "groupName": "（04）",
+      "track": "物理",
+      "selKe": "首选物理，再选思想政治",
+      "majors": [
+        {
+          "majorName": "外交学",
+          "majorKey": "df0f6208",
+          "selKe": "首选物理，再选思想政治",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 22495,
+          "equivRank": 22495
+        }
+      ]
+    }
+  ]
+}

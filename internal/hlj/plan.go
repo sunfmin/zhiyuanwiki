@@ -1,28 +1,21 @@
 package hlj
 
 import (
-	"sort"
 	"strings"
 
 	"github.com/sunfmin/zhiyuanwiki/internal/core"
 )
 
-// PlanRow 是招生计划里的一行（某年某院校专业组下的一个专业）。
-type PlanRow struct {
-	Year       int
-	Track      string
-	SchoolCode string
-	SchoolName string
-	GroupCode  string // 专业组代码（3 位，逐年变）
-	GroupName  string
-	MajorName  string
-	FullName   string // 专业全称（用于中外合作判定）
-	Remark     string // 专业备注（用于中外合作判定）
-	SelKe      string
-	Plan       int
-	Schooling  string // 学制
-	Tuition    string // 学费
-}
+// PlanRow / Group2026 / GroupMajor / BuildGroups2026 是 3+1+2 院校专业组模型，已下沉到 core
+// （江苏/黑龙江同形，见 ADR-0014）。这里保留别名，黑龙江解析器与既有调用方零改动。
+type (
+	PlanRow    = core.PlanRow
+	Group2026  = core.Group2026
+	GroupMajor = core.GroupMajor
+)
+
+// BuildGroups2026 见 core.BuildGroups2026。
+var BuildGroups2026 = core.BuildGroups2026
 
 // planHeader 判定招生计划表的表头行（含院校代码/专业名称/计划人数）。
 func planHeader(r []string) bool {
@@ -78,102 +71,6 @@ func parsePlanSheet(s *core.Sheet) []PlanRow {
 			Schooling:  strings.TrimSpace(core.Cell(r, cSchooling)),
 			Tuition:    strings.TrimSpace(core.Cell(r, cTuition)),
 		})
-	}
-	return out
-}
-
-// ── 2026 院校专业组视图（组 = 单年视图；历史由组内专业按院校+专业名挂接）──
-
-// GroupMajor 是 2026 组内的一个专业，挂接了往年最低位次。
-type GroupMajor struct {
-	MajorName string `json:"majorName"`
-	MajorKey  string `json:"majorKey"`
-	SelKe     string `json:"selKe"`
-	Plan      int    `json:"plan"`
-	Tuition   string `json:"tuition"`
-	Menlei    string `json:"menlei,omitempty"`    // 学科门类 1 字码（见 menlei.go），未命中省略
-	Coop      bool   `json:"coop,omitempty"`      // 中外合作办学
-	PrevYear  int    `json:"prevYear,omitempty"`  // 挂接到的最近年份
-	PrevRank  int    `json:"prevRank,omitempty"`  // 该年最低位次
-	EquivRank int    `json:"equivRank,omitempty"` // 等效到 planYear
-}
-
-// Group2026 是一个院校专业组的单年报考视图。
-type Group2026 struct {
-	GroupCode string       `json:"groupCode"`
-	GroupName string       `json:"groupName"`
-	Track     string       `json:"track"`
-	SelKe     string       `json:"selKe"` // 组内统一选科要求（不统一则为空）
-	Majors    []GroupMajor `json:"majors"`
-}
-
-// leafLatest 返回叶子最近年份的数据点。
-func leafLatest(l *core.MajorLeaf) *core.YearScore {
-	if len(l.Years) == 0 {
-		return nil
-	}
-	best := &l.Years[0]
-	for i := range l.Years {
-		if l.Years[i].Year >= best.Year {
-			best = &l.Years[i]
-		}
-	}
-	return best
-}
-
-// BuildGroups2026 把招生计划行按院校→组聚合成单年视图，并用 leaves（按院校代码+专业名）
-// 挂接每个组内专业的往年最低位次与等效位次。menlei（可为 nil）把专业名归到学科门类码。
-// 返回 院校代码 → 组列表。
-func BuildGroups2026(plan []PlanRow, leaves []core.MajorLeaf, totals map[core.YearTrack]int, menlei func(string) string) map[string][]Group2026 {
-	leafIdx := map[string]*core.MajorLeaf{}
-	for i := range leaves {
-		leafIdx[leaves[i].SchoolCode+"/"+leaves[i].MajorKey] = &leaves[i]
-	}
-
-	type gkey struct{ school, group string }
-	order := []gkey{}
-	groups := map[gkey]*Group2026{}
-
-	for _, r := range plan {
-		k := gkey{r.SchoolCode, r.GroupCode}
-		g := groups[k]
-		if g == nil {
-			g = &Group2026{GroupCode: r.GroupCode, GroupName: r.GroupName, Track: r.Track, SelKe: r.SelKe}
-			groups[k] = g
-			order = append(order, k)
-		}
-		if g.SelKe != r.SelKe {
-			g.SelKe = "" // 组内选科不统一
-		}
-		gm := GroupMajor{
-			MajorName: core.NormalizeMajorName(r.MajorName),
-			MajorKey:  core.MajorKey(r.MajorName),
-			SelKe:     r.SelKe,
-			Plan:      r.Plan,
-			Tuition:   r.Tuition,
-			Coop:      core.IsCoop(r.MajorName, r.FullName, r.Remark),
-		}
-		if menlei != nil {
-			gm.Menlei = menlei(r.MajorName)
-		}
-		if lf := leafIdx[r.SchoolCode+"/"+gm.MajorKey]; lf != nil {
-			if p := leafLatest(lf); p != nil {
-				gm.PrevYear = p.Year
-				gm.PrevRank = p.MinRank
-				gm.EquivRank = core.EquivRank(p.MinRank,
-					core.YearTrack{Year: p.Year, Track: p.Track}, core.YearTrack{Year: r.Year, Track: r.Track}, totals)
-			}
-		}
-		g.Majors = append(g.Majors, gm)
-	}
-
-	out := map[string][]Group2026{}
-	for _, k := range order {
-		out[k.school] = append(out[k.school], *groups[k])
-	}
-	// 组内按代码、组按代码排序，稳定输出
-	for code := range out {
-		sort.Slice(out[code], func(i, j int) bool { return out[code][i].GroupCode < out[code][j].GroupCode })
 	}
 	return out
 }

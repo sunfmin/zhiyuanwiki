@@ -1,0 +1,200 @@
+{
+  "code": "6118",
+  "name": "内江师范学院",
+  "leaves": [
+    {
+      "schoolCode": "6118",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 515,
+          "minRank": 33397,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 526,
+          "minRank": 28647,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 539,
+          "minRank": 28888,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6118",
+      "majorKey": "9c5f4a34",
+      "majorName": "新闻学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 485,
+          "minRank": 142059,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 513,
+          "minRank": 128299,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 519,
+          "minRank": 136395,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6118",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 523,
+          "minRank": 29522,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 532,
+          "minRank": 25910,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 546,
+          "minRank": 25582,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6118",
+      "majorKey": "653f630d",
+      "majorName": "物理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 519,
+          "minRank": 108391,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 516,
+          "minRank": 124308,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 526,
+          "minRank": 126402,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "首选历史，再选不限",
+          "plan": 3,
+          "tuition": "5520",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 25582,
+          "equivRank": 25582
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "历史",
+      "selKe": "首选历史，再选思想政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "首选历史，再选思想政治",
+          "plan": 2,
+          "tuition": "5520",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 28888,
+          "equivRank": 28888
+        }
+      ]
+    },
+    {
+      "groupCode": "（03）",
+      "groupName": "（03）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "新闻学",
+          "majorKey": "9c5f4a34",
+          "selKe": "首选物理，再选不限",
+          "plan": 3,
+          "tuition": "5520",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 136395,
+          "equivRank": 136395
+        }
+      ]
+    },
+    {
+      "groupCode": "（04）",
+      "groupName": "（04）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "首选物理，再选化学",
+          "plan": 2,
+          "tuition": "5980",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 126402,
+          "equivRank": 126402
+        }
+      ]
+    }
+  ]
+}

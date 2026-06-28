@@ -1,0 +1,97 @@
+{
+  "code": "4134",
+  "name": "大连医科大学",
+  "leaves": [
+    {
+      "schoolCode": "4134",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 600,
+          "minRank": 13787,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 634,
+          "minRank": 11592,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 628,
+          "minRank": 13036,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 626,
+          "minRank": 15099,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4134",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 619,
+          "minRank": 17929,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "首选物理，再选化学",
+          "plan": 4,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 15099,
+          "equivRank": 15099
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "首选物理，再选化学",
+          "plan": 4,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 15099,
+          "equivRank": 15099
+        }
+      ]
+    }
+  ]
+}

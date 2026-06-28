@@ -1,0 +1,205 @@
+{
+  "code": "2205",
+  "name": "中国美术学院",
+  "leaves": [
+    {
+      "schoolCode": "2205",
+      "majorKey": "fee47c1b",
+      "majorName": "工业设计",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 587,
+          "minRank": 22060,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 615,
+          "minRank": 22199,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 616,
+          "minRank": 19693,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 618,
+          "minRank": 20349,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2205",
+      "majorKey": "93bb8261",
+      "majorName": "艺术学理论类",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 554,
+          "minRank": 9867,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 583,
+          "minRank": 7783,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 589,
+          "minRank": 6168,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 591,
+          "minRank": 8106,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2205",
+      "majorKey": "72bed0ee",
+      "majorName": "艺术设计学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 586,
+          "minRank": 7093,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 591,
+          "minRank": 5754,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 591,
+          "minRank": 8106,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2205",
+      "majorKey": "9b8820c1",
+      "majorName": "风景园林",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 545,
+          "minRank": 13167,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 583,
+          "minRank": 7783,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 586,
+          "minRank": 6866,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 590,
+          "minRank": 8399,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "风景园林",
+          "majorKey": "9b8820c1",
+          "selKe": "首选历史，再选不限",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 8399,
+          "equivRank": 8399
+        },
+        {
+          "majorName": "艺术设计学",
+          "majorKey": "72bed0ee",
+          "selKe": "首选历史，再选不限",
+          "plan": 1,
+          "tuition": "18000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 8106,
+          "equivRank": 8106
+        },
+        {
+          "majorName": "艺术学理论类",
+          "majorKey": "93bb8261",
+          "selKe": "首选历史，再选不限",
+          "plan": 1,
+          "tuition": "7500",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 8106,
+          "equivRank": 8106
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "工业设计",
+          "majorKey": "fee47c1b",
+          "selKe": "首选物理，再选化学",
+          "plan": 3,
+          "tuition": "18000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 20349,
+          "equivRank": 20349
+        }
+      ]
+    }
+  ]
+}

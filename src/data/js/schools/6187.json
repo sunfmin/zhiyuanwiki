@@ -1,0 +1,118 @@
+{
+  "code": "6187",
+  "name": "攀枝花学院",
+  "leaves": [
+    {
+      "schoolCode": "6187",
+      "majorKey": "301e14e8",
+      "majorName": "机器人工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 482,
+          "minRank": 124813,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 500,
+          "minRank": 127538,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 509,
+          "minRank": 133496,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 516,
+          "minRank": 140608,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6187",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 504,
+          "minRank": 34791,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 516,
+          "minRank": 32914,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 520,
+          "minRank": 31428,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 542,
+          "minRank": 27430,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "首选历史，再选不限",
+          "plan": 3,
+          "tuition": "5520",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 27430,
+          "equivRank": 27430
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "机器人工程",
+          "majorKey": "301e14e8",
+          "selKe": "首选物理，再选化学",
+          "plan": 2,
+          "tuition": "5980",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 140608,
+          "equivRank": 140608
+        }
+      ]
+    }
+  ]
+}

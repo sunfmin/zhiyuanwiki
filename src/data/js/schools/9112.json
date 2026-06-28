@@ -1,0 +1,176 @@
+{
+  "code": "9112",
+  "name": "香港珠海学院",
+  "leaves": [
+    {
+      "schoolCode": "9112",
+      "majorKey": "d487b5eb",
+      "majorName": "商学院",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 519,
+          "minRank": 31465,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 492,
+          "minRank": 135454,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 522,
+          "minRank": 30462,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 510,
+          "minRank": 132149,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 514,
+          "minRank": 40897,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 465,
+          "minRank": 204004,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "9112",
+      "majorKey": "0620703c",
+      "majorName": "文学与社会科学院",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 511,
+          "minRank": 35365,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 517,
+          "minRank": 32754,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 526,
+          "minRank": 35055,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "9112",
+      "majorKey": "22329433",
+      "majorName": "理工学院",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 483,
+          "minRank": 143882,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 501,
+          "minRank": 143833,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 463,
+          "minRank": 205975,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "文学与社会科学院",
+          "majorKey": "0620703c",
+          "selKe": "首选历史，再选不限",
+          "plan": 3,
+          "tuition": "104750",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 35055,
+          "equivRank": 35055
+        },
+        {
+          "majorName": "商学院",
+          "majorKey": "d487b5eb",
+          "selKe": "首选历史，再选不限",
+          "plan": 1,
+          "tuition": "104750",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 204004,
+          "equivRank": 55858
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "理工学院",
+          "majorKey": "22329433",
+          "selKe": "首选物理，再选不限",
+          "plan": 3,
+          "tuition": "104750",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 205975,
+          "equivRank": 205975
+        },
+        {
+          "majorName": "商学院",
+          "majorKey": "d487b5eb",
+          "selKe": "首选物理，再选不限",
+          "plan": 3,
+          "tuition": "104750",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 204004,
+          "equivRank": 204004
+        }
+      ]
+    }
+  ]
+}

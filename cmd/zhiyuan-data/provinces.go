@@ -17,6 +17,7 @@ type province struct {
 var provinces = map[string]province{
 	"hlj": {slug: "hlj", name: "黑龙江", tracks: []string{"物理", "历史"}},
 	"zj":  {slug: "zj", name: "浙江", tracks: []string{"综合"}},
+	"js":  {slug: "js", name: "江苏", tracks: []string{"物理", "历史"}},
 }
 
 // trackSlug 把科类名映射成 ascii 文件名片段（定位索引/一分一段文件名）。

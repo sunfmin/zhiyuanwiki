@@ -62,6 +62,9 @@ func (mc *MenleiClassifier) learn(major, menlei string) {
 	}
 }
 
+// Learn 公开一条 专业名→门类 学习入口，供从 DB 行（而非 xlsx）重建分类器。见 ADR-0014。
+func (mc *MenleiClassifier) Learn(major, menlei string) { mc.learn(major, menlei) }
+
 // Len 返回学到的精确条目数（用于日志）。
 func (mc *MenleiClassifier) Len() int { return len(mc.exact) }
 

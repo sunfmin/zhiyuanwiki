@@ -1,0 +1,213 @@
+{
+  "code": "7303",
+  "name": "青海师范大学",
+  "leaves": [
+    {
+      "schoolCode": "7303",
+      "majorKey": "25624660",
+      "majorName": "应用化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 475,
+          "minRank": 130970,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 497,
+          "minRank": 130481,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 519,
+          "minRank": 120389,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 520,
+          "minRank": 134945,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "7303",
+      "majorKey": "fd907dda",
+      "majorName": "社会工作",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 508,
+          "minRank": 32299,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 477,
+          "minRank": 52277,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 516,
+          "minRank": 33212,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 530,
+          "minRank": 33083,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "7303",
+      "majorKey": "bda0ff17",
+      "majorName": "经济学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 511,
+          "minRank": 116463,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 522,
+          "minRank": 116477,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 525,
+          "minRank": 127836,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "7303",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 517,
+          "minRank": 26994,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 503,
+          "minRank": 39269,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 515,
+          "minRank": 33682,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 536,
+          "minRank": 30301,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "首选历史，再选不限",
+          "plan": 3,
+          "tuition": "4500",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 30301,
+          "equivRank": 30301
+        },
+        {
+          "majorName": "社会工作",
+          "majorKey": "fd907dda",
+          "selKe": "首选历史，再选不限",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 33083,
+          "equivRank": 33083
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "首选物理，再选不限",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 127836,
+          "equivRank": 127836
+        }
+      ]
+    },
+    {
+      "groupCode": "（03）",
+      "groupName": "（03）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "应用化学",
+          "majorKey": "25624660",
+          "selKe": "首选物理，再选化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 134945,
+          "equivRank": 134945
+        }
+      ]
+    }
+  ]
+}

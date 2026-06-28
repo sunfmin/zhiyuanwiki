@@ -68,6 +68,11 @@ func (y *YiFenYiDuan) Total() int {
 	return y.Entries[0].Cumulative // Entries 升序，最低分累计最大
 }
 
+// SortFenduanAscending 把分数段按分数升序排稳（Entries 升序是 ScoreToRank/Total 的前置不变量）。
+func SortFenduanAscending(y *YiFenYiDuan) {
+	sort.Slice(y.Entries, func(i, j int) bool { return y.Entries[i].Score < y.Entries[j].Score })
+}
+
 // ParseYiFenYiDuanXLSX 解析官方一分一段 xlsx（表头驱动，容忍标题行/空行/列序不同）。
 // 列识别：累计列含"累计"，人数列含"人数"，分数列含"分段"或"分数"。
 func ParseYiFenYiDuanXLSX(path, province, track string, year int) (*YiFenYiDuan, error) {

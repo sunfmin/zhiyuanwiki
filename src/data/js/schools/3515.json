@@ -1,0 +1,134 @@
+{
+  "code": "3515",
+  "name": "赤峰学院",
+  "leaves": [
+    {
+      "schoolCode": "3515",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 468,
+          "minRank": 157548,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 497,
+          "minRank": 148964,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 496,
+          "minRank": 167921,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3515",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 476,
+          "minRank": 150469,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 501,
+          "minRank": 143833,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 500,
+          "minRank": 162612,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3515",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 499,
+          "minRank": 37823,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3515",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 496,
+          "minRank": 39772,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "首选物理，再选化学",
+          "plan": 3,
+          "tuition": "4600",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 167921,
+          "equivRank": 167921
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "majors": [
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "首选物理，再选化学、生物(2科必选)",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 162612,
+          "equivRank": 162612
+        }
+      ]
+    }
+  ]
+}

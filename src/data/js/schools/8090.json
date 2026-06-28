@@ -1,0 +1,126 @@
+{
+  "code": "8090",
+  "name": "芜湖学院",
+  "leaves": [
+    {
+      "schoolCode": "8090",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 495,
+          "minRank": 40467,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 501,
+          "minRank": 40236,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "8090",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 496,
+          "minRank": 39772,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 502,
+          "minRank": 39762,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 507,
+          "minRank": 37499,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 521,
+          "minRank": 37529,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "8090",
+      "majorKey": "5e0efed0",
+      "majorName": "电子信息类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 476,
+          "minRank": 173584,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 492,
+          "minRank": 173223,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "首选历史，再选不限",
+          "plan": 10,
+          "tuition": "18000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 37529,
+          "equivRank": 37529
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "电子信息类",
+          "majorKey": "5e0efed0",
+          "selKe": "首选物理，再选化学",
+          "plan": 10,
+          "tuition": "18800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 173223,
+          "equivRank": 173223
+        }
+      ]
+    }
+  ]
+}

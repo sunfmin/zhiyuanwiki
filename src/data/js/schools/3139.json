@@ -1,0 +1,214 @@
+{
+  "code": "3139",
+  "name": "北京印刷学院",
+  "leaves": [
+    {
+      "schoolCode": "3139",
+      "majorKey": "0722cb68",
+      "majorName": "包装工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 518,
+          "minRank": 109392,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 539,
+          "minRank": 94704,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 550,
+          "minRank": 92971,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3139",
+      "majorKey": "a4e1a6bc",
+      "majorName": "印刷工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 521,
+          "minRank": 85631,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 549,
+          "minRank": 78084,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 540,
+          "minRank": 93432,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 561,
+          "minRank": 78396,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3139",
+      "majorKey": "7a929633",
+      "majorName": "文化产业管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 547,
+          "minRank": 19543,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 559,
+          "minRank": 19646,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3139",
+      "majorKey": "331c4c8e",
+      "majorName": "新闻传播学类",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 529,
+          "minRank": 20593,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3139",
+      "majorKey": "9c5f4a34",
+      "majorName": "新闻学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 559,
+          "minRank": 14823,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 543,
+          "minRank": 21166,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 559,
+          "minRank": 19646,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3139",
+      "majorKey": "3410d8fb",
+      "majorName": "轻工类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 515,
+          "minRank": 92075,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "新闻学",
+          "majorKey": "9c5f4a34",
+          "selKe": "首选历史，再选不限",
+          "plan": 1,
+          "tuition": "4200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 19646,
+          "equivRank": 19646
+        },
+        {
+          "majorName": "文化产业管理",
+          "majorKey": "7a929633",
+          "selKe": "首选历史，再选不限",
+          "plan": 1,
+          "tuition": "4200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 19646,
+          "equivRank": 19646
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "包装工程",
+          "majorKey": "0722cb68",
+          "selKe": "首选物理，再选化学",
+          "plan": 1,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 92971,
+          "equivRank": 92971
+        },
+        {
+          "majorName": "印刷工程",
+          "majorKey": "a4e1a6bc",
+          "selKe": "首选物理，再选化学",
+          "plan": 1,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 78396,
+          "equivRank": 78396
+        }
+      ]
+    }
+  ]
+}

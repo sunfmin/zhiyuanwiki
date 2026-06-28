@@ -1,0 +1,82 @@
+{
+  "code": "2359",
+  "name": "合肥师范学院",
+  "leaves": [
+    {
+      "schoolCode": "2359",
+      "majorKey": "4428fd77",
+      "majorName": "商务英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 509,
+          "minRank": 36593,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 532,
+          "minRank": 32121,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2359",
+      "majorKey": "42b5576d",
+      "majorName": "西班牙语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 510,
+          "minRank": 36096,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 536,
+          "minRank": 30301,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "西班牙语",
+          "majorKey": "42b5576d",
+          "selKe": "首选历史，再选不限",
+          "plan": 4,
+          "tuition": "4600",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 30301,
+          "equivRank": 30301
+        },
+        {
+          "majorName": "商务英语",
+          "majorKey": "4428fd77",
+          "selKe": "首选历史，再选不限",
+          "plan": 4,
+          "tuition": "4600",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 32121,
+          "equivRank": 32121
+        }
+      ]
+    }
+  ]
+}
