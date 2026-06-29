@@ -26,6 +26,10 @@ jobs:
       # 产生误导性的 "Action failed" 注解，已移除。
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v4
+        env:
+          # 解锁付费版 Pages 的 10 万文件上限（2026-01 起，需此开关；免费版仍封顶 2 万）。
+          # 本站 dist 约 4 万文件（28 省 × 每省院校/专业详情页静态预渲染），超免费上限。
+          PAGES_WRANGLER_MAJOR_VERSION: "4"
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
