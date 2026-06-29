@@ -1,0 +1,68 @@
+{
+  "code": "1327",
+  "name": "唐山学院",
+  "leaves": [
+    {
+      "schoolCode": "1327",
+      "majorKey": "da95770c",
+      "majorName": "自动化",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 477,
+          "minRank": 32637,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1327",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 476,
+          "minRank": 32954,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "自动化",
+          "majorKey": "da95770c",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5300",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 32637,
+          "equivRank": 32637
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5300",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 32954,
+          "equivRank": 32954
+        }
+      ]
+    }
+  ]
+}

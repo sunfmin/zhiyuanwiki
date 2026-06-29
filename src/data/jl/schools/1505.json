@@ -1,0 +1,178 @@
+{
+  "code": "1505",
+  "name": "内蒙古医科大学",
+  "leaves": [
+    {
+      "schoolCode": "1505",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理,化学,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 558,
+          "minRank": 12702,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1505",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "物理,化学,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 490,
+          "minRank": 29048,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1505",
+      "majorKey": "5d659390",
+      "majorName": "蒙医学",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 477,
+          "minRank": 32637,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1505",
+      "majorKey": "87ac06da",
+      "majorName": "蒙药学",
+      "selKe": "物理,化学,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 427,
+          "minRank": 47554,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1505",
+      "majorKey": "c744f66e",
+      "majorName": "针灸推拿学",
+      "selKe": "物理,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 508,
+          "minRank": 24184,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "蒙医学",
+          "majorKey": "5d659390",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 32637,
+          "equivRank": 32637
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "物理",
+      "selKe": "生物",
+      "majors": [
+        {
+          "majorName": "针灸推拿学",
+          "majorKey": "c744f66e",
+          "selKe": "生物",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 24184,
+          "equivRank": 24184
+        }
+      ]
+    },
+    {
+      "groupCode": "第 003 组",
+      "groupName": "第 003 组",
+      "track": "物理",
+      "selKe": "化学和生物",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学和生物",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 12702,
+          "equivRank": 12702
+        }
+      ]
+    },
+    {
+      "groupCode": "第 004 组",
+      "groupName": "第 004 组",
+      "track": "物理",
+      "selKe": "化学和生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学和生物",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 29048,
+          "equivRank": 29048
+        }
+      ]
+    },
+    {
+      "groupCode": "第 005 组",
+      "groupName": "第 005 组",
+      "track": "物理",
+      "selKe": "化学和生物",
+      "majors": [
+        {
+          "majorName": "蒙药学",
+          "majorKey": "87ac06da",
+          "selKe": "化学和生物",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 47554,
+          "equivRank": 47554
+        }
+      ]
+    }
+  ]
+}

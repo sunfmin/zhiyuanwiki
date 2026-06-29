@@ -1,0 +1,68 @@
+{
+  "code": "6418",
+  "name": "宁夏大学新华学院",
+  "leaves": [
+    {
+      "schoolCode": "6418",
+      "majorKey": "1f59c989",
+      "majorName": "化学工程与工艺",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 378,
+          "minRank": 61283,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6418",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 371,
+          "minRank": 63014,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "22800",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 63014,
+          "equivRank": 63014
+        },
+        {
+          "majorName": "化学工程与工艺",
+          "majorKey": "1f59c989",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "22800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 61283,
+          "equivRank": 61283
+        }
+      ]
+    }
+  ]
+}

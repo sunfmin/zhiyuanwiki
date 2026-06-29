@@ -93,7 +93,7 @@ func parseScores(s *core.Sheet) []core.MajorScoreRow {
 func planHeader(r []string) bool {
 	return core.HasCell(r, "院校代码") &&
 		(core.HasCell(r, "专业名称") || core.HasCell(r, "专业")) && // 部分省计划表列名为「专业」而非「专业名称」
-		(core.HasCell(r, "招生人数") || core.HasCell(r, "计划人数"))
+		(core.HasCell(r, "招生人数") || core.HasCell(r, "计划人数") || core.HasCell(r, "计划数")) // 江西计划列名为「计划数」
 }
 
 // ParsePlan 解析「招生计划」xlsx → 计划行（仅物理/历史本科）。表头驱动。GroupCode 取专业组代码
@@ -108,12 +108,14 @@ func ParsePlan(path string) ([]core.PlanRow, error) {
 
 func parsePlan(s *core.Sheet) []core.PlanRow {
 	col := s.Col
-	cYear, cTrack, cBatch := col("年份"), col("科类"), col("批次")
+	cYear, cTrack, cBatch := col("年份"), col("科类", "文理"), col("批次") // 甘肃计划表 track 列名为「文理」
 	cCode, cName := col("院校代码"), col("院校名称")
-	cGroupCode, cGroupName := col("专业组代码", "所属专业组", "专业组"), col("专业组名称") // 内蒙计划表组列名为裸「专业组」
-	cMajor, cSelKe := col("专业名称", "专业"), col("选科要求")
-	cRemark := col("专业备注")
-	cPlan := col("计划人数", "招生人数")
+	// 组代码列名各省不一：所属专业组/专业组代码（多数）、专业组（内蒙）、组代码（甘肃）；吉林只有
+	// 「专业组名称」（如「第 001 组」），下方 gcode 为空时用组名兜底建组。
+	cGroupCode, cGroupName := col("专业组代码", "所属专业组", "专业组", "组代码"), col("专业组名称")
+	cMajor, cSelKe := col("专业名称", "专业"), col("选科要求", "选课要求") // 江西选科列名为「选课要求」
+	cRemark := col("专业备注", "备注")
+	cPlan := col("计划人数", "招生人数", "计划数") // 江西计划列名为「计划数」
 	// 学制/学费的表头带单位后缀且各省不一（学制 / 学制(年)；学费 / 学费(元) / 学费(元/年)），用 ColContains 容错。
 	cSchooling, cTuition := s.ColContains("学制"), s.ColContains("学费")
 
@@ -133,6 +135,9 @@ func parsePlan(s *core.Sheet) []core.PlanRow {
 		plan, _ := core.ParseLeadingInt(core.Cell(r, cPlan))
 		gcode := strings.TrimSpace(core.Cell(r, cGroupCode))
 		gname := strings.TrimSpace(core.Cell(r, cGroupName))
+		if gcode == "" {
+			gcode = gname // 计划表无组代码列、只有组名（如吉林「第 001 组」）时用组名当组码建组
+		}
 		if gname == "" {
 			gname = gcode // 源表无独立组名时用组代码兜底
 		}

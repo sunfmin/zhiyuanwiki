@@ -1,0 +1,180 @@
+{
+  "code": "1412",
+  "name": "太原师范学院",
+  "leaves": [
+    {
+      "schoolCode": "1412",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 489,
+          "minRank": 29318,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1412",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 519,
+          "minRank": 6333,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1412",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 496,
+          "minRank": 27417,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1412",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 531,
+          "minRank": 5337,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1412",
+      "majorKey": "e2472a71",
+      "majorName": "生物科学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 475,
+          "minRank": 33219,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1412",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 517,
+          "minRank": 6506,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 003 组",
+      "groupName": "第 003 组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 5337,
+          "equivRank": 5337
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "5000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 6506,
+          "equivRank": 6506
+        },
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "5000",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 6333,
+          "equivRank": 6333
+        }
+      ]
+    },
+    {
+      "groupCode": "第 005 组",
+      "groupName": "第 005 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 27417,
+          "equivRank": 27417
+        },
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 29318,
+          "equivRank": 29318
+        },
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 33219,
+          "equivRank": 33219
+        }
+      ]
+    }
+  ]
+}

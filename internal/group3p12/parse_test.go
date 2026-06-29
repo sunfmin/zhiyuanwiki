@@ -119,6 +119,41 @@ func TestParseScoresZonghe(t *testing.T) {
 	}
 }
 
+// TestParsePlanColumnVariants 覆盖计划表列名异形：江西「计划数/专业组/选课要求」、甘肃「文理/组代码」、
+// 吉林只有「专业组名称」（用组名兜底建组）。
+func TestParsePlanColumnVariants(t *testing.T) {
+	// 江西形：计划数 + 专业组 + 选课要求
+	jx := [][]string{
+		{"批次", "科类", "院校代码", "院校名称", "专业组", "专业名称", "学费", "计划数", "选课要求", "学制"},
+		{"本科", "物理类", "0004", "北京师范大学", "第501组", "金融学", "5000", "2", "物理", "四年"},
+		{"提前本科", "艺术(不分科目类)", "1001", "某艺院", "第A01组", "美术学", "8000", "0", "不限", "四年"}, // 艺术科类 → 丢
+	}
+	got := parsePlan(sheet(t, jx, planHeader))
+	if len(got) != 1 || got[0].Track != "物理" || got[0].GroupCode != "第501组" || got[0].Plan != 2 || got[0].SelKe != "物理" {
+		t.Fatalf("江西形解析错误: %+v", got)
+	}
+
+	// 甘肃形：文理(track) + 组代码 + 计划人数
+	gs := [][]string{
+		{"批次", "文理", "选科要求", "院校代码", "院校名称", "组代码", "专业名称", "计划人数", "学费", "学制"},
+		{"本科批(C段)", "历史类", "不提科目要求", "3368", "阿坝师范学院", "001", "英语", "1", "4800", "四年"},
+	}
+	got = parsePlan(sheet(t, gs, planHeader))
+	if len(got) != 1 || got[0].Track != "历史" || got[0].GroupCode != "001" || got[0].Plan != 1 {
+		t.Fatalf("甘肃形解析错误: %+v", got)
+	}
+
+	// 吉林形：无组代码列，只有「专业组名称=第 001 组」→ 用组名当组码建组
+	jl := [][]string{
+		{"年份", "批次", "科类", "院校代码", "院校名称", "专业组名称", "专业名称", "计划人数", "学制"},
+		{"2025", "本科批", "历史类", "1101", "北京大学", "第 001 组", "马克思主义理论类", "2", "4"},
+	}
+	got = parsePlan(sheet(t, jl, planHeader))
+	if len(got) != 1 || got[0].GroupCode != "第 001 组" || got[0].GroupName != "第 001 组" {
+		t.Fatalf("吉林形（组名兜底建组）解析错误: %+v", got)
+	}
+}
+
 func TestParseYiFenYiDuan(t *testing.T) {
 	header := []string{"年份", "科类", "批次", "控制线(分)", "分数(分)", "本段人数(人)", "累计人数(人)"}
 	rows := [][]string{

@@ -1,0 +1,162 @@
+{
+  "code": "1382",
+  "name": "内蒙古财经大学",
+  "leaves": [
+    {
+      "schoolCode": "1382",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 376,
+          "minRank": 33342,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1382",
+      "majorKey": "ca37000f",
+      "majorName": "数字经济",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 465,
+          "minRank": 44624,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1382",
+      "majorKey": "f3a3be38",
+      "majorName": "知识产权",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 488,
+          "minRank": 10051,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1382",
+      "majorKey": "6db99de4",
+      "majorName": "财政学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 391,
+          "minRank": 29973,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1382",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 375,
+          "minRank": 33575,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "知识产权",
+          "majorKey": "f3a3be38",
+          "selKe": "不提科目要求",
+          "plan": 5,
+          "tuition": "4400",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 10051,
+          "equivRank": 10051
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "财政学",
+          "majorKey": "6db99de4",
+          "selKe": "不提科目要求",
+          "plan": 1,
+          "tuition": "4400",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 29973,
+          "equivRank": 29973
+        },
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不提科目要求",
+          "plan": 1,
+          "tuition": "4400",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 33575,
+          "equivRank": 33575
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不提科目要求",
+          "plan": 2,
+          "tuition": "4400",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 33342,
+          "equivRank": 33342
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "数字经济",
+          "majorKey": "ca37000f",
+          "selKe": "物理",
+          "plan": 3,
+          "tuition": "4400",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 44624,
+          "equivRank": 44624
+        }
+      ]
+    }
+  ]
+}

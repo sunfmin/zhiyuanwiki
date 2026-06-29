@@ -1,0 +1,110 @@
+{
+  "code": "5369",
+  "name": "昆明城市学院",
+  "leaves": [
+    {
+      "schoolCode": "5369",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 405,
+          "minRank": 54030,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5369",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 459,
+          "minRank": 12791,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5369",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 397,
+          "minRank": 56221,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "22000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 12791,
+          "equivRank": 12791
+        }
+      ]
+    },
+    {
+      "groupCode": "第 006 组",
+      "groupName": "第 006 组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "22000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 56221,
+          "equivRank": 56221
+        }
+      ]
+    },
+    {
+      "groupCode": "第 007 组",
+      "groupName": "第 007 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "22000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 54030,
+          "equivRank": 54030
+        }
+      ]
+    }
+  ]
+}

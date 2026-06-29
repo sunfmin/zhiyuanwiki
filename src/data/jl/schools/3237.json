@@ -1,0 +1,128 @@
+{
+  "code": "3237",
+  "name": "淮阴工学院",
+  "leaves": [
+    {
+      "schoolCode": "3237",
+      "majorKey": "7d0b62a8",
+      "majorName": "俄语",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 499,
+          "minRank": 8186,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3237",
+      "majorKey": "409f7ac3",
+      "majorName": "应用物理学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 475,
+          "minRank": 33219,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3237",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 519,
+          "minRank": 6333,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3237",
+      "majorKey": "92b6110d",
+      "majorName": "车辆工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 479,
+          "minRank": 32117,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "俄语",
+          "majorKey": "7d0b62a8",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "5200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 8186,
+          "equivRank": 8186
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 6333,
+          "equivRank": 6333
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "应用物理学",
+          "majorKey": "409f7ac3",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 33219,
+          "equivRank": 33219
+        },
+        {
+          "majorName": "车辆工程",
+          "majorKey": "92b6110d",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 32117,
+          "equivRank": 32117
+        }
+      ]
+    }
+  ]
+}

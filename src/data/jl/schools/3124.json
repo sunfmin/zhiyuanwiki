@@ -1,0 +1,110 @@
+{
+  "code": "3124",
+  "name": "上海海关学院",
+  "leaves": [
+    {
+      "schoolCode": "3124",
+      "majorKey": "4c4c62eb",
+      "majorName": "国际商务",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 558,
+          "minRank": 3293,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3124",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 580,
+          "minRank": 8621,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3124",
+      "majorKey": "2e55aa48",
+      "majorName": "税收学",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 557,
+          "minRank": 12878,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "国际商务",
+          "majorKey": "4c4c62eb",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "6500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 3293,
+          "equivRank": 3293
+        }
+      ]
+    },
+    {
+      "groupCode": "第 003 组",
+      "groupName": "第 003 组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "税收学",
+          "majorKey": "2e55aa48",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6500",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 12878,
+          "equivRank": 12878
+        }
+      ]
+    },
+    {
+      "groupCode": "第 004 组",
+      "groupName": "第 004 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "6500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 8621,
+          "equivRank": 8621
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "code": "3425",
+  "name": "铜陵学院",
+  "leaves": [
+    {
+      "schoolCode": "3425",
+      "majorKey": "bda0ff17",
+      "majorName": "经济学",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 439,
+          "minRank": 43976,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3425",
+      "majorKey": "bb33137b",
+      "majorName": "经济统计学",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 440,
+          "minRank": 43673,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3425",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 499,
+          "minRank": 8186,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 446,
+          "minRank": 41859,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5060",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 8186,
+          "equivRank": 8186
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4600",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 43976,
+          "equivRank": 43976
+        },
+        {
+          "majorName": "经济统计学",
+          "majorKey": "bb33137b",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4600",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 43673,
+          "equivRank": 43673
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5060",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 41859,
+          "equivRank": 41859
+        }
+      ]
+    }
+  ]
+}

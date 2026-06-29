@@ -1,0 +1,187 @@
+{
+  "code": "2067",
+  "name": "安庆师范大学",
+  "leaves": [
+    {
+      "schoolCode": "2067",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 492,
+          "minRank": 9442,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2067",
+      "majorKey": "d061ae24",
+      "majorName": "地理科学",
+      "selKe": "首选历史，再选地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 516,
+          "minRank": 6135,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2067",
+      "majorKey": "3c2f7b8b",
+      "majorName": "外国语言文学类",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 499,
+          "minRank": 8446,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2067",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 523,
+          "minRank": 5352,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2067",
+      "majorKey": "331c4c8e",
+      "majorName": "新闻传播学类",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 494,
+          "minRank": 9171,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 449,
+          "minRank": 53075,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "外国语言文学类[英语、商务英语、翻译]",
+          "majorKey": "7438e132",
+          "selKe": "不提科目要求",
+          "plan": 5,
+          "tuition": "4900",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "思想政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "思想政治",
+          "plan": 5,
+          "tuition": "5390",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 5352,
+          "equivRank": 5352
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "历史",
+      "selKe": "地理",
+      "majors": [
+        {
+          "majorName": "地理科学",
+          "majorKey": "d061ae24",
+          "selKe": "地理",
+          "plan": 5,
+          "tuition": "5200",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 6135,
+          "equivRank": 6135
+        }
+      ]
+    },
+    {
+      "groupCode": "005",
+      "groupName": "005",
+      "track": "历史",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不提科目要求",
+          "plan": 5,
+          "tuition": "4900",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 9442,
+          "equivRank": 9442
+        },
+        {
+          "majorName": "新闻传播学类[广播电视学、新闻学、网络与新媒体]",
+          "majorKey": "2c0009ee",
+          "selKe": "不提科目要求",
+          "plan": 5,
+          "tuition": "4900",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "004",
+      "track": "物理",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "新闻传播学类[广播电视学、新闻学、网络与新媒体]",
+          "majorKey": "2c0009ee",
+          "selKe": "不提科目要求",
+          "plan": 5,
+          "tuition": "4900",
+          "menlei": "文"
+        }
+      ]
+    }
+  ]
+}

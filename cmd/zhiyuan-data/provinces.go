@@ -42,6 +42,11 @@ var provinces = map[string]province{
 	"gd": {slug: "gd", name: "广东", tracks: []string{"物理", "历史"}, model: "group"},
 	"fj": {slug: "fj", name: "福建", tracks: []string{"物理", "历史"}, model: "group"},
 	"nx": {slug: "nx", name: "宁夏", tracks: []string{"物理", "历史"}, model: "group"},
+	// 计划表列名异形（江西 计划数/专业组/选课要求；吉林仅专业组名称「第 001 组」；甘肃 文理/组代码），
+	// 由 group3p12 的列别名 + 组名兜底覆盖，仍复用同一解析器（组码仅作展示，fill 按校+专业挂接）。
+	"jx": {slug: "jx", name: "江西", tracks: []string{"物理", "历史"}, model: "group"},
+	"jl": {slug: "jl", name: "吉林", tracks: []string{"物理", "历史"}, model: "group"},
+	"gs": {slug: "gs", name: "甘肃", tracks: []string{"物理", "历史"}, model: "group"},
 }
 
 // trackSlug 把科类名映射成 ascii 文件名片段（定位索引/一分一段文件名）。

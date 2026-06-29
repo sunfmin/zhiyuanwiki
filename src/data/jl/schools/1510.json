@@ -1,0 +1,136 @@
+{
+  "code": "1510",
+  "name": "呼伦贝尔学院",
+  "leaves": [
+    {
+      "schoolCode": "1510",
+      "majorKey": "c10bcf22",
+      "majorName": "农学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 425,
+          "minRank": 48141,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1510",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 365,
+          "minRank": 23421,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1510",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "历史,政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 497,
+          "minRank": 8400,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1510",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 366,
+          "minRank": 23326,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 23326,
+          "equivRank": 23326
+        },
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 23421,
+          "equivRank": 23421
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "历史",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "政治",
+          "plan": 4,
+          "tuition": "4200",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 8400,
+          "equivRank": 8400
+        }
+      ]
+    },
+    {
+      "groupCode": "第 003 组",
+      "groupName": "第 003 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "农学",
+          "majorKey": "c10bcf22",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "4600",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 48141,
+          "equivRank": 48141
+        }
+      ]
+    }
+  ]
+}

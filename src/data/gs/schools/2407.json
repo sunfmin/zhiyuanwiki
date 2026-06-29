@@ -1,0 +1,68 @@
+{
+  "code": "2407",
+  "name": "山东航空学院",
+  "leaves": [
+    {
+      "schoolCode": "2407",
+      "majorKey": "1c1ee3f7",
+      "majorName": "通信工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 500,
+          "minRank": 28644,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2407",
+      "majorKey": "601791dc",
+      "majorName": "飞行器设计与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 501,
+          "minRank": 28267,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 28644,
+          "equivRank": 28644
+        },
+        {
+          "majorName": "飞行器设计与工程",
+          "majorKey": "601791dc",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 28267,
+          "equivRank": 28267
+        }
+      ]
+    }
+  ]
+}

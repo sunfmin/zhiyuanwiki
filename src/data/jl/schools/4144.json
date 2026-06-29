@@ -1,0 +1,102 @@
+{
+  "code": "4144",
+  "name": "郑州工业应用技术学院",
+  "leaves": [
+    {
+      "schoolCode": "4144",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 444,
+          "minRank": 14642,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 372,
+          "minRank": 62789,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4144",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "物理,化学,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 406,
+          "minRank": 53749,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 12,
+          "tuition": "15000",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 14642,
+          "equivRank": 14642
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 8,
+          "tuition": "15000",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 62789,
+          "equivRank": 62789
+        }
+      ]
+    },
+    {
+      "groupCode": "第 003 组",
+      "groupName": "第 003 组",
+      "track": "物理",
+      "selKe": "化学和生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学和生物",
+          "plan": 10,
+          "tuition": "17000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 53749,
+          "equivRank": 53749
+        }
+      ]
+    }
+  ]
+}

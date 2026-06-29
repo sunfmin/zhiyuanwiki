@@ -1,0 +1,162 @@
+{
+  "code": "1589",
+  "name": "长春建筑学院",
+  "leaves": [
+    {
+      "schoolCode": "1589",
+      "majorKey": "4166f1ff",
+      "majorName": "工程管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 358,
+          "minRank": 100639,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1589",
+      "majorKey": "6b32f2c4",
+      "majorName": "建筑学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 367,
+          "minRank": 96973,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1589",
+      "majorKey": "3f1c9a86",
+      "majorName": "建筑电气与智能化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 385,
+          "minRank": 88450,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1589",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 388,
+          "minRank": 86922,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1589",
+      "majorKey": "b0765a88",
+      "majorName": "给排水科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 383,
+          "minRank": 89481,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "工程管理",
+          "majorKey": "4166f1ff",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "25000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 100639,
+          "equivRank": 100639
+        },
+        {
+          "majorName": "建筑学",
+          "majorKey": "6b32f2c4",
+          "selKe": "物理",
+          "plan": 3,
+          "tuition": "26000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 96973,
+          "equivRank": 96973
+        },
+        {
+          "majorName": "房地产开发与管理",
+          "majorKey": "b4b7eb31",
+          "selKe": "物理",
+          "plan": 3,
+          "tuition": "25000",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "给排水科学与工程",
+          "majorKey": "b0765a88",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "25000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 89481,
+          "equivRank": 89481
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "25000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 86922,
+          "equivRank": 86922
+        },
+        {
+          "majorName": "建筑电气与智能化",
+          "majorKey": "3f1c9a86",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "25000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 88450,
+          "equivRank": 88450
+        }
+      ]
+    }
+  ]
+}

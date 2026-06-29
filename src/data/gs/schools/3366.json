@@ -1,0 +1,242 @@
+{
+  "code": "3366",
+  "name": "宜宾学院",
+  "leaves": [
+    {
+      "schoolCode": "3366",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 489,
+          "minRank": 9889,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 433,
+          "minRank": 61960,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3366",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 486,
+          "minRank": 10360,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 442,
+          "minRank": 56955,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3366",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 502,
+          "minRank": 8010,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3366",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 493,
+          "minRank": 9311,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3366",
+      "majorKey": "f3a3be38",
+      "majorName": "知识产权",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 482,
+          "minRank": 11028,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3366",
+      "majorKey": "062bcf46",
+      "majorName": "行政管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 488,
+          "minRank": 10051,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 436,
+          "minRank": 60287,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不提科目要求",
+          "plan": 3,
+          "tuition": "5520",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 9311,
+          "equivRank": 9311
+        },
+        {
+          "majorName": "行政管理",
+          "majorKey": "062bcf46",
+          "selKe": "不提科目要求",
+          "plan": 2,
+          "tuition": "5520",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 10051,
+          "equivRank": 10051
+        },
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不提科目要求",
+          "plan": 3,
+          "tuition": "5520",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 9889,
+          "equivRank": 9889
+        },
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不提科目要求",
+          "plan": 3,
+          "tuition": "5520",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 10360,
+          "equivRank": 10360
+        },
+        {
+          "majorName": "知识产权",
+          "majorKey": "f3a3be38",
+          "selKe": "不提科目要求",
+          "plan": 3,
+          "tuition": "5520",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 11028,
+          "equivRank": 11028
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "思想政治,历史",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "思想政治,历史",
+          "plan": 3,
+          "tuition": "5520",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 8010,
+          "equivRank": 8010
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不提科目要求",
+          "plan": 3,
+          "tuition": "5520",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 61960,
+          "equivRank": 61960
+        },
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不提科目要求",
+          "plan": 3,
+          "tuition": "5520",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 56955,
+          "equivRank": 56955
+        },
+        {
+          "majorName": "行政管理",
+          "majorKey": "062bcf46",
+          "selKe": "不提科目要求",
+          "plan": 3,
+          "tuition": "5520",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 60287,
+          "equivRank": 60287
+        }
+      ]
+    }
+  ]
+}

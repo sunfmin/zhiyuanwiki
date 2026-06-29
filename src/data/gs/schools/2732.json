@@ -1,0 +1,151 @@
+{
+  "code": "2732",
+  "name": "湖北文理学院",
+  "leaves": [
+    {
+      "schoolCode": "2732",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 458,
+          "minRank": 48246,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2732",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 462,
+          "minRank": 46200,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2732",
+      "majorKey": "d061ae24",
+      "majorName": "地理科学",
+      "selKe": "首选历史，再选地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 494,
+          "minRank": 9171,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2732",
+      "majorKey": "5e0efed0",
+      "majorName": "电子信息类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 468,
+          "minRank": 43097,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2732",
+      "majorKey": "1319cb6a",
+      "majorName": "道路桥梁与渡河工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 455,
+          "minRank": 49857,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "地理",
+      "majors": [
+        {
+          "majorName": "地理科学",
+          "majorKey": "d061ae24",
+          "selKe": "地理",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 9171,
+          "equivRank": 9171
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "物理,化学",
+          "plan": 6,
+          "tuition": "4000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 46200,
+          "equivRank": 46200
+        },
+        {
+          "majorName": "电子信息类[电子信息工程、通信工程]",
+          "majorKey": "0aa0af35",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "4000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "物理,化学",
+          "plan": 6,
+          "tuition": "4000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 48246,
+          "equivRank": 48246
+        },
+        {
+          "majorName": "道路桥梁与渡河工程",
+          "majorKey": "1319cb6a",
+          "selKe": "物理,化学",
+          "plan": 8,
+          "tuition": "4000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 49857,
+          "equivRank": 49857
+        }
+      ]
+    }
+  ]
+}

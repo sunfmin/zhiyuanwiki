@@ -1,0 +1,136 @@
+{
+  "code": "5501",
+  "name": "郑州工程技术学院",
+  "leaves": [
+    {
+      "schoolCode": "5501",
+      "majorKey": "1f59c989",
+      "majorName": "化学工程与工艺",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 487,
+          "minRank": 100928,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5501",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 517,
+          "minRank": 27818,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5501",
+      "majorKey": "2363aecb",
+      "majorName": "智能建造",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 492,
+          "minRank": 94492,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5501",
+      "majorKey": "8b6a817b",
+      "majorName": "物流管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 517,
+          "minRank": 27818,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第101组",
+      "groupName": "第101组",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "物流管理",
+          "majorKey": "8b6a817b",
+          "selKe": "历史",
+          "plan": 10,
+          "tuition": "4400",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 27818,
+          "equivRank": 27818
+        },
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "历史",
+          "plan": 10,
+          "tuition": "4400",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 27818,
+          "equivRank": 27818
+        }
+      ]
+    },
+    {
+      "groupCode": "第501组",
+      "groupName": "第501组",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "智能建造",
+          "majorKey": "2363aecb",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 94492,
+          "equivRank": 94492
+        }
+      ]
+    },
+    {
+      "groupCode": "第502组",
+      "groupName": "第502组",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "化学工程与工艺",
+          "majorKey": "1f59c989",
+          "selKe": "物理,化学",
+          "plan": 10,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 100928,
+          "equivRank": 100928
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "code": "6130",
+  "name": "安康学院",
+  "leaves": [
+    {
+      "schoolCode": "6130",
+      "majorKey": "1f59c989",
+      "majorName": "化学工程与工艺",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 421,
+          "minRank": 49343,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6130",
+      "majorKey": "131a0e7c",
+      "majorName": "秘书学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 470,
+          "minRank": 11493,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "秘书学",
+          "majorKey": "131a0e7c",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 11493,
+          "equivRank": 11493
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "化学工程与工艺",
+          "majorKey": "1f59c989",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 49343,
+          "equivRank": 49343
+        }
+      ]
+    }
+  ]
+}

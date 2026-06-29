@@ -1,0 +1,172 @@
+{
+  "code": "1319",
+  "name": "唐山师范学院",
+  "leaves": [
+    {
+      "schoolCode": "1319",
+      "majorKey": "d7013734",
+      "majorName": "人文地理与城乡规划",
+      "selKe": "历史,地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 487,
+          "minRank": 9504,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 423,
+          "minRank": 48736,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1319",
+      "majorKey": "d061ae24",
+      "majorName": "地理科学",
+      "selKe": "历史,地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 503,
+          "minRank": 7797,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 431,
+          "minRank": 46398,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1319",
+      "majorKey": "653f630d",
+      "majorName": "物理学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 452,
+          "minRank": 39998,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1319",
+      "majorKey": "95a6509b",
+      "majorName": "能源化学工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 380,
+          "minRank": 60804,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "历史",
+      "selKe": "地理",
+      "majors": [
+        {
+          "majorName": "地理科学",
+          "majorKey": "d061ae24",
+          "selKe": "地理",
+          "plan": 3,
+          "tuition": "4900",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 7797,
+          "equivRank": 7797
+        },
+        {
+          "majorName": "人文地理与城乡规划",
+          "majorKey": "d7013734",
+          "selKe": "地理",
+          "plan": 3,
+          "tuition": "4600",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 9504,
+          "equivRank": 9504
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5300",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 39998,
+          "equivRank": 39998
+        },
+        {
+          "majorName": "能源化学工程",
+          "majorKey": "95a6509b",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 60804,
+          "equivRank": 60804
+        }
+      ]
+    },
+    {
+      "groupCode": "第 003 组",
+      "groupName": "第 003 组",
+      "track": "物理",
+      "selKe": "地理",
+      "majors": [
+        {
+          "majorName": "地理科学",
+          "majorKey": "d061ae24",
+          "selKe": "地理",
+          "plan": 2,
+          "tuition": "4900",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 46398,
+          "equivRank": 46398
+        },
+        {
+          "majorName": "人文地理与城乡规划",
+          "majorKey": "d7013734",
+          "selKe": "地理",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 48736,
+          "equivRank": 48736
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "code": "2395",
+  "name": "安徽医科大学",
+  "leaves": [
+    {
+      "schoolCode": "2395",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 582,
+          "minRank": 16139,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2395",
+      "majorKey": "11a5a631",
+      "majorName": "智能医学工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 573,
+          "minRank": 20570,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2395",
+      "majorKey": "27c81131",
+      "majorName": "生物医学工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 566,
+          "minRank": 24510,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2395",
+      "majorKey": "0ac1da59",
+      "majorName": "生物技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 567,
+          "minRank": 23925,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第501组",
+      "groupName": "第501组",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6050",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 16139,
+          "equivRank": 16139
+        },
+        {
+          "majorName": "生物技术",
+          "majorKey": "0ac1da59",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 23925,
+          "equivRank": 23925
+        },
+        {
+          "majorName": "智能医学工程",
+          "majorKey": "11a5a631",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 20570,
+          "equivRank": 20570
+        },
+        {
+          "majorName": "生物医学工程",
+          "majorKey": "27c81131",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 24510,
+          "equivRank": 24510
+        }
+      ]
+    }
+  ]
+}

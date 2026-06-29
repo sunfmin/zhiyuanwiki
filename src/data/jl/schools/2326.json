@@ -1,0 +1,128 @@
+{
+  "code": "2326",
+  "name": "哈尔滨信息工程学院",
+  "leaves": [
+    {
+      "schoolCode": "2326",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 393,
+          "minRank": 57354,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2326",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 460,
+          "minRank": 12678,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 408,
+          "minRank": 53213,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2326",
+      "majorKey": "0c33cbdd",
+      "majorName": "软件工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 393,
+          "minRank": 57354,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "26000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 12678,
+          "equivRank": 12678
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "26000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 53213,
+          "equivRank": 53213
+        }
+      ]
+    },
+    {
+      "groupCode": "第 003 组",
+      "groupName": "第 003 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "27000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 57354,
+          "equivRank": 57354
+        },
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "化学",
+          "plan": 10,
+          "tuition": "27000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 57354,
+          "equivRank": 57354
+        }
+      ]
+    }
+  ]
+}

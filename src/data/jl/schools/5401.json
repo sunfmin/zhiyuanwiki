@@ -1,0 +1,196 @@
+{
+  "code": "5401",
+  "name": "西藏大学",
+  "leaves": [
+    {
+      "schoolCode": "5401",
+      "majorKey": "904549c4",
+      "majorName": "交通运输",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 491,
+          "minRank": 28743,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5401",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "历史,政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 540,
+          "minRank": 4577,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5401",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "历史,政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 540,
+          "minRank": 4577,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5401",
+      "majorKey": "2e55aa48",
+      "majorName": "税收学",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 503,
+          "minRank": 25490,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5401",
+      "majorKey": "bda0ff17",
+      "majorName": "经济学",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 500,
+          "minRank": 26306,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5401",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "物理,化学,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 481,
+          "minRank": 31557,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "历史",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "政治",
+          "plan": 1,
+          "tuition": "3360",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 4577,
+          "equivRank": 4577
+        },
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "政治",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 4577,
+          "equivRank": 4577
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "2800",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 26306,
+          "equivRank": 26306
+        },
+        {
+          "majorName": "税收学",
+          "majorKey": "2e55aa48",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "2800",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 25490,
+          "equivRank": 25490
+        }
+      ]
+    },
+    {
+      "groupCode": "第 003 组",
+      "groupName": "第 003 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "交通运输",
+          "majorKey": "904549c4",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "3360",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 28743,
+          "equivRank": 28743
+        }
+      ]
+    },
+    {
+      "groupCode": "第 004 组",
+      "groupName": "第 004 组",
+      "track": "物理",
+      "selKe": "化学和生物",
+      "majors": [
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化学和生物",
+          "plan": 1,
+          "tuition": "3360",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 31557,
+          "equivRank": 31557
+        }
+      ]
+    }
+  ]
+}

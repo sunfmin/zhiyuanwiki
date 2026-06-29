@@ -1,0 +1,102 @@
+{
+  "code": "5069",
+  "name": "重庆中医药学院",
+  "leaves": [
+    {
+      "schoolCode": "5069",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 568,
+          "minRank": 2647,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 541,
+          "minRank": 16249,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5069",
+      "majorKey": "f9504a0c",
+      "majorName": "中药学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 503,
+          "minRank": 25490,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "6200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 2647,
+          "equivRank": 2647
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 16249,
+          "equivRank": 16249
+        }
+      ]
+    },
+    {
+      "groupCode": "第 003 组",
+      "groupName": "第 003 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "中药学",
+          "majorKey": "f9504a0c",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 25490,
+          "equivRank": 25490
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "code": "2609",
+  "name": "商丘工学院",
+  "leaves": [
+    {
+      "schoolCode": "2609",
+      "majorKey": "a6fe1434",
+      "majorName": "测绘工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 402,
+          "minRank": 79499,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2609",
+      "majorKey": "92b6110d",
+      "majorName": "车辆工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 399,
+          "minRank": 81090,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "测绘工程",
+          "majorKey": "a6fe1434",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "15800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 79499,
+          "equivRank": 79499
+        },
+        {
+          "majorName": "车辆工程",
+          "majorKey": "92b6110d",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "15800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 81090,
+          "equivRank": 81090
+        }
+      ]
+    }
+  ]
+}

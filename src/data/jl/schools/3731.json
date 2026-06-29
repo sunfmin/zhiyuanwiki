@@ -1,0 +1,180 @@
+{
+  "code": "3731",
+  "name": "菏泽学院",
+  "leaves": [
+    {
+      "schoolCode": "3731",
+      "majorKey": "6b32f2c4",
+      "majorName": "建筑学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 499,
+          "minRank": 8186,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 428,
+          "minRank": 47283,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3731",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 471,
+          "minRank": 34343,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3731",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 477,
+          "minRank": 10624,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 442,
+          "minRank": 43111,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3731",
+      "majorKey": "7b7511cd",
+      "majorName": "食品科学与工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 452,
+          "minRank": 39998,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4400",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 10624,
+          "equivRank": 10624
+        },
+        {
+          "majorName": "建筑学",
+          "majorKey": "6b32f2c4",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 8186,
+          "equivRank": 8186
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4400",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 43111,
+          "equivRank": 43111
+        },
+        {
+          "majorName": "建筑学",
+          "majorKey": "6b32f2c4",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 47283,
+          "equivRank": 47283
+        }
+      ]
+    },
+    {
+      "groupCode": "第 003 组",
+      "groupName": "第 003 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 39998,
+          "equivRank": 39998
+        }
+      ]
+    },
+    {
+      "groupCode": "第 004 组",
+      "groupName": "第 004 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 34343,
+          "equivRank": 34343
+        }
+      ]
+    }
+  ]
+}

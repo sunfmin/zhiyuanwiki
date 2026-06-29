@@ -1,0 +1,94 @@
+{
+  "code": "3391",
+  "name": "安徽医科大学临床医学院",
+  "leaves": [
+    {
+      "schoolCode": "3391",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 485,
+          "minRank": 103528,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3391",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 483,
+          "minRank": 106213,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3391",
+      "majorKey": "1954d9c9",
+      "majorName": "预防医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 482,
+          "minRank": 107582,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第501组",
+      "groupName": "第501组",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 12,
+          "tuition": "17280",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 103528,
+          "equivRank": 103528
+        },
+        {
+          "majorName": "预防医学",
+          "majorKey": "1954d9c9",
+          "selKe": "物理,化学",
+          "plan": 10,
+          "tuition": "17280",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 107582,
+          "equivRank": 107582
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "17280",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 106213,
+          "equivRank": 106213
+        }
+      ]
+    }
+  ]
+}

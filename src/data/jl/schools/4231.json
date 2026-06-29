@@ -1,0 +1,136 @@
+{
+  "code": "4231",
+  "name": "湖北理工学院",
+  "leaves": [
+    {
+      "schoolCode": "4231",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 495,
+          "minRank": 8606,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4231",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "历史,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 505,
+          "minRank": 7609,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4231",
+      "majorKey": "4ef2a1b4",
+      "majorName": "机械电子工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 512,
+          "minRank": 23107,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4231",
+      "majorKey": "da95770c",
+      "majorName": "自动化",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 512,
+          "minRank": 23107,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 8606,
+          "equivRank": 8606
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "历史",
+      "selKe": "生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 7609,
+          "equivRank": 7609
+        }
+      ]
+    },
+    {
+      "groupCode": "第 003 组",
+      "groupName": "第 003 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械电子工程",
+          "majorKey": "4ef2a1b4",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 23107,
+          "equivRank": 23107
+        },
+        {
+          "majorName": "自动化",
+          "majorKey": "da95770c",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "4000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 23107,
+          "equivRank": 23107
+        }
+      ]
+    }
+  ]
+}

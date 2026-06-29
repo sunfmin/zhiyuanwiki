@@ -1,0 +1,190 @@
+{
+  "code": "2379",
+  "name": "哈尔滨远东理工学院",
+  "leaves": [
+    {
+      "schoolCode": "2379",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 452,
+          "minRank": 13646,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 406,
+          "minRank": 53749,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2379",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 448,
+          "minRank": 14158,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 400,
+          "minRank": 55396,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2379",
+      "majorKey": "8230723d",
+      "majorName": "计算机类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 400,
+          "minRank": 55396,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2379",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 449,
+          "minRank": 14046,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 404,
+          "minRank": 54321,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 12,
+          "tuition": "25800",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 14158,
+          "equivRank": 14158
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "25800",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 13646,
+          "equivRank": 13646
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 6,
+          "tuition": "25800",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 14046,
+          "equivRank": 14046
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 8,
+          "tuition": "25800",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 55396,
+          "equivRank": 55396
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "25800",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 53749,
+          "equivRank": 53749
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "25800",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 54321,
+          "equivRank": 54321
+        }
+      ]
+    },
+    {
+      "groupCode": "第 003 组",
+      "groupName": "第 003 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "计算机类",
+          "majorKey": "8230723d",
+          "selKe": "化学",
+          "plan": 10,
+          "tuition": "25800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 55396,
+          "equivRank": 55396
+        }
+      ]
+    }
+  ]
+}

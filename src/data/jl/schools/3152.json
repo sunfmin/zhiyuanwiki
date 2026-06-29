@@ -1,0 +1,128 @@
+{
+  "code": "3152",
+  "name": "上海立达学院",
+  "leaves": [
+    {
+      "schoolCode": "3152",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 348,
+          "minRank": 67914,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3152",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 422,
+          "minRank": 17307,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3152",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 369,
+          "minRank": 63497,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3152",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 350,
+          "minRank": 67486,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "59800",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 17307,
+          "equivRank": 17307
+        }
+      ]
+    },
+    {
+      "groupCode": "第 005 组",
+      "groupName": "第 005 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "59800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 67914,
+          "equivRank": 67914
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "59800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 67486,
+          "equivRank": 67486
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "59800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 63497,
+          "equivRank": 63497
+        }
+      ]
+    }
+  ]
+}

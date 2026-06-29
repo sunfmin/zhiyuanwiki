@@ -1,0 +1,162 @@
+{
+  "code": "2512",
+  "name": "许昌学院",
+  "leaves": [
+    {
+      "schoolCode": "2512",
+      "majorKey": "5a324641",
+      "majorName": "人力资源管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 521,
+          "minRank": 25575,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2512",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 522,
+          "minRank": 25036,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2512",
+      "majorKey": "b8236e06",
+      "majorName": "戏剧影视文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 514,
+          "minRank": 29543,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2512",
+      "majorKey": "1319cb6a",
+      "majorName": "道路桥梁与渡河工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 472,
+          "minRank": 120774,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2512",
+      "majorKey": "7b7511cd",
+      "majorName": "食品科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 477,
+          "minRank": 114209,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第101组",
+      "groupName": "第101组",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "戏剧影视文学",
+          "majorKey": "b8236e06",
+          "selKe": "历史",
+          "plan": 6,
+          "tuition": "8000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 29543,
+          "equivRank": 29543
+        }
+      ]
+    },
+    {
+      "groupCode": "第102组",
+      "groupName": "第102组",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "人力资源管理",
+          "majorKey": "5a324641",
+          "selKe": "历史",
+          "plan": 5,
+          "tuition": "4400",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 25575,
+          "equivRank": 25575
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "历史",
+          "plan": 5,
+          "tuition": "4400",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 25036,
+          "equivRank": 25036
+        }
+      ]
+    },
+    {
+      "groupCode": "第501组",
+      "groupName": "第501组",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 114209,
+          "equivRank": 114209
+        },
+        {
+          "majorName": "道路桥梁与渡河工程",
+          "majorKey": "1319cb6a",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 120774,
+          "equivRank": 120774
+        }
+      ]
+    }
+  ]
+}

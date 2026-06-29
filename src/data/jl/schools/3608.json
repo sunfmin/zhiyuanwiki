@@ -1,0 +1,128 @@
+{
+  "code": "3608",
+  "name": "江西师范大学",
+  "leaves": [
+    {
+      "schoolCode": "3608",
+      "majorKey": "7d0b62a8",
+      "majorName": "俄语",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 563,
+          "minRank": 2959,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3608",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 573,
+          "minRank": 9871,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3608",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 567,
+          "minRank": 2708,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3608",
+      "majorKey": "653f630d",
+      "majorName": "物理学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 564,
+          "minRank": 11509,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4380",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 2708,
+          "equivRank": 2708
+        },
+        {
+          "majorName": "俄语",
+          "majorKey": "7d0b62a8",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4660",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 2959,
+          "equivRank": 2959
+        }
+      ]
+    },
+    {
+      "groupCode": "第 003 组",
+      "groupName": "第 003 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4940",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 9871,
+          "equivRank": 9871
+        },
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4940",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 11509,
+          "equivRank": 11509
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "code": "44D7",
+  "name": "电子科技大学中山学院",
+  "leaves": [
+    {
+      "schoolCode": "44D7",
+      "majorKey": "d8f4c9ac",
+      "majorName": "光电信息科学与工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 412,
+          "minRank": 52024,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "44D7",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 405,
+          "minRank": 54030,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "光电信息科学与工程",
+          "majorKey": "d8f4c9ac",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "32000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 52024,
+          "equivRank": 52024
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "32000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 54030,
+          "equivRank": 54030
+        }
+      ]
+    }
+  ]
+}

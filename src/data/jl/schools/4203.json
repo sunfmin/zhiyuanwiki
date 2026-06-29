@@ -1,0 +1,206 @@
+{
+  "code": "4203",
+  "name": "武汉科技大学",
+  "leaves": [
+    {
+      "schoolCode": "4203",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 558,
+          "minRank": 12702,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4203",
+      "majorKey": "b74128f4",
+      "majorName": "工商管理类",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 565,
+          "minRank": 2830,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4203",
+      "majorKey": "fa1dc158",
+      "majorName": "无机非金属材料工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 559,
+          "minRank": 12517,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4203",
+      "majorKey": "710bfc36",
+      "majorName": "机械类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 561,
+          "minRank": 12132,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4203",
+      "majorKey": "932ef560",
+      "majorName": "法学类",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 572,
+          "minRank": 2418,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4203",
+      "majorKey": "a70e63a1",
+      "majorName": "自动化类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 562,
+          "minRank": 11931,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4203",
+      "majorKey": "8230723d",
+      "majorName": "计算机类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 562,
+          "minRank": 11931,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学类",
+          "majorKey": "932ef560",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 2418,
+          "equivRank": 2418
+        },
+        {
+          "majorName": "工商管理类",
+          "majorKey": "b74128f4",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 2830,
+          "equivRank": 2830
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械类",
+          "majorKey": "710bfc36",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5850",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 12132,
+          "equivRank": 12132
+        },
+        {
+          "majorName": "无机非金属材料工程",
+          "majorKey": "fa1dc158",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5850",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 12517,
+          "equivRank": 12517
+        },
+        {
+          "majorName": "自动化类",
+          "majorKey": "a70e63a1",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5850",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 11931,
+          "equivRank": 11931
+        },
+        {
+          "majorName": "计算机类",
+          "majorKey": "8230723d",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5850",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 11931,
+          "equivRank": 11931
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5850",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 12702,
+          "equivRank": 12702
+        }
+      ]
+    }
+  ]
+}

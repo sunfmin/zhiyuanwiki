@@ -1,0 +1,182 @@
+{
+  "code": "0044",
+  "name": "天津体育学院",
+  "leaves": [
+    {
+      "schoolCode": "0044",
+      "majorKey": "2079a63e",
+      "majorName": "大数据管理与应用",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 500,
+          "minRank": 84381,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0044",
+      "majorKey": "59687759",
+      "majorName": "应用心理学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 535,
+          "minRank": 18619,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 498,
+          "minRank": 86916,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0044",
+      "majorKey": "9c5f4a34",
+      "majorName": "新闻学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 532,
+          "minRank": 20002,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 495,
+          "minRank": 90756,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0044",
+      "majorKey": "676f341a",
+      "majorName": "运动人体科学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 533,
+          "minRank": 19510,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 500,
+          "minRank": 84381,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第101组",
+      "groupName": "第101组",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "应用心理学",
+          "majorKey": "59687759",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5400",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 18619,
+          "equivRank": 18619
+        },
+        {
+          "majorName": "运动人体科学",
+          "majorKey": "676f341a",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "4400",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 19510,
+          "equivRank": 19510
+        },
+        {
+          "majorName": "新闻学",
+          "majorKey": "9c5f4a34",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "4400",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 20002,
+          "equivRank": 20002
+        }
+      ]
+    },
+    {
+      "groupCode": "第501组",
+      "groupName": "第501组",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "应用心理学",
+          "majorKey": "59687759",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "5400",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 86916,
+          "equivRank": 86916
+        },
+        {
+          "majorName": "运动人体科学",
+          "majorKey": "676f341a",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "4400",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 84381,
+          "equivRank": 84381
+        },
+        {
+          "majorName": "新闻学",
+          "majorKey": "9c5f4a34",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "4400",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 90756,
+          "equivRank": 90756
+        },
+        {
+          "majorName": "大数据管理与应用",
+          "majorKey": "2079a63e",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "4400",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 84381,
+          "equivRank": 84381
+        }
+      ]
+    }
+  ]
+}

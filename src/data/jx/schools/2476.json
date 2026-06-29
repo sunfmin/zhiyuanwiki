@@ -1,0 +1,76 @@
+{
+  "code": "2476",
+  "name": "泰山学院",
+  "leaves": [
+    {
+      "schoolCode": "2476",
+      "majorKey": "f3fa4b3d",
+      "majorName": "信息与计算科学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 495,
+          "minRank": 90756,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2476",
+      "majorKey": "d47d0996",
+      "majorName": "生物科学类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 472,
+          "minRank": 120774,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第501组",
+      "groupName": "第501组",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "信息与计算科学",
+          "majorKey": "f3fa4b3d",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "6300",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 90756,
+          "equivRank": 90756
+        }
+      ]
+    },
+    {
+      "groupCode": "第502组",
+      "groupName": "第502组",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "生物科学类",
+          "majorKey": "d47d0996",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 120774,
+          "equivRank": 120774
+        }
+      ]
+    }
+  ]
+}

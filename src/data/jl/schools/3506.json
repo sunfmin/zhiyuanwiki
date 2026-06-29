@@ -1,0 +1,94 @@
+{
+  "code": "3506",
+  "name": "福建医科大学",
+  "leaves": [
+    {
+      "schoolCode": "3506",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理,化学,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 581,
+          "minRank": 8467,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3506",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "物理,化学,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 577,
+          "minRank": 9138,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3506",
+      "majorKey": "38805734",
+      "majorName": "放射医学",
+      "selKe": "物理,化学,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 575,
+          "minRank": 9528,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "物理",
+      "selKe": "化学和生物",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学和生物",
+          "plan": 3,
+          "tuition": "6760",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 8467,
+          "equivRank": 8467
+        },
+        {
+          "majorName": "医学影像学",
+          "majorKey": "5780af73",
+          "selKe": "化学和生物",
+          "plan": 2,
+          "tuition": "6760",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 9138,
+          "equivRank": 9138
+        },
+        {
+          "majorName": "放射医学",
+          "majorKey": "38805734",
+          "selKe": "化学和生物",
+          "plan": 1,
+          "tuition": "6760",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 9528,
+          "equivRank": 9528
+        }
+      ]
+    }
+  ]
+}

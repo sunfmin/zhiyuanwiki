@@ -1,0 +1,162 @@
+{
+  "code": "3512",
+  "name": "闽江学院",
+  "leaves": [
+    {
+      "schoolCode": "3512",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 522,
+          "minRank": 20714,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3512",
+      "majorKey": "90cd213e",
+      "majorName": "服装设计与工程",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 471,
+          "minRank": 34343,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3512",
+      "majorKey": "d2fbd5c5",
+      "majorName": "汉语国际教育",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 545,
+          "minRank": 4195,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3512",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 549,
+          "minRank": 3896,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3512",
+      "majorKey": "fff04889",
+      "majorName": "网络与新媒体",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 487,
+          "minRank": 29895,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5040",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 3896,
+          "equivRank": 3896
+        },
+        {
+          "majorName": "汉语国际教育",
+          "majorKey": "d2fbd5c5",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5040",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 4195,
+          "equivRank": 4195
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5460",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 29895,
+          "equivRank": 29895
+        },
+        {
+          "majorName": "服装设计与工程",
+          "majorKey": "90cd213e",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5460",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 34343,
+          "equivRank": 34343
+        }
+      ]
+    },
+    {
+      "groupCode": "第 003 组",
+      "groupName": "第 003 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5040",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 20714,
+          "equivRank": 20714
+        }
+      ]
+    }
+  ]
+}

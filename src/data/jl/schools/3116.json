@@ -1,0 +1,181 @@
+{
+  "code": "3116",
+  "name": "上海大学",
+  "leaves": [
+    {
+      "schoolCode": "3116",
+      "majorKey": "f5e060b4",
+      "majorName": "文科试验班类",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 589,
+          "minRank": 1579,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3116",
+      "majorKey": "5e0efed0",
+      "majorName": "电子信息类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 607,
+          "minRank": 4656,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3116",
+      "majorKey": "e1371d8e",
+      "majorName": "电气类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 603,
+          "minRank": 5137,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3116",
+      "majorKey": "0cabaa98",
+      "majorName": "经济学类",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 594,
+          "minRank": 6384,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3116",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 590,
+          "minRank": 1535,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "文科试验班类",
+          "majorKey": "f5e060b4",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "6500",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 1579,
+          "equivRank": 1579
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6500",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 1535,
+          "equivRank": 1535
+        }
+      ]
+    },
+    {
+      "groupCode": "第 003 组",
+      "groupName": "第 003 组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "经济学类",
+          "majorKey": "0cabaa98",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "6500",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 6384,
+          "equivRank": 6384
+        }
+      ]
+    },
+    {
+      "groupCode": "第 004 组",
+      "groupName": "第 004 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电气类",
+          "majorKey": "e1371d8e",
+          "selKe": "化学",
+          "plan": 8,
+          "tuition": "7000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 5137,
+          "equivRank": 5137
+        },
+        {
+          "majorName": "电子信息类",
+          "majorKey": "5e0efed0",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "7000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 4656,
+          "equivRank": 4656
+        }
+      ]
+    },
+    {
+      "groupCode": "第 005 组",
+      "groupName": "第 005 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电气类",
+          "majorKey": "e1371d8e",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "7000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 5137,
+          "equivRank": 5137
+        }
+      ]
+    }
+  ]
+}

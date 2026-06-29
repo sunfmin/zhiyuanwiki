@@ -1,0 +1,162 @@
+{
+  "code": "4313",
+  "name": "湖南工业大学",
+  "leaves": [
+    {
+      "schoolCode": "4313",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 563,
+          "minRank": 2959,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4313",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 551,
+          "minRank": 14127,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4313",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 548,
+          "minRank": 14775,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4313",
+      "majorKey": "75cc6c84",
+      "majorName": "预科班",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 489,
+          "minRank": 9268,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 474,
+          "minRank": 33511,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 2959,
+          "equivRank": 2959
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "预科班",
+          "majorKey": "75cc6c84",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 9268,
+          "equivRank": 9268
+        }
+      ]
+    },
+    {
+      "groupCode": "第 003 组",
+      "groupName": "第 003 组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "预科班",
+          "majorKey": "75cc6c84",
+          "selKe": "不限",
+          "plan": 6,
+          "tuition": "4000",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 33511,
+          "equivRank": 33511
+        }
+      ]
+    },
+    {
+      "groupCode": "第 004 组",
+      "groupName": "第 004 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 14127,
+          "equivRank": 14127
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 14775,
+          "equivRank": 14775
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "code": "41E0",
+  "name": "郑州科技学院",
+  "leaves": [
+    {
+      "schoolCode": "41E0",
+      "majorKey": "1da18825",
+      "majorName": "物联网工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 403,
+          "minRank": 54576,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "41E0",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 406,
+          "minRank": 53749,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "16000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 53749,
+          "equivRank": 53749
+        },
+        {
+          "majorName": "物联网工程",
+          "majorKey": "1da18825",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "16000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 54576,
+          "equivRank": 54576
+        }
+      ]
+    }
+  ]
+}

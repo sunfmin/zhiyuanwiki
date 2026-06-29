@@ -1,0 +1,102 @@
+{
+  "code": "1594",
+  "name": "长春人文学院",
+  "leaves": [
+    {
+      "schoolCode": "1594",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 381,
+          "minRank": 89959,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1594",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 419,
+          "minRank": 23487,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1594",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 357,
+          "minRank": 100640,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不提科目要求",
+          "plan": 4,
+          "tuition": "25000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 23487,
+          "equivRank": 23487
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不提科目要求",
+          "plan": 2,
+          "tuition": "25000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 100640,
+          "equivRank": 100640
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不提科目要求",
+          "plan": 2,
+          "tuition": "25000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 89959,
+          "equivRank": 89959
+        }
+      ]
+    }
+  ]
+}

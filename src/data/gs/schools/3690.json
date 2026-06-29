@@ -1,0 +1,256 @@
+{
+  "code": "3690",
+  "name": "西安文理学院",
+  "leaves": [
+    {
+      "schoolCode": "3690",
+      "majorKey": "1f59c989",
+      "majorName": "化学工程与工艺",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 470,
+          "minRank": 42082,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3690",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 506,
+          "minRank": 7449,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3690",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 487,
+          "minRank": 10200,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3690",
+      "majorKey": "59687759",
+      "majorName": "应用心理学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 460,
+          "minRank": 47226,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3690",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 510,
+          "minRank": 6913,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3690",
+      "majorKey": "2698a02f",
+      "majorName": "环境生态工程",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 458,
+          "minRank": 48246,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3690",
+      "majorKey": "e2472a71",
+      "majorName": "生物科学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 470,
+          "minRank": 42082,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3690",
+      "majorKey": "96ba607c",
+      "majorName": "食品安全与检测",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 466,
+          "minRank": 44088,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不提科目要求",
+          "plan": 8,
+          "tuition": "5000",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 10200,
+          "equivRank": 10200
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 8,
+          "tuition": "5000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 6913,
+          "equivRank": 6913
+        },
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "历史",
+          "plan": 7,
+          "tuition": "4250",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 7449,
+          "equivRank": 7449
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "应用心理学",
+          "majorKey": "59687759",
+          "selKe": "不提科目要求",
+          "plan": 6,
+          "tuition": "6000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 47226,
+          "equivRank": 47226
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "004",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "物理,化学",
+          "plan": 7,
+          "tuition": "6000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 42082,
+          "equivRank": 42082
+        },
+        {
+          "majorName": "化学工程与工艺",
+          "majorKey": "1f59c989",
+          "selKe": "物理,化学",
+          "plan": 8,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 42082,
+          "equivRank": 42082
+        },
+        {
+          "majorName": "食品安全与检测",
+          "majorKey": "96ba607c",
+          "selKe": "物理,化学",
+          "plan": 8,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 44088,
+          "equivRank": 44088
+        }
+      ]
+    },
+    {
+      "groupCode": "005",
+      "groupName": "005",
+      "track": "物理",
+      "selKe": "物理,化学,生物",
+      "majors": [
+        {
+          "majorName": "环境生态工程",
+          "majorKey": "2698a02f",
+          "selKe": "物理,化学,生物",
+          "plan": 5,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 48246,
+          "equivRank": 48246
+        }
+      ]
+    }
+  ]
+}

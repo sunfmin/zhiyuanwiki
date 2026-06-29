@@ -1,0 +1,132 @@
+{
+  "code": "51A2",
+  "name": "四川大学锦江学院",
+  "leaves": [
+    {
+      "schoolCode": "51A2",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 384,
+          "minRank": 59779,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "51A2",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 458,
+          "minRank": 12917,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "51A2",
+      "majorKey": "1c1ee3f7",
+      "majorName": "通信工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 418,
+          "minRank": 50253,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "18000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 59779,
+          "equivRank": 18620
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "18000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 12917,
+          "equivRank": 12917
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "18000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 59779,
+          "equivRank": 59779
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "18000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 12917,
+          "equivRank": 41470
+        }
+      ]
+    },
+    {
+      "groupCode": "第 003 组",
+      "groupName": "第 003 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "18000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 50253,
+          "equivRank": 50253
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "code": "44H7",
+  "name": "广州商学院",
+  "leaves": [
+    {
+      "schoolCode": "44H7",
+      "majorKey": "91a89fa7",
+      "majorName": "互联网金融",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 441,
+          "minRank": 15020,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 338,
+          "minRank": 69752,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "44H7",
+      "majorKey": "8b6a817b",
+      "majorName": "物流管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 396,
+          "minRank": 20340,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 328,
+          "minRank": 71435,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "互联网金融",
+          "majorKey": "91a89fa7",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "69800",
+          "menlei": "经",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 15020,
+          "equivRank": 15020
+        },
+        {
+          "majorName": "物流管理",
+          "majorKey": "8b6a817b",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "66000",
+          "menlei": "管",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 20340,
+          "equivRank": 20340
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "互联网金融",
+          "majorKey": "91a89fa7",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "69800",
+          "menlei": "经",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 69752,
+          "equivRank": 69752
+        },
+        {
+          "majorName": "物流管理",
+          "majorKey": "8b6a817b",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "66000",
+          "menlei": "管",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 71435,
+          "equivRank": 71435
+        }
+      ]
+    }
+  ]
+}

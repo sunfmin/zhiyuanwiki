@@ -1,0 +1,76 @@
+{
+  "code": "1315",
+  "name": "河北北方学院",
+  "leaves": [
+    {
+      "schoolCode": "1315",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 534,
+          "minRank": 17828,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1315",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 480,
+          "minRank": 31859,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5700",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 17828,
+          "equivRank": 17828
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5700",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 31859,
+          "equivRank": 31859
+        }
+      ]
+    }
+  ]
+}

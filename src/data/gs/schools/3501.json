@@ -1,0 +1,128 @@
+{
+  "code": "3501",
+  "name": "六盘水师范学院",
+  "leaves": [
+    {
+      "schoolCode": "3501",
+      "majorKey": "a18ef009",
+      "majorName": "地质工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 436,
+          "minRank": 60287,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3501",
+      "majorKey": "42b22d93",
+      "majorName": "新能源科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 452,
+          "minRank": 51458,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3501",
+      "majorKey": "6f3db462",
+      "majorName": "矿物加工工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 413,
+          "minRank": 73271,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3501",
+      "majorKey": "0c33cbdd",
+      "majorName": "软件工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 450,
+          "minRank": 52553,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 52553,
+          "equivRank": 52553
+        },
+        {
+          "majorName": "新能源科学与工程",
+          "majorKey": "42b22d93",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 51458,
+          "equivRank": 51458
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "矿物加工工程",
+          "majorKey": "6f3db462",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 73271,
+          "equivRank": 73271
+        },
+        {
+          "majorName": "地质工程",
+          "majorKey": "a18ef009",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 60287,
+          "equivRank": 60287
+        }
+      ]
+    }
+  ]
+}

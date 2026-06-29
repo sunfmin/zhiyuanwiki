@@ -1,0 +1,102 @@
+{
+  "code": "4323",
+  "name": "湖南人文科技学院",
+  "leaves": [
+    {
+      "schoolCode": "4323",
+      "majorKey": "ca37000f",
+      "majorName": "数字经济",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 422,
+          "minRank": 49045,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4323",
+      "majorKey": "e6cfcc6c",
+      "majorName": "材料化学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 419,
+          "minRank": 49961,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4323",
+      "majorKey": "da95770c",
+      "majorName": "自动化",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 422,
+          "minRank": 49045,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 004 组",
+      "groupName": "第 004 组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "数字经济",
+          "majorKey": "ca37000f",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "待定",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 49045,
+          "equivRank": 49045
+        }
+      ]
+    },
+    {
+      "groupCode": "第 005 组",
+      "groupName": "第 005 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "材料化学",
+          "majorKey": "e6cfcc6c",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "待定",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 49961,
+          "equivRank": 49961
+        },
+        {
+          "majorName": "自动化",
+          "majorKey": "da95770c",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "待定",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 49045,
+          "equivRank": 49045
+        }
+      ]
+    }
+  ]
+}

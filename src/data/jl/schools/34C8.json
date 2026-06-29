@@ -1,0 +1,68 @@
+{
+  "code": "34C8",
+  "name": "安徽医科大学临床医学院",
+  "leaves": [
+    {
+      "schoolCode": "34C8",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 473,
+          "minRank": 33795,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "34C8",
+      "majorKey": "1954d9c9",
+      "majorName": "预防医学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 448,
+          "minRank": 41252,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "17280",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 33795,
+          "equivRank": 33795
+        },
+        {
+          "majorName": "预防医学",
+          "majorKey": "1954d9c9",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "17280",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 41252,
+          "equivRank": 41252
+        }
+      ]
+    }
+  ]
+}

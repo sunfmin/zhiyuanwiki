@@ -1,0 +1,128 @@
+{
+  "code": "3727",
+  "name": "山东航空学院",
+  "leaves": [
+    {
+      "schoolCode": "3727",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "历史,政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 530,
+          "minRank": 5436,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 482,
+          "minRank": 31275,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3727",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 472,
+          "minRank": 34050,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3727",
+      "majorKey": "7faf2092",
+      "majorName": "环境工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 469,
+          "minRank": 34959,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "历史",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "政治",
+          "plan": 1,
+          "tuition": "5280",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 5436,
+          "equivRank": 5436
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "6300",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 34050,
+          "equivRank": 34050
+        },
+        {
+          "majorName": "环境工程",
+          "majorKey": "7faf2092",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 34959,
+          "equivRank": 34959
+        }
+      ]
+    },
+    {
+      "groupCode": "第 003 组",
+      "groupName": "第 003 组",
+      "track": "物理",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "政治",
+          "plan": 2,
+          "tuition": "5280",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 31275,
+          "equivRank": 31275
+        }
+      ]
+    }
+  ]
+}

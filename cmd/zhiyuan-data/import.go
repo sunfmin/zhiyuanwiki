@@ -41,6 +41,9 @@ var provDirName = map[string]string{
 	"gd":    "广东",
 	"fj":    "福建",
 	"nx":    "宁夏",
+	"jx":    "江西",
+	"jl":    "吉林",
+	"gs":    "甘肃",
 	"hb":    "湖北高考数据", // 各省份/ 下子目录带后缀
 	"yn":    "云南",
 	"henan": "河南", // slug 用 henan 避免与湖南 hn 冲突
@@ -92,6 +95,13 @@ var provParsers = map[string]provParser{
 		ScoreMust: []string{"25年全国高校在福建的专业录取分数"}, PlanMust: []string{"福建2025招生计划"}},
 	"nx": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
 		ScoreMust: []string{"22-25年全国高校在宁夏的专业分数线"}, PlanMust: []string{"在宁夏的招生计划"}},
+	// 计划表列名异形，靠 group3p12 列别名覆盖；分数文件名「专业分数线」（吉林）或精确指向 2025。
+	"jx": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
+		ScoreMust: []string{"25年全国高校在江西的专业录取分数"}, PlanMust: []string{"江西省2025招生计划"}},
+	"jl": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
+		ScoreMust: []string{"25年全国高校在吉林省的专业分数线"}, PlanMust: []string{"吉林省-2025年-招生计划"}},
+	"gs": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
+		ScoreMust: []string{"25年全国高校在甘肃的专业录取分数"}, PlanMust: []string{"甘肃2025年招生计划"}},
 	"hb": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
 		PlanMust: []string{"25年全国高校在湖北省的招生计划"}},
 	"yn": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,

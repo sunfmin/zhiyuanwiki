@@ -1,0 +1,180 @@
+{
+  "code": "3388",
+  "name": "上海财经大学浙江学院",
+  "leaves": [
+    {
+      "schoolCode": "3388",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 479,
+          "minRank": 10395,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 466,
+          "minRank": 35819,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3388",
+      "majorKey": "d054f8d1",
+      "majorName": "应用统计学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 427,
+          "minRank": 47554,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3388",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 428,
+          "minRank": 47283,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3388",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 469,
+          "minRank": 11614,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3388",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 453,
+          "minRank": 39671,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "18000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 11614,
+          "equivRank": 11614
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "24750",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 10395,
+          "equivRank": 10395
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "24750",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 39671,
+          "equivRank": 39671
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "24750",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 35819,
+          "equivRank": 35819
+        }
+      ]
+    },
+    {
+      "groupCode": "第 003 组",
+      "groupName": "第 003 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "应用统计学",
+          "majorKey": "d054f8d1",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 47554,
+          "equivRank": 47554
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "24750",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 47283,
+          "equivRank": 47283
+        }
+      ]
+    }
+  ]
+}

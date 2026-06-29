@@ -1,0 +1,128 @@
+{
+  "code": "3303",
+  "name": "浙江工业大学",
+  "leaves": [
+    {
+      "schoolCode": "3303",
+      "majorKey": "3d66465b",
+      "majorName": "化工与制药类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 565,
+          "minRank": 11340,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3303",
+      "majorKey": "710bfc36",
+      "majorName": "机械类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 585,
+          "minRank": 7806,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3303",
+      "majorKey": "5e0efed0",
+      "majorName": "电子信息类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 585,
+          "minRank": 7806,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3303",
+      "majorKey": "41174006",
+      "majorName": "药学类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 563,
+          "minRank": 11706,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械类",
+          "majorKey": "710bfc36",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 7806,
+          "equivRank": 7806
+        },
+        {
+          "majorName": "电子信息类",
+          "majorKey": "5e0efed0",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 7806,
+          "equivRank": 7806
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "化工与制药类",
+          "majorKey": "3d66465b",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 11340,
+          "equivRank": 11340
+        },
+        {
+          "majorName": "药学类",
+          "majorKey": "41174006",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 11706,
+          "equivRank": 11706
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "code": "0241",
+  "name": "哈尔滨师范大学",
+  "leaves": [
+    {
+      "schoolCode": "0241",
+      "majorKey": "f9ecceea",
+      "majorName": "地理信息科学",
+      "selKe": "首选物理，再选地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 518,
+          "minRank": 63821,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0241",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 564,
+          "minRank": 8431,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0241",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 510,
+          "minRank": 72579,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0241",
+      "majorKey": "8f1def37",
+      "majorName": "日语",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 469,
+          "minRank": 124774,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0241",
+      "majorKey": "1da18825",
+      "majorName": "物联网工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 514,
+          "minRank": 68184,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0241",
+      "majorKey": "e2472a71",
+      "majorName": "生物科学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 511,
+          "minRank": 71510,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0241",
+      "majorKey": "14856541",
+      "majorName": "电子信息科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 514,
+          "minRank": 68184,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第101组",
+      "groupName": "第101组",
+      "track": "历史",
+      "selKe": "历史,思想政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "历史,思想政治",
+          "plan": 2,
+          "tuition": "2800",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 8431,
+          "equivRank": 8431
+        }
+      ]
+    },
+    {
+      "groupCode": "第501组",
+      "groupName": "第501组",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "日语",
+          "majorKey": "8f1def37",
+          "selKe": "物理",
+          "plan": 5,
+          "tuition": "4800",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 124774,
+          "equivRank": 124774
+        }
+      ]
+    },
+    {
+      "groupCode": "第502组",
+      "groupName": "第502组",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "2800",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 71510,
+          "equivRank": 71510
+        },
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "3000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 72579,
+          "equivRank": 72579
+        },
+        {
+          "majorName": "电子信息科学与技术",
+          "majorKey": "14856541",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 68184,
+          "equivRank": 68184
+        },
+        {
+          "majorName": "物联网工程",
+          "majorKey": "1da18825",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 68184,
+          "equivRank": 68184
+        }
+      ]
+    }
+  ]
+}

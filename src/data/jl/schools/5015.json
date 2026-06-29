@@ -1,0 +1,180 @@
+{
+  "code": "5015",
+  "name": "重庆科技大学",
+  "leaves": [
+    {
+      "schoolCode": "5015",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 556,
+          "minRank": 3439,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 544,
+          "minRank": 15624,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5015",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 531,
+          "minRank": 18538,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5015",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 533,
+          "minRank": 18072,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5015",
+      "majorKey": "f0f8c4c6",
+      "majorName": "石油工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 527,
+          "minRank": 19484,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5015",
+      "majorKey": "0c33cbdd",
+      "majorName": "软件工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 529,
+          "minRank": 19040,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5625",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 3439,
+          "equivRank": 3439
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5625",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 15624,
+          "equivRank": 15624
+        }
+      ]
+    },
+    {
+      "groupCode": "第 003 组",
+      "groupName": "第 003 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5625",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 18538,
+          "equivRank": 18538
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5625",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 18072,
+          "equivRank": 18072
+        },
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5625",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 19040,
+          "equivRank": 19040
+        },
+        {
+          "majorName": "石油工程",
+          "majorKey": "f0f8c4c6",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 19484,
+          "equivRank": 19484
+        }
+      ]
+    }
+  ]
+}

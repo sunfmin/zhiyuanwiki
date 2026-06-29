@@ -1,0 +1,76 @@
+{
+  "code": "5320",
+  "name": "云南警官学院",
+  "leaves": [
+    {
+      "schoolCode": "5320",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "历史,政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 538,
+          "minRank": 4754,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5320",
+      "majorKey": "3093c484",
+      "majorName": "网络空间安全",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 493,
+          "minRank": 28205,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "历史",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "政治",
+          "plan": 3,
+          "tuition": "4500",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 4754,
+          "equivRank": 4754
+        }
+      ]
+    },
+    {
+      "groupCode": "第 003 组",
+      "groupName": "第 003 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "网络空间安全",
+          "majorKey": "3093c484",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 28205,
+          "equivRank": 28205
+        }
+      ]
+    }
+  ]
+}

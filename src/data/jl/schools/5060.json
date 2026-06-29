@@ -1,0 +1,162 @@
+{
+  "code": "5060",
+  "name": "西南大学",
+  "leaves": [
+    {
+      "schoolCode": "5060",
+      "majorKey": "dedf828b",
+      "majorName": "乡村治理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 572,
+          "minRank": 2418,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5060",
+      "majorKey": "92a7a2c0",
+      "majorName": "动物医学类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 562,
+          "minRank": 11931,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5060",
+      "majorKey": "ca01c9a2",
+      "majorName": "动物科学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 525,
+          "minRank": 19978,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5060",
+      "majorKey": "a648c305",
+      "majorName": "动物药学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 561,
+          "minRank": 12132,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5060",
+      "majorKey": "19fc7b41",
+      "majorName": "水产类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 558,
+          "minRank": 12702,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "乡村治理",
+          "majorKey": "dedf828b",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 2418,
+          "equivRank": 2418
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "动物医学类",
+          "majorKey": "92a7a2c0",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "3700",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 11931,
+          "equivRank": 11931
+        },
+        {
+          "majorName": "动物药学",
+          "majorKey": "a648c305",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "3700",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 12132,
+          "equivRank": 12132
+        },
+        {
+          "majorName": "水产类",
+          "majorKey": "19fc7b41",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "3700",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 12702,
+          "equivRank": 12702
+        }
+      ]
+    },
+    {
+      "groupCode": "第 003 组",
+      "groupName": "第 003 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "动物科学",
+          "majorKey": "ca01c9a2",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "40000",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 19978,
+          "equivRank": 19978
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "code": "1011",
+  "name": "北京服装学院",
+  "leaves": [
+    {
+      "schoolCode": "1011",
+      "majorKey": "b74128f4",
+      "majorName": "工商管理类",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 453,
+          "minRank": 50921,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1011",
+      "majorKey": "90cd213e",
+      "majorName": "服装设计与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 482,
+          "minRank": 36344,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1011",
+      "majorKey": "d4e859f9",
+      "majorName": "轻化工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 460,
+          "minRank": 47226,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1011",
+      "majorKey": "fc81313f",
+      "majorName": "高分子材料与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 460,
+          "minRank": 47226,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "工商管理类[工商管理、市场营销、文化产业管理]",
+          "majorKey": "17b05584",
+          "selKe": "不提科目要求",
+          "plan": 5,
+          "tuition": "4200",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "服装设计与工程",
+          "majorKey": "90cd213e",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 36344,
+          "equivRank": 36344
+        },
+        {
+          "majorName": "高分子材料与工程",
+          "majorKey": "fc81313f",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 47226,
+          "equivRank": 47226
+        },
+        {
+          "majorName": "轻化工程",
+          "majorKey": "d4e859f9",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 47226,
+          "equivRank": 47226
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "code": "5125",
+  "name": "乐山师范学院",
+  "leaves": [
+    {
+      "schoolCode": "5125",
+      "majorKey": "4428fd77",
+      "majorName": "商务英语",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 506,
+          "minRank": 7504,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5125",
+      "majorKey": "b534555a",
+      "majorName": "科学教育",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 421,
+          "minRank": 49343,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "商务英语",
+          "majorKey": "4428fd77",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5520",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 7504,
+          "equivRank": 7504
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "科学教育",
+          "majorKey": "b534555a",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5520",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 49343,
+          "equivRank": 49343
+        }
+      ]
+    }
+  ]
+}

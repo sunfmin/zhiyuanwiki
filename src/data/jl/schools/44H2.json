@@ -1,0 +1,102 @@
+{
+  "code": "44H2",
+  "name": "佛山大学",
+  "leaves": [
+    {
+      "schoolCode": "44H2",
+      "majorKey": "b308db6c",
+      "majorName": "储能科学与工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 481,
+          "minRank": 31557,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "44H2",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 468,
+          "minRank": 35273,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "44H2",
+      "majorKey": "14eeb10f",
+      "majorName": "生物工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 468,
+          "minRank": 35273,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5510",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 35273,
+          "equivRank": 35273
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "储能科学与工程",
+          "majorKey": "b308db6c",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "6850",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 31557,
+          "equivRank": 31557
+        },
+        {
+          "majorName": "生物工程",
+          "majorKey": "14eeb10f",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "6230",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 35273,
+          "equivRank": 35273
+        }
+      ]
+    }
+  ]
+}

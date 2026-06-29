@@ -1,0 +1,212 @@
+{
+  "code": "3494",
+  "name": "安顺学院",
+  "leaves": [
+    {
+      "schoolCode": "3494",
+      "majorKey": "1af04f46",
+      "majorName": "中国共产党历史",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 460,
+          "minRank": 15155,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3494",
+      "majorKey": "db64bbd6",
+      "majorName": "信用风险管理与法律防控",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 466,
+          "minRank": 13969,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3494",
+      "majorKey": "c10bcf22",
+      "majorName": "农学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 440,
+          "minRank": 58062,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3494",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 461,
+          "minRank": 46710,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3494",
+      "majorKey": "e0d708da",
+      "majorName": "特殊教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 457,
+          "minRank": 15742,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3494",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 469,
+          "minRank": 42562,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "特殊教育",
+          "majorKey": "e0d708da",
+          "selKe": "不提科目要求",
+          "plan": 1,
+          "tuition": "4100",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 15742,
+          "equivRank": 15742
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "思想政治",
+      "majors": [
+        {
+          "majorName": "中国共产党历史",
+          "majorKey": "1af04f46",
+          "selKe": "思想政治",
+          "plan": 1,
+          "tuition": "4100",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 15155,
+          "equivRank": 15155
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "历史",
+      "selKe": "思想政治",
+      "majors": [
+        {
+          "majorName": "信用风险管理与法律防控",
+          "majorKey": "db64bbd6",
+          "selKe": "思想政治",
+          "plan": 1,
+          "tuition": "4100",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 13969,
+          "equivRank": 13969
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "004",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "4200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 42562,
+          "equivRank": 42562
+        }
+      ]
+    },
+    {
+      "groupCode": "005",
+      "groupName": "005",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "4200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 46710,
+          "equivRank": 46710
+        }
+      ]
+    },
+    {
+      "groupCode": "006",
+      "groupName": "006",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "农学",
+          "majorKey": "c10bcf22",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "3830",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 58062,
+          "equivRank": 58062
+        }
+      ]
+    }
+  ]
+}

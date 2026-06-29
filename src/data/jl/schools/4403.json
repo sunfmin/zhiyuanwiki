@@ -1,0 +1,154 @@
+{
+  "code": "4403",
+  "name": "汕头大学",
+  "leaves": [
+    {
+      "schoolCode": "4403",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 561,
+          "minRank": 12132,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4403",
+      "majorKey": "2363aecb",
+      "majorName": "智能建造",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 552,
+          "minRank": 13931,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4403",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 569,
+          "minRank": 2589,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4403",
+      "majorKey": "fff04889",
+      "majorName": "网络与新媒体",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 562,
+          "minRank": 3025,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4403",
+      "majorKey": "062bcf46",
+      "majorName": "行政管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 561,
+          "minRank": 3092,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5510",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 2589,
+          "equivRank": 2589
+        },
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5510",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 3025,
+          "equivRank": 3025
+        },
+        {
+          "majorName": "行政管理",
+          "majorKey": "062bcf46",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5510",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 3092,
+          "equivRank": 3092
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6850",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 12132,
+          "equivRank": 12132
+        },
+        {
+          "majorName": "智能建造",
+          "majorKey": "2363aecb",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6850",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 13931,
+          "equivRank": 13931
+        }
+      ]
+    }
+  ]
+}

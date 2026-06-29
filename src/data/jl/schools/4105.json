@@ -1,0 +1,188 @@
+{
+  "code": "4105",
+  "name": "河南农业大学",
+  "leaves": [
+    {
+      "schoolCode": "4105",
+      "majorKey": "09523c1b",
+      "majorName": "动物生产类",
+      "selKe": "物理,化学,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 468,
+          "minRank": 35273,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4105",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 528,
+          "minRank": 19267,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4105",
+      "majorKey": "8f1a8b4f",
+      "majorName": "植物生产类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 522,
+          "minRank": 20714,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4105",
+      "majorKey": "19b5f252",
+      "majorName": "烟草",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 542,
+          "minRank": 16042,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4105",
+      "majorKey": "3410d8fb",
+      "majorName": "轻工类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 557,
+          "minRank": 12878,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4105",
+      "majorKey": "f470cf1b",
+      "majorName": "饲料工程",
+      "selKe": "物理,化学,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 464,
+          "minRank": 36420,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 19267,
+          "equivRank": 19267
+        },
+        {
+          "majorName": "烟草",
+          "majorKey": "19b5f252",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 16042,
+          "equivRank": 16042
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "轻工类",
+          "majorKey": "3410d8fb",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 12878,
+          "equivRank": 12878
+        },
+        {
+          "majorName": "植物生产类",
+          "majorKey": "8f1a8b4f",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 20714,
+          "equivRank": 20714
+        }
+      ]
+    },
+    {
+      "groupCode": "第 003 组",
+      "groupName": "第 003 组",
+      "track": "物理",
+      "selKe": "化学和生物",
+      "majors": [
+        {
+          "majorName": "动物生产类",
+          "majorKey": "09523c1b",
+          "selKe": "化学和生物",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 35273,
+          "equivRank": 35273
+        },
+        {
+          "majorName": "饲料工程",
+          "majorKey": "f470cf1b",
+          "selKe": "化学和生物",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 36420,
+          "equivRank": 36420
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "code": "3413",
+  "name": "成都银杏酒店管理学院",
+  "leaves": [
+    {
+      "schoolCode": "3413",
+      "majorKey": "87f6e6a2",
+      "majorName": "审计学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 424,
+          "minRank": 22649,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 400,
+          "minRank": 80544,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3413",
+      "majorKey": "8742ced2",
+      "majorName": "烹饪与营养教育",
+      "selKe": "首选物理，再选生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 377,
+          "minRank": 92361,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3413",
+      "majorKey": "ec686c36",
+      "majorName": "酒店管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 426,
+          "minRank": 22245,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 398,
+          "minRank": 81669,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "酒店管理",
+          "majorKey": "ec686c36",
+          "selKe": "不提科目要求",
+          "plan": 3,
+          "tuition": "15900",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 22245,
+          "equivRank": 22245
+        },
+        {
+          "majorName": "审计学",
+          "majorKey": "87f6e6a2",
+          "selKe": "不提科目要求",
+          "plan": 1,
+          "tuition": "15900",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 22649,
+          "equivRank": 22649
+        },
+        {
+          "majorName": "市场营销",
+          "majorKey": "28c62e21",
+          "selKe": "不提科目要求",
+          "plan": 2,
+          "tuition": "15900",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "酒店管理",
+          "majorKey": "ec686c36",
+          "selKe": "不提科目要求",
+          "plan": 2,
+          "tuition": "15900",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 81669,
+          "equivRank": 81669
+        },
+        {
+          "majorName": "审计学",
+          "majorKey": "87f6e6a2",
+          "selKe": "不提科目要求",
+          "plan": 1,
+          "tuition": "15900",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 80544,
+          "equivRank": 80544
+        },
+        {
+          "majorName": "市场营销",
+          "majorKey": "28c62e21",
+          "selKe": "不提科目要求",
+          "plan": 1,
+          "tuition": "15900",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "物理,生物",
+      "majors": [
+        {
+          "majorName": "烹饪与营养教育",
+          "majorKey": "8742ced2",
+          "selKe": "物理,生物",
+          "plan": 5,
+          "tuition": "15900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 92361,
+          "equivRank": 92361
+        }
+      ]
+    }
+  ]
+}

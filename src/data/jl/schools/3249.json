@@ -1,0 +1,154 @@
+{
+  "code": "3249",
+  "name": "江苏第二师范学院",
+  "leaves": [
+    {
+      "schoolCode": "3249",
+      "majorKey": "7d0b62a8",
+      "majorName": "俄语",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 508,
+          "minRank": 7315,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3249",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 515,
+          "minRank": 6697,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3249",
+      "majorKey": "653f630d",
+      "majorName": "物理学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 505,
+          "minRank": 24980,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3249",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 516,
+          "minRank": 6601,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3249",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 503,
+          "minRank": 25490,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 6697,
+          "equivRank": 6697
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 6601,
+          "equivRank": 6601
+        },
+        {
+          "majorName": "俄语",
+          "majorKey": "7d0b62a8",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 7315,
+          "equivRank": 7315
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 24980,
+          "equivRank": 24980
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 25490,
+          "equivRank": 25490
+        }
+      ]
+    }
+  ]
+}

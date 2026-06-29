@@ -1,0 +1,120 @@
+{
+  "code": "3321",
+  "name": "台州学院",
+  "leaves": [
+    {
+      "schoolCode": "3321",
+      "majorKey": "28bd788f",
+      "majorName": "制药工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 455,
+          "minRank": 39104,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3321",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 454,
+          "minRank": 39384,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3321",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 457,
+          "minRank": 38506,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3321",
+      "majorKey": "98867766",
+      "majorName": "材料成型及控制工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 472,
+          "minRank": 34050,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "材料成型及控制工程",
+          "majorKey": "98867766",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 34050,
+          "equivRank": 34050
+        },
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 39384,
+          "equivRank": 39384
+        },
+        {
+          "majorName": "制药工程",
+          "majorKey": "28bd788f",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 39104,
+          "equivRank": 39104
+        },
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6300",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 38506,
+          "equivRank": 38506
+        }
+      ]
+    }
+  ]
+}

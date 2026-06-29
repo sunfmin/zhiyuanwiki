@@ -1,0 +1,257 @@
+{
+  "code": "2200",
+  "name": "大连外国语大学",
+  "leaves": [
+    {
+      "schoolCode": "2200",
+      "majorKey": "df0f6208",
+      "majorName": "外交学",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 565,
+          "minRank": 8170,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 522,
+          "minRank": 59715,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2200",
+      "majorKey": "c3651db1",
+      "majorName": "德语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 557,
+          "minRank": 10420,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 500,
+          "minRank": 84381,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2200",
+      "majorKey": "8f1def37",
+      "majorName": "日语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 551,
+          "minRank": 12386,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 499,
+          "minRank": 85623,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2200",
+      "majorKey": "b2ff5185",
+      "majorName": "朝鲜语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 549,
+          "minRank": 13070,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 504,
+          "minRank": 79542,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2200",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 556,
+          "minRank": 10711,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 508,
+          "minRank": 74814,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第101组",
+      "groupName": "第101组",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "日语",
+          "majorKey": "8f1def37",
+          "selKe": "历史",
+          "plan": 10,
+          "tuition": "8000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 12386,
+          "equivRank": 12386
+        },
+        {
+          "majorName": "德语",
+          "majorKey": "c3651db1",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "8000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 10420,
+          "equivRank": 10420
+        },
+        {
+          "majorName": "朝鲜语",
+          "majorKey": "b2ff5185",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "8000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 13070,
+          "equivRank": 13070
+        }
+      ]
+    },
+    {
+      "groupCode": "第102组",
+      "groupName": "第102组",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "历史",
+          "plan": 10,
+          "tuition": "8000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 10711,
+          "equivRank": 10711
+        }
+      ]
+    },
+    {
+      "groupCode": "第103组",
+      "groupName": "第103组",
+      "track": "历史",
+      "selKe": "历史,思想政治",
+      "majors": [
+        {
+          "majorName": "外交学",
+          "majorKey": "df0f6208",
+          "selKe": "历史,思想政治",
+          "plan": 1,
+          "tuition": "8000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 8170,
+          "equivRank": 8170
+        }
+      ]
+    },
+    {
+      "groupCode": "第501组",
+      "groupName": "第501组",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "日语",
+          "majorKey": "8f1def37",
+          "selKe": "物理",
+          "plan": 10,
+          "tuition": "8000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 85623,
+          "equivRank": 85623
+        },
+        {
+          "majorName": "德语",
+          "majorKey": "c3651db1",
+          "selKe": "物理",
+          "plan": 4,
+          "tuition": "8000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 84381,
+          "equivRank": 84381
+        },
+        {
+          "majorName": "朝鲜语",
+          "majorKey": "b2ff5185",
+          "selKe": "物理",
+          "plan": 4,
+          "tuition": "8000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 79542,
+          "equivRank": 79542
+        }
+      ]
+    },
+    {
+      "groupCode": "第502组",
+      "groupName": "第502组",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "物理",
+          "plan": 10,
+          "tuition": "8000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 74814,
+          "equivRank": 74814
+        }
+      ]
+    }
+  ]
+}

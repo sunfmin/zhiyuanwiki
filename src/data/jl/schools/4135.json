@@ -1,0 +1,154 @@
+{
+  "code": "4135",
+  "name": "黄河科技学院",
+  "leaves": [
+    {
+      "schoolCode": "4135",
+      "majorKey": "d2914bfd",
+      "majorName": "农业工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 385,
+          "minRank": 59488,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4135",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 389,
+          "minRank": 58409,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4135",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 382,
+          "minRank": 60287,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4135",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 451,
+          "minRank": 13778,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 398,
+          "minRank": 55949,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "15000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 13778,
+          "equivRank": 13778
+        }
+      ]
+    },
+    {
+      "groupCode": "第 002 组",
+      "groupName": "第 002 组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "15000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 55949,
+          "equivRank": 55949
+        }
+      ]
+    },
+    {
+      "groupCode": "第 003 组",
+      "groupName": "第 003 组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "化学",
+          "plan": 7,
+          "tuition": "16000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 60287,
+          "equivRank": 60287
+        },
+        {
+          "majorName": "农业工程",
+          "majorKey": "d2914bfd",
+          "selKe": "化学",
+          "plan": 8,
+          "tuition": "16000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 59488,
+          "equivRank": 59488
+        },
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "化学",
+          "plan": 8,
+          "tuition": "17000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 58409,
+          "equivRank": 58409
+        }
+      ]
+    }
+  ]
+}

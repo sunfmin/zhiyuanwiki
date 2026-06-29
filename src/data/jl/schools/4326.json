@@ -1,0 +1,110 @@
+{
+  "code": "4326",
+  "name": "长沙学院",
+  "leaves": [
+    {
+      "schoolCode": "4326",
+      "majorKey": "d7013734",
+      "majorName": "人文地理与城乡规划",
+      "selKe": "历史,地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 495,
+          "minRank": 8606,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4326",
+      "majorKey": "30e8a552",
+      "majorName": "公共事业管理",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 442,
+          "minRank": 43111,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4326",
+      "majorKey": "4166f1ff",
+      "majorName": "工程管理",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 427,
+          "minRank": 47554,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第 001 组",
+      "groupName": "第 001 组",
+      "track": "历史",
+      "selKe": "地理",
+      "majors": [
+        {
+          "majorName": "人文地理与城乡规划",
+          "majorKey": "d7013734",
+          "selKe": "地理",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 8606,
+          "equivRank": 8606
+        }
+      ]
+    },
+    {
+      "groupCode": "第 005 组",
+      "groupName": "第 005 组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "工程管理",
+          "majorKey": "4166f1ff",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 47554,
+          "equivRank": 47554
+        }
+      ]
+    },
+    {
+      "groupCode": "第 006 组",
+      "groupName": "第 006 组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "公共事业管理",
+          "majorKey": "30e8a552",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 43111,
+          "equivRank": 43111
+        }
+      ]
+    }
+  ]
+}

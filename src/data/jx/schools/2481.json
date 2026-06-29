@@ -1,0 +1,204 @@
+{
+  "code": "2481",
+  "name": "滨州医学院",
+  "leaves": [
+    {
+      "schoolCode": "2481",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 551,
+          "minRank": 34409,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2481",
+      "majorKey": "55e3bd26",
+      "majorName": "信息管理与信息系统",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 508,
+          "minRank": 74814,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2481",
+      "majorKey": "30e8a552",
+      "majorName": "公共事业管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 513,
+          "minRank": 30102,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2481",
+      "majorKey": "59687759",
+      "majorName": "应用心理学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 537,
+          "minRank": 17715,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2481",
+      "majorKey": "e0d708da",
+      "majorName": "特殊教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 531,
+          "minRank": 20472,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2481",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 485,
+          "minRank": 103528,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第101组",
+      "groupName": "第101组",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "公共事业管理",
+          "majorKey": "30e8a552",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "6325",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 30102,
+          "equivRank": 30102
+        }
+      ]
+    },
+    {
+      "groupCode": "第102组",
+      "groupName": "第102组",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "应用心理学",
+          "majorKey": "59687759",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "6325",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 17715,
+          "equivRank": 17715
+        },
+        {
+          "majorName": "特殊教育",
+          "majorKey": "e0d708da",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5060",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 20472,
+          "equivRank": 20472
+        }
+      ]
+    },
+    {
+      "groupCode": "第501组",
+      "groupName": "第501组",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "信息管理与信息系统",
+          "majorKey": "55e3bd26",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "6325",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 74814,
+          "equivRank": 74814
+        }
+      ]
+    },
+    {
+      "groupCode": "第502组",
+      "groupName": "第502组",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 8,
+          "tuition": "7920",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 34409,
+          "equivRank": 34409
+        }
+      ]
+    },
+    {
+      "groupCode": "第503组",
+      "groupName": "第503组",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "7590",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 103528,
+          "equivRank": 103528
+        }
+      ]
+    }
+  ]
+}
