@@ -56,6 +56,9 @@ var provinces = map[string]province{
 	"sd":    {slug: "sd", name: "山东", tracks: []string{"综合"}, model: "major"},
 	// 天津：综合+院校专业组（group），计划表院校代码由专业组代码剥后缀得，自定义 tj.ParsePlan。
 	"tj": {slug: "tj", name: "天津", tracks: []string{"综合"}, model: "group"},
+	// 新疆：老高考（老文理 理科/文科，专业平行志愿，无院校专业组）→ major 模型。专属 internal/xj 解析
+	// （keep={理科,文科}，不并入 group3p12 默认 keep）。前端走 subjectMode="wenli"（无选科）。见 issue #27。
+	"xj": {slug: "xj", name: "新疆", tracks: []string{"理科", "文科"}, model: "major"},
 }
 
 // trackSlug 把科类名映射成 ascii 文件名片段（定位索引/一分一段文件名）。
@@ -64,6 +67,8 @@ var trackSlug = map[string]string{
 	"物理": "wuli",
 	"历史": "lishi",
 	"综合": "zonghe",
+	"理科": "like", // 老文理（新疆）
+	"文科": "wenke",
 }
 
 // mustProv 解析 -prov 值为省份配置；未知 slug 直接退出。

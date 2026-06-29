@@ -42,11 +42,13 @@ const REACH_CLS: Record<ReachLevel, string> = {
 export default function Locator({ prov, table }: { prov: string; table: YiFenYiDuan }) {
   const cfg = provinceConfig(prov);
   const multiTrack = cfg.tracks.length > 1;
+  // wenli：老高考（新疆 理科/文科）——无选科，仅理科/文科科类切换；选科判定恒真、隐藏选科区。
+  const wenli = cfg.subjectMode === "wenli";
   // pick3：综合「选3」模型——浙江 7选3（含技术）与北京/上海/海南/山东 6选3（无技术）共用同一套
   // 选科判定（selKeAllowsZJ）与「最多 3 科」逻辑，仅候选科目表不同。
   const pick3 = cfg.subjectMode === "pick3of7" || cfg.subjectMode === "pick3of6";
   const pick3Subjects = cfg.subjectMode === "pick3of7" ? ZJ_SUBJECTS : PICK3_SUBJECTS;
-  const matchSelKe = pick3 ? selKeAllowsZJ : selKeAllows;
+  const matchSelKe = wenli ? () => true : pick3 ? selKeAllowsZJ : selKeAllows;
   const unit = cfg.fillModel === "group" ? "院校专业组" : "院校×专业";
   const LS_KEY = `dingwei.input.${prov}`;
 
@@ -130,8 +132,10 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
       .finally(() => setLoading(false));
   }, [prov, track]);
 
-  // 已选科目集合：黑龙江=首选+再选；浙江=7选3 所选。
+  // 已选科目集合：老文理(wenli)无选科→空集（matchSelKe 恒真，集合不参与判定）；
+  // 黑龙江=首选+再选；浙江=7选3 所选。
   const chosen = useMemo(() => {
+    if (wenli) return new Set<string>();
     if (pick3) {
       const s = new Set<string>();
       for (const k of pick3Subjects) if (sel[k]) s.add(k);
@@ -140,7 +144,7 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
     const s = new Set<string>([track]);
     for (const k of PRIMARY_RESELECT) if (sel[k]) s.add(k);
     return s;
-  }, [track, sel, pick3]);
+  }, [track, sel, pick3, wenli]);
 
   const V = useMemo(() => {
     const n = parseInt(val, 10);
@@ -322,7 +326,8 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
                 <div class="inline-flex rounded-lg bg-slate-100 p-0.5">
                   {cfg.tracks.map((t) => (
                     <button type="button" onClick={() => setTrack(t.name)} class={seg(track === t.name)}>
-                      {t.name}类
+                      {t.name}
+                      {wenli ? "" : "类"}
                     </button>
                   ))}
                 </div>
@@ -346,22 +351,25 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
                 class="w-28 rounded-lg border border-slate-300 px-3 py-1.5 text-sm focus:border-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-200"
               />
             </div>
-            <div class="flex flex-wrap items-center gap-1.5">
-              <span class="text-xs text-slate-400">
-                {pick3 ? `选考科目（${pick3Subjects.length}选3）` : "再选科目"}
-              </span>
-              {(pick3 ? pick3Subjects : PRIMARY_RESELECT).map((s) => (
-                <button
-                  type="button"
-                  onClick={() => toggleSubject(s)}
-                  class={`rounded-full px-2.5 py-0.5 text-xs font-medium transition ${
-                    sel[s] ? "bg-slate-800 text-white" : "border border-slate-300 text-slate-500 hover:border-slate-400"
-                  }`}
-                >
-                  {s}
-                </button>
-              ))}
-            </div>
+            {/* 老文理(wenli)无选科，隐藏整个选科区；其余省份显再选/选考科目 chip。 */}
+            {!wenli && (
+              <div class="flex flex-wrap items-center gap-1.5">
+                <span class="text-xs text-slate-400">
+                  {pick3 ? `选考科目（${pick3Subjects.length}选3）` : "再选科目"}
+                </span>
+                {(pick3 ? pick3Subjects : PRIMARY_RESELECT).map((s) => (
+                  <button
+                    type="button"
+                    onClick={() => toggleSubject(s)}
+                    class={`rounded-full px-2.5 py-0.5 text-xs font-medium transition ${
+                      sel[s] ? "bg-slate-800 text-white" : "border border-slate-300 text-slate-500 hover:border-slate-400"
+                    }`}
+                  >
+                    {s}
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
 
           <div class="shrink-0 sm:text-right">
@@ -372,7 +380,8 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
                   {V.toLocaleString()}
                 </div>
                 <div class="mt-1 text-xs text-slate-500">
-                  {track}类 · 等效到 {cfg.fenduanYear} · 越小越靠前
+                  {track}
+                  {wenli ? "" : "类"} · 等效到 {cfg.fenduanYear} · 越小越靠前
                 </div>
               </>
             ) : (
@@ -382,8 +391,12 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
             )}
           </div>
         </div>
-        {multiTrack && !canScore && (
+        {multiTrack && !canScore && !wenli && (
           <p class="mt-3 text-xs text-amber-700">{track}类暂缺 {cfg.fenduanYear} 一分一段，请直接输入位次。</p>
+        )}
+        {/* 老文理：文科按位次定位（分数↔位次换算仅理科接入），用中性提示替代「暂缺」误导文案。 */}
+        {wenli && !canScore && (
+          <p class="mt-3 text-xs text-slate-500">{track}按位次定位（分数换算仅理科）。</p>
         )}
       </div>
 

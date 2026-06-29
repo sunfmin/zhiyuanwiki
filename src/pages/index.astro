@@ -18,10 +18,15 @@ const rows = buildProvinceRows(
   (slug) => benkePlanOf(slug),
 );
 
-// 新高考模式（省情轴，配置派生）：3+1+2 物理/历史 或 3+3 综合。
+// 高考模式（省情轴，配置派生）：老高考 理科/文科（新疆）、3+3 综合 或 3+1+2 物理/历史。
 function modeLabel(slug: string): string {
   const c = provinceConfig(slug);
-  const mode = c.subjectMode === "pick3of7" || c.subjectMode === "pick3of6" ? "3+3" : "3+1+2";
+  const mode =
+    c.subjectMode === "wenli"
+      ? "老高考"
+      : c.subjectMode === "pick3of7" || c.subjectMode === "pick3of6"
+        ? "3+3"
+        : "3+1+2";
   return `${mode} · ${c.tracks.map((t) => t.name).join("/")}`;
 }
 const fmt = (n: number) => n.toLocaleString("zh-CN");
@@ -54,7 +59,7 @@ const liveCount = rows.filter((r) => r.live).length;
             </th>
           </tr>
           <tr class="text-xs text-slate-500">
-            <th class="border-l border-slate-200 px-3 py-1.5 text-left font-medium">新高考</th>
+            <th class="border-l border-slate-200 px-3 py-1.5 text-left font-medium">高考模式</th>
             <th class="px-3 py-1.5 text-right font-medium">本省院校</th>
             <th class="px-3 py-1.5 text-right font-medium">高考人数<sup class="text-slate-300">*</sup></th>
             <th class="px-3 py-1.5 text-right font-medium">本科线<sup class="text-slate-300">†</sup></th>

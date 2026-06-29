@@ -25,7 +25,7 @@ func TestParseScores(t *testing.T) {
 		{"2025", "某艺院", "8801", "艺术类（物理）", "艺术类本科批", "音乐", "", "", "500", "5000"}, // 艺术科类 → 丢
 		{"2025", "无位次校", "7777", "物理类", "本科批", "X", "", "", "500", ""},            // 无位次 → 丢
 	}
-	got := parseScores(sheet(t, rows, scoreHeader))
+	got := parseScores(sheet(t, rows, scoreHeader), keep)
 	if len(got) != 2 {
 		t.Fatalf("want 2 行（仅物理/历史本科含位次），got %d: %+v", len(got), got)
 	}
@@ -46,7 +46,7 @@ func TestParsePlanGroupCodeColumn(t *testing.T) {
 		{"2025", "郑州大学", "1101", "物理类", "本科批", "计算机类（包含专业：软件工程、网络工程）（南校区）", "05", "第05组", "首选物理", "30", "四年", "5800"},
 		{"2025", "某专科", "9999", "物理类", "专科批", "护理", "", "", "", "50", "三年", "6000"}, // 专科 → 丢
 	}
-	got := parsePlan(sheet(t, rows, planHeader))
+	got := parsePlan(sheet(t, rows, planHeader), keep)
 	if len(got) != 1 {
 		t.Fatalf("want 1 行，got %d", len(got))
 	}
@@ -70,7 +70,7 @@ func TestParsePlanGroupCodeFallback(t *testing.T) {
 		header,
 		{"2025", "南昌大学", "2201", "历史类", "本科批", "法学", "（03）", "首选历史", "12"},
 	}
-	got := parsePlan(sheet(t, rows, planHeader))
+	got := parsePlan(sheet(t, rows, planHeader), keep)
 	if len(got) != 1 {
 		t.Fatalf("want 1 行，got %d", len(got))
 	}
@@ -88,7 +88,7 @@ func TestParsePlanMajorColAndUnitSuffix(t *testing.T) {
 		header,
 		{"2025", "武汉大学", "3301", "物理", "本科批", "临床医学", "01", "（801）", "", "首选物理", "20", "五年", "5850"},
 	}
-	got := parsePlan(sheet(t, rows, planHeader))
+	got := parsePlan(sheet(t, rows, planHeader), keep)
 	if len(got) != 1 {
 		t.Fatalf("want 1 行，got %d", len(got))
 	}
@@ -110,7 +110,7 @@ func TestParseScoresZonghe(t *testing.T) {
 		{"2025", "复旦大学", "3001", "综合", "本科批", "经济学类", "01", "物理", "580", "1200"},
 		{"2025", "某校", "9999", "理科", "本科批", "X", "02", "", "500", "8000"}, // 老文理 理科 → 丢
 	}
-	got := parseScores(sheet(t, rows, scoreHeader))
+	got := parseScores(sheet(t, rows, scoreHeader), keep)
 	if len(got) != 1 {
 		t.Fatalf("want 1 行（仅综合），got %d: %+v", len(got), got)
 	}
@@ -128,7 +128,7 @@ func TestParsePlanColumnVariants(t *testing.T) {
 		{"本科", "物理类", "0004", "北京师范大学", "第501组", "金融学", "5000", "2", "物理", "四年"},
 		{"提前本科", "艺术(不分科目类)", "1001", "某艺院", "第A01组", "美术学", "8000", "0", "不限", "四年"}, // 艺术科类 → 丢
 	}
-	got := parsePlan(sheet(t, jx, planHeader))
+	got := parsePlan(sheet(t, jx, planHeader), keep)
 	if len(got) != 1 || got[0].Track != "物理" || got[0].GroupCode != "第501组" || got[0].Plan != 2 || got[0].SelKe != "物理" {
 		t.Fatalf("江西形解析错误: %+v", got)
 	}
@@ -138,7 +138,7 @@ func TestParsePlanColumnVariants(t *testing.T) {
 		{"批次", "文理", "选科要求", "院校代码", "院校名称", "组代码", "专业名称", "计划人数", "学费", "学制"},
 		{"本科批(C段)", "历史类", "不提科目要求", "3368", "阿坝师范学院", "001", "英语", "1", "4800", "四年"},
 	}
-	got = parsePlan(sheet(t, gs, planHeader))
+	got = parsePlan(sheet(t, gs, planHeader), keep)
 	if len(got) != 1 || got[0].Track != "历史" || got[0].GroupCode != "001" || got[0].Plan != 1 {
 		t.Fatalf("甘肃形解析错误: %+v", got)
 	}
@@ -148,7 +148,7 @@ func TestParsePlanColumnVariants(t *testing.T) {
 		{"年份", "批次", "科类", "院校代码", "院校名称", "专业组名称", "专业名称", "计划人数", "学制"},
 		{"2025", "本科批", "历史类", "1101", "北京大学", "第 001 组", "马克思主义理论类", "2", "4"},
 	}
-	got = parsePlan(sheet(t, jl, planHeader))
+	got = parsePlan(sheet(t, jl, planHeader), keep)
 	if len(got) != 1 || got[0].GroupCode != "第 001 组" || got[0].GroupName != "第 001 组" {
 		t.Fatalf("吉林形（组名兜底建组）解析错误: %+v", got)
 	}
@@ -163,7 +163,7 @@ func TestParseYiFenYiDuan(t *testing.T) {
 		{"2025", "历史类", "本科批", "438", "660", "10", "10"},
 		{"2025", "物理类", "专科批", "200", "300", "5", "9999"}, // 专科 → 丢
 	}
-	got := parseYiFenYiDuan(sheet(t, rows, yfdHeader), "河南", 2025)
+	got := parseYiFenYiDuan(sheet(t, rows, yfdHeader), "河南", 2025, keep)
 	if len(got) != 2 { // 物理 + 历史
 		t.Fatalf("want 2 个(科类)，got %d", len(got))
 	}

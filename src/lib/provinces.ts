@@ -3,8 +3,9 @@
 // 见 ADR-0009（多省份泛化）。
 
 export type FillModel = "group" | "major"; // 黑龙江=院校专业组；浙江=院校×专业（专业平行志愿）
-export type SubjectMode = "primary+reselect" | "pick3of7" | "pick3of6";
-// 黑龙江=首选物理/历史+再选；浙江=7选3（含技术）；北京/上海/海南/山东=6选3（无技术）
+export type SubjectMode = "primary+reselect" | "pick3of7" | "pick3of6" | "wenli";
+// 黑龙江=首选物理/历史+再选；浙江=7选3（含技术）；北京/上海/海南/山东=6选3（无技术）；
+// 新疆=wenli（老高考 理科/文科，无选科，仅科类切换）
 
 export interface TrackConf {
   name: string; // 科类名：物理 / 历史 / 综合
@@ -383,6 +384,20 @@ export const PROVINCES: Record<string, ProvinceConfig> = {
     fenduanYear: 2025,
     intro: "天津 · 2025",
     batchLabel: "本科批 · 综合（院校专业组）",
+  },
+  xj: {
+    slug: "xj",
+    name: "新疆",
+    tracks: [
+      { name: "理科", slug: "like" },
+      { name: "文科", slug: "wenke" },
+    ],
+    fillModel: "major",
+    subjectMode: "wenli", // 老高考：无选科，仅理科/文科切换
+    fenduanTrack: "理科", // 理科有 2025 一分一段可做分数↔位次；文科直接输位次
+    fenduanYear: 2025,
+    intro: "新疆 · 2025（老高考）",
+    batchLabel: "本科批 · 理科 / 文科（专业平行志愿）",
   },
 };
 

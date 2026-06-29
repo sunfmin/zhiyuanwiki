@@ -16,8 +16,10 @@ import (
 	"github.com/sunfmin/zhiyuanwiki/internal/core"
 )
 
-// keep 收口本站 group 模型的科类：3+1+2 省的 物理/历史，以及 3+3「综合+院校专业组」省（北京/上海/
-// 海南）的 综合。理科/文科（老文理）与艺术/体育不在内，会被过滤掉。
+// keep 收口本站新高考省的默认科类：3+1+2 省的 物理/历史，以及 3+3「综合+院校专业组」省（北京/上海/
+// 海南）的 综合。理科/文科（老文理）与艺术/体育不在内，会被过滤掉。老文理省（新疆，internal/xj）
+// 走 *With 变体传 {理科,文科}——不并入此默认集，否则会把重庆/贵州等省 22-24 年的老文理历史行
+// 一并吸入（那些 major 省正靠默认 keep 过滤掉改革前年份）。见 issue #27、ADR-0014。
 var keep = map[string]bool{"物理": true, "历史": true, "综合": true}
 
 // canonTrack 把源表科类归一为站点口径：物理类→物理、历史类→历史；综合/裸物理/裸历史 原样保留；
@@ -47,16 +49,21 @@ func scoreHeader(r []string) bool {
 	return core.HasCell(r, "院校代码") && core.HasCell(r, "最低位次")
 }
 
-// ParseScores 解析「专业录取分数」xlsx → 行表（仅物理/历史本科、含最低位次）。表头驱动。
+// ParseScores 解析「专业录取分数」xlsx → 行表（仅物理/历史/综合本科、含最低位次）。表头驱动。
 func ParseScores(path string) ([]core.MajorScoreRow, error) {
+	return ParseScoresWith(path, keep)
+}
+
+// ParseScoresWith 同 ParseScores，但用调用方给定的 keep 科类集合（老文理省 internal/xj 传 {理科,文科}）。
+func ParseScoresWith(path string, keep map[string]bool) ([]core.MajorScoreRow, error) {
 	s, err := core.OpenSheet(path, scoreHeader)
 	if err != nil {
 		return nil, err
 	}
-	return parseScores(s), nil
+	return parseScores(s, keep), nil
 }
 
-func parseScores(s *core.Sheet) []core.MajorScoreRow {
+func parseScores(s *core.Sheet, keep map[string]bool) []core.MajorScoreRow {
 	col := s.Col
 	cYear, cTrack, cBatch := col("年份"), col("科类"), col("批次")
 	cCode, cName := col("院校代码"), col("院校名称")
@@ -102,17 +109,22 @@ func planHeader(r []string) bool {
 		(core.HasCell(r, "招生人数") || core.HasCell(r, "计划人数") || core.HasCell(r, "计划数")) // 江西计划列名为「计划数」
 }
 
-// ParsePlan 解析「招生计划」xlsx → 计划行（仅物理/历史本科）。表头驱动。GroupCode 取专业组代码
+// ParsePlan 解析「招生计划」xlsx → 计划行（仅物理/历史/综合本科）。表头驱动。GroupCode 取专业组代码
 // 或所属专业组（双兜底）；专业名带括号尾注的用 StripParenTail 截断以按裸名挂接录取分数表。
 func ParsePlan(path string) ([]core.PlanRow, error) {
+	return ParsePlanWith(path, keep)
+}
+
+// ParsePlanWith 同 ParsePlan，但用调用方给定的 keep 科类集合（老文理省 internal/xj 传 {理科,文科}）。
+func ParsePlanWith(path string, keep map[string]bool) ([]core.PlanRow, error) {
 	s, err := core.OpenSheet(path, planHeader)
 	if err != nil {
 		return nil, err
 	}
-	return parsePlan(s), nil
+	return parsePlan(s, keep), nil
 }
 
-func parsePlan(s *core.Sheet) []core.PlanRow {
+func parsePlan(s *core.Sheet, keep map[string]bool) []core.PlanRow {
 	col := s.Col
 	cYear, cTrack, cBatch := col("年份"), col("科类", "文理"), col("批次") // 甘肃计划表 track 列名为「文理」
 	cCode, cName := col("院校代码"), col("院校名称")
@@ -172,14 +184,20 @@ func yfdHeader(r []string) bool {
 // ParseYiFenYiDuan 解析一分一段 xlsx（单文件含物理/历史，本科批），按 年×科类 分组。
 // 表头带单位后缀（分数(分)/本段人数(人)/累计人数(人)），列定位走 ColContains。
 func ParseYiFenYiDuan(path, province string, year int) ([]*core.YiFenYiDuan, error) {
+	return ParseYiFenYiDuanWith(path, province, year, keep)
+}
+
+// ParseYiFenYiDuanWith 同 ParseYiFenYiDuan，但用调用方给定的 keep 科类集合（老文理省 internal/xj
+// 传 {理科,文科}）。
+func ParseYiFenYiDuanWith(path, province string, year int, keep map[string]bool) ([]*core.YiFenYiDuan, error) {
 	s, err := core.OpenSheet(path, yfdHeader)
 	if err != nil {
 		return nil, err
 	}
-	return parseYiFenYiDuan(s, province, year), nil
+	return parseYiFenYiDuan(s, province, year, keep), nil
 }
 
-func parseYiFenYiDuan(s *core.Sheet, province string, year int) []*core.YiFenYiDuan {
+func parseYiFenYiDuan(s *core.Sheet, province string, year int, keep map[string]bool) []*core.YiFenYiDuan {
 	cTrack, cBatch := s.Col("科类"), s.Col("批次")
 	cScore := s.ColContains("分数", "分段")
 	cCount, cCum := s.ColContains("本段人数"), s.ColContains("累计")
@@ -190,7 +208,9 @@ func parseYiFenYiDuan(s *core.Sheet, province string, year int) []*core.YiFenYiD
 	for _, r := range s.Data {
 		track := canonTrack(core.Cell(r, cTrack))
 		batch := core.Cell(r, cBatch)
-		if !keep[track] || !batchKeep(batch) {
+		// 无「批次」列时（老文理一分一段，如新疆）跳过批次过滤——否则 batch="" 会被 batchKeep 清零；
+		// 这类表本身就是该科类全考生的整体分布（无批次细分），全留即正确。
+		if !keep[track] || (cBatch >= 0 && !batchKeep(batch)) {
 			continue
 		}
 		score, ok := core.ParseLeadingInt(core.Cell(r, cScore))

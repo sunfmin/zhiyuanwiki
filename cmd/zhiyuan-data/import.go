@@ -19,6 +19,7 @@ import (
 	"github.com/sunfmin/zhiyuanwiki/internal/sc"
 	"github.com/sunfmin/zhiyuanwiki/internal/store"
 	"github.com/sunfmin/zhiyuanwiki/internal/tj"
+	"github.com/sunfmin/zhiyuanwiki/internal/xj"
 )
 
 // importDefaultSrc 是新数据源（各省份/ 干净树）的默认根。见 ADR-0014。
@@ -51,6 +52,8 @@ var provDirName = map[string]string{
 	"hebei": "河北",
 	"sd":    "山东",
 	"tj":    "天津",
+	"xj":    "新疆", // 源在 各省份/新疆/新疆/新疆/ 下（嵌套多层，靠子树 glob）
+
 	"hb":    "湖北高考数据", // 各省份/ 下子目录带后缀
 	"yn":    "云南",
 	"henan": "河南", // slug 用 henan 避免与湖南 hn 冲突
@@ -124,6 +127,10 @@ var provParsers = map[string]provParser{
 	// 天津：综合+院校专业组（group），但计划表无院校代码（由专业组代码剥后缀得）+ 无科类列，自定义 tj.ParsePlan。
 	"tj": {Scores: group3p12.ParseScores, Plan: tj.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
 		ScoreMust: []string{"25年全国高校在天津的专业录取分数"}, PlanMust: []string{"天津-2025年-招生计划"}},
+	// 新疆：老文理（理科/文科）专属 xj 解析（keep={理科,文科}，yfd 无批次列）。ScoreMust 精确指向
+	// 「专业录取分数」以避开同目录的「院校录取分数」合表。计划/一分一段走默认子串。
+	"xj": {Scores: xj.ParseScores, Plan: xj.ParsePlan, YFD: xj.ParseYiFenYiDuan,
+		ScoreMust: []string{"22-25年全国高校在新疆的专业录取分数"}},
 	"hb": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
 		PlanMust: []string{"25年全国高校在湖北省的招生计划"}},
 	"yn": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
