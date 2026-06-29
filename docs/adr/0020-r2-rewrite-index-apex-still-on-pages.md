@@ -47,3 +47,14 @@ ADR-0019 断言 apex `zhiyuanwiki.com` 已在 R2，且「R2 自定义域**原生
 - **订正 ADR-0019** 的核心前提（apex 在 R2、R2 原生索引、R2 自带 clean-URL 308）及其「永不补 index.html」护栏。
 - **附带订正 ADR-0018** 部署节「R2 不支持 CRC32 → 501」一段：实测该 501 来自 rclone 上传后的校验 `HEAD …?versionId=`（R2 未实现 versionId），已在 deploy.yml 用 `--s3-no-head` 根治，与 CRC32 无关。
 - R2 托管、rclone 增量同步、缓存 Purge、`trailingSlash:'always'` 仍有效。
+
+## 更新（2026-06-29，apex 已切到 R2）
+
+apex `zhiyuanwiki.com` 的 cutover 已完成：
+
+- 从 Pages 项目移除该自定义域（dashboard）；其 R2 自定义域绑定本就 ssl-active（apex 曾**双挂** Pages + R2，Pages 在边缘抢先），释放后即由 R2 服务。
+- 把上面 Rewrite 的 host 条件扩到 `(http.host eq "zhiyuanwiki.com" or http.host eq "r2.zhiyuanwiki.com")`——**务必在 Pages 释放之后**才加 apex，否则复现死循环。
+- 整 zone `purge_everything` 清掉 Pages 残留缓存；apex 自定义域 minTLS `1.0 → 1.2`。
+- 实测（cache-busted，避开缓存）：apex `/`、`/zj/`、`/xj/`、`/gd/yuanxiao/10753/`、深层院校页（75 KB）、`/data/hn/locator-lishi.json`（1.7 MB）全 `200`，首页 `<title>` 正常；`/zj/yuanxiao/2219`（无斜杠）`404`（既定代价）；`/…/index.html` `200` 不成环。
+
+**Pages 项目保留**（仅摘掉 apex 自定义域，`zhiyuanwiki.pages.dev` 仍在）作回滚兜底：R2 若出问题，把 apex 自定义域重新加回 Pages 即回退。彻底退役可后续 `wrangler pages project delete zhiyuanwiki`。至此 ADR-0018 迁离 Pages 的初衷真正完成（apex 不再受 Pages 2 万文件顶约束）。
