@@ -38,7 +38,7 @@ jobs:
       - name: Install rclone
         run: sudo apt-get update && sudo apt-get install -y rclone
 
-      # 同步 dist → R2，前置「删除护栏」：若新构建 HTML 数比线上骤降（半截构建），中止以免 sync 误删全站。
+      # 同步 dist → R2：sync 语义即「让桶匹配 dist」（含删除多余对象）。
       - name: Sync dist to R2
         env:
           # rclone 经环境变量配 R2（S3 兼容），无需 config 文件。remote 名 = R2。
@@ -49,15 +49,16 @@ jobs:
           RCLONE_CONFIG_R2_ENDPOINT: https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
           RCLONE_CONFIG_R2_ACL: private
           RCLONE_CONFIG_R2_NO_CHECK_BUCKET: "true" # 对象级 token：跳过 HeadBucket（否则可能 403）
-          # R2 不支持 CRC32 校验和；AWS SDK / rclone 默认发 x-amz-checksum-crc32 → 501 NotImplemented。两层都关掉。
-          AWS_REQUEST_CHECKSUM_CALCULATION: WHEN_REQUIRED
-          RCLONE_CONFIG_R2_USE_DATA_INTEGRITY_PROTECTIONS: "false"
         run: |
           set -euo pipefail
           echo "新构建 HTML=$(find dist -name '*.html' | wc -l | tr -d ' ')"
-          # 校验和已在 env 关掉（见上），并发可拉高；--retries 兜底任何残留瞬时错误。
-          # sync 语义即「让桶匹配 dist」（含删除多余对象）；Content-Type 由 rclone 按扩展名自动设置。
-          rclone sync dist "R2:${R2_BUCKET}" --checksum --fast-list --transfers=16 --checkers=32 --retries 5 --stats-one-line
+          # --s3-no-head：跳过 rclone 上传后的校验 HEAD。PUT 本身全部 200（文件确实落桶），
+          #   但桶启用了对象版本控制 → 每次 PUT 返回 X-Amz-Version-Id → rclone 回头发
+          #   HEAD /key?versionId=<id> 复核，而 R2 对 ?versionId= 间歇回 501 NotImplemented，
+          #   一个 IO error 就让整次 sync 失败并跳过删除。跳过该 HEAD 即根除（诊断见 git 历史 r2-debug）。
+          #   真正的根因是桶开了版本控制——建议在 Cloudflare 控制台关掉（既免 501，也免旧版本无限堆积计费）。
+          # --retries 兜底残留瞬时错误；Content-Type 由 rclone 按扩展名自动设置。
+          rclone sync dist "R2:${R2_BUCKET}" --checksum --fast-list --s3-no-head --transfers=16 --checkers=32 --retries 5 --stats-one-line
 
       # 边缘缓存了 HTML（见仪表盘 Cache Rule），部署后整 zone purge 使其立即刷新。
       - name: Purge Cloudflare cache
