@@ -127,7 +127,7 @@ func buildPlanMajorsTracked(plan []core.PlanRow, leaves []core.MajorLeaf, totals
 			pm.Menlei = menlei(r.MajorName)
 		}
 		if lf := leafIdx[r.SchoolCode+"/"+key]; lf != nil {
-			if ys := leafLatestForTrack(lf, r.Track); ys != nil {
+			if ys := core.LeafLatestForTrack(lf, r.Track); ys != nil {
 				pm.PrevYear = ys.Year
 				pm.PrevRank = ys.MinRank
 				pm.EquivRank = core.EquivRank(ys.MinRank,
@@ -161,26 +161,4 @@ func buildPlanMajorsTracked(plan []core.PlanRow, leaves []core.MajorLeaf, totals
 		out[school] = list
 	}
 	return out
-}
-
-// leafLatestForTrack 返回叶子在指定科类下最近年份的数据点；该科类无往年线则回退到全科类最近点。
-func leafLatestForTrack(l *core.MajorLeaf, track string) *core.YearScore {
-	var best *core.YearScore
-	for i := range l.Years {
-		if l.Years[i].Track != track {
-			continue
-		}
-		if best == nil || l.Years[i].Year >= best.Year {
-			best = &l.Years[i]
-		}
-	}
-	if best != nil {
-		return best
-	}
-	for i := range l.Years {
-		if best == nil || l.Years[i].Year >= best.Year {
-			best = &l.Years[i]
-		}
-	}
-	return best
 }

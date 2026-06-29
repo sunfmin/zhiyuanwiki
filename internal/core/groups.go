@@ -60,9 +60,10 @@ func leafLatest(l *MajorLeaf) *YearScore {
 	return best
 }
 
-// leafLatestForTrack 返回叶子在指定科类下最近年份的数据点；该科类无往年线则回退到全科类最近点
-// （3+1+2 下同名专业可能仅在另一科类有往年录取线，回退好过完全无位次）。
-func leafLatestForTrack(l *MajorLeaf, track string) *YearScore {
+// LeafLatestForTrack 返回叶子在指定科类下最近年份的数据点；该科类无往年线则回退到全科类最近点
+// （3+1+2 下同名专业可能仅在另一科类有往年录取线，回退好过完全无位次）。组模型（BuildGroups2026）
+// 与专业平行志愿模型（cmd 的 buildPlanMajorsTracked）共用这一往年位次挂接逻辑。
+func LeafLatestForTrack(l *MajorLeaf, track string) *YearScore {
 	var best *YearScore
 	for i := range l.Years {
 		if l.Years[i].Track != track {
@@ -116,7 +117,7 @@ func BuildGroups2026(plan []PlanRow, leaves []MajorLeaf, totals map[YearTrack]in
 			gm.Menlei = menlei(r.MajorName)
 		}
 		if lf := leafIdx[r.SchoolCode+"/"+gm.MajorKey]; lf != nil {
-			if p := leafLatestForTrack(lf, r.Track); p != nil {
+			if p := LeafLatestForTrack(lf, r.Track); p != nil {
 				gm.PrevYear = p.Year
 				gm.PrevRank = p.MinRank
 				gm.EquivRank = EquivRank(p.MinRank,
