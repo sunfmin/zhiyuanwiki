@@ -1,0 +1,162 @@
+{
+  "code": "0430",
+  "name": "河北北方学院",
+  "leaves": [
+    {
+      "schoolCode": "0430",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 569,
+          "minRank": 20688,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0430",
+      "majorKey": "8a499b4f",
+      "majorName": "中西医临床医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 542,
+          "minRank": 28062,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0430",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 535,
+          "minRank": 30029,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0430",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 534,
+          "minRank": 30332,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0430",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 526,
+          "minRank": 32629,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "中西医临床医学",
+          "majorKey": "8a499b4f",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "5700",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 28062,
+          "equivRank": 28062
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理加化学",
+          "plan": 14,
+          "tuition": "5700",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 30029,
+          "equivRank": 30029
+        },
+        {
+          "majorName": "医学影像学",
+          "majorKey": "5780af73",
+          "selKe": "物理加化学",
+          "plan": 5,
+          "tuition": "5700",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 30332,
+          "equivRank": 30332
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "物理加化学",
+          "plan": 8,
+          "tuition": "5700",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 32629,
+          "equivRank": 32629
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5700",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 20688,
+          "equivRank": 20688
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "code": "0192",
+  "name": "重庆移通学院",
+  "leaves": [
+    {
+      "schoolCode": "0192",
+      "majorKey": "5e0efed0",
+      "majorName": "电子信息类",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 497,
+          "minRank": 41118,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0192",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 501,
+          "minRank": 39953,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0192",
+      "majorKey": "0c33cbdd",
+      "majorName": "软件工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 497,
+          "minRank": 41118,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "15000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 39953,
+          "equivRank": 39953
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "电子信息类",
+          "majorKey": "5e0efed0",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "16000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 41118,
+          "equivRank": 41118
+        },
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "物理加化学",
+          "plan": 3,
+          "tuition": "16000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 41118,
+          "equivRank": 41118
+        }
+      ]
+    }
+  ]
+}

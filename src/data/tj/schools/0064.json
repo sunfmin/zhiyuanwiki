@@ -1,0 +1,162 @@
+{
+  "code": "0064",
+  "name": "北京工商大学",
+  "leaves": [
+    {
+      "schoolCode": "0064",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 605,
+          "minRank": 11793,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0064",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 602,
+          "minRank": 12510,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0064",
+      "majorKey": "d054f8d1",
+      "majorName": "应用统计学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 568,
+          "minRank": 20940,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0064",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 606,
+          "minRank": 11588,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0064",
+      "majorKey": "bd3a8fa7",
+      "majorName": "物流管理与工程类",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 600,
+          "minRank": 12965,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "物流管理与工程类",
+          "majorKey": "bd3a8fa7",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 12965,
+          "equivRank": 12965
+        },
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4200",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 12510,
+          "equivRank": 12510
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 11793,
+          "equivRank": 11793
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "物理加化学",
+          "plan": 5,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 11588,
+          "equivRank": 11588
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "应用统计学",
+          "majorKey": "d054f8d1",
+          "selKe": "物理加化学",
+          "plan": 5,
+          "tuition": "待定",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 20940,
+          "equivRank": 20940
+        }
+      ]
+    }
+  ]
+}

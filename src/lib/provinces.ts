@@ -373,6 +373,17 @@ export const PROVINCES: Record<string, ProvinceConfig> = {
     intro: "山东 · 2025",
     batchLabel: "普通类一段/二段 · 综合（专业平行志愿）",
   },
+  tj: {
+    slug: "tj",
+    name: "天津",
+    tracks: [{ name: "综合", slug: "zonghe" }],
+    fillModel: "group",
+    subjectMode: "pick3of6",
+    fenduanTrack: "综合",
+    fenduanYear: 2025,
+    intro: "天津 · 2025",
+    batchLabel: "本科批 · 综合（院校专业组）",
+  },
 };
 
 export const PROVINCE_SLUGS = Object.keys(PROVINCES);

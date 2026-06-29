@@ -1,0 +1,214 @@
+{
+  "code": "0016",
+  "name": "安徽师范大学",
+  "leaves": [
+    {
+      "schoolCode": "0016",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 563,
+          "minRank": 22282,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0016",
+      "majorKey": "ca969af2",
+      "majorName": "供应链管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 538,
+          "minRank": 29147,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0016",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 537,
+          "minRank": 29432,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0016",
+      "majorKey": "ca37000f",
+      "majorName": "数字经济",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 564,
+          "minRank": 22032,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0016",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 567,
+          "minRank": 21240,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0016",
+      "majorKey": "24c5453f",
+      "majorName": "统计学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 566,
+          "minRank": 21500,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0016",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 554,
+          "minRank": 24750,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4900",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 22282,
+          "equivRank": 22282
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5390",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 21240,
+          "equivRank": 21240
+        },
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5390",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 29432,
+          "equivRank": 29432
+        },
+        {
+          "majorName": "供应链管理",
+          "majorKey": "ca969af2",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4900",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 29147,
+          "equivRank": 29147
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5390",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 24750,
+          "equivRank": 24750
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "统计学",
+          "majorKey": "24c5453f",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 21500,
+          "equivRank": 21500
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "数字经济",
+          "majorKey": "ca37000f",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "4900",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 22032,
+          "equivRank": 22032
+        }
+      ]
+    }
+  ]
+}

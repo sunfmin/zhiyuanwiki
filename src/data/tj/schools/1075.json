@@ -1,0 +1,199 @@
+{
+  "code": "1075",
+  "name": "上海理工大学",
+  "leaves": [
+    {
+      "schoolCode": "1075",
+      "majorKey": "b363aa3d",
+      "majorName": "工科试验班",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 619,
+          "minRank": 8745,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1075",
+      "majorKey": "331c4c8e",
+      "majorName": "新闻传播学类",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 609,
+          "minRank": 10891,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1075",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 614,
+          "minRank": 9791,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1075",
+      "majorKey": "54728189",
+      "majorName": "理科试验班",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 616,
+          "minRank": 9379,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1075",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 611,
+          "minRank": 10462,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1075",
+      "majorKey": "47abff30",
+      "majorName": "经济管理试验班",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 604,
+          "minRank": 12046,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "物理加化学",
+          "plan": 6,
+          "tuition": "7000",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 8745,
+          "equivRank": 8745
+        },
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "物理加化学",
+          "plan": 12,
+          "tuition": "7000",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 8745,
+          "equivRank": 8745
+        },
+        {
+          "majorName": "理科试验班",
+          "majorKey": "54728189",
+          "selKe": "物理加化学",
+          "plan": 1,
+          "tuition": "7000",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 9379,
+          "equivRank": 9379
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "经济管理试验班",
+          "majorKey": "47abff30",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "6500",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 12046,
+          "equivRank": 12046
+        },
+        {
+          "majorName": "新闻传播学类",
+          "majorKey": "331c4c8e",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "6500",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 10891,
+          "equivRank": 10891
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "待定",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 9791,
+          "equivRank": 9791
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "待定",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 10462,
+          "equivRank": 10462
+        }
+      ]
+    }
+  ]
+}

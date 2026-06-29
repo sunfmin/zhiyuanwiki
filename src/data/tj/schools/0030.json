@@ -1,0 +1,104 @@
+{
+  "code": "0030",
+  "name": "安阳工学院",
+  "leaves": [
+    {
+      "schoolCode": "0030",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 502,
+          "minRank": 39655,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0030",
+      "majorKey": "4ef2a1b4",
+      "majorName": "机械电子工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 507,
+          "minRank": 38187,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0030",
+      "majorKey": "b904393e",
+      "majorName": "飞行器适航技术",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 519,
+          "minRank": 34670,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "飞行器适航技术",
+          "majorKey": "b904393e",
+          "selKe": "物理加化学",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 34670,
+          "equivRank": 34670
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "机械电子工程",
+          "majorKey": "4ef2a1b4",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 38187,
+          "equivRank": 38187
+        },
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 39655,
+          "equivRank": 39655
+        }
+      ]
+    }
+  ]
+}

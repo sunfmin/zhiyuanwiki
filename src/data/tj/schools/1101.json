@@ -1,0 +1,170 @@
+{
+  "code": "1101",
+  "name": "沈阳大学",
+  "leaves": [
+    {
+      "schoolCode": "1101",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 541,
+          "minRank": 28355,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1101",
+      "majorKey": "7d0b62a8",
+      "majorName": "俄语",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 526,
+          "minRank": 32629,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1101",
+      "majorKey": "13c18eb7",
+      "majorName": "工业工程",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 522,
+          "minRank": 33773,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1101",
+      "majorKey": "7faf2092",
+      "majorName": "环境工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 533,
+          "minRank": 30630,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1101",
+      "majorKey": "da95770c",
+      "majorName": "自动化",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 536,
+          "minRank": 29727,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "俄语",
+          "majorKey": "7d0b62a8",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4800",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 32629,
+          "equivRank": 32629
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 28355,
+          "equivRank": 28355
+        },
+        {
+          "majorName": "环境工程",
+          "majorKey": "7faf2092",
+          "selKe": "物理加化学",
+          "plan": 3,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 30630,
+          "equivRank": 30630
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "工业工程",
+          "majorKey": "13c18eb7",
+          "selKe": "物理",
+          "plan": 4,
+          "tuition": "39000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 33773,
+          "equivRank": 33773
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "自动化",
+          "majorKey": "da95770c",
+          "selKe": "物理加化学",
+          "plan": 4,
+          "tuition": "39000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 29727,
+          "equivRank": 29727
+        }
+      ]
+    }
+  ]
+}

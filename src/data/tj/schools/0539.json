@@ -1,0 +1,120 @@
+{
+  "code": "0539",
+  "name": "湖北医药学院",
+  "leaves": [
+    {
+      "schoolCode": "0539",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 578,
+          "minRank": 18257,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0539",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 578,
+          "minRank": 18257,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0539",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 589,
+          "minRank": 15580,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0539",
+      "majorKey": "83eea431",
+      "majorName": "麻醉学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 582,
+          "minRank": 17292,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 18257,
+          "equivRank": 18257
+        },
+        {
+          "majorName": "麻醉学",
+          "majorKey": "83eea431",
+          "selKe": "物理加化学",
+          "plan": 1,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 17292,
+          "equivRank": 17292
+        },
+        {
+          "majorName": "医学影像学",
+          "majorKey": "5780af73",
+          "selKe": "物理加化学",
+          "plan": 1,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 18257,
+          "equivRank": 18257
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "物理加化学",
+          "plan": 1,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 15580,
+          "equivRank": 15580
+        }
+      ]
+    }
+  ]
+}

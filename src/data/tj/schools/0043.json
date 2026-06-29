@@ -1,0 +1,68 @@
+{
+  "code": "0043",
+  "name": "蚌埠学院",
+  "leaves": [
+    {
+      "schoolCode": "0043",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 520,
+          "minRank": 34394,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0043",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 525,
+          "minRank": 32921,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理加化学",
+          "plan": 3,
+          "tuition": "5390",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 34394,
+          "equivRank": 34394
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 32921,
+          "equivRank": 32921
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "code": "0488",
+  "name": "河南师范大学",
+  "leaves": [
+    {
+      "schoolCode": "0488",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 553,
+          "minRank": 25018,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0488",
+      "majorKey": "4ea26300",
+      "majorName": "广播电视学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 536,
+          "minRank": 29727,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0488",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 540,
+          "minRank": 28631,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0488",
+      "majorKey": "5f3767bd",
+      "majorName": "水产养殖学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 529,
+          "minRank": 31779,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0488",
+      "majorKey": "653f630d",
+      "majorName": "物理学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 537,
+          "minRank": 29432,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "广播电视学",
+          "majorKey": "4ea26300",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4400",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 29727,
+          "equivRank": 29727
+        },
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4840",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 25018,
+          "equivRank": 25018
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "物理加化学",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 29432,
+          "equivRank": 29432
+        },
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理加化学",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 28631,
+          "equivRank": 28631
+        },
+        {
+          "majorName": "水产养殖学",
+          "majorKey": "5f3767bd",
+          "selKe": "物理加化学",
+          "plan": 5,
+          "tuition": "5000",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 31779,
+          "equivRank": 31779
+        }
+      ]
+    }
+  ]
+}

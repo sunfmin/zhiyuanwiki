@@ -1,0 +1,94 @@
+{
+  "code": "1410",
+  "name": "西南医科大学",
+  "leaves": [
+    {
+      "schoolCode": "1410",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 604,
+          "minRank": 12046,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1410",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 605,
+          "minRank": 11793,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1410",
+      "majorKey": "83eea431",
+      "majorName": "麻醉学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 603,
+          "minRank": 12295,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "麻醉学",
+          "majorKey": "83eea431",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "6960",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 12295,
+          "equivRank": 12295
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理加化学",
+          "plan": 3,
+          "tuition": "6960",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 12046,
+          "equivRank": 12046
+        },
+        {
+          "majorName": "医学影像学",
+          "majorKey": "5780af73",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "6960",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 11793,
+          "equivRank": 11793
+        }
+      ]
+    }
+  ]
+}

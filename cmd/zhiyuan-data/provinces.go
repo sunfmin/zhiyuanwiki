@@ -54,6 +54,8 @@ var provinces = map[string]province{
 	"ln":    {slug: "ln", name: "辽宁", tracks: []string{"物理", "历史"}, model: "major"},
 	"hebei": {slug: "hebei", name: "河北", tracks: []string{"物理", "历史"}, model: "major"},
 	"sd":    {slug: "sd", name: "山东", tracks: []string{"综合"}, model: "major"},
+	// 天津：综合+院校专业组（group），计划表院校代码由专业组代码剥后缀得，自定义 tj.ParsePlan。
+	"tj": {slug: "tj", name: "天津", tracks: []string{"综合"}, model: "group"},
 }
 
 // trackSlug 把科类名映射成 ascii 文件名片段（定位索引/一分一段文件名）。

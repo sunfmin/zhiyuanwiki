@@ -1,0 +1,76 @@
+{
+  "code": "1552",
+  "name": "张家口学院",
+  "leaves": [
+    {
+      "schoolCode": "1552",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 520,
+          "minRank": 34111,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1552",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "生物必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 546,
+          "minRank": 26940,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "4600",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 34111,
+          "equivRank": 34111
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物",
+          "plan": 6,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 26940,
+          "equivRank": 26940
+        }
+      ]
+    }
+  ]
+}

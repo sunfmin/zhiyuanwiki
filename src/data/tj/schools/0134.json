@@ -1,0 +1,118 @@
+{
+  "code": "0134",
+  "name": "长春科技学院",
+  "leaves": [
+    {
+      "schoolCode": "0134",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 488,
+          "minRank": 43748,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0134",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 472,
+          "minRank": 48256,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0134",
+      "majorKey": "8230723d",
+      "majorName": "计算机类",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 480,
+          "minRank": 46035,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "26000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 48256,
+          "equivRank": 48256
+        },
+        {
+          "majorName": "计算机类",
+          "majorKey": "8230723d",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "28000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 46035,
+          "equivRank": 46035
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "39000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 43748,
+          "equivRank": 43748
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "27000",
+          "menlei": "管"
+        },
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "28000",
+          "menlei": "文"
+        }
+      ]
+    }
+  ]
+}

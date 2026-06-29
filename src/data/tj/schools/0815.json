@@ -1,0 +1,188 @@
+{
+  "code": "0815",
+  "name": "牡丹江医科大学",
+  "leaves": [
+    {
+      "schoolCode": "0815",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物、化、生(3科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 564,
+          "minRank": 22032,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0815",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 557,
+          "minRank": 23920,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0815",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 577,
+          "minRank": 18537,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0815",
+      "majorKey": "a507c400",
+      "majorName": "康复治疗学",
+      "selKe": "物、化、生(3科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 517,
+          "minRank": 35222,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0815",
+      "majorKey": "0ac1da59",
+      "majorName": "生物技术",
+      "selKe": "物、化、生(3科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 511,
+          "minRank": 37007,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0815",
+      "majorKey": "83eea431",
+      "majorName": "麻醉学",
+      "selKe": "物、化、生(3科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 557,
+          "minRank": 23920,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理加化学加生物",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理加化学加生物",
+          "plan": 7,
+          "tuition": "4400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 22032,
+          "equivRank": 22032
+        },
+        {
+          "majorName": "麻醉学",
+          "majorKey": "83eea431",
+          "selKe": "物理加化学加生物",
+          "plan": 3,
+          "tuition": "4400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 23920,
+          "equivRank": 23920
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "医学影像学",
+          "majorKey": "5780af73",
+          "selKe": "物理加化学",
+          "plan": 4,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 23920,
+          "equivRank": 23920
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "4800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 18537,
+          "equivRank": 18537
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理加化学加生物",
+      "majors": [
+        {
+          "majorName": "康复治疗学",
+          "majorKey": "a507c400",
+          "selKe": "物理加化学加生物",
+          "plan": 2,
+          "tuition": "4400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 35222,
+          "equivRank": 35222
+        },
+        {
+          "majorName": "生物技术",
+          "majorKey": "0ac1da59",
+          "selKe": "物理加化学加生物",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 37007,
+          "equivRank": 37007
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "code": "1408",
+  "name": "西南民族大学",
+  "leaves": [
+    {
+      "schoolCode": "1408",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 577,
+          "minRank": 18537,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1408",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 579,
+          "minRank": 18022,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1408",
+      "majorKey": "b54c1697",
+      "majorName": "网络工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 582,
+          "minRank": 17292,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1408",
+      "majorKey": "1c1ee3f7",
+      "majorName": "通信工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 585,
+          "minRank": 16523,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5760",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 18537,
+          "equivRank": 18537
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5760",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 18022,
+          "equivRank": 18022
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "物理加化学",
+          "plan": 3,
+          "tuition": "6240",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 16523,
+          "equivRank": 16523
+        },
+        {
+          "majorName": "网络工程",
+          "majorKey": "b54c1697",
+          "selKe": "物理加化学",
+          "plan": 3,
+          "tuition": "6240",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 17292,
+          "equivRank": 17292
+        }
+      ]
+    }
+  ]
+}

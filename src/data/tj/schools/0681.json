@@ -1,0 +1,136 @@
+{
+  "code": "0681",
+  "name": "赣南科技学院",
+  "leaves": [
+    {
+      "schoolCode": "0681",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 516,
+          "minRank": 35525,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0681",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 514,
+          "minRank": 36107,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0681",
+      "majorKey": "b8be11ab",
+      "majorName": "工程造价",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 511,
+          "minRank": 37007,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0681",
+      "majorKey": "301e14e8",
+      "majorName": "机器人工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 516,
+          "minRank": 35525,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "3880",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 36107,
+          "equivRank": 36107
+        },
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "3880",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 35525,
+          "equivRank": 35525
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "工程造价",
+          "majorKey": "b8be11ab",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "3880",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 37007,
+          "equivRank": 37007
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "机器人工程",
+          "majorKey": "301e14e8",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "4350",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 35525,
+          "equivRank": 35525
+        }
+      ]
+    }
+  ]
+}

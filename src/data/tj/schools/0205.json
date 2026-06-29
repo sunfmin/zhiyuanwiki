@@ -1,0 +1,214 @@
+{
+  "code": "0205",
+  "name": "大连工业大学",
+  "leaves": [
+    {
+      "schoolCode": "0205",
+      "majorKey": "ff33db96",
+      "majorName": "化妆品技术与工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 544,
+          "minRank": 27232,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0205",
+      "majorKey": "2079a63e",
+      "majorName": "大数据管理与应用",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 552,
+          "minRank": 25019,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0205",
+      "majorKey": "bdb5a180",
+      "majorName": "机械工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 536,
+          "minRank": 29433,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0205",
+      "majorKey": "da95770c",
+      "majorName": "自动化",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 536,
+          "minRank": 29433,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0205",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 536,
+          "minRank": 29433,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0205",
+      "majorKey": "7b7511cd",
+      "majorName": "食品科学与工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 557,
+          "minRank": 23635,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0205",
+      "majorKey": "63b95502",
+      "majorName": "食品质量与安全",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 552,
+          "minRank": 25019,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "食品质量与安全",
+          "majorKey": "63b95502",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 25019,
+          "equivRank": 25019
+        },
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 23635,
+          "equivRank": 23635
+        },
+        {
+          "majorName": "化妆品技术与工程",
+          "majorKey": "ff33db96",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 27232,
+          "equivRank": 27232
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "大数据管理与应用",
+          "majorKey": "2079a63e",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 25019,
+          "equivRank": 25019
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "机械工程",
+          "majorKey": "bdb5a180",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "40000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 29433,
+          "equivRank": 29433
+        },
+        {
+          "majorName": "自动化",
+          "majorKey": "da95770c",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "40000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 29433,
+          "equivRank": 29433
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "40000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 29433,
+          "equivRank": 29433
+        }
+      ]
+    }
+  ]
+}

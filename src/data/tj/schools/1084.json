@@ -1,0 +1,110 @@
+{
+  "code": "1084",
+  "name": "上海体育大学",
+  "leaves": [
+    {
+      "schoolCode": "1084",
+      "majorKey": "25bf7075",
+      "majorName": "医学技术类",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 596,
+          "minRank": 13904,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1084",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 600,
+          "minRank": 12965,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1084",
+      "majorKey": "9c5f4a34",
+      "majorName": "新闻学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 604,
+          "minRank": 12046,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "新闻学",
+          "majorKey": "9c5f4a34",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "6500",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 12046,
+          "equivRank": 12046
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "医学技术类",
+          "majorKey": "25bf7075",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "7400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 13904,
+          "equivRank": 13904
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "7000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 12965,
+          "equivRank": 12965
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "code": "5008",
+  "name": "运城职业技术大学",
+  "leaves": [
+    {
+      "schoolCode": "5008",
+      "majorKey": "6daff4b6",
+      "majorName": "大数据与财务管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 493,
+          "minRank": 42268,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5008",
+      "majorKey": "57377dd0",
+      "majorName": "智能制造工程技术",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 500,
+          "minRank": 40233,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5008",
+      "majorKey": "b217b8b5",
+      "majorName": "机械设计制造及自动化",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 501,
+          "minRank": 39953,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "智能制造工程技术",
+          "majorKey": "57377dd0",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "16000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 40233,
+          "equivRank": 40233
+        },
+        {
+          "majorName": "机械设计制造及自动化",
+          "majorKey": "b217b8b5",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "16000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 39953,
+          "equivRank": 39953
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "大数据与财务管理",
+          "majorKey": "6daff4b6",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "15000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 42268,
+          "equivRank": 42268
+        }
+      ]
+    }
+  ]
+}

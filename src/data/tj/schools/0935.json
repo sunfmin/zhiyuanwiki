@@ -1,0 +1,68 @@
+{
+  "code": "0935",
+  "name": "齐齐哈尔工程学院",
+  "leaves": [
+    {
+      "schoolCode": "0935",
+      "majorKey": "754290a4",
+      "majorName": "助产学",
+      "selKe": "生物必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 484,
+          "minRank": 44898,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0935",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "生物必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 487,
+          "minRank": 44054,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物",
+          "plan": 15,
+          "tuition": "27800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 44054,
+          "equivRank": 44054
+        },
+        {
+          "majorName": "助产学",
+          "majorKey": "754290a4",
+          "selKe": "生物",
+          "plan": 5,
+          "tuition": "27800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 44898,
+          "equivRank": 44898
+        }
+      ]
+    }
+  ]
+}

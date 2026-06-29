@@ -1,0 +1,144 @@
+{
+  "code": "0651",
+  "name": "济宁学院",
+  "leaves": [
+    {
+      "schoolCode": "0651",
+      "majorKey": "d875ea2d",
+      "majorName": "光电信息材料与器件",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 512,
+          "minRank": 36711,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0651",
+      "majorKey": "1f59c989",
+      "majorName": "化学工程与工艺",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 511,
+          "minRank": 37007,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0651",
+      "majorKey": "062bcf46",
+      "majorName": "行政管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 520,
+          "minRank": 34394,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0651",
+      "majorKey": "e6a89fa4",
+      "majorName": "金融工程",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 512,
+          "minRank": 36711,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "金融工程",
+          "majorKey": "e6a89fa4",
+          "selKe": "物理",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 36711,
+          "equivRank": 36711
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "行政管理",
+          "majorKey": "062bcf46",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 34394,
+          "equivRank": 34394
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "化学工程与工艺",
+          "majorKey": "1f59c989",
+          "selKe": "物理加化学",
+          "plan": 5,
+          "tuition": "6325",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 37007,
+          "equivRank": 37007
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "光电信息材料与器件",
+          "majorKey": "d875ea2d",
+          "selKe": "物理加化学",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 36711,
+          "equivRank": 36711
+        }
+      ]
+    }
+  ]
+}

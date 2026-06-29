@@ -1,0 +1,76 @@
+{
+  "code": "1587",
+  "name": "郑州工程技术学院",
+  "leaves": [
+    {
+      "schoolCode": "1587",
+      "majorKey": "ec77cae2",
+      "majorName": "旅游管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 515,
+          "minRank": 35839,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1587",
+      "majorKey": "2363aecb",
+      "majorName": "智能建造",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 510,
+          "minRank": 37310,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "旅游管理",
+          "majorKey": "ec77cae2",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4400",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 35839,
+          "equivRank": 35839
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "智能建造",
+          "majorKey": "2363aecb",
+          "selKe": "物理加化学",
+          "plan": 5,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 37310,
+          "equivRank": 37310
+        }
+      ]
+    }
+  ]
+}
