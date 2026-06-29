@@ -1,0 +1,97 @@
+name: R2 rclone debug (throwaway)
+
+# 临时诊断：复现 rclone → R2 的 501 NotImplemented，并验证修复。
+# 只手动触发（workflow_dispatch），绝不在 push 上跑。验证完即删本文件。
+# 上传 3 个假文件到 _r2debug_* 前缀（不碰线上站点），跑完清理。
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  R2_BUCKET: zhiyuanwiki
+  # R2 连接（S3 兼容）——各 TEST 共用；校验和相关 env 在每个 step 单独覆盖。
+  RCLONE_CONFIG_R2_TYPE: s3
+  RCLONE_CONFIG_R2_PROVIDER: Cloudflare
+  RCLONE_CONFIG_R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+  RCLONE_CONFIG_R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+  RCLONE_CONFIG_R2_ENDPOINT: https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
+  RCLONE_CONFIG_R2_ACL: private
+  RCLONE_CONFIG_R2_NO_CHECK_BUCKET: "true"
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Make dummy dist (mimics prov/yuanxiao/code/index.html)
+        run: |
+          mkdir -p debugdist/zj/yuanxiao/2219 debugdist/gd/yuanxiao/10753
+          printf 'hello-root'   > debugdist/index.html
+          printf 'hello-zj'     > debugdist/zj/yuanxiao/2219/index.html
+          printf 'hello-gd-css' > debugdist/gd/yuanxiao/10753/index.html
+
+      # ---------- TEST 1: apt rclone + 当前(失败)配置 → 期望复现 501，dump headers 看是哪个头 ----------
+      - name: Install apt rclone
+        run: sudo apt-get update && sudo apt-get install -y rclone
+
+      - name: 'TEST 1 — apt rclone + current config (expect 501; dump headers)'
+        continue-on-error: true
+        env:
+          AWS_REQUEST_CHECKSUM_CALCULATION: WHEN_REQUIRED
+          RCLONE_CONFIG_R2_USE_DATA_INTEGRITY_PROTECTIONS: "false"
+        run: |
+          echo "===== rclone version (apt) ====="; rclone version
+          echo "===== which rclone ====="; which rclone
+          echo "===== TEST 1 copy (current flags + --dump headers) ====="
+          rclone copy debugdist "R2:${R2_BUCKET}/_r2debug_t1" \
+            --checksum --transfers=4 --retries 1 -vv --dump headers 2>&1 | tail -150 || true
+
+      # ---------- 装定 1.74.3（修了 SDK 校验和的版本）----------
+      - name: Install pinned rclone v1.74.3
+        run: |
+          set -euo pipefail
+          V=v1.74.3
+          curl -fsSL "https://downloads.rclone.org/${V}/rclone-${V}-linux-amd64.zip" -o /tmp/rclone.zip
+          unzip -oq /tmp/rclone.zip -d /tmp
+          sudo install "/tmp/rclone-${V}-linux-amd64/rclone" /usr/local/bin/rclone
+          hash -r
+          echo "===== which rclone ====="; which rclone
+          echo "===== rclone version (pinned) ====="; rclone version
+
+      # ---------- TEST 2: 定版 rclone + 默认配置 → 看「只升级版本」是否就够 ----------
+      - name: 'TEST 2 — pinned rclone, DEFAULT config (does pinning alone fix it?)'
+        continue-on-error: true
+        run: |
+          echo "===== TEST 2 copy (no checksum/unsigned env) ====="
+          rclone copy debugdist "R2:${R2_BUCKET}/_r2debug_t2" \
+            --checksum --transfers=4 --retries 1 -vv --dump headers 2>&1 | tail -150 || true
+
+      # ---------- TEST 3: 定版 rclone + use_unsigned_payload=true（拟采用的修复）----------
+      - name: 'TEST 3 — pinned rclone + use_unsigned_payload=true (proposed fix)'
+        continue-on-error: true
+        env:
+          RCLONE_CONFIG_R2_USE_UNSIGNED_PAYLOAD: "true"
+          AWS_REQUEST_CHECKSUM_CALCULATION: when_required
+        run: |
+          echo "===== TEST 3 copy (use_unsigned_payload=true) ====="
+          rclone copy debugdist "R2:${R2_BUCKET}/_r2debug_t3" \
+            --checksum --transfers=4 --retries 1 -vv --dump headers 2>&1 | tail -150 || true
+
+      # ---------- 列出实际落桶的对象 + 清理所有调试前缀 ----------
+      - name: List landed objects + cleanup
+        if: always()
+        continue-on-error: true
+        env:
+          RCLONE_CONFIG_R2_USE_UNSIGNED_PAYLOAD: "true"
+          AWS_REQUEST_CHECKSUM_CALCULATION: when_required
+        run: |
+          for p in _r2debug_t1 _r2debug_t2 _r2debug_t3; do
+            echo "===== landed under ${p} ====="
+            rclone lsf -R "R2:${R2_BUCKET}/${p}" 2>&1 || echo "(list failed)"
+          done
+          echo "===== cleanup ====="
+          for p in _r2debug_t1 _r2debug_t2 _r2debug_t3; do
+            rclone purge "R2:${R2_BUCKET}/${p}" 2>&1 || echo "(purge ${p} failed/empty)"
+          done
