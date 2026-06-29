@@ -1,0 +1,292 @@
+{
+  "code": "A205",
+  "name": "中华女子学院",
+  "leaves": [
+    {
+      "schoolCode": "A205",
+      "majorKey": "5a324641",
+      "majorName": "人力资源管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 522,
+          "minRank": 67533,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "A205",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 523,
+          "minRank": 66664,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "A205",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 527,
+          "minRank": 63244,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "A205",
+      "majorKey": "1d7b113d",
+      "majorName": "女性学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 556,
+          "minRank": 12119,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "A205",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 553,
+          "minRank": 12886,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "A205",
+      "majorKey": "889e9381",
+      "majorName": "数字媒体技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 527,
+          "minRank": 63244,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "A205",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 562,
+          "minRank": 10567,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "A205",
+      "majorKey": "d636b73e",
+      "majorName": "社会学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 561,
+          "minRank": 10797,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "A205",
+      "majorKey": "fd907dda",
+      "majorName": "社会工作",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 526,
+          "minRank": 64110,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "A205",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 525,
+          "minRank": 64962,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "女性学",
+          "majorKey": "1d7b113d",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 12119,
+          "equivRank": 12119
+        },
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 12886,
+          "equivRank": 12886
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 10567,
+          "equivRank": 10567
+        },
+        {
+          "majorName": "社会学",
+          "majorKey": "d636b73e",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 10797,
+          "equivRank": 10797
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "物理",
+          "plan": 3,
+          "tuition": "4200",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 64962,
+          "equivRank": 64962
+        },
+        {
+          "majorName": "人力资源管理",
+          "majorKey": "5a324641",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 67533,
+          "equivRank": 67533
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 63244,
+          "equivRank": 63244
+        },
+        {
+          "majorName": "社会工作",
+          "majorKey": "fd907dda",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 64110,
+          "equivRank": 64110
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 66664,
+          "equivRank": 66664
+        },
+        {
+          "majorName": "数字媒体技术",
+          "majorKey": "889e9381",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 63244,
+          "equivRank": 63244
+        }
+      ]
+    }
+  ]
+}

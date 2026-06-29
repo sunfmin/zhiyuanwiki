@@ -1,0 +1,123 @@
+{
+  "code": "9902",
+  "name": "中央美术学院",
+  "leaves": [
+    {
+      "schoolCode": "9902",
+      "majorKey": "ae17c365",
+      "majorName": "艺术史论",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 575,
+          "minRank": 14289,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "9902",
+      "majorKey": "44d89b18",
+      "majorName": "艺术管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 600,
+          "minRank": 6178,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 597,
+          "minRank": 49305,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "201",
+      "groupName": "201",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "艺术史论",
+          "majorKey": "ae17c365",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "45000",
+          "menlei": "艺",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 14289,
+          "equivRank": 14289
+        }
+      ]
+    },
+    {
+      "groupCode": "501",
+      "groupName": "501",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "艺术管理",
+          "majorKey": "44d89b18",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "8000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 6178,
+          "equivRank": 6178
+        }
+      ]
+    },
+    {
+      "groupCode": "202",
+      "groupName": "202",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "艺术管理",
+          "majorKey": "44d89b18",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "45000",
+          "menlei": "艺",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 49305,
+          "equivRank": 49305
+        }
+      ]
+    },
+    {
+      "groupCode": "502",
+      "groupName": "502",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "艺术管理",
+          "majorKey": "44d89b18",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "8000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 49305,
+          "equivRank": 49305
+        }
+      ]
+    }
+  ]
+}

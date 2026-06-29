@@ -1,0 +1,214 @@
+{
+  "code": "32B6",
+  "name": "江苏第二师范学院",
+  "leaves": [
+    {
+      "schoolCode": "32B6",
+      "majorKey": "d7013734",
+      "majorName": "人文地理与城乡规划",
+      "selKe": "首选历史，再选地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 538,
+          "minRank": 14239,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "32B6",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 550,
+          "minRank": 10904,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "32B6",
+      "majorKey": "d061ae24",
+      "majorName": "地理科学",
+      "selKe": "首选历史，再选地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 541,
+          "minRank": 13403,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "32B6",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 516,
+          "minRank": 52003,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "32B6",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 552,
+          "minRank": 10410,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "32B6",
+      "majorKey": "8e6ea071",
+      "majorName": "经济与金融",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 503,
+          "minRank": 60983,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "32B6",
+      "majorKey": "8b94c422",
+      "majorName": "贸易经济",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 505,
+          "minRank": 59581,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "5200元",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 10904,
+          "equivRank": 10904
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "5200元",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 10410,
+          "equivRank": 10410
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "历史",
+      "selKe": "历史,地理",
+      "majors": [
+        {
+          "majorName": "人文地理与城乡规划",
+          "majorKey": "d7013734",
+          "selKe": "历史,地理",
+          "plan": 3,
+          "tuition": "5500元",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 14239,
+          "equivRank": 14239
+        },
+        {
+          "majorName": "地理科学",
+          "majorKey": "d061ae24",
+          "selKe": "历史,地理",
+          "plan": 3,
+          "tuition": "5500元",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 13403,
+          "equivRank": 13403
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "物理",
+          "plan": 3,
+          "tuition": "5200元",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 52003,
+          "equivRank": 52003
+        },
+        {
+          "majorName": "经济与金融",
+          "majorKey": "8e6ea071",
+          "selKe": "物理",
+          "plan": 3,
+          "tuition": "5200元",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 60983,
+          "equivRank": 60983
+        },
+        {
+          "majorName": "贸易经济",
+          "majorKey": "8b94c422",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "5200元",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 59581,
+          "equivRank": 59581
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "code": "K118",
+  "name": "重庆财经学院",
+  "leaves": [
+    {
+      "schoolCode": "K118",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 530,
+          "minRank": 19364,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "K118",
+      "majorKey": "ca37000f",
+      "majorName": "数字经济",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 491,
+          "minRank": 94466,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "K118",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 534,
+          "minRank": 18158,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "K118",
+      "majorKey": "0c33cbdd",
+      "majorName": "软件工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 498,
+          "minRank": 88339,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "K118",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 493,
+          "minRank": 92758,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "15000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 19364,
+          "equivRank": 19364
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "15000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 18158,
+          "equivRank": 18158
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "数字经济",
+          "majorKey": "ca37000f",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "15000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 94466,
+          "equivRank": 94466
+        },
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "15000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 92758,
+          "equivRank": 92758
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "16000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 88339,
+          "equivRank": 88339
+        }
+      ]
+    }
+  ]
+}

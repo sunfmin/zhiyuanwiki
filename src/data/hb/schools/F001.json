@@ -1,0 +1,205 @@
+{
+  "code": "F001",
+  "name": "北京工业大学",
+  "leaves": [
+    {
+      "schoolCode": "F001",
+      "majorKey": "d8f4c9ac",
+      "majorName": "光电信息科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 616,
+          "minRank": 8567,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "F001",
+      "majorKey": "2ca5ff3e",
+      "majorName": "土木类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 574,
+          "minRank": 27750,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "F001",
+      "majorKey": "cb64b1e8",
+      "majorName": "环境科学与工程类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 572,
+          "minRank": 28957,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "F001",
+      "majorKey": "da95770c",
+      "majorName": "自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 615,
+          "minRank": 8880,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "F001",
+      "majorKey": "1c1ee3f7",
+      "majorName": "通信工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 615,
+          "minRank": 8880,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "F001",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 579,
+          "minRank": 24832,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "材料类",
+          "majorKey": "b2ac374c",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "自动化",
+          "majorKey": "da95770c",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 8880,
+          "equivRank": 8880
+        },
+        {
+          "majorName": "光电信息科学与工程",
+          "majorKey": "d8f4c9ac",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 8567,
+          "equivRank": 8567
+        },
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 8880,
+          "equivRank": 8880
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "物理",
+          "plan": 5,
+          "tuition": "95000",
+          "menlei": "经",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 24832,
+          "equivRank": 24832
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "土木类",
+          "majorKey": "2ca5ff3e",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 27750,
+          "equivRank": 27750
+        },
+        {
+          "majorName": "环境科学与工程类",
+          "majorKey": "cb64b1e8",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 28957,
+          "equivRank": 28957
+        }
+      ]
+    }
+  ]
+}

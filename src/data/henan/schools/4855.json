@@ -1,0 +1,144 @@
+{
+  "code": "4855",
+  "name": "韩山师范学院",
+  "leaves": [
+    {
+      "schoolCode": "4855",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 561,
+          "minRank": 20619,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4855",
+      "majorKey": "1da18825",
+      "majorName": "物联网工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 533,
+          "minRank": 147701,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4855",
+      "majorKey": "fff04889",
+      "majorName": "网络与新媒体",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 548,
+          "minRank": 27643,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4855",
+      "majorKey": "7b7511cd",
+      "majorName": "食品科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 529,
+          "minRank": 154977,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "104",
+      "groupName": "104",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5050",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 27643,
+          "equivRank": 27643
+        }
+      ]
+    },
+    {
+      "groupCode": "105",
+      "groupName": "105",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5050",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 20619,
+          "equivRank": 20619
+        }
+      ]
+    },
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "5710",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 154977,
+          "equivRank": 154977
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "物联网工程",
+          "majorKey": "1da18825",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "5710",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 147701,
+          "equivRank": 147701
+        }
+      ]
+    }
+  ]
+}

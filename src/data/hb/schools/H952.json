@@ -1,0 +1,178 @@
+{
+  "code": "H952",
+  "name": "广西中医药大学赛恩斯新医药学院",
+  "leaves": [
+    {
+      "schoolCode": "H952",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 473,
+          "minRank": 110381,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "H952",
+      "majorKey": "11fef64a",
+      "majorName": "医学影像技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 466,
+          "minRank": 116410,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "H952",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 470,
+          "minRank": 113009,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "H952",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 460,
+          "minRank": 121519,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "H952",
+      "majorKey": "c744f66e",
+      "majorName": "针灸推拿学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 472,
+          "minRank": 111289,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "物理",
+          "plan": 16,
+          "tuition": "15000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 110381,
+          "equivRank": 110381
+        },
+        {
+          "majorName": "针灸推拿学",
+          "majorKey": "c744f66e",
+          "selKe": "物理",
+          "plan": 10,
+          "tuition": "15000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 111289,
+          "equivRank": 111289
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "医学影像技术",
+          "majorKey": "11fef64a",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "15000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 116410,
+          "equivRank": 116410
+        },
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "14500",
+          "menlei": "医"
+        },
+        {
+          "majorName": "康复治疗学",
+          "majorKey": "a507c400",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "14500",
+          "menlei": "医"
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "15000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 121519,
+          "equivRank": 121519
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理,生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "物理,生物",
+          "plan": 6,
+          "tuition": "15000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 113009,
+          "equivRank": 113009
+        }
+      ]
+    }
+  ]
+}

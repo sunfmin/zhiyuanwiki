@@ -1,0 +1,76 @@
+{
+  "code": "F590",
+  "name": "吉林工程技术师范学院",
+  "leaves": [
+    {
+      "schoolCode": "F590",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 514,
+          "minRank": 24253,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "F590",
+      "majorKey": "d1aa34cd",
+      "majorName": "食品营养与检验教育",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 474,
+          "minRank": 109513,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 5,
+          "tuition": "5060",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 24253,
+          "equivRank": 24253
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "食品营养与检验教育",
+          "majorKey": "d1aa34cd",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "5400",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 109513,
+          "equivRank": 109513
+        }
+      ]
+    }
+  ]
+}

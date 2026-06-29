@@ -104,6 +104,62 @@ export const PROVINCES: Record<string, ProvinceConfig> = {
     intro: "安徽 · 2025",
     batchLabel: "本科批 · 物理 / 历史（院校专业组）",
   },
+  gx: {
+    slug: "gx",
+    name: "广西",
+    tracks: [
+      { name: "物理", slug: "wuli" },
+      { name: "历史", slug: "lishi" },
+    ],
+    fillModel: "group",
+    subjectMode: "primary+reselect",
+    fenduanTrack: "物理",
+    fenduanYear: 2025,
+    intro: "广西 · 2025",
+    batchLabel: "本科批 · 物理 / 历史（院校专业组）",
+  },
+  hb: {
+    slug: "hb",
+    name: "湖北",
+    tracks: [
+      { name: "物理", slug: "wuli" },
+      { name: "历史", slug: "lishi" },
+    ],
+    fillModel: "group",
+    subjectMode: "primary+reselect",
+    fenduanTrack: "物理",
+    fenduanYear: 2025,
+    intro: "湖北 · 2025",
+    batchLabel: "本科批 · 物理 / 历史（院校专业组）",
+  },
+  yn: {
+    slug: "yn",
+    name: "云南",
+    tracks: [
+      { name: "物理", slug: "wuli" },
+      { name: "历史", slug: "lishi" },
+    ],
+    fillModel: "group",
+    subjectMode: "primary+reselect",
+    fenduanTrack: "物理",
+    fenduanYear: 2025,
+    intro: "云南 · 2025",
+    batchLabel: "本科批 · 物理 / 历史（院校专业组）",
+  },
+  henan: {
+    slug: "henan",
+    name: "河南",
+    tracks: [
+      { name: "物理", slug: "wuli" },
+      { name: "历史", slug: "lishi" },
+    ],
+    fillModel: "group",
+    subjectMode: "primary+reselect",
+    fenduanTrack: "物理",
+    fenduanYear: 2025,
+    intro: "河南 · 2025",
+    batchLabel: "本科批 · 物理 / 历史（院校专业组）",
+  },
 };
 
 export const PROVINCE_SLUGS = Object.keys(PROVINCES);

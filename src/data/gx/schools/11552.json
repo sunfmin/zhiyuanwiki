@@ -1,0 +1,102 @@
+{
+  "code": "11552",
+  "name": "四川旅游学院",
+  "leaves": [
+    {
+      "schoolCode": "11552",
+      "majorKey": "4428fd77",
+      "majorName": "商务英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 485,
+          "minRank": 20748,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 468,
+          "minRank": 80975,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "11552",
+      "majorKey": "8742ced2",
+      "majorName": "烹饪与营养教育",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 483,
+          "minRank": 68698,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "102",
+      "groupName": "专业组:102(首选科目:历史。再选科目:不限)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "商务英语",
+          "majorKey": "4428fd77",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "4800元/年",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 20748,
+          "equivRank": 20748
+        }
+      ]
+    },
+    {
+      "groupCode": "100",
+      "groupName": "专业组:100(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "烹饪与营养教育",
+          "majorKey": "8742ced2",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5200元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 68698,
+          "equivRank": 68698
+        }
+      ]
+    },
+    {
+      "groupCode": "101",
+      "groupName": "专业组:101(首选科目:物理。再选科目:不限)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "商务英语",
+          "majorKey": "4428fd77",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4800元/年",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 80975,
+          "equivRank": 80975
+        }
+      ]
+    }
+  ]
+}

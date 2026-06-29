@@ -1,0 +1,214 @@
+{
+  "code": "4557",
+  "name": "贺州学院",
+  "leaves": [
+    {
+      "schoolCode": "4557",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 489,
+          "minRank": 71158,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4557",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 530,
+          "minRank": 16779,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4557",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 491,
+          "minRank": 69659,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4557",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 496,
+          "minRank": 66012,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4557",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 527,
+          "minRank": 17696,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4557",
+      "majorKey": "2f5c1273",
+      "majorName": "茶学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 488,
+          "minRank": 71869,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4557",
+      "majorKey": "48469b36",
+      "majorName": "跨境电子商务",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 523,
+          "minRank": 19044,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 5,
+          "tuition": "4200元",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 17696,
+          "equivRank": 17696
+        },
+        {
+          "majorName": "跨境电子商务",
+          "majorKey": "48469b36",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "4600元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 19044,
+          "equivRank": 19044
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "历史",
+      "selKe": "历史,政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "历史,政治",
+          "plan": 5,
+          "tuition": "4200元",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 16779,
+          "equivRank": 16779
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "4600元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 71158,
+          "equivRank": 71158
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "4600元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 69659,
+          "equivRank": 69659
+        },
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "4600元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 66012,
+          "equivRank": 66012
+        },
+        {
+          "majorName": "茶学",
+          "majorKey": "2f5c1273",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "3800元",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 71869,
+          "equivRank": 71869
+        }
+      ]
+    }
+  ]
+}

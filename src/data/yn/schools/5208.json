@@ -1,0 +1,154 @@
+{
+  "code": "5208",
+  "name": "贵州工程应用技术学院",
+  "leaves": [
+    {
+      "schoolCode": "5208",
+      "majorKey": "5a324641",
+      "majorName": "人力资源管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 505,
+          "minRank": 25232,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 474,
+          "minRank": 81412,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5208",
+      "majorKey": "4ea26300",
+      "majorName": "广播电视学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 509,
+          "minRank": 23736,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5208",
+      "majorKey": "25624660",
+      "majorName": "应用化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 474,
+          "minRank": 81412,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5208",
+      "majorKey": "2698a02f",
+      "majorName": "环境生态工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 473,
+          "minRank": 82169,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "人力资源管理",
+          "majorKey": "5a324641",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "4100元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 25232,
+          "equivRank": 25232
+        },
+        {
+          "majorName": "广播电视学",
+          "majorKey": "4ea26300",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "4100元",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 23736,
+          "equivRank": 23736
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "人力资源管理",
+          "majorKey": "5a324641",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "4100元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 81412,
+          "equivRank": 81412
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "应用化学",
+          "majorKey": "25624660",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "4200元",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 81412,
+          "equivRank": 81412
+        },
+        {
+          "majorName": "环境生态工程",
+          "majorKey": "2698a02f",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4200元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 82169,
+          "equivRank": 82169
+        }
+      ]
+    }
+  ]
+}

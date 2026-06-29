@@ -1,0 +1,196 @@
+{
+  "code": "10739",
+  "name": "天水师范大学",
+  "leaves": [
+    {
+      "schoolCode": "10739",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 483,
+          "minRank": 21316,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10739",
+      "majorKey": "d061ae24",
+      "majorName": "地理科学",
+      "selKe": "首选物理，再选地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 446,
+          "minRank": 100278,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10739",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 432,
+          "minRank": 113460,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10739",
+      "majorKey": "b74128f4",
+      "majorName": "工商管理类",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 430,
+          "minRank": 115400,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10739",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 447,
+          "minRank": 99362,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10739",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 490,
+          "minRank": 19344,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "专业组:101(首选科目:历史。再选科目:不限)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "3800元/年",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 19344,
+          "equivRank": 19344
+        },
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "3800元/年",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 21316,
+          "equivRank": 21316
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "专业组:102(首选科目:物理。再选科目:不限)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "3800元/年",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 113460,
+          "equivRank": 113460
+        },
+        {
+          "majorName": "工商管理类",
+          "majorKey": "b74128f4",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "3800元/年",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 115400,
+          "equivRank": 115400
+        }
+      ]
+    },
+    {
+      "groupCode": "103",
+      "groupName": "专业组:103(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "4000元/年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 99362,
+          "equivRank": 99362
+        }
+      ]
+    },
+    {
+      "groupCode": "104",
+      "groupName": "专业组:104(首选科目:物理。再选科目:地理)",
+      "track": "物理",
+      "selKe": "地理",
+      "majors": [
+        {
+          "majorName": "地理科学",
+          "majorKey": "d061ae24",
+          "selKe": "地理",
+          "plan": 3,
+          "tuition": "4000元/年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 100278,
+          "equivRank": 100278
+        }
+      ]
+    }
+  ]
+}

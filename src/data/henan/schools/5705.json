@@ -1,0 +1,280 @@
+{
+  "code": "5705",
+  "name": "河北金融学院",
+  "leaves": [
+    {
+      "schoolCode": "5705",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 536,
+          "minRank": 142192,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5705",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 551,
+          "minRank": 25933,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 529,
+          "minRank": 154977,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5705",
+      "majorKey": "d5543eac",
+      "majorName": "数据计算及应用",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 536,
+          "minRank": 142192,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5705",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 548,
+          "minRank": 27643,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 526,
+          "minRank": 160378,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5705",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 547,
+          "minRank": 28232,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 534,
+          "minRank": 145853,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5060",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 28232,
+          "equivRank": 28232
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4900",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 27643,
+          "equivRank": 27643
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5060",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 25933,
+          "equivRank": 25933
+        }
+      ]
+    },
+    {
+      "groupCode": "201",
+      "groupName": "201",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "25000",
+          "menlei": "经",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 28232,
+          "equivRank": 28232
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "25000",
+          "menlei": "管",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 25933,
+          "equivRank": 25933
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5060",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 145853,
+          "equivRank": 145853
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4900",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 160378,
+          "equivRank": 160378
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5060",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 154977,
+          "equivRank": 154977
+        }
+      ]
+    },
+    {
+      "groupCode": "103",
+      "groupName": "103",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "数据计算及应用",
+          "majorKey": "d5543eac",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "4900",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 142192,
+          "equivRank": 142192
+        },
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化",
+          "plan": 7,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 142192,
+          "equivRank": 142192
+        }
+      ]
+    },
+    {
+      "groupCode": "202",
+      "groupName": "202",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "25000",
+          "menlei": "管",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 154977,
+          "equivRank": 154977
+        },
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "25000",
+          "menlei": "经",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 145853,
+          "equivRank": 145853
+        }
+      ]
+    }
+  ]
+}

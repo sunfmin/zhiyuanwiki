@@ -1,0 +1,147 @@
+{
+  "code": "K220",
+  "name": "西南财经大学天府学院",
+  "leaves": [
+    {
+      "schoolCode": "K220",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 498,
+          "minRank": 29565,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 479,
+          "minRank": 105123,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "K220",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 496,
+          "minRank": 30266,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 491,
+          "minRank": 94466,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "18000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 29565,
+          "equivRank": 29565
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "18000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 30266,
+          "equivRank": 30266
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "物理",
+          "plan": 4,
+          "tuition": "18000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 105123,
+          "equivRank": 105123
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 94466,
+          "equivRank": 94466
+        }
+      ]
+    },
+    {
+      "groupCode": "05",
+      "groupName": "05",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 94466,
+          "equivRank": 94466
+        }
+      ]
+    }
+  ]
+}

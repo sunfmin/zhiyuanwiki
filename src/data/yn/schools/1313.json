@@ -1,0 +1,198 @@
+{
+  "code": "1313",
+  "name": "廊坊师范学院",
+  "leaves": [
+    {
+      "schoolCode": "1313",
+      "majorKey": "5a324641",
+      "majorName": "人力资源管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 520,
+          "minRank": 20125,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 476,
+          "minRank": 80652,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1313",
+      "majorKey": "f3fa4b3d",
+      "majorName": "信息与计算科学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 480,
+          "minRank": 77767,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1313",
+      "majorKey": "9c5f4a34",
+      "majorName": "新闻学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 520,
+          "minRank": 20125,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 479,
+          "minRank": 78457,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1313",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 524,
+          "minRank": 18713,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1313",
+      "majorKey": "653f630d",
+      "majorName": "物理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 481,
+          "minRank": 77016,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "5060元",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 18713,
+          "equivRank": 18713
+        },
+        {
+          "majorName": "人力资源管理",
+          "majorKey": "5a324641",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "4600元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 20125,
+          "equivRank": 20125
+        },
+        {
+          "majorName": "新闻学",
+          "majorKey": "9c5f4a34",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "4600元",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 20125,
+          "equivRank": 20125
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "人力资源管理",
+          "majorKey": "5a324641",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "4600元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 80652,
+          "equivRank": 80652
+        },
+        {
+          "majorName": "新闻学",
+          "majorKey": "9c5f4a34",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "4600元",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 78457,
+          "equivRank": 78457
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "信息与计算科学",
+          "majorKey": "f3fa4b3d",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "4900元",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 77767,
+          "equivRank": 77767
+        },
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "4900元",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 77016,
+          "equivRank": 77016
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,623 @@
+{
+  "code": "2210",
+  "name": "东北师范大学",
+  "leaves": [
+    {
+      "schoolCode": "2210",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 604,
+          "minRank": 8700,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2210",
+      "majorKey": "ab2d8ff0",
+      "majorName": "少数民族预科班",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 595,
+          "minRank": 2704,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 576,
+          "minRank": 18720,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2210",
+      "majorKey": "889e9381",
+      "majorName": "数字媒体技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 600,
+          "minRank": 9898,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2210",
+      "majorKey": "331c4c8e",
+      "majorName": "新闻传播学类",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 593,
+          "minRank": 2915,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2210",
+      "majorKey": "3d12abf2",
+      "majorName": "物理学类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 603,
+          "minRank": 9009,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2210",
+      "majorKey": "d47d0996",
+      "majorName": "生物科学类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 597,
+          "minRank": 10811,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2210",
+      "majorKey": "0cabaa98",
+      "majorName": "经济学类",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 593,
+          "minRank": 2915,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2210",
+      "majorKey": "8230723d",
+      "majorName": "计算机类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 600,
+          "minRank": 9898,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2210",
+      "majorKey": "66836d02",
+      "majorName": "马克思主义理论类",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 606,
+          "minRank": 1650,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "免费",
+          "menlei": "史"
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "历史",
+      "selKe": "历史,政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "历史,政治",
+          "plan": 2,
+          "tuition": "免费",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "新闻传播学类",
+          "majorKey": "331c4c8e",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "6600元",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 2915,
+          "equivRank": 2915
+        },
+        {
+          "majorName": "经济学类",
+          "majorKey": "0cabaa98",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "6070元",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 2915,
+          "equivRank": 2915
+        }
+      ]
+    },
+    {
+      "groupCode": "05",
+      "groupName": "05",
+      "track": "历史",
+      "selKe": "历史,政治",
+      "majors": [
+        {
+          "majorName": "马克思主义理论类",
+          "majorKey": "66836d02",
+          "selKe": "历史,政治",
+          "plan": 4,
+          "tuition": "5810元",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 1650,
+          "equivRank": 1650
+        }
+      ]
+    },
+    {
+      "groupCode": "06",
+      "groupName": "06",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "商务英语",
+          "majorKey": "4428fd77",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5810元",
+          "menlei": "文"
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "5810元",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "07",
+      "groupName": "07",
+      "track": "历史",
+      "selKe": "历史,政治",
+      "majors": [
+        {
+          "majorName": "政治学类",
+          "majorKey": "23e45e08",
+          "selKe": "历史,政治",
+          "plan": 2,
+          "tuition": "6070元",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "08",
+      "groupName": "08",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "少数民族预科班",
+          "majorKey": "ab2d8ff0",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "5000元",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 2704,
+          "equivRank": 2704
+        },
+        {
+          "majorName": "少数民族预科班",
+          "majorKey": "ab2d8ff0",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "5000元",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 2704,
+          "equivRank": 2704
+        }
+      ]
+    },
+    {
+      "groupCode": "09",
+      "groupName": "09",
+      "track": "历史",
+      "selKe": "历史,政治",
+      "majors": [
+        {
+          "majorName": "少数民族预科班",
+          "majorKey": "ab2d8ff0",
+          "selKe": "历史,政治",
+          "plan": 1,
+          "tuition": "5000元",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 2704,
+          "equivRank": 2704
+        }
+      ]
+    },
+    {
+      "groupCode": "10",
+      "groupName": "10",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "免费",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "99",
+      "groupName": "99",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "教育学类",
+          "majorKey": "7273f83c",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "6070元",
+          "menlei": "教"
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "教育技术学",
+          "majorKey": "3e2b336a",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "教"
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "免费",
+          "menlei": "理"
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "计算机类",
+          "majorKey": "8230723d",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "6210元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 9898,
+          "equivRank": 9898
+        },
+        {
+          "majorName": "物理学类",
+          "majorKey": "3d12abf2",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "6320元",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 9009,
+          "equivRank": 9009
+        },
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6320元",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 8700,
+          "equivRank": 8700
+        },
+        {
+          "majorName": "数字媒体技术",
+          "majorKey": "889e9381",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6830元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 9898,
+          "equivRank": 9898
+        },
+        {
+          "majorName": "生物科学类",
+          "majorKey": "d47d0996",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6320元",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 10811,
+          "equivRank": 10811
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "经济学类",
+          "majorKey": "0cabaa98",
+          "selKe": "物理",
+          "plan": 3,
+          "tuition": "6070元",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 2915,
+          "equivRank": 7906
+        },
+        {
+          "majorName": "心理学",
+          "majorKey": "17c0dc67",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "6320元",
+          "menlei": "理"
+        }
+      ]
+    },
+    {
+      "groupCode": "05",
+      "groupName": "05",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "计算机类",
+          "majorKey": "8230723d",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6210元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 9898,
+          "equivRank": 9898
+        },
+        {
+          "majorName": "数学类",
+          "majorKey": "33b3d741",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6320元",
+          "menlei": "理"
+        },
+        {
+          "majorName": "物理学类",
+          "majorKey": "3d12abf2",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6320元",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 9009,
+          "equivRank": 9009
+        }
+      ]
+    },
+    {
+      "groupCode": "06",
+      "groupName": "06",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "少数民族预科班",
+          "majorKey": "ab2d8ff0",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "5000元",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 18720,
+          "equivRank": 18720
+        }
+      ]
+    },
+    {
+      "groupCode": "07",
+      "groupName": "07",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "少数民族预科班",
+          "majorKey": "ab2d8ff0",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5000元",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 18720,
+          "equivRank": 18720
+        },
+        {
+          "majorName": "少数民族预科班",
+          "majorKey": "ab2d8ff0",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5000元",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 18720,
+          "equivRank": 18720
+        },
+        {
+          "majorName": "少数民族预科班",
+          "majorKey": "ab2d8ff0",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5000元",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 18720,
+          "equivRank": 18720
+        }
+      ]
+    },
+    {
+      "groupCode": "10",
+      "groupName": "10",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "地理科学",
+          "majorKey": "d061ae24",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "免费",
+          "menlei": "理"
+        }
+      ]
+    },
+    {
+      "groupCode": "99",
+      "groupName": "99",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "经济学类",
+          "majorKey": "0cabaa98",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "6070元",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 2915,
+          "equivRank": 7906
+        }
+      ]
+    }
+  ]
+}

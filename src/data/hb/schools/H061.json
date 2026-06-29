@@ -1,0 +1,102 @@
+{
+  "code": "H061",
+  "name": "浙江树人学院",
+  "leaves": [
+    {
+      "schoolCode": "H061",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 484,
+          "minRank": 34460,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "H061",
+      "majorKey": "263aa9c9",
+      "majorName": "家政学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 471,
+          "minRank": 39297,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "H061",
+      "majorKey": "287bdd33",
+      "majorName": "投资学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 468,
+          "minRank": 114776,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "历史",
+          "plan": 5,
+          "tuition": "31000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 34460,
+          "equivRank": 34460
+        },
+        {
+          "majorName": "家政学",
+          "majorKey": "263aa9c9",
+          "selKe": "历史",
+          "plan": 10,
+          "tuition": "31000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 39297,
+          "equivRank": 39297
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "投资学",
+          "majorKey": "287bdd33",
+          "selKe": "物理",
+          "plan": 5,
+          "tuition": "31000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 114776,
+          "equivRank": 114776
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "code": "5207",
+  "name": "安顺学院",
+  "leaves": [
+    {
+      "schoolCode": "5207",
+      "majorKey": "c10bcf22",
+      "majorName": "农学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 498,
+          "minRank": 64525,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5207",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 518,
+          "minRank": 20803,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5207",
+      "majorKey": "22946851",
+      "majorName": "文化遗产",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 529,
+          "minRank": 17078,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5207",
+      "majorKey": "c931a1e1",
+      "majorName": "植物保护",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 487,
+          "minRank": 72622,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5207",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 506,
+          "minRank": 58868,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5207",
+      "majorKey": "ec686c36",
+      "majorName": "酒店管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 510,
+          "minRank": 23735,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "文化遗产",
+          "majorKey": "22946851",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "4100元",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 17078,
+          "equivRank": 17078
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "4100元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 20803,
+          "equivRank": 20803
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "酒店管理",
+          "majorKey": "ec686c36",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "4100元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 23735,
+          "equivRank": 23735
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "4200元",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 58868,
+          "equivRank": 58868
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "农学",
+          "majorKey": "c10bcf22",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "3830元",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 64525,
+          "equivRank": 64525
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "植物保护",
+          "majorKey": "c931a1e1",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "3830元",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 72622,
+          "equivRank": 72622
+        }
+      ]
+    }
+  ]
+}

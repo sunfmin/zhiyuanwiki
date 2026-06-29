@@ -1,0 +1,214 @@
+{
+  "code": "4180",
+  "name": "河南科技学院",
+  "leaves": [
+    {
+      "schoolCode": "4180",
+      "majorKey": "68209f46",
+      "majorName": "信息工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 488,
+          "minRank": 71869,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4180",
+      "majorKey": "55e3bd26",
+      "majorName": "信息管理与信息系统",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 490,
+          "minRank": 70392,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4180",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 510,
+          "minRank": 23735,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4180",
+      "majorKey": "c931a1e1",
+      "majorName": "植物保护",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 485,
+          "minRank": 74049,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4180",
+      "majorKey": "d2fbd5c5",
+      "majorName": "汉语国际教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 514,
+          "minRank": 22248,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4180",
+      "majorKey": "14eeb10f",
+      "majorName": "生物工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 484,
+          "minRank": 74757,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4180",
+      "majorKey": "9b8820c1",
+      "majorName": "风景园林",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 483,
+          "minRank": 75535,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "历史",
+          "plan": 6,
+          "tuition": "4400元",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 23735,
+          "equivRank": 23735
+        },
+        {
+          "majorName": "汉语国际教育",
+          "majorKey": "d2fbd5c5",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "4400元",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 22248,
+          "equivRank": 22248
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "风景园林",
+          "majorKey": "9b8820c1",
+          "selKe": "物理",
+          "plan": 5,
+          "tuition": "5000元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 75535,
+          "equivRank": 75535
+        },
+        {
+          "majorName": "信息管理与信息系统",
+          "majorKey": "55e3bd26",
+          "selKe": "物理",
+          "plan": 4,
+          "tuition": "4400元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 70392,
+          "equivRank": 70392
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "信息工程",
+          "majorKey": "68209f46",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "5000元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 71869,
+          "equivRank": 71869
+        },
+        {
+          "majorName": "植物保护",
+          "majorKey": "c931a1e1",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5000元",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 74049,
+          "equivRank": 74049
+        },
+        {
+          "majorName": "生物工程",
+          "majorKey": "14eeb10f",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5000元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 74757,
+          "equivRank": 74757
+        }
+      ]
+    }
+  ]
+}

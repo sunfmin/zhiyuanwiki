@@ -1,0 +1,128 @@
+{
+  "code": "6158",
+  "name": "安康学院",
+  "leaves": [
+    {
+      "schoolCode": "6158",
+      "majorKey": "28bd788f",
+      "majorName": "制药工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 480,
+          "minRank": 77767,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6158",
+      "majorKey": "ff33db96",
+      "majorName": "化妆品技术与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 482,
+          "minRank": 76268,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6158",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 528,
+          "minRank": 17367,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6158",
+      "majorKey": "fff04889",
+      "majorName": "网络与新媒体",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 526,
+          "minRank": 18065,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5000元",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 17367,
+          "equivRank": 17367
+        },
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5000元",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 18065,
+          "equivRank": 18065
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "制药工程",
+          "majorKey": "28bd788f",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6000元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 77767,
+          "equivRank": 77767
+        },
+        {
+          "majorName": "化妆品技术与工程",
+          "majorKey": "ff33db96",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6000元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 76268,
+          "equivRank": 76268
+        }
+      ]
+    }
+  ]
+}

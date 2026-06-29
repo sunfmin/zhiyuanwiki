@@ -1,0 +1,170 @@
+{
+  "code": "6221",
+  "name": "天水师范大学",
+  "leaves": [
+    {
+      "schoolCode": "6221",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 503,
+          "minRank": 60983,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6221",
+      "majorKey": "d061ae24",
+      "majorName": "地理科学",
+      "selKe": "首选历史，再选地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 529,
+          "minRank": 17078,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6221",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 540,
+          "minRank": 13686,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6221",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 505,
+          "minRank": 59581,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6221",
+      "majorKey": "b534555a",
+      "majorName": "科学教育",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 489,
+          "minRank": 71158,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "3800元",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 13686,
+          "equivRank": 13686
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "历史",
+      "selKe": "历史,地理",
+      "majors": [
+        {
+          "majorName": "地理科学",
+          "majorKey": "d061ae24",
+          "selKe": "历史,地理",
+          "plan": 3,
+          "tuition": "4000元",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 17078,
+          "equivRank": 17078
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "科学教育",
+          "majorKey": "b534555a",
+          "selKe": "物理",
+          "plan": 3,
+          "tuition": "4000元",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 71158,
+          "equivRank": 71158
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "4000元",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 60983,
+          "equivRank": 60983
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "4400元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 59581,
+          "equivRank": 59581
+        }
+      ]
+    }
+  ]
+}

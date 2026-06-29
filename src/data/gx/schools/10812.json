@@ -1,0 +1,128 @@
+{
+  "code": "10812",
+  "name": "吕梁学院",
+  "leaves": [
+    {
+      "schoolCode": "10812",
+      "majorKey": "28bd788f",
+      "majorName": "制药工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 424,
+          "minRank": 121394,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10812",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 451,
+          "minRank": 32228,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 418,
+          "minRank": 127365,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10812",
+      "majorKey": "e16fbe20",
+      "majorName": "安全工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 421,
+          "minRank": 124396,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "100",
+      "groupName": "专业组:100(首选科目:历史。再选科目:不限)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4950元/年",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 32228,
+          "equivRank": 32228
+        }
+      ]
+    },
+    {
+      "groupCode": "101",
+      "groupName": "专业组:101(首选科目:物理。再选科目:不限)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4950元/年",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 127365,
+          "equivRank": 127365
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "专业组:102(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "制药工程",
+          "majorKey": "28bd788f",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5280元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 121394,
+          "equivRank": 121394
+        },
+        {
+          "majorName": "安全工程",
+          "majorKey": "e16fbe20",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5100元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 124396,
+          "equivRank": 124396
+        }
+      ]
+    }
+  ]
+}

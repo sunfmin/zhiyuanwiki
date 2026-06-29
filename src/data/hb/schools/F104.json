@@ -1,0 +1,68 @@
+{
+  "code": "F104",
+  "name": "天津美术学院",
+  "leaves": [
+    {
+      "schoolCode": "F104",
+      "majorKey": "44d89b18",
+      "majorName": "艺术管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 512,
+          "minRank": 24873,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "F104",
+      "majorKey": "72bed0ee",
+      "majorName": "艺术设计学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 513,
+          "minRank": 24565,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "艺术管理",
+          "majorKey": "44d89b18",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "10000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 24873,
+          "equivRank": 24873
+        },
+        {
+          "majorName": "艺术设计学",
+          "majorKey": "72bed0ee",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "10000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 24565,
+          "equivRank": 24565
+        }
+      ]
+    }
+  ]
+}

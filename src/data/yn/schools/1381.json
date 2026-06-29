@@ -1,0 +1,68 @@
+{
+  "code": "1381",
+  "name": "张家口学院",
+  "leaves": [
+    {
+      "schoolCode": "1381",
+      "majorKey": "889e9381",
+      "majorName": "数字媒体技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 497,
+          "minRank": 64526,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1381",
+      "majorKey": "b54c1697",
+      "majorName": "网络工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 497,
+          "minRank": 64526,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "数字媒体技术",
+          "majorKey": "889e9381",
+          "selKe": "物理,化学",
+          "plan": 11,
+          "tuition": "4900元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 64526,
+          "equivRank": 64526
+        },
+        {
+          "majorName": "网络工程",
+          "majorKey": "b54c1697",
+          "selKe": "物理,化学",
+          "plan": 11,
+          "tuition": "4900元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 64526,
+          "equivRank": 64526
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "code": "F304",
+  "name": "运城学院",
+  "leaves": [
+    {
+      "schoolCode": "F304",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 475,
+          "minRank": 108619,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "F304",
+      "majorKey": "653f630d",
+      "majorName": "物理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 476,
+          "minRank": 107761,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "待定",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 108619,
+          "equivRank": 108619
+        },
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "待定",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 107761,
+          "equivRank": 107761
+        }
+      ]
+    }
+  ]
+}

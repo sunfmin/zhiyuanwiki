@@ -1,0 +1,102 @@
+{
+  "code": "11556",
+  "name": "文山学院",
+  "leaves": [
+    {
+      "schoolCode": "11556",
+      "majorKey": "f9504a0c",
+      "majorName": "中药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 447,
+          "minRank": 99362,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "11556",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 451,
+          "minRank": 32228,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "11556",
+      "majorKey": "82370fd6",
+      "majorName": "越南语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 448,
+          "minRank": 33435,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "专业组:101(首选科目:历史。再选科目:不限)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4200元/年",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 32228,
+          "equivRank": 32228
+        },
+        {
+          "majorName": "越南语",
+          "majorKey": "82370fd6",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4200元/年",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 33435,
+          "equivRank": 33435
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "专业组:102(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "中药学",
+          "majorKey": "f9504a0c",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5500元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 99362,
+          "equivRank": 99362
+        }
+      ]
+    }
+  ]
+}

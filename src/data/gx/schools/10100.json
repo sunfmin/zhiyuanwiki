@@ -1,0 +1,216 @@
+{
+  "code": "10100",
+  "name": "廊坊师范学院",
+  "leaves": [
+    {
+      "schoolCode": "10100",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 431,
+          "minRank": 114421,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10100",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 452,
+          "minRank": 31832,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 441,
+          "minRank": 104882,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10100",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 452,
+          "minRank": 31832,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 435,
+          "minRank": 110643,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10100",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 472,
+          "minRank": 24719,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 448,
+          "minRank": 98500,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10100",
+      "majorKey": "d47d0996",
+      "majorName": "生物科学类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 424,
+          "minRank": 121394,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "专业组:101(首选科目:历史。再选科目:不限)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4600元/年",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 31832,
+          "equivRank": 31832
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "4600元/年",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 24719,
+          "equivRank": 24719
+        },
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4600元/年",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 31832,
+          "equivRank": 31832
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "专业组:102(首选科目:物理。再选科目:不限)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4600元/年",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 104882,
+          "equivRank": 104882
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4600元/年",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 98500,
+          "equivRank": 98500
+        },
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4600元/年",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 110643,
+          "equivRank": 110643
+        }
+      ]
+    },
+    {
+      "groupCode": "103",
+      "groupName": "专业组:103(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5390元/年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 114421,
+          "equivRank": 114421
+        },
+        {
+          "majorName": "生物科学类",
+          "majorKey": "d47d0996",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5390元/年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 121394,
+          "equivRank": 121394
+        }
+      ]
+    }
+  ]
+}

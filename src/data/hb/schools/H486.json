@@ -1,0 +1,178 @@
+{
+  "code": "H486",
+  "name": "齐鲁医药学院",
+  "leaves": [
+    {
+      "schoolCode": "H486",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 492,
+          "minRank": 93598,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "H486",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 467,
+          "minRank": 115600,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "H486",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 470,
+          "minRank": 113009,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "H486",
+      "majorKey": "27c81131",
+      "majorName": "生物医学工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 476,
+          "minRank": 107761,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "H486",
+      "majorKey": "1954d9c9",
+      "majorName": "预防医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 459,
+          "minRank": 122391,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "生物医学工程",
+          "majorKey": "27c81131",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "18500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 107761,
+          "equivRank": 107761
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "22500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 93598,
+          "equivRank": 93598
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "预防医学",
+          "majorKey": "1954d9c9",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "22500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 122391,
+          "equivRank": 122391
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "20800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 115600,
+          "equivRank": 115600
+        }
+      ]
+    },
+    {
+      "groupCode": "05",
+      "groupName": "05",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "19000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 113009,
+          "equivRank": 113009
+        }
+      ]
+    }
+  ]
+}

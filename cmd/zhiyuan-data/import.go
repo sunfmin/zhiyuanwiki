@@ -12,6 +12,7 @@ import (
 
 	"github.com/sunfmin/zhiyuanwiki/internal/ah"
 	"github.com/sunfmin/zhiyuanwiki/internal/core"
+	"github.com/sunfmin/zhiyuanwiki/internal/group3p12"
 	"github.com/sunfmin/zhiyuanwiki/internal/hlj"
 	"github.com/sunfmin/zhiyuanwiki/internal/hn"
 	"github.com/sunfmin/zhiyuanwiki/internal/js"
@@ -27,11 +28,15 @@ func importDefaultSrc() string {
 
 // provDirName 是某省在 各省份/ 下的子目录名（多数=中文名；个别带后缀，按需登记）。
 var provDirName = map[string]string{
-	"js":  "江苏",
-	"hn":  "湖南",
-	"sc":  "四川",
-	"ah":  "安徽",
-	"hlj": "黑龙江", // 各省份/黑龙江（仅一分一段从这里取；分数/计划走万师兄树，见 importHLJ）
+	"js":    "江苏",
+	"hn":    "湖南",
+	"sc":    "四川",
+	"ah":    "安徽",
+	"gx":    "广西",
+	"hb":    "湖北高考数据", // 各省份/ 下子目录带后缀
+	"yn":    "云南",
+	"henan": "河南", // slug 用 henan 避免与湖南 hn 冲突
+	"hlj":   "黑龙江", // 各省份/黑龙江（仅一分一段从这里取；分数/计划走万师兄树，见 importHLJ）
 }
 
 // provParser 是某省入库所需的三个解析函数（签名一致，实现在 internal/<省>）。这张表是
@@ -53,6 +58,18 @@ var provParsers = map[string]provParser{
 		PlanMust: []string{"2025年-招生计划"}},
 	"ah": {Scores: ah.ParseScores, Plan: ah.ParsePlan, YFD: ah.ParseYiFenYiDuan,
 		PlanMust: []string{"安徽-2025-招生计划"}},
+	// 干净的统一格式 3+1+2 group 省（配方同 sc/ah），共用 internal/group3p12 解析；见 ADR-0014。
+	// PlanMust 必填且要精确：这些省的 25 年数据目录名常含「招生计划」子串（如「25招生计划和投档线」/
+	// 「25分数线和招生计划」），默认 ["招生计划"] 会按体积错配到更大的「专业录取分数」文件。
+	"gx": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
+		PlanMust: []string{"广西-2025-招生计划"}},
+	"hb": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
+		PlanMust: []string{"25年全国高校在湖北省的招生计划"}},
+	"yn": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
+		// 2025 单年计划在「云南25年高考数据」目录；用目录名 + 招生计划 双串排除「22~25年…」多年合表。
+		PlanMust: []string{"云南25年高考数据", "招生计划"}},
+	"henan": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
+		PlanMust: []string{"河南-2025-招生计划"}},
 	// 黑龙江也是 staging 省（组模型，走 buildDBBundle），但源异构、跨两棵树，入库走 importHLJ
 	// 而非通用 importProvince；这里登记是给 fenduan/yuanxiao 的「是否 staging」分流用。
 	"hlj": {Scores: hlj.ParseMajorScoresXLSX, Plan: hlj.ParsePlanXLSX, YFD: hlj.ParseYiFenYiDuan},

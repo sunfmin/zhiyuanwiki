@@ -1,0 +1,108 @@
+{
+  "code": "3662",
+  "name": "江西师范大学科学技术学院",
+  "leaves": [
+    {
+      "schoolCode": "3662",
+      "majorKey": "d061ae24",
+      "majorName": "地理科学",
+      "selKe": "首选历史，再选地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 492,
+          "minRank": 30286,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3662",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 516,
+          "minRank": 21195,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "1.3万元",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 21195,
+          "equivRank": 21195
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "历史",
+      "selKe": "历史,地理",
+      "majors": [
+        {
+          "majorName": "地理科学",
+          "majorKey": "d061ae24",
+          "selKe": "历史,地理",
+          "plan": 4,
+          "tuition": "1.45万元",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 30286,
+          "equivRank": 30286
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "1.45万元",
+          "menlei": "理"
+        },
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "1.45万元",
+          "menlei": "理"
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "1.45万元",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

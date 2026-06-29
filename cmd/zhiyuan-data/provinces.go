@@ -24,6 +24,13 @@ var provinces = map[string]province{
 	"hn":  {slug: "hn", name: "湖南", tracks: []string{"物理", "历史"}, model: "group"},
 	"sc":  {slug: "sc", name: "四川", tracks: []string{"物理", "历史"}, model: "group"},
 	"ah":  {slug: "ah", name: "安徽", tracks: []string{"物理", "历史"}, model: "group"},
+	// 干净的统一格式 3+1+2 group 省（2025 单年，配方同 sc/ah）；云南/河南 2025 为其改革首年。见 ADR-0014。
+	// 江西暂缓：2025 计划表是原始省考院导出（列名 计划数/专业组/选课要求、艺普混表），且其专业组代码
+	// 「第501组」与录取分数表的「（501）」不同形，直接挂接组 fill 会失败，需专属解析 + 组码归一，另案。
+	"gx":    {slug: "gx", name: "广西", tracks: []string{"物理", "历史"}, model: "group"},
+	"hb":    {slug: "hb", name: "湖北", tracks: []string{"物理", "历史"}, model: "group"},
+	"yn":    {slug: "yn", name: "云南", tracks: []string{"物理", "历史"}, model: "group"},
+	"henan": {slug: "henan", name: "河南", tracks: []string{"物理", "历史"}, model: "group"},
 }
 
 // trackSlug 把科类名映射成 ascii 文件名片段（定位索引/一分一段文件名）。

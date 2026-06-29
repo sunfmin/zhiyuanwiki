@@ -1,0 +1,154 @@
+{
+  "code": "2175",
+  "name": "辽东学院",
+  "leaves": [
+    {
+      "schoolCode": "2175",
+      "majorKey": "ec77cae2",
+      "majorName": "旅游管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 505,
+          "minRank": 25588,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2175",
+      "majorKey": "90cd213e",
+      "majorName": "服装设计与工程",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 471,
+          "minRank": 84481,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2175",
+      "majorKey": "bb33137b",
+      "majorName": "经济统计学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 485,
+          "minRank": 74049,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2175",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 511,
+          "minRank": 23330,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 476,
+          "minRank": 80652,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "旅游管理",
+          "majorKey": "ec77cae2",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "4900元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 25588,
+          "equivRank": 25588
+        },
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "4900元",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 23330,
+          "equivRank": 23330
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "服装设计与工程",
+          "majorKey": "90cd213e",
+          "selKe": "物理",
+          "plan": 4,
+          "tuition": "4900元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 84481,
+          "equivRank": 84481
+        },
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "物理",
+          "plan": 3,
+          "tuition": "4900元",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 80652,
+          "equivRank": 80652
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "经济统计学",
+          "majorKey": "bb33137b",
+          "selKe": "物理",
+          "plan": 3,
+          "tuition": "4900元",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 74049,
+          "equivRank": 74049
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "code": "4512",
+  "name": "玉林师范学院",
+  "leaves": [
+    {
+      "schoolCode": "4512",
+      "majorKey": "e735f557",
+      "majorName": "园艺",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 470,
+          "minRank": 85253,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4512",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 535,
+          "minRank": 15197,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4512",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 528,
+          "minRank": 17367,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "历史",
+          "plan": 5,
+          "tuition": "4200元",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 17367,
+          "equivRank": 17367
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "历史",
+      "selKe": "历史,政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "历史,政治",
+          "plan": 3,
+          "tuition": "4200元",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 15197,
+          "equivRank": 15197
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学,生物",
+      "majors": [
+        {
+          "majorName": "园艺",
+          "majorKey": "e735f557",
+          "selKe": "物理,化学,生物",
+          "plan": 2,
+          "tuition": "3800元",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 85253,
+          "equivRank": 85253
+        }
+      ]
+    }
+  ]
+}

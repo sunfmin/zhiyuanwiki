@@ -1,0 +1,68 @@
+{
+  "code": "F011",
+  "name": "首都体育学院",
+  "leaves": [
+    {
+      "schoolCode": "F011",
+      "majorKey": "b996d826",
+      "majorName": "体育经济与管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 563,
+          "minRank": 10316,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 531,
+          "minRank": 59810,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "体育经济与管理",
+          "majorKey": "b996d826",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "4200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 10316,
+          "equivRank": 10316
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "体育经济与管理",
+          "majorKey": "b996d826",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "4200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 59810,
+          "equivRank": 59810
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "code": "9941",
+  "name": "四川音乐学院",
+  "leaves": [
+    {
+      "schoolCode": "9941",
+      "majorKey": "ae17c365",
+      "majorName": "艺术史论",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 513,
+          "minRank": 51305,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "9941",
+      "majorKey": "44d89b18",
+      "majorName": "艺术管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 516,
+          "minRank": 48853,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "501",
+      "groupName": "501",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "艺术管理",
+          "majorKey": "44d89b18",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "12000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 48853,
+          "equivRank": 48853
+        }
+      ]
+    },
+    {
+      "groupCode": "502",
+      "groupName": "502",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "艺术史论",
+          "majorKey": "ae17c365",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "12000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 51305,
+          "equivRank": 51305
+        }
+      ]
+    }
+  ]
+}

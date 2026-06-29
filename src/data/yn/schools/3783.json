@@ -1,0 +1,68 @@
+{
+  "code": "3783",
+  "name": "山东航空学院",
+  "leaves": [
+    {
+      "schoolCode": "3783",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 530,
+          "minRank": 42886,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3783",
+      "majorKey": "97b7b689",
+      "majorName": "生物制药",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 520,
+          "minRank": 49360,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6300元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 42886,
+          "equivRank": 42886
+        },
+        {
+          "majorName": "生物制药",
+          "majorKey": "97b7b689",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5500元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 49360,
+          "equivRank": 49360
+        }
+      ]
+    }
+  ]
+}

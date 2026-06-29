@@ -1,0 +1,180 @@
+{
+  "code": "K082",
+  "name": "重庆中医药学院",
+  "leaves": [
+    {
+      "schoolCode": "K082",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 560,
+          "minRank": 11025,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 542,
+          "minRank": 50752,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "K082",
+      "majorKey": "f9504a0c",
+      "majorName": "中药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 510,
+          "minRank": 77913,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "K082",
+      "majorKey": "8a499b4f",
+      "majorName": "中西医临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 522,
+          "minRank": 67533,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "K082",
+      "majorKey": "c744f66e",
+      "majorName": "针灸推拿学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 559,
+          "minRank": 11300,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 539,
+          "minRank": 53202,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "6200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 11025,
+          "equivRank": 11025
+        },
+        {
+          "majorName": "针灸推拿学",
+          "majorKey": "c744f66e",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "6200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 11300,
+          "equivRank": 11300
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "物理",
+          "plan": 3,
+          "tuition": "6200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 50752,
+          "equivRank": 50752
+        },
+        {
+          "majorName": "针灸推拿学",
+          "majorKey": "c744f66e",
+          "selKe": "物理",
+          "plan": 3,
+          "tuition": "6200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 53202,
+          "equivRank": 53202
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "中西医临床医学",
+          "majorKey": "8a499b4f",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "6200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 67533,
+          "equivRank": 67533
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "中药学",
+          "majorKey": "f9504a0c",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "6200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 77913,
+          "equivRank": 77913
+        }
+      ]
+    }
+  ]
+}

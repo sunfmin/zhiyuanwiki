@@ -1,0 +1,94 @@
+{
+  "code": "K527",
+  "name": "西安交通工程学院",
+  "leaves": [
+    {
+      "schoolCode": "K527",
+      "majorKey": "904549c4",
+      "majorName": "交通运输",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 469,
+          "minRank": 113884,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "K527",
+      "majorKey": "92b6110d",
+      "majorName": "车辆工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 468,
+          "minRank": 114776,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "K527",
+      "majorKey": "eb230a51",
+      "majorName": "轨道交通信号与控制",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 475,
+          "minRank": 108619,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "车辆工程",
+          "majorKey": "92b6110d",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "26800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 114776,
+          "equivRank": 114776
+        },
+        {
+          "majorName": "轨道交通信号与控制",
+          "majorKey": "eb230a51",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "26800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 108619,
+          "equivRank": 108619
+        },
+        {
+          "majorName": "交通运输",
+          "majorKey": "904549c4",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "26800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 113884,
+          "equivRank": 113884
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "code": "10383",
+  "name": "铜陵学院",
+  "leaves": [
+    {
+      "schoolCode": "10383",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 434,
+          "minRank": 111593,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10383",
+      "majorKey": "f9ecceea",
+      "majorName": "地理信息科学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 437,
+          "minRank": 108657,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "专业组:101(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "地理信息科学",
+          "majorKey": "f9ecceea",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "4900元/年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 108657,
+          "equivRank": 108657
+        },
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5390元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 111593,
+          "equivRank": 111593
+        }
+      ]
+    }
+  ]
+}

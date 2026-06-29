@@ -1,0 +1,76 @@
+{
+  "code": "F782",
+  "name": "上海健康医学院",
+  "leaves": [
+    {
+      "schoolCode": "F782",
+      "majorKey": "f064c60c",
+      "majorName": "临床工程技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 526,
+          "minRank": 64110,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "F782",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 525,
+          "minRank": 64962,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "7400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 64962,
+          "equivRank": 64962
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床工程技术",
+          "majorKey": "f064c60c",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "7000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 64110,
+          "equivRank": 64110
+        }
+      ]
+    }
+  ]
+}

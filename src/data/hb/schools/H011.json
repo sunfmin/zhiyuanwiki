@@ -1,0 +1,189 @@
+{
+  "code": "H011",
+  "name": "绍兴文理学院",
+  "leaves": [
+    {
+      "schoolCode": "H011",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 513,
+          "minRank": 75381,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "H011",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 503,
+          "minRank": 27798,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "H011",
+      "majorKey": "d054f8d1",
+      "majorName": "应用统计学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 516,
+          "minRank": 72834,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "H011",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 544,
+          "minRank": 15285,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "H011",
+      "majorKey": "653f630d",
+      "majorName": "物理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 515,
+          "minRank": 73705,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "H011",
+      "majorKey": "e2472a71",
+      "majorName": "生物科学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 514,
+          "minRank": 74570,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史,政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "历史,政治",
+          "plan": 5,
+          "tuition": "4800",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 15285,
+          "equivRank": 15285
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "历史",
+          "plan": 10,
+          "tuition": "25000",
+          "menlei": "教",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 27798,
+          "equivRank": 27798
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 75381,
+          "equivRank": 75381
+        },
+        {
+          "majorName": "应用统计学",
+          "majorKey": "d054f8d1",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "4800",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 72834,
+          "equivRank": 72834
+        },
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "4800",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 73705,
+          "equivRank": 73705
+        },
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "4800",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 74570,
+          "equivRank": 74570
+        }
+      ]
+    }
+  ]
+}

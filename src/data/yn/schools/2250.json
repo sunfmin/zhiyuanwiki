@@ -1,0 +1,92 @@
+{
+  "code": "2250",
+  "name": "长春科技学院",
+  "leaves": [
+    {
+      "schoolCode": "2250",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 445,
+          "minRank": 104303,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2250",
+      "majorKey": "b3e5d67f",
+      "majorName": "动物医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 422,
+          "minRank": 120700,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "物理",
+          "plan": 6,
+          "tuition": "3.9万元",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 104303,
+          "equivRank": 104303
+        },
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "2.7万元",
+          "menlei": "教"
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "动物医学",
+          "majorKey": "b3e5d67f",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "2.8万元",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 120700,
+          "equivRank": 120700
+        },
+        {
+          "majorName": "计算机类",
+          "majorKey": "8230723d",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "2.8万元",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

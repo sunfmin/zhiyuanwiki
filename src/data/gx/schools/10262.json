@@ -1,0 +1,162 @@
+{
+  "code": "10262",
+  "name": "上海健康医学院",
+  "leaves": [
+    {
+      "schoolCode": "10262",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 544,
+          "minRank": 28117,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10262",
+      "majorKey": "11fef64a",
+      "majorName": "医学影像技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 488,
+          "minRank": 64741,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10262",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 490,
+          "minRank": 63253,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10262",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 466,
+          "minRank": 82643,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10262",
+      "majorKey": "d35344f4",
+      "majorName": "眼视光学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 499,
+          "minRank": 56684,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "专业组:101(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "7400元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 28117,
+          "equivRank": 28117
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "专业组:102(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "7400元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 63253,
+          "equivRank": 63253
+        },
+        {
+          "majorName": "医学影像技术",
+          "majorKey": "11fef64a",
+          "selKe": "化学",
+          "plan": 6,
+          "tuition": "7400元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 64741,
+          "equivRank": 64741
+        },
+        {
+          "majorName": "眼视光学",
+          "majorKey": "d35344f4",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "7400元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 56684,
+          "equivRank": 56684
+        }
+      ]
+    },
+    {
+      "groupCode": "501",
+      "groupName": "专业组:501(国家专项计划。首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "7000元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 82643,
+          "equivRank": 82643
+        }
+      ]
+    }
+  ]
+}

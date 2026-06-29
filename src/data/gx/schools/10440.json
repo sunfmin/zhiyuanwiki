@@ -1,0 +1,316 @@
+{
+  "code": "10440",
+  "name": "滨州医学院",
+  "leaves": [
+    {
+      "schoolCode": "10440",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 508,
+          "minRank": 50340,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10440",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 498,
+          "minRank": 57392,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10440",
+      "majorKey": "a022e9b8",
+      "majorName": "假肢矫形工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 419,
+          "minRank": 126377,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10440",
+      "majorKey": "db9ffa2a",
+      "majorName": "儿科学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 494,
+          "minRank": 60269,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10440",
+      "majorKey": "30e8a552",
+      "majorName": "公共事业管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 457,
+          "minRank": 29930,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10440",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 493,
+          "minRank": 60976,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10440",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 444,
+          "minRank": 102066,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10440",
+      "majorKey": "e849f952",
+      "majorName": "口腔医学技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 478,
+          "minRank": 72682,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10440",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 465,
+          "minRank": 83449,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10440",
+      "majorKey": "d35344f4",
+      "majorName": "眼视光学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 499,
+          "minRank": 56684,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "104",
+      "groupName": "专业组:104(首选科目:历史。再选科目:不限)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "公共事业管理",
+          "majorKey": "30e8a552",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6325元/年",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 29930,
+          "equivRank": 29930
+        }
+      ]
+    },
+    {
+      "groupCode": "101",
+      "groupName": "专业组:101(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 7,
+          "tuition": "7920元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 57392,
+          "equivRank": 57392
+        },
+        {
+          "majorName": "医学影像学",
+          "majorKey": "5780af73",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "7590元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 60976,
+          "equivRank": 60976
+        },
+        {
+          "majorName": "儿科学",
+          "majorKey": "db9ffa2a",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "7590元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 60269,
+          "equivRank": 60269
+        }
+      ]
+    },
+    {
+      "groupCode": "103",
+      "groupName": "专业组:103(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "假肢矫形工程",
+          "majorKey": "a022e9b8",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6600元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 126377,
+          "equivRank": 126377
+        }
+      ]
+    },
+    {
+      "groupCode": "105",
+      "groupName": "专业组:105(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "7590元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 102066,
+          "equivRank": 102066
+        },
+        {
+          "majorName": "眼视光学",
+          "majorKey": "d35344f4",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "7590元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 56684,
+          "equivRank": 56684
+        },
+        {
+          "majorName": "口腔医学技术",
+          "majorKey": "e849f952",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "7590元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 72682,
+          "equivRank": 72682
+        }
+      ]
+    },
+    {
+      "groupCode": "107",
+      "groupName": "专业组:107(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "7920元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 50340,
+          "equivRank": 50340
+        }
+      ]
+    },
+    {
+      "groupCode": "111",
+      "groupName": "专业组:111(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "7920元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 83449,
+          "equivRank": 83449
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "code": "5160",
+  "name": "四川工商学院",
+  "leaves": [
+    {
+      "schoolCode": "5160",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 508,
+          "minRank": 24087,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "1.6536万元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 24087,
+          "equivRank": 24087
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "1.6536万元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 24087,
+          "equivRank": 65330
+        },
+        {
+          "majorName": "工程造价",
+          "majorKey": "b8be11ab",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "1.6536万元",
+          "menlei": "管"
+        }
+      ]
+    }
+  ]
+}

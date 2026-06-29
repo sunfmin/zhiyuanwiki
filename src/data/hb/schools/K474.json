@@ -1,0 +1,268 @@
+{
+  "code": "K474",
+  "name": "咸阳师范学院",
+  "leaves": [
+    {
+      "schoolCode": "K474",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 493,
+          "minRank": 92758,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "K474",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 536,
+          "minRank": 17551,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "K474",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 504,
+          "minRank": 27468,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 473,
+          "minRank": 110381,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "K474",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 532,
+          "minRank": 18758,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "K474",
+      "majorKey": "5ce793fe",
+      "majorName": "数据科学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 491,
+          "minRank": 94466,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "K474",
+      "majorKey": "5fcb9223",
+      "majorName": "文物与博物馆学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 533,
+          "minRank": 18435,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "K474",
+      "majorKey": "653f630d",
+      "majorName": "物理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 483,
+          "minRank": 101615,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "K474",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 531,
+          "minRank": 19059,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 18758,
+          "equivRank": 18758
+        },
+        {
+          "majorName": "文物与博物馆学",
+          "majorKey": "5fcb9223",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 18435,
+          "equivRank": 18435
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 19059,
+          "equivRank": 19059
+        },
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "4250",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 17551,
+          "equivRank": 17551
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "38000",
+          "menlei": "教",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 27468,
+          "equivRank": 27468
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5250",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 92758,
+          "equivRank": 92758
+        },
+        {
+          "majorName": "数据科学",
+          "majorKey": "5ce793fe",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 94466,
+          "equivRank": 94466
+        },
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5250",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 101615,
+          "equivRank": 101615
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "38000",
+          "menlei": "教",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 110381,
+          "equivRank": 110381
+        }
+      ]
+    }
+  ]
+}
