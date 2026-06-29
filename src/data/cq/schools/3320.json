@@ -1,0 +1,206 @@
+{
+  "code": "3320",
+  "name": "绍兴文理学院",
+  "leaves": [
+    {
+      "schoolCode": "3320",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 456,
+          "minRank": 20926,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 429,
+          "minRank": 76364,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 484,
+          "minRank": 18334,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 484,
+          "minRank": 69681,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 498,
+          "minRank": 18234,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 480,
+          "minRank": 74439,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3320",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选历史，再选生物",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 496,
+          "minRank": 14473,
+          "maxScore": 0
+        },
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 490,
+          "minRank": 47566,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 493,
+          "minRank": 12389,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 492,
+          "minRank": 44464,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 513,
+          "minRank": 12268,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 524,
+          "minRank": 47121,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 519,
+          "minRank": 13219,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 517,
+          "minRank": 51374,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3320",
+      "majorKey": "5e0efed0",
+      "majorName": "电子信息类",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 487,
+          "minRank": 49085,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3320",
+      "majorKey": "8230723d",
+      "majorName": "计算机类",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 493,
+          "minRank": 46109,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "历史",
+      "selKe": "首选历史，再选生物",
+      "plan": 5,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 13219,
+      "equivRank": 13219
+    },
+    {
+      "majorName": "学前教育",
+      "majorKey": "97716b64",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 5,
+      "tuition": "25000",
+      "schooling": "四年",
+      "menlei": "教",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 18234,
+      "equivRank": 18234
+    },
+    {
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "物理",
+      "selKe": "首选物理，再选生物",
+      "plan": 5,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 51374,
+      "equivRank": 51374
+    },
+    {
+      "majorName": "学前教育",
+      "majorKey": "97716b64",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 5,
+      "tuition": "25000",
+      "schooling": "四年",
+      "menlei": "教",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 74439,
+      "equivRank": 74439
+    }
+  ]
+}

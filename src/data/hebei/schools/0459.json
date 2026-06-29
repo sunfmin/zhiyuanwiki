@@ -1,0 +1,64 @@
+{
+  "code": "0459",
+  "name": "贵州理工学院",
+  "leaves": [
+    {
+      "schoolCode": "0459",
+      "majorKey": "4166f1ff",
+      "majorName": "工程管理",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 513,
+          "minRank": 138592,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0459",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 555,
+          "minRank": 74291,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "电气工程及其自动化",
+      "majorKey": "45947d31",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 2,
+      "tuition": "4200",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 74291,
+      "equivRank": 74291
+    },
+    {
+      "majorName": "工程管理",
+      "majorKey": "4166f1ff",
+      "track": "物理",
+      "selKe": "不限",
+      "plan": 3,
+      "tuition": "4100",
+      "schooling": "4",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 138592,
+      "equivRank": 138592
+    }
+  ]
+}

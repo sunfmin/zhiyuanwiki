@@ -1,0 +1,64 @@
+{
+  "code": "0496",
+  "name": "武汉轻工大学",
+  "leaves": [
+    {
+      "schoolCode": "0496",
+      "majorKey": "8230723d",
+      "majorName": "计算机类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 575,
+          "minRank": 22456,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0496",
+      "majorKey": "6e702db2",
+      "majorName": "食品科学与工程类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 552,
+          "minRank": 31888,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "计算机类",
+      "majorKey": "8230723d",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 3,
+      "tuition": "5200",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 22456,
+      "equivRank": 22456
+    },
+    {
+      "majorName": "食品科学与工程类",
+      "majorKey": "6e702db2",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 2,
+      "tuition": "5200",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 31888,
+      "equivRank": 31888
+    }
+  ]
+}

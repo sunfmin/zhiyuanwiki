@@ -1,0 +1,92 @@
+{
+  "code": "0363",
+  "name": "复旦大学",
+  "leaves": [
+    {
+      "schoolCode": "0363",
+      "majorKey": "470379d7",
+      "majorName": "核工程与核技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 666,
+          "minRank": 1013,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0363",
+      "majorKey": "3d12abf2",
+      "majorName": "物理学类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 675,
+          "minRank": 443,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0363",
+      "majorKey": "38bcf50d",
+      "majorName": "社会科学试验班",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 663,
+          "minRank": 129,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "社会科学试验班",
+      "majorKey": "38bcf50d",
+      "track": "历史",
+      "selKe": "不限",
+      "plan": 1,
+      "tuition": "6500",
+      "schooling": "4",
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 129,
+      "equivRank": 129
+    },
+    {
+      "majorName": "物理学类",
+      "majorKey": "3d12abf2",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 1,
+      "tuition": "7000",
+      "schooling": "4",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 443,
+      "equivRank": 443
+    },
+    {
+      "majorName": "核工程与核技术",
+      "majorKey": "470379d7",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 1,
+      "tuition": "7000",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 1013,
+      "equivRank": 1013
+    }
+  ]
+}

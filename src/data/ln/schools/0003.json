@@ -1,0 +1,92 @@
+{
+  "code": "0003",
+  "name": "清华大学",
+  "leaves": [
+    {
+      "schoolCode": "0003",
+      "majorKey": "4c6de685",
+      "majorName": "临床医学类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 688,
+          "minRank": 156,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0003",
+      "majorKey": "f5e060b4",
+      "majorName": "文科试验班类",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 663,
+          "minRank": 22,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0003",
+      "majorKey": "54728189",
+      "majorName": "理科试验班",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 694,
+          "minRank": 72,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "文科试验班类",
+      "majorKey": "f5e060b4",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 4,
+      "tuition": "5000",
+      "schooling": "4",
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 22,
+      "equivRank": 22
+    },
+    {
+      "majorName": "理科试验班",
+      "majorKey": "54728189",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 41,
+      "tuition": "5000",
+      "schooling": "4",
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 72,
+      "equivRank": 72
+    },
+    {
+      "majorName": "临床医学类",
+      "majorKey": "4c6de685",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 4,
+      "tuition": "5000",
+      "schooling": "8",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 156,
+      "equivRank": 156
+    }
+  ]
+}

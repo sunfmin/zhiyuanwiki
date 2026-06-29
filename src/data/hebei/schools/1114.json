@@ -1,0 +1,64 @@
+{
+  "code": "1114",
+  "name": "南京师范大学",
+  "leaves": [
+    {
+      "schoolCode": "1114",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "历史,政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 622,
+          "minRank": 2295,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1114",
+      "majorKey": "fdd55e3d",
+      "majorName": "海洋资源与环境",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 594,
+          "minRank": 31807,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "思想政治教育",
+      "majorKey": "6a15bc12",
+      "track": "历史",
+      "selKe": "思想政治",
+      "plan": 2,
+      "tuition": "5720",
+      "schooling": "4",
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevRank": 2295,
+      "equivRank": 2295
+    },
+    {
+      "majorName": "海洋资源与环境",
+      "majorKey": "fdd55e3d",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 3,
+      "tuition": "6050",
+      "schooling": "4",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 31807,
+      "equivRank": 31807
+    }
+  ]
+}

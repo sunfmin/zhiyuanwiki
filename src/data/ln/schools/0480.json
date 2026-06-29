@@ -1,0 +1,64 @@
+{
+  "code": "0480",
+  "name": "许昌学院",
+  "leaves": [
+    {
+      "schoolCode": "0480",
+      "majorKey": "b8236e06",
+      "majorName": "戏剧影视文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 477,
+          "minRank": 19104,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0480",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 488,
+          "minRank": 62555,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "戏剧影视文学",
+      "majorKey": "b8236e06",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 3,
+      "tuition": "8000",
+      "schooling": "4",
+      "menlei": "艺",
+      "prevYear": 2025,
+      "prevRank": 19104,
+      "equivRank": 19104
+    },
+    {
+      "majorName": "机械设计制造及其自动化",
+      "majorKey": "55ff9da5",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 5,
+      "tuition": "5000",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 62555,
+      "equivRank": 62555
+    }
+  ]
+}

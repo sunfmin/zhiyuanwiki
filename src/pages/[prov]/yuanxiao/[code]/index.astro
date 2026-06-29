@@ -172,6 +172,7 @@ const fmt = (n?: number) => (n ? n.toLocaleString("en-US") : "—");
               <thead>
                 <tr class="border-b border-slate-300 text-left text-slate-500">
                   <th class="py-2 pl-4 pr-4">专业</th>
+                  {multiTrack && <th class="py-2 pr-4">科类</th>}
                   <th class="py-2 pr-4">选科</th>
                   <th class="py-2 pr-4">计划</th>
                   <th class="py-2 pr-4">学费</th>
@@ -187,6 +188,7 @@ const fmt = (n?: number) => (n ? n.toLocaleString("en-US") : "—");
                       </a>
                       {m.coop && <span class="ml-1 text-xs text-violet-500">中外</span>}
                     </td>
+                    {multiTrack && <td class="py-1.5 pr-4 text-slate-600">{m.track}类</td>}
                     <td class="py-1.5 pr-4 text-slate-600">{m.selKe || "不限"}</td>
                     <td class="py-1.5 pr-4 tabular-nums">{m.plan || "—"}</td>
                     <td class="py-1.5 pr-4 tabular-nums">{m.tuition || "—"}</td>

@@ -1,0 +1,64 @@
+{
+  "code": "0096",
+  "name": "北京化工大学",
+  "leaves": [
+    {
+      "schoolCode": "0096",
+      "majorKey": "b363aa3d",
+      "majorName": "工科试验班",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 620,
+          "minRank": 14098,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0096",
+      "majorKey": "54728189",
+      "majorName": "理科试验班",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 617,
+          "minRank": 15775,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "工科试验班",
+      "majorKey": "b363aa3d",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 9,
+      "tuition": "5000",
+      "schooling": "4",
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 14098,
+      "equivRank": 14098
+    },
+    {
+      "majorName": "理科试验班",
+      "majorKey": "54728189",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 2,
+      "tuition": "5000",
+      "schooling": "4",
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 15775,
+      "equivRank": 15775
+    }
+  ]
+}

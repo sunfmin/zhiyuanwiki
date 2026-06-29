@@ -1,0 +1,116 @@
+{
+  "code": "5133",
+  "name": "成都文理学院",
+  "leaves": [
+    {
+      "schoolCode": "5133",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 485,
+          "minRank": 71425,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5133",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选生物",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 490,
+          "minRank": 66360,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5133",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 486,
+          "minRank": 17907,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 493,
+          "minRank": 64680,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5133",
+      "majorKey": "c23e4b23",
+      "majorName": "艺术教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 475,
+          "minRank": 24430,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5133",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 476,
+          "minRank": 74036,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "艺术教育",
+      "majorKey": "c23e4b23",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 5,
+      "tuition": "17000",
+      "schooling": "四年",
+      "menlei": "教",
+      "prevYear": 2025,
+      "prevRank": 24430,
+      "equivRank": 24430
+    },
+    {
+      "majorName": "人工智能",
+      "majorKey": "2fec4169",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 5,
+      "tuition": "18000",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 71425,
+      "equivRank": 71425
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "code": "0566",
+  "name": "广东海洋大学",
+  "leaves": [
+    {
+      "schoolCode": "0566",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 502,
+          "minRank": 55558,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0566",
+      "majorKey": "ac3cf080",
+      "majorName": "船舶与海洋工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 493,
+          "minRank": 60034,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "电子信息工程",
+      "majorKey": "fd603692",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 1,
+      "tuition": "39000",
+      "schooling": "4",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 55558,
+      "equivRank": 55558
+    },
+    {
+      "majorName": "船舶与海洋工程",
+      "majorKey": "ac3cf080",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 1,
+      "tuition": "39000",
+      "schooling": "4",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 60034,
+      "equivRank": 60034
+    }
+  ]
+}

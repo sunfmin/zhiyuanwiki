@@ -1,0 +1,64 @@
+{
+  "code": "1903",
+  "name": "中国矿业大学(北京)",
+  "leaves": [
+    {
+      "schoolCode": "1903",
+      "majorKey": "0e0e5e65",
+      "majorName": "地质类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 606,
+          "minRank": 22695,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1903",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 629,
+          "minRank": 9827,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "电气工程及其自动化",
+      "majorKey": "45947d31",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 3,
+      "tuition": "5500",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 9827,
+      "equivRank": 9827
+    },
+    {
+      "majorName": "地质类",
+      "majorKey": "0e0e5e65",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 2,
+      "tuition": "5500",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 22695,
+      "equivRank": 22695
+    }
+  ]
+}

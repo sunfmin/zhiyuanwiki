@@ -1,0 +1,64 @@
+{
+  "code": "0001",
+  "name": "北京大学",
+  "leaves": [
+    {
+      "schoolCode": "0001",
+      "majorKey": "f5e060b4",
+      "majorName": "文科试验班类",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 662,
+          "minRank": 27,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0001",
+      "majorKey": "3af900ce",
+      "majorName": "理科试验班类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 695,
+          "minRank": 58,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "文科试验班类",
+      "majorKey": "f5e060b4",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 22,
+      "tuition": "待定",
+      "schooling": "4",
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 27,
+      "equivRank": 27
+    },
+    {
+      "majorName": "理科试验班类",
+      "majorKey": "3af900ce",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 25,
+      "tuition": "待定",
+      "schooling": "4",
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 58,
+      "equivRank": 58
+    }
+  ]
+}

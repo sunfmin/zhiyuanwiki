@@ -1,0 +1,64 @@
+{
+  "code": "1432",
+  "name": "沈阳药科大学",
+  "leaves": [
+    {
+      "schoolCode": "1432",
+      "majorKey": "e83335a9",
+      "majorName": "药物分析",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 598,
+          "minRank": 28597,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1432",
+      "majorKey": "e35645c5",
+      "majorName": "药物化学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 587,
+          "minRank": 38007,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "药物分析",
+      "majorKey": "e83335a9",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 1,
+      "tuition": "6050",
+      "schooling": "4",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 28597,
+      "equivRank": 28597
+    },
+    {
+      "majorName": "药物化学",
+      "majorKey": "e35645c5",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 1,
+      "tuition": "5500",
+      "schooling": "4",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 38007,
+      "equivRank": 38007
+    }
+  ]
+}

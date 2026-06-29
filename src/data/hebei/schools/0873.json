@@ -1,0 +1,64 @@
+{
+  "code": "0873",
+  "name": "济宁学院",
+  "leaves": [
+    {
+      "schoolCode": "0873",
+      "majorKey": "e16fbe20",
+      "majorName": "安全工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 519,
+          "minRank": 128615,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0873",
+      "majorKey": "fff04889",
+      "majorName": "网络与新媒体",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 554,
+          "minRank": 20836,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "网络与新媒体",
+      "majorKey": "fff04889",
+      "track": "历史",
+      "selKe": "不限",
+      "plan": 5,
+      "tuition": "4400",
+      "schooling": "4",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 20836,
+      "equivRank": 20836
+    },
+    {
+      "majorName": "安全工程",
+      "majorKey": "e16fbe20",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 5,
+      "tuition": "5500",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 128615,
+      "equivRank": 128615
+    }
+  ]
+}

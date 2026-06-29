@@ -1,0 +1,92 @@
+{
+  "code": "A640",
+  "name": "内江师范学院",
+  "leaves": [
+    {
+      "schoolCode": "A640",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "思想政治必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 526,
+          "minRank": 127356,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "A640",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 487,
+          "minRank": 217547,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "A640",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "历史必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 528,
+          "minRank": 123479,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "汉语言文学",
+      "majorKey": "97bc5998",
+      "track": "综合",
+      "selKe": "历史",
+      "plan": 4,
+      "tuition": "5520",
+      "schooling": "4",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 123479,
+      "equivRank": 123479
+    },
+    {
+      "majorName": "思想政治教育",
+      "majorKey": "6a15bc12",
+      "track": "综合",
+      "selKe": "政治",
+      "plan": 4,
+      "tuition": "5520",
+      "schooling": "4",
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevRank": 127356,
+      "equivRank": 127356
+    },
+    {
+      "majorName": "数学与应用数学",
+      "majorKey": "618fdffd",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "plan": 4,
+      "tuition": "5980",
+      "schooling": "4",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 217547,
+      "equivRank": 217547
+    }
+  ]
+}

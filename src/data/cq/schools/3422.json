@@ -1,0 +1,114 @@
+{
+  "code": "3422",
+  "name": "安徽医科大学",
+  "leaves": [
+    {
+      "schoolCode": "3422",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 581,
+          "minRank": 10327,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 587,
+          "minRank": 9512,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 612,
+          "minRank": 9660,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 597,
+          "minRank": 12651,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3422",
+      "majorKey": "27c81131",
+      "majorName": "生物医学工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 538,
+          "minRank": 38835,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3422",
+      "majorKey": "83eea431",
+      "majorName": "麻醉学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 572,
+          "minRank": 12838,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 576,
+          "minRank": 12238,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 602,
+          "minRank": 12476,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 3,
+      "tuition": "6050",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 12651,
+      "equivRank": 12651
+    },
+    {
+      "majorName": "生物医学工程",
+      "majorKey": "27c81131",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 2,
+      "tuition": "5200",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 38835,
+      "equivRank": 38835
+    }
+  ]
+}

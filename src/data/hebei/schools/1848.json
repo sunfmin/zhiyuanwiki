@@ -1,0 +1,92 @@
+{
+  "code": "1848",
+  "name": "浙江大学医学院",
+  "leaves": [
+    {
+      "schoolCode": "1848",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 671,
+          "minRank": 681,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1848",
+      "majorKey": "a191bc68",
+      "majorName": "医学试验班类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 660,
+          "minRank": 1688,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1848",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 662,
+          "minRank": 1447,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 10,
+      "tuition": "6000",
+      "schooling": "5",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 681,
+      "equivRank": 681
+    },
+    {
+      "majorName": "口腔医学",
+      "majorKey": "c162bced",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 5,
+      "tuition": "6000",
+      "schooling": "5",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 1447,
+      "equivRank": 1447
+    },
+    {
+      "majorName": "医学试验班类",
+      "majorKey": "a191bc68",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 5,
+      "tuition": "6000",
+      "schooling": "5",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 1688,
+      "equivRank": 1688
+    }
+  ]
+}

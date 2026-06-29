@@ -1,0 +1,64 @@
+{
+  "code": "0138",
+  "name": "赤峰学院",
+  "leaves": [
+    {
+      "schoolCode": "0138",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 474,
+          "minRank": 19628,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0138",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 459,
+          "minRank": 77204,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "思想政治教育",
+      "majorKey": "6a15bc12",
+      "track": "历史",
+      "selKe": "历史,政治",
+      "plan": 2,
+      "tuition": "4200",
+      "schooling": "4",
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevRank": 19628,
+      "equivRank": 19628
+    },
+    {
+      "majorName": "数学与应用数学",
+      "majorKey": "618fdffd",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 1,
+      "tuition": "4600",
+      "schooling": "4",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 77204,
+      "equivRank": 77204
+    }
+  ]
+}

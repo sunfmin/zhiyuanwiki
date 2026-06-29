@@ -1,0 +1,92 @@
+{
+  "code": "0120",
+  "name": "山西大同大学",
+  "leaves": [
+    {
+      "schoolCode": "0120",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 526,
+          "minRank": 43804,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0120",
+      "majorKey": "7d0b62a8",
+      "majorName": "俄语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 480,
+          "minRank": 18517,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0120",
+      "majorKey": "131a0e7c",
+      "majorName": "秘书学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 489,
+          "minRank": 16852,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "秘书学",
+      "majorKey": "131a0e7c",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 5,
+      "tuition": "5040",
+      "schooling": "4",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 16852,
+      "equivRank": 16852
+    },
+    {
+      "majorName": "俄语",
+      "majorKey": "7d0b62a8",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 5,
+      "tuition": "5040",
+      "schooling": "4",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 18517,
+      "equivRank": 18517
+    },
+    {
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "物理",
+      "selKe": "物理,化学,生物",
+      "plan": 10,
+      "tuition": "5480",
+      "schooling": "5",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 43804,
+      "equivRank": 43804
+    }
+  ]
+}

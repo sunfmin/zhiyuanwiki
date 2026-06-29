@@ -1,0 +1,179 @@
+{
+  "code": "0782",
+  "name": "哈尔滨工业大学",
+  "leaves": [
+    {
+      "schoolCode": "0782",
+      "majorKey": "2079a63e",
+      "majorName": "大数据管理与应用",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 635,
+          "minRank": 2678,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 622,
+          "minRank": 3246,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0782",
+      "majorKey": "b363aa3d",
+      "majorName": "工科试验班",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 671,
+          "minRank": 308,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 676,
+          "minRank": 119,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0782",
+      "majorKey": "409f7ac3",
+      "majorName": "应用物理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 614,
+          "minRank": 4403,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0782",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 644,
+          "minRank": 1809,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 619,
+          "minRank": 3602,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0782",
+      "majorKey": "47abff30",
+      "majorName": "经济管理试验班",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 618,
+          "minRank": 850,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 627,
+          "minRank": 748,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "工科试验班",
+      "majorKey": "b363aa3d",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 42,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 119,
+      "equivRank": 119
+    },
+    {
+      "majorName": "经济管理试验班",
+      "majorKey": "47abff30",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 7,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "经",
+      "prevYear": 2025,
+      "prevRank": 748,
+      "equivRank": 748
+    },
+    {
+      "majorName": "大数据管理与应用",
+      "majorKey": "2079a63e",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 2,
+      "tuition": "78000",
+      "schooling": "四年",
+      "menlei": "管",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 3246,
+      "equivRank": 3246
+    },
+    {
+      "majorName": "数学与应用数学",
+      "majorKey": "618fdffd",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 3,
+      "tuition": "68000",
+      "schooling": "四年",
+      "menlei": "理",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 3602,
+      "equivRank": 3602
+    },
+    {
+      "majorName": "应用物理学",
+      "majorKey": "409f7ac3",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 3,
+      "tuition": "68000",
+      "schooling": "四年",
+      "menlei": "理",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 4403,
+      "equivRank": 4403
+    }
+  ]
+}

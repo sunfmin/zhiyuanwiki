@@ -1,0 +1,218 @@
+{
+  "code": "1239",
+  "name": "集宁师范学院",
+  "leaves": [
+    {
+      "schoolCode": "1239",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 449,
+          "minRank": 92138,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 456,
+          "minRank": 90810,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1239",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 451,
+          "minRank": 89857,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 460,
+          "minRank": 86923,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1239",
+      "majorKey": "ec77cae2",
+      "majorName": "旅游管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 478,
+          "minRank": 27025,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 496,
+          "minRank": 23191,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1239",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 504,
+          "minRank": 17946,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 514,
+          "minRank": 17165,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1239",
+      "majorKey": "e2472a71",
+      "majorName": "生物科学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 445,
+          "minRank": 95686,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 453,
+          "minRank": 93679,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1239",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 490,
+          "minRank": 22473,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 501,
+          "minRank": 21447,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "汉语言文学",
+      "majorKey": "97bc5998",
+      "track": "历史",
+      "selKe": "首选历史，再选思想政治",
+      "plan": 6,
+      "tuition": "4200",
+      "schooling": "四年",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 17165,
+      "equivRank": 17165
+    },
+    {
+      "majorName": "英语",
+      "majorKey": "49c5cdf9",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 7,
+      "tuition": "4200",
+      "schooling": "四年",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 21447,
+      "equivRank": 21447
+    },
+    {
+      "majorName": "旅游管理",
+      "majorKey": "ec77cae2",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 6,
+      "tuition": "4400",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 23191,
+      "equivRank": 23191
+    },
+    {
+      "majorName": "数学与应用数学",
+      "majorKey": "618fdffd",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 4,
+      "tuition": "4600",
+      "schooling": "四年",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 86923,
+      "equivRank": 86923
+    },
+    {
+      "majorName": "化学",
+      "majorKey": "04ab47fe",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 4,
+      "tuition": "4600",
+      "schooling": "四年",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 90810,
+      "equivRank": 90810
+    },
+    {
+      "majorName": "生物科学",
+      "majorKey": "e2472a71",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 3,
+      "tuition": "4600",
+      "schooling": "四年",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 93679,
+      "equivRank": 93679
+    }
+  ]
+}

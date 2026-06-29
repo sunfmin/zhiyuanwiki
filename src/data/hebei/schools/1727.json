@@ -1,0 +1,112 @@
+{
+  "code": "1727",
+  "name": "新疆警察学院",
+  "leaves": [
+    {
+      "schoolCode": "1727",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 521,
+          "minRank": 125369,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1727",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 559,
+          "minRank": 18763,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 529,
+          "minRank": 112447,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1727",
+      "majorKey": "3093c484",
+      "majorName": "网络空间安全",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 527,
+          "minRank": 115590,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "法学",
+      "majorKey": "a1113a1f",
+      "track": "历史",
+      "selKe": "不限",
+      "plan": 3,
+      "tuition": "5500",
+      "schooling": "4",
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevRank": 18763,
+      "equivRank": 18763
+    },
+    {
+      "majorName": "法学",
+      "majorKey": "a1113a1f",
+      "track": "物理",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "5500",
+      "schooling": "4",
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevRank": 112447,
+      "equivRank": 112447
+    },
+    {
+      "majorName": "网络空间安全",
+      "majorKey": "3093c484",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 2,
+      "tuition": "5500",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 115590,
+      "equivRank": 115590
+    },
+    {
+      "majorName": "数据科学与大数据技术",
+      "majorKey": "bb0a25bd",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 3,
+      "tuition": "5500",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 125369,
+      "equivRank": 125369
+    }
+  ]
+}

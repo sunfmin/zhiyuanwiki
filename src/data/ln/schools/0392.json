@@ -1,0 +1,64 @@
+{
+  "code": "0392",
+  "name": "福建医科大学",
+  "leaves": [
+    {
+      "schoolCode": "0392",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 599,
+          "minRank": 13937,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0392",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 548,
+          "minRank": 33652,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "物理",
+      "selKe": "物理,化学,生物",
+      "plan": 3,
+      "tuition": "6760",
+      "schooling": "5",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 13937,
+      "equivRank": 13937
+    },
+    {
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 1,
+      "tuition": "6760",
+      "schooling": "4",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 33652,
+      "equivRank": 33652
+    }
+  ]
+}

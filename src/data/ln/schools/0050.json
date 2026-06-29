@@ -1,0 +1,84 @@
+{
+  "code": "0050",
+  "name": "北京电影学院",
+  "leaves": [
+    {
+      "schoolCode": "0050",
+      "majorKey": "b86f75b5",
+      "majorName": "广播电视编导",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 600,
+          "minRank": 2025,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 614,
+          "minRank": 9443,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0050",
+      "majorKey": "b8236e06",
+      "majorName": "戏剧影视文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 608,
+          "minRank": 1528,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "戏剧影视文学",
+      "majorKey": "b8236e06",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 1,
+      "tuition": "8000",
+      "schooling": "4",
+      "menlei": "艺",
+      "prevYear": 2025,
+      "prevRank": 1528,
+      "equivRank": 1528
+    },
+    {
+      "majorName": "广播电视编导",
+      "majorKey": "b86f75b5",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 1,
+      "tuition": "10000",
+      "schooling": "4",
+      "menlei": "艺",
+      "prevYear": 2025,
+      "prevRank": 2025,
+      "equivRank": 2025
+    },
+    {
+      "majorName": "广播电视编导",
+      "majorKey": "b86f75b5",
+      "track": "物理",
+      "selKe": "物理",
+      "plan": 1,
+      "tuition": "10000",
+      "schooling": "4",
+      "menlei": "艺",
+      "prevYear": 2025,
+      "prevRank": 9443,
+      "equivRank": 9443
+    }
+  ]
+}

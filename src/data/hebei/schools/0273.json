@@ -1,0 +1,64 @@
+{
+  "code": "0273",
+  "name": "川北医学院",
+  "leaves": [
+    {
+      "schoolCode": "0273",
+      "majorKey": "8a499b4f",
+      "majorName": "中西医临床医学",
+      "selKe": "物理,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 540,
+          "minRank": 95459,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0273",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 575,
+          "minRank": 50224,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 5,
+      "tuition": "6670",
+      "schooling": "5",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 50224,
+      "equivRank": 50224
+    },
+    {
+      "majorName": "中西医临床医学",
+      "majorKey": "8a499b4f",
+      "track": "物理",
+      "selKe": "生物",
+      "plan": 5,
+      "tuition": "6670",
+      "schooling": "5",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 95459,
+      "equivRank": 95459
+    }
+  ]
+}

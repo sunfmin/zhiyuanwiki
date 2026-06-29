@@ -1,0 +1,120 @@
+{
+  "code": "2574",
+  "name": "信阳学院",
+  "leaves": [
+    {
+      "schoolCode": "2574",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 498,
+          "minRank": 163962,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2574",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 505,
+          "minRank": 152124,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2574",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 531,
+          "minRank": 31846,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2574",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 532,
+          "minRank": 31323,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "法学",
+      "majorKey": "a1113a1f",
+      "track": "历史",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "15000",
+      "schooling": "4",
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevRank": 31323,
+      "equivRank": 31323
+    },
+    {
+      "majorName": "汉语言文学",
+      "majorKey": "97bc5998",
+      "track": "历史",
+      "selKe": "不限",
+      "plan": 3,
+      "tuition": "15000",
+      "schooling": "4",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 31846,
+      "equivRank": 31846
+    },
+    {
+      "majorName": "数学与应用数学",
+      "majorKey": "618fdffd",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 2,
+      "tuition": "16000",
+      "schooling": "4",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 152124,
+      "equivRank": 152124
+    },
+    {
+      "majorName": "人工智能",
+      "majorKey": "2fec4169",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 3,
+      "tuition": "16000",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 163962,
+      "equivRank": 163962
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "code": "0094",
+  "name": "北京航空航天大学",
+  "leaves": [
+    {
+      "schoolCode": "0094",
+      "majorKey": "fa9e8e42",
+      "majorName": "工科试验班类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 666,
+          "minRank": 1013,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0094",
+      "majorKey": "3af900ce",
+      "majorName": "理科试验班类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 665,
+          "minRank": 1135,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "工科试验班类",
+      "majorKey": "fa9e8e42",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 5,
+      "tuition": "5500",
+      "schooling": "4",
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 1013,
+      "equivRank": 1013
+    },
+    {
+      "majorName": "理科试验班类",
+      "majorKey": "3af900ce",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 3,
+      "tuition": "5500",
+      "schooling": "4",
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 1135,
+      "equivRank": 1135
+    }
+  ]
+}

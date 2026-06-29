@@ -21,21 +21,27 @@ import (
 var keep = map[string]bool{"物理": true, "历史": true, "综合": true}
 
 // canonTrack 把源表科类归一为站点口径：物理类→物理、历史类→历史；综合/裸物理/裸历史 原样保留；
-// 其余（艺术类（物理）/理科/文科 等）原样返回后被 keep 过滤掉。
+// 河北招生计划用「物理科目组合/历史科目组合」也归一。其余（艺术类（物理）/理科/文科 等）原样
+// 返回后被 keep 过滤掉。
 func canonTrack(s string) string {
 	s = strings.TrimSpace(s)
 	switch s {
-	case "物理类":
+	case "物理类", "物理科目组合":
 		return "物理"
-	case "历史类":
+	case "历史类", "历史科目组合":
 		return "历史"
 	}
 	return s
 }
 
-// batchKeep：留本科（含本科批/本科提前批），丢专科/艺术/体育批。艺术/体育已由科类过滤掉，
-// 这里再挡掉专科。
-func batchKeep(batch string) bool { return strings.Contains(batch, "本科") }
+// batchKeep：留本科批次及等价主批——本科（本科批/本科提前批）、综合改革省的普通类一段/二段
+// （山东）、常规批（山东计划侧）。丢专科/高职/艺术/体育批（艺术/体育已由科类过滤）。
+func batchKeep(batch string) bool {
+	return strings.Contains(batch, "本科") ||
+		strings.Contains(batch, "一段") ||
+		strings.Contains(batch, "二段") ||
+		strings.Contains(batch, "常规批")
+}
 
 func scoreHeader(r []string) bool {
 	return core.HasCell(r, "院校代码") && core.HasCell(r, "最低位次")
@@ -113,7 +119,7 @@ func parsePlan(s *core.Sheet) []core.PlanRow {
 	// 组代码列名各省不一：所属专业组/专业组代码（多数）、专业组（内蒙）、组代码（甘肃）；吉林只有
 	// 「专业组名称」（如「第 001 组」），下方 gcode 为空时用组名兜底建组。
 	cGroupCode, cGroupName := col("专业组代码", "所属专业组", "专业组", "组代码"), col("专业组名称")
-	cMajor, cSelKe := col("专业名称", "专业"), col("选科要求", "选课要求") // 江西选科列名为「选课要求」
+	cMajor, cSelKe := col("专业名称", "专业"), col("选科要求", "选课要求", "选科") // 江西「选课要求」/河北「选科」
 	cRemark := col("专业备注", "备注")
 	cPlan := col("计划人数", "招生人数", "计划数") // 江西计划列名为「计划数」
 	// 学制/学费的表头带单位后缀且各省不一（学制 / 学制(年)；学费 / 学费(元) / 学费(元/年)），用 ColContains 容错。

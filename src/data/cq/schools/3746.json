@@ -1,0 +1,78 @@
+{
+  "code": "3746",
+  "name": "济宁学院",
+  "leaves": [
+    {
+      "schoolCode": "3746",
+      "majorKey": "d875ea2d",
+      "majorName": "光电信息材料与器件",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 489,
+          "minRank": 66929,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 494,
+          "minRank": 65772,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3746",
+      "majorKey": "bda0ff17",
+      "majorName": "经济学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 491,
+          "minRank": 16802,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 508,
+          "minRank": 15814,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "经济学",
+      "majorKey": "bda0ff17",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 5,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "经",
+      "prevYear": 2025,
+      "prevRank": 15814,
+      "equivRank": 15814
+    },
+    {
+      "majorName": "光电信息材料与器件",
+      "majorKey": "d875ea2d",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 5,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 65772,
+      "equivRank": 65772
+    }
+  ]
+}

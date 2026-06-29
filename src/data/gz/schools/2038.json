@@ -1,0 +1,113 @@
+{
+  "code": "2038",
+  "name": "上海交通大学医学院",
+  "leaves": [
+    {
+      "schoolCode": "2038",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 682,
+          "minRank": 88,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 676,
+          "minRank": 114,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2038",
+      "majorKey": "696c3187",
+      "majorName": "医学试验班",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 666,
+          "minRank": 475,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 657,
+          "minRank": 576,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2038",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 676,
+          "minRank": 194,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 670,
+          "minRank": 231,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 2,
+      "tuition": "7400",
+      "schooling": "八年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 114,
+      "equivRank": 114
+    },
+    {
+      "majorName": "口腔医学",
+      "majorKey": "c162bced",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 3,
+      "tuition": "7400",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 231,
+      "equivRank": 231
+    },
+    {
+      "majorName": "医学试验班",
+      "majorKey": "696c3187",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 20,
+      "tuition": "7400",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 576,
+      "equivRank": 576
+    }
+  ]
+}

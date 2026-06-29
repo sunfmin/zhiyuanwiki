@@ -1,0 +1,92 @@
+{
+  "code": "1394",
+  "name": "上海体育大学",
+  "leaves": [
+    {
+      "schoolCode": "1394",
+      "majorKey": "25bf7075",
+      "majorName": "医学技术类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 575,
+          "minRank": 50224,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1394",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 595,
+          "minRank": 30996,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1394",
+      "majorKey": "9c5f4a34",
+      "majorName": "新闻学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 602,
+          "minRank": 5546,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "新闻学",
+      "majorKey": "9c5f4a34",
+      "track": "历史",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "6500",
+      "schooling": "4",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 5546,
+      "equivRank": 5546
+    },
+    {
+      "majorName": "数据科学与大数据技术",
+      "majorKey": "bb0a25bd",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 2,
+      "tuition": "7000",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 30996,
+      "equivRank": 30996
+    },
+    {
+      "majorName": "医学技术类",
+      "majorKey": "25bf7075",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 5,
+      "tuition": "7400",
+      "schooling": "4",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 50224,
+      "equivRank": 50224
+    }
+  ]
+}

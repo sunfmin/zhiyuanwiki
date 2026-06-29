@@ -77,7 +77,7 @@ func dingweiCmd(args []string) {
 				})
 			}
 		}
-		// 浙江：院校×专业（专业平行志愿，无组）
+		// 专业平行志愿（无组）：院校×专业。浙江单科类（Track 空）落「综合」；双科类省（重庆/辽宁…）按行 Track 分片。
 		for _, m := range d.Plan2026 {
 			if m.PrevRank <= 0 {
 				continue
@@ -86,7 +86,11 @@ func dingweiCmd(args []string) {
 			if rank <= 0 {
 				rank = m.PrevRank
 			}
-			byTrack[zjTrack] = append(byTrack[zjTrack], locatorEntry{
+			track := m.Track
+			if track == "" {
+				track = zjTrack
+			}
+			byTrack[track] = append(byTrack[track], locatorEntry{
 				SchoolCode: d.Code, SchoolName: d.Name,
 				MajorName: m.MajorName, MajorKey: m.MajorKey,
 				SelKe: m.SelKe, Plan: m.Plan,

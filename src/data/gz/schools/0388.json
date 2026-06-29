@@ -1,0 +1,86 @@
+{
+  "code": "0388",
+  "name": "川北医学院",
+  "leaves": [
+    {
+      "schoolCode": "0388",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 558,
+          "minRank": 21598,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 558,
+          "minRank": 19934,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0388",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 558,
+          "minRank": 19906,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0388",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 506,
+          "minRank": 17184,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "医学影像学",
+      "majorKey": "5780af73",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 2,
+      "tuition": "6670",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 19906,
+      "equivRank": 19906
+    },
+    {
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 3,
+      "tuition": "6670",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 19934,
+      "equivRank": 19934
+    }
+  ]
+}

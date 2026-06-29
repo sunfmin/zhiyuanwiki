@@ -1,0 +1,218 @@
+{
+  "code": "0120",
+  "name": "北京大学医学部",
+  "leaves": [
+    {
+      "schoolCode": "0120",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 684,
+          "minRank": 64,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 678,
+          "minRank": 93,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0120",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 686,
+          "minRank": 53,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 681,
+          "minRank": 63,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0120",
+      "majorKey": "8ca67fa5",
+      "majorName": "基础医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 678,
+          "minRank": 151,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 675,
+          "minRank": 125,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0120",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 656,
+          "minRank": 936,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 652,
+          "minRank": 736,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0120",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 677,
+          "minRank": 162,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 672,
+          "minRank": 175,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0120",
+      "majorKey": "1954d9c9",
+      "majorName": "预防医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 676,
+          "minRank": 187,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 668,
+          "minRank": 278,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "口腔医学",
+      "majorKey": "c162bced",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 2,
+      "tuition": "6000",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 63,
+      "equivRank": 63
+    },
+    {
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 8,
+      "tuition": "6000",
+      "schooling": "八年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 93,
+      "equivRank": 93
+    },
+    {
+      "majorName": "基础医学",
+      "majorKey": "8ca67fa5",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 2,
+      "tuition": "6000",
+      "schooling": "八年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 125,
+      "equivRank": 125
+    },
+    {
+      "majorName": "药学",
+      "majorKey": "e9e6a481",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 3,
+      "tuition": "6000",
+      "schooling": "六年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 175,
+      "equivRank": 175
+    },
+    {
+      "majorName": "预防医学",
+      "majorKey": "1954d9c9",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 4,
+      "tuition": "6000",
+      "schooling": "七年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 278,
+      "equivRank": 278
+    },
+    {
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 9,
+      "tuition": "6000",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 736,
+      "equivRank": 736
+    }
+  ]
+}

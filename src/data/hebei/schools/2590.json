@@ -1,0 +1,92 @@
+{
+  "code": "2590",
+  "name": "豫北医学院",
+  "leaves": [
+    {
+      "schoolCode": "2590",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理,化学,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 539,
+          "minRank": 96962,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2590",
+      "majorKey": "a507c400",
+      "majorName": "康复治疗学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 506,
+          "minRank": 150409,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2590",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "物理,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 517,
+          "minRank": 131912,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "物理",
+      "selKe": "化学和生物",
+      "plan": 2,
+      "tuition": "17000",
+      "schooling": "5",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 96962,
+      "equivRank": 96962
+    },
+    {
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "物理",
+      "selKe": "生物",
+      "plan": 2,
+      "tuition": "17000",
+      "schooling": "4",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 131912,
+      "equivRank": 131912
+    },
+    {
+      "majorName": "康复治疗学",
+      "majorKey": "a507c400",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 1,
+      "tuition": "17000",
+      "schooling": "4",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 150409,
+      "equivRank": 150409
+    }
+  ]
+}

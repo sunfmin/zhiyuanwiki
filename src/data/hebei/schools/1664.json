@@ -1,0 +1,92 @@
+{
+  "code": "1664",
+  "name": "西北工业大学",
+  "leaves": [
+    {
+      "schoolCode": "1664",
+      "majorKey": "d1bd847f",
+      "majorName": "化学类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 641,
+          "minRank": 5573,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1664",
+      "majorKey": "fee47c1b",
+      "majorName": "工业设计",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 641,
+          "minRank": 5573,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1664",
+      "majorKey": "3d12abf2",
+      "majorName": "物理学类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 648,
+          "minRank": 3754,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "物理学类",
+      "majorKey": "3d12abf2",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 3,
+      "tuition": "6600",
+      "schooling": "4",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 3754,
+      "equivRank": 3754
+    },
+    {
+      "majorName": "化学类",
+      "majorKey": "d1bd847f",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 2,
+      "tuition": "6600",
+      "schooling": "4",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 5573,
+      "equivRank": 5573
+    },
+    {
+      "majorName": "工业设计",
+      "majorKey": "fee47c1b",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 3,
+      "tuition": "6600",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 5573,
+      "equivRank": 5573
+    }
+  ]
+}

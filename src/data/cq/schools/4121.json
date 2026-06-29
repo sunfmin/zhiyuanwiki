@@ -1,0 +1,127 @@
+{
+  "code": "4121",
+  "name": "豫北医学院",
+  "leaves": [
+    {
+      "schoolCode": "4121",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 488,
+          "minRank": 48582,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 503,
+          "minRank": 39250,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 540,
+          "minRank": 38580,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 531,
+          "minRank": 42889,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4121",
+      "majorKey": "a507c400",
+      "majorName": "康复治疗学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 500,
+          "minRank": 60789,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 492,
+          "minRank": 67042,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4121",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选生物",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 511,
+          "minRank": 54463,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 500,
+          "minRank": 62078,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "物理",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "plan": 2,
+      "tuition": "17000",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 42889,
+      "equivRank": 42889
+    },
+    {
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "物理",
+      "selKe": "首选物理，再选生物",
+      "plan": 2,
+      "tuition": "17000",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 62078,
+      "equivRank": 62078
+    },
+    {
+      "majorName": "康复治疗学",
+      "majorKey": "a507c400",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 1,
+      "tuition": "17000",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 67042,
+      "equivRank": 67042
+    }
+  ]
+}

@@ -86,10 +86,12 @@ func parsePlan2026Sheet(s *core.Sheet) []PlanRow2026 {
 
 // ── 2026 院校×专业报考视图（专业平行志愿：每个专业独立投档，无组）──
 
-// PlanMajor 是 2026 某院校的一个可填报专业，挂接了往年最低位次与等效位次。
+// PlanMajor 是某院校的一个可填报专业，挂接了往年最低位次与等效位次。浙江为单科类「综合」（Track 空、
+// 省略）；通用 major 管线（双科类省如重庆/辽宁）逐行带 Track，定位索引据此分科类分片。
 type PlanMajor struct {
 	MajorName string `json:"majorName"`
 	MajorKey  string `json:"majorKey"`
+	Track     string `json:"track,omitempty"` // 科类（综合省留空；双科类省=物理/历史）
 	SelKe     string `json:"selKe"`
 	Plan      int    `json:"plan"`
 	Tuition   string `json:"tuition,omitempty"`

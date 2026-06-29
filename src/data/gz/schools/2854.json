@@ -1,0 +1,105 @@
+{
+  "code": "2854",
+  "name": "郑州工业应用技术学院",
+  "leaves": [
+    {
+      "schoolCode": "2854",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 464,
+          "minRank": 32659,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 415,
+          "minRank": 124499,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 473,
+          "minRank": 32355,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 425,
+          "minRank": 122474,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2854",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 410,
+          "minRank": 129020,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 420,
+          "minRank": 127125,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "学前教育",
+      "majorKey": "97716b64",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 10,
+      "tuition": "15000",
+      "schooling": "四年",
+      "menlei": "教",
+      "prevYear": 2025,
+      "prevRank": 32355,
+      "equivRank": 32355
+    },
+    {
+      "majorName": "学前教育",
+      "majorKey": "97716b64",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 5,
+      "tuition": "15000",
+      "schooling": "四年",
+      "menlei": "教",
+      "prevYear": 2025,
+      "prevRank": 122474,
+      "equivRank": 122474
+    },
+    {
+      "majorName": "药学",
+      "majorKey": "e9e6a481",
+      "track": "物理",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "plan": 5,
+      "tuition": "17000",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 127125,
+      "equivRank": 127125
+    }
+  ]
+}

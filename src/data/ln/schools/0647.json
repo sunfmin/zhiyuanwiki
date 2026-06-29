@@ -1,0 +1,112 @@
+{
+  "code": "0647",
+  "name": "长江师范学院",
+  "leaves": [
+    {
+      "schoolCode": "0647",
+      "majorKey": "8f1def37",
+      "majorName": "日语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 515,
+          "minRank": 12329,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 476,
+          "minRank": 68589,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0647",
+      "majorKey": "cb64b1e8",
+      "majorName": "环境科学与工程类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 456,
+          "minRank": 78788,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0647",
+      "majorKey": "e6a89fa4",
+      "majorName": "金融工程",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 502,
+          "minRank": 55558,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "日语",
+      "majorKey": "8f1def37",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 2,
+      "tuition": "4375",
+      "schooling": "4",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 12329,
+      "equivRank": 12329
+    },
+    {
+      "majorName": "金融工程",
+      "majorKey": "e6a89fa4",
+      "track": "物理",
+      "selKe": "物理",
+      "plan": 2,
+      "tuition": "5625",
+      "schooling": "4",
+      "menlei": "经",
+      "prevYear": 2025,
+      "prevRank": 55558,
+      "equivRank": 55558
+    },
+    {
+      "majorName": "日语",
+      "majorKey": "8f1def37",
+      "track": "物理",
+      "selKe": "物理",
+      "plan": 2,
+      "tuition": "4375",
+      "schooling": "4",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 68589,
+      "equivRank": 68589
+    },
+    {
+      "majorName": "环境科学与工程类",
+      "majorKey": "cb64b1e8",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 4,
+      "tuition": "4625",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 78788,
+      "equivRank": 78788
+    }
+  ]
+}

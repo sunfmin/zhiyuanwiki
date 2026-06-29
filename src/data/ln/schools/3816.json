@@ -1,0 +1,92 @@
+{
+  "code": "3816",
+  "name": "四川工业科技学院",
+  "leaves": [
+    {
+      "schoolCode": "3816",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 452,
+          "minRank": 80770,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3816",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 454,
+          "minRank": 79793,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3816",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 466,
+          "minRank": 21130,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "财务管理",
+      "majorKey": "8220c852",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 4,
+      "tuition": "17700",
+      "schooling": "4",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 21130,
+      "equivRank": 21130
+    },
+    {
+      "majorName": "电子信息工程",
+      "majorKey": "fd603692",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 3,
+      "tuition": "18000",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 79793,
+      "equivRank": 79793
+    },
+    {
+      "majorName": "机械设计制造及其自动化",
+      "majorKey": "55ff9da5",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 3,
+      "tuition": "17900",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 80770,
+      "equivRank": 80770
+    }
+  ]
+}

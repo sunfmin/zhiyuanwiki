@@ -19,8 +19,10 @@ func yuanxiaoCmd(args []string) {
 
 	var b schoolBundle
 	switch p.model {
-	case "major":
+	case "major-zj": // 浙江：一表联动 by-code 属性（含 city_tier）+ 单科类综合，见 #21
 		b = buildDBBundleMajor(*dbPath, p)
+	case "major": // 专业平行志愿（无院校专业组）：全国 school 表按校名挂属性，支持双科类（重庆/辽宁…）
+		b = buildMajorBundle(*dbPath, p)
 	default: // group
 		b = buildDBBundle(*dbPath, p)
 	}

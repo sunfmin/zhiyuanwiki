@@ -1,0 +1,64 @@
+{
+  "code": "B392",
+  "name": "云南警官学院",
+  "leaves": [
+    {
+      "schoolCode": "B392",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "历史、思想政治(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 545,
+          "minRank": 90792,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "B392",
+      "majorKey": "3093c484",
+      "majorName": "网络空间安全",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 514,
+          "minRank": 153791,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "法学",
+      "majorKey": "a1113a1f",
+      "track": "综合",
+      "selKe": "政治,历史",
+      "plan": 3,
+      "tuition": "4500",
+      "schooling": "4",
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevRank": 90792,
+      "equivRank": 90792
+    },
+    {
+      "majorName": "网络空间安全",
+      "majorKey": "3093c484",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "plan": 1,
+      "tuition": "5000",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 153791,
+      "equivRank": 153791
+    }
+  ]
+}

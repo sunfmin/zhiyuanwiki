@@ -1,0 +1,112 @@
+{
+  "code": "1976",
+  "name": "长江大学文理学院",
+  "leaves": [
+    {
+      "schoolCode": "1976",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 493,
+          "minRank": 172221,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1976",
+      "majorKey": "3c2f7b8b",
+      "majorName": "外国语言文学类",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 509,
+          "minRank": 44239,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 494,
+          "minRank": 170629,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1976",
+      "majorKey": "b39b8034",
+      "majorName": "金融学类",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 512,
+          "minRank": 42421,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "金融学类",
+      "majorKey": "b39b8034",
+      "track": "历史",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "15000",
+      "schooling": "4",
+      "menlei": "经",
+      "prevYear": 2025,
+      "prevRank": 42421,
+      "equivRank": 42421
+    },
+    {
+      "majorName": "外国语言文学类",
+      "majorKey": "3c2f7b8b",
+      "track": "历史",
+      "selKe": "不限",
+      "plan": 3,
+      "tuition": "16500",
+      "schooling": "4",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 44239,
+      "equivRank": 44239
+    },
+    {
+      "majorName": "外国语言文学类",
+      "majorKey": "3c2f7b8b",
+      "track": "物理",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "16500",
+      "schooling": "4",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 170629,
+      "equivRank": 170629
+    },
+    {
+      "majorName": "土木工程",
+      "majorKey": "320e7128",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 3,
+      "tuition": "15000",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 172221,
+      "equivRank": 172221
+    }
+  ]
+}

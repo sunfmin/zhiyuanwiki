@@ -1,0 +1,92 @@
+{
+  "code": "0220",
+  "name": "成都师范学院",
+  "leaves": [
+    {
+      "schoolCode": "0220",
+      "majorKey": "d5543eac",
+      "majorName": "数据计算及应用",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 540,
+          "minRank": 95459,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0220",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 569,
+          "minRank": 14990,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0220",
+      "majorKey": "c62b143a",
+      "majorName": "精细化工",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 538,
+          "minRank": 98476,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "汉语言文学",
+      "majorKey": "97bc5998",
+      "track": "历史",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "4800",
+      "schooling": "4",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 14990,
+      "equivRank": 14990
+    },
+    {
+      "majorName": "数据计算及应用",
+      "majorKey": "d5543eac",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 2,
+      "tuition": "5200",
+      "schooling": "4",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 95459,
+      "equivRank": 95459
+    },
+    {
+      "majorName": "精细化工",
+      "majorKey": "c62b143a",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 1,
+      "tuition": "5200",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 98476,
+      "equivRank": 98476
+    }
+  ]
+}

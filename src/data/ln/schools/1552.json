@@ -1,0 +1,113 @@
+{
+  "code": "1552",
+  "name": "四川旅游学院",
+  "leaves": [
+    {
+      "schoolCode": "1552",
+      "majorKey": "3f1c9a86",
+      "majorName": "建筑电气与智能化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 446,
+          "minRank": 83745,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1552",
+      "majorKey": "d2fbd5c5",
+      "majorName": "汉语国际教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 516,
+          "minRank": 12160,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 487,
+          "minRank": 63041,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1552",
+      "majorKey": "8742ced2",
+      "majorName": "烹饪与营养教育",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 476,
+          "minRank": 68589,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "汉语国际教育",
+      "majorKey": "d2fbd5c5",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 1,
+      "tuition": "4800",
+      "schooling": "4",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 12160,
+      "equivRank": 12160
+    },
+    {
+      "majorName": "汉语国际教育",
+      "majorKey": "d2fbd5c5",
+      "track": "物理",
+      "selKe": "物理",
+      "plan": 1,
+      "tuition": "4800",
+      "schooling": "4",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 63041,
+      "equivRank": 63041
+    },
+    {
+      "majorName": "烹饪与营养教育",
+      "majorKey": "8742ced2",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 2,
+      "tuition": "5200",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 68589,
+      "equivRank": 68589
+    },
+    {
+      "majorName": "建筑电气与智能化",
+      "majorKey": "3f1c9a86",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 2,
+      "tuition": "38000",
+      "schooling": "4",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 83745,
+      "equivRank": 83745
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "code": "0579",
+  "name": "岭南师范学院",
+  "leaves": [
+    {
+      "schoolCode": "0579",
+      "majorKey": "3e2b336a",
+      "majorName": "教育技术学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 468,
+          "minRank": 72639,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0579",
+      "majorKey": "d2fbd5c5",
+      "majorName": "汉语国际教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 512,
+          "minRank": 12828,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0579",
+      "majorKey": "2dee13d2",
+      "majorName": "海洋资源开发技术",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 461,
+          "minRank": 76197,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "汉语国际教育",
+      "majorKey": "d2fbd5c5",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 4,
+      "tuition": "5050",
+      "schooling": "4",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 12828,
+      "equivRank": 12828
+    },
+    {
+      "majorName": "教育技术学",
+      "majorKey": "3e2b336a",
+      "track": "物理",
+      "selKe": "物理",
+      "plan": 3,
+      "tuition": "5050",
+      "schooling": "4",
+      "menlei": "教",
+      "prevYear": 2025,
+      "prevRank": 72639,
+      "equivRank": 72639
+    },
+    {
+      "majorName": "海洋资源开发技术",
+      "majorKey": "2dee13d2",
+      "track": "物理",
+      "selKe": "物理,化学,生物",
+      "plan": 3,
+      "tuition": "5710",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 76197,
+      "equivRank": 76197
+    }
+  ]
+}

@@ -19,7 +19,7 @@ type province struct {
 
 var provinces = map[string]province{
 	"hlj": {slug: "hlj", name: "黑龙江", tracks: []string{"物理", "历史"}, model: "group"},
-	"zj":  {slug: "zj", name: "浙江", tracks: []string{"综合"}, model: "major"},
+	"zj":  {slug: "zj", name: "浙江", tracks: []string{"综合"}, model: "major-zj"}, // 一表联动 by-code 属性，专用投影
 	"js":  {slug: "js", name: "江苏", tracks: []string{"物理", "历史"}, model: "group"},
 	"hn":  {slug: "hn", name: "湖南", tracks: []string{"物理", "历史"}, model: "group"},
 	"sc":  {slug: "sc", name: "四川", tracks: []string{"物理", "历史"}, model: "group"},
@@ -47,6 +47,13 @@ var provinces = map[string]province{
 	"jx": {slug: "jx", name: "江西", tracks: []string{"物理", "历史"}, model: "group"},
 	"jl": {slug: "jl", name: "吉林", tracks: []string{"物理", "历史"}, model: "group"},
 	"gs": {slug: "gs", name: "甘肃", tracks: []string{"物理", "历史"}, model: "group"},
+	// 专业平行志愿（无院校专业组）→ major 模型（通用 buildMajorBundle，全国 school 表挂属性，支持双科类）。
+	// score/plan 仍复用 group3p12 解析，仅 build 走 major。重庆/贵州/辽宁/河北=物理/历史；山东=综合。
+	"cq":    {slug: "cq", name: "重庆", tracks: []string{"物理", "历史"}, model: "major"},
+	"gz":    {slug: "gz", name: "贵州", tracks: []string{"物理", "历史"}, model: "major"},
+	"ln":    {slug: "ln", name: "辽宁", tracks: []string{"物理", "历史"}, model: "major"},
+	"hebei": {slug: "hebei", name: "河北", tracks: []string{"物理", "历史"}, model: "major"},
+	"sd":    {slug: "sd", name: "山东", tracks: []string{"综合"}, model: "major"},
 }
 
 // trackSlug 把科类名映射成 ascii 文件名片段（定位索引/一分一段文件名）。

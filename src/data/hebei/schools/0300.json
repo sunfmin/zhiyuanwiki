@@ -1,0 +1,64 @@
+{
+  "code": "0300",
+  "name": "德州学院",
+  "leaves": [
+    {
+      "schoolCode": "0300",
+      "majorKey": "28bd788f",
+      "majorName": "制药工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 530,
+          "minRank": 110872,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0300",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 563,
+          "minRank": 17236,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "汉语言文学",
+      "majorKey": "97bc5998",
+      "track": "历史",
+      "selKe": "不限",
+      "plan": 5,
+      "tuition": "5060",
+      "schooling": "4",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 17236,
+      "equivRank": 17236
+    },
+    {
+      "majorName": "制药工程",
+      "majorKey": "28bd788f",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 5,
+      "tuition": "5500",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 110872,
+      "equivRank": 110872
+    }
+  ]
+}

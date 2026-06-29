@@ -1,0 +1,64 @@
+{
+  "code": "0628",
+  "name": "西昌学院",
+  "leaves": [
+    {
+      "schoolCode": "0628",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 484,
+          "minRank": 17758,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0628",
+      "majorKey": "4166f1ff",
+      "majorName": "工程管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 465,
+          "minRank": 74194,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "小学教育",
+      "majorKey": "c240892f",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 5,
+      "tuition": "5520",
+      "schooling": "4",
+      "menlei": "教",
+      "prevYear": 2025,
+      "prevRank": 17758,
+      "equivRank": 17758
+    },
+    {
+      "majorName": "工程管理",
+      "majorKey": "4166f1ff",
+      "track": "物理",
+      "selKe": "物理",
+      "plan": 5,
+      "tuition": "5520",
+      "schooling": "4",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 74194,
+      "equivRank": 74194
+    }
+  ]
+}

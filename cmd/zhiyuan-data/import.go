@@ -44,6 +44,11 @@ var provDirName = map[string]string{
 	"jx":    "江西",
 	"jl":    "吉林",
 	"gs":    "甘肃",
+	"cq":    "重庆",
+	"gz":    "贵州",
+	"ln":    "辽宁",
+	"hebei": "河北",
+	"sd":    "山东",
 	"hb":    "湖北高考数据", // 各省份/ 下子目录带后缀
 	"yn":    "云南",
 	"henan": "河南", // slug 用 henan 避免与湖南 hn 冲突
@@ -102,6 +107,18 @@ var provParsers = map[string]provParser{
 		ScoreMust: []string{"25年全国高校在吉林省的专业分数线"}, PlanMust: []string{"吉林省-2025年-招生计划"}},
 	"gs": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
 		ScoreMust: []string{"25年全国高校在甘肃的专业录取分数"}, PlanMust: []string{"甘肃2025年招生计划"}},
+	// major 模型省（无组）——解析仍用 group3p12，build 经 model="major" 走 buildMajorBundle。
+	// 分数源多为 22-25 合表（老文理年份的科类被 keep 过滤，仅 2025 物理/历史/综合 入库）。
+	"cq": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
+		ScoreMust: []string{"22-25年全国高校在重庆的专业录取分数"}, PlanMust: []string{"22-25年全国高校在重庆的招生计划"}},
+	"gz": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
+		ScoreMust: []string{"22-25年全国高校在贵州的专业录取分数"}, PlanMust: []string{"22-25年全国高校在贵州的招生计划"}},
+	"ln": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
+		ScoreMust: []string{"25年全国高校在辽宁的专业录取分数"}, PlanMust: []string{"在辽宁省的招生计划"}},
+	"hebei": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
+		ScoreMust: []string{"25年全国高校在河北省的专业分数线"}, PlanMust: []string{"2025年河北招生计划"}},
+	"sd": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
+		ScoreMust: []string{"25年全国高校在山东省的专业分数线"}, PlanMust: []string{"全国高校在山东省的招生计划"}},
 	"hb": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
 		PlanMust: []string{"25年全国高校在湖北省的招生计划"}},
 	"yn": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,

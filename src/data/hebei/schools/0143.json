@@ -1,0 +1,92 @@
+{
+  "code": "0143",
+  "name": "北京邮电大学",
+  "leaves": [
+    {
+      "schoolCode": "0143",
+      "majorKey": "2079a63e",
+      "majorName": "大数据管理与应用",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 644,
+          "minRank": 4724,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0143",
+      "majorKey": "5e0efed0",
+      "majorName": "电子信息类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 651,
+          "minRank": 3105,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0143",
+      "majorKey": "0b52f20f",
+      "majorName": "电子商务",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 633,
+          "minRank": 8236,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "电子信息类",
+      "majorKey": "5e0efed0",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 2,
+      "tuition": "5500",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 3105,
+      "equivRank": 3105
+    },
+    {
+      "majorName": "大数据管理与应用",
+      "majorKey": "2079a63e",
+      "track": "物理",
+      "selKe": "不限",
+      "plan": 3,
+      "tuition": "5000",
+      "schooling": "4",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 4724,
+      "equivRank": 4724
+    },
+    {
+      "majorName": "电子商务",
+      "majorKey": "0b52f20f",
+      "track": "物理",
+      "selKe": "不限",
+      "plan": 3,
+      "tuition": "5000",
+      "schooling": "4",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 8236,
+      "equivRank": 8236
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "code": "0153",
+  "name": "北京理工大学",
+  "leaves": [
+    {
+      "schoolCode": "0153",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 623,
+          "minRank": 4293,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 598,
+          "minRank": 7453,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0153",
+      "majorKey": "b363aa3d",
+      "majorName": "工科试验班",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 670,
+          "minRank": 357,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 670,
+          "minRank": 219,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0153",
+      "majorKey": "54728189",
+      "majorName": "理科试验班",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 633,
+          "minRank": 2841,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 623,
+          "minRank": 3138,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0153",
+      "majorKey": "38bcf50d",
+      "majorName": "社会科学试验班",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 618,
+          "minRank": 846,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 625,
+          "minRank": 797,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0153",
+      "majorKey": "dbd998c2",
+      "majorName": "航空航天工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 622,
+          "minRank": 3232,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0153",
+      "majorKey": "92b6110d",
+      "majorName": "车辆工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 620,
+          "minRank": 3463,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "工科试验班",
+      "majorKey": "b363aa3d",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 50,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 219,
+      "equivRank": 219
+    },
+    {
+      "majorName": "社会科学试验班",
+      "majorKey": "38bcf50d",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 16,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 797,
+      "equivRank": 797
+    },
+    {
+      "majorName": "理科试验班",
+      "majorKey": "54728189",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 19,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 3138,
+      "equivRank": 3138
+    },
+    {
+      "majorName": "航空航天工程",
+      "majorKey": "dbd998c2",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 3,
+      "tuition": "57000",
+      "schooling": "四年",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 3232,
+      "equivRank": 3232
+    },
+    {
+      "majorName": "车辆工程",
+      "majorKey": "92b6110d",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 3,
+      "tuition": "57000",
+      "schooling": "四年",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 3463,
+      "equivRank": 3463
+    },
+    {
+      "majorName": "会计学",
+      "majorKey": "8aa56116",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 8,
+      "tuition": "78000",
+      "schooling": "四年",
+      "menlei": "管",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 7453,
+      "equivRank": 7453
+    }
+  ]
+}

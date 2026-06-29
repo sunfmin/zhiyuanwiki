@@ -1,0 +1,64 @@
+{
+  "code": "0284",
+  "name": "大连交通大学",
+  "leaves": [
+    {
+      "schoolCode": "0284",
+      "majorKey": "904549c4",
+      "majorName": "交通运输",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 604,
+          "minRank": 24100,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0284",
+      "majorKey": "92b6110d",
+      "majorName": "车辆工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 601,
+          "minRank": 26287,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "交通运输",
+      "majorKey": "904549c4",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 1,
+      "tuition": "5200",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 24100,
+      "equivRank": 24100
+    },
+    {
+      "majorName": "车辆工程",
+      "majorKey": "92b6110d",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 1,
+      "tuition": "5200",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 26287,
+      "equivRank": 26287
+    }
+  ]
+}

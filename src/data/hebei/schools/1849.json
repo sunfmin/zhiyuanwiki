@@ -1,0 +1,64 @@
+{
+  "code": "1849",
+  "name": "浙江大学医学院",
+  "leaves": [
+    {
+      "schoolCode": "1849",
+      "majorKey": "a191bc68",
+      "majorName": "医学试验班类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 661,
+          "minRank": 1570,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1849",
+      "majorKey": "41174006",
+      "majorName": "药学类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 647,
+          "minRank": 4006,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "医学试验班类",
+      "majorKey": "a191bc68",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 3,
+      "tuition": "6000",
+      "schooling": "5",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 1570,
+      "equivRank": 1570
+    },
+    {
+      "majorName": "药学类",
+      "majorKey": "41174006",
+      "track": "物理",
+      "selKe": "化学",
+      "plan": 3,
+      "tuition": "6000",
+      "schooling": "4",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 4006,
+      "equivRank": 4006
+    }
+  ]
+}

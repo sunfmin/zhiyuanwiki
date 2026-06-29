@@ -1,0 +1,64 @@
+{
+  "code": "D332",
+  "name": "昆明医科大学海源学院",
+  "leaves": [
+    {
+      "schoolCode": "D332",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 495,
+          "minRank": 197124,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "D332",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 532,
+          "minRank": 114554,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "口腔医学",
+      "majorKey": "c162bced",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "plan": 2,
+      "tuition": "28000",
+      "schooling": "5",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 114554,
+      "equivRank": 114554
+    },
+    {
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "plan": 3,
+      "tuition": "28000",
+      "schooling": "5",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 197124,
+      "equivRank": 197124
+    }
+  ]
+}
