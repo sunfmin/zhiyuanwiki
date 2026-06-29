@@ -1,18 +1,30 @@
-name: Deploy to Cloudflare Pages
+name: Deploy to Cloudflare R2
+
+# 托管：Cloudflare R2 + Rules（自定义域 zhiyuanwiki.com）。见 docs/adr/0018（推翻 0006 的 Pages）。
+# 迁离 Pages 的原因：免费版封顶「2 万文件/部署」，本站已 4 万+（31 省全量预渲染）；解锁 10 万要 $20/月 Pro。
+#
+# 需在仓库 Secrets/账户预先配好（见 README）：
+#   R2_ACCESS_KEY_ID / R2_SECRET_ACCESS_KEY  —— R2 的 S3 API 令牌
+#   CLOUDFLARE_ACCOUNT_ID                     —— R2 S3 端点用
+#   CLOUDFLARE_ZONE_ID                        —— purge 缓存用（zhiyuanwiki.com 的 zone id）
+#   CLOUDFLARE_API_TOKEN                       —— 需含 Zone › Cache Purge 权限
+# 另需在 Cloudflare 仪表盘：建 R2 桶、挂自定义域 zhiyuanwiki.com、配 URL Rewrite / Bulk Redirects / Cache Rule。
 
 on:
   push:
     branches: [main]
   workflow_dispatch:
 
+permissions:
+  contents: read
+
+env:
+  R2_BUCKET: zhiyuanwiki # R2 桶名（须与仪表盘所建一致）
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      deployments: write
     steps:
-      # 这些 action 用支持 Node 24 的大版本，避免 Node 20 弃用告警。
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
         with:
@@ -22,15 +34,36 @@ jobs:
       # 只跑 astro build：读取仓库内已提交的 src/data JSON。
       # 不在 CI 跑 Go 预处理——原始 xlsx 不入仓库（ADR-0005），数据由维护者本地生成后提交。
       - run: npm run build
-      # Pages 项目须预先建好（见 README）。原先的"幂等创建"步骤在项目已存在时每次报错、
-      # 产生误导性的 "Action failed" 注解，已移除。
-      - name: Deploy to Cloudflare Pages
-        uses: cloudflare/wrangler-action@v4
+
+      - name: Install rclone
+        run: sudo apt-get update && sudo apt-get install -y rclone
+
+      # 同步 dist → R2，前置「删除护栏」：若新构建 HTML 数比线上骤降（半截构建），中止以免 sync 误删全站。
+      - name: Sync dist to R2 (tripwire-gated)
         env:
-          # 解锁付费版 Pages 的 10 万文件上限（2026-01 起，需此开关；免费版仍封顶 2 万）。
-          # 本站 dist 约 4 万文件（28 省 × 每省院校/专业详情页静态预渲染），超免费上限。
-          PAGES_WRANGLER_MAJOR_VERSION: "4"
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy dist --project-name=zhiyuanwiki --branch=main --commit-dirty=true
+          # rclone 经环境变量配 R2（S3 兼容），无需 config 文件。remote 名 = R2。
+          RCLONE_CONFIG_R2_TYPE: s3
+          RCLONE_CONFIG_R2_PROVIDER: Cloudflare
+          RCLONE_CONFIG_R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          RCLONE_CONFIG_R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          RCLONE_CONFIG_R2_ENDPOINT: https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
+          RCLONE_CONFIG_R2_ACL: private
+        run: |
+          set -euo pipefail
+          LIVE=$(rclone lsf "R2:${R2_BUCKET}" -R --include '*.html' 2>/dev/null | wc -l | tr -d ' ')
+          NEW=$(find dist -name '*.html' | wc -l | tr -d ' ')
+          echo "线上 HTML=${LIVE}，新构建 HTML=${NEW}"
+          # 护栏：少 >5% 即退出码 1，使本步骤失败、不执行 sync（逻辑见 scripts/deploy-tripwire.mjs，与单测同源）。
+          node scripts/deploy-tripwire.mjs "${LIVE}" "${NEW}"
+          # sync 语义即「让桶匹配 dist」（含删除多余对象）；Content-Type 由 rclone 按扩展名自动设置。
+          rclone sync dist "R2:${R2_BUCKET}" --checksum --fast-list --transfers=32 --checkers=64 --stats-one-line
+
+      # 边缘缓存了 HTML（见仪表盘 Cache Rule），部署后整 zone purge 使其立即刷新。
+      - name: Purge Cloudflare cache
+        run: |
+          set -euo pipefail
+          curl -fsS -X POST \
+            "https://api.cloudflare.com/client/v4/zones/${{ secrets.CLOUDFLARE_ZONE_ID }}/purge_cache" \
+            -H "Authorization: Bearer ${{ secrets.CLOUDFLARE_API_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            --data '{"purge_everything":true}'

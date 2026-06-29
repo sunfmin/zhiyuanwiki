@@ -24,9 +24,9 @@ const section = prov ? (seg[1] ?? "") : "";
 const navLinks = prov
   ? [
       { section: "", href: `/${prov}/`, label: "位次定位" },
-      { section: "yuanxiao", href: `/${prov}/yuanxiao`, label: "院校" },
-      { section: "zhuanye", href: `/${prov}/zhuanye`, label: "专业" },
-      { section: "guide", href: `/${prov}/guide`, label: "指南" },
+      { section: "yuanxiao", href: `/${prov}/yuanxiao/`, label: "院校" },
+      { section: "zhuanye", href: `/${prov}/zhuanye/`, label: "专业" },
+      { section: "guide", href: `/${prov}/guide/`, label: "指南" },
     ]
   : [];
 
@@ -121,7 +121,7 @@ const provinces = PROVINCE_ROSTER.map((r) => r.name);
               var name = sel.value;
               var slug = enabledNames[name];
               if (slug) {
-                location.href = "/" + slug + "/" + section;
+                location.href = "/" + slug + "/" + (section ? section + "/" : "");
                 return;
               }
               notice.textContent =

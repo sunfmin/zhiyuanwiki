@@ -33,19 +33,28 @@ go test ./...
 go run ./cmd/zhiyuan-data help
 ```
 
-## 部署（Cloudflare Pages）
+## 部署（Cloudflare R2 + Rules）
 
-静态产出托管在 Cloudflare Pages（ADR-0006）。CI 只跑 `npm run build`（读仓库内已提交的
-`src/data` JSON）；**不在 CI 跑 Go 预处理**——原始 xlsx 不入仓库，数据由维护者本地
-`go run ./cmd/zhiyuan-data ...` 生成后提交。
+静态产出托管在 **Cloudflare R2**，前面用 **Cloudflare Rules**（非 Worker）服务于自定义域
+`zhiyuanwiki.com`（ADR-0018，推翻 ADR-0006 的 Pages——免费版 2 万文件上限挡不住本站 4 万+ 页）。
+CI 只跑 `npm run build`（读仓库内已提交的 `src/data` JSON）；**不在 CI 跑 Go 预处理**——原始
+xlsx 不入仓库，数据由维护者本地 `go run ./cmd/zhiyuan-data ...` 生成后提交。
 
-两种接法，二选一：
+`.github/workflows/deploy.yml`：`npm run build` → 删除护栏（`scripts/deploy-tripwire.mjs`）→
+`rclone sync dist → R2` → purge 缓存。回滚 = 对上个 commit 重跑 CI（构建对已提交 JSON 确定性可复现）。
 
-1. **Dashboard 连仓库**（推荐）：在 Cloudflare Pages 新建项目连本仓库，构建命令
-   `npm run build`，输出目录 `dist`。之后推送 main 自动构建部署。
-2. **GitHub Actions**：`.github/workflows/deploy.yml` 已就绪。在仓库 Secrets 配
-   `CLOUDFLARE_API_TOKEN` 与 `CLOUDFLARE_ACCOUNT_ID`，并先建好名为 `zhiyuanwiki` 的
-   Pages 项目。
+**仓库 Secrets**：`R2_ACCESS_KEY_ID`、`R2_SECRET_ACCESS_KEY`（R2 的 S3 API 令牌）、
+`CLOUDFLARE_ACCOUNT_ID`、`CLOUDFLARE_ZONE_ID`、`CLOUDFLARE_API_TOKEN`（需含 **Zone › Cache Purge** 权限）。
+
+**Cloudflare 仪表盘一次性配置**：
+
+1. 建 R2 桶 `zhiyuanwiki`（保持私有），**Connect Domain** 挂 `zhiyuanwiki.com`（apex；若原挂在 Pages 先 detach）。
+2. **URL Rewrite**（Transform Rule）：`ends_with(http.request.uri.path, "/")` 时把路径重写为
+   `concat(http.request.uri.path, "index.html")`（目录式 URL 取 index.html；故站内链接须带尾斜杠，
+   由 `tests/render/internal-links.trailing-slash.test.ts` 守护）。
+3. **Bulk Redirects**：承接原 `public/_redirects` 的 8 条旧单省 URL → `/hlj/...`（带通配，ADR-0009）。
+   就位后删除 `public/_redirects`（R2 不读它）。
+4. **Cache Rule**：让 `text/html` 进边缘缓存（长 edge TTL）；每次部署末尾 CI 自动 `purge_everything`。
 
 ## 重新生成数据
 

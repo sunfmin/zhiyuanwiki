@@ -1,0 +1,61 @@
+// 尾斜杠不变量（ADR-0018）：R2 + Rules-only 下，目录式 URL 由一条 URL Rewrite 把 `…/` 补成
+// `…/index.html`；没有 Worker 兜底，故任何「root-relative、非锚点、无文件后缀、且不以 / 结尾」的
+// 站内链接都会命中 R2 404。本测试扫描构建产物 dist/**/*.html，断言这类链接为零——把「链接都能
+// 在边缘解析」这一外部行为钉死，挡住未来回归（如新组件又写出无尾斜杠的 href）。
+//
+// 这是纯文件扫描，不起浏览器；放在 tests/render/ 仅因它依赖 `npm run build` 的产物（该套件已假设
+// dist 存在，见 render-glue.ts）。运行时 URL Rewrite/Bulk Redirects 只在 Cloudflare 边缘存在，
+// 本地测不到——见 PRD「Out of Scope」。
+import { expect, test } from "vitest";
+import { readdirSync, readFileSync, statSync } from "node:fs";
+import { join, resolve } from "node:path";
+
+const DIST = resolve("dist");
+
+function htmlFiles(dir: string): string[] {
+  const out: string[] = [];
+  for (const name of readdirSync(dir)) {
+    const p = join(dir, name);
+    if (statSync(p).isDirectory()) out.push(...htmlFiles(p));
+    else if (name.endsWith(".html")) out.push(p);
+  }
+  return out;
+}
+
+const HREF = /href="([^"]*)"/g;
+// 末段带文件后缀（如 .json/.css/.svg/.png/.js/.xml/.txt/.ico/.webp）→ 资源，按精确 key 提供。
+const HAS_EXT = /\.[a-z0-9]{1,8}$/i;
+
+function wouldDeadLink(raw: string): boolean {
+  const path = raw.split("#")[0].split("?")[0]; // 只看路径，去掉 hash/query
+  if (path === "") return false; // 纯锚点 #...
+  if (!path.startsWith("/")) return false; // 外链/相对/mailto/tel
+  if (path.startsWith("//")) return false; // 协议相对外链
+  if (path.endsWith("/")) return false; // 目录式，重写命中
+  if (HAS_EXT.test(path)) return false; // 资源文件
+  return true; // 非 / 结尾 + 无后缀 → 会 404
+}
+
+test(
+  "dist 内无会在 R2 Rules-only 下 404 的站内链接（尾斜杠不变量 · ADR-0018）",
+  () => {
+    const files = htmlFiles(DIST);
+    expect(files.length, "dist 下没有 .html——是否漏跑 npm run build？").toBeGreaterThan(0);
+
+    const violations = new Set<string>();
+    for (const f of files) {
+      const html = readFileSync(f, "utf8");
+      for (const m of html.matchAll(HREF)) {
+        if (wouldDeadLink(m[1])) violations.add(`${f.slice(DIST.length)} → ${m[1]}`);
+      }
+    }
+
+    const list = [...violations];
+    expect(
+      list,
+      `发现会 404 的站内链接（应补尾斜杠）：\n${list.slice(0, 30).join("\n")}` +
+        (list.length > 30 ? `\n…共 ${list.length} 处` : ""),
+    ).toEqual([]);
+  },
+  120_000,
+);
