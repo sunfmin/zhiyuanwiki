@@ -9,6 +9,8 @@ import (
 )
 
 // province 是一个省份的预处理配置：slug（数据目录/URL 段）、中文名、科类列表。
+// 前端 src/lib/provinces.ts 镜像 slug/name/科类/trackSlug/model，加省/改名要两边同步；
+// 漂移由 provinces.sync.test.ts 在 `npm test` 时拦下。
 // 见 ADR-0002（省份×科类×年份 一等键）与 ADR-0009（多省份泛化）。
 type province struct {
 	slug   string   // 数据目录与 URL 段：hlj / zj

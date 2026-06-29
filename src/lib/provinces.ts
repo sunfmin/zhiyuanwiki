@@ -1,5 +1,6 @@
 // 省份配置：路由、科类、填报模型、选科模型的单一真相源。Astro 页面与 Preact island 共用。
-// 与 Go cmd/zhiyuan-data/provinces.go 的 slug / 科类 / trackSlug 镜像，改一处要同步。
+// 与 Go cmd/zhiyuan-data/provinces.go 的 slug / 科类 / trackSlug / model 镜像，改一处要同步——
+// 漂移会被 provinces.sync.test.ts 在 `npm test` 时拦下（安全网，非真相收敛）。
 // 见 ADR-0009（多省份泛化）。
 
 export type FillModel = "group" | "major"; // 黑龙江=院校专业组；浙江=院校×专业（专业平行志愿）
