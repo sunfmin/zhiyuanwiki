@@ -1,10 +1,10 @@
 name: R2 rclone debug (throwaway)
 
-# 临时诊断 v2：复现真实 deploy 的 sync 501，并按 flag 二分定位元凶。
-# 只手动 workflow_dispatch；上传假文件到 _v2* 前缀，跑完清理。验完即删本文件。
-# 真实失败命令：
-#   rclone sync dist R2:bucket --checksum --fast-list --transfers=16 --checkers=32 --retries 5
-# 已知：rclone copy（无 --fast-list、transfers=4）到空前缀 → 全部 200。故元凶在 flag 差异里。
+# 临时诊断 v3：确认 --s3-no-head 修复。
+# 真相：PUT 全部 200（文件确实落桶），501 出在 rclone 上传后的校验
+#   HEAD /...?versionId=<id>  —— 桶开了对象版本控制，R2 对 ?versionId= 间歇回 501。
+# 修复：--s3-no-head 跳过上传后 HEAD 校验。本 run 同窗口对比 repro vs fix。
+# 只手动 workflow_dispatch；假文件传 _v3* 前缀，跑完清理。验完即删本文件。
 
 on:
   workflow_dispatch:
@@ -33,59 +33,48 @@ jobs:
           printf 'b' > debugdist/zj/yuanxiao/2219/index.html
           printf '{"x":1}' > debugdist/data/hn/locator-lishi.json
 
-      - name: Install apt rclone (the real deploy binary)
+      - name: Install apt rclone
         run: sudo apt-get update && sudo apt-get install -y rclone && rclone version
 
-      # ---- V-A: 一字不差复现真实 sync（dump headers 看 501 是哪个头） ----
-      - name: 'V-A — EXACT real sync flags (sync --checksum --fast-list --transfers=16 --checkers=32) + dump headers'
+      # repro 跑两次，提高撞上 R2 间歇 501 的概率
+      - name: 'REPRO #1 — exact real sync (expect 501 if R2 flaky now)'
         continue-on-error: true
         run: |
-          echo "===== V-A ====="
-          rclone sync debugdist "R2:${R2_BUCKET}/_v2a" \
-            --checksum --fast-list --transfers=16 --checkers=32 --retries 1 \
-            -vv --dump headers 2>&1 | tail -120 || true
+          echo "===== REPRO #1 ====="
+          rclone sync debugdist "R2:${R2_BUCKET}/_v3a1" \
+            --checksum --fast-list --transfers=16 --checkers=32 --retries 1 --stats-one-line 2>&1 | tail -15 || true
 
-      # ---- V-B: 去掉 --fast-list ----
-      - name: 'V-B — drop --fast-list'
+      - name: 'REPRO #2 — exact real sync (again)'
         continue-on-error: true
         run: |
-          echo "===== V-B ====="
-          rclone sync debugdist "R2:${R2_BUCKET}/_v2b" \
-            --checksum --transfers=16 --checkers=32 --retries 1 --stats-one-line 2>&1 | tail -20 || true
+          echo "===== REPRO #2 ====="
+          rclone sync debugdist "R2:${R2_BUCKET}/_v3a2" \
+            --checksum --fast-list --transfers=16 --checkers=32 --retries 1 --stats-one-line 2>&1 | tail -15 || true
 
-      # ---- V-C: 去掉 --checksum ----
-      - name: 'V-C — drop --checksum'
+      # FIX：同样 flag + --s3-no-head（跳过上传后校验 HEAD）。跑两次确认稳定。
+      - name: 'FIX #1 — real sync + --s3-no-head (expect success)'
         continue-on-error: true
         run: |
-          echo "===== V-C ====="
-          rclone sync debugdist "R2:${R2_BUCKET}/_v2c" \
-            --fast-list --transfers=16 --checkers=32 --retries 1 --stats-one-line 2>&1 | tail -20 || true
+          echo "===== FIX #1 ====="
+          rclone sync debugdist "R2:${R2_BUCKET}/_v3b1" \
+            --checksum --fast-list --transfers=16 --checkers=32 --s3-no-head --retries 1 --stats-one-line 2>&1 | tail -15 || true
 
-      # ---- V-D: 串行（transfers=1 checkers=1），其余同真实 ----
-      - name: 'V-D — serial (transfers=1 checkers=1), else real flags'
+      - name: 'FIX #2 — real sync + --s3-no-head (again)'
         continue-on-error: true
         run: |
-          echo "===== V-D ====="
-          rclone sync debugdist "R2:${R2_BUCKET}/_v2d" \
-            --checksum --fast-list --transfers=1 --checkers=1 --retries 1 --stats-one-line 2>&1 | tail -20 || true
-
-      # ---- V-E: copy（非 sync）+ 真实并发/flag，对照 sync vs copy ----
-      - name: 'V-E — copy (not sync) + real flags'
-        continue-on-error: true
-        run: |
-          echo "===== V-E ====="
-          rclone copy debugdist "R2:${R2_BUCKET}/_v2e" \
-            --checksum --fast-list --transfers=16 --checkers=32 --retries 1 --stats-one-line 2>&1 | tail -20 || true
+          echo "===== FIX #2 ====="
+          rclone sync debugdist "R2:${R2_BUCKET}/_v3b2" \
+            --checksum --fast-list --transfers=16 --checkers=32 --s3-no-head --retries 1 --stats-one-line 2>&1 | tail -15 || true
 
       - name: List landed + cleanup
         if: always()
         continue-on-error: true
         run: |
-          for p in _v2a _v2b _v2c _v2d _v2e; do
+          for p in _v3a1 _v3a2 _v3b1 _v3b2; do
             echo "===== landed under ${p} ====="
-            rclone lsf -R "R2:${R2_BUCKET}/${p}" 2>&1 || echo "(list failed)"
+            rclone lsf -R "R2:${R2_BUCKET}/${p}" 2>&1 | rg -v '/$' || echo "(none/list failed)"
           done
           echo "===== cleanup ====="
-          for p in _v2a _v2b _v2c _v2d _v2e; do
-            rclone delete "R2:${R2_BUCKET}/${p}" 2>&1 || echo "(delete ${p} failed/empty)"
+          for p in _v3a1 _v3a2 _v3b1 _v3b2; do
+            rclone delete "R2:${R2_BUCKET}/${p}" --s3-no-head 2>&1 || echo "(delete ${p} failed/empty)"
           done
