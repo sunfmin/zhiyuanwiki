@@ -10,13 +10,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/sunfmin/zhiyuanwiki/internal/ah"
 	"github.com/sunfmin/zhiyuanwiki/internal/core"
 	"github.com/sunfmin/zhiyuanwiki/internal/group3p12"
 	"github.com/sunfmin/zhiyuanwiki/internal/hlj"
-	"github.com/sunfmin/zhiyuanwiki/internal/hn"
-	"github.com/sunfmin/zhiyuanwiki/internal/js"
-	"github.com/sunfmin/zhiyuanwiki/internal/sc"
 	"github.com/sunfmin/zhiyuanwiki/internal/store"
 	"github.com/sunfmin/zhiyuanwiki/internal/tj"
 	"github.com/sunfmin/zhiyuanwiki/internal/xj"
@@ -76,15 +72,18 @@ type provParser struct {
 }
 
 var provParsers = map[string]provParser{
-	"js": {Scores: js.ParseScores, Plan: js.ParsePlan, YFD: js.ParseYiFenYiDuan},
-	"hn": {Scores: hn.ParseScores, Plan: hn.ParsePlan, YFD: hn.ParseYiFenYiDuan},
-	"sc": {Scores: sc.ParseScores, Plan: sc.ParsePlan, YFD: sc.ParseYiFenYiDuan,
+	// 统一格式 3+1+2 group 省（物理类/历史类 · 含最低位次 · 计划带院校专业组代码），逐行解析同形，
+	// 全部共用 internal/group3p12（ADR-0013/0014：同构省共享一份）。江苏/湖南无需 PlanMust；四川/安徽
+	// 的 25 年计划目录名含「招生计划」子串、且有更大的同名副本，需 PlanMust 精确指向。
+	"js": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan},
+	"hn": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan},
+	"sc": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
 		PlanMust: []string{"2025年-招生计划"}},
-	"ah": {Scores: ah.ParseScores, Plan: ah.ParsePlan, YFD: ah.ParseYiFenYiDuan,
+	"ah": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
 		PlanMust: []string{"安徽-2025-招生计划"}},
-	// 干净的统一格式 3+1+2 group 省（配方同 sc/ah），共用 internal/group3p12 解析；见 ADR-0014。
-	// PlanMust 必填且要精确：这些省的 25 年数据目录名常含「招生计划」子串（如「25招生计划和投档线」/
-	// 「25分数线和招生计划」），默认 ["招生计划"] 会按体积错配到更大的「专业录取分数」文件。
+	// 其余同构 group 省（广西/陕西/…）：PlanMust 必填且要精确：这些省的 25 年数据目录名常含「招生计划」
+	// 子串（如「25招生计划和投档线」/「25分数线和招生计划」），默认 ["招生计划"] 会按体积错配到更大的
+	// 「专业录取分数」文件。
 	"gx": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
 		PlanMust: []string{"广西-2025-招生计划"}},
 	"sx": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
