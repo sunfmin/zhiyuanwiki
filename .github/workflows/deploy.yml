@@ -49,12 +49,15 @@ jobs:
           RCLONE_CONFIG_R2_ENDPOINT: https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
           RCLONE_CONFIG_R2_ACL: private
           RCLONE_CONFIG_R2_NO_CHECK_BUCKET: "true" # 对象级 token：跳过 HeadBucket（否则可能 403）
+          # R2 不支持 CRC32 校验和；AWS SDK / rclone 默认发 x-amz-checksum-crc32 → 501 NotImplemented。两层都关掉。
+          AWS_REQUEST_CHECKSUM_CALCULATION: WHEN_REQUIRED
+          RCLONE_CONFIG_R2_USE_DATA_INTEGRITY_PROTECTIONS: "false"
         run: |
           set -euo pipefail
           echo "新构建 HTML=$(find dist -name '*.html' | wc -l | tr -d ' ')"
-          # R2 在高并发下会间歇性回 501 NotImplemented（rclone v1.74 + R2 已知问题）；--transfers=8 避开、--retries 兜底。
+          # 校验和已在 env 关掉（见上），并发可拉高；--retries 兜底任何残留瞬时错误。
           # sync 语义即「让桶匹配 dist」（含删除多余对象）；Content-Type 由 rclone 按扩展名自动设置。
-          rclone sync dist "R2:${R2_BUCKET}" --checksum --fast-list --transfers=8 --checkers=32 --retries 5 --stats-one-line
+          rclone sync dist "R2:${R2_BUCKET}" --checksum --fast-list --transfers=16 --checkers=32 --retries 5 --stats-one-line
 
       # 边缘缓存了 HTML（见仪表盘 Cache Rule），部署后整 zone purge 使其立即刷新。
       - name: Purge Cloudflare cache
