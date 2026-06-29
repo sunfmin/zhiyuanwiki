@@ -1,0 +1,94 @@
+{
+  "code": "E81",
+  "name": "空军预警学院",
+  "leaves": [
+    {
+      "schoolCode": "E81",
+      "majorKey": "65a5527d",
+      "majorName": "侦察情报",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 592,
+          "minRank": 7667,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "E81",
+      "majorKey": "67950403",
+      "majorName": "雷达工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 592,
+          "minRank": 7667,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "E81",
+      "majorKey": "0f8fe605",
+      "majorName": "预警探测",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 590,
+          "minRank": 8013,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "雷达工程",
+          "majorKey": "67950403",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 7667,
+          "equivRank": 7667
+        },
+        {
+          "majorName": "预警探测",
+          "majorKey": "0f8fe605",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 8013,
+          "equivRank": 8013
+        },
+        {
+          "majorName": "侦察情报",
+          "majorKey": "65a5527d",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 7667,
+          "equivRank": 7667
+        }
+      ]
+    }
+  ]
+}

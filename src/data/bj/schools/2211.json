@@ -1,0 +1,206 @@
+{
+  "code": "2211",
+  "name": "东北师范大学",
+  "leaves": [
+    {
+      "schoolCode": "2211",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 595,
+          "minRank": 13015,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2211",
+      "majorKey": "23e45e08",
+      "majorName": "政治学类",
+      "selKe": "思想政治必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 600,
+          "minRank": 11883,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2211",
+      "majorKey": "33b3d741",
+      "majorName": "数学类",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 602,
+          "minRank": 11426,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2211",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 596,
+          "minRank": 12777,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2211",
+      "majorKey": "0cabaa98",
+      "majorName": "经济学类",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 599,
+          "minRank": 12103,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2211",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 592,
+          "minRank": 13650,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5810",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 12777,
+          "equivRank": 12777
+        },
+        {
+          "majorName": "经济学类",
+          "majorKey": "0cabaa98",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "6070",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 12103,
+          "equivRank": 12103
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "政治学类",
+          "majorKey": "23e45e08",
+          "selKe": "政治",
+          "plan": 2,
+          "tuition": "6070",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 11883,
+          "equivRank": 11883
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "数学类",
+          "majorKey": "33b3d741",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6320",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 11426,
+          "equivRank": 11426
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "37000",
+          "menlei": "管",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 13015,
+          "equivRank": 13015
+        }
+      ]
+    },
+    {
+      "groupCode": "05",
+      "groupName": "05",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "26000",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 13650,
+          "equivRank": 13650
+        }
+      ]
+    }
+  ]
+}

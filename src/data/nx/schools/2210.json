@@ -1,0 +1,240 @@
+{
+  "code": "2210",
+  "name": "延边大学",
+  "leaves": [
+    {
+      "schoolCode": "2210",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 497,
+          "minRank": 7490,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2210",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 502,
+          "minRank": 6944,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2210",
+      "majorKey": "b5171121",
+      "majorName": "国际政治",
+      "selKe": "历史,政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 505,
+          "minRank": 2286,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2210",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 531,
+          "minRank": 1362,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 479,
+          "minRank": 9765,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2210",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 502,
+          "minRank": 6944,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2210",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 535,
+          "minRank": 1238,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2210",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 502,
+          "minRank": 6944,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5280",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 1362,
+          "equivRank": 1362
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5280",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 1238,
+          "equivRank": 1238
+        }
+      ]
+    },
+    {
+      "groupCode": "7A2",
+      "groupName": "7A2",
+      "track": "历史",
+      "selKe": "历史,政治",
+      "majors": [
+        {
+          "majorName": "国际政治",
+          "majorKey": "b5171121",
+          "selKe": "历史,政治",
+          "plan": 2,
+          "tuition": "5280",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 2286,
+          "equivRank": 2286
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "5280",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 9765,
+          "equivRank": 9765
+        }
+      ]
+    },
+    {
+      "groupCode": "502",
+      "groupName": "502",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6160",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 7490,
+          "equivRank": 7490
+        },
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5400",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 6944,
+          "equivRank": 6944
+        },
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5400",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 6944,
+          "equivRank": 6944
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5940",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 6944,
+          "equivRank": 6944
+        }
+      ]
+    }
+  ]
+}

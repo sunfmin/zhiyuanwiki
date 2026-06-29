@@ -1,0 +1,162 @@
+{
+  "code": "R52",
+  "name": "河北工业职业技术大学",
+  "leaves": [
+    {
+      "schoolCode": "R52",
+      "majorKey": "96528d4f",
+      "majorName": "人工智能工程技术",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 475,
+          "minRank": 37238,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "R52",
+      "majorKey": "ffb9442b",
+      "majorName": "材料化冶金应用技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 437,
+          "minRank": 49381,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "R52",
+      "majorKey": "a0f5df04",
+      "majorName": "现代物流管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 474,
+          "minRank": 13038,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 423,
+          "minRank": 53969,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "R52",
+      "majorKey": "7bacae62",
+      "majorName": "软件工程技术",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 472,
+          "minRank": 38138,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "004",
+      "groupName": "004",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "现代物流管理",
+          "majorKey": "a0f5df04",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 13038,
+          "equivRank": 13038
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "材料化冶金应用技术",
+          "majorKey": "ffb9442b",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 49381,
+          "equivRank": 49381
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "软件工程技术",
+          "majorKey": "7bacae62",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 38138,
+          "equivRank": 38138
+        },
+        {
+          "majorName": "人工智能工程技术",
+          "majorKey": "96528d4f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 37238,
+          "equivRank": 37238
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "现代物流管理",
+          "majorKey": "a0f5df04",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 53969,
+          "equivRank": 53969
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "code": "B40",
+  "name": "黄淮学院",
+  "leaves": [
+    {
+      "schoolCode": "B40",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 438,
+          "minRank": 49009,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "B40",
+      "majorKey": "6b32f2c4",
+      "majorName": "建筑学",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 423,
+          "minRank": 53969,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "B40",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "物理,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 451,
+          "minRank": 44772,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "B40",
+      "majorKey": "039d4de9",
+      "majorName": "新能源汽车工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 481,
+          "minRank": 35426,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "B40",
+      "majorKey": "0c33cbdd",
+      "majorName": "软件工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 479,
+          "minRank": 36015,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4400",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 49009,
+          "equivRank": 49009
+        },
+        {
+          "majorName": "建筑学",
+          "majorKey": "6b32f2c4",
+          "selKe": "不限",
+          "plan": 10,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 53969,
+          "equivRank": 53969
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "化学",
+          "plan": 10,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 36015,
+          "equivRank": 36015
+        },
+        {
+          "majorName": "新能源汽车工程",
+          "majorKey": "039d4de9",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 35426,
+          "equivRank": 35426
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "生物学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物学",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 44772,
+          "equivRank": 44772
+        }
+      ]
+    }
+  ]
+}

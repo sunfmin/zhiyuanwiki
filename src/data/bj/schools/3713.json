@@ -1,0 +1,102 @@
+{
+  "code": "3713",
+  "name": "山东大学（威海）",
+  "leaves": [
+    {
+      "schoolCode": "3713",
+      "majorKey": "33b3d741",
+      "majorName": "数学类",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 640,
+          "minRank": 4517,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3713",
+      "majorKey": "5e0efed0",
+      "majorName": "电子信息类",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 640,
+          "minRank": 4517,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3713",
+      "majorKey": "0cabaa98",
+      "majorName": "经济学类",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 630,
+          "minRank": 6087,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "经济学类",
+          "majorKey": "0cabaa98",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6600",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 6087,
+          "equivRank": 6087
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "数学类",
+          "majorKey": "33b3d741",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6600",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 4517,
+          "equivRank": 4517
+        },
+        {
+          "majorName": "电子信息类",
+          "majorKey": "5e0efed0",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 4517,
+          "equivRank": 4517
+        }
+      ]
+    }
+  ]
+}

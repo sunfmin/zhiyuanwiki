@@ -1,0 +1,128 @@
+{
+  "code": "1319",
+  "name": "河北工程大学",
+  "leaves": [
+    {
+      "schoolCode": "1319",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 497,
+          "minRank": 38352,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1319",
+      "majorKey": "c5a57efa",
+      "majorName": "水利水电工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 501,
+          "minRank": 37268,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1319",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 528,
+          "minRank": 30009,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1319",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 501,
+          "minRank": 37268,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4600",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 30009,
+          "equivRank": 30009
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5300",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 38352,
+          "equivRank": 38352
+        },
+        {
+          "majorName": "水利水电工程",
+          "majorKey": "c5a57efa",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5300",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 37268,
+          "equivRank": 37268
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5300",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 37268,
+          "equivRank": 37268
+        }
+      ]
+    }
+  ]
+}

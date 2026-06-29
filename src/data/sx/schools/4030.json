@@ -1,0 +1,260 @@
+{
+  "code": "4030",
+  "name": "上海商学院",
+  "leaves": [
+    {
+      "schoolCode": "4030",
+      "majorKey": "55e3bd26",
+      "majorName": "信息管理与信息系统",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 478,
+          "minRank": 70268,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4030",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 531,
+          "minRank": 10671,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 480,
+          "minRank": 68882,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4030",
+      "majorKey": "b2ff5185",
+      "majorName": "朝鲜语",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 505,
+          "minRank": 16038,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 478,
+          "minRank": 70268,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4030",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 497,
+          "minRank": 57104,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4030",
+      "majorKey": "ec686c36",
+      "majorName": "酒店管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 505,
+          "minRank": 16038,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 478,
+          "minRank": 70268,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4030",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 537,
+          "minRank": 9587,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 481,
+          "minRank": 68188,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "朝鲜语",
+          "majorKey": "b2ff5185",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "6500",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 16038,
+          "equivRank": 16038
+        },
+        {
+          "majorName": "酒店管理",
+          "majorKey": "ec686c36",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "6500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 16038,
+          "equivRank": 16038
+        },
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "6500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 10671,
+          "equivRank": 10671
+        },
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "6500",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 9587,
+          "equivRank": 9587
+        }
+      ]
+    },
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "信息管理与信息系统",
+          "majorKey": "55e3bd26",
+          "selKe": "物理",
+          "plan": 3,
+          "tuition": "6500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 70268,
+          "equivRank": 70268
+        },
+        {
+          "majorName": "酒店管理",
+          "majorKey": "ec686c36",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "6500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 70268,
+          "equivRank": 70268
+        },
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "6500",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 68188,
+          "equivRank": 68188
+        },
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "6500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 68882,
+          "equivRank": 68882
+        },
+        {
+          "majorName": "朝鲜语",
+          "majorKey": "b2ff5185",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "6500",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 70268,
+          "equivRank": 70268
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "7000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 57104,
+          "equivRank": 57104
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "code": "2253",
+  "name": "长春科技学院",
+  "leaves": [
+    {
+      "schoolCode": "2253",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 391,
+          "minRank": 26299,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2253",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 408,
+          "minRank": 22765,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2253",
+      "majorKey": "b3e5d67f",
+      "majorName": "动物医学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 406,
+          "minRank": 23197,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2253",
+      "majorKey": "8230723d",
+      "majorName": "计算机类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 404,
+          "minRank": 23603,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "39000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 26299,
+          "equivRank": 26299
+        },
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "26000",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "502",
+      "groupName": "502",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "28000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 22765,
+          "equivRank": 22765
+        },
+        {
+          "majorName": "动物医学",
+          "majorKey": "b3e5d67f",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "28000",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 23197,
+          "equivRank": 23197
+        },
+        {
+          "majorName": "计算机类",
+          "majorKey": "8230723d",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "28000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 23603,
+          "equivRank": 23603
+        }
+      ]
+    }
+  ]
+}

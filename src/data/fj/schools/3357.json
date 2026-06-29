@@ -1,0 +1,102 @@
+{
+  "code": "3357",
+  "name": "铜陵学院",
+  "leaves": [
+    {
+      "schoolCode": "3357",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 488,
+          "minRank": 17086,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3357",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 496,
+          "minRank": 72818,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3357",
+      "majorKey": "f9ecceea",
+      "majorName": "地理信息科学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 496,
+          "minRank": 72818,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "5290",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 17086,
+          "equivRank": 17086
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "地理信息科学",
+          "majorKey": "f9ecceea",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "4900",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 72818,
+          "equivRank": 72818
+        },
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5390",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 72818,
+          "equivRank": 72818
+        }
+      ]
+    }
+  ]
+}

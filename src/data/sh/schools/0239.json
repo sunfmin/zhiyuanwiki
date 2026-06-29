@@ -1,0 +1,102 @@
+{
+  "code": "0239",
+  "name": "首都体育学院",
+  "leaves": [
+    {
+      "schoolCode": "0239",
+      "majorKey": "9c5f4a34",
+      "majorName": "新闻学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 491,
+          "minRank": 26773,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0239",
+      "majorKey": "676f341a",
+      "majorName": "运动人体科学",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 490,
+          "minRank": 27085,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0239",
+      "majorKey": "047778fd",
+      "majorName": "运动康复",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 482,
+          "minRank": 29358,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "新闻学",
+          "majorKey": "9c5f4a34",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 26773,
+          "equivRank": 26773
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "运动人体科学",
+          "majorKey": "676f341a",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "4200",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 27085,
+          "equivRank": 27085
+        },
+        {
+          "majorName": "运动康复",
+          "majorKey": "047778fd",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "4200",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 29358,
+          "equivRank": 29358
+        }
+      ]
+    }
+  ]
+}

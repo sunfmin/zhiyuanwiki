@@ -1,0 +1,136 @@
+{
+  "code": "1764",
+  "name": "湖北医药学院",
+  "leaves": [
+    {
+      "schoolCode": "1764",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 565,
+          "minRank": 19738,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1764",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 585,
+          "minRank": 15154,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1764",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 556,
+          "minRank": 21885,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1764",
+      "majorKey": "e86ddf0a",
+      "majorName": "精神医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 562,
+          "minRank": 20421,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 19738,
+          "equivRank": 19738
+        },
+        {
+          "majorName": "制药工程",
+          "majorKey": "28bd788f",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "4000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "医学影像学",
+          "majorKey": "5780af73",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 15154,
+          "equivRank": 15154
+        },
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "4000",
+          "menlei": "医"
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 21885,
+          "equivRank": 21885
+        },
+        {
+          "majorName": "精神医学",
+          "majorKey": "e86ddf0a",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 20421,
+          "equivRank": 20421
+        }
+      ]
+    }
+  ]
+}

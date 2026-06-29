@@ -1,0 +1,76 @@
+{
+  "code": "0729",
+  "name": "武昌理工学院",
+  "leaves": [
+    {
+      "schoolCode": "0729",
+      "majorKey": "287bdd33",
+      "majorName": "投资学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 404,
+          "minRank": 48868,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0729",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 398,
+          "minRank": 50091,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "投资学",
+          "majorKey": "287bdd33",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "22800",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 48868,
+          "equivRank": 48868
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "62800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 50091,
+          "equivRank": 50091
+        }
+      ]
+    }
+  ]
+}

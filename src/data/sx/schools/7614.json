@@ -1,0 +1,154 @@
+{
+  "code": "7614",
+  "name": "玉溪师范学院",
+  "leaves": [
+    {
+      "schoolCode": "7614",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 491,
+          "minRank": 19484,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "7614",
+      "majorKey": "f36575cb",
+      "majorName": "应用生物科学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 459,
+          "minRank": 84115,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "7614",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 497,
+          "minRank": 17994,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "7614",
+      "majorKey": "653f630d",
+      "majorName": "物理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 459,
+          "minRank": 84115,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "7614",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 460,
+          "minRank": 83389,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 19484,
+          "equivRank": 19484
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 17994,
+          "equivRank": 17994
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "应用生物科学",
+          "majorKey": "f36575cb",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4950",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 84115,
+          "equivRank": 84115
+        },
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 84115,
+          "equivRank": 84115
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 83389,
+          "equivRank": 83389
+        }
+      ]
+    }
+  ]
+}

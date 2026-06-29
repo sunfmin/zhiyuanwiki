@@ -1,0 +1,167 @@
+{
+  "code": "2681",
+  "name": "西安交通大学",
+  "leaves": [
+    {
+      "schoolCode": "2681",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 767,
+          "minRank": 298,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2681",
+      "majorKey": "b363aa3d",
+      "majorName": "工科试验班",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 786,
+          "minRank": 168,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2681",
+      "majorKey": "6b32f2c4",
+      "majorName": "建筑学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 669,
+          "minRank": 3508,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2681",
+      "majorKey": "da95770c",
+      "majorName": "自动化",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 788,
+          "minRank": 158,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6600",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 168,
+          "equivRank": 168
+        },
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6600",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 168,
+          "equivRank": 168
+        },
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "6600",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 168,
+          "equivRank": 168
+        },
+        {
+          "majorName": "微电子科学与工程",
+          "majorKey": "e063e51a",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "6600",
+          "menlei": "工"
+        },
+        {
+          "majorName": "自动化",
+          "majorKey": "da95770c",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "6600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 158,
+          "equivRank": 158
+        }
+      ]
+    },
+    {
+      "groupCode": "80",
+      "groupName": "80",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "7150",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 298,
+          "equivRank": 298
+        }
+      ]
+    },
+    {
+      "groupCode": "81",
+      "groupName": "81",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "建筑学",
+          "majorKey": "6b32f2c4",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "90000",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 3508,
+          "equivRank": 3508
+        }
+      ]
+    }
+  ]
+}

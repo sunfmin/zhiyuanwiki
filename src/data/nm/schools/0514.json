@@ -1,0 +1,224 @@
+{
+  "code": "0514",
+  "name": "西安思源学院",
+  "leaves": [
+    {
+      "schoolCode": "0514",
+      "majorKey": "a9584ad9",
+      "majorName": "中国语言文学类",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 443,
+          "minRank": 17162,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0514",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 447,
+          "minRank": 16617,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 383,
+          "minRank": 66383,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0514",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "物理,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 407,
+          "minRank": 59120,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0514",
+      "majorKey": "4272328b",
+      "majorName": "教育学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 457,
+          "minRank": 15264,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 392,
+          "minRank": 63748,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0514",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 445,
+          "minRank": 16894,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 408,
+          "minRank": 58837,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "004",
+      "groupName": "004",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "教育学",
+          "majorKey": "4272328b",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "25080",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 15264,
+          "equivRank": 15264
+        },
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "25080",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 16617,
+          "equivRank": 16617
+        },
+        {
+          "majorName": "中国语言文学类",
+          "majorKey": "a9584ad9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "25080",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 17162,
+          "equivRank": 17162
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "25080",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 16894,
+          "equivRank": 16894
+        },
+        {
+          "majorName": "电子商务",
+          "majorKey": "0b52f20f",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "25080",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "014",
+      "groupName": "014",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "教育学",
+          "majorKey": "4272328b",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "25080",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 63748,
+          "equivRank": 63748
+        },
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "25080",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 66383,
+          "equivRank": 66383
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "25080",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 58837,
+          "equivRank": 58837
+        }
+      ]
+    },
+    {
+      "groupCode": "016",
+      "groupName": "016",
+      "track": "物理",
+      "selKe": "生物学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物学",
+          "plan": 3,
+          "tuition": "27170",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 59120,
+          "equivRank": 59120
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "code": "J31",
+  "name": "香港城市大学",
+  "leaves": [
+    {
+      "schoolCode": "J31",
+      "majorKey": "f38b4f84",
+      "majorName": "人文社会科学院",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 621,
+          "minRank": 754,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "J31",
+      "majorKey": "d487b5eb",
+      "majorName": "商学院",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 622,
+          "minRank": 723,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 619,
+          "minRank": 3796,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "J31",
+      "majorKey": "42f46f7c",
+      "majorName": "工学院",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 613,
+          "minRank": 4517,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "J31",
+      "majorKey": "33f89c80",
+      "majorName": "理学院",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 661,
+          "minRank": 638,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "商学院",
+          "majorKey": "d487b5eb",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 723,
+          "equivRank": 723
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "人文社会科学院",
+          "majorKey": "f38b4f84",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 754,
+          "equivRank": 754
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "商学院",
+          "majorKey": "d487b5eb",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 3796,
+          "equivRank": 3796
+        },
+        {
+          "majorName": "工学院",
+          "majorKey": "42f46f7c",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 4517,
+          "equivRank": 4517
+        },
+        {
+          "majorName": "理学院",
+          "majorKey": "33f89c80",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 638,
+          "equivRank": 638
+        }
+      ]
+    }
+  ]
+}

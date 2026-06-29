@@ -1,0 +1,782 @@
+{
+  "code": "8031",
+  "name": "安康学院",
+  "leaves": [
+    {
+      "schoolCode": "8031",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 542,
+          "minRank": 8733,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 526,
+          "minRank": 39698,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "8031",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 556,
+          "minRank": 6663,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "8031",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 569,
+          "minRank": 20686,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "8031",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 556,
+          "minRank": 6663,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "8031",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 555,
+          "minRank": 6803,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "历史,政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "历史,政治",
+          "plan": 87,
+          "tuition": "5000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 6663,
+          "equivRank": 6663
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "历史",
+          "plan": 89,
+          "tuition": "5000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 6803,
+          "equivRank": 6803
+        },
+        {
+          "majorName": "商务英语",
+          "majorKey": "4428fd77",
+          "selKe": "历史",
+          "plan": 68,
+          "tuition": "5000",
+          "menlei": "文"
+        },
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "历史",
+          "plan": 60,
+          "tuition": "5000",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 8733,
+          "equivRank": 8733
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "历史",
+          "plan": 29,
+          "tuition": "5000",
+          "menlei": "管"
+        },
+        {
+          "majorName": "旅游管理",
+          "majorKey": "ec77cae2",
+          "selKe": "历史",
+          "plan": 27,
+          "tuition": "5000",
+          "menlei": "管"
+        },
+        {
+          "majorName": "秘书学",
+          "majorKey": "131a0e7c",
+          "selKe": "历史",
+          "plan": 27,
+          "tuition": "5000",
+          "menlei": "文"
+        },
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "历史",
+          "plan": 26,
+          "tuition": "5000",
+          "menlei": "文"
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 186,
+          "tuition": "5000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 6663,
+          "equivRank": 6663
+        },
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "历史",
+          "plan": 15,
+          "tuition": "5000",
+          "menlei": "教"
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "历史",
+          "plan": 10,
+          "tuition": "5000",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "112",
+      "groupName": "112",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "历史",
+          "plan": 5,
+          "tuition": "免费",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 6803,
+          "equivRank": 6803
+        },
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "免费",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 8733,
+          "equivRank": 8733
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "免费",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 6663,
+          "equivRank": 6663
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "免费",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 6663,
+          "equivRank": 6663
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "免费",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 6663,
+          "equivRank": 6663
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "免费",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 6663,
+          "equivRank": 6663
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "免费",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 6663,
+          "equivRank": 6663
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "免费",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 6663,
+          "equivRank": 6663
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "免费",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 6803,
+          "equivRank": 6803
+        },
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 8733,
+          "equivRank": 8733
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 6663,
+          "equivRank": 6663
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 6803,
+          "equivRank": 6803
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 6803,
+          "equivRank": 6803
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 6803,
+          "equivRank": 6803
+        }
+      ]
+    },
+    {
+      "groupCode": "114",
+      "groupName": "114",
+      "track": "历史",
+      "selKe": "历史,政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "历史,政治",
+          "plan": 2,
+          "tuition": "免费",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 6663,
+          "equivRank": 6663
+        },
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "历史,政治",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 6663,
+          "equivRank": 6663
+        },
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "历史,政治",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 6663,
+          "equivRank": 6663
+        }
+      ]
+    },
+    {
+      "groupCode": "103",
+      "groupName": "103",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "物理",
+          "plan": 33,
+          "tuition": "5000",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 39698,
+          "equivRank": 39698
+        },
+        {
+          "majorName": "工程管理",
+          "majorKey": "4166f1ff",
+          "selKe": "物理",
+          "plan": 33,
+          "tuition": "5000",
+          "menlei": "管"
+        },
+        {
+          "majorName": "工程造价",
+          "majorKey": "b8be11ab",
+          "selKe": "物理",
+          "plan": 32,
+          "tuition": "5000",
+          "menlei": "管"
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "物理",
+          "plan": 28,
+          "tuition": "5000",
+          "menlei": "管"
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "物理",
+          "plan": 28,
+          "tuition": "5000",
+          "menlei": "管"
+        },
+        {
+          "majorName": "金融工程",
+          "majorKey": "e6a89fa4",
+          "selKe": "物理",
+          "plan": 16,
+          "tuition": "5000",
+          "menlei": "经"
+        }
+      ]
+    },
+    {
+      "groupCode": "104",
+      "groupName": "104",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "应用化学",
+          "majorKey": "25624660",
+          "selKe": "物理,化学",
+          "plan": 99,
+          "tuition": "6000",
+          "menlei": "理"
+        },
+        {
+          "majorName": "环境生态工程",
+          "majorKey": "2698a02f",
+          "selKe": "物理,化学",
+          "plan": 89,
+          "tuition": "6000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "康复治疗学",
+          "majorKey": "a507c400",
+          "selKe": "物理,化学",
+          "plan": 86,
+          "tuition": "6500",
+          "menlei": "医"
+        },
+        {
+          "majorName": "农学",
+          "majorKey": "c10bcf22",
+          "selKe": "物理,化学",
+          "plan": 85,
+          "tuition": "6000",
+          "menlei": "农"
+        },
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "物理,化学",
+          "plan": 76,
+          "tuition": "6000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "物理,化学",
+          "plan": 69,
+          "tuition": "6000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "生物技术",
+          "majorKey": "0ac1da59",
+          "selKe": "物理,化学",
+          "plan": 49,
+          "tuition": "6000",
+          "menlei": "理"
+        },
+        {
+          "majorName": "制药工程",
+          "majorKey": "28bd788f",
+          "selKe": "物理,化学",
+          "plan": 47,
+          "tuition": "6000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "物理,化学",
+          "plan": 39,
+          "tuition": "6500",
+          "menlei": "医"
+        },
+        {
+          "majorName": "茶学",
+          "majorKey": "2f5c1273",
+          "selKe": "物理,化学",
+          "plan": 39,
+          "tuition": "6000",
+          "menlei": "农"
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "物理,化学",
+          "plan": 36,
+          "tuition": "6000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "物联网工程",
+          "majorKey": "1da18825",
+          "selKe": "物理,化学",
+          "plan": 36,
+          "tuition": "6000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "化妆品技术与工程",
+          "majorKey": "ff33db96",
+          "selKe": "物理,化学",
+          "plan": 34,
+          "tuition": "6000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "统计学",
+          "majorKey": "24c5453f",
+          "selKe": "物理,化学",
+          "plan": 28,
+          "tuition": "6000",
+          "menlei": "理"
+        },
+        {
+          "majorName": "化学工程与工艺",
+          "majorKey": "1f59c989",
+          "selKe": "物理,化学",
+          "plan": 144,
+          "tuition": "6000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 138,
+          "tuition": "5250",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 20686,
+          "equivRank": 20686
+        }
+      ]
+    },
+    {
+      "groupCode": "105",
+      "groupName": "105",
+      "track": "物理",
+      "selKe": "物理,生物",
+      "majors": [
+        {
+          "majorName": "园林",
+          "majorKey": "c6cedaad",
+          "selKe": "物理,生物",
+          "plan": 71,
+          "tuition": "6000",
+          "menlei": "农"
+        }
+      ]
+    },
+    {
+      "groupCode": "111",
+      "groupName": "111",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 6,
+          "tuition": "免费",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 20686,
+          "equivRank": 20686
+        },
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "免费",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 20686,
+          "equivRank": 20686
+        },
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "免费",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 20686,
+          "equivRank": 20686
+        },
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "免费",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 20686,
+          "equivRank": 20686
+        },
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "免费",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 20686,
+          "equivRank": 20686
+        },
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "免费",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 20686,
+          "equivRank": 20686
+        },
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "免费",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 20686,
+          "equivRank": 20686
+        },
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 20686,
+          "equivRank": 20686
+        },
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 20686,
+          "equivRank": 20686
+        }
+      ]
+    },
+    {
+      "groupCode": "113",
+      "groupName": "113",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "物理",
+          "plan": 4,
+          "tuition": "免费",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 39698,
+          "equivRank": 39698
+        },
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 39698,
+          "equivRank": 39698
+        },
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 39698,
+          "equivRank": 39698
+        },
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 39698,
+          "equivRank": 39698
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "code": "0241",
+  "name": "中央美术学院",
+  "leaves": [
+    {
+      "schoolCode": "0241",
+      "majorKey": "fb5e31ab",
+      "majorName": "城市设计",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 530,
+          "minRank": 15808,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0241",
+      "majorKey": "ae17c365",
+      "majorName": "艺术史论",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 527,
+          "minRank": 16655,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0241",
+      "majorKey": "44d89b18",
+      "majorName": "艺术管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 542,
+          "minRank": 12532,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "艺术管理",
+          "majorKey": "44d89b18",
+          "selKe": "不限科目",
+          "plan": 1,
+          "tuition": "8000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 12532,
+          "equivRank": 12532
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "城市设计",
+          "majorKey": "fb5e31ab",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "15000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 15808,
+          "equivRank": 15808
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "艺术史论",
+          "majorKey": "ae17c365",
+          "selKe": "不限科目",
+          "plan": 4,
+          "tuition": "45000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 16655,
+          "equivRank": 16655
+        },
+        {
+          "majorName": "艺术管理",
+          "majorKey": "44d89b18",
+          "selKe": "不限科目",
+          "plan": 5,
+          "tuition": "45000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 12532,
+          "equivRank": 12532
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "code": "0746",
+  "name": "湖南农业大学",
+  "leaves": [
+    {
+      "schoolCode": "0746",
+      "majorKey": "b3e5d67f",
+      "majorName": "动物医学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 475,
+          "minRank": 31381,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0746",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 461,
+          "minRank": 35266,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0746",
+      "majorKey": "0ac1da59",
+      "majorName": "生物技术",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 471,
+          "minRank": 32490,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 35266,
+          "equivRank": 35266
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "生物技术",
+          "majorKey": "0ac1da59",
+          "selKe": "物理和化学",
+          "plan": 3,
+          "tuition": "4500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 32490,
+          "equivRank": 32490
+        },
+        {
+          "majorName": "动物医学",
+          "majorKey": "b3e5d67f",
+          "selKe": "物理和化学",
+          "plan": 3,
+          "tuition": "3600",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 31381,
+          "equivRank": 31381
+        }
+      ]
+    }
+  ]
+}

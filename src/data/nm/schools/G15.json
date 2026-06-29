@@ -1,0 +1,188 @@
+{
+  "code": "G15",
+  "name": "天水师范大学",
+  "leaves": [
+    {
+      "schoolCode": "G15",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 444,
+          "minRank": 47043,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "G15",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 518,
+          "minRank": 7846,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "G15",
+      "majorKey": "d061ae24",
+      "majorName": "地理科学",
+      "selKe": "物理,地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 453,
+          "minRank": 44142,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "G15",
+      "majorKey": "89d5a9a6",
+      "majorName": "文物保护技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 426,
+          "minRank": 52987,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "G15",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 523,
+          "minRank": 7312,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "G15",
+      "majorKey": "a6fe1434",
+      "majorName": "测绘工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 437,
+          "minRank": 49381,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "3800",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 7312,
+          "equivRank": 7312
+        },
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "3800",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 7846,
+          "equivRank": 7846
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 47043,
+          "equivRank": 47043
+        },
+        {
+          "majorName": "文物保护技术",
+          "majorKey": "89d5a9a6",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 52987,
+          "equivRank": 52987
+        },
+        {
+          "majorName": "测绘工程",
+          "majorKey": "a6fe1434",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "4400",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 49381,
+          "equivRank": 49381
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "004",
+      "track": "物理",
+      "selKe": "地理",
+      "majors": [
+        {
+          "majorName": "地理科学",
+          "majorKey": "d061ae24",
+          "selKe": "地理",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 44142,
+          "equivRank": 44142
+        }
+      ]
+    }
+  ]
+}

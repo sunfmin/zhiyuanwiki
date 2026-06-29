@@ -1,0 +1,76 @@
+{
+  "code": "3144",
+  "name": "上海海关学院",
+  "leaves": [
+    {
+      "schoolCode": "3144",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 500,
+          "minRank": 7185,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3144",
+      "majorKey": "c1e7d810",
+      "majorName": "海关稽查",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 565,
+          "minRank": 1887,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "144",
+      "groupName": "144",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "海关稽查",
+          "majorKey": "c1e7d810",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "6500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 1887,
+          "equivRank": 1887
+        }
+      ]
+    },
+    {
+      "groupCode": "501",
+      "groupName": "501",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "6500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 7185,
+          "equivRank": 7185
+        }
+      ]
+    }
+  ]
+}

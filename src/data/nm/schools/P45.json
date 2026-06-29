@@ -1,0 +1,154 @@
+{
+  "code": "P45",
+  "name": "深圳技术大学",
+  "leaves": [
+    {
+      "schoolCode": "P45",
+      "majorKey": "4c4c62eb",
+      "majorName": "国际商务",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 578,
+          "minRank": 2770,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "P45",
+      "majorKey": "42b22d93",
+      "majorName": "新能源科学与工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 600,
+          "minRank": 6349,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "P45",
+      "majorKey": "301e14e8",
+      "majorName": "机器人工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 601,
+          "minRank": 6184,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "P45",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 579,
+          "minRank": 2713,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "P45",
+      "majorKey": "13d3a878",
+      "majorName": "集成电路设计与集成系统",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 606,
+          "minRank": 5471,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "国际商务",
+          "majorKey": "4c4c62eb",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 2770,
+          "equivRank": 2770
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "6200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 2713,
+          "equivRank": 2713
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机器人工程",
+          "majorKey": "301e14e8",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 6184,
+          "equivRank": 6184
+        },
+        {
+          "majorName": "新能源科学与工程",
+          "majorKey": "42b22d93",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 6349,
+          "equivRank": 6349
+        },
+        {
+          "majorName": "集成电路设计与集成系统",
+          "majorKey": "13d3a878",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "6200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 5471,
+          "equivRank": 5471
+        }
+      ]
+    }
+  ]
+}

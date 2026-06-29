@@ -1,0 +1,170 @@
+{
+  "code": "1411",
+  "name": "吕梁学院",
+  "leaves": [
+    {
+      "schoolCode": "1411",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
+      "selKe": "历史必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 478,
+          "minRank": 43320,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1411",
+      "majorKey": "c6cedaad",
+      "majorName": "园林",
+      "selKe": "生物必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 476,
+          "minRank": 43852,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1411",
+      "majorKey": "6b32f2c4",
+      "majorName": "建筑学",
+      "selKe": "地理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 476,
+          "minRank": 43852,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1411",
+      "majorKey": "9c5f4a34",
+      "majorName": "新闻学",
+      "selKe": "历史必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 477,
+          "minRank": 43593,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1411",
+      "majorKey": "0c33cbdd",
+      "majorName": "软件工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 456,
+          "minRank": 48641,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "生物",
+      "majors": [
+        {
+          "majorName": "园林",
+          "majorKey": "c6cedaad",
+          "selKe": "生物",
+          "plan": 1,
+          "tuition": "4500",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 43852,
+          "equivRank": 43852
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "4950",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 43320,
+          "equivRank": 43320
+        },
+        {
+          "majorName": "新闻学",
+          "majorKey": "9c5f4a34",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "4950",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 43593,
+          "equivRank": 43593
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "地理",
+      "majors": [
+        {
+          "majorName": "建筑学",
+          "majorKey": "6b32f2c4",
+          "selKe": "地理",
+          "plan": 1,
+          "tuition": "5100",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 43852,
+          "equivRank": 43852
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5280",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 48641,
+          "equivRank": 48641
+        }
+      ]
+    }
+  ]
+}

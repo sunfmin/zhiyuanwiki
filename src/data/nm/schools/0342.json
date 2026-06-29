@@ -1,0 +1,189 @@
+{
+  "code": "0342",
+  "name": "闽南理工学院",
+  "leaves": [
+    {
+      "schoolCode": "0342",
+      "majorKey": "55e3bd26",
+      "majorName": "信息管理与信息系统",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 392,
+          "minRank": 63748,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0342",
+      "majorKey": "87f6e6a2",
+      "majorName": "审计学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 486,
+          "minRank": 11557,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 387,
+          "minRank": 65192,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0342",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 408,
+          "minRank": 58837,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0342",
+      "majorKey": "bda0ff17",
+      "majorName": "经济学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 452,
+          "minRank": 15938,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "27880",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 15938,
+          "equivRank": 15938
+        },
+        {
+          "majorName": "审计学",
+          "majorKey": "87f6e6a2",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "27880",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 11557,
+          "equivRank": 11557
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "26880",
+          "menlei": "工"
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "27880",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 58837,
+          "equivRank": 58837
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "27880",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "信息管理与信息系统",
+          "majorKey": "55e3bd26",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "26880",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 63748,
+          "equivRank": 63748
+        },
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "27880",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 15938,
+          "equivRank": 53097
+        },
+        {
+          "majorName": "金融工程",
+          "majorKey": "e6a89fa4",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "27880",
+          "menlei": "经"
+        },
+        {
+          "majorName": "审计学",
+          "majorKey": "87f6e6a2",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "27880",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 65192,
+          "equivRank": 65192
+        }
+      ]
+    }
+  ]
+}

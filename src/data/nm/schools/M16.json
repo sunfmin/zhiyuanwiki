@@ -1,0 +1,102 @@
+{
+  "code": "M16",
+  "name": "河北地质大学华信学院",
+  "leaves": [
+    {
+      "schoolCode": "M16",
+      "majorKey": "b74128f4",
+      "majorName": "工商管理类",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 467,
+          "minRank": 13946,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "M16",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 466,
+          "minRank": 14085,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "M16",
+      "majorKey": "8230723d",
+      "majorName": "计算机类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 418,
+          "minRank": 55623,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "19000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 14085,
+          "equivRank": 14085
+        },
+        {
+          "majorName": "工商管理类",
+          "majorKey": "b74128f4",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "19000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 13946,
+          "equivRank": 13946
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "计算机类",
+          "majorKey": "8230723d",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "21000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 55623,
+          "equivRank": 55623
+        }
+      ]
+    }
+  ]
+}

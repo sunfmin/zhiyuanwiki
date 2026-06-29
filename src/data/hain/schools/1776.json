@@ -1,0 +1,94 @@
+{
+  "code": "1776",
+  "name": "武汉商学院",
+  "leaves": [
+    {
+      "schoolCode": "1776",
+      "majorKey": "8742ced2",
+      "majorName": "烹饪与营养教育",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 553,
+          "minRank": 22684,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1776",
+      "majorKey": "7b7511cd",
+      "majorName": "食品科学与工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 549,
+          "minRank": 23760,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1776",
+      "majorKey": "63b95502",
+      "majorName": "食品质量与安全",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 541,
+          "minRank": 25879,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "烹饪与营养教育",
+          "majorKey": "8742ced2",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 22684,
+          "equivRank": 22684
+        },
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 23760,
+          "equivRank": 23760
+        },
+        {
+          "majorName": "食品质量与安全",
+          "majorKey": "63b95502",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 25879,
+          "equivRank": 25879
+        }
+      ]
+    }
+  ]
+}

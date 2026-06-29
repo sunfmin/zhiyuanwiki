@@ -1,0 +1,105 @@
+{
+  "code": "3335",
+  "name": "天津商业大学宝德学院",
+  "leaves": [
+    {
+      "schoolCode": "3335",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 481,
+          "minRank": 85345,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3335",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 461,
+          "minRank": 23022,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 478,
+          "minRank": 87828,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "15000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 23022,
+          "equivRank": 23022
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "18000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 85345,
+          "equivRank": 26769
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "15000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 87828,
+          "equivRank": 87828
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "18000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 85345,
+          "equivRank": 85345
+        }
+      ]
+    }
+  ]
+}

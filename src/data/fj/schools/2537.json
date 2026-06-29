@@ -1,0 +1,169 @@
+{
+  "code": "2537",
+  "name": "广州医科大学",
+  "leaves": [
+    {
+      "schoolCode": "2537",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 613,
+          "minRank": 8716,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2537",
+      "majorKey": "a507c400",
+      "majorName": "康复治疗学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 555,
+          "minRank": 32381,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2537",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 554,
+          "minRank": 32905,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2537",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 570,
+          "minRank": 24825,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2537",
+      "majorKey": "0ac1da59",
+      "majorName": "生物技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 568,
+          "minRank": 25776,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2537",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 576,
+          "minRank": 22059,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "生物技术",
+          "majorKey": "0ac1da59",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "6230",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 25776,
+          "equivRank": 25776
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "7656",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 22059,
+          "equivRank": 22059
+        },
+        {
+          "majorName": "康复治疗学",
+          "majorKey": "a507c400",
+          "selKe": "化学",
+          "plan": 7,
+          "tuition": "7656",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 32381,
+          "equivRank": 32381
+        },
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "6960",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 32905,
+          "equivRank": 32905
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "5510",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 24825,
+          "equivRank": 24825
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "code": "N65",
+  "name": "四川师范大学",
+  "leaves": [
+    {
+      "schoolCode": "N65",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "历史,政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 587,
+          "minRank": 2225,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "N65",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "历史,政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 588,
+          "minRank": 2165,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "000",
+      "groupName": "000",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "体育教育",
+          "majorKey": "d7e2a3c1",
+          "selKe": "不限",
+          "plan": 0,
+          "tuition": "5760",
+          "menlei": "教"
+        }
+      ]
+    },
+    {
+      "groupCode": "112",
+      "groupName": "112",
+      "track": "历史",
+      "selKe": "思想政治",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "思想政治",
+          "plan": 2,
+          "tuition": "5760",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 2165,
+          "equivRank": 2165
+        },
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "思想政治",
+          "plan": 2,
+          "tuition": "5760",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 2225,
+          "equivRank": 2225
+        }
+      ]
+    },
+    {
+      "groupCode": "000",
+      "groupName": "000",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "体育教育",
+          "majorKey": "d7e2a3c1",
+          "selKe": "不限",
+          "plan": 0,
+          "tuition": "5760",
+          "menlei": "教"
+        }
+      ]
+    }
+  ]
+}

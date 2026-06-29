@@ -1,0 +1,94 @@
+{
+  "code": "M03",
+  "name": "广州航海学院",
+  "leaves": [
+    {
+      "schoolCode": "M03",
+      "majorKey": "8f20480e",
+      "majorName": "航海技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 524,
+          "minRank": 23005,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "M03",
+      "majorKey": "d05a55f7",
+      "majorName": "船舶电子电气工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 518,
+          "minRank": 24701,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "M03",
+      "majorKey": "7115c029",
+      "majorName": "轮机工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 536,
+          "minRank": 19815,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "航海技术",
+          "majorKey": "8f20480e",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5190",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 23005,
+          "equivRank": 23005
+        },
+        {
+          "majorName": "轮机工程",
+          "majorKey": "7115c029",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5190",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 19815,
+          "equivRank": 19815
+        },
+        {
+          "majorName": "船舶电子电气工程",
+          "majorKey": "d05a55f7",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5190",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 24701,
+          "equivRank": 24701
+        }
+      ]
+    }
+  ]
+}

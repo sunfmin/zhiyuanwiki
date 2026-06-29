@@ -1,0 +1,98 @@
+{
+  "code": "0222",
+  "name": "北京理工大学",
+  "leaves": [
+    {
+      "schoolCode": "0222",
+      "majorKey": "b363aa3d",
+      "majorName": "工科试验班",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 580,
+          "minRank": 4096,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0222",
+      "majorKey": "54728189",
+      "majorName": "理科试验班",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 580,
+          "minRank": 4096,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "物理和化学",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 4096,
+          "equivRank": 4096
+        },
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 4096,
+          "equivRank": 4096
+        },
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "物理和化学",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 4096,
+          "equivRank": 4096
+        }
+      ]
+    },
+    {
+      "groupCode": "Q2",
+      "groupName": "Q2",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "理科试验班",
+          "majorKey": "54728189",
+          "selKe": "物理和化学",
+          "plan": 26,
+          "tuition": "5500",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 4096,
+          "equivRank": 4096
+        }
+      ]
+    }
+  ]
+}

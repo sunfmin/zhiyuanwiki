@@ -1,0 +1,94 @@
+{
+  "code": "0818",
+  "name": "北部湾大学",
+  "leaves": [
+    {
+      "schoolCode": "0818",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 435,
+          "minRank": 41932,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0818",
+      "majorKey": "1da18825",
+      "majorName": "物联网工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 432,
+          "minRank": 42668,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0818",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 433,
+          "minRank": 42400,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "物理和化学",
+          "plan": 1,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 41932,
+          "equivRank": 41932
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 42400,
+          "equivRank": 42400
+        },
+        {
+          "majorName": "物联网工程",
+          "majorKey": "1da18825",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 42668,
+          "equivRank": 42668
+        }
+      ]
+    }
+  ]
+}

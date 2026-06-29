@@ -1,0 +1,136 @@
+{
+  "code": "2434",
+  "name": "黑河学院",
+  "leaves": [
+    {
+      "schoolCode": "2434",
+      "majorKey": "d8f4c9ac",
+      "majorName": "光电信息科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 467,
+          "minRank": 78272,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2434",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 477,
+          "minRank": 23332,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2434",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 477,
+          "minRank": 23332,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2434",
+      "majorKey": "8b6a817b",
+      "majorName": "物流管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 454,
+          "minRank": 87803,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "3500",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 23332,
+          "equivRank": 23332
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 23332,
+          "equivRank": 23332
+        }
+      ]
+    },
+    {
+      "groupCode": "103",
+      "groupName": "103",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "物流管理",
+          "majorKey": "8b6a817b",
+          "selKe": "物理",
+          "plan": 4,
+          "tuition": "4000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 87803,
+          "equivRank": 87803
+        }
+      ]
+    },
+    {
+      "groupCode": "105",
+      "groupName": "105",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "光电信息科学与工程",
+          "majorKey": "d8f4c9ac",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 78272,
+          "equivRank": 78272
+        }
+      ]
+    }
+  ]
+}

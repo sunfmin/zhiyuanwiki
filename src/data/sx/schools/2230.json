@@ -1,0 +1,210 @@
+{
+  "code": "2230",
+  "name": "长春科技学院",
+  "leaves": [
+    {
+      "schoolCode": "2230",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 453,
+          "minRank": 30386,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 431,
+          "minRank": 104340,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2230",
+      "majorKey": "f9504a0c",
+      "majorName": "中药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 416,
+          "minRank": 114721,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2230",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 454,
+          "minRank": 30092,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2230",
+      "majorKey": "8230723d",
+      "majorName": "计算机类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 427,
+          "minRank": 107147,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2230",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 451,
+          "minRank": 90020,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "103",
+      "groupName": "103",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "39000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 30386,
+          "equivRank": 30386
+        },
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "26000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 30092,
+          "equivRank": 30092
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "27000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 90020,
+          "equivRank": 29806
+        },
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "27000",
+          "menlei": "经"
+        }
+      ]
+    },
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "中药学",
+          "majorKey": "f9504a0c",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "28000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 114721,
+          "equivRank": 114721
+        },
+        {
+          "majorName": "计算机类",
+          "majorKey": "8230723d",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "28000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 107147,
+          "equivRank": 107147
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "26000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 30092,
+          "equivRank": 90884
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "27000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 90020,
+          "equivRank": 90020
+        },
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "物理",
+          "plan": 12,
+          "tuition": "39000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 104340,
+          "equivRank": 104340
+        }
+      ]
+    }
+  ]
+}

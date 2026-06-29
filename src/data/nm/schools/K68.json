@@ -1,0 +1,94 @@
+{
+  "code": "K68",
+  "name": "成都医学院",
+  "leaves": [
+    {
+      "schoolCode": "K68",
+      "majorKey": "f9504a0c",
+      "majorName": "中药学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 503,
+          "minRank": 28901,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "K68",
+      "majorKey": "a507c400",
+      "majorName": "康复治疗学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 503,
+          "minRank": 28901,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "K68",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 506,
+          "minRank": 28078,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "康复治疗学",
+          "majorKey": "a507c400",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "6670",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 28901,
+          "equivRank": 28901
+        },
+        {
+          "majorName": "中药学",
+          "majorKey": "f9504a0c",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6670",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 28901,
+          "equivRank": 28901
+        },
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "6670",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 28078,
+          "equivRank": 28078
+        }
+      ]
+    }
+  ]
+}

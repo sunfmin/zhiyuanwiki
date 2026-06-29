@@ -1,0 +1,102 @@
+{
+  "code": "2249",
+  "name": "北京工商大学",
+  "leaves": [
+    {
+      "schoolCode": "2249",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 585,
+          "minRank": 2932,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2249",
+      "majorKey": "7faf2092",
+      "majorName": "环境工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 561,
+          "minRank": 29212,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2249",
+      "majorKey": "6e702db2",
+      "majorName": "食品科学与工程类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 570,
+          "minRank": 24825,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4200",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 2932,
+          "equivRank": 2932
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "环境工程",
+          "majorKey": "7faf2092",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 29212,
+          "equivRank": 29212
+        },
+        {
+          "majorName": "食品科学与工程类",
+          "majorKey": "6e702db2",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 24825,
+          "equivRank": 24825
+        }
+      ]
+    }
+  ]
+}

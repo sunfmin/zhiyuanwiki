@@ -1,0 +1,128 @@
+{
+  "code": "G59",
+  "name": "南京航空航天大学金城学院",
+  "leaves": [
+    {
+      "schoolCode": "G59",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 464,
+          "minRank": 14338,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "G59",
+      "majorKey": "da95770c",
+      "majorName": "自动化",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 480,
+          "minRank": 35726,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "G59",
+      "majorKey": "0c33cbdd",
+      "majorName": "软件工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 461,
+          "minRank": 41608,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "G59",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 467,
+          "minRank": 13946,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "004",
+      "groupName": "004",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 14338,
+          "equivRank": 14338
+        },
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 13946,
+          "equivRank": 13946
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "自动化",
+          "majorKey": "da95770c",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "20000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 35726,
+          "equivRank": 35726
+        },
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "20000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 41608,
+          "equivRank": 41608
+        }
+      ]
+    }
+  ]
+}

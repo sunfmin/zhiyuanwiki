@@ -1,0 +1,118 @@
+{
+  "code": "D69",
+  "name": "燕京理工学院",
+  "leaves": [
+    {
+      "schoolCode": "D69",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 479,
+          "minRank": 36015,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "D69",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 454,
+          "minRank": 15670,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "D69",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 439,
+          "minRank": 48647,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "20000",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 15670,
+          "equivRank": 15670
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "20000",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "22000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 48647,
+          "equivRank": 48647
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "20000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 36015,
+          "equivRank": 36015
+        }
+      ]
+    }
+  ]
+}

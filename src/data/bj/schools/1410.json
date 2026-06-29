@@ -1,0 +1,120 @@
+{
+  "code": "1410",
+  "name": "山西农业大学",
+  "leaves": [
+    {
+      "schoolCode": "1410",
+      "majorKey": "c10bcf22",
+      "majorName": "农学",
+      "selKe": "物、化、生(3科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 456,
+          "minRank": 48641,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1410",
+      "majorKey": "b3e5d67f",
+      "majorName": "动物医学",
+      "selKe": "物、化、生(3科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 481,
+          "minRank": 42535,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1410",
+      "majorKey": "e735f557",
+      "majorName": "园艺",
+      "selKe": "物、化、生(3科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 454,
+          "minRank": 49117,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1410",
+      "majorKey": "7b7511cd",
+      "majorName": "食品科学与工程",
+      "selKe": "物、化、生(3科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 467,
+          "minRank": 46071,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理,化学,生物",
+      "majors": [
+        {
+          "majorName": "动物医学",
+          "majorKey": "b3e5d67f",
+          "selKe": "物理,化学,生物",
+          "plan": 3,
+          "tuition": "4500",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 42535,
+          "equivRank": 42535
+        },
+        {
+          "majorName": "园艺",
+          "majorKey": "e735f557",
+          "selKe": "物理,化学,生物",
+          "plan": 3,
+          "tuition": "4500",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 49117,
+          "equivRank": 49117
+        },
+        {
+          "majorName": "农学",
+          "majorKey": "c10bcf22",
+          "selKe": "物理,化学,生物",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 48641,
+          "equivRank": 48641
+        },
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "物理,化学,生物",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 46071,
+          "equivRank": 46071
+        }
+      ]
+    }
+  ]
+}

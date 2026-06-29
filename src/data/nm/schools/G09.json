@@ -1,0 +1,68 @@
+{
+  "code": "G09",
+  "name": "福建医科大学",
+  "leaves": [
+    {
+      "schoolCode": "G09",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理,化学,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 542,
+          "minRank": 18326,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "G09",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "物理,化学,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 540,
+          "minRank": 18825,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学,生物学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学,生物学",
+          "plan": 2,
+          "tuition": "6760",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 18326,
+          "equivRank": 18326
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化学,生物学",
+          "plan": 1,
+          "tuition": "6760",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 18825,
+          "equivRank": 18825
+        }
+      ]
+    }
+  ]
+}

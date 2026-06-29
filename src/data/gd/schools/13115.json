@@ -1,0 +1,188 @@
+{
+  "code": "13115",
+  "name": "厦门工学院",
+  "leaves": [
+    {
+      "schoolCode": "13115",
+      "majorKey": "c8cc37b2",
+      "majorName": "传播学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 507,
+          "minRank": 52811,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "13115",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 481,
+          "minRank": 200035,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "13115",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 479,
+          "minRank": 203580,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "13115",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 512,
+          "minRank": 48883,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "13115",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 486,
+          "minRank": 191188,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "13115",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 475,
+          "minRank": 210860,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "206",
+      "groupName": "206",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "传播学",
+          "majorKey": "c8cc37b2",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "34000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 52811,
+          "equivRank": 52811
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "34000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 48883,
+          "equivRank": 48883
+        }
+      ]
+    },
+    {
+      "groupCode": "207",
+      "groupName": "207",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "37000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 200035,
+          "equivRank": 200035
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "41000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 210860,
+          "equivRank": 210860
+        }
+      ]
+    },
+    {
+      "groupCode": "208",
+      "groupName": "208",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "41000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 191188,
+          "equivRank": 191188
+        },
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "34000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 203580,
+          "equivRank": 203580
+        }
+      ]
+    }
+  ]
+}

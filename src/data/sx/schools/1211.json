@@ -1,0 +1,128 @@
+{
+  "code": "1211",
+  "name": "天津职业技术师范大学",
+  "leaves": [
+    {
+      "schoolCode": "1211",
+      "majorKey": "904549c4",
+      "majorName": "交通运输",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 494,
+          "minRank": 59202,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1211",
+      "majorKey": "e063e51a",
+      "majorName": "微电子科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 497,
+          "minRank": 57104,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1211",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 497,
+          "minRank": 57104,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1211",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 509,
+          "minRank": 15119,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "5400",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 15119,
+          "equivRank": 15119
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "交通运输",
+          "majorKey": "904549c4",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5400",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 59202,
+          "equivRank": 59202
+        },
+        {
+          "majorName": "微电子科学与工程",
+          "majorKey": "e063e51a",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5400",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 57104,
+          "equivRank": 57104
+        },
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5400",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 57104,
+          "equivRank": 57104
+        }
+      ]
+    }
+  ]
+}

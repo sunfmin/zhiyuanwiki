@@ -1,0 +1,128 @@
+{
+  "code": "B10",
+  "name": "湖南人文科技学院",
+  "leaves": [
+    {
+      "schoolCode": "B10",
+      "majorKey": "c425ce53",
+      "majorName": "材料科学与工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 449,
+          "minRank": 45369,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "B10",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 531,
+          "minRank": 6528,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 521,
+          "minRank": 23867,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "B10",
+      "majorKey": "da95770c",
+      "majorName": "自动化",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 459,
+          "minRank": 42207,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "待定",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 6528,
+          "equivRank": 6528
+        }
+      ]
+    },
+    {
+      "groupCode": "005",
+      "groupName": "005",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "待定",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 23867,
+          "equivRank": 23867
+        }
+      ]
+    },
+    {
+      "groupCode": "006",
+      "groupName": "006",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "自动化",
+          "majorKey": "da95770c",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "待定",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 42207,
+          "equivRank": 42207
+        },
+        {
+          "majorName": "材料科学与工程",
+          "majorKey": "c425ce53",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "待定",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 45369,
+          "equivRank": 45369
+        }
+      ]
+    }
+  ]
+}

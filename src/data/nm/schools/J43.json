@@ -1,0 +1,128 @@
+{
+  "code": "J43",
+  "name": "山东青年政治学院",
+  "leaves": [
+    {
+      "schoolCode": "J43",
+      "majorKey": "4ea26300",
+      "majorName": "广播电视学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 506,
+          "minRank": 9216,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "J43",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "历史,政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 523,
+          "minRank": 7312,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "J43",
+      "majorKey": "07a988ed",
+      "majorName": "政治学与行政学",
+      "selKe": "历史,政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 520,
+          "minRank": 7617,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "J43",
+      "majorKey": "fd907dda",
+      "majorName": "社会工作",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 503,
+          "minRank": 9554,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "思想政治",
+      "majors": [
+        {
+          "majorName": "政治学与行政学",
+          "majorKey": "07a988ed",
+          "selKe": "思想政治",
+          "plan": 5,
+          "tuition": "5060",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 7617,
+          "equivRank": 7617
+        },
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "思想政治",
+          "plan": 5,
+          "tuition": "4400",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 7312,
+          "equivRank": 7312
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "社会工作",
+          "majorKey": "fd907dda",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5280",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 9554,
+          "equivRank": 9554
+        },
+        {
+          "majorName": "广播电视学",
+          "majorKey": "4ea26300",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5280",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 9216,
+          "equivRank": 9216
+        }
+      ]
+    }
+  ]
+}

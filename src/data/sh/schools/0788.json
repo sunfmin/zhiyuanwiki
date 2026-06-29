@@ -1,0 +1,76 @@
+{
+  "code": "0788",
+  "name": "广东轻工职业技术大学",
+  "leaves": [
+    {
+      "schoolCode": "0788",
+      "majorKey": "50b3108e",
+      "majorName": "合成生物技术",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 419,
+          "minRank": 45675,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0788",
+      "majorKey": "a0f5df04",
+      "majorName": "现代物流管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 426,
+          "minRank": 44086,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "现代物流管理",
+          "majorKey": "a0f5df04",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "5250",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 44086,
+          "equivRank": 44086
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "合成生物技术",
+          "majorKey": "50b3108e",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "6410",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 45675,
+          "equivRank": 45675
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "code": "0059",
+  "name": "北京电子科技学院",
+  "leaves": [
+    {
+      "schoolCode": "0059",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 576,
+          "minRank": 4823,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0059",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 573,
+          "minRank": 5410,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 5410,
+          "equivRank": 5410
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "物理和化学",
+          "plan": 1,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 4823,
+          "equivRank": 4823
+        }
+      ]
+    }
+  ]
+}

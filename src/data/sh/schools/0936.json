@@ -1,0 +1,68 @@
+{
+  "code": "0936",
+  "name": "宝鸡文理学院",
+  "leaves": [
+    {
+      "schoolCode": "0936",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 433,
+          "minRank": 42400,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0936",
+      "majorKey": "3c2f7b8b",
+      "majorName": "外国语言文学类",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 431,
+          "minRank": 42899,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "外国语言文学类",
+          "majorKey": "3c2f7b8b",
+          "selKe": "不限科目",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 42899,
+          "equivRank": 42899
+        },
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "4250",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 42400,
+          "equivRank": 42400
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "code": "1118",
+  "name": "北京工业大学",
+  "leaves": [
+    {
+      "schoolCode": "1118",
+      "majorKey": "6b32f2c4",
+      "majorName": "建筑学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 513,
+          "minRank": 5750,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1118",
+      "majorKey": "b2ac374c",
+      "majorName": "材料类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 528,
+          "minRank": 4355,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1118",
+      "majorKey": "cb64b1e8",
+      "majorName": "环境科学与工程类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 512,
+          "minRank": 5853,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "118",
+      "groupName": "118",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "土木类",
+          "majorKey": "2ca5ff3e",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "501",
+      "groupName": "501",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "建筑学",
+          "majorKey": "6b32f2c4",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 5750,
+          "equivRank": 5750
+        },
+        {
+          "majorName": "材料类",
+          "majorKey": "b2ac374c",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 4355,
+          "equivRank": 4355
+        },
+        {
+          "majorName": "环境科学与工程类",
+          "majorKey": "cb64b1e8",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 5853,
+          "equivRank": 5853
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "code": "0440",
+  "name": "盐城工学院",
+  "leaves": [
+    {
+      "schoolCode": "0440",
+      "majorKey": "7201e1a9",
+      "majorName": "城市地下空间工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 438,
+          "minRank": 41209,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0440",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 441,
+          "minRank": 40472,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理和化学",
+          "plan": 3,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 40472,
+          "equivRank": 40472
+        },
+        {
+          "majorName": "城市地下空间工程",
+          "majorKey": "7201e1a9",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 41209,
+          "equivRank": 41209
+        }
+      ]
+    }
+  ]
+}

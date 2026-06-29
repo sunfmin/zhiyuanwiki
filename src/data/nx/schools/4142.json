@@ -1,0 +1,154 @@
+{
+  "code": "4142",
+  "name": "南阳师范学院",
+  "leaves": [
+    {
+      "schoolCode": "4142",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 427,
+          "minRank": 18910,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4142",
+      "majorKey": "25624660",
+      "majorName": "应用化学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 428,
+          "minRank": 18721,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4142",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "历史,政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 477,
+          "minRank": 3709,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4142",
+      "majorKey": "21d69fdd",
+      "majorName": "水质科学与技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 427,
+          "minRank": 18910,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4142",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 433,
+          "minRank": 17706,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "701",
+      "groupName": "701",
+      "track": "历史",
+      "selKe": "历史,政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "历史,政治",
+          "plan": 4,
+          "tuition": "4400",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 3709,
+          "equivRank": 3709
+        }
+      ]
+    },
+    {
+      "groupCode": "501",
+      "groupName": "501",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 18910,
+          "equivRank": 18910
+        },
+        {
+          "majorName": "水质科学与技术",
+          "majorKey": "21d69fdd",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 18910,
+          "equivRank": 18910
+        },
+        {
+          "majorName": "应用化学",
+          "majorKey": "25624660",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 18721,
+          "equivRank": 18721
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 17706,
+          "equivRank": 17706
+        }
+      ]
+    }
+  ]
+}

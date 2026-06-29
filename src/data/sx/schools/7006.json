@@ -1,0 +1,194 @@
+{
+  "code": "7006",
+  "name": "重庆师范大学",
+  "leaves": [
+    {
+      "schoolCode": "7006",
+      "majorKey": "da4cc459",
+      "majorName": "地理科学类",
+      "selKe": "首选物理，再选地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 511,
+          "minRank": 48210,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "7006",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 543,
+          "minRank": 8573,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "7006",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 555,
+          "minRank": 6803,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "7006",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 514,
+          "minRank": 46445,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "7006",
+      "majorKey": "0ac1da59",
+      "majorName": "生物技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 504,
+          "minRank": 52584,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "111",
+      "groupName": "111",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 5,
+          "tuition": "3100",
+          "menlei": "文"
+        },
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "3750",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 8573,
+          "equivRank": 8573
+        }
+      ]
+    },
+    {
+      "groupCode": "112",
+      "groupName": "112",
+      "track": "历史",
+      "selKe": "历史,政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "历史,政治",
+          "plan": 2,
+          "tuition": "3100",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 6803,
+          "equivRank": 6803
+        }
+      ]
+    },
+    {
+      "groupCode": "121",
+      "groupName": "121",
+      "track": "物理",
+      "selKe": "物理,地理",
+      "majors": [
+        {
+          "majorName": "地理科学类",
+          "majorKey": "da4cc459",
+          "selKe": "物理,地理",
+          "plan": 4,
+          "tuition": "5625",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 48210,
+          "equivRank": 48210
+        }
+      ]
+    },
+    {
+      "groupCode": "122",
+      "groupName": "122",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "生物技术",
+          "majorKey": "0ac1da59",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "5600",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 52584,
+          "equivRank": 52584
+        },
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "3750",
+          "menlei": "理"
+        }
+      ]
+    },
+    {
+      "groupCode": "123",
+      "groupName": "123",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "3750",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 46445,
+          "equivRank": 46445
+        }
+      ]
+    }
+  ]
+}

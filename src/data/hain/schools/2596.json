@@ -1,0 +1,202 @@
+{
+  "code": "2596",
+  "name": "云南民族大学",
+  "leaves": [
+    {
+      "schoolCode": "2596",
+      "majorKey": "eca12e7e",
+      "majorName": "民族学",
+      "selKe": "历史、地理(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 574,
+          "minRank": 17584,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2596",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "史、政、地(3科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 615,
+          "minRank": 9627,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2596",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "思想政治必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 622,
+          "minRank": 8546,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2596",
+      "majorKey": "bda0ff17",
+      "majorName": "经济学",
+      "selKe": "思想政治必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 615,
+          "minRank": 9627,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2596",
+      "majorKey": "1c1ee3f7",
+      "majorName": "通信工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 560,
+          "minRank": 20915,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4500",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5700",
+          "menlei": "理"
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 20915,
+          "equivRank": 20915
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "政治",
+          "plan": 3,
+          "tuition": "4500",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 8546,
+          "equivRank": 8546
+        },
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "政治",
+          "plan": 3,
+          "tuition": "4500",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 9627,
+          "equivRank": 9627
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "综合",
+      "selKe": "历史,地理",
+      "majors": [
+        {
+          "majorName": "民族学",
+          "majorKey": "eca12e7e",
+          "selKe": "历史,地理",
+          "plan": 3,
+          "tuition": "5100",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 17584,
+          "equivRank": 17584
+        }
+      ]
+    },
+    {
+      "groupCode": "05",
+      "groupName": "05",
+      "track": "综合",
+      "selKe": "政治,历史,地理",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "政治,历史,地理",
+          "plan": 3,
+          "tuition": "4200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 9627,
+          "equivRank": 9627
+        }
+      ]
+    }
+  ]
+}

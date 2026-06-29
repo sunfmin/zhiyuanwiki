@@ -1,0 +1,207 @@
+{
+  "code": "4311",
+  "name": "中南大学",
+  "leaves": [
+    {
+      "schoolCode": "4311",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物、化、生(3科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 646,
+          "minRank": 3712,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4311",
+      "majorKey": "4c6de685",
+      "majorName": "临床医学类",
+      "selKe": "物、化、生(3科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 622,
+          "minRank": 7440,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4311",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "物、化、生(3科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 629,
+          "minRank": 6251,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4311",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 639,
+          "minRank": 4674,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4311",
+      "majorKey": "b39b8034",
+      "majorName": "金融学类",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 631,
+          "minRank": 5919,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融学类",
+          "majorKey": "b39b8034",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "5500",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 5919,
+          "equivRank": 5919
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "材料类",
+          "majorKey": "b2ac374c",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "6500",
+          "menlei": "工"
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 4674,
+          "equivRank": 4674
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理,化学,生物",
+      "majors": [
+        {
+          "majorName": "临床医学类",
+          "majorKey": "4c6de685",
+          "selKe": "物理,化学,生物",
+          "plan": 6,
+          "tuition": "7800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 7440,
+          "equivRank": 7440
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "物理,化学,生物",
+          "plan": 2,
+          "tuition": "7800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 6251,
+          "equivRank": 6251
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "综合",
+      "selKe": "物理,化学,生物",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学,生物",
+          "plan": 6,
+          "tuition": "7800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 3712,
+          "equivRank": 3712
+        }
+      ]
+    },
+    {
+      "groupCode": "05",
+      "groupName": "05",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "69000",
+          "menlei": "理",
+          "coop": true
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "69000",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 4674,
+          "equivRank": 4674
+        }
+      ]
+    }
+  ]
+}

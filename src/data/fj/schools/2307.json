@@ -1,0 +1,269 @@
+{
+  "code": "2307",
+  "name": "滨州医学院",
+  "leaves": [
+    {
+      "schoolCode": "2307",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 528,
+          "minRank": 48837,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2307",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 529,
+          "minRank": 48168,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2307",
+      "majorKey": "4fa2a9fc",
+      "majorName": "健康服务与管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 484,
+          "minRank": 17924,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2307",
+      "majorKey": "30e8a552",
+      "majorName": "公共事业管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 485,
+          "minRank": 17700,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2307",
+      "majorKey": "10433b46",
+      "majorName": "听力与言语康复学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 514,
+          "minRank": 58785,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2307",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 519,
+          "minRank": 55133,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2307",
+      "majorKey": "11a5a631",
+      "majorName": "智能医学工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 514,
+          "minRank": 58785,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2307",
+      "majorKey": "e0d708da",
+      "majorName": "特殊教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 493,
+          "minRank": 16064,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2307",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 517,
+          "minRank": 56618,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "特殊教育",
+          "majorKey": "e0d708da",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5060",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 16064,
+          "equivRank": 16064
+        },
+        {
+          "majorName": "公共事业管理",
+          "majorKey": "30e8a552",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "6325",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 17700,
+          "equivRank": 17700
+        },
+        {
+          "majorName": "健康服务与管理",
+          "majorKey": "4fa2a9fc",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 17924,
+          "equivRank": 17924
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "7920",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 48168,
+          "equivRank": 48168
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "7920",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 48168,
+          "equivRank": 48168
+        },
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "7920",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 48837,
+          "equivRank": 48837
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "7590",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 56618,
+          "equivRank": 56618
+        },
+        {
+          "majorName": "听力与言语康复学",
+          "majorKey": "10433b46",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "7590",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 58785,
+          "equivRank": 58785
+        },
+        {
+          "majorName": "智能医学工程",
+          "majorKey": "11a5a631",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6600",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 58785,
+          "equivRank": 58785
+        },
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "7920",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 55133,
+          "equivRank": 55133
+        }
+      ]
+    }
+  ]
+}

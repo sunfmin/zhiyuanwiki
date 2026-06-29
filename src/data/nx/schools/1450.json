@@ -1,0 +1,94 @@
+{
+  "code": "1450",
+  "name": "山西医药学院",
+  "leaves": [
+    {
+      "schoolCode": "1450",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 431,
+          "minRank": 18072,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1450",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 429,
+          "minRank": 18498,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1450",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 433,
+          "minRank": 17706,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "501",
+      "groupName": "501",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 6,
+          "tuition": "5480",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 18072,
+          "equivRank": 18072
+        },
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 18498,
+          "equivRank": 18498
+        },
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 17706,
+          "equivRank": 17706
+        }
+      ]
+    }
+  ]
+}

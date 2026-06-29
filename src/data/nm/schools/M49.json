@@ -1,0 +1,76 @@
+{
+  "code": "M49",
+  "name": "普洱学院",
+  "leaves": [
+    {
+      "schoolCode": "M49",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
+      "selKe": "历史,政治,地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 486,
+          "minRank": 11557,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "M49",
+      "majorKey": "63b95502",
+      "majorName": "食品质量与安全",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 424,
+          "minRank": 53661,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "007",
+      "groupName": "007",
+      "track": "历史",
+      "selKe": "思想政治,地理",
+      "majors": [
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "思想政治,地理",
+          "plan": 5,
+          "tuition": "4200",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 11557,
+          "equivRank": 11557
+        }
+      ]
+    },
+    {
+      "groupCode": "010",
+      "groupName": "010",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "食品质量与安全",
+          "majorKey": "63b95502",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 53661,
+          "equivRank": 53661
+        }
+      ]
+    }
+  ]
+}

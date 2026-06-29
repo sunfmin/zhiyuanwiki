@@ -1,0 +1,136 @@
+{
+  "code": "C28",
+  "name": "兰州文理学院",
+  "leaves": [
+    {
+      "schoolCode": "C28",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 463,
+          "minRank": 40959,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "C28",
+      "majorKey": "9c5f4a34",
+      "majorName": "新闻学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 499,
+          "minRank": 10001,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "C28",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 469,
+          "minRank": 39041,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "C28",
+      "majorKey": "eff7d0aa",
+      "majorName": "非物质文化遗产保护",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 481,
+          "minRank": 12211,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "非物质文化遗产保护",
+          "majorKey": "eff7d0aa",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "待定",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 12211,
+          "equivRank": 12211
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "新闻学",
+          "majorKey": "9c5f4a34",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "待定",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 10001,
+          "equivRank": 10001
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "004",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "待定",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 39041,
+          "equivRank": 39041
+        },
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "待定",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 40959,
+          "equivRank": 40959
+        }
+      ]
+    }
+  ]
+}

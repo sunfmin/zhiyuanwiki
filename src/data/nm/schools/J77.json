@@ -1,0 +1,214 @@
+{
+  "code": "J77",
+  "name": "外交学院",
+  "leaves": [
+    {
+      "schoolCode": "J77",
+      "majorKey": "df0f6208",
+      "majorName": "外交学",
+      "selKe": "历史,政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 627,
+          "minRank": 585,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 605,
+          "minRank": 5599,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "J77",
+      "majorKey": "8f1def37",
+      "majorName": "日语",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 615,
+          "minRank": 963,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "J77",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 625,
+          "minRank": 643,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 631,
+          "minRank": 2516,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "J77",
+      "majorKey": "8f1501ac",
+      "majorName": "翻译",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 623,
+          "minRank": 693,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "J77",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 624,
+          "minRank": 674,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "思想政治",
+      "majors": [
+        {
+          "majorName": "外交学",
+          "majorKey": "df0f6208",
+          "selKe": "思想政治",
+          "plan": 4,
+          "tuition": "5000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 585,
+          "equivRank": 585
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 674,
+          "equivRank": 674
+        },
+        {
+          "majorName": "翻译",
+          "majorKey": "8f1501ac",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 693,
+          "equivRank": 693
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "日语",
+          "majorKey": "8f1def37",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 963,
+          "equivRank": 963
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 643,
+          "equivRank": 643
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "004",
+      "track": "物理",
+      "selKe": "思想政治",
+      "majors": [
+        {
+          "majorName": "外交学",
+          "majorKey": "df0f6208",
+          "selKe": "思想政治",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 5599,
+          "equivRank": 5599
+        }
+      ]
+    },
+    {
+      "groupCode": "005",
+      "groupName": "005",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 2516,
+          "equivRank": 2516
+        }
+      ]
+    }
+  ]
+}

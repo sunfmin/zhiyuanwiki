@@ -101,6 +101,24 @@ func TestParsePlanMajorColAndUnitSuffix(t *testing.T) {
 	}
 }
 
+// TestParseScoresZonghe 覆盖 3+3「综合+院校专业组」省（北京/上海/海南）：科类「综合」须被 keep 放行，
+// 且 score 组列名可为「专业组代码」（上海，无「所属专业组」列）。
+func TestParseScoresZonghe(t *testing.T) {
+	header := []string{"年份", "院校名称", "院校代码", "科类", "批次", "专业", "专业组代码", "选科要求", "最低分数", "最低位次"}
+	rows := [][]string{
+		header,
+		{"2025", "复旦大学", "3001", "综合", "本科批", "经济学类", "01", "物理", "580", "1200"},
+		{"2025", "某校", "9999", "理科", "本科批", "X", "02", "", "500", "8000"}, // 老文理 理科 → 丢
+	}
+	got := parseScores(sheet(t, rows, scoreHeader))
+	if len(got) != 1 {
+		t.Fatalf("want 1 行（仅综合），got %d: %+v", len(got), got)
+	}
+	if got[0].Track != "综合" || got[0].GroupCode != "01" {
+		t.Errorf("综合/专业组代码列解析错误: %+v", got[0])
+	}
+}
+
 func TestParseYiFenYiDuan(t *testing.T) {
 	header := []string{"年份", "科类", "批次", "控制线(分)", "分数(分)", "本段人数(人)", "累计人数(人)"}
 	rows := [][]string{

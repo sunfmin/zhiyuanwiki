@@ -1,0 +1,94 @@
+{
+  "code": "0479",
+  "name": "徐州医科大学",
+  "leaves": [
+    {
+      "schoolCode": "0479",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 529,
+          "minRank": 16109,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0479",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 466,
+          "minRank": 33926,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0479",
+      "majorKey": "83eea431",
+      "majorName": "麻醉学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 535,
+          "minRank": 14414,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "6800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 33926,
+          "equivRank": 33926
+        },
+        {
+          "majorName": "麻醉学",
+          "majorKey": "83eea431",
+          "selKe": "物理和化学",
+          "plan": 3,
+          "tuition": "7480",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 14414,
+          "equivRank": 14414
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理和化学",
+          "plan": 5,
+          "tuition": "7480",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 16109,
+          "equivRank": 16109
+        }
+      ]
+    }
+  ]
+}

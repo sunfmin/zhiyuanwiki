@@ -1,0 +1,102 @@
+{
+  "code": "16208",
+  "name": "兰州资源环境职业技术大学",
+  "leaves": [
+    {
+      "schoolCode": "16208",
+      "majorKey": "db1036d4",
+      "majorName": "信息安全与管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 493,
+          "minRank": 178420,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "16208",
+      "majorKey": "520cb6d7",
+      "majorName": "智慧气象技术",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 502,
+          "minRank": 162034,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "16208",
+      "majorKey": "f32109ff",
+      "majorName": "集成电路工程技术",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 496,
+          "minRank": 173027,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "203",
+      "groupName": "203",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "智慧气象技术",
+          "majorKey": "520cb6d7",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 162034,
+          "equivRank": 162034
+        },
+        {
+          "majorName": "信息安全与管理",
+          "majorKey": "db1036d4",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "6500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 178420,
+          "equivRank": 178420
+        }
+      ]
+    },
+    {
+      "groupCode": "204",
+      "groupName": "204",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "集成电路工程技术",
+          "majorKey": "f32109ff",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "6500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 173027,
+          "equivRank": 173027
+        }
+      ]
+    }
+  ]
+}

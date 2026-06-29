@@ -1,0 +1,68 @@
+{
+  "code": "0005",
+  "name": "北京工业大学",
+  "leaves": [
+    {
+      "schoolCode": "0005",
+      "majorKey": "b2ac374c",
+      "majorName": "材料类",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 690,
+          "minRank": 2229,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0005",
+      "majorKey": "0c33cbdd",
+      "majorName": "软件工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 698,
+          "minRank": 1853,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "材料类",
+          "majorKey": "b2ac374c",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 2229,
+          "equivRank": 2229
+        },
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 1853,
+          "equivRank": 1853
+        }
+      ]
+    }
+  ]
+}

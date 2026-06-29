@@ -1,0 +1,154 @@
+{
+  "code": "0035",
+  "name": "上海公安学院",
+  "leaves": [
+    {
+      "schoolCode": "0035",
+      "majorKey": "39f460ad",
+      "majorName": "侦查学",
+      "selKe": "政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 498,
+          "minRank": 24798,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0035",
+      "majorKey": "f4acab56",
+      "majorName": "刑事科学技术",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 507,
+          "minRank": 22221,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0035",
+      "majorKey": "39094c4c",
+      "majorName": "治安学",
+      "selKe": "政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 410,
+          "minRank": 47630,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0035",
+      "majorKey": "47d4d9c0",
+      "majorName": "网络安全与执法",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 519,
+          "minRank": 18844,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0035",
+      "majorKey": "0616cd11",
+      "majorName": "警务指挥与战术",
+      "selKe": "政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 405,
+          "minRank": 48663,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "治安学",
+          "majorKey": "39094c4c",
+          "selKe": "政治",
+          "plan": 242,
+          "tuition": "6500",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 47630,
+          "equivRank": 47630
+        },
+        {
+          "majorName": "警务指挥与战术",
+          "majorKey": "0616cd11",
+          "selKe": "政治",
+          "plan": 80,
+          "tuition": "6500",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 48663,
+          "equivRank": 48663
+        },
+        {
+          "majorName": "侦查学",
+          "majorKey": "39f460ad",
+          "selKe": "政治",
+          "plan": 109,
+          "tuition": "6500",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 24798,
+          "equivRank": 24798
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "刑事科学技术",
+          "majorKey": "f4acab56",
+          "selKe": "物理和化学",
+          "plan": 159,
+          "tuition": "7000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 22221,
+          "equivRank": 22221
+        },
+        {
+          "majorName": "网络安全与执法",
+          "majorKey": "47d4d9c0",
+          "selKe": "物理和化学",
+          "plan": 208,
+          "tuition": "7000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 18844,
+          "equivRank": 18844
+        }
+      ]
+    }
+  ]
+}

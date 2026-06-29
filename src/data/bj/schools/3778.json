@@ -1,0 +1,102 @@
+{
+  "code": "3778",
+  "name": "齐鲁医药学院",
+  "leaves": [
+    {
+      "schoolCode": "3778",
+      "majorKey": "11fef64a",
+      "majorName": "医学影像技术",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 505,
+          "minRank": 36194,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3778",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 491,
+          "minRank": 39912,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3778",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "化学必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 498,
+          "minRank": 38082,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "19000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 38082,
+          "equivRank": 38082
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "医学影像技术",
+          "majorKey": "11fef64a",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "20800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 36194,
+          "equivRank": 36194
+        },
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "20800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 39912,
+          "equivRank": 39912
+        }
+      ]
+    }
+  ]
+}

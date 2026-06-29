@@ -1,0 +1,178 @@
+{
+  "code": "10634",
+  "name": "川北医学院",
+  "leaves": [
+    {
+      "schoolCode": "10634",
+      "majorKey": "8a499b4f",
+      "majorName": "中西医临床医学",
+      "selKe": "首选物理，再选生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 545,
+          "minRank": 89210,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10634",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 559,
+          "minRank": 69414,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10634",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选历史，再选生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 536,
+          "minRank": 32474,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10634",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 521,
+          "minRank": 42415,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10634",
+      "majorKey": "047778fd",
+      "majorName": "运动康复",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 521,
+          "minRank": 128291,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "206",
+      "groupName": "206",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5520",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 42415,
+          "equivRank": 42415
+        }
+      ]
+    },
+    {
+      "groupCode": "207",
+      "groupName": "207",
+      "track": "历史",
+      "selKe": "生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物",
+          "plan": 5,
+          "tuition": "6670",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 32474,
+          "equivRank": 32474
+        }
+      ]
+    },
+    {
+      "groupCode": "208",
+      "groupName": "208",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "运动康复",
+          "majorKey": "047778fd",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5520",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 128291,
+          "equivRank": 128291
+        }
+      ]
+    },
+    {
+      "groupCode": "209",
+      "groupName": "209",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 10,
+          "tuition": "6670",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 69414,
+          "equivRank": 69414
+        }
+      ]
+    },
+    {
+      "groupCode": "210",
+      "groupName": "210",
+      "track": "物理",
+      "selKe": "生物",
+      "majors": [
+        {
+          "majorName": "中西医临床医学",
+          "majorKey": "8a499b4f",
+          "selKe": "生物",
+          "plan": 5,
+          "tuition": "6670",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 89210,
+          "equivRank": 89210
+        }
+      ]
+    }
+  ]
+}

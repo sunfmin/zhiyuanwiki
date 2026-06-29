@@ -1,0 +1,128 @@
+{
+  "code": "2238",
+  "name": "长春建筑学院",
+  "leaves": [
+    {
+      "schoolCode": "2238",
+      "majorKey": "2a1f2fe5",
+      "majorName": "城乡规划",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 452,
+          "minRank": 49558,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2238",
+      "majorKey": "6b32f2c4",
+      "majorName": "建筑学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 459,
+          "minRank": 47999,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2238",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 416,
+          "minRank": 56225,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2238",
+      "majorKey": "1da18825",
+      "majorName": "物联网工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 423,
+          "minRank": 55188,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "城乡规划",
+          "majorKey": "2a1f2fe5",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "26000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 49558,
+          "equivRank": 49558
+        },
+        {
+          "majorName": "建筑学",
+          "majorKey": "6b32f2c4",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "26000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 47999,
+          "equivRank": 47999
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "25000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 56225,
+          "equivRank": 56225
+        },
+        {
+          "majorName": "物联网工程",
+          "majorKey": "1da18825",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "25000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 55188,
+          "equivRank": 55188
+        }
+      ]
+    }
+  ]
+}

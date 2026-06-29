@@ -1,0 +1,128 @@
+{
+  "code": "13279",
+  "name": "杭州电子科技大学信息工程学院",
+  "leaves": [
+    {
+      "schoolCode": "13279",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 510,
+          "minRank": 147555,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "13279",
+      "majorKey": "5e0efed0",
+      "majorName": "电子信息类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 514,
+          "minRank": 140399,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "13279",
+      "majorKey": "78bffed9",
+      "majorName": "管理科学与工程类",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 499,
+          "minRank": 167481,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "13279",
+      "majorKey": "8230723d",
+      "majorName": "计算机类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 513,
+          "minRank": 142207,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "203",
+      "groupName": "203",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "管理科学与工程类",
+          "majorKey": "78bffed9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 167481,
+          "equivRank": 167481
+        }
+      ]
+    },
+    {
+      "groupCode": "204",
+      "groupName": "204",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "计算机类",
+          "majorKey": "8230723d",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "27750",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 142207,
+          "equivRank": 142207
+        },
+        {
+          "majorName": "电子信息类",
+          "majorKey": "5e0efed0",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "27750",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 140399,
+          "equivRank": 140399
+        },
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "27750",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 147555,
+          "equivRank": 147555
+        }
+      ]
+    }
+  ]
+}

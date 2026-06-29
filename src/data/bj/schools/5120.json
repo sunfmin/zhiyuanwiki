@@ -1,0 +1,128 @@
+{
+  "code": "5120",
+  "name": "西南民族大学",
+  "leaves": [
+    {
+      "schoolCode": "5120",
+      "majorKey": "59687759",
+      "majorName": "应用心理学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 522,
+          "minRank": 31656,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 524,
+          "minRank": 31126,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "b54c1697",
+      "majorName": "网络工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 495,
+          "minRank": 38893,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5120",
+      "majorKey": "6e702db2",
+      "majorName": "食品科学与工程类",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 493,
+          "minRank": 39384,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "应用心理学",
+          "majorKey": "59687759",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "6240",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 31656,
+          "equivRank": 31656
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5760",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 31126,
+          "equivRank": 31126
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "网络工程",
+          "majorKey": "b54c1697",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6240",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 38893,
+          "equivRank": 38893
+        },
+        {
+          "majorName": "食品科学与工程类",
+          "majorKey": "6e702db2",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6240",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 39384,
+          "equivRank": 39384
+        }
+      ]
+    }
+  ]
+}

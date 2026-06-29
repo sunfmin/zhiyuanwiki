@@ -1,0 +1,128 @@
+{
+  "code": "10908",
+  "name": "山东工艺美术学院",
+  "leaves": [
+    {
+      "schoolCode": "10908",
+      "majorKey": "2b84bf15",
+      "majorName": "家具设计与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 511,
+          "minRank": 145773,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10908",
+      "majorKey": "fee47c1b",
+      "majorName": "工业设计",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 519,
+          "minRank": 131773,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10908",
+      "majorKey": "7a929633",
+      "majorName": "文化产业管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 518,
+          "minRank": 44553,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10908",
+      "majorKey": "e231c3a1",
+      "majorName": "智能交互设计",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 511,
+          "minRank": 145773,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "204",
+      "groupName": "204",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "文化产业管理",
+          "majorKey": "7a929633",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "8000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 44553,
+          "equivRank": 44553
+        }
+      ]
+    },
+    {
+      "groupCode": "205",
+      "groupName": "205",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "家具设计与工程",
+          "majorKey": "2b84bf15",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "9000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 145773,
+          "equivRank": 145773
+        },
+        {
+          "majorName": "工业设计",
+          "majorKey": "fee47c1b",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "9000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 131773,
+          "equivRank": 131773
+        },
+        {
+          "majorName": "智能交互设计",
+          "majorKey": "e231c3a1",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "9000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 145773,
+          "equivRank": 145773
+        }
+      ]
+    }
+  ]
+}

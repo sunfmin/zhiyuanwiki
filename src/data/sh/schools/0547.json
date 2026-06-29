@@ -1,0 +1,68 @@
+{
+  "code": "0547",
+  "name": "安徽中医药大学",
+  "leaves": [
+    {
+      "schoolCode": "0547",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 533,
+          "minRank": 14978,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0547",
+      "majorKey": "c744f66e",
+      "majorName": "针灸推拿学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 537,
+          "minRank": 13876,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "针灸推拿学",
+          "majorKey": "c744f66e",
+          "selKe": "不限科目",
+          "plan": 1,
+          "tuition": "6325",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 13876,
+          "equivRank": 13876
+        },
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "不限科目",
+          "plan": 1,
+          "tuition": "6325",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 14978,
+          "equivRank": 14978
+        }
+      ]
+    }
+  ]
+}

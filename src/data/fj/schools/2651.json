@@ -1,0 +1,206 @@
+{
+  "code": "2651",
+  "name": "河北传媒学院",
+  "leaves": [
+    {
+      "schoolCode": "2651",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 475,
+          "minRank": 90360,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2651",
+      "majorKey": "7a929633",
+      "majorName": "文化产业管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 458,
+          "minRank": 23671,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2651",
+      "majorKey": "416fa48b",
+      "majorName": "智能工程与创意设计",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 471,
+          "minRank": 93819,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2651",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 466,
+          "minRank": 21897,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2651",
+      "majorKey": "fff04889",
+      "majorName": "网络与新媒体",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 465,
+          "minRank": 22150,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2651",
+      "majorKey": "b54c1697",
+      "majorName": "网络工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 471,
+          "minRank": 93819,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2651",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 458,
+          "minRank": 23671,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "16000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 21897,
+          "equivRank": 21897
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "16000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 23671,
+          "equivRank": 23671
+        },
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "16000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 22150,
+          "equivRank": 22150
+        },
+        {
+          "majorName": "文化产业管理",
+          "majorKey": "7a929633",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "16000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 23671,
+          "equivRank": 23671
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "18000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 90360,
+          "equivRank": 90360
+        },
+        {
+          "majorName": "智能工程与创意设计",
+          "majorKey": "416fa48b",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 93819,
+          "equivRank": 93819
+        },
+        {
+          "majorName": "网络工程",
+          "majorKey": "b54c1697",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 93819,
+          "equivRank": 93819
+        }
+      ]
+    }
+  ]
+}

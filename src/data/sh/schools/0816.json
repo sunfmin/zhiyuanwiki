@@ -1,0 +1,68 @@
+{
+  "code": "0816",
+  "name": "河池学院",
+  "leaves": [
+    {
+      "schoolCode": "0816",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 416,
+          "minRank": 46346,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0816",
+      "majorKey": "28bd788f",
+      "majorName": "制药工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 412,
+          "minRank": 47200,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "制药工程",
+          "majorKey": "28bd788f",
+          "selKe": "物理和化学",
+          "plan": 3,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 47200,
+          "equivRank": 47200
+        },
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 46346,
+          "equivRank": 46346
+        }
+      ]
+    }
+  ]
+}

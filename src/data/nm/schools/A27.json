@@ -1,0 +1,94 @@
+{
+  "code": "A27",
+  "name": "辽宁中医药大学",
+  "leaves": [
+    {
+      "schoolCode": "A27",
+      "majorKey": "fba2c77b",
+      "majorName": "中药制药",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 517,
+          "minRank": 24966,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "A27",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 522,
+          "minRank": 23579,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "A27",
+      "majorKey": "dc8e7679",
+      "majorName": "药物制剂",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 515,
+          "minRank": 25519,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 23579,
+          "equivRank": 23579
+        },
+        {
+          "majorName": "中药制药",
+          "majorKey": "fba2c77b",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 24966,
+          "equivRank": 24966
+        },
+        {
+          "majorName": "药物制剂",
+          "majorKey": "dc8e7679",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 25519,
+          "equivRank": 25519
+        }
+      ]
+    }
+  ]
+}

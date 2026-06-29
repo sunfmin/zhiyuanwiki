@@ -1,0 +1,188 @@
+{
+  "code": "2328",
+  "name": "长春光华学院",
+  "leaves": [
+    {
+      "schoolCode": "2328",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 457,
+          "minRank": 105800,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2328",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 457,
+          "minRank": 105800,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2328",
+      "majorKey": "301e14e8",
+      "majorName": "机器人工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 448,
+          "minRank": 113439,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2328",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 448,
+          "minRank": 113439,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2328",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 453,
+          "minRank": 24878,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2328",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 449,
+          "minRank": 112582,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "25000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 24878,
+          "equivRank": 24878
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "25000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 113439,
+          "equivRank": 113439
+        },
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "25000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 105800,
+          "equivRank": 105800
+        },
+        {
+          "majorName": "机器人工程",
+          "majorKey": "301e14e8",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "25000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 113439,
+          "equivRank": 113439
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "25000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 112582,
+          "equivRank": 112582
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "26000",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 105800,
+          "equivRank": 105800
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "code": "3230",
+  "name": "江苏科技大学",
+  "leaves": [
+    {
+      "schoolCode": "3230",
+      "majorKey": "25624660",
+      "majorName": "应用化学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 520,
+          "minRank": 32178,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3230",
+      "majorKey": "858abf76",
+      "majorName": "水声工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 541,
+          "minRank": 26477,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3230",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 513,
+          "minRank": 33999,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3230",
+      "majorKey": "0767d6ce",
+      "majorName": "蚕学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 492,
+          "minRank": 39647,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 33999,
+          "equivRank": 33999
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "水声工程",
+          "majorKey": "858abf76",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 26477,
+          "equivRank": 26477
+        },
+        {
+          "majorName": "蚕学",
+          "majorKey": "0767d6ce",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "2500",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 39647,
+          "equivRank": 39647
+        },
+        {
+          "majorName": "应用化学",
+          "majorKey": "25624660",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 32178,
+          "equivRank": 32178
+        }
+      ]
+    }
+  ]
+}

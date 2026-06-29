@@ -31,6 +31,17 @@ var provinces = map[string]province{
 	"hb":    {slug: "hb", name: "湖北", tracks: []string{"物理", "历史"}, model: "group"},
 	"yn":    {slug: "yn", name: "云南", tracks: []string{"物理", "历史"}, model: "group"},
 	"henan": {slug: "henan", name: "河南", tracks: []string{"物理", "历史"}, model: "group"},
+	// 陕西：与四川同形，直接复用 group3p12。
+	"sx": {slug: "sx", name: "陕西", tracks: []string{"物理", "历史"}, model: "group"},
+	// 综合(3+3)+院校专业组：北京/上海/海南 单科类「综合」、仍走 group 模型（有真实院校专业组）。
+	"bj":   {slug: "bj", name: "北京", tracks: []string{"综合"}, model: "group"},
+	"sh":   {slug: "sh", name: "上海", tracks: []string{"综合"}, model: "group"},
+	"hain": {slug: "hain", name: "海南", tracks: []string{"综合"}, model: "group"},
+	// 物理/历史 group（分数/计划文件名异常，靠 ScoreMust/PlanMust 精确指向 2025 文件）。
+	"nm": {slug: "nm", name: "内蒙古", tracks: []string{"物理", "历史"}, model: "group"},
+	"gd": {slug: "gd", name: "广东", tracks: []string{"物理", "历史"}, model: "group"},
+	"fj": {slug: "fj", name: "福建", tracks: []string{"物理", "历史"}, model: "group"},
+	"nx": {slug: "nx", name: "宁夏", tracks: []string{"物理", "历史"}, model: "group"},
 }
 
 // trackSlug 把科类名映射成 ascii 文件名片段（定位索引/一分一段文件名）。

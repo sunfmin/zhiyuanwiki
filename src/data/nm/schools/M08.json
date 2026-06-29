@@ -1,0 +1,102 @@
+{
+  "code": "M08",
+  "name": "江西工程学院",
+  "leaves": [
+    {
+      "schoolCode": "M08",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 422,
+          "minRank": 54269,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "M08",
+      "majorKey": "fff04889",
+      "majorName": "网络与新媒体",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 455,
+          "minRank": 15526,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "M08",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 415,
+          "minRank": 56591,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "004",
+      "groupName": "004",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 15526,
+          "equivRank": 15526
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 54269,
+          "equivRank": 54269
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "18000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 56591,
+          "equivRank": 56591
+        }
+      ]
+    }
+  ]
+}

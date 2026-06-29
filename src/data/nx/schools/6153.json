@@ -1,0 +1,222 @@
+{
+  "code": "6153",
+  "name": "西京学院",
+  "leaves": [
+    {
+      "schoolCode": "6153",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 427,
+          "minRank": 7355,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 418,
+          "minRank": 20720,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6153",
+      "majorKey": "7e3b067d",
+      "majorName": "城市管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 431,
+          "minRank": 6994,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6153",
+      "majorKey": "2079a63e",
+      "majorName": "大数据管理与应用",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 404,
+          "minRank": 23603,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6153",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 416,
+          "minRank": 21119,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6153",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 417,
+          "minRank": 20929,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6153",
+      "majorKey": "683be8da",
+      "majorName": "金融科技",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 409,
+          "minRank": 22577,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "28600",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 7355,
+          "equivRank": 7355
+        },
+        {
+          "majorName": "城市管理",
+          "majorKey": "7e3b067d",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "26400",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 6994,
+          "equivRank": 6994
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "28600",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 20720,
+          "equivRank": 20720
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "大数据管理与应用",
+          "majorKey": "2079a63e",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "26400",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 23603,
+          "equivRank": 23603
+        },
+        {
+          "majorName": "金融科技",
+          "majorKey": "683be8da",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "26400",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 22577,
+          "equivRank": 22577
+        }
+      ]
+    },
+    {
+      "groupCode": "503",
+      "groupName": "503",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "28600",
+          "menlei": "工"
+        },
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "28600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 21119,
+          "equivRank": 21119
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "28600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 20929,
+          "equivRank": 20929
+        }
+      ]
+    }
+  ]
+}

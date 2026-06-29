@@ -1,0 +1,147 @@
+{
+  "code": "6220",
+  "name": "甘肃政法大学",
+  "leaves": [
+    {
+      "schoolCode": "6220",
+      "majorKey": "e6801f33",
+      "majorName": "信息安全",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 471,
+          "minRank": 45103,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6220",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "思想政治必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 517,
+          "minRank": 32972,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6220",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 536,
+          "minRank": 27796,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6220",
+      "majorKey": "3093c484",
+      "majorName": "网络空间安全",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 496,
+          "minRank": 38621,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 27796,
+          "equivRank": 27796
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 27796,
+          "equivRank": 27796
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "政治",
+          "plan": 1,
+          "tuition": "",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 32972,
+          "equivRank": 32972
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "信息安全",
+          "majorKey": "e6801f33",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 45103,
+          "equivRank": 45103
+        },
+        {
+          "majorName": "网络空间安全",
+          "majorKey": "3093c484",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 38621,
+          "equivRank": 38621
+        }
+      ]
+    }
+  ]
+}

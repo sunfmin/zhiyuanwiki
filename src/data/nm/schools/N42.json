@@ -1,0 +1,112 @@
+{
+  "code": "N42",
+  "name": "湖北经济学院法商学院",
+  "leaves": [
+    {
+      "schoolCode": "N42",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 479,
+          "minRank": 12457,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 433,
+          "minRank": 50667,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "N42",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 478,
+          "minRank": 12570,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 431,
+          "minRank": 51337,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "20000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 12570,
+          "equivRank": 12570
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "20000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 12457,
+          "equivRank": 12457
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "20000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 51337,
+          "equivRank": 51337
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "20000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 50667,
+          "equivRank": 50667
+        }
+      ]
+    }
+  ]
+}

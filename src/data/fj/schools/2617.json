@@ -1,0 +1,294 @@
+{
+  "code": "2617",
+  "name": "哈尔滨学院",
+  "leaves": [
+    {
+      "schoolCode": "2617",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 485,
+          "minRank": 17700,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2617",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 497,
+          "minRank": 72041,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2617",
+      "majorKey": "7201e1a9",
+      "majorName": "城市地下空间工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 492,
+          "minRank": 76112,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2617",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 485,
+          "minRank": 17700,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 482,
+          "minRank": 84464,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2617",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 488,
+          "minRank": 17086,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 483,
+          "minRank": 83635,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2617",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 489,
+          "minRank": 16866,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2617",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 502,
+          "minRank": 14390,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 486,
+          "minRank": 81079,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2617",
+      "majorKey": "0c33cbdd",
+      "majorName": "软件工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 499,
+          "minRank": 70339,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "3500",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 17700,
+          "equivRank": 17700
+        },
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "2800",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 17086,
+          "equivRank": 17086
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "2500",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 16866,
+          "equivRank": 16866
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "2500",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 14390,
+          "equivRank": 14390
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 17700,
+          "equivRank": 17700
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 70339,
+          "equivRank": 70339
+        },
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 72041,
+          "equivRank": 72041
+        },
+        {
+          "majorName": "城市地下空间工程",
+          "majorKey": "7201e1a9",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 76112,
+          "equivRank": 76112
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "3500",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 84464,
+          "equivRank": 84464
+        },
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "2800",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 83635,
+          "equivRank": 83635
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "2500",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 81079,
+          "equivRank": 81079
+        }
+      ]
+    }
+  ]
+}

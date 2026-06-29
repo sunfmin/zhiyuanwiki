@@ -1,0 +1,76 @@
+{
+  "code": "0601",
+  "name": "上饶师范学院",
+  "leaves": [
+    {
+      "schoolCode": "0601",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 440,
+          "minRank": 40711,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0601",
+      "majorKey": "e2472a71",
+      "majorName": "生物科学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 427,
+          "minRank": 43830,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "4270",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 40711,
+          "equivRank": 40711
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "4530",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 43830,
+          "equivRank": 43830
+        }
+      ]
+    }
+  ]
+}

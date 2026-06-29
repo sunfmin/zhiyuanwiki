@@ -1,0 +1,136 @@
+{
+  "code": "0610",
+  "name": "九江学院",
+  "leaves": [
+    {
+      "schoolCode": "0610",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 442,
+          "minRank": 40203,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0610",
+      "majorKey": "87f6e6a2",
+      "majorName": "审计学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 441,
+          "minRank": 40472,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0610",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 432,
+          "minRank": 42668,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0610",
+      "majorKey": "e6a89fa4",
+      "majorName": "金融工程",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 417,
+          "minRank": 46139,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "4270",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 40203,
+          "equivRank": 40203
+        },
+        {
+          "majorName": "审计学",
+          "majorKey": "87f6e6a2",
+          "selKe": "不限科目",
+          "plan": 3,
+          "tuition": "4270",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 40472,
+          "equivRank": 40472
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "金融工程",
+          "majorKey": "e6a89fa4",
+          "selKe": "物理",
+          "plan": 3,
+          "tuition": "4270",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 46139,
+          "equivRank": 46139
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "物理和化学",
+          "plan": 3,
+          "tuition": "4790",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 42668,
+          "equivRank": 42668
+        }
+      ]
+    }
+  ]
+}

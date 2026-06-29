@@ -1,0 +1,128 @@
+{
+  "code": "2322",
+  "name": "黑龙江科技大学",
+  "leaves": [
+    {
+      "schoolCode": "2322",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 486,
+          "minRank": 41277,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2322",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 484,
+          "minRank": 41799,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2322",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 493,
+          "minRank": 39384,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2322",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 483,
+          "minRank": 42042,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "3500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 41277,
+          "equivRank": 41277
+        },
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4800",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 42042,
+          "equivRank": 42042
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "3850",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 41799,
+          "equivRank": 41799
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 39384,
+          "equivRank": 39384
+        }
+      ]
+    }
+  ]
+}

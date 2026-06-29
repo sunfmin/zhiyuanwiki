@@ -21,7 +21,7 @@ const rows = buildProvinceRows(
 // 新高考模式（省情轴，配置派生）：3+1+2 物理/历史 或 3+3 综合。
 function modeLabel(slug: string): string {
   const c = provinceConfig(slug);
-  const mode = c.subjectMode === "pick3of7" ? "3+3" : "3+1+2";
+  const mode = c.subjectMode === "pick3of7" || c.subjectMode === "pick3of6" ? "3+3" : "3+1+2";
   return `${mode} · ${c.tracks.map((t) => t.name).join("/")}`;
 }
 const fmt = (n: number) => n.toLocaleString("zh-CN");

@@ -1,0 +1,162 @@
+{
+  "code": "4006",
+  "name": "上海海事大学",
+  "leaves": [
+    {
+      "schoolCode": "4006",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 583,
+          "minRank": 16183,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4006",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 592,
+          "minRank": 2702,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4006",
+      "majorKey": "34997647",
+      "majorName": "能源与动力工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 579,
+          "minRank": 17416,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4006",
+      "majorKey": "8f20480e",
+      "majorName": "航海技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 541,
+          "minRank": 32070,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4006",
+      "majorKey": "7115c029",
+      "majorName": "轮机工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 535,
+          "minRank": 34997,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "104",
+      "groupName": "104",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "-",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 2702,
+          "equivRank": 2702
+        }
+      ]
+    },
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "航海技术",
+          "majorKey": "8f20480e",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 32070,
+          "equivRank": 32070
+        },
+        {
+          "majorName": "轮机工程",
+          "majorKey": "7115c029",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 34997,
+          "equivRank": 34997
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "-",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 16183,
+          "equivRank": 16183
+        },
+        {
+          "majorName": "能源与动力工程",
+          "majorKey": "34997647",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "-",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 17416,
+          "equivRank": 17416
+        }
+      ]
+    }
+  ]
+}

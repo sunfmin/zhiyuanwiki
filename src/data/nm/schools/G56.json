@@ -1,0 +1,168 @@
+{
+  "code": "G56",
+  "name": "安阳学院",
+  "leaves": [
+    {
+      "schoolCode": "G56",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 457,
+          "minRank": 15264,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 401,
+          "minRank": 60964,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "G56",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 404,
+          "minRank": 60009,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "G56",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 458,
+          "minRank": 15131,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "G56",
+      "majorKey": "8b6a817b",
+      "majorName": "物流管理",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 400,
+          "minRank": 61271,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "15000",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 60009,
+          "equivRank": 18013
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "15000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 15131,
+          "equivRank": 15131
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "15000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 15264,
+          "equivRank": 15264
+        },
+        {
+          "majorName": "物流管理",
+          "majorKey": "8b6a817b",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "15000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 61271,
+          "equivRank": 18392
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "15000",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 60009,
+          "equivRank": 60009
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "15000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 60964,
+          "equivRank": 60964
+        },
+        {
+          "majorName": "物流管理",
+          "majorKey": "8b6a817b",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "15000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 61271,
+          "equivRank": 61271
+        }
+      ]
+    }
+  ]
+}

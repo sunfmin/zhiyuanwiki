@@ -1,0 +1,232 @@
+{
+  "code": "4016",
+  "name": "上海对外经贸大学",
+  "leaves": [
+    {
+      "schoolCode": "4016",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 573,
+          "minRank": 19377,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4016",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 536,
+          "minRank": 34510,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4016",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 559,
+          "minRank": 24395,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4016",
+      "majorKey": "d054f8d1",
+      "majorName": "应用统计学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 577,
+          "minRank": 18095,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4016",
+      "majorKey": "ec77cae2",
+      "majorName": "旅游管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 567,
+          "minRank": 5184,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4016",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 534,
+          "minRank": 35484,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4016",
+      "majorKey": "a6b91fd0",
+      "majorName": "资产评估",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 569,
+          "minRank": 4948,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 529,
+          "minRank": 38045,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "资产评估",
+          "majorKey": "a6b91fd0",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "6500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 4948,
+          "equivRank": 4948
+        },
+        {
+          "majorName": "旅游管理",
+          "majorKey": "ec77cae2",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "6500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 5184,
+          "equivRank": 5184
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "7000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 19377,
+          "equivRank": 19377
+        },
+        {
+          "majorName": "应用统计学",
+          "majorKey": "d054f8d1",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "7000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 18095,
+          "equivRank": 18095
+        }
+      ]
+    },
+    {
+      "groupCode": "201",
+      "groupName": "201",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "6500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 34510,
+          "equivRank": 34510
+        },
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "6500",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 24395,
+          "equivRank": 24395
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "6500",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 35484,
+          "equivRank": 35484
+        },
+        {
+          "majorName": "资产评估",
+          "majorKey": "a6b91fd0",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "6500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 38045,
+          "equivRank": 38045
+        }
+      ]
+    }
+  ]
+}

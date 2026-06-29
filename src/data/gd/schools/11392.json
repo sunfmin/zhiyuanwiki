@@ -1,0 +1,58 @@
+{
+  "code": "11392",
+  "name": "云南警官学院",
+  "leaves": [
+    {
+      "schoolCode": "11392",
+      "majorKey": "cd1ecf5e",
+      "majorName": "禁毒学",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 548,
+          "minRank": 25415,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "历史",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "禁毒学",
+          "majorKey": "cd1ecf5e",
+          "selKe": "政治",
+          "plan": 1,
+          "tuition": "4950",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 25415,
+          "equivRank": 25415
+        }
+      ]
+    },
+    {
+      "groupCode": "202",
+      "groupName": "202",
+      "track": "历史",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "政治",
+          "plan": 1,
+          "tuition": "4500",
+          "menlei": "法"
+        }
+      ]
+    }
+  ]
+}

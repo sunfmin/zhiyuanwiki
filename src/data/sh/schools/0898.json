@@ -1,0 +1,136 @@
+{
+  "code": "0898",
+  "name": "云南民族大学",
+  "leaves": [
+    {
+      "schoolCode": "0898",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 432,
+          "minRank": 42668,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0898",
+      "majorKey": "eca12e7e",
+      "majorName": "民族学",
+      "selKe": "历史和地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 482,
+          "minRank": 29358,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0898",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "政治和历史和地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 456,
+          "minRank": 36580,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0898",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 434,
+          "minRank": 42167,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 42167,
+          "equivRank": 42167
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 42668,
+          "equivRank": 42668
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "历史和地理",
+      "majors": [
+        {
+          "majorName": "民族学",
+          "majorKey": "eca12e7e",
+          "selKe": "历史和地理",
+          "plan": 1,
+          "tuition": "5100",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 29358,
+          "equivRank": 29358
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "政治和历史和地理",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "政治和历史和地理",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 36580,
+          "equivRank": 36580
+        }
+      ]
+    }
+  ]
+}

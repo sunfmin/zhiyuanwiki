@@ -1,0 +1,136 @@
+{
+  "code": "3638",
+  "name": "南昌医学院",
+  "leaves": [
+    {
+      "schoolCode": "3638",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "物理、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 549,
+          "minRank": 24347,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3638",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 552,
+          "minRank": 23531,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3638",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 567,
+          "minRank": 19705,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3638",
+      "majorKey": "c744f66e",
+      "majorName": "针灸推拿学",
+      "selKe": "物理、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 550,
+          "minRank": 24089,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "4350",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 23531,
+          "equivRank": 23531
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "4350",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 19705,
+          "equivRank": 19705
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理,生物",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "物理,生物",
+          "plan": 1,
+          "tuition": "4350",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 24347,
+          "equivRank": 24347
+        },
+        {
+          "majorName": "针灸推拿学",
+          "majorKey": "c744f66e",
+          "selKe": "物理,生物",
+          "plan": 1,
+          "tuition": "4350",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 24089,
+          "equivRank": 24089
+        }
+      ]
+    }
+  ]
+}

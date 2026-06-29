@@ -1,0 +1,230 @@
+{
+  "code": "6506",
+  "name": "琼台师范学院",
+  "leaves": [
+    {
+      "schoolCode": "6506",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 460,
+          "minRank": 83389,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6506",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 480,
+          "minRank": 22432,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6506",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 482,
+          "minRank": 21898,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6506",
+      "majorKey": "b534555a",
+      "majorName": "科学教育",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 457,
+          "minRank": 85576,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6506",
+      "majorKey": "fff04889",
+      "majorName": "网络与新媒体",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 462,
+          "minRank": 81872,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6506",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 486,
+          "minRank": 20820,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "6506",
+      "majorKey": "0c33cbdd",
+      "majorName": "软件工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 462,
+          "minRank": 81872,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "4620",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 22432,
+          "equivRank": 22432
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "4180",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 21898,
+          "equivRank": 21898
+        }
+      ]
+    },
+    {
+      "groupCode": "104",
+      "groupName": "104",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "4620",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 20820,
+          "equivRank": 20820
+        }
+      ]
+    },
+    {
+      "groupCode": "113",
+      "groupName": "113",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "科学教育",
+          "majorKey": "b534555a",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "4620",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 85576,
+          "equivRank": 85576
+        }
+      ]
+    },
+    {
+      "groupCode": "114",
+      "groupName": "114",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4620",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 83389,
+          "equivRank": 83389
+        },
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4620",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 81872,
+          "equivRank": 81872
+        }
+      ]
+    },
+    {
+      "groupCode": "115",
+      "groupName": "115",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "4620",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 81872,
+          "equivRank": 81872
+        }
+      ]
+    }
+  ]
+}

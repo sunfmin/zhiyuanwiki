@@ -1,0 +1,68 @@
+{
+  "code": "13500",
+  "name": "商丘工学院",
+  "leaves": [
+    {
+      "schoolCode": "13500",
+      "majorKey": "7201e1a9",
+      "majorName": "城市地下空间工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 479,
+          "minRank": 203580,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "13500",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 485,
+          "minRank": 192935,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "202",
+      "groupName": "202",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "15800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 192935,
+          "equivRank": 192935
+        },
+        {
+          "majorName": "城市地下空间工程",
+          "majorKey": "7201e1a9",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "15800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 203580,
+          "equivRank": 203580
+        }
+      ]
+    }
+  ]
+}

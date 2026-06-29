@@ -1,0 +1,128 @@
+{
+  "code": "0112",
+  "name": "邯郸学院",
+  "leaves": [
+    {
+      "schoolCode": "0112",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 504,
+          "minRank": 9451,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0112",
+      "majorKey": "a507c400",
+      "majorName": "康复治疗学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 421,
+          "minRank": 54593,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0112",
+      "majorKey": "e6cfcc6c",
+      "majorName": "材料化学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 421,
+          "minRank": 54593,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0112",
+      "majorKey": "0ac1da59",
+      "majorName": "生物技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 424,
+          "minRank": 53661,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5060",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 9451,
+          "equivRank": 9451
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "生物技术",
+          "majorKey": "0ac1da59",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "4900",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 53661,
+          "equivRank": 53661
+        },
+        {
+          "majorName": "材料化学",
+          "majorKey": "e6cfcc6c",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 54593,
+          "equivRank": 54593
+        },
+        {
+          "majorName": "康复治疗学",
+          "majorKey": "a507c400",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 54593,
+          "equivRank": 54593
+        }
+      ]
+    }
+  ]
+}

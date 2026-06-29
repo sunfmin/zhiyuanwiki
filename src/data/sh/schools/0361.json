@@ -1,0 +1,94 @@
+{
+  "code": "0361",
+  "name": "大连东软信息学院",
+  "leaves": [
+    {
+      "schoolCode": "0361",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 415,
+          "minRank": 46550,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0361",
+      "majorKey": "1da18825",
+      "majorName": "物联网工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 412,
+          "minRank": 47200,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0361",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 416,
+          "minRank": 46346,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "物联网工程",
+          "majorKey": "1da18825",
+          "selKe": "物理和化学",
+          "plan": 4,
+          "tuition": "28000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 47200,
+          "equivRank": 47200
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理和化学",
+          "plan": 3,
+          "tuition": "28000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 46346,
+          "equivRank": 46346
+        },
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "物理和化学",
+          "plan": 3,
+          "tuition": "28000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 46550,
+          "equivRank": 46550
+        }
+      ]
+    }
+  ]
+}

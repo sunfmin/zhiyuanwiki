@@ -1,0 +1,76 @@
+{
+  "code": "0225",
+  "name": "北京工商大学",
+  "leaves": [
+    {
+      "schoolCode": "0225",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 515,
+          "minRank": 19985,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0225",
+      "majorKey": "6db99de4",
+      "majorName": "财政学",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 501,
+          "minRank": 23963,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限科目",
+          "plan": 5,
+          "tuition": "4200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 19985,
+          "equivRank": 19985
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "财政学",
+          "majorKey": "6db99de4",
+          "selKe": "物理",
+          "plan": 5,
+          "tuition": "4200",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 23963,
+          "equivRank": 23963
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "code": "0733",
+  "name": "上海杉达学院",
+  "leaves": [
+    {
+      "schoolCode": "0733",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 530,
+          "minRank": 28948,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0733",
+      "majorKey": "a507c400",
+      "majorName": "康复治疗学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 488,
+          "minRank": 40943,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0733",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 609,
+          "minRank": 10621,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0733",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 536,
+          "minRank": 27274,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "60000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 28948,
+          "equivRank": 28948
+        },
+        {
+          "majorName": "劳动与社会保障",
+          "majorKey": "41438d10",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "35000",
+          "menlei": "管"
+        },
+        {
+          "majorName": "旅游管理",
+          "majorKey": "ec77cae2",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "60000",
+          "menlei": "管"
+        },
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "35000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 27274,
+          "equivRank": 27274
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "康复治疗学",
+          "majorKey": "a507c400",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "35000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 40943,
+          "equivRank": 40943
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "35000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 10621,
+          "equivRank": 10621
+        }
+      ]
+    }
+  ]
+}

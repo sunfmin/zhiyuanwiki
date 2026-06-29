@@ -1,0 +1,180 @@
+{
+  "code": "3277",
+  "name": "南京特殊教育师范学院",
+  "leaves": [
+    {
+      "schoolCode": "3277",
+      "majorKey": "30e8a552",
+      "majorName": "公共事业管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 463,
+          "minRank": 4585,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3277",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 462,
+          "minRank": 4645,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 424,
+          "minRank": 19510,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3277",
+      "majorKey": "a507c400",
+      "majorName": "康复治疗学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 430,
+          "minRank": 18286,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3277",
+      "majorKey": "e0d708da",
+      "majorName": "特殊教育",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 476,
+          "minRank": 3774,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3277",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 469,
+          "minRank": 4197,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "5200",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 4645,
+          "equivRank": 4645
+        },
+        {
+          "majorName": "公共事业管理",
+          "majorKey": "30e8a552",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 4585,
+          "equivRank": 4585
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 4197,
+          "equivRank": 4197
+        },
+        {
+          "majorName": "特殊教育",
+          "majorKey": "e0d708da",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "5200",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 3774,
+          "equivRank": 3774
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 19510,
+          "equivRank": 19510
+        }
+      ]
+    },
+    {
+      "groupCode": "502",
+      "groupName": "502",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "康复治疗学",
+          "majorKey": "a507c400",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 18286,
+          "equivRank": 18286
+        }
+      ]
+    }
+  ]
+}

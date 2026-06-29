@@ -1,0 +1,188 @@
+{
+  "code": "J27",
+  "name": "香港中文大学",
+  "leaves": [
+    {
+      "schoolCode": "J27",
+      "majorKey": "bb0f0b59",
+      "majorName": "人文类",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 641,
+          "minRank": 254,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "J27",
+      "majorKey": "237c33bd",
+      "majorName": "商科类",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 647,
+          "minRank": 160,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "J27",
+      "majorKey": "ea410cea",
+      "majorName": "工科类",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 651,
+          "minRank": 1099,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "J27",
+      "majorKey": "7b393189",
+      "majorName": "本科入学奖学金类",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 649,
+          "minRank": 141,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 662,
+          "minRank": 601,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "J27",
+      "majorKey": "1660382e",
+      "majorName": "理科类",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 651,
+          "minRank": 1099,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "本科入学奖学金类",
+          "majorKey": "7b393189",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 141,
+          "equivRank": 141
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "人文类",
+          "majorKey": "bb0f0b59",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 254,
+          "equivRank": 254
+        },
+        {
+          "majorName": "商科类",
+          "majorKey": "237c33bd",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 160,
+          "equivRank": 160
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "本科入学奖学金类",
+          "majorKey": "7b393189",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 601,
+          "equivRank": 601
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "004",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "理科类",
+          "majorKey": "1660382e",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 1099,
+          "equivRank": 1099
+        },
+        {
+          "majorName": "工科类",
+          "majorKey": "ea410cea",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 1099,
+          "equivRank": 1099
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "code": "0267",
+  "name": "天津理工大学",
+  "leaves": [
+    {
+      "schoolCode": "0267",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 499,
+          "minRank": 24524,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0267",
+      "majorKey": "4166f1ff",
+      "majorName": "工程管理",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 477,
+          "minRank": 30789,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0267",
+      "majorKey": "ed53a26b",
+      "majorName": "智能制造工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 496,
+          "minRank": 25365,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0267",
+      "majorKey": "1da18825",
+      "majorName": "物联网工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 498,
+          "minRank": 24798,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "5400",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 24524,
+          "equivRank": 24524
+        },
+        {
+          "majorName": "物联网工程",
+          "majorKey": "1da18825",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "5400",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 24798,
+          "equivRank": 24798
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "智能制造工程",
+          "majorKey": "ed53a26b",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "5400",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 25365,
+          "equivRank": 25365
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "工程管理",
+          "majorKey": "4166f1ff",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "4400",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 30789,
+          "equivRank": 30789
+        }
+      ]
+    }
+  ]
+}

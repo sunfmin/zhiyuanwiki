@@ -1,0 +1,319 @@
+{
+  "code": "C94",
+  "name": "山东协和学院",
+  "leaves": [
+    {
+      "schoolCode": "C94",
+      "majorKey": "f9504a0c",
+      "majorName": "中药学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 402,
+          "minRank": 60654,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "C94",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 450,
+          "minRank": 16205,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 427,
+          "minRank": 52652,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "C94",
+      "majorKey": "11fef64a",
+      "majorName": "医学影像技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 397,
+          "minRank": 62261,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "C94",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 393,
+          "minRank": 63446,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "C94",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 514,
+          "minRank": 25793,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "C94",
+      "majorKey": "a507c400",
+      "majorName": "康复治疗学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 401,
+          "minRank": 60964,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "C94",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "历史,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 445,
+          "minRank": 16894,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 414,
+          "minRank": 56914,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "C94",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 453,
+          "minRank": 15792,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "19800",
+          "menlei": "文"
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "19800",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 16205,
+          "equivRank": 16205
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "19800",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 15792,
+          "equivRank": 15792
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "生物学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物学",
+          "plan": 8,
+          "tuition": "23800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 16894,
+          "equivRank": 16894
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "004",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "19800",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 52652,
+          "equivRank": 52652
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "19800",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 15792,
+          "equivRank": 52610
+        }
+      ]
+    },
+    {
+      "groupCode": "005",
+      "groupName": "005",
+      "track": "物理",
+      "selKe": "生物学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物学",
+          "plan": 7,
+          "tuition": "23800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 56914,
+          "equivRank": 56914
+        }
+      ]
+    },
+    {
+      "groupCode": "006",
+      "groupName": "006",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "中药学",
+          "majorKey": "f9504a0c",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "28800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 60654,
+          "equivRank": 60654
+        },
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "化学",
+          "plan": 9,
+          "tuition": "28800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 63446,
+          "equivRank": 63446
+        },
+        {
+          "majorName": "医学影像技术",
+          "majorKey": "11fef64a",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "28800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 62261,
+          "equivRank": 62261
+        },
+        {
+          "majorName": "康复治疗学",
+          "majorKey": "a507c400",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "22800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 60964,
+          "equivRank": 60964
+        }
+      ]
+    },
+    {
+      "groupCode": "007",
+      "groupName": "007",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "39800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 25793,
+          "equivRank": 25793
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "code": "0732",
+  "name": "武汉文理学院",
+  "leaves": [
+    {
+      "schoolCode": "0732",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 415,
+          "minRank": 46550,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0732",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 414,
+          "minRank": 46738,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0732",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 418,
+          "minRank": 45887,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "18700",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 46738,
+          "equivRank": 46738
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "医学影像技术",
+          "majorKey": "11fef64a",
+          "selKe": "物理和化学",
+          "plan": 1,
+          "tuition": "23000",
+          "menlei": "医"
+        },
+        {
+          "majorName": "口腔医学技术",
+          "majorKey": "e849f952",
+          "selKe": "物理和化学",
+          "plan": 1,
+          "tuition": "23000",
+          "menlei": "医"
+        },
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理和化学",
+          "plan": 1,
+          "tuition": "18000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 46550,
+          "equivRank": 46550
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "物理和化学",
+          "plan": 1,
+          "tuition": "17000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 45887,
+          "equivRank": 45887
+        },
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "20900",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

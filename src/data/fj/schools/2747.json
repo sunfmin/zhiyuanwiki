@@ -1,0 +1,68 @@
+{
+  "code": "2747",
+  "name": "湖北汽车工业学院",
+  "leaves": [
+    {
+      "schoolCode": "2747",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 533,
+          "minRank": 45540,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2747",
+      "majorKey": "1bd76ba8",
+      "majorName": "测控技术与仪器",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 531,
+          "minRank": 46854,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 45540,
+          "equivRank": 45540
+        },
+        {
+          "majorName": "测控技术与仪器",
+          "majorKey": "1bd76ba8",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 46854,
+          "equivRank": 46854
+        }
+      ]
+    }
+  ]
+}

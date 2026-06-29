@@ -1,0 +1,102 @@
+{
+  "code": "P96",
+  "name": "广东工业大学",
+  "leaves": [
+    {
+      "schoolCode": "P96",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 570,
+          "minRank": 11823,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "P96",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 604,
+          "minRank": 5740,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "P96",
+      "majorKey": "3f8d675b",
+      "majorName": "能源动力类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 600,
+          "minRank": 6349,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "6850",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 5740,
+          "equivRank": 5740
+        },
+        {
+          "majorName": "能源动力类",
+          "majorKey": "3f8d675b",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6850",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 6349,
+          "equivRank": 6349
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6060",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 11823,
+          "equivRank": 11823
+        }
+      ]
+    }
+  ]
+}

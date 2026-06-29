@@ -1,0 +1,188 @@
+{
+  "code": "4241",
+  "name": "湖北理工学院",
+  "leaves": [
+    {
+      "schoolCode": "4241",
+      "majorKey": "1f59c989",
+      "majorName": "化学工程与工艺",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 437,
+          "minRank": 16897,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4241",
+      "majorKey": "acbf731b",
+      "majorName": "复合材料与工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 435,
+          "minRank": 17304,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4241",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 464,
+          "minRank": 4527,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4241",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "历史,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 449,
+          "minRank": 5571,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4241",
+      "majorKey": "c0c8480c",
+      "majorName": "能源与环境系统工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 434,
+          "minRank": 17511,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4241",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 434,
+          "minRank": 17511,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 4527,
+          "equivRank": 4527
+        }
+      ]
+    },
+    {
+      "groupCode": "602",
+      "groupName": "602",
+      "track": "历史",
+      "selKe": "历史,生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "历史,生物",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 5571,
+          "equivRank": 5571
+        }
+      ]
+    },
+    {
+      "groupCode": "501",
+      "groupName": "501",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "化学工程与工艺",
+          "majorKey": "1f59c989",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 16897,
+          "equivRank": 16897
+        },
+        {
+          "majorName": "复合材料与工程",
+          "majorKey": "acbf731b",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "4000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 17304,
+          "equivRank": 17304
+        },
+        {
+          "majorName": "能源与环境系统工程",
+          "majorKey": "c0c8480c",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "4000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 17511,
+          "equivRank": 17511
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 17511,
+          "equivRank": 17511
+        }
+      ]
+    }
+  ]
+}

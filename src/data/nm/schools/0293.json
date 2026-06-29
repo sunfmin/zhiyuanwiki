@@ -1,0 +1,274 @@
+{
+  "code": "0293",
+  "name": "三峡大学",
+  "leaves": [
+    {
+      "schoolCode": "0293",
+      "majorKey": "5a324641",
+      "majorName": "人力资源管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 556,
+          "minRank": 4355,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0293",
+      "majorKey": "ca969af2",
+      "majorName": "供应链管理",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 529,
+          "minRank": 21608,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0293",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 525,
+          "minRank": 22719,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0293",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 525,
+          "minRank": 22719,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0293",
+      "majorKey": "a18ef009",
+      "majorName": "地质工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 529,
+          "minRank": 21608,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0293",
+      "majorKey": "cde36de1",
+      "majorName": "民族预科班",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 536,
+          "minRank": 6045,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 548,
+          "minRank": 16847,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0293",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 544,
+          "minRank": 17824,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0293",
+      "majorKey": "062bcf46",
+      "majorName": "行政管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 548,
+          "minRank": 5002,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "人力资源管理",
+          "majorKey": "5a324641",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 4355,
+          "equivRank": 4355
+        },
+        {
+          "majorName": "行政管理",
+          "majorKey": "062bcf46",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 5002,
+          "equivRank": 5002
+        }
+      ]
+    },
+    {
+      "groupCode": "011",
+      "groupName": "011",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "民族预科班",
+          "majorKey": "cde36de1",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 6045,
+          "equivRank": 6045
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "供应链管理",
+          "majorKey": "ca969af2",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 21608,
+          "equivRank": 21608
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5850",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 22719,
+          "equivRank": 22719
+        },
+        {
+          "majorName": "地质工程",
+          "majorKey": "a18ef009",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "4500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 21608,
+          "equivRank": 21608
+        },
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "4500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 22719,
+          "equivRank": 22719
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5850",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 17824,
+          "equivRank": 17824
+        }
+      ]
+    },
+    {
+      "groupCode": "012",
+      "groupName": "012",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "民族预科班",
+          "majorKey": "cde36de1",
+          "selKe": "不限",
+          "plan": 15,
+          "tuition": "4000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 16847,
+          "equivRank": 16847
+        }
+      ]
+    }
+  ]
+}

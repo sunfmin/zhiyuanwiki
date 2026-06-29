@@ -1,0 +1,104 @@
+{
+  "code": "N43",
+  "name": "广州工商学院",
+  "leaves": [
+    {
+      "schoolCode": "N43",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 424,
+          "minRank": 19778,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 407,
+          "minRank": 59120,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "N43",
+      "majorKey": "889e9381",
+      "majorName": "数字媒体技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 376,
+          "minRank": 68264,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "46600",
+          "menlei": "经",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 19778,
+          "equivRank": 19778
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "004",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "46600",
+          "menlei": "经",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 59120,
+          "equivRank": 59120
+        }
+      ]
+    },
+    {
+      "groupCode": "005",
+      "groupName": "005",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数字媒体技术",
+          "majorKey": "889e9381",
+          "selKe": "化学",
+          "plan": 10,
+          "tuition": "47600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 68264,
+          "equivRank": 68264
+        }
+      ]
+    }
+  ]
+}

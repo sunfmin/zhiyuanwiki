@@ -49,6 +49,15 @@ func buildDBBundle(dbPath string, p province) schoolBundle {
 		fatal(err)
 	}
 	plan := latestPlanYear(planAll)
+	// 个别省计划表无「年份」列（如内蒙），plan 行 Year=0——用录取分数最新年补齐，否则等效位次目标年为 0、
+	// 报考视图「计划年」显示 0 且 EquivRank 退化。计划本就对应该 score 年，补齐是安全归一。
+	if planYear(plan) == 0 {
+		if sy := latestScoreYear(scores); sy > 0 {
+			for i := range plan {
+				plan[i].Year = sy
+			}
+		}
+	}
 	groupsByCode := core.BuildGroups2026(plan, leaves, totals, menlei.Code)
 
 	byCode := map[string][]core.MajorLeaf{}
@@ -190,4 +199,15 @@ func planYear(rows []core.PlanRow) int {
 		return 0
 	}
 	return rows[0].Year
+}
+
+// latestScoreYear 返回录取分数行里的最大年份（用于给无「年份」列的计划表补齐年份）。
+func latestScoreYear(rows []core.MajorScoreRow) int {
+	maxY := 0
+	for _, r := range rows {
+		if r.Year > maxY {
+			maxY = r.Year
+		}
+	}
+	return maxY
 }

@@ -1,0 +1,215 @@
+{
+  "code": "0806",
+  "name": "苏州科技大学",
+  "leaves": [
+    {
+      "schoolCode": "0806",
+      "majorKey": "2a1f2fe5",
+      "majorName": "城乡规划",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 610,
+          "minRank": 10420,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0806",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 605,
+          "minRank": 11264,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0806",
+      "majorKey": "6b32f2c4",
+      "majorName": "建筑学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 610,
+          "minRank": 10420,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0806",
+      "majorKey": "e063e51a",
+      "majorName": "微电子科学与工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 600,
+          "minRank": 12182,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0806",
+      "majorKey": "2363aecb",
+      "majorName": "智能建造",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 599,
+          "minRank": 12365,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0806",
+      "majorKey": "8b6a817b",
+      "majorName": "物流管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 589,
+          "minRank": 14358,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0806",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 610,
+          "minRank": 10420,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "5200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 11264,
+          "equivRank": 11264
+        },
+        {
+          "majorName": "城乡规划",
+          "majorKey": "2a1f2fe5",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6380",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 10420,
+          "equivRank": 10420
+        },
+        {
+          "majorName": "建筑学",
+          "majorKey": "6b32f2c4",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6380",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 10420,
+          "equivRank": 10420
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 10420,
+          "equivRank": 10420
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "微电子科学与工程",
+          "majorKey": "e063e51a",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 12182,
+          "equivRank": 12182
+        },
+        {
+          "majorName": "智能建造",
+          "majorKey": "2363aecb",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 12365,
+          "equivRank": 12365
+        }
+      ]
+    },
+    {
+      "groupCode": "80",
+      "groupName": "80",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "物流管理",
+          "majorKey": "8b6a817b",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "26000",
+          "menlei": "管",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 14358,
+          "equivRank": 14358
+        }
+      ]
+    }
+  ]
+}

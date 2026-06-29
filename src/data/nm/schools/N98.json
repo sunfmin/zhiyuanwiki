@@ -1,0 +1,188 @@
+{
+  "code": "N98",
+  "name": "西南大学",
+  "leaves": [
+    {
+      "schoolCode": "N98",
+      "majorKey": "dedf828b",
+      "majorName": "乡村治理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 587,
+          "minRank": 2225,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "N98",
+      "majorKey": "92a7a2c0",
+      "majorName": "动物医学类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 587,
+          "minRank": 8532,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "N98",
+      "majorKey": "ca01c9a2",
+      "majorName": "动物科学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 584,
+          "minRank": 9043,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "N98",
+      "majorKey": "a648c305",
+      "majorName": "动物药学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 585,
+          "minRank": 8884,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "N98",
+      "majorKey": "28c62e21",
+      "majorName": "市场营销",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 588,
+          "minRank": 2165,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "N98",
+      "majorKey": "78bffed9",
+      "majorName": "管理科学与工程类",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 597,
+          "minRank": 6818,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "市场营销",
+          "majorKey": "28c62e21",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 2165,
+          "equivRank": 2165
+        },
+        {
+          "majorName": "乡村治理",
+          "majorKey": "dedf828b",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 2225,
+          "equivRank": 2225
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "动物科学",
+          "majorKey": "ca01c9a2",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "3700",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 9043,
+          "equivRank": 9043
+        },
+        {
+          "majorName": "动物医学类",
+          "majorKey": "92a7a2c0",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "3700",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 8532,
+          "equivRank": 8532
+        },
+        {
+          "majorName": "动物药学",
+          "majorKey": "a648c305",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "3700",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 8884,
+          "equivRank": 8884
+        }
+      ]
+    },
+    {
+      "groupCode": "200",
+      "groupName": "200",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "管理科学与工程类",
+          "majorKey": "78bffed9",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 6818,
+          "equivRank": 6818
+        }
+      ]
+    }
+  ]
+}

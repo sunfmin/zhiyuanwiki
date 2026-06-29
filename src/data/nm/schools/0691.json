@@ -1,0 +1,102 @@
+{
+  "code": "0691",
+  "name": "广州医科大学",
+  "leaves": [
+    {
+      "schoolCode": "0691",
+      "majorKey": "59687759",
+      "majorName": "应用心理学",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 562,
+          "minRank": 13604,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0691",
+      "majorKey": "9347fbcd",
+      "majorName": "康复作业治疗",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 530,
+          "minRank": 21342,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0691",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 523,
+          "minRank": 23287,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "康复作业治疗",
+          "majorKey": "9347fbcd",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "7656",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 21342,
+          "equivRank": 21342
+        },
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 7,
+          "tuition": "6960",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 23287,
+          "equivRank": 23287
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "应用心理学",
+          "majorKey": "59687759",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "6230",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 13604,
+          "equivRank": 13604
+        }
+      ]
+    }
+  ]
+}

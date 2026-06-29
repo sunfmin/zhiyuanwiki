@@ -1,0 +1,178 @@
+{
+  "code": "0011",
+  "name": "康复大学",
+  "leaves": [
+    {
+      "schoolCode": "0011",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 605,
+          "minRank": 5599,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0011",
+      "majorKey": "9347fbcd",
+      "majorName": "康复作业治疗",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 564,
+          "minRank": 13154,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0011",
+      "majorKey": "55f72efa",
+      "majorName": "康复物理治疗",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 567,
+          "minRank": 12501,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0011",
+      "majorKey": "11a5a631",
+      "majorName": "智能医学工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 583,
+          "minRank": 9219,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0011",
+      "majorKey": "da8a20f0",
+      "majorName": "生物信息学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 571,
+          "minRank": 11607,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "康复物理治疗",
+          "majorKey": "55f72efa",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 12501,
+          "equivRank": 12501
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "康复作业治疗",
+          "majorKey": "9347fbcd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 13154,
+          "equivRank": 13154
+        }
+      ]
+    },
+    {
+      "groupCode": "005",
+      "groupName": "005",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 5599,
+          "equivRank": 5599
+        }
+      ]
+    },
+    {
+      "groupCode": "006",
+      "groupName": "006",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "生物信息学",
+          "majorKey": "da8a20f0",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 11607,
+          "equivRank": 11607
+        }
+      ]
+    },
+    {
+      "groupCode": "008",
+      "groupName": "008",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "智能医学工程",
+          "majorKey": "11a5a631",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 9219,
+          "equivRank": 9219
+        }
+      ]
+    }
+  ]
+}

@@ -33,6 +33,14 @@ var provDirName = map[string]string{
 	"sc":    "四川",
 	"ah":    "安徽",
 	"gx":    "广西",
+	"sx":    "陕西",
+	"bj":    "北京",
+	"sh":    "上海",
+	"hain":  "海南",
+	"nm":    "内蒙", // 各省份/内蒙（省名内蒙古）
+	"gd":    "广东",
+	"fj":    "福建",
+	"nx":    "宁夏",
 	"hb":    "湖北高考数据", // 各省份/ 下子目录带后缀
 	"yn":    "云南",
 	"henan": "河南", // slug 用 henan 避免与湖南 hn 冲突
@@ -49,6 +57,9 @@ type provParser struct {
 	// PlanMust 覆盖招生计划文件的（整路径）子串匹配；nil=默认 ["招生计划"]。个别省没有统一的
 	// 「全国高校在X的招生计划」合表、且老文理副本体积更大，需精确指向该省 2025 计划文件。
 	PlanMust []string
+	// ScoreMust 覆盖录取分数文件的子串匹配；nil=默认 ["专业录取分数"]。个别省分数文件名是「专业
+	// 分数线」（内蒙/宁夏），或同名 2024 副本体积更大会被按体积错选（广东/福建），需精确指向 2025 文件。
+	ScoreMust []string
 }
 
 var provParsers = map[string]provParser{
@@ -63,6 +74,24 @@ var provParsers = map[string]provParser{
 	// 「25分数线和招生计划」），默认 ["招生计划"] 会按体积错配到更大的「专业录取分数」文件。
 	"gx": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
 		PlanMust: []string{"广西-2025-招生计划"}},
+	"sx": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
+		ScoreMust: []string{"25年全国高校在陕西的专业录取分数"}, PlanMust: []string{"25年全国高校在陕西的招生计划"}},
+	// 综合(3+3)+组：科类「综合」已被 group3p12.keep 放行；上海组列名「专业组代码」已加别名。
+	"bj": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
+		ScoreMust: []string{"25年全国高校在北京的专业录取分数"}, PlanMust: []string{"2025年全国高校在北京市的招生计划"}},
+	"sh": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
+		ScoreMust: []string{"上海_专业分数线_2025"}, PlanMust: []string{"上海2025招生计划"}},
+	"hain": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
+		ScoreMust: []string{"25年全国高校在海南的专业录取分数"}, PlanMust: []string{"海南25招生计划含院校代码"}},
+	// 分数文件名是「专业分数线」（内蒙/宁夏）或 2024 同名副本更大（广东/福建），用 ScoreMust 精确指向 2025。
+	"nm": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
+		ScoreMust: []string{"25年全国高校在内蒙古的专业分数线"}, PlanMust: []string{"20250617-内蒙古2025招生计划"}},
+	"gd": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
+		ScoreMust: []string{"25年全国高校在广东的专业录取分数"}, PlanMust: []string{"广东-2025年-招生计划"}},
+	"fj": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
+		ScoreMust: []string{"25年全国高校在福建的专业录取分数"}, PlanMust: []string{"福建2025招生计划"}},
+	"nx": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
+		ScoreMust: []string{"22-25年全国高校在宁夏的专业分数线"}, PlanMust: []string{"在宁夏的招生计划"}},
 	"hb": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
 		PlanMust: []string{"25年全国高校在湖北省的招生计划"}},
 	"yn": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
@@ -142,9 +171,13 @@ func importProvince(db *store.DB, src string, p province, parser provParser) {
 	root := filepath.Join(src, provDirName[p.slug])
 	tracks := strings.Join(p.tracks, "/")
 
-	scorePath := findFile(root, []string{"专业录取分数"}, []string{"艺术", "艺考"})
+	scoreMust := parser.ScoreMust
+	if scoreMust == nil {
+		scoreMust = []string{"专业录取分数"}
+	}
+	scorePath := findFile(root, scoreMust, []string{"艺术", "艺考"})
 	if scorePath == "" {
-		fatal(fmt.Errorf("%s：未找到 专业录取分数 xlsx（在 %s 下）", p.name, root))
+		fatal(fmt.Errorf("%s：未找到录取分数 xlsx（%v，在 %s 下）", p.name, scoreMust, root))
 	}
 	scores, err := parser.Scores(scorePath)
 	if err != nil {

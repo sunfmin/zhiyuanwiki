@@ -1,0 +1,128 @@
+{
+  "code": "K54",
+  "name": "北京交通大学",
+  "leaves": [
+    {
+      "schoolCode": "K54",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 584,
+          "minRank": 9043,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "K54",
+      "majorKey": "7faf2092",
+      "majorName": "环境工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 596,
+          "minRank": 7014,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "K54",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 608,
+          "minRank": 5194,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "K54",
+      "majorKey": "1c1ee3f7",
+      "majorName": "通信工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 600,
+          "minRank": 6349,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "100000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 6349,
+          "equivRank": 6349
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "100000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 5194,
+          "equivRank": 5194
+        },
+        {
+          "majorName": "环境工程",
+          "majorKey": "7faf2092",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "100000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 7014,
+          "equivRank": 7014
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 6,
+          "tuition": "100000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 9043,
+          "equivRank": 9043
+        }
+      ]
+    }
+  ]
+}

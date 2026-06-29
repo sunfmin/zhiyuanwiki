@@ -1,0 +1,128 @@
+{
+  "code": "3146",
+  "name": "山东航空学院",
+  "leaves": [
+    {
+      "schoolCode": "3146",
+      "majorKey": "904549c4",
+      "majorName": "交通运输",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 522,
+          "minRank": 53007,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3146",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 477,
+          "minRank": 88668,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3146",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 515,
+          "minRank": 58055,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3146",
+      "majorKey": "c044672a",
+      "majorName": "飞行器动力工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 523,
+          "minRank": 52278,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "飞行技术",
+          "majorKey": "df925025",
+          "selKe": "化学",
+          "plan": 10,
+          "tuition": "11500",
+          "menlei": "工"
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 58055,
+          "equivRank": 58055
+        },
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 88668,
+          "equivRank": 88668
+        },
+        {
+          "majorName": "交通运输",
+          "majorKey": "904549c4",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 53007,
+          "equivRank": 53007
+        },
+        {
+          "majorName": "飞行器动力工程",
+          "majorKey": "c044672a",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 52278,
+          "equivRank": 52278
+        }
+      ]
+    }
+  ]
+}

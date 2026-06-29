@@ -1,0 +1,94 @@
+{
+  "code": "0007",
+  "name": "上海海事大学",
+  "leaves": [
+    {
+      "schoolCode": "0007",
+      "majorKey": "8f20480e",
+      "majorName": "航海技术",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 496,
+          "minRank": 25365,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0007",
+      "majorKey": "d05a55f7",
+      "majorName": "船舶电子电气工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 504,
+          "minRank": 23089,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0007",
+      "majorKey": "7115c029",
+      "majorName": "轮机工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 493,
+          "minRank": 26212,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "航海技术",
+          "majorKey": "8f20480e",
+          "selKe": "物理和化学",
+          "plan": 57,
+          "tuition": "7000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 25365,
+          "equivRank": 25365
+        },
+        {
+          "majorName": "轮机工程",
+          "majorKey": "7115c029",
+          "selKe": "物理和化学",
+          "plan": 37,
+          "tuition": "7000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 26212,
+          "equivRank": 26212
+        },
+        {
+          "majorName": "船舶电子电气工程",
+          "majorKey": "d05a55f7",
+          "selKe": "物理和化学",
+          "plan": 17,
+          "tuition": "7000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 23089,
+          "equivRank": 23089
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "code": "3394",
+  "name": "武汉华夏理工学院",
+  "leaves": [
+    {
+      "schoolCode": "3394",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 478,
+          "minRank": 87828,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3394",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 456,
+          "minRank": 24118,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 471,
+          "minRank": 93819,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3394",
+      "majorKey": "2a1f2fe5",
+      "majorName": "城乡规划",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 453,
+          "minRank": 24878,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3394",
+      "majorKey": "2079a63e",
+      "majorName": "大数据管理与应用",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 472,
+          "minRank": 92964,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3394",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 477,
+          "minRank": 88668,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3394",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 477,
+          "minRank": 88668,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "城乡规划",
+          "majorKey": "2a1f2fe5",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "21000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 24878,
+          "equivRank": 24878
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "22000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 24118,
+          "equivRank": 24118
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "22000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 88668,
+          "equivRank": 88668
+        },
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "22000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 87828,
+          "equivRank": 87828
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "22000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 88668,
+          "equivRank": 88668
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "大数据管理与应用",
+          "majorKey": "2079a63e",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "22000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 92964,
+          "equivRank": 92964
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "22000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 93819,
+          "equivRank": 93819
+        }
+      ]
+    }
+  ]
+}

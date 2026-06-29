@@ -1,0 +1,76 @@
+{
+  "code": "0109",
+  "name": "重庆师范大学",
+  "leaves": [
+    {
+      "schoolCode": "0109",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 559,
+          "minRank": 14268,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0109",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 569,
+          "minRank": 3359,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "110",
+      "groupName": "110",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "3100",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 3359,
+          "equivRank": 3359
+        }
+      ]
+    },
+    {
+      "groupCode": "220",
+      "groupName": "220",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "3750",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 14268,
+          "equivRank": 14268
+        }
+      ]
+    }
+  ]
+}

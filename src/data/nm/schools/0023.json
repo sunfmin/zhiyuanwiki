@@ -1,0 +1,411 @@
+{
+  "code": "0023",
+  "name": "中央司法警官学院",
+  "leaves": [
+    {
+      "schoolCode": "0023",
+      "majorKey": "39f460ad",
+      "majorName": "侦查学",
+      "selKe": "历史,政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 593,
+          "minRank": 1914,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 555,
+          "minRank": 15173,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0023",
+      "majorKey": "c04dc2b1",
+      "majorName": "司法警察学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 624,
+          "minRank": 674,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 577,
+          "minRank": 10380,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0023",
+      "majorKey": "919ab241",
+      "majorName": "数据警务技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 612,
+          "minRank": 4664,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0023",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 521,
+          "minRank": 7500,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 566,
+          "minRank": 12722,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0023",
+      "majorKey": "a5b00ae5",
+      "majorName": "监狱学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 598,
+          "minRank": 1669,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 567,
+          "minRank": 12501,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0023",
+      "majorKey": "cd1ecf5e",
+      "majorName": "禁毒学",
+      "selKe": "历史,政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 593,
+          "minRank": 1914,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 536,
+          "minRank": 19815,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "监狱学",
+          "majorKey": "a5b00ae5",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5060",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 1669,
+          "equivRank": 1669
+        },
+        {
+          "majorName": "司法警察学",
+          "majorKey": "c04dc2b1",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5060",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 674,
+          "equivRank": 674
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5060",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 7500,
+          "equivRank": 7500
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "历史",
+      "selKe": "思想政治",
+      "majors": [
+        {
+          "majorName": "侦查学",
+          "majorKey": "39f460ad",
+          "selKe": "思想政治",
+          "plan": 1,
+          "tuition": "5060",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 1914,
+          "equivRank": 1914
+        },
+        {
+          "majorName": "禁毒学",
+          "majorKey": "cd1ecf5e",
+          "selKe": "思想政治",
+          "plan": 1,
+          "tuition": "5060",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 1914,
+          "equivRank": 1914
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "司法警察学",
+          "majorKey": "c04dc2b1",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5060",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 674,
+          "equivRank": 674
+        }
+      ]
+    },
+    {
+      "groupCode": "501",
+      "groupName": "501",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "监狱学",
+          "majorKey": "a5b00ae5",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5060",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 1669,
+          "equivRank": 1669
+        },
+        {
+          "majorName": "司法警察学",
+          "majorKey": "c04dc2b1",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5060",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 674,
+          "equivRank": 674
+        }
+      ]
+    },
+    {
+      "groupCode": "502",
+      "groupName": "502",
+      "track": "历史",
+      "selKe": "思想政治",
+      "majors": [
+        {
+          "majorName": "侦查学",
+          "majorKey": "39f460ad",
+          "selKe": "思想政治",
+          "plan": 1,
+          "tuition": "5060",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 1914,
+          "equivRank": 1914
+        },
+        {
+          "majorName": "禁毒学",
+          "majorKey": "cd1ecf5e",
+          "selKe": "思想政治",
+          "plan": 1,
+          "tuition": "5060",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 1914,
+          "equivRank": 1914
+        }
+      ]
+    },
+    {
+      "groupCode": "201",
+      "groupName": "201",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "司法警察学",
+          "majorKey": "c04dc2b1",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "5060",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 10380,
+          "equivRank": 10380
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5060",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 12722,
+          "equivRank": 12722
+        },
+        {
+          "majorName": "监狱学",
+          "majorKey": "a5b00ae5",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5060",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 12501,
+          "equivRank": 12501
+        }
+      ]
+    },
+    {
+      "groupCode": "202",
+      "groupName": "202",
+      "track": "物理",
+      "selKe": "思想政治",
+      "majors": [
+        {
+          "majorName": "侦查学",
+          "majorKey": "39f460ad",
+          "selKe": "思想政治",
+          "plan": 2,
+          "tuition": "5060",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 15173,
+          "equivRank": 15173
+        },
+        {
+          "majorName": "禁毒学",
+          "majorKey": "cd1ecf5e",
+          "selKe": "思想政治",
+          "plan": 2,
+          "tuition": "5060",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 19815,
+          "equivRank": 19815
+        }
+      ]
+    },
+    {
+      "groupCode": "203",
+      "groupName": "203",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数据警务技术",
+          "majorKey": "919ab241",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5060",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 4664,
+          "equivRank": 4664
+        }
+      ]
+    },
+    {
+      "groupCode": "401",
+      "groupName": "401",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "司法警察学",
+          "majorKey": "c04dc2b1",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5060",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 10380,
+          "equivRank": 10380
+        }
+      ]
+    },
+    {
+      "groupCode": "603",
+      "groupName": "603",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数据警务技术",
+          "majorKey": "919ab241",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5060",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 4664,
+          "equivRank": 4664
+        }
+      ]
+    }
+  ]
+}

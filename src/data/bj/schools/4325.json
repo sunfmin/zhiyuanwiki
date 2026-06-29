@@ -1,0 +1,102 @@
+{
+  "code": "4325",
+  "name": "南华大学",
+  "leaves": [
+    {
+      "schoolCode": "4325",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 566,
+          "minRank": 19949,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4325",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 510,
+          "minRank": 34871,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4325",
+      "majorKey": "470379d7",
+      "majorName": "核工程与核技术",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 563,
+          "minRank": 20702,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 34871,
+          "equivRank": 34871
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "7500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 19949,
+          "equivRank": 19949
+        },
+        {
+          "majorName": "核工程与核技术",
+          "majorKey": "470379d7",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 20702,
+          "equivRank": 20702
+        }
+      ]
+    }
+  ]
+}

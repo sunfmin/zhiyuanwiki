@@ -1,0 +1,68 @@
+{
+  "code": "M71",
+  "name": "山西能源学院",
+  "leaves": [
+    {
+      "schoolCode": "M71",
+      "majorKey": "e16fbe20",
+      "majorName": "安全工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 460,
+          "minRank": 41908,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "M71",
+      "majorKey": "3f9a4574",
+      "majorName": "采矿工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 464,
+          "minRank": 40648,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "采矿工程",
+          "majorKey": "3f9a4574",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5280",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 40648,
+          "equivRank": 40648
+        },
+        {
+          "majorName": "安全工程",
+          "majorKey": "e16fbe20",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5280",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 41908,
+          "equivRank": 41908
+        }
+      ]
+    }
+  ]
+}

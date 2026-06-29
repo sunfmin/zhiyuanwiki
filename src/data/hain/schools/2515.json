@@ -1,0 +1,136 @@
+{
+  "code": "2515",
+  "name": "六盘水师范学院",
+  "leaves": [
+    {
+      "schoolCode": "2515",
+      "majorKey": "ca01c9a2",
+      "majorName": "动物科学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 525,
+          "minRank": 30362,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2515",
+      "majorKey": "f9ecceea",
+      "majorName": "地理信息科学",
+      "selKe": "物理、地理(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 565,
+          "minRank": 19738,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2515",
+      "majorKey": "80748845",
+      "majorName": "旅游管理与服务教育",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 559,
+          "minRank": 21189,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2515",
+      "majorKey": "9b8820c1",
+      "majorName": "风景园林",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 560,
+          "minRank": 20915,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "旅游管理与服务教育",
+          "majorKey": "80748845",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4100",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 21189,
+          "equivRank": 21189
+        },
+        {
+          "majorName": "风景园林",
+          "majorKey": "9b8820c1",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 20915,
+          "equivRank": 20915
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "动物科学",
+          "majorKey": "ca01c9a2",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "3830",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 30362,
+          "equivRank": 30362
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理,地理",
+      "majors": [
+        {
+          "majorName": "地理信息科学",
+          "majorKey": "f9ecceea",
+          "selKe": "物理,地理",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 19738,
+          "equivRank": 19738
+        }
+      ]
+    }
+  ]
+}

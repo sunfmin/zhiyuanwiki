@@ -1,0 +1,68 @@
+{
+  "code": "7229",
+  "name": "四川警察学院",
+  "leaves": [
+    {
+      "schoolCode": "7229",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 526,
+          "minRank": 11638,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 492,
+          "minRank": 60573,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "5520",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 11638,
+          "equivRank": 11638
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "物理",
+          "plan": 4,
+          "tuition": "5520",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 60573,
+          "equivRank": 60573
+        }
+      ]
+    }
+  ]
+}

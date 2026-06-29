@@ -1,0 +1,66 @@
+{
+  "code": "0055",
+  "name": "中国消防救援学院",
+  "leaves": [
+    {
+      "schoolCode": "0055",
+      "majorKey": "6332a75d",
+      "majorName": "消防工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 507,
+          "minRank": 22221,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "火灾勘查",
+          "majorKey": "ccbc1616",
+          "selKe": "物理和化学",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "工"
+        },
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "物理和化学",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "工"
+        },
+        {
+          "majorName": "消防工程",
+          "majorKey": "6332a75d",
+          "selKe": "物理和化学",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 22221,
+          "equivRank": 22221
+        },
+        {
+          "majorName": "飞行器控制与信息工程",
+          "majorKey": "62f76a53",
+          "selKe": "物理和化学",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

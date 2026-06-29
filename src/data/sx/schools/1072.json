@@ -1,0 +1,173 @@
+{
+  "code": "1072",
+  "name": "中国消防救援学院",
+  "leaves": [
+    {
+      "schoolCode": "1072",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 586,
+          "minRank": 3215,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1072",
+      "majorKey": "6332a75d",
+      "majorName": "消防工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 549,
+          "minRank": 28495,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1072",
+      "majorKey": "ccbc1616",
+      "majorName": "火灾勘查",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 512,
+          "minRank": 47613,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1072",
+      "majorKey": "1c1ee3f7",
+      "majorName": "通信工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 562,
+          "minRank": 23214,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1072",
+      "majorKey": "62f76a53",
+      "majorName": "飞行器控制与信息工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 544,
+          "minRank": 30700,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "历史,政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "历史,政治",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 3215,
+          "equivRank": 3215
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "消防工程",
+          "majorKey": "6332a75d",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "免费",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 28495,
+          "equivRank": 28495
+        },
+        {
+          "majorName": "飞行器控制与信息工程",
+          "majorKey": "62f76a53",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "免费",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 30700,
+          "equivRank": 30700
+        },
+        {
+          "majorName": "火灾勘查",
+          "majorKey": "ccbc1616",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 47613,
+          "equivRank": 47613
+        },
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 23214,
+          "equivRank": 23214
+        }
+      ]
+    },
+    {
+      "groupCode": "103",
+      "groupName": "103",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 23214,
+          "equivRank": 23214
+        }
+      ]
+    }
+  ]
+}

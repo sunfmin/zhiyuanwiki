@@ -1,0 +1,120 @@
+{
+  "code": "2323",
+  "name": "佳木斯大学",
+  "leaves": [
+    {
+      "schoolCode": "2323",
+      "majorKey": "4ef2a1b4",
+      "majorName": "机械电子工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 456,
+          "minRank": 13372,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2323",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 446,
+          "minRank": 15162,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2323",
+      "majorKey": "34997647",
+      "majorName": "能源与动力工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 446,
+          "minRank": 15162,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2323",
+      "majorKey": "92b6110d",
+      "majorName": "车辆工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 444,
+          "minRank": 15533,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "501",
+      "groupName": "501",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "4000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 15162,
+          "equivRank": 15162
+        },
+        {
+          "majorName": "机械电子工程",
+          "majorKey": "4ef2a1b4",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 13372,
+          "equivRank": 13372
+        },
+        {
+          "majorName": "能源与动力工程",
+          "majorKey": "34997647",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 15162,
+          "equivRank": 15162
+        },
+        {
+          "majorName": "车辆工程",
+          "majorKey": "92b6110d",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 15533,
+          "equivRank": 15533
+        }
+      ]
+    }
+  ]
+}

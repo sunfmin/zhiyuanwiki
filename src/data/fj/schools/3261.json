@@ -1,0 +1,180 @@
+{
+  "code": "3261",
+  "name": "深圳技术大学",
+  "leaves": [
+    {
+      "schoolCode": "3261",
+      "majorKey": "28c62e21",
+      "majorName": "市场营销",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 570,
+          "minRank": 4392,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3261",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 599,
+          "minRank": 13078,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3261",
+      "majorKey": "42b22d93",
+      "majorName": "新能源科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 602,
+          "minRank": 12115,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3261",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 600,
+          "minRank": 12735,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3261",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 570,
+          "minRank": 4392,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3261",
+      "majorKey": "92b6110d",
+      "majorName": "车辆工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 599,
+          "minRank": 13078,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 4392,
+          "equivRank": 4392
+        },
+        {
+          "majorName": "市场营销",
+          "majorKey": "28c62e21",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 4392,
+          "equivRank": 4392
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "6200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 12735,
+          "equivRank": 12735
+        },
+        {
+          "majorName": "车辆工程",
+          "majorKey": "92b6110d",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 13078,
+          "equivRank": 13078
+        },
+        {
+          "majorName": "新能源科学与工程",
+          "majorKey": "42b22d93",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "6200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 12115,
+          "equivRank": 12115
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "6200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 13078,
+          "equivRank": 13078
+        }
+      ]
+    }
+  ]
+}

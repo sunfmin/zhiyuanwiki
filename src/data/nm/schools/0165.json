@@ -1,0 +1,128 @@
+{
+  "code": "0165",
+  "name": "山东英才学院",
+  "leaves": [
+    {
+      "schoolCode": "0165",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "历史,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 436,
+          "minRank": 18135,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 402,
+          "minRank": 60654,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0165",
+      "majorKey": "3bcfe22a",
+      "majorName": "智能车辆工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 399,
+          "minRank": 61601,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0165",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 400,
+          "minRank": 61271,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "历史",
+      "selKe": "生物学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物学",
+          "plan": 8,
+          "tuition": "29800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 18135,
+          "equivRank": 18135
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "生物学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物学",
+          "plan": 2,
+          "tuition": "29800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 60654,
+          "equivRank": 60654
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "29800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 61271,
+          "equivRank": 61271
+        },
+        {
+          "majorName": "智能车辆工程",
+          "majorKey": "3bcfe22a",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "28000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 61601,
+          "equivRank": 61601
+        }
+      ]
+    }
+  ]
+}

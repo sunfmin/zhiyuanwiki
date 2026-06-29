@@ -1,0 +1,120 @@
+{
+  "code": "2696",
+  "name": "河南工学院",
+  "leaves": [
+    {
+      "schoolCode": "2696",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 512,
+          "minRank": 60283,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2696",
+      "majorKey": "98867766",
+      "majorName": "材料成型及控制工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 509,
+          "minRank": 62571,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2696",
+      "majorKey": "b26a9631",
+      "majorName": "虚拟现实技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 510,
+          "minRank": 61799,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2696",
+      "majorKey": "0c33cbdd",
+      "majorName": "软件工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 513,
+          "minRank": 59514,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "材料成型及控制工程",
+          "majorKey": "98867766",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 62571,
+          "equivRank": 62571
+        },
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 60283,
+          "equivRank": 60283
+        },
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 59514,
+          "equivRank": 59514
+        },
+        {
+          "majorName": "虚拟现实技术",
+          "majorKey": "b26a9631",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 61799,
+          "equivRank": 61799
+        }
+      ]
+    }
+  ]
+}

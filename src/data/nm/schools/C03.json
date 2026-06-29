@@ -1,0 +1,172 @@
+{
+  "code": "C03",
+  "name": "重庆对外经贸学院",
+  "leaves": [
+    {
+      "schoolCode": "C03",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 436,
+          "minRank": 49690,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "C03",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 467,
+          "minRank": 13946,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "C03",
+      "majorKey": "bda0ff17",
+      "majorName": "经济学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 469,
+          "minRank": 13678,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 421,
+          "minRank": 54593,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "C03",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 468,
+          "minRank": 13817,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 421,
+          "minRank": 54593,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "15000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 13678,
+          "equivRank": 13678
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "15000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 13946,
+          "equivRank": 13946
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "15000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 13817,
+          "equivRank": 13817
+        }
+      ]
+    },
+    {
+      "groupCode": "151",
+      "groupName": "151",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "15000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 54593,
+          "equivRank": 54593
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "15000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 54593,
+          "equivRank": 54593
+        }
+      ]
+    },
+    {
+      "groupCode": "152",
+      "groupName": "152",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "16000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 49690,
+          "equivRank": 49690
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "code": "B96",
+  "name": "南阳理工学院",
+  "leaves": [
+    {
+      "schoolCode": "B96",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 431,
+          "minRank": 51337,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "B96",
+      "majorKey": "2079a63e",
+      "majorName": "大数据管理与应用",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 496,
+          "minRank": 30906,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "B96",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 521,
+          "minRank": 7500,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "B96",
+      "majorKey": "14eeb10f",
+      "majorName": "生物工程",
+      "selKe": "物理,化学,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 447,
+          "minRank": 46038,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "B96",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 525,
+          "minRank": 7117,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 511,
+          "minRank": 26673,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "B96",
+      "majorKey": "1319cb6a",
+      "majorName": "道路桥梁与渡河工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 437,
+          "minRank": 49381,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "004",
+      "groupName": "004",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4400",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 7117,
+          "equivRank": 7117
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4400",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 7500,
+          "equivRank": 7500
+        }
+      ]
+    },
+    {
+      "groupCode": "005",
+      "groupName": "005",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 51337,
+          "equivRank": 51337
+        },
+        {
+          "majorName": "道路桥梁与渡河工程",
+          "majorKey": "1319cb6a",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 49381,
+          "equivRank": 49381
+        }
+      ]
+    },
+    {
+      "groupCode": "006",
+      "groupName": "006",
+      "track": "物理",
+      "selKe": "化学,生物学",
+      "majors": [
+        {
+          "majorName": "生物工程",
+          "majorKey": "14eeb10f",
+          "selKe": "化学,生物学",
+          "plan": 4,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 46038,
+          "equivRank": 46038
+        }
+      ]
+    },
+    {
+      "groupCode": "007",
+      "groupName": "007",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4400",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 26673,
+          "equivRank": 26673
+        },
+        {
+          "majorName": "大数据管理与应用",
+          "majorKey": "2079a63e",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "4400",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 30906,
+          "equivRank": 30906
+        }
+      ]
+    }
+  ]
+}

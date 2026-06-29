@@ -1,0 +1,198 @@
+{
+  "code": "2419",
+  "name": "绥化学院",
+  "leaves": [
+    {
+      "schoolCode": "2419",
+      "majorKey": "c5a57efa",
+      "majorName": "水利水电工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 468,
+          "minRank": 77567,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2419",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 470,
+          "minRank": 76071,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2419",
+      "majorKey": "fff04889",
+      "majorName": "网络与新媒体",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 479,
+          "minRank": 22730,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 458,
+          "minRank": 84818,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2419",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 479,
+          "minRank": 22730,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2419",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 479,
+          "minRank": 22730,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 456,
+          "minRank": 86326,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "4500",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 22730,
+          "equivRank": 22730
+        },
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 22730,
+          "equivRank": 22730
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 22730,
+          "equivRank": 22730
+        }
+      ]
+    },
+    {
+      "groupCode": "104",
+      "groupName": "104",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 84818,
+          "equivRank": 84818
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 86326,
+          "equivRank": 86326
+        }
+      ]
+    },
+    {
+      "groupCode": "106",
+      "groupName": "106",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "水利水电工程",
+          "majorKey": "c5a57efa",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 77567,
+          "equivRank": 77567
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 76071,
+          "equivRank": 76071
+        }
+      ]
+    }
+  ]
+}

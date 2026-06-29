@@ -1,0 +1,102 @@
+{
+  "code": "P60",
+  "name": "西昌学院",
+  "leaves": [
+    {
+      "schoolCode": "P60",
+      "majorKey": "8a0736ce",
+      "majorName": "冶金工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 428,
+          "minRank": 52332,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "P60",
+      "majorKey": "ca01c9a2",
+      "majorName": "动物科学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 417,
+          "minRank": 55931,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "P60",
+      "majorKey": "f05787fd",
+      "majorName": "智慧牧业科学与工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 418,
+          "minRank": 55623,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "动物科学",
+          "majorKey": "ca01c9a2",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5520",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 55931,
+          "equivRank": 55931
+        },
+        {
+          "majorName": "智慧牧业科学与工程",
+          "majorKey": "f05787fd",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5520",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 55623,
+          "equivRank": 55623
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "冶金工程",
+          "majorKey": "8a0736ce",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5980",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 52332,
+          "equivRank": 52332
+        }
+      ]
+    }
+  ]
+}

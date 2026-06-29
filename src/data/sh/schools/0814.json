@@ -1,0 +1,76 @@
+{
+  "code": "0814",
+  "name": "桂林医科大学",
+  "leaves": [
+    {
+      "schoolCode": "0814",
+      "majorKey": "a507c400",
+      "majorName": "康复治疗学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 463,
+          "minRank": 34731,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0814",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 455,
+          "minRank": 36838,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "康复治疗学",
+          "majorKey": "a507c400",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "6480",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 34731,
+          "equivRank": 34731
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "物理和化学",
+          "plan": 1,
+          "tuition": "6480",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 36838,
+          "equivRank": 36838
+        }
+      ]
+    }
+  ]
+}

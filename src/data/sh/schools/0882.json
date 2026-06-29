@@ -1,0 +1,68 @@
+{
+  "code": "0882",
+  "name": "吉利学院",
+  "leaves": [
+    {
+      "schoolCode": "0882",
+      "majorKey": "8230723d",
+      "majorName": "计算机类",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 408,
+          "minRank": 48030,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0882",
+      "majorKey": "92b6110d",
+      "majorName": "车辆工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 411,
+          "minRank": 47401,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "车辆工程",
+          "majorKey": "92b6110d",
+          "selKe": "物理和化学",
+          "plan": 3,
+          "tuition": "26800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 47401,
+          "equivRank": 47401
+        },
+        {
+          "majorName": "计算机类",
+          "majorKey": "8230723d",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "26800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 48030,
+          "equivRank": 48030
+        }
+      ]
+    }
+  ]
+}

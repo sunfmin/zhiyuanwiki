@@ -1,0 +1,110 @@
+{
+  "code": "10038",
+  "name": "首都经济贸易大学",
+  "leaves": [
+    {
+      "schoolCode": "10038",
+      "majorKey": "ca969af2",
+      "majorName": "供应链管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 581,
+          "minRank": 43757,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10038",
+      "majorKey": "24c5453f",
+      "majorName": "统计学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 587,
+          "minRank": 37840,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10038",
+      "majorKey": "8b94c422",
+      "majorName": "贸易经济",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 588,
+          "minRank": 8476,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "204",
+      "groupName": "204",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "贸易经济",
+          "majorKey": "8b94c422",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "5000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 8476,
+          "equivRank": 8476
+        }
+      ]
+    },
+    {
+      "groupCode": "205",
+      "groupName": "205",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "供应链管理",
+          "majorKey": "ca969af2",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 43757,
+          "equivRank": 43757
+        }
+      ]
+    },
+    {
+      "groupCode": "206",
+      "groupName": "206",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "统计学",
+          "majorKey": "24c5453f",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 37840,
+          "equivRank": 37840
+        }
+      ]
+    }
+  ]
+}

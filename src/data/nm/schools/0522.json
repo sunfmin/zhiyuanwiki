@@ -1,0 +1,136 @@
+{
+  "code": "0522",
+  "name": "首都经济贸易大学",
+  "leaves": [
+    {
+      "schoolCode": "0522",
+      "majorKey": "55e3bd26",
+      "majorName": "信息管理与信息系统",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 581,
+          "minRank": 9574,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0522",
+      "majorKey": "63da9816",
+      "majorName": "公共管理类",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 589,
+          "minRank": 2115,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0522",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 589,
+          "minRank": 2115,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0522",
+      "majorKey": "24c5453f",
+      "majorName": "统计学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 594,
+          "minRank": 7337,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "公共管理类",
+          "majorKey": "63da9816",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "5000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 2115,
+          "equivRank": 2115
+        },
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "5000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 2115,
+          "equivRank": 2115
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "信息管理与信息系统",
+          "majorKey": "55e3bd26",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 9574,
+          "equivRank": 9574
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "统计学",
+          "majorKey": "24c5453f",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 7337,
+          "equivRank": 7337
+        }
+      ]
+    }
+  ]
+}

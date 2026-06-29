@@ -1,0 +1,128 @@
+{
+  "code": "3726",
+  "name": "山东农业大学",
+  "leaves": [
+    {
+      "schoolCode": "3726",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 476,
+          "minRank": 3774,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3726",
+      "majorKey": "c6b832d2",
+      "majorName": "葡萄与葡萄酒工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 442,
+          "minRank": 15926,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3726",
+      "majorKey": "062bcf46",
+      "majorName": "行政管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 478,
+          "minRank": 3660,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3726",
+      "majorKey": "7b7511cd",
+      "majorName": "食品科学与工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 435,
+          "minRank": 17304,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "5500",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 3774,
+          "equivRank": 3774
+        },
+        {
+          "majorName": "行政管理",
+          "majorKey": "062bcf46",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "6600",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 3660,
+          "equivRank": 3660
+        }
+      ]
+    },
+    {
+      "groupCode": "501",
+      "groupName": "501",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "葡萄与葡萄酒工程",
+          "majorKey": "c6b832d2",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 15926,
+          "equivRank": 15926
+        },
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 17304,
+          "equivRank": 17304
+        }
+      ]
+    }
+  ]
+}

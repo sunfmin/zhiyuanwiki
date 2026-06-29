@@ -1,0 +1,158 @@
+{
+  "code": "3120",
+  "name": "上海理工大学",
+  "leaves": [
+    {
+      "schoolCode": "3120",
+      "majorKey": "b363aa3d",
+      "majorName": "工科试验班",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 529,
+          "minRank": 4265,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3120",
+      "majorKey": "331c4c8e",
+      "majorName": "新闻传播学类",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 518,
+          "minRank": 1770,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3120",
+      "majorKey": "54728189",
+      "majorName": "理科试验班",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 527,
+          "minRank": 4435,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3120",
+      "majorKey": "47abff30",
+      "majorName": "经济管理试验班",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 519,
+          "minRank": 1739,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "经济管理试验班",
+          "majorKey": "47abff30",
+          "selKe": "历史",
+          "plan": 8,
+          "tuition": "6500",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 1739,
+          "equivRank": 1739
+        },
+        {
+          "majorName": "新闻传播学类",
+          "majorKey": "331c4c8e",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "6500",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 1770,
+          "equivRank": 1770
+        }
+      ]
+    },
+    {
+      "groupCode": "501",
+      "groupName": "501",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "物理,化学",
+          "plan": 34,
+          "tuition": "7000",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 4265,
+          "equivRank": 4265
+        },
+        {
+          "majorName": "理科试验班",
+          "majorKey": "54728189",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "7000",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 4435,
+          "equivRank": 4435
+        },
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "物理,化学",
+          "plan": 17,
+          "tuition": "7000",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 4265,
+          "equivRank": 4265
+        }
+      ]
+    },
+    {
+      "groupCode": "5A2",
+      "groupName": "5A2",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "7000",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 4265,
+          "equivRank": 4265
+        }
+      ]
+    }
+  ]
+}

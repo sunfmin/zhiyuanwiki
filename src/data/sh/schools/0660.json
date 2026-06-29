@@ -1,0 +1,76 @@
+{
+  "code": "0660",
+  "name": "济宁学院",
+  "leaves": [
+    {
+      "schoolCode": "0660",
+      "majorKey": "97b7b689",
+      "majorName": "生物制药",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 425,
+          "minRank": 44325,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0660",
+      "majorKey": "e6a89fa4",
+      "majorName": "金融工程",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 419,
+          "minRank": 45675,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "金融工程",
+          "majorKey": "e6a89fa4",
+          "selKe": "物理",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 45675,
+          "equivRank": 45675
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "生物制药",
+          "majorKey": "97b7b689",
+          "selKe": "物理和化学",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 44325,
+          "equivRank": 44325
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "code": "0373",
+  "name": "延边大学",
+  "leaves": [
+    {
+      "schoolCode": "0373",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 515,
+          "minRank": 19985,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0373",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 492,
+          "minRank": 26498,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0373",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 490,
+          "minRank": 27085,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0373",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 511,
+          "minRank": 21070,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0373",
+      "majorKey": "83eea431",
+      "majorName": "麻醉学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 497,
+          "minRank": 25079,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "5280",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 26498,
+          "equivRank": 26498
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "麻醉学",
+          "majorKey": "83eea431",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "5600",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 25079,
+          "equivRank": 25079
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "5940",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 21070,
+          "equivRank": 21070
+        },
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "5400",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 27085,
+          "equivRank": 27085
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "6160",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 19985,
+          "equivRank": 19985
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "code": "2326",
+  "name": "齐齐哈尔大学",
+  "leaves": [
+    {
+      "schoolCode": "2326",
+      "majorKey": "d061ae24",
+      "majorName": "地理科学",
+      "selKe": "地理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 509,
+          "minRank": 35136,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2326",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 483,
+          "minRank": 42042,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2326",
+      "majorKey": "8230723d",
+      "majorName": "计算机类",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 482,
+          "minRank": 42293,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "地理",
+      "majors": [
+        {
+          "majorName": "地理科学",
+          "majorKey": "d061ae24",
+          "selKe": "地理",
+          "plan": 2,
+          "tuition": "2500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 35136,
+          "equivRank": 35136
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 42042,
+          "equivRank": 42042
+        },
+        {
+          "majorName": "计算机类",
+          "majorKey": "8230723d",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 42293,
+          "equivRank": 42293
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "code": "F42",
+  "name": "桂林学院",
+  "leaves": [
+    {
+      "schoolCode": "F42",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 446,
+          "minRank": 16745,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 390,
+          "minRank": 64361,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "F42",
+      "majorKey": "d2fbd5c5",
+      "majorName": "汉语国际教育",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 453,
+          "minRank": 15792,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "F42",
+      "majorKey": "1da18825",
+      "majorName": "物联网工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 392,
+          "minRank": 63748,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "F42",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 392,
+          "minRank": 63748,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语国际教育",
+          "majorKey": "d2fbd5c5",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "19800",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 15792,
+          "equivRank": 15792
+        },
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "19800",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 16745,
+          "equivRank": 16745
+        }
+      ]
+    },
+    {
+      "groupCode": "151",
+      "groupName": "151",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "19800",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 64361,
+          "equivRank": 64361
+        }
+      ]
+    },
+    {
+      "groupCode": "161",
+      "groupName": "161",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "22000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 63748,
+          "equivRank": 63748
+        },
+        {
+          "majorName": "物联网工程",
+          "majorKey": "1da18825",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "22000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 63748,
+          "equivRank": 63748
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "code": "2217",
+  "name": "安阳工学院",
+  "leaves": [
+    {
+      "schoolCode": "2217",
+      "majorKey": "55e3bd26",
+      "majorName": "信息管理与信息系统",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 470,
+          "minRank": 94712,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2217",
+      "majorKey": "28bd788f",
+      "majorName": "制药工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 493,
+          "minRank": 75303,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2217",
+      "majorKey": "1f59c989",
+      "majorName": "化学工程与工艺",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 490,
+          "minRank": 77780,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2217",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 484,
+          "minRank": 17924,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2217",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 489,
+          "minRank": 78616,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2217",
+      "majorKey": "2a1f2fe5",
+      "majorName": "城乡规划",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 466,
+          "minRank": 98212,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2217",
+      "majorKey": "409f7ac3",
+      "majorName": "应用物理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 490,
+          "minRank": 77780,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2217",
+      "majorKey": "b54c1697",
+      "majorName": "网络工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 493,
+          "minRank": 75303,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2217",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 484,
+          "minRank": 17924,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2217",
+      "majorKey": "9a3bf03b",
+      "majorName": "飞行器质量与可靠性",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 510,
+          "minRank": 61799,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2217",
+      "majorKey": "df925025",
+      "majorName": "飞行技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 517,
+          "minRank": 56618,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械电子工程",
+          "majorKey": "4ef2a1b4",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "18000",
+          "menlei": "工",
+          "coop": true
+        },
+        {
+          "majorName": "城乡规划",
+          "majorKey": "2a1f2fe5",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "18000",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 98212,
+          "equivRank": 98212
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "信息管理与信息系统",
+          "majorKey": "55e3bd26",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "28000",
+          "menlei": "管",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 94712,
+          "equivRank": 94712
+        }
+      ]
+    }
+  ]
+}

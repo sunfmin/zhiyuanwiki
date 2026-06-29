@@ -1,0 +1,214 @@
+{
+  "code": "E47",
+  "name": "泉州师范学院",
+  "leaves": [
+    {
+      "schoolCode": "E47",
+      "majorKey": "cde36de1",
+      "majorName": "民族预科班",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 489,
+          "minRank": 11157,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 452,
+          "minRank": 44442,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "E47",
+      "majorKey": "37356fa4",
+      "majorName": "环境科学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 439,
+          "minRank": 48647,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "E47",
+      "majorKey": "e2472a71",
+      "majorName": "生物科学",
+      "selKe": "物理,化学,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 478,
+          "minRank": 36331,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "E47",
+      "majorKey": "262ecb48",
+      "majorName": "纺织工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 437,
+          "minRank": 49381,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "E47",
+      "majorKey": "7b7511cd",
+      "majorName": "食品科学与工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 450,
+          "minRank": 45095,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "E47",
+      "majorKey": "fc81313f",
+      "majorName": "高分子材料与工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 450,
+          "minRank": 45095,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "民族预科班",
+          "majorKey": "cde36de1",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5040",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 11157,
+          "equivRank": 11157
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "民族预科班",
+          "majorKey": "cde36de1",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5040",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 44442,
+          "equivRank": 44442
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "004",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "高分子材料与工程",
+          "majorKey": "fc81313f",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5040",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 45095,
+          "equivRank": 45095
+        },
+        {
+          "majorName": "纺织工程",
+          "majorKey": "262ecb48",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5040",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 49381,
+          "equivRank": 49381
+        },
+        {
+          "majorName": "环境科学",
+          "majorKey": "37356fa4",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5040",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 48647,
+          "equivRank": 48647
+        },
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5040",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 45095,
+          "equivRank": 45095
+        }
+      ]
+    },
+    {
+      "groupCode": "006",
+      "groupName": "006",
+      "track": "物理",
+      "selKe": "化学,生物学",
+      "majors": [
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "化学,生物学",
+          "plan": 2,
+          "tuition": "5460",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 36331,
+          "equivRank": 36331
+        }
+      ]
+    }
+  ]
+}

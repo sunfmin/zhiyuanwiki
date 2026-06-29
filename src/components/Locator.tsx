@@ -26,6 +26,7 @@ import {
 
 const PRIMARY_RESELECT = ["化学", "生物", "政治", "地理"]; // 黑龙江：首选物理/历史外的再选
 const ZJ_SUBJECTS = ["物理", "化学", "生物", "政治", "历史", "地理", "技术"]; // 浙江 7选3
+const PICK3_SUBJECTS = ["物理", "化学", "生物", "政治", "历史", "地理"]; // 北京/上海/海南/山东 6选3（无技术）
 // 远档预览的说明文案。承重的分列/截断/补齐规则已在 dingwei.assembleColumns（见 ADR-0010），这里只剩 UI copy。
 const FAR_NOTE: Record<"够不着" | "过保", string> = {
   够不着: "比冲更难，基本搏不到",
@@ -41,7 +42,10 @@ const REACH_CLS: Record<ReachLevel, string> = {
 export default function Locator({ prov, table }: { prov: string; table: YiFenYiDuan }) {
   const cfg = provinceConfig(prov);
   const multiTrack = cfg.tracks.length > 1;
-  const pick3 = cfg.subjectMode === "pick3of7";
+  // pick3：综合「选3」模型——浙江 7选3（含技术）与北京/上海/海南/山东 6选3（无技术）共用同一套
+  // 选科判定（selKeAllowsZJ）与「最多 3 科」逻辑，仅候选科目表不同。
+  const pick3 = cfg.subjectMode === "pick3of7" || cfg.subjectMode === "pick3of6";
+  const pick3Subjects = cfg.subjectMode === "pick3of7" ? ZJ_SUBJECTS : PICK3_SUBJECTS;
   const matchSelKe = pick3 ? selKeAllowsZJ : selKeAllows;
   const unit = cfg.fillModel === "group" ? "院校专业组" : "院校×专业";
   const LS_KEY = `dingwei.input.${prov}`;
@@ -130,7 +134,7 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
   const chosen = useMemo(() => {
     if (pick3) {
       const s = new Set<string>();
-      for (const k of ZJ_SUBJECTS) if (sel[k]) s.add(k);
+      for (const k of pick3Subjects) if (sel[k]) s.add(k);
       return s;
     }
     const s = new Set<string>([track]);
@@ -278,7 +282,7 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
   function toggleSubject(s: string) {
     setSel((p) => {
       const on = !!p[s];
-      if (!on && pick3 && ZJ_SUBJECTS.filter((k) => p[k]).length >= 3) return p; // 已满 3 科
+      if (!on && pick3 && pick3Subjects.filter((k) => p[k]).length >= 3) return p; // 已满 3 科
       return { ...p, [s]: !on };
     });
   }
@@ -343,8 +347,10 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
               />
             </div>
             <div class="flex flex-wrap items-center gap-1.5">
-              <span class="text-xs text-slate-400">{pick3 ? "选考科目（7选3）" : "再选科目"}</span>
-              {(pick3 ? ZJ_SUBJECTS : PRIMARY_RESELECT).map((s) => (
+              <span class="text-xs text-slate-400">
+                {pick3 ? `选考科目（${pick3Subjects.length}选3）` : "再选科目"}
+              </span>
+              {(pick3 ? pick3Subjects : PRIMARY_RESELECT).map((s) => (
                 <button
                   type="button"
                   onClick={() => toggleSubject(s)}

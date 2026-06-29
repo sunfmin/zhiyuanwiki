@@ -1,0 +1,94 @@
+{
+  "code": "0869",
+  "name": "西华大学",
+  "leaves": [
+    {
+      "schoolCode": "0869",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 454,
+          "minRank": 37099,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0869",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 470,
+          "minRank": 32768,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0869",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 462,
+          "minRank": 35017,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限科目",
+          "plan": 3,
+          "tuition": "5520",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 35017,
+          "equivRank": 35017
+        },
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "不限科目",
+          "plan": 4,
+          "tuition": "5520",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 37099,
+          "equivRank": 37099
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限科目",
+          "plan": 3,
+          "tuition": "5520",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 32768,
+          "equivRank": 32768
+        }
+      ]
+    }
+  ]
+}

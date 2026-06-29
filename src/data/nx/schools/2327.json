@@ -1,0 +1,206 @@
+{
+  "code": "2327",
+  "name": "哈尔滨师范大学",
+  "leaves": [
+    {
+      "schoolCode": "2327",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 487,
+          "minRank": 3137,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 435,
+          "minRank": 17304,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2327",
+      "majorKey": "f9ecceea",
+      "majorName": "地理信息科学",
+      "selKe": "物理,地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 433,
+          "minRank": 17706,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2327",
+      "majorKey": "4ea26300",
+      "majorName": "广播电视学",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 428,
+          "minRank": 18721,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2327",
+      "majorKey": "e6cfcc6c",
+      "majorName": "材料化学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 432,
+          "minRank": 17893,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2327",
+      "majorKey": "bda0ff17",
+      "majorName": "经济学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 481,
+          "minRank": 3469,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 435,
+          "minRank": 17304,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "3500",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 3469,
+          "equivRank": 3469
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 3137,
+          "equivRank": 3137
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "广播电视学",
+          "majorKey": "4ea26300",
+          "selKe": "物理",
+          "plan": 5,
+          "tuition": "8500",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 18721,
+          "equivRank": 18721
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "6000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 17304,
+          "equivRank": 17304
+        },
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "3500",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 17304,
+          "equivRank": 17304
+        }
+      ]
+    },
+    {
+      "groupCode": "502",
+      "groupName": "502",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "材料化学",
+          "majorKey": "e6cfcc6c",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "4000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 17893,
+          "equivRank": 17893
+        }
+      ]
+    },
+    {
+      "groupCode": "903",
+      "groupName": "903",
+      "track": "物理",
+      "selKe": "物理,地理",
+      "majors": [
+        {
+          "majorName": "地理信息科学",
+          "majorKey": "f9ecceea",
+          "selKe": "物理,地理",
+          "plan": 3,
+          "tuition": "4000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 17706,
+          "equivRank": 17706
+        }
+      ]
+    }
+  ]
+}

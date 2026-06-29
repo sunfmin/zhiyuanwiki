@@ -1,0 +1,136 @@
+{
+  "code": "0742",
+  "name": "中南大学",
+  "leaves": [
+    {
+      "schoolCode": "0742",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理和化学和生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 580,
+          "minRank": 4096,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0742",
+      "majorKey": "4c6de685",
+      "majorName": "临床医学类",
+      "selKe": "物理和化学和生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 577,
+          "minRank": 4649,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0742",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 575,
+          "minRank": 5016,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0742",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 577,
+          "minRank": 4649,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学和生物学",
+      "majors": [
+        {
+          "majorName": "临床医学类",
+          "majorKey": "4c6de685",
+          "selKe": "物理和化学和生物学",
+          "plan": 7,
+          "tuition": "7800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 4649,
+          "equivRank": 4649
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学和生物学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理和化学和生物学",
+          "plan": 3,
+          "tuition": "7800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 4096,
+          "equivRank": 4096
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "69000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 5016,
+          "equivRank": 5016
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "69000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 4649,
+          "equivRank": 4649
+        }
+      ]
+    }
+  ]
+}

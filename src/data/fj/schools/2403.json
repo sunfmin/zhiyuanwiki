@@ -1,0 +1,112 @@
+{
+  "code": "2403",
+  "name": "重庆中医药学院",
+  "leaves": [
+    {
+      "schoolCode": "2403",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 557,
+          "minRank": 5853,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 545,
+          "minRank": 37957,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2403",
+      "majorKey": "c744f66e",
+      "majorName": "针灸推拿学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 553,
+          "minRank": 6321,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 543,
+          "minRank": 39235,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 5853,
+          "equivRank": 5853
+        },
+        {
+          "majorName": "针灸推拿学",
+          "majorKey": "c744f66e",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 6321,
+          "equivRank": 6321
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "6200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 37957,
+          "equivRank": 37957
+        },
+        {
+          "majorName": "针灸推拿学",
+          "majorKey": "c744f66e",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "6200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 39235,
+          "equivRank": 39235
+        }
+      ]
+    }
+  ]
+}

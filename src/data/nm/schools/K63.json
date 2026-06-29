@@ -1,0 +1,181 @@
+{
+  "code": "K63",
+  "name": "新疆警察学院",
+  "leaves": [
+    {
+      "schoolCode": "K63",
+      "majorKey": "39f460ad",
+      "majorName": "侦查学",
+      "selKe": "历史,政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 539,
+          "minRank": 5762,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 595,
+          "minRank": 7178,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "K63",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 460,
+          "minRank": 41908,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "K63",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 522,
+          "minRank": 7390,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 491,
+          "minRank": 32445,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 7390,
+          "equivRank": 7390
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "004",
+      "track": "历史",
+      "selKe": "思想政治",
+      "majors": [
+        {
+          "majorName": "侦查学",
+          "majorKey": "39f460ad",
+          "selKe": "思想政治",
+          "plan": 2,
+          "tuition": "免费",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 5762,
+          "equivRank": 5762
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 32445,
+          "equivRank": 32445
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 7,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 41908,
+          "equivRank": 41908
+        }
+      ]
+    },
+    {
+      "groupCode": "005",
+      "groupName": "005",
+      "track": "物理",
+      "selKe": "思想政治",
+      "majors": [
+        {
+          "majorName": "侦查学",
+          "majorKey": "39f460ad",
+          "selKe": "思想政治",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 7178,
+          "equivRank": 7178
+        }
+      ]
+    },
+    {
+      "groupCode": "006",
+      "groupName": "006",
+      "track": "物理",
+      "selKe": "思想政治",
+      "majors": [
+        {
+          "majorName": "侦查学",
+          "majorKey": "39f460ad",
+          "selKe": "思想政治",
+          "plan": 2,
+          "tuition": "免费",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 7178,
+          "equivRank": 7178
+        }
+      ]
+    }
+  ]
+}

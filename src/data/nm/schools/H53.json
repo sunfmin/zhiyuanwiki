@@ -1,0 +1,110 @@
+{
+  "code": "H53",
+  "name": "柳州工学院",
+  "leaves": [
+    {
+      "schoolCode": "H53",
+      "majorKey": "710bfc36",
+      "majorName": "机械类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 376,
+          "minRank": 68264,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "H53",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 375,
+          "minRank": 68528,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "H53",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 452,
+          "minRank": 15938,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "22500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 15938,
+          "equivRank": 15938
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "24500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 68528,
+          "equivRank": 68528
+        },
+        {
+          "majorName": "车辆工程",
+          "majorKey": "92b6110d",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "24500",
+          "menlei": "工"
+        },
+        {
+          "majorName": "机械类",
+          "majorKey": "710bfc36",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "24500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 68264,
+          "equivRank": 68264
+        }
+      ]
+    }
+  ]
+}

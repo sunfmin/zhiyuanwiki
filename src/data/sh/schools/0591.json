@@ -1,0 +1,145 @@
+{
+  "code": "0591",
+  "name": "南昌大学",
+  "leaves": [
+    {
+      "schoolCode": "0591",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 555,
+          "minRank": 9302,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0591",
+      "majorKey": "e2472a71",
+      "majorName": "生物科学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 545,
+          "minRank": 11777,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0591",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 549,
+          "minRank": 10761,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0591",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 539,
+          "minRank": 13322,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "5250",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 11777,
+          "equivRank": 11777
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "5550",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 10761,
+          "equivRank": 10761
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "4950",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 13322,
+          "equivRank": 13322
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理和化学",
+          "plan": 4,
+          "tuition": "80000",
+          "menlei": "医",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 9302,
+          "equivRank": 9302
+        }
+      ]
+    }
+  ]
+}

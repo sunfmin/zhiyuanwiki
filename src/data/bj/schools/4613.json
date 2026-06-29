@@ -1,0 +1,68 @@
+{
+  "code": "4613",
+  "name": "海南医科大学",
+  "leaves": [
+    {
+      "schoolCode": "4613",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 550,
+          "minRank": 24089,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4613",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 527,
+          "minRank": 30282,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 24089,
+          "equivRank": 24089
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 30282,
+          "equivRank": 30282
+        }
+      ]
+    }
+  ]
+}

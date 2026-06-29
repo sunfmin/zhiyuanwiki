@@ -1,0 +1,244 @@
+{
+  "code": "2512",
+  "name": "贵州财经大学",
+  "leaves": [
+    {
+      "schoolCode": "2512",
+      "majorKey": "5a324641",
+      "majorName": "人力资源管理",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 591,
+          "minRank": 13911,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2512",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 540,
+          "minRank": 26163,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2512",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 595,
+          "minRank": 13116,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2512",
+      "majorKey": "e9c95a9c",
+      "majorName": "广告学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 592,
+          "minRank": 13725,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2512",
+      "majorKey": "bda0ff17",
+      "majorName": "经济学",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 596,
+          "minRank": 12911,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2512",
+      "majorKey": "bb33137b",
+      "majorName": "经济统计学",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 594,
+          "minRank": 13340,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2512",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 546,
+          "minRank": 24546,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "广告学",
+          "majorKey": "e9c95a9c",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4100",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 13725,
+          "equivRank": 13725
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "4100",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 13116,
+          "equivRank": 13116
+        },
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "4100",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 12911,
+          "equivRank": 12911
+        },
+        {
+          "majorName": "人力资源管理",
+          "majorKey": "5a324641",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "4100",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 13911,
+          "equivRank": 13911
+        },
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "4100",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 12911,
+          "equivRank": 12911
+        }
+      ]
+    },
+    {
+      "groupCode": "80",
+      "groupName": "80",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "物理",
+          "plan": 3,
+          "tuition": "60000",
+          "menlei": "管",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 24546,
+          "equivRank": 24546
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "60000",
+          "menlei": "管",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 26163,
+          "equivRank": 26163
+        },
+        {
+          "majorName": "市场营销",
+          "majorKey": "28c62e21",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "60000",
+          "menlei": "管",
+          "coop": true
+        }
+      ]
+    },
+    {
+      "groupCode": "81",
+      "groupName": "81",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "经济统计学",
+          "majorKey": "bb33137b",
+          "selKe": "物理",
+          "plan": 3,
+          "tuition": "4100",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 13340,
+          "equivRank": 13340
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "code": "M73",
+  "name": "河西学院",
+  "leaves": [
+    {
+      "schoolCode": "M73",
+      "majorKey": "7d0b62a8",
+      "majorName": "俄语",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 469,
+          "minRank": 13678,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "M73",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 446,
+          "minRank": 46355,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "M73",
+      "majorKey": "d2fbd5c5",
+      "majorName": "汉语国际教育",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 470,
+          "minRank": 13551,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "M73",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 452,
+          "minRank": 44442,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "M73",
+      "majorKey": "c744f66e",
+      "majorName": "针灸推拿学",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 522,
+          "minRank": 23579,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语国际教育",
+          "majorKey": "d2fbd5c5",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "3800",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 13551,
+          "equivRank": 13551
+        },
+        {
+          "majorName": "俄语",
+          "majorKey": "7d0b62a8",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4300",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 13678,
+          "equivRank": 13678
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "针灸推拿学",
+          "majorKey": "c744f66e",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 23579,
+          "equivRank": 23579
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 44442,
+          "equivRank": 44442
+        },
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "4600",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 46355,
+          "equivRank": 46355
+        }
+      ]
+    }
+  ]
+}

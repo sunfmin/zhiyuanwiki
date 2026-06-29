@@ -1,0 +1,128 @@
+{
+  "code": "0394",
+  "name": "郑州工业应用技术学院",
+  "leaves": [
+    {
+      "schoolCode": "0394",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 453,
+          "minRank": 15792,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 396,
+          "minRank": 62560,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0394",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "物理,化学,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 409,
+          "minRank": 58500,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0394",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "物理,化学,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 410,
+          "minRank": 58187,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "15000",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 15792,
+          "equivRank": 15792
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "15000",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 62560,
+          "equivRank": 62560
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "化学,生物学",
+      "majors": [
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化学,生物学",
+          "plan": 3,
+          "tuition": "17000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 58187,
+          "equivRank": 58187
+        },
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学,生物学",
+          "plan": 5,
+          "tuition": "17000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 58500,
+          "equivRank": 58500
+        }
+      ]
+    }
+  ]
+}

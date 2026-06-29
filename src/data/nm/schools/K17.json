@@ -1,0 +1,188 @@
+{
+  "code": "K17",
+  "name": "广东海洋大学",
+  "leaves": [
+    {
+      "schoolCode": "K17",
+      "majorKey": "c10bcf22",
+      "majorName": "农学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 505,
+          "minRank": 28376,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "K17",
+      "majorKey": "ca01c9a2",
+      "majorName": "动物科学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 493,
+          "minRank": 31838,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "K17",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 486,
+          "minRank": 33918,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "K17",
+      "majorKey": "ac3cf080",
+      "majorName": "船舶与海洋工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 483,
+          "minRank": 34836,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "K17",
+      "majorKey": "7b7511cd",
+      "majorName": "食品科学与工程",
+      "selKe": "物理,化学,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 517,
+          "minRank": 24966,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "K17",
+      "majorKey": "63b95502",
+      "majorName": "食品质量与安全",
+      "selKe": "物理,化学,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 507,
+          "minRank": 27790,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学,生物学",
+      "majors": [
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "化学,生物学",
+          "plan": 1,
+          "tuition": "6850",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 24966,
+          "equivRank": 24966
+        },
+        {
+          "majorName": "食品质量与安全",
+          "majorKey": "63b95502",
+          "selKe": "化学,生物学",
+          "plan": 1,
+          "tuition": "6850",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 27790,
+          "equivRank": 27790
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "农学",
+          "majorKey": "c10bcf22",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5480",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 28376,
+          "equivRank": 28376
+        },
+        {
+          "majorName": "动物科学",
+          "majorKey": "ca01c9a2",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5480",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 31838,
+          "equivRank": 31838
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "39000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 33918,
+          "equivRank": 33918
+        },
+        {
+          "majorName": "船舶与海洋工程",
+          "majorKey": "ac3cf080",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "39000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 34836,
+          "equivRank": 34836
+        }
+      ]
+    }
+  ]
+}

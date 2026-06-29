@@ -1,0 +1,162 @@
+{
+  "code": "0286",
+  "name": "河北医科大学",
+  "leaves": [
+    {
+      "schoolCode": "0286",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理和化学和生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 470,
+          "minRank": 32768,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0286",
+      "majorKey": "c69b91ea",
+      "majorName": "临床药学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 468,
+          "minRank": 33357,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0286",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "物理和化学和生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 458,
+          "minRank": 36057,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0286",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 478,
+          "minRank": 30490,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0286",
+      "majorKey": "41174006",
+      "majorName": "药学类",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 460,
+          "minRank": 35524,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "生物学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物学",
+          "plan": 3,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 30490,
+          "equivRank": 30490
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "药学类",
+          "majorKey": "41174006",
+          "selKe": "物理和化学",
+          "plan": 4,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 35524,
+          "equivRank": 35524
+        },
+        {
+          "majorName": "临床药学",
+          "majorKey": "c69b91ea",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 33357,
+          "equivRank": 33357
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理和化学和生物学",
+      "majors": [
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "物理和化学和生物学",
+          "plan": 3,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 36057,
+          "equivRank": 36057
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理和化学和生物学",
+          "plan": 3,
+          "tuition": "5700",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 32768,
+          "equivRank": 32768
+        }
+      ]
+    }
+  ]
+}

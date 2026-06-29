@@ -1,0 +1,68 @@
+{
+  "code": "5533",
+  "name": "商丘工学院",
+  "leaves": [
+    {
+      "schoolCode": "5533",
+      "majorKey": "4ef2a1b4",
+      "majorName": "机械电子工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 451,
+          "minRank": 90020,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5533",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 453,
+          "minRank": 88542,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "机械电子工程",
+          "majorKey": "4ef2a1b4",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "15800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 90020,
+          "equivRank": 90020
+        },
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "15800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 88542,
+          "equivRank": 88542
+        }
+      ]
+    }
+  ]
+}

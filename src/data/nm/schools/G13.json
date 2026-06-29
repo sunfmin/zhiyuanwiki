@@ -1,0 +1,188 @@
+{
+  "code": "G13",
+  "name": "湖北文理学院",
+  "leaves": [
+    {
+      "schoolCode": "G13",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 486,
+          "minRank": 33918,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "G13",
+      "majorKey": "1f59c989",
+      "majorName": "化学工程与工艺",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 485,
+          "minRank": 34211,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "G13",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 538,
+          "minRank": 5870,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "G13",
+      "majorKey": "5e0efed0",
+      "majorName": "电子信息类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 498,
+          "minRank": 30334,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "G13",
+      "majorKey": "fd907dda",
+      "majorName": "社会工作",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 532,
+          "minRank": 6432,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "G13",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 471,
+          "minRank": 13438,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 5870,
+          "equivRank": 5870
+        },
+        {
+          "majorName": "社会工作",
+          "majorKey": "fd907dda",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 6432,
+          "equivRank": 6432
+        }
+      ]
+    },
+    {
+      "groupCode": "200",
+      "groupName": "200",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 13438,
+          "equivRank": 13438
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电子信息类",
+          "majorKey": "5e0efed0",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "4000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 30334,
+          "equivRank": 30334
+        },
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "4000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 33918,
+          "equivRank": 33918
+        },
+        {
+          "majorName": "化学工程与工艺",
+          "majorKey": "1f59c989",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "4000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 34211,
+          "equivRank": 34211
+        }
+      ]
+    }
+  ]
+}

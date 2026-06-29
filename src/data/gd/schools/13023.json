@@ -1,0 +1,146 @@
+{
+  "code": "13023",
+  "name": "杭州医学院",
+  "leaves": [
+    {
+      "schoolCode": "13023",
+      "majorKey": "754290a4",
+      "majorName": "助产学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 546,
+          "minRank": 87668,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "13023",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 549,
+          "minRank": 83147,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "13023",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 557,
+          "minRank": 72078,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "13023",
+      "majorKey": "0798db5f",
+      "majorName": "法医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 547,
+          "minRank": 86138,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "13023",
+      "majorKey": "63b95502",
+      "majorName": "食品质量与安全",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 544,
+          "minRank": 90717,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "202",
+      "groupName": "202",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "医学影像学",
+          "majorKey": "5780af73",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6300",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 83147,
+          "equivRank": 83147
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6300",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 72078,
+          "equivRank": 72078
+        },
+        {
+          "majorName": "法医学",
+          "majorKey": "0798db5f",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 86138,
+          "equivRank": 86138
+        },
+        {
+          "majorName": "食品质量与安全",
+          "majorKey": "63b95502",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 90717,
+          "equivRank": 90717
+        },
+        {
+          "majorName": "助产学",
+          "majorKey": "754290a4",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 87668,
+          "equivRank": 87668
+        }
+      ]
+    }
+  ]
+}

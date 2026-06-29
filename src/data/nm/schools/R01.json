@@ -1,0 +1,154 @@
+{
+  "code": "R01",
+  "name": "苏州科技大学",
+  "leaves": [
+    {
+      "schoolCode": "R01",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 573,
+          "minRank": 11189,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "R01",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 555,
+          "minRank": 4441,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "R01",
+      "majorKey": "4ea26300",
+      "majorName": "广播电视学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 558,
+          "minRank": 4175,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "R01",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 569,
+          "minRank": 12033,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "R01",
+      "majorKey": "24c5453f",
+      "majorName": "统计学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 569,
+          "minRank": 12033,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 4441,
+          "equivRank": 4441
+        },
+        {
+          "majorName": "广播电视学",
+          "majorKey": "4ea26300",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 4175,
+          "equivRank": 4175
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 11189,
+          "equivRank": 11189
+        },
+        {
+          "majorName": "统计学",
+          "majorKey": "24c5453f",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 12033,
+          "equivRank": 12033
+        },
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 12033,
+          "equivRank": 12033
+        }
+      ]
+    }
+  ]
+}

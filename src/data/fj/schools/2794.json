@@ -1,0 +1,128 @@
+{
+  "code": "2794",
+  "name": "湖州师范学院",
+  "leaves": [
+    {
+      "schoolCode": "2794",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 515,
+          "minRank": 58055,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2794",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 516,
+          "minRank": 57329,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2794",
+      "majorKey": "5f3767bd",
+      "majorName": "水产养殖学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 503,
+          "minRank": 67246,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2794",
+      "majorKey": "b534555a",
+      "majorName": "科学教育",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 524,
+          "minRank": 51599,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "水产养殖学",
+          "majorKey": "5f3767bd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 67246,
+          "equivRank": 67246
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6300",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 58055,
+          "equivRank": 58055
+        },
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6300",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 57329,
+          "equivRank": 57329
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "科学教育",
+          "majorKey": "b534555a",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 51599,
+          "equivRank": 51599
+        }
+      ]
+    }
+  ]
+}

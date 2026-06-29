@@ -1,0 +1,128 @@
+{
+  "code": "0647",
+  "name": "青岛科技大学",
+  "leaves": [
+    {
+      "schoolCode": "0647",
+      "majorKey": "e9c95a9c",
+      "majorName": "广告学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 452,
+          "minRank": 37654,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0647",
+      "majorKey": "c3651db1",
+      "majorName": "德语",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 452,
+          "minRank": 37654,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0647",
+      "majorKey": "14856541",
+      "majorName": "电子信息科学与技术",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 485,
+          "minRank": 28531,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0647",
+      "majorKey": "fc81313f",
+      "majorName": "高分子材料与工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 477,
+          "minRank": 30789,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "广告学",
+          "majorKey": "e9c95a9c",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "4400",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 37654,
+          "equivRank": 37654
+        },
+        {
+          "majorName": "德语",
+          "majorKey": "c3651db1",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "4400",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 37654,
+          "equivRank": 37654
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "高分子材料与工程",
+          "majorKey": "fc81313f",
+          "selKe": "物理和化学",
+          "plan": 3,
+          "tuition": "6600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 30789,
+          "equivRank": 30789
+        },
+        {
+          "majorName": "电子信息科学与技术",
+          "majorKey": "14856541",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "6325",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 28531,
+          "equivRank": 28531
+        }
+      ]
+    }
+  ]
+}

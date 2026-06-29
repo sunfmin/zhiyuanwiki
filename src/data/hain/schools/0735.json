@@ -1,0 +1,154 @@
+{
+  "code": "0735",
+  "name": "上海第二工业大学",
+  "leaves": [
+    {
+      "schoolCode": "0735",
+      "majorKey": "42b22d93",
+      "majorName": "新能源科学与工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 618,
+          "minRank": 9132,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0735",
+      "majorKey": "0637b0d6",
+      "majorName": "智能科学与技术",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 619,
+          "minRank": 8984,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0735",
+      "majorKey": "81e5f886",
+      "majorName": "标准化工程",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 610,
+          "minRank": 10420,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0735",
+      "majorKey": "0b52f20f",
+      "majorName": "电子商务",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 599,
+          "minRank": 12365,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0735",
+      "majorKey": "1c1ee3f7",
+      "majorName": "通信工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 614,
+          "minRank": 9773,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "电子商务",
+          "majorKey": "0b52f20f",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "6500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 12365,
+          "equivRank": 12365
+        },
+        {
+          "majorName": "标准化工程",
+          "majorKey": "81e5f886",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "6500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 10420,
+          "equivRank": 10420
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "新能源科学与工程",
+          "majorKey": "42b22d93",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "7000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 9132,
+          "equivRank": 9132
+        },
+        {
+          "majorName": "智能科学与技术",
+          "majorKey": "0637b0d6",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "7000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 8984,
+          "equivRank": 8984
+        },
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "7000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 9773,
+          "equivRank": 9773
+        }
+      ]
+    }
+  ]
+}

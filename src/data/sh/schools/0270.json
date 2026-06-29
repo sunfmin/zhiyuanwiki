@@ -1,0 +1,68 @@
+{
+  "code": "0270",
+  "name": "天津医科大学",
+  "leaves": [
+    {
+      "schoolCode": "0270",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理和化学和生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 565,
+          "minRank": 7040,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0270",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "物理和化学和生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 561,
+          "minRank": 7891,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学和生物学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理和化学和生物学",
+          "plan": 3,
+          "tuition": "5800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 7040,
+          "equivRank": 7040
+        },
+        {
+          "majorName": "医学影像学",
+          "majorKey": "5780af73",
+          "selKe": "物理和化学和生物学",
+          "plan": 2,
+          "tuition": "5800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 7891,
+          "equivRank": 7891
+        }
+      ]
+    }
+  ]
+}

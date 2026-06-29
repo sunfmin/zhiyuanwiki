@@ -1,0 +1,146 @@
+{
+  "code": "1343",
+  "name": "河北金融学院",
+  "leaves": [
+    {
+      "schoolCode": "1343",
+      "majorKey": "e6801f33",
+      "majorName": "信息安全",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 436,
+          "minRank": 17102,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1343",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 462,
+          "minRank": 4645,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 421,
+          "minRank": 20127,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1343",
+      "majorKey": "f3a3be38",
+      "majorName": "知识产权",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 462,
+          "minRank": 4645,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 425,
+          "minRank": 19312,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "历史",
+          "plan": 5,
+          "tuition": "4600",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 4645,
+          "equivRank": 4645
+        },
+        {
+          "majorName": "知识产权",
+          "majorKey": "f3a3be38",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "4600",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 4645,
+          "equivRank": 4645
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "物理",
+          "plan": 5,
+          "tuition": "4600",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 20127,
+          "equivRank": 20127
+        },
+        {
+          "majorName": "知识产权",
+          "majorKey": "f3a3be38",
+          "selKe": "物理",
+          "plan": 4,
+          "tuition": "4600",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 19312,
+          "equivRank": 19312
+        }
+      ]
+    },
+    {
+      "groupCode": "502",
+      "groupName": "502",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "信息安全",
+          "majorKey": "e6801f33",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 17102,
+          "equivRank": 17102
+        }
+      ]
+    }
+  ]
+}

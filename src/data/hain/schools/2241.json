@@ -1,0 +1,128 @@
+{
+  "code": "2241",
+  "name": "广西中医药大学赛恩斯新医药学院",
+  "leaves": [
+    {
+      "schoolCode": "2241",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 553,
+          "minRank": 22684,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2241",
+      "majorKey": "f9504a0c",
+      "majorName": "中药学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 526,
+          "minRank": 30093,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2241",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 522,
+          "minRank": 31207,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2241",
+      "majorKey": "c744f66e",
+      "majorName": "针灸推拿学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 554,
+          "minRank": 22467,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "针灸推拿学",
+          "majorKey": "c744f66e",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "15000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 22467,
+          "equivRank": 22467
+        },
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "不限",
+          "plan": 12,
+          "tuition": "15000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 22684,
+          "equivRank": 22684
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "中药学",
+          "majorKey": "f9504a0c",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "15000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 30093,
+          "equivRank": 30093
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "15000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 31207,
+          "equivRank": 31207
+        }
+      ]
+    }
+  ]
+}

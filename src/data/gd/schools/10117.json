@@ -1,0 +1,206 @@
+{
+  "code": "10117",
+  "name": "长治医学院",
+  "leaves": [
+    {
+      "schoolCode": "10117",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 518,
+          "minRank": 133459,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10117",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 530,
+          "minRank": 113001,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10117",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 515,
+          "minRank": 138624,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10117",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 492,
+          "minRank": 180224,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10117",
+      "majorKey": "27c81131",
+      "majorName": "生物医学工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 513,
+          "minRank": 142207,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10117",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 515,
+          "minRank": 138624,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10117",
+      "majorKey": "83eea431",
+      "majorName": "麻醉学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 516,
+          "minRank": 136896,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "203",
+      "groupName": "203",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "生物医学工程",
+          "majorKey": "27c81131",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5370",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 142207,
+          "equivRank": 142207
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5480",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 133459,
+          "equivRank": 133459
+        },
+        {
+          "majorName": "麻醉学",
+          "majorKey": "83eea431",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5480",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 136896,
+          "equivRank": 136896
+        },
+        {
+          "majorName": "医学影像学",
+          "majorKey": "5780af73",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5480",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 113001,
+          "equivRank": 113001
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5480",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 138624,
+          "equivRank": 138624
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5480",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 138624,
+          "equivRank": 138624
+        }
+      ]
+    },
+    {
+      "groupCode": "204",
+      "groupName": "204",
+      "track": "物理",
+      "selKe": "生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物",
+          "plan": 1,
+          "tuition": "5480",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 180224,
+          "equivRank": 180224
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "code": "0884",
+  "name": "大庆师范学院",
+  "leaves": [
+    {
+      "schoolCode": "0884",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 501,
+          "minRank": 29488,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0884",
+      "majorKey": "97b7b689",
+      "majorName": "生物制药",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 440,
+          "minRank": 48330,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0884",
+      "majorKey": "0ac1da59",
+      "majorName": "生物技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 447,
+          "minRank": 46038,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0884",
+      "majorKey": "e2472a71",
+      "majorName": "生物科学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 462,
+          "minRank": 41288,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "3500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 29488,
+          "equivRank": 29488
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "2800",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 41288,
+          "equivRank": 41288
+        }
+      ]
+    },
+    {
+      "groupCode": "009",
+      "groupName": "009",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "生物技术",
+          "majorKey": "0ac1da59",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 46038,
+          "equivRank": 46038
+        },
+        {
+          "majorName": "生物制药",
+          "majorKey": "97b7b689",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 48330,
+          "equivRank": 48330
+        }
+      ]
+    }
+  ]
+}

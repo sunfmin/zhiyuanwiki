@@ -1,0 +1,154 @@
+{
+  "code": "3321",
+  "name": "浙江工业大学",
+  "leaves": [
+    {
+      "schoolCode": "3321",
+      "majorKey": "fee47c1b",
+      "majorName": "工业设计",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 580,
+          "minRank": 16470,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3321",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 586,
+          "minRank": 15084,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3321",
+      "majorKey": "5e0efed0",
+      "majorName": "电子信息类",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 589,
+          "minRank": 14358,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3321",
+      "majorKey": "78bffed9",
+      "majorName": "管理科学与工程类",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 581,
+          "minRank": 16237,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3321",
+      "majorKey": "8230723d",
+      "majorName": "计算机类",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 588,
+          "minRank": 14588,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "管理科学与工程类",
+          "majorKey": "78bffed9",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "5300",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 16237,
+          "equivRank": 16237
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "工业设计",
+          "majorKey": "fee47c1b",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "6900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 16470,
+          "equivRank": 16470
+        },
+        {
+          "majorName": "计算机类",
+          "majorKey": "8230723d",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 14588,
+          "equivRank": 14588
+        },
+        {
+          "majorName": "电子信息类",
+          "majorKey": "5e0efed0",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 14358,
+          "equivRank": 14358
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 15084,
+          "equivRank": 15084
+        }
+      ]
+    }
+  ]
+}

@@ -3,7 +3,8 @@
 // 见 ADR-0009（多省份泛化）。
 
 export type FillModel = "group" | "major"; // 黑龙江=院校专业组；浙江=院校×专业（专业平行志愿）
-export type SubjectMode = "primary+reselect" | "pick3of7"; // 黑龙江=首选物理/历史+再选；浙江=7选3
+export type SubjectMode = "primary+reselect" | "pick3of7" | "pick3of6";
+// 黑龙江=首选物理/历史+再选；浙江=7选3（含技术）；北京/上海/海南/山东=6选3（无技术）
 
 export interface TrackConf {
   name: string; // 科类名：物理 / 历史 / 综合
@@ -159,6 +160,109 @@ export const PROVINCES: Record<string, ProvinceConfig> = {
     fenduanYear: 2025,
     intro: "河南 · 2025",
     batchLabel: "本科批 · 物理 / 历史（院校专业组）",
+  },
+  sx: {
+    slug: "sx",
+    name: "陕西",
+    tracks: [
+      { name: "物理", slug: "wuli" },
+      { name: "历史", slug: "lishi" },
+    ],
+    fillModel: "group",
+    subjectMode: "primary+reselect",
+    fenduanTrack: "物理",
+    fenduanYear: 2025,
+    intro: "陕西 · 2025",
+    batchLabel: "本科批 · 物理 / 历史（院校专业组）",
+  },
+  nm: {
+    slug: "nm",
+    name: "内蒙古",
+    tracks: [
+      { name: "物理", slug: "wuli" },
+      { name: "历史", slug: "lishi" },
+    ],
+    fillModel: "group",
+    subjectMode: "primary+reselect",
+    fenduanTrack: "物理",
+    fenduanYear: 2025,
+    intro: "内蒙古 · 2025",
+    batchLabel: "本科批 · 物理 / 历史（院校专业组）",
+  },
+  gd: {
+    slug: "gd",
+    name: "广东",
+    tracks: [
+      { name: "物理", slug: "wuli" },
+      { name: "历史", slug: "lishi" },
+    ],
+    fillModel: "group",
+    subjectMode: "primary+reselect",
+    fenduanTrack: "物理",
+    fenduanYear: 2025,
+    intro: "广东 · 2025",
+    batchLabel: "本科批 · 物理 / 历史（院校专业组）",
+  },
+  fj: {
+    slug: "fj",
+    name: "福建",
+    tracks: [
+      { name: "物理", slug: "wuli" },
+      { name: "历史", slug: "lishi" },
+    ],
+    fillModel: "group",
+    subjectMode: "primary+reselect",
+    fenduanTrack: "物理",
+    fenduanYear: 2025,
+    intro: "福建 · 2025",
+    batchLabel: "本科批 · 物理 / 历史（院校专业组）",
+  },
+  nx: {
+    slug: "nx",
+    name: "宁夏",
+    tracks: [
+      { name: "物理", slug: "wuli" },
+      { name: "历史", slug: "lishi" },
+    ],
+    fillModel: "group",
+    subjectMode: "primary+reselect",
+    fenduanTrack: "物理",
+    fenduanYear: 2025,
+    intro: "宁夏 · 2025",
+    batchLabel: "本科批 · 物理 / 历史（院校专业组）",
+  },
+  bj: {
+    slug: "bj",
+    name: "北京",
+    tracks: [{ name: "综合", slug: "zonghe" }],
+    fillModel: "group",
+    subjectMode: "pick3of6",
+    fenduanTrack: "综合",
+    fenduanYear: 2025,
+    intro: "北京 · 2025",
+    batchLabel: "本科批 · 综合（院校专业组）",
+  },
+  sh: {
+    slug: "sh",
+    name: "上海",
+    tracks: [{ name: "综合", slug: "zonghe" }],
+    fillModel: "group",
+    subjectMode: "pick3of6",
+    fenduanTrack: "综合",
+    fenduanYear: 2025,
+    intro: "上海 · 2025",
+    batchLabel: "本科批 · 综合（院校专业组）",
+  },
+  hain: {
+    slug: "hain",
+    name: "海南",
+    tracks: [{ name: "综合", slug: "zonghe" }],
+    fillModel: "group",
+    subjectMode: "pick3of6",
+    fenduanTrack: "综合",
+    fenduanYear: 2025,
+    intro: "海南 · 2025",
+    batchLabel: "本科批 · 综合（院校专业组）",
   },
 };
 

@@ -1,0 +1,110 @@
+{
+  "code": "13662",
+  "name": "长春人文学院",
+  "leaves": [
+    {
+      "schoolCode": "13662",
+      "majorKey": "8f1def37",
+      "majorName": "日语",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 460,
+          "minRank": 235582,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "13662",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 502,
+          "minRank": 55966,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "13662",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 479,
+          "minRank": 201820,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "206",
+      "groupName": "206",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "25000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 55966,
+          "equivRank": 55966
+        }
+      ]
+    },
+    {
+      "groupCode": "207",
+      "groupName": "207",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "25000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 201820,
+          "equivRank": 201820
+        }
+      ]
+    },
+    {
+      "groupCode": "208",
+      "groupName": "208",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "日语",
+          "majorKey": "8f1def37",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "25000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 235582,
+          "equivRank": 235582
+        }
+      ]
+    }
+  ]
+}

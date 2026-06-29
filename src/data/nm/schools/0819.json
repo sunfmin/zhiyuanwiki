@@ -1,0 +1,94 @@
+{
+  "code": "0819",
+  "name": "朝阳师范学院",
+  "leaves": [
+    {
+      "schoolCode": "0819",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 473,
+          "minRank": 13173,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 436,
+          "minRank": 49690,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0819",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 448,
+          "minRank": 45695,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "004",
+      "groupName": "004",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4400",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 13173,
+          "equivRank": 13173
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4400",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 49690,
+          "equivRank": 49690
+        },
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4400",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 45695,
+          "equivRank": 45695
+        }
+      ]
+    }
+  ]
+}

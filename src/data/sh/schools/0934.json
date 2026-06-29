@@ -1,0 +1,128 @@
+{
+  "code": "0934",
+  "name": "延安大学",
+  "leaves": [
+    {
+      "schoolCode": "0934",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 437,
+          "minRank": 41436,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0934",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 442,
+          "minRank": 40203,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0934",
+      "majorKey": "fd907dda",
+      "majorName": "社会工作",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 439,
+          "minRank": 40963,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0934",
+      "majorKey": "047778fd",
+      "majorName": "运动康复",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 434,
+          "minRank": 42167,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 40203,
+          "equivRank": 40203
+        },
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "不限科目",
+          "plan": 3,
+          "tuition": "5400",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 41436,
+          "equivRank": 41436
+        },
+        {
+          "majorName": "社会工作",
+          "majorKey": "fd907dda",
+          "selKe": "不限科目",
+          "plan": 3,
+          "tuition": "5400",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 40963,
+          "equivRank": 40963
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "运动康复",
+          "majorKey": "047778fd",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 42167,
+          "equivRank": 42167
+        }
+      ]
+    }
+  ]
+}

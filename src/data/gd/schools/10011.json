@@ -1,0 +1,154 @@
+{
+  "code": "10011",
+  "name": "北京工商大学",
+  "leaves": [
+    {
+      "schoolCode": "10011",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 569,
+          "minRank": 56911,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10011",
+      "majorKey": "9aafa3cc",
+      "majorName": "保险学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 566,
+          "minRank": 60577,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10011",
+      "majorKey": "88ff1357",
+      "majorName": "功能材料",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 558,
+          "minRank": 70748,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10011",
+      "majorKey": "ff33db96",
+      "majorName": "化妆品技术与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 559,
+          "minRank": 69414,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10011",
+      "majorKey": "6e702db2",
+      "majorName": "食品科学与工程类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 558,
+          "minRank": 70748,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "204",
+      "groupName": "204",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 56911,
+          "equivRank": 56911
+        },
+        {
+          "majorName": "保险学",
+          "majorKey": "9aafa3cc",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4200",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 60577,
+          "equivRank": 60577
+        }
+      ]
+    },
+    {
+      "groupCode": "205",
+      "groupName": "205",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "化妆品技术与工程",
+          "majorKey": "ff33db96",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 69414,
+          "equivRank": 69414
+        },
+        {
+          "majorName": "食品科学与工程类",
+          "majorKey": "6e702db2",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 70748,
+          "equivRank": 70748
+        },
+        {
+          "majorName": "功能材料",
+          "majorKey": "88ff1357",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 70748,
+          "equivRank": 70748
+        }
+      ]
+    }
+  ]
+}

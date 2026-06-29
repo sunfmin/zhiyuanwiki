@@ -1,0 +1,140 @@
+{
+  "code": "0554",
+  "name": "东北电力大学",
+  "leaves": [
+    {
+      "schoolCode": "0554",
+      "majorKey": "470379d7",
+      "majorName": "核工程与核技术",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 652,
+          "minRank": 4963,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0554",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 664,
+          "minRank": 3898,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0554",
+      "majorKey": "34997647",
+      "majorName": "能源与动力工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 656,
+          "minRank": 4584,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0554",
+      "majorKey": "da95770c",
+      "majorName": "自动化",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 659,
+          "minRank": 4314,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "5940",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 3898,
+          "equivRank": 3898
+        },
+        {
+          "majorName": "核工程与核技术",
+          "majorKey": "470379d7",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5940",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 4963,
+          "equivRank": 4963
+        },
+        {
+          "majorName": "能源与动力工程",
+          "majorKey": "34997647",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5940",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 4584,
+          "equivRank": 4584
+        },
+        {
+          "majorName": "自动化",
+          "majorKey": "da95770c",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5940",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 4314,
+          "equivRank": 4314
+        }
+      ]
+    },
+    {
+      "groupCode": "80",
+      "groupName": "80",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "50000",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 3898,
+          "equivRank": 3898
+        }
+      ]
+    }
+  ]
+}

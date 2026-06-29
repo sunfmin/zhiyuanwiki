@@ -16,10 +16,12 @@ import (
 	"github.com/sunfmin/zhiyuanwiki/internal/core"
 )
 
-var keep = map[string]bool{"物理": true, "历史": true}
+// keep 收口本站 group 模型的科类：3+1+2 省的 物理/历史，以及 3+3「综合+院校专业组」省（北京/上海/
+// 海南）的 综合。理科/文科（老文理）与艺术/体育不在内，会被过滤掉。
+var keep = map[string]bool{"物理": true, "历史": true, "综合": true}
 
-// canonTrack 把源表科类归一为站点口径：物理类→物理、历史类→历史；其余（艺术类（物理）等）原样
-// 返回后被 keep 过滤掉。
+// canonTrack 把源表科类归一为站点口径：物理类→物理、历史类→历史；综合/裸物理/裸历史 原样保留；
+// 其余（艺术类（物理）/理科/文科 等）原样返回后被 keep 过滤掉。
 func canonTrack(s string) string {
 	s = strings.TrimSpace(s)
 	switch s {
@@ -52,7 +54,7 @@ func parseScores(s *core.Sheet) []core.MajorScoreRow {
 	col := s.Col
 	cYear, cTrack, cBatch := col("年份"), col("科类"), col("批次")
 	cCode, cName := col("院校代码"), col("院校名称")
-	cGroup := col("所属专业组")
+	cGroup := col("所属专业组", "专业组代码") // 上海录取分数表组列名为「专业组代码」（无「所属专业组」）
 	cMajor, cSelKe := col("专业", "专业名称"), col("选科要求")
 	cMin, cRank := col("最低分数", "最低分"), col("最低位次")
 
@@ -108,7 +110,7 @@ func parsePlan(s *core.Sheet) []core.PlanRow {
 	col := s.Col
 	cYear, cTrack, cBatch := col("年份"), col("科类"), col("批次")
 	cCode, cName := col("院校代码"), col("院校名称")
-	cGroupCode, cGroupName := col("专业组代码", "所属专业组"), col("专业组名称")
+	cGroupCode, cGroupName := col("专业组代码", "所属专业组", "专业组"), col("专业组名称") // 内蒙计划表组列名为裸「专业组」
 	cMajor, cSelKe := col("专业名称", "专业"), col("选科要求")
 	cRemark := col("专业备注")
 	cPlan := col("计划人数", "招生人数")

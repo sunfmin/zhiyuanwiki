@@ -1,0 +1,118 @@
+{
+  "code": "2750",
+  "name": "西安明德理工学院",
+  "leaves": [
+    {
+      "schoolCode": "2750",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 520,
+          "minRank": 31766,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2750",
+      "majorKey": "28c62e21",
+      "majorName": "市场营销",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 531,
+          "minRank": 28663,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2750",
+      "majorKey": "683be8da",
+      "majorName": "金融科技",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 527,
+          "minRank": 29804,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "25000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 31766,
+          "equivRank": 31766
+        },
+        {
+          "majorName": "市场营销",
+          "majorKey": "28c62e21",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "24000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 28663,
+          "equivRank": 28663
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "金融科技",
+          "majorKey": "683be8da",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "25000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 29804,
+          "equivRank": 29804
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "27500",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

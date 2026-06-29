@@ -1,0 +1,102 @@
+{
+  "code": "0013",
+  "name": "上海海关学院",
+  "leaves": [
+    {
+      "schoolCode": "0013",
+      "majorKey": "c00a04b7",
+      "majorName": "海关检验检疫安全",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 568,
+          "minRank": 6379,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0013",
+      "majorKey": "c1e7d810",
+      "majorName": "海关稽查",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 573,
+          "minRank": 5410,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0013",
+      "majorKey": "0266aafb",
+      "majorName": "海关管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 575,
+          "minRank": 5016,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "海关稽查",
+          "majorKey": "c1e7d810",
+          "selKe": "不限科目",
+          "plan": 5,
+          "tuition": "6500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 5410,
+          "equivRank": 5410
+        },
+        {
+          "majorName": "海关管理",
+          "majorKey": "0266aafb",
+          "selKe": "不限科目",
+          "plan": 15,
+          "tuition": "6500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 5016,
+          "equivRank": 5016
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "海关检验检疫安全",
+          "majorKey": "c00a04b7",
+          "selKe": "物理",
+          "plan": 5,
+          "tuition": "6500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 6379,
+          "equivRank": 6379
+        }
+      ]
+    }
+  ]
+}

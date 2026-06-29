@@ -1,0 +1,326 @@
+{
+  "code": "10162",
+  "name": "辽宁中医药大学",
+  "leaves": [
+    {
+      "schoolCode": "10162",
+      "majorKey": "b347e713",
+      "majorName": "中兽医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 529,
+          "minRank": 114681,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10162",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 570,
+          "minRank": 14885,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 545,
+          "minRank": 89210,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10162",
+      "majorKey": "0d418e8e",
+      "majorName": "中医骨伤科学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 566,
+          "minRank": 16622,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 543,
+          "minRank": 92216,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10162",
+      "majorKey": "f9504a0c",
+      "majorName": "中药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 510,
+          "minRank": 147555,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10162",
+      "majorKey": "3ac6dbc9",
+      "majorName": "中药资源与开发",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 506,
+          "minRank": 154777,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10162",
+      "majorKey": "8a499b4f",
+      "majorName": "中西医临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 539,
+          "minRank": 98392,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10162",
+      "majorKey": "205bfda3",
+      "majorName": "实验动物学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 520,
+          "minRank": 130007,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "10162",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选历史，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 514,
+          "minRank": 47418,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 502,
+          "minRank": 162034,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "201",
+      "groupName": "201",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 14885,
+          "equivRank": 14885
+        },
+        {
+          "majorName": "中医骨伤科学",
+          "majorKey": "0d418e8e",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 16622,
+          "equivRank": 16622
+        }
+      ]
+    },
+    {
+      "groupCode": "202",
+      "groupName": "202",
+      "track": "历史",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 47418,
+          "equivRank": 47418
+        }
+      ]
+    },
+    {
+      "groupCode": "203",
+      "groupName": "203",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "中药学",
+          "majorKey": "f9504a0c",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 147555,
+          "equivRank": 147555
+        },
+        {
+          "majorName": "中药资源与开发",
+          "majorKey": "3ac6dbc9",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 154777,
+          "equivRank": 154777
+        }
+      ]
+    },
+    {
+      "groupCode": "204",
+      "groupName": "204",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 162034,
+          "equivRank": 162034
+        }
+      ]
+    },
+    {
+      "groupCode": "205",
+      "groupName": "205",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "实验动物学",
+          "majorKey": "205bfda3",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5200",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 130007,
+          "equivRank": 130007
+        },
+        {
+          "majorName": "中兽医学",
+          "majorKey": "b347e713",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 114681,
+          "equivRank": 114681
+        }
+      ]
+    },
+    {
+      "groupCode": "206",
+      "groupName": "206",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "不限",
+          "plan": 10,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 89210,
+          "equivRank": 89210
+        },
+        {
+          "majorName": "中医骨伤科学",
+          "majorKey": "0d418e8e",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 92216,
+          "equivRank": 92216
+        }
+      ]
+    },
+    {
+      "groupCode": "207",
+      "groupName": "207",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "中西医临床医学",
+          "majorKey": "8a499b4f",
+          "selKe": "化学",
+          "plan": 8,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 98392,
+          "equivRank": 98392
+        }
+      ]
+    }
+  ]
+}

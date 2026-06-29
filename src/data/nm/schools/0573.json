@@ -1,0 +1,102 @@
+{
+  "code": "0573",
+  "name": "天津中德应用技术大学",
+  "leaves": [
+    {
+      "schoolCode": "0573",
+      "majorKey": "4ef2a1b4",
+      "majorName": "机械电子工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 521,
+          "minRank": 23867,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0573",
+      "majorKey": "da95770c",
+      "majorName": "自动化",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 521,
+          "minRank": 23867,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0573",
+      "majorKey": "a1305d6a",
+      "majorName": "质量管理工程",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 488,
+          "minRank": 33332,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械电子工程",
+          "majorKey": "4ef2a1b4",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5400",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 23867,
+          "equivRank": 23867
+        },
+        {
+          "majorName": "自动化",
+          "majorKey": "da95770c",
+          "selKe": "化学",
+          "plan": 10,
+          "tuition": "5400",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 23867,
+          "equivRank": 23867
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "质量管理工程",
+          "majorKey": "a1305d6a",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4400",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 33332,
+          "equivRank": 33332
+        }
+      ]
+    }
+  ]
+}

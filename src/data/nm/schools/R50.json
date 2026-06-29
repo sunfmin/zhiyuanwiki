@@ -1,0 +1,120 @@
+{
+  "code": "R50",
+  "name": "山西医药学院",
+  "leaves": [
+    {
+      "schoolCode": "R50",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 458,
+          "minRank": 42515,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "R50",
+      "majorKey": "a507c400",
+      "majorName": "康复治疗学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 473,
+          "minRank": 37836,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "R50",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 460,
+          "minRank": 41908,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "R50",
+      "majorKey": "d35344f4",
+      "majorName": "眼视光学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 477,
+          "minRank": 36606,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 12,
+          "tuition": "5480",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 42515,
+          "equivRank": 42515
+        },
+        {
+          "majorName": "眼视光学",
+          "majorKey": "d35344f4",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 36606,
+          "equivRank": 36606
+        },
+        {
+          "majorName": "康复治疗学",
+          "majorKey": "a507c400",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 37836,
+          "equivRank": 37836
+        },
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 41908,
+          "equivRank": 41908
+        }
+      ]
+    }
+  ]
+}
