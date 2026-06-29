@@ -53,10 +53,11 @@ jobs:
           set -euo pipefail
           echo "新构建 HTML=$(find dist -name '*.html' | wc -l | tr -d ' ')"
           # --s3-no-head：跳过 rclone 上传后的校验 HEAD。PUT 本身全部 200（文件确实落桶），
-          #   但桶启用了对象版本控制 → 每次 PUT 返回 X-Amz-Version-Id → rclone 回头发
-          #   HEAD /key?versionId=<id> 复核，而 R2 对 ?versionId= 间歇回 501 NotImplemented，
-          #   一个 IO error 就让整次 sync 失败并跳过删除。跳过该 HEAD 即根除（诊断见 git 历史 r2-debug）。
-          #   真正的根因是桶开了版本控制——建议在 Cloudflare 控制台关掉（既免 501，也免旧版本无限堆积计费）。
+          #   但 R2 在 PUT 响应里回了个 X-Amz-Version-Id（R2 其实不支持对象版本控制——
+          #   PutBucketVersioning / GetBucketVersioning / ?versionId= 在其 S3 兼容层皆未实现）。
+          #   rclone 误以为桶带版本，回头发 HEAD /key?versionId=<id> 复核 → R2 对 ?versionId=
+          #   间歇回 501 NotImplemented；一个 IO error 就让整次 sync 失败并跳过删除。
+          #   跳过该 HEAD 即根除。R2 没有版本控制可关，也不会堆积旧版本。（诊断见 git 历史 r2-debug）
           # --retries 兜底残留瞬时错误；Content-Type 由 rclone 按扩展名自动设置。
           rclone sync dist "R2:${R2_BUCKET}" --checksum --fast-list --s3-no-head --transfers=16 --checkers=32 --retries 5 --stats-one-line
 
