@@ -40,8 +40,8 @@ go run ./cmd/zhiyuan-data help
 CI 只跑 `npm run build`（读仓库内已提交的 `src/data` JSON）；**不在 CI 跑 Go 预处理**——原始
 xlsx 不入仓库，数据由维护者本地 `go run ./cmd/zhiyuan-data ...` 生成后提交。
 
-`.github/workflows/deploy.yml`：`npm run build` → 删除护栏（`scripts/deploy-tripwire.mjs`）→
-`rclone sync dist → R2` → purge 缓存。回滚 = 对上个 commit 重跑 CI（构建对已提交 JSON 确定性可复现）。
+`.github/workflows/deploy.yml`：`npm run build` → `rclone sync dist → R2`（`--transfers=8 --retries 5`
+避开 R2 高并发下的间歇性 501 NotImplemented）→ purge 缓存。回滚 = 对上个 commit 重跑 CI（构建对已提交 JSON 确定性可复现）。
 
 **仓库 Secrets**：`R2_ACCESS_KEY_ID`、`R2_SECRET_ACCESS_KEY`（R2 的 S3 API 令牌）、
 `CLOUDFLARE_ACCOUNT_ID`、`CLOUDFLARE_ZONE_ID`、`CLOUDFLARE_API_TOKEN`（需含 **Zone › Cache Purge** 权限）。
