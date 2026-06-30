@@ -76,8 +76,28 @@ type MajorLeaf struct {
 	yearSeen int // 内部：用于取最新年份选科要求，不序列化
 }
 
+// rankOrInf 把「无位次」(≤0) 视作正无穷，便于「取最低位次」比较里让有位次的行总胜出。
+func rankOrInf(rank int) int {
+	if rank <= 0 {
+		return int(^uint(0) >> 1) // math.MaxInt
+	}
+	return rank
+}
+
+// maxInt 返回若干整数里的最大值（用于无位次省聚合分数跨度上界）。
+func maxInt(xs ...int) int {
+	m := xs[0]
+	for _, x := range xs[1:] {
+		if x > m {
+			m = x
+		}
+	}
+	return m
+}
+
 // AggregateLeaves 把行表聚合成院校列表与院校×专业叶子。
 // 叶子键 = 院校代码 + 归一化专业名；同一叶子同年同科类多行取最低位次（最难那条）。
+// 无位次省（西藏「只有分数」）退化为取最低分代表、并记分数跨度上界于 MaxScore。
 func AggregateLeaves(rows []MajorScoreRow) ([]School, []MajorLeaf) {
 	schoolName := map[string]string{}
 	schoolYear := map[string]int{} // 记录用以取最新校名
@@ -115,11 +135,24 @@ func AggregateLeaves(rows []MajorScoreRow) ([]School, []MajorLeaf) {
 		}
 		yk := fmt.Sprintf("%d|%s", r.Year, r.Track)
 		cur := leafYears[leafID][yk]
-		if cur == nil || r.MinRank < cur.ys.MinRank {
-			leafYears[leafID][yk] = &ypoint{ys: YearScore{
-				Year: r.Year, Track: r.Track,
-				MinScore: r.MinScore, MinRank: r.MinRank, MaxScore: r.MaxScore,
-			}}
+		cand := YearScore{Year: r.Year, Track: r.Track, MinScore: r.MinScore, MinRank: r.MinRank, MaxScore: r.MaxScore}
+		switch {
+		case cur == nil:
+			leafYears[leafID][yk] = &ypoint{ys: cand}
+		case cur.ys.MinRank > 0 || r.MinRank > 0:
+			// 有位次省：维持原行为——同年同科类取最低位次（最难）那条。无位次记 +∞、不会胜出。
+			if rankOrInf(r.MinRank) < rankOrInf(cur.ys.MinRank) {
+				leafYears[leafID][yk] = &ypoint{ys: cand}
+			}
+		default:
+			// 都无位次（西藏「只有分数」，且 A 类/B 类两线未区分常致同键多分数）：代表取最低分（最易达
+			// 的线即入），并把该 年×科类 的分数跨度上界记进 MaxScore，供叶子页展示「录取分 最低–最高」。
+			lo := cur.ys.MinScore
+			if r.MinScore < lo {
+				lo = r.MinScore
+			}
+			hi := maxInt(cur.ys.MinScore, cur.ys.MaxScore, r.MinScore, r.MaxScore)
+			cur.ys = YearScore{Year: r.Year, Track: r.Track, MinScore: lo, MinRank: 0, MaxScore: hi}
 		}
 	}
 

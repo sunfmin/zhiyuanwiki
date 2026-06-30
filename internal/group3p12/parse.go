@@ -49,6 +49,12 @@ func scoreHeader(r []string) bool {
 	return core.HasCell(r, "院校代码") && core.HasCell(r, "最低位次")
 }
 
+// scoreHeaderScoreOnly 是「只有分数」省份（西藏）的表头探测：不要求「最低位次」列（西藏该列全空、
+// 甚至可能整列缺失），只认 院校代码 + 最低分数（或裸「最低分」）。见 ParseScoresScoreOnly。
+func scoreHeaderScoreOnly(r []string) bool {
+	return core.HasCell(r, "院校代码") && (core.HasCell(r, "最低分数") || core.HasCell(r, "最低分"))
+}
+
 // ParseScores 解析「专业录取分数」xlsx → 行表（仅物理/历史/综合本科、含最低位次）。表头驱动。
 func ParseScores(path string) ([]core.MajorScoreRow, error) {
 	return ParseScoresWith(path, keep)
@@ -60,7 +66,18 @@ func ParseScoresWith(path string, keep map[string]bool) ([]core.MajorScoreRow, e
 	if err != nil {
 		return nil, err
 	}
-	return parseScores(s, keep, false), nil
+	return parseScores(s, keep, false, true), nil
+}
+
+// ParseScoresScoreOnly 解析「只有分数、没有位次」省份的专业录取分数（西藏：考试院不发布一分一段、
+// 录取数据无最低位次列）。与 ParseScoresWith 同形，但**不丢无位次行**（MinRank 落 0），改以「最低分数
+// 非空」为入库门槛。下游靠 PrevRank==0 && PrevScore>0 走分数域投影/定位（见 majorx/dingwei）。
+func ParseScoresScoreOnly(path string, keep map[string]bool) ([]core.MajorScoreRow, error) {
+	s, err := core.OpenSheet(path, scoreHeaderScoreOnly)
+	if err != nil {
+		return nil, err
+	}
+	return parseScores(s, keep, false, false), nil
 }
 
 // ParseScoresAvg 同 ParseScores，但取「平均分/平均位次」列作为录取参考分（MinScore/MinRank），
@@ -74,10 +91,12 @@ func ParseScoresAvg(path string) ([]core.MajorScoreRow, error) {
 	if err != nil {
 		return nil, err
 	}
-	return parseScores(s, keep, true), nil
+	return parseScores(s, keep, true, true), nil
 }
 
-func parseScores(s *core.Sheet, keep map[string]bool, useAvg bool) []core.MajorScoreRow {
+// parseScores：useAvg 取平均分/平均位次（上海口径）；requireRank=true 时丢无位次行（多数省），
+// requireRank=false 时保留无位次行（MinRank=0）、改以「最低分数非空」为门槛（西藏 only-score）。
+func parseScores(s *core.Sheet, keep map[string]bool, useAvg, requireRank bool) []core.MajorScoreRow {
 	col := s.Col
 	cYear, cTrack, cBatch := col("年份"), col("科类"), col("批次")
 	cCode, cName := col("院校代码"), col("院校名称")
@@ -100,7 +119,7 @@ func parseScores(s *core.Sheet, keep map[string]bool, useAvg bool) []core.MajorS
 			continue
 		}
 		minRank, hasRank := core.ParseLeadingInt(core.Cell(r, cRank))
-		if !hasRank {
+		if requireRank && !hasRank {
 			continue
 		}
 		name := strings.TrimSpace(core.Cell(r, cMajor))
@@ -109,7 +128,10 @@ func parseScores(s *core.Sheet, keep map[string]bool, useAvg bool) []core.MajorS
 			continue
 		}
 		year, _ := core.ParseLeadingInt(core.Cell(r, cYear))
-		minScore, _ := core.ParseLeadingInt(core.Cell(r, cMin))
+		minScore, hasScore := core.ParseLeadingInt(core.Cell(r, cMin))
+		if !requireRank && !hasScore {
+			continue // 只有分数省：无最低分数的行无用，丢弃
+		}
 		out = append(out, core.MajorScoreRow{
 			Year:       year,
 			Track:      track,

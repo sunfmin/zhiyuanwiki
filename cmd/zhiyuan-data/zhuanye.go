@@ -18,6 +18,7 @@ type majorSchool struct {
 	MajorName  string `json:"mn,omitempty"` // 叶子全名（含方向后缀，用于专业页内消歧）
 	MajorKey   string `json:"mk"`           // 叶子键（含方向），#z 锚点用
 	MinRank    int    `json:"minRank"`
+	MinScore   int    `json:"minScore,omitempty"` // 最近年最低分（只有分数省=西藏用它横向比较；位次省省略）
 	Year       int    `json:"year"`
 	Track      string `json:"track"`
 }
@@ -84,7 +85,7 @@ func zhuanyeCmd(args []string) {
 			md.Schools = append(md.Schools, majorSchool{
 				SchoolCode: d.Code, SchoolName: d.Name,
 				MajorName: lf.MajorName, MajorKey: lf.MajorKey,
-				MinRank: latest.MinRank, Year: latest.Year, Track: latest.Track,
+				MinRank: latest.MinRank, MinScore: latest.MinScore, Year: latest.Year, Track: latest.Track,
 			})
 		}
 	}
@@ -96,7 +97,14 @@ func zhuanyeCmd(args []string) {
 	}
 	index := make([]majorIndexEntry, 0, len(details))
 	for _, md := range details {
-		sort.Slice(md.Schools, func(i, j int) bool { return md.Schools[i].MinRank < md.Schools[j].MinRank })
+		// 有位次省按最低位次升序（最难在前）；只有分数省（西藏，MinRank 全 0）按最低分降序。
+		sort.Slice(md.Schools, func(i, j int) bool {
+			a, b := md.Schools[i], md.Schools[j]
+			if a.MinRank > 0 || b.MinRank > 0 {
+				return a.MinRank < b.MinRank
+			}
+			return a.MinScore > b.MinScore
+		})
 		writeJSON(filepath.Join(detailDir, md.Key+".json"), md)
 		index = append(index, majorIndexEntry{Key: md.Key, Name: md.Name, SchoolCount: len(md.Schools)})
 	}

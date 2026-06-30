@@ -1,6 +1,7 @@
 ---
 import Base from "../../../../layouts/Base.astro";
 import RankTrend from "../../../../components/RankTrend.astro";
+import ScoreTrend from "../../../../components/ScoreTrend.astro";
 import SchoolBadges from "../../../../components/SchoolBadges.tsx";
 import { provinceConfig } from "../../../../lib/provinces";
 import { schoolsOf } from "../../../../lib/data";
@@ -18,9 +19,15 @@ export function getStaticPaths() {
 
 const { prov, school } = Astro.props as { prov: string; school: SchoolDetail };
 const cfg = provinceConfig(prov);
+// 只有分数省（西藏）：无位次，全程改用最低分——排序/顶点/排行/走势都按分数（越高越难）。
+const scoreMode = cfg.locatorBasis === "score";
 
 const latest = (l: Leaf) => l.years.reduce((a, b) => (b.year >= a.year ? b : a), l.years[0]);
-const leaves = school.leaves.slice().sort((a, b) => latest(a).minRank - latest(b).minRank);
+const leaves = school.leaves
+  .slice()
+  .sort((a, b) =>
+    scoreMode ? latest(b).minScore - latest(a).minScore : latest(a).minRank - latest(b).minRank,
+  );
 const groups = school.groups2026 ?? [];
 const plan = school.plan2026 ?? [];
 const unit = cfg.fillModel === "group" ? "院校专业组" : "招生专业";
@@ -33,29 +40,42 @@ const idx = schoolsOf(prov).find((s) => s.code === school.code);
 const multiTrack = cfg.tracks.length > 1;
 const trackName = cfg.tracks[0].name;
 
-// 各科类区间 → 「最难考」顶点（minRank 越小越难）。顶点 = 全省录取位次最靠前的那个读数。
+// 各科类区间 → 「最难考」顶点。位次省取 minRank 最小；只有分数省（西藏）取 maxScore 最高（录取分最高=最难）。
 const trackRanges = idx ? cfg.tracks.map((t) => ({ track: t.name, r: idx.ranges?.[t.name] })).filter((x) => x.r) : [];
 const hasRange = trackRanges.length > 0;
 const apex = trackRanges.reduce<{ track: string; minRank: number; maxRank: number; minScore: number; maxScore: number; year: number } | null>(
-  (best, x) => (!best || x.r!.minRank < best.minRank ? { track: x.track, ...x.r! } : best),
+  (best, x) =>
+    !best || (scoreMode ? x.r!.maxScore > best.maxScore : x.r!.minRank < best.minRank)
+      ? { track: x.track, ...x.r! }
+      : best,
   null,
 );
-// 顶点专业：最新一年最低位次 == 顶点位次的那个专业（多科类时还要对上科类）。
+// 顶点专业：最新一年的代表读数 == 顶点的那个专业（位次省比 minRank；西藏比 minScore==顶点 maxScore）。
 const apexMajor = apex
   ? leaves.find((l) => {
       const y = latest(l);
-      return y.minRank === apex.minRank && (!multiTrack || y.track === apex.track);
+      const hit = scoreMode ? y.minScore === apex.maxScore : y.minRank === apex.minRank;
+      return hit && (!multiTrack || y.track === apex.track);
     })
   : undefined;
 
 // 招生专业「你在这里」排行：有往年位次的按最低位次从难到易排（planRanked），
 // 无往年位次的（新增专业）单列在「新增 / 无往年录取」区（planNew）。存入位次后由 island 插分界线 + 标冲稳保。
 const leafKeys = new Set(leaves.map((l) => l.majorKey));
+// 有往年记录=能定位。位次省用 prevRank（升序，难→易）；只有分数省（西藏）用 prevScore（降序，分高=难→易）。
+const hasPrev = (m: (typeof plan)[number]) =>
+  scoreMode
+    ? typeof m.prevScore === "number" && (m.prevScore as number) > 0
+    : typeof m.prevRank === "number" && (m.prevRank as number) > 0;
 const planRanked = plan
-  .filter((m) => typeof m.prevRank === "number" && (m.prevRank as number) > 0)
+  .filter(hasPrev)
   .slice()
-  .sort((a, b) => (a.prevRank as number) - (b.prevRank as number));
-const planNew = plan.filter((m) => !(typeof m.prevRank === "number" && (m.prevRank as number) > 0));
+  .sort((a, b) =>
+    scoreMode
+      ? (b.prevScore as number) - (a.prevScore as number)
+      : (a.prevRank as number) - (b.prevRank as number),
+  );
+const planNew = plan.filter((m) => !hasPrev(m));
 
 const fmt = (n?: number) => (n != null && n > 0 ? n.toLocaleString("en-US") : "—");
 const tierSeals = [
@@ -94,15 +114,18 @@ const tierSeals = [
             <div class="yx-apex">
               <div class="yx-apex-main">
                 <div class="yx-apex-label">
-                  最难考的专业{multiTrack ? ` · ${apex.track}类` : ""} · {apex.year}
+                  {scoreMode ? "录取分最高的专业" : "最难考的专业"}
+                  {multiTrack ? ` · ${apex.track}类` : ""} · {apex.year}
                 </div>
                 <div class="yx-apex-num">
-                  <span class="yx-apex-unit">位次</span>
-                  <span class="yx-apex-val">{fmt(apex.minRank)}</span>
+                  <span class="yx-apex-unit">{scoreMode ? "最低分" : "位次"}</span>
+                  <span class="yx-apex-val">{scoreMode ? apex.maxScore : fmt(apex.minRank)}</span>
                 </div>
                 {apexMajor && <div class="yx-apex-major">{apexMajor.majorName}</div>}
                 <div class="yx-apex-range">
-                  录取位次 {fmt(apex.minRank)}–{fmt(apex.maxRank)} · 分 {apex.minScore}–{apex.maxScore}
+                  {scoreMode
+                    ? `录取最低分 ${apex.minScore}–${apex.maxScore}（含汉族/少数民族两类，源未区分）`
+                    : `录取位次 ${fmt(apex.minRank)}–${fmt(apex.maxRank)} · 分 ${apex.minScore}–${apex.maxScore}`}
                 </div>
               </div>
             </div>
@@ -180,25 +203,36 @@ const tierSeals = [
           <section class="yx-section">
             <h2 class="yx-h2">2026 报考视图（招生专业）</h2>
             <p class="yx-lede">
-              专业平行志愿：每个院校×专业是独立投档单位（无组内调剂）。下面 {planRanked.length} 个有往年记录的专业按最低位次从难到易排；
-              在「位次定位」存入你的位次后，会在你所在档位画一条线，并标出每个专业是冲 / 稳 / 保。
+              专业平行志愿：每个院校×专业是独立投档单位（无组内调剂）。下面 {planRanked.length} 个有往年记录的专业按
+              {scoreMode ? "最低分从高到低" : "最低位次从难到易"}排；
+              在「{scoreMode ? "分数" : "位次"}定位」存入你的{scoreMode ? "分数" : "位次"}后，会在你所在档位画一条线，并标出每个专业是冲 / 稳 / 保。
+              {scoreMode && "（录取分含汉族/少数民族两类线，源未区分。）"}
             </p>
 
             {planRanked.length > 0 && (
               <div class="yx-ranklist" data-track={trackName}>
-                <div class="yx-rank-cap">↑ 更难考</div>
+                <div class="yx-rank-cap">↑ {scoreMode ? "录取分更高" : "更难考"}</div>
                 {planRanked.map((m) => {
                   const linked = leafKeys.has(m.majorKey);
                   return (
-                    <div class="yx-rank-row" data-rank={m.prevRank}>
+                    <div
+                      class="yx-rank-row"
+                      data-rank={scoreMode ? undefined : m.prevRank}
+                      data-score={scoreMode ? m.prevScore : undefined}
+                    >
                       <div class="yx-rank-top">
                         <span class="yx-rank-name">
                           {linked ? <a href={`#z-${m.majorKey}`}>{m.majorName}</a> : m.majorName}
                           {m.coop && <span class="yx-coop">中外</span>}
                         </span>
-                        <span class="reach-tag" data-rank={m.prevRank} data-track={trackName} />
+                        <span
+                          class="reach-tag"
+                          data-rank={scoreMode ? undefined : m.prevRank}
+                          data-score={scoreMode ? m.prevScore : undefined}
+                          data-track={trackName}
+                        />
                         <span class="yx-rank-r">
-                          位次 {(m.prevRank as number).toLocaleString()}
+                          {scoreMode ? `${m.prevScore} 分` : `位次 ${(m.prevRank as number).toLocaleString()}`}
                           <span class="yx-rank-yr">{m.prevYear}</span>
                         </span>
                       </div>
@@ -206,8 +240,8 @@ const tierSeals = [
                     </div>
                   );
                 })}
-                <div class="yx-rank-cap">更易考 ↓</div>
-                {/* 你的位次分界线：island 读 localStorage 位次后插到对应档位并显形 */}
+                <div class="yx-rank-cap">{scoreMode ? "录取分更低" : "更易考"} ↓</div>
+                {/* 你的分界线：island 读 localStorage 后插到对应档位并显形 */}
                 <div class="yx-youhere" hidden>
                   <span class="yx-youhere-v" />
                   <span class="yx-youhere-h">↑ 以上更难（冲 / 够不着）· 以下托底（保 / 过保）↓</span>
@@ -238,8 +272,12 @@ const tierSeals = [
 
       {/* ───────── 全部专业 · 历年录取位次（可展开，墨纸账册） ───────── */}
       <section class="yx-section">
-        <h2 class="yx-h2">全部专业 · 历年录取位次</h2>
-        <p class="yx-lede">点开专业看历年最低分 / 最低位次走势（2022–2025 {tracksLabel}类）。</p>
+        <h2 class="yx-h2">{scoreMode ? "全部专业 · 历年录取分" : "全部专业 · 历年录取位次"}</h2>
+        <p class="yx-lede">
+          {scoreMode
+            ? `点开专业看历年最低分走势（2022–2025 ${tracksLabel}类；录取分含汉族/少数民族两类线，源未区分）。`
+            : `点开专业看历年最低分 / 最低位次走势（2022–2025 ${tracksLabel}类）。`}
+        </p>
         <div class="yx-leaves">
           {
             leaves.map((l) => {
@@ -253,49 +291,86 @@ const tierSeals = [
                   <summary class="yx-leaf-sum">
                     <span class="yx-leaf-name">{l.majorName}</span>
                     <span class="yx-leaf-tail">
-                      最近最低位次 <span class="yx-rank">{y0.minRank.toLocaleString()}</span>
-                      {multiTrack && ` · ${y0.track}类`} · 选科 {l.selKe || "—"}
+                      {scoreMode ? (
+                        <>最近最低分 <span class="yx-rank">{y0.minScore || "—"}</span></>
+                      ) : (
+                        <>最近最低位次 <span class="yx-rank">{y0.minRank.toLocaleString()}</span></>
+                      )}
+                      {multiTrack && ` · ${y0.track}类`}
+                      {!scoreMode && ` · 选科 ${l.selKe || "—"}`}
                       {!showTrackHeads && (
-                        <span class="rank-badge" data-rank={y0.minRank} data-track={y0.track} />
+                        <span
+                          class="rank-badge"
+                          data-rank={scoreMode ? undefined : y0.minRank}
+                          data-score={scoreMode ? y0.minScore : undefined}
+                          data-track={y0.track}
+                        />
                       )}
                     </span>
                   </summary>
                   <div class="yx-leaf-body">
                     {tracks.map((tr) => {
                       const ys = l.years.filter((y) => y.track === tr).sort((a, b) => a.year - b.year);
-                      const latestRank = ys.length ? ys[ys.length - 1].minRank : 0;
+                      const last = ys.length ? ys[ys.length - 1] : undefined;
+                      const latestRank = last?.minRank ?? 0;
+                      const latestScore = last?.minScore ?? 0;
                       return (
                         <div class="yx-leaf-track">
                           {showTrackHeads && (
                             <h3 class="yx-h3">
                               {tr}类
-                              <span class="rank-badge" data-rank={latestRank} data-track={tr} />
+                              <span
+                                class="rank-badge"
+                                data-rank={scoreMode ? undefined : latestRank}
+                                data-score={scoreMode ? latestScore : undefined}
+                                data-track={tr}
+                              />
                             </h3>
                           )}
                           <div class="yx-tablewrap">
                             <table class="yx-table">
                               <thead>
-                                <tr>
-                                  <th>年份</th>
-                                  <th>最低分</th>
-                                  <th>最低位次</th>
-                                  <th>最高分</th>
-                                </tr>
+                                {scoreMode ? (
+                                  <tr>
+                                    <th>年份</th>
+                                    <th>录取最低分</th>
+                                    <th>录取最高分</th>
+                                  </tr>
+                                ) : (
+                                  <tr>
+                                    <th>年份</th>
+                                    <th>最低分</th>
+                                    <th>最低位次</th>
+                                    <th>最高分</th>
+                                  </tr>
+                                )}
                               </thead>
                               <tbody>
-                                {ys.map((y) => (
-                                  <tr class="yx-num">
-                                    <td>{y.year}</td>
-                                    <td>{y.minScore || "—"}</td>
-                                    <td><span class="yx-rank">{y.minRank.toLocaleString()}</span></td>
-                                    <td>{y.maxScore || "—"}</td>
-                                  </tr>
-                                ))}
+                                {ys.map((y) =>
+                                  scoreMode ? (
+                                    <tr class="yx-num">
+                                      <td>{y.year}</td>
+                                      <td><span class="yx-rank">{y.minScore || "—"}</span></td>
+                                      <td>{y.maxScore && y.maxScore > y.minScore ? y.maxScore : "—"}</td>
+                                    </tr>
+                                  ) : (
+                                    <tr class="yx-num">
+                                      <td>{y.year}</td>
+                                      <td>{y.minScore || "—"}</td>
+                                      <td><span class="yx-rank">{y.minRank.toLocaleString()}</span></td>
+                                      <td>{y.maxScore || "—"}</td>
+                                    </tr>
+                                  ),
+                                )}
                               </tbody>
                             </table>
                           </div>
                           <div class="yx-spark">
-                            <RankTrend points={ys.map((y) => ({ year: y.year, minRank: y.minRank }))} />
+                            {scoreMode ? (
+                              <ScoreTrend points={ys.map((y) => ({ year: y.year, minScore: y.minScore }))} />
+                            ) : (
+                              <RankTrend points={ys.map((y) => ({ year: y.year, minRank: y.minRank }))} />
+                            )}
                           </div>
                         </div>
                       );

@@ -22,7 +22,8 @@ type locatorEntry struct {
 	MajorKey   string `json:"mk"`
 	SelKe      string `json:"sk"`
 	Plan       int    `json:"pl"`
-	Rank       int    `json:"r"`            // 等效位次（无则往年最低位次）
+	Rank       int    `json:"r"`            // 等效位次（无则往年最低位次）；只有分数省=0
+	Score      int    `json:"s,omitempty"`  // 往年最低分（只有分数省=西藏：定位基准；有位次省省略）
 	PrevYear   int    `json:"py"`           // 挂接到的年份
 	GroupSize  int    `json:"gs,omitempty"` // 组内专业数（黑龙江服从调剂提示）
 	Menlei     string `json:"mc,omitempty"` // 学科门类 1 字码（过滤用）
@@ -83,24 +84,29 @@ func dingweiCmd(args []string) {
 		}
 		// 专业平行志愿（无组）：院校×专业。浙江单科类（Track 空）落「综合」；双科类省（重庆/辽宁…）按行 Track 分片。
 		for _, m := range d.Plan2026 {
-			if m.PrevRank <= 0 {
-				continue
-			}
-			rank := m.EquivRank
-			if rank <= 0 {
-				rank = m.PrevRank
-			}
 			track := m.Track
 			if track == "" {
 				track = zjTrack
 			}
-			byTrack[track] = append(byTrack[track], locatorEntry{
+			e := locatorEntry{
 				SchoolCode: d.Code, SchoolName: d.Name,
 				MajorName: m.MajorName, MajorKey: m.MajorKey,
 				SelKe: m.SelKe, Plan: m.Plan,
-				Rank: rank, PrevYear: m.PrevYear,
-				Menlei: m.Menlei, Tuition: core.ParseTuition(m.Tuition), Coop: m.Coop,
-			})
+				PrevYear: m.PrevYear,
+				Menlei:   m.Menlei, Tuition: core.ParseTuition(m.Tuition), Coop: m.Coop,
+			}
+			switch {
+			case m.PrevRank > 0: // 有位次省：等效位次（无则往年最低位次）
+				e.Rank = m.EquivRank
+				if e.Rank <= 0 {
+					e.Rank = m.PrevRank
+				}
+			case m.PrevScore > 0: // 只有分数省（西藏）：往年最低分作定位基准，无位次
+				e.Score = m.PrevScore
+			default:
+				continue // 既无位次也无分数：无法定位
+			}
+			byTrack[track] = append(byTrack[track], e)
 		}
 	}
 
@@ -113,7 +119,13 @@ func dingweiCmd(args []string) {
 		if !ok {
 			continue
 		}
-		sort.Slice(entries, func(i, j int) bool { return entries[i].Rank < entries[j].Rank })
+		// 有位次省按位次升序（最难在前）；只有分数省（西藏，Rank 全 0）按最低分降序（分高=最难在前）。
+		sort.Slice(entries, func(i, j int) bool {
+			if entries[i].Rank > 0 || entries[j].Rank > 0 {
+				return entries[i].Rank < entries[j].Rank
+			}
+			return entries[i].Score > entries[j].Score
+		})
 		name := "locator-" + slug + ".json"
 		writeJSON(filepath.Join(outDir, name), entries)
 		fmt.Printf("✓ %s · %s类定位索引：%d 个可填报单位 → %s\n", p.name, track, len(entries), name)

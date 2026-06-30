@@ -128,6 +128,55 @@ export function assembleColumns(
   return out;
 }
 
+// ── 分数域定位（西藏「只有分数」省）────────────────────────────────────────
+// 西藏无位次、无一分一段（考试院不发布），定位退而用「绝对分差」判档：d = 访客分 − 该专业录取最低分
+// （正=我在其线之上=更稳）。分数随题目难易逐年漂移、跨年可比性弱——这正是全站平时只用位次的原因；
+// 西藏因客观无位次只能用分数，故其定位仅作粗略参考，UI 明示「约/参考、且含汉族/少数民族两类线」。
+// 阈值集中此处，便于校准（与位次域的 RATIO 同为「一处定义」）。
+export const SCORE_MARGIN = {
+  gouMax: -15, // d < 此 → 够不着（线明显高于我）
+  chongMax: -2, // [gouMax, 此) → 冲（线略高于我，搏一把）
+  wenMax: 12, // [chongMax, 此) → 稳（与我相当 / 略高于线）
+  baoMax: 45, // [wenMax, 此) → 保；≥ 此 → 过保（远超线、浪费分）
+  chongAmberMax: -8, // reachColorScore 专属：冲区内「较易(琥珀)」与「偏难(红)」的配色分界
+} as const;
+
+/**
+ * 分数域冲稳保分档。myScore=访客分，recScore=该专业往年录取最低分（越高越难）。镜像 classify 的语义，
+ * 只是把「位次比值」换成「绝对分差」。无效输入→null。阈值见 SCORE_MARGIN（一处定义）。
+ */
+export function classifyScore(myScore: number, recScore: number): Bucket | null {
+  if (myScore <= 0 || recScore <= 0) return null;
+  const d = myScore - recScore;
+  if (d < SCORE_MARGIN.gouMax) return "够不着";
+  if (d < SCORE_MARGIN.chongMax) return "冲";
+  if (d < SCORE_MARGIN.wenMax) return "稳";
+  if (d < SCORE_MARGIN.baoMax) return "保";
+  return "过保";
+}
+
+/** 分数域配色，与 classifyScore 共享 SCORE_MARGIN：稳及更好→easy(绿)；冲→mid(琥珀)；够不着→hard(红)。 */
+export function reachColorScore(myScore: number, recScore: number): ReachLevel {
+  const d = myScore - recScore;
+  if (d >= SCORE_MARGIN.chongMax) return "easy"; // 稳/保/过保
+  if (d >= SCORE_MARGIN.chongAmberMax) return "mid"; // 冲·较易
+  return "hard"; // 冲·偏难 / 够不着
+}
+
+/** 分数域分档（西藏）：classifyScore 分组 + 每档「最贴近本人分」在前。结果交给 assembleColumns 装配（复用）。 */
+export function bucketizeScore(myScore: number, entries: LocEntry[]): BucketGroups {
+  const out = emptyGroups();
+  if (myScore <= 0) return out;
+  for (const e of entries) {
+    const b = classifyScore(myScore, e.s ?? 0);
+    if (b) out[b].push(e);
+  }
+  for (const k of Object.keys(out) as Bucket[]) {
+    out[k].sort((a, b) => Math.abs((a.s ?? 0) - myScore) - Math.abs((b.s ?? 0) - myScore));
+  }
+  return out;
+}
+
 const SUBJECTS = ["物理", "历史", "化学", "生物", "政治", "地理"];
 
 /** 黑龙江选科判定（"不限"/"化学"/"化学和生物"/"化学或生物"），与 Go SelKeAllows 镜像。 */
@@ -177,7 +226,8 @@ export interface LocEntry {
   mk: string; // 专业键
   sk: string; // 选科要求
   pl: number; // 计划
-  r: number; // 等效位次
+  r: number; // 等效位次（只有分数省=西藏：恒 0）
+  s?: number; // 往年最低分（只有分数省=西藏的定位基准；有位次省省略）
   py: number; // 挂接年份
   gs?: number; // 组内专业数（黑龙江）
   mc?: string; // 学科门类 1 字码（见 src/lib/filters.ts CATEGORIES）

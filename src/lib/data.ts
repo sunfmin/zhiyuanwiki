@@ -67,6 +67,7 @@ export type PlanMajor = {
   prevYear?: number;
   prevRank?: number;
   equivRank?: number;
+  prevScore?: number; // 只有分数省（西藏）：最近年最低分（位次缺失时的定位/排序基准）
 };
 
 export interface SchoolDetail {
@@ -88,6 +89,7 @@ export type MajorSchool = {
   mn?: string; // 叶子全名（含方向后缀），用于专业页内消歧（如大类各方向）
   mk: string;
   minRank: number;
+  minScore?: number; // 只有分数省（西藏）：最近年最低分（位次缺失时横向比较用）
   year: number;
   track: string;
 };
@@ -110,11 +112,14 @@ export function majorsOf(prov: string): MajorIndexEntry[] {
 }
 
 // fenduanOf 取该省定位/换算所用的一分一段表（黑龙江 2026 物理；浙江 2026 综合）。
+// 只有分数省（西藏）无一分一段——返回空表 stub（entries 空），定位走分数域不依赖它（见 provinces.locatorBasis）。
 export function fenduanOf(prov: string): YiFenYiDuan {
   const cfg = provinceConfig(prov);
   const slug = trackSlugOf(cfg, cfg.fenduanTrack);
   const key = `/src/data/${prov}/yifenyiduan/${slug}-${cfg.fenduanYear}.json`;
-  return (fenduanTables[key] as any).default as YiFenYiDuan;
+  const tbl = fenduanTables[key] as { default: YiFenYiDuan } | undefined;
+  if (!tbl) return { province: cfg.name, track: cfg.fenduanTrack, year: cfg.fenduanYear, entries: [] };
+  return tbl.default;
 }
 
 // 本省院校数（省情）：校址在该省的高校数，来自 landing emit 的全国 school 表投影（中文省名→数）。

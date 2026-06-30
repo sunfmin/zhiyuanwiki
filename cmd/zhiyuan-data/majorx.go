@@ -130,6 +130,12 @@ func buildPlanMajorsTracked(plan []core.PlanRow, leaves []core.MajorLeaf, totals
 			if ys := core.LeafLatestForTrack(lf, r.Track); ys != nil {
 				pm.PrevYear = ys.Year
 				pm.PrevRank = ys.MinRank
+				// 只有分数省（西藏）的定位基准。仅在「同科类」有录取史时才挂分——理/文分数不可比，
+				// LeafLatestForTrack 在本科类无史时会回退到另一科类，那条分数对本科类无意义、不能用作定位。
+				// （有位次省的 PrevRank/EquivRank 维持原回退行为不变；PrevScore 它们用不到。）
+				if ys.Track == r.Track {
+					pm.PrevScore = ys.MinScore
+				}
 				pm.EquivRank = core.EquivRank(ys.MinRank,
 					core.YearTrack{Year: ys.Year, Track: ys.Track},
 					core.YearTrack{Year: refYear, Track: r.Track}, totals)
@@ -152,6 +158,10 @@ func buildPlanMajorsTracked(plan []core.PlanRow, leaves []core.MajorLeaf, totals
 			}
 			if ri != rj && ri > 0 {
 				return ri < rj
+			}
+			// 无位次（西藏「只有分数」）：按最低分降序（分高=最难在前），与有位次省的「位次升序」同序意。
+			if si, sj := list[i].PrevScore, list[j].PrevScore; ri == 0 && si != sj {
+				return si > sj
 			}
 			if list[i].Track != list[j].Track {
 				return list[i].Track < list[j].Track

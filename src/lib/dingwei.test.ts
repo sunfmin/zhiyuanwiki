@@ -1,8 +1,11 @@
 import { describe, it, expect } from "vitest";
 import {
   classify,
+  classifyScore,
   reachColor,
+  reachColorScore,
   bucketize,
+  bucketizeScore,
   assembleColumns,
   selKeAllows,
   type LocEntry,
@@ -116,6 +119,72 @@ describe("bucketize", () => {
 
   it("位次无效 → 全空", () => {
     const g = bucketize(0, [e(10000)]);
+    expect(Object.values(g).every((l) => l.length === 0)).toBe(true);
+  });
+});
+
+// ── 分数域定位（西藏「只有分数」省）──────────────────────────────
+// 构造按分数定位的条目：只有 s（往年最低分）影响分档，r 恒 0。
+const es = (s: number): LocEntry => ({ sc: "1", sn: "x", mn: "m", mk: "k", sk: "", pl: 1, r: 0, s, py: 2025 });
+
+describe("classifyScore（绝对分差判档）", () => {
+  // 录取最低分 rec=400；d = 我的分 − rec。阈值：<-15 够不着 / [-15,-2) 冲 / [-2,12) 稳 / [12,45) 保 / ≥45 过保。
+  it.each([
+    ["远低于线-够不着", 384, 400, "够不着"], // d=-16
+    ["边界-15-冲", 385, 400, "冲"], // d=-15
+    ["略低于线-冲", 395, 400, "冲"], // d=-5
+    ["边界-2-稳", 398, 400, "稳"], // d=-2
+    ["持平-稳", 400, 400, "稳"], // d=0
+    ["略高于线-稳", 411, 400, "稳"], // d=11
+    ["边界12-保", 412, 400, "保"], // d=12
+    ["明显高于线-保", 440, 400, "保"], // d=40
+    ["边界45-过保", 445, 400, "过保"], // d=45
+    ["远超线-过保", 500, 400, "过保"], // d=100
+    ["分数无效-null", 0, 400, null],
+    ["录取分无效-null", 400, 0, null],
+  ])("%s", (_n, my, rec, want) => {
+    expect(classifyScore(my as number, rec as number)).toBe(want);
+  });
+});
+
+describe("reachColorScore（与 classifyScore 同源）", () => {
+  // rec=400；d≥-2 easy（稳/保）/ d≥-8 mid（冲·较易）/ else hard（冲·偏难·够不着）。
+  it.each([
+    ["持平-easy", 400, 400, "easy"],
+    ["边界-2-easy", 398, 400, "easy"],
+    ["较易冲-mid", 395, 400, "mid"], // d=-5
+    ["边界-8-mid", 392, 400, "mid"],
+    ["偏难冲-hard", 391, 400, "hard"], // d=-9
+    ["够不着-hard", 380, 400, "hard"],
+  ])("%s", (_n, my, rec, want) => {
+    expect(reachColorScore(my as number, rec as number)).toBe(want);
+  });
+});
+
+describe("bucketizeScore", () => {
+  it("按分差分档：高于线进保、约等于进稳、略低进冲", () => {
+    // 我的分=400：rec390(高10→稳)、rec360(高40→保)、rec405(低5→冲)。
+    const g = bucketizeScore(400, [es(390), es(360), es(405)]);
+    expect(g.稳.map((x) => x.s)).toEqual([390]);
+    expect(g.保.map((x) => x.s)).toEqual([360]);
+    expect(g.冲.map((x) => x.s)).toEqual([405]);
+  });
+
+  it("远档不误标：远高于我的分进够不着、远低进过保", () => {
+    const g = bucketizeScore(400, [es(450) /* 高50→够不着 */, es(340) /* 低60→过保 */]);
+    expect(g.够不着.map((x) => x.s)).toEqual([450]);
+    expect(g.过保.map((x) => x.s)).toEqual([340]);
+    expect(g.冲.length + g.保.length).toBe(0);
+  });
+
+  it("每档最贴近本人分在前（按 |s−V| 升序）", () => {
+    // 我的分=400，两条保（高 12–45 分）：rec386(差14) 比 rec370(差30) 更贴近，应排前。故意逆序传入。
+    const g = bucketizeScore(400, [es(370), es(386)]);
+    expect(g.保.map((x) => x.s)).toEqual([386, 370]);
+  });
+
+  it("分数无效 → 全空", () => {
+    const g = bucketizeScore(0, [es(400)]);
     expect(Object.values(g).every((l) => l.length === 0)).toBe(true);
   });
 });

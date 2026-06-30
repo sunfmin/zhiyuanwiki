@@ -1,5 +1,6 @@
 import { useEffect } from "preact/hooks";
-import { classify, type Bucket } from "../lib/dingwei";
+import { classify, classifyScore, type Bucket } from "../lib/dingwei";
+import { provinceConfig } from "../lib/provinces";
 
 const cls: Record<Bucket, string> = {
   够不着: "bg-slate-100 text-slate-500",
@@ -37,51 +38,65 @@ export default function SchoolBadges({ prov }: { prov: string }) {
       }
     }
 
-    // 冲稳保角标
+    // 只有分数省（西藏）：访客存的是分数（myScore），按数据元素的 data-score 用绝对分差判档；
+    // 其余省按位次（myRank）+ data-rank 用比值判档。两条路径只是「读哪个键 + 用哪个 classify」之别。
+    const scoreMode = provinceConfig(prov).locatorBasis === "score";
     let V = 0;
     let myTrack = "";
     try {
-      V = parseInt(localStorage.getItem(`myRank.${prov}`) || "0", 10) || 0;
+      V = parseInt(localStorage.getItem(`${scoreMode ? "myScore" : "myRank"}.${prov}`) || "0", 10) || 0;
       myTrack = localStorage.getItem(`myTrack.${prov}`) || "";
     } catch {
       /* ignore */
     }
     if (V <= 0) return;
-    document.querySelectorAll<HTMLElement>(".rank-badge").forEach((el) => {
-      const r = parseInt(el.dataset.rank || "0", 10);
+    // bucketOf：从元素的 data-rank/data-score 取该专业的「值」，判出冲稳保（科类不符或无值→null）。
+    const bucketOf = (el: HTMLElement): Bucket | null => {
       const tr = el.dataset.track || "";
-      if (r <= 0 || (myTrack && tr && myTrack !== tr)) return;
-      const b = classify(V, r);
-      if (!b) return; // 无效输入：不渲染角标
-      el.textContent = `按你的位次 ${V.toLocaleString()}：${b}`;
+      if (myTrack && tr && myTrack !== tr) return null;
+      if (scoreMode) {
+        const s = parseInt(el.dataset.score || "0", 10);
+        return s > 0 ? classifyScore(V, s) : null;
+      }
+      const r = parseInt(el.dataset.rank || "0", 10);
+      return r > 0 ? classify(V, r) : null;
+    };
+    const vLabel = scoreMode ? `${V} 分` : V.toLocaleString();
+
+    document.querySelectorAll<HTMLElement>(".rank-badge").forEach((el) => {
+      const b = bucketOf(el);
+      if (!b) return; // 无效输入 / 科类不符：不渲染角标
+      el.textContent = `按你的${scoreMode ? "分数" : "位次"} ${vLabel}：${b}`;
       el.className = `rank-badge ml-2 rounded px-2 py-0.5 text-xs font-medium ${cls[b]}`;
     });
 
     // 招生专业排行：给每个 .reach-tag 填短标签 + 底色，并给该行左边框上色。
     document.querySelectorAll<HTMLElement>(".reach-tag").forEach((el) => {
-      const r = parseInt(el.dataset.rank || "0", 10);
-      const tr = el.dataset.track || "";
-      if (r <= 0 || (myTrack && tr && myTrack !== tr)) return;
-      const b = classify(V, r);
+      const b = bucketOf(el);
       if (!b) return;
       el.textContent = b;
       el.style.background = reachColor[b];
       el.closest<HTMLElement>(".yx-rank-row")?.style.setProperty("border-left-color", reachColor[b]);
     });
 
-    // 「你的位次」分界线：插到排行里第一条「位次 ≥ 你」的专业之前（以上更难、以下托底）。
+    // 「你在这里」分界线：插到排行里第一条「不比你难」的专业之前（以上更难、以下托底）。
+    // 位次省：第一条 data-rank ≥ V（位次更大=更易）；只有分数省：第一条 data-score ≤ V（分更低=更易）。
     const list = document.querySelector<HTMLElement>(".yx-ranklist");
     const you = list?.querySelector<HTMLElement>(".yx-youhere");
     const youV = you?.querySelector<HTMLElement>(".yx-youhere-v");
     if (list && you && youV && !(myTrack && list.dataset.track && myTrack !== list.dataset.track)) {
       const rows = Array.from(list.querySelectorAll<HTMLElement>(".yx-rank-row"));
-      const target = rows.find((row) => parseInt(row.dataset.rank || "0", 10) >= V);
+      const target = rows.find((row) =>
+        scoreMode
+          ? parseInt(row.dataset.score || "0", 10) <= V
+          : parseInt(row.dataset.rank || "0", 10) >= V,
+      );
       if (target) list.insertBefore(you, target);
       else {
         const caps = list.querySelectorAll<HTMLElement>(".yx-rank-cap");
-        list.insertBefore(you, caps[caps.length - 1]); // 比所有专业都易 → 落到「更易考 ↓」前
+        list.insertBefore(you, caps[caps.length - 1]); // 比所有专业都易 → 落到末尾「更易」前
       }
-      youV.textContent = `你的位次 ${V.toLocaleString()}`;
+      youV.textContent = `你的${scoreMode ? "分数" : "位次"} ${vLabel}`;
       you.hidden = false;
     }
   }, [prov]);

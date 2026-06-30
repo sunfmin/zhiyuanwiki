@@ -23,12 +23,17 @@ export interface FillWindow {
   note?: string; // 段次 / 提前批合并 / 分轮 等简短中文备注
 }
 
+// 定位基准：rank=按位次（绝大多数省，依赖一分一段做分数↔位次换算）；score=按分数（西藏——考试院
+// 不发布一分一段、录取数据无位次，只能按绝对分差冲稳保，无等效位次/无走势位次，UI 明示「约/参考」）。
+export type LocatorBasis = "rank" | "score";
+
 export interface ProvinceConfig {
   slug: string; // hlj / zj —— 数据目录与 URL 段
   name: string; // 黑龙江 / 浙江
   tracks: TrackConf[]; // 黑龙江两科类；浙江单科类「综合」
   fillModel: FillModel;
   subjectMode: SubjectMode;
+  locatorBasis?: LocatorBasis; // 缺省 = "rank"（位次定位）；西藏 = "score"（分数定位）
   fenduanTrack: string; // 定位/换算所用一分一段表的科类
   fenduanYear: number; // 该表的年份（黑龙江 2026 物理；浙江 2026 综合）
   intro: string; // 主页/列表的省份说明片段
@@ -442,6 +447,22 @@ export const PROVINCES: Record<string, ProvinceConfig> = {
     intro: "新疆 · 2025（老高考）",
     batchLabel: "本科批 · 理科 / 文科（专业平行志愿）",
     fill: { start: "2026-06-25", end: "2026-07-03", endTime: "12:00", note: "老高考；本科批截止 7/3" },
+  },
+  xz: {
+    slug: "xz",
+    name: "西藏",
+    tracks: [
+      { name: "理科", slug: "like" },
+      { name: "文科", slug: "wenke" },
+    ],
+    fillModel: "major",
+    subjectMode: "wenli", // 老高考：无选科，仅理科/文科切换
+    locatorBasis: "score", // 西藏无位次/一分一段（考试院不发布）→ 按分数定位（见 ADR-0014）
+    fenduanTrack: "理科", // 占位（score 定位不用一分一段）
+    fenduanYear: 2025, // 占位
+    intro: "西藏 · 2022–2025（老高考·按分数）",
+    batchLabel: "本科批 · 理科 / 文科（专业平行志愿；按分数定位，无位次）",
+    fill: { start: "2026-06-26", end: "2026-07-01", endTime: "18:00", note: "老高考；分 A 类(少数民族)/B 类(汉族) 批次线" },
   },
 };
 

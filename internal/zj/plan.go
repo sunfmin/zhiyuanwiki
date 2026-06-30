@@ -101,6 +101,7 @@ type PlanMajor struct {
 	PrevYear  int    `json:"prevYear,omitempty"`
 	PrevRank  int    `json:"prevRank,omitempty"`  // 最近年份最低位次
 	EquivRank int    `json:"equivRank,omitempty"` // 等效到 refYear
+	PrevScore int    `json:"prevScore,omitempty"` // 最近年份最低分（只有分数省=西藏的定位/排序基准，位次缺失时用它）
 }
 
 // leafLatest 返回叶子最近年份的数据点。

@@ -15,18 +15,19 @@ export function getStaticPaths() {
 
 const { prov, major } = Astro.props as { prov: string; major: MajorDetail };
 const cfg = provinceConfig(prov);
+const scoreMode = cfg.locatorBasis === "score"; // 西藏：无位次，按最低分横向比较
 ---
 
 <Base
   prov={prov}
   title={`${major.name} · 专业 · 高考志愿数据 Wiki`}
-  description={`开设 ${major.name} 的各院校在${cfg.name}的录取最低位次横向比较。`}
+  description={`开设 ${major.name} 的各院校在${cfg.name}的录取最低${scoreMode ? "分" : "位次"}横向比较。`}
 >
   <section class="mx-auto max-w-3xl px-4 py-12">
     <a href={`/${prov}/zhuanye/`} class="text-sm text-slate-500 hover:text-slate-800">← 专业浏览</a>
     <h1 class="mt-2 text-2xl font-bold">{major.name}</h1>
     <p class="mt-1 text-sm text-slate-500">
-      {major.schools.length} 所院校开设（按最近最低位次排序）
+      {major.schools.length} 所院校开设（按最近最低{scoreMode ? "分（高→低）" : "位次"}排序）
     </p>
 
     <div class="mt-6 overflow-x-auto">
@@ -34,7 +35,7 @@ const cfg = provinceConfig(prov);
         <thead>
           <tr class="border-b border-slate-300 text-left text-slate-500">
             <th class="py-2 pr-4">院校</th>
-            <th class="py-2 pr-4">最近最低位次</th>
+            <th class="py-2 pr-4">{scoreMode ? "最近最低分" : "最近最低位次"}</th>
             <th class="py-2 pr-4">科类</th>
             <th class="py-2 pr-4">年份</th>
           </tr>
@@ -54,7 +55,9 @@ const cfg = provinceConfig(prov);
                   </a>
                   {dir && <span class="ml-1 text-xs text-slate-400">{dir}</span>}
                 </td>
-                <td class="py-2 pr-4 tabular-nums">{s.minRank.toLocaleString()}</td>
+                <td class="py-2 pr-4 tabular-nums">
+                  {scoreMode ? (s.minScore ? `${s.minScore} 分` : "—") : s.minRank.toLocaleString()}
+                </td>
                 <td class="py-2 pr-4">{s.track}</td>
                 <td class="py-2 pr-4 tabular-nums">{s.year}</td>
               </tr>

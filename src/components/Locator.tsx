@@ -2,8 +2,10 @@ import { useEffect, useMemo, useRef, useState } from "preact/hooks";
 import { scoreToRank, rankToScore, type YiFenYiDuan } from "../lib/fenduan";
 import {
   bucketize,
+  bucketizeScore,
   assembleColumns,
   reachColor,
+  reachColorScore,
   selKeAllows,
   selKeAllowsZJ,
   TOP_FLOOR_FRAC,
@@ -44,8 +46,11 @@ const REACH_CLS: Record<ReachLevel, string> = {
 export default function Locator({ prov, table }: { prov: string; table: YiFenYiDuan }) {
   const cfg = provinceConfig(prov);
   const multiTrack = cfg.tracks.length > 1;
-  // wenli：老高考（新疆 理科/文科）——无选科，仅理科/文科科类切换；选科判定恒真、隐藏选科区。
+  // wenli：老高考（新疆/西藏 理科/文科）——无选科，仅理科/文科科类切换；选科判定恒真、隐藏选科区。
   const wenli = cfg.subjectMode === "wenli";
+  // scoreMode：只有分数省（西藏）——无位次/无一分一段，按分数（绝对分差）定位。V=分数、行显录取分而非位次、
+  // 无分数↔位次换算、无等效位次。位次省（绝大多数）此值为 false，原位次路径完全不变。见 provinces.locatorBasis。
+  const scoreMode = cfg.locatorBasis === "score";
   // pick3：综合「选3」模型——浙江 7选3（含技术）与北京/上海/海南/山东 6选3（无技术）共用同一套
   // 选科判定（selKeAllowsZJ）与「最多 3 科」逻辑，仅候选科目表不同。
   const pick3 = cfg.subjectMode === "pick3of7" || cfg.subjectMode === "pick3of6";
@@ -70,9 +75,10 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
   const [loading, setLoading] = useState(false);
   const cache = useRef<Record<string, LocEntry[]>>({});
 
-  // 当前科类是否有一分一段表（=能按分数输入）；否则强制按位次（如黑龙江历史类）。
-  const canScore = track === cfg.fenduanTrack;
-  const effectiveMode: "score" | "rank" = canScore ? mode : "rank";
+  // 当前科类是否有一分一段表（=位次省里能按分数输入并换算）；否则强制按位次（如黑龙江历史类）。
+  // 只有分数省（西藏）无一分一段，canScore 恒 false——它走独立的 scoreMode 路径（不做分数↔位次换算）。
+  const canScore = !scoreMode && track === cfg.fenduanTrack;
+  const effectiveMode: "score" | "rank" = scoreMode ? "score" : canScore ? mode : "rank";
 
   // 挂载后恢复状态；ready 之前不回写（避免覆盖尚未恢复的初值）。
   const [ready, setReady] = useState(false);
@@ -184,12 +190,14 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
     return s;
   }, [track, sel, pick3, wenli]);
 
+  // V：位次省=访客等效位次（分数经一分一段换算或直接输位次）；只有分数省（西藏）=访客分数本身。
   const V = useMemo(() => {
     const n = parseInt(val, 10);
     if (Number.isNaN(n) || n <= 0) return 0;
+    if (scoreMode) return n; // 西藏：V 即分数（与各专业录取最低分直接比）
     if (effectiveMode === "rank") return n;
     return scoreToRank(table, n) ?? 0;
-  }, [val, effectiveMode, table]);
+  }, [val, effectiveMode, table, scoreMode]);
 
   // 省顶尖段兜底宽度（绝对位次）：一分一段表最大累计人数（=全省统考人数）× TOP_FLOOR_FRAC。
   // 传给 bucketize/reachColor，避免全省尖子生（V 极小，如上海 600 分≈第 626 名）冲/稳/保整列塌空。
@@ -201,13 +209,14 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
   useEffect(() => {
     if (V > 0) {
       try {
-        localStorage.setItem(`myRank.${prov}`, String(V));
+        // 只有分数省（西藏）存「我的分数」(myScore)，院校页角标据此按分数判档；其余省存等效位次(myRank)。
+        localStorage.setItem(`${scoreMode ? "myScore" : "myRank"}.${prov}`, String(V));
         localStorage.setItem(`myTrack.${prov}`, track);
       } catch {
         /* 隐私模式等忽略 */
       }
     }
-  }, [V, track, prov]);
+  }, [V, track, prov, scoreMode]);
 
   const provinceOpts = useMemo(() => distinctSorted(Object.values(meta).map((m) => m.p)), [meta]);
   const kindOpts = useMemo(() => distinctSorted(Object.values(meta).map((m) => m.k)), [meta]);
@@ -215,16 +224,17 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
   const activeFilters = anyActive(filters);
 
   const buckets = useMemo(() => {
-    // 先按选科 + 用户筛选过滤，再交给纯函数 bucketize 按把握比值分档（每档最贴你水平在前，不凑数）。
+    // 先按选科 + 用户筛选过滤，再交给纯函数分档（每档最贴你水平在前，不凑数）。位次省按比值(bucketize)，
+    // 只有分数省（西藏）按绝对分差(bucketizeScore)；无定位基准的条目（位次省 r≤0 / 西藏 s≤0）自动落空。
     const eligible: LocEntry[] = [];
     for (const e of entries) {
-      if (e.r <= 0) continue;
+      if (scoreMode ? (e.s ?? 0) <= 0 : e.r <= 0) continue;
       if (!matchSelKe(e.sk, chosen)) continue;
       if (!matchesFilters(e, meta, filters)) continue;
       eligible.push(e);
     }
-    return bucketize(V, eligible, topFloor);
-  }, [entries, V, chosen, meta, filters, matchSelKe, topFloor]);
+    return scoreMode ? bucketizeScore(V, eligible) : bucketize(V, eligible, topFloor);
+  }, [entries, V, chosen, meta, filters, matchSelKe, topFloor, scoreMode]);
 
   // 三列装配（截断 + 远档补齐到约 100）全在纯函数里，承重规则不再内联于 render。
   const columns = useMemo(() => assembleColumns(buckets), [buckets]);
@@ -255,8 +265,17 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
     return d > 0 ? `约 高你 ${d} 分` : `约 低你 ${-d} 分`;
   }
 
-  // 按把握给差距着色：稳/保→绿、较易冲→琥珀、偏难冲/够不着→红。阈值在 dingwei.reachColor（与 classify 同源）。
-  const reachTint = (R: number) => REACH_CLS[reachColor(V, R, topFloor)];
+  // 只有分数省（西藏）：录取最低分与「你的分」的绝对分差（V 即分数）。
+  function scorePointDelta(s: number): string {
+    const d = s - V;
+    if (d === 0) return "与你持平";
+    return d > 0 ? `高你 ${d} 分` : `低你 ${-d} 分`;
+  }
+
+  // 按把握给差距着色：稳/保→绿、较易冲→琥珀、偏难冲/够不着→红。位次省用 reachColor（V/R 比值），
+  // 只有分数省（西藏）用 reachColorScore（绝对分差）。阈值各自在 dingwei（与对应 classify 同源）。
+  const reachTint = (e: LocEntry) =>
+    REACH_CLS[scoreMode ? reachColorScore(V, e.s ?? 0) : reachColor(V, e.r, topFloor)];
 
   // 单条候选行。主列与远档预览复用；muted=远档预览（置灰）。
   const renderRow = (e: LocEntry, muted = false) => {
@@ -282,10 +301,16 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
               <div class="truncate text-xs text-slate-500">{e.mn}</div>
             </div>
             <div class="shrink-0 text-right leading-tight">
-              {rs != null ? (
+              {scoreMode ? (
+                <>
+                  <div class="text-sm font-semibold tabular-nums text-slate-800">{(e.s ?? 0).toLocaleString()} 分</div>
+                  <div class={`text-[11px] tabular-nums ${reachTint(e)}`}>{scorePointDelta(e.s ?? 0)}</div>
+                  <div class="text-[10px] tabular-nums text-slate-400">{e.py} 录取最低分</div>
+                </>
+              ) : rs != null ? (
                 <>
                   <div class="text-sm font-semibold tabular-nums text-slate-800">约 {rs} 分</div>
-                  {sd && <div class={`text-[11px] tabular-nums ${reachTint(e.r)}`}>{sd}</div>}
+                  {sd && <div class={`text-[11px] tabular-nums ${reachTint(e)}`}>{sd}</div>}
                   <div class="text-[10px] tabular-nums text-slate-400">
                     位次 {e.r.toLocaleString()} · {delta(e.r)}
                   </div>
@@ -293,7 +318,7 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
               ) : (
                 <>
                   <div class="text-sm font-semibold tabular-nums text-slate-800">{e.r.toLocaleString()}</div>
-                  <div class={`text-[11px] tabular-nums ${reachTint(e.r)}`}>{delta(e.r)}</div>
+                  <div class={`text-[11px] tabular-nums ${reachTint(e)}`}>{delta(e.r)}</div>
                 </>
               )}
             </div>
@@ -369,6 +394,18 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
             )}
           </div>
         )}
+        {/* 只有分数省（西藏）：明示口径——无位次（考试院不发布一分一段）、按分数粗略定位、且录取分含汉/少数民族两类线未区分。 */}
+        {scoreMode && (
+          <div class="mb-4 flex flex-wrap items-center gap-x-2 gap-y-1 text-xs">
+            <span class="inline-flex items-center rounded-md bg-amber-50 px-2 py-0.5 font-semibold text-amber-700 ring-1 ring-amber-600/20">
+              按分数定位
+            </span>
+            <span class="text-slate-500">
+              西藏无官方一分一段、录取数据无位次，故按「分数差」粗判冲稳保——分数随题目难易逐年漂移、跨年仅供参考；
+              录取最低分含 A 类(少数民族)/B 类(汉族) 两类线、源未区分。
+            </span>
+          </div>
+        )}
         <div class="flex flex-col gap-5 sm:flex-row sm:items-end sm:justify-between">
           <div class="space-y-3">
             <div class="flex flex-wrap items-center gap-2">
@@ -425,13 +462,17 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
           <div class="shrink-0 sm:text-right">
             {V > 0 ? (
               <>
-                <div class="text-xs font-medium tracking-wide text-slate-400">你的全省位次</div>
+                <div class="text-xs font-medium tracking-wide text-slate-400">
+                  {scoreMode ? "你的分数" : "你的全省位次"}
+                </div>
                 <div class="mt-0.5 text-4xl font-bold tabular-nums tracking-tight text-slate-900 sm:text-5xl">
                   {V.toLocaleString()}
+                  {scoreMode && <span class="ml-1 text-2xl">分</span>}
                 </div>
                 <div class="mt-1 text-xs text-slate-500">
                   {track}
-                  {wenli ? "" : "类"} · 等效到 {cfg.fenduanYear} · 越小越靠前
+                  {wenli ? "" : "类"}
+                  {scoreMode ? " · 按分数比对 · 越高越靠前" : ` · 等效到 ${cfg.fenduanYear} · 越小越靠前`}
                 </div>
               </>
             ) : (
@@ -444,8 +485,9 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
         {multiTrack && !canScore && !wenli && (
           <p class="mt-3 text-xs text-amber-700">{track}类暂缺 {cfg.fenduanYear} 一分一段，请直接输入位次。</p>
         )}
-        {/* 老文理：文科按位次定位（分数↔位次换算仅理科接入），用中性提示替代「暂缺」误导文案。 */}
-        {wenli && !canScore && (
+        {/* 老文理（新疆）：文科按位次定位（分数↔位次换算仅理科接入），用中性提示替代「暂缺」误导文案。
+            西藏走 scoreMode（无位次），不显此条——其口径已由上方「按分数定位」说明覆盖。 */}
+        {wenli && !canScore && !scoreMode && (
           <p class="mt-3 text-xs text-slate-500">{track}按位次定位（分数换算仅理科）。</p>
         )}
       </div>
@@ -601,7 +643,7 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
                   <span class="text-xs tabular-nums text-slate-400">{col.all.length} 个</span>
                 </div>
                 <div class="px-3 pb-1.5 pt-1 text-right text-[10px] tracking-wide text-slate-400">
-                  {canScore ? "等效分 · 与你差距" : "录取位次 · 与你差距"}
+                  {scoreMode ? "录取最低分 · 与你差距" : canScore ? "等效分 · 与你差距" : "录取位次 · 与你差距"}
                 </div>
                 <ul class="divide-y divide-slate-100 border-t border-slate-100">
                   {shown.map((e) => renderRow(e))}
@@ -642,7 +684,8 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
       {!loading && V <= 0 && (
         <div class="mt-6 rounded-xl border border-dashed border-slate-300 bg-white px-4 py-10 text-center">
           <p class="text-sm text-slate-500">
-            输入分数或位次，按等效位次给出 <span class="font-medium text-rose-600">冲</span> /{" "}
+            输入{scoreMode ? "分数" : "分数或位次"}，按{scoreMode ? "分数差" : "等效位次"}给出{" "}
+            <span class="font-medium text-rose-600">冲</span> /{" "}
             <span class="font-medium text-amber-600">稳</span> /{" "}
             <span class="font-medium text-emerald-600">保</span> 的可填报{unit}。
           </p>

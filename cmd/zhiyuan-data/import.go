@@ -16,6 +16,7 @@ import (
 	"github.com/sunfmin/zhiyuanwiki/internal/store"
 	"github.com/sunfmin/zhiyuanwiki/internal/tj"
 	"github.com/sunfmin/zhiyuanwiki/internal/xj"
+	"github.com/sunfmin/zhiyuanwiki/internal/xz"
 )
 
 // importDefaultSrc 是新数据源（各省份/ 干净树）的默认根。见 ADR-0014。
@@ -49,6 +50,8 @@ var provDirName = map[string]string{
 	"sd":    "山东",
 	"tj":    "天津",
 	"xj":    "新疆", // 源在 各省份/新疆/新疆/新疆/ 下（嵌套多层，靠子树 glob）
+	// 西藏数据是独立交付包（不在 各省份/ 树内），用 -src ~/Downloads 指向其上层、provDirName 给包名。
+	"xz": "31、西藏-2026志愿填报资料",
 
 	"hb":    "湖北高考数据", // 各省份/ 下子目录带后缀
 	"yn":    "云南",
@@ -131,6 +134,11 @@ var provParsers = map[string]provParser{
 	// 「专业录取分数」以避开同目录的「院校录取分数」合表。计划/一分一段走默认子串。
 	"xj": {Scores: xj.ParseScores, Plan: xj.ParsePlan, YFD: xj.ParseYiFenYiDuan,
 		ScoreMust: []string{"22-25年全国高校在新疆的专业录取分数"}},
+	// 西藏：老文理「只有分数」省（无位次/无一分一段，专属 xz 解析）。YFD 留空——源无一分一段，
+	// importProvince 的「一分一段表」glob 命中不到任何文件，循环不执行、不会调用 nil。Score/Plan
+	// 精确指向 22-25 合表，避开历史数据目录下的「西藏_专业分数线/西藏_招生计划_YYYY」分年小文件。
+	"xz": {Scores: xz.ParseScores, Plan: xz.ParsePlan,
+		ScoreMust: []string{"22-25年全国高校在西藏的专业录取分数"}, PlanMust: []string{"22-25年全国高校在西藏的招生计划"}},
 	"hb": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
 		PlanMust: []string{"25年全国高校在湖北省的招生计划"}},
 	"yn": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,

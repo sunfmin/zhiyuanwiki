@@ -23,7 +23,8 @@ const seg = path.split("/").filter(Boolean); // ["hlj","yuanxiao",...]
 const section = prov ? (seg[1] ?? "") : "";
 const navLinks = prov
   ? [
-      { section: "", href: `/${prov}/`, label: "位次定位" },
+      // 只有分数省（西藏）无位次，主页是「分数定位」。
+      { section: "", href: `/${prov}/`, label: cfg?.locatorBasis === "score" ? "分数定位" : "位次定位" },
       { section: "yuanxiao", href: `/${prov}/yuanxiao/`, label: "院校" },
       { section: "zhuanye", href: `/${prov}/zhuanye/`, label: "专业" },
       { section: "guide", href: `/${prov}/guide/`, label: "指南" },

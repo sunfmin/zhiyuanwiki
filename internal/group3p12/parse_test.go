@@ -25,7 +25,7 @@ func TestParseScores(t *testing.T) {
 		{"2025", "某艺院", "8801", "艺术类（物理）", "艺术类本科批", "音乐", "", "", "500", "5000"}, // 艺术科类 → 丢
 		{"2025", "无位次校", "7777", "物理类", "本科批", "X", "", "", "500", ""},            // 无位次 → 丢
 	}
-	got := parseScores(sheet(t, rows, scoreHeader), keep, false)
+	got := parseScores(sheet(t, rows, scoreHeader), keep, false, true)
 	if len(got) != 2 {
 		t.Fatalf("want 2 行（仅物理/历史本科含位次），got %d: %+v", len(got), got)
 	}
@@ -34,6 +34,28 @@ func TestParseScores(t *testing.T) {
 	}
 	if got[1].Track != "历史" { // 历史类 → 历史
 		t.Errorf("科类未归一: %q", got[1].Track)
+	}
+}
+
+// TestParseScoresScoreOnly 覆盖西藏「只有分数」口径：requireRank=false 时保留无位次行（MinRank=0），
+// 改以「最低分数非空」为门槛；老文理 keep={理科,文科}；专科/无分数行仍丢。
+func TestParseScoresScoreOnly(t *testing.T) {
+	xzKeep := map[string]bool{"理科": true, "文科": true}
+	header := []string{"年份", "院校名称", "院校代码", "科类", "批次", "专业", "最低分数", "最低位次"}
+	rows := [][]string{
+		header,
+		{"2025", "西藏大学", "0001", "理科", "本科一批", "临床医学", "420", ""},        // 无位次 → 保留（MinRank=0）
+		{"2025", "西藏大学", "0001", "文科", "本科一批", "法学", "388", ""},          // 无位次 → 保留
+		{"2025", "某专科", "9999", "理科", "专科批", "护理", "300", ""},            // 专科批 → 丢
+		{"2025", "无分校", "8888", "理科", "本科一批", "X", "", ""},               // 无最低分数 → 丢
+		{"2025", "某艺院", "7777", "艺术理", "艺术类本科批", "音乐", "410", ""},       // 非 keep 科类 → 丢
+	}
+	got := parseScores(sheet(t, rows, scoreHeaderScoreOnly), xzKeep, false, false)
+	if len(got) != 2 {
+		t.Fatalf("want 2 行（理/文本科、有分数、无需位次），got %d: %+v", len(got), got)
+	}
+	if got[0].MinScore != 420 || got[0].MinRank != 0 || got[0].Track != "理科" {
+		t.Errorf("无位次行未按分数保留: %+v", got[0])
 	}
 }
 
@@ -110,7 +132,7 @@ func TestParseScoresZonghe(t *testing.T) {
 		{"2025", "复旦大学", "3001", "综合", "本科批", "经济学类", "01", "物理", "580", "1200"},
 		{"2025", "某校", "9999", "理科", "本科批", "X", "02", "", "500", "8000"}, // 老文理 理科 → 丢
 	}
-	got := parseScores(sheet(t, rows, scoreHeader), keep, false)
+	got := parseScores(sheet(t, rows, scoreHeader), keep, false, true)
 	if len(got) != 1 {
 		t.Fatalf("want 1 行（仅综合），got %d: %+v", len(got), got)
 	}
@@ -128,7 +150,7 @@ func TestParseScoresAvg(t *testing.T) {
 		// 最低分被封顶在 580/4096，但平均分 619/119 真实——useAvg 应取后者。
 		{"2025", "复旦大学", "0101", "综合", "本科批", "工科试验班", "02", "物理", "580", "4096", "619", "119"},
 	}
-	got := parseScores(sheet(t, rows, scoreHeader), keep, true)
+	got := parseScores(sheet(t, rows, scoreHeader), keep, true, true)
 	if len(got) != 1 {
 		t.Fatalf("want 1 行，got %d: %+v", len(got), got)
 	}
@@ -138,7 +160,7 @@ func TestParseScoresAvg(t *testing.T) {
 
 	// 回退：无平均列时仍取最低分/最低位次。
 	hdrNoAvg := []string{"年份", "院校名称", "院校代码", "科类", "批次", "专业", "专业组代码", "选科要求", "最低分", "最低位次"}
-	got2 := parseScores(sheet(t, [][]string{hdrNoAvg, {"2025", "某校", "0102", "综合", "本科批", "X", "01", "", "560", "8000"}}, scoreHeader), keep, true)
+	got2 := parseScores(sheet(t, [][]string{hdrNoAvg, {"2025", "某校", "0102", "综合", "本科批", "X", "01", "", "560", "8000"}}, scoreHeader), keep, true, true)
 	if len(got2) != 1 || got2[0].MinScore != 560 || got2[0].MinRank != 8000 {
 		t.Errorf("无平均列应回退最低分(560/8000)，got %+v", got2)
 	}
