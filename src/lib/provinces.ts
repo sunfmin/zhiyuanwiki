@@ -495,6 +495,24 @@ export function provinceConfig(slug: string): ProvinceConfig {
   return PROVINCES[slug] ?? PROVINCES[DEFAULT_PROVINCE];
 }
 
+// 高考满分（各省制度差异，集中一处便于一眼核对）：上海 660（语数外各 150 + 3 门选考各 70）、
+// 海南为标准分制满分 900，其余新高考省份均为 750。表头据此显示「满分 X 分」，让高分位次有参照
+// （如上海 600/660 ≈ 91 分位 → 全省第 1,250，不写明满分易被当成 750 制误读）。
+const FULL_SCORE: Record<string, number> = { sh: 660, hain: 900 };
+export function fullScoreOf(slug: string): number {
+  return FULL_SCORE[slug] ?? 750;
+}
+
+// 录取分口径说明：上海官方把本科批最低分封顶在 580（高分段不披露，580 以上一律记 580/4096），
+// 本站改用未封顶的「平均分/平均位次」作录取参考分（见 group3p12.ParseScoresAvg）——表头点明，
+// 避免被误读为最低投档线。其余省份用真实最低分，无需说明。
+const SCORE_BASIS_NOTE: Record<string, string> = {
+  sh: "高分段最低分官方未公开，分数线按平均分口径",
+};
+export function scoreBasisNoteOf(slug: string): string | undefined {
+  return SCORE_BASIS_NOTE[slug];
+}
+
 // trackSlug 取某省某科类的文件名片段。
 export function trackSlugOf(cfg: ProvinceConfig, track: string): string {
   return cfg.tracks.find((t) => t.name === track)?.slug ?? track;

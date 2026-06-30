@@ -58,8 +58,12 @@ func dingweiCmd(args []string) {
 		}
 		// 黑龙江：院校专业组 → 组内专业
 		for _, g := range d.Groups2026 {
-			size := len(g.Majors)
-			for _, m := range g.Majors {
+			// 同组内同一专业键可能因计划侧子方向拆行而重复（如复旦工科试验班在源计划拆成 13 行子方向，
+			// 归一后同名同 mk），合并为一条、计划求和——否则定位列同专业重复刷屏、撞 React key、组内专
+			// 业数虚高。组内专业数（gs）按去重后计。根因在 core.BuildGroups2026 逐行建组，此处为视图层兜底。
+			majors := dedupGroupMajors(g.Majors)
+			size := len(majors)
+			for _, m := range majors {
 				if m.PrevRank <= 0 {
 					continue // 无往年位次无法分档
 				}
@@ -118,3 +122,19 @@ func dingweiCmd(args []string) {
 
 // zjTrack 是浙江唯一科类名（与 internal/zj.Track 一致），用于定位分片键。
 const zjTrack = "综合"
+
+// dedupGroupMajors 合并组内同 MajorKey 的专业（计划求和），保留首次出现的顺序与其余字段。
+// 计划侧子方向拆行会让同一专业在组内重复多行（同名→同 mk），定位视图需归并为一条。
+func dedupGroupMajors(majors []core.GroupMajor) []core.GroupMajor {
+	idx := make(map[string]int, len(majors))
+	out := make([]core.GroupMajor, 0, len(majors))
+	for _, m := range majors {
+		if i, ok := idx[m.MajorKey]; ok {
+			out[i].Plan += m.Plan
+			continue
+		}
+		idx[m.MajorKey] = len(out)
+		out = append(out, m)
+	}
+	return out
+}

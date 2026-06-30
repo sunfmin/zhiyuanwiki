@@ -16,15 +16,29 @@ export const RATIO = {
   chongAmberMax: 1.08, // reachColor 专属：冲区内「较易（琥珀）」与「偏难（红）」的配色分界
 } as const;
 
+// 顶尖段兜底宽度：该省前 TOP_FLOOR_FRAC 名构成「省顶尖段」。在这段内，纯比值带(V/R)随访客位次
+// V→0 急剧坍缩——各档绝对位次窗口窄到几乎容不下专业，全省尖子生看到的冲/稳/保会整列塌空、所有
+// 专业涌入「过保」（上海 600 分≈全省第 626 名即如此）。classify/reachColor 以 max(V, floor) 替代 V
+// 作档宽基准撑开顶尖段；floor = 省统考总人数 × 此比例，由调用方（Locator）按一分一段表算出后传入。
+// 非顶尖段(V≥floor) 及不传 floor 时行为与原比值口径逐位等价（整数位次下精确无差），各省互不影响。
+export const TOP_FLOOR_FRAC = 0.05;
+
+// effR：把「专业等效位次 R 与访客位次 V 的差」按 max(V, floor) 归一后折回的「等效位次」。V≥floor
+// （含 floor=0）→ 返回 R 本身（整数位次下精确等于原值）；V<floor → 用 floor 撑开档宽。classify 与
+// reachColor 共用，确保分档与配色同源。R≥1、V>0 时返回值恒 >0。
+function effR(V: number, R: number, floor: number): number {
+  return V >= floor ? R : V + (R - V) * (V / floor);
+}
+
 /**
  * 冲稳保分档。V=访客位次，R=该专业等效录取位次（越小越难）。
  * 按比值 V/R 贴把握标签——你明显好于线→保；约等于→稳；略低于→冲；
  * 太难→够不着；太易（白白浪费位次）→过保。无效输入→null（不是某一档）。
- * 阈值见 RATIO（一处定义）。
+ * 阈值见 RATIO（一处定义）。floor>0 时对顶尖段(V<floor)启用兜底，避免各档塌空（见 TOP_FLOOR_FRAC）。
  */
-export function classify(V: number, R: number): Bucket | null {
+export function classify(V: number, R: number, floor = 0): Bucket | null {
   if (R <= 0 || V <= 0) return null;
-  const ratio = V / R;
+  const ratio = V / effR(V, R, floor);
   if (ratio > RATIO.chongMax) return "够不着";
   if (ratio > RATIO.wenMax) return "冲";
   if (ratio > RATIO.baoMax) return "稳";
@@ -40,8 +54,9 @@ export type ReachLevel = "easy" | "mid" | "hard";
  * ≤wenMax→easy；其上到 chongAmberMax→mid；再上（含够不着）→hard。
  * R≤0（理论无效，实际不进列）→ ratio 0 → easy，沿用原 reachTint 行为。
  */
-export function reachColor(V: number, R: number): ReachLevel {
-  const ratio = R > 0 ? V / R : 0;
+export function reachColor(V: number, R: number, floor = 0): ReachLevel {
+  const er = effR(V, R, floor);
+  const ratio = er > 0 ? V / er : 0;
   if (ratio <= RATIO.wenMax) return "easy";
   if (ratio <= RATIO.chongAmberMax) return "mid";
   return "hard";
@@ -56,11 +71,11 @@ const emptyGroups = (): BucketGroups => ({ 够不着: [], 冲: [], 稳: [], 保:
  * **不凑数、不截断**——稀疏就有几条显几条，密集时的显示上限由调用方（UI）处理。
  * 调用方须先做选科 / 筛选过滤；r≤0 的条目（classify 返回 null）自动落空。
  */
-export function bucketize(V: number, entries: LocEntry[]): BucketGroups {
+export function bucketize(V: number, entries: LocEntry[], floor = 0): BucketGroups {
   const out = emptyGroups();
   if (V <= 0) return out;
   for (const e of entries) {
-    const b = classify(V, e.r);
+    const b = classify(V, e.r, floor);
     if (b) out[b].push(e);
   }
   for (const k of Object.keys(out) as Bucket[]) {

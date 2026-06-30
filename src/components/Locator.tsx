@@ -6,11 +6,12 @@ import {
   reachColor,
   selKeAllows,
   selKeAllowsZJ,
+  TOP_FLOOR_FRAC,
   type MainTier,
   type LocEntry,
   type ReachLevel,
 } from "../lib/dingwei";
-import { provinceConfig, trackSlugOf } from "../lib/provinces";
+import { fullScoreOf, provinceConfig, scoreBasisNoteOf, trackSlugOf } from "../lib/provinces";
 import {
   matchesFilters,
   emptyFilters,
@@ -153,6 +154,13 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
     return scoreToRank(table, n) ?? 0;
   }, [val, effectiveMode, table]);
 
+  // 省顶尖段兜底宽度（绝对位次）：一分一段表最大累计人数（=全省统考人数）× TOP_FLOOR_FRAC。
+  // 传给 bucketize/reachColor，避免全省尖子生（V 极小，如上海 600 分≈第 626 名）冲/稳/保整列塌空。
+  const topFloor = useMemo(
+    () => Math.round(table.entries.reduce((m, e) => Math.max(m, e.cumulative), 0) * TOP_FLOOR_FRAC),
+    [table],
+  );
+
   useEffect(() => {
     if (V > 0) {
       try {
@@ -178,8 +186,8 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
       if (!matchesFilters(e, meta, filters)) continue;
       eligible.push(e);
     }
-    return bucketize(V, eligible);
-  }, [entries, V, chosen, meta, filters, matchSelKe]);
+    return bucketize(V, eligible, topFloor);
+  }, [entries, V, chosen, meta, filters, matchSelKe, topFloor]);
 
   // 三列装配（截断 + 远档补齐到约 100）全在纯函数里，承重规则不再内联于 render。
   const columns = useMemo(() => assembleColumns(buckets), [buckets]);
@@ -211,7 +219,7 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
   }
 
   // 按把握给差距着色：稳/保→绿、较易冲→琥珀、偏难冲/够不着→红。阈值在 dingwei.reachColor（与 classify 同源）。
-  const reachTint = (R: number) => REACH_CLS[reachColor(V, R)];
+  const reachTint = (R: number) => REACH_CLS[reachColor(V, R, topFloor)];
 
   // 单条候选行。主列与远档预览复用；muted=远档预览（置灰）。
   const renderRow = (e: LocEntry, muted = false) => {
@@ -221,7 +229,7 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
     const rs = scoreOf(e.r);
     const sd = scoreDelta(e.r);
     return (
-      <li key={`${e.sc}-${e.mk}`}>
+      <li key={`${e.sc}-${e.gc ?? ""}-${e.mk}`}>
         <a
           href={`/${prov}/yuanxiao/${e.sc}/#z-${e.mk}`}
           class={`block px-3 py-2 hover:bg-slate-50 ${muted ? "opacity-60 grayscale" : ""}`}
@@ -315,8 +323,13 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
             </span>
             <span class="text-slate-500">
               位次换算基于{table.province}
-              {table.year}年{table.track}类官方一分一段表（{table.entries.length} 个分数段）
+              {table.year}年{table.track}类官方一分一段表（{table.entries.length} 个分数段） · 高考满分 {fullScoreOf(prov)} 分
             </span>
+            {scoreBasisNoteOf(prov) && (
+              <span class="inline-flex items-center rounded-md bg-amber-50 px-2 py-0.5 font-medium text-amber-700 ring-1 ring-amber-600/20">
+                {scoreBasisNoteOf(prov)}
+              </span>
+            )}
           </div>
         )}
         <div class="flex flex-col gap-5 sm:flex-row sm:items-end sm:justify-between">

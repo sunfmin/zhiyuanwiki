@@ -91,7 +91,8 @@ var provParsers = map[string]provParser{
 	// 综合(3+3)+组：科类「综合」已被 group3p12.keep 放行；上海组列名「专业组代码」已加别名。
 	"bj": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
 		ScoreMust: []string{"25年全国高校在北京的专业录取分数"}, PlanMust: []string{"2025年全国高校在北京市的招生计划"}},
-	"sh": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
+	// 上海：最低分被官方封顶在 580（高分段不披露），改用未封顶的「平均分/平均位次」作录取参考分。见 group3p12.ParseScoresAvg。
+	"sh": {Scores: group3p12.ParseScoresAvg, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
 		ScoreMust: []string{"上海_专业分数线_2025"}, PlanMust: []string{"上海2025招生计划"}},
 	"hain": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
 		ScoreMust: []string{"25年全国高校在海南的专业录取分数"}, PlanMust: []string{"海南25招生计划含院校代码"}},

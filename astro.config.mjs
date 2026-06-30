@@ -2,6 +2,20 @@
 import { defineConfig } from "astro/config";
 import preact from "@astrojs/preact";
 import tailwindcss from "@tailwindcss/vite";
+import { realpathSync } from "node:fs";
+import { searchForWorkspaceRoot } from "vite";
+
+// git worktree 下 node_modules 常是指向主仓的符号链接，落在项目根目录之外；Vite dev 默认的
+// server.fs.allow 只含工作区根，会 403 掉岛屿的客户端模块（@astrojs/preact/.../client-dev.js），
+// 致岛屿不水合——交互页（如定位器）输入无反应。放行 node_modules 的真实路径即修复；普通 checkout
+// 下 realpath 落在项目内、是无副作用的 no-op。仅影响 `astro dev`，不改 build/preview 行为。
+const nodeModulesReal = (() => {
+  try {
+    return realpathSync("node_modules");
+  } catch {
+    return null;
+  }
+})();
 
 // 静态站。生产由 Cloudflare R2 托管：apex zhiyuanwiki.com 与 r2.zhiyuanwiki.com 皆挂 R2 自定义域，
 //   前置一条 host-scoped URL Rewrite 补目录 index.html——R2 自身不解析目录 index.html（r2.dev 与自定义域
@@ -19,5 +33,8 @@ export default defineConfig({
   integrations: [preact()],
   vite: {
     plugins: [tailwindcss()],
+    ...(nodeModulesReal && {
+      server: { fs: { allow: [searchForWorkspaceRoot(process.cwd()), nodeModulesReal] } },
+    }),
   },
 });

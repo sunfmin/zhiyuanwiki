@@ -28,6 +28,40 @@ describe("classify", () => {
   });
 });
 
+describe("classify 顶尖段兜底（floor）", () => {
+  // 不传 floor（=0）时与原比值口径逐位等价：顶尖段 V 极小、R 远大 → 仍判过保。
+  it("floor 默认 0：行为与原比值口径一致", () => {
+    expect(classify(500, 1000)).toBe("过保"); // 500/1000=0.5 <0.75
+    expect(classify(500, 1000, 0)).toBe(classify(500, 1000));
+  });
+
+  // floor 接管（V<floor）：把「优于均值不多」的专业从过保救回稳/保，填满冲/稳/保。
+  it("V<floor：原本塌进过保的近档被救回保", () => {
+    // V=500,R=1000,floor=2000 → effR=500+(1000-500)*(500/2000)=625，ratio=0.8 → 保（原为过保）。
+    expect(classify(500, 1000)).toBe("过保");
+    expect(classify(500, 1000, 2000)).toBe("保");
+  });
+
+  it("floor 不会把远易专业也救起：差距足够大仍判过保", () => {
+    // V=500,R=2000,floor=2000 → effR=875，ratio≈0.571 <0.75 → 仍过保。
+    expect(classify(500, 2000, 2000)).toBe("过保");
+  });
+
+  it("V≥floor：兜底不介入，与不传 floor 完全相同", () => {
+    expect(classify(3000, 6000, 2000)).toBe(classify(3000, 6000)); // 都为过保
+    expect(classify(3000, 3000, 2000)).toBe(classify(3000, 3000)); // 都为稳
+  });
+
+  it("bucketize 带 floor：顶尖段不再整列塌空", () => {
+    // V=500（顶尖段）面对一批更易的专业：无 floor 全进过保；floor=2000 时近档落入冲/稳/保。
+    const cand = [e(900), e(1000), e(1200), e(1500), e(3000)];
+    const noFloor = bucketize(500, cand);
+    expect(noFloor.冲.length + noFloor.稳.length + noFloor.保.length).toBe(0); // 全过保
+    const withFloor = bucketize(500, cand, 2000);
+    expect(withFloor.冲.length + withFloor.稳.length + withFloor.保.length).toBeGreaterThan(0);
+  });
+});
+
 describe("reachColor 与 classify 共享阈值", () => {
   // R=10000。配色频谱：≤1.02 easy（稳得住）/ ≤1.08 mid（较易冲）/ >1.08 hard（偏难·够不着）。
   it.each([

@@ -25,7 +25,7 @@ func TestParseScores(t *testing.T) {
 		{"2025", "某艺院", "8801", "艺术类（物理）", "艺术类本科批", "音乐", "", "", "500", "5000"}, // 艺术科类 → 丢
 		{"2025", "无位次校", "7777", "物理类", "本科批", "X", "", "", "500", ""},            // 无位次 → 丢
 	}
-	got := parseScores(sheet(t, rows, scoreHeader), keep)
+	got := parseScores(sheet(t, rows, scoreHeader), keep, false)
 	if len(got) != 2 {
 		t.Fatalf("want 2 行（仅物理/历史本科含位次），got %d: %+v", len(got), got)
 	}
@@ -110,12 +110,37 @@ func TestParseScoresZonghe(t *testing.T) {
 		{"2025", "复旦大学", "3001", "综合", "本科批", "经济学类", "01", "物理", "580", "1200"},
 		{"2025", "某校", "9999", "理科", "本科批", "X", "02", "", "500", "8000"}, // 老文理 理科 → 丢
 	}
-	got := parseScores(sheet(t, rows, scoreHeader), keep)
+	got := parseScores(sheet(t, rows, scoreHeader), keep, false)
 	if len(got) != 1 {
 		t.Fatalf("want 1 行（仅综合），got %d: %+v", len(got), got)
 	}
 	if got[0].Track != "综合" || got[0].GroupCode != "01" {
 		t.Errorf("综合/专业组代码列解析错误: %+v", got[0])
+	}
+}
+
+// TestParseScoresAvg 覆盖上海口径：useAvg=true 时取「平均分/平均位次」作 MinScore/MinRank
+// （上海本科批最低分被官方封顶在 580，平均分才逐专业真实未封顶）；缺平均列时回退最低分。
+func TestParseScoresAvg(t *testing.T) {
+	header := []string{"年份", "院校名称", "院校代码", "科类", "批次", "专业", "专业组代码", "选科要求", "最低分", "最低位次", "平均分", "平均位次"}
+	rows := [][]string{
+		header,
+		// 最低分被封顶在 580/4096，但平均分 619/119 真实——useAvg 应取后者。
+		{"2025", "复旦大学", "0101", "综合", "本科批", "工科试验班", "02", "物理", "580", "4096", "619", "119"},
+	}
+	got := parseScores(sheet(t, rows, scoreHeader), keep, true)
+	if len(got) != 1 {
+		t.Fatalf("want 1 行，got %d: %+v", len(got), got)
+	}
+	if got[0].MinScore != 619 || got[0].MinRank != 119 {
+		t.Errorf("useAvg 应取平均分/平均位次(619/119)，got 分=%d 位=%d", got[0].MinScore, got[0].MinRank)
+	}
+
+	// 回退：无平均列时仍取最低分/最低位次。
+	hdrNoAvg := []string{"年份", "院校名称", "院校代码", "科类", "批次", "专业", "专业组代码", "选科要求", "最低分", "最低位次"}
+	got2 := parseScores(sheet(t, [][]string{hdrNoAvg, {"2025", "某校", "0102", "综合", "本科批", "X", "01", "", "560", "8000"}}, scoreHeader), keep, true)
+	if len(got2) != 1 || got2[0].MinScore != 560 || got2[0].MinRank != 8000 {
+		t.Errorf("无平均列应回退最低分(560/8000)，got %+v", got2)
 	}
 }
 

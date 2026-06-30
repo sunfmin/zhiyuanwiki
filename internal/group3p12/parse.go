@@ -60,16 +60,38 @@ func ParseScoresWith(path string, keep map[string]bool) ([]core.MajorScoreRow, e
 	if err != nil {
 		return nil, err
 	}
-	return parseScores(s, keep), nil
+	return parseScores(s, keep, false), nil
 }
 
-func parseScores(s *core.Sheet, keep map[string]bool) []core.MajorScoreRow {
+// ParseScoresAvg 同 ParseScores，但取「平均分/平均位次」列作为录取参考分（MinScore/MinRank），
+// 而非最低分/最低位次。上海专用：上海官方把本科批最低分封顶在 580（高分段不披露，580 分以上一律
+// 记 580 分 / 4096 位），导致复旦/上交/浙大等所有 top 校最低分相同、600 分考生全挤进「过保」。
+// 而源表「平均分/平均位次」逐专业真实且未封顶（如复旦工科试验班 平均 619 / 119 位），是上海唯一
+// 能区分专业竞争度的口径。故上海以平均分入库，下游等效分/冲稳保排序据此分档。源表无平均列时
+// 回退到最低分（不致整省丢行）。见 issue。
+func ParseScoresAvg(path string) ([]core.MajorScoreRow, error) {
+	s, err := core.OpenSheet(path, scoreHeader)
+	if err != nil {
+		return nil, err
+	}
+	return parseScores(s, keep, true), nil
+}
+
+func parseScores(s *core.Sheet, keep map[string]bool, useAvg bool) []core.MajorScoreRow {
 	col := s.Col
 	cYear, cTrack, cBatch := col("年份"), col("科类"), col("批次")
 	cCode, cName := col("院校代码"), col("院校名称")
 	cGroup := col("所属专业组", "专业组代码") // 上海录取分数表组列名为「专业组代码」（无「所属专业组」）
 	cMajor, cSelKe := col("专业", "专业名称"), col("选科要求")
 	cMin, cRank := col("最低分数", "最低分"), col("最低位次")
+	if useAvg { // 上海口径：改取平均分/平均位次（缺列则回退最低分，避免整省丢行）
+		if c := col("平均分"); c >= 0 {
+			cMin = c
+		}
+		if c := col("平均位次"); c >= 0 {
+			cRank = c
+		}
+	}
 
 	var out []core.MajorScoreRow
 	for _, r := range s.Data {
