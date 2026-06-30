@@ -7,6 +7,17 @@ html {
   overflow-x: clip;
 }
 
+/* iOS Safari 对 font-size < 16px 的表单控件在聚焦时会自动放大页面，且失焦后不缩回，
+   导致整页被放大、出现横向滚动条。只需在触屏设备上把表单控件兜底到 16px 即可消除自动放大，
+   桌面端字号不受影响；同时不去动 viewport 的 maximum-scale，以保留数据表格的双指缩放。 */
+@media (hover: none) and (pointer: coarse) {
+  input,
+  select,
+  textarea {
+    font-size: 16px;
+  }
+}
+
 /* 方法论文章正文（轻量 prose，免 typography 插件） */
 .guide-content {
   line-height: 1.8;
