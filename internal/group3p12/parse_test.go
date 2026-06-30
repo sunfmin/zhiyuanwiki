@@ -186,7 +186,8 @@ func TestParseYiFenYiDuan(t *testing.T) {
 		{"2025", "物理类", "本科批", "422", "693-750", "126", "126"},
 		{"2025", "物理类", "本科批", "422", "692", "18", "144"},
 		{"2025", "历史类", "本科批", "438", "660", "10", "10"},
-		{"2025", "物理类", "专科批", "200", "300", "5", "9999"}, // 专科 → 丢
+		// 专科批=本科线下的低分续段，与本科批互补拼成完整排名 → 收（否则 Total=本科上线人数，而非高考人数）
+		{"2025", "物理类", "专科批", "200", "300", "9855", "9999"},
 	}
 	got := parseYiFenYiDuan(sheet(t, rows, yfdHeader), "河南", 2025, keep)
 	if len(got) != 2 { // 物理 + 历史
@@ -201,13 +202,16 @@ func TestParseYiFenYiDuan(t *testing.T) {
 	if wuli == nil {
 		t.Fatal("缺物理段")
 	}
-	if wuli.Total() != 144 { // 升序后最低分(692)累计=144
-		t.Errorf("Total()=%d, want 144", wuli.Total())
+	if len(wuli.Entries) != 3 { // 本科批 2 段 + 专科批 1 段
+		t.Fatalf("物理段应含本科批+专科批共 3 段，got %d", len(wuli.Entries))
+	}
+	if wuli.Total() != 9999 { // 升序后最低分(300, 专科批)累计=9999=该科类全体统考排名人数
+		t.Errorf("Total()=%d, want 9999（含专科批续段）", wuli.Total())
 	}
 	if r, _ := wuli.ScoreToRank(693); r != 126 { // 693-750 顶段取前导数 693 → 累计 126
 		t.Errorf("ScoreToRank(693)=%d, want 126", r)
 	}
-	if wuli.ControlLine != 422 {
+	if wuli.ControlLine != 422 { // 控制线仍只取本科批
 		t.Errorf("控制线未取本科批: %d", wuli.ControlLine)
 	}
 }

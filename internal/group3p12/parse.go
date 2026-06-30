@@ -203,8 +203,13 @@ func yfdHeader(r []string) bool {
 	return core.HasCellContains(r, "累计") && core.HasCell(r, "科类")
 }
 
-// ParseYiFenYiDuan 解析一分一段 xlsx（单文件含物理/历史，本科批），按 年×科类 分组。
+// ParseYiFenYiDuan 解析一分一段 xlsx（单文件含物理/历史），按 年×科类 分组。
 // 表头带单位后缀（分数(分)/本段人数(人)/累计人数(人)），列定位走 ColContains。
+//
+// 一分一段是「每科类一条全省连续排名」。多数省源表把它按分数区间切成「本科批」（本科线→最高分）
+// 与「专科批」（最低分→本科线下一分）两个**互补不重叠**的段——二者拼起来才是该科类**全体统考排名
+// 考生**。故这里**不**按批次过滤（批次过滤只用于录取分数/招生计划），否则 MAX(累计)=本科上线人数而非
+// 高考人数（小省如青海会出现「本科计划 > 高考人数」的悖论）。科类已由 keep 把艺术/体育挡在外。
 func ParseYiFenYiDuan(path, province string, year int) ([]*core.YiFenYiDuan, error) {
 	return ParseYiFenYiDuanWith(path, province, year, keep)
 }
@@ -226,15 +231,15 @@ func parseYiFenYiDuan(s *core.Sheet, province string, year int, keep map[string]
 	cControl := s.ColContains("控制线") // 本科批控制线（特控线），源表自带；缺列则 -1
 
 	byTrack := map[string]*core.YiFenYiDuan{}
+	seen := map[string]map[int]bool{} // 科类 → 已收分数：本科批/专科批两段互补不重叠，防边界同分重复
 	var order []string
 	for _, r := range s.Data {
 		track := canonTrack(core.Cell(r, cTrack))
-		batch := core.Cell(r, cBatch)
-		// 无「批次」列时（老文理一分一段，如新疆）跳过批次过滤——否则 batch="" 会被 batchKeep 清零；
-		// 这类表本身就是该科类全考生的整体分布（无批次细分），全留即正确。
-		if !keep[track] || (cBatch >= 0 && !batchKeep(batch)) {
+		// 不按批次过滤：本科批 + 专科批 两段拼成该科类的完整排名（见函数头注）。科类 keep 已挡艺术/体育。
+		if !keep[track] {
 			continue
 		}
+		batch := core.Cell(r, cBatch)
 		score, ok := core.ParseLeadingInt(core.Cell(r, cScore))
 		if !ok {
 			continue
@@ -248,6 +253,7 @@ func parseYiFenYiDuan(s *core.Sheet, province string, year int, keep map[string]
 		if y == nil {
 			y = &core.YiFenYiDuan{Province: province, Track: track, Year: year}
 			byTrack[track] = y
+			seen[track] = map[int]bool{}
 			order = append(order, track)
 		}
 		// 控制线只取主「本科批」（非提前批），同年同科类各行相同，取首个即可。
@@ -256,6 +262,10 @@ func parseYiFenYiDuan(s *core.Sheet, province string, year int, keep map[string]
 				y.ControlLine = cl
 			}
 		}
+		if seen[track][score] {
+			continue // 同分已收（本科/专科段边界处偶有重复），保留首个
+		}
+		seen[track][score] = true
 		y.Entries = append(y.Entries, core.FenduanEntry{Score: score, Count: count, Cumulative: cum})
 	}
 	out := make([]*core.YiFenYiDuan, 0, len(order))
