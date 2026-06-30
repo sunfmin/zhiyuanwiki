@@ -1,0 +1,136 @@
+{
+  "code": "3590",
+  "name": "昆明医科大学海源学院",
+  "leaves": [
+    {
+      "schoolCode": "3590",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 450,
+          "minRank": 79025,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3590",
+      "majorKey": "11fef64a",
+      "majorName": "医学影像技术",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 416,
+          "minRank": 102065,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3590",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 460,
+          "minRank": 72104,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3590",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 417,
+          "minRank": 101415,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "应用心理学",
+          "majorKey": "59687759",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "20000",
+          "menlei": "理"
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化",
+          "plan": 6,
+          "tuition": "28000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 79025,
+          "equivRank": 79025
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "28000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 72104,
+          "equivRank": 72104
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "24000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 101415,
+          "equivRank": 101415
+        },
+        {
+          "majorName": "医学影像技术",
+          "majorKey": "11fef64a",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "25000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 102065,
+          "equivRank": 102065
+        }
+      ]
+    }
+  ]
+}

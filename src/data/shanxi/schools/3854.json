@@ -1,0 +1,278 @@
+{
+  "code": "3854",
+  "name": "新疆和田学院",
+  "leaves": [
+    {
+      "schoolCode": "3854",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 421,
+          "minRank": 98737,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3854",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 448,
+          "minRank": 24085,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3854",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 456,
+          "minRank": 21895,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 421,
+          "minRank": 98737,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3854",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 457,
+          "minRank": 21622,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3854",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 426,
+          "minRank": 95402,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3854",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 430,
+          "minRank": 92671,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "3100",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 24085,
+          "equivRank": 24085
+        },
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "3500",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 21895,
+          "equivRank": 21895
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "3100",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "政",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "政",
+          "plan": 4,
+          "tuition": "3100",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 21622,
+          "equivRank": 21622
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "3500",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 98737,
+          "equivRank": 98737
+        },
+        {
+          "majorName": "应用心理学",
+          "majorKey": "59687759",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "3500",
+          "menlei": "理"
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "3500",
+          "menlei": "理"
+        },
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "3500",
+          "menlei": "工"
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "3500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 92671,
+          "equivRank": 92671
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "3500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 95402,
+          "equivRank": 95402
+        },
+        {
+          "majorName": "化学工程与工艺",
+          "majorKey": "1f59c989",
+          "selKe": "化",
+          "plan": 6,
+          "tuition": "3500",
+          "menlei": "工"
+        },
+        {
+          "majorName": "中药学",
+          "majorKey": "f9504a0c",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "4000",
+          "menlei": "医"
+        },
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "4000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 98737,
+          "equivRank": 98737
+        }
+      ]
+    },
+    {
+      "groupCode": "303",
+      "groupName": "303",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "地理科学",
+          "majorKey": "d061ae24",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "3500",
+          "menlei": "理"
+        }
+      ]
+    }
+  ]
+}

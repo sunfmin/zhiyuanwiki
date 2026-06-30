@@ -1,0 +1,292 @@
+{
+  "code": "1386",
+  "name": "沈阳大学",
+  "leaves": [
+    {
+      "schoolCode": "1386",
+      "majorKey": "13c18eb7",
+      "majorName": "工业工程",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 500,
+          "minRank": 47481,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1386",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 501,
+          "minRank": 46930,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1386",
+      "majorKey": "bb33137b",
+      "majorName": "经济统计学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 500,
+          "minRank": 47481,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1386",
+      "majorKey": "da95770c",
+      "majorName": "自动化",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 501,
+          "minRank": 46930,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4800",
+          "menlei": "教"
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4800",
+          "menlei": "文"
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4800",
+          "menlei": "文"
+        },
+        {
+          "majorName": "俄语",
+          "majorKey": "7d0b62a8",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4800",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4800",
+          "menlei": "教"
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "工业工程",
+          "majorKey": "13c18eb7",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "39000",
+          "menlei": "管",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 47481,
+          "equivRank": 47481
+        }
+      ]
+    },
+    {
+      "groupCode": "303",
+      "groupName": "303",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "5200",
+          "menlei": "工"
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "工"
+        },
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "工"
+        },
+        {
+          "majorName": "自动化",
+          "majorKey": "da95770c",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 46930,
+          "equivRank": 46930
+        },
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "5200",
+          "menlei": "工"
+        },
+        {
+          "majorName": "建筑环境与能源应用工程",
+          "majorKey": "b176ee03",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "5200",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "304",
+      "groupName": "304",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "理"
+        },
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "理"
+        },
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "5200",
+          "menlei": "理"
+        },
+        {
+          "majorName": "环境工程",
+          "majorKey": "7faf2092",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "5200",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "305",
+      "groupName": "305",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "自动化",
+          "majorKey": "da95770c",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "39000",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 46930,
+          "equivRank": 46930
+        }
+      ]
+    },
+    {
+      "groupCode": "306",
+      "groupName": "306",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "50000",
+          "menlei": "工",
+          "coop": true
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "50000",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 46930,
+          "equivRank": 46930
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "code": "3681",
+  "name": "商洛学院",
+  "leaves": [
+    {
+      "schoolCode": "3681",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 432,
+          "minRank": 91296,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3681",
+      "majorKey": "d061ae24",
+      "majorName": "地理科学",
+      "selKe": "地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 465,
+          "minRank": 19366,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3681",
+      "majorKey": "25624660",
+      "majorName": "应用化学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 428,
+          "minRank": 94048,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3681",
+      "majorKey": "e50fcc71",
+      "majorName": "资源循环科学与工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 428,
+          "minRank": 94048,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "地",
+      "majors": [
+        {
+          "majorName": "地理科学",
+          "majorKey": "d061ae24",
+          "selKe": "地",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 19366,
+          "equivRank": 19366
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5250",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 91296,
+          "equivRank": 91296
+        },
+        {
+          "majorName": "应用化学",
+          "majorKey": "25624660",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 94048,
+          "equivRank": 94048
+        },
+        {
+          "majorName": "资源循环科学与工程",
+          "majorKey": "e50fcc71",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 94048,
+          "equivRank": 94048
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "地",
+      "majors": [
+        {
+          "majorName": "地理科学",
+          "majorKey": "d061ae24",
+          "selKe": "地",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 19366,
+          "equivRank": 64928
+        }
+      ]
+    }
+  ]
+}

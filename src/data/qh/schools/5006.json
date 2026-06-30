@@ -1,0 +1,64 @@
+{
+  "code": "5006",
+  "name": "重庆师范大学",
+  "leaves": [
+    {
+      "schoolCode": "5006",
+      "majorKey": "da4cc459",
+      "majorName": "地理科学类",
+      "selKe": "首选物理，再选地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 424,
+          "minRank": 9933,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5006",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 515,
+          "minRank": 950,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "汉语言文学",
+      "majorKey": "97bc5998",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 5,
+      "tuition": "3100",
+      "schooling": "四年",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 950,
+      "equivRank": 950
+    },
+    {
+      "majorName": "地理科学类",
+      "majorKey": "da4cc459",
+      "track": "物理",
+      "selKe": "首选物理，再选地理",
+      "plan": 5,
+      "tuition": "5625",
+      "schooling": "四年",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 9933,
+      "equivRank": 9933
+    }
+  ]
+}

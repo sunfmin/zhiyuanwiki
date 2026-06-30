@@ -1,0 +1,169 @@
+{
+  "code": "0015",
+  "name": "空军军医大学",
+  "leaves": [
+    {
+      "schoolCode": "0015",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 634,
+          "minRank": 2487,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0015",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 637,
+          "minRank": 2209,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0015",
+      "majorKey": "8ca67fa5",
+      "majorName": "基础医学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 614,
+          "minRank": 5116,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0015",
+      "majorKey": "27c81131",
+      "majorName": "生物医学工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 585,
+          "minRank": 11409,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0015",
+      "majorKey": "0ac1da59",
+      "majorName": "生物技术",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 586,
+          "minRank": 11144,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "0015",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 616,
+          "minRank": 4755,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "303",
+      "groupName": "303",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化",
+          "plan": 13,
+          "tuition": "6500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 2487,
+          "equivRank": 2487
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "6500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 2209,
+          "equivRank": 2209
+        }
+      ]
+    },
+    {
+      "groupCode": "304",
+      "groupName": "304",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "生物技术",
+          "majorKey": "0ac1da59",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 11144,
+          "equivRank": 11144
+        },
+        {
+          "majorName": "生物医学工程",
+          "majorKey": "27c81131",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 11409,
+          "equivRank": 11409
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "6500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 4755,
+          "equivRank": 4755
+        }
+      ]
+    }
+  ]
+}

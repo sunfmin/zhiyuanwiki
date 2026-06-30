@@ -1,0 +1,64 @@
+{
+  "code": "5176",
+  "name": "遵义医科大学",
+  "leaves": [
+    {
+      "schoolCode": "5176",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 488,
+          "minRank": 4066,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5176",
+      "majorKey": "41174006",
+      "majorName": "药学类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 416,
+          "minRank": 10951,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 8,
+      "tuition": "4500",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 4066,
+      "equivRank": 4066
+    },
+    {
+      "majorName": "药学类",
+      "majorKey": "41174006",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 4,
+      "tuition": "4200",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 10951,
+      "equivRank": 10951
+    }
+  ]
+}

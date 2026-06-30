@@ -1,0 +1,192 @@
+{
+  "code": "3876",
+  "name": "新疆政法学院",
+  "leaves": [
+    {
+      "schoolCode": "3876",
+      "majorKey": "07a988ed",
+      "majorName": "政治学与行政学",
+      "selKe": "政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 464,
+          "minRank": 19651,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3876",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 482,
+          "minRank": 14950,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 459,
+          "minRank": 72814,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3876",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 441,
+          "minRank": 85194,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "3100",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 14950,
+          "equivRank": 14950
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "3100",
+          "menlei": "文"
+        },
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "3100",
+          "menlei": "史"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "政",
+      "majors": [
+        {
+          "majorName": "政治学与行政学",
+          "majorKey": "07a988ed",
+          "selKe": "政",
+          "plan": 2,
+          "tuition": "3100",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 19651,
+          "equivRank": 19651
+        },
+        {
+          "majorName": "反恐警务",
+          "majorKey": "0394cd00",
+          "selKe": "政",
+          "plan": 3,
+          "tuition": "3100",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "经济统计学",
+          "majorKey": "bb33137b",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "3200",
+          "menlei": "经"
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "3100",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 72814,
+          "equivRank": 72814
+        },
+        {
+          "majorName": "司法鉴定学",
+          "majorKey": "9e01dc0e",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "3100",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "303",
+      "groupName": "303",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "3500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 85194,
+          "equivRank": 85194
+        },
+        {
+          "majorName": "网络空间安全",
+          "majorKey": "3093c484",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "3500",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

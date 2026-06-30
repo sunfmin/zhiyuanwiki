@@ -1,0 +1,307 @@
+{
+  "code": "3251",
+  "name": "重庆大学",
+  "leaves": [
+    {
+      "schoolCode": "3251",
+      "majorKey": "e70fa033",
+      "majorName": "人文科学试验班",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 592,
+          "minRank": 693,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3251",
+      "majorKey": "b363aa3d",
+      "majorName": "工科试验班",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 635,
+          "minRank": 2390,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3251",
+      "majorKey": "54728189",
+      "majorName": "理科试验班",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 624,
+          "minRank": 3601,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "人文科学试验班",
+          "majorKey": "e70fa033",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5625",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 693,
+          "equivRank": 693
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "5625",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 2390,
+          "equivRank": 2390
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "化",
+          "plan": 10,
+          "tuition": "5625",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 2390,
+          "equivRank": 2390
+        },
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "化",
+          "plan": 10,
+          "tuition": "6250",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 2390,
+          "equivRank": 2390
+        },
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "化",
+          "plan": 16,
+          "tuition": "5625",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 2390,
+          "equivRank": 2390
+        },
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "化",
+          "plan": 10,
+          "tuition": "5625",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 2390,
+          "equivRank": 2390
+        },
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "化",
+          "plan": 16,
+          "tuition": "5625",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 2390,
+          "equivRank": 2390
+        },
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "化",
+          "plan": 16,
+          "tuition": "5625",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 2390,
+          "equivRank": 2390
+        },
+        {
+          "majorName": "理科试验班",
+          "majorKey": "54728189",
+          "selKe": "化",
+          "plan": 8,
+          "tuition": "5625",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 3601,
+          "equivRank": 3601
+        },
+        {
+          "majorName": "建筑类",
+          "majorKey": "caa6f3a9",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "5500",
+          "menlei": "工"
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化",
+          "plan": 8,
+          "tuition": "5625",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "303",
+      "groupName": "303",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "75000",
+          "menlei": "工",
+          "coop": true
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "75000",
+          "menlei": "工",
+          "coop": true
+        }
+      ]
+    },
+    {
+      "groupCode": "304",
+      "groupName": "304",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "53000",
+          "menlei": "理",
+          "coop": true
+        }
+      ]
+    },
+    {
+      "groupCode": "305",
+      "groupName": "305",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "6250",
+          "menlei": "工"
+        },
+        {
+          "majorName": "城市地下空间工程",
+          "majorKey": "7201e1a9",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "6250",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "306",
+      "groupName": "306",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "5625",
+          "menlei": "理"
+        },
+        {
+          "majorName": "光电信息科学与工程",
+          "majorKey": "d8f4c9ac",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "5625",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "307",
+      "groupName": "307",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "边防军人子女预科班",
+          "majorKey": "f1bbdcfd",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "3700",
+          "menlei": "他"
+        }
+      ]
+    }
+  ]
+}

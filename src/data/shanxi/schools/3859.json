@@ -1,0 +1,196 @@
+{
+  "code": "3859",
+  "name": "昌吉学院",
+  "leaves": [
+    {
+      "schoolCode": "3859",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 418,
+          "minRank": 100748,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3859",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 418,
+          "minRank": 100748,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3859",
+      "majorKey": "ec77cae2",
+      "majorName": "旅游管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 418,
+          "minRank": 100748,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3859",
+      "majorKey": "98867766",
+      "majorName": "材料成型及控制工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 420,
+          "minRank": 99419,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3859",
+      "majorKey": "72c52639",
+      "majorName": "材料物理",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 418,
+          "minRank": 100748,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3859",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 461,
+          "minRank": 20493,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "3100",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 20493,
+          "equivRank": 20493
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "3100",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 20493,
+          "equivRank": 68707
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "3500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 100748,
+          "equivRank": 100748
+        },
+        {
+          "majorName": "应用化学",
+          "majorKey": "25624660",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "3500",
+          "menlei": "理"
+        },
+        {
+          "majorName": "材料成型及控制工程",
+          "majorKey": "98867766",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "3500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 99419,
+          "equivRank": 99419
+        },
+        {
+          "majorName": "材料物理",
+          "majorKey": "72c52639",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "3500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 100748,
+          "equivRank": 100748
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "3500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 100748,
+          "equivRank": 100748
+        }
+      ]
+    }
+  ]
+}

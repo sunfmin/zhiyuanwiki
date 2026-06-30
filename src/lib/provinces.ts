@@ -208,6 +208,20 @@ export const PROVINCES: Record<string, ProvinceConfig> = {
     batchLabel: "本科批 · 物理 / 历史（院校专业组）",
     fill: { start: "2026-06-25", end: "2026-06-30", endTime: "12:00", note: "本科批院校专业组；提前批另填" },
   },
+  shanxi: {
+    slug: "shanxi",
+    name: "山西",
+    tracks: [
+      { name: "物理", slug: "wuli" },
+      { name: "历史", slug: "lishi" },
+    ],
+    fillModel: "group",
+    subjectMode: "primary+reselect",
+    fenduanTrack: "物理",
+    fenduanYear: 2025, // 山西首届 3+1+2，仅 2025 物理/历史一分一段
+    intro: "山西 · 2025（首届新高考）",
+    batchLabel: "本科批 · 物理 / 历史（院校专业组）",
+  },
   nm: {
     slug: "nm",
     name: "内蒙古",
@@ -420,6 +434,21 @@ export const PROVINCES: Record<string, ProvinceConfig> = {
     intro: "山东 · 2025",
     batchLabel: "普通类一段/二段 · 综合（专业平行志愿）",
     fill: { start: "2026-07-05", end: "2026-07-07", endTime: "18:00", note: "常规批第 1 次（本科）；第 2 次 7/24–26" },
+  },
+  qh: {
+    slug: "qh",
+    name: "青海",
+    tracks: [
+      { name: "物理", slug: "wuli" },
+      { name: "历史", slug: "lishi" },
+    ],
+    fillModel: "major",
+    subjectMode: "primary+reselect",
+    fenduanTrack: "物理",
+    fenduanYear: 2025,
+    intro: "青海 · 2025",
+    batchLabel: "本科批 · 物理 / 历史（专业平行志愿）",
+    fill: { start: "2026-06-26", end: "2026-06-30", endTime: "18:00", note: "首次集中填报；一次性填报所有批次志愿" },
   },
   tj: {
     slug: "tj",

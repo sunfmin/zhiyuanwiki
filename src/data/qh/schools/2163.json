@@ -1,0 +1,112 @@
+{
+  "code": "2163",
+  "name": "长春科技学院",
+  "leaves": [
+    {
+      "schoolCode": "2163",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 401,
+          "minRank": 6526,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 352,
+          "minRank": 19884,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2163",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 353,
+          "minRank": 19748,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2163",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 348,
+          "minRank": 20473,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "中医学",
+      "majorKey": "2285e5ca",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 3,
+      "tuition": "39000",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 6526,
+      "equivRank": 6526
+    },
+    {
+      "majorName": "人工智能",
+      "majorKey": "2fec4169",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 2,
+      "tuition": "28000",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 19748,
+      "equivRank": 19748
+    },
+    {
+      "majorName": "中医学",
+      "majorKey": "2285e5ca",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 3,
+      "tuition": "39000",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 19884,
+      "equivRank": 19884
+    },
+    {
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "物理",
+      "selKe": "首选物理，再选生物",
+      "plan": 2,
+      "tuition": "28000",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 20473,
+      "equivRank": 20473
+    }
+  ]
+}

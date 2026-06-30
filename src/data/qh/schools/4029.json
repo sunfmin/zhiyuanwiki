@@ -1,0 +1,84 @@
+{
+  "code": "4029",
+  "name": "平顶山学院",
+  "leaves": [
+    {
+      "schoolCode": "4029",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 427,
+          "minRank": 4625,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 372,
+          "minRank": 16946,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4029",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 380,
+          "minRank": 15763,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "国际经济与贸易",
+      "majorKey": "f8a1727e",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 3,
+      "tuition": "4400",
+      "schooling": "四年",
+      "menlei": "经",
+      "prevYear": 2025,
+      "prevRank": 4625,
+      "equivRank": 4625
+    },
+    {
+      "majorName": "药学",
+      "majorKey": "e9e6a481",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 5,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 15763,
+      "equivRank": 15763
+    },
+    {
+      "majorName": "国际经济与贸易",
+      "majorKey": "f8a1727e",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 2,
+      "tuition": "4400",
+      "schooling": "四年",
+      "menlei": "经",
+      "prevYear": 2025,
+      "prevRank": 16946,
+      "equivRank": 16946
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "code": "5248",
+  "name": "昆明学院",
+  "leaves": [
+    {
+      "schoolCode": "5248",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 431,
+          "minRank": 4360,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5248",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 443,
+          "minRank": 7808,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "5248",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 434,
+          "minRank": 8767,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "学前教育",
+      "majorKey": "97716b64",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 2,
+      "tuition": "4200",
+      "schooling": "四年",
+      "menlei": "教",
+      "prevYear": 2025,
+      "prevRank": 4360,
+      "equivRank": 4360
+    },
+    {
+      "majorName": "电气工程及其自动化",
+      "majorKey": "45947d31",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 1,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 7808,
+      "equivRank": 7808
+    },
+    {
+      "majorName": "计算机科学与技术",
+      "majorKey": "1d486608",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 2,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 8767,
+      "equivRank": 8767
+    }
+  ]
+}

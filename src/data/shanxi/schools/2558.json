@@ -1,0 +1,65 @@
+{
+  "code": "2558",
+  "name": "商丘工学院",
+  "leaves": [
+    {
+      "schoolCode": "2558",
+      "majorKey": "7201e1a9",
+      "majorName": "城市地下空间工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 391,
+          "minRank": 117791,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2558",
+      "majorKey": "4ef2a1b4",
+      "majorName": "机械电子工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 393,
+          "minRank": 116591,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "机械电子工程",
+          "majorKey": "4ef2a1b4",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "15800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 116591,
+          "equivRank": 116591
+        },
+        {
+          "majorName": "车辆工程",
+          "majorKey": "92b6110d",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "15800",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

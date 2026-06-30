@@ -1,0 +1,74 @@
+{
+  "code": "1687",
+  "name": "复旦大学医学院",
+  "leaves": [
+    {
+      "schoolCode": "1687",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 680,
+          "minRank": 176,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "生",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生",
+          "plan": 3,
+          "tuition": "7400",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "7400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 176,
+          "equivRank": 176
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "法医学",
+          "majorKey": "0798db5f",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "7400",
+          "menlei": "医"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "code": "2566",
+  "name": "郑州经贸学院",
+  "leaves": [
+    {
+      "schoolCode": "2566",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 445,
+          "minRank": 24945,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2566",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 446,
+          "minRank": 24672,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 10,
+          "tuition": "15000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 24672,
+          "equivRank": 24672
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "15000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 24945,
+          "equivRank": 24945
+        },
+        {
+          "majorName": "审计学",
+          "majorKey": "87f6e6a2",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "15000",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "16000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "16000",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

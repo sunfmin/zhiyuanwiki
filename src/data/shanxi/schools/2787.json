@@ -1,0 +1,107 @@
+{
+  "code": "2787",
+  "name": "湖北第二师范学院",
+  "leaves": [
+    {
+      "schoolCode": "2787",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 499,
+          "minRank": 48052,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2787",
+      "majorKey": "b8be11ab",
+      "majorName": "工程造价",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 488,
+          "minRank": 54352,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2787",
+      "majorKey": "9c5f4a34",
+      "majorName": "新闻学",
+      "selKe": "政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 495,
+          "minRank": 11936,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "政",
+      "majors": [
+        {
+          "majorName": "新闻学",
+          "majorKey": "9c5f4a34",
+          "selKe": "政",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 11936,
+          "equivRank": 11936
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 48052,
+          "equivRank": 48052
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "智能建造",
+          "majorKey": "2363aecb",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "4000",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

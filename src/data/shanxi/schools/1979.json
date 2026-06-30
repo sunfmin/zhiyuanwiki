@@ -1,0 +1,124 @@
+{
+  "code": "1979",
+  "name": "浙江大学医学院",
+  "leaves": [
+    {
+      "schoolCode": "1979",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 661,
+          "minRank": 688,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1979",
+      "majorKey": "a191bc68",
+      "majorName": "医学试验班类",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 653,
+          "minRank": 1084,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1979",
+      "majorKey": "41174006",
+      "majorName": "药学类",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 649,
+          "minRank": 1315,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "医学试验班类",
+          "majorKey": "a191bc68",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 1084,
+          "equivRank": 1084
+        },
+        {
+          "majorName": "药学类",
+          "majorKey": "41174006",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 1315,
+          "equivRank": 1315
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化",
+          "plan": 9,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 688,
+          "equivRank": 688
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "医学试验班类",
+          "majorKey": "a191bc68",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 1084,
+          "equivRank": 1084
+        },
+        {
+          "majorName": "药学类",
+          "majorKey": "41174006",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 1315,
+          "equivRank": 1315
+        }
+      ]
+    }
+  ]
+}

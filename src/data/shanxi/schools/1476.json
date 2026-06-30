@@ -1,0 +1,189 @@
+{
+  "code": "1476",
+  "name": "吉林工程技术师范学院",
+  "leaves": [
+    {
+      "schoolCode": "1476",
+      "majorKey": "9dde0fee",
+      "majorName": "化学工程与工业生物工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 429,
+          "minRank": 93335,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1476",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 447,
+          "minRank": 81117,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1476",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 453,
+          "minRank": 76913,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1476",
+      "majorKey": "22544579",
+      "majorName": "编辑出版学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 459,
+          "minRank": 21044,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1476",
+      "majorKey": "fff04889",
+      "majorName": "网络与新媒体",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 461,
+          "minRank": 20493,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1476",
+      "majorKey": "d1aa34cd",
+      "majorName": "食品营养与检验教育",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 431,
+          "minRank": 91980,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "编辑出版学",
+          "majorKey": "22544579",
+          "selKe": "不限",
+          "plan": 15,
+          "tuition": "6820",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 21044,
+          "equivRank": 21044
+        },
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "不限",
+          "plan": 10,
+          "tuition": "6200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 20493,
+          "equivRank": 20493
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化",
+          "plan": 20,
+          "tuition": "5400",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 81117,
+          "equivRank": 81117
+        },
+        {
+          "majorName": "化学工程与工业生物工程",
+          "majorKey": "9dde0fee",
+          "selKe": "化",
+          "plan": 10,
+          "tuition": "5400",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 93335,
+          "equivRank": 93335
+        },
+        {
+          "majorName": "食品营养与检验教育",
+          "majorKey": "d1aa34cd",
+          "selKe": "化",
+          "plan": 10,
+          "tuition": "5400",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 91980,
+          "equivRank": 91980
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化",
+          "plan": 10,
+          "tuition": "26000",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 76913,
+          "equivRank": 76913
+        }
+      ]
+    }
+  ]
+}
