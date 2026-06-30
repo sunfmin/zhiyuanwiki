@@ -250,3 +250,32 @@ func (d *DB) ReplaceYiFenYiDuan(prov string, yfds []*core.YiFenYiDuan) error {
 		return nil
 	})
 }
+
+// ReplaceYiFenYiDuanYear 只改某省某年的一分一段行（删该 省×年 再插），不动其它年份。
+// 用于「单独补一个新年份」（如 2026 各省陆续发布）而不必重跑该省全部年份的 import。
+// 幂等：同省同年重复调用结果一致。yfds 里的 Year 必须都等于 year（否则报错防错配）。
+func (d *DB) ReplaceYiFenYiDuanYear(prov string, year int, yfds []*core.YiFenYiDuan) error {
+	for _, y := range yfds {
+		if y.Year != year {
+			return fmt.Errorf("ReplaceYiFenYiDuanYear: 省 %s 期望 year=%d，但收到 %d（%s）", prov, year, y.Year, y.Track)
+		}
+	}
+	return d.tx(func(t *sql.Tx) error {
+		if _, err := t.Exec(`DELETE FROM yifenyiduan WHERE prov=? AND year=?`, prov, year); err != nil {
+			return err
+		}
+		st, err := t.Prepare(`INSERT INTO yifenyiduan (prov,year,track,score,count,cum,control_line) VALUES (?,?,?,?,?,?,?)`)
+		if err != nil {
+			return err
+		}
+		defer st.Close()
+		for _, y := range yfds {
+			for _, e := range y.Entries {
+				if _, err := st.Exec(prov, y.Year, y.Track, e.Score, e.Count, e.Cumulative, y.ControlLine); err != nil {
+					return err
+				}
+			}
+		}
+		return nil
+	})
+}
