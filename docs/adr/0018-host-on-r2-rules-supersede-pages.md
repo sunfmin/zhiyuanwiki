@@ -1,5 +1,7 @@
 # 托管：迁移到 R2 + Cloudflare Rules（推翻 ADR-0006 的 Pages）
 
+> **「服务层」部分被 ADR-0019 修订**：下文决定 1「URL Rewrite 补 index.html」基于「R2 不服务目录索引」的错误假设——R2 自定义域其实**原生**服务目录 index.html（且把 `…/index.html` 308 重定向到 clean URL `…/`），那条 Rewrite 反而与 R2 的 clean-URL 308 互相打架成无限重定向，2026-06-29 致全站 `ERR_TOO_MANY_REDIRECTS` 宕机。该规则已删除，索引交还 R2。其余决定（R2 托管、rclone 部署、缓存 purge、`trailingSlash:'always'`）仍有效。详见 ADR-0019。
+
 ADR-0006 选 Cloudflare Pages 托管静态产物。但 **Pages 免费版封顶「2 万文件/部署」**，而本站已 **4 万+ 文件**（31 省全量 × 院校 `yuanxiao` 2.0万 + 专业 `zhuanye` 1.9万 静态预渲染）。自 8 省批量接入起，每次 `pages deploy` 都失败：`Error: Pages only supports up to 20,000 files in a deployment for your current plan.`——**线上站已停在旧批次、长期陈旧**。
 
 解锁 10 万文件上限需 **Cloudflare Pro（$20/月）**；已验证 `PAGES_WRANGLER_MAJOR_VERSION=4` + Workers Paid（$5/月）**不生效**（错误信息按 plan 判定，社区多例佐证）。$240/年不划算。

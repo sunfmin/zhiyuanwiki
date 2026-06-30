@@ -49,12 +49,13 @@ xlsx 不入仓库，数据由维护者本地 `go run ./cmd/zhiyuan-data ...` 生
 **Cloudflare 仪表盘一次性配置**：
 
 1. 建 R2 桶 `zhiyuanwiki`（保持私有），**Connect Domain** 挂 `zhiyuanwiki.com`（apex；若原挂在 Pages 先 detach）。
-2. **URL Rewrite**（Transform Rule）：`ends_with(http.request.uri.path, "/")` 时把路径重写为
-   `concat(http.request.uri.path, "index.html")`（目录式 URL 取 index.html；故站内链接须带尾斜杠，
-   由 `tests/render/internal-links.trailing-slash.test.ts` 守护）。
-3. **Bulk Redirects**：承接原 `public/_redirects` 的 8 条旧单省 URL → `/hlj/...`（带通配，ADR-0009）。
-   就位后删除 `public/_redirects`（R2 不读它）。
-4. **Cache Rule**：让 `text/html` 进边缘缓存（长 edge TTL）；每次部署末尾 CI 自动 `purge_everything`。
+   R2 自定义域**原生服务目录 index.html**：`/zj/` 取 `zj/index.html`，`/zj/index.html` 与 `/zj` 均 308 收敛到 `/zj/`。
+   故构建用 `trailingSlash:'always'`（目录式产物 + 站内链接带尾斜杠匹配 canonical，由
+   `tests/render/internal-links.trailing-slash.test.ts` 守护）。
+   ⚠ **不要**再加「补 index.html」的 Transform/Redirect 规则——会与 R2 的 clean-URL 308 互相打架成无限重定向，见 ADR-0019。
+2. **Cache Rule**：让 `text/html` 进边缘缓存（长 edge TTL）；每次部署末尾 CI 自动 `purge_everything`。
+
+> 不需要 URL Rewrite 或 Bulk Redirects：R2 原生处理目录索引；旧单省 URL → 黑龙江 的边缘重定向（ADR-0009）已退役（`public/_redirects` 在 R2 下不生效，已删）。
 
 ## 重新生成数据
 

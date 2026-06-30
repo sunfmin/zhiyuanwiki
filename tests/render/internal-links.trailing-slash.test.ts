@@ -1,11 +1,11 @@
-// 尾斜杠不变量（ADR-0018）：R2 + Rules-only 下，目录式 URL 由一条 URL Rewrite 把 `…/` 补成
-// `…/index.html`；没有 Worker 兜底，故任何「root-relative、非锚点、无文件后缀、且不以 / 结尾」的
-// 站内链接都会命中 R2 404。本测试扫描构建产物 dist/**/*.html，断言这类链接为零——把「链接都能
-// 在边缘解析」这一外部行为钉死，挡住未来回归（如新组件又写出无尾斜杠的 href）。
+// 尾斜杠不变量（ADR-0018，修订见 ADR-0019）：R2 自定义域原生服务目录索引，canonical 带尾斜杠——
+// `…/index.html` 与不带尾斜杠的目录路径都被 R2 308 收敛到 `…/`。故任何「root-relative、非锚点、
+// 无文件后缀、且不以 / 结尾」的站内链接虽不会死链，却会平白多吃一跳 308。本测试扫描构建产物
+// dist/**/*.html，断言这类链接为零——把「链接直接命中 R2 canonical、零重定向」钉死，挡住未来回归
+// （如新组件又写出无尾斜杠的 href）。
 //
 // 这是纯文件扫描，不起浏览器；放在 tests/render/ 仅因它依赖 `npm run build` 的产物（该套件已假设
-// dist 存在，见 render-glue.ts）。运行时 URL Rewrite/Bulk Redirects 只在 Cloudflare 边缘存在，
-// 本地测不到——见 PRD「Out of Scope」。
+// dist 存在，见 render-glue.ts）。R2 的 clean-URL 308 只在 Cloudflare 边缘存在，本地测不到。
 import { expect, test } from "vitest";
 import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join, resolve } from "node:path";
