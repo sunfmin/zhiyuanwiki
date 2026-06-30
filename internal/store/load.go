@@ -120,13 +120,18 @@ func (d *DB) HomeSchoolCounts() (map[string]int, error) {
 // PlanTotal 是某省某年的本科招生计划总数（plan 表只收本科批，见各省解析器）。
 type PlanTotal struct {
 	Year  int `json:"year"`
-	Total int `json:"plan"` // 本科批招生计划总数
+	Total int `json:"plan"` // 本科批招生计划总数（普通类口径，剔除新疆单列类，见 PlanTotalsLatest）
 }
 
 // PlanTotalsLatest 返回各省「最新年本科招生计划总数」（slug → 最新年的 SUM(plan)）。
-// 落地页省情轴用：配合高考人数可粗读本省本科竞争度。无 plan 的省不出现在结果里。
+// 落地页省情轴用：配合高考人数（普通类一分一段最大累计）可粗读本省本科竞争度。无 plan 的省不出现在结果里。
+//
+// 剔除新疆「单列类」（民语言/民考民）计划：这批考生走独立考试、独立一分一段，本站只收普通类（汉语言）
+// 一分一段，高考人数分母里没有他们；若把单列类计划并进分子，新疆本科计划(8.8万)会超过普通类考生(7.7万)
+// 显成 114%（本科计划＞考生，不可能）。剔除后分子分母同口径（普通类），新疆回到 5.6万 / 73%。
+// 「单列类」是新疆专属标记（仅新疆 plan 行 remark 出现），不命中其他省，故全表统一过滤无副作用。
 func (d *DB) PlanTotalsLatest() (map[string]PlanTotal, error) {
-	rows, err := d.sql.Query(`SELECT prov, year, SUM(plan) FROM plan GROUP BY prov, year`)
+	rows, err := d.sql.Query(`SELECT prov, year, SUM(plan) FROM plan WHERE remark NOT LIKE '%单列类%' GROUP BY prov, year`)
 	if err != nil {
 		return nil, err
 	}
