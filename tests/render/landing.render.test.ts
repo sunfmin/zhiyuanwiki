@@ -11,7 +11,7 @@ beforeAll(async () => {
 afterAll(() => server?.stop());
 
 test(
-  "落地页桌面：6 省已上线可点 + 敬请期待省置灰，收录列有真实数字",
+  "落地页桌面：全 31 省已上线可点（含西藏），收录列有真实数字",
   async () => {
     const { page, browser, out } = await renderToImage({
       baseURL: server.baseURL,
@@ -23,24 +23,24 @@ test(
 
     const mainText = await page.locator("main").innerText();
     expect(mainText).toContain("选择你的省份");
-    expect(mainText).toContain("敬请期待"); // 未上线省状态
-    expect(mainText).toContain("河南"); // 未上线大省在册
+    expect(mainText).toContain("河南"); // 大省在册
+    expect(mainText).toContain("西藏"); // 末省接入（只有分数省）
     expect(mainText).toContain("高考人数"); // 省情列
     expect(mainText).toContain("本省院校"); // 省情列
     expect(mainText).toContain("本科线"); // 省情列（物理本科批控制线）
-    expect(mainText).toContain("185"); // 河南本省院校（未上线行也填省情）
+    expect(mainText).toContain("185"); // 河南本省院校
     expect(mainText).toContain("463"); // 江苏 2025 物理本科线
 
-    // 6 个已上线省各有一个进入 /[slug]/ 的链接（桌面表 + 手机卡片各一份 → 去重后 6 个 slug）。
+    // 抽样几个已上线省（含西藏 /xz/）各有一个进入 /[slug]/ 的链接，确认是可点而非置灰。
     const liveSlugs = await page.evaluate(() => {
       const hrefs = [...document.querySelectorAll('a[href^="/"]')]
         .map((a) => (a as HTMLAnchorElement).getAttribute("href") || "")
-        .filter((h) => /^\/(hlj|zj|js|hn|sc|ah)\/$/.test(h));
+        .filter((h) => /^\/(hlj|zj|js|hn|sc|ah|xz)\/$/.test(h));
       return [...new Set(hrefs)].sort();
     });
-    expect(liveSlugs).toEqual(["/ah/", "/hlj/", "/hn/", "/js/", "/sc/", "/zj/"]);
+    expect(liveSlugs).toEqual(["/ah/", "/hlj/", "/hn/", "/js/", "/sc/", "/xz/", "/zj/"]);
 
-    console.log(`落地页：已上线 ${liveSlugs.length} 省 → ${out}`);
+    console.log(`落地页：抽样已上线 ${liveSlugs.length} 省（含西藏）→ ${out}`);
     await browser.close();
   },
   60_000,
