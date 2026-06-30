@@ -272,7 +272,8 @@ const liveBenkeTotal = rows.reduce((s, r) => s + (r.live && r.benkePlan ? r.benk
     <p class="mt-8 max-w-5xl space-y-1 text-xs text-slate-400">
       <span class="block">
         <sup>*</sup>高考人数为<strong>参加统一高考排名的人数</strong>（各科类一分一段最大累计之和），
-        不含高职单招/中职对口，非报名人数。
+        不含高职单招/中职对口，非报名人数。江苏 / 山西 / 上海 / 北京 等省一分一段只发布到本科线，
+        其最大累计仅为<strong>本科上线人数</strong>，故改用<strong>官方普通类统考排名总人数</strong>，与其他省同口径、占比可比。
       </span>
       <span class="block">
         <sup>†</sup>本科线为<strong>物理类本科批最低控制线</strong>（源一分一段自带，如江苏 2025 物理 463），

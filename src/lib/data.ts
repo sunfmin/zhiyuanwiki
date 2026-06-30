@@ -5,6 +5,7 @@ import { provinceConfig, trackSlugOf } from "./provinces";
 import { gaokaoLatestCommon, type Gaokao } from "./landing";
 import homeSchoolsData from "../data/home-schools.json";
 import benkePlanData from "../data/benke-plan.json";
+import gaokaoTotalData from "../data/gaokao-total.json";
 
 export type TrackRange = {
   year: number;
@@ -150,9 +151,21 @@ export function benkeLineOf(prov: string): { line: number; year: number } | unde
   return best;
 }
 
-// gaokaoOf 算某省高考人数（统考排名人数）：从已收录的各科类一分一段表，取最新共同年的最大累计求和。
+// 真实统考人数覆盖（省情）：江苏/山西/上海/北京 等省一分一段只发布到本科批控制线，
+// 「一分一段最大累计」= 本科上线人数（非全体统考考生），用作高考人数/分母会让本科招生计划占比虚高，
+// 且与「满库省」（河北/山东等，一分一段到分数下限）不可比。故对这些省用官方普通类统考排名总人数覆盖，
+// 使高考人数与本科计划占比同口径（全体统考考生）。不在此表的省照常用一分一段最大累计。来源见各条 source。
+const gaokaoTotal = gaokaoTotalData as Record<
+  string,
+  { count: number; year: number; source: string; note?: string }
+>;
+
+// gaokaoOf 算某省高考人数（统考排名人数）：优先取 gaokaoTotal 覆盖（截断省用官方总数）；
+// 其余省从已收录的各科类一分一段表，取最新共同年的最大累计求和。
 // 数据全在前端（hlj/zj 不在 staging DB，但 committed 一分一段是 6 省统一源）。见 ADR-0016。
 export function gaokaoOf(prov: string): Gaokao | undefined {
+  const real = gaokaoTotal[prov];
+  if (real) return { count: real.count, year: real.year };
   const cfg = provinceConfig(prov);
   const avail = new Map<string, Map<number, number>>();
   for (const t of cfg.tracks) {
