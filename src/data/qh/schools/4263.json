@@ -1,0 +1,168 @@
+{
+  "code": "4263",
+  "name": "吉首大学",
+  "leaves": [
+    {
+      "schoolCode": "4263",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 408,
+          "minRank": 11975,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4263",
+      "majorKey": "2a1f2fe5",
+      "majorName": "城乡规划",
+      "selKe": "首选物理，再选地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 381,
+          "minRank": 15610,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4263",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 386,
+          "minRank": 14914,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4263",
+      "majorKey": "dbf775e5",
+      "majorName": "本科预科班",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 425,
+          "minRank": 4764,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 365,
+          "minRank": 17969,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "4263",
+      "majorKey": "14eeb10f",
+      "majorName": "生物工程",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 384,
+          "minRank": 15205,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "本科预科班",
+      "majorKey": "dbf775e5",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 15,
+      "tuition": "4000",
+      "schooling": "一年",
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 4764,
+      "equivRank": 4764
+    },
+    {
+      "majorName": "化学",
+      "majorKey": "04ab47fe",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 2,
+      "tuition": "4000",
+      "schooling": "四年",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 11975,
+      "equivRank": 11975
+    },
+    {
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "物理",
+      "selKe": "首选物理，再选生物",
+      "plan": 2,
+      "tuition": "7500",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 14914,
+      "equivRank": 14914
+    },
+    {
+      "majorName": "生物工程",
+      "majorKey": "14eeb10f",
+      "track": "物理",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "plan": 2,
+      "tuition": "5900",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 15205,
+      "equivRank": 15205
+    },
+    {
+      "majorName": "城乡规划",
+      "majorKey": "2a1f2fe5",
+      "track": "物理",
+      "selKe": "首选物理，再选地理",
+      "plan": 2,
+      "tuition": "5900",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 15610,
+      "equivRank": 15610
+    },
+    {
+      "majorName": "本科预科班",
+      "majorKey": "dbf775e5",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 19,
+      "tuition": "4000",
+      "schooling": "一年",
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 17969,
+      "equivRank": 17969
+    }
+  ]
+}

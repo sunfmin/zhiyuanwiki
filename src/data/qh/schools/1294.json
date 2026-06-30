@@ -1,0 +1,104 @@
+{
+  "code": "1294",
+  "name": "吕梁学院",
+  "leaves": [
+    {
+      "schoolCode": "1294",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 438,
+          "minRank": 3934,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 386,
+          "minRank": 14914,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1294",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 436,
+          "minRank": 4056,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 406,
+          "minRank": 12237,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "学前教育",
+      "majorKey": "97716b64",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 1,
+      "tuition": "4950",
+      "schooling": "四年",
+      "menlei": "教",
+      "prevYear": 2025,
+      "prevRank": 3934,
+      "equivRank": 3934
+    },
+    {
+      "majorName": "英语",
+      "majorKey": "49c5cdf9",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 2,
+      "tuition": "4950",
+      "schooling": "四年",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 4056,
+      "equivRank": 4056
+    },
+    {
+      "majorName": "英语",
+      "majorKey": "49c5cdf9",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 1,
+      "tuition": "4950",
+      "schooling": "四年",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 12237,
+      "equivRank": 12237
+    },
+    {
+      "majorName": "学前教育",
+      "majorKey": "97716b64",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 1,
+      "tuition": "4950",
+      "schooling": "四年",
+      "menlei": "教",
+      "prevYear": 2025,
+      "prevRank": 14914,
+      "equivRank": 14914
+    }
+  ]
+}

@@ -60,6 +60,10 @@ var provinces = map[string]province{
 	"ln":    {slug: "ln", name: "辽宁", tracks: []string{"物理", "历史"}, model: "major"},
 	"hebei": {slug: "hebei", name: "河北", tracks: []string{"物理", "历史"}, model: "major"},
 	"sd":    {slug: "sd", name: "山东", tracks: []string{"综合"}, model: "major"},
+	// 青海：2025 为其新高考（3+1+2）改革首年，源表科类 物理类/历史类（22-24 仍是老文理，被 keep 过滤）。
+	// 录取分数/招生计划与 cq/gz 同形（22-25 合表），但「所属专业组」整列为空（投档单位是院校×专业，
+	// 非院校专业组）→ major 模型。逐行解析复用 group3p12，build 走 buildMajorBundle。
+	"qh": {slug: "qh", name: "青海", tracks: []string{"物理", "历史"}, model: "major"},
 	// 天津：综合+院校专业组（group），计划表院校代码由专业组代码剥后缀得，自定义 tj.ParsePlan。
 	"tj": {slug: "tj", name: "天津", tracks: []string{"综合"}, model: "group"},
 	// 新疆：老高考（老文理 理科/文科，专业平行志愿，无院校专业组）→ major 模型。专属 internal/xj 解析

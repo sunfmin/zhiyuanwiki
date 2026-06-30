@@ -48,6 +48,7 @@ var provDirName = map[string]string{
 	"hebei": "河北",
 	"sd":    "山东",
 	"tj":    "天津",
+	"qh":    "青海", // 各省份/青海 下并存旧万师兄树(青海/29.青海，2017-2022)与 2、…22-25 现行数据，靠 *Must 精确指向后者
 	"xj":    "新疆", // 源在 各省份/新疆/新疆/新疆/ 下（嵌套多层，靠子树 glob）
 
 	"hb":     "湖北高考数据", // 各省份/ 下子目录带后缀
@@ -125,6 +126,10 @@ var provParsers = map[string]provParser{
 		ScoreMust: []string{"25年全国高校在河北省的专业分数线"}, PlanMust: []string{"2025年河北招生计划"}},
 	"sd": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
 		ScoreMust: []string{"25年全国高校在山东省的专业分数线"}, PlanMust: []string{"全国高校在山东省的招生计划"}},
+	// 青海：同 cq/gz 的 22-25 合表（解析复用 group3p12，build 走 major）。各省份/青海 下另有旧万师兄树
+	// （青海/29.青海/2025年…招生计划.xlsx 体积更大），用 *Must 精确指向「22-25年全国高校在青海的…」现行文件。
+	"qh": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
+		ScoreMust: []string{"22-25年全国高校在青海的专业录取分数"}, PlanMust: []string{"22-25年全国高校在青海的招生计划"}},
 	// 天津：综合+院校专业组（group），但计划表无院校代码（由专业组代码剥后缀得）+ 无科类列，自定义 tj.ParsePlan。
 	"tj": {Scores: group3p12.ParseScores, Plan: tj.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
 		ScoreMust: []string{"25年全国高校在天津的专业录取分数"}, PlanMust: []string{"天津-2025年-招生计划"}},
