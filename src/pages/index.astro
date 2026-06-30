@@ -3,7 +3,7 @@
 // 纯静态：列全 31 省，已上线置顶可点进 /[slug]/，未上线置灰「敬请期待」。
 // 列分两轴——省情（新高考·本省院校·高考人数·本科线·本科招生计划）/ 本站收录（招生院校·覆盖年份·名校）。
 import Base from "../layouts/Base.astro";
-import { PROVINCE_ROSTER, liveSlugByName, provinceConfig } from "../lib/provinces";
+import { PROVINCE_ROSTER, liveSlugByName, provinceConfig, fillRange } from "../lib/provinces";
 import { buildProvinceRows, summarize, coverageYears, type Gaokao } from "../lib/landing";
 import { schoolsOf, homeSchoolsOf, gaokaoOf, benkeLineOf, benkePlanOf } from "../lib/data";
 
@@ -29,6 +29,17 @@ function modeLabel(slug: string): string {
         : "3+1+2";
   return `${mode} · ${c.tracks.map((t) => t.name).join("/")}`;
 }
+// 志愿填报（省情，时间敏感）：紧凑串进表格一格，完整起止+截止时刻+段次备注进 title 悬浮。
+const fillOf = (slug: string) => provinceConfig(slug).fill;
+const fillCell = (slug: string): string => {
+  const f = fillOf(slug);
+  return f ? fillRange(f) : "—";
+};
+const fillTitle = (slug: string): string | undefined => {
+  const f = fillOf(slug);
+  if (!f) return undefined;
+  return `2026 本科批志愿填报 ${fillRange(f)}${f.endTime ? ` ${f.endTime} 截止` : ""}${f.note ? `（${f.note}）` : ""}`;
+};
 const fmt = (n: number) => n.toLocaleString("zh-CN");
 // 大数显示成「万」（含一位小数）；title 给精确数与年份。高考人数、本科招生计划共用。
 const wanNum = (n: number) => `${(n / 10000).toFixed(1)}万`;
@@ -53,13 +64,14 @@ const liveCount = rows.filter((r) => r.live).length;
         <thead>
           <tr class="text-xs text-slate-400">
             <th class="px-3 py-1.5 text-left font-medium" rowspan="2">省份</th>
-            <th class="border-l border-slate-200 px-3 py-1.5 text-center font-medium" colspan="5">省情</th>
+            <th class="border-l border-slate-200 px-3 py-1.5 text-center font-medium" colspan="6">省情</th>
             <th class="border-l border-slate-200 px-3 py-1.5 text-center font-medium" colspan="4">
               本站收录
             </th>
           </tr>
           <tr class="text-xs text-slate-500">
-            <th class="border-l border-slate-200 px-3 py-1.5 text-left font-medium">高考模式</th>
+            <th class="border-l border-slate-200 px-3 py-1.5 text-left font-medium">志愿填报<sup class="text-slate-300">§</sup></th>
+            <th class="px-3 py-1.5 text-left font-medium">高考模式</th>
             <th class="px-3 py-1.5 text-right font-medium">本省院校</th>
             <th class="px-3 py-1.5 text-right font-medium">高考人数<sup class="text-slate-300">*</sup></th>
             <th class="px-3 py-1.5 text-right font-medium">本科线<sup class="text-slate-300">†</sup></th>
@@ -81,7 +93,13 @@ const liveCount = rows.filter((r) => r.live).length;
                       <span class="ml-1 text-xs text-slate-400">→</span>
                     </a>
                   </td>
-                  <td class="border-l border-slate-100 px-3 py-2 text-slate-600">{modeLabel(r.slug)}</td>
+                  <td
+                    class="border-l border-slate-100 px-3 py-2 whitespace-nowrap text-slate-600"
+                    title={fillTitle(r.slug)}
+                  >
+                    {fillCell(r.slug)}
+                  </td>
+                  <td class="px-3 py-2 text-slate-600">{modeLabel(r.slug)}</td>
                   <td class="px-3 py-2 text-right tabular-nums text-slate-600">
                     {r.homeSchools ?? "—"}
                   </td>
@@ -116,7 +134,8 @@ const liveCount = rows.filter((r) => r.live).length;
                     {r.name}
                     <span class="ml-2 rounded bg-slate-100 px-1.5 py-0.5 text-xs text-slate-400">敬请期待</span>
                   </td>
-                  <td class="border-l border-slate-100 px-3 py-2" />
+                  <td class="border-l border-slate-100 px-3 py-2">—</td>
+                  <td class="px-3 py-2" />
                   <td class="px-3 py-2 text-right tabular-nums text-slate-500">{r.homeSchools ?? "—"}</td>
                   <td class="px-3 py-2 text-right">—</td>
                   <td class="px-3 py-2 text-right">—</td>
@@ -155,6 +174,11 @@ const liveCount = rows.filter((r) => r.live).length;
                   <div class="mt-0.5 text-xs text-slate-400">
                     收录 {fmt(r.coverage!.recruitSchools)} 所 · 数据到 {coverageYears(r.coverage)}
                   </div>
+                  {fillOf(r.slug) && (
+                    <div class="mt-1 inline-flex items-center rounded-md bg-amber-50 px-2 py-0.5 text-xs font-medium text-amber-800">
+                      本科批填报 {fillCell(r.slug)}
+                    </div>
+                  )}
                 </div>
                 <span class="text-slate-400">→</span>
               </a>
@@ -188,7 +212,11 @@ const liveCount = rows.filter((r) => r.live).length;
         配合高考人数可粗读本省本科竞争度。
       </span>
       <span class="block">
-        「本省院校 / 高考人数 / 本科线 / 本科招生计划」是省情事实；「招生院校 / 覆盖年份 / 名校数」是本站收录范围，
+        <sup>§</sup>志愿填报为<strong>2026 年本科批普通类平行志愿集中填报起止</strong>（悬浮可见截止时刻与段次备注）；
+        分段填报省（浙江、山东等）显第一段 / 常规批第 1 次，后续段次见备注。日期<strong>务必以本省教育考试院最新公告为准</strong>。
+      </span>
+      <span class="block">
+        「本省院校 / 高考人数 / 本科线 / 本科招生计划 / 志愿填报」是省情事实；「招生院校 / 覆盖年份 / 名校数」是本站收录范围，
         受收录年份影响，非各省真实规模。仅供参考，以官方为准。
       </span>
     </p>
