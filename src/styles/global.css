@@ -18,6 +18,19 @@ html {
   }
 }
 
+/* 手机端整体字号偏小（数据 UI 大量用 text-xs=12px / text-sm=14px）。
+   Tailwind v4 的每个 text-* 工具都读同一个主题变量（--text-xs 等），
+   所以只在窄屏覆盖这三个最常用的小字号变量，就能让全站对应字号一起放大，
+   无需改任何组件；间距用的是另一个 --spacing 变量，故布局不受影响，桌面端也不变。
+   行高是相对字号的比值（calc(1/.75) 等），会随字号自动放大。 */
+@media (max-width: 640px) {
+  :root {
+    --text-xs: 0.875rem; /* 12px → 14px */
+    --text-sm: 1rem; /* 14px → 16px */
+    --text-base: 1.125rem; /* 16px → 18px */
+  }
+}
+
 /* 方法论文章正文（轻量 prose，免 typography 插件） */
 .guide-content {
   line-height: 1.8;
