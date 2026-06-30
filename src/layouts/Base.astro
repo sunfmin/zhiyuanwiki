@@ -1,6 +1,6 @@
 ---
 import "../styles/global.css";
-import { provinceConfig, PROVINCES, PROVINCE_ROSTER } from "../lib/provinces";
+import { provinceConfig } from "../lib/provinces";
 
 interface Props {
   prov?: string; // 省份页传入；落地页（省份列表页 /）不传，渲染极简头部
@@ -29,13 +29,6 @@ const navLinks = prov
       { section: "guide", href: `/${prov}/guide/`, label: "指南" },
     ]
   : [];
-
-// 省份切换：已上线省可切换并跳到同区块；其余省提示"暂未开放"并回退（支持名单从配置派生）。
-const enabledNames = Object.fromEntries(
-  Object.values(PROVINCES).map((p) => [p.name, p.slug]),
-);
-const supportedNames = Object.keys(enabledNames).join("」「");
-const provinces = PROVINCE_ROSTER.map((r) => r.name);
 ---
 
 <html lang="zh-CN">
@@ -75,26 +68,19 @@ const provinces = PROVINCE_ROSTER.map((r) => r.name);
                   </a>
                 ))}
               </div>
-              <label class="ml-auto flex shrink-0 items-center gap-1 text-xs text-slate-500">
-                <span class="hidden sm:inline">省份</span>
-                <select
-                  id="province-select"
-                  data-section={section}
-                  data-current={cfg.name}
-                  class="rounded-md border border-slate-300 bg-white px-2 py-1 text-sm text-slate-900"
-                >
-                  {provinces.map((p) => (
-                    <option value={p} selected={p === cfg.name}>
-                      {p}
-                    </option>
-                  ))}
-                </select>
-              </label>
+              {/* 省份：链接到省份列表页（/）切换，替代原下拉选择（见 ADR-0016 落地页）。 */}
+              <a
+                href="/"
+                class="ml-auto flex shrink-0 items-center gap-1 rounded-md border border-slate-300 bg-white px-2 py-1 text-sm text-slate-900 transition hover:border-slate-400 hover:text-blue-700"
+              >
+                <span class="hidden text-xs text-slate-500 sm:inline">省份</span>
+                <span class="font-medium">{cfg.name}</span>
+                <span class="text-xs text-slate-400">切换</span>
+              </a>
             </>
           )
         }
       </nav>
-      {prov && <div id="province-notice" hidden class="mx-auto max-w-5xl px-4 pb-3 text-sm text-amber-700"></div>}
     </header>
 
     <main class="flex-1">
@@ -106,36 +92,5 @@ const provinces = PROVINCE_ROSTER.map((r) => r.name);
         <p>本站数据<strong>仅供参考</strong>，一切以各省考试院及院校最新官方公布为准。</p>
       </div>
     </footer>
-
-    {
-      prov && (
-        <script is:inline define:vars={{ enabledNames, supportedNames }}>
-          (function () {
-            var sel = document.getElementById("province-select");
-            var notice = document.getElementById("province-notice");
-            if (!sel || !notice) return;
-            var section = sel.dataset.section || "";
-            var current = sel.dataset.current;
-            var timer;
-            sel.addEventListener("change", function () {
-              var name = sel.value;
-              var slug = enabledNames[name];
-              if (slug) {
-                location.href = "/" + slug + "/" + (section ? section + "/" : "");
-                return;
-              }
-              notice.textContent =
-                "「" + name + "」的数据还在整理中，目前支持「" + supportedNames + "」。";
-              notice.hidden = false;
-              sel.value = current;
-              if (timer) clearTimeout(timer);
-              timer = setTimeout(function () {
-                notice.hidden = true;
-              }, 4000);
-            });
-          })();
-        </script>
-      )
-    }
   </body>
 </html>
