@@ -50,10 +50,11 @@ var provDirName = map[string]string{
 	"tj":    "天津",
 	"xj":    "新疆", // 源在 各省份/新疆/新疆/新疆/ 下（嵌套多层，靠子树 glob）
 
-	"hb":    "湖北高考数据", // 各省份/ 下子目录带后缀
-	"yn":    "云南",
-	"henan": "河南", // slug 用 henan 避免与湖南 hn 冲突
-	"hlj":   "黑龙江", // 各省份/黑龙江（仅一分一段从这里取；分数/计划走万师兄树，见 importHLJ）
+	"hb":     "湖北高考数据", // 各省份/ 下子目录带后缀
+	"yn":     "云南",
+	"henan":  "河南",  // slug 用 henan 避免与湖南 hn 冲突
+	"hlj":    "黑龙江", // 各省份/黑龙江（仅一分一段从这里取；分数/计划走万师兄树，见 importHLJ）
+	"shanxi": "山西",  // slug 用 shanxi 避免与陕西 sx 冲突；源异构走 importShanxi
 }
 
 // provParser 是某省入库所需的三个解析函数（签名一致，实现在 internal/<省>）。这张表是
@@ -166,13 +167,16 @@ func importCmd(args []string) {
 		importNational(db, *src)
 	}
 
-	// 黑龙江/浙江源异构、布局特殊，走专用 import（见 ADR-0014 / issue #19、#20）；其余走通用 importProvince。
+	// 黑龙江/浙江/山西源异构、布局特殊，走专用 import（见 ADR-0014 / issue #19、#20）；其余走通用 importProvince。
 	switch p.slug {
 	case "hlj":
 		importHLJ(db, *src, p)
 		return
 	case "zj":
 		importZJ(db, p)
+		return
+	case "shanxi":
+		importShanxi(db, *src, p)
 		return
 	}
 	parser, ok := provParsers[p.slug]

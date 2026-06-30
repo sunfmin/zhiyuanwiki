@@ -1,0 +1,84 @@
+{
+  "code": "1932",
+  "name": "杭州医学院",
+  "leaves": [
+    {
+      "schoolCode": "1932",
+      "majorKey": "754290a4",
+      "majorName": "助产学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 459,
+          "minRank": 72814,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1932",
+      "majorKey": "0ac1da59",
+      "majorName": "生物技术",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 463,
+          "minRank": 70076,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "生物技术",
+          "majorKey": "0ac1da59",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "4800",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 70076,
+          "equivRank": 70076
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "医"
+        },
+        {
+          "majorName": "助产学",
+          "majorKey": "754290a4",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 72814,
+          "equivRank": 72814
+        }
+      ]
+    }
+  ]
+}

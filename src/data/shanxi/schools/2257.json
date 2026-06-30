@@ -1,0 +1,154 @@
+{
+  "code": "2257",
+  "name": "南昌大学科学技术学院",
+  "leaves": [
+    {
+      "schoolCode": "2257",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 447,
+          "minRank": 24354,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2257",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 447,
+          "minRank": 24354,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2257",
+      "majorKey": "14eeb10f",
+      "majorName": "生物工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 415,
+          "minRank": 102733,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2257",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 412,
+          "minRank": 104701,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "13000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 24354,
+          "equivRank": 24354
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "电子商务",
+          "majorKey": "0b52f20f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "14500",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化",
+          "plan": 9,
+          "tuition": "14500",
+          "menlei": "工"
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化",
+          "plan": 6,
+          "tuition": "14500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 104701,
+          "equivRank": 104701
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化",
+          "plan": 6,
+          "tuition": "14500",
+          "menlei": "工"
+        },
+        {
+          "majorName": "自动化",
+          "majorKey": "da95770c",
+          "selKe": "化",
+          "plan": 6,
+          "tuition": "14500",
+          "menlei": "工"
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化",
+          "plan": 6,
+          "tuition": "14500",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

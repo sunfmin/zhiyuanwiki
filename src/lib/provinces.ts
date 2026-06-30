@@ -203,6 +203,20 @@ export const PROVINCES: Record<string, ProvinceConfig> = {
     batchLabel: "本科批 · 物理 / 历史（院校专业组）",
     fill: { start: "2026-06-25", end: "2026-06-30", endTime: "12:00", note: "本科批院校专业组；提前批另填" },
   },
+  shanxi: {
+    slug: "shanxi",
+    name: "山西",
+    tracks: [
+      { name: "物理", slug: "wuli" },
+      { name: "历史", slug: "lishi" },
+    ],
+    fillModel: "group",
+    subjectMode: "primary+reselect",
+    fenduanTrack: "物理",
+    fenduanYear: 2025, // 山西首届 3+1+2，仅 2025 物理/历史一分一段
+    intro: "山西 · 2025（首届新高考）",
+    batchLabel: "本科批 · 物理 / 历史（院校专业组）",
+  },
   nm: {
     slug: "nm",
     name: "内蒙古",

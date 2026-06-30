@@ -1,0 +1,185 @@
+{
+  "code": "1474",
+  "name": "通化师范学院",
+  "leaves": [
+    {
+      "schoolCode": "1474",
+      "majorKey": "25624660",
+      "majorName": "应用化学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 442,
+          "minRank": 84509,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1474",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 446,
+          "minRank": 81759,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1474",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 497,
+          "minRank": 11506,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1474",
+      "majorKey": "24c5453f",
+      "majorName": "统计学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 440,
+          "minRank": 85875,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "5060",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 11506,
+          "equivRank": 11506
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 81759,
+          "equivRank": 81759
+        },
+        {
+          "majorName": "应用化学",
+          "majorKey": "25624660",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 84509,
+          "equivRank": 84509
+        },
+        {
+          "majorName": "统计学",
+          "majorKey": "24c5453f",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 85875,
+          "equivRank": 85875
+        },
+        {
+          "majorName": "机械电子工程",
+          "majorKey": "4ef2a1b4",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5400",
+          "menlei": "工"
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5400",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "26000",
+          "menlei": "工",
+          "coop": true
+        }
+      ]
+    },
+    {
+      "groupCode": "303",
+      "groupName": "303",
+      "track": "物理",
+      "selKe": "地",
+      "majors": [
+        {
+          "majorName": "地理科学",
+          "majorKey": "d061ae24",
+          "selKe": "地",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "理"
+        },
+        {
+          "majorName": "地理信息科学",
+          "majorKey": "f9ecceea",
+          "selKe": "地",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "理"
+        }
+      ]
+    }
+  ]
+}

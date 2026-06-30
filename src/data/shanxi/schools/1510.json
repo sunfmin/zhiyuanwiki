@@ -1,0 +1,128 @@
+{
+  "code": "1510",
+  "name": "长春人文学院",
+  "leaves": [
+    {
+      "schoolCode": "1510",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 388,
+          "minRank": 119508,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1510",
+      "majorKey": "b86f75b5",
+      "majorName": "广播电视编导",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 404,
+          "minRank": 36603,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1510",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 392,
+          "minRank": 117145,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1510",
+      "majorKey": "fd907dda",
+      "majorName": "社会工作",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 387,
+          "minRank": 120057,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "广播电视编导",
+          "majorKey": "b86f75b5",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "26000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 36603,
+          "equivRank": 36603
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "25000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 117145,
+          "equivRank": 117145
+        },
+        {
+          "majorName": "社会工作",
+          "majorKey": "fd907dda",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "25000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 120057,
+          "equivRank": 120057
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "25000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 119508,
+          "equivRank": 119508
+        }
+      ]
+    }
+  ]
+}

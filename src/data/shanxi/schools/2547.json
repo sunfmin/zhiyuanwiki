@@ -1,0 +1,162 @@
+{
+  "code": "2547",
+  "name": "郑州工业应用技术学院",
+  "leaves": [
+    {
+      "schoolCode": "2547",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 429,
+          "minRank": 29633,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 398,
+          "minRank": 113569,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2547",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "化学和生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 405,
+          "minRank": 109263,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2547",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "化学和生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 411,
+          "minRank": 105398,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2547",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 404,
+          "minRank": 109889,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 8,
+          "tuition": "15000",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 29633,
+          "equivRank": 29633
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 7,
+          "tuition": "15000",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 113569,
+          "equivRank": 113569
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "化且生",
+      "majors": [
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化且生",
+          "plan": 5,
+          "tuition": "17000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 105398,
+          "equivRank": 105398
+        },
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化且生",
+          "plan": 15,
+          "tuition": "17000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 109263,
+          "equivRank": 109263
+        }
+      ]
+    },
+    {
+      "groupCode": "303",
+      "groupName": "303",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化",
+          "plan": 10,
+          "tuition": "16000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 109889,
+          "equivRank": 109889
+        }
+      ]
+    }
+  ]
+}

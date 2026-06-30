@@ -1,0 +1,106 @@
+{
+  "code": "3131",
+  "name": "北京师范大学(珠海校区)",
+  "leaves": [
+    {
+      "schoolCode": "3131",
+      "majorKey": "e70fa033",
+      "majorName": "人文科学试验班",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 601,
+          "minRank": 447,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3131",
+      "majorKey": "33b3d741",
+      "majorName": "数学类",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 624,
+          "minRank": 3601,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3131",
+      "majorKey": "54728189",
+      "majorName": "理科试验班",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 619,
+          "minRank": 4287,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3131",
+      "majorKey": "38bcf50d",
+      "majorName": "社会科学试验班",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 618,
+          "minRank": 4434,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "005",
+      "groupName": "005",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "人文科学试验班",
+          "majorKey": "e70fa033",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4800",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 447,
+          "equivRank": 447
+        }
+      ]
+    },
+    {
+      "groupCode": "304",
+      "groupName": "304",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "数学类",
+          "majorKey": "33b3d741",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5400",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 3601,
+          "equivRank": 3601
+        }
+      ]
+    }
+  ]
+}

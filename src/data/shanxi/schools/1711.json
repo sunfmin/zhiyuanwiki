@@ -1,0 +1,94 @@
+{
+  "code": "1711",
+  "name": "徐州医科大学",
+  "leaves": [
+    {
+      "schoolCode": "1711",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 564,
+          "minRank": 18068,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1711",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 564,
+          "minRank": 18068,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1711",
+      "majorKey": "83eea431",
+      "majorName": "麻醉学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 576,
+          "minRank": 14048,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "7480",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 18068,
+          "equivRank": 18068
+        },
+        {
+          "majorName": "麻醉学",
+          "majorKey": "83eea431",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "7480",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 14048,
+          "equivRank": 14048
+        },
+        {
+          "majorName": "医学影像学",
+          "majorKey": "5780af73",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "7480",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 18068,
+          "equivRank": 18068
+        }
+      ]
+    }
+  ]
+}

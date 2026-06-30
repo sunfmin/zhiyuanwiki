@@ -35,6 +35,10 @@ var provinces = map[string]province{
 	"henan": {slug: "henan", name: "河南", tracks: []string{"物理", "历史"}, model: "group"},
 	// 陕西：与四川同形，直接复用 group3p12。
 	"sx": {slug: "sx", name: "陕西", tracks: []string{"物理", "历史"}, model: "group"},
+	// 山西：2025 首届 3+1+2 新高考（院校专业组）。slug 用 shanxi（sx 已被陕西占用，与花名册拼音
+	// 山西=shanxi/陕西=shaanxi 一致）。录取分数表无院校代码、列名异形 → 专属 internal/shanxi 解析 +
+	// importShanxi 按校名回填代码；招生计划复用 group3p12，一分一段科类在文件名。见 ADR-0014。
+	"shanxi": {slug: "shanxi", name: "山西", tracks: []string{"物理", "历史"}, model: "group"},
 	// 综合(3+3)+院校专业组：北京/上海/海南 单科类「综合」、仍走 group 模型（有真实院校专业组）。
 	"bj":   {slug: "bj", name: "北京", tracks: []string{"综合"}, model: "group"},
 	"sh":   {slug: "sh", name: "上海", tracks: []string{"综合"}, model: "group"},

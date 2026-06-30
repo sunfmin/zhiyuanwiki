@@ -1,0 +1,68 @@
+{
+  "code": "3220",
+  "name": "广西农业职业技术大学",
+  "leaves": [
+    {
+      "schoolCode": "3220",
+      "majorKey": "49f153aa",
+      "majorName": "大数据与会计",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 438,
+          "minRank": 87224,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3220",
+      "majorKey": "02164ef1",
+      "majorName": "电气工程及自动化",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 440,
+          "minRank": 85875,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "电气工程及自动化",
+          "majorKey": "02164ef1",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "7500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 85875,
+          "equivRank": 85875
+        },
+        {
+          "majorName": "大数据与会计",
+          "majorKey": "49f153aa",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "7000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 87224,
+          "equivRank": 87224
+        }
+      ]
+    }
+  ]
+}

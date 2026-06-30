@@ -1,0 +1,133 @@
+{
+  "code": "2143",
+  "name": "厦门医学院",
+  "leaves": [
+    {
+      "schoolCode": "2143",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 469,
+          "minRank": 66052,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2143",
+      "majorKey": "55e3bd26",
+      "majorName": "信息管理与信息系统",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 469,
+          "minRank": 66052,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2143",
+      "majorKey": "754290a4",
+      "majorName": "助产学",
+      "selKe": "生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 456,
+          "minRank": 74883,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "2143",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 460,
+          "minRank": 72104,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "信息管理与信息系统",
+          "majorKey": "55e3bd26",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "4800",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 66052,
+          "equivRank": 66052
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 66052,
+          "equivRank": 66052
+        },
+        {
+          "majorName": "眼视光学",
+          "majorKey": "d35344f4",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "6000",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "303",
+      "groupName": "303",
+      "track": "物理",
+      "selKe": "生",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生",
+          "plan": 4,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 72104,
+          "equivRank": 72104
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "code": "3504",
+  "name": "贵阳信息科技学院",
+  "leaves": [
+    {
+      "schoolCode": "3504",
+      "majorKey": "889e9381",
+      "majorName": "数字媒体技术",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 391,
+          "minRank": 117791,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "3504",
+      "majorKey": "14eeb10f",
+      "majorName": "生物工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 395,
+          "minRank": 115397,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "数字媒体技术",
+          "majorKey": "889e9381",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "18500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 117791,
+          "equivRank": 117791
+        },
+        {
+          "majorName": "生物工程",
+          "majorKey": "14eeb10f",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "18500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 115397,
+          "equivRank": 115397
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "18500",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

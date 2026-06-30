@@ -1,0 +1,178 @@
+{
+  "code": "1174",
+  "name": "沧州师范学院",
+  "leaves": [
+    {
+      "schoolCode": "1174",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 418,
+          "minRank": 100748,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1174",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 461,
+          "minRank": 20493,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1174",
+      "majorKey": "07a988ed",
+      "majorName": "政治学与行政学",
+      "selKe": "政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 461,
+          "minRank": 20493,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1174",
+      "majorKey": "5fcb9223",
+      "majorName": "文物与博物馆学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 462,
+          "minRank": 20201,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1174",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 470,
+          "minRank": 18031,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1174",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 433,
+          "minRank": 90661,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolCode": "1174",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 436,
+          "minRank": 88592,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "政",
+      "majors": [
+        {
+          "majorName": "政治学与行政学",
+          "majorKey": "07a988ed",
+          "selKe": "政",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 20493,
+          "equivRank": 20493
+        },
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "政",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 20493,
+          "equivRank": 20493
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "4900",
+          "menlei": "理"
+        },
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "4900",
+          "menlei": "理"
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 90661,
+          "equivRank": 90661
+        }
+      ]
+    }
+  ]
+}
