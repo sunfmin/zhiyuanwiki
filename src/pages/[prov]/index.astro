@@ -2,7 +2,7 @@
 import Base from "../../layouts/Base.astro";
 import FenduanLookup from "../../components/FenduanLookup.tsx";
 import Locator from "../../components/Locator.tsx";
-import { PROVINCE_SLUGS, provinceConfig } from "../../lib/provinces";
+import { PROVINCE_SLUGS, provinceConfig, fillRange } from "../../lib/provinces";
 import { fenduanOf } from "../../lib/data";
 
 export function getStaticPaths() {
@@ -37,6 +37,23 @@ const more = [
     <p class="mt-2 max-w-2xl text-sm text-slate-600 sm:text-base">
       {cfg.intro} —— 输入分数或位次{selKePhrase}，按等效位次给出冲 / 稳 / 保的可填报{unit}。
     </p>
+
+    {/* 本科批志愿填报时间窗（2026 省情，时间敏感故置顶醒目）。缺数据则不显，不留空壳。 */}
+    {
+      cfg.fill && (
+        <div class="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3">
+          <span class="inline-flex shrink-0 items-center rounded-md bg-amber-600 px-2 py-0.5 text-xs font-semibold text-white">
+            本科批志愿填报
+          </span>
+          <span class="text-sm font-semibold text-amber-900">
+            {fillRange(cfg.fill)}
+            {cfg.fill.endTime && <span class="font-normal text-amber-700"> · {cfg.fill.endTime} 截止</span>}
+          </span>
+          {cfg.fill.note && <span class="text-xs text-amber-700">{cfg.fill.note}</span>}
+          <span class="ml-auto text-xs text-amber-600">2026 · 以省考试院为准</span>
+        </div>
+      )
+    }
 
     <div class="mt-6 sm:mt-8">
       <Locator client:load prov={prov} table={table} />
