@@ -30,6 +30,8 @@ test(
         });
         await p.reload({ waitUntil: "networkidle" });
         await p.getByRole("heading", { level: 1, name: "浙江大学" }).waitFor({ timeout: 8_000 });
+        // 等「你的位次」分界线被 island 插进招生专业排行并显形。
+        await p.locator(".yx-youhere:not([hidden])").first().waitFor({ timeout: 8_000 });
         // 展开前 3 个专业，让历年位次表 + 走势 sparkline 在截图里可见（默认折叠）。
         const details = p.locator("main details");
         const n = Math.min(3, await details.count());
@@ -59,9 +61,14 @@ test(
     // 2) 浙江走「招生专业」视图（major 模型），而非黑龙江的「院校专业组」。
     expect(mainText).toContain("2026 报考视图（招生专业）");
     expect(mainText).not.toContain("院校专业组）");
-    // 计划表里每个专业名锚到 #z-<majorKey>：恰好 plan2026 的 26 条。
-    const planRows = await main.locator('table a[href^="#z-"]').count();
+    // 签名件「你在这里」排行：26 个招生专业全部有往年位次，排成 26 行，各按 #z-<majorKey> 锚到历年区。
+    expect(await main.locator(".yx-ranklist").count()).toBe(1);
+    expect(await main.locator(".yx-ranklist .yx-rank-row").count()).toBe(26);
+    const planRows = await main.locator('a[href^="#z-"]').count();
     expect(planRows).toBe(26);
+    // 存入的位次 3,718 → 「你的位次」分界线插进排行并显形，标签带该位次。
+    expect(await main.locator(".yx-youhere:not([hidden])").count()).toBe(1);
+    expect(await main.locator(".yx-youhere-v").innerText()).toContain("你的位次 3,718");
 
     // 3) 历年录取位次区块：leaves 渲染成 32 个可展开 <details>。
     expect(mainText).toContain("全部专业 · 历年录取位次");

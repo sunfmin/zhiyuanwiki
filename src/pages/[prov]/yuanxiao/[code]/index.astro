@@ -31,13 +31,38 @@ const tracksLabel = cfg.tracks.map((t) => t.name).join(" / ");
 // 位次是全站的决策数（站名即「位次」），故把位次区间做成首屏最醒目的读数。
 const idx = schoolsOf(prov).find((s) => s.code === school.code);
 const multiTrack = cfg.tracks.length > 1;
-const hasRange = !!idx && cfg.tracks.some((t) => idx.ranges?.[t.name]);
-const tiers = [
-  idx?.is985 && { label: "985", cls: "bg-rose-50 text-rose-700 ring-rose-200" },
-  idx?.is211 && { label: "211", cls: "bg-indigo-50 text-indigo-700 ring-indigo-200" },
-  idx?.isShuangYiLiu && { label: "双一流", cls: "bg-amber-50 text-amber-700 ring-amber-200" },
-].filter(Boolean) as { label: string; cls: string }[];
-const fmt = (n?: number) => (n ? n.toLocaleString("en-US") : "—");
+const trackName = cfg.tracks[0].name;
+
+// 各科类区间 → 「最难考」顶点（minRank 越小越难）。顶点 = 全省录取位次最靠前的那个读数。
+const trackRanges = idx ? cfg.tracks.map((t) => ({ track: t.name, r: idx.ranges?.[t.name] })).filter((x) => x.r) : [];
+const hasRange = trackRanges.length > 0;
+const apex = trackRanges.reduce<{ track: string; minRank: number; maxRank: number; minScore: number; maxScore: number; year: number } | null>(
+  (best, x) => (!best || x.r!.minRank < best.minRank ? { track: x.track, ...x.r! } : best),
+  null,
+);
+// 顶点专业：最新一年最低位次 == 顶点位次的那个专业（多科类时还要对上科类）。
+const apexMajor = apex
+  ? leaves.find((l) => {
+      const y = latest(l);
+      return y.minRank === apex.minRank && (!multiTrack || y.track === apex.track);
+    })
+  : undefined;
+
+// 招生专业「你在这里」排行：有往年位次的按最低位次从难到易排（planRanked），
+// 无往年位次的（新增专业）单列在「新增 / 无往年录取」区（planNew）。存入位次后由 island 插分界线 + 标冲稳保。
+const leafKeys = new Set(leaves.map((l) => l.majorKey));
+const planRanked = plan
+  .filter((m) => typeof m.prevRank === "number" && (m.prevRank as number) > 0)
+  .slice()
+  .sort((a, b) => (a.prevRank as number) - (b.prevRank as number));
+const planNew = plan.filter((m) => !(typeof m.prevRank === "number" && (m.prevRank as number) > 0));
+
+const fmt = (n?: number) => (n != null && n > 0 ? n.toLocaleString("en-US") : "—");
+const tierSeals = [
+  idx?.is985 && { label: "985", kind: "985" },
+  idx?.is211 && { label: "211", kind: "211" },
+  idx?.isShuangYiLiu && { label: "双一流", kind: "syl" },
+].filter(Boolean) as { label: string; kind: string }[];
 ---
 
 <Base
@@ -45,245 +70,534 @@ const fmt = (n?: number) => (n ? n.toLocaleString("en-US") : "—");
   title={`${school.name} · 院校 · 高考志愿数据 Wiki`}
   description={`${school.name}在${cfg.name}的 2026 招生与历年专业录取位次（2022–2025）。`}
 >
-  <section class="mx-auto max-w-4xl px-4 py-12">
-    <a href={`/${prov}/yuanxiao/`} class="text-sm text-slate-500 hover:text-slate-800">← 院校浏览</a>
+  <div class="yx-page">
+    <div class="yx-wrap">
+      <a href={`/${prov}/yuanxiao/`} class="yx-back">← 院校浏览</a>
 
-    <div class="mt-3 flex flex-wrap items-center gap-x-3 gap-y-2">
-      <h1 class="text-3xl font-bold tracking-tight sm:text-4xl">{school.name}</h1>
-      {
-        tiers.map((t) => (
-          <span class={`rounded-md px-2 py-0.5 text-xs font-semibold ring-1 ring-inset ${t.cls}`}>
-            {t.label}
-          </span>
-        ))
-      }
-    </div>
-
-    <p class="mt-2 text-sm text-slate-500">
-      院校代码 {school.code} · {unitCount} 个 2026 {unit} · {leaves.length} 个专业有 2022–2025 录取记录
-    </p>
-
-    {
-      hasRange && (
-        <div class="mt-5 rounded-xl border border-slate-200 bg-white px-5 py-4">
-          <div class="text-xs text-slate-500">历年录取区间（最新一年 · 位次越靠前越难考）</div>
-          <div class="mt-2 space-y-1.5">
-            {cfg.tracks.map((t) => {
-              const r = idx!.ranges?.[t.name];
-              if (!r) return null;
-              return (
-                <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                  {multiTrack && (
-                    <span class="w-9 shrink-0 text-sm font-medium text-slate-600">{t.name}类</span>
-                  )}
-                  <span class="flex items-baseline gap-1.5">
-                    <span class="text-xs text-slate-500">位次</span>
-                    <span class="text-2xl font-bold tabular-nums text-slate-900">{fmt(r.minRank)}</span>
-                    <span class="text-slate-300">–</span>
-                    <span class="text-2xl font-bold tabular-nums text-slate-900">{fmt(r.maxRank)}</span>
-                  </span>
-                  <span class="flex items-baseline gap-1.5">
-                    <span class="text-xs text-slate-500">分</span>
-                    <span class="text-base font-semibold tabular-nums text-slate-700">
-                      {r.minScore}–{r.maxScore}
-                    </span>
-                  </span>
-                  <span class="text-xs text-slate-400">{r.year}</span>
-                </div>
-              );
-            })}
-          </div>
+      {/* ───────── 院校身份头：先报最难考的位次（站名即「位次」） ───────── */}
+      <header class="yx-masthead">
+        <div class="yx-eyebrow">{cfg.name} · {tracksLabel} · 院校代码 {school.code}</div>
+        <div class="yx-titlerow">
+          <h1 class="yx-name">{school.name}</h1>
+          {
+            tierSeals.map((t) => (
+              <span class={`yx-seal yx-seal--${t.kind}`}>{t.label}</span>
+            ))
+          }
         </div>
-      )
-    }
+        <p class="yx-stats">
+          院校代码 {school.code} · {unitCount} 个 2026 {unit} · {leaves.length} 个专业有 2022–2025 录取记录
+        </p>
 
-    {/* 黑龙江：院校专业组视图 */}
-    {
-      cfg.fillModel === "group" && groups.length > 0 && (
-        <div class="mt-8">
-          <h2 class="text-lg font-semibold">2026 报考视图（院校专业组）</h2>
-          <p class="mt-1 text-xs text-slate-500">
-            平行志愿按院校专业组填报。组号逐年变，故往年位次按"院校 + 专业名"挂接到组内专业（非按组号）。
-          </p>
-          <div class="mt-4 space-y-6">
-            {groups.map((g) => (
-              <div class="rounded-xl border border-slate-200 bg-white p-4">
-                <div class="flex flex-wrap items-baseline gap-2">
-                  <span class="font-semibold">{g.groupName}</span>
-                  <span class="rounded bg-slate-100 px-1.5 py-0.5 text-xs text-slate-600">{g.track}类</span>
-                  {g.selKe && (
-                    <span class="rounded bg-amber-50 px-1.5 py-0.5 text-xs text-amber-700">选科：{g.selKe}</span>
-                  )}
+        {
+          apex && (
+            <div class="yx-apex">
+              <div class="yx-apex-main">
+                <div class="yx-apex-label">
+                  最难考的专业{multiTrack ? ` · ${apex.track}类` : ""} · {apex.year}
                 </div>
-                <div class="mt-3 overflow-x-auto">
-                  <table class="w-full border-collapse text-sm">
-                    <thead>
-                      <tr class="border-b border-slate-300 text-left text-slate-500">
-                        <th class="py-1.5 pr-4">组内专业</th>
-                        <th class="py-1.5 pr-4">选科</th>
-                        <th class="py-1.5 pr-4">计划</th>
-                        <th class="py-1.5 pr-4">学费</th>
-                        <th class="py-1.5 pr-4">往年最低位次</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {g.majors.map((m) => (
-                        <tr class="border-b border-slate-100">
-                          <td class="py-1.5 pr-4">
-                            <a href={`#z-${m.majorKey}`} class="text-slate-900 hover:underline">
-                              {m.majorName}
-                            </a>
-                          </td>
-                          <td class="py-1.5 pr-4 text-slate-600">{m.selKe || "—"}</td>
-                          <td class="py-1.5 pr-4 tabular-nums">{m.plan || "—"}</td>
-                          <td class="py-1.5 pr-4 tabular-nums">{m.tuition || "—"}</td>
-                          <td class="py-1.5 pr-4 tabular-nums">
-                            {m.prevRank ? (
-                              <>
-                                <span class="font-semibold text-slate-900">{m.prevRank.toLocaleString()}</span>
-                                <span class="ml-1 text-xs text-slate-400">{m.prevYear}</span>
-                              </>
-                            ) : (
-                              "—"
-                            )}
-                          </td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
+                <div class="yx-apex-num">
+                  <span class="yx-apex-unit">位次</span>
+                  <span class="yx-apex-val">{fmt(apex.minRank)}</span>
+                </div>
+                {apexMajor && <div class="yx-apex-major">{apexMajor.majorName}</div>}
+                <div class="yx-apex-range">
+                  录取位次 {fmt(apex.minRank)}–{fmt(apex.maxRank)} · 分 {apex.minScore}–{apex.maxScore}
                 </div>
               </div>
-            ))}
-          </div>
-        </div>
-      )
-    }
+            </div>
+          )
+        }
+      </header>
 
-    {/* 浙江：院校×专业视图（专业平行志愿，每个专业独立投档，无组内调剂） */}
-    {
-      cfg.fillModel === "major" && plan.length > 0 && (
-        <div class="mt-8">
-          <h2 class="text-lg font-semibold">2026 报考视图（招生专业）</h2>
-          <p class="mt-1 text-xs text-slate-500">
-            专业平行志愿：每个院校×专业是一个独立投档单位（无组内调剂）。往年位次按"院校 + 专业名"挂接。
-          </p>
-          <div class="mt-4 overflow-x-auto rounded-xl border border-slate-200 bg-white">
-            <table class="w-full border-collapse text-sm">
-              <thead>
-                <tr class="border-b border-slate-300 text-left text-slate-500">
-                  <th class="py-2 pl-4 pr-4">专业</th>
-                  {multiTrack && <th class="py-2 pr-4">科类</th>}
-                  <th class="py-2 pr-4">选科</th>
-                  <th class="py-2 pr-4">计划</th>
-                  <th class="py-2 pr-4">学费</th>
-                  <th class="py-2 pr-4">往年最低位次</th>
-                </tr>
-              </thead>
-              <tbody>
-                {plan.map((m) => (
-                  <tr class="border-b border-slate-100">
-                    <td class="py-1.5 pl-4 pr-4">
-                      <a href={`#z-${m.majorKey}`} class="text-slate-900 hover:underline">
+      {/* ───────── 黑龙江：院校专业组视图（保留，统一为墨纸样式） ───────── */}
+      {
+        cfg.fillModel === "group" && groups.length > 0 && (
+          <section class="yx-section">
+            <h2 class="yx-h2">2026 报考视图（院校专业组）</h2>
+            <p class="yx-lede">
+              平行志愿按院校专业组填报。组号逐年变，故往年位次按「院校 + 专业名」挂接到组内专业（非按组号）。
+            </p>
+            <div class="yx-groups">
+              {groups.map((g) => (
+                <div class="yx-card">
+                  <div class="yx-group-head">
+                    <span class="yx-group-name">{g.groupName}</span>
+                    <span class="yx-chip">{g.track}类</span>
+                    {g.selKe && <span class="yx-chip yx-chip--sel">选科：{g.selKe}</span>}
+                  </div>
+                  <div class="yx-tablewrap">
+                    <table class="yx-table">
+                      <thead>
+                        <tr>
+                          <th>组内专业</th>
+                          <th>选科</th>
+                          <th>计划</th>
+                          <th>学费</th>
+                          <th>往年最低位次</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {g.majors.map((m) => (
+                          <tr>
+                            <td>
+                              {leafKeys.has(m.majorKey) ? (
+                                <a href={`#z-${m.majorKey}`} class="yx-majorlink">
+                                  {m.majorName}
+                                </a>
+                              ) : (
+                                <span class="yx-majorlink">{m.majorName}</span>
+                              )}
+                            </td>
+                            <td class="yx-muted">{m.selKe || "—"}</td>
+                            <td class="yx-num">{m.plan || "—"}</td>
+                            <td class="yx-num">{m.tuition || "—"}</td>
+                            <td class="yx-num">
+                              {m.prevRank ? (
+                                <>
+                                  <span class="yx-rank">{m.prevRank.toLocaleString()}</span>
+                                  <span class="yx-yr">{m.prevYear}</span>
+                                </>
+                              ) : (
+                                "—"
+                              )}
+                            </td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+        )
+      }
+
+      {/* ───────── 浙江：招生专业「你在这里」排行（按位次从难到易；存入位次后插分界线 + 冲稳保） ───────── */}
+      {
+        cfg.fillModel === "major" && plan.length > 0 && (
+          <section class="yx-section">
+            <h2 class="yx-h2">2026 报考视图（招生专业）</h2>
+            <p class="yx-lede">
+              专业平行志愿：每个院校×专业是独立投档单位（无组内调剂）。下面 {planRanked.length} 个有往年记录的专业按最低位次从难到易排；
+              在「位次定位」存入你的位次后，会在你所在档位画一条线，并标出每个专业是冲 / 稳 / 保。
+            </p>
+
+            {planRanked.length > 0 && (
+              <div class="yx-ranklist" data-track={trackName}>
+                <div class="yx-rank-cap">↑ 更难考</div>
+                {planRanked.map((m) => {
+                  const linked = leafKeys.has(m.majorKey);
+                  return (
+                    <div class="yx-rank-row" data-rank={m.prevRank}>
+                      <div class="yx-rank-top">
+                        <span class="yx-rank-name">
+                          {linked ? <a href={`#z-${m.majorKey}`}>{m.majorName}</a> : m.majorName}
+                          {m.coop && <span class="yx-coop">中外</span>}
+                        </span>
+                        <span class="reach-tag" data-rank={m.prevRank} data-track={trackName} />
+                        <span class="yx-rank-r">
+                          位次 {(m.prevRank as number).toLocaleString()}
+                          <span class="yx-rank-yr">{m.prevYear}</span>
+                        </span>
+                      </div>
+                      <div class="yx-rank-sub">计划 {m.plan || "—"} · {m.selKe || "不限"}</div>
+                    </div>
+                  );
+                })}
+                <div class="yx-rank-cap">更易考 ↓</div>
+                {/* 你的位次分界线：island 读 localStorage 位次后插到对应档位并显形 */}
+                <div class="yx-youhere" hidden>
+                  <span class="yx-youhere-v" />
+                  <span class="yx-youhere-h">↑ 以上更难（冲 / 够不着）· 以下托底（保 / 过保）↓</span>
+                </div>
+              </div>
+            )}
+
+            {planNew.length > 0 && (
+              <div class="yx-new">
+                <span class="yx-new-cap">新增 / 无往年录取</span>
+                {planNew.map((m) => (
+                  <span class="yx-new-item">
+                    {leafKeys.has(m.majorKey) ? (
+                      <a href={`#z-${m.majorKey}`} class="yx-majorlink">
                         {m.majorName}
                       </a>
-                      {m.coop && <span class="ml-1 text-xs text-violet-500">中外</span>}
-                    </td>
-                    {multiTrack && <td class="py-1.5 pr-4 text-slate-600">{m.track}类</td>}
-                    <td class="py-1.5 pr-4 text-slate-600">{m.selKe || "不限"}</td>
-                    <td class="py-1.5 pr-4 tabular-nums">{m.plan || "—"}</td>
-                    <td class="py-1.5 pr-4 tabular-nums">{m.tuition || "—"}</td>
-                    <td class="py-1.5 pr-4 tabular-nums">
-                      {m.prevRank ? (
-                        <>
-                          <span class="font-semibold text-slate-900">{m.prevRank.toLocaleString()}</span>
-                          <span class="ml-1 text-xs text-slate-400">{m.prevYear}</span>
-                        </>
-                      ) : (
-                        "—"
-                      )}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
-      )
-    }
-
-    <div class="mt-12">
-      <h2 class="text-lg font-semibold">全部专业 · 历年录取位次</h2>
-      <p class="mt-1 text-xs text-slate-500">点开专业看历年最低分 / 最低位次走势（2022–2025 {tracksLabel}类）。</p>
-      <div class="mt-4">
-        {
-          leaves.map((l) => {
-            const tracks = [...new Set(l.years.map((y) => y.track))];
-            const y0 = latest(l);
-            // 单科类省份（如浙江「综合」）每个专业只有一个科类，再标一行「综合类」是冗余，
-            // 还会被误读成专业下的分类入口；只有多科类（黑龙江 物理/历史 两套独立排名）才分头。
-            const showTrackHeads = tracks.length > 1;
-            return (
-              <details id={`z-${l.majorKey}`} class="border-b border-slate-100">
-                <summary class="flex cursor-pointer flex-wrap items-baseline justify-between gap-x-3 py-2">
-                  <span class="font-medium text-slate-900">{l.majorName}</span>
-                  <span class="text-sm text-slate-500">
-                    最近最低位次 {y0.minRank.toLocaleString()}
-                    {multiTrack && ` · ${y0.track}类`} · 选科 {l.selKe || "—"}
-                    {!showTrackHeads && (
-                      <span class="rank-badge" data-rank={y0.minRank} data-track={y0.track} />
+                    ) : (
+                      m.majorName
                     )}
+                    <span class="yx-new-plan">计划 {m.plan || "—"} · {m.selKe || "不限"}</span>
                   </span>
-                </summary>
-                <div class="pb-5 pl-1">
-                  {tracks.map((tr) => {
-                    const ys = l.years.filter((y) => y.track === tr).sort((a, b) => a.year - b.year);
-                    const latestRank = ys.length ? ys[ys.length - 1].minRank : 0;
-                    return (
-                      <div class="mt-3">
-                        {showTrackHeads && (
-                          <h3 class="text-sm font-semibold">
-                            {tr}类
-                            <span class="rank-badge" data-rank={latestRank} data-track={tr} />
-                          </h3>
-                        )}
-                        <div class="mt-2 overflow-x-auto">
-                          <table class="w-full border-collapse text-sm">
-                            <thead>
-                              <tr class="border-b border-slate-300 text-left text-slate-500">
-                                <th class="py-1 pr-4">年份</th>
-                                <th class="py-1 pr-4">最低分</th>
-                                <th class="py-1 pr-4">最低位次</th>
-                                <th class="py-1 pr-4">最高分</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              {ys.map((y) => (
-                                <tr class="border-b border-slate-100 tabular-nums">
-                                  <td class="py-1 pr-4">{y.year}</td>
-                                  <td class="py-1 pr-4">{y.minScore || "—"}</td>
-                                  <td class="py-1 pr-4">{y.minRank.toLocaleString()}</td>
-                                  <td class="py-1 pr-4">{y.maxScore || "—"}</td>
+                ))}
+              </div>
+            )}
+          </section>
+        )
+      }
+
+      {/* ───────── 全部专业 · 历年录取位次（可展开，墨纸账册） ───────── */}
+      <section class="yx-section">
+        <h2 class="yx-h2">全部专业 · 历年录取位次</h2>
+        <p class="yx-lede">点开专业看历年最低分 / 最低位次走势（2022–2025 {tracksLabel}类）。</p>
+        <div class="yx-leaves">
+          {
+            leaves.map((l) => {
+              const tracks = [...new Set(l.years.map((y) => y.track))];
+              const y0 = latest(l);
+              // 单科类省份（如浙江「综合」）每个专业只有一个科类，再标一行「综合类」是冗余；
+              // 只有多科类（黑龙江 物理/历史 两套独立排名）才分头。
+              const showTrackHeads = tracks.length > 1;
+              return (
+                <details id={`z-${l.majorKey}`} class="yx-leaf">
+                  <summary class="yx-leaf-sum">
+                    <span class="yx-leaf-name">{l.majorName}</span>
+                    <span class="yx-leaf-tail">
+                      最近最低位次 <span class="yx-rank">{y0.minRank.toLocaleString()}</span>
+                      {multiTrack && ` · ${y0.track}类`} · 选科 {l.selKe || "—"}
+                      {!showTrackHeads && (
+                        <span class="rank-badge" data-rank={y0.minRank} data-track={y0.track} />
+                      )}
+                    </span>
+                  </summary>
+                  <div class="yx-leaf-body">
+                    {tracks.map((tr) => {
+                      const ys = l.years.filter((y) => y.track === tr).sort((a, b) => a.year - b.year);
+                      const latestRank = ys.length ? ys[ys.length - 1].minRank : 0;
+                      return (
+                        <div class="yx-leaf-track">
+                          {showTrackHeads && (
+                            <h3 class="yx-h3">
+                              {tr}类
+                              <span class="rank-badge" data-rank={latestRank} data-track={tr} />
+                            </h3>
+                          )}
+                          <div class="yx-tablewrap">
+                            <table class="yx-table">
+                              <thead>
+                                <tr>
+                                  <th>年份</th>
+                                  <th>最低分</th>
+                                  <th>最低位次</th>
+                                  <th>最高分</th>
                                 </tr>
-                              ))}
-                            </tbody>
-                          </table>
+                              </thead>
+                              <tbody>
+                                {ys.map((y) => (
+                                  <tr class="yx-num">
+                                    <td>{y.year}</td>
+                                    <td>{y.minScore || "—"}</td>
+                                    <td><span class="yx-rank">{y.minRank.toLocaleString()}</span></td>
+                                    <td>{y.maxScore || "—"}</td>
+                                  </tr>
+                                ))}
+                              </tbody>
+                            </table>
+                          </div>
+                          <div class="yx-spark">
+                            <RankTrend points={ys.map((y) => ({ year: y.year, minRank: y.minRank }))} />
+                          </div>
                         </div>
-                        <div class="mt-2">
-                          <RankTrend points={ys.map((y) => ({ year: y.year, minRank: y.minRank }))} />
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
-              </details>
-            );
-          })
-        }
-      </div>
+                      );
+                    })}
+                  </div>
+                </details>
+              );
+            })
+          }
+        </div>
+      </section>
+
+      <SchoolBadges client:load prov={prov} />
+
+      <p class="yx-fineprint">仅供参考，以官方及院校最新公布为准。</p>
     </div>
-
-    <SchoolBadges client:load prov={prov} />
-
-    <p class="mt-10 text-xs text-slate-400">仅供参考，以官方及院校最新公布为准。</p>
-  </section>
+  </div>
 </Base>
+
+<style>
+  /* 把全站的决策数「位次」做成首屏与签名件；朱砂红只给位次用。
+     配色 / 字体与站点其他页面一致：slate 中性色 + 系统无衬线（--font-display 仅继承 body 字体，
+     留作日后想换展示字体的钩子）。 */
+  .yx-page {
+    --paper: #f8fafc; /* slate-50，同其他页面背景 */
+    --card: #ffffff;
+    --ink: #0f172a; /* slate-900 */
+    --ink-soft: #64748b; /* slate-500 */
+    --ink-faint: #94a3b8; /* slate-400 */
+    --seal: #c0202e; /* 朱红：位次高亮 */
+    --seal-deep: #9f1239;
+    --gold: #b45309; /* amber-700，同其他页面 双一流 徽标 */
+    --rule: #e2e8f0; /* slate-200 */
+    --rule-strong: #cbd5e1; /* slate-300 */
+    --font-display: inherit; /* = body 的系统无衬线（站点统一字体） */
+    background: var(--paper);
+    color: var(--ink);
+    min-height: 100%;
+    padding-bottom: 4rem;
+  }
+  .yx-wrap {
+    max-width: 56rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 0;
+  }
+  .yx-back {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: 0.8125rem;
+    color: var(--ink-faint);
+    text-decoration: none;
+    transition: color 0.15s;
+  }
+  .yx-back:hover { color: var(--seal); }
+
+  /* ── 院校身份头 ── */
+  .yx-masthead { padding: 1rem 0 0; }
+  .yx-eyebrow {
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    text-transform: none;
+    color: var(--ink-faint);
+    font-weight: 600;
+  }
+  .yx-titlerow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.65rem;
+    margin-top: 0.5rem;
+  }
+  .yx-name {
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 5.5vw, 3rem);
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: -0.025em; /* tracking-tight，同其他页面 h1 */
+    margin: 0;
+  }
+  .yx-seal {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    padding: 0.22rem 0.46rem;
+    border: 1px solid currentColor;
+    border-radius: 3px;
+    line-height: 1;
+    align-self: center;
+  }
+  .yx-seal--985 { color: var(--seal); background: rgba(192, 32, 46, 0.06); }
+  .yx-seal--211 { color: var(--ink); background: rgba(33, 30, 26, 0.04); }
+  .yx-seal--syl { color: var(--gold); background: rgba(154, 123, 46, 0.08); }
+  .yx-stats {
+    margin: 0.7rem 0 0;
+    font-size: 0.8125rem;
+    color: var(--ink-soft);
+  }
+
+  /* ── 顶点位次读数（首屏主角） ── */
+  .yx-apex {
+    margin-top: 1.5rem;
+    padding-top: 1.4rem;
+    border-top: 2px solid var(--ink);
+  }
+  .yx-apex-label {
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    color: var(--ink-soft);
+    font-weight: 600;
+  }
+  .yx-apex-num {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin-top: 0.25rem;
+    color: var(--seal);
+  }
+  .yx-apex-unit {
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+  }
+  .yx-apex-val {
+    font-family: var(--font-display);
+    /* 院校多数顶点位次是四五位数（带千分位），按此常见情形定档，避免巨号；单位数（如北大 5）也仍醒目 */
+    font-size: clamp(2.25rem, 6vw, 3.5rem);
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    font-variant-numeric: tabular-nums;
+  }
+  .yx-apex-major {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-top: 0.55rem;
+    color: var(--ink);
+  }
+  .yx-apex-range {
+    font-size: 0.8rem;
+    color: var(--ink-soft);
+    margin-top: 0.3rem;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ── 区块通用 ── */
+  .yx-section { margin-top: 3rem; }
+  .yx-h2 {
+    font-family: var(--font-display);
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid var(--rule-strong);
+  }
+  .yx-lede {
+    margin: 0.7rem 0 0;
+    font-size: 0.8rem;
+    line-height: 1.65;
+    color: var(--ink-soft);
+    max-width: 46rem;
+  }
+
+  /* ── 招生专业「你在这里」排行（签名件） ── */
+  .yx-ranklist { margin-top: 1.4rem; }
+  .yx-rank-cap { font-size: 0.72rem; color: var(--ink-faint); font-weight: 600; padding: 0.3rem 0; }
+  .yx-rank-row {
+    border-left: 4px solid var(--rule-strong);
+    background: var(--card);
+    margin: 0.3rem 0;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0 4px 4px 0;
+  }
+  .yx-rank-top { display: flex; align-items: baseline; gap: 0.4rem 0.6rem; }
+  .yx-rank-name { font-family: var(--font-display); font-weight: 600; flex: 1; min-width: 0; }
+  .yx-rank-name a { color: var(--ink); text-decoration: none; }
+  .yx-rank-name a:hover { color: var(--seal); text-decoration: underline; text-underline-offset: 3px; }
+  .yx-coop { margin-left: 0.3rem; color: #7c5bbd; font-weight: 600; font-size: 0.72rem; }
+  .yx-rank-r {
+    font-size: 0.78rem; font-weight: 700; color: var(--seal-deep);
+    white-space: nowrap; font-variant-numeric: tabular-nums;
+  }
+  .yx-rank-yr { margin-left: 0.2rem; font-weight: 500; color: var(--ink-faint); }
+  .yx-rank-sub { font-size: 0.72rem; color: var(--ink-faint); margin-top: 0.15rem; }
+  /* island 就地填的冲/稳/保短标签（默认空 → 不显形；存了位次才填字+底色） */
+  .reach-tag {
+    display: inline-block; font-size: 0.66rem; font-weight: 700; line-height: 1.5;
+    border-radius: 3px; padding: 0 0.35rem; color: #fff; white-space: nowrap;
+  }
+  .reach-tag:empty { padding: 0; }
+  /* 你的位次分界线：island 读 localStorage 后插到对应档位并显形。
+     用「上下朱线 + 淡朱底」的横向分隔带，而非整条实心红——和页面其余 slate 配色更协调。 */
+  .yx-youhere {
+    display: flex; align-items: center; flex-wrap: wrap; gap: 0.4rem 0.7rem;
+    margin: 0.45rem 0; padding: 0.45rem 0.5rem;
+    background: rgba(192, 32, 46, 0.06);
+    border-top: 2px solid var(--seal);
+    border-bottom: 2px solid var(--seal);
+  }
+  .yx-youhere-v {
+    font-weight: 700; font-size: 0.85rem; white-space: nowrap; font-variant-numeric: tabular-nums;
+    color: #fff; background: var(--seal); padding: 0.08rem 0.45rem; border-radius: 3px;
+  }
+  .yx-youhere-h { font-size: 0.7rem; color: var(--ink-soft); }
+
+  .yx-new {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem 1rem;
+    margin-top: 1.4rem;
+    padding-top: 1rem;
+    border-top: 1px dashed var(--rule-strong);
+  }
+  .yx-new-cap {
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    color: var(--ink-faint);
+    font-weight: 700;
+  }
+  .yx-new-item { font-size: 0.85rem; color: var(--ink); }
+  .yx-new-plan { margin-left: 0.4rem; font-size: 0.72rem; color: var(--ink-faint); }
+
+  /* ── 表格（无衬线，墨纸细线） ── */
+  .yx-card {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 1rem;
+  }
+  .yx-groups { margin-top: 1.2rem; display: flex; flex-direction: column; gap: 1.25rem; }
+  .yx-group-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.5rem; }
+  .yx-group-name { font-family: var(--font-display); font-weight: 700; }
+  .yx-chip {
+    font-size: 0.7rem;
+    padding: 0.12rem 0.4rem;
+    border-radius: 3px;
+    background: rgba(33, 30, 26, 0.06);
+    color: var(--ink-soft);
+  }
+  .yx-chip--sel { background: rgba(154, 123, 46, 0.12); color: var(--gold); }
+  .yx-tablewrap { overflow-x: auto; margin-top: 0.75rem; }
+  .yx-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+  .yx-table th {
+    text-align: left;
+    font-weight: 600;
+    color: var(--ink-faint);
+    border-bottom: 1px solid var(--rule-strong);
+    padding: 0.4rem 1rem 0.4rem 0;
+    white-space: nowrap;
+  }
+  .yx-table td {
+    padding: 0.45rem 1rem 0.45rem 0;
+    border-bottom: 1px solid var(--rule);
+    color: var(--ink);
+  }
+  .yx-num { font-variant-numeric: tabular-nums; }
+  td.yx-num, .yx-num td { font-variant-numeric: tabular-nums; }
+  .yx-muted { color: var(--ink-soft); }
+  .yx-majorlink { color: var(--ink); text-decoration: none; }
+  a.yx-majorlink:hover { color: var(--seal); text-decoration: underline; text-underline-offset: 3px; }
+  .yx-rank { color: var(--seal-deep); font-weight: 700; }
+  .yx-yr { margin-left: 0.3rem; font-size: 0.72rem; color: var(--ink-faint); }
+
+  /* ── 历年录取位次（可展开账册） ── */
+  .yx-leaves { margin-top: 1.2rem; }
+  .yx-leaf { border-bottom: 1px solid var(--rule); }
+  .yx-leaf-sum {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.25rem 0.75rem;
+    padding: 0.7rem 0;
+    cursor: pointer;
+    list-style: none;
+  }
+  .yx-leaf-sum::-webkit-details-marker { display: none; }
+  .yx-leaf-sum::before {
+    content: "+";
+    color: var(--ink-faint);
+    font-weight: 600;
+    margin-right: 0.1rem;
+  }
+  .yx-leaf[open] > .yx-leaf-sum::before { content: "–"; color: var(--seal); }
+  .yx-leaf-name { font-family: var(--font-display); font-weight: 600; color: var(--ink); margin-right: auto; }
+  .yx-leaf-tail { font-size: 0.8rem; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+  .yx-leaf-body { padding: 0 0 1.25rem 1.1rem; }
+  .yx-leaf-track { margin-top: 0.8rem; }
+  .yx-h3 { font-size: 0.85rem; font-weight: 600; margin: 0; }
+  .yx-spark { margin-top: 0.5rem; }
+
+  /* island 填充：冲/稳/保角标（保留站点既有语义与配色基调，调进墨纸色系） */
+  :global(.rank-badge) { display: inline-block; }
+
+  .yx-fineprint {
+    margin-top: 2.5rem;
+    font-size: 0.72rem;
+    color: var(--ink-faint);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .yx-back { transition: none; }
+  }
+</style>
