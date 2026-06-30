@@ -24,6 +24,7 @@ import {
   type Filters,
   type SchoolMetaMap,
 } from "../lib/filters";
+import { encodeLocatorURL, decodeLocatorURL, hasLocatorParams } from "../lib/locator-url";
 
 const PRIMARY_RESELECT = ["化学", "生物", "政治", "地理"]; // 黑龙江：首选物理/历史外的再选
 const ZJ_SUBJECTS = ["物理", "化学", "生物", "政治", "历史", "地理", "技术"]; // 浙江 7选3
@@ -73,9 +74,27 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
   const canScore = track === cfg.fenduanTrack;
   const effectiveMode: "score" | "rank" = canScore ? mode : "rank";
 
-  // 挂载后恢复上次输入（localStorage，按省命名空间）；ready 之前不回写。
+  // 挂载后恢复状态；ready 之前不回写（避免覆盖尚未恢复的初值）。
   const [ready, setReady] = useState(false);
   useEffect(() => {
+    // URL 优先：带任一搜索参数即「URL 权威」——完全按 URL 重建（缺省维度回落默认），不混入 localStorage。
+    // 这样别人复制来的链接看到的就是同一份搜索结果，而不会被本机上次输入污染。
+    try {
+      const params = new URLSearchParams(window.location.search);
+      if (hasLocatorParams(params)) {
+        const d = decodeLocatorURL(params, { tracks: cfg.tracks.map((t) => t.name) });
+        if (d.track) setTrack(d.track);
+        if (d.mode) setMode(d.mode);
+        if (typeof d.val === "string") setVal(d.val);
+        if (d.subjects) setSel(Object.fromEntries(d.subjects.map((s) => [s, true])));
+        setFilters(d.filters);
+        setReady(true);
+        return;
+      }
+    } catch {
+      /* 解析失败则回落 localStorage */
+    }
+    // 无 URL 参数：恢复上次本地输入（localStorage，按省命名空间）。
     try {
       const raw = localStorage.getItem(LS_KEY);
       if (raw) {
@@ -102,6 +121,24 @@ export default function Locator({ prov, table }: { prov: string; table: YiFenYiD
     if (!ready) return;
     try {
       localStorage.setItem(LS_KEY, JSON.stringify({ track, mode, val, sel, filters }));
+    } catch {
+      /* 忽略 */
+    }
+  }, [ready, track, mode, val, sel, filters]);
+
+  // 状态 → URL：每次搜索变更都 replaceState 回写（不增历史记录），地址栏始终是「当前这份搜索」，
+  // 随手复制即可把同一结果分享给别人。选科按展示顺序输出，URL 稳定不抖动。
+  useEffect(() => {
+    if (!ready) return;
+    try {
+      const subjectUniverse = wenli ? [] : pick3 ? pick3Subjects : PRIMARY_RESELECT;
+      const subjects = subjectUniverse.filter((s) => sel[s]);
+      const qs = encodeLocatorURL(
+        { track, mode: effectiveMode, val, subjects, filters },
+        { defaultTrack: cfg.tracks[0].name, multiTrack, wenli },
+      );
+      const url = window.location.pathname + (qs ? `?${qs}` : "") + window.location.hash;
+      window.history.replaceState(null, "", url);
     } catch {
       /* 忽略 */
     }
