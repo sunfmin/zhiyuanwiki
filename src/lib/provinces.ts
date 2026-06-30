@@ -36,6 +36,10 @@ export interface ProvinceConfig {
   fill?: FillWindow; // 2026 本科批普通类志愿填报时间窗（省情，纯展示；缺省 → 页面显「—」）
 }
 
+// 当前高考年份（「当年」的单一真相源）：列表页据此把已覆盖当年一分一段的省标绿。
+// 数据落后于公告——新一年的一分一段陆续到位时，各省 fenduanYear 才逐个推进到此值。
+export const CURRENT_GAOKAO_YEAR = 2026;
+
 export const PROVINCES: Record<string, ProvinceConfig> = {
   hlj: {
     slug: "hlj",

@@ -3,7 +3,7 @@
 // 纯静态：列全 31 省，已上线置顶可点进 /[slug]/，未上线置灰「敬请期待」。
 // 列分两轴——省情（新高考·本省院校·高考人数·本科线·本科招生计划）/ 本站收录（招生院校·覆盖年份·名校）。
 import Base from "../layouts/Base.astro";
-import { PROVINCE_ROSTER, liveSlugByName, provinceConfig, fillRange } from "../lib/provinces";
+import { PROVINCE_ROSTER, liveSlugByName, provinceConfig, fillRange, CURRENT_GAOKAO_YEAR } from "../lib/provinces";
 import { buildProvinceRows, summarize, coverageYears, type Gaokao } from "../lib/landing";
 import { schoolsOf, homeSchoolsOf, gaokaoOf, benkeLineOf, benkePlanOf } from "../lib/data";
 
@@ -40,36 +40,73 @@ const fillTitle = (slug: string): string | undefined => {
   if (!f) return undefined;
   return `2026 本科批志愿填报 ${fillRange(f)}${f.endTime ? ` ${f.endTime} 截止` : ""}${f.note ? `（${f.note}）` : ""}`;
 };
+// 一分一段导入年（本站收录：该省最新一分一段表年份，见 provinces.ts fenduanYear）——高考人数、本科线均源此表。
+const fenduanYearOf = (slug: string): number => provinceConfig(slug).fenduanYear;
+// 已覆盖当年（CURRENT_GAOKAO_YEAR）→ 列表标绿；落后年份保持灰。
+const fenduanIsCurrent = (slug: string): boolean => fenduanYearOf(slug) >= CURRENT_GAOKAO_YEAR;
 const fmt = (n: number) => n.toLocaleString("zh-CN");
 // 大数显示成「万」（含一位小数）；title 给精确数与年份。高考人数、本科招生计划共用。
 const wanNum = (n: number) => `${(n / 10000).toFixed(1)}万`;
 const wan = (g: Gaokao) => wanNum(g.count);
+// 本科招生计划占高考人数比（粗略本科录取率：本科批计划总数 ÷ 统考排名人数）——两者齐备才显示。
+const benkeRate = (plan: number, gaokaoCount: number): number => Math.round((plan / gaokaoCount) * 100);
 const liveCount = rows.filter((r) => r.live).length;
+// 已上线省统考考生合计（仅计可得高考人数的省）——首屏规模感，与各行「高考人数」同口径。
+const liveExamTotal = rows.reduce((s, r) => s + (r.live && r.gaokao ? r.gaokao.count : 0), 0);
+// 已上线省本科招生计划合计——与「覆盖统考考生」成供需对照（本科计划 vs 考生）。
+const liveBenkeTotal = rows.reduce((s, r) => s + (r.live && r.benkePlan ? r.benkePlan.plan : 0), 0);
 ---
 
 <Base
   title="全国高考志愿数据 Wiki · 选择省份"
   description={`覆盖 ${liveCount} 省的历年官方录取数据：按等效位次给出冲 / 稳 / 保。选择你的省份开始。`}
 >
-  <section class="mx-auto max-w-5xl px-4 py-8 sm:py-12">
-    <h1 class="text-2xl font-bold tracking-tight sm:text-3xl">选择你的省份</h1>
-    <p class="mt-2 max-w-2xl text-sm text-slate-600 sm:text-base">
+  <section class="mx-auto max-w-6xl px-4 py-8 sm:py-12">
+    <h1 class="text-3xl font-bold tracking-tight sm:text-4xl">选择你的省份</h1>
+    <p class="mt-3 max-w-2xl text-sm text-slate-600 sm:text-base">
       用历年官方数据按<strong>等效位次</strong>给出冲 / 稳 / 保的可填报院校与专业。
-      已上线 {liveCount} 省，点击进入位次定位；其余省份陆续接入。
+      点击已上线省份进入位次定位，其余省份陆续接入。
     </p>
+    {/* 规模感：真实合计，非装饰——已上线省数 / 覆盖统考考生 / 基准数据年（绿＝当年，与表内一分一段同义）。 */}
+    <dl class="mt-6 flex flex-wrap gap-x-10 gap-y-4 border-t border-slate-200 pt-5">
+      <div>
+        <dt class="text-xs text-slate-500">已上线省份</dt>
+        <dd class="mt-1 text-2xl font-semibold tracking-tight tabular-nums text-slate-900">
+          {liveCount}<span class="ml-1 text-sm font-normal text-slate-400">/ 31 省</span>
+        </dd>
+      </div>
+      <div>
+        <dt class="text-xs text-slate-500">覆盖统考考生</dt>
+        <dd class="mt-1 text-2xl font-semibold tracking-tight tabular-nums text-slate-900">
+          约{wanNum(liveExamTotal)}
+        </dd>
+      </div>
+      <div>
+        <dt class="text-xs text-slate-500">本科招生计划</dt>
+        <dd class="mt-1 text-2xl font-semibold tracking-tight tabular-nums text-slate-900">
+          约{wanNum(liveBenkeTotal)}
+        </dd>
+      </div>
+      <div>
+        <dt class="text-xs text-slate-500">基准数据年</dt>
+        <dd class="mt-1 text-2xl font-semibold tracking-tight tabular-nums text-emerald-600">
+          {CURRENT_GAOKAO_YEAR}
+        </dd>
+      </div>
+    </dl>
 
     {/* 桌面：分组宽表（省情 / 本站收录两轴） */}
     <div class="mt-6 hidden overflow-x-auto md:block">
       <table class="w-full border-collapse text-sm">
         <thead>
-          <tr class="text-xs text-slate-400">
+          <tr class="whitespace-nowrap text-xs text-slate-400">
             <th class="px-3 py-1.5 text-left font-medium" rowspan="2">省份</th>
-            <th class="border-l border-slate-200 px-3 py-1.5 text-center font-medium" colspan="6">省情</th>
-            <th class="border-l border-slate-200 px-3 py-1.5 text-center font-medium" colspan="4">
+            <th class="border-l border-slate-200 px-3 py-1.5 text-center font-medium tracking-wide" colspan="6">省情</th>
+            <th class="border-l border-slate-200 px-3 py-1.5 text-center font-medium tracking-wide" colspan="5">
               本站收录
             </th>
           </tr>
-          <tr class="text-xs text-slate-500">
+          <tr class="whitespace-nowrap text-xs text-slate-500">
             <th class="border-l border-slate-200 px-3 py-1.5 text-left font-medium">志愿填报<sup class="text-slate-300">§</sup></th>
             <th class="px-3 py-1.5 text-left font-medium">高考模式</th>
             <th class="px-3 py-1.5 text-right font-medium">本省院校</th>
@@ -78,6 +115,7 @@ const liveCount = rows.filter((r) => r.live).length;
             <th class="px-3 py-1.5 text-right font-medium">本科招生计划<sup class="text-slate-300">‡</sup></th>
             <th class="border-l border-slate-200 px-3 py-1.5 text-right font-medium">招生院校</th>
             <th class="px-3 py-1.5 text-right font-medium">覆盖年份</th>
+            <th class="px-3 py-1.5 text-right font-medium">一分一段<sup class="text-slate-300">‖</sup></th>
             <th class="px-3 py-1.5 text-right font-medium">985</th>
             <th class="px-3 py-1.5 text-right font-medium">211</th>
           </tr>
@@ -86,20 +124,20 @@ const liveCount = rows.filter((r) => r.live).length;
           {
             rows.map((r) =>
               r.live && r.slug ? (
-                <tr class="border-t border-slate-100 hover:bg-slate-50">
+                <tr class="group border-t border-slate-100 hover:bg-slate-50">
                   <td class="px-3 py-2 font-medium">
                     <a href={`/${r.slug}/`} class="text-slate-900 hover:text-blue-700 hover:underline">
                       {r.name}
-                      <span class="ml-1 text-xs text-slate-400">→</span>
+                      <span class="ml-1 text-xs text-slate-400 opacity-0 transition group-hover:opacity-100">→</span>
                     </a>
                   </td>
                   <td
-                    class="border-l border-slate-100 px-3 py-2 whitespace-nowrap text-slate-600"
+                    class="border-l border-slate-200 px-3 py-2 whitespace-nowrap text-slate-600"
                     title={fillTitle(r.slug)}
                   >
                     {fillCell(r.slug)}
                   </td>
-                  <td class="px-3 py-2 text-slate-600">{modeLabel(r.slug)}</td>
+                  <td class="px-3 py-2 whitespace-nowrap text-slate-600">{modeLabel(r.slug)}</td>
                   <td class="px-3 py-2 text-right tabular-nums text-slate-600">
                     {r.homeSchools ?? "—"}
                   </td>
@@ -116,31 +154,56 @@ const liveCount = rows.filter((r) => r.live).length;
                     {r.benkeLine ? r.benkeLine.line : "—"}
                   </td>
                   <td
-                    class="px-3 py-2 text-right tabular-nums text-slate-600"
-                    title={r.benkePlan ? `${fmt(r.benkePlan.plan)} 个本科招生计划（${r.benkePlan.year}）` : undefined}
+                    class="px-3 py-2 text-right tabular-nums whitespace-nowrap text-slate-600"
+                    title={
+                      r.benkePlan
+                        ? `${fmt(r.benkePlan.plan)} 个本科招生计划（${r.benkePlan.year}）${r.gaokao ? ` · 约占高考人数 ${benkeRate(r.benkePlan.plan, r.gaokao.count)}%` : ""}`
+                        : undefined
+                    }
                   >
-                    {r.benkePlan ? wanNum(r.benkePlan.plan) : "—"}
+                    {r.benkePlan ? (
+                      <>
+                        {wanNum(r.benkePlan.plan)}
+                        {r.gaokao && (
+                          <span class="ml-1.5 text-xs font-normal text-slate-400">
+                            {benkeRate(r.benkePlan.plan, r.gaokao.count)}%
+                          </span>
+                        )}
+                      </>
+                    ) : (
+                      "—"
+                    )}
                   </td>
-                  <td class="border-l border-slate-100 px-3 py-2 text-right tabular-nums">
+                  <td class="border-l border-slate-200 px-3 py-2 text-right tabular-nums">
                     {fmt(r.coverage!.recruitSchools)}
                   </td>
-                  <td class="px-3 py-2 text-right tabular-nums text-slate-600">{coverageYears(r.coverage)}</td>
+                  <td class="px-3 py-2 text-right tabular-nums whitespace-nowrap text-slate-600">{coverageYears(r.coverage)}</td>
+                  <td
+                    class:list={[
+                      "px-3 py-2 text-right tabular-nums",
+                      fenduanIsCurrent(r.slug) ? "font-semibold text-emerald-600" : "text-slate-600",
+                    ]}
+                    title={`本站收录 ${fenduanYearOf(r.slug)} 一分一段（高考人数 / 本科线源此表）${fenduanIsCurrent(r.slug) ? " · 已覆盖当年" : ""}`}
+                  >
+                    {fenduanYearOf(r.slug)}
+                  </td>
                   <td class="px-3 py-2 text-right tabular-nums text-slate-600">{r.coverage!.count985}</td>
                   <td class="px-3 py-2 text-right tabular-nums text-slate-600">{r.coverage!.count211}</td>
                 </tr>
               ) : (
                 <tr class="border-t border-slate-100 text-slate-400">
-                  <td class="px-3 py-2">
+                  <td class="px-3 py-2 whitespace-nowrap">
                     {r.name}
                     <span class="ml-2 rounded bg-slate-100 px-1.5 py-0.5 text-xs text-slate-400">敬请期待</span>
                   </td>
-                  <td class="border-l border-slate-100 px-3 py-2">—</td>
+                  <td class="border-l border-slate-200 px-3 py-2">—</td>
                   <td class="px-3 py-2" />
                   <td class="px-3 py-2 text-right tabular-nums text-slate-500">{r.homeSchools ?? "—"}</td>
                   <td class="px-3 py-2 text-right">—</td>
                   <td class="px-3 py-2 text-right">—</td>
                   <td class="px-3 py-2 text-right">—</td>
-                  <td class="border-l border-slate-100 px-3 py-2 text-right">—</td>
+                  <td class="border-l border-slate-200 px-3 py-2 text-right">—</td>
+                  <td class="px-3 py-2 text-right">—</td>
                   <td class="px-3 py-2 text-right">—</td>
                   <td class="px-3 py-2 text-right">—</td>
                   <td class="px-3 py-2 text-right">—</td>
@@ -169,10 +232,18 @@ const liveCount = rows.filter((r) => r.live).length;
                     {r.gaokao && <> · 高考 {wan(r.gaokao)}</>}
                     {r.homeSchools != null && <> · 本省 {r.homeSchools} 校</>}
                     {r.benkeLine && <> · 本科线 {r.benkeLine.line}</>}
-                    {r.benkePlan && <> · 本科计划 {wanNum(r.benkePlan.plan)}</>}
+                    {r.benkePlan && (
+                      <>
+                        {" "}· 本科计划 {wanNum(r.benkePlan.plan)}
+                        {r.gaokao && <> ({benkeRate(r.benkePlan.plan, r.gaokao.count)}%)</>}
+                      </>
+                    )}
                   </div>
                   <div class="mt-0.5 text-xs text-slate-400">
-                    收录 {fmt(r.coverage!.recruitSchools)} 所 · 数据到 {coverageYears(r.coverage)}
+                    收录 {fmt(r.coverage!.recruitSchools)} 所 · 数据到 {coverageYears(r.coverage)} · 一分一段{" "}
+                    <span class:list={fenduanIsCurrent(r.slug) ? "font-semibold text-emerald-600" : undefined}>
+                      {fenduanYearOf(r.slug)}
+                    </span>
                   </div>
                   {fillOf(r.slug) && (
                     <div class="mt-1 inline-flex items-center rounded-md bg-amber-50 px-2 py-0.5 text-xs font-medium text-amber-800">
@@ -198,7 +269,7 @@ const liveCount = rows.filter((r) => r.live).length;
       }
     </ul>
 
-    <p class="mt-8 space-y-1 text-xs text-slate-400">
+    <p class="mt-8 max-w-5xl space-y-1 text-xs text-slate-400">
       <span class="block">
         <sup>*</sup>高考人数为<strong>参加统一高考排名的人数</strong>（各科类一分一段最大累计之和），
         不含高职单招/中职对口，非报名人数。
@@ -208,15 +279,19 @@ const liveCount = rows.filter((r) => r.live).length;
         非更高的特殊类型招生控制线；浙江综合科、无物理科控制线的省显「—」。
       </span>
       <span class="block">
-        <sup>‡</sup>本科招生计划为<strong>该省本科批招生计划总数</strong>（最新年，全国高校在该省的本科计划之和），
-        配合高考人数可粗读本省本科竞争度。
+        <sup>‡</sup>本科招生计划为<strong>该省本科批招生计划总数</strong>（最新年，全国高校在该省的本科计划之和）；
+        括号内<strong>百分比 = 本科招生计划 ÷ 高考人数</strong>，粗读本省本科机会（非真实录取率，年份口径或不一）。
       </span>
       <span class="block">
         <sup>§</sup>志愿填报为<strong>2026 年本科批普通类平行志愿集中填报起止</strong>（悬浮可见截止时刻与段次备注）；
         分段填报省（浙江、山东等）显第一段 / 常规批第 1 次，后续段次见备注。日期<strong>务必以本省教育考试院最新公告为准</strong>。
       </span>
       <span class="block">
-        「本省院校 / 高考人数 / 本科线 / 本科招生计划 / 志愿填报」是省情事实；「招生院校 / 覆盖年份 / 名校数」是本站收录范围，
+        <sup>‖</sup>一分一段为<strong>本站收录的一分一段表年份</strong>（位次定位的基准数据，高考人数与本科线均源此表）；
+        各省接入年份不一，<strong class="text-emerald-600">绿色</strong>表示已覆盖当年（{CURRENT_GAOKAO_YEAR}），其余仍为上一年，均以本省考试院发布口径为准。
+      </span>
+      <span class="block">
+        「本省院校 / 高考人数 / 本科线 / 本科招生计划 / 志愿填报」是省情事实；「招生院校 / 覆盖年份 / 一分一段 / 名校数」是本站收录范围，
         受收录年份影响，非各省真实规模。仅供参考，以官方为准。
       </span>
     </p>
