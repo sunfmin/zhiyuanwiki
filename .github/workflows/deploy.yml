@@ -15,6 +15,15 @@ on:
     branches: [main]
   workflow_dispatch:
 
+# 同一时刻只允许一个部署跑：新 push 立即取消进行中的旧部署。
+# 两个理由（都踩过）：(a) 全量重传时一次 sync 长达 15–30 分钟，连续 push 会并发 rclone
+#   同步同一个 R2 桶、互相竞争拖慢；(b) 更危险——`rclone sync` 含删除语义，旧 commit 的
+#   dist 若晚于新 commit 完成，会把新 commit 才加的文件（如站点验证文件）当"多余对象"删掉。
+#   cancel-in-progress 让"最新 push 胜出"；被取消的 sync 只留半同步态，由胜出的那次 sync 收敛。
+concurrency:
+  group: deploy-r2
+  cancel-in-progress: true
+
 permissions:
   contents: read
 
