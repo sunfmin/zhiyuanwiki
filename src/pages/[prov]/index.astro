@@ -24,6 +24,7 @@ const scoreMode = cfg.locatorBasis === "score";
 const locateName = scoreMode ? "分数定位" : "位次定位";
 const inputPhrase = scoreMode ? "输入分数" : "输入分数或位次";
 const basisPhrase = scoreMode ? "按分数差" : "按等效位次";
+const seoInputPhrase = cfg.subjectMode === "wenli" ? inputPhrase : `${inputPhrase}并选择选科`;
 
 const more = [
   { href: `/${prov}/yuanxiao/`, title: "院校浏览", desc: "历年录取线与位次走势" },
@@ -32,7 +33,9 @@ const more = [
 ];
 
 // 结构化数据：本页主体是该省的免费在线定位工具 → WebApplication（名称/描述随省份派生）。
-const pageDesc = `${cfg.name}${inputPhrase}${selKePhrase}，${basisPhrase}给出冲 / 稳 / 保可填报${unit}。`;
+// title / description 同时服务搜索摘要：保留省份、年份、定位方式、结果类型和数据口径，避免过短。
+const pageTitle = `${cfg.name}${locateName}查询工具 · 2026高考志愿冲稳保推荐 · 高考志愿数据 Wiki`;
+const pageDesc = `${cfg.name}2026高考志愿${locateName}工具，支持${seoInputPhrase}，${basisPhrase}匹配历年录取数据和招生计划，筛选院校层次、城市、专业大类与中外合作，生成冲、稳、保可填报${unit}，并提供分数位次换算、院校浏览、专业对比和报志愿方法指南，帮助考生和家长评估目标专业、保底选择与风险边界，合理安排志愿顺序，提供参考。`;
 const appLd = {
   "@context": "https://schema.org",
   "@type": "WebApplication",
@@ -48,7 +51,7 @@ const appLd = {
 
 <Base
   prov={prov}
-  title={`${locateName} · ${cfg.name} · 高考志愿数据 Wiki`}
+  title={pageTitle}
   description={pageDesc}
   jsonLd={appLd}
 >
@@ -77,18 +80,20 @@ const appLd = {
     }
 
     <div class="mt-6 sm:mt-8">
+      <h2 class="mb-3 text-lg font-semibold tracking-tight text-slate-900">{cfg.name}{locateName}查询</h2>
       <Locator client:load prov={prov} table={table} />
     </div>
 
     {/* 次级入口：院校 / 专业 / 指南 */}
-    <div class="mt-10 grid gap-3 sm:grid-cols-3">
+    <h2 class="mt-10 text-lg font-semibold tracking-tight text-slate-900">继续查询</h2>
+    <div class="mt-3 grid gap-3 sm:grid-cols-3">
       {
         more.map((d) => (
           <a
             href={d.href}
             class="rounded-xl border border-slate-200 bg-white p-4 transition hover:border-slate-400 hover:shadow-sm"
           >
-            <div class="text-sm font-semibold text-slate-900">{d.title}</div>
+            <h3 class="text-sm font-semibold text-slate-900">{d.title}</h3>
             <div class="mt-0.5 text-xs text-slate-500">{d.desc}</div>
           </a>
         ))
