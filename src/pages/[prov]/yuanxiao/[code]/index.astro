@@ -139,10 +139,10 @@ const schoolLd = {
           apex && (
             <div class="yx-apex">
               <div class="yx-apex-main">
-                <div class="yx-apex-label">
+                <h3 class="yx-apex-label">
                   {scoreMode ? "录取分最高的专业" : "最难考的专业"}
                   {multiTrack ? ` · ${apex.track}类` : ""} · {apex.year}
-                </div>
+                </h3>
                 <div class="yx-apex-num">
                   <span class="yx-apex-unit">{scoreMode ? "最低分" : "位次"}</span>
                   <span class="yx-apex-val">{scoreMode ? apex.maxScore : fmt(apex.minRank)}</span>
@@ -171,7 +171,7 @@ const schoolLd = {
               {groups.map((g) => (
                 <div class="yx-card">
                   <div class="yx-group-head">
-                    <span class="yx-group-name">{g.groupName}</span>
+                    <h3 class="yx-group-name">{g.groupName}</h3>
                     <span class="yx-chip">{g.track}类</span>
                     {g.selKe && <span class="yx-chip yx-chip--sel">选科：{g.selKe}</span>}
                   </div>
@@ -277,7 +277,7 @@ const schoolLd = {
 
             {planNew.length > 0 && (
               <div class="yx-new">
-                <span class="yx-new-cap">新增 / 无往年录取</span>
+                <h3 class="yx-new-cap">新增 / 无往年录取</h3>
                 {planNew.map((m) => (
                   <span class="yx-new-item">
                     {leafKeys.has(m.majorKey) ? (
