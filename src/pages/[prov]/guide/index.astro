@@ -10,12 +10,27 @@ export async function getStaticPaths() {
 
 const { prov, guides } = Astro.props;
 const cfg = provinceConfig(prov);
+
+// 结构化数据：指南文章清单 → ItemList（条目有界，逐条列出，链接到本省该篇）。
+const guideListLd = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  name: `${cfg.name}报志愿指南`,
+  numberOfItems: guides.length,
+  itemListElement: guides.map((g, i) => ({
+    "@type": "ListItem",
+    position: i + 1,
+    name: g.data.title,
+    url: new URL(`/${prov}/guide/${g.id}/`, Astro.site).href,
+  })),
+};
 ---
 
 <Base
   prov={prov}
   title={`报志愿指南 · ${cfg.name} · 高考志愿数据 Wiki`}
   description="平行志愿、等效位次法、冲稳保分档、防调剂等方法论文章。"
+  jsonLd={guideListLd}
 >
   <section class="mx-auto max-w-2xl px-4 py-12">
     <h1 class="text-2xl font-bold">报志愿指南</h1>

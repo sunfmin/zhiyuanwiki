@@ -30,12 +30,27 @@ const more = [
   { href: `/${prov}/zhuanye/`, title: "专业浏览", desc: "跨院校横向比录取水平" },
   { href: `/${prov}/guide/`, title: "报志愿指南", desc: "平行志愿 · 等效位次 · 选科" },
 ];
+
+// 结构化数据：本页主体是该省的免费在线定位工具 → WebApplication（名称/描述随省份派生）。
+const pageDesc = `${cfg.name}${inputPhrase}${selKePhrase}，${basisPhrase}给出冲 / 稳 / 保可填报${unit}。`;
+const appLd = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  name: `${cfg.name}${locateName}`,
+  url: new URL(`/${prov}/`, Astro.site).href,
+  applicationCategory: "EducationalApplication",
+  operatingSystem: "Web",
+  inLanguage: "zh-CN",
+  isAccessibleForFree: true,
+  description: pageDesc,
+};
 ---
 
 <Base
   prov={prov}
   title={`${locateName} · ${cfg.name} · 高考志愿数据 Wiki`}
-  description={`${cfg.name}${inputPhrase}${selKePhrase}，${basisPhrase}给出冲 / 稳 / 保可填报${unit}。`}
+  description={pageDesc}
+  jsonLd={appLd}
 >
   <section class="mx-auto max-w-5xl px-4 py-8 sm:py-12">
     <h1 class="text-2xl font-bold tracking-tight sm:text-3xl">{locateName}</h1>

@@ -16,12 +16,34 @@ export function getStaticPaths() {
 const { prov, major } = Astro.props as { prov: string; major: MajorDetail };
 const cfg = provinceConfig(prov);
 const scoreMode = cfg.locatorBasis === "score"; // 西藏：无位次，按最低分横向比较
+
+// 结构化数据：本页主体是「开设该专业的院校按录取水平排序」→ ItemList（已按 major.schools 的展示顺序）。
+// 条目上限 CAP，避免大热门专业清单过长；numberOfItems 记全量。位次省升序（位次小=靠前），西藏降序（分高=靠前）。
+const pageDesc = `开设 ${major.name} 的各院校在${cfg.name}的录取最低${scoreMode ? "分" : "位次"}横向比较。`;
+const LD_CAP = 100;
+const majorLd = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  name: `${cfg.name}开设${major.name}的院校（按最近最低${scoreMode ? "分" : "位次"}排序）`,
+  url: new URL(`/${prov}/zhuanye/${major.key}/`, Astro.site).href,
+  numberOfItems: major.schools.length,
+  itemListOrder: scoreMode
+    ? "https://schema.org/ItemListOrderDescending"
+    : "https://schema.org/ItemListOrderAscending",
+  itemListElement: major.schools.slice(0, LD_CAP).map((s, i) => ({
+    "@type": "ListItem",
+    position: i + 1,
+    name: s.sn,
+    url: new URL(`/${prov}/yuanxiao/${s.sc}/#z-${s.mk}`, Astro.site).href,
+  })),
+};
 ---
 
 <Base
   prov={prov}
   title={`${major.name} · 专业 · 高考志愿数据 Wiki`}
-  description={`开设 ${major.name} 的各院校在${cfg.name}的录取最低${scoreMode ? "分" : "位次"}横向比较。`}
+  description={pageDesc}
+  jsonLd={majorLd}
 >
   <section class="mx-auto max-w-3xl px-4 py-12">
     <a href={`/${prov}/zhuanye/`} class="text-sm text-slate-500 hover:text-slate-800">← 专业浏览</a>

@@ -55,11 +55,28 @@ const liveCount = rows.filter((r) => r.live).length;
 const liveExamTotal = rows.reduce((s, r) => s + (r.live && r.gaokao ? r.gaokao.count : 0), 0);
 // 已上线省本科招生计划合计——与「覆盖统考考生」成供需对照（本科计划 vs 考生）。
 const liveBenkeTotal = rows.reduce((s, r) => s + (r.live && r.benkePlan ? r.benkePlan.plan : 0), 0);
+
+// 结构化数据：本页主体是「已上线省份清单」→ ItemList，直接由 live 行派生，随上线省增减自动更新。
+const liveProvincesLd = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  name: "已上线省份 · 高考志愿位次定位",
+  numberOfItems: liveCount,
+  itemListElement: rows
+    .filter((r) => r.live && r.slug)
+    .map((r, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: r.name,
+      url: new URL(`/${r.slug}/`, Astro.site).href,
+    })),
+};
 ---
 
 <Base
   title="全国高考志愿数据 Wiki · 选择省份"
   description={`覆盖 ${liveCount} 省的历年官方录取数据：按等效位次给出冲 / 稳 / 保。选择你的省份开始。`}
+  jsonLd={liveProvincesLd}
 >
   <section class="mx-auto max-w-6xl px-4 py-8 sm:py-12">
     <h1 class="text-3xl font-bold tracking-tight sm:text-4xl">选择你的省份</h1>

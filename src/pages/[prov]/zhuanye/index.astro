@@ -13,12 +13,25 @@ export function getStaticPaths() {
 const { prov, list } = Astro.props;
 const cfg = provinceConfig(prov);
 const tracksLabel = cfg.tracks.map((t) => t.name).join(" / ");
+
+// 结构化数据：专业清单 → CollectionPage。条目多（数百上千），同院校列表：只用 mainEntity 的
+// numberOfItems 声明真实规模（= list.length），不逐条列。
+const collectionLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: `${cfg.name}专业浏览`,
+  url: new URL(`/${prov}/zhuanye/`, Astro.site).href,
+  inLanguage: "zh-CN",
+  description: `共 ${list.length} 个专业（${cfg.name} 2022–2025 ${tracksLabel}类），按开设院校数排序。`,
+  mainEntity: { "@type": "ItemList", numberOfItems: list.length },
+};
 ---
 
 <Base
   prov={prov}
   title={`专业浏览 · ${cfg.name} · 高考志愿数据 Wiki`}
   description={`按专业横向比较${cfg.name}开设该专业的各院校录取位次。`}
+  jsonLd={collectionLd}
 >
   <section class="mx-auto max-w-5xl px-4 py-12">
     <h1 class="text-2xl font-bold">专业浏览</h1>
