@@ -19,7 +19,7 @@ import (
 //
 // 全国院校属性表已由 importCmd 的 importNational 先行刷新（各省份树），下游 buildDBBundle 据此挂接。
 func importHLJ(db *store.DB, gefenSrc string, p province) {
-	wan := defaultSrc() // 万师兄树
+	wan := defaultSrc() // 黑龙江分数/计划源根（24-万师兄…，原万师兄树，已归整到 高考志愿/）
 
 	// 专业录取分数：万师兄 2023/2024/2025（逐年文件，与旧 buildHLJBundle 同源同解析）。
 	scoreDir := filepath.Join(wan,
@@ -32,6 +32,7 @@ func importHLJ(db *store.DB, gefenSrc string, p province) {
 			fmt.Fprintf(os.Stderr, "⚠ 黑龙江 %d 专业分数线：未找到文件，跳过\n", y)
 			continue
 		}
+		logSrc(fmt.Sprintf("录取分数·%d", y), path)
 		rows, err := hlj.ParseMajorScoresXLSX(path)
 		if err != nil {
 			fatal(err)
@@ -50,6 +51,7 @@ func importHLJ(db *store.DB, gefenSrc string, p province) {
 	planPath := filepath.Join(wan,
 		"24-万师兄-黑龙江2026年高考志愿填报大数据",
 		"01-万师兄-黑龙江高考-招生计划-2020-2026", "黑龙江_招生计划_2026.xlsx")
+	logSrc("招生计划·2026", planPath)
 	if plan, err := hlj.ParsePlanXLSX(planPath); err != nil {
 		fmt.Fprintf(os.Stderr, "⚠ 黑龙江 2026 招生计划解析失败（%v），跳过（组视图将为空）\n", err)
 	} else {
@@ -84,12 +86,14 @@ func importHLJ(db *store.DB, gefenSrc string, p province) {
 			fmt.Fprintf(os.Stderr, "⚠ 一分一段 %s 解析失败：%v\n", filepath.Base(yf), err)
 			continue
 		}
+		logSrc(fmt.Sprintf("一分一段·%d", year), yf)
 		add(yds)
 	}
 	// 万师兄 2026 物理（各省份树暂无 2026；保留旧 fenduan wuli-2026）。
 	wan2026 := filepath.Join(wan, "黑龙江2026物理类一分一段表.xlsx")
 	if _, err := os.Stat(wan2026); err == nil {
 		if yds, err := hlj.ParseYiFenYiDuan(wan2026, p.name, 2026); err == nil {
+			logSrc("一分一段·2026", wan2026)
 			add(yds)
 		}
 	}

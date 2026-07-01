@@ -19,7 +19,7 @@ cd "$(dirname "$0")/.."
 
 DB="${ZHIYUAN_DB:-/Users/sunfmin/Library/Mobile Documents/com~apple~CloudDocs/zhiyuanwiki/zhiyuan.db}"
 GEFEN="${GEFEN:-$HOME/Downloads/高考志愿/各省份}"   # 多数省 xlsx 源根
-DL="${DL:-$HOME/Downloads}"                          # 西藏独立包的上层
+DL="${DL:-$HOME/Downloads/高考志愿}"                  # 西藏独立包(31、西藏-…)的上层——已随数据归整挪入 高考志愿/
 WORK="out/zhiyuan.db"                                # 本地工作副本
 BIN="./zhiyuan-data"
 

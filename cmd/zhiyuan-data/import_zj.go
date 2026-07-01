@@ -34,9 +34,10 @@ func zjPath(src string, parts ...string) string {
 //   - 院校属性（按院校代码）：「一表联动」+ 分数表内联列 → school_attr 表。浙江 city_tier 是源表显式
 //     标签、且按码挂接，全国 school 表（按校名、无 city_tier）无法表达，故另立按码投影（见 #21）。
 func importZJ(db *store.DB, p province) {
-	src := defaultSrc() // 浙江源在万师兄树
+	src := defaultSrc() // 浙江源根（09、浙江…，原万师兄树，已归整到 高考志愿/）
 
 	scorePath := zjPath(src, zjDataDir, zjScoreXLSX)
+	logSrc("录取分数", scorePath)
 	scores, err := zj.ParseMajorScoresXLSX(scorePath)
 	if err != nil {
 		fatal(err)
@@ -47,6 +48,7 @@ func importZJ(db *store.DB, p province) {
 	fmt.Printf("  专业录取分数：%d 行（综合·一段/二段/提前批·含位次）→ major_score\n", len(scores))
 
 	planPath := zjPath(src, "2-浙江26招生计划+政策汇总【持续更新】", "1-浙江2026招生计划", zjPlanXLSX)
+	logSrc("招生计划", planPath)
 	if planRows, err := zj.ParsePlan2026XLSX(planPath); err != nil {
 		fmt.Fprintf(os.Stderr, "⚠ 浙江 2026 招生计划解析失败（%v），跳过（报考视图将为空）\n", err)
 	} else {
@@ -58,6 +60,7 @@ func importZJ(db *store.DB, p province) {
 
 	// 院校属性（按代码）：一表联动（城市/层级/类型/层次）+ 分数表内联列（省/性质/985/211 兜底）。
 	lianPath := zjPath(src, zjDataDir, zjLianXLSX)
+	logSrc("院校属性(一表联动)", lianPath)
 	attrs := zj.LoadAttrs([]string{scorePath}, lianPath)
 	var attrRows []store.SchoolAttr
 	for code, a := range attrs.All() {

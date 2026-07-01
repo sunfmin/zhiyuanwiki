@@ -157,9 +157,17 @@ func emitSchoolData(p province, b schoolBundle, outDir, pubDir string) {
 		p.name, len(b.schools), len(b.leaves), outDir)
 }
 
+// defaultSrc 是浙江/黑龙江专用 import 的源根（其下有 09、浙江…、24-万师兄…、黑龙江2026物理类一分一段表.xlsx）。
+// 原为万师兄树 ~/Developments/zhiyuan/官方数据，数据归整后统一到 ~/Downloads/高考志愿（与各省份同根，见 CLAUDE.md 数据来源审计）。
 func defaultSrc() string {
 	home, _ := os.UserHomeDir()
-	return filepath.Join(home, "Developments", "zhiyuan", "官方数据")
+	return filepath.Join(home, "Downloads", "高考志愿")
+}
+
+// logSrc 打印某次入库实际选中的源 xlsx（数据溯源/审计用）：因源树里常有多版本同名文件、
+// 且按「子树内含关键子串、体积最大」选文件，打印真正用到的那份可随时核对是否为期望版本。
+func logSrc(role, path string) {
+	fmt.Printf("  📄 %s ← %s\n", role, path)
 }
 
 func writeJSON(path string, v any) {

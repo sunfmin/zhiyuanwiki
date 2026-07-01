@@ -19,10 +19,10 @@ import (
 	"github.com/sunfmin/zhiyuanwiki/internal/xz"
 )
 
-// importDefaultSrc 是新数据源（各省份/ 干净树）的默认根。见 ADR-0014。
+// importDefaultSrc 是通用 importProvince 的默认源根：各省份/ 干净树。见 ADR-0014。
+// 与 zj/hlj 的 defaultSrc() 同源（都在 ~/Downloads/高考志愿 下），故由后者派生，避免根路径两处写。
 func importDefaultSrc() string {
-	home, _ := os.UserHomeDir()
-	return filepath.Join(home, "Downloads", "高考志愿", "各省份")
+	return filepath.Join(defaultSrc(), "各省份")
 }
 
 // provDirName 是某省在 各省份/ 下的子目录名（多数=中文名；个别带后缀，按需登记）。
@@ -202,6 +202,7 @@ func importCmd(args []string) {
 // importNational 刷新全国院校属性 + 专业门类（全量替换）。文件在任一省的 college_data 下，取首个。
 func importNational(db *store.DB, src string) {
 	if f := findFile(src, []string{"全国高等院校信息汇总"}, nil); f != "" {
+		logSrc("全国院校属性", f)
 		infos := parseSchoolInfo(f)
 		if err := db.ReplaceSchools(infos); err != nil {
 			fatal(err)
@@ -211,6 +212,7 @@ func importNational(db *store.DB, src string) {
 		fmt.Fprintln(os.Stderr, "⚠ 未找到 全国高等院校信息汇总.xlsx，跳过院校属性")
 	}
 	if f := findFile(src, []string{"全国高等院校开设专业汇总"}, nil); f != "" {
+		logSrc("全国专业门类", f)
 		rows := parseCatalog(f)
 		if err := db.ReplaceCatalog(rows); err != nil {
 			fatal(err)
@@ -235,6 +237,7 @@ func importProvince(db *store.DB, src string, p province, parser provParser) {
 	if scorePath == "" {
 		fatal(fmt.Errorf("%s：未找到录取分数 xlsx（%v，在 %s 下）", p.name, scoreMust, root))
 	}
+	logSrc("录取分数", scorePath)
 	scores, err := parser.Scores(scorePath)
 	if err != nil {
 		fatal(err)
@@ -249,6 +252,7 @@ func importProvince(db *store.DB, src string, p province, parser provParser) {
 		planMust = []string{"招生计划"}
 	}
 	if planPath := findFile(root, planMust, []string{"艺术", "艺考"}); planPath != "" {
+		logSrc("招生计划", planPath)
 		plan, err := parser.Plan(planPath)
 		if err != nil {
 			fatal(err)
@@ -273,13 +277,18 @@ func importProvince(db *store.DB, src string, p province, parser provParser) {
 			fmt.Fprintf(os.Stderr, "⚠ 一分一段 %s 解析失败：%v\n", filepath.Base(yf), err)
 			continue
 		}
+		used := false
 		for _, y := range yds {
 			yt := core.YearTrack{Year: y.Year, Track: y.Track}
 			if seenYT[yt] {
 				continue // 已有该 年×科类（findFiles 按体积降序，保留首个=最全副本）
 			}
 			seenYT[yt] = true
+			used = true
 			allYfd = append(allYfd, y)
+		}
+		if used {
+			logSrc(fmt.Sprintf("一分一段·%d", year), yf)
 		}
 	}
 	if err := db.ReplaceYiFenYiDuan(p.slug, allYfd); err != nil {

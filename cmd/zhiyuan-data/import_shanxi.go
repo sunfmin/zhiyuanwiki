@@ -35,6 +35,7 @@ func importShanxi(db *store.DB, gefenSrc string, p province) {
 	if planPath == "" {
 		fatal(fmt.Errorf("山西：未找到 2025 招生计划 xlsx（在 %s 下）", root))
 	}
+	logSrc("招生计划", planPath)
 	plan, err := group3p12.ParsePlan(planPath)
 	if err != nil {
 		fatal(err)
@@ -58,6 +59,7 @@ func importShanxi(db *store.DB, gefenSrc string, p province) {
 	if scorePath == "" {
 		fatal(fmt.Errorf("山西：未找到专业录取分数线 xlsx（在 %s 下）", root))
 	}
+	logSrc("录取分数", scorePath)
 	rawScores, err := shanxi.ParseScores(scorePath, shanxiYear)
 	if err != nil {
 		fatal(err)
@@ -94,6 +96,7 @@ func importShanxi(db *store.DB, gefenSrc string, p province) {
 		if track == "" {
 			continue
 		}
+		logSrc(fmt.Sprintf("一分一段·%d·%s", shanxiYear, track), yf)
 		y, err := core.ParseYiFenYiDuanXLSX(yf, p.name, track, shanxiYear)
 		if err != nil {
 			fmt.Fprintf(os.Stderr, "⚠ 一分一段 %s 解析失败：%v\n", filepath.Base(yf), err)

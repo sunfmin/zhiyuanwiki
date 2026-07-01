@@ -25,13 +25,31 @@
 工具 `cmd/zhiyuan-data`（`go build -o zhiyuan-data ./cmd/zhiyuan-data`）各子命令默认 `-db out/zhiyuan.db`，
 指向上面这份库时传 `-db "<上述路径>"`。原始 xlsx 与该库都是本机产物、不入仓库。
 
-xlsx 源：多数省在 `~/Downloads/高考志愿/各省份/<省名>`；浙江/黑龙江的分数·计划走万师兄树
-`~/Developments/zhiyuan/官方数据`（`zj`/`hlj` 专用 import 内部硬编码）；西藏是独立包
-`~/Downloads/31、西藏-2026志愿填报资料`（`xz` 用 `-src ~/Downloads`）。
+### xlsx 源目录（2026-07-01 全量审计）
+
+数据规范根：`~/Downloads/高考志愿/`。选文件规则：在某省子树内按「路径含指定关键子串、体积最大者」挑，
+`mustNot=艺术/艺考`；每省的关键子串在 `cmd/zhiyuan-data/import.go` 的 `provParsers`（`ScoreMust`/`PlanMust`）里登记。
+
+| 数据 | 省 | 源根 |
+|---|---|---|
+| 分数/计划/一分一段 | 26 省（除下面特殊省） | `~/Downloads/高考志愿/各省份/<省>/…` |
+| 全国院校属性 / 专业门类 | — | `各省份/…/college_data/全国高等院校{信息汇总,开设专业汇总}.xlsx`（遍历首个命中） |
+| 西藏 `xz` | 分数/计划（无一分一段） | `高考志愿/31、西藏-2026志愿填报资料/…`（`import -prov xz -src ~/Downloads/高考志愿`） |
+| 山西 `shanxi` | 计划/分数/一分一段 | `各省份/山西/…`（分数文件名标 2024、实为 2025 新高考，见 `import_shanxi.go`） |
+| 黑龙江 `hlj` | 一分一段(2020-2025) | `各省份/黑龙江/…` |
+| 黑龙江 `hlj` | 分数(23-25)/计划(26) | `高考志愿/24-万师兄-黑龙江2026年高考志愿填报大数据/…` |
+| 黑龙江 `hlj` | 一分一段(2026·基准年) | `高考志愿/黑龙江2026物理类一分一段表.xlsx`（散在根，`各省份/黑龙江` 无 2026） |
+| 浙江 `zj` | 分数/计划/院校属性 | `高考志愿/09、浙江-2026高考志愿填报资料/…` |
+
+`zj`/`hlj` 的源根由 `defaultSrc()`=`~/Downloads/高考志愿` 给出（`import_zj.go`/`import_hlj.go`），通用省的
+`各省份` 由它派生（`filepath.Join(defaultSrc(), "各省份")`）——**全部数据都在 `~/Downloads/高考志愿/` 一个根下**。
+（历史：`defaultSrc` 原指万师兄树 `~/Developments/zhiyuan/官方数据`，2026-07-01 随数据归整收口到 `高考志愿/`。）
+
+**溯源**：`import` 每选一个源文件都会打印 `📄 <用途> ← <绝对路径>`，任何时候都能核对实际用的是哪份（多版本同名时尤其有用）。
 
 **重新导入全部省份 excel → db**（按省幂等整省替换，首省刷新全国表，其余 `-skip-national`）：
 见 `scripts/reimport-all.sh`（先 seed 本地副本、逐省导入、成功后拷回规范位置，容错并汇总）。
-导入后如需刷新站点 JSON：对每省顺跑 `fenduan→yuanxiao→zhuanye→dingwei`、最后 `landing`（同样带 `-db`）。
+**刷新站点 JSON**（不 import）：`scripts/refresh-json.sh`（每省 `fenduan→yuanxiao→zhuanye→dingwei`、末尾 `landing`，跳过无一分一段的西藏）。
 
 ## Agent skills
 
