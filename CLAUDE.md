@@ -50,6 +50,12 @@
 **重新导入全部省份 excel → db**（按省幂等整省替换，首省刷新全国表，其余 `-skip-national`）：
 见 `scripts/reimport-all.sh`（先 seed 本地副本、逐省导入、成功后拷回规范位置，容错并汇总）。
 **刷新站点 JSON**（不 import）：`scripts/refresh-json.sh`（每省 `fenduan→yuanxiao→zhuanye→dingwei`、末尾 `landing`，跳过无一分一段的西藏）。
+### 源文件必须留存·绝不放临时目录
+
+**所有从互联网获取的源数据（官方 PDF / 图片 JPG·PNG / 抓下来的 HTML / xlsx / 招生计划 / 万师兄大数据…，含一分一段），一律永久存到 `~/Downloads/高考志愿/`，绝不放 `/tmp`、scratchpad 等临时目录**——临时目录会被清掉，源文件丢了就得重扒官网、无法复现。源文件不入仓库，只提交 Go 管线生成的 JSON，但源文件本身必须在本机长期留着。
+
+- 新扒的官方原件（尤其图片版 PDF/JPG/PNG 这类要 OCR 的）放该省下 `2026源/`（按年份）子目录，保留官方原文件名或加「-官方原件」后缀，便于回溯。
+- 管线只认路径含「一分一段表」子串的 `.xlsx`；OCR 重塑出的规范表放 `.../一分一段表/<年>/<省>YYYY年的一分一段表.xlsx`，与 `2026源/` 原件分开存、互不干扰。
 
 ## Agent skills
 

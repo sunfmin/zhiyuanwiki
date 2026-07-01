@@ -104,6 +104,16 @@ func importShanxi(db *store.DB, gefenSrc string, p province) {
 		}
 		allYfd = append(allYfd, y)
 	}
+	// 2026 起：一分一段由官方图片版表 OCR 重塑成万师兄格式（科类列 · 物理/历史同表），走通用
+	// group3p12 解析（自带 2026 年份），与 2025 老单科类文件并存入库。见 CLAUDE.md 下载数据约定。
+	for _, yf := range findFiles(root, []string{"一分一段表", "2026"}, []string{"艺术", "艺考"}) {
+		yds, err := group3p12.ParseYiFenYiDuan(yf, p.name, 2026)
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "⚠ 一分一段(2026) %s 解析失败：%v\n", filepath.Base(yf), err)
+			continue
+		}
+		allYfd = append(allYfd, yds...)
+	}
 	if err := db.ReplaceYiFenYiDuan(p.slug, allYfd); err != nil {
 		fatal(err)
 	}
