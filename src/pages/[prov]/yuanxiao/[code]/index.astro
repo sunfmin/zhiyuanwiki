@@ -83,12 +83,25 @@ const tierSeals = [
   idx?.is211 && { label: "211", kind: "211" },
   idx?.isShuangYiLiu && { label: "双一流", kind: "syl" },
 ].filter(Boolean) as { label: string; kind: string }[];
+
+// 页面主实体是该院校 → CollegeOrUniversity。工程标签（985/211/双一流）作 award。
+const pageUrl = new URL(`/${prov}/yuanxiao/${school.code}/`, Astro.site).href;
+const pageDesc = `${school.name}在${cfg.name}的 2026 招生与历年专业录取位次（2022–2025）。`;
+const schoolLd = {
+  "@context": "https://schema.org",
+  "@type": "CollegeOrUniversity",
+  name: school.name,
+  url: pageUrl,
+  description: pageDesc,
+  ...(tierSeals.length ? { award: tierSeals.map((t) => t.label) } : {}),
+};
 ---
 
 <Base
   prov={prov}
   title={`${school.name} · 院校 · 高考志愿数据 Wiki`}
-  description={`${school.name}在${cfg.name}的 2026 招生与历年专业录取位次（2022–2025）。`}
+  description={pageDesc}
+  jsonLd={schoolLd}
 >
   <div class="yx-page">
     <div class="yx-wrap">

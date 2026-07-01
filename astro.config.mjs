@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from "astro/config";
 import preact from "@astrojs/preact";
+import sitemap from "@astrojs/sitemap";
 import tailwindcss from "@tailwindcss/vite";
 import { realpathSync } from "node:fs";
 import { searchForWorkspaceRoot } from "vite";
@@ -30,7 +31,17 @@ const nodeModulesReal = (() => {
 export default defineConfig({
   site: "https://zhiyuanwiki.com",
   trailingSlash: "always",
-  integrations: [preact()],
+  integrations: [
+    preact(),
+    // sitemap 自动枚举全部构建页、按 trailingSlash 生成带尾斜杠 URL，超 45000 自动分片
+    //（sitemap-index.xml + sitemap-0.xml…）。robots.txt 指向 sitemap-index.xml。
+    sitemap({
+      // 指南文章 /[prov]/guide/[slug]/ 跨 30 省内容完全相同，canonical 已收敛到 hlj 一份；
+      // sitemap 只收 hlj 那份，避免把重复 URL 喂给搜索引擎。指南「索引」页(/[prov]/guide/)
+      // 因含省份差异（专业平行志愿提示）逐省保留。
+      filter: (url) => !/\/(?!hlj\/)[a-z]+\/guide\/[^/]+\/$/.test(url),
+    }),
+  ],
   vite: {
     plugins: [tailwindcss()],
     ...(nodeModulesReal && {

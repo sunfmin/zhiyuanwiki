@@ -1,7 +1,7 @@
 ---
 import Base from "../../../layouts/Base.astro";
 import { getCollection, render } from "astro:content";
-import { PROVINCE_SLUGS } from "../../../lib/provinces";
+import { PROVINCE_SLUGS, DEFAULT_PROVINCE } from "../../../lib/provinces";
 
 export async function getStaticPaths() {
   const guides = await getCollection("guide");
@@ -12,9 +12,31 @@ export async function getStaticPaths() {
 
 const { prov, g } = Astro.props;
 const { Content } = await render(g);
+
+// 指南文章不含省份差异（纯 Markdown，标题也不带省名）——30 省是同一篇。canonical 一律收敛到
+// DEFAULT_PROVINCE 那份，把重复内容的排名信号合并到单一 URL（sitemap 也只收该份）。
+const canonical = `/${DEFAULT_PROVINCE}/guide/${g.id}/`;
+const canonicalUrl = new URL(canonical, Astro.site).href;
+const articleLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: g.data.title,
+  description: g.data.description,
+  inLanguage: "zh-CN",
+  mainEntityOfPage: canonicalUrl,
+  author: { "@type": "Organization", name: "高考志愿数据 Wiki" },
+  publisher: { "@type": "Organization", name: "高考志愿数据 Wiki" },
+};
 ---
 
-<Base prov={prov} title={`${g.data.title} · 指南 · 高考志愿数据 Wiki`} description={g.data.description}>
+<Base
+  prov={prov}
+  title={`${g.data.title} · 指南 · 高考志愿数据 Wiki`}
+  description={g.data.description}
+  canonical={canonical}
+  ogType="article"
+  jsonLd={articleLd}
+>
   <article class="mx-auto max-w-2xl px-4 py-12">
     <a href={`/${prov}/guide/`} class="text-sm text-slate-500 hover:text-slate-800">← 报志愿指南</a>
     <h1 class="mt-2 text-2xl font-bold">{g.data.title}</h1>

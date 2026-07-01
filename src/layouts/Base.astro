@@ -6,21 +6,80 @@ interface Props {
   prov?: string; // 省份页传入；落地页（省份列表页 /）不传，渲染极简头部
   title?: string;
   description?: string;
+  canonical?: string; // 覆盖 canonical（绝对 URL 或站内路径）；缺省 = 当前页自指
+  ogType?: string; // Open Graph 类型，缺省 website；文章页传 article
+  noindex?: boolean; // 置 true 输出 noindex（如需屏蔽某页收录）
+  jsonLd?: object | object[]; // 页面级结构化数据（院校 / 文章等），与站点级 WebSite 合并输出
 }
+
+const SITE_NAME = "高考志愿数据 Wiki";
 
 const {
   prov,
-  title = "高考志愿数据 Wiki",
+  title = SITE_NAME,
   description = "用历年官方数据帮助高考考生选择院校与专业。",
+  canonical,
+  ogType = "website",
+  noindex = false,
+  jsonLd,
 } = Astro.props;
 
 const cfg = prov ? provinceConfig(prov) : null;
 
-// 顶部导航：位次定位是省份主页（/<prov>/）。当前所在区块高亮。
 // 路径形如 /<prov>/[section]/...；section 为空即定位主页。落地页无 prov → 无省份导航。
 const path = Astro.url.pathname;
 const seg = path.split("/").filter(Boolean); // ["hlj","yuanxiao",...]
 const section = prov ? (seg[1] ?? "") : "";
+
+// ── 规范化 URL / 社交卡片 ──────────────────────────────────────────────
+// 生产站为 R2 + trailingSlash:'always'，canonical 一律带尾斜杠的绝对 URL，收敛重复路径
+//（…/index.html、无尾斜杠目录都 308 回 …/）。canonical 传站内路径时按同规则补全为绝对 URL。
+const SITE = Astro.site ?? new URL("https://zhiyuanwiki.com");
+const canonicalUrl = new URL(canonical ?? Astro.url.pathname, SITE).href;
+const ogImage = new URL("/og.png", SITE).href;
+
+// ── 结构化数据 ────────────────────────────────────────────────────────
+// 站点级 WebSite 每页都发（体量极小、信号一致）；页面级节点由各模板经 jsonLd 传入。
+const websiteLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: SITE_NAME,
+  url: SITE.href,
+  inLanguage: "zh-CN",
+  description: "用历年官方数据帮助高考考生按等效位次选择院校与专业。",
+};
+const pageLd = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
+
+// ── 面包屑（结构化）────────────────────────────────────────────────────
+// 从路径自动生成：首页 › 省 › 板块 › 叶子。叶子名取 title 的首段（"浙江大学 · 院校 · …"→"浙江大学"）。
+const SECTION_LABEL: Record<string, string> = { yuanxiao: "院校", zhuanye: "专业", guide: "指南" };
+const crumbs: { name: string; url: string }[] = [{ name: "首页", url: SITE.href }];
+if (prov && cfg) {
+  crumbs.push({ name: cfg.name, url: new URL(`/${prov}/`, SITE).href });
+  if (section && SECTION_LABEL[section]) {
+    crumbs.push({ name: SECTION_LABEL[section], url: new URL(`/${prov}/${section}/`, SITE).href });
+    // 叶子页（省/板块/条目，3 段）再加一层：条目名取自页面标题首段。
+    if (seg.length >= 3) {
+      crumbs.push({ name: title.split(" · ")[0], url: canonicalUrl });
+    }
+  }
+}
+const breadcrumbLd =
+  crumbs.length > 1
+    ? {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: crumbs.map((c, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: c.name,
+          item: c.url,
+        })),
+      }
+    : null;
+const allLd = [websiteLd, ...(breadcrumbLd ? [breadcrumbLd] : []), ...pageLd];
+
+// 顶部导航：位次定位是省份主页（/<prov>/）。当前所在区块高亮。
 const navLinks = prov
   ? [
       // 只有分数省（西藏）无位次，主页是「分数定位」。
@@ -36,9 +95,32 @@ const navLinks = prov
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content={description} />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+    {noindex && <meta name="robots" content="noindex,follow" />}
+    <meta name="theme-color" content="#0f172a" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    {/* Open Graph（微信 / 微博 / X 分享卡片） */}
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    {/* Twitter Card */}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+
+    {/* 结构化数据：站点级 WebSite + 面包屑 + 页面级节点 */}
+    {allLd.map((obj) => <script type="application/ld+json" set:html={JSON.stringify(obj)} />)}
   </head>
   <body class="min-h-screen flex flex-col bg-slate-50 text-slate-900 antialiased">
     <header class="border-b border-slate-200 bg-white">
