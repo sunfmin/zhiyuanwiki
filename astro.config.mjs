@@ -34,13 +34,35 @@ export default defineConfig({
   integrations: [
     preact(),
     // sitemap 自动枚举全部构建页、按 trailingSlash 生成带尾斜杠 URL，超 45000 自动分片
-    //（sitemap-index.xml + sitemap-0.xml…）。robots.txt 指向 sitemap-index.xml。
+    //（sitemap-index.xml + sitemap-0.xml…）。robots.txt 指向 /sitemap.xml（下方别名整合产出）。
     sitemap({
       // 指南文章 /[prov]/guide/[slug]/ 跨 30 省内容完全相同，canonical 已收敛到 hlj 一份；
       // sitemap 只收 hlj 那份，避免把重复 URL 喂给搜索引擎。指南「索引」页(/[prov]/guide/)
       // 因含省份差异（专业平行志愿提示）逐省保留。
       filter: (url) => !/\/(?!hlj\/)[a-z]+\/guide\/[^/]+\/$/.test(url),
     }),
+    // /sitemap.xml 别名：@astrojs/sitemap 只产 sitemap-index.xml，但多数第三方工具与爬虫直接探
+    // /sitemap.xml（探不到即报「缺 sitemap」）。构建末把索引原样复制一份为 sitemap.xml——内容即真索引
+    // （含全部分片；将来 URL 超 45000 新增 sitemap-1.xml 时该副本一并继承），零手工维护、零漂移。
+    // 必须放在 sitemap() 之后：同名 hook 按整合注册顺序执行，确保其 astro:build:done 已写出索引再复制。
+    {
+      name: "sitemap-xml-alias",
+      hooks: {
+        "astro:build:done": async ({ dir, logger }) => {
+          const { copyFileSync, existsSync } = await import("node:fs");
+          const { fileURLToPath } = await import("node:url");
+          const { join } = await import("node:path");
+          const out = fileURLToPath(dir);
+          const src = join(out, "sitemap-index.xml");
+          if (existsSync(src)) {
+            copyFileSync(src, join(out, "sitemap.xml"));
+            logger.info("已写出 /sitemap.xml（= sitemap-index.xml 副本）");
+          } else {
+            logger.warn("未找到 sitemap-index.xml，跳过 /sitemap.xml 生成");
+          }
+        },
+      },
+    },
   ],
   vite: {
     plugins: [tailwindcss()],

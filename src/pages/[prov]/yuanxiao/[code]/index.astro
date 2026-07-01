@@ -86,7 +86,20 @@ const tierSeals = [
 
 // 页面主实体是该院校 → CollegeOrUniversity。工程标签（985/211/双一流）作 award。
 const pageUrl = new URL(`/${prov}/yuanxiao/${school.code}/`, Astro.site).href;
-const pageDesc = `${school.name}在${cfg.name}的 2026 招生与历年专业录取位次（2022–2025）。`;
+// 标题/描述按当页数据填充：原「校名 · 院校 · 站名」太短（SEO 检测判 title 过短）、描述太空。
+// 标题补省份 + 关键词 + 年份区间（典型落在 40–60 字符）；描述带层次徽标、顶点专业读数与收录规模，都源当页。
+const tiers = tierSeals.map((t) => t.label).join("/");
+const pageTitle = `${school.name}录取分数线与专业位次(2022–2025) · ${cfg.name} · 高考志愿数据 Wiki`;
+const apexPhrase = apex
+  ? `${scoreMode ? "录取分最高" : "最难考"}的专业${apexMajor ? apexMajor.majorName : ""}${scoreMode ? `录取最低分 ${apex.maxScore}` : `录取位次约 ${fmt(apex.minRank)}`}；`
+  : "";
+const coveragePhrase = [
+  unitCount > 0 ? `${unitCount} 个 2026 ${unit}` : "",
+  leaves.length > 0 ? `${leaves.length} 个有往年录取记录的专业` : "",
+]
+  .filter(Boolean)
+  .join("、");
+const pageDesc = `${school.name}${tiers ? `（${tiers}）` : ""}在${cfg.name}的 2026 招生与 2022–2025 历年专业录取数据。${apexPhrase}${coveragePhrase ? `覆盖 ${coveragePhrase}，` : ""}含各专业最低分与最低位次走势，按等效位次给出冲 / 稳 / 保填报参考。`;
 const schoolLd = {
   "@context": "https://schema.org",
   "@type": "CollegeOrUniversity",
@@ -99,7 +112,7 @@ const schoolLd = {
 
 <Base
   prov={prov}
-  title={`${school.name} · 院校 · 高考志愿数据 Wiki`}
+  title={pageTitle}
   description={pageDesc}
   jsonLd={schoolLd}
 >
@@ -291,6 +304,10 @@ const schoolLd = {
             ? `点开专业看历年最低分走势（2022–2025 ${tracksLabel}类；录取分含汉族/少数民族两类线，源未区分）。`
             : `点开专业看历年最低分 / 最低位次走势（2022–2025 ${tracksLabel}类）。`}
         </p>
+        {/* 每页恒有的 H3 分节标题（在 <details> 之外）：交代排序口径 + 专业数，兼顾 SEO 结构与可扫读 */}
+        <h3 class="yx-subhead">
+          {scoreMode ? "按录取分从高到低" : "按录取位次从难到易"} · 共 {leaves.length} 个专业
+        </h3>
         <div class="yx-leaves">
           {
             leaves.map((l) => {
@@ -330,7 +347,7 @@ const schoolLd = {
                       return (
                         <div class="yx-leaf-track">
                           {showTrackHeads && (
-                            <h3 class="yx-h3">
+                            <h4 class="yx-h3">
                               {tr}类
                               <span
                                 class="rank-badge"
@@ -338,7 +355,7 @@ const schoolLd = {
                                 data-score={scoreMode ? latestScore : undefined}
                                 data-track={tr}
                               />
-                            </h3>
+                            </h4>
                           )}
                           <div class="yx-tablewrap">
                             <table class="yx-table">
@@ -674,6 +691,14 @@ const schoolLd = {
   .yx-leaf-body { padding: 0 0 1.25rem 1.1rem; }
   .yx-leaf-track { margin-top: 0.8rem; }
   .yx-h3 { font-size: 0.85rem; font-weight: 600; margin: 0; }
+  /* 分节小标题（如「按录取位次从难到易 · 共 N 个专业」）：H2 与展开列表之间的 H3 分节头 */
+  .yx-subhead {
+    font-family: var(--font-display);
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--ink);
+    margin: 1.1rem 0 0.4rem;
+  }
   .yx-spark { margin-top: 0.5rem; }
 
   /* island 填充：冲/稳/保角标（保留站点既有语义与配色基调，调进墨纸色系） */
