@@ -84,9 +84,14 @@ func TestPipelineParseStoreProject(t *testing.T) {
 	}
 	db.Close()
 
-	// project（真实投影路径，group 模型）
+	// project（真实投影路径，group 模型；DB 注入共享骨架 buildBundle + projectGroups 核心）
 	p := province{slug: "itest", name: "集成测试省", tracks: []string{"物理", "历史"}, model: "group"}
-	b := buildDBBundle(dbPath, p)
+	pdb, err := store.Open(dbPath)
+	if err != nil {
+		t.Fatalf("store.Open (project): %v", err)
+	}
+	defer pdb.Close()
+	b := buildBundle(pdb, p, projectGroups)
 
 	if len(b.schools) != 1 || b.schools[0].Code != "1101" || b.schools[0].Name != "测试大学" {
 		t.Fatalf("院校聚合错误: %+v", b.schools)

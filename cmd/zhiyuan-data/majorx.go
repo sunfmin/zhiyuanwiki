@@ -1,105 +1,29 @@
 package main
 
 import (
-	"fmt"
 	"sort"
-	"strings"
 
 	"github.com/sunfmin/zhiyuanwiki/internal/core"
-	"github.com/sunfmin/zhiyuanwiki/internal/store"
 	"github.com/sunfmin/zhiyuanwiki/internal/zj"
 )
 
-// buildMajorBundle 是「专业平行志愿（无院校专业组）」省份的通用投影（重庆/贵州/辽宁/山东/河北/浙江…）：
-// 录取分数→院校×专业叶子、招生计划(最新年)→院校×专业报考视图（按 (院校,专业,选科,科类) 合并、
-// 按 (院校,专业名,科类) 挂往年位次）、全国院校属性(按校名)→过滤属性。综合(浙江/山东)与双科类(重庆/辽宁)
-// 同走此路：科类逐行带、单科类「综合」是其退化情形。见 ADR-0014 / ADR-0022（浙江归一到此路）。
-func buildMajorBundle(dbPath string, p province) schoolBundle {
-	db, err := store.Open(dbPath)
-	if err != nil {
-		fatal(err)
-	}
-	defer db.Close()
-
-	scores, err := db.LoadScores(p.slug)
-	if err != nil {
-		fatal(err)
-	}
-	if len(scores) == 0 {
-		fatal(fmt.Errorf("DB 无%s分数行——先跑 `zhiyuan-data import -prov %s`", p.name, p.slug))
-	}
-	fmt.Printf("  专业录取分数：%d 行（%s·含位次）\n", len(scores), strings.Join(p.tracks, "/"))
-
-	idx, err := db.SchoolIndex()
-	if err != nil {
-		fatal(err)
-	}
-	menlei, err := db.Menlei()
-	if err != nil {
-		fatal(err)
-	}
-	fmt.Printf("  全国院校属性 %d 所 · 专业→门类 %d 条\n", idx.Len(), menlei.Len())
-
-	totals, err := db.LoadTotals(p.slug)
-	if err != nil {
-		fatal(err)
-	}
-	planAll, err := db.LoadPlan(p.slug)
-	if err != nil {
-		fatal(err)
-	}
-	plan := latestPlanYear(planAll)
-	if planYear(plan) == 0 {
-		if sy := latestScoreYear(scores); sy > 0 {
-			for i := range plan {
-				plan[i].Year = sy
-			}
-		}
-	}
+// projectPlanMajors 是「专业平行志愿（无院校专业组）」省份的通用投影核心（重庆/贵州/辽宁/山东/河北/浙江…）：
+// 招生计划(最新年)→院校×专业报考视图（按 (院校,专业,选科,科类) 合并、按 (院校,专业名,科类) 挂往年位次）。
+// 综合(浙江/山东)与双科类(重庆/辽宁)同走此路：科类逐行带、单科类「综合」是其退化情形。
+// 作为 projectFn 传入共享骨架 buildBundle（见 yuanxiao_db.go）。见 ADR-0014 / ADR-0022（浙江归一到此路）。
+func projectPlanMajors(plan []core.PlanRow, leaves []core.MajorLeaf, r *core.SchoolResolver, totals map[core.YearTrack]int, scores []core.MajorScoreRow, menlei func(string) string) projection {
 	refYear := planYear(plan)
 	if refYear == 0 {
 		refYear = latestScoreYear(scores)
 	}
-
-	// 身份归并覆盖 分数∪计划（同 buildDBBundle，ADR-0021）：院校全集、按校名归并、按渠道拆分。
-	resolver := core.BuildSchoolResolver(append(core.IdentRowsFromScores(scores), core.IdentRowsFromPlan(planAll)...))
-	schools, leaves := core.AggregateLeavesR(scores, resolver)
-	if rn := resolver.Renames(); len(rn) > 0 {
-		fmt.Printf("  改名/转设归并 %d 处（人工可复核）：\n", len(rn))
-		for _, s := range rn {
-			fmt.Printf("    · %s\n", s)
-		}
+	planByEntity := buildPlanMajorsTracked(plan, leaves, r, totals, refYear, menlei)
+	return projection{
+		label: "院校×专业",
+		assign: func(d *schoolDetail, key string) int {
+			d.Plan2026 = planByEntity[key]
+			return len(d.Plan2026)
+		},
 	}
-	planByEntity := buildPlanMajorsTracked(plan, leaves, resolver, totals, refYear, menlei.Code)
-
-	byCode := map[string][]core.MajorLeaf{}
-	for _, lf := range leaves {
-		byCode[leafGroupKey(lf)] = append(byCode[leafGroupKey(lf)], lf)
-	}
-
-	b := schoolBundle{
-		schools: schools, leaves: leaves,
-		details: map[string]schoolDetail{},
-		meta:    map[string]schoolMetaOut{},
-		levels:  map[string][3]bool{},
-	}
-	planCount, matched := 0, 0
-	for _, s := range schools {
-		d := schoolDetail{School: s, Leaves: nonNilLeaves(byCode[schoolKey(s)]), Plan2026: planByEntity[schoolKey(s)]}
-		planCount += len(d.Plan2026)
-		b.details[schoolKey(s)] = d
-		if m, ok := idx.Lookup(s.Name); ok {
-			matched++
-			b.levels[schoolKey(s)] = [3]bool{m.Is985, m.Is211, m.Syl}
-			b.meta[schoolKey(s)] = schoolMetaOut{
-				Province: m.Province, City: m.City, CityTier: core.CityTier(m.City),
-				Owner: m.Ownership, Kind: m.Kind, Levels: levelsOf(m),
-			}
-		}
-	}
-	fmt.Printf("  报考视图：院校×专业 %d 个（计划年 %d）· 院校属性命中 %d/%d\n",
-		planCount, planYear(plan), matched, len(schools))
-	return b
 }
 
 // buildPlanMajorsTracked 把招生计划逐专业聚合成院校报考视图，按 (渠道,专业,选科,科类) 合并计划，
