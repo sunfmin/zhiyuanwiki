@@ -62,7 +62,7 @@ func buildDBBundle(dbPath string, p province) schoolBundle {
 
 	byCode := map[string][]core.MajorLeaf{}
 	for _, lf := range leaves {
-		byCode[lf.SchoolCode] = append(byCode[lf.SchoolCode], lf)
+		byCode[leafGroupKey(lf)] = append(byCode[leafGroupKey(lf)], lf)
 	}
 
 	b := schoolBundle{
@@ -73,13 +73,13 @@ func buildDBBundle(dbPath string, p province) schoolBundle {
 	}
 	groupCount, matched := 0, 0
 	for _, s := range schools {
-		d := schoolDetail{School: s, Leaves: byCode[s.Code], Groups2026: groupsByCode[s.Code]}
+		d := schoolDetail{School: s, Leaves: byCode[schoolKey(s)], Groups2026: groupsByCode[s.Code]}
 		groupCount += len(d.Groups2026)
-		b.details[s.Code] = d
+		b.details[schoolKey(s)] = d
 		if m, ok := idx.Lookup(s.Name); ok {
 			matched++
-			b.levels[s.Code] = [3]bool{m.Is985, m.Is211, m.Syl}
-			b.meta[s.Code] = schoolMetaOut{
+			b.levels[schoolKey(s)] = [3]bool{m.Is985, m.Is211, m.Syl}
+			b.meta[schoolKey(s)] = schoolMetaOut{
 				Province: m.Province, City: m.City, CityTier: core.CityTier(m.City),
 				Owner: m.Ownership, Kind: m.Kind, Levels: levelsOf(m),
 			}
@@ -135,7 +135,7 @@ func buildDBBundleMajor(dbPath string, p province) schoolBundle {
 
 	byCode := map[string][]core.MajorLeaf{}
 	for _, lf := range leaves {
-		byCode[lf.SchoolCode] = append(byCode[lf.SchoolCode], lf)
+		byCode[leafGroupKey(lf)] = append(byCode[leafGroupKey(lf)], lf)
 	}
 
 	b := schoolBundle{
@@ -146,13 +146,13 @@ func buildDBBundleMajor(dbPath string, p province) schoolBundle {
 	}
 	planCount, matched := 0, 0
 	for _, s := range schools {
-		d := schoolDetail{School: s, Leaves: byCode[s.Code], Plan2026: planByCode[s.Code]}
+		d := schoolDetail{School: s, Leaves: byCode[schoolKey(s)], Plan2026: planByCode[s.Code]}
 		planCount += len(d.Plan2026)
-		b.details[s.Code] = d
+		b.details[schoolKey(s)] = d
 		if a, ok := attrs[s.Code]; ok {
 			matched++
-			b.levels[s.Code] = [3]bool{a.Is985, a.Is211, a.Syl}
-			b.meta[s.Code] = schoolMetaOut{
+			b.levels[schoolKey(s)] = [3]bool{a.Is985, a.Is211, a.Syl}
+			b.meta[schoolKey(s)] = schoolMetaOut{
 				Province: a.Province, City: a.City, CityTier: a.CityTier,
 				Owner: a.Ownership, Kind: a.Kind, Levels: a.Levels(),
 			}

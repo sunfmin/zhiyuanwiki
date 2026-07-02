@@ -92,6 +92,14 @@ func rangeForTrack(leaves []core.MajorLeaf, track string) *trackRange {
 	return r
 }
 
+// schoolKey 是院校实体在投影层的**主键**——用作 details/meta/levels map 键、schools.json 索引 Code、
+// 以及每校详情文件名 slug。当前 == 院校代号；ADR-0021 将其改为归一化校名派生（报考实体粒度）。
+// 全站对「院校实体键」的读写收口到此处，便于 #37 单点替换而不散落改 s.Code。
+func schoolKey(s core.School) string { return s.Code }
+
+// leafGroupKey 是把院校×专业叶子归拢到其院校实体的键，须与 schoolKey **同源**。当前 == 叶子院校代号。
+func leafGroupKey(lf core.MajorLeaf) string { return lf.SchoolCode }
+
 // schoolBundle 是某省份院校数据的中间产物，由各省 builder 产出、由 emitSchoolData 落盘。
 type schoolBundle struct {
 	schools []core.School
@@ -105,21 +113,21 @@ type schoolBundle struct {
 func emitSchoolData(p province, b schoolBundle, outDir, pubDir string) {
 	byCode := map[string][]core.MajorLeaf{}
 	for _, lf := range b.leaves {
-		byCode[lf.SchoolCode] = append(byCode[lf.SchoolCode], lf)
+		byCode[leafGroupKey(lf)] = append(byCode[leafGroupKey(lf)], lf)
 	}
 
 	index := make([]schoolIndexEntry, 0, len(b.schools))
 	n985, n211, nSyl := 0, 0, 0
 	for _, s := range b.schools {
-		lvs := byCode[s.Code]
+		lvs := byCode[schoolKey(s)]
 		ranges := map[string]*trackRange{}
 		for _, tr := range p.tracks {
 			if r := rangeForTrack(lvs, tr); r != nil {
 				ranges[tr] = r
 			}
 		}
-		e := schoolIndexEntry{Code: s.Code, Name: s.Name, LeafCount: len(lvs), Ranges: ranges}
-		if lv, ok := b.levels[s.Code]; ok {
+		e := schoolIndexEntry{Code: schoolKey(s), Name: s.Name, LeafCount: len(lvs), Ranges: ranges}
+		if lv, ok := b.levels[schoolKey(s)]; ok {
 			e.Is985, e.Is211, e.IsShuangYiLiu = lv[0], lv[1], lv[2]
 			if lv[0] {
 				n985++
@@ -150,8 +158,8 @@ func emitSchoolData(p province, b schoolBundle, outDir, pubDir string) {
 		fatal(err)
 	}
 	for _, s := range b.schools {
-		d := b.details[s.Code]
-		writeJSON(filepath.Join(detailDir, s.Code+".json"), d)
+		d := b.details[schoolKey(s)]
+		writeJSON(filepath.Join(detailDir, schoolKey(s)+".json"), d)
 	}
 	fmt.Printf("✓ %s · 院校 %d 所 · 院校×专业叶子 %d 个 → %s\n",
 		p.name, len(b.schools), len(b.leaves), outDir)
