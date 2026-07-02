@@ -35,35 +35,49 @@ var firstParenRe = regexp.MustCompile(`[(（].*$`)
 // firstParenContentRe 取首个「无嵌套」括号内的内容（「工科试验班(笃实书院)(包含…)」→「笃实书院」）。
 var firstParenContentRe = regexp.MustCompile(`[(（]([^()（）]*)[)）]`)
 
-// reportNameNoise 是首括号里不作「方向/书院」限定的关键词：专业列表、批次、专项、办学地点等。
-var reportNameNoise = []string{
-	"包含", "含：", "含:", "专项", "中外", "合作", "定向", "民族",
-	"办学", "地点", "就读", "学费", "招生", "计划", "其中", "主要", "等专业",
-}
+// batchMarkerPrefix 是首括号「本身即批次/招生类型标记」（不是方向/班名）的前缀——这类不作显示限定，
+// 因为组已表达该维度。窄前缀匹配，避免误伤「拔尖计划科技英才班」这类正当班名（含「计划」二字）。
+var batchMarkerPrefix = []string{"包含", "含：", "含:", "国家专项", "高校专项", "地方专项", "中外", "合作办学", "定向", "民族班"}
 
-// MajorReportName 报考视图的专业显示名：归一化专业名 + full_name 首个「有意义」括号（书院/方向名），
-// 使同一院校专业组内按方向拆分、裸名相同的行（如清华「工科试验班」按 9 个书院拆）在页面上可区分。
-// 只补「短且非（专业列表/批次/专项/办学地点…）」的限定；否则回退裸名。往年位次挂接仍按裸名（MajorKey
-// 不变），故只影响显示、不影响历史挂接与定位去重。
-func MajorReportName(major, fullName string) string {
-	base := NormalizeMajorName(major)
+// DirectionQualifier 取 full_name 首个括号里的「书院/方向/班名」限定（工科试验班(笃实书院)→笃实书院）；
+// 首括号本身是批次/包含-列表标记时返回空。用于组内同名碰撞时的第一级消歧。裸名唯一的专业不追加。
+func DirectionQualifier(fullName string) string {
 	m := firstParenContentRe.FindStringSubmatch(fullName)
 	if m == nil {
-		return base
+		return ""
 	}
 	q := strings.TrimSpace(m[1])
-	if q == "" || strings.Contains(base, q) {
-		return base
-	}
-	for _, kw := range reportNameNoise {
-		if strings.Contains(q, kw) {
-			return base
+	for _, p := range batchMarkerPrefix {
+		if strings.HasPrefix(q, p) {
+			return ""
 		}
 	}
-	if len([]rune(q)) > 12 { // 过长多半是「专业列表」而非方向名
-		return base
+	return q
+}
+
+// containHead 取 full_name 里「包含：」之后的第一个专业名（到第一个顿号/括号/空格止），
+// 用于给「首括号相同、包含专业不同」的同组行做二次消歧（中科大拔尖计划：数学类 vs 化学类）。
+func containHead(fullName string) string {
+	i := strings.Index(fullName, "包含")
+	if i < 0 {
+		return ""
 	}
-	return base + "(" + q + ")"
+	s := strings.TrimLeft(fullName[i+len("包含"):], "：: 　")
+	if j := strings.IndexAny(s, "、，,（(）) 　"); j > 0 {
+		s = s[:j]
+	}
+	return strings.TrimSpace(s)
+}
+
+// augmentReportName 把消歧提示 h 追加进显示名：末尾是「)」则插到括号内（工科试验班(A·h)），否则整体加括号。
+func augmentReportName(name, h string) string {
+	if h == "" || strings.Contains(name, h) {
+		return name
+	}
+	if strings.HasSuffix(name, ")") {
+		return name[:len(name)-1] + "·" + h + ")"
+	}
+	return name + "(" + h + ")"
 }
 
 // MajorBase 归一化专业名并切到首个括号前，作为跨表挂接的稳定基名。

@@ -35,6 +35,8 @@ type GroupMajor struct {
 	PrevYear  int    `json:"prevYear,omitempty"`  // 挂接到的最近年份
 	PrevRank  int    `json:"prevRank,omitempty"`  // 该年最低位次
 	EquivRank int    `json:"equivRank,omitempty"` // 等效到 planYear
+
+	fn string // 内部：原始 full_name，供组内同名碰撞消歧（追加包含专业提示），不序列化
 }
 
 // Group2026 是一个院校专业组的单年报考视图。
@@ -44,6 +46,36 @@ type Group2026 struct {
 	Track     string       `json:"track"`
 	SelKe     string       `json:"selKe"` // 组内统一选科要求（不统一则为空）
 	Majors    []GroupMajor `json:"majors"`
+}
+
+// disambiguateGroupMajors 就地消解同组内的显示名碰撞——只对真碰撞生效，裸名唯一的专业不动：
+//  一级：同名行各自追加「书院/方向/班名」（清华 9 书院、中科大各英才班）；
+//  二级：追加后仍同名的（同班名、仅包含专业不同，如中科大两个拔尖计划科技英才班）再追加「包含」首专业
+//        → 理科试验班类(拔尖计划科技英才班·数学类) / (…·化学类)。
+func disambiguateGroupMajors(majors []GroupMajor) {
+	collisions := func() [][]int {
+		byName := map[string][]int{}
+		for i := range majors {
+			byName[majors[i].MajorName] = append(byName[majors[i].MajorName], i)
+		}
+		var out [][]int
+		for _, idxs := range byName {
+			if len(idxs) > 1 {
+				out = append(out, idxs)
+			}
+		}
+		return out
+	}
+	for _, idxs := range collisions() { // 一级：书院/方向/班名
+		for _, i := range idxs {
+			majors[i].MajorName = augmentReportName(majors[i].MajorName, DirectionQualifier(majors[i].fn))
+		}
+	}
+	for _, idxs := range collisions() { // 二级：包含首专业
+		for _, i := range idxs {
+			majors[i].MajorName = augmentReportName(majors[i].MajorName, containHead(majors[i].fn))
+		}
+	}
 }
 
 // leafLatest 返回叶子最近年份的数据点。
@@ -115,12 +147,13 @@ func BuildGroups2026R(plan []PlanRow, leaves []MajorLeaf, r *SchoolResolver, tot
 			g.SelKe = "" // 组内选科不统一
 		}
 		gm := GroupMajor{
-			MajorName: MajorReportName(row.MajorName, row.FullName),
+			MajorName: NormalizeMajorName(row.MajorName),
 			MajorKey:  MajorKey(row.MajorName),
 			SelKe:     row.SelKe,
 			Plan:      row.Plan,
 			Tuition:   row.Tuition,
 			Coop:      IsCoop(row.MajorName, row.FullName, row.Remark),
+			fn:        row.FullName,
 		}
 		if menlei != nil {
 			gm.Menlei = menlei(row.MajorName)
@@ -134,6 +167,12 @@ func BuildGroups2026R(plan []PlanRow, leaves []MajorLeaf, r *SchoolResolver, tot
 			}
 		}
 		g.Majors = append(g.Majors, gm)
+	}
+
+	// 组内同名碰撞消歧：首括号相同、仅「包含专业」不同的行（中科大「拔尖计划科技英才班」数理 vs 化生地），
+	// 追加包含专业提示使其可区分。
+	for _, g := range groups {
+		disambiguateGroupMajors(g.Majors)
 	}
 
 	out := map[string][]Group2026{}

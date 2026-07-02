@@ -2,21 +2,51 @@ package core
 
 import "testing"
 
-// TestMajorReportName：报考视图显示名补「书院/方向」限定以区分同组同名拆分行（清华工科试验班），
-// 但不补「专业列表/批次/专项/办学地点」这类噪声、也不补过长限定。
-func TestMajorReportName(t *testing.T) {
-	cases := []struct{ major, full, want string }{
-		{"工科试验班", "工科试验班(笃实书院)(包含：交叉工程 等专业)", "工科试验班(笃实书院)"},
-		{"工科试验班", "工科试验班(智能制造与装备类)(包含：机械工程 专业)", "工科试验班(智能制造与装备类)"},
-		{"工科试验班", "工科试验班(无穹书院)(国家专项计划。包含：人工智能)", "工科试验班(无穹书院)"},
-		{"计算机类", "计算机类", "计算机类"},                                // 无括号 → 裸名
-		{"数学类", "数学类(数学与应用数学、统计学、信息与计算科学、数据科学)", "数学类"}, // 过长专业列表 → 裸名
-		{"临床医学", "临床医学(国家专项计划)", "临床医学"},                       // 批次噪声 → 裸名
-		{"软件工程", "软件工程(中外合作办学)", "软件工程"},                       // 中外噪声 → 裸名
+// TestDirectionQualifier / containHead：显示名消歧的两级取词。
+func TestDirectionQualifier(t *testing.T) {
+	dq := []struct{ full, want string }{
+		{"工科试验班(笃实书院)(包含：交叉工程 等专业)", "笃实书院"},
+		{"理科试验班类(拔尖计划科技英才班)(包含：数学类)", "拔尖计划科技英才班"},   // 含「计划」二字也保留
+		{"经济管理试验班(国家专项计划。包含：管理科学)", ""},              // 批次标记 → 空
+		{"软件工程(中外合作办学)", ""},                            // 中外 → 空
+		{"计算机类", ""},                                     // 无括号 → 空
 	}
-	for _, c := range cases {
-		if got := MajorReportName(c.major, c.full); got != c.want {
-			t.Errorf("MajorReportName(%q,%q)=%q, want %q", c.major, c.full, got, c.want)
+	for _, c := range dq {
+		if got := DirectionQualifier(c.full); got != c.want {
+			t.Errorf("DirectionQualifier(%q)=%q, want %q", c.full, got, c.want)
+		}
+	}
+	if got := containHead("理科试验班类(拔尖计划科技英才班)(包含：数学类(华罗庚班)、物理学类)"); got != "数学类" {
+		t.Errorf("containHead=%q, want 数学类", got)
+	}
+}
+
+// TestGroupDisambiguation：同组内裸名相同的拆分行，一级补书院/班名、二级补包含首专业，最终全唯一。
+func TestGroupDisambiguation(t *testing.T) {
+	ent := NormName("中国科学技术大学")
+	plan := []PlanRow{
+		{Year: 2026, Track: "物理", SchoolCode: "1", SchoolName: "中国科学技术大学", GroupCode: "001",
+			MajorName: "理科试验班类", FullName: "理科试验班类(拔尖计划科技英才班)(包含：数学类、物理学类 专业)", SelKe: "化学"},
+		{Year: 2026, Track: "物理", SchoolCode: "1", SchoolName: "中国科学技术大学", GroupCode: "001",
+			MajorName: "理科试验班类", FullName: "理科试验班类(拔尖计划科技英才班)(包含：化学类、生物科学类 专业)", SelKe: "化学"},
+		{Year: 2026, Track: "物理", SchoolCode: "1", SchoolName: "中国科学技术大学", GroupCode: "001",
+			MajorName: "理科试验班类", FullName: "理科试验班类(量子未来技术试点班)(包含：量子信息科学 专业)", SelKe: "化学"},
+	}
+	got := BuildGroups2026(plan, nil, nil, nil)[ent]
+	if len(got) != 1 {
+		t.Fatalf("应为 1 个组，got %d", len(got))
+	}
+	names := map[string]bool{}
+	for _, m := range got[0].Majors {
+		names[m.MajorName] = true
+	}
+	for _, want := range []string{
+		"理科试验班类(拔尖计划科技英才班·数学类)",
+		"理科试验班类(拔尖计划科技英才班·化学类)",
+		"理科试验班类(量子未来技术试点班)",
+	} {
+		if !names[want] {
+			t.Errorf("缺唯一显示名 %q；实得 %v", want, names)
 		}
 	}
 }
