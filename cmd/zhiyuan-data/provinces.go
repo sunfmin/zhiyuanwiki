@@ -66,12 +66,14 @@ var provinces = map[string]province{
 	"qh": {slug: "qh", name: "青海", tracks: []string{"物理", "历史"}, model: "major"},
 	// 天津：综合+院校专业组（group），计划表院校代码由专业组代码剥后缀得，自定义 tj.ParsePlan。
 	"tj": {slug: "tj", name: "天津", tracks: []string{"综合"}, model: "group"},
-	// 新疆：老高考（老文理 理科/文科，专业平行志愿，无院校专业组）→ major 模型。专属 internal/xj 解析
-	// （keep={理科,文科}，不并入 group3p12 默认 keep）。前端走 subjectMode="wenli"（无选科）。见 issue #27。
+	// 新疆：老高考（老文理 理科/文科，专业平行志愿，无院校专业组）→ major 模型。解析复用 group3p12.*With
+	// 透传 keep=laowenli（{理科,文科}，不并入 group3p12 默认 keep），差异全由 provParser 表达，无专属包。
+	// 前端走 subjectMode="wenli"（无选科）。见 issue #27、ADR-0013/0022。
 	"xj": {slug: "xj", name: "新疆", tracks: []string{"理科", "文科"}, model: "major"},
-	// 西藏：老高考（理科/文科，专业平行志愿）→ major 模型，专属 internal/xz 解析。与新疆唯一差别——
-	// **西藏无最低位次、无一分一段（考试院不发布）**，故走「只有分数」口径：投影/定位按 PrevScore 而非
-	// 位次（PrevRank 恒 0），前端 locatorBasis="score"。源未区分 A 类(少数民族)/B 类(汉族)线。见 ADR-0014、issue #26。
+	// 西藏：老高考（理科/文科，专业平行志愿）→ major 模型，解析复用 group3p12（keep=laowenli）。与新疆唯一
+	// 差别——**西藏无最低位次、无一分一段（考试院不发布）**，故分数走 ParseScoresScoreOnly、YFD 留 nil：
+	// 投影/定位按 PrevScore 而非位次（PrevRank 恒 0），前端 locatorBasis="score"。源未区分 A 类(少数民族)/
+	// B 类(汉族)线。见 ADR-0014、issue #26。
 	"xz": {slug: "xz", name: "西藏", tracks: []string{"理科", "文科"}, model: "major"},
 }
 

@@ -15,8 +15,6 @@ import (
 	"github.com/sunfmin/zhiyuanwiki/internal/hlj"
 	"github.com/sunfmin/zhiyuanwiki/internal/store"
 	"github.com/sunfmin/zhiyuanwiki/internal/tj"
-	"github.com/sunfmin/zhiyuanwiki/internal/xj"
-	"github.com/sunfmin/zhiyuanwiki/internal/xz"
 	"github.com/sunfmin/zhiyuanwiki/internal/zj"
 )
 
@@ -63,9 +61,15 @@ var provDirName = map[string]string{
 	"shanxi": "山西",  // slug 用 shanxi 避免与陕西 sx 冲突；源异构走 importShanxi
 }
 
-// provParser 是某省入库所需的三个解析函数（签名一致，实现在 internal/<省>）。这张表是
-// 「构建期 staging 管线」省份的注册处：在表中 = 走 import→DB→投影，fenduan/yuanxiao 据此分流。
-// 逐行解析仍各在各省的包（ADR-0013 有意为之），这里只是选包派发，不是共用解析配置。
+// laowenli 是老文理省（新疆/西藏，理科/文科口径）放行的科类。老文理与艺术/体育/新高考科类不在内，
+// 会被过滤掉；不并入 group3p12 的默认 keep，否则会污染重庆/贵州等省的老文理历史行。新疆/西藏的差异
+// 仅在「科类 keep + 分数是否要位次 + 有无一分一段」三点，全部由 provParser 字段表达，不再有专属编译期
+// 包（原 internal/xj、internal/xz 已随此收敛删除，见 ADR-0013 缝在 sheet、ADR-0022 同型收敛）。
+var laowenli = map[string]bool{"理科": true, "文科": true}
+
+// provParser 是某省入库所需的三个解析函数（签名一致）。这张表是「构建期 staging 管线」省份的注册处：
+// 在表中 = 走 import→DB→投影，fenduan/yuanxiao 据此分流。多数省直接引用 group3p12 的解析函数；
+// 少数省（新疆/西藏的老文理 keep、上海的均分口径等）用闭包透传参数表达差异，仍复用 group3p12 逐行解析。
 type provParser struct {
 	Scores func(path string) ([]core.MajorScoreRow, error)
 	Plan   func(path string) ([]core.PlanRow, error)
@@ -143,14 +147,25 @@ var provParsers = map[string]provParser{
 	// 天津：综合+院校专业组（group），但计划表无院校代码（由专业组代码剥后缀得）+ 无科类列，自定义 tj.ParsePlan。
 	"tj": {Scores: group3p12.ParseScores, Plan: tj.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
 		ScoreMust: []string{"25年全国高校在天津的专业录取分数"}, PlanMust: []string{"天津-2025年-招生计划"}},
-	// 新疆：老文理（理科/文科）专属 xj 解析（keep={理科,文科}，yfd 无批次列）。ScoreMust 精确指向
-	// 「专业录取分数」以避开同目录的「院校录取分数」合表。计划/一分一段走默认子串。
-	"xj": {Scores: xj.ParseScores, Plan: xj.ParsePlan, YFD: xj.ParseYiFenYiDuan,
+	// 新疆：老文理（理科/文科）省，keep=laowenli 透传进 group3p12.*With（源表与新高考 group 省同形，
+	// 唯一差别是科类口径；yfd 源无「批次」列，group3p12 无批次列时自动跳过批次过滤）。所属专业组列全空
+	// → build 走 major 模型。ScoreMust 精确指向「专业录取分数」以避开同目录的「院校录取分数」合表；
+	// 计划/一分一段走默认子串。
+	"xj": {
+		Scores: func(path string) ([]core.MajorScoreRow, error) { return group3p12.ParseScoresWith(path, laowenli) },
+		Plan:   func(path string) ([]core.PlanRow, error) { return group3p12.ParsePlanWith(path, laowenli) },
+		YFD: func(path, province string, year int) ([]*core.YiFenYiDuan, error) {
+			return group3p12.ParseYiFenYiDuanWith(path, province, year, laowenli)
+		},
 		ScoreMust: []string{"22-25年全国高校在新疆的专业录取分数"}},
-	// 西藏：老文理「只有分数」省（无位次/无一分一段，专属 xz 解析）。YFD 留空——源无一分一段，
-	// importProvince 的「一分一段表」glob 命中不到任何文件，循环不执行、不会调用 nil。Score/Plan
-	// 精确指向 22-25 合表，避开历史数据目录下的「西藏_专业分数线/西藏_招生计划_YYYY」分年小文件。
-	"xz": {Scores: xz.ParseScores, Plan: xz.ParsePlan,
+	// 西藏：老文理「只有分数」省——西藏考试院不发布一分一段、录取数据也无最低位次，故分数走
+	// group3p12.ParseScoresScoreOnly（不丢无位次行、MinRank=0、以最低分数为门槛），下游 majorx/dingwei
+	// 据 PrevRank==0 && PrevScore>0 切到分数域。YFD 留 nil——源无一分一段，importProvince 的「一分一段表」
+	// glob 命中不到任何文件，循环不执行、不会调用 nil。Score/Plan 精确指向 22-25 合表，避开历史数据目录下
+	// 的「西藏_专业分数线/西藏_招生计划_YYYY」分年小文件。
+	"xz": {
+		Scores:    func(path string) ([]core.MajorScoreRow, error) { return group3p12.ParseScoresScoreOnly(path, laowenli) },
+		Plan:      func(path string) ([]core.PlanRow, error) { return group3p12.ParsePlanWith(path, laowenli) },
 		ScoreMust: []string{"22-25年全国高校在西藏的专业录取分数"}, PlanMust: []string{"22-25年全国高校在西藏的招生计划"}},
 	"hb": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
 		PlanMust: []string{"25年全国高校在湖北省的招生计划"}},

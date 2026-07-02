@@ -17,7 +17,7 @@ import (
 )
 
 // keep 收口本站新高考省的默认科类：3+1+2 省的 物理/历史，以及 3+3「综合+院校专业组」省（北京/上海/
-// 海南）的 综合。理科/文科（老文理）与艺术/体育不在内，会被过滤掉。老文理省（新疆，internal/xj）
+// 海南）的 综合。理科/文科（老文理）与艺术/体育不在内，会被过滤掉。老文理省（新疆/西藏）
 // 走 *With 变体传 {理科,文科}——不并入此默认集，否则会把重庆/贵州等省 22-24 年的老文理历史行
 // 一并吸入（那些 major 省正靠默认 keep 过滤掉改革前年份）。见 issue #27、ADR-0014。
 var keep = map[string]bool{"物理": true, "历史": true, "综合": true}
@@ -63,7 +63,7 @@ func ParseScores(path string) ([]core.MajorScoreRow, error) {
 	return ParseScoresWith(path, keep)
 }
 
-// ParseScoresWith 同 ParseScores，但用调用方给定的 keep 科类集合（老文理省 internal/xj 传 {理科,文科}）。
+// ParseScoresWith 同 ParseScores，但用调用方给定的 keep 科类集合（老文理省 新疆/西藏 传 {理科,文科}）。
 func ParseScoresWith(path string, keep map[string]bool) ([]core.MajorScoreRow, error) {
 	s, err := core.OpenSheet(path, scoreHeader)
 	if err != nil {
@@ -162,7 +162,7 @@ func ParsePlan(path string) ([]core.PlanRow, error) {
 	return ParsePlanWith(path, keep)
 }
 
-// ParsePlanWith 同 ParsePlan，但用调用方给定的 keep 科类集合（老文理省 internal/xj 传 {理科,文科}）。
+// ParsePlanWith 同 ParsePlan，但用调用方给定的 keep 科类集合（老文理省 新疆/西藏 传 {理科,文科}）。
 func ParsePlanWith(path string, keep map[string]bool) ([]core.PlanRow, error) {
 	s, err := core.OpenSheet(path, planHeader)
 	if err != nil {
@@ -239,7 +239,7 @@ func ParseYiFenYiDuan(path, province string, year int) ([]*core.YiFenYiDuan, err
 	return ParseYiFenYiDuanWith(path, province, year, keep)
 }
 
-// ParseYiFenYiDuanWith 同 ParseYiFenYiDuan，但用调用方给定的 keep 科类集合（老文理省 internal/xj
+// ParseYiFenYiDuanWith 同 ParseYiFenYiDuan，但用调用方给定的 keep 科类集合（老文理省 新疆/西藏
 // 传 {理科,文科}）。
 func ParseYiFenYiDuanWith(path, province string, year int, keep map[string]bool) ([]*core.YiFenYiDuan, error) {
 	s, err := core.OpenSheet(path, yfdHeader)
