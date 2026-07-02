@@ -19,7 +19,8 @@ on:
 # 两个理由（都踩过）：(a) 全量重传时一次 sync 长达 15–30 分钟，连续 push 会并发 rclone
 #   同步同一个 R2 桶、互相竞争拖慢；(b) 更危险——`rclone sync` 含删除语义，旧 commit 的
 #   dist 若晚于新 commit 完成，会把新 commit 才加的文件（如站点验证文件）当"多余对象"删掉。
-#   cancel-in-progress 让"最新 push 胜出"；被取消的 sync 只留半同步态，由胜出的那次 sync 收敛。
+#   cancel-in-progress 让"最新 push 胜出"。被取消的部署因走两阶段（先 copy 只增不删、后 sync 才删，
+#   见下方同步步骤）只留「旧对象仍在 + 部分新对象已到」的增量态——在线页面不会 404，由胜出那次跑完两段收敛。
 concurrency:
   group: deploy-r2
   cancel-in-progress: true
@@ -47,7 +48,14 @@ jobs:
       - name: Install rclone
         run: sudo apt-get update && sudo apt-get install -y rclone
 
-      # 同步 dist → R2：sync 语义即「让桶匹配 dist」（含删除多余对象）。
+      # 同步 dist → R2：先 copy（只上传、不删）再 sync（删多余对象）两阶段。
+      # 为什么分两段：cancel-in-progress:true 会让新 push 取消进行中的旧同步。若直接一步
+      # `rclone sync`（含删除语义）被腰斩，就可能停在「新文件还没传、旧文件已被删」的半同步态
+      # → 在线 URL 404（曾发生：专业页哈希→中文名 slug 全量改名那次）。改成：
+      #   ① copy——只增不删，即便本阶段被取消，也只是「旧文件仍在 + 部分新文件已到」的增量态，
+      #      既有在线页面绝不会被删成 404；
+      #   ② sync——copy 跑完后才执行，此时上传已齐，本阶段主要是删除桶里多余的旧对象。
+      # 收敛仍由「最新 push 胜出」那次完整跑完两段保证。
       - name: Sync dist to R2
         env:
           # rclone 经环境变量配 R2（S3 兼容），无需 config 文件。remote 名 = R2。
@@ -68,7 +76,17 @@ jobs:
           #   间歇回 501 NotImplemented；一个 IO error 就让整次 sync 失败并跳过删除。
           #   跳过该 HEAD 即根除。R2 没有版本控制可关，也不会堆积旧版本。（诊断见 git 历史 r2-debug）
           # --retries 兜底残留瞬时错误；Content-Type 由 rclone 按扩展名自动设置。
-          rclone sync dist "R2:${R2_BUCKET}" --checksum --fast-list --s3-no-head --transfers=16 --checkers=32 --retries 5 --stats-one-line
+          #
+          # 进度：--stats 15s 每 15 秒打一段统计，--stats-log-level NOTICE 让它在默认（非 -v）
+          #   下也照打（rclone 统计默认走 INFO，不 -v 就看不到）。--fast-list 先批量列出源与桶，
+          #   故 rclone 知道待传总量 → 每段统计带「已传/总量、百分比、速度、ETA」，Actions 日志里
+          #   一眼看出还剩多少。不用 --stats-one-line：多行块含 Checks/Transferred/Deleted 的
+          #   文件计数与百分比，比单行更清楚。并发从 16/32 提到 64/64，大批量改动明显更快。
+          COMMON="--checksum --fast-list --s3-no-head --transfers=64 --checkers=64 --retries 5 --stats 15s --stats-log-level NOTICE"
+          echo "── 阶段 1/2：copy（只上传新增/变更，不删除）──"
+          rclone copy dist "R2:${R2_BUCKET}" $COMMON
+          echo "── 阶段 2/2：sync（删除桶内多余旧对象，使其精确匹配 dist）──"
+          rclone sync dist "R2:${R2_BUCKET}" $COMMON
 
       # 边缘缓存了 HTML（见仪表盘 Cache Rule），部署后整 zone purge 使其立即刷新。
       - name: Purge Cloudflare cache
