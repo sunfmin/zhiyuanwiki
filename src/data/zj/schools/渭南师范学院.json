@@ -6,8 +6,8 @@
     {
       "schoolKey": "渭南师范学院",
       "schoolCode": "6112",
-      "majorKey": "13d3126a",
-      "majorName": "学前教育（中外合作办学）",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
       "selKe": "不限",
       "years": [
         {
@@ -64,26 +64,17 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 512,
-          "minRank": 159194,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "渭南师范学院",
-      "schoolCode": "6112",
-      "majorKey": "9f802a9c",
-      "majorName": "数学与应用数学（师范）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
           "year": 2024,
           "track": "综合",
           "minScore": 510,
           "minRank": 157372,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 512,
+          "minRank": 159194,
           "maxScore": 0
         }
       ]
@@ -96,26 +87,17 @@
       "selKe": "不限",
       "years": [
         {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 560,
-          "minRank": 100479,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "渭南师范学院",
-      "schoolCode": "6112",
-      "majorKey": "265c6602",
-      "majorName": "日语（师范）",
-      "selKe": "不限",
-      "years": [
-        {
           "year": 2024,
           "track": "综合",
           "minScore": 565,
           "minRank": 93748,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 560,
+          "minRank": 100479,
           "maxScore": 0
         }
       ]
@@ -128,26 +110,17 @@
       "selKe": "不限",
       "years": [
         {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 568,
-          "minRank": 90631,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "渭南师范学院",
-      "schoolCode": "6112",
-      "majorKey": "d7131091",
-      "majorName": "汉语言文学（师范）",
-      "selKe": "不限",
-      "years": [
-        {
           "year": 2024,
           "track": "综合",
           "minScore": 576,
           "minRank": 79999,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 568,
+          "minRank": 90631,
           "maxScore": 0
         }
       ]
@@ -160,6 +133,13 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 526,
+          "minRank": 138702,
+          "maxScore": 0
+        },
+        {
           "year": 2025,
           "track": "综合",
           "minScore": 521,
@@ -167,52 +147,41 @@
           "maxScore": 0
         }
       ]
-    },
-    {
-      "schoolKey": "渭南师范学院",
-      "schoolCode": "6112",
-      "majorKey": "bec128cc",
-      "majorName": "物理学（师范）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 526,
-          "minRank": 138702,
-          "maxScore": 0
-        }
-      ]
     }
   ],
   "plan2026": [
     {
-      "majorName": "汉语言文学（师范）",
-      "majorKey": "d7131091",
+      "majorName": "汉语言文学",
+      "majorKey": "97bc5998",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "5350",
       "schooling": "四年",
       "menlei": "文",
-      "prevYear": 2024,
-      "prevRank": 79999,
-      "equivRank": 82769
+      "prevYear": 2025,
+      "prevRank": 90631,
+      "equivRank": 90631,
+      "prevScore": 568
     },
     {
-      "majorName": "日语（师范）",
-      "majorKey": "265c6602",
+      "majorName": "日语",
+      "majorKey": "8f1def37",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "5000",
       "schooling": "四年",
       "menlei": "文",
-      "prevYear": 2024,
-      "prevRank": 93748,
-      "equivRank": 96994
+      "prevYear": 2025,
+      "prevRank": 100479,
+      "equivRank": 100479,
+      "prevScore": 560
     },
     {
-      "majorName": "学前教育（中外合作办学）",
-      "majorKey": "13d3126a",
+      "majorName": "学前教育",
+      "majorKey": "97716b64",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "39600",
@@ -221,31 +190,36 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 122712,
-      "equivRank": 122712
+      "equivRank": 122712,
+      "prevScore": 542
     },
     {
-      "majorName": "物理学（师范）",
-      "majorKey": "bec128cc",
+      "majorName": "物理学",
+      "majorKey": "653f630d",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5250",
       "schooling": "四年",
       "menlei": "理",
-      "prevYear": 2024,
-      "prevRank": 138702,
-      "equivRank": 143505
+      "prevYear": 2025,
+      "prevRank": 148397,
+      "equivRank": 148397,
+      "prevScore": 521
     },
     {
-      "majorName": "数学与应用数学（师范）",
-      "majorKey": "9f802a9c",
+      "majorName": "数学与应用数学",
+      "majorKey": "618fdffd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5250",
       "schooling": "四年",
       "menlei": "理",
-      "prevYear": 2024,
-      "prevRank": 157372,
-      "equivRank": 162822
+      "prevYear": 2025,
+      "prevRank": 159194,
+      "equivRank": 159194,
+      "prevScore": 512
     }
   ]
 }

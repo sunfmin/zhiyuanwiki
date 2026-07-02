@@ -11,6 +11,13 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 557,
+          "minRank": 98905,
+          "maxScore": 0
+        },
+        {
           "year": 2023,
           "track": "综合",
           "minScore": 584,
@@ -29,43 +36,6 @@
           "track": "综合",
           "minScore": 558,
           "minRank": 102586,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "北京农学院",
-      "schoolCode": "1175",
-      "majorKey": "2719ad83",
-      "majorName": "农业资源与环境（中外合作办学）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 557,
-          "minRank": 98905,
-          "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 553,
-          "minRank": 103094,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 518,
-          "minRank": 148124,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 519,
-          "minRank": 149910,
           "maxScore": 0
         }
       ]
@@ -98,26 +68,17 @@
     {
       "majorName": "农业资源与环境",
       "majorKey": "cd7e1ba1",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "schooling": "四年",
-      "menlei": "农",
-      "prevYear": 2025,
-      "prevRank": 102586,
-      "equivRank": 102586
-    },
-    {
-      "majorName": "农业资源与环境（中外合作办学）",
-      "majorKey": "2719ad83",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
+      "plan": 4,
       "tuition": "36000",
       "schooling": "四年",
       "menlei": "农",
       "coop": true,
       "prevYear": 2025,
-      "prevRank": 149910,
-      "equivRank": 149910
+      "prevRank": 102586,
+      "equivRank": 102586,
+      "prevScore": 558
     }
   ]
 }

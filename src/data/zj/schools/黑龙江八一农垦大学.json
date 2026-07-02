@@ -29,8 +29,8 @@
     {
       "schoolKey": "黑龙江八一农垦大学",
       "schoolCode": "2322",
-      "majorKey": "f7e4d5f6",
-      "majorName": "会计学（创新人才培养班）",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
       "selKe": "不限",
       "years": [
         {
@@ -82,8 +82,8 @@
     {
       "schoolKey": "黑龙江八一农垦大学",
       "schoolCode": "2322",
-      "majorKey": "5681db72",
-      "majorName": "农业机械化及其自动化（创新人才培养班）",
+      "majorKey": "10ff7352",
+      "majorName": "农业机械化及其自动化",
       "selKe": "物/化/生(3选1)",
       "years": [
         {
@@ -98,8 +98,8 @@
     {
       "schoolKey": "黑龙江八一农垦大学",
       "schoolCode": "2322",
-      "majorKey": "f8d844a2",
-      "majorName": "农学（创新人才培养班）",
+      "majorKey": "c10bcf22",
+      "majorName": "农学",
       "selKe": "物/化/生(3选1)",
       "years": [
         {
@@ -163,6 +163,13 @@
           "maxScore": 0
         },
         {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 563,
+          "minRank": 92154,
+          "maxScore": 0
+        },
+        {
           "year": 2024,
           "track": "综合",
           "minScore": 539,
@@ -174,22 +181,6 @@
           "track": "综合",
           "minScore": 534,
           "minRank": 131716,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "黑龙江八一农垦大学",
-      "schoolCode": "2322",
-      "majorKey": "946d8ca9",
-      "majorName": "动物医学（创新人才培养班）",
-      "selKe": "物/化/生(3选1)",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 563,
-          "minRank": 92154,
           "maxScore": 0
         }
       ]
@@ -681,6 +672,22 @@
     {
       "schoolKey": "黑龙江八一农垦大学",
       "schoolCode": "2322",
+      "majorKey": "7b7511cd",
+      "majorName": "食品科学与工程",
+      "selKe": "物/化/生(3选1)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 550,
+          "minRank": 106481,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "黑龙江八一农垦大学",
+      "schoolCode": "2322",
       "majorKey": "6e702db2",
       "majorName": "食品科学与工程类",
       "selKe": "物/化/生(3选1)",
@@ -690,22 +697,6 @@
           "track": "综合",
           "minScore": 553,
           "minRank": 103170,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "黑龙江八一农垦大学",
-      "schoolCode": "2322",
-      "majorKey": "5895be73",
-      "majorName": "食品科学与工程（创新人才培养班）",
-      "selKe": "物/化/生(3选1)",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 550,
-          "minRank": 106481,
           "maxScore": 0
         }
       ]
@@ -745,6 +736,7 @@
     {
       "majorName": "汉语言文学",
       "majorKey": "97bc5998",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "4000",
@@ -752,11 +744,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 86366,
-      "equivRank": 86366
+      "equivRank": 86366,
+      "prevScore": 571
     },
     {
       "majorName": "审计学",
       "majorKey": "87f6e6a2",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "4800",
@@ -764,11 +758,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 92826,
-      "equivRank": 92826
+      "equivRank": 92826,
+      "prevScore": 566
     },
     {
       "majorName": "社会工作",
       "majorKey": "fd907dda",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "3000",
@@ -776,11 +772,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 95431,
-      "equivRank": 95431
+      "equivRank": 95431,
+      "prevScore": 564
     },
     {
       "majorName": "英语",
       "majorKey": "49c5cdf9",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "4800",
@@ -788,11 +786,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 98924,
-      "equivRank": 98924
+      "equivRank": 98924,
+      "prevScore": 561
     },
     {
       "majorName": "园林",
       "majorKey": "c6cedaad",
+      "track": "综合",
       "selKe": "生物必选",
       "plan": 3,
       "tuition": "3600",
@@ -800,11 +800,13 @@
       "menlei": "农",
       "prevYear": 2025,
       "prevRank": 100005,
-      "equivRank": 100005
+      "equivRank": 100005,
+      "prevScore": 560
     },
     {
       "majorName": "市场营销",
       "majorKey": "28c62e21",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "3500",
@@ -812,11 +814,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 102844,
-      "equivRank": 102844
+      "equivRank": 102844,
+      "prevScore": 558
     },
     {
       "majorName": "电气工程及其自动化",
       "majorKey": "45947d31",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4000",
@@ -824,11 +828,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 130581,
-      "equivRank": 130581
+      "equivRank": 130581,
+      "prevScore": 535
     },
     {
       "majorName": "动物医学",
       "majorKey": "b3e5d67f",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "3000",
@@ -836,11 +842,13 @@
       "menlei": "农",
       "prevYear": 2025,
       "prevRank": 131716,
-      "equivRank": 131716
+      "equivRank": 131716,
+      "prevScore": 534
     },
     {
       "majorName": "动物药学",
       "majorKey": "a648c305",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4600",
@@ -848,11 +856,13 @@
       "menlei": "农",
       "prevYear": 2025,
       "prevRank": 135160,
-      "equivRank": 135160
+      "equivRank": 135160,
+      "prevScore": 531
     },
     {
       "majorName": "建筑电气与智能化",
       "majorKey": "3f1c9a86",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5000",
@@ -860,11 +870,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 143517,
-      "equivRank": 143517
+      "equivRank": 143517,
+      "prevScore": 524
     },
     {
       "majorName": "数据科学与大数据技术",
       "majorKey": "bb0a25bd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5000",
@@ -872,11 +884,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 145007,
-      "equivRank": 145007
+      "equivRank": 145007,
+      "prevScore": 523
     },
     {
       "majorName": "风景园林",
       "majorKey": "9b8820c1",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5000",
@@ -884,11 +898,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 147124,
-      "equivRank": 147124
+      "equivRank": 147124,
+      "prevScore": 522
     },
     {
       "majorName": "信息与计算科学",
       "majorKey": "f3fa4b3d",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4500",
@@ -896,11 +912,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 148678,
-      "equivRank": 148678
+      "equivRank": 148678,
+      "prevScore": 520
     },
     {
       "majorName": "水利水电工程",
       "majorKey": "c5a57efa",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4400",
@@ -908,11 +926,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 149317,
-      "equivRank": 149317
+      "equivRank": 149317,
+      "prevScore": 520
     },
     {
       "majorName": "通信工程",
       "majorKey": "1c1ee3f7",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "4000",
@@ -920,11 +940,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 152070,
-      "equivRank": 152070
+      "equivRank": 152070,
+      "prevScore": 517
     },
     {
       "majorName": "工业设计",
       "majorKey": "fee47c1b",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4200",
@@ -932,11 +954,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 153657,
-      "equivRank": 153657
+      "equivRank": 153657,
+      "prevScore": 516
     },
     {
       "majorName": "食品质量与安全",
       "majorKey": "63b95502",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4000",
@@ -944,11 +968,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 154412,
-      "equivRank": 154412
+      "equivRank": 154412,
+      "prevScore": 516
     },
     {
       "majorName": "生物技术",
       "majorKey": "0ac1da59",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "4950",
@@ -956,11 +982,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 162963,
-      "equivRank": 162963
+      "equivRank": 162963,
+      "prevScore": 508
     },
     {
       "majorName": "生物科学",
       "majorKey": "e2472a71",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4500",
@@ -968,11 +996,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 166554,
-      "equivRank": 166554
+      "equivRank": 166554,
+      "prevScore": 505
     },
     {
       "majorName": "制药工程",
       "majorKey": "28bd788f",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4800",
@@ -980,7 +1010,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 167865,
-      "equivRank": 167865
+      "equivRank": 167865,
+      "prevScore": 504
     }
   ]
 }

@@ -28,23 +28,23 @@ test(
     const main = page.locator("main");
     const mainText = await main.innerText();
 
-    // 1) 真实数据流到 UI：专业名 + 开设院校数（来自 major.schools.length）。
+    // 1) 真实数据流到 UI：专业名 + 开设院校数（来自 major.schools.length）。换一致源（ADR-0022）后 14 所。
     expect(mainText).toContain("大气科学");
-    expect(mainText).toMatch(/22\s*所院校/);
+    expect(mainText).toMatch(/14\s*所院校/);
 
     // 2) 首屏「顶点」= 最难考院校（schools[0]）：位次读数（朱红签名量）+ 校名。
     expect(mainText).toContain("最难考的院校");
     expect(mainText).toContain("南京大学"); // 位次 8,445 的最难考院校
-    expect(mainText).toMatch(/录取位次\s*8,445–184,372/);
+    expect(mainText).toMatch(/录取位次\s*8,445–160,802/);
 
-    // 3) 签名排行：22 所院校排成 22 条 .zy-row，各按 #z-<mk> 锚回其院校页历年区。
+    // 3) 签名排行：14 所院校排成 14 条 .zy-row，各按 #z-<mk> 锚回其院校页历年区。
     const rows = main.locator(".zy-row");
-    expect(await rows.count()).toBe(22);
+    expect(await rows.count()).toBe(14);
     // 院校链接段用归一化校名（名字即 slug），且带 #z- 锚点。
     const firstHref = await rows.first().getAttribute("href");
     expect(firstHref).toMatch(/^\/zj\/yuanxiao\/.+\/#z-[0-9a-f]{8}$/);
     // 每条都有对数刻度竞争度条；最难考(首条)满格、最易(末条)近乎空。
-    expect(await main.locator(".zy-bar-fill").count()).toBe(22);
+    expect(await main.locator(".zy-bar-fill").count()).toBe(14);
     const firstBar = await main.locator(".zy-bar-fill").first().evaluate((e) => e.style.width);
     const lastBar = await main.locator(".zy-bar-fill").last().evaluate((e) => e.style.width);
     expect(parseFloat(firstBar)).toBeGreaterThan(parseFloat(lastBar));

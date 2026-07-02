@@ -23,16 +23,7 @@
           "minScore": 516,
           "minRank": 150507,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "安阳师范学院",
-      "schoolCode": "4202",
-      "majorKey": "9768b7a1",
-      "majorName": "人工智能（弦歌大道校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -45,8 +36,8 @@
     {
       "schoolKey": "安阳师范学院",
       "schoolCode": "4202",
-      "majorKey": "0dfc12db",
-      "majorName": "化学（师范）",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -75,24 +66,8 @@
     {
       "schoolKey": "安阳师范学院",
       "schoolCode": "4202",
-      "majorKey": "7b08de6b",
-      "majorName": "历史学类",
-      "selKe": "历史/地理(2选1)",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 575,
-          "minRank": 77421,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "安阳师范学院",
-      "schoolCode": "4202",
-      "majorKey": "4c5c8bc7",
-      "majorName": "历史学（师范）",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
       "selKe": "不限",
       "years": [
         {
@@ -121,8 +96,24 @@
     {
       "schoolKey": "安阳师范学院",
       "schoolCode": "4202",
-      "majorKey": "34d315ca",
-      "majorName": "审计学（弦歌大道校区）",
+      "majorKey": "7b08de6b",
+      "majorName": "历史学类",
+      "selKe": "历史/地理(2选1)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 575,
+          "minRank": 77421,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安阳师范学院",
+      "schoolCode": "4202",
+      "majorKey": "87f6e6a2",
+      "majorName": "审计学",
       "selKe": "不限",
       "years": [
         {
@@ -137,8 +128,8 @@
     {
       "schoolKey": "安阳师范学院",
       "schoolCode": "4202",
-      "majorKey": "9f802a9c",
-      "majorName": "数学与应用数学（师范）",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
       "selKe": "物理必选",
       "years": [
         {
@@ -160,8 +151,8 @@
     {
       "schoolKey": "安阳师范学院",
       "schoolCode": "4202",
-      "majorKey": "d7131091",
-      "majorName": "汉语言文学（师范）",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
       "selKe": "不限",
       "years": [
         {
@@ -221,16 +212,7 @@
           "minScore": 583,
           "minRank": 72609,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "安阳师范学院",
-      "schoolCode": "4202",
-      "majorKey": "9d64a8b7",
-      "majorName": "法学（弦歌大道校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -243,8 +225,8 @@
     {
       "schoolKey": "安阳师范学院",
       "schoolCode": "4202",
-      "majorKey": "bec128cc",
-      "majorName": "物理学（师范）",
+      "majorKey": "653f630d",
+      "majorName": "物理学",
       "selKe": "物理必选",
       "years": [
         {
@@ -276,16 +258,7 @@
           "minScore": 507,
           "minRank": 160431,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "安阳师范学院",
-      "schoolCode": "4202",
-      "majorKey": "c57430da",
-      "majorName": "电子信息工程（弦歌大道校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -339,7 +312,7 @@
       "schoolCode": "4202",
       "majorKey": "1d486608",
       "majorName": "计算机科学与技术",
-      "selKe": "物理必选",
+      "selKe": "物理、化学(2科必选)",
       "years": [
         {
           "year": 2022,
@@ -347,16 +320,7 @@
           "minScore": 552,
           "minRank": 104748,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "安阳师范学院",
-      "schoolCode": "4202",
-      "majorKey": "882ec7e1",
-      "majorName": "计算机科学与技术（师范）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -369,8 +333,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "汉语言文学（师范）",
-      "majorKey": "d7131091",
+      "majorName": "汉语言文学",
+      "majorKey": "97bc5998",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "4800",
@@ -378,11 +343,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 80242,
-      "equivRank": 80242
+      "equivRank": 80242,
+      "prevScore": 576
     },
     {
-      "majorName": "历史学（师范）",
-      "majorKey": "4c5c8bc7",
+      "majorName": "历史学",
+      "majorKey": "c9800f2a",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "4400",
@@ -390,11 +357,13 @@
       "menlei": "史",
       "prevYear": 2025,
       "prevRank": 84143,
-      "equivRank": 84143
+      "equivRank": 84143,
+      "prevScore": 573
     },
     {
-      "majorName": "法学（弦歌大道校区）",
-      "majorKey": "9d64a8b7",
+      "majorName": "法学",
+      "majorKey": "a1113a1f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "4400",
@@ -402,11 +371,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 84476,
-      "equivRank": 84476
+      "equivRank": 84476,
+      "prevScore": 573
     },
     {
-      "majorName": "审计学（弦歌大道校区）",
-      "majorKey": "34d315ca",
+      "majorName": "审计学",
+      "majorKey": "87f6e6a2",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "4400",
@@ -414,11 +385,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 93124,
-      "equivRank": 93124
+      "equivRank": 93124,
+      "prevScore": 565
     },
     {
-      "majorName": "人工智能（弦歌大道校区）",
-      "majorKey": "9768b7a1",
+      "majorName": "人工智能",
+      "majorKey": "2fec4169",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "5000",
@@ -426,11 +399,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 149656,
-      "equivRank": 149656
+      "equivRank": 149656,
+      "prevScore": 519
     },
     {
-      "majorName": "电子信息工程（弦歌大道校区）",
-      "majorKey": "c57430da",
+      "majorName": "电子信息工程",
+      "majorKey": "fd603692",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "5000",
@@ -438,11 +413,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 151067,
-      "equivRank": 151067
+      "equivRank": 151067,
+      "prevScore": 518
     },
     {
-      "majorName": "计算机科学与技术（师范）",
-      "majorKey": "882ec7e1",
+      "majorName": "计算机科学与技术",
+      "majorKey": "1d486608",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 6,
       "tuition": "5500",
@@ -450,7 +427,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 154940,
-      "equivRank": 154940
+      "equivRank": 154940,
+      "prevScore": 515
     }
   ]
 }

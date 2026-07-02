@@ -75,29 +75,6 @@
     {
       "schoolKey": "泉州信息工程学院",
       "schoolCode": "3538",
-      "majorKey": "9de241c7",
-      "majorName": "国际商务（中美人才合作项目）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 522,
-          "minRank": 143966,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 525,
-          "minRank": 143230,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "泉州信息工程学院",
-      "schoolCode": "3538",
       "majorKey": "f8a1727e",
       "majorName": "国际经济与贸易",
       "selKe": "不限",
@@ -609,31 +586,8 @@
     {
       "schoolKey": "泉州信息工程学院",
       "schoolCode": "3538",
-      "majorKey": "609afdaa",
-      "majorName": "财务管理（中美人才合作项目）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 529,
-          "minRank": 135063,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 526,
-          "minRank": 142162,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "泉州信息工程学院",
-      "schoolCode": "3538",
-      "majorKey": "979f7c1f",
-      "majorName": "软件工程（中外合作办学）",
+      "majorKey": "0c33cbdd",
+      "majorName": "软件工程",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -761,6 +715,7 @@
     {
       "majorName": "审计学",
       "majorKey": "87f6e6a2",
+      "track": "综合",
       "selKe": "不限",
       "plan": 16,
       "tuition": "25800",
@@ -768,23 +723,27 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 121714,
-      "equivRank": 121714
+      "equivRank": 121714,
+      "prevScore": 542
     },
     {
       "majorName": "财务管理",
       "majorKey": "8220c852",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 16,
+      "plan": 24,
       "tuition": "25800",
       "schooling": "四年",
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 123458,
-      "equivRank": 123458
+      "equivRank": 123458,
+      "prevScore": 541
     },
     {
       "majorName": "国际经济与贸易",
       "majorKey": "f8a1727e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 15,
       "tuition": "25800",
@@ -792,23 +751,27 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 131381,
-      "equivRank": 131381
+      "equivRank": 131381,
+      "prevScore": 535
     },
     {
       "majorName": "国际商务",
       "majorKey": "4c4c62eb",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 15,
+      "plan": 23,
       "tuition": "25800",
       "schooling": "四年",
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 133234,
-      "equivRank": 133234
+      "equivRank": 133234,
+      "prevScore": 533
     },
     {
       "majorName": "物流管理",
       "majorKey": "8b6a817b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 15,
       "tuition": "25800",
@@ -816,35 +779,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 133592,
-      "equivRank": 133592
-    },
-    {
-      "majorName": "财务管理（中美人才合作项目）",
-      "majorKey": "609afdaa",
-      "selKe": "不限",
-      "plan": 8,
-      "tuition": "25800",
-      "schooling": "四年",
-      "menlei": "管",
-      "prevYear": 2025,
-      "prevRank": 142162,
-      "equivRank": 142162
-    },
-    {
-      "majorName": "国际商务（中美人才合作项目）",
-      "majorKey": "9de241c7",
-      "selKe": "不限",
-      "plan": 8,
-      "tuition": "25800",
-      "schooling": "四年",
-      "menlei": "管",
-      "prevYear": 2025,
-      "prevRank": 143230,
-      "equivRank": 143230
+      "equivRank": 133592,
+      "prevScore": 533
     },
     {
       "majorName": "机械设计制造及其自动化",
       "majorKey": "55ff9da5",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "25800",
@@ -852,11 +793,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 173793,
-      "equivRank": 173793
+      "equivRank": 173793,
+      "prevScore": 499
     },
     {
       "majorName": "电气工程及其自动化",
       "majorKey": "45947d31",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "25800",
@@ -864,11 +807,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 175076,
-      "equivRank": 175076
+      "equivRank": 175076,
+      "prevScore": 498
     },
     {
       "majorName": "电子信息工程",
       "majorKey": "fd603692",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "25800",
@@ -876,11 +821,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 180501,
-      "equivRank": 180501
+      "equivRank": 180501,
+      "prevScore": 493
     },
     {
       "majorName": "微电子科学与工程",
       "majorKey": "e063e51a",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "25800",
@@ -888,11 +835,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 182753,
-      "equivRank": 182753
+      "equivRank": 182753,
+      "prevScore": 491
     },
     {
       "majorName": "人工智能",
       "majorKey": "2fec4169",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "25800",
@@ -900,11 +849,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "数据科学与大数据技术",
       "majorKey": "bb0a25bd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "25800",
@@ -912,11 +863,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "物联网工程",
       "majorKey": "1da18825",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "25800",
@@ -924,11 +877,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "通信工程",
       "majorKey": "1c1ee3f7",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "25800",
@@ -936,11 +891,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "网络空间安全",
       "majorKey": "3093c484",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "25800",
@@ -948,11 +905,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 189770,
-      "equivRank": 189770
+      "equivRank": 189770,
+      "prevScore": 485
     },
     {
       "majorName": "工程造价",
       "majorKey": "b8be11ab",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 12,
       "tuition": "25800",
@@ -960,11 +919,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 197988,
-      "equivRank": 197988
+      "equivRank": 197988,
+      "prevScore": 477
     },
     {
       "majorName": "金融工程",
       "majorKey": "e6a89fa4",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 15,
       "tuition": "25800",
@@ -972,11 +933,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 197988,
-      "equivRank": 197988
+      "equivRank": 197988,
+      "prevScore": 477
     },
     {
       "majorName": "土木工程",
       "majorKey": "320e7128",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 10,
       "tuition": "25800",
@@ -984,11 +947,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 198979,
-      "equivRank": 198979
+      "equivRank": 198979,
+      "prevScore": 476
     },
     {
       "majorName": "电子商务",
       "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 25,
       "tuition": "25800",
@@ -996,11 +961,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 199963,
-      "equivRank": 199963
+      "equivRank": 199963,
+      "prevScore": 475
     },
     {
-      "majorName": "软件工程（中外合作办学）",
-      "majorKey": "979f7c1f",
+      "majorName": "软件工程",
+      "majorKey": "0c33cbdd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 30,
       "tuition": "38800",
@@ -1009,7 +976,8 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 202888,
-      "equivRank": 202888
+      "equivRank": 202888,
+      "prevScore": 472
     }
   ]
 }

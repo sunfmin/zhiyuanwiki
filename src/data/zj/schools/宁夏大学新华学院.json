@@ -45,8 +45,8 @@
     {
       "schoolKey": "宁夏大学新华学院",
       "schoolCode": "6406",
-      "majorKey": "afac5414",
-      "majorName": "工商管理（人力资源方向）",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
       "selKe": "不限",
       "years": [
         {
@@ -68,24 +68,8 @@
     {
       "schoolKey": "宁夏大学新华学院",
       "schoolCode": "6406",
-      "majorKey": "d7d313c5",
-      "majorName": "工商管理（创业方向）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 517,
-          "minRank": 143689,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "宁夏大学新华学院",
-      "schoolCode": "6406",
-      "majorKey": "9d30ad1f",
-      "majorName": "数学与应用数学（教育方向）",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -126,32 +110,7 @@
           "minScore": 545,
           "minRank": 113764,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "宁夏大学新华学院",
-      "schoolCode": "6406",
-      "majorKey": "31f9116a",
-      "majorName": "汉语言文学（教育方向）",
-      "selKe": "史/政/地(3选1)",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 542,
-          "minRank": 115812,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "宁夏大学新华学院",
-      "schoolCode": "6406",
-      "majorKey": "9b46ef31",
-      "majorName": "汉语言文学（文秘方向）",
-      "selKe": "史/政/地(3选1)",
-      "years": [
+        },
         {
           "year": 2023,
           "track": "综合",
@@ -249,6 +208,7 @@
     {
       "majorName": "财务管理",
       "majorKey": "8220c852",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "22800",
@@ -256,11 +216,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 124925,
-      "equivRank": 124925
+      "equivRank": 124925,
+      "prevScore": 540
     },
     {
       "majorName": "化学工程与工艺",
       "majorKey": "1f59c989",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "22800",
@@ -268,11 +230,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 191901,
-      "equivRank": 191901
+      "equivRank": 191901,
+      "prevScore": 483
     },
     {
-      "majorName": "数学与应用数学（教育方向）",
-      "majorKey": "9d30ad1f",
+      "majorName": "数学与应用数学",
+      "majorKey": "618fdffd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "22800",
@@ -280,11 +244,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 191901,
-      "equivRank": 191901
+      "equivRank": 191901,
+      "prevScore": 483
     },
     {
       "majorName": "生物技术",
       "majorKey": "0ac1da59",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "22800",
@@ -292,11 +258,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 192932,
-      "equivRank": 192932
+      "equivRank": 192932,
+      "prevScore": 482
     },
     {
       "majorName": "计算机科学与技术",
       "majorKey": "1d486608",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "22800",
@@ -304,7 +272,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 197988,
-      "equivRank": 197988
+      "equivRank": 197988,
+      "prevScore": 477
     }
   ]
 }

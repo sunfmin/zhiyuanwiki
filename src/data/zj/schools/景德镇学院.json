@@ -6,8 +6,8 @@
     {
       "schoolKey": "景德镇学院",
       "schoolCode": "3641",
-      "majorKey": "983355fa",
-      "majorName": "小学教育（师范）",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
       "selKe": "不限",
       "years": [
         {
@@ -43,8 +43,8 @@
     {
       "schoolKey": "景德镇学院",
       "schoolCode": "3641",
-      "majorKey": "d7131091",
-      "majorName": "汉语言文学（师范）",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
       "selKe": "历史必选",
       "years": [
         {
@@ -191,8 +191,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "汉语言文学（师范）",
-      "majorKey": "d7131091",
+      "majorName": "汉语言文学",
+      "majorKey": "97bc5998",
+      "track": "综合",
       "selKe": "历史必选",
       "plan": 3,
       "tuition": "3650",
@@ -200,11 +201,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 75308,
-      "equivRank": 75308
+      "equivRank": 75308,
+      "prevScore": 580
     },
     {
       "majorName": "财务管理",
       "majorKey": "8220c852",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "3880",
@@ -212,11 +215,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 83493,
-      "equivRank": 83493
+      "equivRank": 83493,
+      "prevScore": 573
     },
     {
-      "majorName": "小学教育（师范）",
-      "majorKey": "983355fa",
+      "majorName": "小学教育",
+      "majorKey": "c240892f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "3880",
@@ -224,11 +229,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 86023,
-      "equivRank": 86023
+      "equivRank": 86023,
+      "prevScore": 571
     },
     {
       "majorName": "物流管理",
       "majorKey": "8b6a817b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "3880",
@@ -236,11 +243,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 89760,
-      "equivRank": 89760
+      "equivRank": 89760,
+      "prevScore": 568
     },
     {
       "majorName": "网络工程",
       "majorKey": "b54c1697",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "4350",
@@ -248,7 +257,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 135117,
-      "equivRank": 135117
+      "equivRank": 135117,
+      "prevScore": 531
     }
   ]
 }

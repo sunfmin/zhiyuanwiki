@@ -6,8 +6,8 @@
     {
       "schoolKey": "安阳工学院",
       "schoolCode": "4201",
-      "majorKey": "8fa7a34a",
-      "majorName": "交通运输（中外合作办学）",
+      "majorKey": "904549c4",
+      "majorName": "交通运输",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -38,8 +38,8 @@
     {
       "schoolKey": "安阳工学院",
       "schoolCode": "4201",
-      "majorKey": "da70fd7e",
-      "majorName": "土木工程（中外合作办学）",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -75,8 +75,8 @@
     {
       "schoolKey": "安阳工学院",
       "schoolCode": "4201",
-      "majorKey": "45a86507",
-      "majorName": "城乡规划（中外合作办学）",
+      "majorKey": "2a1f2fe5",
+      "majorName": "城乡规划",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -115,16 +115,7 @@
           "minScore": 518,
           "minRank": 148982,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "安阳工学院",
-      "schoolCode": "4201",
-      "majorKey": "5c1e06ad",
-      "majorName": "安全工程（民航安全方向）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -199,8 +190,8 @@
     {
       "schoolKey": "安阳工学院",
       "schoolCode": "4201",
-      "majorKey": "0c0c1a7a",
-      "majorName": "机械电子工程（中外合作办学）",
+      "majorKey": "4ef2a1b4",
+      "majorName": "机械电子工程",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -231,8 +222,8 @@
     {
       "schoolKey": "安阳工学院",
       "schoolCode": "4201",
-      "majorKey": "05b8e6d3",
-      "majorName": "电气工程及其自动化（中外合作办学）",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -284,8 +275,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "安全工程（民航安全方向）",
-      "majorKey": "5c1e06ad",
+      "majorName": "安全工程",
+      "majorKey": "e16fbe20",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5000",
@@ -293,11 +285,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 149883,
-      "equivRank": 149883
+      "equivRank": 149883,
+      "prevScore": 519
     },
     {
-      "majorName": "机械电子工程（中外合作办学）",
-      "majorKey": "0c0c1a7a",
+      "majorName": "机械电子工程",
+      "majorKey": "4ef2a1b4",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "18000",
@@ -306,11 +300,13 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 158374,
-      "equivRank": 158374
+      "equivRank": 158374,
+      "prevScore": 512
     },
     {
       "majorName": "建筑学",
       "majorKey": "6b32f2c4",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5000",
@@ -318,11 +314,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 159507,
-      "equivRank": 159507
+      "equivRank": 159507,
+      "prevScore": 511
     },
     {
-      "majorName": "土木工程（中外合作办学）",
-      "majorKey": "da70fd7e",
+      "majorName": "土木工程",
+      "majorKey": "320e7128",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "18000",
@@ -331,11 +329,13 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 168594,
-      "equivRank": 168594
+      "equivRank": 168594,
+      "prevScore": 503
     },
     {
       "majorName": "生物工程",
       "majorKey": "14eeb10f",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5000",
@@ -343,11 +343,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 173417,
-      "equivRank": 173417
+      "equivRank": 173417,
+      "prevScore": 499
     },
     {
-      "majorName": "城乡规划（中外合作办学）",
-      "majorKey": "45a86507",
+      "majorName": "城乡规划",
+      "majorKey": "2a1f2fe5",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "18000",
@@ -356,7 +358,8 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     }
   ]
 }

@@ -6,6 +6,22 @@
     {
       "schoolKey": "泰山学院",
       "schoolCode": "3757",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 570,
+          "minRank": 88054,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "泰山学院",
+      "schoolCode": "3757",
       "majorKey": "7b08de6b",
       "majorName": "历史学类",
       "selKe": "不限",
@@ -29,22 +45,6 @@
           "track": "综合",
           "minScore": 581,
           "minRank": 74872,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "泰山学院",
-      "schoolCode": "3757",
-      "majorKey": "4c5c8bc7",
-      "majorName": "历史学（师范）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 570,
-          "minRank": 88054,
           "maxScore": 0
         }
       ]
@@ -113,16 +113,7 @@
           "minScore": 582,
           "minRank": 73953,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "泰山学院",
-      "schoolCode": "3757",
-      "majorKey": "793bfd14",
-      "majorName": "汉语言文学（部分新生在南校区就读）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -145,16 +136,7 @@
           "minScore": 566,
           "minRank": 87676,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "泰山学院",
-      "schoolCode": "3757",
-      "majorKey": "fea3e248",
-      "majorName": "英语（师范）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2023,
           "track": "综合",
@@ -181,8 +163,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "汉语言文学（部分新生在南校区就读）",
-      "majorKey": "793bfd14",
+      "majorName": "汉语言文学",
+      "majorKey": "97bc5998",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "5200",
@@ -190,11 +173,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 87602,
-      "equivRank": 87602
+      "equivRank": 87602,
+      "prevScore": 570
     },
     {
-      "majorName": "历史学（师范）",
-      "majorKey": "4c5c8bc7",
+      "majorName": "历史学",
+      "majorKey": "c9800f2a",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "5200",
@@ -202,11 +187,13 @@
       "menlei": "史",
       "prevYear": 2025,
       "prevRank": 88054,
-      "equivRank": 88054
+      "equivRank": 88054,
+      "prevScore": 570
     },
     {
       "majorName": "工商管理类",
       "majorKey": "b74128f4",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "6300",
@@ -214,11 +201,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 90021,
-      "equivRank": 90021
+      "equivRank": 90021,
+      "prevScore": 568
     },
     {
-      "majorName": "英语（师范）",
-      "majorKey": "fea3e248",
+      "majorName": "英语",
+      "majorKey": "49c5cdf9",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "4400",
@@ -226,7 +215,8 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 96532,
-      "equivRank": 96532
+      "equivRank": 96532,
+      "prevScore": 563
     }
   ]
 }

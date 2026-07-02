@@ -30,16 +30,7 @@
           "minScore": 492,
           "minRank": 177086,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "四川美术学院",
-      "schoolCode": "5002",
-      "majorKey": "78a4a845",
-      "majorName": "工业设计（虎溪校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -76,16 +67,7 @@
           "minScore": 604,
           "minRank": 49165,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "四川美术学院",
-      "schoolCode": "5002",
-      "majorKey": "234bd492",
-      "majorName": "建筑学（虎溪校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -108,16 +90,7 @@
           "minScore": 595,
           "minRank": 58993,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "四川美术学院",
-      "schoolCode": "5002",
-      "majorKey": "f2e94f85",
-      "majorName": "美术学（虎溪校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -140,16 +113,7 @@
           "minScore": 580,
           "minRank": 76338,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "四川美术学院",
-      "schoolCode": "5002",
-      "majorKey": "ad857487",
-      "majorName": "艺术史论（虎溪校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -186,16 +150,7 @@
           "minScore": 599,
           "minRank": 54984,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "四川美术学院",
-      "schoolCode": "5002",
-      "majorKey": "05ef88bd",
-      "majorName": "艺术教育（虎溪校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -218,16 +173,7 @@
           "minScore": 598,
           "minRank": 55766,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "四川美术学院",
-      "schoolCode": "5002",
-      "majorKey": "e7d57a94",
-      "majorName": "艺术设计学（虎溪校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -264,16 +210,7 @@
           "minScore": 608,
           "minRank": 44751,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "四川美术学院",
-      "schoolCode": "5002",
-      "majorKey": "69eb0fab",
-      "majorName": "风景园林（虎溪校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -286,8 +223,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "美术学（虎溪校区）",
-      "majorKey": "f2e94f85",
+      "majorName": "美术学",
+      "majorKey": "a59e1c5b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "8050",
@@ -295,11 +233,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 54716,
-      "equivRank": 54716
+      "equivRank": 54716,
+      "prevScore": 598
     },
     {
-      "majorName": "工业设计（虎溪校区）",
-      "majorKey": "78a4a845",
+      "majorName": "工业设计",
+      "majorKey": "fee47c1b",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "13800",
@@ -307,11 +247,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 59778,
-      "equivRank": 59778
+      "equivRank": 59778,
+      "prevScore": 593
     },
     {
-      "majorName": "风景园林（虎溪校区）",
-      "majorKey": "69eb0fab",
+      "majorName": "风景园林",
+      "majorKey": "9b8820c1",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "13800",
@@ -319,11 +261,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 60162,
-      "equivRank": 60162
+      "equivRank": 60162,
+      "prevScore": 593
     },
     {
-      "majorName": "建筑学（虎溪校区）",
-      "majorKey": "234bd492",
+      "majorName": "建筑学",
+      "majorKey": "6b32f2c4",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "13800",
@@ -331,11 +275,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 60492,
-      "equivRank": 60492
+      "equivRank": 60492,
+      "prevScore": 592
     },
     {
-      "majorName": "艺术设计学（虎溪校区）",
-      "majorKey": "e7d57a94",
+      "majorName": "艺术设计学",
+      "majorKey": "72bed0ee",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "8050",
@@ -343,11 +289,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 65082,
-      "equivRank": 65082
+      "equivRank": 65082,
+      "prevScore": 589
     },
     {
-      "majorName": "艺术史论（虎溪校区）",
-      "majorKey": "ad857487",
+      "majorName": "艺术史论",
+      "majorKey": "ae17c365",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "8050",
@@ -355,11 +303,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 65817,
-      "equivRank": 65817
+      "equivRank": 65817,
+      "prevScore": 588
     },
     {
-      "majorName": "艺术教育（虎溪校区）",
-      "majorKey": "05ef88bd",
+      "majorName": "艺术教育",
+      "majorKey": "c23e4b23",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "13800",
@@ -367,7 +317,8 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 86930,
-      "equivRank": 86930
+      "equivRank": 86930,
+      "prevScore": 571
     }
   ]
 }

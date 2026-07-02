@@ -16,16 +16,7 @@
           "minScore": 548,
           "minRank": 113581,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "沈阳大学",
-      "schoolCode": "2142",
-      "majorKey": "d855e0cd",
-      "majorName": "人工智能（望花/联合路校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -38,8 +29,8 @@
     {
       "schoolKey": "沈阳大学",
       "schoolCode": "2142",
-      "majorKey": "81dd7129",
-      "majorName": "工业工程（中外合作办学）",
+      "majorKey": "13c18eb7",
+      "majorName": "工业工程",
       "selKe": "物理必选",
       "years": [
         {
@@ -161,16 +152,7 @@
           "minScore": 548,
           "minRank": 113599,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "沈阳大学",
-      "schoolCode": "2142",
-      "majorKey": "d580bd92",
-      "majorName": "电子信息工程（望花/联合路校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -183,8 +165,8 @@
     {
       "schoolKey": "沈阳大学",
       "schoolCode": "2142",
-      "majorKey": "f710f312",
-      "majorName": "自动化（中外合作办学）",
+      "majorKey": "da95770c",
+      "majorName": "自动化",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -250,8 +232,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "人工智能（望花/联合路校区）",
-      "majorKey": "d855e0cd",
+      "majorName": "人工智能",
+      "majorKey": "2fec4169",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "5200",
@@ -259,11 +242,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 110100,
-      "equivRank": 110100
+      "equivRank": 110100,
+      "prevScore": 552
     },
     {
-      "majorName": "电子信息工程（望花/联合路校区）",
-      "majorKey": "d580bd92",
+      "majorName": "电子信息工程",
+      "majorKey": "fd603692",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5200",
@@ -271,11 +256,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 110623,
-      "equivRank": 110623
+      "equivRank": 110623,
+      "prevScore": 551
     },
     {
-      "majorName": "自动化（中外合作办学）",
-      "majorKey": "f710f312",
+      "majorName": "自动化",
+      "majorKey": "da95770c",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "39000",
@@ -284,11 +271,13 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 130693,
-      "equivRank": 130693
+      "equivRank": 130693,
+      "prevScore": 535
     },
     {
-      "majorName": "工业工程（中外合作办学）",
-      "majorKey": "81dd7129",
+      "majorName": "工业工程",
+      "majorKey": "13c18eb7",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 5,
       "tuition": "39000",
@@ -297,7 +286,8 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 141784,
-      "equivRank": 141784
+      "equivRank": 141784,
+      "prevScore": 526
     }
   ]
 }

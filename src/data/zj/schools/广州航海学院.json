@@ -24,7 +24,7 @@
       "schoolCode": "4418",
       "majorKey": "8f20480e",
       "majorName": "航海技术",
-      "selKe": "物理、化学(2科必选)",
+      "selKe": "物理必选",
       "years": [
         {
           "year": 2022,
@@ -39,29 +39,6 @@
           "minScore": 548,
           "minRank": 108353,
           "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 541,
-          "minRank": 122088,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广州航海学院",
-      "schoolCode": "4418",
-      "majorKey": "e6ee762c",
-      "majorName": "航海技术（黄埔校区。学校提醒:入学后只限在航海类专业之间转专业）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 530,
-          "minRank": 137576,
-          "maxScore": 0
         }
       ]
     },
@@ -70,7 +47,7 @@
       "schoolCode": "4418",
       "majorKey": "ac3cf080",
       "majorName": "船舶与海洋工程",
-      "selKe": "物理必选",
+      "selKe": "物理、化学(2科必选)",
       "years": [
         {
           "year": 2022,
@@ -78,16 +55,7 @@
           "minScore": 548,
           "minRank": 109776,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广州航海学院",
-      "schoolCode": "4418",
-      "majorKey": "1874be5b",
-      "majorName": "船舶与海洋工程（第一学年在琶洲校区，第二学年起在黄埔校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -102,7 +70,7 @@
       "schoolCode": "4418",
       "majorKey": "d05a55f7",
       "majorName": "船舶电子电气工程",
-      "selKe": "物理、化学(2科必选)",
+      "selKe": "物理必选",
       "years": [
         {
           "year": 2022,
@@ -117,29 +85,6 @@
           "minScore": 549,
           "minRank": 107243,
           "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 542,
-          "minRank": 120947,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广州航海学院",
-      "schoolCode": "4418",
-      "majorKey": "c73d49b5",
-      "majorName": "船舶电子电气工程（黄埔校区。学校提醒:入学后只限在航海类专业之间转专业）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 504,
-          "minRank": 168593,
-          "maxScore": 0
         }
       ]
     },
@@ -148,7 +93,7 @@
       "schoolCode": "4418",
       "majorKey": "7115c029",
       "majorName": "轮机工程",
-      "selKe": "物理、化学(2科必选)",
+      "selKe": "物理必选",
       "years": [
         {
           "year": 2022,
@@ -163,37 +108,15 @@
           "minScore": 541,
           "minRank": 116427,
           "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 549,
-          "minRank": 112723,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广州航海学院",
-      "schoolCode": "4418",
-      "majorKey": "1e1225a7",
-      "majorName": "轮机工程（黄埔校区。学校提醒:入学后只限在航海类专业之间转专业）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 501,
-          "minRank": 172010,
-          "maxScore": 0
         }
       ]
     }
   ],
   "plan2026": [
     {
-      "majorName": "船舶与海洋工程（第一学年在琶洲校区，第二学年起在黄埔校区）",
-      "majorKey": "1874be5b",
+      "majorName": "船舶与海洋工程",
+      "majorKey": "ac3cf080",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "5190",
@@ -201,43 +124,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 118351,
-      "equivRank": 118351
-    },
-    {
-      "majorName": "航海技术（黄埔校区。学校提醒:入学后只限在航海类专业之间转专业）",
-      "majorKey": "e6ee762c",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 4,
-      "tuition": "5190",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 137576,
-      "equivRank": 137576
-    },
-    {
-      "majorName": "船舶电子电气工程（黄埔校区。学校提醒:入学后只限在航海类专业之间转专业）",
-      "majorKey": "c73d49b5",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 3,
-      "tuition": "5190",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 168593,
-      "equivRank": 168593
-    },
-    {
-      "majorName": "轮机工程（黄埔校区。学校提醒:入学后只限在航海类专业之间转专业）",
-      "majorKey": "1e1225a7",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 4,
-      "tuition": "5190",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 172010,
-      "equivRank": 172010
+      "equivRank": 118351,
+      "prevScore": 545
     }
   ]
 }

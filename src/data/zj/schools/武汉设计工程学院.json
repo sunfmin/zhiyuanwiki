@@ -30,16 +30,7 @@
           "minScore": 539,
           "minRank": 124087,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "武汉设计工程学院",
-      "schoolCode": "4038",
-      "majorKey": "4826cb15",
-      "majorName": "商务英语（第一学年在红安校区，第二学年起在武汉校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -82,8 +73,8 @@
     {
       "schoolKey": "武汉设计工程学院",
       "schoolCode": "4038",
-      "majorKey": "55bdad93",
-      "majorName": "网络与新媒体（武汉校区）",
+      "majorKey": "fff04889",
+      "majorName": "网络与新媒体",
       "selKe": "不限",
       "years": [
         {
@@ -122,32 +113,7 @@
           "minScore": 474,
           "minRank": 195873,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "武汉设计工程学院",
-      "schoolCode": "4038",
-      "majorKey": "0af9c272",
-      "majorName": "食品科学与工程（红安校区。）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 487,
-          "minRank": 187636,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "武汉设计工程学院",
-      "schoolCode": "4038",
-      "majorKey": "3e53f55d",
-      "majorName": "食品科学与工程（红安校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -160,8 +126,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "网络与新媒体（武汉校区）",
-      "majorKey": "55bdad93",
+      "majorName": "网络与新媒体",
+      "majorKey": "fff04889",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "21000",
@@ -169,11 +136,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 119793,
-      "equivRank": 119793
+      "equivRank": 119793,
+      "prevScore": 544
     },
     {
-      "majorName": "商务英语（第一学年在红安校区，第二学年起在武汉校区）",
-      "majorKey": "4826cb15",
+      "majorName": "商务英语",
+      "majorKey": "4428fd77",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "21000",
@@ -181,11 +150,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 123694,
-      "equivRank": 123694
+      "equivRank": 123694,
+      "prevScore": 541
     },
     {
-      "majorName": "食品科学与工程（红安校区）",
-      "majorKey": "3e53f55d",
+      "majorName": "食品科学与工程",
+      "majorKey": "7b7511cd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "21000",
@@ -193,7 +164,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     }
   ]
 }

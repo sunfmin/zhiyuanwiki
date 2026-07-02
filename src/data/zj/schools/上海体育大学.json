@@ -18,22 +18,6 @@
           "maxScore": 0
         },
         {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 594,
-          "minRank": 58180,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "上海体育大学",
-      "schoolCode": "3148",
-      "majorKey": "2265e511",
-      "majorName": "医学技术类（运动健康）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
           "year": 2023,
           "track": "综合",
           "minScore": 601,
@@ -45,6 +29,13 @@
           "track": "综合",
           "minScore": 591,
           "minRank": 63169,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 594,
+          "minRank": 58180,
           "maxScore": 0
         }
       ]
@@ -233,16 +224,7 @@
           "minScore": 621,
           "minRank": 33116,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "上海体育大学",
-      "schoolCode": "3148",
-      "majorKey": "5d67e6a7",
-      "majorName": "英语（要求高考英语成绩不低于110分）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -273,6 +255,7 @@
     {
       "majorName": "新闻学",
       "majorKey": "9c5f4a34",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "6500",
@@ -280,11 +263,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 23638,
-      "equivRank": 23638
+      "equivRank": 23638,
+      "prevScore": 630
     },
     {
       "majorName": "工商管理类",
       "majorKey": "b74128f4",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "6500",
@@ -292,11 +277,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 34601,
-      "equivRank": 34601
+      "equivRank": 34601,
+      "prevScore": 617
     },
     {
-      "majorName": "英语（要求高考英语成绩不低于110分）",
-      "majorKey": "5d67e6a7",
+      "majorName": "英语",
+      "majorKey": "49c5cdf9",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "6500",
@@ -304,11 +291,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 34822,
-      "equivRank": 34822
+      "equivRank": 34822,
+      "prevScore": 617
     },
     {
       "majorName": "运动能力开发",
       "majorKey": "180f6a43",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "7700",
@@ -316,11 +305,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 36117,
-      "equivRank": 36117
+      "equivRank": 36117,
+      "prevScore": 615
     },
     {
       "majorName": "应用心理学",
       "majorKey": "59687759",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "7000",
@@ -328,11 +319,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 42562,
-      "equivRank": 42562
+      "equivRank": 42562,
+      "prevScore": 609
     },
     {
       "majorName": "数据科学与大数据技术",
       "majorKey": "bb0a25bd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "7000",
@@ -340,11 +333,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 53471,
-      "equivRank": 53471
+      "equivRank": 53471,
+      "prevScore": 599
     },
     {
       "majorName": "医学技术类",
       "majorKey": "25bf7075",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 8,
       "tuition": "7400",
@@ -352,7 +347,8 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 58180,
-      "equivRank": 58180
+      "equivRank": 58180,
+      "prevScore": 594
     }
   ]
 }

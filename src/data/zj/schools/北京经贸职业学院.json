@@ -82,8 +82,8 @@
     {
       "schoolKey": "北京经贸职业学院",
       "schoolCode": "1122",
-      "majorKey": "0daff836",
-      "majorName": "国际金融（理财方向）",
+      "majorKey": "2c680d0d",
+      "majorName": "国际金融",
       "selKe": "不限",
       "years": [
         {
@@ -100,43 +100,6 @@
       "schoolCode": "1122",
       "majorKey": "49f153aa",
       "majorName": "大数据与会计",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 399,
-          "minRank": 242589,
-          "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 388,
-          "minRank": 249940,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 387,
-          "minRank": 253871,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 396,
-          "minRank": 256610,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "北京经贸职业学院",
-      "schoolCode": "1122",
-      "majorKey": "5ec02ac9",
-      "majorName": "大数据与会计（银行业务方向）",
       "selKe": "不限",
       "years": [
         {
@@ -262,8 +225,8 @@
     {
       "schoolKey": "北京经贸职业学院",
       "schoolCode": "1122",
-      "majorKey": "fc3a5d25",
-      "majorName": "影视动画（影视特效）",
+      "majorKey": "a97d2a64",
+      "majorName": "影视动画",
       "selKe": "不限",
       "years": [
         {
@@ -331,8 +294,8 @@
     {
       "schoolKey": "北京经贸职业学院",
       "schoolCode": "1122",
-      "majorKey": "9785722a",
-      "majorName": "空中乘务（航空服务与管理）",
+      "majorKey": "e19c4c71",
+      "majorName": "空中乘务",
       "selKe": "不限",
       "years": [
         {
@@ -347,8 +310,8 @@
     {
       "schoolKey": "北京经贸职业学院",
       "schoolCode": "1122",
-      "majorKey": "c7436ad1",
-      "majorName": "计算机应用技术（5G软件开发）",
+      "majorKey": "faccc9c5",
+      "majorName": "计算机应用技术",
       "selKe": "不限",
       "years": [
         {
@@ -386,6 +349,7 @@
     {
       "majorName": "学前教育",
       "majorKey": "97716b64",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "16800",
@@ -393,11 +357,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 254556,
-      "equivRank": 254556
+      "equivRank": 254556,
+      "prevScore": 400
     },
     {
-      "majorName": "影视动画（影视特效）",
-      "majorKey": "fc3a5d25",
+      "majorName": "影视动画",
+      "majorKey": "a97d2a64",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "16800",
@@ -405,35 +371,27 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 254556,
-      "equivRank": 254556
+      "equivRank": 254556,
+      "prevScore": 400
     },
     {
-      "majorName": "大数据与会计（银行业务方向）",
-      "majorKey": "5ec02ac9",
+      "majorName": "大数据与会计",
+      "majorKey": "49f153aa",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 2,
+      "plan": 6,
       "tuition": "16800",
       "schooling": "三年",
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 255080,
-      "equivRank": 255080
+      "equivRank": 255080,
+      "prevScore": 399
     },
     {
-      "majorName": "大数据与会计",
-      "majorKey": "49f153aa",
-      "selKe": "不限",
-      "plan": 4,
-      "tuition": "16800",
-      "schooling": "三年",
-      "menlei": "管",
-      "prevYear": 2025,
-      "prevRank": 256610,
-      "equivRank": 256610
-    },
-    {
-      "majorName": "计算机应用技术（5G软件开发）",
-      "majorKey": "c7436ad1",
+      "majorName": "计算机应用技术",
+      "majorKey": "faccc9c5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "18800",
@@ -441,11 +399,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 259978,
-      "equivRank": 259978
+      "equivRank": 259978,
+      "prevScore": 389
     },
     {
       "majorName": "人力资源管理",
       "majorKey": "5a324641",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "16800",
@@ -453,11 +413,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 265510,
-      "equivRank": 265510
+      "equivRank": 265510,
+      "prevScore": 376
     },
     {
       "majorName": "智慧健康养老服务与管理",
       "majorKey": "4c97ece5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "16800",
@@ -465,11 +427,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 269638,
-      "equivRank": 269638
+      "equivRank": 269638,
+      "prevScore": 365
     },
     {
       "majorName": "建筑室内设计",
       "majorKey": "602e315c",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "16800",
@@ -477,11 +441,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 275431,
-      "equivRank": 275431
+      "equivRank": 275431,
+      "prevScore": 346
     },
     {
       "majorName": "人工智能技术应用",
       "majorKey": "d722f594",
+      "track": "综合",
       "selKe": "不限",
       "plan": 15,
       "tuition": "19800",
@@ -489,11 +455,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 275694,
-      "equivRank": 275694
+      "equivRank": 275694,
+      "prevScore": 345
     },
     {
       "majorName": "信息安全技术应用",
       "majorKey": "a9bba0c6",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "19800",
@@ -501,7 +469,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 275694,
-      "equivRank": 275694
+      "equivRank": 275694,
+      "prevScore": 345
     }
   ]
 }

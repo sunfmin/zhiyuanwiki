@@ -29,8 +29,8 @@
     {
       "schoolKey": "青岛农业大学",
       "schoolCode": "3721",
-      "majorKey": "6611bc58",
-      "majorName": "农学（中外合作办学）",
+      "majorKey": "c10bcf22",
+      "majorName": "农学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -410,7 +410,7 @@
       "schoolCode": "3721",
       "majorKey": "7b7511cd",
       "majorName": "食品科学与工程",
-      "selKe": "物/化/生(3选1)",
+      "selKe": "物理、化学(2科必选)",
       "years": [
         {
           "year": 2022,
@@ -425,16 +425,7 @@
           "minScore": 572,
           "minRank": 81593,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "青岛农业大学",
-      "schoolCode": "3721",
-      "majorKey": "cddd630f",
-      "majorName": "食品科学与工程（中外合作办学）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -486,6 +477,7 @@
     {
       "majorName": "土地科学与技术",
       "majorKey": "b074d3f0",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5500",
@@ -493,11 +485,13 @@
       "menlei": "农",
       "prevYear": 2025,
       "prevRank": 124503,
-      "equivRank": 124503
+      "equivRank": 124503,
+      "prevScore": 540
     },
     {
       "majorName": "土木工程",
       "majorKey": "320e7128",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6325",
@@ -505,11 +499,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 126519,
-      "equivRank": 126519
+      "equivRank": 126519,
+      "prevScore": 538
     },
     {
       "majorName": "水产养殖学",
       "majorKey": "5f3767bd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6600",
@@ -517,11 +513,13 @@
       "menlei": "农",
       "prevYear": 2025,
       "prevRank": 133461,
-      "equivRank": 133461
+      "equivRank": 133461,
+      "prevScore": 533
     },
     {
       "majorName": "动物科学",
       "majorKey": "ca01c9a2",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "6600",
@@ -529,11 +527,13 @@
       "menlei": "农",
       "prevYear": 2025,
       "prevRank": 139718,
-      "equivRank": 139718
+      "equivRank": 139718,
+      "prevScore": 528
     },
     {
       "majorName": "茶学",
       "majorKey": "2f5c1273",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6325",
@@ -541,11 +541,13 @@
       "menlei": "农",
       "prevYear": 2025,
       "prevRank": 142379,
-      "equivRank": 142379
+      "equivRank": 142379,
+      "prevScore": 525
     },
     {
       "majorName": "马业科学",
       "majorKey": "71c70306",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5500",
@@ -553,11 +555,13 @@
       "menlei": "农",
       "prevYear": 2025,
       "prevRank": 143511,
-      "equivRank": 143511
+      "equivRank": 143511,
+      "prevScore": 524
     },
     {
       "majorName": "园艺",
       "majorKey": "e735f557",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6600",
@@ -565,11 +569,13 @@
       "menlei": "农",
       "prevYear": 2025,
       "prevRank": 150225,
-      "equivRank": 150225
+      "equivRank": 150225,
+      "prevScore": 519
     },
     {
       "majorName": "草坪科学与工程",
       "majorKey": "ee804eaf",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5500",
@@ -577,11 +583,13 @@
       "menlei": "农",
       "prevYear": 2025,
       "prevRank": 150759,
-      "equivRank": 150759
+      "equivRank": 150759,
+      "prevScore": 519
     },
     {
       "majorName": "生物农药科学与工程",
       "majorKey": "fa4eb105",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5500",
@@ -589,11 +597,13 @@
       "menlei": "农",
       "prevYear": 2025,
       "prevRank": 155073,
-      "equivRank": 155073
+      "equivRank": 155073,
+      "prevScore": 515
     },
     {
-      "majorName": "食品科学与工程（中外合作办学）",
-      "majorKey": "cddd630f",
+      "majorName": "食品科学与工程",
+      "majorKey": "7b7511cd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "58000",
@@ -602,7 +612,8 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 173817,
-      "equivRank": 173817
+      "equivRank": 173817,
+      "prevScore": 499
     }
   ]
 }

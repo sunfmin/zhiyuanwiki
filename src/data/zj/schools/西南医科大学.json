@@ -30,16 +30,7 @@
           "minScore": 610,
           "minRank": 42926,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "西南医科大学",
-      "schoolCode": "5116",
-      "majorKey": "e0e6f323",
-      "majorName": "临床医学（城北校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -76,16 +67,7 @@
           "minScore": 578,
           "minRank": 77559,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "西南医科大学",
-      "schoolCode": "5116",
-      "majorKey": "e5bbd3c9",
-      "majorName": "儿科学（城北校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -122,16 +104,7 @@
           "minScore": 579,
           "minRank": 76528,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "西南医科大学",
-      "schoolCode": "5116",
-      "majorKey": "6d75132d",
-      "majorName": "医学检验技术（城北校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -144,8 +117,8 @@
     {
       "schoolKey": "西南医科大学",
       "schoolCode": "5116",
-      "majorKey": "b67412f2",
-      "majorName": "口腔医学（城北校区）",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -184,16 +157,7 @@
           "minScore": 499,
           "minRank": 169669,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "西南医科大学",
-      "schoolCode": "5116",
-      "majorKey": "660f331a",
-      "majorName": "基础医学（城北校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -206,8 +170,8 @@
     {
       "schoolKey": "西南医科大学",
       "schoolCode": "5116",
-      "majorKey": "2d9ede91",
-      "majorName": "应用心理学（中外高水平大学学生交流计划）",
+      "majorKey": "59687759",
+      "majorName": "应用心理学",
       "selKe": "不限",
       "years": [
         {
@@ -282,8 +246,8 @@
     {
       "schoolKey": "西南医科大学",
       "schoolCode": "5116",
-      "majorKey": "2d4e8099",
-      "majorName": "药学（中外高水平大学学生交流计划）",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -298,8 +262,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "口腔医学（城北校区）",
-      "majorKey": "b67412f2",
+      "majorName": "口腔医学",
+      "majorKey": "c162bced",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6960",
@@ -307,11 +272,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 46041,
-      "equivRank": 46041
+      "equivRank": 46041,
+      "prevScore": 606
     },
     {
-      "majorName": "临床医学（城北校区）",
-      "majorKey": "e0e6f323",
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 8,
       "tuition": "6960",
@@ -319,11 +286,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 52529,
-      "equivRank": 52529
+      "equivRank": 52529,
+      "prevScore": 600
     },
     {
-      "majorName": "医学检验技术（城北校区）",
-      "majorKey": "6d75132d",
+      "majorName": "医学检验技术",
+      "majorKey": "f106fa76",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6960",
@@ -331,11 +300,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 80989,
-      "equivRank": 80989
+      "equivRank": 80989,
+      "prevScore": 576
     },
     {
-      "majorName": "儿科学（城北校区）",
-      "majorKey": "e5bbd3c9",
+      "majorName": "儿科学",
+      "majorKey": "db9ffa2a",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "6960",
@@ -343,11 +314,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 89443,
-      "equivRank": 89443
+      "equivRank": 89443,
+      "prevScore": 569
     },
     {
-      "majorName": "应用心理学（中外高水平大学学生交流计划）",
-      "majorKey": "2d9ede91",
+      "majorName": "应用心理学",
+      "majorKey": "59687759",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "6240",
@@ -356,11 +329,13 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 89443,
-      "equivRank": 89443
+      "equivRank": 89443,
+      "prevScore": 569
     },
     {
-      "majorName": "基础医学（城北校区）",
-      "majorKey": "660f331a",
+      "majorName": "基础医学",
+      "majorKey": "8ca67fa5",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6960",
@@ -368,11 +343,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 101665,
-      "equivRank": 101665
+      "equivRank": 101665,
+      "prevScore": 559
     },
     {
-      "majorName": "药学（中外高水平大学学生交流计划）",
-      "majorKey": "2d4e8099",
+      "majorName": "药学",
+      "majorKey": "e9e6a481",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6960",
@@ -381,7 +358,8 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 123986,
-      "equivRank": 123986
+      "equivRank": 123986,
+      "prevScore": 541
     }
   ]
 }

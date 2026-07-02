@@ -45,8 +45,8 @@
     {
       "schoolKey": "肇庆学院",
       "schoolCode": "4466",
-      "majorKey": "d7131091",
-      "majorName": "汉语言文学（师范）",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
       "selKe": "不限",
       "years": [
         {
@@ -75,8 +75,8 @@
     {
       "schoolKey": "肇庆学院",
       "schoolCode": "4466",
-      "majorKey": "77925b2c",
-      "majorName": "法学（第一学年在星湖校区，第二学年起在校本部）",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
       "selKe": "不限",
       "years": [
         {
@@ -153,8 +153,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "法学（第一学年在星湖校区，第二学年起在校本部）",
-      "majorKey": "77925b2c",
+      "majorName": "法学",
+      "majorKey": "a1113a1f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "5050",
@@ -162,11 +163,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 84486,
-      "equivRank": 84486
+      "equivRank": 84486,
+      "prevScore": 573
     },
     {
       "majorName": "机械设计制造及其自动化",
       "majorKey": "55ff9da5",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "5710",
@@ -174,11 +177,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 140037,
-      "equivRank": 140037
+      "equivRank": 140037,
+      "prevScore": 527
     },
     {
       "majorName": "生物技术",
       "majorKey": "0ac1da59",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "5710",
@@ -186,7 +191,8 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 154104,
-      "equivRank": 154104
+      "equivRank": 154104,
+      "prevScore": 516
     }
   ]
 }

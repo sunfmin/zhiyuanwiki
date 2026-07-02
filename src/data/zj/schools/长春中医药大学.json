@@ -8,7 +8,7 @@
       "schoolCode": "2245",
       "majorKey": "5ab5f335",
       "majorName": "中医养生学",
-      "selKe": "物理、化学(2科必选)",
+      "selKe": "不限",
       "years": [
         {
           "year": 2023,
@@ -23,16 +23,7 @@
           "minScore": 548,
           "minRank": 113144,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "长春中医药大学",
-      "schoolCode": "2245",
-      "majorKey": "abcdcd80",
-      "majorName": "中医养生学（净月校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -47,53 +38,7 @@
       "schoolCode": "2245",
       "majorKey": "2285e5ca",
       "majorName": "中医学",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 604,
-          "minRank": 43934,
-          "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 608,
-          "minRank": 44564,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 589,
-          "minRank": 65762,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "长春中医药大学",
-      "schoolCode": "2245",
-      "majorKey": "fce2182f",
-      "majorName": "中医学（5+3—体化）",
       "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 632,
-          "minRank": 22317,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "长春中医药大学",
-      "schoolCode": "2245",
-      "majorKey": "0b4f2ce1",
-      "majorName": "中医学（5+3一体化）",
-      "selKe": "物理、化学(2科必选)",
       "years": [
         {
           "year": 2022,
@@ -115,21 +60,12 @@
           "minScore": 621,
           "minRank": 32321,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "长春中医药大学",
-      "schoolCode": "2245",
-      "majorKey": "2f19e6d7",
-      "majorName": "中医学（净月校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
-          "minScore": 611,
-          "minRank": 40324,
+          "minScore": 632,
+          "minRank": 22317,
           "maxScore": 0
         }
       ]
@@ -161,16 +97,7 @@
           "minScore": 549,
           "minRank": 111913,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "长春中医药大学",
-      "schoolCode": "2245",
-      "majorKey": "3403309a",
-      "majorName": "中西医临床医学（净月校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -185,7 +112,7 @@
       "schoolCode": "2245",
       "majorKey": "c744f66e",
       "majorName": "针灸推拿学",
-      "selKe": "物理、化学(2科必选)",
+      "selKe": "不限",
       "years": [
         {
           "year": 2022,
@@ -207,16 +134,7 @@
           "minScore": 538,
           "minRank": 124773,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "长春中医药大学",
-      "schoolCode": "2245",
-      "majorKey": "b1adf2a3",
-      "majorName": "针灸推拿学（净月校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -229,32 +147,23 @@
   ],
   "plan2026": [
     {
-      "majorName": "中医学（5+3—体化）",
-      "majorKey": "fce2182f",
+      "majorName": "中医学",
+      "majorKey": "2285e5ca",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 2,
+      "plan": 6,
       "tuition": "6160",
       "schooling": "五年",
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 22317,
-      "equivRank": 22317
+      "equivRank": 22317,
+      "prevScore": 632
     },
     {
-      "majorName": "中医学（净月校区）",
-      "majorKey": "2f19e6d7",
-      "selKe": "不限",
-      "plan": 4,
-      "tuition": "6160",
-      "schooling": "五年",
-      "menlei": "医",
-      "prevYear": 2025,
-      "prevRank": 40324,
-      "equivRank": 40324
-    },
-    {
-      "majorName": "针灸推拿学（净月校区）",
-      "majorKey": "b1adf2a3",
+      "majorName": "针灸推拿学",
+      "majorKey": "c744f66e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "6160",
@@ -262,11 +171,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 54517,
-      "equivRank": 54517
+      "equivRank": 54517,
+      "prevScore": 598
     },
     {
-      "majorName": "中医养生学（净月校区）",
-      "majorKey": "abcdcd80",
+      "majorName": "中医养生学",
+      "majorKey": "5ab5f335",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5600",
@@ -274,11 +185,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 57974,
-      "equivRank": 57974
+      "equivRank": 57974,
+      "prevScore": 595
     },
     {
-      "majorName": "中西医临床医学（净月校区）",
-      "majorKey": "3403309a",
+      "majorName": "中西医临床医学",
+      "majorKey": "8a499b4f",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 7,
       "tuition": "6160",
@@ -286,7 +199,8 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 101841,
-      "equivRank": 101841
+      "equivRank": 101841,
+      "prevScore": 558
     }
   ]
 }

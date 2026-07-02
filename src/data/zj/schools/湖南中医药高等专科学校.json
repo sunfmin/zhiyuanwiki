@@ -30,16 +30,7 @@
           "minScore": 500,
           "minRank": 169434,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "湖南中医药高等专科学校",
-      "schoolCode": "4354",
-      "majorKey": "3a6d83b5",
-      "majorName": "中医骨伤（云龙校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -76,16 +67,7 @@
           "minScore": 489,
           "minRank": 181114,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "湖南中医药高等专科学校",
-      "schoolCode": "4354",
-      "majorKey": "3045223a",
-      "majorName": "中药学（芦淞校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -122,16 +104,7 @@
           "minScore": 487,
           "minRank": 183201,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "湖南中医药高等专科学校",
-      "schoolCode": "4354",
-      "majorKey": "01797ae4",
-      "majorName": "护理（芦淞校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -161,16 +134,7 @@
           "minScore": 509,
           "minRank": 159044,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "湖南中医药高等专科学校",
-      "schoolCode": "4354",
-      "majorKey": "826e4262",
-      "majorName": "针灸推拿（云龙校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -183,8 +147,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "针灸推拿（云龙校区）",
-      "majorKey": "826e4262",
+      "majorName": "针灸推拿",
+      "majorKey": "7b806226",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "5460",
@@ -192,11 +157,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 160105,
-      "equivRank": 160105
+      "equivRank": 160105,
+      "prevScore": 511
     },
     {
-      "majorName": "中医骨伤（云龙校区）",
-      "majorKey": "3a6d83b5",
+      "majorName": "中医骨伤",
+      "majorKey": "3b33ba45",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5460",
@@ -204,11 +171,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 165635,
-      "equivRank": 165635
+      "equivRank": 165635,
+      "prevScore": 506
     },
     {
-      "majorName": "中药学（芦淞校区）",
-      "majorKey": "3045223a",
+      "majorName": "中药学",
+      "majorKey": "f9504a0c",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "5460",
@@ -216,11 +185,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 170781,
-      "equivRank": 170781
+      "equivRank": 170781,
+      "prevScore": 502
     },
     {
-      "majorName": "护理（芦淞校区）",
-      "majorKey": "01797ae4",
+      "majorName": "护理",
+      "majorKey": "a3db4652",
+      "track": "综合",
       "selKe": "不限",
       "plan": 8,
       "tuition": "5460",
@@ -228,7 +199,8 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 181459,
-      "equivRank": 181459
+      "equivRank": 181459,
+      "prevScore": 492
     }
   ]
 }

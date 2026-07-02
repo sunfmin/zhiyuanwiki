@@ -73,8 +73,8 @@
     {
       "schoolKey": "成都理工大学工程技术学院",
       "schoolCode": "5104",
-      "majorKey": "4bed4b11",
-      "majorName": "大数据与会计（三年制）",
+      "majorKey": "49f153aa",
+      "majorName": "大数据与会计",
       "selKe": "不限",
       "years": [
         {
@@ -83,16 +83,7 @@
           "minScore": 512,
           "minRank": 153373,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "成都理工大学工程技术学院",
-      "schoolCode": "5104",
-      "majorKey": "1bc9b4aa",
-      "majorName": "大数据与会计（专科专业）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2023,
           "track": "综合",
@@ -142,8 +133,8 @@
     {
       "schoolKey": "成都理工大学工程技术学院",
       "schoolCode": "5104",
-      "majorKey": "a9dde98e",
-      "majorName": "工程造价（三年制）",
+      "majorKey": "b8be11ab",
+      "majorName": "工程造价",
       "selKe": "不限",
       "years": [
         {
@@ -152,16 +143,7 @@
           "minScore": 516,
           "minRank": 148810,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "成都理工大学工程技术学院",
-      "schoolCode": "5104",
-      "majorKey": "8f59f837",
-      "majorName": "工程造价（专科专业）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2023,
           "track": "综合",
@@ -301,8 +283,8 @@
     {
       "schoolKey": "成都理工大学工程技术学院",
       "schoolCode": "5104",
-      "majorKey": "ae284d70",
-      "majorName": "计算机应用技术（三年制）",
+      "majorKey": "faccc9c5",
+      "majorName": "计算机应用技术",
       "selKe": "不限",
       "years": [
         {
@@ -311,16 +293,7 @@
           "minScore": 507,
           "minRank": 158646,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "成都理工大学工程技术学院",
-      "schoolCode": "5104",
-      "majorKey": "b0ac92a5",
-      "majorName": "计算机应用技术（专科专业）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2023,
           "track": "综合",
@@ -372,6 +345,7 @@
     {
       "majorName": "会计学",
       "majorKey": "8aa56116",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "16300",
@@ -379,11 +353,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 109812,
-      "equivRank": 109812
+      "equivRank": 109812,
+      "prevScore": 552
     },
     {
       "majorName": "审计学",
       "majorKey": "87f6e6a2",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "16300",
@@ -391,11 +367,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 113394,
-      "equivRank": 113394
+      "equivRank": 113394,
+      "prevScore": 549
     },
     {
       "majorName": "核工程与核技术",
       "majorKey": "470379d7",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "17800",
@@ -403,11 +381,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 158320,
-      "equivRank": 158320
+      "equivRank": 158320,
+      "prevScore": 512
     },
     {
       "majorName": "电气工程及其自动化",
       "majorKey": "45947d31",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "17800",
@@ -415,11 +395,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 168461,
-      "equivRank": 168461
+      "equivRank": 168461,
+      "prevScore": 504
     },
     {
       "majorName": "软件工程",
       "majorKey": "0c33cbdd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "17800",
@@ -427,11 +409,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 170451,
-      "equivRank": 170451
+      "equivRank": 170451,
+      "prevScore": 502
     },
     {
       "majorName": "新能源材料与器件",
       "majorKey": "35ec1f36",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "17800",
@@ -439,11 +423,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 174285,
-      "equivRank": 174285
+      "equivRank": 174285,
+      "prevScore": 499
     },
     {
       "majorName": "机械工程",
       "majorKey": "bdb5a180",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "17800",
@@ -451,7 +437,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 174575,
-      "equivRank": 174575
+      "equivRank": 174575,
+      "prevScore": 498
     }
   ]
 }

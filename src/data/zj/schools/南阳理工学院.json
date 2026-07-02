@@ -80,8 +80,8 @@
     {
       "schoolKey": "南阳理工学院",
       "schoolCode": "4228",
-      "majorKey": "408cc490",
-      "majorName": "国际经济与贸易（数字商务方向）",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
       "selKe": "不限",
       "years": [
         {
@@ -103,10 +103,24 @@
     {
       "schoolKey": "南阳理工学院",
       "schoolCode": "4228",
-      "majorKey": "3ca453f2",
-      "majorName": "土木工程（建筑工程方向）",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
       "selKe": "物理、化学(2科必选)",
       "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 533,
+          "minRank": 127707,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 533,
+          "minRank": 125262,
+          "maxScore": 0
+        },
         {
           "year": 2024,
           "track": "综合",
@@ -126,31 +140,8 @@
     {
       "schoolKey": "南阳理工学院",
       "schoolCode": "4228",
-      "majorKey": "77624177",
-      "majorName": "土木工程（房屋建筑方向）",
-      "selKe": "物理必选",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 533,
-          "minRank": 127707,
-          "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 533,
-          "minRank": 125262,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "南阳理工学院",
-      "schoolCode": "4228",
-      "majorKey": "6e38b28d",
-      "majorName": "学前教育（师范）",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
       "selKe": "不限",
       "years": [
         {
@@ -184,26 +175,17 @@
       "selKe": "不限",
       "years": [
         {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 566,
-          "minRank": 92727,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "南阳理工学院",
-      "schoolCode": "4228",
-      "majorKey": "98aaff3f",
-      "majorName": "工商管理（数字化运营管理方向）",
-      "selKe": "不限",
-      "years": [
-        {
           "year": 2024,
           "track": "综合",
           "minScore": 564,
           "minRank": 94668,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 566,
+          "minRank": 92727,
           "maxScore": 0
         }
       ]
@@ -251,16 +233,7 @@
           "minScore": 557,
           "minRank": 102276,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "南阳理工学院",
-      "schoolCode": "4228",
-      "majorKey": "7c1cb161",
-      "majorName": "广播电视编导（授予艺术学学士学位）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -310,8 +283,8 @@
     {
       "schoolKey": "南阳理工学院",
       "schoolCode": "4228",
-      "majorKey": "dc4ef7e8",
-      "majorName": "数学与应用数学（经济数学方向）",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -421,8 +394,8 @@
     {
       "schoolKey": "南阳理工学院",
       "schoolCode": "4228",
-      "majorKey": "14fd1130",
-      "majorName": "电子商务（新媒体运营方向）",
+      "majorKey": "0b52f20f",
+      "majorName": "电子商务",
       "selKe": "不限",
       "years": [
         {
@@ -659,8 +632,8 @@
     {
       "schoolKey": "南阳理工学院",
       "schoolCode": "4228",
-      "majorKey": "48089415",
-      "majorName": "软件工程（移动设备应用开发方向）",
+      "majorKey": "0c33cbdd",
+      "majorName": "软件工程",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -677,6 +650,7 @@
     {
       "majorName": "历史建筑保护工程",
       "majorKey": "23d2d47e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5000",
@@ -684,11 +658,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 90992,
-      "equivRank": 90992
+      "equivRank": 90992,
+      "prevScore": 567
     },
     {
-      "majorName": "国际经济与贸易（数字商务方向）",
-      "majorKey": "408cc490",
+      "majorName": "国际经济与贸易",
+      "majorKey": "f8a1727e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "4400",
@@ -696,11 +672,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 90993,
-      "equivRank": 90993
+      "equivRank": 90993,
+      "prevScore": 567
     },
     {
       "majorName": "英语",
       "majorKey": "49c5cdf9",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4400",
@@ -708,11 +686,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 91568,
-      "equivRank": 91568
+      "equivRank": 91568,
+      "prevScore": 567
     },
     {
       "majorName": "工商管理",
       "majorKey": "07c28723",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "4400",
@@ -720,11 +700,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 92727,
-      "equivRank": 92727
+      "equivRank": 92727,
+      "prevScore": 566
     },
     {
-      "majorName": "广播电视编导（授予艺术学学士学位）",
-      "majorKey": "7c1cb161",
+      "majorName": "广播电视编导",
+      "majorKey": "b86f75b5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "8000",
@@ -732,11 +714,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 97286,
-      "equivRank": 97286
+      "equivRank": 97286,
+      "prevScore": 562
     },
     {
       "majorName": "计算机科学与技术",
       "majorKey": "1d486608",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 6,
       "tuition": "5000",
@@ -744,11 +728,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 124169,
-      "equivRank": 124169
+      "equivRank": 124169,
+      "prevScore": 540
     },
     {
       "majorName": "电气工程及其自动化",
       "majorKey": "45947d31",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "5000",
@@ -756,11 +742,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 130238,
-      "equivRank": 130238
+      "equivRank": 130238,
+      "prevScore": 535
     },
     {
       "majorName": "网络空间安全",
       "majorKey": "3093c484",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 6,
       "tuition": "5000",
@@ -768,11 +756,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 136426,
-      "equivRank": 136426
+      "equivRank": 136426,
+      "prevScore": 530
     },
     {
       "majorName": "自动化",
       "majorKey": "da95770c",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "5000",
@@ -780,11 +770,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 137226,
-      "equivRank": 137226
+      "equivRank": 137226,
+      "prevScore": 530
     },
     {
       "majorName": "机械设计制造及其自动化",
       "majorKey": "55ff9da5",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 6,
       "tuition": "5000",
@@ -792,11 +784,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 137236,
-      "equivRank": 137236
+      "equivRank": 137236,
+      "prevScore": 530
     },
     {
       "majorName": "人工智能",
       "majorKey": "2fec4169",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "5000",
@@ -804,11 +798,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 138832,
-      "equivRank": 138832
+      "equivRank": 138832,
+      "prevScore": 528
     },
     {
       "majorName": "物联网工程",
       "majorKey": "1da18825",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "5000",
@@ -816,11 +812,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 143487,
-      "equivRank": 143487
+      "equivRank": 143487,
+      "prevScore": 524
     },
     {
       "majorName": "虚拟现实技术",
       "majorKey": "b26a9631",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "5000",
@@ -828,11 +826,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 146087,
-      "equivRank": 146087
+      "equivRank": 146087,
+      "prevScore": 522
     },
     {
       "majorName": "应用统计学",
       "majorKey": "d054f8d1",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "5000",
@@ -840,11 +840,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 147848,
-      "equivRank": 147848
+      "equivRank": 147848,
+      "prevScore": 521
     },
     {
-      "majorName": "数学与应用数学（经济数学方向）",
-      "majorKey": "dc4ef7e8",
+      "majorName": "数学与应用数学",
+      "majorKey": "618fdffd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "5000",
@@ -852,11 +854,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 149986,
-      "equivRank": 149986
+      "equivRank": 149986,
+      "prevScore": 519
     },
     {
-      "majorName": "软件工程（移动设备应用开发方向）",
-      "majorKey": "48089415",
+      "majorName": "软件工程",
+      "majorKey": "0c33cbdd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 10,
       "tuition": "12000",
@@ -864,11 +868,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 160827,
-      "equivRank": 160827
+      "equivRank": 160827,
+      "prevScore": 510
     },
     {
-      "majorName": "土木工程（建筑工程方向）",
-      "majorKey": "3ca453f2",
+      "majorName": "土木工程",
+      "majorKey": "320e7128",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "5000",
@@ -876,7 +882,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 164324,
-      "equivRank": 164324
+      "equivRank": 164324,
+      "prevScore": 507
     }
   ]
 }

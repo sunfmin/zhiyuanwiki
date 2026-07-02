@@ -6,8 +6,8 @@
     {
       "schoolKey": "黑龙江农垦职业学院",
       "schoolCode": "2329",
-      "majorKey": "5f4983f6",
-      "majorName": "医学检验技术（江北校区。）",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
       "selKe": "不限",
       "years": [
         {
@@ -22,8 +22,8 @@
     {
       "schoolKey": "黑龙江农垦职业学院",
       "schoolCode": "2329",
-      "majorKey": "6e38b28d",
-      "majorName": "学前教育（师范）",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
       "selKe": "不限",
       "years": [
         {
@@ -52,8 +52,8 @@
     {
       "schoolKey": "黑龙江农垦职业学院",
       "schoolCode": "2329",
-      "majorKey": "7d354abe",
-      "majorName": "小学英语教育（师范）",
+      "majorKey": "67470343",
+      "majorName": "小学英语教育",
       "selKe": "不限",
       "years": [
         {
@@ -82,8 +82,8 @@
     {
       "schoolKey": "黑龙江农垦职业学院",
       "schoolCode": "2329",
-      "majorKey": "0b4590ff",
-      "majorName": "小学语文教育（师范）",
+      "majorKey": "c8b70f42",
+      "majorName": "小学语文教育",
       "selKe": "不限",
       "years": [
         {
@@ -129,16 +129,7 @@
           "minScore": 439,
           "minRank": 218436,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "黑龙江农垦职业学院",
-      "schoolCode": "2329",
-      "majorKey": "227f8961",
-      "majorName": "康复治疗技术（江北校区。）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -161,16 +152,7 @@
           "minScore": 455,
           "minRank": 205849,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "黑龙江农垦职业学院",
-      "schoolCode": "2329",
-      "majorKey": "7473206a",
-      "majorName": "护理（江北校区。）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -183,8 +165,8 @@
     {
       "schoolKey": "黑龙江农垦职业学院",
       "schoolCode": "2329",
-      "majorKey": "1bbe5add",
-      "majorName": "早期教育（师范）",
+      "majorKey": "8c72bad4",
+      "majorName": "早期教育",
       "selKe": "不限",
       "years": [
         {
@@ -193,16 +175,7 @@
           "minScore": 456,
           "minRank": 207959,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "黑龙江农垦职业学院",
-      "schoolCode": "2329",
-      "majorKey": "2fd0914c",
-      "majorName": "早期教育（江北校区。）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -215,8 +188,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "小学语文教育（师范）",
-      "majorKey": "0b4590ff",
+      "majorName": "小学语文教育",
+      "majorKey": "c8b70f42",
+      "track": "综合",
       "selKe": "不限",
       "plan": 15,
       "tuition": "6000",
@@ -224,11 +198,55 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
-      "majorName": "学前教育（师范）",
-      "majorKey": "6e38b28d",
+      "majorName": "康复治疗技术",
+      "majorKey": "4fab0557",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 5,
+      "tuition": "6000",
+      "schooling": "三年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 236330,
+      "equivRank": 236330,
+      "prevScore": 431
+    },
+    {
+      "majorName": "护理",
+      "majorKey": "a3db4652",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 5,
+      "tuition": "6000",
+      "schooling": "三年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 237023,
+      "equivRank": 237023,
+      "prevScore": 430
+    },
+    {
+      "majorName": "医学检验技术",
+      "majorKey": "f106fa76",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 5,
+      "tuition": "6000",
+      "schooling": "三年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 267852,
+      "equivRank": 267852,
+      "prevScore": 370
+    },
+    {
+      "majorName": "学前教育",
+      "majorKey": "97716b64",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "6000",
@@ -236,43 +254,22 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 270323,
-      "equivRank": 270323
+      "equivRank": 270323,
+      "prevScore": 363
     },
     {
-      "majorName": "医学检验技术（江北校区）",
-      "majorKey": "8279d719",
-      "selKe": "不限",
-      "plan": 5,
-      "tuition": "6000",
-      "schooling": "三年",
-      "menlei": "医"
-    },
-    {
-      "majorName": "康复治疗技术（江北校区）",
-      "majorKey": "5c370308",
-      "selKe": "不限",
-      "plan": 5,
-      "tuition": "6000",
-      "schooling": "三年",
-      "menlei": "医"
-    },
-    {
-      "majorName": "护理（江北校区）",
-      "majorKey": "73b9f685",
-      "selKe": "不限",
-      "plan": 5,
-      "tuition": "6000",
-      "schooling": "三年",
-      "menlei": "医"
-    },
-    {
-      "majorName": "早期教育（江北校区）",
-      "majorKey": "1c238cfb",
+      "majorName": "早期教育",
+      "majorKey": "8c72bad4",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "6000",
       "schooling": "三年",
-      "menlei": "教"
+      "menlei": "教",
+      "prevYear": 2025,
+      "prevRank": 280087,
+      "equivRank": 280087,
+      "prevScore": 326
     }
   ]
 }

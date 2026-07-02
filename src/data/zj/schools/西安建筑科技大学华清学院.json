@@ -6,8 +6,8 @@
     {
       "schoolKey": "西安建筑科技大学华清学院",
       "schoolCode": "6126",
-      "majorKey": "59901de7",
-      "majorName": "城市地下空间工程（楼观校区。）",
+      "majorKey": "7201e1a9",
+      "majorName": "城市地下空间工程",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -22,8 +22,8 @@
     {
       "schoolKey": "西安建筑科技大学华清学院",
       "schoolCode": "6126",
-      "majorKey": "b34a7f9d",
-      "majorName": "工程管理（楼观校区。）",
+      "majorKey": "4166f1ff",
+      "majorName": "工程管理",
       "selKe": "物理必选",
       "years": [
         {
@@ -62,16 +62,7 @@
           "minScore": 471,
           "minRank": 197993,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "西安建筑科技大学华清学院",
-      "schoolCode": "6126",
-      "majorKey": "70d52dd1",
-      "majorName": "建筑环境与能源应用工程（楼观校区。）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -84,8 +75,8 @@
     {
       "schoolKey": "西安建筑科技大学华清学院",
       "schoolCode": "6126",
-      "majorKey": "44b0e38d",
-      "majorName": "数字经济（楼观校区。）",
+      "majorKey": "ca37000f",
+      "majorName": "数字经济",
       "selKe": "物理必选",
       "years": [
         {
@@ -100,8 +91,8 @@
     {
       "schoolKey": "西安建筑科技大学华清学院",
       "schoolCode": "6126",
-      "majorKey": "b07a2160",
-      "majorName": "智能制造工程（楼观校区）",
+      "majorKey": "ed53a26b",
+      "majorName": "智能制造工程",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -275,8 +266,8 @@
     {
       "schoolKey": "西安建筑科技大学华清学院",
       "schoolCode": "6126",
-      "majorKey": "a3066593",
-      "majorName": "计算机科学与技术（楼观校区）",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -291,8 +282,8 @@
     {
       "schoolKey": "西安建筑科技大学华清学院",
       "schoolCode": "6126",
-      "majorKey": "94e0040a",
-      "majorName": "风景园林（楼观校区）",
+      "majorKey": "9b8820c1",
+      "majorName": "风景园林",
       "selKe": "不限",
       "years": [
         {
@@ -307,8 +298,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "风景园林（楼观校区）",
-      "majorKey": "94e0040a",
+      "majorName": "风景园林",
+      "majorKey": "9b8820c1",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "22000",
@@ -316,11 +308,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 123534,
-      "equivRank": 123534
+      "equivRank": 123534,
+      "prevScore": 541
     },
     {
-      "majorName": "智能制造工程（楼观校区）",
-      "majorKey": "b07a2160",
+      "majorName": "智能制造工程",
+      "majorKey": "ed53a26b",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "22000",
@@ -328,11 +322,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 173675,
-      "equivRank": 173675
+      "equivRank": 173675,
+      "prevScore": 499
     },
     {
-      "majorName": "计算机科学与技术（楼观校区）",
-      "majorKey": "a3066593",
+      "majorName": "计算机科学与技术",
+      "majorKey": "1d486608",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "22000",
@@ -340,43 +336,64 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 181129,
-      "equivRank": 181129
+      "equivRank": 181129,
+      "prevScore": 492
     },
     {
-      "majorName": "城市地下空间工程（楼观校区）",
-      "majorKey": "9ca1a152",
+      "majorName": "数字经济",
+      "majorKey": "ca37000f",
+      "track": "综合",
+      "selKe": "物理必选",
+      "plan": 2,
+      "tuition": "22000",
+      "schooling": "四年",
+      "menlei": "经",
+      "prevYear": 2025,
+      "prevRank": 190798,
+      "equivRank": 190798,
+      "prevScore": 484
+    },
+    {
+      "majorName": "建筑环境与能源应用工程",
+      "majorKey": "b176ee03",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "22000",
       "schooling": "四年",
-      "menlei": "工"
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 192932,
+      "equivRank": 192932,
+      "prevScore": 482
     },
     {
-      "majorName": "工程管理（楼观校区）",
-      "majorKey": "00e83fcc",
+      "majorName": "城市地下空间工程",
+      "majorKey": "7201e1a9",
+      "track": "综合",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "22000",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 195964,
+      "equivRank": 195964,
+      "prevScore": 479
+    },
+    {
+      "majorName": "工程管理",
+      "majorKey": "4166f1ff",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 3,
       "tuition": "22000",
       "schooling": "四年",
-      "menlei": "管"
-    },
-    {
-      "majorName": "建筑环境与能源应用工程（楼观校区）",
-      "majorKey": "d4ca50d8",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "22000",
-      "schooling": "四年",
-      "menlei": "工"
-    },
-    {
-      "majorName": "数字经济（楼观校区）",
-      "majorKey": "e8f04adc",
-      "selKe": "物理必选",
-      "plan": 2,
-      "tuition": "22000",
-      "schooling": "四年",
-      "menlei": "经"
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 197988,
+      "equivRank": 197988,
+      "prevScore": 477
     }
   ]
 }

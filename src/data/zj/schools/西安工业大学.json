@@ -6,8 +6,8 @@
     {
       "schoolKey": "西安工业大学",
       "schoolCode": "6120",
-      "majorKey": "a411e6be",
-      "majorName": "会计学（未央校区）",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
       "selKe": "不限",
       "years": [
         {
@@ -22,8 +22,8 @@
     {
       "schoolKey": "西安工业大学",
       "schoolCode": "6120",
-      "majorKey": "cda2a480",
-      "majorName": "光电信息科学与工程（未央校区）",
+      "majorKey": "d8f4c9ac",
+      "majorName": "光电信息科学与工程",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -62,16 +62,7 @@
           "minScore": 584,
           "minRank": 71160,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "西安工业大学",
-      "schoolCode": "6120",
-      "majorKey": "3e051feb",
-      "majorName": "工业工程（未央校区）",
-      "selKe": "物理必选",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -131,16 +122,7 @@
           "minScore": 572,
           "minRank": 84512,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "西安工业大学",
-      "schoolCode": "6120",
-      "majorKey": "ceb60797",
-      "majorName": "应用物理学（未央校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -169,8 +151,8 @@
     {
       "schoolKey": "西安工业大学",
       "schoolCode": "6120",
-      "majorKey": "ccd1f1ef",
-      "majorName": "智能建造（未央校区）",
+      "majorKey": "2363aecb",
+      "majorName": "智能建造",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -208,8 +190,8 @@
     {
       "schoolKey": "西安工业大学",
       "schoolCode": "6120",
-      "majorKey": "ae7e82c7",
-      "majorName": "机械设计制造及其自动化（中外合作办学）",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -284,8 +266,8 @@
     {
       "schoolKey": "西安工业大学",
       "schoolCode": "6120",
-      "majorKey": "09127091",
-      "majorName": "电气工程及其自动化（未央校区）",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -302,7 +284,7 @@
       "schoolCode": "6120",
       "majorKey": "da95770c",
       "majorName": "自动化",
-      "selKe": "物理必选",
+      "selKe": "物理、化学(2科必选)",
       "years": [
         {
           "year": 2022,
@@ -316,22 +298,6 @@
           "track": "综合",
           "minScore": 597,
           "minRank": 55582,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "西安工业大学",
-      "schoolCode": "6120",
-      "majorKey": "f710f312",
-      "majorName": "自动化（中外合作办学）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 578,
-          "minRank": 75093,
           "maxScore": 0
         },
         {
@@ -376,8 +342,8 @@
     {
       "schoolKey": "西安工业大学",
       "schoolCode": "6120",
-      "majorKey": "7bf8688c",
-      "majorName": "计算机科学与技术（未央校区）",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -408,8 +374,8 @@
     {
       "schoolKey": "西安工业大学",
       "schoolCode": "6120",
-      "majorKey": "cf58e6bd",
-      "majorName": "金属材料工程（中外合作办学）",
+      "majorKey": "9f804adb",
+      "majorName": "金属材料工程",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -431,8 +397,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "计算机科学与技术（未央校区）",
-      "majorKey": "7bf8688c",
+      "majorName": "计算机科学与技术",
+      "majorKey": "1d486608",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6480",
@@ -440,11 +407,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 51641,
-      "equivRank": 51641
+      "equivRank": 51641,
+      "prevScore": 600
     },
     {
-      "majorName": "电气工程及其自动化（未央校区）",
-      "majorKey": "09127091",
+      "majorName": "电气工程及其自动化",
+      "majorKey": "45947d31",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "6480",
@@ -452,11 +421,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 53947,
-      "equivRank": 53947
+      "equivRank": 53947,
+      "prevScore": 598
     },
     {
-      "majorName": "会计学（未央校区）",
-      "majorKey": "a411e6be",
+      "majorName": "会计学",
+      "majorKey": "8aa56116",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5400",
@@ -464,11 +435,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 55421,
-      "equivRank": 55421
+      "equivRank": 55421,
+      "prevScore": 597
     },
     {
-      "majorName": "光电信息科学与工程（未央校区）",
-      "majorKey": "cda2a480",
+      "majorName": "光电信息科学与工程",
+      "majorKey": "d8f4c9ac",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6480",
@@ -476,11 +449,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 58578,
-      "equivRank": 58578
+      "equivRank": 58578,
+      "prevScore": 594
     },
     {
-      "majorName": "工业工程（未央校区）",
-      "majorKey": "3e051feb",
+      "majorName": "工业工程",
+      "majorKey": "13c18eb7",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 3,
       "tuition": "6480",
@@ -488,11 +463,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 74129,
-      "equivRank": 74129
+      "equivRank": 74129,
+      "prevScore": 581
     },
     {
-      "majorName": "智能建造（未央校区）",
-      "majorKey": "ccd1f1ef",
+      "majorName": "智能建造",
+      "majorKey": "2363aecb",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6000",
@@ -500,11 +477,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 77043,
-      "equivRank": 77043
+      "equivRank": 77043,
+      "prevScore": 579
     },
     {
-      "majorName": "应用物理学（未央校区）",
-      "majorKey": "ceb60797",
+      "majorName": "应用物理学",
+      "majorKey": "409f7ac3",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6000",
@@ -512,11 +491,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 85243,
-      "equivRank": 85243
+      "equivRank": 85243,
+      "prevScore": 572
     },
     {
-      "majorName": "金属材料工程（中外合作办学）",
-      "majorKey": "cf58e6bd",
+      "majorName": "金属材料工程",
+      "majorKey": "9f804adb",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "50000",
@@ -525,7 +506,8 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 93235,
-      "equivRank": 93235
+      "equivRank": 93235,
+      "prevScore": 565
     }
   ]
 }

@@ -34,6 +34,13 @@
       "selKe": "不限",
       "years": [
         {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 507,
+          "minRank": 159272,
+          "maxScore": 0
+        },
+        {
           "year": 2023,
           "track": "综合",
           "minScore": 498,
@@ -52,22 +59,6 @@
           "track": "综合",
           "minScore": 513,
           "minRank": 157548,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "长沙电力职业技术学院",
-      "schoolCode": "4302",
-      "majorKey": "96fe0ccd",
-      "majorName": "分布式发电与智能微电网技术（风电方向）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 507,
-          "minRank": 159272,
           "maxScore": 0
         }
       ]
@@ -220,6 +211,7 @@
     {
       "majorName": "供用电技术",
       "majorKey": "3f4bca86",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4600",
@@ -227,11 +219,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 140739,
-      "equivRank": 140739
+      "equivRank": 140739,
+      "prevScore": 527
     },
     {
       "majorName": "输配电工程技术",
       "majorKey": "aa60cbd7",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4600",
@@ -239,11 +233,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 155204,
-      "equivRank": 155204
+      "equivRank": 155204,
+      "prevScore": 515
     },
     {
       "majorName": "分布式发电与智能微电网技术",
       "majorKey": "98b322f3",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4600",
@@ -251,11 +247,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 157548,
-      "equivRank": 157548
+      "equivRank": 157548,
+      "prevScore": 513
     },
     {
       "majorName": "发电运行技术",
       "majorKey": "64350931",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5000",
@@ -263,11 +261,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 165420,
-      "equivRank": 165420
+      "equivRank": 165420,
+      "prevScore": 506
     },
     {
       "majorName": "热能动力工程技术",
       "majorKey": "c96581bb",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4600",
@@ -275,7 +275,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 177463,
-      "equivRank": 177463
+      "equivRank": 177463,
+      "prevScore": 496
     }
   ]
 }

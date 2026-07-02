@@ -16,6 +16,13 @@
           "minScore": 561,
           "minRank": 98484,
           "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 552,
+          "minRank": 109665,
+          "maxScore": 0
         }
       ]
     },
@@ -61,22 +68,6 @@
           "track": "综合",
           "minScore": 592,
           "minRank": 60915,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "湖北师范大学",
-      "schoolCode": "4029",
-      "majorKey": "0dfc12db",
-      "majorName": "化学（师范）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 552,
-          "minRank": 109665,
           "maxScore": 0
         }
       ]
@@ -151,22 +142,6 @@
       "selKe": "不限",
       "years": [
         {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 609,
-          "minRank": 44504,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "湖北师范大学",
-      "schoolCode": "4029",
-      "majorKey": "c1686945",
-      "majorName": "教育学类（师范）",
-      "selKe": "不限",
-      "years": [
-        {
           "year": 2022,
           "track": "综合",
           "minScore": 606,
@@ -178,6 +153,13 @@
           "track": "综合",
           "minScore": 604,
           "minRank": 48514,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 609,
+          "minRank": 44504,
           "maxScore": 0
         },
         {
@@ -197,26 +179,17 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 584,
-          "minRank": 71793,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "湖北师范大学",
-      "schoolCode": "4029",
-      "majorKey": "9f802a9c",
-      "majorName": "数学与应用数学（师范）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
           "year": 2023,
           "track": "综合",
           "minScore": 604,
           "minRank": 48592,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 584,
+          "minRank": 71793,
           "maxScore": 0
         },
         {
@@ -294,16 +267,7 @@
           "minScore": 609,
           "minRank": 44504,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "湖北师范大学",
-      "schoolCode": "4029",
-      "majorKey": "d7131091",
-      "majorName": "汉语言文学（师范）",
-      "selKe": "历史必选",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -386,6 +350,13 @@
           "minScore": 490,
           "minRank": 180216,
           "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 551,
+          "minRank": 110509,
+          "maxScore": 0
         }
       ]
     },
@@ -408,24 +379,8 @@
     {
       "schoolKey": "湖北师范大学",
       "schoolCode": "4029",
-      "majorKey": "80353860",
-      "majorName": "生物科学（师范）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 551,
-          "minRank": 110509,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "湖北师范大学",
-      "schoolCode": "4029",
-      "majorKey": "635403c8",
-      "majorName": "电子信息工程（中外合作办学）",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -597,8 +552,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "汉语言文学（师范）",
-      "majorKey": "d7131091",
+      "majorName": "汉语言文学",
+      "majorKey": "97bc5998",
+      "track": "综合",
       "selKe": "历史必选",
       "plan": 2,
       "tuition": "5200",
@@ -606,11 +562,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 45728,
-      "equivRank": 45728
+      "equivRank": 45728,
+      "prevScore": 606
     },
     {
       "majorName": "法学",
       "majorKey": "a1113a1f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5200",
@@ -618,11 +576,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 49450,
-      "equivRank": 49450
+      "equivRank": 49450,
+      "prevScore": 602
     },
     {
-      "majorName": "教育学类（师范）",
-      "majorKey": "c1686945",
+      "majorName": "教育学类",
+      "majorKey": "7273f83c",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "4000",
@@ -630,11 +590,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 54344,
-      "equivRank": 54344
+      "equivRank": 54344,
+      "prevScore": 598
     },
     {
       "majorName": "网络与新媒体",
       "majorKey": "fff04889",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5200",
@@ -642,11 +604,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 64740,
-      "equivRank": 64740
+      "equivRank": 64740,
+      "prevScore": 589
     },
     {
       "majorName": "经济学",
       "majorKey": "bda0ff17",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5200",
@@ -654,11 +618,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 70701,
-      "equivRank": 70701
+      "equivRank": 70701,
+      "prevScore": 584
     },
     {
-      "majorName": "数学与应用数学（师范）",
-      "majorKey": "9f802a9c",
+      "majorName": "数学与应用数学",
+      "majorKey": "618fdffd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5200",
@@ -666,11 +632,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 76229,
-      "equivRank": 76229
+      "equivRank": 76229,
+      "prevScore": 579
     },
     {
       "majorName": "社会工作",
       "majorKey": "fd907dda",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "4000",
@@ -678,11 +646,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 79509,
-      "equivRank": 79509
+      "equivRank": 79509,
+      "prevScore": 577
     },
     {
-      "majorName": "化学（师范）",
-      "majorKey": "0dfc12db",
+      "majorName": "化学",
+      "majorKey": "04ab47fe",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5200",
@@ -690,11 +660,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 109665,
-      "equivRank": 109665
+      "equivRank": 109665,
+      "prevScore": 552
     },
     {
-      "majorName": "生物科学（师范）",
-      "majorKey": "80353860",
+      "majorName": "生物科学",
+      "majorKey": "e2472a71",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5200",
@@ -702,11 +674,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 110509,
-      "equivRank": 110509
+      "equivRank": 110509,
+      "prevScore": 551
     },
     {
       "majorName": "材料科学与工程",
       "majorKey": "c425ce53",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5200",
@@ -714,11 +688,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 126498,
-      "equivRank": 126498
+      "equivRank": 126498,
+      "prevScore": 538
     },
     {
       "majorName": "应用化学",
       "majorKey": "25624660",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5200",
@@ -726,11 +702,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 129714,
-      "equivRank": 129714
+      "equivRank": 129714,
+      "prevScore": 536
     },
     {
       "majorName": "食品科学与工程",
       "majorKey": "7b7511cd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4000",
@@ -738,11 +716,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 133793,
-      "equivRank": 133793
+      "equivRank": 133793,
+      "prevScore": 532
     },
     {
-      "majorName": "电子信息工程（中外合作办学）",
-      "majorKey": "635403c8",
+      "majorName": "电子信息工程",
+      "majorKey": "fd603692",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 8,
       "tuition": "23000",
@@ -751,7 +731,8 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 140096,
-      "equivRank": 140096
+      "equivRank": 140096,
+      "prevScore": 527
     }
   ]
 }

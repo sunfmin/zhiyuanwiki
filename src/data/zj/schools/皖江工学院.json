@@ -16,16 +16,7 @@
           "minScore": 492,
           "minRank": 177804,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "皖江工学院",
-      "schoolCode": "3447",
-      "majorKey": "8d2fdd9f",
-      "majorName": "人工智能（第一、二学年在郑蒲港校区，第三学年起在霍里山校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -62,16 +53,7 @@
           "minScore": 546,
           "minRank": 115539,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "皖江工学院",
-      "schoolCode": "3447",
-      "majorKey": "0ff8b7d0",
-      "majorName": "国际经济与贸易（第一、二学年在郑蒲港校区，第三学年起在霍里山校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -108,16 +90,7 @@
           "minScore": 498,
           "minRank": 170753,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "皖江工学院",
-      "schoolCode": "3447",
-      "majorKey": "276dd8f8",
-      "majorName": "地理空间信息工程（第一、二学年在郑蒲港校区，第三学年起在霍里山校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -154,16 +127,7 @@
           "minScore": 483,
           "minRank": 186383,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "皖江工学院",
-      "schoolCode": "3447",
-      "majorKey": "07b0c3bc",
-      "majorName": "水利水电工程（第一、二学年在郑蒲港校区，第三学年起在霍里山校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -200,16 +164,7 @@
           "minScore": 508,
           "minRank": 159880,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "皖江工学院",
-      "schoolCode": "3447",
-      "majorKey": "aae6c3a7",
-      "majorName": "港口航道与海岸工程（第一、二学年在郑蒲港校区，第三学年起在霍里山校区。）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -222,8 +177,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "国际经济与贸易（第一、二学年在郑蒲港校区，第三学年起在霍里山校区）",
-      "majorKey": "0ff8b7d0",
+      "majorName": "国际经济与贸易",
+      "majorKey": "f8a1727e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "20000",
@@ -231,11 +187,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 116171,
-      "equivRank": 116171
+      "equivRank": 116171,
+      "prevScore": 547
     },
     {
-      "majorName": "人工智能（第一、二学年在郑蒲港校区，第三学年起在霍里山校区）",
-      "majorKey": "8d2fdd9f",
+      "majorName": "人工智能",
+      "majorKey": "2fec4169",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "23000",
@@ -243,11 +201,27 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 177204,
-      "equivRank": 177204
+      "equivRank": 177204,
+      "prevScore": 496
     },
     {
-      "majorName": "水利水电工程（第一、二学年在郑蒲港校区，第三学年起在霍里山校区）",
-      "majorKey": "07b0c3bc",
+      "majorName": "港口航道与海岸工程",
+      "majorKey": "8cb4f310",
+      "track": "综合",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "23000",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 178870,
+      "equivRank": 178870,
+      "prevScore": 495
+    },
+    {
+      "majorName": "水利水电工程",
+      "majorKey": "c5a57efa",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "23000",
@@ -255,11 +229,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 180081,
-      "equivRank": 180081
+      "equivRank": 180081,
+      "prevScore": 493
     },
     {
-      "majorName": "地理空间信息工程（第一、二学年在郑蒲港校区，第三学年起在霍里山校区）",
-      "majorKey": "276dd8f8",
+      "majorName": "地理空间信息工程",
+      "majorKey": "037ceb06",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "23000",
@@ -267,16 +243,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 181158,
-      "equivRank": 181158
-    },
-    {
-      "majorName": "港口航道与海岸工程（第一、二学年在郑蒲港校区，第三学年起在霍里山校区）",
-      "majorKey": "f5221712",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "23000",
-      "schooling": "四年",
-      "menlei": "工"
+      "equivRank": 181158,
+      "prevScore": 492
     }
   ]
 }

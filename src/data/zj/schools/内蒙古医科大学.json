@@ -23,16 +23,7 @@
           "minScore": 564,
           "minRank": 94247,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "内蒙古医科大学",
-      "schoolCode": "1511",
-      "majorKey": "1198ce7f",
-      "majorName": "临床医学（金山校区）",
-      "selKe": "物化生(3科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -62,16 +53,7 @@
           "minScore": 526,
           "minRank": 138539,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "内蒙古医科大学",
-      "schoolCode": "1511",
-      "majorKey": "b75ac03f",
-      "majorName": "康复治疗学（金山校区）",
-      "selKe": "物化生(3科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -108,16 +90,7 @@
           "minScore": 514,
           "minRank": 153050,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "内蒙古医科大学",
-      "schoolCode": "1511",
-      "majorKey": "7864d3ae",
-      "majorName": "药学（金山校区）",
-      "selKe": "物化生(3科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -147,16 +120,7 @@
           "minScore": 514,
           "minRank": 152619,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "内蒙古医科大学",
-      "schoolCode": "1511",
-      "majorKey": "0a8dfce6",
-      "majorName": "预防医学（金山校区）",
-      "selKe": "物化生(3科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -169,8 +133,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "临床医学（金山校区）",
-      "majorKey": "1198ce7f",
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "综合",
       "selKe": "物化生(3科必选)",
       "plan": 2,
       "tuition": "5000",
@@ -178,11 +143,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 105798,
-      "equivRank": 105798
+      "equivRank": 105798,
+      "prevScore": 555
     },
     {
-      "majorName": "康复治疗学（金山校区）",
-      "majorKey": "b75ac03f",
+      "majorName": "康复治疗学",
+      "majorKey": "a507c400",
+      "track": "综合",
       "selKe": "物化生(3科必选)",
       "plan": 1,
       "tuition": "5000",
@@ -190,11 +157,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 160775,
-      "equivRank": 160775
+      "equivRank": 160775,
+      "prevScore": 510
     },
     {
-      "majorName": "药学（金山校区）",
-      "majorKey": "7864d3ae",
+      "majorName": "药学",
+      "majorKey": "e9e6a481",
+      "track": "综合",
       "selKe": "物化生(3科必选)",
       "plan": 2,
       "tuition": "5000",
@@ -202,11 +171,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 180152,
-      "equivRank": 180152
+      "equivRank": 180152,
+      "prevScore": 493
     },
     {
-      "majorName": "预防医学（金山校区）",
-      "majorKey": "0a8dfce6",
+      "majorName": "预防医学",
+      "majorKey": "1954d9c9",
+      "track": "综合",
       "selKe": "物化生(3科必选)",
       "plan": 2,
       "tuition": "5000",
@@ -214,7 +185,8 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 180642,
-      "equivRank": 180642
+      "equivRank": 180642,
+      "prevScore": 493
     }
   ]
 }

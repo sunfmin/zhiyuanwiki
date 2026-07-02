@@ -265,22 +265,6 @@
     {
       "schoolKey": "湖州职业技术学院",
       "schoolCode": "0070",
-      "majorKey": "e8ac4eb1",
-      "majorName": "工业机器人技术（中外合作办学）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 454,
-          "minRank": 219114,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "湖州职业技术学院",
-      "schoolCode": "0070",
       "majorKey": "4dc0f93c",
       "majorName": "工业过程自动化技术",
       "selKe": "不限",
@@ -639,43 +623,6 @@
           "track": "综合",
           "minScore": 490,
           "minRank": 184372,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "湖州职业技术学院",
-      "schoolCode": "0070",
-      "majorKey": "3970e018",
-      "majorName": "旅游管理（中外合作办学）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 433,
-          "minRank": 224156,
-          "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 422,
-          "minRank": 230558,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 437,
-          "minRank": 225755,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 454,
-          "minRank": 219114,
           "maxScore": 0
         }
       ]
@@ -1260,6 +1207,7 @@
     {
       "majorName": "机电一体化技术",
       "majorKey": "d4465443",
+      "track": "综合",
       "selKe": "不限",
       "plan": 32,
       "tuition": "7500",
@@ -1267,11 +1215,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 149572,
-      "equivRank": 149572
+      "equivRank": 149572,
+      "prevScore": 520
     },
     {
       "majorName": "大数据与会计",
       "majorKey": "49f153aa",
+      "track": "综合",
       "selKe": "不限",
       "plan": 47,
       "tuition": "6900",
@@ -1279,11 +1229,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 171617,
-      "equivRank": 171617
+      "equivRank": 171617,
+      "prevScore": 501
     },
     {
       "majorName": "人力资源管理",
       "majorKey": "5a324641",
+      "track": "综合",
       "selKe": "不限",
       "plan": 50,
       "tuition": "6000",
@@ -1291,11 +1243,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "商务英语",
       "majorKey": "4428fd77",
+      "track": "综合",
       "selKe": "不限",
       "plan": 100,
       "tuition": "6000",
@@ -1303,11 +1257,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "国际经济与贸易",
       "majorKey": "f8a1727e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 18,
       "tuition": "6900",
@@ -1315,11 +1271,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "大数据技术",
       "majorKey": "a0b9e84e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 60,
       "tuition": "6600",
@@ -1327,11 +1285,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "室内艺术设计",
       "majorKey": "ecb3782f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 15,
       "tuition": "9000",
@@ -1339,23 +1299,28 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "工业机器人技术",
       "majorKey": "26a2bf3f",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 22,
-      "tuition": "6600",
+      "plan": 77,
+      "tuition": "18800",
       "schooling": "三年",
       "menlei": "工",
+      "coop": true,
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "工业过程自动化技术",
       "majorKey": "4dc0f93c",
+      "track": "综合",
       "selKe": "不限",
       "plan": 22,
       "tuition": "6600",
@@ -1363,11 +1328,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "市政工程技术",
       "majorKey": "d4270a87",
+      "track": "综合",
       "selKe": "不限",
       "plan": 20,
       "tuition": "6600",
@@ -1375,11 +1342,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "数字化设计与制造技术",
       "majorKey": "ce82f7c6",
+      "track": "综合",
       "selKe": "不限",
       "plan": 18,
       "tuition": "6600",
@@ -1387,11 +1356,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "数字媒体艺术设计",
       "majorKey": "836b6a35",
+      "track": "综合",
       "selKe": "不限",
       "plan": 65,
       "tuition": "9000",
@@ -1399,11 +1370,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "新能源汽车技术",
       "majorKey": "ccb39427",
+      "track": "综合",
       "selKe": "不限",
       "plan": 56,
       "tuition": "6600",
@@ -1411,11 +1384,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "新能源装备技术",
       "majorKey": "63759892",
+      "track": "综合",
       "selKe": "不限",
       "plan": 20,
       "tuition": "6600",
@@ -1423,23 +1398,28 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "旅游管理",
       "majorKey": "ec77cae2",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 15,
-      "tuition": "6900",
+      "plan": 35,
+      "tuition": "16800",
       "schooling": "三年",
       "menlei": "管",
+      "coop": true,
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "无人机应用技术",
       "majorKey": "b888273b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 20,
       "tuition": "6600",
@@ -1447,11 +1427,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "智慧景区开发与管理",
       "majorKey": "9d4391b2",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "6000",
@@ -1459,11 +1441,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "服装与服饰设计",
       "majorKey": "85567294",
+      "track": "综合",
       "selKe": "不限",
       "plan": 15,
       "tuition": "6600",
@@ -1471,11 +1455,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "现代物流管理",
       "majorKey": "a0f5df04",
+      "track": "综合",
       "selKe": "不限",
       "plan": 18,
       "tuition": "6000",
@@ -1483,11 +1469,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "电子信息工程技术",
       "majorKey": "b436d441",
+      "track": "综合",
       "selKe": "不限",
       "plan": 20,
       "tuition": "6600",
@@ -1495,11 +1483,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "电子商务",
       "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 18,
       "tuition": "6900",
@@ -1507,11 +1497,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "电梯工程技术",
       "majorKey": "42360310",
+      "track": "综合",
       "selKe": "不限",
       "plan": 18,
       "tuition": "6600",
@@ -1519,11 +1511,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "电气自动化技术",
       "majorKey": "4f34e927",
+      "track": "综合",
       "selKe": "不限",
       "plan": 42,
       "tuition": "6600",
@@ -1531,11 +1525,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "视觉传达设计",
       "majorKey": "d6328acb",
+      "track": "综合",
       "selKe": "不限",
       "plan": 35,
       "tuition": "9000",
@@ -1543,11 +1539,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "跨境电子商务",
       "majorKey": "48469b36",
+      "track": "综合",
       "selKe": "不限",
       "plan": 15,
       "tuition": "6900",
@@ -1555,11 +1553,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "软件技术",
       "majorKey": "8000e20b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 62,
       "tuition": "6600",
@@ -1567,11 +1567,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "酒店管理与数字化运营",
       "majorKey": "0a7dd809",
+      "track": "综合",
       "selKe": "不限",
       "plan": 15,
       "tuition": "6000",
@@ -1579,11 +1581,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "金融科技应用",
       "majorKey": "ce09efb0",
+      "track": "综合",
       "selKe": "不限",
       "plan": 9,
       "tuition": "6000",
@@ -1591,11 +1595,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "集成电路技术",
       "majorKey": "24b39c5e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 20,
       "tuition": "6600",
@@ -1603,11 +1609,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 202888,
-      "equivRank": 202888
+      "equivRank": 202888,
+      "prevScore": 472
     },
     {
       "majorName": "工程造价",
       "majorKey": "b8be11ab",
+      "track": "综合",
       "selKe": "不限",
       "plan": 30,
       "tuition": "6600",
@@ -1615,11 +1623,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 204772,
-      "equivRank": 204772
+      "equivRank": 204772,
+      "prevScore": 470
     },
     {
       "majorName": "建筑工程技术",
       "majorKey": "904edf72",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "7500",
@@ -1627,11 +1637,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 204772,
-      "equivRank": 204772
+      "equivRank": 204772,
+      "prevScore": 470
     },
     {
       "majorName": "智能网联汽车技术",
       "majorKey": "04bb17fe",
+      "track": "综合",
       "selKe": "不限",
       "plan": 20,
       "tuition": "6600",
@@ -1639,11 +1651,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 204772,
-      "equivRank": 204772
+      "equivRank": 204772,
+      "prevScore": 470
     },
     {
       "majorName": "物联网应用技术",
       "majorKey": "2f3bc529",
+      "track": "综合",
       "selKe": "不限",
       "plan": 40,
       "tuition": "6600",
@@ -1651,33 +1665,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 204772,
-      "equivRank": 204772
-    },
-    {
-      "majorName": "工业机器人技术（中外合作办学）",
-      "majorKey": "e8ac4eb1",
-      "selKe": "不限",
-      "plan": 55,
-      "tuition": "18800",
-      "schooling": "三年",
-      "menlei": "工",
-      "coop": true,
-      "prevYear": 2025,
-      "prevRank": 219114,
-      "equivRank": 219114
-    },
-    {
-      "majorName": "旅游管理（中外合作办学）",
-      "majorKey": "3970e018",
-      "selKe": "不限",
-      "plan": 20,
-      "tuition": "16800",
-      "schooling": "三年",
-      "menlei": "管",
-      "coop": true,
-      "prevYear": 2025,
-      "prevRank": 219114,
-      "equivRank": 219114
+      "equivRank": 204772,
+      "prevScore": 470
     }
   ]
 }

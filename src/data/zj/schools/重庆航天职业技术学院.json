@@ -30,16 +30,7 @@
           "minScore": 504,
           "minRank": 164267,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "重庆航天职业技术学院",
-      "schoolCode": "5021",
-      "majorKey": "81ea8f08",
-      "majorName": "数字媒体技术（第一学年在江津校区，第二学年起在江北校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -76,16 +67,7 @@
           "minScore": 502,
           "minRank": 166480,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "重庆航天职业技术学院",
-      "schoolCode": "5021",
-      "majorKey": "16ed36ba",
-      "majorName": "电子商务（第一学年在江津校区，第二学年起在江北校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -98,8 +80,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "数字媒体技术（第一学年在江津校区，第二学年起在江北校区）",
-      "majorKey": "81ea8f08",
+      "majorName": "数字媒体技术",
+      "majorKey": "889e9381",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "6200",
@@ -107,11 +90,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 171889,
-      "equivRank": 171889
+      "equivRank": 171889,
+      "prevScore": 501
     },
     {
-      "majorName": "电子商务（第一学年在江津校区，第二学年起在江北校区）",
-      "majorKey": "16ed36ba",
+      "majorName": "电子商务",
+      "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "6250",
@@ -119,34 +104,8 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 176646,
-      "equivRank": 176646
-    },
-    {
-      "majorName": "人工智能技术应用（定向培养军士生。只招男生。信息支援部队。要求政考、体检。要求高考成绩不低于普通类二段线。两江校区）",
-      "majorKey": "21e77d0d",
-      "selKe": "不限",
-      "plan": 5,
-      "tuition": "8000",
-      "schooling": "三年",
-      "menlei": "工"
-    },
-    {
-      "majorName": "无人机应用技术（定向培养军士生。只招男生。海军。机务兵。要求政考、体检。要求高考成绩不低于普通类二段线。两江校区）",
-      "majorKey": "966cc65e",
-      "selKe": "不限",
-      "plan": 5,
-      "tuition": "8000",
-      "schooling": "三年",
-      "menlei": "工"
-    },
-    {
-      "majorName": "现代通信技术（定向培养军士生。只招男生。火箭军。要求政考、体检。要求高考成绩不低于普通类二段线。两江校区）",
-      "majorKey": "3789a630",
-      "selKe": "不限",
-      "plan": 5,
-      "tuition": "8000",
-      "schooling": "三年",
-      "menlei": "工"
+      "equivRank": 176646,
+      "prevScore": 496
     }
   ]
 }

@@ -6,8 +6,8 @@
     {
       "schoolKey": "中央戏剧学院",
       "schoolCode": "1168",
-      "majorKey": "3247474f",
-      "majorName": "戏剧学（戏剧史论与批评）",
+      "majorKey": "e9ba80b9",
+      "majorName": "戏剧学",
       "selKe": "不限",
       "years": [
         {
@@ -29,8 +29,8 @@
     {
       "schoolKey": "中央戏剧学院",
       "schoolCode": "1168",
-      "majorKey": "135e1cd8",
-      "majorName": "戏剧影视文学（戏剧创作）",
+      "majorKey": "b8236e06",
+      "majorName": "戏剧影视文学",
       "selKe": "不限",
       "years": [
         {
@@ -52,24 +52,8 @@
     {
       "schoolKey": "中央戏剧学院",
       "schoolCode": "1168",
-      "majorKey": "716a648e",
-      "majorName": "戏剧影视文学（电视剧创作）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 635,
-          "minRank": 20068,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "中央戏剧学院",
-      "schoolCode": "1168",
-      "majorKey": "0cc3b19f",
-      "majorName": "艺术管理（剧院管理）",
+      "majorKey": "44d89b18",
+      "majorName": "艺术管理",
       "selKe": "不限",
       "years": [
         {
@@ -82,54 +66,8 @@
         {
           "year": 2025,
           "track": "综合",
-          "minScore": 621,
-          "minRank": 31061,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "中央戏剧学院",
-      "schoolCode": "1168",
-      "majorKey": "89b38539",
-      "majorName": "艺术管理（影视制片）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 619,
-          "minRank": 34777,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
           "minScore": 659,
           "minRank": 7122,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "中央戏剧学院",
-      "schoolCode": "1168",
-      "majorKey": "ae207643",
-      "majorName": "艺术管理（演出制作）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 621,
-          "minRank": 33074,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 631,
-          "minRank": 22993,
           "maxScore": 0
         }
       ]
@@ -137,44 +75,37 @@
   ],
   "plan2026": [
     {
-      "majorName": "艺术管理（影视制片）",
-      "majorKey": "89b38539",
+      "majorName": "艺术管理",
+      "majorKey": "44d89b18",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 1,
+      "plan": 5,
       "tuition": "8000",
       "schooling": "四年",
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 7122,
-      "equivRank": 7122
+      "equivRank": 7122,
+      "prevScore": 659
     },
     {
-      "majorName": "戏剧影视文学（戏剧创作）",
-      "majorKey": "135e1cd8",
+      "majorName": "戏剧影视文学",
+      "majorKey": "b8236e06",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 2,
+      "plan": 3,
       "tuition": "8000",
       "schooling": "五年",
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 18933,
-      "equivRank": 18933
+      "equivRank": 18933,
+      "prevScore": 636
     },
     {
-      "majorName": "戏剧影视文学（电视剧创作）",
-      "majorKey": "716a648e",
-      "selKe": "不限",
-      "plan": 1,
-      "tuition": "8000",
-      "schooling": "四年",
-      "menlei": "艺",
-      "prevYear": 2025,
-      "prevRank": 20068,
-      "equivRank": 20068
-    },
-    {
-      "majorName": "戏剧学（戏剧史论与批评）",
-      "majorKey": "3247474f",
+      "majorName": "戏剧学",
+      "majorKey": "e9ba80b9",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "8000",
@@ -182,31 +113,8 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 21992,
-      "equivRank": 21992
-    },
-    {
-      "majorName": "艺术管理（演出制作）",
-      "majorKey": "ae207643",
-      "selKe": "不限",
-      "plan": 2,
-      "tuition": "8000",
-      "schooling": "四年",
-      "menlei": "艺",
-      "prevYear": 2025,
-      "prevRank": 22993,
-      "equivRank": 22993
-    },
-    {
-      "majorName": "艺术管理（剧院管理）",
-      "majorKey": "0cc3b19f",
-      "selKe": "不限",
-      "plan": 2,
-      "tuition": "8000",
-      "schooling": "四年",
-      "menlei": "艺",
-      "prevYear": 2025,
-      "prevRank": 31061,
-      "equivRank": 31061
+      "equivRank": 21992,
+      "prevScore": 632
     }
   ]
 }

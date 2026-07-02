@@ -21,7 +21,7 @@ type province struct {
 
 var provinces = map[string]province{
 	"hlj": {slug: "hlj", name: "黑龙江", tracks: []string{"物理", "历史"}, model: "group"},
-	"zj":  {slug: "zj", name: "浙江", tracks: []string{"综合"}, model: "major-zj"}, // 一表联动 by-code 属性，专用投影
+	"zj":  {slug: "zj", name: "浙江", tracks: []string{"综合"}, model: "major"}, // 综合·专业平行志愿，同山东；一致源+通用投影（ADR-0022）
 	"js":  {slug: "js", name: "江苏", tracks: []string{"物理", "历史"}, model: "group"},
 	"hn":  {slug: "hn", name: "湖南", tracks: []string{"物理", "历史"}, model: "group"},
 	"sc":  {slug: "sc", name: "四川", tracks: []string{"物理", "历史"}, model: "group"},

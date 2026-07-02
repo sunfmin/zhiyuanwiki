@@ -22,8 +22,8 @@
     {
       "schoolKey": "淮阴工学院",
       "schoolCode": "3211",
-      "majorKey": "a0ba7284",
-      "majorName": "经济与金融（北京路校区）",
+      "majorKey": "8e6ea071",
+      "majorName": "经济与金融",
       "selKe": "不限",
       "years": [
         {
@@ -62,16 +62,7 @@
           "minScore": 559,
           "minRank": 100271,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "淮阴工学院",
-      "schoolCode": "3211",
-      "majorKey": "018d6b48",
-      "majorName": "计算机科学与技术（枚乘路校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -84,8 +75,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "经济与金融（北京路校区）",
-      "majorKey": "a0ba7284",
+      "majorName": "经济与金融",
+      "majorKey": "8e6ea071",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5200",
@@ -93,11 +85,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 87713,
-      "equivRank": 87713
+      "equivRank": 87713,
+      "prevScore": 570
     },
     {
-      "majorName": "计算机科学与技术（枚乘路校区）",
-      "majorKey": "018d6b48",
+      "majorName": "计算机科学与技术",
+      "majorKey": "1d486608",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "5800",
@@ -105,7 +99,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 97542,
-      "equivRank": 97542
+      "equivRank": 97542,
+      "prevScore": 562
     }
   ]
 }

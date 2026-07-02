@@ -11,6 +11,13 @@
       "selKe": "不限",
       "years": [
         {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 547,
+          "minRank": 115121,
+          "maxScore": 0
+        },
+        {
           "year": 2025,
           "track": "综合",
           "minScore": 552,
@@ -22,47 +29,22 @@
     {
       "schoolKey": "四川传媒学院",
       "schoolCode": "5105",
-      "majorKey": "dc1cb5ad",
-      "majorName": "广播电视编导（学费20000）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 547,
-          "minRank": 115121,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "四川传媒学院",
-      "schoolCode": "5105",
       "majorKey": "44d89b18",
       "majorName": "艺术管理",
       "selKe": "不限",
       "years": [
         {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 546,
-          "minRank": 117031,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "四川传媒学院",
-      "schoolCode": "5105",
-      "majorKey": "b17beac2",
-      "majorName": "艺术管理（学费20000）",
-      "selKe": "不限",
-      "years": [
-        {
           "year": 2024,
           "track": "综合",
           "minScore": 547,
           "minRank": 115121,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 546,
+          "minRank": 117031,
           "maxScore": 0
         }
       ]
@@ -72,6 +54,7 @@
     {
       "majorName": "广播电视编导",
       "majorKey": "b86f75b5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "20000",
@@ -79,11 +62,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 110056,
-      "equivRank": 110056
+      "equivRank": 110056,
+      "prevScore": 552
     },
     {
       "majorName": "艺术管理",
       "majorKey": "44d89b18",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "20000",
@@ -91,7 +76,8 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 117031,
-      "equivRank": 117031
+      "equivRank": 117031,
+      "prevScore": 546
     }
   ]
 }

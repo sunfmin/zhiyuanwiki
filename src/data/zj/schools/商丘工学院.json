@@ -97,16 +97,7 @@
           "minScore": 495,
           "minRank": 174143,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "商丘工学院",
-      "schoolCode": "4260",
-      "majorKey": "7b6e22db",
-      "majorName": "电气工程及其自动化（虞城校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -121,6 +112,7 @@
     {
       "majorName": "机械设计制造及其自动化",
       "majorKey": "55ff9da5",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "15800",
@@ -128,11 +120,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 170473,
-      "equivRank": 170473
+      "equivRank": 170473,
+      "prevScore": 502
     },
     {
-      "majorName": "电气工程及其自动化（虞城校区）",
-      "majorKey": "7b6e22db",
+      "majorName": "电气工程及其自动化",
+      "majorKey": "45947d31",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "15800",
@@ -140,11 +134,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 177916,
-      "equivRank": 177916
+      "equivRank": 177916,
+      "prevScore": 495
     },
     {
       "majorName": "城市地下空间工程",
       "majorKey": "7201e1a9",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "15800",
@@ -152,7 +148,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     }
   ]
 }

@@ -107,24 +107,8 @@
     {
       "schoolKey": "芜湖职业技术大学",
       "schoolCode": "3454",
-      "majorKey": "0e1d2481",
-      "majorName": "智能焊接技术（南陵校区。）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 488,
-          "minRank": 186576,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "芜湖职业技术大学",
-      "schoolCode": "3454",
-      "majorKey": "572f0ba8",
-      "majorName": "智能焊接技术（南陵校区）",
+      "majorKey": "c62d194b",
+      "majorName": "智能焊接技术",
       "selKe": "不限",
       "years": [
         {
@@ -139,24 +123,8 @@
     {
       "schoolKey": "芜湖职业技术大学",
       "schoolCode": "3454",
-      "majorKey": "73fba268",
-      "majorName": "智能物流技术（南陵校区。）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 489,
-          "minRank": 185464,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "芜湖职业技术大学",
-      "schoolCode": "3454",
-      "majorKey": "e2f56acf",
-      "majorName": "智能物流技术（南陵校区）",
+      "majorKey": "6abd9350",
+      "majorName": "智能物流技术",
       "selKe": "不限",
       "years": [
         {
@@ -263,8 +231,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "智能焊接技术（南陵校区）",
-      "majorKey": "572f0ba8",
+      "majorName": "智能焊接技术",
+      "majorKey": "c62d194b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "3900",
@@ -272,11 +241,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
-      "majorName": "智能物流技术（南陵校区）",
-      "majorKey": "e2f56acf",
+      "majorName": "智能物流技术",
+      "majorKey": "6abd9350",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "3900",
@@ -284,7 +255,8 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     }
   ]
 }

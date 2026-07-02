@@ -30,16 +30,7 @@
           "minScore": 514,
           "minRank": 152854,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "烟台大学",
-      "schoolCode": "3760",
-      "majorKey": "ae56bd31",
-      "majorName": "化学工程与工艺（科教园区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -113,16 +104,7 @@
           "minScore": 550,
           "minRank": 110536,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "烟台大学",
-      "schoolCode": "3760",
-      "majorKey": "7672257d",
-      "majorName": "土木工程（数字岩土与地下空间）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -175,16 +157,7 @@
           "minScore": 489,
           "minRank": 180616,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "烟台大学",
-      "schoolCode": "3760",
-      "majorKey": "af96a2c4",
-      "majorName": "应用化学（科教园区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -258,16 +231,7 @@
           "minScore": 592,
           "minRank": 62763,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "烟台大学",
-      "schoolCode": "3760",
-      "majorKey": "2fed7b43",
-      "majorName": "日语（科教园区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -333,8 +297,8 @@
     {
       "schoolKey": "烟台大学",
       "schoolCode": "3760",
-      "majorKey": "13209425",
-      "majorName": "水产养殖学（科教园区）",
+      "majorKey": "5f3767bd",
+      "majorName": "水产养殖学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -544,16 +508,7 @@
           "minScore": 568,
           "minRank": 89281,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "烟台大学",
-      "schoolCode": "3760",
-      "majorKey": "2d82d5d7",
-      "majorName": "统计学（中外高水平大学学生交流计划）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -627,32 +582,7 @@
           "minScore": 595,
           "minRank": 58932,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "烟台大学",
-      "schoolCode": "3760",
-      "majorKey": "073d6e71",
-      "majorName": "英语（中外高水平大学学生交流计划）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 567,
-          "minRank": 91112,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "烟台大学",
-      "schoolCode": "3760",
-      "majorKey": "3c7168c1",
-      "majorName": "英语（科教园区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -726,16 +656,7 @@
           "minScore": 551,
           "minRank": 109663,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "烟台大学",
-      "schoolCode": "3760",
-      "majorKey": "2f674232",
-      "majorName": "食品质量与安全（科教园区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -750,6 +671,7 @@
     {
       "majorName": "法学",
       "majorKey": "a1113a1f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5280",
@@ -757,11 +679,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 21853,
-      "equivRank": 21853
+      "equivRank": 21853,
+      "prevScore": 632
     },
     {
       "majorName": "知识产权",
       "majorKey": "f3a3be38",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5280",
@@ -769,11 +693,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 36492,
-      "equivRank": 36492
+      "equivRank": 36492,
+      "prevScore": 615
     },
     {
       "majorName": "国际经济与贸易",
       "majorKey": "f8a1727e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5500",
@@ -781,23 +707,28 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 64059,
-      "equivRank": 64059
+      "equivRank": 64059,
+      "prevScore": 589
     },
     {
-      "majorName": "英语（科教园区）",
-      "majorKey": "3c7168c1",
+      "majorName": "英语",
+      "majorKey": "49c5cdf9",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 2,
+      "plan": 4,
       "tuition": "5280",
       "schooling": "四年",
       "menlei": "文",
+      "coop": true,
       "prevYear": 2025,
       "prevRank": 65106,
-      "equivRank": 65106
+      "equivRank": 65106,
+      "prevScore": 589
     },
     {
       "majorName": "汉语国际教育",
       "majorKey": "d2fbd5c5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4400",
@@ -805,11 +736,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 69573,
-      "equivRank": 69573
+      "equivRank": 69573,
+      "prevScore": 585
     },
     {
       "majorName": "新闻学",
       "majorKey": "9c5f4a34",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5060",
@@ -817,11 +750,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 69868,
-      "equivRank": 69868
+      "equivRank": 69868,
+      "prevScore": 585
     },
     {
-      "majorName": "日语（科教园区）",
-      "majorKey": "2fed7b43",
+      "majorName": "日语",
+      "majorKey": "8f1def37",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4400",
@@ -829,11 +764,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 79594,
-      "equivRank": 79594
+      "equivRank": 79594,
+      "prevScore": 577
     },
     {
       "majorName": "自动化",
       "majorKey": "da95770c",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "6325",
@@ -841,24 +778,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 80395,
-      "equivRank": 80395
-    },
-    {
-      "majorName": "英语（中外高水平大学学生交流计划）",
-      "majorKey": "073d6e71",
-      "selKe": "不限",
-      "plan": 2,
-      "tuition": "5280",
-      "schooling": "四年",
-      "menlei": "文",
-      "coop": true,
-      "prevYear": 2025,
-      "prevRank": 91112,
-      "equivRank": 91112
+      "equivRank": 80395,
+      "prevScore": 576
     },
     {
       "majorName": "核工程与核技术",
       "majorKey": "470379d7",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5500",
@@ -866,11 +792,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 99286,
-      "equivRank": 99286
+      "equivRank": 99286,
+      "prevScore": 560
     },
     {
-      "majorName": "食品质量与安全（科教园区）",
-      "majorKey": "2f674232",
+      "majorName": "食品质量与安全",
+      "majorKey": "63b95502",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6325",
@@ -878,11 +806,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 110826,
-      "equivRank": 110826
+      "equivRank": 110826,
+      "prevScore": 551
     },
     {
       "majorName": "金属材料工程",
       "majorKey": "9f804adb",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5500",
@@ -890,11 +820,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 122429,
-      "equivRank": 122429
+      "equivRank": 122429,
+      "prevScore": 542
     },
     {
       "majorName": "材料科学与工程",
       "majorKey": "c425ce53",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "5500",
@@ -902,11 +834,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 127367,
-      "equivRank": 127367
+      "equivRank": 127367,
+      "prevScore": 538
     },
     {
       "majorName": "给排水科学与工程",
       "majorKey": "b0765a88",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "5500",
@@ -914,11 +848,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 133567,
-      "equivRank": 133567
+      "equivRank": 133567,
+      "prevScore": 533
     },
     {
-      "majorName": "土木工程（数字岩土与地下空间）",
-      "majorKey": "7672257d",
+      "majorName": "土木工程",
+      "majorKey": "320e7128",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6600",
@@ -926,11 +862,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 136631,
-      "equivRank": 136631
+      "equivRank": 136631,
+      "prevScore": 530
     },
     {
-      "majorName": "应用化学（科教园区）",
-      "majorKey": "af96a2c4",
+      "majorName": "应用化学",
+      "majorKey": "25624660",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "6325",
@@ -938,11 +876,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 137826,
-      "equivRank": 137826
+      "equivRank": 137826,
+      "prevScore": 529
     },
     {
-      "majorName": "化学工程与工艺（科教园区）",
-      "majorKey": "ae56bd31",
+      "majorName": "化学工程与工艺",
+      "majorKey": "1f59c989",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "6600",
@@ -950,11 +890,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 138009,
-      "equivRank": 138009
+      "equivRank": 138009,
+      "prevScore": 529
     },
     {
       "majorName": "环境科学与工程",
       "majorKey": "7ab09507",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5500",
@@ -962,11 +904,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 146040,
-      "equivRank": 146040
+      "equivRank": 146040,
+      "prevScore": 522
     },
     {
-      "majorName": "统计学（中外高水平大学学生交流计划）",
-      "majorKey": "2d82d5d7",
+      "majorName": "统计学",
+      "majorKey": "24c5453f",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6325",
@@ -975,11 +919,13 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 150209,
-      "equivRank": 150209
+      "equivRank": 150209,
+      "prevScore": 519
     },
     {
-      "majorName": "水产养殖学（科教园区）",
-      "majorKey": "13209425",
+      "majorName": "水产养殖学",
+      "majorKey": "5f3767bd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5500",
@@ -987,25 +933,8 @@
       "menlei": "农",
       "prevYear": 2025,
       "prevRank": 152388,
-      "equivRank": 152388
-    },
-    {
-      "majorName": "航海技术（学校提醒:不适宜女生报考。科教园区）",
-      "majorKey": "9a04a40e",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "5500",
-      "schooling": "四年",
-      "menlei": "工"
-    },
-    {
-      "majorName": "轮机工程（学校提醒:不适宜女生报考。科教园区）",
-      "majorKey": "946fd38f",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "5500",
-      "schooling": "四年",
-      "menlei": "工"
+      "equivRank": 152388,
+      "prevScore": 517
     }
   ]
 }

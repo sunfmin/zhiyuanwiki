@@ -273,37 +273,12 @@
           "minScore": 519,
           "minRank": 147311,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "金华职业技术大学",
-      "schoolCode": "0061",
-      "majorKey": "1235f33f",
-      "majorName": "园艺技术（浙江省户籍考生免学费。）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
           "minScore": 568,
           "minRank": 90631,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "金华职业技术大学",
-      "schoolCode": "0061",
-      "majorKey": "1df60eba",
-      "majorName": "园艺技术（浙江省户籍考生免学费）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 519,
-          "minRank": 150611,
           "maxScore": 0
         }
       ]
@@ -350,8 +325,8 @@
     {
       "schoolKey": "金华职业技术大学",
       "schoolCode": "0061",
-      "majorKey": "6e38b28d",
-      "majorName": "学前教育（师范）",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
       "selKe": "不限",
       "years": [
         {
@@ -373,8 +348,8 @@
     {
       "schoolKey": "金华职业技术大学",
       "schoolCode": "0061",
-      "majorKey": "983355fa",
-      "majorName": "小学教育（师范）",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
       "selKe": "不限",
       "years": [
         {
@@ -534,8 +509,8 @@
     {
       "schoolKey": "金华职业技术大学",
       "schoolCode": "0061",
-      "majorKey": "108095f2",
-      "majorName": "应用电子技术（中外合作办学）",
+      "majorKey": "28e50aec",
+      "majorName": "应用电子技术",
       "selKe": "不限",
       "years": [
         {
@@ -1022,16 +997,7 @@
           "minScore": 518,
           "minRank": 148678,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "金华职业技术大学",
-      "schoolCode": "0061",
-      "majorKey": "d9459e67",
-      "majorName": "畜牧兽医（浙江省户籍考生免学费）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -1054,16 +1020,7 @@
           "minScore": 522,
           "minRank": 143830,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "金华职业技术大学",
-      "schoolCode": "0061",
-      "majorKey": "660df145",
-      "majorName": "绿色食品生产技术（浙江省户籍考生免学费）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -1076,8 +1033,8 @@
     {
       "schoolKey": "金华职业技术大学",
       "schoolCode": "0061",
-      "majorKey": "189490a4",
-      "majorName": "美术教育（师范）",
+      "majorKey": "4fffd9a5",
+      "majorName": "美术教育",
       "selKe": "不限",
       "years": [
         {
@@ -1182,22 +1139,6 @@
       "selKe": "不限",
       "years": [
         {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 537,
-          "minRank": 128328,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "金华职业技术大学",
-      "schoolCode": "0061",
-      "majorKey": "bddb05e7",
-      "majorName": "计算机应用技术（中外合作办学）",
-      "selKe": "不限",
-      "years": [
-        {
           "year": 2024,
           "track": "综合",
           "minScore": 523,
@@ -1207,8 +1148,8 @@
         {
           "year": 2025,
           "track": "综合",
-          "minScore": 522,
-          "minRank": 146197,
+          "minScore": 537,
+          "minRank": 128328,
           "maxScore": 0
         }
       ]
@@ -1232,29 +1173,6 @@
           "track": "综合",
           "minScore": 554,
           "minRank": 107371,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "金华职业技术大学",
-      "schoolCode": "0061",
-      "majorKey": "e22ece76",
-      "majorName": "计算机网络技术（中外合作办学）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 523,
-          "minRank": 142909,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 519,
-          "minRank": 150122,
           "maxScore": 0
         }
       ]
@@ -1365,6 +1283,7 @@
     {
       "majorName": "护理",
       "majorKey": "a3db4652",
+      "track": "综合",
       "selKe": "不限",
       "plan": 153,
       "tuition": "7500",
@@ -1372,11 +1291,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 82929,
-      "equivRank": 82929
+      "equivRank": 82929,
+      "prevScore": 574
     },
     {
       "majorName": "医学检验技术",
       "majorKey": "f106fa76",
+      "track": "综合",
       "selKe": "不限",
       "plan": 13,
       "tuition": "6600",
@@ -1384,23 +1305,41 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 85067,
-      "equivRank": 85067
+      "equivRank": 85067,
+      "prevScore": 572
     },
     {
-      "majorName": "学前教育（师范）",
-      "majorKey": "6e38b28d",
+      "majorName": "园艺技术",
+      "majorKey": "a380e54c",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 42,
+      "plan": 55,
+      "tuition": "6300",
+      "schooling": "三年",
+      "menlei": "农",
+      "prevYear": 2025,
+      "prevRank": 90631,
+      "equivRank": 90631,
+      "prevScore": 568
+    },
+    {
+      "majorName": "学前教育",
+      "majorKey": "97716b64",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 22,
       "tuition": "6900",
       "schooling": "四年",
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 91704,
-      "equivRank": 91704
+      "equivRank": 91704,
+      "prevScore": 567
     },
     {
       "majorName": "医养照护与管理",
       "majorKey": "971e6c14",
+      "track": "综合",
       "selKe": "不限",
       "plan": 14,
       "tuition": "6600",
@@ -1408,11 +1347,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 93243,
-      "equivRank": 93243
+      "equivRank": 93243,
+      "prevScore": 565
     },
     {
       "majorName": "跨境电子商务",
       "majorKey": "48469b36",
+      "track": "综合",
       "selKe": "不限",
       "plan": 43,
       "tuition": "6000",
@@ -1420,11 +1361,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 94372,
-      "equivRank": 94372
+      "equivRank": 94372,
+      "prevScore": 564
     },
     {
       "majorName": "设施园艺",
       "majorKey": "4451cdac",
+      "track": "综合",
       "selKe": "不限",
       "plan": 33,
       "tuition": "6300",
@@ -1432,11 +1375,13 @@
       "menlei": "农",
       "prevYear": 2025,
       "prevRank": 96296,
-      "equivRank": 96296
+      "equivRank": 96296,
+      "prevScore": 563
     },
     {
       "majorName": "应用化工技术",
       "majorKey": "413a7fac",
+      "track": "综合",
       "selKe": "不限",
       "plan": 34,
       "tuition": "6600",
@@ -1444,23 +1389,27 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 99218,
-      "equivRank": 99218
+      "equivRank": 99218,
+      "prevScore": 561
     },
     {
       "majorName": "计算机网络技术",
       "majorKey": "547b1c20",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 10,
+      "plan": 17,
       "tuition": "6600",
       "schooling": "三年",
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 107371,
-      "equivRank": 107371
+      "equivRank": 107371,
+      "prevScore": 554
     },
     {
       "majorName": "临床医学",
       "majorKey": "618f7040",
+      "track": "综合",
       "selKe": "不限",
       "plan": 68,
       "tuition": "6600",
@@ -1468,11 +1417,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 123802,
-      "equivRank": 123802
+      "equivRank": 123802,
+      "prevScore": 541
     },
     {
       "majorName": "中药学",
       "majorKey": "f9504a0c",
+      "track": "综合",
       "selKe": "不限",
       "plan": 50,
       "tuition": "6600",
@@ -1480,11 +1431,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 125326,
-      "equivRank": 125326
+      "equivRank": 125326,
+      "prevScore": 539
     },
     {
       "majorName": "电子商务",
       "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 24,
       "tuition": "6900",
@@ -1492,11 +1445,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 126450,
-      "equivRank": 126450
+      "equivRank": 126450,
+      "prevScore": 539
     },
     {
       "majorName": "机械设计制造及自动化",
       "majorKey": "b217b8b5",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 41,
       "tuition": "7500",
@@ -1504,11 +1459,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 126741,
-      "equivRank": 126741
+      "equivRank": 126741,
+      "prevScore": 538
     },
     {
       "majorName": "机械制造及自动化",
       "majorKey": "734f4824",
+      "track": "综合",
       "selKe": "不限",
       "plan": 38,
       "tuition": "7500",
@@ -1516,11 +1473,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 127010,
-      "equivRank": 127010
+      "equivRank": 127010,
+      "prevScore": 538
     },
     {
       "majorName": "电子信息工程技术",
       "majorKey": "b436d441",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 46,
       "tuition": "6600",
@@ -1528,23 +1487,27 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 128080,
-      "equivRank": 128080
+      "equivRank": 128080,
+      "prevScore": 537
     },
     {
       "majorName": "计算机应用技术",
       "majorKey": "faccc9c5",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 30,
+      "plan": 37,
       "tuition": "6600",
       "schooling": "三年",
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 128328,
-      "equivRank": 128328
+      "equivRank": 128328,
+      "prevScore": 537
     },
     {
       "majorName": "大数据与会计",
       "majorKey": "49f153aa",
+      "track": "综合",
       "selKe": "不限",
       "plan": 90,
       "tuition": "6900",
@@ -1552,11 +1515,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 128606,
-      "equivRank": 128606
+      "equivRank": 128606,
+      "prevScore": 537
     },
     {
       "majorName": "人工智能工程技术",
       "majorKey": "96528d4f",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 10,
       "tuition": "6600",
@@ -1564,11 +1529,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 129871,
-      "equivRank": 129871
+      "equivRank": 129871,
+      "prevScore": 536
     },
     {
       "majorName": "智能制造工程技术",
       "majorKey": "57377dd0",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 45,
       "tuition": "6600",
@@ -1576,11 +1543,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 134093,
-      "equivRank": 134093
+      "equivRank": 134093,
+      "prevScore": 532
     },
     {
       "majorName": "电气自动化技术",
       "majorKey": "4f34e927",
+      "track": "综合",
       "selKe": "不限",
       "plan": 123,
       "tuition": "6600",
@@ -1588,11 +1557,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 135058,
-      "equivRank": 135058
+      "equivRank": 135058,
+      "prevScore": 531
     },
     {
       "majorName": "康复治疗技术",
       "majorKey": "4fab0557",
+      "track": "综合",
       "selKe": "不限",
       "plan": 49,
       "tuition": "6600",
@@ -1600,11 +1571,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 135130,
-      "equivRank": 135130
+      "equivRank": 135130,
+      "prevScore": 531
     },
     {
       "majorName": "动物医学",
       "majorKey": "b3e5d67f",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 33,
       "tuition": "7200",
@@ -1612,11 +1585,13 @@
       "menlei": "农",
       "prevYear": 2025,
       "prevRank": 135363,
-      "equivRank": 135363
+      "equivRank": 135363,
+      "prevScore": 531
     },
     {
       "majorName": "药学",
       "majorKey": "e9e6a481",
+      "track": "综合",
       "selKe": "不限",
       "plan": 66,
       "tuition": "6600",
@@ -1624,11 +1599,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 135778,
-      "equivRank": 135778
+      "equivRank": 135778,
+      "prevScore": 531
     },
     {
       "majorName": "早期教育",
       "majorKey": "8c72bad4",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "6000",
@@ -1636,11 +1613,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 135895,
-      "equivRank": 135895
+      "equivRank": 135895,
+      "prevScore": 531
     },
     {
-      "majorName": "小学教育（师范）",
-      "majorKey": "983355fa",
+      "majorName": "小学教育",
+      "majorKey": "c240892f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 91,
       "tuition": "6000",
@@ -1648,11 +1627,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 136129,
-      "equivRank": 136129
+      "equivRank": 136129,
+      "prevScore": 531
     },
     {
       "majorName": "机电一体化技术",
       "majorKey": "d4465443",
+      "track": "综合",
       "selKe": "不限",
       "plan": 90,
       "tuition": "6600",
@@ -1660,11 +1641,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 136584,
-      "equivRank": 136584
+      "equivRank": 136584,
+      "prevScore": 530
     },
     {
       "majorName": "制药工程技术",
       "majorKey": "a62c3834",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 30,
       "tuition": "6600",
@@ -1672,11 +1655,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 137156,
-      "equivRank": 137156
+      "equivRank": 137156,
+      "prevScore": 530
     },
     {
       "majorName": "无人机应用技术",
       "majorKey": "b888273b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 94,
       "tuition": "6600",
@@ -1684,11 +1669,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 140617,
-      "equivRank": 140617
+      "equivRank": 140617,
+      "prevScore": 527
     },
     {
-      "majorName": "畜牧兽医（浙江省户籍考生免学费）",
-      "majorKey": "d9459e67",
+      "majorName": "畜牧兽医",
+      "majorKey": "0a0cf91d",
+      "track": "综合",
       "selKe": "不限",
       "plan": 112,
       "tuition": "6300",
@@ -1696,11 +1683,13 @@
       "menlei": "农",
       "prevYear": 2025,
       "prevRank": 142452,
-      "equivRank": 142452
+      "equivRank": 142452,
+      "prevScore": 525
     },
     {
       "majorName": "商务英语",
       "majorKey": "4428fd77",
+      "track": "综合",
       "selKe": "不限",
       "plan": 110,
       "tuition": "6000",
@@ -1708,11 +1697,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 144620,
-      "equivRank": 144620
+      "equivRank": 144620,
+      "prevScore": 524
     },
     {
       "majorName": "新能源汽车技术",
       "majorKey": "ccb39427",
+      "track": "综合",
       "selKe": "不限",
       "plan": 87,
       "tuition": "6600",
@@ -1720,11 +1711,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 144843,
-      "equivRank": 144843
+      "equivRank": 144843,
+      "prevScore": 523
     },
     {
       "majorName": "软件技术",
       "majorKey": "8000e20b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 165,
       "tuition": "7500",
@@ -1732,11 +1725,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 144980,
-      "equivRank": 144980
+      "equivRank": 144980,
+      "prevScore": 523
     },
     {
       "majorName": "市场营销",
       "majorKey": "28c62e21",
+      "track": "综合",
       "selKe": "不限",
       "plan": 75,
       "tuition": "6000",
@@ -1744,24 +1739,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 145925,
-      "equivRank": 145925
-    },
-    {
-      "majorName": "计算机应用技术（中外合作办学）",
-      "majorKey": "bddb05e7",
-      "selKe": "不限",
-      "plan": 7,
-      "tuition": "20000",
-      "schooling": "三年",
-      "menlei": "工",
-      "coop": true,
-      "prevYear": 2025,
-      "prevRank": 146197,
-      "equivRank": 146197
+      "equivRank": 145925,
+      "prevScore": 523
     },
     {
       "majorName": "工业机器人技术",
       "majorKey": "26a2bf3f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 50,
       "tuition": "6600",
@@ -1769,11 +1753,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 146624,
-      "equivRank": 146624
+      "equivRank": 146624,
+      "prevScore": 522
     },
     {
-      "majorName": "绿色食品生产技术（浙江省户籍考生免学费）",
-      "majorKey": "660df145",
+      "majorName": "绿色食品生产技术",
+      "majorKey": "70d6e03f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 98,
       "tuition": "6300",
@@ -1781,11 +1767,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 147153,
-      "equivRank": 147153
+      "equivRank": 147153,
+      "prevScore": 521
     },
     {
       "majorName": "药物分析",
       "majorKey": "e83335a9",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 33,
       "tuition": "6600",
@@ -1793,24 +1781,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 147568,
-      "equivRank": 147568
-    },
-    {
-      "majorName": "计算机网络技术（中外合作办学）",
-      "majorKey": "e22ece76",
-      "selKe": "不限",
-      "plan": 7,
-      "tuition": "20000",
-      "schooling": "三年",
-      "menlei": "工",
-      "coop": true,
-      "prevYear": 2025,
-      "prevRank": 150122,
-      "equivRank": 150122
+      "equivRank": 147568,
+      "prevScore": 521
     },
     {
       "majorName": "生物制药技术",
       "majorKey": "5435b4ae",
+      "track": "综合",
       "selKe": "不限",
       "plan": 100,
       "tuition": "6600",
@@ -1818,23 +1795,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 150193,
-      "equivRank": 150193
-    },
-    {
-      "majorName": "园艺技术（浙江省户籍考生免学费）",
-      "majorKey": "1df60eba",
-      "selKe": "不限",
-      "plan": 55,
-      "tuition": "6300",
-      "schooling": "三年",
-      "menlei": "农",
-      "prevYear": 2025,
-      "prevRank": 150611,
-      "equivRank": 150611
+      "equivRank": 150193,
+      "prevScore": 519
     },
     {
       "majorName": "现代文秘",
       "majorKey": "3693079b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 125,
       "tuition": "6000",
@@ -1842,11 +1809,13 @@
       "menlei": "他",
       "prevYear": 2025,
       "prevRank": 150765,
-      "equivRank": 150765
+      "equivRank": 150765,
+      "prevScore": 519
     },
     {
       "majorName": "飞机机电设备维修",
       "majorKey": "8fe2c310",
+      "track": "综合",
       "selKe": "不限",
       "plan": 97,
       "tuition": "6600",
@@ -1854,11 +1823,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 152186,
-      "equivRank": 152186
+      "equivRank": 152186,
+      "prevScore": 517
     },
     {
       "majorName": "商务数据分析与应用",
       "majorKey": "c00225cc",
+      "track": "综合",
       "selKe": "不限",
       "plan": 45,
       "tuition": "6000",
@@ -1866,11 +1837,13 @@
       "menlei": "他",
       "prevYear": 2025,
       "prevRank": 152694,
-      "equivRank": 152694
+      "equivRank": 152694,
+      "prevScore": 517
     },
     {
       "majorName": "药品生产技术",
       "majorKey": "1b856be6",
+      "track": "综合",
       "selKe": "不限",
       "plan": 90,
       "tuition": "7500",
@@ -1878,11 +1851,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 153299,
-      "equivRank": 153299
+      "equivRank": 153299,
+      "prevScore": 517
     },
     {
       "majorName": "数字化设计与制造技术",
       "majorKey": "ce82f7c6",
+      "track": "综合",
       "selKe": "不限",
       "plan": 96,
       "tuition": "6600",
@@ -1890,11 +1865,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 153940,
-      "equivRank": 153940
+      "equivRank": 153940,
+      "prevScore": 516
     },
     {
       "majorName": "环境监测技术",
       "majorKey": "2dec95b1",
+      "track": "综合",
       "selKe": "不限",
       "plan": 39,
       "tuition": "6600",
@@ -1902,11 +1879,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 154354,
-      "equivRank": 154354
+      "equivRank": 154354,
+      "prevScore": 516
     },
     {
       "majorName": "应用阿拉伯语",
       "majorKey": "08b9fab0",
+      "track": "综合",
       "selKe": "不限",
       "plan": 20,
       "tuition": "6000",
@@ -1914,11 +1893,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 154406,
-      "equivRank": 154406
+      "equivRank": 154406,
+      "prevScore": 516
     },
     {
-      "majorName": "应用电子技术（中外合作办学）",
-      "majorKey": "108095f2",
+      "majorName": "应用电子技术",
+      "majorKey": "28e50aec",
+      "track": "综合",
       "selKe": "不限",
       "plan": 7,
       "tuition": "20000",
@@ -1927,11 +1908,13 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 155050,
-      "equivRank": 155050
+      "equivRank": 155050,
+      "prevScore": 515
     },
     {
       "majorName": "婴幼儿托育服务与管理",
       "majorKey": "e66c684e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 14,
       "tuition": "6000",
@@ -1939,11 +1922,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 155499,
-      "equivRank": 155499
+      "equivRank": 155499,
+      "prevScore": 515
     },
     {
       "majorName": "职业健康安全技术",
       "majorKey": "9e22cbec",
+      "track": "综合",
       "selKe": "不限",
       "plan": 20,
       "tuition": "6600",
@@ -1951,11 +1936,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 156103,
-      "equivRank": 156103
+      "equivRank": 156103,
+      "prevScore": 514
     },
     {
       "majorName": "园林技术",
       "majorKey": "2a7bdc12",
+      "track": "综合",
       "selKe": "不限",
       "plan": 82,
       "tuition": "6300",
@@ -1963,11 +1950,13 @@
       "menlei": "农",
       "prevYear": 2025,
       "prevRank": 156795,
-      "equivRank": 156795
+      "equivRank": 156795,
+      "prevScore": 514
     },
     {
       "majorName": "工业设计",
       "majorKey": "fee47c1b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 93,
       "tuition": "6600",
@@ -1975,11 +1964,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 156801,
-      "equivRank": 156801
+      "equivRank": 156801,
+      "prevScore": 514
     },
     {
       "majorName": "建筑装饰工程技术",
       "majorKey": "7eabb2c8",
+      "track": "综合",
       "selKe": "不限",
       "plan": 40,
       "tuition": "6600",
@@ -1987,11 +1978,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 157677,
-      "equivRank": 157677
+      "equivRank": 157677,
+      "prevScore": 513
     },
     {
       "majorName": "旅游管理",
       "majorKey": "ec77cae2",
+      "track": "综合",
       "selKe": "不限",
       "plan": 117,
       "tuition": "6900",
@@ -1999,11 +1992,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 158373,
-      "equivRank": 158373
+      "equivRank": 158373,
+      "prevScore": 512
     },
     {
       "majorName": "市政工程技术",
       "majorKey": "d4270a87",
+      "track": "综合",
       "selKe": "不限",
       "plan": 76,
       "tuition": "6600",
@@ -2011,11 +2006,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 159956,
-      "equivRank": 159956
+      "equivRank": 159956,
+      "prevScore": 511
     },
     {
       "majorName": "工程造价",
       "majorKey": "b8be11ab",
+      "track": "综合",
       "selKe": "不限",
       "plan": 116,
       "tuition": "6000",
@@ -2023,11 +2020,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 160014,
-      "equivRank": 160014
+      "equivRank": 160014,
+      "prevScore": 511
     },
     {
       "majorName": "酒店管理与数字化运营",
       "majorKey": "0a7dd809",
+      "track": "综合",
       "selKe": "不限",
       "plan": 114,
       "tuition": "6000",
@@ -2035,11 +2034,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 160075,
-      "equivRank": 160075
+      "equivRank": 160075,
+      "prevScore": 511
     },
     {
       "majorName": "建筑工程技术",
       "majorKey": "904edf72",
+      "track": "综合",
       "selKe": "不限",
       "plan": 80,
       "tuition": "7500",
@@ -2047,79 +2048,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 161289,
-      "equivRank": 161289
-    },
-    {
-      "majorName": "临床医学（为义乌市定向培养基层卫生人才,只招义乌市户籍考生。要求高考成绩不低于普通类二段线）",
-      "majorKey": "89376167",
-      "selKe": "不限",
-      "plan": 4,
-      "tuition": "6600",
-      "schooling": "三年",
-      "menlei": "医"
-    },
-    {
-      "majorName": "临床医学（为文成县定向培养基层卫生人才,只招文成县户籍考生。要求高考成绩不低于普通类二段线）",
-      "majorKey": "8ef3fbcf",
-      "selKe": "不限",
-      "plan": 4,
-      "tuition": "6600",
-      "schooling": "三年",
-      "menlei": "医"
-    },
-    {
-      "majorName": "临床医学（为武义县定向培养基层卫生人才,只招武义县户籍考生。要求高考成绩不低于普通类二段线）",
-      "majorKey": "d5f712c7",
-      "selKe": "不限",
-      "plan": 5,
-      "tuition": "6600",
-      "schooling": "三年",
-      "menlei": "医"
-    },
-    {
-      "majorName": "临床医学（为淳安县定向培养基层卫生人才,只招淳安县户籍考生。要求高考成绩不低于普通类二段线）",
-      "majorKey": "309619a7",
-      "selKe": "不限",
-      "plan": 5,
-      "tuition": "6600",
-      "schooling": "三年",
-      "menlei": "医"
-    },
-    {
-      "majorName": "临床医学（为舟山市普陀区定向培养基层卫生人才,只招舟山市普陀区户籍考生。要求高考成绩不低于普通类二段线）",
-      "majorKey": "9743ac69",
-      "selKe": "不限",
-      "plan": 2,
-      "tuition": "6600",
-      "schooling": "三年",
-      "menlei": "医"
-    },
-    {
-      "majorName": "临床医学（为龙游县定向培养基层卫生人才,只招龙游县户籍考生。要求高考成绩不低于普通类二段线）",
-      "majorKey": "bdc8c573",
-      "selKe": "不限",
-      "plan": 2,
-      "tuition": "6600",
-      "schooling": "三年",
-      "menlei": "医"
-    },
-    {
-      "majorName": "护理（为嵊泗县定向培养基层卫生人才,只招嵊泗县户籍考生。要求高考成绩不低于普通类二段线）",
-      "majorKey": "52ebea91",
-      "selKe": "不限",
-      "plan": 5,
-      "tuition": "7500",
-      "schooling": "三年",
-      "menlei": "医"
-    },
-    {
-      "majorName": "护理（为文成县定向培养基层卫生人才,只招文成县户籍考生。要求高考成绩不低于普通类二段线）",
-      "majorKey": "42e087bd",
-      "selKe": "不限",
-      "plan": 3,
-      "tuition": "7500",
-      "schooling": "三年",
-      "menlei": "医"
+      "equivRank": 161289,
+      "prevScore": 510
     }
   ]
 }

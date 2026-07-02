@@ -23,16 +23,7 @@
           "minScore": 571,
           "minRank": 86115,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "南京体育学院",
-      "schoolCode": "3264",
-      "majorKey": "479589b6",
-      "majorName": "体育经济与管理（仙林校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -69,16 +60,7 @@
           "minScore": 579,
           "minRank": 77466,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "南京体育学院",
-      "schoolCode": "3264",
-      "majorKey": "3fde9a0f",
-      "majorName": "新闻学（灵谷寺校区）",
-      "selKe": "历史必选",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -115,16 +97,7 @@
           "minScore": 538,
           "minRank": 125439,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "南京体育学院",
-      "schoolCode": "3264",
-      "majorKey": "4bcc4ff9",
-      "majorName": "运动人体科学（灵谷寺校区）",
-      "selKe": "物理、生物(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -161,16 +134,7 @@
           "minScore": 548,
           "minRank": 113010,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "南京体育学院",
-      "schoolCode": "3264",
-      "majorKey": "051d45d0",
-      "majorName": "运动康复（灵谷寺校区）",
-      "selKe": "物理、生物(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -183,8 +147,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "新闻学（灵谷寺校区）",
-      "majorKey": "3fde9a0f",
+      "majorName": "新闻学",
+      "majorKey": "9c5f4a34",
+      "track": "综合",
       "selKe": "历史必选",
       "plan": 10,
       "tuition": "5200",
@@ -192,11 +157,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 80090,
-      "equivRank": 80090
+      "equivRank": 80090,
+      "prevScore": 576
     },
     {
-      "majorName": "体育经济与管理（仙林校区）",
-      "majorKey": "479589b6",
+      "majorName": "体育经济与管理",
+      "majorKey": "b996d826",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "5200",
@@ -204,11 +171,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 89823,
-      "equivRank": 89823
+      "equivRank": 89823,
+      "prevScore": 568
     },
     {
-      "majorName": "运动康复（灵谷寺校区）",
-      "majorKey": "051d45d0",
+      "majorName": "运动康复",
+      "majorKey": "047778fd",
+      "track": "综合",
       "selKe": "物理、生物(2科必选)",
       "plan": 5,
       "tuition": "5300",
@@ -216,11 +185,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 119660,
-      "equivRank": 119660
+      "equivRank": 119660,
+      "prevScore": 544
     },
     {
-      "majorName": "运动人体科学（灵谷寺校区）",
-      "majorKey": "4bcc4ff9",
+      "majorName": "运动人体科学",
+      "majorKey": "676f341a",
+      "track": "综合",
       "selKe": "物理、生物(2科必选)",
       "plan": 5,
       "tuition": "5300",
@@ -228,7 +199,8 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 138878,
-      "equivRank": 138878
+      "equivRank": 138878,
+      "prevScore": 528
     }
   ]
 }

@@ -414,45 +414,6 @@
       "selKe": "不限",
       "years": [
         {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 512,
-          "minRank": 158806,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "浙江经济职业技术学院",
-      "schoolCode": "0051",
-      "majorKey": "94c1a38a",
-      "majorName": "现代物流管理（中外合作办学）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 490,
-          "minRank": 176578,
-          "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 479,
-          "minRank": 183900,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "浙江经济职业技术学院",
-      "schoolCode": "0051",
-      "majorKey": "cc993405",
-      "majorName": "现代物流管理（跨境物流）",
-      "selKe": "不限",
-      "years": [
-        {
           "year": 2022,
           "track": "综合",
           "minScore": 510,
@@ -471,6 +432,13 @@
           "track": "综合",
           "minScore": 513,
           "minRank": 154293,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 512,
+          "minRank": 158806,
           "maxScore": 0
         }
       ]
@@ -601,28 +569,13 @@
           "maxScore": 0
         }
       ]
-    },
-    {
-      "schoolKey": "浙江经济职业技术学院",
-      "schoolCode": "0051",
-      "majorKey": "15f4786b",
-      "majorName": "金融服务与管理（中外合作办学）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 490,
-          "minRank": 177123,
-          "maxScore": 0
-        }
-      ]
     }
   ],
   "plan2026": [
     {
       "majorName": "数字媒体技术",
       "majorKey": "889e9381",
+      "track": "综合",
       "selKe": "不限",
       "plan": 45,
       "tuition": "6600",
@@ -630,11 +583,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 146986,
-      "equivRank": 146986
+      "equivRank": 146986,
+      "prevScore": 522
     },
     {
       "majorName": "大数据与会计",
       "majorKey": "49f153aa",
+      "track": "综合",
       "selKe": "不限",
       "plan": 104,
       "tuition": "6900",
@@ -642,11 +597,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 149308,
-      "equivRank": 149308
+      "equivRank": 149308,
+      "prevScore": 520
     },
     {
       "majorName": "国际经济与贸易",
       "majorKey": "f8a1727e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 8,
       "tuition": "6900",
@@ -654,11 +611,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 154012,
-      "equivRank": 154012
+      "equivRank": 154012,
+      "prevScore": 516
     },
     {
       "majorName": "大数据与财务管理",
       "majorKey": "6daff4b6",
+      "track": "综合",
       "selKe": "不限",
       "plan": 66,
       "tuition": "6900",
@@ -666,11 +625,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 155358,
-      "equivRank": 155358
+      "equivRank": 155358,
+      "prevScore": 515
     },
     {
       "majorName": "新能源汽车技术",
       "majorKey": "ccb39427",
+      "track": "综合",
       "selKe": "不限",
       "plan": 39,
       "tuition": "6600",
@@ -678,11 +639,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 155957,
-      "equivRank": 155957
+      "equivRank": 155957,
+      "prevScore": 514
     },
     {
       "majorName": "现代物流管理",
       "majorKey": "a0f5df04",
+      "track": "综合",
       "selKe": "不限",
       "plan": 24,
       "tuition": "6000",
@@ -690,11 +653,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 158806,
-      "equivRank": 158806
+      "equivRank": 158806,
+      "prevScore": 512
     },
     {
       "majorName": "电子商务",
       "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 35,
       "tuition": "6900",
@@ -702,11 +667,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 158916,
-      "equivRank": 158916
+      "equivRank": 158916,
+      "prevScore": 512
     },
     {
       "majorName": "跨境电子商务",
       "majorKey": "48469b36",
+      "track": "综合",
       "selKe": "不限",
       "plan": 41,
       "tuition": "6000",
@@ -714,11 +681,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 160606,
-      "equivRank": 160606
+      "equivRank": 160606,
+      "prevScore": 510
     },
     {
       "majorName": "计算机网络技术",
       "majorKey": "547b1c20",
+      "track": "综合",
       "selKe": "不限",
       "plan": 45,
       "tuition": "6600",
@@ -726,11 +695,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 160888,
-      "equivRank": 160888
+      "equivRank": 160888,
+      "prevScore": 510
     },
     {
       "majorName": "大数据技术",
       "majorKey": "a0b9e84e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 43,
       "tuition": "6600",
@@ -738,11 +709,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 163306,
-      "equivRank": 163306
+      "equivRank": 163306,
+      "prevScore": 508
     },
     {
       "majorName": "市场营销",
       "majorKey": "28c62e21",
+      "track": "综合",
       "selKe": "不限",
       "plan": 16,
       "tuition": "6000",
@@ -750,11 +723,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 164623,
-      "equivRank": 164623
+      "equivRank": 164623,
+      "prevScore": 507
     },
     {
       "majorName": "商务数据分析与应用",
       "majorKey": "c00225cc",
+      "track": "综合",
       "selKe": "不限",
       "plan": 22,
       "tuition": "6000",
@@ -762,11 +737,13 @@
       "menlei": "他",
       "prevYear": 2025,
       "prevRank": 166643,
-      "equivRank": 166643
+      "equivRank": 166643,
+      "prevScore": 505
     },
     {
       "majorName": "智能控制技术",
       "majorKey": "fb946c17",
+      "track": "综合",
       "selKe": "不限",
       "plan": 42,
       "tuition": "6600",
@@ -774,11 +751,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 167614,
-      "equivRank": 167614
+      "equivRank": 167614,
+      "prevScore": 504
     },
     {
       "majorName": "供应链运营",
       "majorKey": "51714193",
+      "track": "综合",
       "selKe": "不限",
       "plan": 42,
       "tuition": "6000",
@@ -786,11 +765,13 @@
       "menlei": "他",
       "prevYear": 2025,
       "prevRank": 168304,
-      "equivRank": 168304
+      "equivRank": 168304,
+      "prevScore": 504
     },
     {
       "majorName": "智能物流技术",
       "majorKey": "6abd9350",
+      "track": "综合",
       "selKe": "不限",
       "plan": 42,
       "tuition": "6000",
@@ -798,11 +779,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 169279,
-      "equivRank": 169279
+      "equivRank": 169279,
+      "prevScore": 503
     },
     {
       "majorName": "智能网联汽车技术",
       "majorKey": "04bb17fe",
+      "track": "综合",
       "selKe": "不限",
       "plan": 45,
       "tuition": "6600",
@@ -810,11 +793,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 169631,
-      "equivRank": 169631
+      "equivRank": 169631,
+      "prevScore": 503
     },
     {
       "majorName": "物流工程技术",
       "majorKey": "d2809b6e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 42,
       "tuition": "6600",
@@ -822,7 +807,8 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 174222,
-      "equivRank": 174222
+      "equivRank": 174222,
+      "prevScore": 499
     }
   ]
 }

@@ -235,26 +235,17 @@
       "selKe": "不限",
       "years": [
         {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 527,
-          "minRank": 137923,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广东培正学院",
-      "schoolCode": "4409",
-      "majorKey": "e693f2b9",
-      "majorName": "旅游管理（与长隆集团协同培养）",
-      "selKe": "不限",
-      "years": [
-        {
           "year": 2023,
           "track": "综合",
           "minScore": 516,
           "minRank": 145181,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 527,
+          "minRank": 137923,
           "maxScore": 0
         }
       ]
@@ -393,6 +384,7 @@
     {
       "majorName": "法学",
       "majorKey": "a1113a1f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "32800",
@@ -400,11 +392,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 109491,
-      "equivRank": 109491
+      "equivRank": 109491,
+      "prevScore": 552
     },
     {
       "majorName": "会计学",
       "majorKey": "8aa56116",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "32800",
@@ -412,11 +406,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 122310,
-      "equivRank": 122310
+      "equivRank": 122310,
+      "prevScore": 542
     },
     {
       "majorName": "应用心理学",
       "majorKey": "59687759",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "33000",
@@ -424,11 +420,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 130634,
-      "equivRank": 130634
+      "equivRank": 130634,
+      "prevScore": 535
     },
     {
       "majorName": "国际经济与贸易",
       "majorKey": "f8a1727e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "32800",
@@ -436,11 +434,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 133192,
-      "equivRank": 133192
+      "equivRank": 133192,
+      "prevScore": 533
     },
     {
       "majorName": "网络与新媒体",
       "majorKey": "fff04889",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "32800",
@@ -448,11 +448,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 135757,
-      "equivRank": 135757
+      "equivRank": 135757,
+      "prevScore": 531
     },
     {
       "majorName": "广告学",
       "majorKey": "e9c95a9c",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "32800",
@@ -460,11 +462,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 137633,
-      "equivRank": 137633
+      "equivRank": 137633,
+      "prevScore": 529
     },
     {
       "majorName": "人力资源管理",
       "majorKey": "5a324641",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "32800",
@@ -472,7 +476,8 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 141989,
-      "equivRank": 141989
+      "equivRank": 141989,
+      "prevScore": 526
     }
   ]
 }

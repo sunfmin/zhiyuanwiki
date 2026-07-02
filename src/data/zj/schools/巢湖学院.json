@@ -131,16 +131,7 @@
           "minScore": 568,
           "minRank": 89233,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "巢湖学院",
-      "schoolCode": "3439",
-      "majorKey": "bc8bd9ee",
-      "majorName": "旅游管理（巢湖）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -163,16 +154,7 @@
           "minScore": 513,
           "minRank": 154677,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "巢湖学院",
-      "schoolCode": "3439",
-      "majorKey": "58cd50d4",
-      "majorName": "无机非金属材料工程（巢湖）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -185,8 +167,8 @@
     {
       "schoolKey": "巢湖学院",
       "schoolCode": "3439",
-      "majorKey": "2b918d55",
-      "majorName": "生物制药（巢湖）",
+      "majorKey": "97b7b689",
+      "majorName": "生物制药",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -201,8 +183,8 @@
     {
       "schoolKey": "巢湖学院",
       "schoolCode": "3439",
-      "majorKey": "f984a843",
-      "majorName": "生物工程（巢湖）",
+      "majorKey": "14eeb10f",
+      "majorName": "生物工程",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -227,16 +209,7 @@
           "minScore": 569,
           "minRank": 88596,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "巢湖学院",
-      "schoolCode": "3439",
-      "majorKey": "8b251943",
-      "majorName": "电子商务（巢湖）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -249,8 +222,8 @@
     {
       "schoolKey": "巢湖学院",
       "schoolCode": "3439",
-      "majorKey": "c4af4702",
-      "majorName": "酒店管理（巢湖）",
+      "majorKey": "ec686c36",
+      "majorName": "酒店管理",
       "selKe": "不限",
       "years": [
         {
@@ -267,7 +240,7 @@
       "schoolCode": "3439",
       "majorKey": "e6a89fa4",
       "majorName": "金融工程",
-      "selKe": "不限",
+      "selKe": "物理必选",
       "years": [
         {
           "year": 2022,
@@ -282,16 +255,7 @@
           "minScore": 552,
           "minRank": 104154,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "巢湖学院",
-      "schoolCode": "3439",
-      "majorKey": "0e3531b0",
-      "majorName": "金融工程（巢湖）",
-      "selKe": "物理必选",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -304,8 +268,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "电子商务（巢湖）",
-      "majorKey": "8b251943",
+      "majorName": "电子商务",
+      "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "4600",
@@ -313,11 +278,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 90398,
-      "equivRank": 90398
+      "equivRank": 90398,
+      "prevScore": 568
     },
     {
-      "majorName": "旅游管理（巢湖）",
-      "majorKey": "bc8bd9ee",
+      "majorName": "旅游管理",
+      "majorKey": "ec77cae2",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "5060",
@@ -325,11 +292,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 91567,
-      "equivRank": 91567
+      "equivRank": 91567,
+      "prevScore": 567
     },
     {
-      "majorName": "酒店管理（巢湖）",
-      "majorKey": "c4af4702",
+      "majorName": "酒店管理",
+      "majorKey": "ec686c36",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "18000",
@@ -338,11 +307,13 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 117533,
-      "equivRank": 117533
+      "equivRank": 117533,
+      "prevScore": 546
     },
     {
-      "majorName": "无机非金属材料工程（巢湖）",
-      "majorKey": "58cd50d4",
+      "majorName": "无机非金属材料工程",
+      "majorKey": "fa1dc158",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "5635",
@@ -350,11 +321,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 147298,
-      "equivRank": 147298
+      "equivRank": 147298,
+      "prevScore": 521
     },
     {
-      "majorName": "金融工程（巢湖）",
-      "majorKey": "0e3531b0",
+      "majorName": "金融工程",
+      "majorKey": "e6a89fa4",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 5,
       "tuition": "4600",
@@ -362,11 +335,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 153849,
-      "equivRank": 153849
+      "equivRank": 153849,
+      "prevScore": 516
     },
     {
-      "majorName": "生物制药（巢湖）",
-      "majorKey": "2b918d55",
+      "majorName": "生物制药",
+      "majorKey": "97b7b689",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "4900",
@@ -374,11 +349,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 157028,
-      "equivRank": 157028
+      "equivRank": 157028,
+      "prevScore": 513
     },
     {
-      "majorName": "生物工程（巢湖）",
-      "majorKey": "f984a843",
+      "majorName": "生物工程",
+      "majorKey": "14eeb10f",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 6,
       "tuition": "4900",
@@ -386,7 +363,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 158041,
-      "equivRank": 158041
+      "equivRank": 158041,
+      "prevScore": 512
     }
   ]
 }

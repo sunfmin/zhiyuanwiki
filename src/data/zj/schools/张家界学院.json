@@ -61,22 +61,6 @@
     {
       "schoolKey": "张家界学院",
       "schoolCode": "4357",
-      "majorKey": "962c77a9",
-      "majorName": "医学影像技术（智慧影像方向）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 447,
-          "minRank": 224734,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "张家界学院",
-      "schoolCode": "4357",
       "majorKey": "4428fd77",
       "majorName": "商务英语",
       "selKe": "不限",
@@ -86,22 +70,6 @@
           "track": "综合",
           "minScore": 490,
           "minRank": 184372,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "张家界学院",
-      "schoolCode": "4357",
-      "majorKey": "978fdfee",
-      "majorName": "商务英语（跨境电子商务运营服务与管理方向）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 326,
-          "minRank": 280087,
           "maxScore": 0
         }
       ]
@@ -247,6 +215,7 @@
     {
       "majorName": "会计学",
       "majorKey": "8aa56116",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "23800",
@@ -254,11 +223,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 123855,
-      "equivRank": 123855
+      "equivRank": 123855,
+      "prevScore": 541
     },
     {
       "majorName": "工商管理",
       "majorKey": "07c28723",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "22700",
@@ -266,11 +237,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 124353,
-      "equivRank": 124353
+      "equivRank": 124353,
+      "prevScore": 540
     },
     {
       "majorName": "旅游管理",
       "majorKey": "ec77cae2",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "22700",
@@ -278,11 +251,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 128836,
-      "equivRank": 128836
+      "equivRank": 128836,
+      "prevScore": 537
     },
     {
       "majorName": "护理学",
       "majorKey": "c7acab0a",
+      "track": "综合",
       "selKe": "化学必选",
       "plan": 2,
       "tuition": "28800",
@@ -290,11 +265,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 171597,
-      "equivRank": 171597
+      "equivRank": 171597,
+      "prevScore": 501
     },
     {
       "majorName": "助产学",
       "majorKey": "754290a4",
+      "track": "综合",
       "selKe": "化学必选",
       "plan": 2,
       "tuition": "28800",
@@ -302,35 +279,41 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 178802,
-      "equivRank": 178802
+      "equivRank": 178802,
+      "prevScore": 495
     },
     {
       "majorName": "商务英语",
       "majorKey": "4428fd77",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 2,
+      "plan": 4,
       "tuition": "13800",
       "schooling": "三年",
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "医学影像技术",
       "majorKey": "11fef64a",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 3,
+      "plan": 6,
       "tuition": "17800",
       "schooling": "三年",
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 187636,
-      "equivRank": 187636
+      "equivRank": 187636,
+      "prevScore": 487
     },
     {
       "majorName": "医学影像技术",
       "majorKey": "11fef64a",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "28800",
@@ -338,49 +321,18 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 187636,
-      "equivRank": 187636
-    },
-    {
-      "majorName": "医学影像技术（智慧影像方向）",
-      "majorKey": "962c77a9",
-      "selKe": "不限",
-      "plan": 3,
-      "tuition": "17800",
-      "schooling": "三年",
-      "menlei": "医",
-      "prevYear": 2025,
-      "prevRank": 224734,
-      "equivRank": 224734
-    },
-    {
-      "majorName": "商务英语（跨境电子商务运营服务与管理方向）",
-      "majorKey": "978fdfee",
-      "selKe": "不限",
-      "plan": 1,
-      "tuition": "13800",
-      "schooling": "三年",
-      "menlei": "文",
-      "prevYear": 2025,
-      "prevRank": 280087,
-      "equivRank": 280087
+      "equivRank": 187636,
+      "prevScore": 487
     },
     {
       "majorName": "助产",
       "majorKey": "b7060f34",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "17800",
       "schooling": "三年",
       "menlei": "医"
-    },
-    {
-      "majorName": "商务英语（报关报检方向）",
-      "majorKey": "01f82003",
-      "selKe": "不限",
-      "plan": 1,
-      "tuition": "13800",
-      "schooling": "三年",
-      "menlei": "文"
     }
   ]
 }

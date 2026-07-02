@@ -46,16 +46,7 @@
           "minScore": 564,
           "minRank": 94710,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "燕京理工学院",
-      "schoolCode": "1304",
-      "majorKey": "83eb221f",
-      "majorName": "会计学（三河）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -163,16 +154,7 @@
           "minScore": 529,
           "minRank": 135475,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "燕京理工学院",
-      "schoolCode": "1304",
-      "majorKey": "5ee24dfc",
-      "majorName": "广播电视编导（三河）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -392,8 +374,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "会计学（三河）",
-      "majorKey": "83eb221f",
+      "majorName": "会计学",
+      "majorKey": "8aa56116",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "20000",
@@ -401,11 +384,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 101497,
-      "equivRank": 101497
+      "equivRank": 101497,
+      "prevScore": 559
     },
     {
-      "majorName": "广播电视编导（三河）",
-      "majorKey": "5ee24dfc",
+      "majorName": "广播电视编导",
+      "majorKey": "b86f75b5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "30000",
@@ -413,7 +398,8 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 121984,
-      "equivRank": 121984
+      "equivRank": 121984,
+      "prevScore": 542
     }
   ]
 }

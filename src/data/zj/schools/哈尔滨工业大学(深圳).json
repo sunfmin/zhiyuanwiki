@@ -6,40 +6,8 @@
     {
       "schoolKey": "哈尔滨工业大学(深圳)",
       "schoolCode": "4460",
-      "majorKey": "ad413d1b",
-      "majorName": "工科试验班（机器人与智能装备）",
-      "selKe": "物理必选",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 673,
-          "minRank": 3815,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "哈尔滨工业大学(深圳)",
-      "schoolCode": "4460",
-      "majorKey": "fe364266",
-      "majorName": "工科试验班（自动化与电气工程）",
-      "selKe": "物理必选",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 674,
-          "minRank": 3441,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "哈尔滨工业大学(深圳)",
-      "schoolCode": "4460",
-      "majorKey": "0113dae0",
-      "majorName": "工科试验班（计算机与电子通信）",
+      "majorKey": "b363aa3d",
+      "majorName": "工科试验班",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -189,8 +157,8 @@
     {
       "schoolKey": "哈尔滨工业大学(深圳)",
       "schoolCode": "4460",
-      "majorKey": "22a23569",
-      "majorName": "通信工程（中外合作办学）",
+      "majorKey": "1c1ee3f7",
+      "majorName": "通信工程",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -205,20 +173,23 @@
   ],
   "plan2026": [
     {
-      "majorName": "工科试验班（计算机与电子通信）",
-      "majorKey": "0113dae0",
+      "majorName": "工科试验班",
+      "majorKey": "b363aa3d",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 40,
       "tuition": "6230",
       "schooling": "四年",
-      "menlei": "工",
+      "menlei": "他",
       "prevYear": 2025,
       "prevRank": 3791,
-      "equivRank": 3791
+      "equivRank": 3791,
+      "prevScore": 669
     },
     {
-      "majorName": "通信工程（中外合作办学）",
-      "majorKey": "22a23569",
+      "majorName": "通信工程",
+      "majorKey": "1c1ee3f7",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 6,
       "tuition": "100000",
@@ -227,7 +198,8 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 9192,
-      "equivRank": 9192
+      "equivRank": 9192,
+      "prevScore": 654
     }
   ]
 }

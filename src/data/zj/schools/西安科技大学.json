@@ -75,22 +75,6 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 549,
-          "minRank": 112165,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "西安科技大学",
-      "schoolCode": "6128",
-      "majorKey": "da70fd7e",
-      "majorName": "土木工程（中外合作办学）",
-      "selKe": "物理必选",
-      "years": [
-        {
           "year": 2022,
           "track": "综合",
           "minScore": 563,
@@ -102,6 +86,13 @@
           "track": "综合",
           "minScore": 555,
           "minRank": 100850,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 549,
+          "minRank": 112165,
           "maxScore": 0
         }
       ]
@@ -398,16 +389,7 @@
           "minScore": 592,
           "minRank": 62239,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "西安科技大学",
-      "schoolCode": "6128",
-      "majorKey": "9092cf26",
-      "majorName": "机械设计制造及其自动化（卓越班）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -655,8 +637,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "机械设计制造及其自动化（卓越班）",
-      "majorKey": "9092cf26",
+      "majorName": "机械设计制造及其自动化",
+      "majorKey": "55ff9da5",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "6480",
@@ -664,11 +647,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 59439,
-      "equivRank": 59439
+      "equivRank": 59439,
+      "prevScore": 593
     },
     {
       "majorName": "地理信息科学",
       "majorKey": "f9ecceea",
+      "track": "综合",
       "selKe": "地理必选",
       "plan": 4,
       "tuition": "6000",
@@ -676,11 +661,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 60237,
-      "equivRank": 60237
+      "equivRank": 60237,
+      "prevScore": 593
     },
     {
       "majorName": "大数据管理与应用",
       "majorKey": "2079a63e",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 5,
       "tuition": "5000",
@@ -688,11 +675,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 65715,
-      "equivRank": 65715
+      "equivRank": 65715,
+      "prevScore": 588
     },
     {
       "majorName": "城乡规划",
       "majorKey": "2a1f2fe5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "6000",
@@ -700,11 +689,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 71030,
-      "equivRank": 71030
+      "equivRank": 71030,
+      "prevScore": 584
     },
     {
       "majorName": "测控技术与仪器",
       "majorKey": "1bd76ba8",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "6480",
@@ -712,11 +703,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 72883,
-      "equivRank": 72883
+      "equivRank": 72883,
+      "prevScore": 582
     },
     {
       "majorName": "储能科学与工程",
       "majorKey": "b308db6c",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "6000",
@@ -724,11 +717,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 97544,
-      "equivRank": 97544
+      "equivRank": 97544,
+      "prevScore": 562
     },
     {
       "majorName": "消防工程",
       "majorKey": "6332a75d",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "6480",
@@ -736,11 +731,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 106182,
-      "equivRank": 106182
+      "equivRank": 106182,
+      "prevScore": 555
     },
     {
       "majorName": "应用化学",
       "majorKey": "25624660",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "6000",
@@ -748,11 +745,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 111718,
-      "equivRank": 111718
+      "equivRank": 111718,
+      "prevScore": 550
     },
     {
       "majorName": "环境工程",
       "majorKey": "7faf2092",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "6000",
@@ -760,7 +759,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 115569,
-      "equivRank": 115569
+      "equivRank": 115569,
+      "prevScore": 547
     }
   ]
 }

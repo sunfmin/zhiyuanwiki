@@ -48,6 +48,13 @@
       "selKe": "物理必选",
       "years": [
         {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 508,
+          "minRank": 153382,
+          "maxScore": 0
+        },
+        {
           "year": 2024,
           "track": "综合",
           "minScore": 467,
@@ -59,22 +66,6 @@
           "track": "综合",
           "minScore": 490,
           "minRank": 184372,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "北京工业大学耿丹学院",
-      "schoolCode": "1114",
-      "majorKey": "dba96fc3",
-      "majorName": "城乡规划（国际班）",
-      "selKe": "物理必选",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 508,
-          "minRank": 153382,
           "maxScore": 0
         }
       ]
@@ -128,8 +119,8 @@
     {
       "schoolKey": "北京工业大学耿丹学院",
       "schoolCode": "1114",
-      "majorKey": "090a0d95",
-      "majorName": "市场营销（品牌管理与策划）",
+      "majorKey": "28c62e21",
+      "majorName": "市场营销",
       "selKe": "不限",
       "years": [
         {
@@ -227,8 +218,8 @@
     {
       "schoolKey": "北京工业大学耿丹学院",
       "schoolCode": "1114",
-      "majorKey": "17f483b1",
-      "majorName": "机械设计制造及其自动化（机器人方向）",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -499,8 +490,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "市场营销（品牌管理与策划）",
-      "majorKey": "090a0d95",
+      "majorName": "市场营销",
+      "majorKey": "28c62e21",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "46600",
@@ -508,11 +500,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 115451,
-      "equivRank": 115451
+      "equivRank": 115451,
+      "prevScore": 547
     },
     {
       "majorName": "财务管理",
       "majorKey": "8220c852",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "46600",
@@ -520,11 +514,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 124999,
-      "equivRank": 124999
+      "equivRank": 124999,
+      "prevScore": 540
     },
     {
       "majorName": "国际经济与贸易",
       "majorKey": "f8a1727e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "46600",
@@ -532,11 +528,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 127327,
-      "equivRank": 127327
+      "equivRank": 127327,
+      "prevScore": 538
     },
     {
       "majorName": "汉语国际教育",
       "majorKey": "d2fbd5c5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "46600",
@@ -544,11 +542,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 138741,
-      "equivRank": 138741
+      "equivRank": 138741,
+      "prevScore": 529
     },
     {
-      "majorName": "机械设计制造及其自动化（机器人方向）",
-      "majorKey": "17f483b1",
+      "majorName": "机械设计制造及其自动化",
+      "majorKey": "55ff9da5",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "46600",
@@ -556,11 +556,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 174500,
-      "equivRank": 174500
+      "equivRank": 174500,
+      "prevScore": 498
     },
     {
       "majorName": "城乡规划",
       "majorKey": "2a1f2fe5",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 3,
       "tuition": "46600",
@@ -568,11 +570,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "测控技术与仪器",
       "majorKey": "1bd76ba8",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "46600",
@@ -580,11 +584,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "计算机科学与技术",
       "majorKey": "1d486608",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "46600",
@@ -592,11 +598,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 191901,
-      "equivRank": 191901
+      "equivRank": 191901,
+      "prevScore": 483
     },
     {
       "majorName": "气象技术与工程",
       "majorKey": "05157035",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "46600",
@@ -604,11 +612,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 193949,
-      "equivRank": 193949
+      "equivRank": 193949,
+      "prevScore": 481
     },
     {
       "majorName": "遥感科学与技术",
       "majorKey": "8cb98cd7",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "46600",
@@ -616,11 +626,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 197988,
-      "equivRank": 197988
+      "equivRank": 197988,
+      "prevScore": 477
     },
     {
       "majorName": "金融工程",
       "majorKey": "e6a89fa4",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 3,
       "tuition": "46600",
@@ -628,7 +640,8 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 201929,
-      "equivRank": 201929
+      "equivRank": 201929,
+      "prevScore": 473
     }
   ]
 }

@@ -30,16 +30,7 @@
           "minScore": 507,
           "minRank": 161342,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "永州职业技术学院",
-      "schoolCode": "4364",
-      "majorKey": "cf54917b",
-      "majorName": "中医学（医学部）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -76,16 +67,7 @@
           "minScore": 496,
           "minRank": 173167,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "永州职业技术学院",
-      "schoolCode": "4364",
-      "majorKey": "3138e701",
-      "majorName": "临床医学（医学部）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -122,16 +104,7 @@
           "minScore": 508,
           "minRank": 160101,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "永州职业技术学院",
-      "schoolCode": "4364",
-      "majorKey": "04b0dffb",
-      "majorName": "医学影像技术（医学部）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -168,16 +141,7 @@
           "minScore": 520,
           "minRank": 145891,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "永州职业技术学院",
-      "schoolCode": "4364",
-      "majorKey": "5c15088e",
-      "majorName": "口腔医学（医学部）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -251,16 +215,7 @@
           "minScore": 503,
           "minRank": 165783,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "永州职业技术学院",
-      "schoolCode": "4364",
-      "majorKey": "445aac17",
-      "majorName": "药学（医学部。）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -273,8 +228,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "口腔医学（医学部）",
-      "majorKey": "5c15088e",
+      "majorName": "口腔医学",
+      "majorKey": "c162bced",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "5460",
@@ -282,11 +238,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 153490,
-      "equivRank": 153490
+      "equivRank": 153490,
+      "prevScore": 516
     },
     {
-      "majorName": "中医学（医学部）",
-      "majorKey": "cf54917b",
+      "majorName": "中医学",
+      "majorKey": "2285e5ca",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "5460",
@@ -294,11 +252,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 166437,
-      "equivRank": 166437
+      "equivRank": 166437,
+      "prevScore": 505
     },
     {
       "majorName": "护理",
       "majorKey": "a3db4652",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "5460",
@@ -306,11 +266,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 169672,
-      "equivRank": 169672
+      "equivRank": 169672,
+      "prevScore": 503
     },
     {
-      "majorName": "医学影像技术（医学部）",
-      "majorKey": "04b0dffb",
+      "majorName": "医学影像技术",
+      "majorKey": "11fef64a",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "5460",
@@ -318,11 +280,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 170166,
-      "equivRank": 170166
+      "equivRank": 170166,
+      "prevScore": 502
     },
     {
-      "majorName": "临床医学（医学部）",
-      "majorKey": "3138e701",
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "5460",
@@ -330,16 +294,22 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 180533,
-      "equivRank": 180533
+      "equivRank": 180533,
+      "prevScore": 493
     },
     {
-      "majorName": "药学（医学部）",
-      "majorKey": "cc08ea22",
+      "majorName": "药学",
+      "majorKey": "e9e6a481",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "5460",
       "schooling": "三年",
-      "menlei": "医"
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 191901,
+      "equivRank": 191901,
+      "prevScore": 483
     }
   ]
 }

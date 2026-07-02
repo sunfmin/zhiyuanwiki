@@ -30,16 +30,7 @@
           "minScore": 558,
           "minRank": 101675,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "郑州工商学院",
-      "schoolCode": "4213",
-      "majorKey": "14baf376",
-      "majorName": "会计学（第一学年在兰考校区，第二学年起在郑州校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -76,16 +67,7 @@
           "minScore": 493,
           "minRank": 176756,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "郑州工商学院",
-      "schoolCode": "4213",
-      "majorKey": "1ade3919",
-      "majorName": "机械设计制造及其自动化（第一学年在兰考校区，第二学年起在郑州校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -122,16 +104,7 @@
           "minScore": 556,
           "minRank": 103893,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "郑州工商学院",
-      "schoolCode": "4213",
-      "majorKey": "e77d2c0f",
-      "majorName": "法学（第一学年在兰考校区，第二学年起在郑州校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -168,16 +141,7 @@
           "minScore": 547,
           "minRank": 114856,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "郑州工商学院",
-      "schoolCode": "4213",
-      "majorKey": "0f50ae25",
-      "majorName": "英语（第一学年在兰考校区，第二学年起在郑州校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -214,16 +178,7 @@
           "minScore": 479,
           "minRank": 190397,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "郑州工商学院",
-      "schoolCode": "4213",
-      "majorKey": "8f9a8f64",
-      "majorName": "计算机科学与技术（第一学年在兰考校区，第二学年起在郑州校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -236,8 +191,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "会计学（第一学年在兰考校区，第二学年起在郑州校区）",
-      "majorKey": "14baf376",
+      "majorName": "会计学",
+      "majorKey": "8aa56116",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "15000",
@@ -245,11 +201,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 102076,
-      "equivRank": 102076
+      "equivRank": 102076,
+      "prevScore": 558
     },
     {
-      "majorName": "法学（第一学年在兰考校区，第二学年起在郑州校区）",
-      "majorKey": "e77d2c0f",
+      "majorName": "法学",
+      "majorKey": "a1113a1f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "15000",
@@ -257,11 +215,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 104888,
-      "equivRank": 104888
+      "equivRank": 104888,
+      "prevScore": 556
     },
     {
-      "majorName": "英语（第一学年在兰考校区，第二学年起在郑州校区）",
-      "majorKey": "0f50ae25",
+      "majorName": "英语",
+      "majorKey": "49c5cdf9",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "15000",
@@ -269,11 +229,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 113786,
-      "equivRank": 113786
+      "equivRank": 113786,
+      "prevScore": 549
     },
     {
-      "majorName": "机械设计制造及其自动化（第一学年在兰考校区，第二学年起在郑州校区）",
-      "majorKey": "1ade3919",
+      "majorName": "机械设计制造及其自动化",
+      "majorKey": "55ff9da5",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "16000",
@@ -281,11 +243,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 172509,
-      "equivRank": 172509
+      "equivRank": 172509,
+      "prevScore": 500
     },
     {
-      "majorName": "计算机科学与技术（第一学年在兰考校区，第二学年起在郑州校区）",
-      "majorKey": "8f9a8f64",
+      "majorName": "计算机科学与技术",
+      "majorKey": "1d486608",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "16000",
@@ -293,7 +257,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 178121,
-      "equivRank": 178121
+      "equivRank": 178121,
+      "prevScore": 495
     }
   ]
 }

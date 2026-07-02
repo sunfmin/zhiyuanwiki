@@ -52,31 +52,8 @@
     {
       "schoolKey": "北京电影学院",
       "schoolCode": "1107",
-      "majorKey": "55693a97",
-      "majorName": "戏剧影视文学（剧作）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 642,
-          "minRank": 17072,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 637,
-          "minRank": 18516,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "北京电影学院",
-      "schoolCode": "1107",
-      "majorKey": "6ce6c6b2",
-      "majorName": "戏剧影视文学（动漫策划）",
+      "majorKey": "b8236e06",
+      "majorName": "戏剧影视文学",
       "selKe": "不限",
       "years": [
         {
@@ -158,29 +135,6 @@
     {
       "schoolKey": "北京电影学院",
       "schoolCode": "1107",
-      "majorKey": "9acbd907",
-      "majorName": "电影学（制片与市场）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 625,
-          "minRank": 29091,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 622,
-          "minRank": 30347,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "北京电影学院",
-      "schoolCode": "1107",
       "majorKey": "fff04889",
       "majorName": "网络与新媒体",
       "selKe": "物理必选",
@@ -211,32 +165,23 @@
   ],
   "plan2026": [
     {
-      "majorName": "戏剧影视文学（动漫策划）",
-      "majorKey": "6ce6c6b2",
+      "majorName": "戏剧影视文学",
+      "majorKey": "b8236e06",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 1,
+      "plan": 4,
       "tuition": "8000",
       "schooling": "四年",
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 15848,
-      "equivRank": 15848
-    },
-    {
-      "majorName": "戏剧影视文学（剧作）",
-      "majorKey": "55693a97",
-      "selKe": "不限",
-      "plan": 3,
-      "tuition": "8000",
-      "schooling": "四年",
-      "menlei": "艺",
-      "prevYear": 2025,
-      "prevRank": 18516,
-      "equivRank": 18516
+      "equivRank": 15848,
+      "prevScore": 641
     },
     {
       "majorName": "数字媒体技术",
       "majorKey": "889e9381",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4600",
@@ -244,11 +189,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 19206,
-      "equivRank": 19206
+      "equivRank": 19206,
+      "prevScore": 636
     },
     {
       "majorName": "广播电视编导",
       "majorKey": "b86f75b5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "10000",
@@ -256,11 +203,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 21073,
-      "equivRank": 21073
+      "equivRank": 21073,
+      "prevScore": 633
     },
     {
       "majorName": "影视技术",
       "majorKey": "913de9bc",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "10000",
@@ -268,35 +217,27 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 21319,
-      "equivRank": 21319
+      "equivRank": 21319,
+      "prevScore": 633
     },
     {
       "majorName": "电影学",
       "majorKey": "83596f16",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 2,
+      "plan": 7,
       "tuition": "8000",
       "schooling": "四年",
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 22487,
-      "equivRank": 22487
-    },
-    {
-      "majorName": "电影学（制片与市场）",
-      "majorKey": "9acbd907",
-      "selKe": "不限",
-      "plan": 5,
-      "tuition": "8000",
-      "schooling": "四年",
-      "menlei": "艺",
-      "prevYear": 2025,
-      "prevRank": 30347,
-      "equivRank": 30347
+      "equivRank": 22487,
+      "prevScore": 631
     },
     {
       "majorName": "网络与新媒体",
       "majorKey": "fff04889",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 3,
       "tuition": "4200",
@@ -304,7 +245,8 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 42015,
-      "equivRank": 42015
+      "equivRank": 42015,
+      "prevScore": 609
     }
   ]
 }

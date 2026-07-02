@@ -27,26 +27,17 @@
       "selKe": "不限",
       "years": [
         {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 568,
-          "minRank": 90631,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "宝鸡文理学院",
-      "schoolCode": "6101",
-      "majorKey": "4c5c8bc7",
-      "majorName": "历史学（师范）",
-      "selKe": "历史/地理(2选1)",
-      "years": [
-        {
           "year": 2023,
           "track": "综合",
           "minScore": 563,
           "minRank": 91891,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 568,
+          "minRank": 90631,
           "maxScore": 0
         }
       ]
@@ -75,6 +66,13 @@
       "selKe": "物理、地理(2科必选)",
       "years": [
         {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 538,
+          "minRank": 125018,
+          "maxScore": 0
+        },
+        {
           "year": 2025,
           "track": "综合",
           "minScore": 528,
@@ -86,25 +84,9 @@
     {
       "schoolKey": "宝鸡文理学院",
       "schoolCode": "6101",
-      "majorKey": "198d794d",
-      "majorName": "地理科学（师范）",
-      "selKe": "物理、地理(2科必选)",
-      "years": [
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 538,
-          "minRank": 125018,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "宝鸡文理学院",
-      "schoolCode": "6101",
       "majorKey": "3c2f7b8b",
       "majorName": "外国语言文学类",
-      "selKe": "史/政/地(3选1)",
+      "selKe": "不限",
       "years": [
         {
           "year": 2022,
@@ -119,16 +101,7 @@
           "minScore": 541,
           "minRank": 117138,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "宝鸡文理学院",
-      "schoolCode": "6101",
-      "majorKey": "976c7ac3",
-      "majorName": "外国语言文学类（英语、翻译）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -151,16 +124,7 @@
           "minScore": 551,
           "minRank": 104988,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "宝鸡文理学院",
-      "schoolCode": "6101",
-      "majorKey": "0725b54f",
-      "majorName": "工商管理类（工商管理、人力资源管理）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -189,8 +153,8 @@
     {
       "schoolKey": "宝鸡文理学院",
       "schoolCode": "6101",
-      "majorKey": "47452c2f",
-      "majorName": "思想政治教育（师范）",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
       "selKe": "思想政治必选",
       "years": [
         {
@@ -205,8 +169,8 @@
     {
       "schoolKey": "宝鸡文理学院",
       "schoolCode": "6101",
-      "majorKey": "26d35d07",
-      "majorName": "教育技术学（师范）",
+      "majorKey": "3e2b336a",
+      "majorName": "教育技术学",
       "selKe": "物理必选",
       "years": [
         {
@@ -331,8 +295,8 @@
     {
       "schoolKey": "宝鸡文理学院",
       "schoolCode": "6101",
-      "majorKey": "d7131091",
-      "majorName": "汉语言文学（师范）",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
       "selKe": "历史必选",
       "years": [
         {
@@ -409,73 +373,102 @@
   ],
   "plan2026": [
     {
-      "majorName": "历史学（师范）",
-      "majorKey": "4c5c8bc7",
+      "majorName": "历史学",
+      "majorKey": "c9800f2a",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4250",
       "schooling": "四年",
       "menlei": "史",
-      "prevYear": 2023,
-      "prevRank": 91891,
-      "equivRank": 96284
+      "prevYear": 2025,
+      "prevRank": 90631,
+      "equivRank": 90631,
+      "prevScore": 568
     },
     {
-      "majorName": "地理科学（师范）",
-      "majorKey": "198d794d",
+      "majorName": "工商管理类",
+      "majorKey": "b74128f4",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 94299,
+      "equivRank": 94299,
+      "prevScore": 565
+    },
+    {
+      "majorName": "外国语言文学类",
+      "majorKey": "3c2f7b8b",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 98035,
+      "equivRank": 98035,
+      "prevScore": 562
+    },
+    {
+      "majorName": "地理科学",
+      "majorKey": "d061ae24",
+      "track": "综合",
       "selKe": "物理、地理(2科必选)",
       "plan": 2,
       "tuition": "6420",
       "schooling": "四年",
       "menlei": "理",
-      "prevYear": 2024,
-      "prevRank": 125018,
-      "equivRank": 129347
+      "prevYear": 2025,
+      "prevRank": 139942,
+      "equivRank": 139942,
+      "prevScore": 528
     },
     {
-      "majorName": "地理信息科学（高新校区）",
-      "majorKey": "7163e3e1",
+      "majorName": "地理信息科学",
+      "majorKey": "f9ecceea",
+      "track": "综合",
       "selKe": "物理、地理(2科必选)",
       "plan": 2,
       "tuition": "6000",
       "schooling": "四年",
-      "menlei": "理"
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 142327,
+      "equivRank": 142327,
+      "prevScore": 526
     },
     {
-      "majorName": "外国语言文学类（高新校区。含英语、翻译专业）",
-      "majorKey": "7be804e5",
-      "selKe": "不限",
-      "plan": 2,
-      "tuition": "5000",
-      "schooling": "四年",
-      "menlei": "文"
-    },
-    {
-      "majorName": "工商管理类（高新校区。含工商管理、人力资源管理专业）",
-      "majorKey": "a175bab5",
-      "selKe": "不限",
-      "plan": 2,
-      "tuition": "5000",
-      "schooling": "四年",
-      "menlei": "管"
-    },
-    {
-      "majorName": "数字经济（高新校区）",
-      "majorKey": "36ad3ba0",
-      "selKe": "物理必选",
-      "plan": 2,
-      "tuition": "5000",
-      "schooling": "四年",
-      "menlei": "经"
-    },
-    {
-      "majorName": "机械设计制造及其自动化（石鼓校区）",
-      "majorKey": "a1dc4597",
+      "majorName": "机械设计制造及其自动化",
+      "majorKey": "55ff9da5",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "6000",
       "schooling": "四年",
-      "menlei": "工"
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 144669,
+      "equivRank": 144669,
+      "prevScore": 524
+    },
+    {
+      "majorName": "数字经济",
+      "majorKey": "ca37000f",
+      "track": "综合",
+      "selKe": "物理必选",
+      "plan": 2,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "经",
+      "prevYear": 2025,
+      "prevRank": 152037,
+      "equivRank": 152037,
+      "prevScore": 518
     }
   ]
 }

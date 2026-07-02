@@ -30,16 +30,7 @@
           "minScore": 560,
           "minRank": 99326,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广西艺术学院",
-      "schoolCode": "4518",
-      "majorKey": "64dab2b5",
-      "majorName": "戏剧影视文学（南湖校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -76,16 +67,7 @@
           "minScore": 562,
           "minRank": 96976,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广西艺术学院",
-      "schoolCode": "4518",
-      "majorKey": "5beee270",
-      "majorName": "美术学（相思湖校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -98,8 +80,8 @@
     {
       "schoolKey": "广西艺术学院",
       "schoolCode": "4518",
-      "majorKey": "31a7879d",
-      "majorName": "艺术与科技（相思湖校区）",
+      "majorKey": "ee39903c",
+      "majorName": "艺术与科技",
       "selKe": "不限",
       "years": [
         {
@@ -138,16 +120,7 @@
           "minScore": 558,
           "minRank": 101592,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广西艺术学院",
-      "schoolCode": "4518",
-      "majorKey": "f7bcbc92",
-      "majorName": "艺术史论（相思湖校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -170,16 +143,7 @@
           "minScore": 556,
           "minRank": 104319,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广西艺术学院",
-      "schoolCode": "4518",
-      "majorKey": "d1fc7e81",
-      "majorName": "艺术管理（相思湖校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -216,16 +180,7 @@
           "minScore": 562,
           "minRank": 96887,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广西艺术学院",
-      "schoolCode": "4518",
-      "majorKey": "34c3c77f",
-      "majorName": "艺术设计学（相思湖校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -238,8 +193,8 @@
     {
       "schoolKey": "广西艺术学院",
       "schoolCode": "4518",
-      "majorKey": "c8af16d6",
-      "majorName": "风景园林（相思湖校区）",
+      "majorKey": "9b8820c1",
+      "majorName": "风景园林",
       "selKe": "不限",
       "years": [
         {
@@ -254,8 +209,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "美术学（相思湖校区）",
-      "majorKey": "5beee270",
+      "majorName": "美术学",
+      "majorKey": "a59e1c5b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "12000",
@@ -263,11 +219,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 95582,
-      "equivRank": 95582
+      "equivRank": 95582,
+      "prevScore": 563
     },
     {
-      "majorName": "艺术设计学（相思湖校区）",
-      "majorKey": "34c3c77f",
+      "majorName": "艺术设计学",
+      "majorKey": "72bed0ee",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "12000",
@@ -275,11 +233,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 98552,
-      "equivRank": 98552
+      "equivRank": 98552,
+      "prevScore": 561
     },
     {
-      "majorName": "艺术史论（相思湖校区）",
-      "majorKey": "f7bcbc92",
+      "majorName": "艺术史论",
+      "majorKey": "ae17c365",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "12000",
@@ -287,11 +247,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 102866,
-      "equivRank": 102866
+      "equivRank": 102866,
+      "prevScore": 558
     },
     {
-      "majorName": "戏剧影视文学（南湖校区）",
-      "majorKey": "64dab2b5",
+      "majorName": "戏剧影视文学",
+      "majorKey": "b8236e06",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "12000",
@@ -299,11 +261,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 103115,
-      "equivRank": 103115
+      "equivRank": 103115,
+      "prevScore": 557
     },
     {
-      "majorName": "艺术管理（相思湖校区）",
-      "majorKey": "d1fc7e81",
+      "majorName": "艺术管理",
+      "majorKey": "44d89b18",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "12000",
@@ -311,11 +275,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 103399,
-      "equivRank": 103399
+      "equivRank": 103399,
+      "prevScore": 557
     },
     {
-      "majorName": "风景园林（相思湖校区）",
-      "majorKey": "c8af16d6",
+      "majorName": "风景园林",
+      "majorKey": "9b8820c1",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "12000",
@@ -323,11 +289,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 108001,
-      "equivRank": 108001
+      "equivRank": 108001,
+      "prevScore": 553
     },
     {
-      "majorName": "艺术与科技（相思湖校区）",
-      "majorKey": "31a7879d",
+      "majorName": "艺术与科技",
+      "majorKey": "ee39903c",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "12000",
@@ -335,7 +303,8 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 111942,
-      "equivRank": 111942
+      "equivRank": 111942,
+      "prevScore": 550
     }
   ]
 }

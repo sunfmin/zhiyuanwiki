@@ -6,10 +6,17 @@
     {
       "schoolKey": "咸阳师范学院",
       "schoolCode": "6150",
-      "majorKey": "13d3126a",
-      "majorName": "学前教育（中外合作办学）",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
       "selKe": "不限",
       "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 568,
+          "minRank": 85173,
+          "maxScore": 0
+        },
         {
           "year": 2023,
           "track": "综合",
@@ -29,22 +36,6 @@
           "track": "综合",
           "minScore": 549,
           "minRank": 113980,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "咸阳师范学院",
-      "schoolCode": "6150",
-      "majorKey": "6e38b28d",
-      "majorName": "学前教育（师范）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 568,
-          "minRank": 85173,
           "maxScore": 0
         }
       ]
@@ -140,22 +131,6 @@
       "selKe": "不限",
       "years": [
         {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 569,
-          "minRank": 89443,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "咸阳师范学院",
-      "schoolCode": "6150",
-      "majorKey": "fea3e248",
-      "majorName": "英语（师范）",
-      "selKe": "不限",
-      "years": [
-        {
           "year": 2022,
           "track": "综合",
           "minScore": 573,
@@ -175,6 +150,13 @@
           "minScore": 577,
           "minRank": 79582,
           "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 569,
+          "minRank": 89443,
+          "maxScore": 0
         }
       ]
     },
@@ -183,22 +165,6 @@
       "schoolCode": "6150",
       "majorKey": "8220c852",
       "majorName": "财务管理",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 568,
-          "minRank": 90631,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "咸阳师范学院",
-      "schoolCode": "6150",
-      "majorKey": "890d866f",
-      "majorName": "财务管理（师范）",
       "selKe": "不限",
       "years": [
         {
@@ -221,26 +187,50 @@
           "minScore": 575,
           "minRank": 81795,
           "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 568,
+          "minRank": 90631,
+          "maxScore": 0
         }
       ]
     }
   ],
   "plan2026": [
     {
-      "majorName": "英语（师范）",
-      "majorKey": "fea3e248",
+      "majorName": "英语",
+      "majorKey": "49c5cdf9",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5000",
       "schooling": "四年",
       "menlei": "文",
-      "prevYear": 2024,
-      "prevRank": 79582,
-      "equivRank": 82338
+      "prevYear": 2025,
+      "prevRank": 89443,
+      "equivRank": 89443,
+      "prevScore": 569
     },
     {
-      "majorName": "学前教育（中外合作办学）",
-      "majorKey": "13d3126a",
+      "majorName": "财务管理",
+      "majorKey": "8220c852",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 90631,
+      "equivRank": 90631,
+      "prevScore": 568
+    },
+    {
+      "majorName": "学前教育",
+      "majorKey": "97716b64",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "38000",
@@ -249,34 +239,36 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 113980,
-      "equivRank": 113980
+      "equivRank": 113980,
+      "prevScore": 549
     },
     {
-      "majorName": "数字经济（渭城校区）",
-      "majorKey": "f34f0393",
+      "majorName": "数字经济",
+      "majorKey": "ca37000f",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 2,
       "tuition": "5000",
       "schooling": "四年",
-      "menlei": "经"
+      "menlei": "经",
+      "prevYear": 2025,
+      "prevRank": 149572,
+      "equivRank": 149572,
+      "prevScore": 520
     },
     {
-      "majorName": "材料化学（渭城校区）",
-      "majorKey": "29cafe88",
+      "majorName": "材料化学",
+      "majorKey": "e6cfcc6c",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6000",
       "schooling": "四年",
-      "menlei": "工"
-    },
-    {
-      "majorName": "财务管理（渭城校区）",
-      "majorKey": "e13cc562",
-      "selKe": "不限",
-      "plan": 2,
-      "tuition": "5000",
-      "schooling": "四年",
-      "menlei": "管"
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 160384,
+      "equivRank": 160384,
+      "prevScore": 511
     }
   ]
 }

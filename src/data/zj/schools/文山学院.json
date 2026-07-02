@@ -6,8 +6,8 @@
     {
       "schoolKey": "文山学院",
       "schoolCode": "5330",
-      "majorKey": "21b31be9",
-      "majorName": "学前教育（不招收色盲色弱等辨色能力异常考生）",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
       "selKe": "不限",
       "years": [
         {
@@ -16,16 +16,7 @@
           "minScore": 558,
           "minRank": 97966,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "文山学院",
-      "schoolCode": "5330",
-      "majorKey": "6e38b28d",
-      "majorName": "学前教育（师范）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2023,
           "track": "综合",
@@ -128,6 +119,7 @@
     {
       "majorName": "物流管理",
       "majorKey": "8b6a817b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "4500",
@@ -135,11 +127,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 98736,
-      "equivRank": 98736
+      "equivRank": 98736,
+      "prevScore": 561
     },
     {
-      "majorName": "学前教育（师范）",
-      "majorKey": "6e38b28d",
+      "majorName": "学前教育",
+      "majorKey": "97716b64",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "4200",
@@ -147,11 +141,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 101360,
-      "equivRank": 101360
+      "equivRank": 101360,
+      "prevScore": 559
     },
     {
       "majorName": "酒店管理",
       "majorKey": "ec686c36",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "4500",
@@ -159,7 +155,8 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 102078,
-      "equivRank": 102078
+      "equivRank": 102078,
+      "prevScore": 558
     }
   ]
 }

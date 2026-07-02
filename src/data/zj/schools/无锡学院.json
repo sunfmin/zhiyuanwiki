@@ -333,8 +333,8 @@
     {
       "schoolKey": "无锡学院",
       "schoolCode": "3268",
-      "majorKey": "3a857c7f",
-      "majorName": "数据科学与大数据技术（中外合作办学）",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -508,22 +508,6 @@
     {
       "schoolKey": "无锡学院",
       "schoolCode": "3268",
-      "majorKey": "d14f7347",
-      "majorName": "物联网工程（中外合作办学）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 550,
-          "minRank": 112665,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "无锡学院",
-      "schoolCode": "3268",
       "majorKey": "7ab09507",
       "majorName": "环境科学与工程",
       "selKe": "物/化/生(3选1)",
@@ -570,22 +554,6 @@
           "track": "综合",
           "minScore": 567,
           "minRank": 90715,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "无锡学院",
-      "schoolCode": "3268",
-      "majorKey": "635403c8",
-      "majorName": "电子信息工程（中外合作办学）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 529,
-          "minRank": 137872,
           "maxScore": 0
         }
       ]
@@ -736,8 +704,8 @@
         {
           "year": 2022,
           "track": "综合",
-          "minScore": 566,
-          "minRank": 87582,
+          "minScore": 567,
+          "minRank": 86541,
           "maxScore": 0
         },
         {
@@ -759,22 +727,6 @@
           "track": "综合",
           "minScore": 571,
           "minRank": 85838,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "无锡学院",
-      "schoolCode": "3268",
-      "majorKey": "afe16da8",
-      "majorName": "计算机科学与技术（嵌入式培养）",
-      "selKe": "物理必选",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 567,
-          "minRank": 86541,
           "maxScore": 0
         }
       ]
@@ -922,6 +874,7 @@
     {
       "majorName": "会计学",
       "majorKey": "8aa56116",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5200",
@@ -929,23 +882,28 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 60218,
-      "equivRank": 60218
+      "equivRank": 60218,
+      "prevScore": 593
     },
     {
       "majorName": "物联网工程",
       "majorKey": "1da18825",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "5800",
+      "plan": 4,
+      "tuition": "50000",
       "schooling": "四年",
       "menlei": "工",
+      "coop": true,
       "prevYear": 2025,
       "prevRank": 81518,
-      "equivRank": 81518
+      "equivRank": 81518,
+      "prevScore": 575
     },
     {
       "majorName": "电气工程及其自动化",
       "majorKey": "45947d31",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5800",
@@ -953,11 +911,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 83968,
-      "equivRank": 83968
+      "equivRank": 83968,
+      "prevScore": 573
     },
     {
       "majorName": "计算机科学与技术",
       "majorKey": "1d486608",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5800",
@@ -965,11 +925,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 85838,
-      "equivRank": 85838
+      "equivRank": 85838,
+      "prevScore": 571
     },
     {
       "majorName": "人工智能",
       "majorKey": "2fec4169",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5800",
@@ -977,11 +939,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 89640,
-      "equivRank": 89640
+      "equivRank": 89640,
+      "prevScore": 568
     },
     {
       "majorName": "自动化",
       "majorKey": "da95770c",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5800",
@@ -989,23 +953,28 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 89787,
-      "equivRank": 89787
+      "equivRank": 89787,
+      "prevScore": 568
     },
     {
       "majorName": "电子信息工程",
       "majorKey": "fd603692",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "5800",
+      "plan": 4,
+      "tuition": "50000",
       "schooling": "四年",
       "menlei": "工",
+      "coop": true,
       "prevYear": 2025,
       "prevRank": 90715,
-      "equivRank": 90715
+      "equivRank": 90715,
+      "prevScore": 567
     },
     {
       "majorName": "机械电子工程",
       "majorKey": "4ef2a1b4",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5800",
@@ -1013,11 +982,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 91583,
-      "equivRank": 91583
+      "equivRank": 91583,
+      "prevScore": 567
     },
     {
       "majorName": "金融工程",
       "majorKey": "e6a89fa4",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 2,
       "tuition": "5200",
@@ -1025,11 +996,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 92039,
-      "equivRank": 92039
+      "equivRank": 92039,
+      "prevScore": 566
     },
     {
       "majorName": "微电子科学与工程",
       "majorKey": "e063e51a",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5800",
@@ -1037,11 +1010,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 94426,
-      "equivRank": 94426
+      "equivRank": 94426,
+      "prevScore": 564
     },
     {
       "majorName": "大气科学",
       "majorKey": "40735902",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "5500",
@@ -1049,11 +1024,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 95207,
-      "equivRank": 95207
+      "equivRank": 95207,
+      "prevScore": 564
     },
     {
       "majorName": "机器人工程",
       "majorKey": "301e14e8",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5800",
@@ -1061,11 +1038,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 96877,
-      "equivRank": 96877
+      "equivRank": 96877,
+      "prevScore": 562
     },
     {
       "majorName": "交通运输",
       "majorKey": "904549c4",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5800",
@@ -1073,11 +1052,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 103126,
-      "equivRank": 103126
+      "equivRank": 103126,
+      "prevScore": 557
     },
     {
       "majorName": "储能科学与工程",
       "majorKey": "b308db6c",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5800",
@@ -1085,11 +1066,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 104189,
-      "equivRank": 104189
+      "equivRank": 104189,
+      "prevScore": 556
     },
     {
       "majorName": "数字经济",
       "majorKey": "ca37000f",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 2,
       "tuition": "5200",
@@ -1097,37 +1080,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 109011,
-      "equivRank": 109011
+      "equivRank": 109011,
+      "prevScore": 552
     },
     {
-      "majorName": "物联网工程（中外合作办学）",
-      "majorKey": "d14f7347",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "50000",
-      "schooling": "四年",
-      "menlei": "工",
-      "coop": true,
-      "prevYear": 2025,
-      "prevRank": 112665,
-      "equivRank": 112665
-    },
-    {
-      "majorName": "电子信息工程（中外合作办学）",
-      "majorKey": "635403c8",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "50000",
-      "schooling": "四年",
-      "menlei": "工",
-      "coop": true,
-      "prevYear": 2025,
-      "prevRank": 137872,
-      "equivRank": 137872
-    },
-    {
-      "majorName": "数据科学与大数据技术（中外合作办学）",
-      "majorKey": "3a857c7f",
+      "majorName": "数据科学与大数据技术",
+      "majorKey": "bb0a25bd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "50000",
@@ -1136,7 +1095,8 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 143660,
-      "equivRank": 143660
+      "equivRank": 143660,
+      "prevScore": 524
     }
   ]
 }

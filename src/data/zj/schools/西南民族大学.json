@@ -85,16 +85,7 @@
           "minScore": 610,
           "minRank": 43412,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "西南民族大学",
-      "schoolCode": "5145",
-      "majorKey": "1f82f5e9",
-      "majorName": "历史学类（武侯校区。含历史学、文物与博物馆学专业）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -107,8 +98,8 @@
     {
       "schoolKey": "西南民族大学",
       "schoolCode": "5145",
-      "majorKey": "7e8be4e6",
-      "majorName": "国际经济与贸易（航空港校区）",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
       "selKe": "不限",
       "years": [
         {
@@ -163,16 +154,7 @@
           "minScore": 591,
           "minRank": 63455,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "西南民族大学",
-      "schoolCode": "5145",
-      "majorKey": "43692061",
-      "majorName": "民族学（武侯校区）",
-      "selKe": "历史必选",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -209,16 +191,7 @@
           "minScore": 623,
           "minRank": 30782,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "西南民族大学",
-      "schoolCode": "5145",
-      "majorKey": "cdde4da8",
-      "majorName": "法学（武侯校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -241,16 +214,7 @@
           "minScore": 579,
           "minRank": 77307,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "西南民族大学",
-      "schoolCode": "5145",
-      "majorKey": "772c0cd2",
-      "majorName": "电子信息工程（航空港校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -326,16 +290,7 @@
           "minScore": 595,
           "minRank": 59306,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "西南民族大学",
-      "schoolCode": "5145",
-      "majorKey": "b3bd5728",
-      "majorName": "社会学类（武侯校区。含社会学、社会工作专业）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -358,16 +313,7 @@
           "minScore": 602,
           "minRank": 51491,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "西南民族大学",
-      "schoolCode": "5145",
-      "majorKey": "ec2ac5c7",
-      "majorName": "网络与新媒体（航空港校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -380,8 +326,8 @@
     {
       "schoolKey": "西南民族大学",
       "schoolCode": "5145",
-      "majorKey": "eb185865",
-      "majorName": "网络工程（航空港校区）",
+      "majorKey": "b54c1697",
+      "majorName": "网络工程",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -396,8 +342,8 @@
     {
       "schoolKey": "西南民族大学",
       "schoolCode": "5145",
-      "majorKey": "6edec3b8",
-      "majorName": "计算机科学与技术（航空港校区）",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -442,8 +388,8 @@
     {
       "schoolKey": "西南民族大学",
       "schoolCode": "5145",
-      "majorKey": "c49b77c5",
-      "majorName": "通信工程（航空港校区）",
+      "majorKey": "1c1ee3f7",
+      "majorName": "通信工程",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -520,8 +466,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "法学（武侯校区）",
-      "majorKey": "cdde4da8",
+      "majorName": "法学",
+      "majorKey": "a1113a1f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "5760",
@@ -529,11 +476,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 34376,
-      "equivRank": 34376
+      "equivRank": 34376,
+      "prevScore": 617
     },
     {
-      "majorName": "历史学类（武侯校区。含历史学、文物与博物馆学专业）",
-      "majorKey": "1f82f5e9",
+      "majorName": "历史学类",
+      "majorKey": "7b08de6b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "4800",
@@ -541,11 +490,13 @@
       "menlei": "史",
       "prevYear": 2025,
       "prevRank": 50265,
-      "equivRank": 50265
+      "equivRank": 50265,
+      "prevScore": 602
     },
     {
-      "majorName": "网络与新媒体（航空港校区）",
-      "majorKey": "ec2ac5c7",
+      "majorName": "网络与新媒体",
+      "majorKey": "fff04889",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "5760",
@@ -553,11 +504,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 53132,
-      "equivRank": 53132
+      "equivRank": 53132,
+      "prevScore": 599
     },
     {
-      "majorName": "民族学（武侯校区）",
-      "majorKey": "43692061",
+      "majorName": "民族学",
+      "majorKey": "eca12e7e",
+      "track": "综合",
       "selKe": "历史必选",
       "plan": 3,
       "tuition": "5760",
@@ -565,11 +518,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 63387,
-      "equivRank": 63387
+      "equivRank": 63387,
+      "prevScore": 590
     },
     {
-      "majorName": "社会学类（武侯校区。含社会学、社会工作专业）",
-      "majorKey": "b3bd5728",
+      "majorName": "社会学类",
+      "majorKey": "7f7363bf",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "5760",
@@ -577,11 +532,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 63814,
-      "equivRank": 63814
+      "equivRank": 63814,
+      "prevScore": 590
     },
     {
-      "majorName": "国际经济与贸易（航空港校区）",
-      "majorKey": "7e8be4e6",
+      "majorName": "国际经济与贸易",
+      "majorKey": "f8a1727e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "5760",
@@ -589,11 +546,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 64215,
-      "equivRank": 64215
+      "equivRank": 64215,
+      "prevScore": 589
     },
     {
-      "majorName": "计算机科学与技术（航空港校区）",
-      "majorKey": "6edec3b8",
+      "majorName": "计算机科学与技术",
+      "majorKey": "1d486608",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "6240",
@@ -601,11 +560,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 75664,
-      "equivRank": 75664
+      "equivRank": 75664,
+      "prevScore": 580
     },
     {
-      "majorName": "通信工程（航空港校区）",
-      "majorKey": "c49b77c5",
+      "majorName": "通信工程",
+      "majorKey": "1c1ee3f7",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "6240",
@@ -613,11 +574,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 75953,
-      "equivRank": 75953
+      "equivRank": 75953,
+      "prevScore": 580
     },
     {
-      "majorName": "电子信息工程（航空港校区）",
-      "majorKey": "772c0cd2",
+      "majorName": "电子信息工程",
+      "majorKey": "fd603692",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "6240",
@@ -625,11 +588,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 76301,
-      "equivRank": 76301
+      "equivRank": 76301,
+      "prevScore": 579
     },
     {
-      "majorName": "网络工程（航空港校区）",
-      "majorKey": "eb185865",
+      "majorName": "网络工程",
+      "majorKey": "b54c1697",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "6240",
@@ -637,7 +602,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 81666,
-      "equivRank": 81666
+      "equivRank": 81666,
+      "prevScore": 575
     }
   ]
 }

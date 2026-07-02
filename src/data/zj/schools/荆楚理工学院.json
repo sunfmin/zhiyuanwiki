@@ -36,8 +36,8 @@
     {
       "schoolKey": "荆楚理工学院",
       "schoolCode": "4045",
-      "majorKey": "3e804f26",
-      "majorName": "印刷数字图文技术（三年制）",
+      "majorKey": "3613cab3",
+      "majorName": "印刷数字图文技术",
       "selKe": "不限",
       "years": [
         {
@@ -46,16 +46,7 @@
           "minScore": 514,
           "minRank": 150827,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "荆楚理工学院",
-      "schoolCode": "4045",
-      "majorKey": "cde164bf",
-      "majorName": "印刷数字图文技术（专科专业）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2023,
           "track": "综合",
@@ -68,8 +59,8 @@
     {
       "schoolKey": "荆楚理工学院",
       "schoolCode": "4045",
-      "majorKey": "4bed4b11",
-      "majorName": "大数据与会计（三年制）",
+      "majorKey": "49f153aa",
+      "majorName": "大数据与会计",
       "selKe": "不限",
       "years": [
         {
@@ -107,8 +98,8 @@
     {
       "schoolKey": "荆楚理工学院",
       "schoolCode": "4045",
-      "majorKey": "f1b5fe8b",
-      "majorName": "应用化工技术（三年制）",
+      "majorKey": "413a7fac",
+      "majorName": "应用化工技术",
       "selKe": "不限",
       "years": [
         {
@@ -117,16 +108,7 @@
           "minScore": 512,
           "minRank": 153133,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "荆楚理工学院",
-      "schoolCode": "4045",
-      "majorKey": "aea3cd58",
-      "majorName": "应用化工技术（专科专业）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2023,
           "track": "综合",
@@ -141,7 +123,7 @@
       "schoolCode": "4045",
       "majorKey": "409f7ac3",
       "majorName": "应用物理学",
-      "selKe": "物理必选",
+      "selKe": "物理、化学(2科必选)",
       "years": [
         {
           "year": 2022,
@@ -149,16 +131,7 @@
           "minScore": 540,
           "minRank": 119353,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "荆楚理工学院",
-      "schoolCode": "4045",
-      "majorKey": "0f97283e",
-      "majorName": "应用物理学（师范）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2023,
           "track": "综合",
@@ -185,8 +158,8 @@
     {
       "schoolKey": "荆楚理工学院",
       "schoolCode": "4045",
-      "majorKey": "5cce1e69",
-      "majorName": "护理（三年制）",
+      "majorKey": "a3db4652",
+      "majorName": "护理",
       "selKe": "不限",
       "years": [
         {
@@ -195,16 +168,7 @@
           "minScore": 520,
           "minRank": 143143,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "荆楚理工学院",
-      "schoolCode": "4045",
-      "majorKey": "89363852",
-      "majorName": "护理（专科专业）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2023,
           "track": "综合",
@@ -217,8 +181,8 @@
     {
       "schoolKey": "荆楚理工学院",
       "schoolCode": "4045",
-      "majorKey": "c6284f63",
-      "majorName": "数字媒体技术（中外合作办学）",
+      "majorKey": "889e9381",
+      "majorName": "数字媒体技术",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -254,8 +218,8 @@
     {
       "schoolKey": "荆楚理工学院",
       "schoolCode": "4045",
-      "majorKey": "405cabea",
-      "majorName": "电气自动化技术（三年制）",
+      "majorKey": "4f34e927",
+      "majorName": "电气自动化技术",
       "selKe": "不限",
       "years": [
         {
@@ -264,16 +228,7 @@
           "minScore": 519,
           "minRank": 144778,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "荆楚理工学院",
-      "schoolCode": "4045",
-      "majorKey": "0d56a69b",
-      "majorName": "电气自动化技术（专科专业）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2023,
           "track": "综合",
@@ -288,6 +243,7 @@
     {
       "majorName": "广播电视编导",
       "majorKey": "b86f75b5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "10350",
@@ -295,11 +251,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 96271,
-      "equivRank": 96271
+      "equivRank": 96271,
+      "prevScore": 563
     },
     {
       "majorName": "化学工程与工艺",
       "majorKey": "1f59c989",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "5200",
@@ -307,11 +265,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 147406,
-      "equivRank": 147406
+      "equivRank": 147406,
+      "prevScore": 521
     },
     {
-      "majorName": "应用物理学（师范）",
-      "majorKey": "0f97283e",
+      "majorName": "应用物理学",
+      "majorKey": "409f7ac3",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "4000",
@@ -319,11 +279,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 156208,
-      "equivRank": 156208
+      "equivRank": 156208,
+      "prevScore": 514
     },
     {
-      "majorName": "数字媒体技术（中外合作办学）",
-      "majorKey": "c6284f63",
+      "majorName": "数字媒体技术",
+      "majorKey": "889e9381",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "25000",
@@ -332,7 +294,8 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 177783,
-      "equivRank": 177783
+      "equivRank": 177783,
+      "prevScore": 495
     }
   ]
 }

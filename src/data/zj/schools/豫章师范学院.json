@@ -73,24 +73,8 @@
     {
       "schoolKey": "豫章师范学院",
       "schoolCode": "3652",
-      "majorKey": "fe31788b",
-      "majorName": "商务英语（专科专业）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 504,
-          "minRank": 158569,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "豫章师范学院",
-      "schoolCode": "3652",
-      "majorKey": "6e38b28d",
-      "majorName": "学前教育（师范）",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
       "selKe": "不限",
       "years": [
         {
@@ -156,8 +140,8 @@
     {
       "schoolKey": "豫章师范学院",
       "schoolCode": "3652",
-      "majorKey": "f01c40c2",
-      "majorName": "旅游管理（专科专业）",
+      "majorKey": "ec77cae2",
+      "majorName": "旅游管理",
       "selKe": "不限",
       "years": [
         {
@@ -172,8 +156,8 @@
     {
       "schoolKey": "豫章师范学院",
       "schoolCode": "3652",
-      "majorKey": "d7131091",
-      "majorName": "汉语言文学（师范）",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
       "selKe": "不限",
       "years": [
         {
@@ -225,8 +209,8 @@
     {
       "schoolKey": "豫章师范学院",
       "schoolCode": "3652",
-      "majorKey": "79d7e7d7",
-      "majorName": "特殊教育（师范）",
+      "majorKey": "e0d708da",
+      "majorName": "特殊教育",
       "selKe": "不限",
       "years": [
         {
@@ -299,8 +283,8 @@
     {
       "schoolKey": "豫章师范学院",
       "schoolCode": "3652",
-      "majorKey": "fea3e248",
-      "majorName": "英语（师范）",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
       "selKe": "不限",
       "years": [
         {
@@ -336,8 +320,8 @@
     {
       "schoolKey": "豫章师范学院",
       "schoolCode": "3652",
-      "majorKey": "edd7b0ce",
-      "majorName": "虚拟现实技术应用（三年制）",
+      "majorKey": "342763eb",
+      "majorName": "虚拟现实技术应用",
       "selKe": "不限",
       "years": [
         {
@@ -346,16 +330,7 @@
           "minScore": 512,
           "minRank": 152731,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "豫章师范学院",
-      "schoolCode": "3652",
-      "majorKey": "0bed6977",
-      "majorName": "虚拟现实技术应用（专科专业）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2023,
           "track": "综合",
@@ -368,8 +343,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "汉语言文学（师范）",
-      "majorKey": "d7131091",
+      "majorName": "汉语言文学",
+      "majorKey": "97bc5998",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "3650",
@@ -377,11 +353,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 69700,
-      "equivRank": 69700
+      "equivRank": 69700,
+      "prevScore": 585
     },
     {
-      "majorName": "特殊教育（师范）",
-      "majorKey": "79d7e7d7",
+      "majorName": "特殊教育",
+      "majorKey": "e0d708da",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "3880",
@@ -389,11 +367,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 78126,
-      "equivRank": 78126
+      "equivRank": 78126,
+      "prevScore": 578
     },
     {
-      "majorName": "英语（师范）",
-      "majorKey": "fea3e248",
+      "majorName": "英语",
+      "majorKey": "49c5cdf9",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "3880",
@@ -401,11 +381,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 81362,
-      "equivRank": 81362
+      "equivRank": 81362,
+      "prevScore": 575
     },
     {
       "majorName": "人力资源管理",
       "majorKey": "5a324641",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "3880",
@@ -413,11 +395,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 87887,
-      "equivRank": 87887
+      "equivRank": 87887,
+      "prevScore": 570
     },
     {
-      "majorName": "学前教育（师范）",
-      "majorKey": "6e38b28d",
+      "majorName": "学前教育",
+      "majorKey": "97716b64",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "3880",
@@ -425,11 +409,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 89882,
-      "equivRank": 89882
+      "equivRank": 89882,
+      "prevScore": 568
     },
     {
       "majorName": "数据科学与大数据技术",
       "majorKey": "bb0a25bd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4350",
@@ -437,11 +423,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 128921,
-      "equivRank": 128921
+      "equivRank": 128921,
+      "prevScore": 536
     },
     {
       "majorName": "环境工程",
       "majorKey": "7faf2092",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4350",
@@ -449,7 +437,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 148506,
-      "equivRank": 148506
+      "equivRank": 148506,
+      "prevScore": 520
     }
   ]
 }

@@ -22,8 +22,8 @@
     {
       "schoolKey": "聊城大学",
       "schoolCode": "3710",
-      "majorKey": "436fd9b6",
-      "majorName": "应用化学（中外合作办学）",
+      "majorKey": "25624660",
+      "majorName": "应用化学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -38,8 +38,8 @@
     {
       "schoolKey": "聊城大学",
       "schoolCode": "3710",
-      "majorKey": "47452c2f",
-      "majorName": "思想政治教育（师范）",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
       "selKe": "思想政治必选",
       "years": [
         {
@@ -75,8 +75,8 @@
     {
       "schoolKey": "聊城大学",
       "schoolCode": "3710",
-      "majorKey": "9f802a9c",
-      "majorName": "数学与应用数学（师范）",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -149,8 +149,8 @@
     {
       "schoolKey": "聊城大学",
       "schoolCode": "3710",
-      "majorKey": "612f16ab",
-      "majorName": "生物制药（中外合作办学）",
+      "majorKey": "97b7b689",
+      "majorName": "生物制药",
       "selKe": "物化生(3科必选)",
       "years": [
         {
@@ -189,16 +189,7 @@
           "minScore": 532,
           "minRank": 132501,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "聊城大学",
-      "schoolCode": "3710",
-      "majorKey": "1c043e01",
-      "majorName": "生物工程（中外合作办学）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -211,8 +202,8 @@
     {
       "schoolKey": "聊城大学",
       "schoolCode": "3710",
-      "majorKey": "80353860",
-      "majorName": "生物科学（师范）",
+      "majorKey": "e2472a71",
+      "majorName": "生物科学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -384,6 +375,7 @@
     {
       "majorName": "法学",
       "majorKey": "a1113a1f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4400",
@@ -391,11 +383,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 57824,
-      "equivRank": 57824
+      "equivRank": 57824,
+      "prevScore": 595
     },
     {
-      "majorName": "思想政治教育（师范）",
-      "majorKey": "47452c2f",
+      "majorName": "思想政治教育",
+      "majorKey": "6a15bc12",
+      "track": "综合",
       "selKe": "思想政治必选",
       "plan": 2,
       "tuition": "5200",
@@ -403,11 +397,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 60144,
-      "equivRank": 60144
+      "equivRank": 60144,
+      "prevScore": 593
     },
     {
       "majorName": "行政管理",
       "majorKey": "062bcf46",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "6300",
@@ -415,11 +411,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 81269,
-      "equivRank": 81269
+      "equivRank": 81269,
+      "prevScore": 575
     },
     {
       "majorName": "计算机科学与技术",
       "majorKey": "1d486608",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6300",
@@ -427,11 +425,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 88347,
-      "equivRank": 88347
+      "equivRank": 88347,
+      "prevScore": 569
     },
     {
-      "majorName": "数学与应用数学（师范）",
-      "majorKey": "9f802a9c",
+      "majorName": "数学与应用数学",
+      "majorKey": "618fdffd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6600",
@@ -439,11 +439,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 114455,
-      "equivRank": 114455
+      "equivRank": 114455,
+      "prevScore": 548
     },
     {
       "majorName": "经济学",
       "majorKey": "bda0ff17",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 2,
       "tuition": "6300",
@@ -451,11 +453,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 124185,
-      "equivRank": 124185
+      "equivRank": 124185,
+      "prevScore": 540
     },
     {
       "majorName": "高分子材料与工程",
       "majorKey": "fc81313f",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6600",
@@ -463,11 +467,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 129509,
-      "equivRank": 129509
+      "equivRank": 129509,
+      "prevScore": 536
     },
     {
-      "majorName": "生物工程（中外合作办学）",
-      "majorKey": "1c043e01",
+      "majorName": "生物工程",
+      "majorKey": "14eeb10f",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "40000",
@@ -476,11 +482,13 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 152037,
-      "equivRank": 152037
+      "equivRank": 152037,
+      "prevScore": 518
     },
     {
       "majorName": "制药工程",
       "majorKey": "28bd788f",
+      "track": "综合",
       "selKe": "物化生(3科必选)",
       "plan": 3,
       "tuition": "5500",
@@ -488,11 +496,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 161766,
-      "equivRank": 161766
+      "equivRank": 161766,
+      "prevScore": 509
     },
     {
-      "majorName": "应用化学（中外合作办学）",
-      "majorKey": "436fd9b6",
+      "majorName": "应用化学",
+      "majorKey": "25624660",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "40000",
@@ -501,11 +511,13 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 177704,
-      "equivRank": 177704
+      "equivRank": 177704,
+      "prevScore": 496
     },
     {
-      "majorName": "生物制药（中外合作办学）",
-      "majorKey": "612f16ab",
+      "majorName": "生物制药",
+      "majorKey": "97b7b689",
+      "track": "综合",
       "selKe": "物化生(3科必选)",
       "plan": 3,
       "tuition": "40000",
@@ -514,7 +526,8 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     }
   ]
 }

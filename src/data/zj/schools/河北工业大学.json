@@ -110,8 +110,8 @@
     {
       "schoolKey": "河北工业大学",
       "schoolCode": "1202",
-      "majorKey": "310ed8a5",
-      "majorName": "应用物理学（中外合作办学）",
+      "majorKey": "409f7ac3",
+      "majorName": "应用物理学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -193,8 +193,8 @@
     {
       "schoolKey": "河北工业大学",
       "schoolCode": "1202",
-      "majorKey": "ae7e82c7",
-      "majorName": "机械设计制造及其自动化（中外合作办学）",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -230,8 +230,8 @@
     {
       "schoolKey": "河北工业大学",
       "schoolCode": "1202",
-      "majorKey": "1bf1635b",
-      "majorName": "材料物理（中外合作办学）",
+      "majorKey": "72c52639",
+      "majorName": "材料物理",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -445,22 +445,6 @@
     {
       "schoolKey": "河北工业大学",
       "schoolCode": "1202",
-      "majorKey": "a9c6ef1d",
-      "majorName": "电子科学与技术（卓越工程师班集成电路方向）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 638,
-          "minRank": 18134,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "河北工业大学",
-      "schoolCode": "1202",
       "majorKey": "45947d31",
       "majorName": "电气工程及其自动化",
       "selKe": "物理、化学(2科必选)",
@@ -636,6 +620,7 @@
     {
       "majorName": "电气工程及其自动化",
       "majorKey": "45947d31",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "5800",
@@ -643,11 +628,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 15035,
-      "equivRank": 15035
+      "equivRank": 15035,
+      "prevScore": 643
     },
     {
       "majorName": "机械电子工程",
       "majorKey": "4ef2a1b4",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5800",
@@ -655,35 +642,27 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 18134,
-      "equivRank": 18134
+      "equivRank": 18134,
+      "prevScore": 638
     },
     {
       "majorName": "电子科学与技术",
       "majorKey": "178ae2b7",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
-      "plan": 3,
+      "plan": 5,
       "tuition": "5800",
       "schooling": "四年",
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 18134,
-      "equivRank": 18134
-    },
-    {
-      "majorName": "电子科学与技术（卓越工程师班集成电路方向）",
-      "majorKey": "a9c6ef1d",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "5800",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 18134,
-      "equivRank": 18134
+      "equivRank": 18134,
+      "prevScore": 638
     },
     {
       "majorName": "自动化",
       "majorKey": "da95770c",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5800",
@@ -691,11 +670,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 18134,
-      "equivRank": 18134
+      "equivRank": 18134,
+      "prevScore": 638
     },
     {
       "majorName": "物联网工程",
       "majorKey": "1da18825",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5800",
@@ -703,11 +684,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 18815,
-      "equivRank": 18815
+      "equivRank": 18815,
+      "prevScore": 637
     },
     {
       "majorName": "能源与动力工程",
       "majorKey": "34997647",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5800",
@@ -715,11 +698,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 19448,
-      "equivRank": 19448
+      "equivRank": 19448,
+      "prevScore": 636
     },
     {
       "majorName": "工业工程",
       "majorKey": "13c18eb7",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5500",
@@ -727,11 +712,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 22365,
-      "equivRank": 22365
+      "equivRank": 22365,
+      "prevScore": 632
     },
     {
       "majorName": "生物医学工程",
       "majorKey": "27c81131",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5800",
@@ -739,11 +726,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 23127,
-      "equivRank": 23127
+      "equivRank": 23127,
+      "prevScore": 631
     },
     {
       "majorName": "化学工程与工艺",
       "majorKey": "1f59c989",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5800",
@@ -751,11 +740,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 26164,
-      "equivRank": 26164
+      "equivRank": 26164,
+      "prevScore": 627
     },
     {
       "majorName": "生物工程",
       "majorKey": "14eeb10f",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5300",
@@ -763,11 +754,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 30381,
-      "equivRank": 30381
+      "equivRank": 30381,
+      "prevScore": 622
     },
     {
-      "majorName": "机械设计制造及其自动化（中外合作办学）",
-      "majorKey": "ae7e82c7",
+      "majorName": "机械设计制造及其自动化",
+      "majorKey": "55ff9da5",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "70000",
@@ -776,11 +769,13 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 31221,
-      "equivRank": 31221
+      "equivRank": 31221,
+      "prevScore": 621
     },
     {
       "majorName": "金融学",
       "majorKey": "5a699e63",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5000",
@@ -788,11 +783,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 32114,
-      "equivRank": 32114
+      "equivRank": 32114,
+      "prevScore": 620
     },
     {
       "majorName": "海洋技术",
       "majorKey": "f551bc07",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5300",
@@ -800,11 +797,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 34876,
-      "equivRank": 34876
+      "equivRank": 34876,
+      "prevScore": 617
     },
     {
-      "majorName": "应用物理学（中外合作办学）",
-      "majorKey": "310ed8a5",
+      "majorName": "应用物理学",
+      "majorKey": "409f7ac3",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "70000",
@@ -813,11 +812,13 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 46041,
-      "equivRank": 46041
+      "equivRank": 46041,
+      "prevScore": 606
     },
     {
-      "majorName": "材料物理（中外合作办学）",
-      "majorKey": "1bf1635b",
+      "majorName": "材料物理",
+      "majorKey": "72c52639",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "70000",
@@ -826,7 +827,8 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 50295,
-      "equivRank": 50295
+      "equivRank": 50295,
+      "prevScore": 602
     }
   ]
 }

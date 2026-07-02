@@ -6,8 +6,8 @@
     {
       "schoolKey": "肇庆医学院",
       "schoolCode": "4482",
-      "majorKey": "2fc9a618",
-      "majorName": "临床医学（新区校区）",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -22,8 +22,8 @@
     {
       "schoolKey": "肇庆医学院",
       "schoolCode": "4482",
-      "majorKey": "dff52826",
-      "majorName": "护理学（新区校区）",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
       "selKe": "化学必选",
       "years": [
         {
@@ -38,8 +38,8 @@
     {
       "schoolKey": "肇庆医学院",
       "schoolCode": "4482",
-      "majorKey": "e546e291",
-      "majorName": "药学（新区校区）",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -54,8 +54,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "临床医学（新区校区）",
-      "majorKey": "2fc9a618",
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5800",
@@ -63,11 +64,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 116087,
-      "equivRank": 116087
+      "equivRank": 116087,
+      "prevScore": 547
     },
     {
-      "majorName": "护理学（新区校区）",
-      "majorKey": "dff52826",
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "综合",
       "selKe": "化学必选",
       "plan": 1,
       "tuition": "5800",
@@ -75,11 +78,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 139340,
-      "equivRank": 139340
+      "equivRank": 139340,
+      "prevScore": 528
     },
     {
-      "majorName": "药学（新区校区）",
-      "majorKey": "e546e291",
+      "majorName": "药学",
+      "majorKey": "e9e6a481",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5800",
@@ -87,7 +92,8 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 148907,
-      "equivRank": 148907
+      "equivRank": 148907,
+      "prevScore": 520
     }
   ]
 }

@@ -30,16 +30,7 @@
           "minScore": 580,
           "minRank": 75872,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "石家庄邮电职业技术学院",
-      "schoolCode": "1345",
-      "majorKey": "8568c1b0",
-      "majorName": "物流类（为浙江邮政培养。入学后须面试。具体详见学校招生章程。东校区。含现代物流管理、现代物流管理（仓储运营管理方向）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -122,32 +113,7 @@
           "minScore": 592,
           "minRank": 62419,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "石家庄邮电职业技术学院",
-      "schoolCode": "1345",
-      "majorKey": "3eb27585",
-      "majorName": "邮政快递运营管理（为浙江邮政培养。入学后须面试。具体详见学校招生章程。西校区。）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 515,
-          "minRank": 155707,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "石家庄邮电职业技术学院",
-      "schoolCode": "1345",
-      "majorKey": "93dafa04",
-      "majorName": "邮政快递运营管理（为浙江邮政培养。入学后须面试。具体详见学校招生章程。西校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -184,16 +150,7 @@
           "minScore": 575,
           "minRank": 81628,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "石家庄邮电职业技术学院",
-      "schoolCode": "1345",
-      "majorKey": "546a493f",
-      "majorName": "金融类（为浙江邮政培养。入学后须面试。具体详见学校招生章程。西校区。含金融服务与管理（邮政金融方向）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -206,8 +163,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "邮政快递运营管理（为浙江邮政培养。入学后须面试。具体详见学校招生章程。西校区）",
-      "majorKey": "93dafa04",
+      "majorName": "邮政快递运营管理",
+      "majorKey": "22deab70",
+      "track": "综合",
       "selKe": "不限",
       "plan": 70,
       "tuition": "5000",
@@ -215,11 +173,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 154433,
-      "equivRank": 154433
+      "equivRank": 154433,
+      "prevScore": 516
     },
     {
-      "majorName": "物流类（为浙江邮政培养。入学后须面试。具体详见学校招生章程。东校区。含现代物流管理、现代物流管理（仓储运营管理方向）",
-      "majorKey": "8568c1b0",
+      "majorName": "物流类",
+      "majorKey": "c408b6a5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 30,
       "tuition": "5000",
@@ -227,11 +187,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 159791,
-      "equivRank": 159791
+      "equivRank": 159791,
+      "prevScore": 511
     },
     {
-      "majorName": "金融类（为浙江邮政培养。入学后须面试。具体详见学校招生章程。西校区。含金融服务与管理（邮政金融方向）",
-      "majorKey": "546a493f",
+      "majorName": "金融类",
+      "majorKey": "aea05b0a",
+      "track": "综合",
       "selKe": "不限",
       "plan": 100,
       "tuition": "5000",
@@ -239,7 +201,8 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 168962,
-      "equivRank": 168962
+      "equivRank": 168962,
+      "prevScore": 503
     }
   ]
 }

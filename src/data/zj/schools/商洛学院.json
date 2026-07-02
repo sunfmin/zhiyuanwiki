@@ -16,16 +16,7 @@
           "minScore": 536,
           "minRank": 126909,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "商洛学院",
-      "schoolCode": "6156",
-      "majorKey": "47fdb2f5",
-      "majorName": "大数据管理与应用（北新街校区）",
-      "selKe": "物理必选",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -85,16 +76,7 @@
           "minScore": 518,
           "minRank": 148097,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "商洛学院",
-      "schoolCode": "6156",
-      "majorKey": "6d7c6793",
-      "majorName": "电子信息科学与技术（丹江校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -107,8 +89,8 @@
     {
       "schoolKey": "商洛学院",
       "schoolCode": "6156",
-      "majorKey": "05b8e6d3",
-      "majorName": "电气工程及其自动化（中外合作办学）",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -168,16 +150,7 @@
           "minScore": 516,
           "minRank": 150567,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "商洛学院",
-      "schoolCode": "6156",
-      "majorKey": "73cc78aa",
-      "majorName": "网络工程（北新街校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -190,8 +163,8 @@
     {
       "schoolKey": "商洛学院",
       "schoolCode": "6156",
-      "majorKey": "fea3e248",
-      "majorName": "英语（师范）",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
       "selKe": "不限",
       "years": [
         {
@@ -227,8 +200,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "英语（师范）",
-      "majorKey": "fea3e248",
+      "majorName": "英语",
+      "majorKey": "49c5cdf9",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5000",
@@ -236,11 +210,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 97672,
-      "equivRank": 97672
+      "equivRank": 97672,
+      "prevScore": 562
     },
     {
-      "majorName": "大数据管理与应用（北新街校区）",
-      "majorKey": "47fdb2f5",
+      "majorName": "大数据管理与应用",
+      "majorKey": "2079a63e",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 2,
       "tuition": "5000",
@@ -248,11 +224,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 141177,
-      "equivRank": 141177
+      "equivRank": 141177,
+      "prevScore": 526
     },
     {
-      "majorName": "电气工程及其自动化（中外合作办学）",
-      "majorKey": "05b8e6d3",
+      "majorName": "电气工程及其自动化",
+      "majorKey": "45947d31",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "28000",
@@ -261,11 +239,13 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 144712,
-      "equivRank": 144712
+      "equivRank": 144712,
+      "prevScore": 523
     },
     {
-      "majorName": "电子信息科学与技术（丹江校区）",
-      "majorKey": "6d7c6793",
+      "majorName": "电子信息科学与技术",
+      "majorKey": "14856541",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6000",
@@ -273,11 +253,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 146107,
-      "equivRank": 146107
+      "equivRank": 146107,
+      "prevScore": 522
     },
     {
-      "majorName": "网络工程（北新街校区）",
-      "majorKey": "73cc78aa",
+      "majorName": "网络工程",
+      "majorKey": "b54c1697",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6000",
@@ -285,7 +267,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 153359,
-      "equivRank": 153359
+      "equivRank": 153359,
+      "prevScore": 516
     }
   ]
 }

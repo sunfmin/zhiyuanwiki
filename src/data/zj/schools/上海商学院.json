@@ -30,16 +30,7 @@
           "minScore": 595,
           "minRank": 59295,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "上海商学院",
-      "schoolCode": "3144",
-      "majorKey": "c868b51c",
-      "majorName": "商务经济学（奉浦校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -76,16 +67,7 @@
           "minScore": 595,
           "minRank": 59047,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "上海商学院",
-      "schoolCode": "3144",
-      "majorKey": "803d58ab",
-      "majorName": "国际经济与贸易（奉浦校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -121,8 +103,8 @@
     {
       "schoolKey": "上海商学院",
       "schoolCode": "3144",
-      "majorKey": "f929df01",
-      "majorName": "电子商务（中外合作办学）",
+      "majorKey": "0b52f20f",
+      "majorName": "电子商务",
       "selKe": "不限",
       "years": [
         {
@@ -182,16 +164,7 @@
           "minScore": 600,
           "minRank": 53792,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "上海商学院",
-      "schoolCode": "3144",
-      "majorKey": "d3f8e3ed",
-      "majorName": "税收学（奉浦校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -228,16 +201,7 @@
           "minScore": 604,
           "minRank": 49402,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "上海商学院",
-      "schoolCode": "3144",
-      "majorKey": "ecac115f",
-      "majorName": "财务管理（奉浦校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -250,8 +214,8 @@
     {
       "schoolKey": "上海商学院",
       "schoolCode": "3144",
-      "majorKey": "c92356ac",
-      "majorName": "酒店管理（中外合作办学）",
+      "majorKey": "ec686c36",
+      "majorName": "酒店管理",
       "selKe": "不限",
       "years": [
         {
@@ -311,16 +275,7 @@
           "minScore": 599,
           "minRank": 54915,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "上海商学院",
-      "schoolCode": "3144",
-      "majorKey": "ab796cbe",
-      "majorName": "金融学（奉浦校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -343,16 +298,7 @@
           "minScore": 549,
           "minRank": 111700,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "上海商学院",
-      "schoolCode": "3144",
-      "majorKey": "54f7aa0f",
-      "majorName": "食品质量与安全（奉浦校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -365,8 +311,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "财务管理（奉浦校区）",
-      "majorKey": "ecac115f",
+      "majorName": "财务管理",
+      "majorKey": "8220c852",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "6500",
@@ -374,11 +321,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 51530,
-      "equivRank": 51530
+      "equivRank": 51530,
+      "prevScore": 600
     },
     {
-      "majorName": "税收学（奉浦校区）",
-      "majorKey": "d3f8e3ed",
+      "majorName": "税收学",
+      "majorKey": "2e55aa48",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "6500",
@@ -386,11 +335,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 55505,
-      "equivRank": 55505
+      "equivRank": 55505,
+      "prevScore": 597
     },
     {
-      "majorName": "金融学（奉浦校区）",
-      "majorKey": "ab796cbe",
+      "majorName": "金融学",
+      "majorKey": "5a699e63",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "6500",
@@ -398,11 +349,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 57692,
-      "equivRank": 57692
+      "equivRank": 57692,
+      "prevScore": 595
     },
     {
-      "majorName": "国际经济与贸易（奉浦校区）",
-      "majorKey": "803d58ab",
+      "majorName": "国际经济与贸易",
+      "majorKey": "f8a1727e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "6500",
@@ -410,11 +363,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 61380,
-      "equivRank": 61380
+      "equivRank": 61380,
+      "prevScore": 592
     },
     {
-      "majorName": "商务经济学（奉浦校区）",
-      "majorKey": "c868b51c",
+      "majorName": "商务经济学",
+      "majorKey": "d9b0a3d9",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "6500",
@@ -422,11 +377,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 61396,
-      "equivRank": 61396
+      "equivRank": 61396,
+      "prevScore": 592
     },
     {
-      "majorName": "电子商务（中外合作办学）",
-      "majorKey": "f929df01",
+      "majorName": "电子商务",
+      "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 7,
       "tuition": "65000",
@@ -435,11 +392,13 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 86108,
-      "equivRank": 86108
+      "equivRank": 86108,
+      "prevScore": 571
     },
     {
-      "majorName": "酒店管理（中外合作办学）",
-      "majorKey": "c92356ac",
+      "majorName": "酒店管理",
+      "majorKey": "ec686c36",
+      "track": "综合",
       "selKe": "不限",
       "plan": 8,
       "tuition": "65000",
@@ -448,11 +407,13 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 93899,
-      "equivRank": 93899
+      "equivRank": 93899,
+      "prevScore": 565
     },
     {
-      "majorName": "食品质量与安全（奉浦校区）",
-      "majorKey": "54f7aa0f",
+      "majorName": "食品质量与安全",
+      "majorKey": "63b95502",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 6,
       "tuition": "7000",
@@ -460,7 +421,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 114193,
-      "equivRank": 114193
+      "equivRank": 114193,
+      "prevScore": 548
     }
   ]
 }

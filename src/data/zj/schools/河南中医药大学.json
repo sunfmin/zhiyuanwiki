@@ -8,7 +8,7 @@
       "schoolCode": "4217",
       "majorKey": "2285e5ca",
       "majorName": "中医学",
-      "selKe": "物理、化学(2科必选)",
+      "selKe": "不限",
       "years": [
         {
           "year": 2022,
@@ -30,16 +30,7 @@
           "minScore": 595,
           "minRank": 59456,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "河南中医药大学",
-      "schoolCode": "4217",
-      "majorKey": "02f03940",
-      "majorName": "中医学（龙子湖校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -76,16 +67,7 @@
           "minScore": 543,
           "minRank": 119811,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "河南中医药大学",
-      "schoolCode": "4217",
-      "majorKey": "c1953e46",
-      "majorName": "康复治疗学（龙子湖校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -122,16 +104,7 @@
           "minScore": 583,
           "minRank": 72897,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "河南中医药大学",
-      "schoolCode": "4217",
-      "majorKey": "7f14f280",
-      "majorName": "护理学（龙子湖校区）",
-      "selKe": "生物必选",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -144,8 +117,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "中医学（龙子湖校区）",
-      "majorKey": "02f03940",
+      "majorName": "中医学",
+      "majorKey": "2285e5ca",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "6000",
@@ -153,11 +127,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 32690,
-      "equivRank": 32690
+      "equivRank": 32690,
+      "prevScore": 619
     },
     {
-      "majorName": "护理学（龙子湖校区）",
-      "majorKey": "7f14f280",
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "综合",
       "selKe": "生物必选",
       "plan": 4,
       "tuition": "5500",
@@ -165,11 +141,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 76588,
-      "equivRank": 76588
+      "equivRank": 76588,
+      "prevScore": 579
     },
     {
-      "majorName": "康复治疗学（龙子湖校区）",
-      "majorKey": "c1953e46",
+      "majorName": "康复治疗学",
+      "majorKey": "a507c400",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 6,
       "tuition": "5500",
@@ -177,7 +155,8 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 125669,
-      "equivRank": 125669
+      "equivRank": 125669,
+      "prevScore": 539
     }
   ]
 }

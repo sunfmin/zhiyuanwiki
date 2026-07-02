@@ -73,8 +73,8 @@
     {
       "schoolKey": "北京汇佳职业学院",
       "schoolCode": "1118",
-      "majorKey": "a42a0442",
-      "majorName": "体育运营与管理（青少年体适能）",
+      "majorKey": "8b01cec4",
+      "majorName": "体育运营与管理",
       "selKe": "不限",
       "years": [
         {
@@ -202,8 +202,8 @@
         {
           "year": 2024,
           "track": "综合",
-          "minScore": 279,
-          "minRank": 279184,
+          "minScore": 336,
+          "minRank": 270097,
           "maxScore": 0
         },
         {
@@ -211,22 +211,6 @@
           "track": "综合",
           "minScore": 312,
           "minRank": 282713,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "北京汇佳职业学院",
-      "schoolCode": "1118",
-      "majorKey": "04716cf9",
-      "majorName": "学前教育（书法艺术方向）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 336,
-          "minRank": 270097,
           "maxScore": 0
         }
       ]
@@ -310,22 +294,6 @@
           "track": "综合",
           "minScore": 332,
           "minRank": 278804,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "北京汇佳职业学院",
-      "schoolCode": "1118",
-      "majorKey": "ebaced5c",
-      "majorName": "护理（康养师方向）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 332,
-          "minRank": 270795,
           "maxScore": 0
         }
       ]
@@ -432,8 +400,8 @@
     {
       "schoolKey": "北京汇佳职业学院",
       "schoolCode": "1118",
-      "majorKey": "b3d11a7a",
-      "majorName": "电子商务（数字化新居住运营）",
+      "majorKey": "0b52f20f",
+      "majorName": "电子商务",
       "selKe": "不限",
       "years": [
         {
@@ -504,6 +472,13 @@
       "selKe": "不限",
       "years": [
         {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 360,
+          "minRank": 256025,
+          "maxScore": 0
+        },
+        {
           "year": 2023,
           "track": "综合",
           "minScore": 350,
@@ -522,22 +497,6 @@
           "track": "综合",
           "minScore": 333,
           "minRank": 278589,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "北京汇佳职业学院",
-      "schoolCode": "1118",
-      "majorKey": "a6405446",
-      "majorName": "网络营销与直播电商（直播运营方向）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 360,
-          "minRank": 256025,
           "maxScore": 0
         }
       ]
@@ -584,6 +543,7 @@
     {
       "majorName": "康复治疗技术",
       "majorKey": "4fab0557",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "22800",
@@ -591,11 +551,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
-      "majorName": "电子商务（数字化新居住运营）",
-      "majorKey": "b3d11a7a",
+      "majorName": "电子商务",
+      "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "15800",
@@ -603,11 +565,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 274638,
-      "equivRank": 274638
+      "equivRank": 274638,
+      "prevScore": 349
     },
     {
       "majorName": "城市轨道交通通信信号技术",
       "majorKey": "d3edaf70",
+      "track": "综合",
       "selKe": "不限",
       "plan": 12,
       "tuition": "19000",
@@ -615,11 +579,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 277875,
-      "equivRank": 277875
+      "equivRank": 277875,
+      "prevScore": 336
     },
     {
       "majorName": "人力资源管理",
       "majorKey": "5a324641",
+      "track": "综合",
       "selKe": "不限",
       "plan": 8,
       "tuition": "12800",
@@ -627,11 +593,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 278355,
-      "equivRank": 278355
+      "equivRank": 278355,
+      "prevScore": 334
     },
     {
       "majorName": "网络营销与直播电商",
       "majorKey": "149edac5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 8,
       "tuition": "19000",
@@ -639,11 +607,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 278589,
-      "equivRank": 278589
+      "equivRank": 278589,
+      "prevScore": 333
     },
     {
       "majorName": "护理",
       "majorKey": "a3db4652",
+      "track": "综合",
       "selKe": "不限",
       "plan": 14,
       "tuition": "19800",
@@ -651,11 +621,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 278804,
-      "equivRank": 278804
+      "equivRank": 278804,
+      "prevScore": 332
     },
     {
       "majorName": "软件技术",
       "majorKey": "8000e20b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 8,
       "tuition": "19000",
@@ -663,11 +635,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 278804,
-      "equivRank": 278804
+      "equivRank": 278804,
+      "prevScore": 332
     },
     {
       "majorName": "数字媒体技术",
       "majorKey": "889e9381",
+      "track": "综合",
       "selKe": "不限",
       "plan": 8,
       "tuition": "19800",
@@ -675,11 +649,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 279033,
-      "equivRank": 279033
+      "equivRank": 279033,
+      "prevScore": 331
     },
     {
       "majorName": "国际商务",
       "majorKey": "4c4c62eb",
+      "track": "综合",
       "selKe": "不限",
       "plan": 8,
       "tuition": "12800",
@@ -687,11 +663,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 280087,
-      "equivRank": 280087
+      "equivRank": 280087,
+      "prevScore": 326
     },
     {
       "majorName": "影视制片管理",
       "majorKey": "e025b31e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 8,
       "tuition": "19800",
@@ -699,11 +677,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 280867,
-      "equivRank": 280867
+      "equivRank": 280867,
+      "prevScore": 322
     },
     {
-      "majorName": "体育运营与管理（青少年体适能）",
-      "majorKey": "a42a0442",
+      "majorName": "体育运营与管理",
+      "majorKey": "8b01cec4",
+      "track": "综合",
       "selKe": "不限",
       "plan": 8,
       "tuition": "19800",
@@ -711,11 +691,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 281429,
-      "equivRank": 281429
+      "equivRank": 281429,
+      "prevScore": 319
     },
     {
       "majorName": "空中乘务",
       "majorKey": "e19c4c71",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "19800",
@@ -723,11 +705,13 @@
       "menlei": "他",
       "prevYear": 2025,
       "prevRank": 281429,
-      "equivRank": 281429
+      "equivRank": 281429,
+      "prevScore": 319
     },
     {
       "majorName": "婴幼儿托育服务与管理",
       "majorKey": "e66c684e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "16800",
@@ -735,11 +719,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 281801,
-      "equivRank": 281801
+      "equivRank": 281801,
+      "prevScore": 317
     },
     {
       "majorName": "卫生信息管理",
       "majorKey": "a2df781d",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "18800",
@@ -747,11 +733,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 282005,
-      "equivRank": 282005
+      "equivRank": 282005,
+      "prevScore": 316
     },
     {
       "majorName": "机场运行服务与管理",
       "majorKey": "269c28da",
+      "track": "综合",
       "selKe": "不限",
       "plan": 14,
       "tuition": "19800",
@@ -759,11 +747,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 282005,
-      "equivRank": 282005
+      "equivRank": 282005,
+      "prevScore": 316
     },
     {
       "majorName": "智慧健康养老服务与管理",
       "majorKey": "4c97ece5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "16800",
@@ -771,11 +761,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 282170,
-      "equivRank": 282170
+      "equivRank": 282170,
+      "prevScore": 315
     },
     {
       "majorName": "学前教育",
       "majorKey": "97716b64",
+      "track": "综合",
       "selKe": "不限",
       "plan": 20,
       "tuition": "19200",
@@ -783,7 +775,8 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 282713,
-      "equivRank": 282713
+      "equivRank": 282713,
+      "prevScore": 312
     }
   ]
 }

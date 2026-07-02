@@ -8,7 +8,7 @@
       "schoolCode": "1403",
       "majorKey": "2285e5ca",
       "majorName": "中医学",
-      "selKe": "物理、生物(2科必选)",
+      "selKe": "不限",
       "years": [
         {
           "year": 2022,
@@ -30,16 +30,7 @@
           "minScore": 488,
           "minRank": 181558,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "山西大同大学",
-      "schoolCode": "1403",
-      "majorKey": "d0b16a3f",
-      "majorName": "中医学（御东校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -76,16 +67,7 @@
           "minScore": 496,
           "minRank": 172982,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "山西大同大学",
-      "schoolCode": "1403",
-      "majorKey": "fba099c1",
-      "majorName": "临床医学（御东校区）",
-      "selKe": "物化生(3科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -98,8 +80,8 @@
     {
       "schoolKey": "山西大同大学",
       "schoolCode": "1403",
-      "majorKey": "ce42a5ee",
-      "majorName": "制药工程（御东校区）",
+      "majorKey": "28bd788f",
+      "majorName": "制药工程",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -138,16 +120,7 @@
           "minScore": 587,
           "minRank": 67766,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "山西大同大学",
-      "schoolCode": "1403",
-      "majorKey": "16b58bbe",
-      "majorName": "法学（御东校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -160,8 +133,8 @@
     {
       "schoolKey": "山西大同大学",
       "schoolCode": "1403",
-      "majorKey": "bec128cc",
-      "majorName": "物理学（师范）",
+      "majorKey": "653f630d",
+      "majorName": "物理学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -197,8 +170,8 @@
     {
       "schoolKey": "山西大同大学",
       "schoolCode": "1403",
-      "majorKey": "17b45ed9",
-      "majorName": "计算机科学与技术（御东校区）",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -213,8 +186,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "中医学（御东校区）",
-      "majorKey": "d0b16a3f",
+      "majorName": "中医学",
+      "majorKey": "2285e5ca",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "5480",
@@ -222,11 +196,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 69641,
-      "equivRank": 69641
+      "equivRank": 69641,
+      "prevScore": 585
     },
     {
-      "majorName": "法学（御东校区）",
-      "majorKey": "16b58bbe",
+      "majorName": "法学",
+      "majorKey": "a1113a1f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "4500",
@@ -234,11 +210,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 75469,
-      "equivRank": 75469
+      "equivRank": 75469,
+      "prevScore": 580
     },
     {
-      "majorName": "计算机科学与技术（御东校区）",
-      "majorKey": "17b45ed9",
+      "majorName": "计算机科学与技术",
+      "majorKey": "1d486608",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "5370",
@@ -246,11 +224,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 150155,
-      "equivRank": 150155
+      "equivRank": 150155,
+      "prevScore": 519
     },
     {
-      "majorName": "物理学（师范）",
-      "majorKey": "bec128cc",
+      "majorName": "物理学",
+      "majorKey": "653f630d",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 10,
       "tuition": "5040",
@@ -258,11 +238,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 159597,
-      "equivRank": 159597
+      "equivRank": 159597,
+      "prevScore": 511
     },
     {
-      "majorName": "制药工程（御东校区）",
-      "majorKey": "ce42a5ee",
+      "majorName": "制药工程",
+      "majorKey": "28bd788f",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "5370",
@@ -270,11 +252,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 159745,
-      "equivRank": 159745
+      "equivRank": 159745,
+      "prevScore": 511
     },
     {
-      "majorName": "临床医学（御东校区）",
-      "majorKey": "fba099c1",
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "综合",
       "selKe": "物化生(3科必选)",
       "plan": 25,
       "tuition": "5480",
@@ -282,7 +266,8 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 161789,
-      "equivRank": 161789
+      "equivRank": 161789,
+      "prevScore": 509
     }
   ]
 }

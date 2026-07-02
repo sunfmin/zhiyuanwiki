@@ -6,10 +6,17 @@
     {
       "schoolKey": "东北农业大学",
       "schoolCode": "2304",
-      "majorKey": "3d25b384",
-      "majorName": "农林经济管理（拔尖人才培养班）",
+      "majorKey": "1f0182ac",
+      "majorName": "农林经济管理",
       "selKe": "不限",
       "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 629,
+          "minRank": 26216,
+          "maxScore": 0
+        },
         {
           "year": 2024,
           "track": "综合",
@@ -29,24 +36,8 @@
     {
       "schoolKey": "东北农业大学",
       "schoolCode": "2304",
-      "majorKey": "c90e6991",
-      "majorName": "农林经济管理（本硕博班）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 629,
-          "minRank": 26216,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "东北农业大学",
-      "schoolCode": "2304",
-      "majorKey": "8a6cd39a",
-      "majorName": "动物科学（中美121双学位项目）",
+      "majorKey": "ca01c9a2",
+      "majorName": "动物科学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -84,6 +75,29 @@
     {
       "schoolKey": "东北农业大学",
       "schoolCode": "2304",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 623,
+          "minRank": 31393,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 611,
+          "minRank": 40629,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "东北农业大学",
+      "schoolCode": "2304",
       "majorKey": "b74128f4",
       "majorName": "工商管理类",
       "selKe": "不限",
@@ -107,29 +121,6 @@
           "track": "综合",
           "minScore": 625,
           "minRank": 27449,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "东北农业大学",
-      "schoolCode": "2304",
-      "majorKey": "49f44233",
-      "majorName": "工商管理（中美121双学位项目）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 623,
-          "minRank": 31393,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 611,
-          "minRank": 40629,
           "maxScore": 0
         }
       ]
@@ -204,8 +195,8 @@
     {
       "schoolKey": "东北农业大学",
       "schoolCode": "2304",
-      "majorKey": "99813245",
-      "majorName": "生物科学（中美121双学位项目）",
+      "majorKey": "e2472a71",
+      "majorName": "生物科学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -266,8 +257,8 @@
     {
       "schoolKey": "东北农业大学",
       "schoolCode": "2304",
-      "majorKey": "78125504",
-      "majorName": "计算机科学与技术（中美121双学位项目）",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -363,6 +354,22 @@
     {
       "schoolKey": "东北农业大学",
       "schoolCode": "2304",
+      "majorKey": "7b7511cd",
+      "majorName": "食品科学与工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 584,
+          "minRank": 70220,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "东北农业大学",
+      "schoolCode": "2304",
       "majorKey": "6e702db2",
       "majorName": "食品科学与工程类",
       "selKe": "物理、化学(2科必选)",
@@ -396,28 +403,13 @@
           "maxScore": 0
         }
       ]
-    },
-    {
-      "schoolKey": "东北农业大学",
-      "schoolCode": "2304",
-      "majorKey": "f70a8431",
-      "majorName": "食品科学与工程（中美121双学位项目）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 584,
-          "minRank": 70220,
-          "maxScore": 0
-        }
-      ]
     }
   ],
   "plan2026": [
     {
-      "majorName": "农林经济管理（拔尖人才培养班）",
-      "majorKey": "3d25b384",
+      "majorName": "农林经济管理",
+      "majorKey": "1f0182ac",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "3500",
@@ -425,11 +417,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 23573,
-      "equivRank": 23573
+      "equivRank": 23573,
+      "prevScore": 630
     },
     {
       "majorName": "电气工程及其自动化",
       "majorKey": "45947d31",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5500",
@@ -437,11 +431,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 27161,
-      "equivRank": 27161
+      "equivRank": 27161,
+      "prevScore": 625
     },
     {
       "majorName": "工商管理类",
       "majorKey": "b74128f4",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "4000",
@@ -449,11 +445,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 27449,
-      "equivRank": 27449
+      "equivRank": 27449,
+      "prevScore": 625
     },
     {
       "majorName": "金融学类",
       "majorKey": "b39b8034",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "3500",
@@ -461,11 +459,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 30841,
-      "equivRank": 30841
+      "equivRank": 30841,
+      "prevScore": 621
     },
     {
       "majorName": "计算机类",
       "majorKey": "8230723d",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5500",
@@ -473,11 +473,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 33148,
-      "equivRank": 33148
+      "equivRank": 33148,
+      "prevScore": 618
     },
     {
       "majorName": "机械类",
       "majorKey": "710bfc36",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "3800",
@@ -485,11 +487,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 35433,
-      "equivRank": 35433
+      "equivRank": 35433,
+      "prevScore": 616
     },
     {
       "majorName": "园林",
       "majorKey": "c6cedaad",
+      "track": "综合",
       "selKe": "生物必选",
       "plan": 3,
       "tuition": "3300",
@@ -497,11 +501,13 @@
       "menlei": "农",
       "prevYear": 2025,
       "prevRank": 39517,
-      "equivRank": 39517
+      "equivRank": 39517,
+      "prevScore": 612
     },
     {
-      "majorName": "工商管理（中美121双学位项目）",
-      "majorKey": "49f44233",
+      "majorName": "工商管理",
+      "majorKey": "07c28723",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5000",
@@ -509,11 +515,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 40629,
-      "equivRank": 40629
+      "equivRank": 40629,
+      "prevScore": 611
     },
     {
       "majorName": "食品科学与工程类",
       "majorKey": "6e702db2",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "5500",
@@ -521,11 +529,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 51592,
-      "equivRank": 51592
+      "equivRank": 51592,
+      "prevScore": 600
     },
     {
-      "majorName": "食品科学与工程（中美121双学位项目）",
-      "majorKey": "f70a8431",
+      "majorName": "食品科学与工程",
+      "majorKey": "7b7511cd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5500",
@@ -533,11 +543,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 70220,
-      "equivRank": 70220
+      "equivRank": 70220,
+      "prevScore": 584
     },
     {
-      "majorName": "生物科学（中美121双学位项目）",
-      "majorKey": "99813245",
+      "majorName": "生物科学",
+      "majorKey": "e2472a71",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5000",
@@ -545,11 +557,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 111914,
-      "equivRank": 111914
+      "equivRank": 111914,
+      "prevScore": 550
     },
     {
-      "majorName": "动物科学（中美121双学位项目）",
-      "majorKey": "8a6cd39a",
+      "majorName": "动物科学",
+      "majorKey": "ca01c9a2",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5000",
@@ -557,7 +571,8 @@
       "menlei": "农",
       "prevYear": 2025,
       "prevRank": 123189,
-      "equivRank": 123189
+      "equivRank": 123189,
+      "prevScore": 541
     }
   ]
 }

@@ -37,12 +37,15 @@ func canonTrack(s string) string {
 }
 
 // batchKeep：留本科批次及等价主批——本科（本科批/本科提前批）、综合改革省的普通类一段/二段
-// （山东）、常规批（山东计划侧）。丢专科/高职/艺术/体育批（艺术/体育已由科类过滤）。
+// （山东）、常规批（山东计划侧）、平行录取（浙江普通类平行录取：其计划表把一/二段合并标为「普通类
+// 平行录取」，不带段号；录取分数表侧则标「平行录取一/二段」由「一段/二段」已命中）。丢专科/高职/
+// 艺术/体育/提前批（艺术/体育已由科类过滤；浙江提前批录取分数侧也不入，两侧保持同口径）。
 func batchKeep(batch string) bool {
 	return strings.Contains(batch, "本科") ||
 		strings.Contains(batch, "一段") ||
 		strings.Contains(batch, "二段") ||
-		strings.Contains(batch, "常规批")
+		strings.Contains(batch, "常规批") ||
+		strings.Contains(batch, "平行录取")
 }
 
 func scoreHeader(r []string) bool {

@@ -89,8 +89,8 @@
     {
       "schoolKey": "大连海事大学",
       "schoolCode": "2108",
-      "majorKey": "da70fd7e",
-      "majorName": "土木工程（中外合作办学）",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -186,8 +186,8 @@
     {
       "schoolKey": "大连海事大学",
       "schoolCode": "2108",
-      "majorKey": "ae7e82c7",
-      "majorName": "机械设计制造及其自动化（中外合作办学）",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -253,29 +253,6 @@
           "track": "综合",
           "minScore": 649,
           "minRank": 11760,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "大连海事大学",
-      "schoolCode": "2108",
-      "majorKey": "dec88f91",
-      "majorName": "法学（中外合作办学）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 643,
-          "minRank": 16712,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 637,
-          "minRank": 18496,
           "maxScore": 0
         }
       ]
@@ -387,8 +364,8 @@
     {
       "schoolKey": "大连海事大学",
       "schoolCode": "2108",
-      "majorKey": "635403c8",
-      "majorName": "电子信息工程（中外合作办学）",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -498,52 +475,6 @@
     {
       "schoolKey": "大连海事大学",
       "schoolCode": "2108",
-      "majorKey": "8f20480e",
-      "majorName": "航海技术",
-      "selKe": "化学必选",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 593,
-          "minRank": 56338,
-          "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 607,
-          "minRank": 46013,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 620,
-          "minRank": 34040,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "大连海事大学",
-      "schoolCode": "2108",
-      "majorKey": "7be38580",
-      "majorName": "航海技术（学校提醒:不适宜女生报考。体检要求详见学校章程。外语课程主要开设英语课。要求高考成绩不低于特殊类型招生控制线）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 607,
-          "minRank": 45001,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "大连海事大学",
-      "schoolCode": "2108",
       "majorKey": "49c5cdf9",
       "majorName": "英语",
       "selKe": "不限",
@@ -614,61 +545,28 @@
           "maxScore": 0
         }
       ]
-    },
-    {
-      "schoolKey": "大连海事大学",
-      "schoolCode": "2108",
-      "majorKey": "9261f6d3",
-      "majorName": "轮机工程（海上专业）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 601,
-          "minRank": 47378,
-          "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 601,
-          "minRank": 51939,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 618,
-          "minRank": 35872,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 610,
-          "minRank": 41842,
-          "maxScore": 0
-        }
-      ]
     }
   ],
   "plan2026": [
     {
       "majorName": "法学",
       "majorKey": "a1113a1f",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 4,
-      "tuition": "5520",
+      "plan": 10,
+      "tuition": "90000",
       "schooling": "四年",
       "menlei": "法",
+      "coop": true,
       "prevYear": 2025,
       "prevRank": 11760,
-      "equivRank": 11760
+      "equivRank": 11760,
+      "prevScore": 649
     },
     {
       "majorName": "海事管理",
       "majorKey": "ee04542f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "5200",
@@ -676,24 +574,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 15949,
-      "equivRank": 15949
-    },
-    {
-      "majorName": "法学（中外合作办学）",
-      "majorKey": "dec88f91",
-      "selKe": "不限",
-      "plan": 6,
-      "tuition": "90000",
-      "schooling": "四年",
-      "menlei": "法",
-      "coop": true,
-      "prevYear": 2025,
-      "prevRank": 18496,
-      "equivRank": 18496
+      "equivRank": 15949,
+      "prevScore": 641
     },
     {
       "majorName": "自动化类",
       "majorKey": "a70e63a1",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "5200",
@@ -701,11 +588,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 19156,
-      "equivRank": 19156
+      "equivRank": 19156,
+      "prevScore": 636
     },
     {
       "majorName": "交通管理",
       "majorKey": "1c4ef965",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "5980",
@@ -713,11 +602,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 19438,
-      "equivRank": 19438
+      "equivRank": 19438,
+      "prevScore": 636
     },
     {
       "majorName": "计算机类",
       "majorKey": "8230723d",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 6,
       "tuition": "5200",
@@ -725,11 +616,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 19771,
-      "equivRank": 19771
+      "equivRank": 19771,
+      "prevScore": 635
     },
     {
       "majorName": "电子信息类",
       "majorKey": "5e0efed0",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 6,
       "tuition": "5980",
@@ -737,11 +630,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 20158,
-      "equivRank": 20158
+      "equivRank": 20158,
+      "prevScore": 634
     },
     {
       "majorName": "人工智能",
       "majorKey": "2fec4169",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "5200",
@@ -749,11 +644,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 20311,
-      "equivRank": 20311
+      "equivRank": 20311,
+      "prevScore": 634
     },
     {
       "majorName": "英语",
       "majorKey": "49c5cdf9",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "5200",
@@ -761,11 +658,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 23077,
-      "equivRank": 23077
+      "equivRank": 23077,
+      "prevScore": 631
     },
     {
       "majorName": "机械类",
       "majorKey": "710bfc36",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "5200",
@@ -773,11 +672,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 25094,
-      "equivRank": 25094
+      "equivRank": 25094,
+      "prevScore": 628
     },
     {
       "majorName": "交通运输类",
       "majorKey": "6c44bcf9",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "5980",
@@ -785,11 +686,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 26355,
-      "equivRank": 26355
+      "equivRank": 26355,
+      "prevScore": 626
     },
     {
       "majorName": "物流管理",
       "majorKey": "8b6a817b",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 4,
       "tuition": "5200",
@@ -797,11 +700,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 32382,
-      "equivRank": 32382
+      "equivRank": 32382,
+      "prevScore": 619
     },
     {
-      "majorName": "电子信息工程（中外合作办学）",
-      "majorKey": "635403c8",
+      "majorName": "电子信息工程",
+      "majorKey": "fd603692",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 9,
       "tuition": "80000",
@@ -810,35 +715,13 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 38011,
-      "equivRank": 38011
+      "equivRank": 38011,
+      "prevScore": 613
     },
     {
-      "majorName": "轮机工程（海上专业）",
-      "majorKey": "9261f6d3",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 3,
-      "tuition": "5200",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 41842,
-      "equivRank": 41842
-    },
-    {
-      "majorName": "航海技术（学校提醒:不适宜女生报考。体检要求详见学校章程。外语课程主要开设英语课。要求高考成绩不低于特殊类型招生控制线）",
-      "majorKey": "7be38580",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 3,
-      "tuition": "5200",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 45001,
-      "equivRank": 45001
-    },
-    {
-      "majorName": "机械设计制造及其自动化（中外合作办学）",
-      "majorKey": "ae7e82c7",
+      "majorName": "机械设计制造及其自动化",
+      "majorKey": "55ff9da5",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 9,
       "tuition": "80000",
@@ -847,11 +730,13 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 45099,
-      "equivRank": 45099
+      "equivRank": 45099,
+      "prevScore": 606
     },
     {
-      "majorName": "土木工程（中外合作办学）",
-      "majorKey": "da70fd7e",
+      "majorName": "土木工程",
+      "majorKey": "320e7128",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "80000",
@@ -860,7 +745,8 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 65750,
-      "equivRank": 65750
+      "equivRank": 65750,
+      "prevScore": 588
     }
   ]
 }

@@ -94,6 +94,13 @@
       "selKe": "不限",
       "years": [
         {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 638,
+          "minRank": 14514,
+          "maxScore": 0
+        },
+        {
           "year": 2023,
           "track": "综合",
           "minScore": 635,
@@ -112,22 +119,6 @@
           "track": "综合",
           "minScore": 621,
           "minRank": 31081,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "南京艺术学院",
-      "schoolCode": "3272",
-      "majorKey": "063bd008",
-      "majorName": "戏剧影视文学（影视策划与制片）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 638,
-          "minRank": 14514,
           "maxScore": 0
         }
       ]
@@ -324,6 +315,7 @@
     {
       "majorName": "戏剧影视文学",
       "majorKey": "b8236e06",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "9900",
@@ -331,11 +323,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 31081,
-      "equivRank": 31081
+      "equivRank": 31081,
+      "prevScore": 621
     },
     {
       "majorName": "艺术设计学",
       "majorKey": "72bed0ee",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "9900",
@@ -343,11 +337,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 48382,
-      "equivRank": 48382
+      "equivRank": 48382,
+      "prevScore": 603
     },
     {
       "majorName": "智能交互设计",
       "majorKey": "e231c3a1",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "10000",
@@ -355,11 +351,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 49116,
-      "equivRank": 49116
+      "equivRank": 49116,
+      "prevScore": 603
     },
     {
       "majorName": "艺术史论",
       "majorKey": "ae17c365",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "9900",
@@ -367,11 +365,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 49529,
-      "equivRank": 49529
+      "equivRank": 49529,
+      "prevScore": 602
     },
     {
       "majorName": "美术学",
       "majorKey": "a59e1c5b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "9900",
@@ -379,11 +379,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 49890,
-      "equivRank": 49890
+      "equivRank": 49890,
+      "prevScore": 602
     },
     {
       "majorName": "文化产业管理",
       "majorKey": "7a929633",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "5200",
@@ -391,11 +393,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 50000,
-      "equivRank": 50000
+      "equivRank": 50000,
+      "prevScore": 602
     },
     {
       "majorName": "广播电视编导",
       "majorKey": "b86f75b5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "11000",
@@ -403,11 +407,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 52072,
-      "equivRank": 52072
+      "equivRank": 52072,
+      "prevScore": 600
     },
     {
       "majorName": "影视摄影与制作",
       "majorKey": "01ee63d1",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "11000",
@@ -415,11 +421,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 52258,
-      "equivRank": 52258
+      "equivRank": 52258,
+      "prevScore": 600
     },
     {
       "majorName": "艺术管理",
       "majorKey": "44d89b18",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "9900",
@@ -427,7 +435,8 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 53531,
-      "equivRank": 53531
+      "equivRank": 53531,
+      "prevScore": 599
     }
   ]
 }

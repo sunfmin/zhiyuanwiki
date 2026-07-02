@@ -10,11 +10,10 @@ import (
 	"github.com/sunfmin/zhiyuanwiki/internal/zj"
 )
 
-// buildMajorBundle 是「专业平行志愿（无院校专业组）」省份的通用投影（重庆/贵州/辽宁/山东/河北）：
+// buildMajorBundle 是「专业平行志愿（无院校专业组）」省份的通用投影（重庆/贵州/辽宁/山东/河北/浙江…）：
 // 录取分数→院校×专业叶子、招生计划(最新年)→院校×专业报考视图（按 (院校,专业,选科,科类) 合并、
-// 按 (院校,专业名,科类) 挂往年位次）、全国院校属性(按校名)→过滤属性。与浙江 buildDBBundleMajor 同形，
-// 但 (1) 院校属性走全国 school 表（按校名）而非浙江一表联动按码表；(2) 双科类（物理/历史）逐行带科类，
-// 不像浙江硬编码单科类「综合」。见 ADR-0014。
+// 按 (院校,专业名,科类) 挂往年位次）、全国院校属性(按校名)→过滤属性。综合(浙江/山东)与双科类(重庆/辽宁)
+// 同走此路：科类逐行带、单科类「综合」是其退化情形。见 ADR-0014 / ADR-0022（浙江归一到此路）。
 func buildMajorBundle(dbPath string, p province) schoolBundle {
 	db, err := store.Open(dbPath)
 	if err != nil {

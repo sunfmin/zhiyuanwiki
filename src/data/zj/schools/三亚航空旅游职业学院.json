@@ -52,24 +52,8 @@
     {
       "schoolKey": "三亚航空旅游职业学院",
       "schoolCode": "4614",
-      "majorKey": "be19905e",
-      "majorName": "市场营销（免税品运营与管理）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 350,
-          "minRank": 264004,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "三亚航空旅游职业学院",
-      "schoolCode": "4614",
-      "majorKey": "f4986430",
-      "majorName": "市场营销（奢侈品运营与管理）",
+      "majorKey": "28c62e21",
+      "majorName": "市场营销",
       "selKe": "不限",
       "years": [
         {
@@ -77,6 +61,13 @@
           "track": "综合",
           "minScore": 388,
           "minRank": 247148,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 350,
+          "minRank": 264004,
           "maxScore": 0
         },
         {
@@ -522,6 +513,7 @@
     {
       "majorName": "高速铁路客运服务",
       "majorKey": "6fdae3a7",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "12800",
@@ -529,11 +521,13 @@
       "menlei": "他",
       "prevYear": 2025,
       "prevRank": 254556,
-      "equivRank": 254556
+      "equivRank": 254556,
+      "prevScore": 400
     },
     {
       "majorName": "旅游管理",
       "majorKey": "ec77cae2",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "9800",
@@ -541,11 +535,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 260443,
-      "equivRank": 260443
+      "equivRank": 260443,
+      "prevScore": 388
     },
     {
       "majorName": "飞机机电设备维修",
       "majorKey": "8fe2c310",
+      "track": "综合",
       "selKe": "不限",
       "plan": 7,
       "tuition": "15800",
@@ -553,11 +549,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 262176,
-      "equivRank": 262176
+      "equivRank": 262176,
+      "prevScore": 384
     },
     {
       "majorName": "跨境电子商务",
       "majorKey": "48469b36",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "11800",
@@ -565,11 +563,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 267453,
-      "equivRank": 267453
+      "equivRank": 267453,
+      "prevScore": 371
     },
     {
-      "majorName": "市场营销（奢侈品运营与管理）",
-      "majorKey": "f4986430",
+      "majorName": "市场营销",
+      "majorKey": "28c62e21",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "11800",
@@ -577,11 +577,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 274638,
-      "equivRank": 274638
+      "equivRank": 274638,
+      "prevScore": 349
     },
     {
       "majorName": "空中乘务",
       "majorKey": "e19c4c71",
+      "track": "综合",
       "selKe": "不限",
       "plan": 38,
       "tuition": "15800",
@@ -589,11 +591,13 @@
       "menlei": "他",
       "prevYear": 2025,
       "prevRank": 278804,
-      "equivRank": 278804
+      "equivRank": 278804,
+      "prevScore": 332
     },
     {
       "majorName": "网络营销与直播电商",
       "majorKey": "149edac5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "11800",
@@ -601,11 +605,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 279255,
-      "equivRank": 279255
+      "equivRank": 279255,
+      "prevScore": 330
     },
     {
       "majorName": "民航空中安全保卫",
       "majorKey": "17bdda7e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 8,
       "tuition": "15800",
@@ -613,7 +619,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 280867,
-      "equivRank": 280867
+      "equivRank": 280867,
+      "prevScore": 322
     }
   ]
 }

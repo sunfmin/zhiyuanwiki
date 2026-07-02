@@ -22,8 +22,8 @@
     {
       "schoolKey": "玉溪师范学院",
       "schoolCode": "5312",
-      "majorKey": "0dfc12db",
-      "majorName": "化学（师范）",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
       "selKe": "物理/化学(2选1)",
       "years": [
         {
@@ -38,8 +38,8 @@
     {
       "schoolKey": "玉溪师范学院",
       "schoolCode": "5312",
-      "majorKey": "6e38b28d",
-      "majorName": "学前教育（师范）",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
       "selKe": "不限",
       "years": [
         {
@@ -84,8 +84,8 @@
     {
       "schoolKey": "玉溪师范学院",
       "schoolCode": "5312",
-      "majorKey": "9f802a9c",
-      "majorName": "数学与应用数学（师范）",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -114,8 +114,8 @@
     {
       "schoolKey": "玉溪师范学院",
       "schoolCode": "5312",
-      "majorKey": "d7131091",
-      "majorName": "汉语言文学（师范）",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
       "selKe": "不限",
       "years": [
         {
@@ -227,8 +227,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "汉语言文学（师范）",
-      "majorKey": "d7131091",
+      "majorName": "汉语言文学",
+      "majorKey": "97bc5998",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4200",
@@ -236,11 +237,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 87332,
-      "equivRank": 87332
+      "equivRank": 87332,
+      "prevScore": 570
     },
     {
       "majorName": "经济与金融",
       "majorKey": "8e6ea071",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4500",
@@ -248,11 +251,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 95074,
-      "equivRank": 95074
+      "equivRank": 95074,
+      "prevScore": 564
     },
     {
       "majorName": "泰语",
       "majorKey": "b390f5f2",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4200",
@@ -260,11 +265,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 101628,
-      "equivRank": 101628
+      "equivRank": 101628,
+      "prevScore": 559
     },
     {
-      "majorName": "数学与应用数学（师范）",
-      "majorKey": "9f802a9c",
+      "majorName": "数学与应用数学",
+      "majorKey": "618fdffd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5000",
@@ -272,11 +279,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 154907,
-      "equivRank": 154907
+      "equivRank": 154907,
+      "prevScore": 515
     },
     {
       "majorName": "信息安全",
       "majorKey": "e6801f33",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5000",
@@ -284,7 +293,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 172086,
-      "equivRank": 172086
+      "equivRank": 172086,
+      "prevScore": 500
     }
   ]
 }

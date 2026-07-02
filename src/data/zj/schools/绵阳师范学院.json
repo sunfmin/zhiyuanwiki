@@ -6,8 +6,8 @@
     {
       "schoolKey": "绵阳师范学院",
       "schoolCode": "5117",
-      "majorKey": "9f802a9c",
-      "majorName": "数学与应用数学（师范）",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -43,8 +43,8 @@
     {
       "schoolKey": "绵阳师范学院",
       "schoolCode": "5117",
-      "majorKey": "d7131091",
-      "majorName": "汉语言文学（师范）",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
       "selKe": "不限",
       "years": [
         {
@@ -104,16 +104,7 @@
           "minScore": 577,
           "minRank": 79392,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "绵阳师范学院",
-      "schoolCode": "5117",
-      "majorKey": "f23160e4",
-      "majorName": "物流管理（高新校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -126,8 +117,8 @@
     {
       "schoolKey": "绵阳师范学院",
       "schoolCode": "5117",
-      "majorKey": "fea3e248",
-      "majorName": "英语（师范）",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
       "selKe": "不限",
       "years": [
         {
@@ -163,8 +154,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "汉语言文学（师范）",
-      "majorKey": "d7131091",
+      "majorName": "汉语言文学",
+      "majorKey": "97bc5998",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "5520",
@@ -172,11 +164,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 72378,
-      "equivRank": 72378
+      "equivRank": 72378,
+      "prevScore": 583
     },
     {
-      "majorName": "英语（师范）",
-      "majorKey": "fea3e248",
+      "majorName": "英语",
+      "majorKey": "49c5cdf9",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "5520",
@@ -184,11 +178,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 84156,
-      "equivRank": 84156
+      "equivRank": 84156,
+      "prevScore": 573
     },
     {
-      "majorName": "物流管理（高新校区）",
-      "majorKey": "f23160e4",
+      "majorName": "物流管理",
+      "majorKey": "8b6a817b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "5520",
@@ -196,11 +192,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 89146,
-      "equivRank": 89146
+      "equivRank": 89146,
+      "prevScore": 569
     },
     {
-      "majorName": "数学与应用数学（师范）",
-      "majorKey": "9f802a9c",
+      "majorName": "数学与应用数学",
+      "majorKey": "618fdffd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5980",
@@ -208,7 +206,8 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 121774,
-      "equivRank": 121774
+      "equivRank": 121774,
+      "prevScore": 542
     }
   ]
 }

@@ -6,8 +6,8 @@
     {
       "schoolKey": "西藏职业技术学院",
       "schoolCode": "5403",
-      "majorKey": "24ffcf20",
-      "majorName": "农产品加工与质量检测（西校区。）",
+      "majorKey": "70c2d65e",
+      "majorName": "农产品加工与质量检测",
       "selKe": "不限",
       "years": [
         {
@@ -94,16 +94,7 @@
           "minScore": 398,
           "minRank": 248918,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "西藏职业技术学院",
-      "schoolCode": "5403",
-      "majorKey": "1a428d4c",
-      "majorName": "旅游管理（西校区。）",
-      "selKe": "史政地(3科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -116,8 +107,8 @@
     {
       "schoolKey": "西藏职业技术学院",
       "schoolCode": "5403",
-      "majorKey": "343aca4d",
-      "majorName": "林业技术（西校区。）",
+      "majorKey": "5933b837",
+      "majorName": "林业技术",
       "selKe": "物化生(3科必选)",
       "years": [
         {
@@ -132,8 +123,8 @@
     {
       "schoolKey": "西藏职业技术学院",
       "schoolCode": "5403",
-      "majorKey": "5afc3915",
-      "majorName": "汽车检测与维修技术（西校区。）",
+      "majorKey": "13e4967f",
+      "majorName": "汽车检测与维修技术",
       "selKe": "物化技(3科必选)",
       "years": [
         {
@@ -148,8 +139,8 @@
     {
       "schoolKey": "西藏职业技术学院",
       "schoolCode": "5403",
-      "majorKey": "e42dacea",
-      "majorName": "现代农业经济管理（西校区。）",
+      "majorKey": "3903568c",
+      "majorName": "现代农业经济管理",
       "selKe": "史政地(3科必选)",
       "years": [
         {
@@ -180,8 +171,8 @@
     {
       "schoolKey": "西藏职业技术学院",
       "schoolCode": "5403",
-      "majorKey": "d74badcb",
-      "majorName": "道路与桥梁工程技术（西校区。）",
+      "majorKey": "e384b939",
+      "majorName": "道路与桥梁工程技术",
       "selKe": "物地技(3科必选)",
       "years": [
         {
@@ -196,50 +187,90 @@
   ],
   "plan2026": [
     {
-      "majorName": "农产品加工与质量检测（西校区）",
-      "majorKey": "8250d1d7",
+      "majorName": "农产品加工与质量检测",
+      "majorKey": "70c2d65e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "schooling": "三年",
-      "menlei": "他"
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 254556,
+      "equivRank": 254556,
+      "prevScore": 400
     },
     {
-      "majorName": "旅游管理（西校区）",
-      "majorKey": "4b4000fb",
+      "majorName": "林业技术",
+      "majorKey": "5933b837",
+      "track": "综合",
+      "selKe": "物化生(3科必选)",
+      "plan": 4,
+      "schooling": "三年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 288661,
+      "equivRank": 288661,
+      "prevScore": 278
+    },
+    {
+      "majorName": "旅游管理",
+      "majorKey": "ec77cae2",
+      "track": "综合",
       "selKe": "史政地(3科必选)",
       "plan": 10,
       "tuition": "2800",
       "schooling": "三年",
-      "menlei": "管"
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 289103,
+      "equivRank": 289103,
+      "prevScore": 276
     },
     {
-      "majorName": "林业技术（西校区）",
-      "majorKey": "855b619c",
-      "selKe": "物化生(3科必选)",
-      "plan": 4,
-      "schooling": "三年",
-      "menlei": "工"
-    },
-    {
-      "majorName": "汽车检测与维修技术（北校区）",
-      "majorKey": "a1c84b46",
+      "majorName": "汽车检测与维修技术",
+      "majorKey": "13e4967f",
+      "track": "综合",
       "selKe": "物化技(3科必选)",
       "plan": 6,
       "tuition": "2800",
       "schooling": "三年",
-      "menlei": "工"
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 290790,
+      "equivRank": 290790,
+      "prevScore": 268
     },
     {
-      "majorName": "现代农业经济管理（西校区）",
-      "majorKey": "d4aad705",
+      "majorName": "现代农业经济管理",
+      "majorKey": "3903568c",
+      "track": "综合",
       "selKe": "史政地(3科必选)",
       "plan": 5,
       "schooling": "三年",
-      "menlei": "农"
+      "menlei": "农",
+      "prevYear": 2025,
+      "prevRank": 290790,
+      "equivRank": 290790,
+      "prevScore": 268
     },
     {
-      "majorName": "电子商务（西校区）",
-      "majorKey": "ac794364",
+      "majorName": "道路与桥梁工程技术",
+      "majorKey": "e384b939",
+      "track": "综合",
+      "selKe": "物地技(3科必选)",
+      "plan": 6,
+      "tuition": "2800",
+      "schooling": "三年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 290790,
+      "equivRank": 290790,
+      "prevScore": 268
+    },
+    {
+      "majorName": "电子商务",
+      "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "物政技(3科必选)",
       "plan": 4,
       "tuition": "2800",
@@ -247,25 +278,18 @@
       "menlei": "管"
     },
     {
-      "majorName": "草业技术（西校区）",
-      "majorKey": "971b1faf",
+      "majorName": "草业技术",
+      "majorKey": "d454ff66",
+      "track": "综合",
       "selKe": "物生地(3科必选)",
       "plan": 5,
       "schooling": "三年",
       "menlei": "农"
     },
     {
-      "majorName": "道路与桥梁工程技术（北校区）",
-      "majorKey": "17003948",
-      "selKe": "物地技(3科必选)",
-      "plan": 6,
-      "tuition": "2800",
-      "schooling": "三年",
-      "menlei": "工"
-    },
-    {
-      "majorName": "酒店管理与数字化运营（西校区）",
-      "majorKey": "0b407f9e",
+      "majorName": "酒店管理与数字化运营",
+      "majorKey": "0a7dd809",
+      "track": "综合",
       "selKe": "史政技(3科必选)",
       "plan": 5,
       "tuition": "2800",

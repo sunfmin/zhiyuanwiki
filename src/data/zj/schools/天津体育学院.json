@@ -182,6 +182,13 @@
       "selKe": "不限",
       "years": [
         {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 569,
+          "minRank": 84708,
+          "maxScore": 0
+        },
+        {
           "year": 2023,
           "track": "综合",
           "minScore": 559,
@@ -200,38 +207,6 @@
           "track": "综合",
           "minScore": 568,
           "minRank": 90573,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "天津体育学院",
-      "schoolCode": "1234",
-      "majorKey": "b7114405",
-      "majorName": "新闻学（体育文化传媒方向）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 569,
-          "minRank": 84708,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "天津体育学院",
-      "schoolCode": "1234",
-      "majorKey": "10a8c7d3",
-      "majorName": "新闻学（新媒体方向）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 567,
-          "minRank": 86226,
           "maxScore": 0
         }
       ]
@@ -317,6 +292,7 @@
     {
       "majorName": "应用心理学",
       "majorKey": "59687759",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5400",
@@ -324,11 +300,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 80314,
-      "equivRank": 80314
+      "equivRank": 80314,
+      "prevScore": 576
     },
     {
       "majorName": "运动康复",
       "majorKey": "047778fd",
+      "track": "综合",
       "selKe": "不限",
       "plan": 9,
       "tuition": "4400",
@@ -336,11 +314,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 82047,
-      "equivRank": 82047
+      "equivRank": 82047,
+      "prevScore": 575
     },
     {
       "majorName": "公共事业管理",
       "majorKey": "30e8a552",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4400",
@@ -348,11 +328,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 89168,
-      "equivRank": 89168
+      "equivRank": 89168,
+      "prevScore": 569
     },
     {
       "majorName": "运动人体科学",
       "majorKey": "676f341a",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4400",
@@ -360,11 +342,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 89172,
-      "equivRank": 89172
+      "equivRank": 89172,
+      "prevScore": 569
     },
     {
       "majorName": "新闻学",
       "majorKey": "9c5f4a34",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "4400",
@@ -372,11 +356,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 90573,
-      "equivRank": 90573
+      "equivRank": 90573,
+      "prevScore": 568
     },
     {
       "majorName": "学前教育",
       "majorKey": "97716b64",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4400",
@@ -384,11 +370,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 91606,
-      "equivRank": 91606
+      "equivRank": 91606,
+      "prevScore": 567
     },
     {
       "majorName": "体育经济与管理",
       "majorKey": "b996d826",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "4400",
@@ -396,7 +384,8 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 93017,
-      "equivRank": 93017
+      "equivRank": 93017,
+      "prevScore": 566
     }
   ]
 }

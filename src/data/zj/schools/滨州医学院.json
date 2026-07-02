@@ -30,37 +30,12 @@
           "minScore": 541,
           "minRank": 121538,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "滨州医学院",
-      "schoolCode": "3702",
-      "majorKey": "66fc55c7",
-      "majorName": "中医学（国医传承班）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
           "minScore": 578,
           "minRank": 77766,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "滨州医学院",
-      "schoolCode": "3702",
-      "majorKey": "7bc1422e",
-      "majorName": "中医学（烟台校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 565,
-          "minRank": 93368,
           "maxScore": 0
         }
       ]
@@ -92,37 +67,12 @@
           "minScore": 569,
           "minRank": 88469,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "滨州医学院",
-      "schoolCode": "3702",
-      "majorKey": "8a5220f9",
-      "majorName": "临床医学（卓越班）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
           "minScore": 591,
           "minRank": 62679,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "滨州医学院",
-      "schoolCode": "3702",
-      "majorKey": "604386ec",
-      "majorName": "临床医学（烟台校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 568,
-          "minRank": 89943,
           "maxScore": 0
         }
       ]
@@ -140,16 +90,7 @@
           "minScore": 559,
           "minRank": 100393,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "滨州医学院",
-      "schoolCode": "3702",
-      "majorKey": "54991987",
-      "majorName": "信息资源管理（滨州校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -247,44 +188,37 @@
   ],
   "plan2026": [
     {
-      "majorName": "临床医学（卓越班）",
-      "majorKey": "8a5220f9",
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
-      "plan": 2,
+      "plan": 6,
       "tuition": "7920",
       "schooling": "五年",
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 62679,
-      "equivRank": 62679
+      "equivRank": 62679,
+      "prevScore": 591
     },
     {
-      "majorName": "中医学（国医传承班）",
-      "majorKey": "66fc55c7",
+      "majorName": "中医学",
+      "majorKey": "2285e5ca",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
-      "plan": 2,
+      "plan": 7,
       "tuition": "7920",
       "schooling": "五年",
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 77766,
-      "equivRank": 77766
+      "equivRank": 77766,
+      "prevScore": 578
     },
     {
-      "majorName": "临床医学（烟台校区）",
-      "majorKey": "604386ec",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 4,
-      "tuition": "7920",
-      "schooling": "五年",
-      "menlei": "医",
-      "prevYear": 2025,
-      "prevRank": 89943,
-      "equivRank": 89943
-    },
-    {
-      "majorName": "信息资源管理（滨州校区）",
-      "majorKey": "54991987",
+      "majorName": "信息资源管理",
+      "majorKey": "e7d9803b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5500",
@@ -292,19 +226,8 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 91725,
-      "equivRank": 91725
-    },
-    {
-      "majorName": "中医学（烟台校区）",
-      "majorKey": "7bc1422e",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 5,
-      "tuition": "7920",
-      "schooling": "五年",
-      "menlei": "医",
-      "prevYear": 2025,
-      "prevRank": 93368,
-      "equivRank": 93368
+      "equivRank": 91725,
+      "prevScore": 567
     }
   ]
 }

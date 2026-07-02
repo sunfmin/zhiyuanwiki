@@ -29,8 +29,8 @@
     {
       "schoolKey": "河南牧业经济学院",
       "schoolCode": "4240",
-      "majorKey": "0a8d4e01",
-      "majorName": "园林（龙子湖校区）",
+      "majorKey": "c6cedaad",
+      "majorName": "园林",
       "selKe": "生物必选",
       "years": [
         {
@@ -55,16 +55,7 @@
           "minScore": 574,
           "minRank": 82340,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "河南牧业经济学院",
-      "schoolCode": "4240",
-      "majorKey": "b3725551",
-      "majorName": "审计学（英才校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -87,16 +78,7 @@
           "minScore": 567,
           "minRank": 91309,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "河南牧业经济学院",
-      "schoolCode": "4240",
-      "majorKey": "c0720f2c",
-      "majorName": "工商管理（英才校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -121,37 +103,19 @@
           "maxScore": 0
         },
         {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 566,
-          "minRank": 91520,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "河南牧业经济学院",
-      "schoolCode": "4240",
-      "majorKey": "0bded6a8",
-      "majorName": "市场营销（数字化营销方向）",
-      "selKe": "不限",
-      "years": [
-        {
           "year": 2023,
           "track": "综合",
           "minScore": 544,
           "minRank": 113671,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "河南牧业经济学院",
-      "schoolCode": "4240",
-      "majorKey": "590b1752",
-      "majorName": "市场营销（英才校区）",
-      "selKe": "不限",
-      "years": [
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 566,
+          "minRank": 91520,
+          "maxScore": 0
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -188,16 +152,7 @@
           "minScore": 565,
           "minRank": 93226,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "河南牧业经济学院",
-      "schoolCode": "4240",
-      "majorKey": "b542c144",
-      "majorName": "物流管理（英才校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -249,8 +204,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "审计学（英才校区）",
-      "majorKey": "b3725551",
+      "majorName": "审计学",
+      "majorKey": "87f6e6a2",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4400",
@@ -258,11 +214,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 86891,
-      "equivRank": 86891
+      "equivRank": 86891,
+      "prevScore": 571
     },
     {
-      "majorName": "工商管理（英才校区）",
-      "majorKey": "c0720f2c",
+      "majorName": "工商管理",
+      "majorKey": "07c28723",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4400",
@@ -270,11 +228,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 95089,
-      "equivRank": 95089
+      "equivRank": 95089,
+      "prevScore": 564
     },
     {
-      "majorName": "园林（龙子湖校区）",
-      "majorKey": "0a8d4e01",
+      "majorName": "园林",
+      "majorKey": "c6cedaad",
+      "track": "综合",
       "selKe": "生物必选",
       "plan": 2,
       "tuition": "5000",
@@ -282,11 +242,13 @@
       "menlei": "农",
       "prevYear": 2025,
       "prevRank": 95243,
-      "equivRank": 95243
+      "equivRank": 95243,
+      "prevScore": 564
     },
     {
-      "majorName": "物流管理（英才校区）",
-      "majorKey": "b542c144",
+      "majorName": "物流管理",
+      "majorKey": "8b6a817b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4400",
@@ -294,11 +256,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 95983,
-      "equivRank": 95983
+      "equivRank": 95983,
+      "prevScore": 563
     },
     {
-      "majorName": "市场营销（英才校区）",
-      "majorKey": "590b1752",
+      "majorName": "市场营销",
+      "majorKey": "28c62e21",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4400",
@@ -306,7 +270,8 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 96739,
-      "equivRank": 96739
+      "equivRank": 96739,
+      "prevScore": 563
     }
   ]
 }

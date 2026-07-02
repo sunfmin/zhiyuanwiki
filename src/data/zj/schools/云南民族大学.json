@@ -6,8 +6,8 @@
     {
       "schoolKey": "云南民族大学",
       "schoolCode": "5319",
-      "majorKey": "9dbe09c3",
-      "majorName": "化学（雨花校区。）",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -15,22 +15,6 @@
           "track": "综合",
           "minScore": 528,
           "minRank": 139942,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "云南民族大学",
-      "schoolCode": "5319",
-      "majorKey": "6f158236",
-      "majorName": "化学（雨花校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 490,
-          "minRank": 184372,
           "maxScore": 0
         }
       ]
@@ -92,16 +76,7 @@
           "minScore": 596,
           "minRank": 58348,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "云南民族大学",
-      "schoolCode": "5319",
-      "majorKey": "11c35b68",
-      "majorName": "汉语言文学（雨花校区）",
-      "selKe": "史政地(3科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -138,16 +113,7 @@
           "minScore": 553,
           "minRank": 107367,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "云南民族大学",
-      "schoolCode": "5319",
-      "majorKey": "9a771772",
-      "majorName": "电子信息工程（雨花校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -184,16 +150,7 @@
           "minScore": 563,
           "minRank": 95633,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "云南民族大学",
-      "schoolCode": "5319",
-      "majorKey": "f7116e47",
-      "majorName": "老挝语（雨花校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -206,8 +163,8 @@
     {
       "schoolKey": "云南民族大学",
       "schoolCode": "5319",
-      "majorKey": "c0a12aca",
-      "majorName": "药物分析（雨花校区。）",
+      "majorKey": "e83335a9",
+      "majorName": "药物分析",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -215,22 +172,6 @@
           "track": "综合",
           "minScore": 527,
           "minRank": 141125,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "云南民族大学",
-      "schoolCode": "5319",
-      "majorKey": "896d0ae5",
-      "majorName": "药物分析（雨花校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 490,
-          "minRank": 184372,
           "maxScore": 0
         }
       ]
@@ -262,16 +203,7 @@
           "minScore": 568,
           "minRank": 89597,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "云南民族大学",
-      "schoolCode": "5319",
-      "majorKey": "301df55e",
-      "majorName": "越南语（雨花校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -308,16 +240,7 @@
           "minScore": 539,
           "minRank": 123897,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "云南民族大学",
-      "schoolCode": "5319",
-      "majorKey": "7d0b3703",
-      "majorName": "通信工程（雨花校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -330,8 +253,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "汉语言文学（雨花校区）",
-      "majorKey": "11c35b68",
+      "majorName": "汉语言文学",
+      "majorKey": "97bc5998",
+      "track": "综合",
       "selKe": "史政地(3科必选)",
       "plan": 5,
       "tuition": "4200",
@@ -339,11 +263,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 73208,
-      "equivRank": 73208
+      "equivRank": 73208,
+      "prevScore": 582
     },
     {
-      "majorName": "越南语（雨花校区）",
-      "majorKey": "301df55e",
+      "majorName": "越南语",
+      "majorKey": "82370fd6",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "4200",
@@ -351,11 +277,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 92772,
-      "equivRank": 92772
+      "equivRank": 92772,
+      "prevScore": 566
     },
     {
-      "majorName": "老挝语（雨花校区）",
-      "majorKey": "f7116e47",
+      "majorName": "老挝语",
+      "majorKey": "ad175eb3",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "4200",
@@ -363,11 +291,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 94275,
-      "equivRank": 94275
+      "equivRank": 94275,
+      "prevScore": 565
     },
     {
-      "majorName": "电子信息工程（雨花校区）",
-      "majorKey": "9a771772",
+      "majorName": "电子信息工程",
+      "majorKey": "fd603692",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 7,
       "tuition": "5000",
@@ -375,11 +305,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 121573,
-      "equivRank": 121573
+      "equivRank": 121573,
+      "prevScore": 542
     },
     {
-      "majorName": "通信工程（雨花校区）",
-      "majorKey": "7d0b3703",
+      "majorName": "通信工程",
+      "majorKey": "1c1ee3f7",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 7,
       "tuition": "5000",
@@ -387,31 +319,36 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 131020,
-      "equivRank": 131020
+      "equivRank": 131020,
+      "prevScore": 535
     },
     {
-      "majorName": "化学（雨花校区）",
-      "majorKey": "6f158236",
+      "majorName": "化学",
+      "majorKey": "04ab47fe",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 7,
       "tuition": "5700",
       "schooling": "四年",
       "menlei": "理",
       "prevYear": 2025,
-      "prevRank": 184372,
-      "equivRank": 184372
+      "prevRank": 139942,
+      "equivRank": 139942,
+      "prevScore": 528
     },
     {
-      "majorName": "药物分析（雨花校区）",
-      "majorKey": "896d0ae5",
+      "majorName": "药物分析",
+      "majorKey": "e83335a9",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 6,
       "tuition": "5500",
       "schooling": "四年",
       "menlei": "医",
       "prevYear": 2025,
-      "prevRank": 184372,
-      "equivRank": 184372
+      "prevRank": 141125,
+      "equivRank": 141125,
+      "prevScore": 527
     }
   ]
 }

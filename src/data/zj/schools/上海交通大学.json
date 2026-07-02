@@ -6,8 +6,8 @@
     {
       "schoolKey": "上海交通大学",
       "schoolCode": "3131",
-      "majorKey": "0d3cc362",
-      "majorName": "人工智能（卓越人才试点班）",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -64,22 +64,6 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 696,
-          "minRank": 191,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "上海交通大学",
-      "schoolCode": "3131",
-      "majorKey": "0fa7e7f4",
-      "majorName": "电子信息类（IEEE试点班）",
-      "selKe": "物理必选",
-      "years": [
-        {
           "year": 2022,
           "track": "综合",
           "minScore": 690,
@@ -92,37 +76,19 @@
           "minScore": 700,
           "minRank": 163,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "上海交通大学",
-      "schoolCode": "3131",
-      "majorKey": "f04d4df1",
-      "majorName": "电子信息类（IEEE试点班，含双学士学位项目）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2024,
           "track": "综合",
           "minScore": 703,
           "minRank": 153,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "上海交通大学",
-      "schoolCode": "3131",
-      "majorKey": "5a0ace15",
-      "majorName": "计算机科学与技术（ACM班）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
-          "minScore": 698,
-          "minRank": 143,
+          "minScore": 696,
+          "minRank": 191,
           "maxScore": 0
         }
       ]
@@ -130,8 +96,8 @@
     {
       "schoolKey": "上海交通大学",
       "schoolCode": "3131",
-      "majorKey": "b210cf97",
-      "majorName": "计算机科学与技术（ACM班，致远理科荣誉计划）",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -139,6 +105,13 @@
           "track": "综合",
           "minScore": 706,
           "minRank": 90,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 698,
+          "minRank": 143,
           "maxScore": 0
         }
       ]
@@ -169,8 +142,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "计算机科学与技术（ACM班）",
-      "majorKey": "5a0ace15",
+      "majorName": "计算机科学与技术",
+      "majorKey": "1d486608",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "7000",
@@ -178,11 +152,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 143,
-      "equivRank": 143
+      "equivRank": 143,
+      "prevScore": 698
     },
     {
       "majorName": "电子信息类",
       "majorKey": "5e0efed0",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 8,
       "tuition": "7000",
@@ -190,7 +166,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 191,
-      "equivRank": 191
+      "equivRank": 191,
+      "prevScore": 696
     }
   ]
 }

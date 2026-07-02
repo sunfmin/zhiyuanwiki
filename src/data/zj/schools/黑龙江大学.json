@@ -6,8 +6,8 @@
     {
       "schoolKey": "黑龙江大学",
       "schoolCode": "2323",
-      "majorKey": "e9008b06",
-      "majorName": "会计学（与澳大利亚麦考瑞大学2+2联合培养双学士学位。第三、四学年须赴澳大利亚麦考瑞大学学习，学费约45000澳元/学年，外方教学语言为英语）",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
       "selKe": "不限",
       "years": [
         {
@@ -73,8 +73,8 @@
         {
           "year": 2023,
           "track": "综合",
-          "minScore": 571,
-          "minRank": 83253,
+          "minScore": 580,
+          "minRank": 73934,
           "maxScore": 0
         },
         {
@@ -89,22 +89,6 @@
           "track": "综合",
           "minScore": 593,
           "minRank": 59337,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "黑龙江大学",
-      "schoolCode": "2323",
-      "majorKey": "f4f1ac9a",
-      "majorName": "俄语（基础学科拔尖培养计划）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 580,
-          "minRank": 73934,
           "maxScore": 0
         }
       ]
@@ -188,8 +172,8 @@
     {
       "schoolKey": "黑龙江大学",
       "schoolCode": "2323",
-      "majorKey": "7c7e1117",
-      "majorName": "化学工程与工艺（能源化工方向）",
+      "majorKey": "1f59c989",
+      "majorName": "化学工程与工艺",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -555,7 +539,7 @@
       "schoolCode": "2323",
       "majorKey": "0ac1da59",
       "majorName": "生物技术",
-      "selKe": "物/化/生(3选1)",
+      "selKe": "物理、化学(2科必选)",
       "years": [
         {
           "year": 2022,
@@ -570,32 +554,14 @@
           "minScore": 590,
           "minRank": 62410,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "黑龙江大学",
-      "schoolCode": "2323",
-      "majorKey": "f25fc5a2",
-      "majorName": "生物技术（中俄学院）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2024,
           "track": "综合",
           "minScore": 547,
           "minRank": 115121,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "黑龙江大学",
-      "schoolCode": "2323",
-      "majorKey": "061f0469",
-      "majorName": "生物技术（部分专业课程俄语授课）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -781,8 +747,8 @@
     {
       "schoolKey": "黑龙江大学",
       "schoolCode": "2323",
-      "majorKey": "2d1a3a99",
-      "majorName": "翻译（英语）",
+      "majorKey": "8f1501ac",
+      "majorName": "翻译",
       "selKe": "不限",
       "years": [
         {
@@ -929,22 +895,6 @@
     {
       "schoolKey": "黑龙江大学",
       "schoolCode": "2323",
-      "majorKey": "ecb4a05a",
-      "majorName": "计算机科学与技术（与澳大利亚昆士兰大学2＋2联合培养双学士学位。第三、四学年须赴澳大利亚昆士兰大学学习，学费约53000澳元/学年，外方教学语言为英语）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 530,
-          "minRank": 136790,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "黑龙江大学",
-      "schoolCode": "2323",
       "majorKey": "1c1ee3f7",
       "majorName": "通信工程",
       "selKe": "物理、化学(2科必选)",
@@ -1023,6 +973,7 @@
     {
       "majorName": "法学",
       "majorKey": "a1113a1f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "6000",
@@ -1030,11 +981,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 29044,
-      "equivRank": 29044
+      "equivRank": 29044,
+      "prevScore": 623
     },
     {
       "majorName": "汉语言文学",
       "majorKey": "97bc5998",
+      "track": "综合",
       "selKe": "历史必选",
       "plan": 2,
       "tuition": "4180",
@@ -1042,23 +995,27 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 52794,
-      "equivRank": 52794
+      "equivRank": 52794,
+      "prevScore": 599
     },
     {
       "majorName": "计算机科学与技术",
       "majorKey": "1d486608",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
-      "plan": 2,
+      "plan": 6,
       "tuition": "6000",
       "schooling": "四年",
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 54284,
-      "equivRank": 54284
+      "equivRank": 54284,
+      "prevScore": 598
     },
     {
       "majorName": "俄语",
       "majorKey": "7d0b62a8",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "6000",
@@ -1066,11 +1023,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 59337,
-      "equivRank": 59337
+      "equivRank": 59337,
+      "prevScore": 593
     },
     {
       "majorName": "经济学",
       "majorKey": "bda0ff17",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "3500",
@@ -1078,11 +1037,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 63047,
-      "equivRank": 63047
+      "equivRank": 63047,
+      "prevScore": 590
     },
     {
       "majorName": "电气工程及其自动化",
       "majorKey": "45947d31",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5500",
@@ -1090,11 +1051,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 66454,
-      "equivRank": 66454
+      "equivRank": 66454,
+      "prevScore": 587
     },
     {
       "majorName": "哲学",
       "majorKey": "34eac38f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "2500",
@@ -1102,11 +1065,13 @@
       "menlei": "哲",
       "prevYear": 2025,
       "prevRank": 68703,
-      "equivRank": 68703
+      "equivRank": 68703,
+      "prevScore": 586
     },
     {
       "majorName": "自动化",
       "majorKey": "da95770c",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6000",
@@ -1114,11 +1079,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 70151,
-      "equivRank": 70151
+      "equivRank": 70151,
+      "prevScore": 584
     },
     {
       "majorName": "法语",
       "majorKey": "e5fc6283",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "6000",
@@ -1126,11 +1093,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 70454,
-      "equivRank": 70454
+      "equivRank": 70454,
+      "prevScore": 584
     },
     {
       "majorName": "电子信息工程",
       "majorKey": "fd603692",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6000",
@@ -1138,11 +1107,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 70506,
-      "equivRank": 70506
+      "equivRank": 70506,
+      "prevScore": 584
     },
     {
-      "majorName": "会计学（与澳大利亚麦考瑞大学2+2联合培养双学士学位。第三、四学年须赴澳大利亚麦考瑞大学学习，学费约45000澳元/学年，外方教学语言为英语）",
-      "majorKey": "e9008b06",
+      "majorName": "会计学",
+      "majorKey": "8aa56116",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "3850",
@@ -1150,11 +1121,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 73523,
-      "equivRank": 73523
+      "equivRank": 73523,
+      "prevScore": 582
     },
     {
       "majorName": "英语",
       "majorKey": "49c5cdf9",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "6000",
@@ -1162,11 +1135,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 74333,
-      "equivRank": 74333
+      "equivRank": 74333,
+      "prevScore": 581
     },
     {
       "majorName": "电子科学与技术",
       "majorKey": "178ae2b7",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4000",
@@ -1174,11 +1149,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 75077,
-      "equivRank": 75077
+      "equivRank": 75077,
+      "prevScore": 580
     },
     {
       "majorName": "传播学",
       "majorKey": "c8cc37b2",
+      "track": "综合",
       "selKe": "不限",
       "plan": 8,
       "tuition": "8000",
@@ -1186,11 +1163,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 76331,
-      "equivRank": 76331
+      "equivRank": 76331,
+      "prevScore": 579
     },
     {
       "majorName": "汉语国际教育",
       "majorKey": "d2fbd5c5",
+      "track": "综合",
       "selKe": "历史必选",
       "plan": 2,
       "tuition": "4000",
@@ -1198,11 +1177,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 77501,
-      "equivRank": 77501
+      "equivRank": 77501,
+      "prevScore": 578
     },
     {
       "majorName": "日语",
       "majorKey": "8f1def37",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "6000",
@@ -1210,11 +1191,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 78378,
-      "equivRank": 78378
+      "equivRank": 78378,
+      "prevScore": 578
     },
     {
-      "majorName": "翻译（英语）",
-      "majorKey": "2d1a3a99",
+      "majorName": "翻译",
+      "majorKey": "8f1501ac",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5000",
@@ -1222,11 +1205,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 79736,
-      "equivRank": 79736
+      "equivRank": 79736,
+      "prevScore": 577
     },
     {
       "majorName": "朝鲜语",
       "majorKey": "b2ff5185",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4400",
@@ -1234,11 +1219,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 80937,
-      "equivRank": 80937
+      "equivRank": 80937,
+      "prevScore": 576
     },
     {
       "majorName": "电子商务",
       "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "4000",
@@ -1246,11 +1233,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 83165,
-      "equivRank": 83165
+      "equivRank": 83165,
+      "prevScore": 574
     },
     {
       "majorName": "通信工程",
       "majorKey": "1c1ee3f7",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6000",
@@ -1258,11 +1247,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 83556,
-      "equivRank": 83556
+      "equivRank": 83556,
+      "prevScore": 573
     },
     {
       "majorName": "光电信息科学与工程",
       "majorKey": "d8f4c9ac",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5000",
@@ -1270,11 +1261,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 83793,
-      "equivRank": 83793
+      "equivRank": 83793,
+      "prevScore": 573
     },
     {
       "majorName": "商务英语",
       "majorKey": "4428fd77",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "5000",
@@ -1282,11 +1275,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 88017,
-      "equivRank": 88017
+      "equivRank": 88017,
+      "prevScore": 570
     },
     {
       "majorName": "高分子材料与工程",
       "majorKey": "fc81313f",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5000",
@@ -1294,11 +1289,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 105499,
-      "equivRank": 105499
+      "equivRank": 105499,
+      "prevScore": 555
     },
     {
       "majorName": "化学",
       "majorKey": "04ab47fe",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "2500",
@@ -1306,11 +1303,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 113299,
-      "equivRank": 113299
+      "equivRank": 113299,
+      "prevScore": 549
     },
     {
-      "majorName": "化学工程与工艺（能源化工方向）",
-      "majorKey": "7c7e1117",
+      "majorName": "化学工程与工艺",
+      "majorKey": "1f59c989",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4000",
@@ -1318,11 +1317,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 124148,
-      "equivRank": 124148
+      "equivRank": 124148,
+      "prevScore": 540
     },
     {
-      "majorName": "生物技术（部分专业课程俄语授课）",
-      "majorKey": "061f0469",
+      "majorName": "生物技术",
+      "majorKey": "0ac1da59",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6000",
@@ -1330,11 +1331,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 130563,
-      "equivRank": 130563
+      "equivRank": 130563,
+      "prevScore": 535
     },
     {
       "majorName": "土木工程",
       "majorKey": "320e7128",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4500",
@@ -1342,11 +1345,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 132266,
-      "equivRank": 132266
+      "equivRank": 132266,
+      "prevScore": 534
     },
     {
       "majorName": "食品科学与工程",
       "majorKey": "7b7511cd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "4000",
@@ -1354,19 +1359,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 135663,
-      "equivRank": 135663
-    },
-    {
-      "majorName": "计算机科学与技术（与澳大利亚昆士兰大学2＋2联合培养双学士学位。第三、四学年须赴澳大利亚昆士兰大学学习，学费约53000澳元/学年，外方教学语言为英语）",
-      "majorKey": "ecb4a05a",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 4,
-      "tuition": "6000",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 136790,
-      "equivRank": 136790
+      "equivRank": 135663,
+      "prevScore": 531
     }
   ]
 }

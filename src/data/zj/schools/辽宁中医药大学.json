@@ -6,8 +6,8 @@
     {
       "schoolKey": "辽宁中医药大学",
       "schoolCode": "2139",
-      "majorKey": "2939372e",
-      "majorName": "中医学（第一学年在本溪校区，第二学年起在沈阳校区）",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
       "selKe": "不限",
       "years": [
         {
@@ -85,16 +85,7 @@
           "minScore": 542,
           "minRank": 120337,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "辽宁中医药大学",
-      "schoolCode": "2139",
-      "majorKey": "59126692",
-      "majorName": "信息管理与信息系统（第一学年在本溪校区，第二学年起在沈阳校区）",
-      "selKe": "物理必选",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -117,16 +108,7 @@
           "minScore": 581,
           "minRank": 74659,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "辽宁中医药大学",
-      "schoolCode": "2139",
-      "majorKey": "c4e75708",
-      "majorName": "健康服务与管理（第一学年在本溪校区，第二学年起在沈阳校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -278,16 +260,7 @@
           "minScore": 529,
           "minRank": 135545,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "辽宁中医药大学",
-      "schoolCode": "2139",
-      "majorKey": "550c4ae0",
-      "majorName": "护理学（中外合作办学）",
-      "selKe": "化学必选",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -317,16 +290,7 @@
           "minScore": 536,
           "minRank": 126963,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "辽宁中医药大学",
-      "schoolCode": "2139",
-      "majorKey": "7cd6b307",
-      "majorName": "数据科学与大数据技术（第.学年在本溪校区，第二学年起在沈阳校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -396,7 +360,7 @@
       "schoolCode": "2139",
       "majorKey": "c744f66e",
       "majorName": "针灸推拿学",
-      "selKe": "物理、化学(2科必选)",
+      "selKe": "不限",
       "years": [
         {
           "year": 2023,
@@ -411,16 +375,7 @@
           "minScore": 565,
           "minRank": 93466,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "辽宁中医药大学",
-      "schoolCode": "2139",
-      "majorKey": "93e7943a",
-      "majorName": "针灸推拿学（第一学年在本溪校区，第二学年起在沈阳校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -433,8 +388,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "中医学（第一学年在本溪校区，第二学年起在沈阳校区）",
-      "majorKey": "2939372e",
+      "majorName": "中医学",
+      "majorKey": "2285e5ca",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "5500",
@@ -442,11 +398,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 43655,
-      "equivRank": 43655
+      "equivRank": 43655,
+      "prevScore": 608
     },
     {
-      "majorName": "针灸推拿学（第一学年在本溪校区，第二学年起在沈阳校区）",
-      "majorKey": "93e7943a",
+      "majorName": "针灸推拿学",
+      "majorKey": "c744f66e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "5500",
@@ -454,11 +412,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 50998,
-      "equivRank": 50998
+      "equivRank": 50998,
+      "prevScore": 601
     },
     {
-      "majorName": "健康服务与管理（第一学年在本溪校区，第二学年起在沈阳校区）",
-      "majorKey": "c4e75708",
+      "majorName": "健康服务与管理",
+      "majorKey": "4fa2a9fc",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "5200",
@@ -466,11 +426,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 81931,
-      "equivRank": 81931
+      "equivRank": 81931,
+      "prevScore": 575
     },
     {
-      "majorName": "信息管理与信息系统（第一学年在本溪校区，第二学年起在沈阳校区）",
-      "majorKey": "59126692",
+      "majorName": "信息管理与信息系统",
+      "majorKey": "55e3bd26",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 3,
       "tuition": "5200",
@@ -478,11 +440,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 127111,
-      "equivRank": 127111
+      "equivRank": 127111,
+      "prevScore": 538
     },
     {
-      "majorName": "数据科学与大数据技术（第.学年在本溪校区，第二学年起在沈阳校区）",
-      "majorKey": "7cd6b307",
+      "majorName": "数据科学与大数据技术",
+      "majorKey": "bb0a25bd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "5200",
@@ -490,11 +454,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 132247,
-      "equivRank": 132247
+      "equivRank": 132247,
+      "prevScore": 534
     },
     {
-      "majorName": "护理学（中外合作办学）",
-      "majorKey": "550c4ae0",
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "综合",
       "selKe": "化学必选",
       "plan": 10,
       "tuition": "42000",
@@ -503,7 +469,8 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 164574,
-      "equivRank": 164574
+      "equivRank": 164574,
+      "prevScore": 507
     }
   ]
 }

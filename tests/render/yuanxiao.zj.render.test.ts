@@ -55,35 +55,37 @@ test(
     // 1) 真实数据流到了 UI：院校名 + 院校代码摘要行（unitCount/leaves 由真实逻辑算出）。
     expect(mainText).toContain("浙江大学");
     expect(mainText).toContain("院校代码 0001");
-    expect(mainText).toMatch(/26\s*个 2026 招生专业/);
-    expect(mainText).toMatch(/32\s*个专业有 2022–2025 录取记录/);
+    // 换用一致源（ADR-0022）后：浙大收录 11 个招生专业、12 个专业有往年录取（大类不再按方向拆分——
+    // 一致源把「工科试验班」列为单条，无万师兄源的逐方向明细）。
+    expect(mainText).toMatch(/11\s*个 2026 招生专业/);
+    expect(mainText).toMatch(/12\s*个专业有 2022–2025 录取记录/);
 
     // 2) 浙江走「招生专业」视图（major 模型），而非黑龙江的「院校专业组」。
     expect(mainText).toContain("2026 报考视图（招生专业）");
     expect(mainText).not.toContain("院校专业组）");
-    // 签名件「你在这里」排行：26 个招生专业全部有往年位次，排成 26 行，各按 #z-<majorKey> 锚到历年区。
+    // 签名件「你在这里」排行：11 个招生专业全部有往年位次，排成 11 行，各按 #z-<majorKey> 锚到历年区。
     expect(await main.locator(".yx-ranklist").count()).toBe(1);
-    expect(await main.locator(".yx-ranklist .yx-rank-row").count()).toBe(26);
+    expect(await main.locator(".yx-ranklist .yx-rank-row").count()).toBe(11);
     const planRows = await main.locator('a[href^="#z-"]').count();
-    expect(planRows).toBe(26);
+    expect(planRows).toBe(11);
     // 存入的位次 3,718 → 「你的位次」分界线插进排行并显形，标签带该位次。
     expect(await main.locator(".yx-youhere:not([hidden])").count()).toBe(1);
     expect(await main.locator(".yx-youhere-v").innerText()).toContain("你的位次 3,718");
 
-    // 3) 历年录取位次区块：leaves 渲染成 32 个可展开 <details>。
+    // 3) 历年录取位次区块：leaves 渲染成 12 个可展开 <details>。
     expect(mainText).toContain("全部专业 · 历年录取位次");
     const leafCount = await main.locator("details").count();
-    expect(leafCount).toBe(32);
+    expect(leafCount).toBe(12);
 
     // 3b) 浙江=单科类「综合」：展开后不应再出现冗余的「综合类」分头（<h3>），
     //     冲/稳/保角标改挂到每个专业的 summary 行上（无需展开即可见）。见用户反馈。
     expect(await main.locator("details h3").count()).toBe(0);
-    expect(await main.locator("summary .rank-badge").count()).toBe(32);
+    expect(await main.locator("summary .rank-badge").count()).toBe(12);
     // 冲/稳/保 island 按存入的位次 3,718 给 summary 角标就地填值。
     expect(mainText).toContain("按你的位次 3,718");
 
-    // 4) 抽样真实专业名（分别来自 plan2026 与 leaves）确实出现在页面上。
-    expect(mainText).toContain("工科试验班（竺可桢学院图灵班）");
+    // 4) 抽样真实专业名（来自报考视图与 leaves）确实出现在页面上。
+    expect(mainText).toContain("工科试验班");
     expect(mainText).toContain("人工智能");
 
     console.log(`浙江大学院校页：${planRows} 个招生专业 · ${leafCount} 个历年专业 → ${out}`);

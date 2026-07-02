@@ -55,16 +55,7 @@
           "minScore": 594,
           "minRank": 59995,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "贵州黔南科技学院",
-      "schoolCode": "5211",
-      "majorKey": "76d6a614",
-      "majorName": "行政管理（惠水）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -86,22 +77,6 @@
           "track": "综合",
           "minScore": 495,
           "minRank": 178870,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "贵州黔南科技学院",
-      "schoolCode": "5211",
-      "majorKey": "9c1fbb3a",
-      "majorName": "计算机科学与技术（惠水）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 490,
-          "minRank": 184372,
           "maxScore": 0
         }
       ]
@@ -132,8 +107,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "行政管理（惠水）",
-      "majorKey": "76d6a614",
+      "majorName": "行政管理",
+      "majorKey": "062bcf46",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "16500",
@@ -141,19 +117,22 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 124854,
-      "equivRank": 124854
+      "equivRank": 124854,
+      "prevScore": 540
     },
     {
-      "majorName": "计算机科学与技术（惠水）",
-      "majorKey": "9c1fbb3a",
+      "majorName": "计算机科学与技术",
+      "majorKey": "1d486608",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "16600",
       "schooling": "四年",
       "menlei": "工",
       "prevYear": 2025,
-      "prevRank": 184372,
-      "equivRank": 184372
+      "prevRank": 178870,
+      "equivRank": 178870,
+      "prevScore": 495
     }
   ]
 }

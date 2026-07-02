@@ -36,22 +36,6 @@
     {
       "schoolKey": "南充电影工业职业学院",
       "schoolCode": "5185",
-      "majorKey": "b26afaeb",
-      "majorName": "动漫制作技术（动画电影制作）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 309,
-          "minRank": 283214,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "南充电影工业职业学院",
-      "schoolCode": "5185",
       "majorKey": "15ce9058",
       "majorName": "城市轨道交通运营管理",
       "selKe": "不限",
@@ -109,22 +93,6 @@
           "minRank": 268021,
           "maxScore": 0
         },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 268,
-          "minRank": 290790,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "南充电影工业职业学院",
-      "schoolCode": "5185",
-      "majorKey": "9c869ebf",
-      "majorName": "影视制片管理（影视经纪人）",
-      "selKe": "不限",
-      "years": [
         {
           "year": 2025,
           "track": "综合",
@@ -245,22 +213,6 @@
     {
       "schoolKey": "南充电影工业职业学院",
       "schoolCode": "5185",
-      "majorKey": "1a4e69bb",
-      "majorName": "电子商务（直播电商）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 316,
-          "minRank": 282005,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "南充电影工业职业学院",
-      "schoolCode": "5185",
       "majorKey": "342763eb",
       "majorName": "虚拟现实技术应用",
       "selKe": "不限",
@@ -293,68 +245,51 @@
   ],
   "plan2026": [
     {
-      "majorName": "影视制片管理（影视经纪人）",
-      "majorKey": "9c869ebf",
+      "majorName": "影视制片管理",
+      "majorKey": "e025b31e",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 2,
+      "plan": 16,
       "tuition": "15900",
       "schooling": "三年",
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 276178,
-      "equivRank": 276178
+      "equivRank": 276178,
+      "prevScore": 343
     },
     {
       "majorName": "电子商务",
       "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 8,
+      "plan": 12,
       "tuition": "10380",
       "schooling": "三年",
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 281606,
-      "equivRank": 281606
-    },
-    {
-      "majorName": "电子商务（直播电商）",
-      "majorKey": "1a4e69bb",
-      "selKe": "不限",
-      "plan": 4,
-      "tuition": "10380",
-      "schooling": "三年",
-      "menlei": "管",
-      "prevYear": 2025,
-      "prevRank": 282005,
-      "equivRank": 282005
+      "equivRank": 281606,
+      "prevScore": 318
     },
     {
       "majorName": "动漫制作技术",
       "majorKey": "0b343084",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 8,
+      "plan": 12,
       "tuition": "15900",
       "schooling": "三年",
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 282523,
-      "equivRank": 282523
-    },
-    {
-      "majorName": "动漫制作技术（动画电影制作）",
-      "majorKey": "b26afaeb",
-      "selKe": "不限",
-      "plan": 4,
-      "tuition": "15900",
-      "schooling": "三年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 283214,
-      "equivRank": 283214
+      "equivRank": 282523,
+      "prevScore": 313
     },
     {
       "majorName": "虚拟现实技术应用",
       "majorKey": "342763eb",
+      "track": "综合",
       "selKe": "不限",
       "plan": 12,
       "tuition": "14800",
@@ -362,11 +297,13 @@
       "menlei": "工",
       "prevYear": 2024,
       "prevRank": 274524,
-      "equivRank": 284031
+      "equivRank": 284031,
+      "prevScore": 310
     },
     {
       "majorName": "新能源汽车技术",
       "majorKey": "ccb39427",
+      "track": "综合",
       "selKe": "不限",
       "plan": 8,
       "tuition": "15900",
@@ -374,11 +311,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 284843,
-      "equivRank": 284843
+      "equivRank": 284843,
+      "prevScore": 299
     },
     {
       "majorName": "摄影摄像技术",
       "majorKey": "d95c547e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "15900",
@@ -386,11 +325,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 286060,
-      "equivRank": 286060
+      "equivRank": 286060,
+      "prevScore": 292
     },
     {
       "majorName": "数字媒体技术",
       "majorKey": "889e9381",
+      "track": "综合",
       "selKe": "不限",
       "plan": 20,
       "tuition": "14800",
@@ -398,11 +339,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 288457,
-      "equivRank": 288457
+      "equivRank": 288457,
+      "prevScore": 279
     },
     {
       "majorName": "城市轨道交通运营管理",
       "majorKey": "15ce9058",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "15900",
@@ -410,11 +353,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 290790,
-      "equivRank": 290790
+      "equivRank": 290790,
+      "prevScore": 268
     },
     {
       "majorName": "大数据技术",
       "majorKey": "a0b9e84e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 12,
       "tuition": "14800",
@@ -422,23 +367,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 290790,
-      "equivRank": 290790
-    },
-    {
-      "majorName": "影视制片管理",
-      "majorKey": "e025b31e",
-      "selKe": "不限",
-      "plan": 10,
-      "tuition": "15900",
-      "schooling": "三年",
-      "menlei": "艺",
-      "prevYear": 2025,
-      "prevRank": 290790,
-      "equivRank": 290790
+      "equivRank": 290790,
+      "prevScore": 268
     },
     {
       "majorName": "智能机电技术",
       "majorKey": "d464e3d7",
+      "track": "综合",
       "selKe": "不限",
       "plan": 8,
       "tuition": "15900",
@@ -446,11 +381,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 290790,
-      "equivRank": 290790
+      "equivRank": 290790,
+      "prevScore": 268
     },
     {
       "majorName": "计算机应用技术",
       "majorKey": "faccc9c5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 8,
       "tuition": "15900",
@@ -458,16 +395,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 290790,
-      "equivRank": 290790
-    },
-    {
-      "majorName": "影视制片管理（影视发行与电影院线管理）",
-      "majorKey": "adf55d13",
-      "selKe": "不限",
-      "plan": 4,
-      "tuition": "15900",
-      "schooling": "三年",
-      "menlei": "艺"
+      "equivRank": 290790,
+      "prevScore": 268
     }
   ]
 }

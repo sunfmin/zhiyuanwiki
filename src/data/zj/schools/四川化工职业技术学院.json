@@ -16,32 +16,7 @@
           "minScore": 397,
           "minRank": 248958,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "四川化工职业技术学院",
-      "schoolCode": "5152",
-      "majorKey": "e8562814",
-      "majorName": "应用化工技术（纳溪校区。）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 416,
-          "minRank": 245828,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "四川化工职业技术学院",
-      "schoolCode": "5152",
-      "majorKey": "c85c0573",
-      "majorName": "应用化工技术（纳溪校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -64,16 +39,7 @@
           "minScore": 450,
           "minRank": 215876,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "四川化工职业技术学院",
-      "schoolCode": "5152",
-      "majorKey": "3369b9b2",
-      "majorName": "药品生产技术（纳溪校区。）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -86,8 +52,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "应用化工技术（纳溪校区）",
-      "majorKey": "c85c0573",
+      "majorName": "应用化工技术",
+      "majorKey": "413a7fac",
+      "track": "综合",
       "selKe": "不限",
       "plan": 40,
       "tuition": "5720",
@@ -95,16 +62,22 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
-      "majorName": "药品生产技术（纳溪校区）",
-      "majorKey": "3231d19d",
+      "majorName": "药品生产技术",
+      "majorKey": "1b856be6",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "5720",
       "schooling": "三年",
-      "menlei": "医"
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 232172,
+      "equivRank": 232172,
+      "prevScore": 437
     }
   ]
 }

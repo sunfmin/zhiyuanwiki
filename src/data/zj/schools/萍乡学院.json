@@ -43,8 +43,8 @@
     {
       "schoolKey": "萍乡学院",
       "schoolCode": "3653",
-      "majorKey": "6e38b28d",
-      "majorName": "学前教育（师范）",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
       "selKe": "不限",
       "years": [
         {
@@ -80,8 +80,8 @@
     {
       "schoolKey": "萍乡学院",
       "schoolCode": "3653",
-      "majorKey": "983355fa",
-      "majorName": "小学教育（师范）",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
       "selKe": "不限",
       "years": [
         {
@@ -164,16 +164,7 @@
           "minScore": 513,
           "minRank": 153901,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "萍乡学院",
-      "schoolCode": "3653",
-      "majorKey": "61328377",
-      "majorName": "应用化学（PCB方向）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -202,8 +193,8 @@
     {
       "schoolKey": "萍乡学院",
       "schoolCode": "3653",
-      "majorKey": "47452c2f",
-      "majorName": "思想政治教育（师范）",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
       "selKe": "思想政治必选",
       "years": [
         {
@@ -241,8 +232,8 @@
     {
       "schoolKey": "萍乡学院",
       "schoolCode": "3653",
-      "majorKey": "9f802a9c",
-      "majorName": "数学与应用数学（师范）",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -368,8 +359,8 @@
     {
       "schoolKey": "萍乡学院",
       "schoolCode": "3653",
-      "majorKey": "d7131091",
-      "majorName": "汉语言文学（师范）",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
       "selKe": "不限",
       "years": [
         {
@@ -458,8 +449,8 @@
     {
       "schoolKey": "萍乡学院",
       "schoolCode": "3653",
-      "majorKey": "ec2e4e14",
-      "majorName": "知识产权（法学方向）",
+      "majorKey": "f3a3be38",
+      "majorName": "知识产权",
       "selKe": "不限",
       "years": [
         {
@@ -481,8 +472,8 @@
     {
       "schoolKey": "萍乡学院",
       "schoolCode": "3653",
-      "majorKey": "fea3e248",
-      "majorName": "英语（师范）",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
       "selKe": "不限",
       "years": [
         {
@@ -541,8 +532,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "知识产权（法学方向）",
-      "majorKey": "ec2e4e14",
+      "majorName": "知识产权",
+      "majorKey": "f3a3be38",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "3880",
@@ -550,11 +542,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 79381,
-      "equivRank": 79381
+      "equivRank": 79381,
+      "prevScore": 577
     },
     {
       "majorName": "财务管理",
       "majorKey": "8220c852",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "3880",
@@ -562,11 +556,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 82276,
-      "equivRank": 82276
+      "equivRank": 82276,
+      "prevScore": 574
     },
     {
-      "majorName": "英语（师范）",
-      "majorKey": "fea3e248",
+      "majorName": "英语",
+      "majorKey": "49c5cdf9",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "3880",
@@ -574,11 +570,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 85027,
-      "equivRank": 85027
+      "equivRank": 85027,
+      "prevScore": 572
     },
     {
-      "majorName": "小学教育（师范）",
-      "majorKey": "983355fa",
+      "majorName": "小学教育",
+      "majorKey": "c240892f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "3880",
@@ -586,11 +584,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 90876,
-      "equivRank": 90876
+      "equivRank": 90876,
+      "prevScore": 567
     },
     {
       "majorName": "电子商务",
       "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4350",
@@ -598,11 +598,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 92497,
-      "equivRank": 92497
+      "equivRank": 92497,
+      "prevScore": 566
     },
     {
       "majorName": "广播电视编导",
       "majorKey": "b86f75b5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "8000",
@@ -610,11 +612,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 94650,
-      "equivRank": 94650
+      "equivRank": 94650,
+      "prevScore": 564
     },
     {
-      "majorName": "学前教育（师范）",
-      "majorKey": "6e38b28d",
+      "majorName": "学前教育",
+      "majorKey": "97716b64",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "3880",
@@ -622,11 +626,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 96210,
-      "equivRank": 96210
+      "equivRank": 96210,
+      "prevScore": 563
     },
     {
       "majorName": "数据科学与大数据技术",
       "majorKey": "bb0a25bd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4120",
@@ -634,11 +640,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 133867,
-      "equivRank": 133867
+      "equivRank": 133867,
+      "prevScore": 532
     },
     {
       "majorName": "电子信息工程",
       "majorKey": "fd603692",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4350",
@@ -646,11 +654,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 137059,
-      "equivRank": 137059
+      "equivRank": 137059,
+      "prevScore": 530
     },
     {
       "majorName": "机器人工程",
       "majorKey": "301e14e8",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4350",
@@ -658,11 +668,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 141127,
-      "equivRank": 141127
+      "equivRank": 141127,
+      "prevScore": 526
     },
     {
-      "majorName": "数学与应用数学（师范）",
-      "majorKey": "9f802a9c",
+      "majorName": "数学与应用数学",
+      "majorKey": "618fdffd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4120",
@@ -670,11 +682,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 142787,
-      "equivRank": 142787
+      "equivRank": 142787,
+      "prevScore": 525
     },
     {
       "majorName": "复合材料与工程",
       "majorKey": "acbf731b",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4120",
@@ -682,11 +696,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 148500,
-      "equivRank": 148500
+      "equivRank": 148500,
+      "prevScore": 520
     },
     {
       "majorName": "无机非金属材料工程",
       "majorKey": "fa1dc158",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4120",
@@ -694,11 +710,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 148828,
-      "equivRank": 148828
+      "equivRank": 148828,
+      "prevScore": 520
     },
     {
-      "majorName": "应用化学（PCB方向）",
-      "majorKey": "61328377",
+      "majorName": "应用化学",
+      "majorKey": "25624660",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4120",
@@ -706,11 +724,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 151073,
-      "equivRank": 151073
+      "equivRank": 151073,
+      "prevScore": 518
     },
     {
       "majorName": "数字经济",
       "majorKey": "ca37000f",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 2,
       "tuition": "3880",
@@ -718,11 +738,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 152227,
-      "equivRank": 152227
+      "equivRank": 152227,
+      "prevScore": 517
     },
     {
       "majorName": "应用统计学",
       "majorKey": "d054f8d1",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "4120",
@@ -730,7 +752,8 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 155728,
-      "equivRank": 155728
+      "equivRank": 155728,
+      "prevScore": 514
     }
   ]
 }

@@ -30,16 +30,7 @@
           "minScore": 599,
           "minRank": 54006,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "中国美术学院",
-      "schoolCode": "0002",
-      "majorKey": "5664c8d8",
-      "majorName": "工业设计（良渚校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -62,16 +53,7 @@
           "minScore": 614,
           "minRank": 39304,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "中国美术学院",
-      "schoolCode": "0002",
-      "majorKey": "1e941467",
-      "majorName": "广播电视编导（象山校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -84,8 +66,8 @@
     {
       "schoolKey": "中国美术学院",
       "schoolCode": "0002",
-      "majorKey": "39c1965a",
-      "majorName": "建筑学（象山校区）",
+      "majorKey": "6b32f2c4",
+      "majorName": "建筑学",
       "selKe": "不限",
       "years": [
         {
@@ -124,16 +106,7 @@
           "minScore": 616,
           "minRank": 37078,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "中国美术学院",
-      "schoolCode": "0002",
-      "majorKey": "f337c197",
-      "majorName": "艺术学理论类（南山校区。含艺术史论、艺术管理专业）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -163,16 +136,7 @@
           "minScore": 619,
           "minRank": 34358,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "中国美术学院",
-      "schoolCode": "0002",
-      "majorKey": "d179bb9c",
-      "majorName": "艺术设计学（象山校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -209,16 +173,7 @@
           "minScore": 623,
           "minRank": 31030,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "中国美术学院",
-      "schoolCode": "0002",
-      "majorKey": "fbf980e3",
-      "majorName": "风景园林（象山校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -231,8 +186,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "广播电视编导（象山校区）",
-      "majorKey": "1e941467",
+      "majorName": "广播电视编导",
+      "majorKey": "b86f75b5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 12,
       "tuition": "18000",
@@ -240,11 +196,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 38496,
-      "equivRank": 38496
+      "equivRank": 38496,
+      "prevScore": 613
     },
     {
-      "majorName": "风景园林（象山校区）",
-      "majorKey": "fbf980e3",
+      "majorName": "风景园林",
+      "majorKey": "9b8820c1",
+      "track": "综合",
       "selKe": "不限",
       "plan": 15,
       "tuition": "18000",
@@ -252,11 +210,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 40765,
-      "equivRank": 40765
+      "equivRank": 40765,
+      "prevScore": 611
     },
     {
-      "majorName": "艺术设计学（象山校区）",
-      "majorKey": "d179bb9c",
+      "majorName": "艺术设计学",
+      "majorKey": "72bed0ee",
+      "track": "综合",
       "selKe": "不限",
       "plan": 20,
       "tuition": "18000",
@@ -264,11 +224,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 41405,
-      "equivRank": 41405
+      "equivRank": 41405,
+      "prevScore": 610
     },
     {
-      "majorName": "艺术学理论类（南山校区。含艺术史论、艺术管理专业）",
-      "majorKey": "f337c197",
+      "majorName": "艺术学理论类",
+      "majorKey": "93bb8261",
+      "track": "综合",
       "selKe": "不限",
       "plan": 45,
       "tuition": "7500",
@@ -276,11 +238,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 46994,
-      "equivRank": 46994
+      "equivRank": 46994,
+      "prevScore": 605
     },
     {
-      "majorName": "工业设计（良渚校区）",
-      "majorKey": "5664c8d8",
+      "majorName": "工业设计",
+      "majorKey": "fee47c1b",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 75,
       "tuition": "18000",
@@ -288,11 +252,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 57447,
-      "equivRank": 57447
+      "equivRank": 57447,
+      "prevScore": 595
     },
     {
-      "majorName": "建筑学（象山校区）",
-      "majorKey": "39c1965a",
+      "majorName": "建筑学",
+      "majorKey": "6b32f2c4",
+      "track": "综合",
       "selKe": "不限",
       "plan": 59,
       "tuition": "18000",
@@ -300,7 +266,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 57573,
-      "equivRank": 57573
+      "equivRank": 57573,
+      "prevScore": 595
     }
   ]
 }

@@ -18,6 +18,13 @@
           "maxScore": 0
         },
         {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 554,
+          "minRank": 101542,
+          "maxScore": 0
+        },
+        {
           "year": 2025,
           "track": "综合",
           "minScore": 562,
@@ -29,24 +36,8 @@
     {
       "schoolKey": "兰州城市学院",
       "schoolCode": "6203",
-      "majorKey": "fd7b8288",
-      "majorName": "会计学（智能会计方向）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 554,
-          "minRank": 101542,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "兰州城市学院",
-      "schoolCode": "6203",
-      "majorKey": "4c5c8bc7",
-      "majorName": "历史学（师范）",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
       "selKe": "历史必选",
       "years": [
         {
@@ -137,8 +128,8 @@
     {
       "schoolKey": "兰州城市学院",
       "schoolCode": "6203",
-      "majorKey": "6e38b28d",
-      "majorName": "学前教育（师范）",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
       "selKe": "不限",
       "years": [
         {
@@ -220,8 +211,8 @@
     {
       "schoolKey": "兰州城市学院",
       "schoolCode": "6203",
-      "majorKey": "8ca43968",
-      "majorName": "应用心理学（师范）",
+      "majorKey": "59687759",
+      "majorName": "应用心理学",
       "selKe": "不限",
       "years": [
         {
@@ -275,8 +266,8 @@
     {
       "schoolKey": "兰州城市学院",
       "schoolCode": "6203",
-      "majorKey": "9f802a9c",
-      "majorName": "数学与应用数学（师范）",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -374,8 +365,8 @@
     {
       "schoolKey": "兰州城市学院",
       "schoolCode": "6203",
-      "majorKey": "d7131091",
-      "majorName": "汉语言文学（师范）",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
       "selKe": "历史、思想政治(2科必选)",
       "years": [
         {
@@ -540,8 +531,8 @@
     {
       "schoolKey": "兰州城市学院",
       "schoolCode": "6203",
-      "majorKey": "fea3e248",
-      "majorName": "英语（师范）",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
       "selKe": "思想政治必选",
       "years": [
         {
@@ -657,6 +648,7 @@
     {
       "majorName": "审计学",
       "majorKey": "87f6e6a2",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "3800",
@@ -664,11 +656,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 93660,
-      "equivRank": 93660
+      "equivRank": 93660,
+      "prevScore": 565
     },
     {
-      "majorName": "学前教育（师范）",
-      "majorKey": "6e38b28d",
+      "majorName": "学前教育",
+      "majorKey": "97716b64",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "3800",
@@ -676,11 +670,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 96631,
-      "equivRank": 96631
+      "equivRank": 96631,
+      "prevScore": 563
     },
     {
       "majorName": "会计学",
       "majorKey": "8aa56116",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "3800",
@@ -688,11 +684,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 96944,
-      "equivRank": 96944
+      "equivRank": 96944,
+      "prevScore": 562
     },
     {
       "majorName": "财务管理",
       "majorKey": "8220c852",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "3800",
@@ -700,11 +698,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 99002,
-      "equivRank": 99002
+      "equivRank": 99002,
+      "prevScore": 561
     },
     {
-      "majorName": "应用心理学（师范）",
-      "majorKey": "8ca43968",
+      "majorName": "应用心理学",
+      "majorKey": "59687759",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "4000",
@@ -712,11 +712,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 100015,
-      "equivRank": 100015
+      "equivRank": 100015,
+      "prevScore": 560
     },
     {
-      "majorName": "英语（师范）",
-      "majorKey": "fea3e248",
+      "majorName": "英语",
+      "majorKey": "49c5cdf9",
+      "track": "综合",
       "selKe": "思想政治必选",
       "plan": 6,
       "tuition": "4300",
@@ -724,11 +726,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 100156,
-      "equivRank": 100156
+      "equivRank": 100156,
+      "prevScore": 560
     },
     {
       "majorName": "网络与新媒体",
       "majorKey": "fff04889",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "3800",
@@ -736,11 +740,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 100956,
-      "equivRank": 100956
+      "equivRank": 100956,
+      "prevScore": 559
     },
     {
       "majorName": "翻译",
       "majorKey": "8f1501ac",
+      "track": "综合",
       "selKe": "思想政治必选",
       "plan": 4,
       "tuition": "4300",
@@ -748,11 +754,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 101588,
-      "equivRank": 101588
+      "equivRank": 101588,
+      "prevScore": 559
     },
     {
       "majorName": "城市管理",
       "majorKey": "7e3b067d",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "3800",
@@ -760,11 +768,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 102787,
-      "equivRank": 102787
+      "equivRank": 102787,
+      "prevScore": 558
     },
     {
       "majorName": "广播电视编导",
       "majorKey": "b86f75b5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "6500",
@@ -772,11 +782,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 103200,
-      "equivRank": 103200
+      "equivRank": 103200,
+      "prevScore": 557
     },
     {
       "majorName": "酒店管理",
       "majorKey": "ec686c36",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "3800",
@@ -784,7 +796,8 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 107721,
-      "equivRank": 107721
+      "equivRank": 107721,
+      "prevScore": 554
     }
   ]
 }

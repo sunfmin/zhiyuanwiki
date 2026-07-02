@@ -6,31 +6,8 @@
     {
       "schoolKey": "上饶幼儿师范高等专科学校",
       "schoolCode": "3805",
-      "majorKey": "13d3126a",
-      "majorName": "学前教育（中外合作办学）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 392,
-          "minRank": 251379,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 422,
-          "minRank": 242196,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "上饶幼儿师范高等专科学校",
-      "schoolCode": "3805",
-      "majorKey": "6e38b28d",
-      "majorName": "学前教育（师范）",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
       "selKe": "不限",
       "years": [
         {
@@ -114,20 +91,24 @@
   ],
   "plan2026": [
     {
-      "majorName": "学前教育（师范）",
-      "majorKey": "6e38b28d",
+      "majorName": "学前教育",
+      "majorKey": "97716b64",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 2,
-      "tuition": "3710",
+      "plan": 4,
+      "tuition": "10000",
       "schooling": "三年",
       "menlei": "教",
+      "coop": true,
       "prevYear": 2025,
       "prevRank": 223981,
-      "equivRank": 223981
+      "equivRank": 223981,
+      "prevScore": 448
     },
     {
       "majorName": "智慧健康养老服务与管理",
       "majorKey": "4c97ece5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5000",
@@ -135,11 +116,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 232172,
-      "equivRank": 232172
+      "equivRank": 232172,
+      "prevScore": 437
     },
     {
       "majorName": "研学旅行管理与服务",
       "majorKey": "67215bad",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5000",
@@ -147,11 +130,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 237729,
-      "equivRank": 237729
+      "equivRank": 237729,
+      "prevScore": 429
     },
     {
       "majorName": "智慧旅游技术应用",
       "majorKey": "d58a3a09",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5000",
@@ -159,20 +144,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 240350,
-      "equivRank": 240350
-    },
-    {
-      "majorName": "学前教育（中外合作办学）",
-      "majorKey": "13d3126a",
-      "selKe": "不限",
-      "plan": 2,
-      "tuition": "10000",
-      "schooling": "三年",
-      "menlei": "教",
-      "coop": true,
-      "prevYear": 2025,
-      "prevRank": 242196,
-      "equivRank": 242196
+      "equivRank": 240350,
+      "prevScore": 425
     }
   ]
 }

@@ -150,28 +150,6 @@ func (d *DB) PlanTotalsLatest() (map[string]PlanTotal, error) {
 	return out, rows.Err()
 }
 
-// SchoolAttrs 读某省按院校代码的院校属性（school_attr 表）→ code → 属性。空表返回空 map。
-func (d *DB) SchoolAttrs(prov string) (map[string]SchoolAttr, error) {
-	rows, err := d.sql.Query(`SELECT school_code,province,city,city_tier,ownership,kind,is985,is211,syl
-		FROM school_attr WHERE prov=?`, prov)
-	if err != nil {
-		return nil, err
-	}
-	defer rows.Close()
-	out := map[string]SchoolAttr{}
-	for rows.Next() {
-		var a SchoolAttr
-		var is985, is211, syl int
-		if err := rows.Scan(&a.Code, &a.Province, &a.City, &a.CityTier, &a.Ownership, &a.Kind,
-			&is985, &is211, &syl); err != nil {
-			return nil, err
-		}
-		a.Is985, a.Is211, a.Syl = is985 == 1, is211 == 1, syl == 1
-		out[a.Code] = a
-	}
-	return out, rows.Err()
-}
-
 // Menlei 从全国专业门类表重建分类器（精确映射 + 关键词兜底由 core 提供）。
 func (d *DB) Menlei() (*core.MenleiClassifier, error) {
 	rows, err := d.sql.Query(`SELECT major,menlei FROM major_catalog`)

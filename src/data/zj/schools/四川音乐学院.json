@@ -43,45 +43,6 @@
     {
       "schoolKey": "四川音乐学院",
       "schoolCode": "5137",
-      "majorKey": "7f310715",
-      "majorName": "广播电视编导（中外高水平大学学生交流计划）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 569,
-          "minRank": 89008,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 566,
-          "minRank": 93029,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "四川音乐学院",
-      "schoolCode": "5137",
-      "majorKey": "f7400d4b",
-      "majorName": "广播电视编导（四年均须按标准向四川音乐学院缴纳学费,第三、四学年须赴澳大利亚新南威尔士大学学习,其间须按照国外高校收费标准缴纳学费。新都校区）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 550,
-          "minRank": 107029,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "四川音乐学院",
-      "schoolCode": "5137",
       "majorKey": "01ee63d1",
       "majorName": "影视摄影与制作",
       "selKe": "不限",
@@ -193,6 +154,13 @@
           "maxScore": 0
         },
         {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 550,
+          "minRank": 106855,
+          "maxScore": 0
+        },
+        {
           "year": 2024,
           "track": "综合",
           "minScore": 576,
@@ -204,45 +172,6 @@
           "track": "综合",
           "minScore": 567,
           "minRank": 91868,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "四川音乐学院",
-      "schoolCode": "5137",
-      "majorKey": "ba90a6a5",
-      "majorName": "艺术史论（中外高水平大学学生交流计划）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 566,
-          "minRank": 92583,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 557,
-          "minRank": 104123,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "四川音乐学院",
-      "schoolCode": "5137",
-      "majorKey": "0b91683b",
-      "majorName": "艺术史论（四年均须按标准向四川音乐学院缴纳学费,第三、四学年须赴澳大利亚新南威尔士大学学习,其间须按照国外高校收费标准缴纳学费。新都校区）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 550,
-          "minRank": 106855,
           "maxScore": 0
         }
       ]
@@ -287,66 +216,62 @@
   ],
   "plan2026": [
     {
-      "majorName": "广播电视编导（中外高水平大学学生交流计划）",
-      "majorKey": "7f310715",
+      "majorName": "戏剧影视文学",
+      "majorKey": "b8236e06",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 2,
+      "plan": 1,
+      "tuition": "15000",
+      "schooling": "四年",
+      "menlei": "艺",
+      "prevYear": 2025,
+      "prevRank": 78531,
+      "equivRank": 78531,
+      "prevScore": 578
+    },
+    {
+      "majorName": "艺术管理",
+      "majorKey": "44d89b18",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 1,
+      "tuition": "12000",
+      "schooling": "四年",
+      "menlei": "艺",
+      "prevYear": 2025,
+      "prevRank": 82192,
+      "equivRank": 82192,
+      "prevScore": 575
+    },
+    {
+      "majorName": "广播电视编导",
+      "majorKey": "b86f75b5",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 4,
       "tuition": "15000",
       "schooling": "四年",
       "menlei": "艺",
       "coop": true,
       "prevYear": 2025,
-      "prevRank": 93029,
-      "equivRank": 93029
+      "prevRank": 83385,
+      "equivRank": 83385,
+      "prevScore": 574
     },
     {
-      "majorName": "艺术史论（中外高水平大学学生交流计划）",
-      "majorKey": "ba90a6a5",
+      "majorName": "艺术史论",
+      "majorKey": "ae17c365",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 2,
+      "plan": 3,
       "tuition": "12000",
       "schooling": "四年",
       "menlei": "艺",
       "coop": true,
       "prevYear": 2025,
-      "prevRank": 104123,
-      "equivRank": 104123
-    },
-    {
-      "majorName": "广播电视编导（新都校区）",
-      "majorKey": "6a00806b",
-      "selKe": "不限",
-      "plan": 2,
-      "tuition": "15000",
-      "schooling": "四年",
-      "menlei": "艺"
-    },
-    {
-      "majorName": "戏剧影视文学（新都校区）",
-      "majorKey": "0c64d0a0",
-      "selKe": "不限",
-      "plan": 1,
-      "tuition": "15000",
-      "schooling": "四年",
-      "menlei": "艺"
-    },
-    {
-      "majorName": "艺术史论（新都校区）",
-      "majorKey": "5bd2f25b",
-      "selKe": "不限",
-      "plan": 1,
-      "tuition": "12000",
-      "schooling": "四年",
-      "menlei": "艺"
-    },
-    {
-      "majorName": "艺术管理（新都校区）",
-      "majorKey": "d2c65b46",
-      "selKe": "不限",
-      "plan": 1,
-      "tuition": "12000",
-      "schooling": "四年",
-      "menlei": "艺"
+      "prevRank": 91868,
+      "equivRank": 91868,
+      "prevScore": 567
     }
   ]
 }

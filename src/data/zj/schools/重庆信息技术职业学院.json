@@ -48,16 +48,7 @@
           "minScore": 363,
           "minRank": 259937,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "重庆信息技术职业学院",
-      "schoolCode": "5037",
-      "majorKey": "c8b547a2",
-      "majorName": "康复治疗技术（金龙校区。）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -86,8 +77,8 @@
     {
       "schoolKey": "重庆信息技术职业学院",
       "schoolCode": "5037",
-      "majorKey": "0b3a3039",
-      "majorName": "护理（金龙校区。）",
+      "majorKey": "a3db4652",
+      "majorName": "护理",
       "selKe": "不限",
       "years": [
         {
@@ -102,8 +93,8 @@
     {
       "schoolKey": "重庆信息技术职业学院",
       "schoolCode": "5037",
-      "majorKey": "efcba168",
-      "majorName": "数字媒体技术（金龙校区。）",
+      "majorKey": "889e9381",
+      "majorName": "数字媒体技术",
       "selKe": "不限",
       "years": [
         {
@@ -128,16 +119,7 @@
           "minScore": 359,
           "minRank": 264048,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "重庆信息技术职业学院",
-      "schoolCode": "5037",
-      "majorKey": "c9f3ce9b",
-      "majorName": "新能源汽车技术（天城校区。）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -150,8 +132,8 @@
     {
       "schoolKey": "重庆信息技术职业学院",
       "schoolCode": "5037",
-      "majorKey": "19fc14e2",
-      "majorName": "智能机器人技术（金龙校区。）",
+      "majorKey": "8feb9297",
+      "majorName": "智能机器人技术",
       "selKe": "不限",
       "years": [
         {
@@ -206,16 +188,7 @@
           "minScore": 351,
           "minRank": 266207,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "重庆信息技术职业学院",
-      "schoolCode": "5037",
-      "majorKey": "ae870228",
-      "majorName": "电子信息工程技术（金龙校区。）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -245,16 +218,7 @@
           "minScore": 404,
           "minRank": 245870,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "重庆信息技术职业学院",
-      "schoolCode": "5037",
-      "majorKey": "c657f16a",
-      "majorName": "电子商务（金龙校区。）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -300,16 +264,7 @@
           "minScore": 347,
           "minRank": 267469,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "重庆信息技术职业学院",
-      "schoolCode": "5037",
-      "majorKey": "6b31efe6",
-      "majorName": "软件技术（金龙校区。）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -322,76 +277,116 @@
   ],
   "plan2026": [
     {
-      "majorName": "康复治疗技术（金龙校区）",
-      "majorKey": "88be926d",
+      "majorName": "电子商务",
+      "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 5,
-      "tuition": "11800",
+      "plan": 3,
+      "tuition": "10800",
       "schooling": "三年",
-      "menlei": "医"
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 256610,
+      "equivRank": 256610,
+      "prevScore": 396
     },
     {
-      "majorName": "护理（金龙校区）",
-      "majorKey": "bf3ecd10",
+      "majorName": "数字媒体技术",
+      "majorKey": "889e9381",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 3,
+      "tuition": "10800",
+      "schooling": "三年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 262587,
+      "equivRank": 262587,
+      "prevScore": 383
+    },
+    {
+      "majorName": "新能源汽车技术",
+      "majorKey": "ccb39427",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 3,
+      "tuition": "10800",
+      "schooling": "三年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 262587,
+      "equivRank": 262587,
+      "prevScore": 383
+    },
+    {
+      "majorName": "智能机器人技术",
+      "majorKey": "8feb9297",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 3,
+      "tuition": "11800",
+      "schooling": "三年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 263435,
+      "equivRank": 263435,
+      "prevScore": 381
+    },
+    {
+      "majorName": "护理",
+      "majorKey": "a3db4652",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "12000",
       "schooling": "三年",
-      "menlei": "医"
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 269302,
+      "equivRank": 269302,
+      "prevScore": 366
     },
     {
-      "majorName": "数字媒体技术（金龙校区）",
-      "majorKey": "5ea707cf",
+      "majorName": "电子信息工程技术",
+      "majorKey": "b436d441",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "10800",
       "schooling": "三年",
-      "menlei": "工"
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 269985,
+      "equivRank": 269985,
+      "prevScore": 364
     },
     {
-      "majorName": "新能源汽车技术（天城校区）",
-      "majorKey": "003c5fde",
+      "majorName": "康复治疗技术",
+      "majorKey": "4fab0557",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 3,
-      "tuition": "10800",
-      "schooling": "三年",
-      "menlei": "工"
-    },
-    {
-      "majorName": "智能机器人技术（金龙校区）",
-      "majorKey": "d136faad",
-      "selKe": "不限",
-      "plan": 3,
+      "plan": 5,
       "tuition": "11800",
       "schooling": "三年",
-      "menlei": "工"
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 271338,
+      "equivRank": 271338,
+      "prevScore": 360
     },
     {
-      "majorName": "电子信息工程技术（金龙校区）",
-      "majorKey": "b6569c8f",
-      "selKe": "不限",
-      "plan": 3,
-      "tuition": "10800",
-      "schooling": "三年",
-      "menlei": "工"
-    },
-    {
-      "majorName": "电子商务（金龙校区）",
-      "majorKey": "c754c985",
-      "selKe": "不限",
-      "plan": 3,
-      "tuition": "10800",
-      "schooling": "三年",
-      "menlei": "管"
-    },
-    {
-      "majorName": "软件技术（金龙校区）",
-      "majorKey": "ba7f2729",
+      "majorName": "软件技术",
+      "majorKey": "8000e20b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "10800",
       "schooling": "三年",
-      "menlei": "工"
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 273471,
+      "equivRank": 273471,
+      "prevScore": 353
     }
   ]
 }

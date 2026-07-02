@@ -6,8 +6,8 @@
     {
       "schoolKey": "广东以色列理工学院",
       "schoolCode": "4459",
-      "majorKey": "aee349ab",
-      "majorName": "化学工程与工艺（中外合作办学）",
+      "majorKey": "1f59c989",
+      "majorName": "化学工程与工艺",
       "selKe": "物理必选",
       "years": [
         {
@@ -29,8 +29,8 @@
     {
       "schoolKey": "广东以色列理工学院",
       "schoolCode": "4459",
-      "majorKey": "6fd7cebf",
-      "majorName": "数学与应用数学（中外合作办学）",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -66,8 +66,8 @@
     {
       "schoolKey": "广东以色列理工学院",
       "schoolCode": "4459",
-      "majorKey": "09be5856",
-      "majorName": "机械工程（中外合作办学）",
+      "majorKey": "bdb5a180",
+      "majorName": "机械工程",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -103,8 +103,8 @@
     {
       "schoolKey": "广东以色列理工学院",
       "schoolCode": "4459",
-      "majorKey": "39cb7775",
-      "majorName": "材料科学与工程（中外合作办学）",
+      "majorKey": "c425ce53",
+      "majorName": "材料科学与工程",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -140,8 +140,8 @@
     {
       "schoolKey": "广东以色列理工学院",
       "schoolCode": "4459",
-      "majorKey": "2a290dfb",
-      "majorName": "生物技术（中外合作办学）",
+      "majorKey": "0ac1da59",
+      "majorName": "生物技术",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -177,8 +177,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "机械工程（中外合作办学）",
-      "majorKey": "09be5856",
+      "majorName": "机械工程",
+      "majorKey": "bdb5a180",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "105000",
@@ -187,11 +188,13 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 24247,
-      "equivRank": 24247
+      "equivRank": 24247,
+      "prevScore": 629
     },
     {
-      "majorName": "材料科学与工程（中外合作办学）",
-      "majorKey": "39cb7775",
+      "majorName": "材料科学与工程",
+      "majorKey": "c425ce53",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "105000",
@@ -200,11 +203,13 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 37258,
-      "equivRank": 37258
+      "equivRank": 37258,
+      "prevScore": 614
     },
     {
-      "majorName": "数学与应用数学（中外合作办学）",
-      "majorKey": "6fd7cebf",
+      "majorName": "数学与应用数学",
+      "majorKey": "618fdffd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "105000",
@@ -213,11 +218,13 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 40892,
-      "equivRank": 40892
+      "equivRank": 40892,
+      "prevScore": 610
     },
     {
-      "majorName": "生物技术（中外合作办学）",
-      "majorKey": "2a290dfb",
+      "majorName": "生物技术",
+      "majorKey": "0ac1da59",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "105000",
@@ -226,7 +233,8 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 51436,
-      "equivRank": 51436
+      "equivRank": 51436,
+      "prevScore": 600
     }
   ]
 }

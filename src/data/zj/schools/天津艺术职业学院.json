@@ -30,16 +30,7 @@
           "minScore": 432,
           "minRank": 229266,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "天津艺术职业学院",
-      "schoolCode": "1242",
-      "majorKey": "5b4b0849",
-      "majorName": "会展策划与管理（河东校区。）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -101,16 +92,7 @@
           "minScore": 430,
           "minRank": 230185,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "天津艺术职业学院",
-      "schoolCode": "1242",
-      "majorKey": "eb6842cd",
-      "majorName": "旅游管理（河东校区。）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -123,8 +105,8 @@
     {
       "schoolKey": "天津艺术职业学院",
       "schoolCode": "1242",
-      "majorKey": "aac12324",
-      "majorName": "研学旅行管理与服务（河东校区。）",
+      "majorKey": "67215bad",
+      "majorName": "研学旅行管理与服务",
       "selKe": "不限",
       "years": [
         {
@@ -156,16 +138,7 @@
           "minScore": 453,
           "minRank": 214199,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "天津艺术职业学院",
-      "schoolCode": "1242",
-      "majorKey": "47453e73",
-      "majorName": "艺术教育（南开校区。）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -178,40 +151,60 @@
   ],
   "plan2026": [
     {
-      "majorName": "会展策划与管理（河东校区）",
-      "majorKey": "c3ca64c0",
+      "majorName": "艺术教育",
+      "majorKey": "c23e4b23",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "5000",
       "schooling": "三年",
-      "menlei": "管"
+      "menlei": "教",
+      "prevYear": 2025,
+      "prevRank": 228586,
+      "equivRank": 228586,
+      "prevScore": 442
     },
     {
-      "majorName": "旅游管理（河东校区）",
-      "majorKey": "09460a1c",
+      "majorName": "旅游管理",
+      "majorKey": "ec77cae2",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "5000",
       "schooling": "三年",
-      "menlei": "管"
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 238373,
+      "equivRank": 238373,
+      "prevScore": 428
     },
     {
-      "majorName": "研学旅行管理与服务（河东校区）",
-      "majorKey": "14af6223",
+      "majorName": "会展策划与管理",
+      "majorKey": "45b24776",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "5000",
       "schooling": "三年",
-      "menlei": "管"
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 239687,
+      "equivRank": 239687,
+      "prevScore": 426
     },
     {
-      "majorName": "艺术教育（南开校区）",
-      "majorKey": "ef2670c6",
+      "majorName": "研学旅行管理与服务",
+      "majorKey": "67215bad",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "5000",
       "schooling": "三年",
-      "menlei": "教"
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 240350,
+      "equivRank": 240350,
+      "prevScore": 425
     }
   ]
 }

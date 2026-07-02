@@ -222,8 +222,8 @@
     {
       "schoolKey": "成都文理学院",
       "schoolCode": "5133",
-      "majorKey": "07916e50",
-      "majorName": "艺术教育（创新实验班。）",
+      "majorKey": "c23e4b23",
+      "majorName": "艺术教育",
       "selKe": "不限",
       "years": [
         {
@@ -234,28 +234,27 @@
           "maxScore": 0
         }
       ]
-    },
-    {
-      "schoolKey": "成都文理学院",
-      "schoolCode": "5133",
-      "majorKey": "bc4d6ce7",
-      "majorName": "艺术教育（创新实验班）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 538,
-          "minRank": 127653,
-          "maxScore": 0
-        }
-      ]
     }
   ],
   "plan2026": [
     {
+      "majorName": "艺术教育",
+      "majorKey": "c23e4b23",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 5,
+      "tuition": "17000",
+      "schooling": "四年",
+      "menlei": "教",
+      "prevYear": 2025,
+      "prevRank": 99218,
+      "equivRank": 99218,
+      "prevScore": 561
+    },
+    {
       "majorName": "会计学",
       "majorKey": "8aa56116",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "18000",
@@ -263,23 +262,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 107296,
-      "equivRank": 107296
-    },
-    {
-      "majorName": "艺术教育（创新实验班）",
-      "majorKey": "bc4d6ce7",
-      "selKe": "不限",
-      "plan": 5,
-      "tuition": "17000",
-      "schooling": "四年",
-      "menlei": "教",
-      "prevYear": 2025,
-      "prevRank": 127653,
-      "equivRank": 127653
+      "equivRank": 107296,
+      "prevScore": 554
     },
     {
       "majorName": "早期教育",
       "majorKey": "8c72bad4",
+      "track": "综合",
       "selKe": "不限",
       "plan": 20,
       "tuition": "18000",
@@ -287,7 +276,8 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 290790,
-      "equivRank": 290790
+      "equivRank": 290790,
+      "prevScore": 268
     }
   ]
 }

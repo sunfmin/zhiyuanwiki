@@ -30,16 +30,7 @@
           "minScore": 417,
           "minRank": 238264,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "郑州旅游职业学院",
-      "schoolCode": "4239",
-      "majorKey": "e7047205",
-      "majorName": "旅游管理（象湖校区。）",
-      "selKe": "历史必选",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -52,8 +43,8 @@
     {
       "schoolKey": "郑州旅游职业学院",
       "schoolCode": "4239",
-      "majorKey": "eea871d0",
-      "majorName": "旅游英语（涉外酒店英语）",
+      "majorKey": "e43fd89d",
+      "majorName": "旅游英语",
       "selKe": "不限",
       "years": [
         {
@@ -75,8 +66,8 @@
     {
       "schoolKey": "郑州旅游职业学院",
       "schoolCode": "4239",
-      "majorKey": "2009815c",
-      "majorName": "智慧旅游技术应用（旅游大数据分析方向）",
+      "majorKey": "d58a3a09",
+      "majorName": "智慧旅游技术应用",
       "selKe": "历史必选",
       "years": [
         {
@@ -115,16 +106,7 @@
           "minScore": 417,
           "minRank": 238398,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "郑州旅游职业学院",
-      "schoolCode": "4239",
-      "majorKey": "bd507af5",
-      "majorName": "智慧景区开发与管理（象湖校区。）",
-      "selKe": "历史必选",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -177,16 +159,7 @@
           "minScore": 415,
           "minRank": 239489,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "郑州旅游职业学院",
-      "schoolCode": "4239",
-      "majorKey": "977dc7b8",
-      "majorName": "酒店管理与数字化运营（象湖校区。）",
-      "selKe": "历史必选",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -215,8 +188,23 @@
   ],
   "plan2026": [
     {
-      "majorName": "旅游英语（涉外酒店英语）",
-      "majorKey": "eea871d0",
+      "majorName": "旅游管理",
+      "majorKey": "ec77cae2",
+      "track": "综合",
+      "selKe": "历史必选",
+      "plan": 5,
+      "tuition": "3700",
+      "schooling": "三年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 237729,
+      "equivRank": 237729,
+      "prevScore": 429
+    },
+    {
+      "majorName": "旅游英语",
+      "majorKey": "e43fd89d",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "3700",
@@ -224,11 +212,27 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 240350,
-      "equivRank": 240350
+      "equivRank": 240350,
+      "prevScore": 425
     },
     {
-      "majorName": "智慧旅游技术应用（旅游大数据分析方向）",
-      "majorKey": "2009815c",
+      "majorName": "智慧景区开发与管理",
+      "majorKey": "9d4391b2",
+      "track": "综合",
+      "selKe": "历史必选",
+      "plan": 5,
+      "tuition": "3700",
+      "schooling": "三年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 241578,
+      "equivRank": 241578,
+      "prevScore": 423
+    },
+    {
+      "majorName": "智慧旅游技术应用",
+      "majorKey": "d58a3a09",
+      "track": "综合",
       "selKe": "历史必选",
       "plan": 5,
       "tuition": "4200",
@@ -236,34 +240,22 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 243458,
-      "equivRank": 243458
+      "equivRank": 243458,
+      "prevScore": 420
     },
     {
-      "majorName": "旅游管理（象湖校区）",
-      "majorKey": "fcf63284",
+      "majorName": "酒店管理与数字化运营",
+      "majorKey": "0a7dd809",
+      "track": "综合",
       "selKe": "历史必选",
       "plan": 5,
       "tuition": "3700",
       "schooling": "三年",
-      "menlei": "管"
-    },
-    {
-      "majorName": "智慧景区开发与管理（象湖校区）",
-      "majorKey": "30bf8194",
-      "selKe": "历史必选",
-      "plan": 5,
-      "tuition": "3700",
-      "schooling": "三年",
-      "menlei": "管"
-    },
-    {
-      "majorName": "酒店管理与数字化运营（象湖校区）",
-      "majorKey": "13679d3f",
-      "selKe": "历史必选",
-      "plan": 5,
-      "tuition": "3700",
-      "schooling": "三年",
-      "menlei": "管"
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 244670,
+      "equivRank": 244670,
+      "prevScore": 418
     }
   ]
 }

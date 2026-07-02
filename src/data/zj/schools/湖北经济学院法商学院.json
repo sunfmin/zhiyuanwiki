@@ -6,8 +6,8 @@
     {
       "schoolKey": "湖北经济学院法商学院",
       "schoolCode": "4020",
-      "majorKey": "a5580771",
-      "majorName": "会计学（注册会计师）",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
       "selKe": "不限",
       "years": [
         {
@@ -80,8 +80,8 @@
     {
       "schoolKey": "湖北经济学院法商学院",
       "schoolCode": "4020",
-      "majorKey": "0b0576c0",
-      "majorName": "法学（经济法）",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
       "selKe": "不限",
       "years": [
         {
@@ -117,8 +117,8 @@
     {
       "schoolKey": "湖北经济学院法商学院",
       "schoolCode": "4020",
-      "majorKey": "dd98510f",
-      "majorName": "英语（经贸英语）",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
       "selKe": "不限",
       "years": [
         {
@@ -208,22 +208,6 @@
           "minScore": 539,
           "minRank": 124125,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "湖北经济学院法商学院",
-      "schoolCode": "4020",
-      "majorKey": "e35b322b",
-      "majorName": "金融学（AFP资格创新班）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 535,
-          "minRank": 128653,
-          "maxScore": 0
         },
         {
           "year": 2025,
@@ -237,8 +221,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "法学（经济法）",
-      "majorKey": "0b0576c0",
+      "majorName": "法学",
+      "majorKey": "a1113a1f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 8,
       "tuition": "18000",
@@ -246,11 +231,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 105162,
-      "equivRank": 105162
+      "equivRank": 105162,
+      "prevScore": 556
     },
     {
-      "majorName": "会计学（注册会计师）",
-      "majorKey": "a5580771",
+      "majorName": "会计学",
+      "majorKey": "8aa56116",
+      "track": "综合",
       "selKe": "不限",
       "plan": 19,
       "tuition": "20000",
@@ -258,11 +245,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 113724,
-      "equivRank": 113724
+      "equivRank": 113724,
+      "prevScore": 549
     },
     {
       "majorName": "审计学",
       "majorKey": "87f6e6a2",
+      "track": "综合",
       "selKe": "不限",
       "plan": 15,
       "tuition": "20000",
@@ -270,11 +259,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 117026,
-      "equivRank": 117026
+      "equivRank": 117026,
+      "prevScore": 546
     },
     {
       "majorName": "跨境电子商务",
       "majorKey": "48469b36",
+      "track": "综合",
       "selKe": "不限",
       "plan": 8,
       "tuition": "18000",
@@ -282,11 +273,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 122789,
-      "equivRank": 122789
+      "equivRank": 122789,
+      "prevScore": 541
     },
     {
-      "majorName": "英语（经贸英语）",
-      "majorKey": "dd98510f",
+      "majorName": "英语",
+      "majorKey": "49c5cdf9",
+      "track": "综合",
       "selKe": "不限",
       "plan": 8,
       "tuition": "18000",
@@ -294,11 +287,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 123339,
-      "equivRank": 123339
+      "equivRank": 123339,
+      "prevScore": 541
     },
     {
-      "majorName": "金融学（AFP资格创新班）",
-      "majorKey": "e35b322b",
+      "majorName": "金融学",
+      "majorKey": "5a699e63",
+      "track": "综合",
       "selKe": "不限",
       "plan": 12,
       "tuition": "24000",
@@ -306,7 +301,8 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 123363,
-      "equivRank": 123363
+      "equivRank": 123363,
+      "prevScore": 541
     }
   ]
 }

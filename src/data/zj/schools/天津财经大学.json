@@ -13,43 +13,6 @@
         {
           "year": 2022,
           "track": "综合",
-          "minScore": 633,
-          "minRank": 17741,
-          "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 638,
-          "minRank": 20201,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 637,
-          "minRank": 20136,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 633,
-          "minRank": 21448,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "天津财经大学",
-      "schoolCode": "1206",
-      "majorKey": "a5580771",
-      "majorName": "会计学（注册会计师）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
           "minScore": 634,
           "minRank": 17147,
           "maxScore": 0
@@ -399,8 +362,8 @@
     {
       "schoolKey": "天津财经大学",
       "schoolCode": "1206",
-      "majorKey": "94a39a36",
-      "majorName": "经济统计学（杨曾武班）",
+      "majorKey": "bb33137b",
+      "majorName": "经济统计学",
       "selKe": "物理必选",
       "years": [
         {
@@ -535,32 +498,23 @@
   ],
   "plan2026": [
     {
-      "majorName": "会计学（注册会计师）",
-      "majorKey": "a5580771",
+      "majorName": "会计学",
+      "majorKey": "8aa56116",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 2,
+      "plan": 3,
       "tuition": "4400",
       "schooling": "四年",
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 20310,
-      "equivRank": 20310
-    },
-    {
-      "majorName": "会计学",
-      "majorKey": "8aa56116",
-      "selKe": "不限",
-      "plan": 1,
-      "tuition": "4400",
-      "schooling": "四年",
-      "menlei": "管",
-      "prevYear": 2025,
-      "prevRank": 21448,
-      "equivRank": 21448
+      "equivRank": 20310,
+      "prevScore": 634
     },
     {
       "majorName": "金融学",
       "majorKey": "5a699e63",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "4400",
@@ -568,11 +522,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 29647,
-      "equivRank": 29647
+      "equivRank": 29647,
+      "prevScore": 622
     },
     {
       "majorName": "财政学类",
       "majorKey": "fc24be19",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "4400",
@@ -580,11 +536,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 29788,
-      "equivRank": 29788
+      "equivRank": 29788,
+      "prevScore": 622
     },
     {
       "majorName": "经济学",
       "majorKey": "bda0ff17",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "4400",
@@ -592,11 +550,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 30938,
-      "equivRank": 30938
+      "equivRank": 30938,
+      "prevScore": 621
     },
     {
       "majorName": "工商管理类",
       "majorKey": "b74128f4",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "4400",
@@ -604,11 +564,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 44398,
-      "equivRank": 44398
+      "equivRank": 44398,
+      "prevScore": 607
     },
     {
       "majorName": "广告学",
       "majorKey": "e9c95a9c",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4400",
@@ -616,11 +578,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 44439,
-      "equivRank": 44439
+      "equivRank": 44439,
+      "prevScore": 607
     },
     {
       "majorName": "国际经济与贸易",
       "majorKey": "f8a1727e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "4400",
@@ -628,11 +592,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 44618,
-      "equivRank": 44618
+      "equivRank": 44618,
+      "prevScore": 607
     },
     {
       "majorName": "计算机科学与技术",
       "majorKey": "1d486608",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5400",
@@ -640,11 +606,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 50387,
-      "equivRank": 50387
+      "equivRank": 50387,
+      "prevScore": 601
     },
     {
       "majorName": "国际商务",
       "majorKey": "4c4c62eb",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "4400",
@@ -652,11 +620,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 54128,
-      "equivRank": 54128
+      "equivRank": 54128,
+      "prevScore": 598
     },
     {
       "majorName": "物流管理",
       "majorKey": "8b6a817b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "4400",
@@ -664,11 +634,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 55601,
-      "equivRank": 55601
+      "equivRank": 55601,
+      "prevScore": 597
     },
     {
       "majorName": "大数据管理与应用",
       "majorKey": "2079a63e",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 2,
       "tuition": "4400",
@@ -676,11 +648,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 56061,
-      "equivRank": 56061
+      "equivRank": 56061,
+      "prevScore": 596
     },
     {
-      "majorName": "经济统计学（杨曾武班）",
-      "majorKey": "94a39a36",
+      "majorName": "经济统计学",
+      "majorKey": "bb33137b",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 2,
       "tuition": "4400",
@@ -688,11 +662,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 59859,
-      "equivRank": 59859
+      "equivRank": 59859,
+      "prevScore": 593
     },
     {
       "majorName": "旅游管理类",
       "majorKey": "5fc04843",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "4400",
@@ -700,11 +676,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 64150,
-      "equivRank": 64150
+      "equivRank": 64150,
+      "prevScore": 589
     },
     {
       "majorName": "数字经济",
       "majorKey": "ca37000f",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 3,
       "tuition": "4400",
@@ -712,7 +690,8 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 66705,
-      "equivRank": 66705
+      "equivRank": 66705,
+      "prevScore": 587
     }
   ]
 }

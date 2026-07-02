@@ -6,8 +6,8 @@
     {
       "schoolKey": "和君职业学院",
       "schoolCode": "3804",
-      "majorKey": "093084ce",
-      "majorName": "休闲体育（高尔夫、户外运动、瑜伽方向）",
+      "majorKey": "e7baf0de",
+      "majorName": "休闲体育",
       "selKe": "不限",
       "years": [
         {
@@ -22,8 +22,8 @@
     {
       "schoolKey": "和君职业学院",
       "schoolCode": "3804",
-      "majorKey": "cbaa3cfa",
-      "majorName": "体育运营与管理（马术运动与管理方向）",
+      "majorKey": "8b01cec4",
+      "majorName": "体育运营与管理",
       "selKe": "不限",
       "years": [
         {
@@ -125,8 +125,8 @@
     {
       "schoolKey": "和君职业学院",
       "schoolCode": "3804",
-      "majorKey": "7c2a37d7",
-      "majorName": "无人机应用技术（eVTOL方向）",
+      "majorKey": "b888273b",
+      "majorName": "无人机应用技术",
       "selKe": "不限",
       "years": [
         {
@@ -173,8 +173,8 @@
     {
       "schoolKey": "和君职业学院",
       "schoolCode": "3804",
-      "majorKey": "e2ab5ddc",
-      "majorName": "现代物流管理（医药物流SPD方向）",
+      "majorKey": "a0f5df04",
+      "majorName": "现代物流管理",
       "selKe": "不限",
       "years": [
         {
@@ -183,16 +183,7 @@
           "minScore": 393,
           "minRank": 251240,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "和君职业学院",
-      "schoolCode": "3804",
-      "majorKey": "29032209",
-      "majorName": "现代物流管理（智慧医药物流SPD方向）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -215,16 +206,7 @@
           "minScore": 398,
           "minRank": 244676,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "和君职业学院",
-      "schoolCode": "3804",
-      "majorKey": "ce9f124c",
-      "majorName": "社会体育（篮足羽乒等球类方向）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2024,
           "track": "综合",
@@ -260,40 +242,8 @@
     {
       "schoolKey": "和君职业学院",
       "schoolCode": "3804",
-      "majorKey": "701771dd",
-      "majorName": "稀土材料技术（新材料方向）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 341,
-          "minRank": 276665,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "和君职业学院",
-      "schoolCode": "3804",
-      "majorKey": "b4b30ddc",
-      "majorName": "舞台艺术设计与制作（舞台/灯光/音响/服装方向）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 366,
-          "minRank": 269302,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "和君职业学院",
-      "schoolCode": "3804",
-      "majorKey": "f0a262a1",
-      "majorName": "舞台艺术设计与制作（舞台、灯光、音响、服装技术等方向）",
+      "majorKey": "b6be2ccc",
+      "majorName": "舞台艺术设计与制作",
       "selKe": "不限",
       "years": [
         {
@@ -302,14 +252,22 @@
           "minScore": 335,
           "minRank": 270320,
           "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 366,
+          "minRank": 269302,
+          "maxScore": 0
         }
       ]
     }
   ],
   "plan2026": [
     {
-      "majorName": "现代物流管理（智慧医药物流SPD方向）",
-      "majorKey": "29032209",
+      "majorName": "现代物流管理",
+      "majorKey": "a0f5df04",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "9064",
@@ -317,11 +275,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 260443,
-      "equivRank": 260443
+      "equivRank": 260443,
+      "prevScore": 388
     },
     {
       "majorName": "婴幼儿托育服务与管理",
       "majorKey": "e66c684e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "9152",
@@ -329,11 +289,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 266694,
-      "equivRank": 266694
+      "equivRank": 266694,
+      "prevScore": 373
     },
     {
-      "majorName": "舞台艺术设计与制作（舞台/灯光/音响/服装方向）",
-      "majorKey": "b4b30ddc",
+      "majorName": "舞台艺术设计与制作",
+      "majorKey": "b6be2ccc",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "9240",
@@ -341,23 +303,27 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 269302,
-      "equivRank": 269302
+      "equivRank": 269302,
+      "prevScore": 366
     },
     {
       "majorName": "稀土材料技术",
       "majorKey": "f9a53469",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 2,
+      "plan": 4,
       "tuition": "10120",
       "schooling": "三年",
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 270643,
-      "equivRank": 270643
+      "equivRank": 270643,
+      "prevScore": 362
     },
     {
       "majorName": "新能源材料应用技术",
       "majorKey": "2e29df1c",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "10120",
@@ -365,11 +331,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 271007,
-      "equivRank": 271007
+      "equivRank": 271007,
+      "prevScore": 361
     },
     {
       "majorName": "新能源汽车技术",
       "majorKey": "ccb39427",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "12000",
@@ -377,11 +345,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 271338,
-      "equivRank": 271338
+      "equivRank": 271338,
+      "prevScore": 360
     },
     {
-      "majorName": "无人机应用技术（eVTOL方向）",
-      "majorKey": "7c2a37d7",
+      "majorName": "无人机应用技术",
+      "majorKey": "b888273b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "12000",
@@ -389,23 +359,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 272276,
-      "equivRank": 272276
-    },
-    {
-      "majorName": "稀土材料技术（新材料方向）",
-      "majorKey": "701771dd",
-      "selKe": "不限",
-      "plan": 2,
-      "tuition": "10120",
-      "schooling": "三年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 276665,
-      "equivRank": 276665
+      "equivRank": 272276,
+      "prevScore": 357
     },
     {
       "majorName": "光电显示技术",
       "majorKey": "3a55963c",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "10120",
@@ -413,7 +373,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 277145,
-      "equivRank": 277145
+      "equivRank": 277145,
+      "prevScore": 339
     }
   ]
 }

@@ -30,16 +30,7 @@
           "minScore": 610,
           "minRank": 42848,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "贵州医科大学",
-      "schoolCode": "5204",
-      "majorKey": "db760396",
-      "majorName": "临床医学（云漫湖校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -76,16 +67,7 @@
           "minScore": 597,
           "minRank": 56469,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "贵州医科大学",
-      "schoolCode": "5204",
-      "majorKey": "ed693477",
-      "majorName": "医学影像学（云漫湖校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -138,16 +120,7 @@
           "minScore": 624,
           "minRank": 30047,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "贵州医科大学",
-      "schoolCode": "5204",
-      "majorKey": "0b963709",
-      "majorName": "口腔医学（云漫湖校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -160,8 +133,8 @@
     {
       "schoolKey": "贵州医科大学",
       "schoolCode": "5204",
-      "majorKey": "46d35dc6",
-      "majorName": "康复治疗学（中外高水平大学学生交流计划）",
+      "majorKey": "a507c400",
+      "majorName": "康复治疗学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -186,16 +159,7 @@
           "minScore": 554,
           "minRank": 106245,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "贵州医科大学",
-      "schoolCode": "5204",
-      "majorKey": "a5094cd0",
-      "majorName": "护理学（云漫湖校区）",
-      "selKe": "化学必选",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -218,16 +182,7 @@
           "minScore": 597,
           "minRank": 56640,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "贵州医科大学",
-      "schoolCode": "5204",
-      "majorKey": "2c56654b",
-      "majorName": "法医学（云漫湖校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -240,8 +195,8 @@
     {
       "schoolKey": "贵州医科大学",
       "schoolCode": "5204",
-      "majorKey": "8506e791",
-      "majorName": "生物技术（中外高水平大学学生交流计划）",
+      "majorKey": "0ac1da59",
+      "majorName": "生物技术",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -265,29 +220,13 @@
       "schoolCode": "5204",
       "majorKey": "e9e6a481",
       "majorName": "药学",
-      "selKe": "物/化/生(3选1)",
+      "selKe": "物理、化学(2科必选)",
       "years": [
         {
           "year": 2022,
           "track": "综合",
           "minScore": 590,
           "minRank": 58893,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "贵州医科大学",
-      "schoolCode": "5204",
-      "majorKey": "1befc063",
-      "majorName": "药学（中外合作办学）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 553,
-          "minRank": 103391,
           "maxScore": 0
         },
         {
@@ -349,16 +288,7 @@
           "minScore": 584,
           "minRank": 70712,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "贵州医科大学",
-      "schoolCode": "5204",
-      "majorKey": "3532e94d",
-      "majorName": "预防医学（云漫湖校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -371,8 +301,8 @@
     {
       "schoolKey": "贵州医科大学",
       "schoolCode": "5204",
-      "majorKey": "7d7367fe",
-      "majorName": "食品卫生与营养学（中外高水平大学学生交流计划）",
+      "majorKey": "49f6ae18",
+      "majorName": "食品卫生与营养学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -394,8 +324,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "口腔医学（云漫湖校区）",
-      "majorKey": "0b963709",
+      "majorName": "口腔医学",
+      "majorKey": "c162bced",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "4500",
@@ -403,11 +334,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 38870,
-      "equivRank": 38870
+      "equivRank": 38870,
+      "prevScore": 612
     },
     {
-      "majorName": "临床医学（云漫湖校区）",
-      "majorKey": "db760396",
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "4500",
@@ -415,11 +348,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 47159,
-      "equivRank": 47159
+      "equivRank": 47159,
+      "prevScore": 604
     },
     {
-      "majorName": "医学影像学（云漫湖校区）",
-      "majorKey": "ed693477",
+      "majorName": "医学影像学",
+      "majorKey": "5780af73",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "4500",
@@ -427,11 +362,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 55588,
-      "equivRank": 55588
+      "equivRank": 55588,
+      "prevScore": 597
     },
     {
-      "majorName": "法医学（云漫湖校区）",
-      "majorKey": "2c56654b",
+      "majorName": "法医学",
+      "majorKey": "0798db5f",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "4500",
@@ -439,11 +376,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 64250,
-      "equivRank": 64250
+      "equivRank": 64250,
+      "prevScore": 589
     },
     {
-      "majorName": "康复治疗学（中外高水平大学学生交流计划）",
-      "majorKey": "46d35dc6",
+      "majorName": "康复治疗学",
+      "majorKey": "a507c400",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "4200",
@@ -452,11 +391,13 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 80278,
-      "equivRank": 80278
+      "equivRank": 80278,
+      "prevScore": 576
     },
     {
-      "majorName": "护理学（云漫湖校区）",
-      "majorKey": "a5094cd0",
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "综合",
       "selKe": "化学必选",
       "plan": 1,
       "tuition": "4200",
@@ -464,11 +405,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 116777,
-      "equivRank": 116777
+      "equivRank": 116777,
+      "prevScore": 546
     },
     {
-      "majorName": "预防医学（云漫湖校区）",
-      "majorKey": "3532e94d",
+      "majorName": "预防医学",
+      "majorKey": "1954d9c9",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "4500",
@@ -476,11 +419,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 145305,
-      "equivRank": 145305
+      "equivRank": 145305,
+      "prevScore": 523
     },
     {
-      "majorName": "药学（中外合作办学）",
-      "majorKey": "1befc063",
+      "majorName": "药学",
+      "majorKey": "e9e6a481",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "24000",
@@ -489,11 +434,13 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 170916,
-      "equivRank": 170916
+      "equivRank": 170916,
+      "prevScore": 501
     },
     {
-      "majorName": "生物技术（中外高水平大学学生交流计划）",
-      "majorKey": "8506e791",
+      "majorName": "生物技术",
+      "majorKey": "0ac1da59",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "4200",
@@ -502,11 +449,13 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 175601,
-      "equivRank": 175601
+      "equivRank": 175601,
+      "prevScore": 497
     },
     {
-      "majorName": "食品卫生与营养学（中外高水平大学学生交流计划）",
-      "majorKey": "7d7367fe",
+      "majorName": "食品卫生与营养学",
+      "majorKey": "49f6ae18",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "4200",
@@ -515,7 +464,8 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 180350,
-      "equivRank": 180350
+      "equivRank": 180350,
+      "prevScore": 493
     }
   ]
 }

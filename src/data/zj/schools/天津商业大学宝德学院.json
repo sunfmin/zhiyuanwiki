@@ -117,29 +117,6 @@
       "selKe": "不限",
       "years": [
         {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 541,
-          "minRank": 122088,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 545,
-          "minRank": 118264,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "天津商业大学宝德学院",
-      "schoolCode": "1230",
-      "majorKey": "1b2a00d1",
-      "majorName": "工商管理类（会计系）",
-      "selKe": "不限",
-      "years": [
-        {
           "year": 2022,
           "track": "综合",
           "minScore": 533,
@@ -152,28 +129,19 @@
           "minScore": 527,
           "minRank": 133071,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "天津商业大学宝德学院",
-      "schoolCode": "1230",
-      "majorKey": "8e341ad1",
-      "majorName": "工商管理类（管理系）",
-      "selKe": "不限",
-      "years": [
+        },
         {
-          "year": 2022,
+          "year": 2024,
           "track": "综合",
-          "minScore": 530,
-          "minRank": 132209,
+          "minScore": 541,
+          "minRank": 122088,
           "maxScore": 0
         },
         {
-          "year": 2023,
+          "year": 2025,
           "track": "综合",
-          "minScore": 522,
-          "minRank": 138170,
+          "minScore": 545,
+          "minRank": 118264,
           "maxScore": 0
         }
       ]
@@ -441,6 +409,7 @@
     {
       "majorName": "审计学",
       "majorKey": "87f6e6a2",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "15000",
@@ -448,11 +417,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 108572,
-      "equivRank": 108572
+      "equivRank": 108572,
+      "prevScore": 553
     },
     {
       "majorName": "会计学",
       "majorKey": "8aa56116",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "15000",
@@ -460,11 +431,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 109208,
-      "equivRank": 109208
+      "equivRank": 109208,
+      "prevScore": 552
     },
     {
       "majorName": "财务管理",
       "majorKey": "8220c852",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "15000",
@@ -472,11 +445,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 112263,
-      "equivRank": 112263
+      "equivRank": 112263,
+      "prevScore": 550
     },
     {
       "majorName": "国际经济与贸易",
       "majorKey": "f8a1727e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "15000",
@@ -484,11 +459,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 116948,
-      "equivRank": 116948
+      "equivRank": 116948,
+      "prevScore": 546
     },
     {
       "majorName": "工商管理类",
       "majorKey": "b74128f4",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "15000",
@@ -496,11 +473,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 118264,
-      "equivRank": 118264
+      "equivRank": 118264,
+      "prevScore": 545
     },
     {
       "majorName": "金融学",
       "majorKey": "5a699e63",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "15000",
@@ -508,11 +487,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 119605,
-      "equivRank": 119605
+      "equivRank": 119605,
+      "prevScore": 544
     },
     {
       "majorName": "电子商务",
       "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "15000",
@@ -520,11 +501,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 121704,
-      "equivRank": 121704
+      "equivRank": 121704,
+      "prevScore": 542
     },
     {
       "majorName": "物流管理",
       "majorKey": "8b6a817b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "15000",
@@ -532,11 +515,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 124595,
-      "equivRank": 124595
+      "equivRank": 124595,
+      "prevScore": 540
     },
     {
       "majorName": "英语",
       "majorKey": "49c5cdf9",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "18000",
@@ -544,11 +529,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 125019,
-      "equivRank": 125019
+      "equivRank": 125019,
+      "prevScore": 540
     },
     {
       "majorName": "商务英语",
       "majorKey": "4428fd77",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "18000",
@@ -556,11 +543,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 126214,
-      "equivRank": 126214
+      "equivRank": 126214,
+      "prevScore": 539
     },
     {
       "majorName": "日语",
       "majorKey": "8f1def37",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "18000",
@@ -568,11 +557,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 127056,
-      "equivRank": 127056
+      "equivRank": 127056,
+      "prevScore": 538
     },
     {
       "majorName": "酒店管理",
       "majorKey": "ec686c36",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "15000",
@@ -580,11 +571,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 127179,
-      "equivRank": 127179
+      "equivRank": 127179,
+      "prevScore": 538
     },
     {
       "majorName": "广播电视编导",
       "majorKey": "b86f75b5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "22000",
@@ -592,11 +585,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 129587,
-      "equivRank": 129587
+      "equivRank": 129587,
+      "prevScore": 536
     },
     {
       "majorName": "戏剧影视文学",
       "majorKey": "b8236e06",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "22000",
@@ -604,7 +599,8 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 132320,
-      "equivRank": 132320
+      "equivRank": 132320,
+      "prevScore": 534
     }
   ]
 }

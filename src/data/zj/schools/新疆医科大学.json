@@ -161,43 +161,6 @@
         {
           "year": 2022,
           "track": "综合",
-          "minScore": 581,
-          "minRank": 69671,
-          "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 586,
-          "minRank": 67460,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 559,
-          "minRank": 99802,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 544,
-          "minRank": 119534,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "新疆医科大学",
-      "schoolCode": "6516",
-      "majorKey": "db6c560f",
-      "majorName": "临床医学（5+3一体化）",
-      "selKe": "物化生(3科必选)",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
           "minScore": 616,
           "minRank": 31735,
           "maxScore": 0
@@ -221,43 +184,6 @@
           "track": "综合",
           "minScore": 615,
           "minRank": 36356,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "新疆医科大学",
-      "schoolCode": "6516",
-      "majorKey": "651a5611",
-      "majorName": "临床医学（5+3一体化，儿科学）",
-      "selKe": "物化生(3科必选)",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 614,
-          "minRank": 33102,
-          "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 620,
-          "minRank": 33639,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 604,
-          "minRank": 48969,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 610,
-          "minRank": 41766,
           "maxScore": 0
         }
       ]
@@ -653,32 +579,23 @@
   ],
   "plan2026": [
     {
-      "majorName": "临床医学（5+3一体化）",
-      "majorKey": "db6c560f",
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "综合",
       "selKe": "物化生(3科必选)",
-      "plan": 1,
+      "plan": 17,
       "tuition": "4000",
       "schooling": "五年",
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 36356,
-      "equivRank": 36356
-    },
-    {
-      "majorName": "临床医学（5+3一体化，儿科学）",
-      "majorKey": "651a5611",
-      "selKe": "物化生(3科必选)",
-      "plan": 1,
-      "tuition": "4000",
-      "schooling": "五年",
-      "menlei": "医",
-      "prevYear": 2025,
-      "prevRank": 41766,
-      "equivRank": 41766
+      "equivRank": 36356,
+      "prevScore": 615
     },
     {
       "majorName": "针灸推拿学",
       "majorKey": "c744f66e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "4000",
@@ -686,11 +603,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 66062,
-      "equivRank": 66062
+      "equivRank": 66062,
+      "prevScore": 588
     },
     {
       "majorName": "公共事业管理",
       "majorKey": "30e8a552",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4000",
@@ -698,11 +617,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 92486,
-      "equivRank": 92486
+      "equivRank": 92486,
+      "prevScore": 566
     },
     {
       "majorName": "口腔医学",
       "majorKey": "c162bced",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "4000",
@@ -710,11 +631,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 98239,
-      "equivRank": 98239
+      "equivRank": 98239,
+      "prevScore": 561
     },
     {
       "majorName": "麻醉学",
       "majorKey": "83eea431",
+      "track": "综合",
       "selKe": "物化生(3科必选)",
       "plan": 3,
       "tuition": "4000",
@@ -722,11 +645,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 101794,
-      "equivRank": 101794
+      "equivRank": 101794,
+      "prevScore": 558
     },
     {
       "majorName": "中医康复学",
       "majorKey": "8de47a9e",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "4000",
@@ -734,11 +659,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 112868,
-      "equivRank": 112868
+      "equivRank": 112868,
+      "prevScore": 549
     },
     {
       "majorName": "精神医学",
       "majorKey": "e86ddf0a",
+      "track": "综合",
       "selKe": "物化生(3科必选)",
       "plan": 1,
       "tuition": "4000",
@@ -746,23 +673,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 117367,
-      "equivRank": 117367
-    },
-    {
-      "majorName": "临床医学",
-      "majorKey": "618f7040",
-      "selKe": "物化生(3科必选)",
-      "plan": 15,
-      "tuition": "4000",
-      "schooling": "五年",
-      "menlei": "医",
-      "prevYear": 2025,
-      "prevRank": 119534,
-      "equivRank": 119534
+      "equivRank": 117367,
+      "prevScore": 546
     },
     {
       "majorName": "儿科学",
       "majorKey": "db9ffa2a",
+      "track": "综合",
       "selKe": "物化生(3科必选)",
       "plan": 1,
       "tuition": "4000",
@@ -770,11 +687,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 130364,
-      "equivRank": 130364
+      "equivRank": 130364,
+      "prevScore": 535
     },
     {
       "majorName": "医学检验技术",
       "majorKey": "f106fa76",
+      "track": "综合",
       "selKe": "物化生(3科必选)",
       "plan": 1,
       "tuition": "4000",
@@ -782,11 +701,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 135047,
-      "equivRank": 135047
+      "equivRank": 135047,
+      "prevScore": 531
     },
     {
       "majorName": "医学影像学",
       "majorKey": "5780af73",
+      "track": "综合",
       "selKe": "物化生(3科必选)",
       "plan": 2,
       "tuition": "4000",
@@ -794,11 +715,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 135485,
-      "equivRank": 135485
+      "equivRank": 135485,
+      "prevScore": 531
     },
     {
       "majorName": "中药学",
       "majorKey": "f9504a0c",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "4000",
@@ -806,11 +729,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 138848,
-      "equivRank": 138848
+      "equivRank": 138848,
+      "prevScore": 528
     },
     {
       "majorName": "中医学",
       "majorKey": "2285e5ca",
+      "track": "综合",
       "selKe": "物化生(3科必选)",
       "plan": 6,
       "tuition": "4000",
@@ -818,11 +743,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 149134,
-      "equivRank": 149134
+      "equivRank": 149134,
+      "prevScore": 520
     },
     {
       "majorName": "中西医临床医学",
       "majorKey": "8a499b4f",
+      "track": "综合",
       "selKe": "物化生(3科必选)",
       "plan": 3,
       "tuition": "4000",
@@ -830,11 +757,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 155875,
-      "equivRank": 155875
+      "equivRank": 155875,
+      "prevScore": 514
     },
     {
       "majorName": "预防医学",
       "majorKey": "1954d9c9",
+      "track": "综合",
       "selKe": "物化生(3科必选)",
       "plan": 2,
       "tuition": "4000",
@@ -842,11 +771,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 164250,
-      "equivRank": 164250
+      "equivRank": 164250,
+      "prevScore": 507
     },
     {
       "majorName": "药学",
       "majorKey": "e9e6a481",
+      "track": "综合",
       "selKe": "物化生(3科必选)",
       "plan": 4,
       "tuition": "4000",
@@ -854,7 +785,8 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 178507,
-      "equivRank": 178507
+      "equivRank": 178507,
+      "prevScore": 495
     }
   ]
 }

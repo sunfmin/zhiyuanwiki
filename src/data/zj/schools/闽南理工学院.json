@@ -30,16 +30,7 @@
           "minScore": 548,
           "minRank": 113722,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "闽南理工学院",
-      "schoolCode": "3530",
-      "majorKey": "e8475634",
-      "majorName": "人力资源管理（宝盖校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -76,16 +67,7 @@
           "minScore": 551,
           "minRank": 109465,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "闽南理工学院",
-      "schoolCode": "3530",
-      "majorKey": "8c80f0a3",
-      "majorName": "审计学（宝盖校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -98,8 +80,8 @@
     {
       "schoolKey": "闽南理工学院",
       "schoolCode": "3530",
-      "majorKey": "69ee7bc0",
-      "majorName": "数据科学与大数据技术（宝盖校区）",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -146,7 +128,7 @@
       "schoolCode": "3530",
       "majorKey": "1da18825",
       "majorName": "物联网工程",
-      "selKe": "物理必选",
+      "selKe": "物理、化学(2科必选)",
       "years": [
         {
           "year": 2023,
@@ -154,16 +136,7 @@
           "minScore": 513,
           "minRank": 148492,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "闽南理工学院",
-      "schoolCode": "3530",
-      "majorKey": "ded20498",
-      "majorName": "物联网工程（宝盖校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -193,16 +166,7 @@
           "minScore": 522,
           "minRank": 138103,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "闽南理工学院",
-      "schoolCode": "3530",
-      "majorKey": "12ea232a",
-      "majorName": "电子商务（宝盖校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -262,16 +226,7 @@
           "minScore": 543,
           "minRank": 119751,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "闽南理工学院",
-      "schoolCode": "3530",
-      "majorKey": "c722f6a2",
-      "majorName": "经济学（宝盖校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -337,8 +292,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "电子商务（宝盖校区）",
-      "majorKey": "12ea232a",
+      "majorName": "电子商务",
+      "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "27880",
@@ -346,11 +302,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 110847,
-      "equivRank": 110847
+      "equivRank": 110847,
+      "prevScore": 551
     },
     {
-      "majorName": "审计学（宝盖校区）",
-      "majorKey": "8c80f0a3",
+      "majorName": "审计学",
+      "majorKey": "87f6e6a2",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "27880",
@@ -358,11 +316,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 113499,
-      "equivRank": 113499
+      "equivRank": 113499,
+      "prevScore": 549
     },
     {
-      "majorName": "经济学（宝盖校区）",
-      "majorKey": "c722f6a2",
+      "majorName": "经济学",
+      "majorKey": "bda0ff17",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "27880",
@@ -370,11 +330,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 121663,
-      "equivRank": 121663
+      "equivRank": 121663,
+      "prevScore": 542
     },
     {
-      "majorName": "人力资源管理（宝盖校区）",
-      "majorKey": "e8475634",
+      "majorName": "人力资源管理",
+      "majorKey": "5a324641",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "27880",
@@ -382,11 +344,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 124631,
-      "equivRank": 124631
+      "equivRank": 124631,
+      "prevScore": 540
     },
     {
-      "majorName": "物联网工程（宝盖校区）",
-      "majorKey": "ded20498",
+      "majorName": "物联网工程",
+      "majorKey": "1da18825",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "27880",
@@ -394,11 +358,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 155570,
-      "equivRank": 155570
+      "equivRank": 155570,
+      "prevScore": 515
     },
     {
-      "majorName": "数据科学与大数据技术（宝盖校区）",
-      "majorKey": "69ee7bc0",
+      "majorName": "数据科学与大数据技术",
+      "majorKey": "bb0a25bd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "27880",
@@ -406,7 +372,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 155706,
-      "equivRank": 155706
+      "equivRank": 155706,
+      "prevScore": 515
     }
   ]
 }

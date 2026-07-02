@@ -298,29 +298,6 @@
           "minScore": 468,
           "minRank": 200834,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "浙江同济科技职业学院",
-      "schoolCode": "0106",
-      "majorKey": "fdbc9328",
-      "majorName": "建筑工程技术（中外合作办学）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 435,
-          "minRank": 220942,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 446,
-          "minRank": 219456,
-          "maxScore": 0
         },
         {
           "year": 2025,
@@ -588,22 +565,6 @@
     {
       "schoolKey": "浙江同济科技职业学院",
       "schoolCode": "0106",
-      "majorKey": "0b170a25",
-      "majorName": "机电一体化技术（中外合作办学）",
-      "selKe": "物/化/技(3选1)",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 457,
-          "minRank": 206686,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "浙江同济科技职业学院",
-      "schoolCode": "0106",
       "majorKey": "38b5eece",
       "majorName": "水利工程",
       "selKe": "不限",
@@ -634,80 +595,6 @@
           "track": "综合",
           "minScore": 490,
           "minRank": 183764,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "浙江同济科技职业学院",
-      "schoolCode": "0106",
-      "majorKey": "91c0cb24",
-      "majorName": "水利工程（中外合作办学）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 460,
-          "minRank": 204678,
-          "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 452,
-          "minRank": 208536,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 454,
-          "minRank": 213333,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 457,
-          "minRank": 216518,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "浙江同济科技职业学院",
-      "schoolCode": "0106",
-      "majorKey": "020a4d90",
-      "majorName": "水利工程（土地整治）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 477,
-          "minRank": 189799,
-          "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 474,
-          "minRank": 188388,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 483,
-          "minRank": 186866,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 490,
-          "minRank": 184372,
           "maxScore": 0
         }
       ]
@@ -1059,6 +946,7 @@
     {
       "majorName": "数字媒体艺术设计",
       "majorKey": "836b6a35",
+      "track": "综合",
       "selKe": "不限",
       "plan": 20,
       "tuition": "9000",
@@ -1066,11 +954,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 163337,
-      "equivRank": 163337
+      "equivRank": 163337,
+      "prevScore": 508
     },
     {
       "majorName": "大数据与会计",
       "majorKey": "49f153aa",
+      "track": "综合",
       "selKe": "不限",
       "plan": 34,
       "tuition": "6000",
@@ -1078,11 +968,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 166006,
-      "equivRank": 166006
+      "equivRank": 166006,
+      "prevScore": 506
     },
     {
       "majorName": "电气自动化技术",
       "majorKey": "4f34e927",
+      "track": "综合",
       "selKe": "不限",
       "plan": 41,
       "tuition": "6600",
@@ -1090,23 +982,27 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 170436,
-      "equivRank": 170436
+      "equivRank": 170436,
+      "prevScore": 502
     },
     {
       "majorName": "水利工程",
       "majorKey": "38b5eece",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 90,
+      "plan": 158,
       "tuition": "7500",
       "schooling": "三年",
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 183764,
-      "equivRank": 183764
+      "equivRank": 183764,
+      "prevScore": 490
     },
     {
       "majorName": "信息安全技术应用",
       "majorKey": "a9bba0c6",
+      "track": "综合",
       "selKe": "不限",
       "plan": 44,
       "tuition": "6600",
@@ -1114,11 +1010,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "分布式发电与智能微电网技术",
       "majorKey": "98b322f3",
+      "track": "综合",
       "selKe": "不限",
       "plan": 46,
       "tuition": "6600",
@@ -1126,11 +1024,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "发电厂及电力系统",
       "majorKey": "06f0cfd9",
+      "track": "综合",
       "selKe": "不限",
       "plan": 46,
       "tuition": "6600",
@@ -1138,11 +1038,13 @@
       "menlei": "他",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "商务数据分析与应用",
       "majorKey": "c00225cc",
+      "track": "综合",
       "selKe": "不限",
       "plan": 36,
       "tuition": "6000",
@@ -1150,11 +1052,13 @@
       "menlei": "他",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "工程测量技术",
       "majorKey": "ed30e1e8",
+      "track": "综合",
       "selKe": "不限",
       "plan": 41,
       "tuition": "6600",
@@ -1162,11 +1066,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "工程造价",
       "majorKey": "b8be11ab",
+      "track": "综合",
       "selKe": "不限",
       "plan": 71,
       "tuition": "7500",
@@ -1174,11 +1080,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "市政工程技术",
       "majorKey": "d4270a87",
+      "track": "综合",
       "selKe": "不限",
       "plan": 29,
       "tuition": "6600",
@@ -1186,11 +1094,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
-      "majorName": "建筑工程技术（中外合作办学）",
-      "majorKey": "fdbc9328",
+      "majorName": "建筑工程技术",
+      "majorKey": "904edf72",
+      "track": "综合",
       "selKe": "不限",
       "plan": 40,
       "tuition": "18000",
@@ -1199,11 +1109,13 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "建筑智能化工程技术",
       "majorKey": "729ee2f2",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "6600",
@@ -1211,11 +1123,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "建筑设计",
       "majorKey": "38d0ca89",
+      "track": "综合",
       "selKe": "不限",
       "plan": 46,
       "tuition": "6600",
@@ -1223,11 +1137,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "数控技术",
       "majorKey": "750aa39a",
+      "track": "综合",
       "selKe": "不限",
       "plan": 41,
       "tuition": "6600",
@@ -1235,11 +1151,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "无人机测绘技术",
       "majorKey": "9c451f29",
+      "track": "综合",
       "selKe": "不限",
       "plan": 48,
       "tuition": "6600",
@@ -1247,11 +1165,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "智能建造技术",
       "majorKey": "6a15ab70",
+      "track": "综合",
       "selKe": "不限",
       "plan": 36,
       "tuition": "6600",
@@ -1259,11 +1179,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "机电一体化技术",
       "majorKey": "d4465443",
+      "track": "综合",
       "selKe": "不限",
       "plan": 107,
       "tuition": "6600",
@@ -1271,23 +1193,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
-    },
-    {
-      "majorName": "水利工程（土地整治）",
-      "majorKey": "020a4d90",
-      "selKe": "不限",
-      "plan": 22,
-      "tuition": "7500",
-      "schooling": "三年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "水利水电工程智能管理",
       "majorKey": "9294888e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 42,
       "tuition": "6600",
@@ -1295,11 +1207,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "水利水电建筑工程",
       "majorKey": "680ee777",
+      "track": "综合",
       "selKe": "不限",
       "plan": 28,
       "tuition": "7500",
@@ -1307,11 +1221,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "水生态修复技术",
       "majorKey": "4aab33cc",
+      "track": "综合",
       "selKe": "不限",
       "plan": 55,
       "tuition": "7500",
@@ -1319,11 +1235,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "环境艺术设计",
       "majorKey": "ecd7abb0",
+      "track": "综合",
       "selKe": "不限",
       "plan": 72,
       "tuition": "9000",
@@ -1331,11 +1249,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "电子商务",
       "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 80,
       "tuition": "6000",
@@ -1343,11 +1263,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "电梯工程技术",
       "majorKey": "42360310",
+      "track": "综合",
       "selKe": "不限",
       "plan": 43,
       "tuition": "6600",
@@ -1355,11 +1277,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "金融科技应用",
       "majorKey": "ce09efb0",
+      "track": "综合",
       "selKe": "不限",
       "plan": 40,
       "tuition": "6000",
@@ -1367,11 +1291,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "风景园林设计",
       "majorKey": "21f190f4",
+      "track": "综合",
       "selKe": "不限",
       "plan": 31,
       "tuition": "6600",
@@ -1379,11 +1305,13 @@
       "menlei": "农",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "建设工程管理",
       "majorKey": "69243991",
+      "track": "综合",
       "selKe": "不限",
       "plan": 32,
       "tuition": "6600",
@@ -1391,20 +1319,8 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 206643,
-      "equivRank": 206643
-    },
-    {
-      "majorName": "水利工程（中外合作办学）",
-      "majorKey": "91c0cb24",
-      "selKe": "不限",
-      "plan": 46,
-      "tuition": "18000",
-      "schooling": "三年",
-      "menlei": "工",
-      "coop": true,
-      "prevYear": 2025,
-      "prevRank": 216518,
-      "equivRank": 216518
+      "equivRank": 206643,
+      "prevScore": 468
     }
   ]
 }

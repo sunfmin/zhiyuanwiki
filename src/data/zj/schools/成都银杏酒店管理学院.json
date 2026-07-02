@@ -116,8 +116,8 @@
     {
       "schoolKey": "成都银杏酒店管理学院",
       "schoolCode": "5108",
-      "majorKey": "73576f68",
-      "majorName": "旅游管理与服务教育（第一学年在宜宾校区，第二学年起在成都校区）",
+      "majorKey": "80748845",
+      "majorName": "旅游管理与服务教育",
       "selKe": "不限",
       "years": [
         {
@@ -211,6 +211,13 @@
           "minScore": 534,
           "minRank": 129601,
           "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 537,
+          "minRank": 128327,
+          "maxScore": 0
         }
       ]
     },
@@ -236,28 +243,13 @@
           "maxScore": 0
         }
       ]
-    },
-    {
-      "schoolKey": "成都银杏酒店管理学院",
-      "schoolCode": "5108",
-      "majorKey": "44230f70",
-      "majorName": "酒店管理（第一、二学年在宜宾校区，第三学年起在成都校区）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 537,
-          "minRank": 128327,
-          "maxScore": 0
-        }
-      ]
     }
   ],
   "plan2026": [
     {
-      "majorName": "酒店管理（第一、二学年在宜宾校区，第三学年起在成都校区）",
-      "majorKey": "44230f70",
+      "majorName": "酒店管理",
+      "majorKey": "ec686c36",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "15900",
@@ -265,11 +257,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 128327,
-      "equivRank": 128327
+      "equivRank": 128327,
+      "prevScore": 537
     },
     {
-      "majorName": "旅游管理与服务教育（第一学年在宜宾校区，第二学年起在成都校区）",
-      "majorKey": "73576f68",
+      "majorName": "旅游管理与服务教育",
+      "majorKey": "80748845",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "15900",
@@ -277,16 +271,22 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 131076,
-      "equivRank": 131076
+      "equivRank": 131076,
+      "prevScore": 535
     },
     {
-      "majorName": "烹饪与营养教育（第一、二学年在宜宾校区，第三学年起在成都校区）",
-      "majorKey": "e953bf54",
+      "majorName": "烹饪与营养教育",
+      "majorKey": "8742ced2",
+      "track": "综合",
       "selKe": "物生技(3科必选)",
       "plan": 5,
       "tuition": "15900",
       "schooling": "四年",
-      "menlei": "工"
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 236330,
+      "equivRank": 236330,
+      "prevScore": 431
     }
   ]
 }

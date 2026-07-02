@@ -131,10 +131,17 @@
       "selKe": "不限",
       "years": [
         {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 507,
+          "minRank": 158934,
+          "maxScore": 0
+        },
+        {
           "year": 2023,
           "track": "综合",
-          "minScore": 472,
-          "minRank": 190600,
+          "minScore": 490,
+          "minRank": 172740,
           "maxScore": 0
         },
         {
@@ -149,38 +156,6 @@
           "track": "综合",
           "minScore": 490,
           "minRank": 184372,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "武汉工程科技学院",
-      "schoolCode": "4094",
-      "majorKey": "4bed4b11",
-      "majorName": "大数据与会计（三年制）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 507,
-          "minRank": 158934,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "武汉工程科技学院",
-      "schoolCode": "4094",
-      "majorKey": "1bc9b4aa",
-      "majorName": "大数据与会计（专科专业）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 490,
-          "minRank": 172740,
           "maxScore": 0
         }
       ]
@@ -333,22 +308,6 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 494,
-          "minRank": 175171,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "武汉工程科技学院",
-      "schoolCode": "4094",
-      "majorKey": "6d88534a",
-      "majorName": "机械设计制造及其自动化（智能制造方向）",
-      "selKe": "物理必选",
-      "years": [
-        {
           "year": 2022,
           "track": "综合",
           "minScore": 513,
@@ -360,6 +319,13 @@
           "track": "综合",
           "minScore": 516,
           "minRank": 144721,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 494,
+          "minRank": 175171,
           "maxScore": 0
         }
       ]
@@ -584,26 +550,17 @@
       "selKe": "不限",
       "years": [
         {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 534,
-          "minRank": 129643,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "武汉工程科技学院",
-      "schoolCode": "4094",
-      "majorKey": "f94ef0a1",
-      "majorName": "英语（英法双语方向）",
-      "selKe": "不限",
-      "years": [
-        {
           "year": 2023,
           "track": "综合",
           "minScore": 519,
           "minRank": 141196,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 534,
+          "minRank": 129643,
           "maxScore": 0
         }
       ]
@@ -712,6 +669,7 @@
     {
       "majorName": "小学教育",
       "majorKey": "c240892f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "25800",
@@ -719,11 +677,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 107736,
-      "equivRank": 107736
+      "equivRank": 107736,
+      "prevScore": 554
     },
     {
       "majorName": "汉语言文学",
       "majorKey": "97bc5998",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "25800",
@@ -731,11 +691,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 109780,
-      "equivRank": 109780
+      "equivRank": 109780,
+      "prevScore": 552
     },
     {
       "majorName": "会计学",
       "majorKey": "8aa56116",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "25800",
@@ -743,11 +705,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 115705,
-      "equivRank": 115705
+      "equivRank": 115705,
+      "prevScore": 547
     },
     {
       "majorName": "网络与新媒体",
       "majorKey": "fff04889",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "25800",
@@ -755,11 +719,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 121664,
-      "equivRank": 121664
+      "equivRank": 121664,
+      "prevScore": 542
     },
     {
       "majorName": "人工智能",
       "majorKey": "2fec4169",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "25800",
@@ -767,11 +733,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 176689,
-      "equivRank": 176689
+      "equivRank": 176689,
+      "prevScore": 496
     },
     {
       "majorName": "机器人工程",
       "majorKey": "301e14e8",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "25800",
@@ -779,11 +747,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 183312,
-      "equivRank": 183312
+      "equivRank": 183312,
+      "prevScore": 490
     },
     {
       "majorName": "大数据与会计",
       "majorKey": "49f153aa",
+      "track": "综合",
       "selKe": "不限",
       "plan": 20,
       "tuition": "14800",
@@ -791,11 +761,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "物联网工程",
       "majorKey": "1da18825",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "25800",
@@ -803,11 +775,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "机电一体化技术",
       "majorKey": "d4465443",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "14800",
@@ -815,11 +789,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 227042,
-      "equivRank": 227042
+      "equivRank": 227042,
+      "prevScore": 444
     },
     {
       "majorName": "无人机应用技术",
       "majorKey": "b888273b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "14800",
@@ -827,11 +803,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 239016,
-      "equivRank": 239016
+      "equivRank": 239016,
+      "prevScore": 427
     },
     {
       "majorName": "电气自动化技术",
       "majorKey": "4f34e927",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "14800",
@@ -839,11 +817,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 240966,
-      "equivRank": 240966
+      "equivRank": 240966,
+      "prevScore": 424
     },
     {
       "majorName": "机械制造及自动化",
       "majorKey": "734f4824",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "14800",
@@ -851,11 +831,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 246944,
-      "equivRank": 246944
+      "equivRank": 246944,
+      "prevScore": 414
     },
     {
       "majorName": "电子信息工程技术",
       "majorKey": "b436d441",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "14800",
@@ -863,11 +845,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 249784,
-      "equivRank": 249784
+      "equivRank": 249784,
+      "prevScore": 409
     },
     {
       "majorName": "网络营销与直播电商",
       "majorKey": "149edac5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "14800",
@@ -875,11 +859,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 250301,
-      "equivRank": 250301
+      "equivRank": 250301,
+      "prevScore": 408
     },
     {
       "majorName": "信息安全技术应用",
       "majorKey": "a9bba0c6",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "14800",
@@ -887,11 +873,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 252007,
-      "equivRank": 252007
+      "equivRank": 252007,
+      "prevScore": 405
     },
     {
       "majorName": "计算机网络技术",
       "majorKey": "547b1c20",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "14800",
@@ -899,11 +887,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 253541,
-      "equivRank": 253541
+      "equivRank": 253541,
+      "prevScore": 402
     },
     {
       "majorName": "工业互联网技术",
       "majorKey": "a9f71301",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "14800",
@@ -911,11 +901,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 254556,
-      "equivRank": 254556
+      "equivRank": 254556,
+      "prevScore": 400
     },
     {
       "majorName": "导航与位置服务",
       "majorKey": "92e1883e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "14800",
@@ -923,11 +915,13 @@
       "menlei": "他",
       "prevYear": 2025,
       "prevRank": 258581,
-      "equivRank": 258581
+      "equivRank": 258581,
+      "prevScore": 392
     },
     {
       "majorName": "电子商务",
       "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 8,
       "tuition": "14800",
@@ -935,7 +929,8 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 262587,
-      "equivRank": 262587
+      "equivRank": 262587,
+      "prevScore": 383
     }
   ]
 }

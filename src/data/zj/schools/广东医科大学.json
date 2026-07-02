@@ -6,8 +6,8 @@
     {
       "schoolKey": "广东医科大学",
       "schoolCode": "4441",
-      "majorKey": "692b72cc",
-      "majorName": "中药制药（东莞校区）",
+      "majorKey": "fba2c77b",
+      "majorName": "中药制药",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -46,16 +46,7 @@
           "minScore": 628,
           "minRank": 26454,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广东医科大学",
-      "schoolCode": "4441",
-      "majorKey": "6f3188db",
-      "majorName": "临床医学（东莞校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -85,16 +76,7 @@
           "minScore": 612,
           "minRank": 40989,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广东医科大学",
-      "schoolCode": "4441",
-      "majorKey": "98ff41b1",
-      "majorName": "儿科学（湛江校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -131,16 +113,7 @@
           "minScore": 608,
           "minRank": 44910,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广东医科大学",
-      "schoolCode": "4441",
-      "majorKey": "2101f06c",
-      "majorName": "医学影像学（湛江校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -216,16 +189,7 @@
           "minScore": 644,
           "minRank": 15594,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广东医科大学",
-      "schoolCode": "4441",
-      "majorKey": "f4243e1e",
-      "majorName": "口腔医学（东莞校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -261,8 +225,8 @@
     {
       "schoolKey": "广东医科大学",
       "schoolCode": "4441",
-      "majorKey": "8392e9bd",
-      "majorName": "护理学（东莞校区）",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
       "selKe": "化学必选",
       "years": [
         {
@@ -300,8 +264,8 @@
     {
       "schoolKey": "广东医科大学",
       "schoolCode": "4441",
-      "majorKey": "8c75cdc2",
-      "majorName": "药物分析（东莞校区）",
+      "majorKey": "e83335a9",
+      "majorName": "药物分析",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -370,16 +334,7 @@
           "minScore": 620,
           "minRank": 33746,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广东医科大学",
-      "schoolCode": "4441",
-      "majorKey": "31c51c92",
-      "majorName": "麻醉学（湛江校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -392,8 +347,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "口腔医学（东莞校区）",
-      "majorKey": "f4243e1e",
+      "majorName": "口腔医学",
+      "majorKey": "c162bced",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "6960",
@@ -401,11 +357,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 24875,
-      "equivRank": 24875
+      "equivRank": 24875,
+      "prevScore": 628
     },
     {
-      "majorName": "临床医学（东莞校区）",
-      "majorKey": "6f3188db",
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "7656",
@@ -413,11 +371,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 32428,
-      "equivRank": 32428
+      "equivRank": 32428,
+      "prevScore": 619
     },
     {
-      "majorName": "麻醉学（湛江校区）",
-      "majorKey": "31c51c92",
+      "majorName": "麻醉学",
+      "majorKey": "83eea431",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "7656",
@@ -425,11 +385,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 43038,
-      "equivRank": 43038
+      "equivRank": 43038,
+      "prevScore": 608
     },
     {
-      "majorName": "儿科学（湛江校区）",
-      "majorKey": "98ff41b1",
+      "majorName": "儿科学",
+      "majorKey": "db9ffa2a",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "7656",
@@ -437,11 +399,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 48546,
-      "equivRank": 48546
+      "equivRank": 48546,
+      "prevScore": 603
     },
     {
-      "majorName": "医学影像学（湛江校区）",
-      "majorKey": "2101f06c",
+      "majorName": "医学影像学",
+      "majorKey": "5780af73",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "7656",
@@ -449,11 +413,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 55100,
-      "equivRank": 55100
+      "equivRank": 55100,
+      "prevScore": 597
     },
     {
-      "majorName": "中药制药（东莞校区）",
-      "majorKey": "692b72cc",
+      "majorName": "中药制药",
+      "majorKey": "fba2c77b",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6960",
@@ -461,11 +427,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 97095,
-      "equivRank": 97095
+      "equivRank": 97095,
+      "prevScore": 562
     },
     {
-      "majorName": "药物分析（东莞校区）",
-      "majorKey": "8c75cdc2",
+      "majorName": "药物分析",
+      "majorKey": "e83335a9",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "7656",
@@ -473,11 +441,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 104154,
-      "equivRank": 104154
+      "equivRank": 104154,
+      "prevScore": 556
     },
     {
-      "majorName": "护理学（东莞校区）",
-      "majorKey": "8392e9bd",
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "综合",
       "selKe": "化学必选",
       "plan": 5,
       "tuition": "6960",
@@ -485,7 +455,8 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 126514,
-      "equivRank": 126514
+      "equivRank": 126514,
+      "prevScore": 538
     }
   ]
 }

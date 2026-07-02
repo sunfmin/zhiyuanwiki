@@ -53,16 +53,7 @@
           "minScore": 536,
           "minRank": 127512,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "苏州卫生职业技术学院",
-      "schoolCode": "3291",
-      "majorKey": "5fd3bffa",
-      "majorName": "口腔医学技术（书院校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -149,8 +140,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "口腔医学技术（书院校区）",
-      "majorKey": "5fd3bffa",
+      "majorName": "口腔医学技术",
+      "majorKey": "e849f952",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "6200",
@@ -158,11 +150,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 130985,
-      "equivRank": 130985
+      "equivRank": 130985,
+      "prevScore": 535
     },
     {
       "majorName": "护理",
       "majorKey": "a3db4652",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "6200",
@@ -170,11 +164,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 131087,
-      "equivRank": 131087
+      "equivRank": 131087,
+      "prevScore": 535
     },
     {
       "majorName": "医学检验技术",
       "majorKey": "f106fa76",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "6200",
@@ -182,11 +178,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 133400,
-      "equivRank": 133400
+      "equivRank": 133400,
+      "prevScore": 533
     },
     {
       "majorName": "药学",
       "majorKey": "e9e6a481",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "6200",
@@ -194,7 +192,8 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 137766,
-      "equivRank": 137766
+      "equivRank": 137766,
+      "prevScore": 529
     }
   ]
 }

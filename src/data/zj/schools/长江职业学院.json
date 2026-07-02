@@ -30,16 +30,7 @@
           "minScore": 440,
           "minRank": 223540,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "长江职业学院",
-      "schoolCode": "4004",
-      "majorKey": "7e6747f7",
-      "majorName": "新能源汽车技术（光谷校区。）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -76,16 +67,7 @@
           "minScore": 421,
           "minRank": 236279,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "长江职业学院",
-      "schoolCode": "4004",
-      "majorKey": "143514db",
-      "majorName": "旅游管理（武汉新城校区。）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -122,16 +104,7 @@
           "minScore": 429,
           "minRank": 230968,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "长江职业学院",
-      "schoolCode": "4004",
-      "majorKey": "607c6e6d",
-      "majorName": "现代物流管理（武汉新城校区。）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -144,31 +117,46 @@
   ],
   "plan2026": [
     {
-      "majorName": "新能源汽车技术（光谷校区）",
-      "majorKey": "214f8282",
+      "majorName": "新能源汽车技术",
+      "majorKey": "ccb39427",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "5000",
       "schooling": "三年",
-      "menlei": "工"
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 227042,
+      "equivRank": 227042,
+      "prevScore": 444
     },
     {
-      "majorName": "旅游管理（武汉新城校区）",
-      "majorKey": "dc99701e",
+      "majorName": "现代物流管理",
+      "majorKey": "a0f5df04",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 6,
+      "tuition": "5000",
+      "schooling": "三年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 235618,
+      "equivRank": 235618,
+      "prevScore": 432
+    },
+    {
+      "majorName": "旅游管理",
+      "majorKey": "ec77cae2",
+      "track": "综合",
       "selKe": "不限",
       "plan": 8,
       "tuition": "5000",
       "schooling": "三年",
-      "menlei": "管"
-    },
-    {
-      "majorName": "现代物流管理（武汉新城校区）",
-      "majorKey": "e1f9d3bc",
-      "selKe": "不限",
-      "plan": 6,
-      "tuition": "5000",
-      "schooling": "三年",
-      "menlei": "管"
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 237023,
+      "equivRank": 237023,
+      "prevScore": 430
     }
   ]
 }

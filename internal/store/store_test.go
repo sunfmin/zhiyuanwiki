@@ -150,33 +150,3 @@ func TestMenleiFromCatalog(t *testing.T) {
 		t.Errorf("软件工程 门类码应为 工，got %q", got)
 	}
 }
-
-func TestSchoolAttrsRoundTripAndByProv(t *testing.T) {
-	db := openTmp(t)
-	zj := []SchoolAttr{
-		{Code: "0001", Province: "浙江", City: "杭州市", CityTier: "新一线", Ownership: "公办", Kind: "综合类", Is985: true, Is211: true, Syl: true},
-		{Code: "0002", Province: "浙江", City: "杭州市", CityTier: "新一线", Ownership: "公办", Kind: "理工类"},
-	}
-	if err := db.ReplaceSchoolAttrs("zj", zj); err != nil {
-		t.Fatal(err)
-	}
-	// 重导幂等：再写一次不翻倍。
-	if err := db.ReplaceSchoolAttrs("zj", zj); err != nil {
-		t.Fatal(err)
-	}
-	got, err := db.SchoolAttrs("zj")
-	if err != nil {
-		t.Fatal(err)
-	}
-	if len(got) != 2 {
-		t.Fatalf("zj 属性应 2 所，got %d", len(got))
-	}
-	a := got["0001"]
-	if a.CityTier != "新一线" || !a.Is985 || a.Levels()[0] != "985" {
-		t.Errorf("0001 属性还原错：%+v levels=%v", a, a.Levels())
-	}
-	// 按省隔离：别省不应读到 zj 的行。
-	if other, _ := db.SchoolAttrs("hlj"); len(other) != 0 {
-		t.Errorf("hlj school_attr 应为空，got %d", len(other))
-	}
-}

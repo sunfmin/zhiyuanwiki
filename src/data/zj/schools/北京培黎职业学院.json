@@ -41,26 +41,17 @@
       "selKe": "不限",
       "years": [
         {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 376,
-          "minRank": 254807,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "北京培黎职业学院",
-      "schoolCode": "1129",
-      "majorKey": "c3debf5d",
-      "majorName": "商务英语（涉外经贸）",
-      "selKe": "不限",
-      "years": [
-        {
           "year": 2022,
           "track": "综合",
           "minScore": 461,
           "minRank": 204102,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 376,
+          "minRank": 254807,
           "maxScore": 0
         },
         {
@@ -89,29 +80,6 @@
         {
           "year": 2022,
           "track": "综合",
-          "minScore": 390,
-          "minRank": 246152,
-          "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 436,
-          "minRank": 220715,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "北京培黎职业学院",
-      "schoolCode": "1129",
-      "majorKey": "484f96d8",
-      "majorName": "国际经济与贸易（国际商务管理）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
           "minScore": 407,
           "minRank": 238757,
           "maxScore": 0
@@ -119,8 +87,8 @@
         {
           "year": 2023,
           "track": "综合",
-          "minScore": 371,
-          "minRank": 256909,
+          "minScore": 436,
+          "minRank": 220715,
           "maxScore": 0
         },
         {
@@ -211,8 +179,8 @@
     {
       "schoolKey": "北京培黎职业学院",
       "schoolCode": "1129",
-      "majorKey": "ecd5f7f5",
-      "majorName": "电子商务（移动电商运营与管理）",
+      "majorKey": "0b52f20f",
+      "majorName": "电子商务",
       "selKe": "不限",
       "years": [
         {
@@ -253,6 +221,20 @@
       "selKe": "不限",
       "years": [
         {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 408,
+          "minRank": 238578,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 383,
+          "minRank": 251852,
+          "maxScore": 0
+        },
+        {
           "year": 2024,
           "track": "综合",
           "minScore": 359,
@@ -264,38 +246,6 @@
           "track": "综合",
           "minScore": 360,
           "minRank": 271338,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "北京培黎职业学院",
-      "schoolCode": "1129",
-      "majorKey": "a2efeeef",
-      "majorName": "计算机应用技术（元宇宙）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 383,
-          "minRank": 251852,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "北京培黎职业学院",
-      "schoolCode": "1129",
-      "majorKey": "e253fb2b",
-      "majorName": "计算机应用技术（移动互联数字影音）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 408,
-          "minRank": 238578,
           "maxScore": 0
         }
       ]
@@ -342,6 +292,7 @@
     {
       "majorName": "软件技术",
       "majorKey": "8000e20b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "23000",
@@ -349,11 +300,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 255601,
-      "equivRank": 255601
+      "equivRank": 255601,
+      "prevScore": 398
     },
     {
-      "majorName": "国际经济与贸易（国际商务管理）",
-      "majorKey": "484f96d8",
+      "majorName": "国际经济与贸易",
+      "majorKey": "f8a1727e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "23000",
@@ -361,11 +314,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 267094,
-      "equivRank": 267094
+      "equivRank": 267094,
+      "prevScore": 372
     },
     {
-      "majorName": "商务英语（涉外经贸）",
-      "majorKey": "c3debf5d",
+      "majorName": "商务英语",
+      "majorKey": "4428fd77",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "23000",
@@ -373,11 +328,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 267852,
-      "equivRank": 267852
+      "equivRank": 267852,
+      "prevScore": 370
     },
     {
-      "majorName": "电子商务（移动电商运营与管理）",
-      "majorKey": "ecd5f7f5",
+      "majorName": "电子商务",
+      "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "23000",
@@ -385,11 +342,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 268957,
-      "equivRank": 268957
+      "equivRank": 268957,
+      "prevScore": 367
     },
     {
       "majorName": "大数据技术",
       "majorKey": "a0b9e84e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "23000",
@@ -397,11 +356,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 270323,
-      "equivRank": 270323
+      "equivRank": 270323,
+      "prevScore": 363
     },
     {
       "majorName": "计算机应用技术",
       "majorKey": "faccc9c5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "23000",
@@ -409,11 +370,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 271338,
-      "equivRank": 271338
+      "equivRank": 271338,
+      "prevScore": 360
     },
     {
       "majorName": "应用西班牙语",
       "majorKey": "39de5ddb",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "60000",
@@ -421,7 +384,8 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 278804,
-      "equivRank": 278804
+      "equivRank": 278804,
+      "prevScore": 332
     }
   ]
 }

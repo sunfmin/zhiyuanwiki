@@ -191,22 +191,6 @@
         {
           "year": 2025,
           "track": "综合",
-          "minScore": 536,
-          "minRank": 129014,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "沈阳化工大学",
-      "schoolCode": "2149",
-      "majorKey": "c8fbcf7c",
-      "majorName": "化学工程与工艺（卓越工程师班）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
           "minScore": 548,
           "minRank": 113983,
           "maxScore": 0
@@ -807,8 +791,8 @@
     {
       "schoolKey": "沈阳化工大学",
       "schoolCode": "2149",
-      "majorKey": "21269479",
-      "majorName": "能源与动力工程（中外合作办学）",
+      "majorKey": "34997647",
+      "majorName": "能源与动力工程",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -1098,43 +1082,6 @@
         {
           "year": 2022,
           "track": "综合",
-          "minScore": 560,
-          "minRank": 94547,
-          "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 557,
-          "minRank": 98530,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 539,
-          "minRank": 123705,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 530,
-          "minRank": 136728,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "沈阳化工大学",
-      "schoolCode": "2149",
-      "majorKey": "f690b3aa",
-      "majorName": "高分子材料与工程（卓越工程师班）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
           "minScore": 561,
           "minRank": 93377,
           "maxScore": 0
@@ -1149,8 +1096,8 @@
         {
           "year": 2024,
           "track": "综合",
-          "minScore": 523,
-          "minRank": 142401,
+          "minScore": 539,
+          "minRank": 123705,
           "maxScore": 0
         },
         {
@@ -1167,6 +1114,7 @@
     {
       "majorName": "电气工程及其自动化",
       "majorKey": "45947d31",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5200",
@@ -1174,11 +1122,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 89515,
-      "equivRank": 89515
+      "equivRank": 89515,
+      "prevScore": 568
     },
     {
       "majorName": "计算机科学与技术",
       "majorKey": "1d486608",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5200",
@@ -1186,11 +1136,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 90670,
-      "equivRank": 90670
+      "equivRank": 90670,
+      "prevScore": 567
     },
     {
       "majorName": "电子信息工程",
       "majorKey": "fd603692",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5200",
@@ -1198,11 +1150,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 97242,
-      "equivRank": 97242
+      "equivRank": 97242,
+      "prevScore": 562
     },
     {
       "majorName": "机械设计制造及其自动化",
       "majorKey": "55ff9da5",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5200",
@@ -1210,11 +1164,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 100715,
-      "equivRank": 100715
+      "equivRank": 100715,
+      "prevScore": 559
     },
     {
       "majorName": "自动化",
       "majorKey": "da95770c",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5200",
@@ -1222,11 +1178,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 100966,
-      "equivRank": 100966
+      "equivRank": 100966,
+      "prevScore": 559
     },
     {
       "majorName": "软件工程",
       "majorKey": "0c33cbdd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5200",
@@ -1234,11 +1192,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 104425,
-      "equivRank": 104425
+      "equivRank": 104425,
+      "prevScore": 556
     },
     {
       "majorName": "数据科学与大数据技术",
       "majorKey": "bb0a25bd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5200",
@@ -1246,11 +1206,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 104748,
-      "equivRank": 104748
+      "equivRank": 104748,
+      "prevScore": 556
     },
     {
       "majorName": "工程管理",
       "majorKey": "4166f1ff",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 2,
       "tuition": "5200",
@@ -1258,11 +1220,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 108256,
-      "equivRank": 108256
+      "equivRank": 108256,
+      "prevScore": 553
     },
     {
       "majorName": "人工智能",
       "majorKey": "2fec4169",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5200",
@@ -1270,23 +1234,27 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 109552,
-      "equivRank": 109552
+      "equivRank": 109552,
+      "prevScore": 552
     },
     {
-      "majorName": "化学工程与工艺（卓越工程师班）",
-      "majorKey": "c8fbcf7c",
+      "majorName": "化学工程与工艺",
+      "majorKey": "1f59c989",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
-      "plan": 3,
+      "plan": 6,
       "tuition": "5200",
       "schooling": "四年",
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 113983,
-      "equivRank": 113983
+      "equivRank": 113983,
+      "prevScore": 548
     },
     {
       "majorName": "过程装备与控制工程",
       "majorKey": "05c637f2",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5200",
@@ -1294,11 +1262,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 118475,
-      "equivRank": 118475
+      "equivRank": 118475,
+      "prevScore": 545
     },
     {
       "majorName": "材料化学",
       "majorKey": "e6cfcc6c",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5200",
@@ -1306,11 +1276,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 124031,
-      "equivRank": 124031
+      "equivRank": 124031,
+      "prevScore": 540
     },
     {
       "majorName": "能源化学工程",
       "majorKey": "95a6509b",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "5200",
@@ -1318,47 +1290,27 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 126529,
-      "equivRank": 126529
+      "equivRank": 126529,
+      "prevScore": 538
     },
     {
-      "majorName": "化学工程与工艺",
-      "majorKey": "1f59c989",
+      "majorName": "高分子材料与工程",
+      "majorKey": "fc81313f",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
-      "plan": 3,
-      "tuition": "5200",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 129014,
-      "equivRank": 129014
-    },
-    {
-      "majorName": "高分子材料与工程（卓越工程师班）",
-      "majorKey": "f690b3aa",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 3,
+      "plan": 7,
       "tuition": "5200",
       "schooling": "四年",
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 129045,
-      "equivRank": 129045
-    },
-    {
-      "majorName": "高分子材料与工程",
-      "majorKey": "fc81313f",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 4,
-      "tuition": "5200",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 136728,
-      "equivRank": 136728
+      "equivRank": 129045,
+      "prevScore": 536
     },
     {
       "majorName": "应急管理",
       "majorKey": "7cad2a20",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 2,
       "tuition": "5200",
@@ -1366,11 +1318,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 137378,
-      "equivRank": 137378
+      "equivRank": 137378,
+      "prevScore": 530
     },
     {
       "majorName": "应用化学",
       "majorKey": "25624660",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5200",
@@ -1378,11 +1332,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 140154,
-      "equivRank": 140154
+      "equivRank": 140154,
+      "prevScore": 527
     },
     {
       "majorName": "化学",
       "majorKey": "04ab47fe",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5200",
@@ -1390,11 +1346,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 141444,
-      "equivRank": 141444
+      "equivRank": 141444,
+      "prevScore": 526
     },
     {
       "majorName": "无机非金属材料工程",
       "majorKey": "fa1dc158",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5200",
@@ -1402,11 +1360,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 143276,
-      "equivRank": 143276
+      "equivRank": 143276,
+      "prevScore": 525
     },
     {
       "majorName": "油气储运工程",
       "majorKey": "c9b2e9e3",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5200",
@@ -1414,11 +1374,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 143844,
-      "equivRank": 143844
+      "equivRank": 143844,
+      "prevScore": 524
     },
     {
       "majorName": "金属材料工程",
       "majorKey": "9f804adb",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5200",
@@ -1426,11 +1388,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 146003,
-      "equivRank": 146003
+      "equivRank": 146003,
+      "prevScore": 522
     },
     {
       "majorName": "制药工程",
       "majorKey": "28bd788f",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5200",
@@ -1438,11 +1402,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 148970,
-      "equivRank": 148970
+      "equivRank": 148970,
+      "prevScore": 520
     },
     {
       "majorName": "环境工程",
       "majorKey": "7faf2092",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5200",
@@ -1450,11 +1416,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 149693,
-      "equivRank": 149693
+      "equivRank": 149693,
+      "prevScore": 519
     },
     {
       "majorName": "安全工程",
       "majorKey": "e16fbe20",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "5200",
@@ -1462,11 +1430,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 149712,
-      "equivRank": 149712
+      "equivRank": 149712,
+      "prevScore": 519
     },
     {
-      "majorName": "能源与动力工程（中外合作办学）",
-      "majorKey": "21269479",
+      "majorName": "能源与动力工程",
+      "majorKey": "34997647",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "50000",
@@ -1475,7 +1445,8 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 163167,
-      "equivRank": 163167
+      "equivRank": 163167,
+      "prevScore": 508
     }
   ]
 }

@@ -67,16 +67,7 @@
           "minScore": 444,
           "minRank": 221061,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "黄冈职业技术学院",
-      "schoolCode": "4042",
-      "majorKey": "67a771b5",
-      "majorName": "人工智能技术应用（第一学年在武穴校区。）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -200,6 +191,13 @@
       "selKe": "不限",
       "years": [
         {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 487,
+          "minRank": 180552,
+          "maxScore": 0
+        },
+        {
           "year": 2023,
           "track": "综合",
           "minScore": 465,
@@ -211,22 +209,6 @@
           "track": "综合",
           "minScore": 467,
           "minRank": 202233,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "黄冈职业技术学院",
-      "schoolCode": "4042",
-      "majorKey": "6e38b28d",
-      "majorName": "学前教育（师范）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 487,
-          "minRank": 180552,
           "maxScore": 0
         }
       ]
@@ -348,32 +330,7 @@
           "minScore": 484,
           "minRank": 185892,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "黄冈职业技术学院",
-      "schoolCode": "4042",
-      "majorKey": "c0fd275f",
-      "majorName": "护理（第一学年在武穴校区。）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 475,
-          "minRank": 199963,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "黄冈职业技术学院",
-      "schoolCode": "4042",
-      "majorKey": "6886135a",
-      "majorName": "护理（第一学年在武穴校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -386,8 +343,8 @@
     {
       "schoolKey": "黄冈职业技术学院",
       "schoolCode": "4042",
-      "majorKey": "9e71a5ab",
-      "majorName": "数字化设计与制造技术（第一学年在武穴校区。）",
+      "majorKey": "ce82f7c6",
+      "majorName": "数字化设计与制造技术",
       "selKe": "不限",
       "years": [
         {
@@ -571,16 +528,7 @@
           "minScore": 451,
           "minRank": 215431,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "黄冈职业技术学院",
-      "schoolCode": "4042",
-      "majorKey": "eb1ee37d",
-      "majorName": "老年保健与管理（第一学年在武穴校区。）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -740,6 +688,7 @@
     {
       "majorName": "口腔医学",
       "majorKey": "c162bced",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "5000",
@@ -747,11 +696,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 155548,
-      "equivRank": 155548
+      "equivRank": 155548,
+      "prevScore": 515
     },
     {
       "majorName": "临床医学",
       "majorKey": "618f7040",
+      "track": "综合",
       "selKe": "不限",
       "plan": 8,
       "tuition": "5000",
@@ -759,11 +710,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 178616,
-      "equivRank": 178616
+      "equivRank": 178616,
+      "prevScore": 495
     },
     {
       "majorName": "针灸推拿",
       "majorKey": "7b806226",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "5000",
@@ -771,11 +724,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 182914,
-      "equivRank": 182914
+      "equivRank": 182914,
+      "prevScore": 491
     },
     {
-      "majorName": "护理（第一学年在武穴校区）",
-      "majorKey": "6886135a",
+      "majorName": "护理",
+      "majorKey": "a3db4652",
+      "track": "综合",
       "selKe": "不限",
       "plan": 8,
       "tuition": "5000",
@@ -783,11 +738,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "工业机器人技术",
       "majorKey": "26a2bf3f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "5000",
@@ -795,11 +752,41 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 221591,
-      "equivRank": 221591
+      "equivRank": 221591,
+      "prevScore": 451
+    },
+    {
+      "majorName": "老年保健与管理",
+      "majorKey": "9140b2cc",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 8,
+      "tuition": "5000",
+      "schooling": "三年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 224734,
+      "equivRank": 224734,
+      "prevScore": 447
+    },
+    {
+      "majorName": "人工智能技术应用",
+      "majorKey": "d722f594",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 6,
+      "tuition": "5000",
+      "schooling": "三年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 225499,
+      "equivRank": 225499,
+      "prevScore": 446
     },
     {
       "majorName": "新能源汽车技术",
       "majorKey": "ccb39427",
+      "track": "综合",
       "selKe": "不限",
       "plan": 8,
       "tuition": "5000",
@@ -807,11 +794,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 225499,
-      "equivRank": 225499
+      "equivRank": 225499,
+      "prevScore": 446
     },
     {
       "majorName": "电子商务",
       "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 8,
       "tuition": "5000",
@@ -819,34 +808,22 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 231464,
-      "equivRank": 231464
+      "equivRank": 231464,
+      "prevScore": 438
     },
     {
-      "majorName": "人工智能技术应用（第一学年在武穴校区）",
-      "majorKey": "ed98c254",
-      "selKe": "不限",
-      "plan": 6,
-      "tuition": "5000",
-      "schooling": "三年",
-      "menlei": "工"
-    },
-    {
-      "majorName": "数字化设计与制造技术（第一学年在武穴校区）",
-      "majorKey": "7c206a8e",
+      "majorName": "数字化设计与制造技术",
+      "majorKey": "ce82f7c6",
+      "track": "综合",
       "selKe": "不限",
       "plan": 8,
       "tuition": "5000",
       "schooling": "三年",
-      "menlei": "艺"
-    },
-    {
-      "majorName": "老年保健与管理（第一学年在武穴校区）",
-      "majorKey": "94fddeac",
-      "selKe": "不限",
-      "plan": 8,
-      "tuition": "5000",
-      "schooling": "三年",
-      "menlei": "管"
+      "menlei": "艺",
+      "prevYear": 2025,
+      "prevRank": 232866,
+      "equivRank": 232866,
+      "prevScore": 436
     }
   ]
 }

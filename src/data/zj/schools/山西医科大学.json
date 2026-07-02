@@ -30,16 +30,7 @@
           "minScore": 621,
           "minRank": 32622,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "山西医科大学",
-      "schoolCode": "1422",
-      "majorKey": "c0ecc161",
-      "majorName": "临床医学（中都校区）",
-      "selKe": "物化生(3科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -76,16 +67,7 @@
           "minScore": 608,
           "minRank": 45430,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "山西医科大学",
-      "schoolCode": "1422",
-      "majorKey": "62587a8c",
-      "majorName": "口腔医学（中都校区）",
-      "selKe": "物化生(3科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -124,16 +106,7 @@
           "minScore": 552,
           "minRank": 108241,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "山西医科大学",
-      "schoolCode": "1422",
-      "majorKey": "badea021",
-      "majorName": "康复治疗学（中都校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -179,16 +152,7 @@
           "minScore": 584,
           "minRank": 70913,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "山西医科大学",
-      "schoolCode": "1422",
-      "majorKey": "bd8a9d52",
-      "majorName": "法医学（中都校区）",
-      "selKe": "物化生(3科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -201,8 +165,8 @@
     {
       "schoolKey": "山西医科大学",
       "schoolCode": "1422",
-      "majorKey": "326b37ca",
-      "majorName": "生物医学工程（临床工程）",
+      "majorKey": "27c81131",
+      "majorName": "生物医学工程",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -250,16 +214,7 @@
           "minScore": 568,
           "minRank": 86118,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "山西医科大学",
-      "schoolCode": "1422",
-      "majorKey": "385644c8",
-      "majorName": "预防医学（中都校区）",
-      "selKe": "物化生(3科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -272,8 +227,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "法医学（中都校区）",
-      "majorKey": "bd8a9d52",
+      "majorName": "法医学",
+      "majorKey": "0798db5f",
+      "track": "综合",
       "selKe": "物化生(3科必选)",
       "plan": 2,
       "tuition": "5600",
@@ -281,11 +237,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 45290,
-      "equivRank": 45290
+      "equivRank": 45290,
+      "prevScore": 606
     },
     {
-      "majorName": "临床医学（中都校区）",
-      "majorKey": "c0ecc161",
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "综合",
       "selKe": "物化生(3科必选)",
       "plan": 2,
       "tuition": "5600",
@@ -293,11 +251,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 46818,
-      "equivRank": 46818
+      "equivRank": 46818,
+      "prevScore": 605
     },
     {
-      "majorName": "口腔医学（中都校区）",
-      "majorKey": "62587a8c",
+      "majorName": "口腔医学",
+      "majorKey": "c162bced",
+      "track": "综合",
       "selKe": "物化生(3科必选)",
       "plan": 2,
       "tuition": "5600",
@@ -305,11 +265,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 56276,
-      "equivRank": 56276
+      "equivRank": 56276,
+      "prevScore": 596
     },
     {
-      "majorName": "康复治疗学（中都校区）",
-      "majorKey": "badea021",
+      "majorName": "康复治疗学",
+      "majorKey": "a507c400",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5600",
@@ -317,11 +279,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 126550,
-      "equivRank": 126550
+      "equivRank": 126550,
+      "prevScore": 538
     },
     {
-      "majorName": "预防医学（中都校区）",
-      "majorKey": "385644c8",
+      "majorName": "预防医学",
+      "majorKey": "1954d9c9",
+      "track": "综合",
       "selKe": "物化生(3科必选)",
       "plan": 2,
       "tuition": "5600",
@@ -329,7 +293,8 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 137705,
-      "equivRank": 137705
+      "equivRank": 137705,
+      "prevScore": 529
     }
   ]
 }

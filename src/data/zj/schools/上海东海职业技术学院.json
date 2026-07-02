@@ -43,29 +43,6 @@
       "selKe": "不限",
       "years": [
         {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 363,
-          "minRank": 262930,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 366,
-          "minRank": 269302,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "上海东海职业技术学院",
-      "schoolCode": "3118",
-      "majorKey": "dc0066e7",
-      "majorName": "关务与外贸服务（高本贯通）",
-      "selKe": "不限",
-      "years": [
-        {
           "year": 2022,
           "track": "综合",
           "minScore": 480,
@@ -100,22 +77,6 @@
       "schoolCode": "3118",
       "majorKey": "49f153aa",
       "majorName": "大数据与会计",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 411,
-          "minRank": 241675,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "上海东海职业技术学院",
-      "schoolCode": "3118",
-      "majorKey": "6d598077",
-      "majorName": "大数据与会计（高本贯通）",
       "selKe": "不限",
       "years": [
         {
@@ -264,29 +225,6 @@
         {
           "year": 2024,
           "track": "综合",
-          "minScore": 373,
-          "minRank": 259452,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 358,
-          "minRank": 271962,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "上海东海职业技术学院",
-      "schoolCode": "3118",
-      "majorKey": "156952be",
-      "majorName": "广播影视节目制作（高本贯通）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2024,
-          "track": "综合",
           "minScore": 506,
           "minRank": 162625,
           "maxScore": 0
@@ -305,43 +243,6 @@
       "schoolCode": "3118",
       "majorKey": "a3db4652",
       "majorName": "护理",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 410,
-          "minRank": 237615,
-          "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 388,
-          "minRank": 249843,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 300,
-          "minRank": 275965,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 327,
-          "minRank": 279897,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "上海东海职业技术学院",
-      "schoolCode": "3118",
-      "majorKey": "e8a1474f",
-      "majorName": "护理（高本贯通）",
       "selKe": "不限",
       "years": [
         {
@@ -538,8 +439,8 @@
     {
       "schoolKey": "上海东海职业技术学院",
       "schoolCode": "3118",
-      "majorKey": "bb1f445a",
-      "majorName": "汽车检测与维修技术（高本贯通）",
+      "majorKey": "13e4967f",
+      "majorName": "汽车检测与维修技术",
       "selKe": "不限",
       "years": [
         {
@@ -593,22 +494,6 @@
       "schoolCode": "3118",
       "majorKey": "0b52f20f",
       "majorName": "电子商务",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 377,
-          "minRank": 265112,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "上海东海职业技术学院",
-      "schoolCode": "3118",
-      "majorKey": "5d49cb2a",
-      "majorName": "电子商务（高本贯通）",
       "selKe": "不限",
       "years": [
         {
@@ -743,8 +628,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "大数据与会计（高本贯通）",
-      "majorKey": "6d598077",
+      "majorName": "大数据与会计",
+      "majorKey": "49f153aa",
+      "track": "综合",
       "selKe": "不限",
       "plan": 20,
       "tuition": "23000",
@@ -752,59 +638,69 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 163359,
-      "equivRank": 163359
+      "equivRank": 163359,
+      "prevScore": 508
     },
     {
-      "majorName": "护理（高本贯通）",
-      "majorKey": "e8a1474f",
+      "majorName": "护理",
+      "majorKey": "a3db4652",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 30,
+      "plan": 245,
       "tuition": "23000",
       "schooling": "三年",
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 168946,
-      "equivRank": 168946
+      "equivRank": 168946,
+      "prevScore": 503
     },
     {
-      "majorName": "广播影视节目制作（高本贯通）",
-      "majorKey": "156952be",
+      "majorName": "广播影视节目制作",
+      "majorKey": "a863a3fb",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 12,
+      "plan": 22,
       "tuition": "41800",
       "schooling": "三年",
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 170853,
-      "equivRank": 170853
+      "equivRank": 170853,
+      "prevScore": 502
     },
     {
-      "majorName": "电子商务（高本贯通）",
-      "majorKey": "5d49cb2a",
+      "majorName": "电子商务",
+      "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 20,
+      "plan": 30,
       "tuition": "23000",
       "schooling": "三年",
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 183478,
-      "equivRank": 183478
+      "equivRank": 183478,
+      "prevScore": 490
     },
     {
-      "majorName": "关务与外贸服务（高本贯通）",
-      "majorKey": "dc0066e7",
+      "majorName": "关务与外贸服务",
+      "majorKey": "5bb41d9a",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 20,
+      "plan": 32,
       "tuition": "23000",
       "schooling": "三年",
       "menlei": "他",
       "prevYear": 2025,
       "prevRank": 184019,
-      "equivRank": 184019
+      "equivRank": 184019,
+      "prevScore": 490
     },
     {
-      "majorName": "汽车检测与维修技术（高本贯通）",
-      "majorKey": "bb1f445a",
+      "majorName": "汽车检测与维修技术",
+      "majorKey": "13e4967f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 20,
       "tuition": "23000",
@@ -812,11 +708,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 236330,
-      "equivRank": 236330
+      "equivRank": 236330,
+      "prevScore": 431
     },
     {
       "majorName": "机电一体化技术",
       "majorKey": "d4465443",
+      "track": "综合",
       "selKe": "不限",
       "plan": 14,
       "tuition": "21000",
@@ -824,11 +722,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 254556,
-      "equivRank": 254556
+      "equivRank": 254556,
+      "prevScore": 400
     },
     {
       "majorName": "机械制造及自动化",
       "majorKey": "734f4824",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "21000",
@@ -836,11 +736,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 260443,
-      "equivRank": 260443
+      "equivRank": 260443,
+      "prevScore": 388
     },
     {
       "majorName": "工业机器人技术",
       "majorKey": "26a2bf3f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "21000",
@@ -848,23 +750,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 262587,
-      "equivRank": 262587
-    },
-    {
-      "majorName": "电子商务",
-      "majorKey": "0b52f20f",
-      "selKe": "不限",
-      "plan": 10,
-      "tuition": "21000",
-      "schooling": "三年",
-      "menlei": "管",
-      "prevYear": 2025,
-      "prevRank": 265112,
-      "equivRank": 265112
+      "equivRank": 262587,
+      "prevScore": 383
     },
     {
       "majorName": "新能源汽车技术",
       "majorKey": "ccb39427",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "21000",
@@ -872,11 +764,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 266301,
-      "equivRank": 266301
+      "equivRank": 266301,
+      "prevScore": 374
     },
     {
       "majorName": "智能网联汽车技术",
       "majorKey": "04bb17fe",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "21000",
@@ -884,23 +778,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 268589,
-      "equivRank": 268589
-    },
-    {
-      "majorName": "关务与外贸服务",
-      "majorKey": "5bb41d9a",
-      "selKe": "不限",
-      "plan": 12,
-      "tuition": "21000",
-      "schooling": "三年",
-      "menlei": "他",
-      "prevYear": 2025,
-      "prevRank": 269302,
-      "equivRank": 269302
+      "equivRank": 268589,
+      "prevScore": 368
     },
     {
       "majorName": "计算机应用技术",
       "majorKey": "faccc9c5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 25,
       "tuition": "21000",
@@ -908,11 +792,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 270323,
-      "equivRank": 270323
+      "equivRank": 270323,
+      "prevScore": 363
     },
     {
       "majorName": "智慧健康养老服务与管理",
       "majorKey": "4c97ece5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 12,
       "tuition": "21000",
@@ -920,23 +806,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 271649,
-      "equivRank": 271649
-    },
-    {
-      "majorName": "广播影视节目制作",
-      "majorKey": "a863a3fb",
-      "selKe": "不限",
-      "plan": 10,
-      "tuition": "23000",
-      "schooling": "三年",
-      "menlei": "艺",
-      "prevYear": 2025,
-      "prevRank": 271962,
-      "equivRank": 271962
+      "equivRank": 271649,
+      "prevScore": 359
     },
     {
       "majorName": "空中乘务",
       "majorKey": "e19c4c71",
+      "track": "综合",
       "selKe": "不限",
       "plan": 15,
       "tuition": "21000",
@@ -944,11 +820,13 @@
       "menlei": "他",
       "prevYear": 2025,
       "prevRank": 272872,
-      "equivRank": 272872
+      "equivRank": 272872,
+      "prevScore": 355
     },
     {
       "majorName": "人工智能技术应用",
       "majorKey": "d722f594",
+      "track": "综合",
       "selKe": "不限",
       "plan": 22,
       "tuition": "21000",
@@ -956,11 +834,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 274079,
-      "equivRank": 274079
+      "equivRank": 274079,
+      "prevScore": 351
     },
     {
       "majorName": "大数据技术",
       "majorKey": "a0b9e84e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 25,
       "tuition": "21000",
@@ -968,11 +848,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 274638,
-      "equivRank": 274638
+      "equivRank": 274638,
+      "prevScore": 349
     },
     {
       "majorName": "财税大数据应用",
       "majorKey": "6632db58",
+      "track": "综合",
       "selKe": "不限",
       "plan": 24,
       "tuition": "21000",
@@ -980,11 +862,13 @@
       "menlei": "他",
       "prevYear": 2025,
       "prevRank": 275176,
-      "equivRank": 275176
+      "equivRank": 275176,
+      "prevScore": 347
     },
     {
       "majorName": "信息安全技术应用",
       "majorKey": "a9bba0c6",
+      "track": "综合",
       "selKe": "不限",
       "plan": 22,
       "tuition": "21000",
@@ -992,11 +876,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 276393,
-      "equivRank": 276393
+      "equivRank": 276393,
+      "prevScore": 342
     },
     {
       "majorName": "民航运输服务",
       "majorKey": "43fa264f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 30,
       "tuition": "21000",
@@ -1004,11 +890,13 @@
       "menlei": "他",
       "prevYear": 2025,
       "prevRank": 276393,
-      "equivRank": 276393
+      "equivRank": 276393,
+      "prevScore": 342
     },
     {
       "majorName": "民航空中安全保卫",
       "majorKey": "17bdda7e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 15,
       "tuition": "21000",
@@ -1016,11 +904,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 276910,
-      "equivRank": 276910
+      "equivRank": 276910,
+      "prevScore": 340
     },
     {
       "majorName": "集成电路技术",
       "majorKey": "24b39c5e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 35,
       "tuition": "21000",
@@ -1028,11 +918,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 277875,
-      "equivRank": 277875
+      "equivRank": 277875,
+      "prevScore": 336
     },
     {
       "majorName": "婴幼儿托育服务与管理",
       "majorKey": "e66c684e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 20,
       "tuition": "21000",
@@ -1040,23 +932,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 278804,
-      "equivRank": 278804
-    },
-    {
-      "majorName": "护理",
-      "majorKey": "a3db4652",
-      "selKe": "不限",
-      "plan": 215,
-      "tuition": "23000",
-      "schooling": "三年",
-      "menlei": "医",
-      "prevYear": 2025,
-      "prevRank": 279897,
-      "equivRank": 279897
+      "equivRank": 278804,
+      "prevScore": 332
     },
     {
       "majorName": "学前教育",
       "majorKey": "97716b64",
+      "track": "综合",
       "selKe": "不限",
       "plan": 60,
       "tuition": "23000",
@@ -1064,7 +946,8 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 280087,
-      "equivRank": 280087
+      "equivRank": 280087,
+      "prevScore": 326
     }
   ]
 }

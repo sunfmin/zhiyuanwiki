@@ -73,8 +73,8 @@
     {
       "schoolKey": "集美大学",
       "schoolCode": "3524",
-      "majorKey": "6e38b28d",
-      "majorName": "学前教育（师范）",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
       "selKe": "不限",
       "years": [
         {
@@ -438,45 +438,6 @@
     {
       "schoolKey": "集美大学",
       "schoolCode": "3524",
-      "majorKey": "8f20480e",
-      "majorName": "航海技术",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 553,
-          "minRank": 103688,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 558,
-          "minRank": 102022,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "集美大学",
-      "schoolCode": "3524",
-      "majorKey": "42ba5222",
-      "majorName": "航海技术（学校提醒:不适宜女生报考）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 580,
-          "minRank": 76084,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "集美大学",
-      "schoolCode": "3524",
       "majorKey": "ac3cf080",
       "majorName": "船舶与海洋工程",
       "selKe": "物理、化学(2科必选)",
@@ -507,45 +468,6 @@
           "track": "综合",
           "minScore": 588,
           "minRank": 66236,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "集美大学",
-      "schoolCode": "3524",
-      "majorKey": "d05a55f7",
-      "majorName": "船舶电子电气工程",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 552,
-          "minRank": 104863,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 561,
-          "minRank": 98484,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "集美大学",
-      "schoolCode": "3524",
-      "majorKey": "6fbba96b",
-      "majorName": "船舶电子电气工程（学校提醒:不适宜女生报考）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 564,
-          "minRank": 95529,
           "maxScore": 0
         }
       ]
@@ -595,44 +517,12 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 554,
-          "minRank": 102591,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 560,
-          "minRank": 99605,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "集美大学",
-      "schoolCode": "3524",
-      "majorKey": "59643668",
-      "majorName": "轮机工程（船机修造方向）",
-      "selKe": "物理必选",
-      "years": [
-        {
           "year": 2022,
           "track": "综合",
           "minScore": 572,
           "minRank": 80262,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "集美大学",
-      "schoolCode": "3524",
-      "majorKey": "9eb38519",
-      "majorName": "轮机工程（陆上方向）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2023,
           "track": "综合",
@@ -661,6 +551,7 @@
     {
       "majorName": "法学",
       "majorKey": "a1113a1f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5460",
@@ -668,11 +559,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 26715,
-      "equivRank": 26715
+      "equivRank": 26715,
+      "prevScore": 626
     },
     {
       "majorName": "英语",
       "majorKey": "49c5cdf9",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5460",
@@ -680,11 +573,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 42743,
-      "equivRank": 42743
+      "equivRank": 42743,
+      "prevScore": 609
     },
     {
       "majorName": "工商管理",
       "majorKey": "07c28723",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5460",
@@ -692,11 +587,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 44755,
-      "equivRank": 44755
+      "equivRank": 44755,
+      "prevScore": 607
     },
     {
       "majorName": "国际经济与贸易",
       "majorKey": "f8a1727e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5460",
@@ -704,11 +601,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 46669,
-      "equivRank": 46669
+      "equivRank": 46669,
+      "prevScore": 605
     },
     {
       "majorName": "日语",
       "majorKey": "8f1def37",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "5460",
@@ -716,11 +615,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 52696,
-      "equivRank": 52696
+      "equivRank": 52696,
+      "prevScore": 599
     },
     {
       "majorName": "智慧交通",
       "majorKey": "e4976a8b",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5460",
@@ -728,11 +629,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 65643,
-      "equivRank": 65643
+      "equivRank": 65643,
+      "prevScore": 588
     },
     {
       "majorName": "船舶与海洋工程",
       "majorKey": "ac3cf080",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5460",
@@ -740,11 +643,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 66236,
-      "equivRank": 66236
+      "equivRank": 66236,
+      "prevScore": 588
     },
     {
       "majorName": "数字经济",
       "majorKey": "ca37000f",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 2,
       "tuition": "5460",
@@ -752,11 +657,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 66858,
-      "equivRank": 66858
+      "equivRank": 66858,
+      "prevScore": 587
     },
     {
-      "majorName": "学前教育（师范）",
-      "majorKey": "6e38b28d",
+      "majorName": "学前教育",
+      "majorKey": "97716b64",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "5460",
@@ -764,23 +671,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 69475,
-      "equivRank": 69475
+      "equivRank": 69475,
+      "prevScore": 585
     },
     {
-      "majorName": "航海技术（学校提醒:不适宜女生报考）",
-      "majorKey": "42ba5222",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 5,
-      "tuition": "5460",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 76084,
-      "equivRank": 76084
-    },
-    {
-      "majorName": "轮机工程（陆上方向）",
-      "majorKey": "9eb38519",
+      "majorName": "轮机工程",
+      "majorKey": "7115c029",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5460",
@@ -788,11 +685,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 76355,
-      "equivRank": 76355
+      "equivRank": 76355,
+      "prevScore": 579
     },
     {
       "majorName": "港口航道与海岸工程",
       "majorKey": "8cb4f310",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "5460",
@@ -800,23 +699,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 77395,
-      "equivRank": 77395
-    },
-    {
-      "majorName": "船舶电子电气工程（学校提醒:不适宜女生报考）",
-      "majorKey": "6fbba96b",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "5460",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 95529,
-      "equivRank": 95529
+      "equivRank": 77395,
+      "prevScore": 578
     },
     {
       "majorName": "水生动物医学",
       "majorKey": "95a1ad6d",
+      "track": "综合",
       "selKe": "物化生(3科必选)",
       "plan": 2,
       "tuition": "5460",
@@ -824,11 +713,13 @@
       "menlei": "农",
       "prevYear": 2025,
       "prevRank": 104489,
-      "equivRank": 104489
+      "equivRank": 104489,
+      "prevScore": 556
     },
     {
       "majorName": "海洋渔业科学与技术",
       "majorKey": "0a93dc78",
+      "track": "综合",
       "selKe": "物化生(3科必选)",
       "plan": 2,
       "tuition": "5460",
@@ -836,11 +727,13 @@
       "menlei": "农",
       "prevYear": 2025,
       "prevRank": 105014,
-      "equivRank": 105014
+      "equivRank": 105014,
+      "prevScore": 556
     },
     {
       "majorName": "水产养殖学",
       "majorKey": "5f3767bd",
+      "track": "综合",
       "selKe": "物化生(3科必选)",
       "plan": 2,
       "tuition": "5460",
@@ -848,16 +741,8 @@
       "menlei": "农",
       "prevYear": 2025,
       "prevRank": 113695,
-      "equivRank": 113695
-    },
-    {
-      "majorName": "轮机工程（学校提醒:不适宜女生报考）",
-      "majorKey": "cb390451",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 5,
-      "tuition": "5460",
-      "schooling": "四年",
-      "menlei": "工"
+      "equivRank": 113695,
+      "prevScore": 549
     }
   ]
 }

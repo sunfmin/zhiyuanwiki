@@ -43,43 +43,6 @@
     {
       "schoolKey": "浙江舟山群岛新区旅游与健康职业学院",
       "schoolCode": "0232",
-      "majorKey": "b94941ab",
-      "majorName": "健康管理（中外合作办学）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 378,
-          "minRank": 250769,
-          "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 393,
-          "minRank": 247470,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 406,
-          "minRank": 244447,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 413,
-          "minRank": 247511,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "浙江舟山群岛新区旅游与健康职业学院",
-      "schoolCode": "0232",
       "majorKey": "a0b9e84e",
       "majorName": "大数据技术",
       "selKe": "不限",
@@ -283,6 +246,7 @@
     {
       "majorName": "护理",
       "majorKey": "a3db4652",
+      "track": "综合",
       "selKe": "不限",
       "plan": 70,
       "tuition": "7500",
@@ -290,11 +254,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 179501,
-      "equivRank": 179501
+      "equivRank": 179501,
+      "prevScore": 494
     },
     {
       "majorName": "智慧健康养老服务与管理",
       "majorKey": "4c97ece5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 30,
       "tuition": "6000",
@@ -302,23 +268,28 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "健康管理",
       "majorKey": "a9aac189",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 25,
-      "tuition": "6000",
+      "plan": 85,
+      "tuition": "20000",
       "schooling": "三年",
       "menlei": "管",
+      "coop": true,
       "prevYear": 2025,
       "prevRank": 221591,
-      "equivRank": 221591
+      "equivRank": 221591,
+      "prevScore": 451
     },
     {
       "majorName": "大数据技术",
       "majorKey": "a0b9e84e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 45,
       "tuition": "6000",
@@ -326,11 +297,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 226282,
-      "equivRank": 226282
+      "equivRank": 226282,
+      "prevScore": 445
     },
     {
       "majorName": "跨境电子商务",
       "majorKey": "48469b36",
+      "track": "综合",
       "selKe": "不限",
       "plan": 90,
       "tuition": "6000",
@@ -338,11 +311,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 228586,
-      "equivRank": 228586
+      "equivRank": 228586,
+      "prevScore": 442
     },
     {
       "majorName": "酒店管理与数字化运营",
       "majorKey": "0a7dd809",
+      "track": "综合",
       "selKe": "不限",
       "plan": 78,
       "tuition": "6000",
@@ -350,11 +325,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 230003,
-      "equivRank": 230003
+      "equivRank": 230003,
+      "prevScore": 440
     },
     {
       "majorName": "导游",
       "majorKey": "17994b17",
+      "track": "综合",
       "selKe": "不限",
       "plan": 80,
       "tuition": "6000",
@@ -362,20 +339,8 @@
       "menlei": "他",
       "prevYear": 2025,
       "prevRank": 230723,
-      "equivRank": 230723
-    },
-    {
-      "majorName": "健康管理（中外合作办学）",
-      "majorKey": "b94941ab",
-      "selKe": "不限",
-      "plan": 60,
-      "tuition": "20000",
-      "schooling": "三年",
-      "menlei": "管",
-      "coop": true,
-      "prevYear": 2025,
-      "prevRank": 247511,
-      "equivRank": 247511
+      "equivRank": 230723,
+      "prevScore": 439
     }
   ]
 }

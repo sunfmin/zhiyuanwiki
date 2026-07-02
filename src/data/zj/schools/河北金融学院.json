@@ -27,22 +27,6 @@
       "selKe": "不限",
       "years": [
         {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 592,
-          "minRank": 61878,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "河北金融学院",
-      "schoolCode": "1323",
-      "majorKey": "3ae9870c",
-      "majorName": "会计学（中外合作办学）",
-      "selKe": "不限",
-      "years": [
-        {
           "year": 2022,
           "track": "综合",
           "minScore": 553,
@@ -59,8 +43,8 @@
         {
           "year": 2024,
           "track": "综合",
-          "minScore": 564,
-          "minRank": 93783,
+          "minScore": 592,
+          "minRank": 61878,
           "maxScore": 0
         },
         {
@@ -291,29 +275,6 @@
     {
       "schoolKey": "河北金融学院",
       "schoolCode": "1323",
-      "majorKey": "31ea3245",
-      "majorName": "金融学（中外合作办学）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 549,
-          "minRank": 107906,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 553,
-          "minRank": 108839,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "河北金融学院",
-      "schoolCode": "1323",
       "majorKey": "e6a89fa4",
       "majorName": "金融工程",
       "selKe": "物理必选",
@@ -376,18 +337,22 @@
     {
       "majorName": "金融学",
       "majorKey": "5a699e63",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 3,
-      "tuition": "5060",
+      "plan": 8,
+      "tuition": "25000",
       "schooling": "四年",
       "menlei": "经",
+      "coop": true,
       "prevYear": 2025,
       "prevRank": 89779,
-      "equivRank": 89779
+      "equivRank": 89779,
+      "prevScore": 568
     },
     {
       "majorName": "商务英语",
       "majorKey": "4428fd77",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "4900",
@@ -395,11 +360,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 97455,
-      "equivRank": 97455
+      "equivRank": 97455,
+      "prevScore": 562
     },
     {
-      "majorName": "会计学（中外合作办学）",
-      "majorKey": "3ae9870c",
+      "majorName": "会计学",
+      "majorKey": "8aa56116",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "25000",
@@ -408,24 +375,13 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 98373,
-      "equivRank": 98373
-    },
-    {
-      "majorName": "金融学（中外合作办学）",
-      "majorKey": "31ea3245",
-      "selKe": "不限",
-      "plan": 5,
-      "tuition": "25000",
-      "schooling": "四年",
-      "menlei": "经",
-      "coop": true,
-      "prevYear": 2025,
-      "prevRank": 108839,
-      "equivRank": 108839
+      "equivRank": 98373,
+      "prevScore": 561
     },
     {
       "majorName": "金融科技",
       "majorKey": "683be8da",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 4,
       "tuition": "8000",
@@ -433,11 +389,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 150201,
-      "equivRank": 150201
+      "equivRank": 150201,
+      "prevScore": 519
     },
     {
       "majorName": "智能科学与技术",
       "majorKey": "0637b0d6",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "4900",
@@ -445,11 +403,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 157235,
-      "equivRank": 157235
+      "equivRank": 157235,
+      "prevScore": 513
     },
     {
       "majorName": "金融工程",
       "majorKey": "e6a89fa4",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 5,
       "tuition": "4600",
@@ -457,7 +417,8 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 169638,
-      "equivRank": 169638
+      "equivRank": 169638,
+      "prevScore": 503
     }
   ]
 }

@@ -16,16 +16,7 @@
           "minScore": 566,
           "minRank": 92182,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "黄山学院",
-      "schoolCode": "3456",
-      "majorKey": "440eb7f4",
-      "majorName": "日语（率水校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -48,16 +39,7 @@
           "minScore": 516,
           "minRank": 150547,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "黄山学院",
-      "schoolCode": "3456",
-      "majorKey": "ffe28bf7",
-      "majorName": "环境科学（率水校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -70,8 +52,8 @@
     {
       "schoolKey": "黄山学院",
       "schoolCode": "3456",
-      "majorKey": "c92356ac",
-      "majorName": "酒店管理（中外合作办学）",
+      "majorKey": "ec686c36",
+      "majorName": "酒店管理",
       "selKe": "不限",
       "years": [
         {
@@ -107,8 +89,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "日语（率水校区）",
-      "majorKey": "440eb7f4",
+      "majorName": "日语",
+      "majorKey": "8f1def37",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "4600",
@@ -116,11 +99,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 92568,
-      "equivRank": 92568
+      "equivRank": 92568,
+      "prevScore": 566
     },
     {
-      "majorName": "酒店管理（中外合作办学）",
-      "majorKey": "c92356ac",
+      "majorName": "酒店管理",
+      "majorKey": "ec686c36",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "18000",
@@ -129,11 +114,13 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 106978,
-      "equivRank": 106978
+      "equivRank": 106978,
+      "prevScore": 554
     },
     {
-      "majorName": "环境科学（率水校区）",
-      "majorKey": "ffe28bf7",
+      "majorName": "环境科学",
+      "majorKey": "37356fa4",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 6,
       "tuition": "4900",
@@ -141,7 +128,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 151088,
-      "equivRank": 151088
+      "equivRank": 151088,
+      "prevScore": 518
     }
   ]
 }

@@ -318,43 +318,6 @@
         {
           "year": 2022,
           "track": "综合",
-          "minScore": 552,
-          "minRank": 104911,
-          "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 527,
-          "minRank": 132926,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 592,
-          "minRank": 62551,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 550,
-          "minRank": 111763,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "北京邮电大学世纪学院",
-      "schoolCode": "1141",
-      "majorKey": "366b9959",
-      "majorName": "财务管理（国际注册会计师）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
           "minScore": 553,
           "minRank": 103949,
           "maxScore": 0
@@ -369,8 +332,8 @@
         {
           "year": 2024,
           "track": "综合",
-          "minScore": 556,
-          "minRank": 104203,
+          "minScore": 592,
+          "minRank": 62551,
           "maxScore": 0
         },
         {
@@ -461,6 +424,7 @@
     {
       "majorName": "传播学",
       "majorKey": "c8cc37b2",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "34000",
@@ -468,11 +432,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 107016,
-      "equivRank": 107016
+      "equivRank": 107016,
+      "prevScore": 554
     },
     {
       "majorName": "电子商务",
       "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "34000",
@@ -480,35 +446,27 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 107723,
-      "equivRank": 107723
+      "equivRank": 107723,
+      "prevScore": 554
     },
     {
-      "majorName": "财务管理（国际注册会计师）",
-      "majorKey": "366b9959",
+      "majorName": "财务管理",
+      "majorKey": "8220c852",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 4,
+      "plan": 6,
       "tuition": "39000",
       "schooling": "四年",
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 107736,
-      "equivRank": 107736
-    },
-    {
-      "majorName": "财务管理",
-      "majorKey": "8220c852",
-      "selKe": "不限",
-      "plan": 2,
-      "tuition": "39000",
-      "schooling": "四年",
-      "menlei": "管",
-      "prevYear": 2025,
-      "prevRank": 111763,
-      "equivRank": 111763
+      "equivRank": 107736,
+      "prevScore": 554
     },
     {
       "majorName": "英语",
       "majorKey": "49c5cdf9",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "34000",
@@ -516,11 +474,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 123251,
-      "equivRank": 123251
+      "equivRank": 123251,
+      "prevScore": 541
     },
     {
       "majorName": "机械电子工程",
       "majorKey": "4ef2a1b4",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "36000",
@@ -528,11 +488,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 164178,
-      "equivRank": 164178
+      "equivRank": 164178,
+      "prevScore": 507
     },
     {
       "majorName": "数字媒体技术",
       "majorKey": "889e9381",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "40000",
@@ -540,11 +502,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 170139,
-      "equivRank": 170139
+      "equivRank": 170139,
+      "prevScore": 502
     },
     {
       "majorName": "自动化",
       "majorKey": "da95770c",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "36000",
@@ -552,11 +516,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 174953,
-      "equivRank": 174953
+      "equivRank": 174953,
+      "prevScore": 498
     },
     {
       "majorName": "物流工程",
       "majorKey": "803b1149",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 2,
       "tuition": "36000",
@@ -564,11 +530,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 180518,
-      "equivRank": 180518
+      "equivRank": 180518,
+      "prevScore": 493
     },
     {
       "majorName": "物联网工程",
       "majorKey": "1da18825",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "43000",
@@ -576,11 +544,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "计算机科学与技术",
       "majorKey": "1d486608",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "37000",
@@ -588,11 +558,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "软件工程",
       "majorKey": "0c33cbdd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "43000",
@@ -600,11 +572,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "通信工程",
       "majorKey": "1c1ee3f7",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 15,
       "tuition": "41000",
@@ -612,7 +586,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     }
   ]
 }

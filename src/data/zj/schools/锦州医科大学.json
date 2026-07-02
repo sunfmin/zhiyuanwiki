@@ -30,16 +30,7 @@
           "minScore": 584,
           "minRank": 71057,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "锦州医科大学",
-      "schoolCode": "2138",
-      "majorKey": "60c74cbf",
-      "majorName": "临床医学（东校园）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -76,16 +67,7 @@
           "minScore": 502,
           "minRank": 166864,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "锦州医科大学",
-      "schoolCode": "2138",
-      "majorKey": "02e3bcb5",
-      "majorName": "医学影像技术（东校园）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -122,16 +104,7 @@
           "minScore": 563,
           "minRank": 95295,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "锦州医科大学",
-      "schoolCode": "2138",
-      "majorKey": "73b906e1",
-      "majorName": "医学检验技术（东校园）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -168,16 +141,7 @@
           "minScore": 607,
           "minRank": 45619,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "锦州医科大学",
-      "schoolCode": "2138",
-      "majorKey": "e820cab8",
-      "majorName": "口腔医学（东校园）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -214,16 +178,7 @@
           "minScore": 546,
           "minRank": 115131,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "锦州医科大学",
-      "schoolCode": "2138",
-      "majorKey": "dcd29c75",
-      "majorName": "护理学（东校园）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -260,16 +215,7 @@
           "minScore": 492,
           "minRank": 177158,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "锦州医科大学",
-      "schoolCode": "2138",
-      "majorKey": "ba3ef8ec",
-      "majorName": "药学（东校园）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -282,8 +228,8 @@
     {
       "schoolKey": "锦州医科大学",
       "schoolCode": "2138",
-      "majorKey": "e5d9c7bf",
-      "majorName": "运动康复（中外合作办学）",
+      "majorKey": "047778fd",
+      "majorName": "运动康复",
       "selKe": "物理、生物(2科必选)",
       "years": [
         {
@@ -343,16 +289,7 @@
           "minScore": 592,
           "minRank": 61973,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "锦州医科大学",
-      "schoolCode": "2138",
-      "majorKey": "0e6e54dc",
-      "majorName": "麻醉学（东校园）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -365,8 +302,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "口腔医学（东校园）",
-      "majorKey": "e820cab8",
+      "majorName": "口腔医学",
+      "majorKey": "c162bced",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5500",
@@ -374,11 +312,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 53376,
-      "equivRank": 53376
+      "equivRank": 53376,
+      "prevScore": 599
     },
     {
-      "majorName": "麻醉学（东校园）",
-      "majorKey": "0e6e54dc",
+      "majorName": "麻醉学",
+      "majorKey": "83eea431",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5500",
@@ -386,11 +326,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 76174,
-      "equivRank": 76174
+      "equivRank": 76174,
+      "prevScore": 579
     },
     {
-      "majorName": "临床医学（东校园）",
-      "majorKey": "60c74cbf",
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "5500",
@@ -398,11 +340,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 83802,
-      "equivRank": 83802
+      "equivRank": 83802,
+      "prevScore": 573
     },
     {
-      "majorName": "医学检验技术（东校园）",
-      "majorKey": "73b906e1",
+      "majorName": "医学检验技术",
+      "majorKey": "f106fa76",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5500",
@@ -410,11 +354,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 105768,
-      "equivRank": 105768
+      "equivRank": 105768,
+      "prevScore": 555
     },
     {
-      "majorName": "护理学（东校园）",
-      "majorKey": "dcd29c75",
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5500",
@@ -422,11 +368,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 118072,
-      "equivRank": 118072
+      "equivRank": 118072,
+      "prevScore": 545
     },
     {
-      "majorName": "医学影像技术（东校园）",
-      "majorKey": "02e3bcb5",
+      "majorName": "医学影像技术",
+      "majorKey": "11fef64a",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5500",
@@ -434,11 +382,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 118669,
-      "equivRank": 118669
+      "equivRank": 118669,
+      "prevScore": 545
     },
     {
-      "majorName": "药学（东校园）",
-      "majorKey": "ba3ef8ec",
+      "majorName": "药学",
+      "majorKey": "e9e6a481",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5500",
@@ -446,11 +396,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 141662,
-      "equivRank": 141662
+      "equivRank": 141662,
+      "prevScore": 526
     },
     {
-      "majorName": "运动康复（中外合作办学）",
-      "majorKey": "e5d9c7bf",
+      "majorName": "运动康复",
+      "majorKey": "047778fd",
+      "track": "综合",
       "selKe": "物理、生物(2科必选)",
       "plan": 4,
       "tuition": "32000",
@@ -459,7 +411,8 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     }
   ]
 }

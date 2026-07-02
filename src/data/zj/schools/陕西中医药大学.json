@@ -8,7 +8,7 @@
       "schoolCode": "6111",
       "majorKey": "2285e5ca",
       "majorName": "中医学",
-      "selKe": "物理、化学(2科必选)",
+      "selKe": "不限",
       "years": [
         {
           "year": 2022,
@@ -30,16 +30,7 @@
           "minScore": 594,
           "minRank": 59840,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "陕西中医药大学",
-      "schoolCode": "6111",
-      "majorKey": "e907fefd",
-      "majorName": "中医学（西安）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -69,16 +60,7 @@
           "minScore": 586,
           "minRank": 68692,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "陕西中医药大学",
-      "schoolCode": "6111",
-      "majorKey": "b4996300",
-      "majorName": "中西医临床医学（西安）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -115,16 +97,7 @@
           "minScore": 590,
           "minRank": 63939,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "陕西中医药大学",
-      "schoolCode": "6111",
-      "majorKey": "3dad4a0b",
-      "majorName": "临床医学（西安）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -137,8 +110,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "中医学（西安）",
-      "majorKey": "e907fefd",
+      "majorName": "中医学",
+      "majorKey": "2285e5ca",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "6955",
@@ -146,11 +120,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 38710,
-      "equivRank": 38710
+      "equivRank": 38710,
+      "prevScore": 613
     },
     {
-      "majorName": "临床医学（西安）",
-      "majorKey": "3dad4a0b",
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6500",
@@ -158,11 +134,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 66409,
-      "equivRank": 66409
+      "equivRank": 66409,
+      "prevScore": 587
     },
     {
-      "majorName": "中西医临床医学（西安）",
-      "majorKey": "b4996300",
+      "majorName": "中西医临床医学",
+      "majorKey": "8a499b4f",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "6500",
@@ -170,7 +148,8 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 68236,
-      "equivRank": 68236
+      "equivRank": 68236,
+      "prevScore": 586
     }
   ]
 }

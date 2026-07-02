@@ -36,8 +36,8 @@
     {
       "schoolKey": "武昌工学院",
       "schoolCode": "4062",
-      "majorKey": "d9ba5c0a",
-      "majorName": "会计学（注册会计师方向）",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
       "selKe": "不限",
       "years": [
         {
@@ -46,16 +46,7 @@
           "minScore": 536,
           "minRank": 124919,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "武昌工学院",
-      "schoolCode": "4062",
-      "majorKey": "4f0871bf",
-      "majorName": "会计学（管理会计师方向）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -144,8 +135,8 @@
     {
       "schoolKey": "武昌工学院",
       "schoolCode": "4062",
-      "majorKey": "e8fa5d63",
-      "majorName": "大数据管理与应用（数字科技实验班）",
+      "majorKey": "2079a63e",
+      "majorName": "大数据管理与应用",
       "selKe": "物理必选",
       "years": [
         {
@@ -253,16 +244,7 @@
           "minScore": 528,
           "minRank": 134678,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "武昌工学院",
-      "schoolCode": "4062",
-      "majorKey": "4de2449e",
-      "majorName": "工商管理（数字化运营方向）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2023,
           "track": "综合",
@@ -289,8 +271,8 @@
     {
       "schoolKey": "武昌工学院",
       "schoolCode": "4062",
-      "majorKey": "806ea6ce",
-      "majorName": "工程造价（工程财务方向）",
+      "majorKey": "b8be11ab",
+      "majorName": "工程造价",
       "selKe": "不限",
       "years": [
         {
@@ -351,8 +333,8 @@
     {
       "schoolKey": "武昌工学院",
       "schoolCode": "4062",
-      "majorKey": "29604787",
-      "majorName": "投资学（数字金融方向）",
+      "majorKey": "287bdd33",
+      "majorName": "投资学",
       "selKe": "不限",
       "years": [
         {
@@ -429,7 +411,7 @@
       "schoolCode": "4062",
       "majorKey": "55ff9da5",
       "majorName": "机械设计制造及其自动化",
-      "selKe": "物理必选",
+      "selKe": "物理、化学(2科必选)",
       "years": [
         {
           "year": 2022,
@@ -444,16 +426,7 @@
           "minScore": 514,
           "minRank": 147681,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "武昌工学院",
-      "schoolCode": "4062",
-      "majorKey": "da778c10",
-      "majorName": "机械设计制造及其自动化（高端智能制造装备技术方向）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2024,
           "track": "综合",
@@ -540,8 +513,8 @@
     {
       "schoolKey": "武昌工学院",
       "schoolCode": "4062",
-      "majorKey": "538798d3",
-      "majorName": "英语（教育方向）",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
       "selKe": "不限",
       "years": [
         {
@@ -556,8 +529,8 @@
     {
       "schoolKey": "武昌工学院",
       "schoolCode": "4062",
-      "majorKey": "625b27e9",
-      "majorName": "计算机科学与技术（智能数据与云计算方向）",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -572,8 +545,8 @@
     {
       "schoolKey": "武昌工学院",
       "schoolCode": "4062",
-      "majorKey": "ceb08101",
-      "majorName": "财务管理（大数据财务分析与决策方向）",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
       "selKe": "不限",
       "years": [
         {
@@ -618,8 +591,8 @@
     {
       "schoolKey": "武昌工学院",
       "schoolCode": "4062",
-      "majorKey": "e11ed089",
-      "majorName": "通信工程（5G移动通信技术方向）",
+      "majorKey": "1c1ee3f7",
+      "majorName": "通信工程",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -678,8 +651,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "会计学（管理会计师方向）",
-      "majorKey": "4f0871bf",
+      "majorName": "会计学",
+      "majorKey": "8aa56116",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "22800",
@@ -687,11 +661,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 118715,
-      "equivRank": 118715
+      "equivRank": 118715,
+      "prevScore": 545
     },
     {
-      "majorName": "财务管理（大数据财务分析与决策方向）",
-      "majorKey": "ceb08101",
+      "majorName": "财务管理",
+      "majorKey": "8220c852",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "22000",
@@ -699,11 +675,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 119664,
-      "equivRank": 119664
+      "equivRank": 119664,
+      "prevScore": 544
     },
     {
-      "majorName": "工商管理（数字化运营方向）",
-      "majorKey": "4de2449e",
+      "majorName": "工商管理",
+      "majorKey": "07c28723",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "22000",
@@ -711,11 +689,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 124760,
-      "equivRank": 124760
+      "equivRank": 124760,
+      "prevScore": 540
     },
     {
       "majorName": "国际经济与贸易",
       "majorKey": "f8a1727e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "22000",
@@ -723,11 +703,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 125100,
-      "equivRank": 125100
+      "equivRank": 125100,
+      "prevScore": 540
     },
     {
       "majorName": "人力资源管理",
       "majorKey": "5a324641",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "22000",
@@ -735,11 +717,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 126460,
-      "equivRank": 126460
+      "equivRank": 126460,
+      "prevScore": 539
     },
     {
       "majorName": "电子商务",
       "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "22000",
@@ -747,11 +731,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 128638,
-      "equivRank": 128638
+      "equivRank": 128638,
+      "prevScore": 537
     },
     {
       "majorName": "学前教育",
       "majorKey": "97716b64",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "23000",
@@ -759,11 +745,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 128844,
-      "equivRank": 128844
+      "equivRank": 128844,
+      "prevScore": 537
     },
     {
       "majorName": "广告学",
       "majorKey": "e9c95a9c",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "22800",
@@ -771,11 +759,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 131647,
-      "equivRank": 131647
+      "equivRank": 131647,
+      "prevScore": 534
     },
     {
-      "majorName": "通信工程（5G移动通信技术方向）",
-      "majorKey": "e11ed089",
+      "majorName": "通信工程",
+      "majorKey": "1c1ee3f7",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "22000",
@@ -783,11 +773,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 177892,
-      "equivRank": 177892
+      "equivRank": 177892,
+      "prevScore": 495
     },
     {
-      "majorName": "机械设计制造及其自动化（高端智能制造装备技术方向）",
-      "majorKey": "da778c10",
+      "majorName": "机械设计制造及其自动化",
+      "majorKey": "55ff9da5",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "26000",
@@ -795,11 +787,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 180156,
-      "equivRank": 180156
+      "equivRank": 180156,
+      "prevScore": 493
     },
     {
       "majorName": "智能制造工程",
       "majorKey": "ed53a26b",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "22800",
@@ -807,11 +801,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 183014,
-      "equivRank": 183014
+      "equivRank": 183014,
+      "prevScore": 491
     },
     {
-      "majorName": "计算机科学与技术（智能数据与云计算方向）",
-      "majorKey": "625b27e9",
+      "majorName": "计算机科学与技术",
+      "majorKey": "1d486608",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "25800",
@@ -819,11 +815,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 183561,
-      "equivRank": 183561
+      "equivRank": 183561,
+      "prevScore": 490
     },
     {
       "majorName": "数据科学与大数据技术",
       "majorKey": "bb0a25bd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "22800",
@@ -831,11 +829,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 186576,
-      "equivRank": 186576
+      "equivRank": 186576,
+      "prevScore": 488
     },
     {
-      "majorName": "大数据管理与应用（数字科技实验班）",
-      "majorKey": "e8fa5d63",
+      "majorName": "大数据管理与应用",
+      "majorKey": "2079a63e",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 3,
       "tuition": "22800",
@@ -843,7 +843,8 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 189770,
-      "equivRank": 189770
+      "equivRank": 189770,
+      "prevScore": 485
     }
   ]
 }

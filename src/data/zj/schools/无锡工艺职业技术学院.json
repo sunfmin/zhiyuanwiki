@@ -379,22 +379,6 @@
         {
           "year": 2025,
           "track": "综合",
-          "minScore": 485,
-          "minRank": 189770,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "无锡工艺职业技术学院",
-      "schoolCode": "3321",
-      "majorKey": "34e17121",
-      "majorName": "眼视光技术（宜兴）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
           "minScore": 490,
           "minRank": 184372,
           "maxScore": 0
@@ -519,8 +503,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "眼视光技术（宜兴）",
-      "majorKey": "34e17121",
+      "majorName": "眼视光技术",
+      "majorKey": "85ace5eb",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "5300",
@@ -528,7 +513,8 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     }
   ]
 }

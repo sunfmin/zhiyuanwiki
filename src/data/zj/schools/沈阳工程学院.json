@@ -43,8 +43,8 @@
     {
       "schoolKey": "沈阳工程学院",
       "schoolCode": "2144",
-      "majorKey": "29d2db1d",
-      "majorName": "热能动力工程技术（中外合作办学）",
+      "majorKey": "c96581bb",
+      "majorName": "热能动力工程技术",
       "selKe": "不限",
       "years": [
         {
@@ -110,29 +110,6 @@
           "track": "综合",
           "minScore": 628,
           "minRank": 24766,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "沈阳工程学院",
-      "schoolCode": "2144",
-      "majorKey": "05b8e6d3",
-      "majorName": "电气工程及其自动化（中外合作办学）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 620,
-          "minRank": 33552,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 618,
-          "minRank": 33463,
           "maxScore": 0
         }
       ]
@@ -216,31 +193,22 @@
     {
       "majorName": "电气工程及其自动化",
       "majorKey": "45947d31",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "5200",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 24766,
-      "equivRank": 24766
-    },
-    {
-      "majorName": "电气工程及其自动化（中外合作办学）",
-      "majorKey": "05b8e6d3",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
+      "plan": 4,
       "tuition": "32000",
       "schooling": "四年",
       "menlei": "工",
       "coop": true,
       "prevYear": 2025,
-      "prevRank": 33463,
-      "equivRank": 33463
+      "prevRank": 24766,
+      "equivRank": 24766,
+      "prevScore": 628
     },
     {
       "majorName": "能源与动力工程",
       "majorKey": "34997647",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5200",
@@ -248,11 +216,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 68949,
-      "equivRank": 68949
+      "equivRank": 68949,
+      "prevScore": 585
     },
     {
       "majorName": "自动化",
       "majorKey": "da95770c",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5200",
@@ -260,11 +230,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 80002,
-      "equivRank": 80002
+      "equivRank": 80002,
+      "prevScore": 576
     },
     {
       "majorName": "核工程与核技术",
       "majorKey": "470379d7",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5200",
@@ -272,11 +244,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 93050,
-      "equivRank": 93050
+      "equivRank": 93050,
+      "prevScore": 565
     },
     {
-      "majorName": "热能动力工程技术（中外合作办学）",
-      "majorKey": "29d2db1d",
+      "majorName": "热能动力工程技术",
+      "majorKey": "c96581bb",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "22000",
@@ -285,7 +259,8 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     }
   ]
 }

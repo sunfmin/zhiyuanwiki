@@ -6,8 +6,8 @@
     {
       "schoolKey": "上饶师范学院",
       "schoolCode": "3654",
-      "majorKey": "0dfc12db",
-      "majorName": "化学（师范）",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
       "selKe": "物/化/技(3选1)",
       "years": [
         {
@@ -29,8 +29,8 @@
     {
       "schoolKey": "上饶师范学院",
       "schoolCode": "3654",
-      "majorKey": "4c5c8bc7",
-      "majorName": "历史学（师范）",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
       "selKe": "历史必选",
       "years": [
         {
@@ -98,8 +98,8 @@
     {
       "schoolKey": "上饶师范学院",
       "schoolCode": "3654",
-      "majorKey": "6e38b28d",
-      "majorName": "学前教育（师范）",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
       "selKe": "不限",
       "years": [
         {
@@ -114,8 +114,8 @@
     {
       "schoolKey": "上饶师范学院",
       "schoolCode": "3654",
-      "majorKey": "983355fa",
-      "majorName": "小学教育（师范）",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
       "selKe": "不限",
       "years": [
         {
@@ -146,8 +146,8 @@
     {
       "schoolKey": "上饶师范学院",
       "schoolCode": "3654",
-      "majorKey": "47452c2f",
-      "majorName": "思想政治教育（师范）",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
       "selKe": "历史、思想政治(2科必选)",
       "years": [
         {
@@ -183,8 +183,8 @@
     {
       "schoolKey": "上饶师范学院",
       "schoolCode": "3654",
-      "majorKey": "26d35d07",
-      "majorName": "教育技术学（师范）",
+      "majorKey": "3e2b336a",
+      "majorName": "教育技术学",
       "selKe": "物理必选",
       "years": [
         {
@@ -213,8 +213,8 @@
     {
       "schoolKey": "上饶师范学院",
       "schoolCode": "3654",
-      "majorKey": "9f802a9c",
-      "majorName": "数学与应用数学（师范）",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -310,8 +310,8 @@
     {
       "schoolKey": "上饶师范学院",
       "schoolCode": "3654",
-      "majorKey": "d7131091",
-      "majorName": "汉语言文学（师范）",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
       "selKe": "不限",
       "years": [
         {
@@ -363,8 +363,8 @@
     {
       "schoolKey": "上饶师范学院",
       "schoolCode": "3654",
-      "majorKey": "bec128cc",
-      "majorName": "物理学（师范）",
+      "majorKey": "653f630d",
+      "majorName": "物理学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -400,8 +400,8 @@
     {
       "schoolKey": "上饶师范学院",
       "schoolCode": "3654",
-      "majorKey": "dcc2e8ba",
-      "majorName": "环境科学（第一、二学年在主校区，第三学年起在弋阳校区）",
+      "majorKey": "37356fa4",
+      "majorName": "环境科学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -418,22 +418,6 @@
       "schoolCode": "3654",
       "majorKey": "e2472a71",
       "majorName": "生物科学",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 519,
-          "minRank": 149582,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "上饶师范学院",
-      "schoolCode": "3654",
-      "majorKey": "80353860",
-      "majorName": "生物科学（师范）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -455,6 +439,13 @@
           "track": "综合",
           "minScore": 488,
           "minRank": 181314,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 519,
+          "minRank": 149582,
           "maxScore": 0
         }
       ]
@@ -478,8 +469,8 @@
     {
       "schoolKey": "上饶师范学院",
       "schoolCode": "3654",
-      "majorKey": "fea3e248",
-      "majorName": "英语（师范）",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
       "selKe": "不限",
       "years": [
         {
@@ -515,8 +506,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "汉语言文学（师范）",
-      "majorKey": "d7131091",
+      "majorName": "汉语言文学",
+      "majorKey": "97bc5998",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "4010",
@@ -524,11 +516,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 73521,
-      "equivRank": 73521
+      "equivRank": 73521,
+      "prevScore": 582
     },
     {
-      "majorName": "思想政治教育（师范）",
-      "majorKey": "47452c2f",
+      "majorName": "思想政治教育",
+      "majorKey": "6a15bc12",
+      "track": "综合",
       "selKe": "历史、思想政治(2科必选)",
       "plan": 3,
       "tuition": "4270",
@@ -536,11 +530,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 77789,
-      "equivRank": 77789
+      "equivRank": 77789,
+      "prevScore": 578
     },
     {
       "majorName": "地理科学",
       "majorKey": "d061ae24",
+      "track": "综合",
       "selKe": "地理必选",
       "plan": 2,
       "tuition": "4530",
@@ -548,11 +544,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 78706,
-      "equivRank": 78706
+      "equivRank": 78706,
+      "prevScore": 577
     },
     {
-      "majorName": "历史学（师范）",
-      "majorKey": "4c5c8bc7",
+      "majorName": "历史学",
+      "majorKey": "c9800f2a",
+      "track": "综合",
       "selKe": "历史必选",
       "plan": 5,
       "tuition": "4010",
@@ -560,11 +558,13 @@
       "menlei": "史",
       "prevYear": 2025,
       "prevRank": 79431,
-      "equivRank": 79431
+      "equivRank": 79431,
+      "prevScore": 577
     },
     {
-      "majorName": "英语（师范）",
-      "majorKey": "fea3e248",
+      "majorName": "英语",
+      "majorKey": "49c5cdf9",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "4270",
@@ -572,11 +572,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 82441,
-      "equivRank": 82441
+      "equivRank": 82441,
+      "prevScore": 574
     },
     {
       "majorName": "国际经济与贸易",
       "majorKey": "f8a1727e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "4270",
@@ -584,11 +586,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 91728,
-      "equivRank": 91728
+      "equivRank": 91728,
+      "prevScore": 567
     },
     {
-      "majorName": "数学与应用数学（师范）",
-      "majorKey": "9f802a9c",
+      "majorName": "数学与应用数学",
+      "majorKey": "618fdffd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "4530",
@@ -596,11 +600,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 137895,
-      "equivRank": 137895
+      "equivRank": 137895,
+      "prevScore": 529
     },
     {
       "majorName": "数据科学与大数据技术",
       "majorKey": "bb0a25bd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "4790",
@@ -608,11 +614,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 142354,
-      "equivRank": 142354
+      "equivRank": 142354,
+      "prevScore": 525
     },
     {
-      "majorName": "教育技术学（师范）",
-      "majorKey": "26d35d07",
+      "majorName": "教育技术学",
+      "majorKey": "3e2b336a",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 4,
       "tuition": "4270",
@@ -620,11 +628,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 144896,
-      "equivRank": 144896
+      "equivRank": 144896,
+      "prevScore": 523
     },
     {
       "majorName": "数据计算及应用",
       "majorKey": "d5543eac",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "4530",
@@ -632,11 +642,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 145938,
-      "equivRank": 145938
+      "equivRank": 145938,
+      "prevScore": 522
     },
     {
-      "majorName": "物理学（师范）",
-      "majorKey": "bec128cc",
+      "majorName": "物理学",
+      "majorKey": "653f630d",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "4530",
@@ -644,11 +656,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 146279,
-      "equivRank": 146279
+      "equivRank": 146279,
+      "prevScore": 522
     },
     {
       "majorName": "生物科学",
       "majorKey": "e2472a71",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "4530",
@@ -656,11 +670,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 149582,
-      "equivRank": 149582
+      "equivRank": 149582,
+      "prevScore": 519
     },
     {
       "majorName": "应用化学",
       "majorKey": "25624660",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "4530",
@@ -668,11 +684,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 156410,
-      "equivRank": 156410
+      "equivRank": 156410,
+      "prevScore": 514
     },
     {
-      "majorName": "环境科学（第一、二学年在主校区，第三学年起在弋阳校区）",
-      "majorKey": "dcc2e8ba",
+      "majorName": "环境科学",
+      "majorKey": "37356fa4",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "4530",
@@ -680,7 +698,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 159553,
-      "equivRank": 159553
+      "equivRank": 159553,
+      "prevScore": 511
     }
   ]
 }

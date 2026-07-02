@@ -64,6 +64,13 @@
       "selKe": "不限",
       "years": [
         {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 495,
+          "minRank": 172414,
+          "maxScore": 0
+        },
+        {
           "year": 2023,
           "track": "综合",
           "minScore": 490,
@@ -75,22 +82,6 @@
           "track": "综合",
           "minScore": 498,
           "minRank": 171294,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "上海农林职业技术学院",
-      "schoolCode": "3141",
-      "majorKey": "55b84e73",
-      "majorName": "农产品加工与质量检测（高本贯通）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 495,
-          "minRank": 172414,
           "maxScore": 0
         },
         {
@@ -380,16 +371,7 @@
           "minScore": 507,
           "minRank": 160979,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "上海农林职业技术学院",
-      "schoolCode": "3141",
-      "majorKey": "890a9c8e",
-      "majorName": "软件技术（高本贯通）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -441,6 +423,7 @@
     {
       "majorName": "动物医学",
       "majorKey": "b3e5d67f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "2500",
@@ -448,11 +431,13 @@
       "menlei": "农",
       "prevYear": 2025,
       "prevRank": 138637,
-      "equivRank": 138637
+      "equivRank": 138637,
+      "prevScore": 529
     },
     {
-      "majorName": "软件技术（高本贯通）",
-      "majorKey": "890a9c8e",
+      "majorName": "软件技术",
+      "majorKey": "8000e20b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "7500",
@@ -460,11 +445,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 152097,
-      "equivRank": 152097
+      "equivRank": 152097,
+      "prevScore": 517
     },
     {
       "majorName": "宠物养护与驯导",
       "majorKey": "d8ae1597",
+      "track": "综合",
       "selKe": "不限",
       "plan": 8,
       "tuition": "2500",
@@ -472,11 +459,13 @@
       "menlei": "他",
       "prevYear": 2025,
       "prevRank": 163692,
-      "equivRank": 163692
+      "equivRank": 163692,
+      "prevScore": 508
     },
     {
-      "majorName": "农产品加工与质量检测（高本贯通）",
-      "majorKey": "55b84e73",
+      "majorName": "农产品加工与质量检测",
+      "majorKey": "70c2d65e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "2500",
@@ -484,11 +473,13 @@
       "menlei": "他",
       "prevYear": 2025,
       "prevRank": 167849,
-      "equivRank": 167849
+      "equivRank": 167849,
+      "prevScore": 504
     },
     {
       "majorName": "人工智能技术应用",
       "majorKey": "d722f594",
+      "track": "综合",
       "selKe": "不限",
       "plan": 15,
       "tuition": "7500",
@@ -496,11 +487,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "农业生物技术",
       "majorKey": "28aa4164",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "7500",
@@ -508,11 +501,13 @@
       "menlei": "农",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "花卉生产与花艺",
       "majorKey": "1e8a3022",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "2500",
@@ -520,11 +515,13 @@
       "menlei": "他",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "药品生物技术",
       "majorKey": "dac12382",
+      "track": "综合",
       "selKe": "不限",
       "plan": 15,
       "tuition": "7500",
@@ -532,11 +529,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "融媒体技术与运营",
       "majorKey": "b397e3f0",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "7500",
@@ -544,11 +543,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "物联网应用技术",
       "majorKey": "2f3bc529",
+      "track": "综合",
       "selKe": "不限",
       "plan": 12,
       "tuition": "7500",
@@ -556,11 +557,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 213914,
-      "equivRank": 213914
+      "equivRank": 213914,
+      "prevScore": 460
     },
     {
       "majorName": "风景园林设计",
       "majorKey": "21f190f4",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "7500",
@@ -568,11 +571,13 @@
       "menlei": "农",
       "prevYear": 2025,
       "prevRank": 223981,
-      "equivRank": 223981
+      "equivRank": 223981,
+      "prevScore": 448
     },
     {
       "majorName": "园林技术",
       "majorKey": "2a7bdc12",
+      "track": "综合",
       "selKe": "不限",
       "plan": 8,
       "tuition": "2500",
@@ -580,11 +585,13 @@
       "menlei": "农",
       "prevYear": 2025,
       "prevRank": 224734,
-      "equivRank": 224734
+      "equivRank": 224734,
+      "prevScore": 447
     },
     {
       "majorName": "环境工程技术",
       "majorKey": "48be6e41",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "7500",
@@ -592,7 +599,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 239016,
-      "equivRank": 239016
+      "equivRank": 239016,
+      "prevScore": 427
     }
   ]
 }

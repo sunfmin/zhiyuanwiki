@@ -30,16 +30,7 @@
           "minScore": 550,
           "minRank": 111059,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "湖北商贸学院",
-      "schoolCode": "4016",
-      "majorKey": "b79c7e58",
-      "majorName": "会计学（第一学年在咸宁校区，第二学年起在武汉校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -52,8 +43,8 @@
     {
       "schoolKey": "湖北商贸学院",
       "schoolCode": "4016",
-      "majorKey": "92bee8a0",
-      "majorName": "土木工程（BIM创新实验班）",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
       "selKe": "物理必选",
       "years": [
         {
@@ -101,32 +92,7 @@
           "minScore": 502,
           "minRank": 166780,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "湖北商贸学院",
-      "schoolCode": "4016",
-      "majorKey": "d35d9dd6",
-      "majorName": "工程造价（第一学年在咸宁校区，第二学年起在武汉校区。）",
-      "selKe": "物理必选",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 484,
-          "minRank": 190798,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "湖北商贸学院",
-      "schoolCode": "4016",
-      "majorKey": "fc51d279",
-      "majorName": "工程造价（第一学年在咸宁校区，第二学年起在武汉校区）",
-      "selKe": "物理必选",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -149,32 +115,7 @@
           "minScore": 504,
           "minRank": 164604,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "湖北商贸学院",
-      "schoolCode": "4016",
-      "majorKey": "b865c5ed",
-      "majorName": "电子信息工程（第一学年在咸宁校区，第二学年起在武汉校区。）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 489,
-          "minRank": 185464,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "湖北商贸学院",
-      "schoolCode": "4016",
-      "majorKey": "9415c33c",
-      "majorName": "电子信息工程（第一学年在咸宁校区，第二学年起在武汉校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -204,16 +145,7 @@
           "minScore": 542,
           "minRank": 120628,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "湖北商贸学院",
-      "schoolCode": "4016",
-      "majorKey": "b3fdd421",
-      "majorName": "金融学（第一学年在咸宁校区，第二学年起在武汉校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -226,8 +158,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "会计学（第一学年在咸宁校区，第二学年起在武汉校区）",
-      "majorKey": "b79c7e58",
+      "majorName": "会计学",
+      "majorKey": "8aa56116",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "22800",
@@ -235,11 +168,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 105187,
-      "equivRank": 105187
+      "equivRank": 105187,
+      "prevScore": 556
     },
     {
-      "majorName": "金融学（第一学年在咸宁校区，第二学年起在武汉校区）",
-      "majorKey": "b3fdd421",
+      "majorName": "金融学",
+      "majorKey": "5a699e63",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "22800",
@@ -247,11 +182,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 119995,
-      "equivRank": 119995
+      "equivRank": 119995,
+      "prevScore": 544
     },
     {
-      "majorName": "工程造价（第一学年在咸宁校区，第二学年起在武汉校区）",
-      "majorKey": "fc51d279",
+      "majorName": "工程造价",
+      "majorKey": "b8be11ab",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 2,
       "tuition": "21800",
@@ -259,11 +196,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
-      "majorName": "电子信息工程（第一学年在咸宁校区，第二学年起在武汉校区）",
-      "majorKey": "9415c33c",
+      "majorName": "电子信息工程",
+      "majorKey": "fd603692",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "21800",
@@ -271,7 +210,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     }
   ]
 }

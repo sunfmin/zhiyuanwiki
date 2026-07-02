@@ -16,16 +16,7 @@
           "minScore": 478,
           "minRank": 191624,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "邢台医学院",
-      "schoolCode": "1347",
-      "majorKey": "9f63062d",
-      "majorName": "临床医学（钢铁路校区）",
-      "selKe": "化学必选",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -48,21 +39,12 @@
           "minScore": 509,
           "minRank": 158450,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "邢台医学院",
-      "schoolCode": "1347",
-      "majorKey": "b18df518",
-      "majorName": "口腔医学技术（钢铁路校区。）",
-      "selKe": "化学必选",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
-          "minScore": 483,
-          "minRank": 191901,
+          "minScore": 497,
+          "minRank": 176102,
           "maxScore": 0
         }
       ]
@@ -70,8 +52,8 @@
     {
       "schoolKey": "邢台医学院",
       "schoolCode": "1347",
-      "majorKey": "73b1a81f",
-      "majorName": "口腔医学技术（钢铁路校区）",
+      "majorKey": "e849f952",
+      "majorName": "口腔医学技术",
       "selKe": "化学必选",
       "years": [
         {
@@ -79,22 +61,6 @@
           "track": "综合",
           "minScore": 490,
           "minRank": 184372,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "邢台医学院",
-      "schoolCode": "1347",
-      "majorKey": "ad7d992e",
-      "majorName": "口腔医学（钢铁路校区）",
-      "selKe": "化学必选",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 497,
-          "minRank": 176102,
           "maxScore": 0
         }
       ]
@@ -112,16 +78,7 @@
           "minScore": 508,
           "minRank": 159476,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "邢台医学院",
-      "schoolCode": "1347",
-      "majorKey": "cab8b36d",
-      "majorName": "护理（皇寺校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -144,16 +101,7 @@
           "minScore": 495,
           "minRank": 174832,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "邢台医学院",
-      "schoolCode": "1347",
-      "majorKey": "c763d2e6",
-      "majorName": "智慧健康养老服务与管理（皇寺校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -166,8 +114,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "护理（皇寺校区）",
-      "majorKey": "cab8b36d",
+      "majorName": "护理",
+      "majorKey": "a3db4652",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "5000",
@@ -175,11 +124,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 160437,
-      "equivRank": 160437
+      "equivRank": 160437,
+      "prevScore": 510
     },
     {
-      "majorName": "智慧健康养老服务与管理（皇寺校区）",
-      "majorKey": "c763d2e6",
+      "majorName": "智慧健康养老服务与管理",
+      "majorKey": "4c97ece5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "5000",
@@ -187,11 +138,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 172750,
-      "equivRank": 172750
+      "equivRank": 172750,
+      "prevScore": 500
     },
     {
-      "majorName": "口腔医学（钢铁路校区）",
-      "majorKey": "ad7d992e",
+      "majorName": "口腔医学",
+      "majorKey": "c162bced",
+      "track": "综合",
       "selKe": "化学必选",
       "plan": 7,
       "tuition": "5000",
@@ -199,11 +152,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 176102,
-      "equivRank": 176102
+      "equivRank": 176102,
+      "prevScore": 497
     },
     {
-      "majorName": "临床医学（钢铁路校区）",
-      "majorKey": "9f63062d",
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "综合",
       "selKe": "化学必选",
       "plan": 4,
       "tuition": "5000",
@@ -211,11 +166,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 180227,
-      "equivRank": 180227
+      "equivRank": 180227,
+      "prevScore": 493
     },
     {
-      "majorName": "口腔医学技术（钢铁路校区）",
-      "majorKey": "73b1a81f",
+      "majorName": "口腔医学技术",
+      "majorKey": "e849f952",
+      "track": "综合",
       "selKe": "化学必选",
       "plan": 5,
       "tuition": "5000",
@@ -223,7 +180,8 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     }
   ]
 }

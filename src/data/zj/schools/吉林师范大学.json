@@ -32,16 +32,7 @@
           "minScore": 538,
           "minRank": 124540,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "吉林师范大学",
-      "schoolCode": "2234",
-      "majorKey": "037fb85d",
-      "majorName": "微电子科学与工程（四平校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -71,16 +62,7 @@
           "minScore": 564,
           "minRank": 94916,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "吉林师范大学",
-      "schoolCode": "2234",
-      "majorKey": "88a70ca2",
-      "majorName": "德语（长春校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -93,8 +75,8 @@
     {
       "schoolKey": "吉林师范大学",
       "schoolCode": "2234",
-      "majorKey": "9f802a9c",
-      "majorName": "数学与应用数学（师范）",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -200,16 +182,7 @@
           "minScore": 595,
           "minRank": 59278,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "吉林师范大学",
-      "schoolCode": "2234",
-      "majorKey": "d472755c",
-      "majorName": "法学（四平校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -246,16 +219,7 @@
           "minScore": 487,
           "minRank": 182610,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "吉林师范大学",
-      "schoolCode": "2234",
-      "majorKey": "daded8c3",
-      "majorName": "环境科学（四平校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -291,8 +255,8 @@
     {
       "schoolKey": "吉林师范大学",
       "schoolCode": "2234",
-      "majorKey": "882ec7e1",
-      "majorName": "计算机科学与技术（师范）",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -345,16 +309,7 @@
           "minScore": 582,
           "minRank": 73901,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "吉林师范大学",
-      "schoolCode": "2234",
-      "majorKey": "9c33b145",
-      "majorName": "财务管理（四平校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -391,16 +346,7 @@
           "minScore": 574,
           "minRank": 82194,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "吉林师范大学",
-      "schoolCode": "2234",
-      "majorKey": "7d2b5ed8",
-      "majorName": "金融学（四平校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -413,8 +359,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "法学（四平校区）",
-      "majorKey": "d472755c",
+      "majorName": "法学",
+      "majorKey": "a1113a1f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4800",
@@ -422,11 +369,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 62756,
-      "equivRank": 62756
+      "equivRank": 62756,
+      "prevScore": 591
     },
     {
-      "majorName": "财务管理（四平校区）",
-      "majorKey": "9c33b145",
+      "majorName": "财务管理",
+      "majorKey": "8220c852",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "4800",
@@ -434,11 +383,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 78497,
-      "equivRank": 78497
+      "equivRank": 78497,
+      "prevScore": 578
     },
     {
-      "majorName": "金融学（四平校区）",
-      "majorKey": "7d2b5ed8",
+      "majorName": "金融学",
+      "majorKey": "5a699e63",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "4800",
@@ -446,11 +397,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 88308,
-      "equivRank": 88308
+      "equivRank": 88308,
+      "prevScore": 569
     },
     {
-      "majorName": "德语（长春校区）",
-      "majorKey": "88a70ca2",
+      "majorName": "德语",
+      "majorKey": "c3651db1",
+      "track": "综合",
       "selKe": "不限",
       "plan": 7,
       "tuition": "4600",
@@ -458,11 +411,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 94888,
-      "equivRank": 94888
+      "equivRank": 94888,
+      "prevScore": 564
     },
     {
-      "majorName": "数学与应用数学（师范）",
-      "majorKey": "9f802a9c",
+      "majorName": "数学与应用数学",
+      "majorKey": "618fdffd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "5500",
@@ -470,11 +425,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 109194,
-      "equivRank": 109194
+      "equivRank": 109194,
+      "prevScore": 552
     },
     {
-      "majorName": "微电子科学与工程（四平校区）",
-      "majorKey": "037fb85d",
+      "majorName": "微电子科学与工程",
+      "majorKey": "e063e51a",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5400",
@@ -482,11 +439,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 127017,
-      "equivRank": 127017
+      "equivRank": 127017,
+      "prevScore": 538
     },
     {
-      "majorName": "计算机科学与技术（师范）",
-      "majorKey": "882ec7e1",
+      "majorName": "计算机科学与技术",
+      "majorKey": "1d486608",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "5940",
@@ -494,11 +453,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 132648,
-      "equivRank": 132648
+      "equivRank": 132648,
+      "prevScore": 533
     },
     {
-      "majorName": "环境科学（四平校区）",
-      "majorKey": "daded8c3",
+      "majorName": "环境科学",
+      "majorKey": "37356fa4",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5940",
@@ -506,7 +467,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 158397,
-      "equivRank": 158397
+      "equivRank": 158397,
+      "prevScore": 512
     }
   ]
 }

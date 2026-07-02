@@ -6,8 +6,8 @@
     {
       "schoolKey": "浙江大学医学院",
       "schoolCode": "0259",
-      "majorKey": "740ebf85",
-      "majorName": "临床医学（5+3一体化培养）",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -18,97 +18,24 @@
           "maxScore": 0
         },
         {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 691,
-          "minRank": 876,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "浙江大学医学院",
-      "schoolCode": "0259",
-      "majorKey": "b8158f56",
-      "majorName": "临床医学（5+3一体化培养，儿科方向）",
-      "selKe": "化学、生物(2科必选)",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 670,
-          "minRank": 1956,
-          "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 681,
-          "minRank": 1842,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "浙江大学医学院",
-      "schoolCode": "0259",
-      "majorKey": "db6c560f",
-      "majorName": "临床医学（5+3一体化）",
-      "selKe": "化学、生物(2科必选)",
-      "years": [
-        {
           "year": 2023,
           "track": "综合",
           "minScore": 688,
           "minRank": 907,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "浙江大学医学院",
-      "schoolCode": "0259",
-      "majorKey": "9e686c10",
-      "majorName": "临床医学（5＋3一体化）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 691,
+          "minRank": 876,
+          "maxScore": 0
+        },
         {
           "year": 2025,
           "track": "综合",
           "minScore": 682,
           "minRank": 1245,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "浙江大学医学院",
-      "schoolCode": "0259",
-      "majorKey": "5894cc9e",
-      "majorName": "临床医学（儿科方向，5+3—体化）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 673,
-          "minRank": 2946,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "浙江大学医学院",
-      "schoolCode": "0259",
-      "majorKey": "6b55ccd2",
-      "majorName": "临床医学（儿科方向，5+3一体化培养）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 682,
-          "minRank": 2044,
           "maxScore": 0
         }
       ]
@@ -153,8 +80,8 @@
     {
       "schoolKey": "浙江大学医学院",
       "schoolCode": "0259",
-      "majorKey": "2169d2a4",
-      "majorName": "口腔医学（5+3一体化培养）",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -165,26 +92,17 @@
           "maxScore": 0
         },
         {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 685,
-          "minRank": 1564,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "浙江大学医学院",
-      "schoolCode": "0259",
-      "majorKey": "cda546aa",
-      "majorName": "口腔医学（5+3一体化）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
           "year": 2023,
           "track": "综合",
           "minScore": 684,
           "minRank": 1436,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 685,
+          "minRank": 1564,
           "maxScore": 0
         },
         {
@@ -273,20 +191,23 @@
   ],
   "plan2026": [
     {
-      "majorName": "临床医学（5＋3一体化）",
-      "majorKey": "9e686c10",
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
-      "plan": 18,
+      "plan": 26,
       "tuition": "6000",
       "schooling": "五年",
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 1245,
-      "equivRank": 1245
+      "equivRank": 1245,
+      "prevScore": 682
     },
     {
-      "majorName": "口腔医学（5+3一体化）",
-      "majorKey": "cda546aa",
+      "majorName": "口腔医学",
+      "majorKey": "c162bced",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 16,
       "tuition": "6000",
@@ -294,23 +215,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 2105,
-      "equivRank": 2105
-    },
-    {
-      "majorName": "临床医学（儿科方向，5+3—体化）",
-      "majorKey": "5894cc9e",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 8,
-      "tuition": "6000",
-      "schooling": "五年",
-      "menlei": "医",
-      "prevYear": 2025,
-      "prevRank": 2946,
-      "equivRank": 2946
+      "equivRank": 2105,
+      "prevScore": 677
     },
     {
       "majorName": "医学试验班类",
       "majorKey": "a191bc68",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 26,
       "tuition": "6000",
@@ -318,11 +229,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 2952,
-      "equivRank": 2952
+      "equivRank": 2952,
+      "prevScore": 673
     },
     {
       "majorName": "药学类",
       "majorKey": "41174006",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 50,
       "tuition": "6000",
@@ -330,11 +243,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 6001,
-      "equivRank": 6001
+      "equivRank": 6001,
+      "prevScore": 662
     },
     {
       "majorName": "预防医学",
       "majorKey": "1954d9c9",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 35,
       "tuition": "6000",
@@ -342,7 +257,8 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 7552,
-      "equivRank": 7552
+      "equivRank": 7552,
+      "prevScore": 658
     }
   ]
 }

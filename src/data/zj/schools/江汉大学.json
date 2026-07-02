@@ -52,8 +52,8 @@
     {
       "schoolKey": "江汉大学",
       "schoolCode": "4099",
-      "majorKey": "99d7673c",
-      "majorName": "计算机科学与技术（智能与软件实验班）",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -61,22 +61,6 @@
           "track": "综合",
           "minScore": 593,
           "minRank": 60037,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "江汉大学",
-      "schoolCode": "4099",
-      "majorKey": "41e8f7a4",
-      "majorName": "计算机科学与技术（美国北亚利桑那大学联合培养项目）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 565,
-          "minRank": 94042,
           "maxScore": 0
         }
       ]
@@ -123,6 +107,7 @@
     {
       "majorName": "会计学",
       "majorKey": "8aa56116",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "4000",
@@ -130,11 +115,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 51773,
-      "equivRank": 51773
+      "equivRank": 51773,
+      "prevScore": 600
     },
     {
       "majorName": "金融学",
       "majorKey": "5a699e63",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4000",
@@ -142,31 +129,22 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 59160,
-      "equivRank": 59160
+      "equivRank": 59160,
+      "prevScore": 594
     },
     {
-      "majorName": "计算机科学与技术（智能与软件实验班）",
-      "majorKey": "99d7673c",
+      "majorName": "计算机科学与技术",
+      "majorKey": "1d486608",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
-      "plan": 2,
+      "plan": 5,
       "tuition": "5200",
       "schooling": "四年",
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 60037,
-      "equivRank": 60037
-    },
-    {
-      "majorName": "计算机科学与技术（美国北亚利桑那大学联合培养项目）",
-      "majorKey": "41e8f7a4",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 3,
-      "tuition": "5200",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 94042,
-      "equivRank": 94042
+      "equivRank": 60037,
+      "prevScore": 593
     }
   ]
 }

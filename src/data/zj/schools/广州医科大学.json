@@ -30,16 +30,7 @@
           "minScore": 654,
           "minRank": 10701,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广州医科大学",
-      "schoolCode": "4422",
-      "majorKey": "0d54bfde",
-      "majorName": "临床医学（番禺校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -76,16 +67,7 @@
           "minScore": 607,
           "minRank": 46183,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广州医科大学",
-      "schoolCode": "4422",
-      "majorKey": "dd9119a4",
-      "majorName": "公共事业管理（番禺校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -158,8 +140,8 @@
     {
       "schoolKey": "广州医科大学",
       "schoolCode": "4422",
-      "majorKey": "777d4237",
-      "majorName": "康复作业治疗（番禺校区）",
+      "majorKey": "9347fbcd",
+      "majorName": "康复作业治疗",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -184,16 +166,7 @@
           "minScore": 609,
           "minRank": 44119,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广州医科大学",
-      "schoolCode": "4422",
-      "majorKey": "ad818c5c",
-      "majorName": "护理学（番禺校区）",
-      "selKe": "化学必选",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -216,16 +189,7 @@
           "minScore": 633,
           "minRank": 23128,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广州医科大学",
-      "schoolCode": "4422",
-      "majorKey": "354d15c5",
-      "majorName": "法学（番禺校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -238,8 +202,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "临床医学（番禺校区）",
-      "majorKey": "0d54bfde",
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "7656",
@@ -247,11 +212,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 14163,
-      "equivRank": 14163
+      "equivRank": 14163,
+      "prevScore": 644
     },
     {
-      "majorName": "法学（番禺校区）",
-      "majorKey": "354d15c5",
+      "majorName": "法学",
+      "majorKey": "a1113a1f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "5510",
@@ -259,11 +226,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 25265,
-      "equivRank": 25265
+      "equivRank": 25265,
+      "prevScore": 628
     },
     {
-      "majorName": "公共事业管理（番禺校区）",
-      "majorKey": "dd9119a4",
+      "majorName": "公共事业管理",
+      "majorKey": "30e8a552",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5510",
@@ -271,11 +240,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 44676,
-      "equivRank": 44676
+      "equivRank": 44676,
+      "prevScore": 607
     },
     {
-      "majorName": "护理学（番禺校区）",
-      "majorKey": "ad818c5c",
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "综合",
       "selKe": "化学必选",
       "plan": 1,
       "tuition": "6960",
@@ -283,11 +254,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 58253,
-      "equivRank": 58253
+      "equivRank": 58253,
+      "prevScore": 594
     },
     {
-      "majorName": "康复作业治疗（番禺校区）",
-      "majorKey": "777d4237",
+      "majorName": "康复作业治疗",
+      "majorKey": "9347fbcd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "7656",
@@ -295,7 +268,8 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 67181,
-      "equivRank": 67181
+      "equivRank": 67181,
+      "prevScore": 587
     }
   ]
 }

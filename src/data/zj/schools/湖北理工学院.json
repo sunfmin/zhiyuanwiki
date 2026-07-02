@@ -135,6 +135,13 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 544,
+          "minRank": 114371,
+          "maxScore": 0
+        },
+        {
           "year": 2023,
           "track": "综合",
           "minScore": 543,
@@ -153,22 +160,6 @@
           "track": "综合",
           "minScore": 532,
           "minRank": 133924,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "湖北理工学院",
-      "schoolCode": "4043",
-      "majorKey": "a6ef2a72",
-      "majorName": "环境工程（荆楚卓越计划）",
-      "selKe": "物理必选",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 544,
-          "minRank": 114371,
           "maxScore": 0
         }
       ]
@@ -223,16 +214,7 @@
           "minScore": 570,
           "minRank": 87335,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "湖北理工学院",
-      "schoolCode": "4043",
-      "majorKey": "17cb0928",
-      "majorName": "英语（要求高考英语成绩不低于90分）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -245,8 +227,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "英语（要求高考英语成绩不低于90分）",
-      "majorKey": "17cb0928",
+      "majorName": "英语",
+      "majorKey": "49c5cdf9",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5200",
@@ -254,11 +237,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 90542,
-      "equivRank": 90542
+      "equivRank": 90542,
+      "prevScore": 568
     },
     {
       "majorName": "临床医学",
       "majorKey": "618f7040",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5200",
@@ -266,11 +251,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 123835,
-      "equivRank": 123835
+      "equivRank": 123835,
+      "prevScore": 541
     },
     {
       "majorName": "新能源材料与器件",
       "majorKey": "35ec1f36",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4000",
@@ -278,11 +265,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 131555,
-      "equivRank": 131555
+      "equivRank": 131555,
+      "prevScore": 534
     },
     {
       "majorName": "环境工程",
       "majorKey": "7faf2092",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5200",
@@ -290,11 +279,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 133924,
-      "equivRank": 133924
+      "equivRank": 133924,
+      "prevScore": 532
     },
     {
       "majorName": "能源与环境系统工程",
       "majorKey": "c0c8480c",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4000",
@@ -302,7 +293,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 141258,
-      "equivRank": 141258
+      "equivRank": 141258,
+      "prevScore": 526
     }
   ]
 }

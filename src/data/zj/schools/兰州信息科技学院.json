@@ -77,8 +77,8 @@
     {
       "schoolKey": "兰州信息科技学院",
       "schoolCode": "6208",
-      "majorKey": "724469c4",
-      "majorName": "数据科学与大数据技术（智能信息方向）",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
       "selKe": "物理、技术(2科必选)",
       "years": [
         {
@@ -254,8 +254,8 @@
     {
       "schoolKey": "兰州信息科技学院",
       "schoolCode": "6208",
-      "majorKey": "2f7cd3fa",
-      "majorName": "英语（教育方向、商务方向）",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
       "selKe": "不限",
       "years": [
         {
@@ -324,16 +324,7 @@
           "minScore": 518,
           "minRank": 143037,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "兰州信息科技学院",
-      "schoolCode": "6208",
-      "majorKey": "e13935b4",
-      "majorName": "财务管理（数智财务方向）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2024,
           "track": "综合",
@@ -459,8 +450,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "财务管理（数智财务方向）",
-      "majorKey": "e13935b4",
+      "majorName": "财务管理",
+      "majorKey": "8220c852",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "22000",
@@ -468,11 +460,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 133556,
-      "equivRank": 133556
+      "equivRank": 133556,
+      "prevScore": 533
     },
     {
       "majorName": "电子信息工程",
       "majorKey": "fd603692",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "22800",
@@ -480,11 +474,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "电气工程及其自动化",
       "majorKey": "45947d31",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 9,
       "tuition": "22800",
@@ -492,11 +488,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "食品科学与工程",
       "majorKey": "7b7511cd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 6,
       "tuition": "22800",
@@ -504,11 +502,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "计算机科学与技术",
       "majorKey": "1d486608",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 6,
       "tuition": "20300",
@@ -516,11 +516,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 194962,
-      "equivRank": 194962
+      "equivRank": 194962,
+      "prevScore": 480
     },
     {
       "majorName": "机器人工程",
       "majorKey": "301e14e8",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "25800",
@@ -528,7 +530,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 198979,
-      "equivRank": 198979
+      "equivRank": 198979,
+      "prevScore": 476
     }
   ]
 }

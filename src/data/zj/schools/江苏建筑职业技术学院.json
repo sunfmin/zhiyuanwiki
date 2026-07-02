@@ -29,8 +29,8 @@
     {
       "schoolKey": "江苏建筑职业技术学院",
       "schoolCode": "3299",
-      "majorKey": "92957aae",
-      "majorName": "工业机器人技术（泉山校区。）",
+      "majorKey": "26a2bf3f",
+      "majorName": "工业机器人技术",
       "selKe": "不限",
       "years": [
         {
@@ -142,32 +142,7 @@
           "minScore": 494,
           "minRank": 172907,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "江苏建筑职业技术学院",
-      "schoolCode": "3299",
-      "majorKey": "d5bc4ab6",
-      "majorName": "新能源汽车技术（泉山校区。）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 485,
-          "minRank": 189770,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "江苏建筑职业技术学院",
-      "schoolCode": "3299",
-      "majorKey": "7a5aa2d9",
-      "majorName": "新能源汽车技术（泉山校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -238,32 +213,7 @@
           "minScore": 487,
           "minRank": 180650,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "江苏建筑职业技术学院",
-      "schoolCode": "3299",
-      "majorKey": "78555a3b",
-      "majorName": "给排水工程技术（泉山校区。）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 467,
-          "minRank": 207623,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "江苏建筑职业技术学院",
-      "schoolCode": "3299",
-      "majorKey": "ce2a3efe",
-      "majorName": "给排水工程技术（泉山校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -286,32 +236,7 @@
           "minScore": 457,
           "minRank": 210887,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "江苏建筑职业技术学院",
-      "schoolCode": "3299",
-      "majorKey": "cff7cd5f",
-      "majorName": "计算机网络技术（泉山校区。）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 465,
-          "minRank": 209501,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "江苏建筑职业技术学院",
-      "schoolCode": "3299",
-      "majorKey": "f8a8455a",
-      "majorName": "计算机网络技术（泉山校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -334,16 +259,7 @@
           "minScore": 467,
           "minRank": 201689,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "江苏建筑职业技术学院",
-      "schoolCode": "3299",
-      "majorKey": "d56b3b2a",
-      "majorName": "软件技术（泉山校区。）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -356,8 +272,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "新能源汽车技术（泉山校区）",
-      "majorKey": "7a5aa2d9",
+      "majorName": "新能源汽车技术",
+      "majorKey": "ccb39427",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "5300",
@@ -365,11 +282,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
-      "majorName": "给排水工程技术（泉山校区）",
-      "majorKey": "ce2a3efe",
+      "majorName": "给排水工程技术",
+      "majorKey": "a943b45c",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "5300",
@@ -377,11 +296,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
-      "majorName": "计算机网络技术（泉山校区）",
-      "majorKey": "f8a8455a",
+      "majorName": "计算机网络技术",
+      "majorKey": "547b1c20",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "5300",
@@ -389,25 +310,36 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
-      "majorName": "工业机器人技术（泉山校区）",
-      "majorKey": "b77d8501",
+      "majorName": "软件技术",
+      "majorKey": "8000e20b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "5300",
       "schooling": "三年",
-      "menlei": "工"
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 208543,
+      "equivRank": 208543,
+      "prevScore": 466
     },
     {
-      "majorName": "软件技术（泉山校区）",
-      "majorKey": "ce87ca45",
+      "majorName": "工业机器人技术",
+      "majorKey": "26a2bf3f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "5300",
       "schooling": "三年",
-      "menlei": "工"
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 214791,
+      "equivRank": 214791,
+      "prevScore": 459
     }
   ]
 }

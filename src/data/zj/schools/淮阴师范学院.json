@@ -23,16 +23,7 @@
           "minScore": 575,
           "minRank": 81460,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "淮阴师范学院",
-      "schoolCode": "3212",
-      "majorKey": "1691fd40",
-      "majorName": "广告学（长江路校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -55,16 +46,7 @@
           "minScore": 569,
           "minRank": 88857,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "淮阴师范学院",
-      "schoolCode": "3212",
-      "majorKey": "56d16473",
-      "majorName": "广播电视编导（长江路校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -77,8 +59,8 @@
     {
       "schoolKey": "淮阴师范学院",
       "schoolCode": "3212",
-      "majorKey": "9f802a9c",
-      "majorName": "数学与应用数学（师范）",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
       "selKe": "物理必选",
       "years": [
         {
@@ -110,16 +92,7 @@
           "minScore": 578,
           "minRank": 77924,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "淮阴师范学院",
-      "schoolCode": "3212",
-      "majorKey": "c8e6b4e3",
-      "majorName": "汉语国际教育（长江路校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -149,16 +122,7 @@
           "minScore": 588,
           "minRank": 66896,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "淮阴师范学院",
-      "schoolCode": "3212",
-      "majorKey": "e06b3e45",
-      "majorName": "法学（交通路校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -211,16 +175,7 @@
           "minScore": 583,
           "minRank": 72339,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "淮阴师范学院",
-      "schoolCode": "3212",
-      "majorKey": "044a9610",
-      "majorName": "知识产权（交通路校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -266,16 +221,7 @@
           "minScore": 576,
           "minRank": 79962,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "淮阴师范学院",
-      "schoolCode": "3212",
-      "majorKey": "296648c3",
-      "majorName": "经济与金融（交通路校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -288,8 +234,8 @@
     {
       "schoolKey": "淮阴师范学院",
       "schoolCode": "3212",
-      "majorKey": "fea3e248",
-      "majorName": "英语（师范）",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
       "selKe": "不限",
       "years": [
         {
@@ -304,8 +250,8 @@
     {
       "schoolKey": "淮阴师范学院",
       "schoolCode": "3212",
-      "majorKey": "afe16da8",
-      "majorName": "计算机科学与技术（嵌入式培养）",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
       "selKe": "物理必选",
       "years": [
         {
@@ -320,8 +266,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "法学（交通路校区）",
-      "majorKey": "e06b3e45",
+      "majorName": "法学",
+      "majorKey": "a1113a1f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "5200",
@@ -329,11 +276,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 70401,
-      "equivRank": 70401
+      "equivRank": 70401,
+      "prevScore": 584
     },
     {
-      "majorName": "知识产权（交通路校区）",
-      "majorKey": "044a9610",
+      "majorName": "知识产权",
+      "majorKey": "f3a3be38",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "5200",
@@ -341,11 +290,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 78053,
-      "equivRank": 78053
+      "equivRank": 78053,
+      "prevScore": 578
     },
     {
-      "majorName": "经济与金融（交通路校区）",
-      "majorKey": "296648c3",
+      "majorName": "经济与金融",
+      "majorKey": "8e6ea071",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "5200",
@@ -353,11 +304,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 84336,
-      "equivRank": 84336
+      "equivRank": 84336,
+      "prevScore": 573
     },
     {
-      "majorName": "汉语国际教育（长江路校区）",
-      "majorKey": "c8e6b4e3",
+      "majorName": "汉语国际教育",
+      "majorKey": "d2fbd5c5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "5200",
@@ -365,11 +318,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 86488,
-      "equivRank": 86488
+      "equivRank": 86488,
+      "prevScore": 571
     },
     {
-      "majorName": "广告学（长江路校区）",
-      "majorKey": "1691fd40",
+      "majorName": "广告学",
+      "majorKey": "e9c95a9c",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "5200",
@@ -377,11 +332,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 88183,
-      "equivRank": 88183
+      "equivRank": 88183,
+      "prevScore": 570
     },
     {
-      "majorName": "广播电视编导（长江路校区）",
-      "majorKey": "56d16473",
+      "majorName": "广播电视编导",
+      "majorKey": "b86f75b5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "6800",
@@ -389,7 +346,8 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 90860,
-      "equivRank": 90860
+      "equivRank": 90860,
+      "prevScore": 567
     }
   ]
 }

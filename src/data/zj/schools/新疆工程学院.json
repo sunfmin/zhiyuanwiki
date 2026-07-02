@@ -6,8 +6,8 @@
     {
       "schoolKey": "新疆工程学院",
       "schoolCode": "6506",
-      "majorKey": "2dfb79aa",
-      "majorName": "化工与制药类（南昌路校区。含化学工程与工艺、材料科学与工程、环境科学与工程专业。）",
+      "majorKey": "3d66465b",
+      "majorName": "化工与制药类",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -144,8 +144,8 @@
     {
       "schoolKey": "新疆工程学院",
       "schoolCode": "6506",
-      "majorKey": "986111fd",
-      "majorName": "无人驾驶航空器系统工程（航空产业校区）",
+      "majorKey": "58ed975f",
+      "majorName": "无人驾驶航空器系统工程",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -354,8 +354,8 @@
     {
       "schoolKey": "新疆工程学院",
       "schoolCode": "6506",
-      "majorKey": "e64e07a7",
-      "majorName": "空间信息与数字技术（航空产业校区。）",
+      "majorKey": "a930d118",
+      "majorName": "空间信息与数字技术",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -493,16 +493,7 @@
           "minScore": 505,
           "minRank": 163188,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "新疆工程学院",
-      "schoolCode": "6506",
-      "majorKey": "cfc79294",
-      "majorName": "飞行器运维工程（航空产业校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -515,8 +506,23 @@
   ],
   "plan2026": [
     {
+      "majorName": "空间信息与数字技术",
+      "majorKey": "a930d118",
+      "track": "综合",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "16000",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 154495,
+      "equivRank": 154495,
+      "prevScore": 516
+    },
+    {
       "majorName": "机械设计制造及其自动化",
       "majorKey": "55ff9da5",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "3500",
@@ -524,11 +530,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 154514,
-      "equivRank": 154514
+      "equivRank": 154514,
+      "prevScore": 515
     },
     {
       "majorName": "安全工程",
       "majorKey": "e16fbe20",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "3500",
@@ -536,11 +544,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 158030,
-      "equivRank": 158030
+      "equivRank": 158030,
+      "prevScore": 513
     },
     {
       "majorName": "自动化",
       "majorKey": "da95770c",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "3500",
@@ -548,11 +558,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 162490,
-      "equivRank": 162490
+      "equivRank": 162490,
+      "prevScore": 509
     },
     {
       "majorName": "机械电子工程",
       "majorKey": "4ef2a1b4",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "3500",
@@ -560,11 +572,27 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 163005,
-      "equivRank": 163005
+      "equivRank": 163005,
+      "prevScore": 508
+    },
+    {
+      "majorName": "化工与制药类",
+      "majorKey": "3d66465b",
+      "track": "综合",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 4,
+      "tuition": "3500",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 165101,
+      "equivRank": 165101,
+      "prevScore": 507
     },
     {
       "majorName": "物联网工程",
       "majorKey": "1da18825",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "8500",
@@ -572,11 +600,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 166701,
-      "equivRank": 166701
+      "equivRank": 166701,
+      "prevScore": 505
     },
     {
       "majorName": "通信工程",
       "majorKey": "1c1ee3f7",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "8500",
@@ -584,11 +614,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 168206,
-      "equivRank": 168206
+      "equivRank": 168206,
+      "prevScore": 504
     },
     {
       "majorName": "测控技术与仪器",
       "majorKey": "1bd76ba8",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "3500",
@@ -596,11 +628,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 170306,
-      "equivRank": 170306
+      "equivRank": 170306,
+      "prevScore": 502
     },
     {
-      "majorName": "飞行器运维工程（航空产业校区）",
-      "majorKey": "cfc79294",
+      "majorName": "飞行器运维工程",
+      "majorKey": "e5bdb392",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "16000",
@@ -608,11 +642,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 173479,
-      "equivRank": 173479
+      "equivRank": 173479,
+      "prevScore": 499
     },
     {
       "majorName": "消防工程",
       "majorKey": "6332a75d",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "3500",
@@ -620,11 +656,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 174593,
-      "equivRank": 174593
+      "equivRank": 174593,
+      "prevScore": 498
     },
     {
       "majorName": "土木工程",
       "majorKey": "320e7128",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "3500",
@@ -632,11 +670,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 176657,
-      "equivRank": 176657
+      "equivRank": 176657,
+      "prevScore": 496
     },
     {
       "majorName": "计算机科学与技术",
       "majorKey": "1d486608",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "3500",
@@ -644,11 +684,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 180120,
-      "equivRank": 180120
+      "equivRank": 180120,
+      "prevScore": 493
     },
     {
       "majorName": "智能建造",
       "majorKey": "2363aecb",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "3500",
@@ -656,11 +698,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 182467,
-      "equivRank": 182467
+      "equivRank": 182467,
+      "prevScore": 491
     },
     {
-      "majorName": "无人驾驶航空器系统工程（航空产业校区）",
-      "majorKey": "986111fd",
+      "majorName": "无人驾驶航空器系统工程",
+      "majorKey": "58ed975f",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "16000",
@@ -668,25 +712,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184098,
-      "equivRank": 184098
-    },
-    {
-      "majorName": "化工与制药类（南昌路校区。含化学工程与工艺、材料科学与工程、环境科学与工程专业）",
-      "majorKey": "0bb68ac5",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 4,
-      "tuition": "3500",
-      "schooling": "四年",
-      "menlei": "工"
-    },
-    {
-      "majorName": "空间信息与数字技术（航空产业校区）",
-      "majorKey": "e6896312",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "16000",
-      "schooling": "四年",
-      "menlei": "工"
+      "equivRank": 184098,
+      "prevScore": 490
     }
   ]
 }

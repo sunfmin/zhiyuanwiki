@@ -57,43 +57,6 @@
         {
           "year": 2024,
           "track": "综合",
-          "minScore": 487,
-          "minRank": 182470,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 526,
-          "minRank": 141178,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "辽宁科技大学",
-      "schoolCode": "2133",
-      "majorKey": "ec151324",
-      "majorName": "冶金工程（中外合作办学）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 534,
-          "minRank": 126978,
-          "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 534,
-          "minRank": 124691,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
           "minScore": 498,
           "minRank": 171304,
           "maxScore": 0
@@ -101,8 +64,8 @@
         {
           "year": 2025,
           "track": "综合",
-          "minScore": 505,
-          "minRank": 166288,
+          "minScore": 526,
+          "minRank": 141178,
           "maxScore": 0
         }
       ]
@@ -254,16 +217,7 @@
           "minScore": 541,
           "minRank": 121682,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "辽宁科技大学",
-      "schoolCode": "2133",
-      "majorKey": "dd0464c0",
-      "majorName": "数据科学与大数据技术（第三、四学年学费12700元/学年）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -505,16 +459,7 @@
           "minScore": 565,
           "minRank": 93027,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "辽宁科技大学",
-      "schoolCode": "2133",
-      "majorKey": "a8466a20",
-      "majorName": "软件工程（第三、四学年学费12700元/学年）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -564,8 +509,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "软件工程（第三、四学年学费12700元/学年）",
-      "majorKey": "a8466a20",
+      "majorName": "软件工程",
+      "majorKey": "0c33cbdd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4600",
@@ -573,11 +519,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 92533,
-      "equivRank": 92533
+      "equivRank": 92533,
+      "prevScore": 566
     },
     {
       "majorName": "电气工程及其自动化",
       "majorKey": "45947d31",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5200",
@@ -585,11 +533,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 95645,
-      "equivRank": 95645
+      "equivRank": 95645,
+      "prevScore": 563
     },
     {
       "majorName": "通信工程",
       "majorKey": "1c1ee3f7",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5200",
@@ -597,11 +547,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 106046,
-      "equivRank": 106046
+      "equivRank": 106046,
+      "prevScore": 555
     },
     {
       "majorName": "测控技术与仪器",
       "majorKey": "1bd76ba8",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5200",
@@ -609,11 +561,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 107101,
-      "equivRank": 107101
+      "equivRank": 107101,
+      "prevScore": 554
     },
     {
       "majorName": "机器人工程",
       "majorKey": "301e14e8",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5200",
@@ -621,11 +575,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 109498,
-      "equivRank": 109498
+      "equivRank": 109498,
+      "prevScore": 552
     },
     {
       "majorName": "储能科学与工程",
       "majorKey": "b308db6c",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5200",
@@ -633,11 +589,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 117945,
-      "equivRank": 117945
+      "equivRank": 117945,
+      "prevScore": 545
     },
     {
-      "majorName": "数据科学与大数据技术（第三、四学年学费12700元/学年）",
-      "majorKey": "dd0464c0",
+      "majorName": "数据科学与大数据技术",
+      "majorKey": "bb0a25bd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "4600",
@@ -645,11 +603,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 124247,
-      "equivRank": 124247
+      "equivRank": 124247,
+      "prevScore": 540
     },
     {
       "majorName": "材料成型及控制工程",
       "majorKey": "98867766",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5200",
@@ -657,11 +617,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 130282,
-      "equivRank": 130282
+      "equivRank": 130282,
+      "prevScore": 535
     },
     {
       "majorName": "工业设计",
       "majorKey": "fee47c1b",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5200",
@@ -669,23 +631,28 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 136510,
-      "equivRank": 136510
+      "equivRank": 136510,
+      "prevScore": 530
     },
     {
       "majorName": "冶金工程",
       "majorKey": "8a0736ce",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
-      "plan": 1,
-      "tuition": "5200",
+      "plan": 3,
+      "tuition": "35000",
       "schooling": "四年",
       "menlei": "工",
+      "coop": true,
       "prevYear": 2025,
       "prevRank": 141178,
-      "equivRank": 141178
+      "equivRank": 141178,
+      "prevScore": 526
     },
     {
       "majorName": "化学工程与工艺",
       "majorKey": "1f59c989",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5200",
@@ -693,11 +660,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 147425,
-      "equivRank": 147425
+      "equivRank": 147425,
+      "prevScore": 521
     },
     {
       "majorName": "生物工程",
       "majorKey": "14eeb10f",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5200",
@@ -705,11 +674,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 148912,
-      "equivRank": 148912
+      "equivRank": 148912,
+      "prevScore": 520
     },
     {
       "majorName": "土木工程",
       "majorKey": "320e7128",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5200",
@@ -717,20 +688,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 152894,
-      "equivRank": 152894
-    },
-    {
-      "majorName": "冶金工程（中外合作办学）",
-      "majorKey": "ec151324",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "35000",
-      "schooling": "四年",
-      "menlei": "工",
-      "coop": true,
-      "prevYear": 2025,
-      "prevRank": 166288,
-      "equivRank": 166288
+      "equivRank": 152894,
+      "prevScore": 517
     }
   ]
 }

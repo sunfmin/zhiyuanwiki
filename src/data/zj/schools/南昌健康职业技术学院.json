@@ -6,24 +6,8 @@
     {
       "schoolKey": "南昌健康职业技术学院",
       "schoolCode": "3812",
-      "majorKey": "1b2090d6",
-      "majorName": "中医康复技术（九龙湖校区。）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 475,
-          "minRank": 199963,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "南昌健康职业技术学院",
-      "schoolCode": "3812",
-      "majorKey": "6c0fcb79",
-      "majorName": "中医康复技术（九龙湖校区）",
+      "majorKey": "a13b0fe5",
+      "majorName": "中医康复技术",
       "selKe": "不限",
       "years": [
         {
@@ -38,24 +22,8 @@
     {
       "schoolKey": "南昌健康职业技术学院",
       "schoolCode": "3812",
-      "majorKey": "8af1b683",
-      "majorName": "中药学（九龙湖校区。）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 481,
-          "minRank": 193949,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "南昌健康职业技术学院",
-      "schoolCode": "3812",
-      "majorKey": "9548cdf6",
-      "majorName": "中药学（九龙湖校区）",
+      "majorKey": "f9504a0c",
+      "majorName": "中药学",
       "selKe": "不限",
       "years": [
         {
@@ -70,8 +38,8 @@
     {
       "schoolKey": "南昌健康职业技术学院",
       "schoolCode": "3812",
-      "majorKey": "74cd41b5",
-      "majorName": "护理（九龙湖校区。）",
+      "majorKey": "a3db4652",
+      "majorName": "护理",
       "selKe": "不限",
       "years": [
         {
@@ -86,8 +54,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "中医康复技术（九龙湖校区）",
-      "majorKey": "6c0fcb79",
+      "majorName": "中医康复技术",
+      "majorKey": "a13b0fe5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "5000",
@@ -95,11 +64,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
-      "majorName": "中药学（九龙湖校区）",
-      "majorKey": "9548cdf6",
+      "majorName": "中药学",
+      "majorKey": "f9504a0c",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "5000",
@@ -107,16 +78,22 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
-      "majorName": "护理（九龙湖校区）",
-      "majorKey": "23983254",
+      "majorName": "护理",
+      "majorKey": "a3db4652",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "5000",
       "schooling": "三年",
-      "menlei": "医"
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 204772,
+      "equivRank": 204772,
+      "prevScore": 470
     }
   ]
 }

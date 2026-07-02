@@ -6,8 +6,8 @@
     {
       "schoolKey": "河南开封科技传媒学院",
       "schoolCode": "4207",
-      "majorKey": "3a0882f4",
-      "majorName": "商务英语（金明大道校区）",
+      "majorKey": "4428fd77",
+      "majorName": "商务英语",
       "selKe": "不限",
       "years": [
         {
@@ -48,16 +48,7 @@
           "minScore": 527,
           "minRank": 137384,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "河南开封科技传媒学院",
-      "schoolCode": "4207",
-      "majorKey": "2c03a078",
-      "majorName": "广播电视编导（金明大道校区。授予艺术学学士学位）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -70,8 +61,8 @@
     {
       "schoolKey": "河南开封科技传媒学院",
       "schoolCode": "4207",
-      "majorKey": "c445b89d",
-      "majorName": "影视技术（金明大道校区。授予艺术学学士学位）",
+      "majorKey": "913de9bc",
+      "majorName": "影视技术",
       "selKe": "不限",
       "years": [
         {
@@ -110,16 +101,7 @@
           "minScore": 500,
           "minRank": 169413,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "河南开封科技传媒学院",
-      "schoolCode": "4207",
-      "majorKey": "719f426d",
-      "majorName": "护理学（金明大道校区）",
-      "selKe": "化学必选",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -132,8 +114,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "广播电视编导（金明大道校区。授予艺术学学士学位）",
-      "majorKey": "2c03a078",
+      "majorName": "广播电视编导",
+      "majorKey": "b86f75b5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "17000",
@@ -141,11 +124,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 121293,
-      "equivRank": 121293
+      "equivRank": 121293,
+      "prevScore": 543
     },
     {
-      "majorName": "商务英语（金明大道校区）",
-      "majorKey": "3a0882f4",
+      "majorName": "商务英语",
+      "majorKey": "4428fd77",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "15000",
@@ -153,11 +138,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 127677,
-      "equivRank": 127677
+      "equivRank": 127677,
+      "prevScore": 538
     },
     {
-      "majorName": "影视技术（金明大道校区。授予艺术学学士学位）",
-      "majorKey": "c445b89d",
+      "majorName": "影视技术",
+      "majorKey": "913de9bc",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "17000",
@@ -165,11 +152,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 128939,
-      "equivRank": 128939
+      "equivRank": 128939,
+      "prevScore": 536
     },
     {
-      "majorName": "护理学（金明大道校区）",
-      "majorKey": "719f426d",
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "综合",
       "selKe": "化学必选",
       "plan": 10,
       "tuition": "17000",
@@ -177,7 +166,8 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 161773,
-      "equivRank": 161773
+      "equivRank": 161773,
+      "prevScore": 509
     }
   ]
 }

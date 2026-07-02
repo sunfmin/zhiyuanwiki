@@ -16,16 +16,7 @@
           "minScore": 445,
           "minRank": 220344,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "周口职业技术学院",
-      "schoolCode": "4271",
-      "majorKey": "3492c85a",
-      "majorName": "中医康复技术（文昌校区。）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -55,16 +46,7 @@
           "minScore": 470,
           "minRank": 192935,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "周口职业技术学院",
-      "schoolCode": "4271",
-      "majorKey": "32b5878f",
-      "majorName": "医学影像技术（文昌校区。）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -77,8 +59,8 @@
     {
       "schoolKey": "周口职业技术学院",
       "schoolCode": "4271",
-      "majorKey": "6e38b28d",
-      "majorName": "学前教育（师范）",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
       "selKe": "不限",
       "years": [
         {
@@ -110,16 +92,7 @@
           "minScore": 445,
           "minRank": 219809,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "周口职业技术学院",
-      "schoolCode": "4271",
-      "majorKey": "6935adc8",
-      "majorName": "康复治疗技术（文昌校区。）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -156,16 +129,7 @@
           "minScore": 453,
           "minRank": 214136,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "周口职业技术学院",
-      "schoolCode": "4271",
-      "majorKey": "a67a5047",
-      "majorName": "护理（文昌校区。）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -178,40 +142,60 @@
   ],
   "plan2026": [
     {
-      "majorName": "中医康复技术（文昌校区）",
-      "majorKey": "40a3abd5",
+      "majorName": "医学影像技术",
+      "majorKey": "11fef64a",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "4800",
       "schooling": "三年",
-      "menlei": "医"
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 229313,
+      "equivRank": 229313,
+      "prevScore": 441
     },
     {
-      "majorName": "医学影像技术（文昌校区）",
-      "majorKey": "761d742a",
+      "majorName": "康复治疗技术",
+      "majorKey": "4fab0557",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "4800",
       "schooling": "三年",
-      "menlei": "医"
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 232172,
+      "equivRank": 232172,
+      "prevScore": 437
     },
     {
-      "majorName": "康复治疗技术（文昌校区）",
-      "majorKey": "829cdbaf",
+      "majorName": "中医康复技术",
+      "majorKey": "a13b0fe5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "4800",
       "schooling": "三年",
-      "menlei": "医"
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 233553,
+      "equivRank": 233553,
+      "prevScore": 435
     },
     {
-      "majorName": "护理（文昌校区）",
-      "majorKey": "050b35b2",
+      "majorName": "护理",
+      "majorKey": "a3db4652",
+      "track": "综合",
       "selKe": "不限",
       "plan": 30,
       "tuition": "4800",
       "schooling": "三年",
-      "menlei": "医"
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 235618,
+      "equivRank": 235618,
+      "prevScore": 432
     }
   ]
 }

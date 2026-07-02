@@ -30,16 +30,7 @@
           "minScore": 612,
           "minRank": 40880,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广东金融学院",
-      "schoolCode": "4408",
-      "majorKey": "5d2c132b",
-      "majorName": "会计学（第一、二学年在肇庆校区，第三学年起在广州校本部）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -76,16 +67,7 @@
           "minScore": 594,
           "minRank": 60027,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广东金融学院",
-      "schoolCode": "4408",
-      "majorKey": "f1dea51e",
-      "majorName": "商务英语（第一、二学年在清远校区，第三学年起在广州校本部）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -122,16 +104,7 @@
           "minScore": 608,
           "minRank": 44784,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广东金融学院",
-      "schoolCode": "4408",
-      "majorKey": "b92cbe6f",
-      "majorName": "审计学（第一、二学年在肇庆校区，第三学年起在广州校本部）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -144,8 +117,8 @@
     {
       "schoolKey": "广东金融学院",
       "schoolCode": "4408",
-      "majorKey": "8d3bb906",
-      "majorName": "数字经济（第一、二学年在清远校区，第三学年起在广州校本部）",
+      "majorKey": "ca37000f",
+      "majorName": "数字经济",
       "selKe": "物理必选",
       "years": [
         {
@@ -160,8 +133,8 @@
     {
       "schoolKey": "广东金融学院",
       "schoolCode": "4408",
-      "majorKey": "b1bf0fd8",
-      "majorName": "数据科学与大数据技术（第一、二学年在清远校区，第三学年起在广州校本部）",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -208,8 +181,8 @@
     {
       "schoolKey": "广东金融学院",
       "schoolCode": "4408",
-      "majorKey": "cfefcb6c",
-      "majorName": "经济与金融（第一、二学年在清远校区，第三学年起在广州校本部）",
+      "majorKey": "8e6ea071",
+      "majorName": "经济与金融",
       "selKe": "物理必选",
       "years": [
         {
@@ -280,16 +253,7 @@
           "minScore": 594,
           "minRank": 60406,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广东金融学院",
-      "schoolCode": "4408",
-      "majorKey": "d9a959f8",
-      "majorName": "软件工程（第一、二学年在清远校区，第三学年起在广州校本部）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -326,32 +290,7 @@
           "minScore": 609,
           "minRank": 44410,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广东金融学院",
-      "schoolCode": "4408",
-      "majorKey": "6d12dc11",
-      "majorName": "金融学（2+2，国际班）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 587,
-          "minRank": 67492,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广东金融学院",
-      "schoolCode": "4408",
-      "majorKey": "49118bea",
-      "majorName": "金融学（第一、二学年在清远校区，第三学年起在广州校本部）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -380,8 +319,8 @@
     {
       "schoolKey": "广东金融学院",
       "schoolCode": "4408",
-      "majorKey": "8e28446f",
-      "majorName": "金融数学（第一、二学年在清远校区，第三学年起在广州校本部）",
+      "majorKey": "fcd46a8c",
+      "majorName": "金融数学",
       "selKe": "物理必选",
       "years": [
         {
@@ -396,8 +335,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "数据科学与大数据技术（第一、二学年在清远校区，第三学年起在广州校本部）",
-      "majorKey": "b1bf0fd8",
+      "majorName": "数据科学与大数据技术",
+      "majorKey": "bb0a25bd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5710",
@@ -405,11 +345,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 36871,
-      "equivRank": 36871
+      "equivRank": 36871,
+      "prevScore": 614
     },
     {
-      "majorName": "会计学（第一、二学年在肇庆校区，第三学年起在广州校本部）",
-      "majorKey": "5d2c132b",
+      "majorName": "会计学",
+      "majorKey": "8aa56116",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5050",
@@ -417,11 +359,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 41555,
-      "equivRank": 41555
+      "equivRank": 41555,
+      "prevScore": 610
     },
     {
-      "majorName": "审计学（第一、二学年在肇庆校区，第三学年起在广州校本部）",
-      "majorKey": "b92cbe6f",
+      "majorName": "审计学",
+      "majorKey": "87f6e6a2",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "5050",
@@ -429,11 +373,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 42174,
-      "equivRank": 42174
+      "equivRank": 42174,
+      "prevScore": 609
     },
     {
       "majorName": "法学",
       "majorKey": "a1113a1f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "5050",
@@ -441,23 +387,27 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 43709,
-      "equivRank": 43709
+      "equivRank": 43709,
+      "prevScore": 608
     },
     {
-      "majorName": "金融学（第一、二学年在清远校区，第三学年起在广州校本部）",
-      "majorKey": "49118bea",
+      "majorName": "金融学",
+      "majorKey": "5a699e63",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 3,
+      "plan": 4,
       "tuition": "5050",
       "schooling": "四年",
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 53308,
-      "equivRank": 53308
+      "equivRank": 53308,
+      "prevScore": 599
     },
     {
       "majorName": "网络与新媒体",
       "majorKey": "fff04889",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "5050",
@@ -465,11 +415,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 59962,
-      "equivRank": 59962
+      "equivRank": 59962,
+      "prevScore": 593
     },
     {
-      "majorName": "软件工程（第一、二学年在清远校区，第三学年起在广州校本部）",
-      "majorKey": "d9a959f8",
+      "majorName": "软件工程",
+      "majorKey": "0c33cbdd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5710",
@@ -477,11 +429,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 62366,
-      "equivRank": 62366
+      "equivRank": 62366,
+      "prevScore": 591
     },
     {
-      "majorName": "商务英语（第一、二学年在清远校区，第三学年起在广州校本部）",
-      "majorKey": "f1dea51e",
+      "majorName": "商务英语",
+      "majorKey": "4428fd77",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "5710",
@@ -489,11 +443,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 62505,
-      "equivRank": 62505
+      "equivRank": 62505,
+      "prevScore": 591
     },
     {
-      "majorName": "金融数学（第一、二学年在清远校区，第三学年起在广州校本部）",
-      "majorKey": "8e28446f",
+      "majorName": "金融数学",
+      "majorKey": "fcd46a8c",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 1,
       "tuition": "5050",
@@ -501,23 +457,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 63729,
-      "equivRank": 63729
+      "equivRank": 63729,
+      "prevScore": 590
     },
     {
-      "majorName": "金融学（2+2，国际班）",
-      "majorKey": "6d12dc11",
-      "selKe": "不限",
-      "plan": 1,
-      "tuition": "5050",
-      "schooling": "四年",
-      "menlei": "经",
-      "prevYear": 2025,
-      "prevRank": 67492,
-      "equivRank": 67492
-    },
-    {
-      "majorName": "数字经济（第一、二学年在清远校区，第三学年起在广州校本部）",
-      "majorKey": "8d3bb906",
+      "majorName": "数字经济",
+      "majorKey": "ca37000f",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 1,
       "tuition": "5050",
@@ -525,11 +471,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 83736,
-      "equivRank": 83736
+      "equivRank": 83736,
+      "prevScore": 573
     },
     {
-      "majorName": "经济与金融（第一、二学年在清远校区，第三学年起在广州校本部）",
-      "majorKey": "cfefcb6c",
+      "majorName": "经济与金融",
+      "majorKey": "8e6ea071",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 1,
       "tuition": "5050",
@@ -537,7 +485,8 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 86913,
-      "equivRank": 86913
+      "equivRank": 86913,
+      "prevScore": 571
     }
   ]
 }

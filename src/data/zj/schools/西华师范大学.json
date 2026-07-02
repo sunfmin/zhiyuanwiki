@@ -36,8 +36,8 @@
     {
       "schoolKey": "西华师范大学",
       "schoolCode": "5140",
-      "majorKey": "4c5c8bc7",
-      "majorName": "历史学（师范）",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
       "selKe": "不限",
       "years": [
         {
@@ -169,8 +169,8 @@
     {
       "schoolKey": "西华师范大学",
       "schoolCode": "5140",
-      "majorKey": "bec128cc",
-      "majorName": "物理学（师范）",
+      "majorKey": "653f630d",
+      "majorName": "物理学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -263,8 +263,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "历史学（师范）",
-      "majorKey": "4c5c8bc7",
+      "majorName": "历史学",
+      "majorKey": "c9800f2a",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "4800",
@@ -272,11 +273,13 @@
       "menlei": "史",
       "prevYear": 2025,
       "prevRank": 58275,
-      "equivRank": 58275
+      "equivRank": 58275,
+      "prevScore": 594
     },
     {
       "majorName": "会计学",
       "majorKey": "8aa56116",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "5760",
@@ -284,11 +287,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 70821,
-      "equivRank": 70821
+      "equivRank": 70821,
+      "prevScore": 584
     },
     {
       "majorName": "商务英语",
       "majorKey": "4428fd77",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "5760",
@@ -296,11 +301,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 86620,
-      "equivRank": 86620
+      "equivRank": 86620,
+      "prevScore": 571
     },
     {
-      "majorName": "物理学（师范）",
-      "majorKey": "bec128cc",
+      "majorName": "物理学",
+      "majorKey": "653f630d",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "6240",
@@ -308,11 +315,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 132667,
-      "equivRank": 132667
+      "equivRank": 132667,
+      "prevScore": 533
     },
     {
       "majorName": "应用化学",
       "majorKey": "25624660",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "6240",
@@ -320,7 +329,8 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 157043,
-      "equivRank": 157043
+      "equivRank": 157043,
+      "prevScore": 513
     }
   ]
 }

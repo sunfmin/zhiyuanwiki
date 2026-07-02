@@ -6,8 +6,8 @@
     {
       "schoolKey": "平顶山学院",
       "schoolCode": "4265",
-      "majorKey": "61e41b0c",
-      "majorName": "广播电视编导（湖滨校区）",
+      "majorKey": "b86f75b5",
+      "majorName": "广播电视编导",
       "selKe": "不限",
       "years": [
         {
@@ -62,16 +62,7 @@
           "minScore": 507,
           "minRank": 160436,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "平顶山学院",
-      "schoolCode": "4265",
-      "majorKey": "c054c87c",
-      "majorName": "物联网工程（湖滨校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -84,8 +75,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "广播电视编导（湖滨校区）",
-      "majorKey": "61e41b0c",
+      "majorName": "广播电视编导",
+      "majorKey": "b86f75b5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "8000",
@@ -93,11 +85,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 101607,
-      "equivRank": 101607
+      "equivRank": 101607,
+      "prevScore": 559
     },
     {
-      "majorName": "物联网工程（湖滨校区）",
-      "majorKey": "c054c87c",
+      "majorName": "物联网工程",
+      "majorKey": "1da18825",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "5000",
@@ -105,7 +99,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 154668,
-      "equivRank": 154668
+      "equivRank": 154668,
+      "prevScore": 515
     }
   ]
 }

@@ -16,16 +16,7 @@
           "minScore": 440,
           "minRank": 217591,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "吉林司法警官职业学院",
-      "schoolCode": "2236",
-      "majorKey": "3e6cfe0a",
-      "majorName": "安全防范技术（合隆校区。）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -62,32 +53,7 @@
           "minScore": 458,
           "minRank": 209627,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "吉林司法警官职业学院",
-      "schoolCode": "2236",
-      "majorKey": "7c0590ea",
-      "majorName": "法律事务（合隆校区。）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 453,
-          "minRank": 219976,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "吉林司法警官职业学院",
-      "schoolCode": "2236",
-      "majorKey": "3c600305",
-      "majorName": "法律事务（合隆校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -124,16 +90,7 @@
           "minScore": 444,
           "minRank": 220804,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "吉林司法警官职业学院",
-      "schoolCode": "2236",
-      "majorKey": "1ec8cdb8",
-      "majorName": "法律文秘（合隆校区。）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -162,8 +119,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "法律事务（合隆校区）",
-      "majorKey": "3c600305",
+      "majorName": "法律事务",
+      "majorKey": "3540b7d8",
+      "track": "综合",
       "selKe": "不限",
       "plan": 20,
       "tuition": "4000",
@@ -171,25 +129,36 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
-      "majorName": "安全防范技术（合隆校区）",
-      "majorKey": "aa030f25",
+      "majorName": "安全防范技术",
+      "majorKey": "24824f38",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "4000",
       "schooling": "三年",
-      "menlei": "工"
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 227812,
+      "equivRank": 227812,
+      "prevScore": 443
     },
     {
-      "majorName": "法律文秘（合隆校区）",
-      "majorKey": "b1deef3f",
+      "majorName": "法律文秘",
+      "majorKey": "bb135b12",
+      "track": "综合",
       "selKe": "不限",
       "plan": 20,
       "tuition": "4000",
       "schooling": "三年",
-      "menlei": "法"
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevRank": 232172,
+      "equivRank": 232172,
+      "prevScore": 437
     }
   ]
 }

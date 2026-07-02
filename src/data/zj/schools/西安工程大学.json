@@ -126,22 +126,6 @@
         {
           "year": 2025,
           "track": "综合",
-          "minScore": 570,
-          "minRank": 87760,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "西安工程大学",
-      "schoolCode": "6119",
-      "majorKey": "6b1e445f",
-      "majorName": "服装设计与工程（卓越班）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
           "minScore": 577,
           "minRank": 79392,
           "maxScore": 0
@@ -241,8 +225,8 @@
     {
       "schoolKey": "西安工程大学",
       "schoolCode": "6119",
-      "majorKey": "ce76b901",
-      "majorName": "纺织工程（卓越班）",
+      "majorKey": "262ecb48",
+      "majorName": "纺织工程",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -363,22 +347,6 @@
         {
           "year": 2025,
           "track": "综合",
-          "minScore": 527,
-          "minRank": 140014,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "西安工程大学",
-      "schoolCode": "6119",
-      "majorKey": "8c0ac942",
-      "majorName": "轻化工程（卓越班）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
           "minScore": 542,
           "minRank": 121589,
           "maxScore": 0
@@ -404,32 +372,23 @@
   ],
   "plan2026": [
     {
-      "majorName": "服装设计与工程（卓越班）",
-      "majorKey": "6b1e445f",
+      "majorName": "服装设计与工程",
+      "majorKey": "90cd213e",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 2,
+      "plan": 7,
       "tuition": "6480",
       "schooling": "四年",
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 79392,
-      "equivRank": 79392
-    },
-    {
-      "majorName": "服装设计与工程",
-      "majorKey": "90cd213e",
-      "selKe": "不限",
-      "plan": 5,
-      "tuition": "6480",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 87760,
-      "equivRank": 87760
+      "equivRank": 79392,
+      "prevScore": 577
     },
     {
       "majorName": "广播电视编导",
       "majorKey": "b86f75b5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "14000",
@@ -437,23 +396,27 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 91788,
-      "equivRank": 91788
+      "equivRank": 91788,
+      "prevScore": 567
     },
     {
-      "majorName": "轻化工程（卓越班）",
-      "majorKey": "8c0ac942",
+      "majorName": "轻化工程",
+      "majorKey": "d4e859f9",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
-      "plan": 2,
+      "plan": 5,
       "tuition": "6480",
       "schooling": "四年",
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 121589,
-      "equivRank": 121589
+      "equivRank": 121589,
+      "prevScore": 542
     },
     {
-      "majorName": "纺织工程（卓越班）",
-      "majorKey": "ce76b901",
+      "majorName": "纺织工程",
+      "majorKey": "262ecb48",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "6480",
@@ -461,11 +424,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 130971,
-      "equivRank": 130971
+      "equivRank": 130971,
+      "prevScore": 535
     },
     {
       "majorName": "纺织类",
       "majorKey": "8f0d419e",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "6480",
@@ -473,19 +438,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 135878,
-      "equivRank": 135878
-    },
-    {
-      "majorName": "轻化工程",
-      "majorKey": "d4e859f9",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 3,
-      "tuition": "6480",
-      "schooling": "四年",
-      "menlei": "工",
-      "prevYear": 2025,
-      "prevRank": 140014,
-      "equivRank": 140014
+      "equivRank": 135878,
+      "prevScore": 531
     }
   ]
 }

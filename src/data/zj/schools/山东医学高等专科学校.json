@@ -30,16 +30,7 @@
           "minScore": 556,
           "minRank": 104141,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "山东医学高等专科学校",
-      "schoolCode": "3755",
-      "majorKey": "0cf8c049",
-      "majorName": "临床医学（临沂校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -76,16 +67,7 @@
           "minScore": 534,
           "minRank": 130151,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "山东医学高等专科学校",
-      "schoolCode": "3755",
-      "majorKey": "5936fead",
-      "majorName": "医学影像技术（济南校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -122,16 +104,7 @@
           "minScore": 546,
           "minRank": 115513,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "山东医学高等专科学校",
-      "schoolCode": "3755",
-      "majorKey": "9d4e9fd3",
-      "majorName": "医学检验技术（临沂校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -146,22 +119,6 @@
       "schoolCode": "3755",
       "majorKey": "c162bced",
       "majorName": "口腔医学",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 535,
-          "minRank": 123270,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "山东医学高等专科学校",
-      "schoolCode": "3755",
-      "majorKey": "276834e4",
-      "majorName": "口腔医学（临沂校区）",
       "selKe": "不限",
       "years": [
         {
@@ -197,43 +154,6 @@
     {
       "schoolKey": "山东医学高等专科学校",
       "schoolCode": "3755",
-      "majorKey": "6b756452",
-      "majorName": "口腔医学（济南校区）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 550,
-          "minRank": 107199,
-          "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 549,
-          "minRank": 107561,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 563,
-          "minRank": 95753,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 554,
-          "minRank": 107148,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "山东医学高等专科学校",
-      "schoolCode": "3755",
       "majorKey": "4fab0557",
       "majorName": "康复治疗技术",
       "selKe": "不限",
@@ -258,16 +178,7 @@
           "minScore": 541,
           "minRank": 121607,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "山东医学高等专科学校",
-      "schoolCode": "3755",
-      "majorKey": "cdaffbe8",
-      "majorName": "康复治疗技术（济南校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -304,16 +215,7 @@
           "minScore": 583,
           "minRank": 72437,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "山东医学高等专科学校",
-      "schoolCode": "3755",
-      "majorKey": "23ac9198",
-      "majorName": "药学（临沂校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -350,16 +252,7 @@
           "minScore": 536,
           "minRank": 127376,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "山东医学高等专科学校",
-      "schoolCode": "3755",
-      "majorKey": "ebccc230",
-      "majorName": "预防医学（临沂校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -372,20 +265,23 @@
   ],
   "plan2026": [
     {
-      "majorName": "口腔医学（临沂校区）",
-      "majorKey": "276834e4",
+      "majorName": "口腔医学",
+      "majorKey": "c162bced",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 1,
+      "plan": 2,
       "tuition": "6000",
       "schooling": "三年",
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 95974,
-      "equivRank": 95974
+      "equivRank": 95974,
+      "prevScore": 563
     },
     {
-      "majorName": "医学检验技术（临沂校区）",
-      "majorKey": "9d4e9fd3",
+      "majorName": "医学检验技术",
+      "majorKey": "f106fa76",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "6900",
@@ -393,11 +289,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 102092,
-      "equivRank": 102092
+      "equivRank": 102092,
+      "prevScore": 558
     },
     {
-      "majorName": "药学（临沂校区）",
-      "majorKey": "23ac9198",
+      "majorName": "药学",
+      "majorKey": "e9e6a481",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "6000",
@@ -405,23 +303,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 107125,
-      "equivRank": 107125
+      "equivRank": 107125,
+      "prevScore": 554
     },
     {
-      "majorName": "口腔医学（济南校区）",
-      "majorKey": "6b756452",
-      "selKe": "不限",
-      "plan": 1,
-      "tuition": "6000",
-      "schooling": "三年",
-      "menlei": "医",
-      "prevYear": 2025,
-      "prevRank": 107148,
-      "equivRank": 107148
-    },
-    {
-      "majorName": "临床医学（临沂校区）",
-      "majorKey": "0cf8c049",
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "6900",
@@ -429,11 +317,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 110240,
-      "equivRank": 110240
+      "equivRank": 110240,
+      "prevScore": 552
     },
     {
-      "majorName": "预防医学（临沂校区）",
-      "majorKey": "ebccc230",
+      "majorName": "预防医学",
+      "majorKey": "1954d9c9",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "6900",
@@ -441,11 +331,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 112112,
-      "equivRank": 112112
+      "equivRank": 112112,
+      "prevScore": 550
     },
     {
-      "majorName": "医学影像技术（济南校区）",
-      "majorKey": "5936fead",
+      "majorName": "医学影像技术",
+      "majorKey": "11fef64a",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "6600",
@@ -453,11 +345,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 126114,
-      "equivRank": 126114
+      "equivRank": 126114,
+      "prevScore": 539
     },
     {
-      "majorName": "康复治疗技术（济南校区）",
-      "majorKey": "cdaffbe8",
+      "majorName": "康复治疗技术",
+      "majorKey": "4fab0557",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "6900",
@@ -465,7 +359,8 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 128615,
-      "equivRank": 128615
+      "equivRank": 128615,
+      "prevScore": 537
     }
   ]
 }

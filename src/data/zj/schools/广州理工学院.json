@@ -6,8 +6,8 @@
     {
       "schoolKey": "广州理工学院",
       "schoolCode": "4481",
-      "majorKey": "7bf44d6c",
-      "majorName": "人工智能（第一学年在惠州校区，第二学年起在广州校区。）",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -22,8 +22,8 @@
     {
       "schoolKey": "广州理工学院",
       "schoolCode": "4481",
-      "majorKey": "86aec463",
-      "majorName": "会计学（第一、二学年在惠州校区，第三学年起在广州校区）",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
       "selKe": "不限",
       "years": [
         {
@@ -38,8 +38,8 @@
     {
       "schoolKey": "广州理工学院",
       "schoolCode": "4481",
-      "majorKey": "b79494ce",
-      "majorName": "小学教育（第一、二学年在惠州校区，第三学年起在广州校区）",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
       "selKe": "不限",
       "years": [
         {
@@ -54,8 +54,8 @@
     {
       "schoolKey": "广州理工学院",
       "schoolCode": "4481",
-      "majorKey": "29905740",
-      "majorName": "数据科学与大数据技术（第一学年在惠州校区，第二学年起在广州校区。）",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -70,8 +70,8 @@
     {
       "schoolKey": "广州理工学院",
       "schoolCode": "4481",
-      "majorKey": "47098be9",
-      "majorName": "汉语言文学（第一、二学年在惠州校区，第三学年起在广州校区）",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
       "selKe": "不限",
       "years": [
         {
@@ -86,8 +86,8 @@
     {
       "schoolKey": "广州理工学院",
       "schoolCode": "4481",
-      "majorKey": "9cbe676e",
-      "majorName": "电子商务（第一、二学年在惠州校区，第三学年起在广州校区）",
+      "majorKey": "0b52f20f",
+      "majorName": "电子商务",
       "selKe": "不限",
       "years": [
         {
@@ -102,8 +102,8 @@
     {
       "schoolKey": "广州理工学院",
       "schoolCode": "4481",
-      "majorKey": "6a8b2bd3",
-      "majorName": "电气工程及其自动化（第一学年在惠州校区，第二学年起在广州校区）",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -118,8 +118,8 @@
     {
       "schoolKey": "广州理工学院",
       "schoolCode": "4481",
-      "majorKey": "1e88ff12",
-      "majorName": "计算机科学与技术（第一学年在惠州校区，第二学年起在广州校区）",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -134,24 +134,8 @@
     {
       "schoolKey": "广州理工学院",
       "schoolCode": "4481",
-      "majorKey": "87231160",
-      "majorName": "软件工程（第一学年在惠州校区，第二学年起在广州校区。）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 487,
-          "minRank": 187636,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广州理工学院",
-      "schoolCode": "4481",
-      "majorKey": "dc621717",
-      "majorName": "软件工程（第一学年在惠州校区，第二学年起在广州校区）",
+      "majorKey": "0c33cbdd",
+      "majorName": "软件工程",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -166,8 +150,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "会计学（第一、二学年在惠州校区，第三学年起在广州校区）",
-      "majorKey": "86aec463",
+      "majorName": "会计学",
+      "majorKey": "8aa56116",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "33300",
@@ -175,11 +160,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 117199,
-      "equivRank": 117199
+      "equivRank": 117199,
+      "prevScore": 546
     },
     {
-      "majorName": "汉语言文学（第一、二学年在惠州校区，第三学年起在广州校区）",
-      "majorKey": "47098be9",
+      "majorName": "汉语言文学",
+      "majorKey": "97bc5998",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "33300",
@@ -187,11 +174,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 117386,
-      "equivRank": 117386
+      "equivRank": 117386,
+      "prevScore": 546
     },
     {
-      "majorName": "电子商务（第一、二学年在惠州校区，第三学年起在广州校区）",
-      "majorKey": "9cbe676e",
+      "majorName": "电子商务",
+      "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "32300",
@@ -199,11 +188,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 129895,
-      "equivRank": 129895
+      "equivRank": 129895,
+      "prevScore": 536
     },
     {
-      "majorName": "小学教育（第一、二学年在惠州校区，第三学年起在广州校区）",
-      "majorKey": "b79494ce",
+      "majorName": "小学教育",
+      "majorKey": "c240892f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "33300",
@@ -211,11 +202,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 133083,
-      "equivRank": 133083
+      "equivRank": 133083,
+      "prevScore": 533
     },
     {
-      "majorName": "电气工程及其自动化（第一学年在惠州校区，第二学年起在广州校区）",
-      "majorKey": "6a8b2bd3",
+      "majorName": "电气工程及其自动化",
+      "majorKey": "45947d31",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "33300",
@@ -223,11 +216,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 173694,
-      "equivRank": 173694
+      "equivRank": 173694,
+      "prevScore": 499
     },
     {
-      "majorName": "计算机科学与技术（第一学年在惠州校区，第二学年起在广州校区）",
-      "majorKey": "1e88ff12",
+      "majorName": "计算机科学与技术",
+      "majorKey": "1d486608",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "33300",
@@ -235,11 +230,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 179585,
-      "equivRank": 179585
+      "equivRank": 179585,
+      "prevScore": 494
     },
     {
-      "majorName": "软件工程（第一学年在惠州校区，第二学年起在广州校区）",
-      "majorKey": "dc621717",
+      "majorName": "软件工程",
+      "majorKey": "0c33cbdd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "33300",
@@ -247,25 +244,36 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
-      "majorName": "人工智能（第一学年在惠州校区，第二学年起在广州校区）",
-      "majorKey": "0ccdaf9b",
+      "majorName": "数据科学与大数据技术",
+      "majorKey": "bb0a25bd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "33300",
       "schooling": "四年",
-      "menlei": "工"
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 191901,
+      "equivRank": 191901,
+      "prevScore": 483
     },
     {
-      "majorName": "数据科学与大数据技术（第学年在惠州校区，第二学年起在广州校区）",
-      "majorKey": "891faeb1",
+      "majorName": "人工智能",
+      "majorKey": "2fec4169",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "33300",
       "schooling": "四年",
-      "menlei": "工"
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 192932,
+      "equivRank": 192932,
+      "prevScore": 482
     }
   ]
 }

@@ -6,6 +6,36 @@
     {
       "schoolKey": "黔南民族师范学院",
       "schoolCode": "5219",
+      "majorKey": "d061ae24",
+      "majorName": "地理科学",
+      "selKe": "地理必选",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 559,
+          "minRank": 96632,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 576,
+          "minRank": 80193,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 567,
+          "minRank": 91819,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "黔南民族师范学院",
+      "schoolCode": "5219",
       "majorKey": "da4cc459",
       "majorName": "地理科学类",
       "selKe": "地理必选",
@@ -22,47 +52,8 @@
     {
       "schoolKey": "黔南民族师范学院",
       "schoolCode": "5219",
-      "majorKey": "198d794d",
-      "majorName": "地理科学（师范）",
-      "selKe": "地理必选",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 559,
-          "minRank": 96632,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 576,
-          "minRank": 80193,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "黔南民族师范学院",
-      "schoolCode": "5219",
-      "majorKey": "7a4becdb",
-      "majorName": "地理科学（都匀）",
-      "selKe": "地理必选",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 567,
-          "minRank": 91819,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "黔南民族师范学院",
-      "schoolCode": "5219",
-      "majorKey": "6e38b28d",
-      "majorName": "学前教育（师范）",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
       "selKe": "不限",
       "years": [
         {
@@ -85,16 +76,7 @@
           "minScore": 572,
           "minRank": 84640,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "黔南民族师范学院",
-      "schoolCode": "5219",
-      "majorKey": "7177f51b",
-      "majorName": "学前教育（都匀）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -107,8 +89,8 @@
     {
       "schoolKey": "黔南民族师范学院",
       "schoolCode": "5219",
-      "majorKey": "d7131091",
-      "majorName": "汉语言文学（师范）",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
       "selKe": "不限",
       "years": [
         {
@@ -131,16 +113,7 @@
           "minScore": 580,
           "minRank": 75238,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "黔南民族师范学院",
-      "schoolCode": "5219",
-      "majorKey": "79432767",
-      "majorName": "汉语言文学（都匀）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -153,8 +126,8 @@
     {
       "schoolKey": "黔南民族师范学院",
       "schoolCode": "5219",
-      "majorKey": "bec128cc",
-      "majorName": "物理学（师范）",
+      "majorKey": "653f630d",
+      "majorName": "物理学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -177,16 +150,7 @@
           "minScore": 486,
           "minRank": 184162,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "黔南民族师范学院",
-      "schoolCode": "5219",
-      "majorKey": "9f74930e",
-      "majorName": "物理学（都匀）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -199,8 +163,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "汉语言文学（都匀）",
-      "majorKey": "79432767",
+      "majorName": "汉语言文学",
+      "majorKey": "97bc5998",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "4100",
@@ -208,11 +173,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 84695,
-      "equivRank": 84695
+      "equivRank": 84695,
+      "prevScore": 572
     },
     {
-      "majorName": "地理科学（都匀）",
-      "majorKey": "7a4becdb",
+      "majorName": "地理科学",
+      "majorKey": "d061ae24",
+      "track": "综合",
       "selKe": "地理必选",
       "plan": 1,
       "tuition": "4200",
@@ -220,11 +187,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 91819,
-      "equivRank": 91819
+      "equivRank": 91819,
+      "prevScore": 567
     },
     {
-      "majorName": "学前教育（都匀）",
-      "majorKey": "7177f51b",
+      "majorName": "学前教育",
+      "majorKey": "97716b64",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "4100",
@@ -232,11 +201,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 100617,
-      "equivRank": 100617
+      "equivRank": 100617,
+      "prevScore": 559
     },
     {
-      "majorName": "物理学（都匀）",
-      "majorKey": "9f74930e",
+      "majorName": "物理学",
+      "majorKey": "653f630d",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "4200",
@@ -244,7 +215,8 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 174813,
-      "equivRank": 174813
+      "equivRank": 174813,
+      "prevScore": 498
     }
   ]
 }

@@ -121,22 +121,6 @@
           "maxScore": 0
         },
         {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 372,
-          "minRank": 267094,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "江西科技职业学院",
-      "schoolCode": "3658",
-      "majorKey": "13d3126a",
-      "majorName": "学前教育（中外合作办学）",
-      "selKe": "不限",
-      "years": [
-        {
           "year": 2023,
           "track": "综合",
           "minScore": 309,
@@ -148,6 +132,13 @@
           "track": "综合",
           "minScore": 297,
           "minRank": 276442,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 372,
+          "minRank": 267094,
           "maxScore": 0
         }
       ]
@@ -215,29 +206,6 @@
           "maxScore": 0
         },
         {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 428,
-          "minRank": 238373,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "江西科技职业学院",
-      "schoolCode": "3658",
-      "majorKey": "56144c88",
-      "majorName": "护理（中外合作办学）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 378,
-          "minRank": 250652,
-          "maxScore": 0
-        },
-        {
           "year": 2023,
           "track": "综合",
           "minScore": 365,
@@ -249,6 +217,13 @@
           "track": "综合",
           "minScore": 354,
           "minRank": 265486,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 428,
+          "minRank": 238373,
           "maxScore": 0
         }
       ]
@@ -325,22 +300,6 @@
       "selKe": "不限",
       "years": [
         {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 389,
-          "minRank": 259978,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "江西科技职业学院",
-      "schoolCode": "3658",
-      "majorKey": "f929df01",
-      "majorName": "电子商务（中外合作办学）",
-      "selKe": "不限",
-      "years": [
-        {
           "year": 2022,
           "track": "综合",
           "minScore": 328,
@@ -359,6 +318,13 @@
           "track": "综合",
           "minScore": 311,
           "minRank": 274477,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 389,
+          "minRank": 259978,
           "maxScore": 0
         }
       ]
@@ -405,8 +371,8 @@
     {
       "schoolKey": "江西科技职业学院",
       "schoolCode": "3658",
-      "majorKey": "a5400213",
-      "majorName": "空中乘务（中外合作办学）",
+      "majorKey": "e19c4c71",
+      "majorName": "空中乘务",
       "selKe": "不限",
       "years": [
         {
@@ -455,6 +421,7 @@
     {
       "majorName": "护理",
       "majorKey": "a3db4652",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "10229",
@@ -462,11 +429,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 238373,
-      "equivRank": 238373
+      "equivRank": 238373,
+      "prevScore": 428
     },
     {
       "majorName": "人工智能技术应用",
       "majorKey": "d722f594",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "10003",
@@ -474,11 +443,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 247511,
-      "equivRank": 247511
+      "equivRank": 247511,
+      "prevScore": 413
     },
     {
       "majorName": "城市轨道交通工程技术",
       "majorKey": "f1940e2b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "9848",
@@ -486,11 +457,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 249217,
-      "equivRank": 249217
+      "equivRank": 249217,
+      "prevScore": 410
     },
     {
       "majorName": "电气自动化技术",
       "majorKey": "4f34e927",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "9879",
@@ -498,11 +471,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 249784,
-      "equivRank": 249784
+      "equivRank": 249784,
+      "prevScore": 409
     },
     {
       "majorName": "中医养生保健",
       "majorKey": "c7b12bea",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "9869",
@@ -510,11 +485,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 250301,
-      "equivRank": 250301
+      "equivRank": 250301,
+      "prevScore": 408
     },
     {
       "majorName": "城市轨道交通运营管理",
       "majorKey": "15ce9058",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "9848",
@@ -522,11 +499,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 250301,
-      "equivRank": 250301
+      "equivRank": 250301,
+      "prevScore": 408
     },
     {
       "majorName": "康复治疗技术",
       "majorKey": "4fab0557",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "9869",
@@ -534,11 +513,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 250871,
-      "equivRank": 250871
+      "equivRank": 250871,
+      "prevScore": 407
     },
     {
       "majorName": "城市轨道交通通信信号技术",
       "majorKey": "d3edaf70",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "9848",
@@ -546,11 +527,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 252525,
-      "equivRank": 252525
+      "equivRank": 252525,
+      "prevScore": 404
     },
     {
       "majorName": "老年保健与管理",
       "majorKey": "9140b2cc",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "9869",
@@ -558,11 +541,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 254556,
-      "equivRank": 254556
+      "equivRank": 254556,
+      "prevScore": 400
     },
     {
       "majorName": "工业机器人技术",
       "majorKey": "26a2bf3f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "9879",
@@ -570,11 +555,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 256075,
-      "equivRank": 256075
+      "equivRank": 256075,
+      "prevScore": 397
     },
     {
       "majorName": "康复辅助器具技术",
       "majorKey": "d6fbce6a",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "9869",
@@ -582,11 +569,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 256075,
-      "equivRank": 256075
+      "equivRank": 256075,
+      "prevScore": 397
     },
     {
       "majorName": "机械设计与制造",
       "majorKey": "087361ae",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "9879",
@@ -594,11 +583,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 257072,
-      "equivRank": 257072
+      "equivRank": 257072,
+      "prevScore": 395
     },
     {
       "majorName": "电子商务",
       "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "9887",
@@ -606,11 +597,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 259978,
-      "equivRank": 259978
+      "equivRank": 259978,
+      "prevScore": 389
     },
     {
       "majorName": "物联网应用技术",
       "majorKey": "2f3bc529",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "10003",
@@ -618,11 +611,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 263831,
-      "equivRank": 263831
+      "equivRank": 263831,
+      "prevScore": 380
     },
     {
       "majorName": "大数据技术",
       "majorKey": "a0b9e84e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "10003",
@@ -630,11 +625,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 266301,
-      "equivRank": 266301
+      "equivRank": 266301,
+      "prevScore": 374
     },
     {
       "majorName": "学前教育",
       "majorKey": "97716b64",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "10317",
@@ -642,11 +639,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 267094,
-      "equivRank": 267094
+      "equivRank": 267094,
+      "prevScore": 372
     },
     {
       "majorName": "智能交通技术",
       "majorKey": "bb6bae0a",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "9848",
@@ -654,11 +653,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 267852,
-      "equivRank": 267852
+      "equivRank": 267852,
+      "prevScore": 370
     },
     {
       "majorName": "电子竞技运动与管理",
       "majorKey": "358dfe5a",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "16000",
@@ -666,17 +667,23 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 274079,
-      "equivRank": 274079
+      "equivRank": 274079,
+      "prevScore": 351
     },
     {
-      "majorName": "空中乘务（中外合作办学项目，具体培养模式和学习费用请查看学校网站）",
-      "majorKey": "c8c37d8c",
+      "majorName": "空中乘务",
+      "majorKey": "e19c4c71",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "16000",
       "schooling": "三年",
       "menlei": "他",
-      "coop": true
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 279463,
+      "equivRank": 279463,
+      "prevScore": 329
     }
   ]
 }

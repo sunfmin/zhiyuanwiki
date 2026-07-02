@@ -30,16 +30,7 @@
           "minScore": 453,
           "minRank": 214030,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广东南华工商职业学院",
-      "schoolCode": "4430",
-      "majorKey": "cc98fdbe",
-      "majorName": "国际经济与贸易（清远校区。）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -76,16 +67,7 @@
           "minScore": 497,
           "minRank": 172190,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广东南华工商职业学院",
-      "schoolCode": "4430",
-      "majorKey": "1bfc12a5",
-      "majorName": "大数据与会计（清远校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -98,8 +80,8 @@
     {
       "schoolKey": "广东南华工商职业学院",
       "schoolCode": "4430",
-      "majorKey": "4f42b5ee",
-      "majorName": "婴幼儿托育服务与管理（清远校区。）",
+      "majorKey": "e66c684e",
+      "majorName": "婴幼儿托育服务与管理",
       "selKe": "不限",
       "years": [
         {
@@ -174,8 +156,8 @@
     {
       "schoolKey": "广东南华工商职业学院",
       "schoolCode": "4430",
-      "majorKey": "78c2459b",
-      "majorName": "建设工程管理（清远校区。）",
+      "majorKey": "69243991",
+      "majorName": "建设工程管理",
       "selKe": "不限",
       "years": [
         {
@@ -190,24 +172,8 @@
     {
       "schoolKey": "广东南华工商职业学院",
       "schoolCode": "4430",
-      "majorKey": "49406452",
-      "majorName": "旅游管理（清远校区。）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 409,
-          "minRank": 249784,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广东南华工商职业学院",
-      "schoolCode": "4430",
-      "majorKey": "9b07d03d",
-      "majorName": "旅游管理（清远校区）",
+      "majorKey": "ec77cae2",
+      "majorName": "旅游管理",
       "selKe": "不限",
       "years": [
         {
@@ -275,8 +241,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "大数据与会计（清远校区）",
-      "majorKey": "1bfc12a5",
+      "majorName": "大数据与会计",
+      "majorKey": "49f153aa",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "5250",
@@ -284,11 +251,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 176806,
-      "equivRank": 176806
+      "equivRank": 176806,
+      "prevScore": 496
     },
     {
-      "majorName": "旅游管理（清远校区）",
-      "majorKey": "9b07d03d",
+      "majorName": "旅游管理",
+      "majorKey": "ec77cae2",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "5250",
@@ -296,34 +265,50 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
-      "majorName": "国际经济与贸易（清远校区）",
-      "majorKey": "d5dd6231",
+      "majorName": "国际经济与贸易",
+      "majorKey": "f8a1727e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "5250",
       "schooling": "三年",
-      "menlei": "经"
+      "menlei": "经",
+      "prevYear": 2025,
+      "prevRank": 201929,
+      "equivRank": 201929,
+      "prevScore": 473
     },
     {
-      "majorName": "婴幼儿托育服务与管理（清远校区）",
-      "majorKey": "b4f7f741",
-      "selKe": "不限",
-      "plan": 5,
-      "tuition": "5250",
-      "schooling": "三年",
-      "menlei": "管"
-    },
-    {
-      "majorName": "建设工程管理（清远校区）",
-      "majorKey": "696664de",
+      "majorName": "建设工程管理",
+      "majorKey": "69243991",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "6410",
       "schooling": "三年",
-      "menlei": "管"
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 233553,
+      "equivRank": 233553,
+      "prevScore": 435
+    },
+    {
+      "majorName": "婴幼儿托育服务与管理",
+      "majorKey": "e66c684e",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 5,
+      "tuition": "5250",
+      "schooling": "三年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 272276,
+      "equivRank": 272276,
+      "prevScore": 357
     }
   ]
 }

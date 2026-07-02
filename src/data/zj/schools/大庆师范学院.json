@@ -6,6 +6,36 @@
     {
       "schoolKey": "大庆师范学院",
       "schoolCode": "2301",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 545,
+          "minRank": 112517,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 519,
+          "minRank": 146777,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 500,
+          "minRank": 172649,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "大庆师范学院",
+      "schoolCode": "2301",
       "majorKey": "1f59c989",
       "majorName": "化学工程与工艺",
       "selKe": "物理、化学(2科必选)",
@@ -36,38 +66,8 @@
     {
       "schoolKey": "大庆师范学院",
       "schoolCode": "2301",
-      "majorKey": "0dfc12db",
-      "majorName": "化学（师范）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 545,
-          "minRank": 112517,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 519,
-          "minRank": 146777,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 500,
-          "minRank": 172649,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "大庆师范学院",
-      "schoolCode": "2301",
-      "majorKey": "6e38b28d",
-      "majorName": "学前教育（师范）",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
       "selKe": "不限",
       "years": [
         {
@@ -82,8 +82,8 @@
     {
       "schoolKey": "大庆师范学院",
       "schoolCode": "2301",
-      "majorKey": "983355fa",
-      "majorName": "小学教育（师范）",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
       "selKe": "不限",
       "years": [
         {
@@ -149,8 +149,8 @@
     {
       "schoolKey": "大庆师范学院",
       "schoolCode": "2301",
-      "majorKey": "9f802a9c",
-      "majorName": "数学与应用数学（师范）",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -209,8 +209,8 @@
     {
       "schoolKey": "大庆师范学院",
       "schoolCode": "2301",
-      "majorKey": "dccdae04",
-      "majorName": "汉语国际教育（师范）",
+      "majorKey": "d2fbd5c5",
+      "majorName": "汉语国际教育",
       "selKe": "史政地(3科必选)",
       "years": [
         {
@@ -246,8 +246,8 @@
     {
       "schoolKey": "大庆师范学院",
       "schoolCode": "2301",
-      "majorKey": "d7131091",
-      "majorName": "汉语言文学（师范）",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
       "selKe": "史政地(3科必选)",
       "years": [
         {
@@ -329,8 +329,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "汉语言文学（师范）",
-      "majorKey": "d7131091",
+      "majorName": "汉语言文学",
+      "majorKey": "97bc5998",
+      "track": "综合",
       "selKe": "史政地(3科必选)",
       "plan": 3,
       "tuition": "4000",
@@ -338,11 +339,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 95199,
-      "equivRank": 95199
+      "equivRank": 95199,
+      "prevScore": 564
     },
     {
-      "majorName": "汉语国际教育（师范）",
-      "majorKey": "dccdae04",
+      "majorName": "汉语国际教育",
+      "majorKey": "d2fbd5c5",
+      "track": "综合",
       "selKe": "史政地(3科必选)",
       "plan": 2,
       "tuition": "4000",
@@ -350,11 +353,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 97066,
-      "equivRank": 97066
+      "equivRank": 97066,
+      "prevScore": 562
     },
     {
-      "majorName": "小学教育（师范）",
-      "majorKey": "983355fa",
+      "majorName": "小学教育",
+      "majorKey": "c240892f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "3000",
@@ -362,11 +367,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 99213,
-      "equivRank": 99213
+      "equivRank": 99213,
+      "prevScore": 561
     },
     {
       "majorName": "日语",
       "majorKey": "8f1def37",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "4000",
@@ -374,11 +381,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 101957,
-      "equivRank": 101957
+      "equivRank": 101957,
+      "prevScore": 558
     },
     {
-      "majorName": "学前教育（师范）",
-      "majorKey": "6e38b28d",
+      "majorName": "学前教育",
+      "majorKey": "97716b64",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "3500",
@@ -386,11 +395,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 106649,
-      "equivRank": 106649
+      "equivRank": 106649,
+      "prevScore": 554
     },
     {
       "majorName": "化学工程与工艺",
       "majorKey": "1f59c989",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "4000",
@@ -398,11 +409,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 167937,
-      "equivRank": 167937
+      "equivRank": 167937,
+      "prevScore": 504
     },
     {
       "majorName": "应用化学",
       "majorKey": "25624660",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "4200",
@@ -410,11 +423,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 169115,
-      "equivRank": 169115
+      "equivRank": 169115,
+      "prevScore": 503
     },
     {
-      "majorName": "数学与应用数学（师范）",
-      "majorKey": "9f802a9c",
+      "majorName": "数学与应用数学",
+      "majorKey": "618fdffd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "3500",
@@ -422,11 +437,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 172347,
-      "equivRank": 172347
+      "equivRank": 172347,
+      "prevScore": 500
     },
     {
-      "majorName": "化学（师范）",
-      "majorKey": "0dfc12db",
+      "majorName": "化学",
+      "majorKey": "04ab47fe",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "2500",
@@ -434,7 +451,8 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 172649,
-      "equivRank": 172649
+      "equivRank": 172649,
+      "prevScore": 500
     }
   ]
 }

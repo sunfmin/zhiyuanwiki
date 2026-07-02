@@ -23,16 +23,7 @@
           "minScore": 573,
           "minRank": 84329,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "香港珠海学院",
-      "schoolCode": "8103",
-      "majorKey": "f855c1d9",
-      "majorName": "商学院（香港）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -62,16 +53,7 @@
           "minScore": 578,
           "minRank": 78419,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "香港珠海学院",
-      "schoolCode": "8103",
-      "majorKey": "0cc79202",
-      "majorName": "文学与社会科学院（香港）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -101,16 +83,7 @@
           "minScore": 529,
           "minRank": 135447,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "香港珠海学院",
-      "schoolCode": "8103",
-      "majorKey": "ce2a5c41",
-      "majorName": "理工学院（香港）",
-      "selKe": "物理必选",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -123,8 +96,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "文学与社会科学院（香港）",
-      "majorKey": "0cc79202",
+      "majorName": "文学与社会科学院",
+      "majorKey": "0620703c",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "104750",
@@ -132,11 +106,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 122078,
-      "equivRank": 122078
+      "equivRank": 122078,
+      "prevScore": 542
     },
     {
-      "majorName": "商学院（香港）",
-      "majorKey": "f855c1d9",
+      "majorName": "商学院",
+      "majorKey": "d487b5eb",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "104750",
@@ -144,11 +120,13 @@
       "menlei": "他",
       "prevYear": 2025,
       "prevRank": 133482,
-      "equivRank": 133482
+      "equivRank": 133482,
+      "prevScore": 533
     },
     {
-      "majorName": "理工学院（香港）",
-      "majorKey": "ce2a5c41",
+      "majorName": "理工学院",
+      "majorKey": "22329433",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 4,
       "tuition": "104750",
@@ -156,7 +134,8 @@
       "menlei": "他",
       "prevYear": 2025,
       "prevRank": 146812,
-      "equivRank": 146812
+      "equivRank": 146812,
+      "prevScore": 522
     }
   ]
 }

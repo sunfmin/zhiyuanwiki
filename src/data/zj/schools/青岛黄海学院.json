@@ -41,10 +41,17 @@
       "selKe": "不限",
       "years": [
         {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 505,
+          "minRank": 161004,
+          "maxScore": 0
+        },
+        {
           "year": 2023,
           "track": "综合",
-          "minScore": 498,
-          "minRank": 164178,
+          "minScore": 503,
+          "minRank": 159700,
           "maxScore": 0
         },
         {
@@ -75,38 +82,6 @@
           "track": "综合",
           "minScore": 511,
           "minRank": 150938,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "青岛黄海学院",
-      "schoolCode": "3773",
-      "majorKey": "544be8a8",
-      "majorName": "口腔医学（三年制）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 505,
-          "minRank": 161004,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "青岛黄海学院",
-      "schoolCode": "3773",
-      "majorKey": "971ca56d",
-      "majorName": "口腔医学（专科专业）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 503,
-          "minRank": 159700,
           "maxScore": 0
         }
       ]
@@ -421,16 +396,7 @@
           "minScore": 501,
           "minRank": 167737,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "青岛黄海学院",
-      "schoolCode": "3773",
-      "majorKey": "3a857c7f",
-      "majorName": "数据科学与大数据技术（中外合作办学）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -739,8 +705,8 @@
     {
       "schoolKey": "青岛黄海学院",
       "schoolCode": "3773",
-      "majorKey": "d655935e",
-      "majorName": "计算机科学与技术（中外合作办学）",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -842,6 +808,7 @@
     {
       "majorName": "护理学",
       "majorKey": "c7acab0a",
+      "track": "综合",
       "selKe": "生物必选",
       "plan": 2,
       "tuition": "25800",
@@ -849,11 +816,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 121069,
-      "equivRank": 121069
+      "equivRank": 121069,
+      "prevScore": 543
     },
     {
       "majorName": "跨境电子商务",
       "majorKey": "48469b36",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "22800",
@@ -861,11 +830,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 132416,
-      "equivRank": 132416
+      "equivRank": 132416,
+      "prevScore": 534
     },
     {
       "majorName": "商务英语",
       "majorKey": "4428fd77",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "22800",
@@ -873,11 +844,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 133231,
-      "equivRank": 133231
+      "equivRank": 133231,
+      "prevScore": 533
     },
     {
       "majorName": "口腔医学",
       "majorKey": "c162bced",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "39800",
@@ -885,11 +858,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 166234,
-      "equivRank": 166234
+      "equivRank": 166234,
+      "prevScore": 506
     },
     {
       "majorName": "护理",
       "majorKey": "a3db4652",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "17800",
@@ -897,11 +872,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
-      "majorName": "数据科学与大数据技术（中外合作办学）",
-      "majorKey": "3a857c7f",
+      "majorName": "数据科学与大数据技术",
+      "majorKey": "bb0a25bd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 12,
       "tuition": "63800",
@@ -910,11 +887,13 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "车辆工程",
       "majorKey": "92b6110d",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "23800",
@@ -922,11 +901,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "船舶与海洋工程",
       "majorKey": "ac3cf080",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "22800",
@@ -934,11 +915,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 188688,
-      "equivRank": 188688
+      "equivRank": 188688,
+      "prevScore": 486
     },
     {
       "majorName": "工业智能",
       "majorKey": "59fdad5d",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "22800",
@@ -946,11 +929,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 190798,
-      "equivRank": 190798
+      "equivRank": 190798,
+      "prevScore": 484
     },
     {
       "majorName": "经济统计学",
       "majorKey": "bb33137b",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 1,
       "tuition": "22800",
@@ -958,11 +943,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 191901,
-      "equivRank": 191901
+      "equivRank": 191901,
+      "prevScore": 483
     },
     {
       "majorName": "金融科技",
       "majorKey": "683be8da",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 1,
       "tuition": "22800",
@@ -970,11 +957,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 194962,
-      "equivRank": 194962
+      "equivRank": 194962,
+      "prevScore": 480
     },
     {
       "majorName": "数字经济",
       "majorKey": "ca37000f",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 1,
       "tuition": "22800",
@@ -982,11 +971,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 196959,
-      "equivRank": 196959
+      "equivRank": 196959,
+      "prevScore": 478
     },
     {
-      "majorName": "计算机科学与技术（中外合作办学）",
-      "majorKey": "d655935e",
+      "majorName": "计算机科学与技术",
+      "majorKey": "1d486608",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 12,
       "tuition": "63800",
@@ -995,11 +986,13 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 210412,
-      "equivRank": 210412
+      "equivRank": 210412,
+      "prevScore": 464
     },
     {
       "majorName": "大数据与会计",
       "majorKey": "49f153aa",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "16800",
@@ -1007,11 +1000,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 244670,
-      "equivRank": 244670
+      "equivRank": 244670,
+      "prevScore": 418
     },
     {
       "majorName": "新能源汽车技术",
       "majorKey": "ccb39427",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "16800",
@@ -1019,11 +1014,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 269985,
-      "equivRank": 269985
+      "equivRank": 269985,
+      "prevScore": 364
     },
     {
       "majorName": "大数据技术",
       "majorKey": "a0b9e84e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "17800",
@@ -1031,11 +1028,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 271649,
-      "equivRank": 271649
+      "equivRank": 271649,
+      "prevScore": 359
     },
     {
       "majorName": "电子商务",
       "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "16800",
@@ -1043,11 +1042,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 273471,
-      "equivRank": 273471
+      "equivRank": 273471,
+      "prevScore": 353
     },
     {
       "majorName": "早期教育",
       "majorKey": "8c72bad4",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "16800",
@@ -1055,11 +1056,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 279463,
-      "equivRank": 279463
+      "equivRank": 279463,
+      "prevScore": 329
     },
     {
       "majorName": "大数据与财务管理",
       "majorKey": "6daff4b6",
+      "track": "综合",
       "selKe": "不限",
       "plan": 30,
       "tuition": "16800",
@@ -1067,7 +1070,8 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 286237,
-      "equivRank": 286237
+      "equivRank": 286237,
+      "prevScore": 291
     }
   ]
 }

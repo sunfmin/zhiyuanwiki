@@ -11,6 +11,13 @@
       "selKe": "不限",
       "years": [
         {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 401,
+          "minRank": 241319,
+          "maxScore": 0
+        },
+        {
           "year": 2023,
           "track": "综合",
           "minScore": 388,
@@ -36,24 +43,8 @@
     {
       "schoolKey": "北京经济技术职业学院",
       "schoolCode": "1306",
-      "majorKey": "c823a480",
-      "majorName": "大数据与会计（智能化会计）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 401,
-          "minRank": 241319,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "北京经济技术职业学院",
-      "schoolCode": "1306",
-      "majorKey": "14573ff5",
-      "majorName": "大数据技术（大数据运维、Hadoop大数据开发）",
+      "majorKey": "a0b9e84e",
+      "majorName": "大数据技术",
       "selKe": "不限",
       "years": [
         {
@@ -103,22 +94,6 @@
       "selKe": "不限",
       "years": [
         {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 386,
-          "minRank": 261338,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "北京经济技术职业学院",
-      "schoolCode": "1306",
-      "majorKey": "74c405f6",
-      "majorName": "空中乘务（空乘、地勤）",
-      "selKe": "不限",
-      "years": [
-        {
           "year": 2023,
           "track": "综合",
           "minScore": 344,
@@ -131,6 +106,13 @@
           "minScore": 359,
           "minRank": 264186,
           "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 386,
+          "minRank": 261338,
+          "maxScore": 0
         }
       ]
     },
@@ -139,29 +121,6 @@
       "schoolCode": "1306",
       "majorKey": "faccc9c5",
       "majorName": "计算机应用技术",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 402,
-          "minRank": 246665,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 396,
-          "minRank": 256610,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "北京经济技术职业学院",
-      "schoolCode": "1306",
-      "majorKey": "2c32b4d2",
-      "majorName": "计算机应用技术（信息安全）",
       "selKe": "不限",
       "years": [
         {
@@ -176,6 +135,20 @@
           "track": "综合",
           "minScore": 403,
           "minRank": 241692,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 402,
+          "minRank": 246665,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 396,
+          "minRank": 256610,
           "maxScore": 0
         }
       ]
@@ -206,49 +179,74 @@
   ],
   "plan2026": [
     {
-      "majorName": "大数据与会计（燕郊）",
-      "majorKey": "996dc200",
+      "majorName": "大数据与会计",
+      "majorKey": "49f153aa",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "15800",
       "schooling": "三年",
-      "menlei": "管"
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 252525,
+      "equivRank": 252525,
+      "prevScore": 404
     },
     {
-      "majorName": "学前教育（燕郊）",
-      "majorKey": "a95bb162",
+      "majorName": "软件技术",
+      "majorKey": "8000e20b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "15800",
       "schooling": "三年",
-      "menlei": "教"
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 253041,
+      "equivRank": 253041,
+      "prevScore": 403
     },
     {
-      "majorName": "空中乘务（燕郊）",
-      "majorKey": "88f138cf",
+      "majorName": "计算机应用技术",
+      "majorKey": "faccc9c5",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "15800",
+      "schooling": "三年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 256610,
+      "equivRank": 256610,
+      "prevScore": 396
+    },
+    {
+      "majorName": "空中乘务",
+      "majorKey": "e19c4c71",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "16800",
       "schooling": "三年",
-      "menlei": "他"
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 261338,
+      "equivRank": 261338,
+      "prevScore": 386
     },
     {
-      "majorName": "计算机应用技术（燕郊）",
-      "majorKey": "d8e630ab",
+      "majorName": "学前教育",
+      "majorKey": "97716b64",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "15800",
       "schooling": "三年",
-      "menlei": "工"
-    },
-    {
-      "majorName": "软件技术（燕郊）",
-      "majorKey": "5397d381",
-      "selKe": "不限",
-      "plan": 2,
-      "tuition": "15800",
-      "schooling": "三年",
-      "menlei": "工"
+      "menlei": "教",
+      "prevYear": 2025,
+      "prevRank": 271338,
+      "equivRank": 271338,
+      "prevScore": 360
     }
   ]
 }

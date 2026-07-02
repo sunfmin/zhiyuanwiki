@@ -119,22 +119,6 @@
         {
           "year": 2025,
           "track": "综合",
-          "minScore": 481,
-          "minRank": 193949,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "石家庄医学高等专科学校",
-      "schoolCode": "1344",
-      "majorKey": "f9baf216",
-      "majorName": "临床医学（中外合作办学）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
           "minScore": 503,
           "minRank": 169401,
           "maxScore": 0
@@ -229,15 +213,15 @@
         {
           "year": 2023,
           "track": "综合",
-          "minScore": 502,
-          "minRank": 160756,
+          "minScore": 505,
+          "minRank": 156980,
           "maxScore": 0
         },
         {
           "year": 2024,
           "track": "综合",
-          "minScore": 507,
-          "minRank": 161338,
+          "minScore": 510,
+          "minRank": 157595,
           "maxScore": 0
         },
         {
@@ -268,43 +252,6 @@
     {
       "schoolKey": "石家庄医学高等专科学校",
       "schoolCode": "1344",
-      "majorKey": "faad52af",
-      "majorName": "口腔医学（中外合作办学）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 505,
-          "minRank": 161441,
-          "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 505,
-          "minRank": 156980,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 510,
-          "minRank": 157595,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 499,
-          "minRank": 174153,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "石家庄医学高等专科学校",
-      "schoolCode": "1344",
       "majorKey": "4fab0557",
       "majorName": "康复治疗技术",
       "selKe": "不限",
@@ -314,22 +261,6 @@
           "track": "综合",
           "minScore": 423,
           "minRank": 241578,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "石家庄医学高等专科学校",
-      "schoolCode": "1344",
-      "majorKey": "5ae8a7c9",
-      "majorName": "康复治疗技术（中外合作办学）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 411,
-          "minRank": 248653,
           "maxScore": 0
         }
       ]
@@ -440,44 +371,36 @@
     {
       "majorName": "口腔医学",
       "majorKey": "c162bced",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 6,
+      "plan": 8,
       "tuition": "21900",
       "schooling": "三年",
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 168546,
-      "equivRank": 168546
+      "equivRank": 168546,
+      "prevScore": 504
     },
     {
-      "majorName": "临床医学（中外合作办学）",
-      "majorKey": "f9baf216",
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 1,
+      "plan": 2,
       "tuition": "32000",
       "schooling": "三年",
       "menlei": "医",
       "coop": true,
       "prevYear": 2025,
       "prevRank": 169401,
-      "equivRank": 169401
-    },
-    {
-      "majorName": "口腔医学（中外合作办学）",
-      "majorKey": "faad52af",
-      "selKe": "不限",
-      "plan": 2,
-      "tuition": "36800",
-      "schooling": "三年",
-      "menlei": "医",
-      "coop": true,
-      "prevYear": 2025,
-      "prevRank": 174153,
-      "equivRank": 174153
+      "equivRank": 169401,
+      "prevScore": 503
     },
     {
       "majorName": "口腔医学技术",
       "majorKey": "e849f952",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "21900",
@@ -485,23 +408,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 190798,
-      "equivRank": 190798
-    },
-    {
-      "majorName": "临床医学",
-      "majorKey": "618f7040",
-      "selKe": "不限",
-      "plan": 1,
-      "tuition": "21900",
-      "schooling": "三年",
-      "menlei": "医",
-      "prevYear": 2025,
-      "prevRank": 193949,
-      "equivRank": 193949
+      "equivRank": 190798,
+      "prevScore": 484
     },
     {
       "majorName": "针灸推拿",
       "majorKey": "7b806226",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "17500",
@@ -509,11 +422,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 195964,
-      "equivRank": 195964
+      "equivRank": 195964,
+      "prevScore": 479
     },
     {
       "majorName": "中医学",
       "majorKey": "2285e5ca",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "21900",
@@ -521,11 +436,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 197988,
-      "equivRank": 197988
+      "equivRank": 197988,
+      "prevScore": 477
     },
     {
       "majorName": "中医骨伤",
       "majorKey": "3b33ba45",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "17500",
@@ -533,11 +450,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 209501,
-      "equivRank": 209501
+      "equivRank": 209501,
+      "prevScore": 465
     },
     {
       "majorName": "中药学",
       "majorKey": "f9504a0c",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "17500",
@@ -545,11 +464,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 216518,
-      "equivRank": 216518
+      "equivRank": 216518,
+      "prevScore": 457
     },
     {
       "majorName": "中医康复技术",
       "majorKey": "a13b0fe5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "17500",
@@ -557,11 +478,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 219114,
-      "equivRank": 219114
+      "equivRank": 219114,
+      "prevScore": 454
     },
     {
       "majorName": "护理",
       "majorKey": "a3db4652",
+      "track": "综合",
       "selKe": "不限",
       "plan": 7,
       "tuition": "17500",
@@ -569,11 +492,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 233553,
-      "equivRank": 233553
+      "equivRank": 233553,
+      "prevScore": 435
     },
     {
       "majorName": "心理咨询",
       "majorKey": "d3d2749f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "17500",
@@ -581,23 +506,28 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 236330,
-      "equivRank": 236330
+      "equivRank": 236330,
+      "prevScore": 431
     },
     {
       "majorName": "康复治疗技术",
       "majorKey": "4fab0557",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 2,
-      "tuition": "17500",
+      "plan": 4,
+      "tuition": "27000",
       "schooling": "三年",
       "menlei": "医",
+      "coop": true,
       "prevYear": 2025,
       "prevRank": 241578,
-      "equivRank": 241578
+      "equivRank": 241578,
+      "prevScore": 423
     },
     {
       "majorName": "医学检验技术",
       "majorKey": "f106fa76",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "17500",
@@ -605,24 +535,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 243458,
-      "equivRank": 243458
-    },
-    {
-      "majorName": "康复治疗技术（中外合作办学）",
-      "majorKey": "5ae8a7c9",
-      "selKe": "不限",
-      "plan": 2,
-      "tuition": "27000",
-      "schooling": "三年",
-      "menlei": "医",
-      "coop": true,
-      "prevYear": 2025,
-      "prevRank": 248653,
-      "equivRank": 248653
+      "equivRank": 243458,
+      "prevScore": 420
     },
     {
       "majorName": "助产",
       "majorKey": "b7060f34",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "17500",
@@ -630,11 +549,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 252525,
-      "equivRank": 252525
+      "equivRank": 252525,
+      "prevScore": 404
     },
     {
       "majorName": "药学",
       "majorKey": "e9e6a481",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "17500",
@@ -642,11 +563,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 256075,
-      "equivRank": 256075
+      "equivRank": 256075,
+      "prevScore": 397
     },
     {
       "majorName": "眼视光技术",
       "majorKey": "85ace5eb",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "21900",
@@ -654,11 +577,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 256610,
-      "equivRank": 256610
+      "equivRank": 256610,
+      "prevScore": 396
     },
     {
       "majorName": "医学影像技术",
       "majorKey": "11fef64a",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "21900",
@@ -666,11 +591,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 259516,
-      "equivRank": 259516
+      "equivRank": 259516,
+      "prevScore": 390
     },
     {
       "majorName": "医学美容技术",
       "majorKey": "2d65ec0d",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "21900",
@@ -678,7 +605,8 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 267453,
-      "equivRank": 267453
+      "equivRank": 267453,
+      "prevScore": 371
     }
   ]
 }

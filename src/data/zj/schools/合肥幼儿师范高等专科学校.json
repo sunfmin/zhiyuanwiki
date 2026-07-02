@@ -38,8 +38,8 @@
     {
       "schoolKey": "合肥幼儿师范高等专科学校",
       "schoolCode": "3475",
-      "majorKey": "6e38b28d",
-      "majorName": "学前教育（师范）",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
       "selKe": "不限",
       "years": [
         {
@@ -75,8 +75,8 @@
     {
       "schoolKey": "合肥幼儿师范高等专科学校",
       "schoolCode": "3475",
-      "majorKey": "1bbe5add",
-      "majorName": "早期教育（师范）",
+      "majorKey": "8c72bad4",
+      "majorName": "早期教育",
       "selKe": "不限",
       "years": [
         {
@@ -121,8 +121,8 @@
     {
       "schoolKey": "合肥幼儿师范高等专科学校",
       "schoolCode": "3475",
-      "majorKey": "79d7e7d7",
-      "majorName": "特殊教育（师范）",
+      "majorKey": "e0d708da",
+      "majorName": "特殊教育",
       "selKe": "不限",
       "years": [
         {
@@ -158,8 +158,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "特殊教育（师范）",
-      "majorKey": "79d7e7d7",
+      "majorName": "特殊教育",
+      "majorKey": "e0d708da",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "3200",
@@ -167,11 +168,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 170411,
-      "equivRank": 170411
+      "equivRank": 170411,
+      "prevScore": 502
     },
     {
-      "majorName": "学前教育（师范）",
-      "majorKey": "6e38b28d",
+      "majorName": "学前教育",
+      "majorKey": "97716b64",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "3200",
@@ -179,11 +182,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 201929,
-      "equivRank": 201929
+      "equivRank": 201929,
+      "prevScore": 473
     },
     {
       "majorName": "智慧健康养老服务与管理",
       "majorKey": "4c97ece5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "3500",
@@ -191,11 +196,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 207623,
-      "equivRank": 207623
+      "equivRank": 207623,
+      "prevScore": 467
     },
     {
       "majorName": "大数据技术",
       "majorKey": "a0b9e84e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "3900",
@@ -203,11 +210,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 227042,
-      "equivRank": 227042
+      "equivRank": 227042,
+      "prevScore": 444
     },
     {
       "majorName": "人工智能技术应用",
       "majorKey": "d722f594",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "3900",
@@ -215,7 +224,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 227812,
-      "equivRank": 227812
+      "equivRank": 227812,
+      "prevScore": 443
     }
   ]
 }

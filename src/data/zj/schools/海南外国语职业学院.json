@@ -60,16 +60,7 @@
           "minScore": 426,
           "minRank": 232729,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "海南外国语职业学院",
-      "schoolCode": "4608",
-      "majorKey": "80e8c387",
-      "majorName": "国际经济与贸易（学制3年）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -82,8 +73,8 @@
     {
       "schoolKey": "海南外国语职业学院",
       "schoolCode": "4608",
-      "majorKey": "9f6be83c",
-      "majorName": "应用外语（意大利语）",
+      "majorKey": "64f0eee0",
+      "majorName": "应用外语",
       "selKe": "不限",
       "years": [
         {
@@ -143,16 +134,7 @@
           "minScore": 450,
           "minRank": 216465,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "海南外国语职业学院",
-      "schoolCode": "4608",
-      "majorKey": "dc77b418",
-      "majorName": "应用日语（学制3年）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -189,16 +171,7 @@
           "minScore": 414,
           "minRank": 240337,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "海南外国语职业学院",
-      "schoolCode": "4608",
-      "majorKey": "597c854c",
-      "majorName": "应用法语（学制3年）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -235,16 +208,7 @@
           "minScore": 437,
           "minRank": 225943,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "海南外国语职业学院",
-      "schoolCode": "4608",
-      "majorKey": "79d4f9ba",
-      "majorName": "应用英语（学制3年）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -281,16 +245,7 @@
           "minScore": 415,
           "minRank": 239782,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "海南外国语职业学院",
-      "schoolCode": "4608",
-      "majorKey": "24197d13",
-      "majorName": "应用韩语（学制3年）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -303,58 +258,88 @@
   ],
   "plan2026": [
     {
-      "majorName": "国际经济与贸易（文昌）",
-      "majorKey": "6ffc8d54",
+      "majorName": "应用外语",
+      "majorKey": "64f0eee0",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "5700",
       "schooling": "三年",
-      "menlei": "经"
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 207623,
+      "equivRank": 207623,
+      "prevScore": 467
     },
     {
-      "majorName": "应用外语（文昌）",
-      "majorKey": "7f837776",
-      "selKe": "不限",
-      "plan": 1,
-      "tuition": "5700",
-      "schooling": "三年",
-      "menlei": "文"
-    },
-    {
-      "majorName": "应用日语（文昌）",
-      "majorKey": "2e0e9f1b",
-      "selKe": "不限",
-      "plan": 1,
-      "tuition": "5700",
-      "schooling": "三年",
-      "menlei": "文"
-    },
-    {
-      "majorName": "应用法语（文昌）",
-      "majorKey": "b2b3558f",
-      "selKe": "不限",
-      "plan": 1,
-      "tuition": "5700",
-      "schooling": "三年",
-      "menlei": "文"
-    },
-    {
-      "majorName": "应用英语（文昌）",
-      "majorKey": "e6f9ffd1",
+      "majorName": "应用英语",
+      "majorKey": "e3b353e3",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5700",
       "schooling": "三年",
-      "menlei": "文"
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 227042,
+      "equivRank": 227042,
+      "prevScore": 444
     },
     {
-      "majorName": "应用韩语（文昌）",
-      "majorKey": "d6e6c870",
+      "majorName": "应用日语",
+      "majorKey": "2f6df865",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "5700",
       "schooling": "三年",
-      "menlei": "文"
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 231464,
+      "equivRank": 231464,
+      "prevScore": 438
+    },
+    {
+      "majorName": "应用法语",
+      "majorKey": "2fd16dd1",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 1,
+      "tuition": "5700",
+      "schooling": "三年",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 233553,
+      "equivRank": 233553,
+      "prevScore": 435
+    },
+    {
+      "majorName": "国际经济与贸易",
+      "majorKey": "f8a1727e",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 1,
+      "tuition": "5700",
+      "schooling": "三年",
+      "menlei": "经",
+      "prevYear": 2025,
+      "prevRank": 240966,
+      "equivRank": 240966,
+      "prevScore": 424
+    },
+    {
+      "majorName": "应用韩语",
+      "majorKey": "97222672",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 1,
+      "tuition": "5700",
+      "schooling": "三年",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 240966,
+      "equivRank": 240966,
+      "prevScore": 424
     }
   ]
 }

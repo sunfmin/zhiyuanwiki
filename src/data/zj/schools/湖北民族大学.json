@@ -53,48 +53,7 @@
           "minScore": 583,
           "minRank": 72442,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "湖北民族大学",
-      "schoolCode": "4022",
-      "majorKey": "d4fbdeba",
-      "majorName": "会计学（ACCA国际注册会计师方向）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 579,
-          "minRank": 77217,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "湖北民族大学",
-      "schoolCode": "4022",
-      "majorKey": "9fdb182c",
-      "majorName": "会计学（ACCA方向）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 583,
-          "minRank": 72567,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "湖北民族大学",
-      "schoolCode": "4022",
-      "majorKey": "d7362de0",
-      "majorName": "会计学（智能会计、智能财务、大数据审计方向）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -288,16 +247,7 @@
           "minScore": 573,
           "minRank": 83824,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "湖北民族大学",
-      "schoolCode": "4022",
-      "majorKey": "f45bc857",
-      "majorName": "旅游管理（旅游规划和旅游企业运营管理方向）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -519,16 +469,7 @@
           "minScore": 551,
           "minRank": 109616,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "湖北民族大学",
-      "schoolCode": "4022",
-      "majorKey": "77ee7316",
-      "majorName": "计算机科学与技术（智能技术方向）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -543,6 +484,7 @@
     {
       "majorName": "汉语言文学",
       "majorKey": "97bc5998",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5200",
@@ -550,23 +492,27 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 70680,
-      "equivRank": 70680
+      "equivRank": 70680,
+      "prevScore": 584
     },
     {
-      "majorName": "会计学（智能会计、智能财务、大数据审计方向）",
-      "majorKey": "d7362de0",
+      "majorName": "会计学",
+      "majorKey": "8aa56116",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 2,
+      "plan": 4,
       "tuition": "5200",
       "schooling": "四年",
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 73323,
-      "equivRank": 73323
+      "equivRank": 73323,
+      "prevScore": 582
     },
     {
       "majorName": "思想政治教育",
       "majorKey": "6a15bc12",
+      "track": "综合",
       "selKe": "思想政治必选",
       "plan": 2,
       "tuition": "4000",
@@ -574,23 +520,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 77010,
-      "equivRank": 77010
-    },
-    {
-      "majorName": "会计学（ACCA国际注册会计师方向）",
-      "majorKey": "d4fbdeba",
-      "selKe": "不限",
-      "plan": 2,
-      "tuition": "5200",
-      "schooling": "四年",
-      "menlei": "管",
-      "prevYear": 2025,
-      "prevRank": 77217,
-      "equivRank": 77217
+      "equivRank": 77010,
+      "prevScore": 579
     },
     {
       "majorName": "新闻学",
       "majorKey": "9c5f4a34",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4000",
@@ -598,11 +534,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 82310,
-      "equivRank": 82310
+      "equivRank": 82310,
+      "prevScore": 574
     },
     {
       "majorName": "社会学",
       "majorKey": "d636b73e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4000",
@@ -610,11 +548,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 83281,
-      "equivRank": 83281
+      "equivRank": 83281,
+      "prevScore": 574
     },
     {
       "majorName": "英语",
       "majorKey": "49c5cdf9",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "5200",
@@ -622,11 +562,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 86655,
-      "equivRank": 86655
+      "equivRank": 86655,
+      "prevScore": 571
     },
     {
       "majorName": "商务英语",
       "majorKey": "4428fd77",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5200",
@@ -634,11 +576,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 88111,
-      "equivRank": 88111
+      "equivRank": 88111,
+      "prevScore": 570
     },
     {
-      "majorName": "旅游管理（旅游规划和旅游企业运营管理方向）",
-      "majorKey": "f45bc857",
+      "majorName": "旅游管理",
+      "majorKey": "ec77cae2",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4000",
@@ -646,11 +590,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 89429,
-      "equivRank": 89429
+      "equivRank": 89429,
+      "prevScore": 569
     },
     {
       "majorName": "日语",
       "majorKey": "8f1def37",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "4000",
@@ -658,11 +604,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 89576,
-      "equivRank": 89576
+      "equivRank": 89576,
+      "prevScore": 568
     },
     {
       "majorName": "临床医学",
       "majorKey": "618f7040",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5200",
@@ -670,11 +618,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 104886,
-      "equivRank": 104886
+      "equivRank": 104886,
+      "prevScore": 556
     },
     {
-      "majorName": "计算机科学与技术（智能技术方向）",
-      "majorKey": "77ee7316",
+      "majorName": "计算机科学与技术",
+      "majorKey": "1d486608",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5200",
@@ -682,11 +632,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 106859,
-      "equivRank": 106859
+      "equivRank": 106859,
+      "prevScore": 554
     },
     {
       "majorName": "光电信息科学与工程",
       "majorKey": "d8f4c9ac",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "4000",
@@ -694,11 +646,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 124014,
-      "equivRank": 124014
+      "equivRank": 124014,
+      "prevScore": 540
     },
     {
       "majorName": "生物工程",
       "majorKey": "14eeb10f",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4000",
@@ -706,7 +660,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 150332,
-      "equivRank": 150332
+      "equivRank": 150332,
+      "prevScore": 519
     }
   ]
 }

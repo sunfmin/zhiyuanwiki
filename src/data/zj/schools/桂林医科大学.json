@@ -30,16 +30,7 @@
           "minScore": 566,
           "minRank": 91428,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "桂林医科大学",
-      "schoolCode": "4528",
-      "majorKey": "f001eef8",
-      "majorName": "临床医学（临桂校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -84,7 +75,7 @@
       "schoolCode": "4528",
       "majorKey": "f106fa76",
       "majorName": "医学检验技术",
-      "selKe": "物/化/生(3选1)",
+      "selKe": "物理、化学(2科必选)",
       "years": [
         {
           "year": 2022,
@@ -99,16 +90,7 @@
           "minScore": 573,
           "minRank": 80530,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "桂林医科大学",
-      "schoolCode": "4528",
-      "majorKey": "d5727e91",
-      "majorName": "医学检验技术（中澳学分互认联合培养项目）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -145,16 +127,7 @@
           "minScore": 591,
           "minRank": 62955,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "桂林医科大学",
-      "schoolCode": "4528",
-      "majorKey": "3129e525",
-      "majorName": "口腔医学（临桂校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -167,8 +140,8 @@
     {
       "schoolKey": "桂林医科大学",
       "schoolCode": "4528",
-      "majorKey": "46d2ad2d",
-      "majorName": "基础医学（临桂校区）",
+      "majorKey": "8ca67fa5",
+      "majorName": "基础医学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -183,8 +156,8 @@
     {
       "schoolKey": "桂林医科大学",
       "schoolCode": "4528",
-      "majorKey": "f4ce318e",
-      "majorName": "市场营销（中澳学分互认联合培养项目）",
+      "majorKey": "28c62e21",
+      "majorName": "市场营销",
       "selKe": "不限",
       "years": [
         {
@@ -222,22 +195,6 @@
           "track": "综合",
           "minScore": 568,
           "minRank": 89047,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "桂林医科大学",
-      "schoolCode": "4528",
-      "majorKey": "190fbecf",
-      "majorName": "康复治疗学（中澳学分互认联合培养项目）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 484,
-          "minRank": 185703,
           "maxScore": 0
         },
         {
@@ -284,7 +241,7 @@
       "schoolCode": "4528",
       "majorKey": "e9e6a481",
       "majorName": "药学",
-      "selKe": "物/化/生(3选1)",
+      "selKe": "物理、化学(2科必选)",
       "years": [
         {
           "year": 2022,
@@ -299,16 +256,7 @@
           "minScore": 567,
           "minRank": 87933,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "桂林医科大学",
-      "schoolCode": "4528",
-      "majorKey": "300e8aee",
-      "majorName": "药学（中澳学分互认联合培养项目）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -344,8 +292,8 @@
     {
       "schoolKey": "桂林医科大学",
       "schoolCode": "4528",
-      "majorKey": "75b48cd7",
-      "majorName": "食品卫生与营养学（中澳学分互认联合培养项目）",
+      "majorKey": "49f6ae18",
+      "majorName": "食品卫生与营养学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -360,8 +308,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "口腔医学（临桂校区）",
-      "majorKey": "3129e525",
+      "majorName": "口腔医学",
+      "majorKey": "c162bced",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "7500",
@@ -369,11 +318,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 68569,
-      "equivRank": 68569
+      "equivRank": 68569,
+      "prevScore": 586
     },
     {
-      "majorName": "临床医学（临桂校区）",
-      "majorKey": "f001eef8",
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "7500",
@@ -381,11 +332,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 91123,
-      "equivRank": 91123
+      "equivRank": 91123,
+      "prevScore": 567
     },
     {
-      "majorName": "基础医学（临桂校区）",
-      "majorKey": "46d2ad2d",
+      "majorName": "基础医学",
+      "majorKey": "8ca67fa5",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "6480",
@@ -393,11 +346,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 104541,
-      "equivRank": 104541
+      "equivRank": 104541,
+      "prevScore": 556
     },
     {
-      "majorName": "市场营销（中澳学分互认联合培养项目）",
-      "majorKey": "f4ce318e",
+      "majorName": "市场营销",
+      "majorKey": "28c62e21",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5520",
@@ -405,11 +360,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 111660,
-      "equivRank": 111660
+      "equivRank": 111660,
+      "prevScore": 550
     },
     {
-      "majorName": "康复治疗学（中澳学分互认联合培养项目）",
-      "majorKey": "190fbecf",
+      "majorName": "康复治疗学",
+      "majorKey": "a507c400",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6480",
@@ -417,11 +374,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 172506,
-      "equivRank": 172506
+      "equivRank": 172506,
+      "prevScore": 500
     },
     {
-      "majorName": "医学检验技术（中澳学分互认联合培养项目）",
-      "majorKey": "d5727e91",
+      "majorName": "医学检验技术",
+      "majorKey": "f106fa76",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6480",
@@ -429,11 +388,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 183936,
-      "equivRank": 183936
+      "equivRank": 183936,
+      "prevScore": 490
     },
     {
-      "majorName": "药学（中澳学分互认联合培养项目）",
-      "majorKey": "300e8aee",
+      "majorName": "药学",
+      "majorKey": "e9e6a481",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6480",
@@ -441,11 +402,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
-      "majorName": "食品卫生与营养学（中澳学分互认联合培养项目）",
-      "majorKey": "75b48cd7",
+      "majorName": "食品卫生与营养学",
+      "majorKey": "49f6ae18",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6480",
@@ -453,7 +416,8 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 189770,
-      "equivRank": 189770
+      "equivRank": 189770,
+      "prevScore": 485
     }
   ]
 }

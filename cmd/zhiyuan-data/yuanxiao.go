@@ -7,7 +7,7 @@ import (
 
 // yuanxiaoCmd 从 SQLite staging 投影院校 / 院校×专业叶子 / 2026 报考视图 JSON（按省份分目录）。
 // 全部省份都已入库（ADR-0014），按填报模型选投影：group→buildDBBundle（院校专业组）、
-// major→buildDBBundleMajor（专业平行志愿，浙江）。无 per-slug 硬编码。
+// major→buildMajorBundle（专业平行志愿，含浙江/山东的综合与重庆/辽宁的双科类）。无 per-slug 硬编码。
 func yuanxiaoCmd(args []string) {
 	fs := flag.NewFlagSet("yuanxiao", flag.ExitOnError)
 	out := fs.String("out", filepath.Join("src", "data"), "JSON 输出目录（其下按省份 slug 分目录）")
@@ -19,9 +19,7 @@ func yuanxiaoCmd(args []string) {
 
 	var b schoolBundle
 	switch p.model {
-	case "major-zj": // 浙江：一表联动 by-code 属性（含 city_tier）+ 单科类综合，见 #21
-		b = buildDBBundleMajor(*dbPath, p)
-	case "major": // 专业平行志愿（无院校专业组）：全国 school 表按校名挂属性，支持双科类（重庆/辽宁…）
+	case "major": // 专业平行志愿（无院校专业组）：全国 school 表按校名挂属性；综合(浙江/山东)或双科类(重庆/辽宁)
 		b = buildMajorBundle(*dbPath, p)
 	default: // group
 		b = buildDBBundle(*dbPath, p)

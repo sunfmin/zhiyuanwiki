@@ -31,7 +31,7 @@
       "schoolCode": "5118",
       "majorKey": "d1bd847f",
       "majorName": "化学类",
-      "selKe": "化学必选",
+      "selKe": "物理、化学(2科必选)",
       "years": [
         {
           "year": 2022,
@@ -46,16 +46,7 @@
           "minScore": 557,
           "minRank": 98538,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "内江师范学院",
-      "schoolCode": "5118",
-      "majorKey": "0bc96faa",
-      "majorName": "化学类（师范）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2024,
           "track": "综合",
@@ -68,8 +59,8 @@
     {
       "schoolKey": "内江师范学院",
       "schoolCode": "5118",
-      "majorKey": "198d794d",
-      "majorName": "地理科学（师范）",
+      "majorKey": "d061ae24",
+      "majorName": "地理科学",
       "selKe": "地理必选",
       "years": [
         {
@@ -91,8 +82,8 @@
     {
       "schoolKey": "内江师范学院",
       "schoolCode": "5118",
-      "majorKey": "47452c2f",
-      "majorName": "思想政治教育（师范）",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
       "selKe": "思想政治必选",
       "years": [
         {
@@ -121,8 +112,8 @@
     {
       "schoolKey": "内江师范学院",
       "schoolCode": "5118",
-      "majorKey": "9f802a9c",
-      "majorName": "数学与应用数学（师范）",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -158,8 +149,8 @@
     {
       "schoolKey": "内江师范学院",
       "schoolCode": "5118",
-      "majorKey": "d7131091",
-      "majorName": "汉语言文学（师范）",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
       "selKe": "历史必选",
       "years": [
         {
@@ -227,6 +218,7 @@
     {
       "majorName": "法学",
       "majorKey": "a1113a1f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "5520",
@@ -234,11 +226,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 73342,
-      "equivRank": 73342
+      "equivRank": 73342,
+      "prevScore": 582
     },
     {
-      "majorName": "地理科学（师范）",
-      "majorKey": "198d794d",
+      "majorName": "地理科学",
+      "majorKey": "d061ae24",
+      "track": "综合",
       "selKe": "地理必选",
       "plan": 3,
       "tuition": "5980",
@@ -246,11 +240,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 73510,
-      "equivRank": 73510
+      "equivRank": 73510,
+      "prevScore": 582
     },
     {
-      "majorName": "汉语言文学（师范）",
-      "majorKey": "d7131091",
+      "majorName": "汉语言文学",
+      "majorKey": "97bc5998",
+      "track": "综合",
       "selKe": "历史必选",
       "plan": 1,
       "tuition": "5520",
@@ -258,11 +254,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 75128,
-      "equivRank": 75128
+      "equivRank": 75128,
+      "prevScore": 580
     },
     {
-      "majorName": "思想政治教育（师范）",
-      "majorKey": "47452c2f",
+      "majorName": "思想政治教育",
+      "majorKey": "6a15bc12",
+      "track": "综合",
       "selKe": "思想政治必选",
       "plan": 1,
       "tuition": "5520",
@@ -270,11 +268,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 76180,
-      "equivRank": 76180
+      "equivRank": 76180,
+      "prevScore": 579
     },
     {
-      "majorName": "数学与应用数学（师范）",
-      "majorKey": "9f802a9c",
+      "majorName": "数学与应用数学",
+      "majorKey": "618fdffd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5980",
@@ -282,7 +282,8 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 131937,
-      "equivRank": 131937
+      "equivRank": 131937,
+      "prevScore": 534
     }
   ]
 }

@@ -17,6 +17,7 @@ import (
 	"github.com/sunfmin/zhiyuanwiki/internal/tj"
 	"github.com/sunfmin/zhiyuanwiki/internal/xj"
 	"github.com/sunfmin/zhiyuanwiki/internal/xz"
+	"github.com/sunfmin/zhiyuanwiki/internal/zj"
 )
 
 // importDefaultSrc 是通用 importProvince 的默认源根：各省份/ 干净树。见 ADR-0014。
@@ -48,6 +49,7 @@ var provDirName = map[string]string{
 	"ln":    "辽宁",
 	"hebei": "河北",
 	"sd":    "山东",
+	"zj":    "浙江", // 改用一致源 各省份/浙江（源在 …/浙江/浙江/ 下，子树 glob 命中；退役万师兄 09、浙江，见 ADR-0022）
 	"tj":    "天津",
 	"qh":    "青海", // 各省份/青海 下并存旧万师兄树(青海/29.青海，2017-2022)与 2、…22-25 现行数据，靠 *Must 精确指向后者
 	"xj":    "新疆", // 源在 各省份/新疆/新疆/新疆/ 下（嵌套多层，靠子树 glob）
@@ -129,6 +131,11 @@ var provParsers = map[string]provParser{
 		ScoreMust: []string{"25年全国高校在河北省的专业分数线"}, PlanMust: []string{"2025年河北招生计划"}},
 	"sd": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
 		ScoreMust: []string{"25年全国高校在山东省的专业分数线"}, PlanMust: []string{"全国高校在山东省的招生计划"}},
+	// 浙江：综合(3+3)·专业平行志愿(无组)·major 模型，与山东同型。改用一致源 各省份/浙江（退役万师兄
+	// 09、浙江 专属栈，见 ADR-0022）。ScoreMust 精确指向「专业录取分数」以避开同目录「院校录取分数」合表；
+	// 一分一段沿用 zj.ParseYiFenYiDuan（浙江综合单列格式，与通用 group3p12 表头不同）。
+	"zj": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: zj.ParseYiFenYiDuan,
+		ScoreMust: []string{"22-25年全国高校在浙江的专业录取分数"}, PlanMust: []string{"22-25年全国高校在浙江的招生计划"}},
 	// 青海：同 cq/gz 的 22-25 合表（解析复用 group3p12，build 走 major）。各省份/青海 下另有旧万师兄树
 	// （青海/29.青海/2025年…招生计划.xlsx 体积更大），用 *Must 精确指向「22-25年全国高校在青海的…」现行文件。
 	"qh": {Scores: group3p12.ParseScores, Plan: group3p12.ParsePlan, YFD: group3p12.ParseYiFenYiDuan,
@@ -180,13 +187,11 @@ func importCmd(args []string) {
 		importNational(db, *src)
 	}
 
-	// 黑龙江/浙江/山西源异构、布局特殊，走专用 import（见 ADR-0014 / issue #19、#20）；其余走通用 importProvince。
+	// 黑龙江/山西源异构、布局特殊，走专用 import（见 ADR-0014 / issue #19）；其余走通用 importProvince
+	// （浙江自 ADR-0022 起改用一致源 各省份/浙江，回归通用路径）。
 	switch p.slug {
 	case "hlj":
 		importHLJ(db, *src, p)
-		return
-	case "zj":
-		importZJ(db, p)
 		return
 	case "shanxi":
 		importShanxi(db, *src, p)

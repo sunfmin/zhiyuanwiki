@@ -22,8 +22,8 @@
     {
       "schoolKey": "吉林电子信息职业技术学院",
       "schoolCode": "2246",
-      "majorKey": "d0ada4db",
-      "majorName": "大数据技术（新山校区。）",
+      "majorKey": "a0b9e84e",
+      "majorName": "大数据技术",
       "selKe": "不限",
       "years": [
         {
@@ -165,16 +165,7 @@
           "minScore": 409,
           "minRank": 238192,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "吉林电子信息职业技术学院",
-      "schoolCode": "2246",
-      "majorKey": "7b1c7d07",
-      "majorName": "电子商务（汉阳校区。）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -235,8 +226,8 @@
     {
       "schoolKey": "吉林电子信息职业技术学院",
       "schoolCode": "2246",
-      "majorKey": "67b7a0b9",
-      "majorName": "计算机网络技术（新山校区。）",
+      "majorKey": "547b1c20",
+      "majorName": "计算机网络技术",
       "selKe": "不限",
       "years": [
         {
@@ -251,31 +242,46 @@
   ],
   "plan2026": [
     {
-      "majorName": "大数据技术（新山校区）",
-      "majorKey": "0a19201e",
+      "majorName": "大数据技术",
+      "majorKey": "a0b9e84e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "5000",
       "schooling": "三年",
-      "menlei": "工"
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 248049,
+      "equivRank": 248049,
+      "prevScore": 412
     },
     {
-      "majorName": "电子商务（汉阳校区）",
-      "majorKey": "7b28ae72",
+      "majorName": "电子商务",
+      "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "5000",
       "schooling": "三年",
-      "menlei": "管"
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 248653,
+      "equivRank": 248653,
+      "prevScore": 411
     },
     {
-      "majorName": "计算机网络技术（新山校区）",
-      "majorKey": "593cbb90",
+      "majorName": "计算机网络技术",
+      "majorKey": "547b1c20",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "5100",
       "schooling": "三年",
-      "menlei": "工"
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 249217,
+      "equivRank": 249217,
+      "prevScore": 410
     }
   ]
 }

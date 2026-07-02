@@ -6,8 +6,8 @@
     {
       "schoolKey": "黄河水利职业技术大学",
       "schoolCode": "4220",
-      "majorKey": "2305655c",
-      "majorName": "人工智能技术应用（智慧物联网方向）",
+      "majorKey": "d722f594",
+      "majorName": "人工智能技术应用",
       "selKe": "不限",
       "years": [
         {
@@ -27,26 +27,17 @@
       "selKe": "不限",
       "years": [
         {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 504,
-          "minRank": 168032,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "黄河水利职业技术大学",
-      "schoolCode": "4220",
-      "majorKey": "d5d518fd",
-      "majorName": "大数据与会计（注册会计师）",
-      "selKe": "不限",
-      "years": [
-        {
           "year": 2024,
           "track": "综合",
           "minScore": 506,
           "minRank": 162594,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 504,
+          "minRank": 168032,
           "maxScore": 0
         }
       ]
@@ -203,6 +194,7 @@
     {
       "majorName": "水利工程",
       "majorKey": "38b5eece",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "4200",
@@ -210,11 +202,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 145207,
-      "equivRank": 145207
+      "equivRank": 145207,
+      "prevScore": 523
     },
     {
       "majorName": "水利水电建筑工程",
       "majorKey": "680ee777",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "4800",
@@ -222,11 +216,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 145591,
-      "equivRank": 145591
+      "equivRank": 145591,
+      "prevScore": 523
     },
     {
       "majorName": "测绘工程技术",
       "majorKey": "117d3c9b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "4800",
@@ -234,11 +230,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 164992,
-      "equivRank": 164992
+      "equivRank": 164992,
+      "prevScore": 507
     },
     {
       "majorName": "大数据与会计",
       "majorKey": "49f153aa",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "3700",
@@ -246,11 +244,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 168032,
-      "equivRank": 168032
+      "equivRank": 168032,
+      "prevScore": 504
     },
     {
       "majorName": "机电一体化技术",
       "majorKey": "d4465443",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "4800",
@@ -258,11 +258,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 180544,
-      "equivRank": 180544
+      "equivRank": 180544,
+      "prevScore": 493
     },
     {
       "majorName": "旅游管理",
       "majorKey": "ec77cae2",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "3700",
@@ -270,11 +272,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "环境工程技术",
       "majorKey": "48be6e41",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "4200",
@@ -282,11 +286,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "道路与桥梁工程技术",
       "majorKey": "e384b939",
+      "track": "综合",
       "selKe": "不限",
       "plan": 5,
       "tuition": "4800",
@@ -294,7 +300,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     }
   ]
 }

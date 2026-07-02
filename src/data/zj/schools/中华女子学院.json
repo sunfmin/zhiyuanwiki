@@ -30,16 +30,7 @@
           "minScore": 594,
           "minRank": 60160,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "中华女子学院",
-      "schoolCode": "1164",
-      "majorKey": "1f2ed8ff",
-      "majorName": "会计学（只招女生。第一学年在北校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -76,16 +67,7 @@
           "minScore": 582,
           "minRank": 73660,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "中华女子学院",
-      "schoolCode": "1164",
-      "majorKey": "3bbe7d9e",
-      "majorName": "养老服务管理（只招女生。第一学年在北校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -98,8 +80,8 @@
     {
       "schoolKey": "中华女子学院",
       "schoolCode": "1164",
-      "majorKey": "25e6222e",
-      "majorName": "女性学（只招女生。第一学年在北校区）",
+      "majorKey": "1d7b113d",
+      "majorName": "女性学",
       "selKe": "不限",
       "years": [
         {
@@ -114,8 +96,8 @@
     {
       "schoolKey": "中华女子学院",
       "schoolCode": "1164",
-      "majorKey": "6e38b28d",
-      "majorName": "学前教育（师范）",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
       "selKe": "不限",
       "years": [
         {
@@ -151,8 +133,8 @@
     {
       "schoolKey": "中华女子学院",
       "schoolCode": "1164",
-      "majorKey": "a62e33a7",
-      "majorName": "家庭教育（只招女生。第一学年在北校区）",
+      "majorKey": "2b87009e",
+      "majorName": "家庭教育",
       "selKe": "不限",
       "years": [
         {
@@ -191,16 +173,7 @@
           "minScore": 548,
           "minRank": 112766,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "中华女子学院",
-      "schoolCode": "1164",
-      "majorKey": "dff64372",
-      "majorName": "数字媒体技术（只招女生。第一学年在北校区）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -213,8 +186,8 @@
     {
       "schoolKey": "中华女子学院",
       "schoolCode": "1164",
-      "majorKey": "dccdae04",
-      "majorName": "汉语国际教育（师范）",
+      "majorKey": "d2fbd5c5",
+      "majorName": "汉语国际教育",
       "selKe": "不限",
       "years": [
         {
@@ -274,16 +247,7 @@
           "minScore": 603,
           "minRank": 50673,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "中华女子学院",
-      "schoolCode": "1164",
-      "majorKey": "27904f90",
-      "majorName": "法学（只招女生。第一学年在北校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -320,16 +284,7 @@
           "minScore": 593,
           "minRank": 61405,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "中华女子学院",
-      "schoolCode": "1164",
-      "majorKey": "55680173",
-      "majorName": "社会工作（只招女生。第一学年在北校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -342,8 +297,8 @@
     {
       "schoolKey": "中华女子学院",
       "schoolCode": "1164",
-      "majorKey": "fe3ea93a",
-      "majorName": "网络与新媒体（只招女生。第一学年在北校区）",
+      "majorKey": "fff04889",
+      "majorName": "网络与新媒体",
       "selKe": "不限",
       "years": [
         {
@@ -358,8 +313,8 @@
     {
       "schoolKey": "中华女子学院",
       "schoolCode": "1164",
-      "majorKey": "e87c1394",
-      "majorName": "金融学（只招女生。第一学年在北校区）",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
       "selKe": "不限",
       "years": [
         {
@@ -374,8 +329,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "法学（只招女生。第一学年在北校区）",
-      "majorKey": "27904f90",
+      "majorName": "法学",
+      "majorKey": "a1113a1f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4200",
@@ -383,11 +339,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 52716,
-      "equivRank": 52716
+      "equivRank": 52716,
+      "prevScore": 599
     },
     {
-      "majorName": "会计学（只招女生。第一学年在北校区）",
-      "majorKey": "1f2ed8ff",
+      "majorName": "会计学",
+      "majorKey": "8aa56116",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4200",
@@ -395,11 +353,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 63349,
-      "equivRank": 63349
+      "equivRank": 63349,
+      "prevScore": 590
     },
     {
-      "majorName": "社会工作（只招女生。第一学年在北校区）",
-      "majorKey": "55680173",
+      "majorName": "社会工作",
+      "majorKey": "fd907dda",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4200",
@@ -407,11 +367,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 64912,
-      "equivRank": 64912
+      "equivRank": 64912,
+      "prevScore": 589
     },
     {
-      "majorName": "网络与新媒体（只招女生。第一学年在北校区）",
-      "majorKey": "fe3ea93a",
+      "majorName": "网络与新媒体",
+      "majorKey": "fff04889",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4200",
@@ -419,11 +381,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 66162,
-      "equivRank": 66162
+      "equivRank": 66162,
+      "prevScore": 588
     },
     {
-      "majorName": "女性学（只招女生。第一学年在北校区）",
-      "majorKey": "25e6222e",
+      "majorName": "女性学",
+      "majorKey": "1d7b113d",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4200",
@@ -431,11 +395,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 69190,
-      "equivRank": 69190
+      "equivRank": 69190,
+      "prevScore": 585
     },
     {
-      "majorName": "汉语国际教育（师范）",
-      "majorKey": "dccdae04",
+      "majorName": "汉语国际教育",
+      "majorKey": "d2fbd5c5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4200",
@@ -443,11 +409,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 69481,
-      "equivRank": 69481
+      "equivRank": 69481,
+      "prevScore": 585
     },
     {
-      "majorName": "学前教育（师范）",
-      "majorKey": "6e38b28d",
+      "majorName": "学前教育",
+      "majorKey": "97716b64",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4200",
@@ -455,11 +423,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 73957,
-      "equivRank": 73957
+      "equivRank": 73957,
+      "prevScore": 581
     },
     {
-      "majorName": "金融学（只招女生。第一学年在北校区）",
-      "majorKey": "e87c1394",
+      "majorName": "金融学",
+      "majorKey": "5a699e63",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4200",
@@ -467,11 +437,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 74140,
-      "equivRank": 74140
+      "equivRank": 74140,
+      "prevScore": 581
     },
     {
-      "majorName": "养老服务管理（只招女生。第一学年在北校区）",
-      "majorKey": "3bbe7d9e",
+      "majorName": "养老服务管理",
+      "majorKey": "d6f6eccd",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4200",
@@ -479,11 +451,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 76598,
-      "equivRank": 76598
+      "equivRank": 76598,
+      "prevScore": 579
     },
     {
-      "majorName": "家庭教育（只招女生。第一学年在北校区）",
-      "majorKey": "a62e33a7",
+      "majorName": "家庭教育",
+      "majorKey": "2b87009e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4200",
@@ -491,11 +465,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 77220,
-      "equivRank": 77220
+      "equivRank": 77220,
+      "prevScore": 579
     },
     {
-      "majorName": "数字媒体技术（只招女生。第一学年在北校区）",
-      "majorKey": "dff64372",
+      "majorName": "数字媒体技术",
+      "majorKey": "889e9381",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "4600",
@@ -503,7 +479,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 113021,
-      "equivRank": 113021
+      "equivRank": 113021,
+      "prevScore": 549
     }
   ]
 }

@@ -147,29 +147,6 @@
     {
       "schoolKey": "安徽审计职业学院",
       "schoolCode": "3424",
-      "majorKey": "d7bc652c",
-      "majorName": "大数据与财务管理（中外合作办学）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 406,
-          "minRank": 244442,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 420,
-          "minRank": 243458,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "安徽审计职业学院",
-      "schoolCode": "3424",
       "majorKey": "b8be11ab",
       "majorName": "工程造价",
       "selKe": "不限",
@@ -283,6 +260,7 @@
     {
       "majorName": "大数据与会计",
       "majorKey": "49f153aa",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "3500",
@@ -290,11 +268,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "大数据与审计",
       "majorKey": "6ab2a346",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "3500",
@@ -302,23 +282,28 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 222417,
-      "equivRank": 222417
+      "equivRank": 222417,
+      "prevScore": 450
     },
     {
       "majorName": "大数据与财务管理",
       "majorKey": "6daff4b6",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 10,
-      "tuition": "3500",
+      "plan": 80,
+      "tuition": "9000",
       "schooling": "三年",
       "menlei": "管",
+      "coop": true,
       "prevYear": 2025,
       "prevRank": 223981,
-      "equivRank": 223981
+      "equivRank": 223981,
+      "prevScore": 448
     },
     {
       "majorName": "电子商务",
       "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "3500",
@@ -326,11 +311,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 233553,
-      "equivRank": 233553
+      "equivRank": 233553,
+      "prevScore": 435
     },
     {
       "majorName": "现代物流管理",
       "majorKey": "a0f5df04",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "3500",
@@ -338,11 +325,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 234254,
-      "equivRank": 234254
+      "equivRank": 234254,
+      "prevScore": 434
     },
     {
       "majorName": "工程造价",
       "majorKey": "b8be11ab",
+      "track": "综合",
       "selKe": "不限",
       "plan": 15,
       "tuition": "3500",
@@ -350,11 +339,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 234973,
-      "equivRank": 234973
+      "equivRank": 234973,
+      "prevScore": 433
     },
     {
       "majorName": "中小企业创业与经营",
       "majorKey": "1bb1190f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 15,
       "tuition": "3500",
@@ -362,20 +353,8 @@
       "menlei": "他",
       "prevYear": 2025,
       "prevRank": 236330,
-      "equivRank": 236330
-    },
-    {
-      "majorName": "大数据与财务管理（中外合作办学）",
-      "majorKey": "d7bc652c",
-      "selKe": "不限",
-      "plan": 70,
-      "tuition": "9000",
-      "schooling": "三年",
-      "menlei": "管",
-      "coop": true,
-      "prevYear": 2025,
-      "prevRank": 243458,
-      "equivRank": 243458
+      "equivRank": 236330,
+      "prevScore": 431
     }
   ]
 }

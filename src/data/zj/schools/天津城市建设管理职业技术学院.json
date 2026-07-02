@@ -67,16 +67,7 @@
           "minScore": 427,
           "minRank": 232603,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "天津城市建设管理职业技术学院",
-      "schoolCode": "1250",
-      "majorKey": "85ceae5c",
-      "majorName": "建筑装饰工程技术（华苑校区。）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -89,8 +80,8 @@
     {
       "schoolKey": "天津城市建设管理职业技术学院",
       "schoolCode": "1250",
-      "majorKey": "ab4112f6",
-      "majorName": "摄影测量与遥感技术（无人机方向）",
+      "majorKey": "42dfd837",
+      "majorName": "摄影测量与遥感技术",
       "selKe": "不限",
       "years": [
         {
@@ -193,8 +184,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "摄影测量与遥感技术（无人机方向）",
-      "majorKey": "ab4112f6",
+      "majorName": "摄影测量与遥感技术",
+      "majorKey": "42dfd837",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5000",
@@ -202,11 +194,13 @@
       "menlei": "艺",
       "prevYear": 2025,
       "prevRank": 218243,
-      "equivRank": 218243
+      "equivRank": 218243,
+      "prevScore": 455
     },
     {
       "majorName": "电气自动化技术",
       "majorKey": "4f34e927",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5500",
@@ -214,11 +208,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 219976,
-      "equivRank": 219976
+      "equivRank": 219976,
+      "prevScore": 453
     },
     {
       "majorName": "大数据与会计",
       "majorKey": "49f153aa",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5000",
@@ -226,11 +222,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 220779,
-      "equivRank": 220779
+      "equivRank": 220779,
+      "prevScore": 452
     },
     {
       "majorName": "计算机应用技术",
       "majorKey": "faccc9c5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5500",
@@ -238,16 +236,22 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 227042,
-      "equivRank": 227042
+      "equivRank": 227042,
+      "prevScore": 444
     },
     {
-      "majorName": "建筑装饰工程技术（华苑校区）",
-      "majorKey": "048383eb",
+      "majorName": "建筑装饰工程技术",
+      "majorKey": "7eabb2c8",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5500",
       "schooling": "三年",
-      "menlei": "工"
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 239016,
+      "equivRank": 239016,
+      "prevScore": 427
     }
   ]
 }

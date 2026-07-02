@@ -11,6 +11,20 @@
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 564,
+          "minRank": 89551,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 563,
+          "minRank": 91830,
+          "maxScore": 0
+        },
+        {
           "year": 2024,
           "track": "综合",
           "minScore": 551,
@@ -29,31 +43,8 @@
     {
       "schoolKey": "南京医科大学康达学院",
       "schoolCode": "3271",
-      "majorKey": "c7e3134e",
-      "majorName": "临床医学（全科医学）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 564,
-          "minRank": 89551,
-          "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 563,
-          "minRank": 91830,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "南京医科大学康达学院",
-      "schoolCode": "3271",
-      "majorKey": "9887adbc",
-      "majorName": "公共事业管理（卫生事业管理）",
+      "majorKey": "30e8a552",
+      "majorName": "公共事业管理",
       "selKe": "不限",
       "years": [
         {
@@ -253,8 +244,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "公共事业管理（卫生事业管理）",
-      "majorKey": "9887adbc",
+      "majorName": "公共事业管理",
+      "majorKey": "30e8a552",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "18000",
@@ -262,11 +254,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 107073,
-      "equivRank": 107073
+      "equivRank": 107073,
+      "prevScore": 554
     },
     {
       "majorName": "医疗保险",
       "majorKey": "bd766b24",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "18000",
@@ -274,11 +268,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 109478,
-      "equivRank": 109478
+      "equivRank": 109478,
+      "prevScore": 552
     },
     {
       "majorName": "临床医学",
       "majorKey": "618f7040",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "22000",
@@ -286,11 +282,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 113015,
-      "equivRank": 113015
+      "equivRank": 113015,
+      "prevScore": 549
     },
     {
       "majorName": "预防医学",
       "majorKey": "1954d9c9",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "22000",
@@ -298,11 +296,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 164027,
-      "equivRank": 164027
+      "equivRank": 164027,
+      "prevScore": 507
     },
     {
       "majorName": "康复治疗学",
       "majorKey": "a507c400",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "22000",
@@ -310,11 +310,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 164086,
-      "equivRank": 164086
+      "equivRank": 164086,
+      "prevScore": 507
     },
     {
       "majorName": "药学",
       "majorKey": "e9e6a481",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "22000",
@@ -322,11 +324,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 165356,
-      "equivRank": 165356
+      "equivRank": 165356,
+      "prevScore": 506
     },
     {
       "majorName": "医学信息工程",
       "majorKey": "58e43044",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "20000",
@@ -334,7 +338,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 168632,
-      "equivRank": 168632
+      "equivRank": 168632,
+      "prevScore": 503
     }
   ]
 }

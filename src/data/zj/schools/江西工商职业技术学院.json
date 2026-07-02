@@ -133,16 +133,7 @@
           "minScore": 411,
           "minRank": 237170,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "江西工商职业技术学院",
-      "schoolCode": "3691",
-      "majorKey": "13d3126a",
-      "majorName": "学前教育（中外合作办学）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -155,8 +146,8 @@
     {
       "schoolKey": "江西工商职业技术学院",
       "schoolCode": "3691",
-      "majorKey": "0a59ff21",
-      "majorName": "室内艺术设计（中外合作办学）",
+      "majorKey": "ecb3782f",
+      "majorName": "室内艺术设计",
       "selKe": "不限",
       "years": [
         {
@@ -178,8 +169,8 @@
     {
       "schoolKey": "江西工商职业技术学院",
       "schoolCode": "3691",
-      "majorKey": "f85b34fe",
-      "majorName": "工商企业管理（中外合作办学）",
+      "majorKey": "3d9020a8",
+      "majorName": "工商企业管理",
       "selKe": "不限",
       "years": [
         {
@@ -217,22 +208,6 @@
           "track": "综合",
           "minScore": 441,
           "minRank": 229313,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "江西工商职业技术学院",
-      "schoolCode": "3691",
-      "majorKey": "56144c88",
-      "majorName": "护理（中外合作办学）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 326,
-          "minRank": 280087,
           "maxScore": 0
         }
       ]
@@ -378,8 +353,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "学前教育（中外合作办学）",
-      "majorKey": "13d3126a",
+      "majorName": "学前教育",
+      "majorKey": "97716b64",
+      "track": "综合",
       "selKe": "不限",
       "plan": 16,
       "tuition": "17000",
@@ -388,23 +364,28 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "护理",
       "majorKey": "a3db4652",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 2,
-      "tuition": "11810",
+      "plan": 32,
+      "tuition": "16000",
       "schooling": "三年",
       "menlei": "医",
+      "coop": true,
       "prevYear": 2025,
       "prevRank": 229313,
-      "equivRank": 229313
+      "equivRank": 229313,
+      "prevScore": 441
     },
     {
       "majorName": "药学",
       "majorKey": "e9e6a481",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "11810",
@@ -412,11 +393,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 234973,
-      "equivRank": 234973
+      "equivRank": 234973,
+      "prevScore": 433
     },
     {
       "majorName": "口腔医学技术",
       "majorKey": "e849f952",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "12300",
@@ -424,11 +407,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 242810,
-      "equivRank": 242810
+      "equivRank": 242810,
+      "prevScore": 421
     },
     {
       "majorName": "人工智能技术应用",
       "majorKey": "d722f594",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "12600",
@@ -436,11 +421,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 264239,
-      "equivRank": 264239
+      "equivRank": 264239,
+      "prevScore": 379
     },
     {
       "majorName": "电子商务",
       "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "16200",
@@ -448,11 +435,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 266694,
-      "equivRank": 266694
+      "equivRank": 266694,
+      "prevScore": 373
     },
     {
       "majorName": "智能物流技术",
       "majorKey": "6abd9350",
+      "track": "综合",
       "selKe": "不限",
       "plan": 7,
       "tuition": "13500",
@@ -460,11 +449,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 272872,
-      "equivRank": 272872
+      "equivRank": 272872,
+      "prevScore": 355
     },
     {
       "majorName": "区块链技术应用",
       "majorKey": "6015368c",
+      "track": "综合",
       "selKe": "不限",
       "plan": 7,
       "tuition": "12930",
@@ -472,24 +463,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 278127,
-      "equivRank": 278127
+      "equivRank": 278127,
+      "prevScore": 335
     },
     {
-      "majorName": "护理（中外合作办学）",
-      "majorKey": "56144c88",
-      "selKe": "不限",
-      "plan": 30,
-      "tuition": "16000",
-      "schooling": "三年",
-      "menlei": "医",
-      "coop": true,
-      "prevYear": 2025,
-      "prevRank": 280087,
-      "equivRank": 280087
-    },
-    {
-      "majorName": "室内艺术设计（中外合作办学）",
-      "majorKey": "0a59ff21",
+      "majorName": "室内艺术设计",
+      "majorKey": "ecb3782f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 18,
       "tuition": "17000",
@@ -498,11 +478,13 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 281068,
-      "equivRank": 281068
+      "equivRank": 281068,
+      "prevScore": 321
     },
     {
-      "majorName": "工商企业管理（中外合作办学）",
-      "majorKey": "f85b34fe",
+      "majorName": "工商企业管理",
+      "majorKey": "3d9020a8",
+      "track": "综合",
       "selKe": "不限",
       "plan": 19,
       "tuition": "17000",
@@ -511,7 +493,8 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 281606,
-      "equivRank": 281606
+      "equivRank": 281606,
+      "prevScore": 318
     }
   ]
 }

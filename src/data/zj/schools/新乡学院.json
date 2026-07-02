@@ -6,8 +6,8 @@
     {
       "schoolKey": "新乡学院",
       "schoolCode": "4232",
-      "majorKey": "7109dce8",
-      "majorName": "中国语言文学类（师范）",
+      "majorKey": "a9584ad9",
+      "majorName": "中国语言文学类",
       "selKe": "不限",
       "years": [
         {
@@ -38,8 +38,8 @@
     {
       "schoolKey": "新乡学院",
       "schoolCode": "4232",
-      "majorKey": "d9ba5c0a",
-      "majorName": "会计学（注册会计师方向）",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
       "selKe": "不限",
       "years": [
         {
@@ -54,8 +54,8 @@
     {
       "schoolKey": "新乡学院",
       "schoolCode": "4232",
-      "majorKey": "70ff165d",
-      "majorName": "健康服务与管理（智慧健康管理方向）",
+      "majorKey": "4fa2a9fc",
+      "majorName": "健康服务与管理",
       "selKe": "不限",
       "years": [
         {
@@ -86,8 +86,8 @@
     {
       "schoolKey": "新乡学院",
       "schoolCode": "4232",
-      "majorKey": "12cc1f0e",
-      "majorName": "养老服务管理（养老产业规划与运营方向）",
+      "majorKey": "d6f6eccd",
+      "majorName": "养老服务管理",
       "selKe": "不限",
       "years": [
         {
@@ -95,6 +95,22 @@
           "track": "综合",
           "minScore": 561,
           "minRank": 99104,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "新乡学院",
+      "schoolCode": "4232",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 494,
+          "minRank": 175281,
           "maxScore": 0
         }
       ]
@@ -139,24 +155,8 @@
     {
       "schoolKey": "新乡学院",
       "schoolCode": "4232",
-      "majorKey": "0dfc12db",
-      "majorName": "化学（师范）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 494,
-          "minRank": 175281,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "新乡学院",
-      "schoolCode": "4232",
-      "majorKey": "4c5c8bc7",
-      "majorName": "历史学（师范）",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
       "selKe": "历史/地理(2选1)",
       "years": [
         {
@@ -255,16 +255,7 @@
           "minScore": 512,
           "minRank": 155183,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "新乡学院",
-      "schoolCode": "4232",
-      "majorKey": "09ee05b6",
-      "majorName": "增材制造工程（3D打印）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -314,8 +305,8 @@
     {
       "schoolKey": "新乡学院",
       "schoolCode": "4232",
-      "majorKey": "6e38b28d",
-      "majorName": "学前教育（师范）",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
       "selKe": "不限",
       "years": [
         {
@@ -399,8 +390,8 @@
     {
       "schoolKey": "新乡学院",
       "schoolCode": "4232",
-      "majorKey": "20582792",
-      "majorName": "心理学（师范）",
+      "majorKey": "17c0dc67",
+      "majorName": "心理学",
       "selKe": "不限",
       "years": [
         {
@@ -583,8 +574,8 @@
     {
       "schoolKey": "新乡学院",
       "schoolCode": "4232",
-      "majorKey": "de7b4f15",
-      "majorName": "物业管理（物业智能化管理方向）",
+      "majorKey": "b1f69d59",
+      "majorName": "物业管理",
       "selKe": "不限",
       "years": [
         {
@@ -620,8 +611,8 @@
     {
       "schoolKey": "新乡学院",
       "schoolCode": "4232",
-      "majorKey": "a3f3e0a9",
-      "majorName": "物流管理（智慧物流方向）",
+      "majorKey": "8b6a817b",
+      "majorName": "物流管理",
       "selKe": "不限",
       "years": [
         {
@@ -827,8 +818,8 @@
     {
       "schoolKey": "新乡学院",
       "schoolCode": "4232",
-      "majorKey": "834c3ae0",
-      "majorName": "酒店管理（旅居新业态方向）",
+      "majorKey": "ec686c36",
+      "majorName": "酒店管理",
       "selKe": "史/政/地(3选1)",
       "years": [
         {
@@ -850,8 +841,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "会计学（注册会计师方向）",
-      "majorKey": "d9ba5c0a",
+      "majorName": "会计学",
+      "majorKey": "8aa56116",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "4400",
@@ -859,11 +851,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 91011,
-      "equivRank": 91011
+      "equivRank": 91011,
+      "prevScore": 567
     },
     {
       "majorName": "电子商务",
       "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "4400",
@@ -871,11 +865,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 95200,
-      "equivRank": 95200
+      "equivRank": 95200,
+      "prevScore": 564
     },
     {
       "majorName": "外国语言文学类",
       "majorKey": "3c2f7b8b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "4400",
@@ -883,11 +879,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 96204,
-      "equivRank": 96204
+      "equivRank": 96204,
+      "prevScore": 563
     },
     {
       "majorName": "城乡规划",
       "majorKey": "2a1f2fe5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "5000",
@@ -895,11 +893,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 97318,
-      "equivRank": 97318
+      "equivRank": 97318,
+      "prevScore": 562
     },
     {
-      "majorName": "物业管理（物业智能化管理方向）",
-      "majorKey": "de7b4f15",
+      "majorName": "物业管理",
+      "majorKey": "b1f69d59",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "4400",
@@ -907,11 +907,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 97692,
-      "equivRank": 97692
+      "equivRank": 97692,
+      "prevScore": 562
     },
     {
       "majorName": "新闻学",
       "majorKey": "9c5f4a34",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "4400",
@@ -919,11 +921,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 97935,
-      "equivRank": 97935
+      "equivRank": 97935,
+      "prevScore": 562
     },
     {
-      "majorName": "养老服务管理（养老产业规划与运营方向）",
-      "majorKey": "12cc1f0e",
+      "majorName": "养老服务管理",
+      "majorKey": "d6f6eccd",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "4400",
@@ -931,11 +935,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 99104,
-      "equivRank": 99104
+      "equivRank": 99104,
+      "prevScore": 561
     },
     {
-      "majorName": "物流管理（智慧物流方向）",
-      "majorKey": "a3f3e0a9",
+      "majorName": "物流管理",
+      "majorKey": "8b6a817b",
+      "track": "综合",
       "selKe": "不限",
       "plan": 3,
       "tuition": "4400",
@@ -943,11 +949,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 99387,
-      "equivRank": 99387
+      "equivRank": 99387,
+      "prevScore": 560
     },
     {
-      "majorName": "学前教育（师范）",
-      "majorKey": "6e38b28d",
+      "majorName": "学前教育",
+      "majorKey": "97716b64",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "4400",
@@ -955,11 +963,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 102349,
-      "equivRank": 102349
+      "equivRank": 102349,
+      "prevScore": 558
     },
     {
       "majorName": "光电信息科学与工程",
       "majorKey": "d8f4c9ac",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "5000",
@@ -967,11 +977,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 146321,
-      "equivRank": 146321
+      "equivRank": 146321,
+      "prevScore": 522
     },
     {
       "majorName": "计算机科学与技术",
       "majorKey": "1d486608",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "5000",
@@ -979,11 +991,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 147295,
-      "equivRank": 147295
+      "equivRank": 147295,
+      "prevScore": 521
     },
     {
       "majorName": "物联网工程",
       "majorKey": "1da18825",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "5000",
@@ -991,11 +1005,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 152756,
-      "equivRank": 152756
+      "equivRank": 152756,
+      "prevScore": 517
     },
     {
-      "majorName": "增材制造工程（3D打印）",
-      "majorKey": "09ee05b6",
+      "majorName": "增材制造工程",
+      "majorKey": "c395dc5a",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 6,
       "tuition": "5000",
@@ -1003,11 +1019,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 159408,
-      "equivRank": 159408
+      "equivRank": 159408,
+      "prevScore": 511
     },
     {
       "majorName": "智能建造",
       "majorKey": "2363aecb",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "5000",
@@ -1015,11 +1033,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 161917,
-      "equivRank": 161917
+      "equivRank": 161917,
+      "prevScore": 509
     },
     {
       "majorName": "化学工程与工艺",
       "majorKey": "1f59c989",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 6,
       "tuition": "5000",
@@ -1027,11 +1047,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 162751,
-      "equivRank": 162751
+      "equivRank": 162751,
+      "prevScore": 508
     },
     {
       "majorName": "材料科学与工程",
       "majorKey": "c425ce53",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "5000",
@@ -1039,11 +1061,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 163185,
-      "equivRank": 163185
+      "equivRank": 163185,
+      "prevScore": 508
     },
     {
       "majorName": "土木类",
       "majorKey": "2ca5ff3e",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "5000",
@@ -1051,11 +1075,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 165163,
-      "equivRank": 165163
+      "equivRank": 165163,
+      "prevScore": 506
     },
     {
       "majorName": "康复工程",
       "majorKey": "a51e5414",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "5000",
@@ -1063,11 +1089,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 165509,
-      "equivRank": 165509
+      "equivRank": 165509,
+      "prevScore": 506
     },
     {
       "majorName": "生物技术",
       "majorKey": "0ac1da59",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 6,
       "tuition": "5000",
@@ -1075,11 +1103,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 166398,
-      "equivRank": 166398
+      "equivRank": 166398,
+      "prevScore": 505
     },
     {
       "majorName": "材料成型及控制工程",
       "majorKey": "98867766",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "5000",
@@ -1087,7 +1117,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 166917,
-      "equivRank": 166917
+      "equivRank": 166917,
+      "prevScore": 505
     }
   ]
 }

@@ -868,29 +868,6 @@
         {
           "year": 2023,
           "track": "综合",
-          "minScore": 561,
-          "minRank": 93784,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 542,
-          "minRank": 121570,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "中南林业科技大学",
-      "schoolCode": "4366",
-      "majorKey": "e31be27a",
-      "majorName": "木材科学与工程（院士卓越班）",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2023,
-          "track": "综合",
           "minScore": 565,
           "minRank": 90138,
           "maxScore": 0
@@ -900,6 +877,13 @@
           "track": "综合",
           "minScore": 542,
           "minRank": 120141,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 542,
+          "minRank": 121570,
           "maxScore": 0
         }
       ]
@@ -1029,24 +1013,8 @@
     {
       "schoolKey": "中南林业科技大学",
       "schoolCode": "4366",
-      "majorKey": "0fd9447f",
-      "majorName": "林学类",
-      "selKe": "物/化/生(3选1)",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 572,
-          "minRank": 81018,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "中南林业科技大学",
-      "schoolCode": "4366",
-      "majorKey": "ba25add4",
-      "majorName": "林学（中外合作办学）",
+      "majorKey": "61e687fe",
+      "majorName": "林学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -1061,6 +1029,22 @@
           "track": "综合",
           "minScore": 506,
           "minRank": 165877,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中南林业科技大学",
+      "schoolCode": "4366",
+      "majorKey": "0fd9447f",
+      "majorName": "林学类",
+      "selKe": "物/化/生(3选1)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 572,
+          "minRank": 81018,
           "maxScore": 0
         }
       ]
@@ -1222,22 +1206,6 @@
       "schoolCode": "4366",
       "majorKey": "11cedbac",
       "majorName": "生态学",
-      "selKe": "物理、化学(2科必选)",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 530,
-          "minRank": 136443,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "中南林业科技大学",
-      "schoolCode": "4366",
-      "majorKey": "1015060c",
-      "majorName": "生态学（陶铸实验班）",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -1549,24 +1517,8 @@
     {
       "schoolKey": "中南林业科技大学",
       "schoolCode": "4366",
-      "majorKey": "b39b8034",
-      "majorName": "金融学类",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 588,
-          "minRank": 61130,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "中南林业科技大学",
-      "schoolCode": "4366",
-      "majorKey": "31ea3245",
-      "majorName": "金融学（中外合作办学）",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
       "selKe": "不限",
       "years": [
         {
@@ -1581,6 +1533,22 @@
           "track": "综合",
           "minScore": 579,
           "minRank": 76677,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中南林业科技大学",
+      "schoolCode": "4366",
+      "majorKey": "b39b8034",
+      "majorName": "金融学类",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 588,
+          "minRank": 61130,
           "maxScore": 0
         }
       ]
@@ -1664,6 +1632,7 @@
     {
       "majorName": "会计学",
       "majorKey": "8aa56116",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5000",
@@ -1671,11 +1640,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 45552,
-      "equivRank": 45552
+      "equivRank": 45552,
+      "prevScore": 606
     },
     {
       "majorName": "知识产权",
       "majorKey": "f3a3be38",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5000",
@@ -1683,11 +1654,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 50282,
-      "equivRank": 50282
+      "equivRank": 50282,
+      "prevScore": 602
     },
     {
       "majorName": "国际经济与贸易",
       "majorKey": "f8a1727e",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5000",
@@ -1695,11 +1668,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 62560,
-      "equivRank": 62560
+      "equivRank": 62560,
+      "prevScore": 591
     },
     {
       "majorName": "人力资源管理",
       "majorKey": "5a324641",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5000",
@@ -1707,11 +1682,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 68242,
-      "equivRank": 68242
+      "equivRank": 68242,
+      "prevScore": 586
     },
     {
       "majorName": "农林经济管理",
       "majorKey": "1f0182ac",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "5000",
@@ -1719,11 +1696,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 69801,
-      "equivRank": 69801
+      "equivRank": 69801,
+      "prevScore": 585
     },
     {
       "majorName": "软件工程",
       "majorKey": "0c33cbdd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "5900",
@@ -1731,11 +1710,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 71994,
-      "equivRank": 71994
+      "equivRank": 71994,
+      "prevScore": 583
     },
     {
       "majorName": "市场营销",
       "majorKey": "28c62e21",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "5000",
@@ -1743,11 +1724,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 76207,
-      "equivRank": 76207
+      "equivRank": 76207,
+      "prevScore": 579
     },
     {
-      "majorName": "金融学（中外合作办学）",
-      "majorKey": "31ea3245",
+      "majorName": "金融学",
+      "majorKey": "5a699e63",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "38000",
@@ -1756,11 +1739,13 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 76677,
-      "equivRank": 76677
+      "equivRank": 76677,
+      "prevScore": 579
     },
     {
       "majorName": "自动化",
       "majorKey": "da95770c",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5900",
@@ -1768,11 +1753,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 77431,
-      "equivRank": 77431
+      "equivRank": 77431,
+      "prevScore": 578
     },
     {
       "majorName": "日语",
       "majorKey": "8f1def37",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4500",
@@ -1780,11 +1767,13 @@
       "menlei": "文",
       "prevYear": 2025,
       "prevRank": 79687,
-      "equivRank": 79687
+      "equivRank": 79687,
+      "prevScore": 577
     },
     {
       "majorName": "智能制造工程",
       "majorKey": "ed53a26b",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "5900",
@@ -1792,11 +1781,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 82022,
-      "equivRank": 82022
+      "equivRank": 82022,
+      "prevScore": 575
     },
     {
       "majorName": "旅游管理",
       "majorKey": "ec77cae2",
+      "track": "综合",
       "selKe": "不限",
       "plan": 6,
       "tuition": "5000",
@@ -1804,11 +1795,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 82066,
-      "equivRank": 82066
+      "equivRank": 82066,
+      "prevScore": 575
     },
     {
       "majorName": "人工智能",
       "majorKey": "2fec4169",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "5900",
@@ -1816,11 +1809,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 82198,
-      "equivRank": 82198
+      "equivRank": 82198,
+      "prevScore": 574
     },
     {
       "majorName": "风景园林",
       "majorKey": "9b8820c1",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 2,
       "tuition": "5900",
@@ -1828,11 +1823,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 92704,
-      "equivRank": 92704
+      "equivRank": 92704,
+      "prevScore": 566
     },
     {
       "majorName": "新能源科学与工程",
       "majorKey": "42b22d93",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "5900",
@@ -1840,11 +1837,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 93168,
-      "equivRank": 93168
+      "equivRank": 93168,
+      "prevScore": 565
     },
     {
       "majorName": "数字经济",
       "majorKey": "ca37000f",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 2,
       "tuition": "5000",
@@ -1852,11 +1851,13 @@
       "menlei": "经",
       "prevYear": 2025,
       "prevRank": 95742,
-      "equivRank": 95742
+      "equivRank": 95742,
+      "prevScore": 563
     },
     {
       "majorName": "生物工程",
       "majorKey": "14eeb10f",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5900",
@@ -1864,11 +1865,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 98774,
-      "equivRank": 98774
+      "equivRank": 98774,
+      "prevScore": 561
     },
     {
       "majorName": "工业设计",
       "majorKey": "fee47c1b",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5900",
@@ -1876,11 +1879,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 99269,
-      "equivRank": 99269
+      "equivRank": 99269,
+      "prevScore": 560
     },
     {
       "majorName": "应用物理学",
       "majorKey": "409f7ac3",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "4500",
@@ -1888,11 +1893,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 102032,
-      "equivRank": 102032
+      "equivRank": 102032,
+      "prevScore": 558
     },
     {
       "majorName": "遥感科学与技术",
       "majorKey": "8cb98cd7",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5900",
@@ -1900,11 +1907,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 103862,
-      "equivRank": 103862
+      "equivRank": 103862,
+      "prevScore": 557
     },
     {
       "majorName": "工程管理",
       "majorKey": "4166f1ff",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 2,
       "tuition": "5900",
@@ -1912,11 +1921,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 104646,
-      "equivRank": 104646
+      "equivRank": 104646,
+      "prevScore": 556
     },
     {
       "majorName": "建筑学",
       "majorKey": "6b32f2c4",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 2,
       "tuition": "5900",
@@ -1924,11 +1935,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 105645,
-      "equivRank": 105645
+      "equivRank": 105645,
+      "prevScore": 555
     },
     {
       "majorName": "供应链管理",
       "majorKey": "ca969af2",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 4,
       "tuition": "5000",
@@ -1936,11 +1949,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 109303,
-      "equivRank": 109303
+      "equivRank": 109303,
+      "prevScore": 552
     },
     {
       "majorName": "物流工程",
       "majorKey": "803b1149",
+      "track": "综合",
       "selKe": "物理必选",
       "plan": 4,
       "tuition": "5900",
@@ -1948,23 +1963,27 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 113444,
-      "equivRank": 113444
+      "equivRank": 113444,
+      "prevScore": 549
     },
     {
-      "majorName": "生态学（陶铸实验班）",
-      "majorKey": "1015060c",
+      "majorName": "生态学",
+      "majorKey": "11cedbac",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
-      "plan": 2,
+      "plan": 4,
       "tuition": "4500",
       "schooling": "四年",
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 120081,
-      "equivRank": 120081
+      "equivRank": 120081,
+      "prevScore": 544
     },
     {
       "majorName": "木材科学与工程",
       "majorKey": "9b2799f2",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5900",
@@ -1972,11 +1991,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 121570,
-      "equivRank": 121570
+      "equivRank": 121570,
+      "prevScore": 542
     },
     {
       "majorName": "化学工程与工艺",
       "majorKey": "1f59c989",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 6,
       "tuition": "5900",
@@ -1984,11 +2005,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 127239,
-      "equivRank": 127239
+      "equivRank": 127239,
+      "prevScore": 538
     },
     {
       "majorName": "生物科学",
       "majorKey": "e2472a71",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "4500",
@@ -1996,11 +2019,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 130719,
-      "equivRank": 130719
+      "equivRank": 130719,
+      "prevScore": 535
     },
     {
       "majorName": "食品科学与工程类",
       "majorKey": "6e702db2",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 10,
       "tuition": "5900",
@@ -2008,11 +2033,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 131861,
-      "equivRank": 131861
+      "equivRank": 131861,
+      "prevScore": 534
     },
     {
       "majorName": "材料科学与工程",
       "majorKey": "c425ce53",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 10,
       "tuition": "5900",
@@ -2020,11 +2047,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 131926,
-      "equivRank": 131926
+      "equivRank": 131926,
+      "prevScore": 534
     },
     {
       "majorName": "环境工程",
       "majorKey": "7faf2092",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "5900",
@@ -2032,11 +2061,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 132836,
-      "equivRank": 132836
+      "equivRank": 132836,
+      "prevScore": 533
     },
     {
       "majorName": "林产化工",
       "majorKey": "14ee5ab1",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 6,
       "tuition": "5900",
@@ -2044,11 +2075,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 133243,
-      "equivRank": 133243
+      "equivRank": 133243,
+      "prevScore": 533
     },
     {
       "majorName": "生物质能源与材料",
       "majorKey": "6f3433da",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5900",
@@ -2056,11 +2089,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 133963,
-      "equivRank": 133963
+      "equivRank": 133963,
+      "prevScore": 532
     },
     {
       "majorName": "生物技术",
       "majorKey": "0ac1da59",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 1,
       "tuition": "4500",
@@ -2068,11 +2103,13 @@
       "menlei": "理",
       "prevYear": 2025,
       "prevRank": 134070,
-      "equivRank": 134070
+      "equivRank": 134070,
+      "prevScore": 532
     },
     {
       "majorName": "木结构建筑与材料",
       "majorKey": "3dcd2b1f",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "5900",
@@ -2080,11 +2117,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 134243,
-      "equivRank": 134243
+      "equivRank": 134243,
+      "prevScore": 532
     },
     {
       "majorName": "土地资源管理",
       "majorKey": "6c4793b8",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 4,
       "tuition": "5900",
@@ -2092,11 +2131,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 135087,
-      "equivRank": 135087
+      "equivRank": 135087,
+      "prevScore": 531
     },
     {
       "majorName": "家具设计与工程",
       "majorKey": "2b84bf15",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 8,
       "tuition": "5900",
@@ -2104,23 +2145,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 136390,
-      "equivRank": 136390
-    },
-    {
-      "majorName": "生态学",
-      "majorKey": "11cedbac",
-      "selKe": "物理、化学(2科必选)",
-      "plan": 2,
-      "tuition": "4500",
-      "schooling": "四年",
-      "menlei": "理",
-      "prevYear": 2025,
-      "prevRank": 136443,
-      "equivRank": 136443
+      "equivRank": 136390,
+      "prevScore": 530
     },
     {
       "majorName": "环境科学",
       "majorKey": "37356fa4",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 6,
       "tuition": "5900",
@@ -2128,11 +2159,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 141293,
-      "equivRank": 141293
+      "equivRank": 141293,
+      "prevScore": 526
     },
     {
       "majorName": "土木类",
       "majorKey": "2ca5ff3e",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 10,
       "tuition": "5900",
@@ -2140,11 +2173,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 141729,
-      "equivRank": 141729
+      "equivRank": 141729,
+      "prevScore": 526
     },
     {
-      "majorName": "林学（中外合作办学）",
-      "majorKey": "ba25add4",
+      "majorName": "林学",
+      "majorKey": "61e687fe",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 3,
       "tuition": "37000",
@@ -2153,7 +2188,8 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 165877,
-      "equivRank": 165877
+      "equivRank": 165877,
+      "prevScore": 506
     }
   ]
 }

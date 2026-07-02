@@ -6,7 +6,6 @@ import (
 
 	"github.com/sunfmin/zhiyuanwiki/internal/core"
 	"github.com/sunfmin/zhiyuanwiki/internal/store"
-	"github.com/sunfmin/zhiyuanwiki/internal/zj"
 )
 
 // buildDBBundle 从 SQLite staging 投影某省院校数据（构建期 staging 管线省份共用，见 ADR-0014）：
@@ -97,100 +96,6 @@ func buildDBBundle(dbPath string, p province) schoolBundle {
 	}
 	fmt.Printf("  报考视图：院校专业组 %d 个（计划年 %d）· 院校属性命中 %d/%d\n",
 		groupCount, planYear(plan), matched, len(schools))
-	return b
-}
-
-// buildDBBundleMajor 从 SQLite staging 投影 major 模型省份（浙江：综合·专业平行志愿，无组）的院校
-// 数据，与 buildDBBundle 同形，只是报考视图走 zj.BuildPlan2026 产 plan2026（院校×专业）而非
-// groups2026。计划行经 zj.FromCorePlan 从统一 plan 表还原成 PlanRow2026（招生类型从 Batch 列取回）。
-// 见 ADR-0014 / issue #20。院校属性此处仍按全国 school 表挂接；浙江特有 city_tier/按码属性的保全在 #21。
-func buildDBBundleMajor(dbPath string, p province) schoolBundle {
-	db, err := store.Open(dbPath)
-	if err != nil {
-		fatal(err)
-	}
-	defer db.Close()
-
-	scores, err := db.LoadScores(p.slug)
-	if err != nil {
-		fatal(err)
-	}
-	if len(scores) == 0 {
-		fatal(fmt.Errorf("DB 无%s分数行——先跑 `zhiyuan-data import -prov %s`", p.name, p.slug))
-	}
-	fmt.Printf("  专业录取分数：%d 行（%s·含位次）\n", len(scores), strings.Join(p.tracks, "/"))
-
-	menlei, err := db.Menlei()
-	if err != nil {
-		fatal(err)
-	}
-	// 院校属性走省专属按码表（浙江「一表联动」：含 city_tier、按院校代码挂接），不用全国 school 表
-	// （按校名、无 city_tier，且 城市/类型 命名与浙江源大相径庭，会整体回归）。见 #21。
-	attrs, err := db.SchoolAttrs(p.slug)
-	if err != nil {
-		fatal(err)
-	}
-	fmt.Printf("  院校属性（按代码）%d 所 · 专业→门类 %d 条\n", len(attrs), menlei.Len())
-
-	totals, err := db.LoadTotals(p.slug)
-	if err != nil {
-		fatal(err)
-	}
-	planAll, err := db.LoadPlan(p.slug)
-	if err != nil {
-		fatal(err)
-	}
-
-	// 身份归并覆盖 分数∪计划（同 buildDBBundle）：院校全集含计划独有校、按校名归并（ADR-0021）。
-	resolver := core.BuildSchoolResolver(append(core.IdentRowsFromScores(scores), core.IdentRowsFromPlan(planAll)...))
-	schools, leaves := core.AggregateLeavesR(scores, resolver)
-	if rn := resolver.Renames(); len(rn) > 0 {
-		fmt.Printf("  改名/转设归并 %d 处（人工可复核）：\n", len(rn))
-		for _, s := range rn {
-			fmt.Printf("    · %s\n", s)
-		}
-	}
-	// 浙江报考视图（院校×专业）仍按代号建，然后按 code→实体键 归拢到院校页（同名多渠道并入一页）。
-	planByCode := zj.BuildPlan2026(zj.FromCorePlan(planAll), leaves, totals, zjRefYear, menlei)
-	codeToEntity := map[string]string{}
-	for _, r := range planAll {
-		codeToEntity[r.SchoolCode] = resolver.Entity(r.SchoolName)
-	}
-	planByEntity := map[string][]zj.PlanMajor{}
-	for code, majors := range planByCode {
-		ent := codeToEntity[code]
-		if ent == "" {
-			ent = resolver.Entity(code) // 兜底
-		}
-		planByEntity[ent] = append(planByEntity[ent], majors...)
-	}
-
-	byCode := map[string][]core.MajorLeaf{}
-	for _, lf := range leaves {
-		byCode[leafGroupKey(lf)] = append(byCode[leafGroupKey(lf)], lf)
-	}
-
-	b := schoolBundle{
-		schools: schools, leaves: leaves,
-		details: map[string]schoolDetail{},
-		meta:    map[string]schoolMetaOut{},
-		levels:  map[string][3]bool{},
-	}
-	planCount, matched := 0, 0
-	for _, s := range schools {
-		d := schoolDetail{School: s, Leaves: nonNilLeaves(byCode[schoolKey(s)]), Plan2026: planByEntity[schoolKey(s)]}
-		planCount += len(d.Plan2026)
-		b.details[schoolKey(s)] = d
-		if a, ok := attrs[s.Code]; ok {
-			matched++
-			b.levels[schoolKey(s)] = [3]bool{a.Is985, a.Is211, a.Syl}
-			b.meta[schoolKey(s)] = schoolMetaOut{
-				Province: a.Province, City: a.City, CityTier: a.CityTier,
-				Owner: a.Ownership, Kind: a.Kind, Levels: a.Levels(),
-			}
-		}
-	}
-	fmt.Printf("  报考视图：院校×专业 %d 个 · 院校属性命中 %d/%d\n", planCount, matched, len(schools))
 	return b
 }
 

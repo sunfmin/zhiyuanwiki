@@ -70,8 +70,8 @@
     {
       "schoolKey": "河北师范大学",
       "schoolCode": "1330",
-      "majorKey": "26d35d07",
-      "majorName": "教育技术学（师范）",
+      "majorKey": "3e2b336a",
+      "majorName": "教育技术学",
       "selKe": "物理必选",
       "years": [
         {
@@ -100,8 +100,8 @@
     {
       "schoolKey": "河北师范大学",
       "schoolCode": "1330",
-      "majorKey": "9f802a9c",
-      "majorName": "数学与应用数学（师范）",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -153,8 +153,8 @@
     {
       "schoolKey": "河北师范大学",
       "schoolCode": "1330",
-      "majorKey": "d7131091",
-      "majorName": "汉语言文学（师范）",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
       "selKe": "历史必选",
       "years": [
         {
@@ -268,8 +268,8 @@
     {
       "schoolKey": "河北师范大学",
       "schoolCode": "1330",
-      "majorKey": "146e59b2",
-      "majorName": "翻译（中外合作办学）",
+      "majorKey": "8f1501ac",
+      "majorName": "翻译",
       "selKe": "不限",
       "years": [
         {
@@ -378,6 +378,7 @@
     {
       "majorName": "法学",
       "majorKey": "a1113a1f",
+      "track": "综合",
       "selKe": "思想政治必选",
       "plan": 4,
       "tuition": "4600",
@@ -385,11 +386,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 46372,
-      "equivRank": 46372
+      "equivRank": 46372,
+      "prevScore": 605
     },
     {
       "majorName": "行政管理",
       "majorKey": "062bcf46",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "4600",
@@ -397,11 +400,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 73055,
-      "equivRank": 73055
+      "equivRank": 73055,
+      "prevScore": 582
     },
     {
       "majorName": "软件工程",
       "majorKey": "0c33cbdd",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 5,
       "tuition": "10000",
@@ -409,11 +414,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 98247,
-      "equivRank": 98247
+      "equivRank": 98247,
+      "prevScore": 561
     },
     {
-      "majorName": "翻译（中外合作办学）",
-      "majorKey": "146e59b2",
+      "majorName": "翻译",
+      "majorKey": "8f1501ac",
+      "track": "综合",
       "selKe": "不限",
       "plan": 4,
       "tuition": "26000",
@@ -422,7 +429,8 @@
       "coop": true,
       "prevYear": 2025,
       "prevRank": 109971,
-      "equivRank": 109971
+      "equivRank": 109971,
+      "prevScore": 552
     }
   ]
 }

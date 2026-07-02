@@ -22,8 +22,8 @@
     {
       "schoolKey": "吐鲁番职业技术学院",
       "schoolCode": "6529",
-      "majorKey": "2fa6b527",
-      "majorName": "护理（临床护理）",
+      "majorKey": "a3db4652",
+      "majorName": "护理",
       "selKe": "历史必选",
       "years": [
         {
@@ -38,8 +38,8 @@
     {
       "schoolKey": "吐鲁番职业技术学院",
       "schoolCode": "6529",
-      "majorKey": "7f7f914c",
-      "majorName": "计算机网络技术（网络工程方向）",
+      "majorKey": "547b1c20",
+      "majorName": "计算机网络技术",
       "selKe": "历史必选",
       "years": [
         {
@@ -54,8 +54,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "护理（临床护理）",
-      "majorKey": "2fa6b527",
+      "majorName": "护理",
+      "majorKey": "a3db4652",
+      "track": "综合",
       "selKe": "历史必选",
       "plan": 2,
       "tuition": "3900",
@@ -63,11 +64,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 255601,
-      "equivRank": 255601
+      "equivRank": 255601,
+      "prevScore": 398
     },
     {
-      "majorName": "计算机网络技术（网络工程方向）",
-      "majorKey": "7f7f914c",
+      "majorName": "计算机网络技术",
+      "majorKey": "547b1c20",
+      "track": "综合",
       "selKe": "历史必选",
       "plan": 2,
       "tuition": "3300",
@@ -75,11 +78,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 268589,
-      "equivRank": 268589
+      "equivRank": 268589,
+      "prevScore": 368
     },
     {
       "majorName": "学前教育",
       "majorKey": "97716b64",
+      "track": "综合",
       "selKe": "历史必选",
       "plan": 1,
       "tuition": "2900",
@@ -87,7 +92,8 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 275431,
-      "equivRank": 275431
+      "equivRank": 275431,
+      "prevScore": 346
     }
   ]
 }

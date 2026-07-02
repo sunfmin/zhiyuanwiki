@@ -6,8 +6,8 @@
     {
       "schoolKey": "黑龙江职业学院",
       "schoolCode": "2354",
-      "majorKey": "7eaf9bbf",
-      "majorName": "工业互联网应用（第一校区。）",
+      "majorKey": "d19a7708",
+      "majorName": "工业互联网应用",
       "selKe": "不限",
       "years": [
         {
@@ -22,8 +22,8 @@
     {
       "schoolKey": "黑龙江职业学院",
       "schoolCode": "2354",
-      "majorKey": "fa89fe51",
-      "majorName": "数控技术（第一校区。）",
+      "majorKey": "750aa39a",
+      "majorName": "数控技术",
       "selKe": "不限",
       "years": [
         {
@@ -38,8 +38,8 @@
     {
       "schoolKey": "黑龙江职业学院",
       "schoolCode": "2354",
-      "majorKey": "b6eeb846",
-      "majorName": "电气自动化技术（第一校区。）",
+      "majorKey": "4f34e927",
+      "majorName": "电气自动化技术",
       "selKe": "不限",
       "years": [
         {
@@ -54,31 +54,46 @@
   ],
   "plan2026": [
     {
-      "majorName": "工业互联网应用（第一校区）",
-      "majorKey": "9f96c33a",
+      "majorName": "电气自动化技术",
+      "majorKey": "4f34e927",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 5,
+      "tuition": "6000",
+      "schooling": "三年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 232172,
+      "equivRank": 232172,
+      "prevScore": 437
+    },
+    {
+      "majorName": "数控技术",
+      "majorKey": "750aa39a",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 5,
+      "tuition": "6000",
+      "schooling": "三年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 246361,
+      "equivRank": 246361,
+      "prevScore": 415
+    },
+    {
+      "majorName": "工业互联网应用",
+      "majorKey": "d19a7708",
+      "track": "综合",
       "selKe": "不限",
       "plan": 20,
       "tuition": "6000",
       "schooling": "三年",
-      "menlei": "他"
-    },
-    {
-      "majorName": "数控技术（第一校区）",
-      "majorKey": "ee5c0358",
-      "selKe": "不限",
-      "plan": 5,
-      "tuition": "6000",
-      "schooling": "三年",
-      "menlei": "工"
-    },
-    {
-      "majorName": "电气自动化技术（第一校区）",
-      "majorKey": "35cd7909",
-      "selKe": "不限",
-      "plan": 5,
-      "tuition": "6000",
-      "schooling": "三年",
-      "menlei": "工"
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 271962,
+      "equivRank": 271962,
+      "prevScore": 358
     }
   ]
 }

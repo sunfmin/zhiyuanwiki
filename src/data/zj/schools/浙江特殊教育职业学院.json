@@ -6,8 +6,8 @@
     {
       "schoolKey": "浙江特殊教育职业学院",
       "schoolCode": "0115",
-      "majorKey": "6e38b28d",
-      "majorName": "学前教育（师范）",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
       "selKe": "不限",
       "years": [
         {
@@ -103,61 +103,8 @@
     {
       "schoolKey": "浙江特殊教育职业学院",
       "schoolCode": "0115",
-      "majorKey": "79d7e7d7",
-      "majorName": "特殊教育（师范）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2022,
-          "track": "综合",
-          "minScore": 499,
-          "minRank": 167929,
-          "maxScore": 0
-        },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 493,
-          "minRank": 169747,
-          "maxScore": 0
-        },
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 508,
-          "minRank": 160187,
-          "maxScore": 0
-        },
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 505,
-          "minRank": 167178,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "浙江特殊教育职业学院",
-      "schoolCode": "0115",
-      "majorKey": "ee9cd5d5",
-      "majorName": "特殊教育（手语翻译方向）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2024,
-          "track": "综合",
-          "minScore": 523,
-          "minRank": 142450,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "浙江特殊教育职业学院",
-      "schoolCode": "0115",
-      "majorKey": "f2ac620a",
-      "majorName": "特殊教育（手语翻译）",
+      "majorKey": "e0d708da",
+      "majorName": "特殊教育",
       "selKe": "不限",
       "years": [
         {
@@ -172,6 +119,13 @@
           "track": "综合",
           "minScore": 508,
           "minRank": 153885,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 523,
+          "minRank": 142450,
           "maxScore": 0
         },
         {
@@ -216,32 +170,23 @@
   ],
   "plan2026": [
     {
-      "majorName": "特殊教育（手语翻译）",
-      "majorKey": "f2ac620a",
+      "majorName": "特殊教育",
+      "majorKey": "e0d708da",
+      "track": "综合",
       "selKe": "不限",
-      "plan": 15,
-      "tuition": "6000",
-      "schooling": "三年",
-      "menlei": "教",
-      "prevYear": 2025,
-      "prevRank": 146897,
-      "equivRank": 146897
-    },
-    {
-      "majorName": "特殊教育（师范）",
-      "majorKey": "79d7e7d7",
-      "selKe": "不限",
-      "plan": 60,
+      "plan": 75,
       "tuition": "6600",
       "schooling": "三年",
       "menlei": "教",
       "prevYear": 2025,
-      "prevRank": 167178,
-      "equivRank": 167178
+      "prevRank": 146897,
+      "equivRank": 146897,
+      "prevScore": 522
     },
     {
-      "majorName": "学前教育（师范）",
-      "majorKey": "6e38b28d",
+      "majorName": "学前教育",
+      "majorKey": "97716b64",
+      "track": "综合",
       "selKe": "不限",
       "plan": 7,
       "tuition": "6000",
@@ -249,11 +194,13 @@
       "menlei": "教",
       "prevYear": 2025,
       "prevRank": 170377,
-      "equivRank": 170377
+      "equivRank": 170377,
+      "prevScore": 502
     },
     {
       "majorName": "康复治疗技术",
       "majorKey": "4fab0557",
+      "track": "综合",
       "selKe": "不限",
       "plan": 45,
       "tuition": "6600",
@@ -261,11 +208,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 179558,
-      "equivRank": 179558
+      "equivRank": 179558,
+      "prevScore": 494
     },
     {
       "majorName": "智慧健康养老服务与管理",
       "majorKey": "4c97ece5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 15,
       "tuition": "6000",
@@ -273,11 +222,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 180743,
-      "equivRank": 180743
+      "equivRank": 180743,
+      "prevScore": 493
     },
     {
       "majorName": "电子商务",
       "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 11,
       "tuition": "6000",
@@ -285,7 +236,8 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 199963,
-      "equivRank": 199963
+      "equivRank": 199963,
+      "prevScore": 475
     }
   ]
 }

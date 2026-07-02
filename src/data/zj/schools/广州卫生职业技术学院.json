@@ -29,8 +29,8 @@
     {
       "schoolKey": "广州卫生职业技术学院",
       "schoolCode": "4472",
-      "majorKey": "6e2ca369",
-      "majorName": "中医康复技术（天河校区）",
+      "majorKey": "a13b0fe5",
+      "majorName": "中医康复技术",
       "selKe": "不限",
       "years": [
         {
@@ -94,16 +94,7 @@
           "minScore": 500,
           "minRank": 162796,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广州卫生职业技术学院",
-      "schoolCode": "4472",
-      "majorKey": "458a8906",
-      "majorName": "临床医学（广园南校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -126,32 +117,7 @@
           "minScore": 426,
           "minRank": 227754,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广州卫生职业技术学院",
-      "schoolCode": "4472",
-      "majorKey": "40066cdc",
-      "majorName": "健康大数据管理与服务（广园北校区。）",
-      "selKe": "不限",
-      "years": [
-        {
-          "year": 2025,
-          "track": "综合",
-          "minScore": 473,
-          "minRank": 201929,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广州卫生职业技术学院",
-      "schoolCode": "4472",
-      "majorKey": "6be4746b",
-      "majorName": "健康大数据管理与服务（广园北校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -164,8 +130,8 @@
     {
       "schoolKey": "广州卫生职业技术学院",
       "schoolCode": "4472",
-      "majorKey": "57c6c216",
-      "majorName": "医学影像技术（永福校区。）",
+      "majorKey": "11fef64a",
+      "majorName": "医学影像技术",
       "selKe": "不限",
       "years": [
         {
@@ -197,16 +163,7 @@
           "minScore": 495,
           "minRank": 174491,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广州卫生职业技术学院",
-      "schoolCode": "4472",
-      "majorKey": "ad2da781",
-      "majorName": "医学美容技术（天河校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -236,16 +193,7 @@
           "minScore": 485,
           "minRank": 184683,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广州卫生职业技术学院",
-      "schoolCode": "4472",
-      "majorKey": "827c6b32",
-      "majorName": "卫生检验与检疫技术（白云校区。）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -323,16 +271,7 @@
           "minScore": 518,
           "minRank": 148781,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "广州卫生职业技术学院",
-      "schoolCode": "4472",
-      "majorKey": "8a9583a0",
-      "majorName": "护理（广园南校区）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -361,8 +300,8 @@
     {
       "schoolKey": "广州卫生职业技术学院",
       "schoolCode": "4472",
-      "majorKey": "e1e33c27",
-      "majorName": "药学（白云校区。）",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
       "selKe": "物理、化学(2科必选)",
       "years": [
         {
@@ -393,8 +332,8 @@
     {
       "schoolKey": "广州卫生职业技术学院",
       "schoolCode": "4472",
-      "majorKey": "22724e06",
-      "majorName": "针灸推拿（天河校区）",
+      "majorKey": "7b806226",
+      "majorName": "针灸推拿",
       "selKe": "不限",
       "years": [
         {
@@ -409,8 +348,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "护理（广园南校区）",
-      "majorKey": "8a9583a0",
+      "majorName": "护理",
+      "majorKey": "a3db4652",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "6410",
@@ -418,11 +358,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 151883,
-      "equivRank": 151883
+      "equivRank": 151883,
+      "prevScore": 518
     },
     {
-      "majorName": "临床医学（广园南校区）",
-      "majorKey": "458a8906",
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "6410",
@@ -430,11 +372,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 154073,
-      "equivRank": 154073
+      "equivRank": 154073,
+      "prevScore": 516
     },
     {
-      "majorName": "医学美容技术（天河校区）",
-      "majorKey": "ad2da781",
+      "majorName": "医学美容技术",
+      "majorKey": "2d65ec0d",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "6410",
@@ -442,11 +386,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 160705,
-      "equivRank": 160705
+      "equivRank": 160705,
+      "prevScore": 510
     },
     {
-      "majorName": "中医康复技术（天河校区）",
-      "majorKey": "6e2ca369",
+      "majorName": "中医康复技术",
+      "majorKey": "a13b0fe5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "6410",
@@ -454,11 +400,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 162193,
-      "equivRank": 162193
+      "equivRank": 162193,
+      "prevScore": 509
     },
     {
-      "majorName": "针灸推拿（天河校区）",
-      "majorKey": "22724e06",
+      "majorName": "针灸推拿",
+      "majorKey": "7b806226",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "6410",
@@ -466,11 +414,13 @@
       "menlei": "医",
       "prevYear": 2025,
       "prevRank": 166152,
-      "equivRank": 166152
+      "equivRank": 166152,
+      "prevScore": 506
     },
     {
-      "majorName": "健康大数据管理与服务（广园北校区）",
-      "majorKey": "6be4746b",
+      "majorName": "健康大数据管理与服务",
+      "majorKey": "93f7c46a",
+      "track": "综合",
       "selKe": "不限",
       "plan": 2,
       "tuition": "6410",
@@ -478,34 +428,50 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
-      "majorName": "医学影像技术（永福校区）",
-      "majorKey": "100f91b9",
-      "selKe": "不限",
-      "plan": 2,
-      "tuition": "6410",
-      "schooling": "三年",
-      "menlei": "医"
-    },
-    {
-      "majorName": "卫生检验与检疫技术（白云校区）",
-      "majorKey": "a998bd1d",
+      "majorName": "卫生检验与检疫技术",
+      "majorKey": "e6c470ce",
+      "track": "综合",
       "selKe": "不限",
       "plan": 1,
       "tuition": "6410",
       "schooling": "三年",
-      "menlei": "医"
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 192932,
+      "equivRank": 192932,
+      "prevScore": 482
     },
     {
-      "majorName": "药学（白云校区）",
-      "majorKey": "2b374392",
+      "majorName": "医学影像技术",
+      "majorKey": "11fef64a",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "6410",
+      "schooling": "三年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 199963,
+      "equivRank": 199963,
+      "prevScore": 475
+    },
+    {
+      "majorName": "药学",
+      "majorKey": "e9e6a481",
+      "track": "综合",
       "selKe": "物理、化学(2科必选)",
       "plan": 2,
       "tuition": "6410",
       "schooling": "三年",
-      "menlei": "医"
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 214791,
+      "equivRank": 214791,
+      "prevScore": 459
     }
   ]
 }

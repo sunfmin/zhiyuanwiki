@@ -117,8 +117,8 @@
     {
       "schoolKey": "上海科学技术职业学院",
       "schoolCode": "3135",
-      "majorKey": "b9cfd870",
-      "majorName": "安全防范技术（集成技术与产品制造）",
+      "majorKey": "24824f38",
+      "majorName": "安全防范技术",
       "selKe": "不限",
       "years": [
         {
@@ -178,16 +178,7 @@
           "minScore": 451,
           "minRank": 215447,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "上海科学技术职业学院",
-      "schoolCode": "3135",
-      "majorKey": "573b771a",
-      "majorName": "工业机器人技术（高本贯通）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2025,
           "track": "综合",
@@ -315,8 +306,8 @@
     {
       "schoolKey": "上海科学技术职业学院",
       "schoolCode": "3135",
-      "majorKey": "4b3d6edf",
-      "majorName": "旅游管理（高本贯通）",
+      "majorKey": "ec77cae2",
+      "majorName": "旅游管理",
       "selKe": "不限",
       "years": [
         {
@@ -503,16 +494,7 @@
           "minScore": 469,
           "minRank": 196864,
           "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "上海科学技术职业学院",
-      "schoolCode": "3135",
-      "majorKey": "bb1f445a",
-      "majorName": "汽车检测与维修技术（高本贯通）",
-      "selKe": "不限",
-      "years": [
+        },
         {
           "year": 2023,
           "track": "综合",
@@ -576,8 +558,8 @@
     {
       "schoolKey": "上海科学技术职业学院",
       "schoolCode": "3135",
-      "majorKey": "46bfd191",
-      "majorName": "现代物流管理（高本贯通）",
+      "majorKey": "a0f5df04",
+      "majorName": "现代物流管理",
       "selKe": "不限",
       "years": [
         {
@@ -698,22 +680,6 @@
           "minRank": 192612,
           "maxScore": 0
         },
-        {
-          "year": 2023,
-          "track": "综合",
-          "minScore": 461,
-          "minRank": 200838,
-          "maxScore": 0
-        }
-      ]
-    },
-    {
-      "schoolKey": "上海科学技术职业学院",
-      "schoolCode": "3135",
-      "majorKey": "cd742627",
-      "majorName": "社会工作（高本贯通）",
-      "selKe": "不限",
-      "years": [
         {
           "year": 2023,
           "track": "综合",
@@ -844,8 +810,9 @@
   ],
   "plan2026": [
     {
-      "majorName": "社会工作（高本贯通）",
-      "majorKey": "cd742627",
+      "majorName": "社会工作",
+      "majorKey": "fd907dda",
+      "track": "综合",
       "selKe": "不限",
       "plan": 7,
       "tuition": "7500",
@@ -853,11 +820,13 @@
       "menlei": "法",
       "prevYear": 2025,
       "prevRank": 146504,
-      "equivRank": 146504
+      "equivRank": 146504,
+      "prevScore": 522
     },
     {
-      "majorName": "现代物流管理（高本贯通）",
-      "majorKey": "46bfd191",
+      "majorName": "现代物流管理",
+      "majorKey": "a0f5df04",
+      "track": "综合",
       "selKe": "不限",
       "plan": 16,
       "tuition": "7500",
@@ -865,11 +834,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 157213,
-      "equivRank": 157213
+      "equivRank": 157213,
+      "prevScore": 513
     },
     {
-      "majorName": "旅游管理（高本贯通）",
-      "majorKey": "4b3d6edf",
+      "majorName": "旅游管理",
+      "majorKey": "ec77cae2",
+      "track": "综合",
       "selKe": "不限",
       "plan": 17,
       "tuition": "7500",
@@ -877,11 +848,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 165069,
-      "equivRank": 165069
+      "equivRank": 165069,
+      "prevScore": 507
     },
     {
-      "majorName": "工业机器人技术（高本贯通）",
-      "majorKey": "573b771a",
+      "majorName": "工业机器人技术",
+      "majorKey": "26a2bf3f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 16,
       "tuition": "7500",
@@ -889,11 +862,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 168070,
-      "equivRank": 168070
+      "equivRank": 168070,
+      "prevScore": 504
     },
     {
-      "majorName": "汽车检测与维修技术（高本贯通）",
-      "majorKey": "bb1f445a",
+      "majorName": "汽车检测与维修技术",
+      "majorKey": "13e4967f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 15,
       "tuition": "7500",
@@ -901,11 +876,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 175096,
-      "equivRank": 175096
+      "equivRank": 175096,
+      "prevScore": 498
     },
     {
       "majorName": "大数据与会计",
       "majorKey": "49f153aa",
+      "track": "综合",
       "selKe": "不限",
       "plan": 16,
       "tuition": "7500",
@@ -913,11 +890,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 181020,
-      "equivRank": 181020
+      "equivRank": 181020,
+      "prevScore": 493
     },
     {
       "majorName": "人工智能技术应用",
       "majorKey": "d722f594",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "7500",
@@ -925,11 +904,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "数字媒体技术",
       "majorKey": "889e9381",
+      "track": "综合",
       "selKe": "不限",
       "plan": 13,
       "tuition": "7500",
@@ -937,11 +918,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "新能源汽车技术",
       "majorKey": "ccb39427",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "7500",
@@ -949,11 +932,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "智能控制技术",
       "majorKey": "fb946c17",
+      "track": "综合",
       "selKe": "不限",
       "plan": 30,
       "tuition": "7500",
@@ -961,11 +946,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "机电一体化技术",
       "majorKey": "d4465443",
+      "track": "综合",
       "selKe": "不限",
       "plan": 16,
       "tuition": "7500",
@@ -973,11 +960,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 184372,
-      "equivRank": 184372
+      "equivRank": 184372,
+      "prevScore": 490
     },
     {
       "majorName": "跨境电子商务",
       "majorKey": "48469b36",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "7500",
@@ -985,11 +974,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 208543,
-      "equivRank": 208543
+      "equivRank": 208543,
+      "prevScore": 466
     },
     {
       "majorName": "电子商务",
       "majorKey": "0b52f20f",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "7500",
@@ -997,11 +988,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 209501,
-      "equivRank": 209501
+      "equivRank": 209501,
+      "prevScore": 465
     },
     {
       "majorName": "机械制造及自动化",
       "majorKey": "734f4824",
+      "track": "综合",
       "selKe": "不限",
       "plan": 30,
       "tuition": "7500",
@@ -1009,11 +1002,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 211325,
-      "equivRank": 211325
+      "equivRank": 211325,
+      "prevScore": 463
     },
     {
       "majorName": "物联网应用技术",
       "majorKey": "2f3bc529",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "7500",
@@ -1021,11 +1016,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 211325,
-      "equivRank": 211325
+      "equivRank": 211325,
+      "prevScore": 463
     },
     {
       "majorName": "信息安全技术应用",
       "majorKey": "a9bba0c6",
+      "track": "综合",
       "selKe": "不限",
       "plan": 30,
       "tuition": "7500",
@@ -1033,11 +1030,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 213914,
-      "equivRank": 213914
+      "equivRank": 213914,
+      "prevScore": 460
     },
     {
       "majorName": "智能网联汽车技术",
       "majorKey": "04bb17fe",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "7500",
@@ -1045,11 +1044,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 216518,
-      "equivRank": 216518
+      "equivRank": 216518,
+      "prevScore": 457
     },
     {
       "majorName": "现代通信技术",
       "majorKey": "6da1d462",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "7500",
@@ -1057,11 +1058,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 216518,
-      "equivRank": 216518
+      "equivRank": 216518,
+      "prevScore": 457
     },
     {
       "majorName": "网络营销与直播电商",
       "majorKey": "149edac5",
+      "track": "综合",
       "selKe": "不限",
       "plan": 14,
       "tuition": "7500",
@@ -1069,11 +1072,13 @@
       "menlei": "管",
       "prevYear": 2025,
       "prevRank": 216518,
-      "equivRank": 216518
+      "equivRank": 216518,
+      "prevScore": 457
     },
     {
       "majorName": "移动互联应用技术",
       "majorKey": "6d218a69",
+      "track": "综合",
       "selKe": "不限",
       "plan": 10,
       "tuition": "7500",
@@ -1081,11 +1086,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 217387,
-      "equivRank": 217387
+      "equivRank": 217387,
+      "prevScore": 456
     },
     {
-      "majorName": "安全防范技术（集成技术与产品制造）",
-      "majorKey": "b9cfd870",
+      "majorName": "安全防范技术",
+      "majorKey": "24824f38",
+      "track": "综合",
       "selKe": "不限",
       "plan": 15,
       "tuition": "7500",
@@ -1093,11 +1100,13 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 223981,
-      "equivRank": 223981
+      "equivRank": 223981,
+      "prevScore": 448
     },
     {
       "majorName": "新能源汽车检测与维修技术",
       "majorKey": "2d06ee1d",
+      "track": "综合",
       "selKe": "不限",
       "plan": 25,
       "tuition": "7500",
@@ -1105,7 +1114,8 @@
       "menlei": "工",
       "prevYear": 2025,
       "prevRank": 224734,
-      "equivRank": 224734
+      "equivRank": 224734,
+      "prevScore": 447
     }
   ]
 }
