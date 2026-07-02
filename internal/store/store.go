@@ -49,6 +49,13 @@ func Open(path string) (*DB, error) {
 	if err != nil {
 		return nil, err
 	}
+	return OpenDB(db)
+}
+
+// OpenDB 用一个已打开的 *sql.DB 构造 staging 句柄并建表（幂等）。
+// 便于把内存库（sql.Open("sqlite", ":memory:")）或预置库注入下游投影单测，
+// 无需落地磁盘 DB（见 buildBundle 骨架的可测性改造）。建表失败会关闭传入的 db。
+func OpenDB(db *sql.DB) (*DB, error) {
 	if _, err := db.Exec(schema); err != nil {
 		db.Close()
 		return nil, fmt.Errorf("建表: %w", err)
