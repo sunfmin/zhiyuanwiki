@@ -1,0 +1,48 @@
+{
+  "key": "南京医科大学康达学院",
+  "code": "1897",
+  "name": "南京医科大学康达学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "22000",
+          "menlei": "医"
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "22000",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物",
+          "plan": 1,
+          "tuition": "22000",
+          "menlei": "医"
+        }
+      ]
+    }
+  ]
+}

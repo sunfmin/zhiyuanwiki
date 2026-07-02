@@ -1,0 +1,221 @@
+{
+  "key": "唐山师范学院",
+  "code": "A17",
+  "name": "唐山师范学院",
+  "leaves": [
+    {
+      "schoolKey": "唐山师范学院",
+      "schoolCode": "A17",
+      "majorKey": "d7013734",
+      "majorName": "人文地理与城乡规划",
+      "selKe": "历史,地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 483,
+          "minRank": 11943,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 428,
+          "minRank": 52332,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "唐山师范学院",
+      "schoolCode": "A17",
+      "majorKey": "ec77cae2",
+      "majorName": "旅游管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 472,
+          "minRank": 13311,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 419,
+          "minRank": 55303,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "唐山师范学院",
+      "schoolCode": "A17",
+      "majorKey": "0b52f20f",
+      "majorName": "电子商务",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 473,
+          "minRank": 13173,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 424,
+          "minRank": 53661,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "唐山师范学院",
+      "schoolCode": "A17",
+      "majorKey": "a6b91fd0",
+      "majorName": "资产评估",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 479,
+          "minRank": 12457,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 421,
+          "minRank": 54593,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "地理",
+      "majors": [
+        {
+          "majorName": "人文地理与城乡规划",
+          "majorKey": "d7013734",
+          "selKe": "地理",
+          "plan": 3,
+          "tuition": "4600",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 11943,
+          "equivRank": 11943
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "旅游管理",
+          "majorKey": "ec77cae2",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4600",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 13311,
+          "equivRank": 13311
+        },
+        {
+          "majorName": "资产评估",
+          "majorKey": "a6b91fd0",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 12457,
+          "equivRank": 12457
+        },
+        {
+          "majorName": "电子商务",
+          "majorKey": "0b52f20f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 13173,
+          "equivRank": 13173
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "地理",
+      "majors": [
+        {
+          "majorName": "人文地理与城乡规划",
+          "majorKey": "d7013734",
+          "selKe": "地理",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 52332,
+          "equivRank": 52332
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "004",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "旅游管理",
+          "majorKey": "ec77cae2",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 55303,
+          "equivRank": 55303
+        },
+        {
+          "majorName": "资产评估",
+          "majorKey": "a6b91fd0",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4600",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 54593,
+          "equivRank": 54593
+        },
+        {
+          "majorName": "电子商务",
+          "majorKey": "0b52f20f",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4600",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 53661,
+          "equivRank": 53661
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "key": "上海交通大学医学院",
+  "code": "1688",
+  "name": "上海交通大学医学院",
+  "leaves": [
+    {
+      "schoolKey": "上海交通大学医学院",
+      "schoolCode": "1688",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 680,
+          "minRank": 176,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "7400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 176,
+          "equivRank": 176
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化",
+          "plan": 10,
+          "tuition": "7400",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "303",
+      "groupName": "303",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "医学试验班",
+          "majorKey": "696c3187",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "7400",
+          "menlei": "医"
+        }
+      ]
+    }
+  ]
+}

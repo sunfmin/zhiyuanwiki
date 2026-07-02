@@ -1,0 +1,88 @@
+{
+  "key": "信阳师范大学",
+  "code": "3525",
+  "name": "信阳师范大学",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "700",
+      "groupName": "专业组：700 (选考思想政治)",
+      "track": "历史",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "政治",
+          "plan": 2,
+          "tuition": "4400",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "900",
+      "groupName": "专业组：900 (选考地理)",
+      "track": "历史",
+      "selKe": "地理",
+      "majors": [
+        {
+          "majorName": "自然地理与资源环境",
+          "majorKey": "33b5f11a",
+          "selKe": "地理",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "理"
+        },
+        {
+          "majorName": "地理信息科学",
+          "majorKey": "f9ecceea",
+          "selKe": "地理",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "理"
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4400",
+          "menlei": "史"
+        },
+        {
+          "majorName": "广播电视编导",
+          "majorKey": "b86f75b5",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "8800",
+          "menlei": "艺"
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "茶学",
+          "majorKey": "2f5c1273",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "农"
+        }
+      ]
+    }
+  ]
+}

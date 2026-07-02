@@ -1,0 +1,71 @@
+{
+  "key": "聊城大学",
+  "code": "10447",
+  "name": "聊城大学",
+  "leaves": [
+    {
+      "schoolKey": "聊城大学",
+      "schoolCode": "10447",
+      "majorKey": "28bd788f",
+      "majorName": "制药工程",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 505,
+          "minRank": 156639,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "聊城大学",
+      "schoolCode": "10447",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 506,
+          "minRank": 154772,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "202",
+      "groupName": "202",
+      "track": "物理",
+      "selKe": "化学和生物",
+      "majors": [
+        {
+          "majorName": "制药工程",
+          "majorKey": "28bd788f",
+          "selKe": "化学和生物",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 156639,
+          "equivRank": 156639
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化学和生物",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 154772,
+          "equivRank": 154772
+        }
+      ]
+    }
+  ]
+}

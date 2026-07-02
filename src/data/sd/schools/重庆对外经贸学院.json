@@ -1,0 +1,69 @@
+{
+  "key": "重庆对外经贸学院",
+  "code": "D589",
+  "name": "重庆对外经贸学院",
+  "leaves": [
+    {
+      "schoolKey": "重庆对外经贸学院",
+      "schoolCode": "D589",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 502,
+          "minRank": 182538,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "重庆对外经贸学院",
+      "schoolCode": "D589",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 463,
+          "minRank": 277407,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "汉语言文学",
+      "majorKey": "97bc5998",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "15000",
+      "schooling": "4",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 182538,
+      "equivRank": 182538,
+      "prevScore": 502
+    },
+    {
+      "majorName": "计算机科学与技术",
+      "majorKey": "1d486608",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "plan": 3,
+      "tuition": "16000",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 277407,
+      "equivRank": 277407,
+      "prevScore": 463
+    }
+  ]
+}

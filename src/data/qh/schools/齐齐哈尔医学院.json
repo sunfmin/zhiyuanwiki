@@ -1,0 +1,99 @@
+{
+  "key": "齐齐哈尔医学院",
+  "code": "2205",
+  "name": "齐齐哈尔医学院",
+  "leaves": [
+    {
+      "schoolKey": "齐齐哈尔医学院",
+      "schoolCode": "2205",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 436,
+          "minRank": 8546,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "齐齐哈尔医学院",
+      "schoolCode": "2205",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 419,
+          "minRank": 10579,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "齐齐哈尔医学院",
+      "schoolCode": "2205",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 410,
+          "minRank": 11714,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "物理",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "plan": 2,
+      "tuition": "6500",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 8546,
+      "equivRank": 8546,
+      "prevScore": 436
+    },
+    {
+      "majorName": "医学影像学",
+      "majorKey": "5780af73",
+      "track": "物理",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "plan": 2,
+      "tuition": "6500",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 10579,
+      "equivRank": 10579,
+      "prevScore": 419
+    },
+    {
+      "majorName": "医学检验技术",
+      "majorKey": "f106fa76",
+      "track": "物理",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "plan": 1,
+      "tuition": "6500",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 11714,
+      "equivRank": 11714,
+      "prevScore": 410
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "key": "华南师范大学",
+  "code": "0781",
+  "name": "华南师范大学",
+  "leaves": [
+    {
+      "schoolKey": "华南师范大学",
+      "schoolCode": "0781",
+      "majorKey": "c8cc37b2",
+      "majorName": "传播学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 536,
+          "minRank": 14128,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "华南师范大学",
+      "schoolCode": "0781",
+      "majorKey": "34eac38f",
+      "majorName": "哲学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 537,
+          "minRank": 13876,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "华南师范大学",
+      "schoolCode": "0781",
+      "majorKey": "17c0dc67",
+      "majorName": "心理学",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 558,
+          "minRank": 8579,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "华南师范大学",
+      "schoolCode": "0781",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 536,
+          "minRank": 14128,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "6060",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 14128,
+          "equivRank": 14128
+        },
+        {
+          "majorName": "哲学",
+          "majorKey": "34eac38f",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "6060",
+          "menlei": "哲",
+          "prevYear": 2025,
+          "prevRank": 13876,
+          "equivRank": 13876
+        },
+        {
+          "majorName": "传播学",
+          "majorKey": "c8cc37b2",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "6060",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 14128,
+          "equivRank": 14128
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "心理学",
+          "majorKey": "17c0dc67",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "6850",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 8579,
+          "equivRank": 8579
+        }
+      ]
+    }
+  ]
+}

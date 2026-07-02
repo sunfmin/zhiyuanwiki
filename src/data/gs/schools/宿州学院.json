@@ -1,0 +1,125 @@
+{
+  "key": "宿州学院",
+  "code": "2073",
+  "name": "宿州学院",
+  "leaves": [
+    {
+      "schoolKey": "宿州学院",
+      "schoolCode": "2073",
+      "majorKey": "1f59c989",
+      "majorName": "化学工程与工艺",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 442,
+          "minRank": 56955,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "宿州学院",
+      "schoolCode": "2073",
+      "majorKey": "a18ef009",
+      "majorName": "地质工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 441,
+          "minRank": 57526,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "宿州学院",
+      "schoolCode": "2073",
+      "majorKey": "a6fe1434",
+      "majorName": "测绘工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 441,
+          "minRank": 57526,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "宿州学院",
+      "schoolCode": "2073",
+      "majorKey": "05c637f2",
+      "majorName": "过程装备与控制工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 441,
+          "minRank": 57526,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "地质工程",
+          "majorKey": "a18ef009",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 57526,
+          "equivRank": 57526
+        },
+        {
+          "majorName": "测绘工程",
+          "majorKey": "a6fe1434",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 57526,
+          "equivRank": 57526
+        },
+        {
+          "majorName": "化学工程与工艺",
+          "majorKey": "1f59c989",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 56955,
+          "equivRank": 56955
+        },
+        {
+          "majorName": "过程装备与控制工程",
+          "majorKey": "05c637f2",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 57526,
+          "equivRank": 57526
+        }
+      ]
+    }
+  ]
+}

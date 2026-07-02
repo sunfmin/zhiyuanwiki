@@ -1,0 +1,106 @@
+{
+  "key": "内蒙古财经大学",
+  "code": "F392",
+  "name": "内蒙古财经大学",
+  "leaves": [
+    {
+      "schoolKey": "内蒙古财经大学",
+      "schoolCode": "F392",
+      "majorKey": "bda0ff17",
+      "majorName": "经济学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 501,
+          "minRank": 85801,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "内蒙古财经大学",
+      "schoolCode": "F392",
+      "majorKey": "a6b91fd0",
+      "majorName": "资产评估",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 519,
+          "minRank": 22662,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "内蒙古财经大学",
+      "schoolCode": "F392",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 509,
+          "minRank": 78785,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "资产评估",
+          "majorKey": "a6b91fd0",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "4400",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 22662,
+          "equivRank": 22662
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "4400",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 85801,
+          "equivRank": 85801
+        },
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "4400",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 78785,
+          "equivRank": 78785
+        }
+      ]
+    }
+  ]
+}

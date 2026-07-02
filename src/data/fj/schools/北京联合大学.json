@@ -1,0 +1,168 @@
+{
+  "key": "北京联合大学",
+  "code": "2275",
+  "name": "北京联合大学",
+  "leaves": [
+    {
+      "schoolKey": "北京联合大学",
+      "schoolCode": "2275",
+      "majorKey": "f9ecceea",
+      "majorName": "地理信息科学",
+      "selKe": "首选物理，再选地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 562,
+          "minRank": 28701,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京联合大学",
+      "schoolCode": "2275",
+      "majorKey": "5fcb9223",
+      "majorName": "文物与博物馆学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 539,
+          "minRank": 8243,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京联合大学",
+      "schoolCode": "2275",
+      "majorKey": "ec77cae2",
+      "majorName": "旅游管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 537,
+          "minRank": 8521,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京联合大学",
+      "schoolCode": "2275",
+      "majorKey": "da95770c",
+      "majorName": "自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 573,
+          "minRank": 23443,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京联合大学",
+      "schoolCode": "2275",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 582,
+          "minRank": 19495,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "文物与博物馆学",
+          "majorKey": "5fcb9223",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4200",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 8243,
+          "equivRank": 8243
+        },
+        {
+          "majorName": "旅游管理",
+          "majorKey": "ec77cae2",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 8521,
+          "equivRank": 8521
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "自动化",
+          "majorKey": "da95770c",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 23443,
+          "equivRank": 23443
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 19495,
+          "equivRank": 19495
+        }
+      ]
+    },
+    {
+      "groupCode": "900",
+      "groupName": "专业组：900 (选考地理)",
+      "track": "物理",
+      "selKe": "地理",
+      "majors": [
+        {
+          "majorName": "地理信息科学",
+          "majorKey": "f9ecceea",
+          "selKe": "地理",
+          "plan": 1,
+          "tuition": "4600",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 28701,
+          "equivRank": 28701
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "key": "浙江工商大学",
+  "code": "1562",
+  "name": "浙江工商大学",
+  "leaves": [
+    {
+      "schoolKey": "浙江工商大学",
+      "schoolCode": "1562",
+      "majorKey": "63da9816",
+      "majorName": "公共管理类",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 585,
+          "minRank": 16523,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "浙江工商大学",
+      "schoolCode": "1562",
+      "majorKey": "cb64b1e8",
+      "majorName": "环境科学与工程类",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 573,
+          "minRank": 19601,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "浙江工商大学",
+      "schoolCode": "1562",
+      "majorKey": "fd907dda",
+      "majorName": "社会工作",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 574,
+          "minRank": 19332,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "浙江工商大学",
+      "schoolCode": "1562",
+      "majorKey": "6e702db2",
+      "majorName": "食品科学与工程类",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 578,
+          "minRank": 18257,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "公共管理类",
+          "majorKey": "63da9816",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "5300",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 16523,
+          "equivRank": 16523
+        },
+        {
+          "majorName": "社会工作",
+          "majorKey": "fd907dda",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5300",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 19332,
+          "equivRank": 19332
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "食品科学与工程类",
+          "majorKey": "6e702db2",
+          "selKe": "物理加化学",
+          "plan": 5,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 18257,
+          "equivRank": 18257
+        },
+        {
+          "majorName": "环境科学与工程类",
+          "majorKey": "cb64b1e8",
+          "selKe": "物理加化学",
+          "plan": 4,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 19601,
+          "equivRank": 19601
+        }
+      ]
+    }
+  ]
+}

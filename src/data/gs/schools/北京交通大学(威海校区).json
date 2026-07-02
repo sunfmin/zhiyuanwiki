@@ -1,0 +1,72 @@
+{
+  "key": "北京交通大学(威海校区)",
+  "code": "2540",
+  "name": "北京交通大学(威海校区)",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "不提科目要求",
+          "plan": 4,
+          "tuition": "100000",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不提科目要求",
+          "plan": 4,
+          "tuition": "100000",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "100000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "100000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "环境工程",
+          "majorKey": "7faf2092",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "100000",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

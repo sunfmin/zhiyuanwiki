@@ -1,0 +1,129 @@
+{
+  "key": "中央戏剧学院",
+  "code": "0048",
+  "name": "中央戏剧学院",
+  "leaves": [
+    {
+      "schoolKey": "中央戏剧学院",
+      "schoolCode": "0048",
+      "majorKey": "e9ba80b9",
+      "majorName": "戏剧学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 593,
+          "minRank": 2546,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中央戏剧学院",
+      "schoolCode": "0048",
+      "majorKey": "b8236e06",
+      "majorName": "戏剧影视文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 603,
+          "minRank": 1834,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中央戏剧学院",
+      "schoolCode": "0048",
+      "majorKey": "7b95f06f",
+      "majorName": "戏剧教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 587,
+          "minRank": 3025,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中央戏剧学院",
+      "schoolCode": "0048",
+      "majorKey": "44d89b18",
+      "majorName": "艺术管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 588,
+          "minRank": 2947,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "戏剧影视文学",
+      "majorKey": "b8236e06",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 2,
+      "tuition": "8000",
+      "schooling": "5",
+      "menlei": "艺",
+      "prevYear": 2025,
+      "prevRank": 1834,
+      "equivRank": 1834,
+      "prevScore": 603
+    },
+    {
+      "majorName": "戏剧学",
+      "majorKey": "e9ba80b9",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 1,
+      "tuition": "8000",
+      "schooling": "4",
+      "menlei": "艺",
+      "prevYear": 2025,
+      "prevRank": 2546,
+      "equivRank": 2546,
+      "prevScore": 593
+    },
+    {
+      "majorName": "艺术管理",
+      "majorKey": "44d89b18",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 1,
+      "tuition": "8000",
+      "schooling": "4",
+      "menlei": "艺",
+      "prevYear": 2025,
+      "prevRank": 2947,
+      "equivRank": 2947,
+      "prevScore": 588
+    },
+    {
+      "majorName": "戏剧教育",
+      "majorKey": "7b95f06f",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 2,
+      "tuition": "8000",
+      "schooling": "4",
+      "menlei": "艺",
+      "prevYear": 2025,
+      "prevRank": 3025,
+      "equivRank": 3025,
+      "prevScore": 587
+    }
+  ]
+}

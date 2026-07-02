@@ -1,0 +1,160 @@
+{
+  "key": "聊城大学",
+  "code": "0784",
+  "name": "聊城大学",
+  "leaves": [
+    {
+      "schoolKey": "聊城大学",
+      "schoolCode": "0784",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 521,
+          "minRank": 34074,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "聊城大学",
+      "schoolCode": "0784",
+      "majorKey": "1f59c989",
+      "majorName": "化学工程与工艺",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 520,
+          "minRank": 34394,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "聊城大学",
+      "schoolCode": "0784",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 519,
+          "minRank": 34670,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "聊城大学",
+      "schoolCode": "0784",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 523,
+          "minRank": 33509,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "聊城大学",
+      "schoolCode": "0784",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 560,
+          "minRank": 23083,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 23083,
+          "equivRank": 23083
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "物理加化学",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 34074,
+          "equivRank": 34074
+        },
+        {
+          "majorName": "化学工程与工艺",
+          "majorKey": "1f59c989",
+          "selKe": "物理加化学",
+          "plan": 3,
+          "tuition": "6300",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 34394,
+          "equivRank": 34394
+        },
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "物理加化学",
+          "plan": 4,
+          "tuition": "6300",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 34670,
+          "equivRank": 34670
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "物理加化学",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 33509,
+          "equivRank": 33509
+        }
+      ]
+    }
+  ]
+}

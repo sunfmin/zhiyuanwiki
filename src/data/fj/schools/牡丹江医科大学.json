@@ -1,0 +1,187 @@
+{
+  "key": "牡丹江医科大学",
+  "code": "2999",
+  "name": "牡丹江医科大学",
+  "leaves": [
+    {
+      "schoolKey": "牡丹江医科大学",
+      "schoolCode": "2999",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 522,
+          "minRank": 53007,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "牡丹江医科大学",
+      "schoolCode": "2999",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 517,
+          "minRank": 56618,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "牡丹江医科大学",
+      "schoolCode": "2999",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 518,
+          "minRank": 55877,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "牡丹江医科大学",
+      "schoolCode": "2999",
+      "majorKey": "0ac1da59",
+      "majorName": "生物技术",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 517,
+          "minRank": 56618,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "牡丹江医科大学",
+      "schoolCode": "2999",
+      "majorKey": "1954d9c9",
+      "majorName": "预防医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 516,
+          "minRank": 57329,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "牡丹江医科大学",
+      "schoolCode": "2999",
+      "majorKey": "83eea431",
+      "majorName": "麻醉学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 521,
+          "minRank": 53711,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "医学影像学",
+          "majorKey": "5780af73",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 56618,
+          "equivRank": 56618
+        },
+        {
+          "majorName": "预防医学",
+          "majorKey": "1954d9c9",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 57329,
+          "equivRank": 57329
+        }
+      ]
+    },
+    {
+      "groupCode": "516",
+      "groupName": "专业组：516 (选考化学且生物学)",
+      "track": "物理",
+      "selKe": "化学和生物",
+      "majors": [
+        {
+          "majorName": "生物技术",
+          "majorKey": "0ac1da59",
+          "selKe": "化学和生物",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 56618,
+          "equivRank": 56618
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学和生物",
+          "plan": 5,
+          "tuition": "4400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 53007,
+          "equivRank": 53007
+        },
+        {
+          "majorName": "麻醉学",
+          "majorKey": "83eea431",
+          "selKe": "化学和生物",
+          "plan": 2,
+          "tuition": "4400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 53711,
+          "equivRank": 53711
+        },
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "化学和生物",
+          "plan": 2,
+          "tuition": "4400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 55877,
+          "equivRank": 55877
+        }
+      ]
+    }
+  ]
+}

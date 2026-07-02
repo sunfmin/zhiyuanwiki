@@ -1,0 +1,80 @@
+{
+  "key": "贵州医科大学",
+  "code": "3471",
+  "name": "贵州医科大学",
+  "leaves": [
+    {
+      "schoolKey": "贵州医科大学",
+      "schoolCode": "3471",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 562,
+          "minRank": 18722,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "贵州医科大学",
+      "schoolCode": "3471",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 485,
+          "minRank": 56129,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "4500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 18722,
+          "equivRank": 18722
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "24000",
+          "menlei": "医",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 56129,
+          "equivRank": 56129
+        }
+      ]
+    }
+  ]
+}

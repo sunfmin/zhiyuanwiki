@@ -1,0 +1,106 @@
+{
+  "key": "承德医学院",
+  "code": "1332",
+  "name": "承德医学院",
+  "leaves": [
+    {
+      "schoolKey": "承德医学院",
+      "schoolCode": "1332",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 559,
+          "minRank": 21697,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "承德医学院",
+      "schoolCode": "1332",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 558,
+          "minRank": 21957,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "承德医学院",
+      "schoolCode": "1332",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "生物必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 538,
+          "minRank": 27252,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物",
+          "plan": 2,
+          "tuition": "5720",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 27252,
+          "equivRank": 27252
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5720",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 21697,
+          "equivRank": 21697
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 21957,
+          "equivRank": 21957
+        }
+      ]
+    }
+  ]
+}

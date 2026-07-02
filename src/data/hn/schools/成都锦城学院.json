@@ -1,0 +1,121 @@
+{
+  "key": "成都锦城学院",
+  "code": "5162",
+  "name": "成都锦城学院",
+  "leaves": [
+    {
+      "schoolKey": "成都锦城学院",
+      "schoolCode": "5162",
+      "majorKey": "5a324641",
+      "majorName": "人力资源管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 481,
+          "minRank": 37942,
+          "maxScore": 0
+        },
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 458,
+          "minRank": 115703,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 461,
+          "minRank": 37952,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 429,
+          "minRank": 154168,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "成都锦城学院",
+      "schoolCode": "5162",
+      "majorKey": "b74128f4",
+      "majorName": "工商管理类",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 474,
+          "minRank": 36594,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 464,
+          "minRank": 134177,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 481,
+          "minRank": 35363,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 457,
+          "minRank": 144362,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（101）",
+      "groupName": "（101）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "工商管理类",
+          "majorKey": "b74128f4",
+          "selKe": "首选历史，再选不限",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 35363,
+          "equivRank": 35363
+        }
+      ]
+    },
+    {
+      "groupCode": "（102）",
+      "groupName": "（102）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "工商管理类",
+          "majorKey": "b74128f4",
+          "selKe": "首选物理，再选不限",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 144362,
+          "equivRank": 144362
+        }
+      ]
+    }
+  ]
+}

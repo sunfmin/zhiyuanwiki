@@ -1,0 +1,90 @@
+{
+  "key": "江西工程学院",
+  "code": "3392",
+  "name": "江西工程学院",
+  "leaves": [
+    {
+      "schoolKey": "江西工程学院",
+      "schoolCode": "3392",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 405,
+          "minRank": 68985,
+          "maxScore": 407
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 403,
+          "minRank": 68605,
+          "maxScore": 412
+        }
+      ]
+    },
+    {
+      "schoolKey": "江西工程学院",
+      "schoolCode": "3392",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 456,
+          "minRank": 15431,
+          "maxScore": 483
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 442,
+          "minRank": 16286,
+          "maxScore": 442
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "电子商务",
+          "majorKey": "0b52f20f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 68605,
+          "equivRank": 64166
+        }
+      ]
+    }
+  ]
+}

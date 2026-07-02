@@ -1,0 +1,106 @@
+{
+  "key": "中国消防救援学院",
+  "code": "A039",
+  "name": "中国消防救援学院",
+  "leaves": [
+    {
+      "schoolKey": "中国消防救援学院",
+      "schoolCode": "A039",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 588,
+          "minRank": 5034,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国消防救援学院",
+      "schoolCode": "A039",
+      "majorKey": "62f76a53",
+      "majorName": "飞行器控制与信息工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 592,
+          "minRank": 17921,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史,政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "历史,政治",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 5034,
+          "equivRank": 5034
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "应急装备技术与工程",
+          "majorKey": "e8c4da5d",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "工"
+        },
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "工"
+        },
+        {
+          "majorName": "飞行器控制与信息工程",
+          "majorKey": "62f76a53",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 17921,
+          "equivRank": 17921
+        },
+        {
+          "majorName": "飞行器控制与信息工程",
+          "majorKey": "62f76a53",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 17921,
+          "equivRank": 17921
+        }
+      ]
+    }
+  ]
+}

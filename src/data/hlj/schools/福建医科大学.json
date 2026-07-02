@@ -1,0 +1,148 @@
+{
+  "key": "福建医科大学",
+  "code": "1707",
+  "name": "福建医科大学",
+  "leaves": [
+    {
+      "schoolKey": "福建医科大学",
+      "schoolCode": "1707",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "化学和生物",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 543,
+          "minRank": 8568,
+          "maxScore": 552
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 570,
+          "minRank": 14906,
+          "maxScore": 580
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 556,
+          "minRank": 15250,
+          "maxScore": 571
+        }
+      ]
+    },
+    {
+      "schoolKey": "福建医科大学",
+      "schoolCode": "1707",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "化学和生物",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 499,
+          "minRank": 15586,
+          "maxScore": 538
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 557,
+          "minRank": 18008,
+          "maxScore": 562
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 540,
+          "minRank": 19507,
+          "maxScore": 542
+        }
+      ]
+    },
+    {
+      "schoolKey": "福建医科大学",
+      "schoolCode": "1707",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 437,
+          "minRank": 29858,
+          "maxScore": 437
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 516,
+          "minRank": 29528,
+          "maxScore": 535
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 519,
+          "minRank": 25891,
+          "maxScore": 525
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6760",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 25891,
+          "equivRank": 24216
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学和生物",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学和生物",
+          "plan": 2,
+          "tuition": "6760",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 15250,
+          "equivRank": 14263
+        },
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "化学和生物",
+          "plan": 2,
+          "tuition": "6240",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 19507,
+          "equivRank": 18245
+        }
+      ]
+    }
+  ]
+}

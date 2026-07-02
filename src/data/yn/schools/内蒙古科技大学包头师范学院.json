@@ -1,0 +1,124 @@
+{
+  "key": "内蒙古科技大学包头师范学院",
+  "code": "1513",
+  "name": "内蒙古科技大学包头师范学院",
+  "leaves": [
+    {
+      "schoolKey": "内蒙古科技大学包头师范学院",
+      "schoolCode": "1513",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 529,
+          "minRank": 16780,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "4200元",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 16780,
+          "equivRank": 16780
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "4200元",
+          "menlei": "法"
+        },
+        {
+          "majorName": "社会工作",
+          "majorKey": "fd907dda",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "4200元",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4600元",
+          "menlei": "理"
+        },
+        {
+          "majorName": "生态学",
+          "majorKey": "11cedbac",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "4600元",
+          "menlei": "理"
+        },
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "4600元",
+          "menlei": "理"
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "4600元",
+          "menlei": "理"
+        },
+        {
+          "majorName": "能源化学",
+          "majorKey": "add32a06",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "4600元",
+          "menlei": "理"
+        }
+      ]
+    }
+  ]
+}

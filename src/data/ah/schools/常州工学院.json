@@ -1,0 +1,106 @@
+{
+  "key": "常州工学院",
+  "code": "1133",
+  "name": "常州工学院",
+  "leaves": [
+    {
+      "schoolKey": "常州工学院",
+      "schoolCode": "1133",
+      "majorKey": "acbf731b",
+      "majorName": "复合材料与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 539,
+          "minRank": 81873,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "常州工学院",
+      "schoolCode": "1133",
+      "majorKey": "263043c1",
+      "majorName": "飞行器制造工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 540,
+          "minRank": 80752,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "常州工学院",
+      "schoolCode": "1133",
+      "majorKey": "df925025",
+      "majorName": "飞行技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 528,
+          "minRank": 96333,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "飞行技术",
+          "majorKey": "df925025",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5800元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 96333,
+          "equivRank": 96333
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "飞行器制造工程",
+          "majorKey": "263043c1",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5800元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 80752,
+          "equivRank": 80752
+        },
+        {
+          "majorName": "复合材料与工程",
+          "majorKey": "acbf731b",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5800元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 81873,
+          "equivRank": 81873
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "key": "深圳北理莫斯科大学",
+  "code": "2056",
+  "name": "深圳北理莫斯科大学",
+  "leaves": [
+    {
+      "schoolKey": "深圳北理莫斯科大学",
+      "schoolCode": "2056",
+      "majorKey": "7d0b62a8",
+      "majorName": "俄语",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 548,
+          "minRank": 20357,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "俄语",
+          "majorKey": "7d0b62a8",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "70000",
+          "menlei": "文",
+          "coop": true,
+          "prevYear": 2024,
+          "prevRank": 20357,
+          "equivRank": 20357
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "70000",
+          "menlei": "经",
+          "coop": true
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "70000",
+          "menlei": "理",
+          "coop": true
+        },
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "50000",
+          "menlei": "工",
+          "coop": true
+        },
+        {
+          "majorName": "电子与计算机工程",
+          "majorKey": "92e14fa5",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "50000",
+          "menlei": "工",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

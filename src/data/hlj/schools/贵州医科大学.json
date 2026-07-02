@@ -1,0 +1,163 @@
+{
+  "key": "贵州医科大学",
+  "code": "2272",
+  "name": "贵州医科大学",
+  "leaves": [
+    {
+      "schoolKey": "贵州医科大学",
+      "schoolCode": "2272",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 432,
+          "minRank": 31267,
+          "maxScore": 480
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 591,
+          "minRank": 10442,
+          "maxScore": 593
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 572,
+          "minRank": 11398,
+          "maxScore": 575
+        }
+      ]
+    },
+    {
+      "schoolKey": "贵州医科大学",
+      "schoolCode": "2272",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 407,
+          "minRank": 38959,
+          "maxScore": 407
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 498,
+          "minRank": 35206,
+          "maxScore": 514
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 414,
+          "minRank": 64096,
+          "maxScore": 424
+        }
+      ]
+    },
+    {
+      "schoolKey": "贵州医科大学",
+      "schoolCode": "2272",
+      "majorKey": "1954d9c9",
+      "majorName": "预防医学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 431,
+          "minRank": 31549,
+          "maxScore": 431
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 11398,
+          "equivRank": 10661
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 64096,
+          "equivRank": 59949
+        },
+        {
+          "majorName": "中草药栽培与鉴定",
+          "majorKey": "6726c2e9",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4200",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4200",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "第004组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "智能医学工程",
+          "majorKey": "11a5a631",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4200",
+          "menlei": "医"
+        }
+      ]
+    }
+  ]
+}

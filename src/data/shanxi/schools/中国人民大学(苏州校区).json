@@ -1,0 +1,211 @@
+{
+  "key": "中国人民大学(苏州校区)",
+  "code": "1865",
+  "name": "中国人民大学(苏州校区)",
+  "leaves": [
+    {
+      "schoolKey": "中国人民大学(苏州校区)",
+      "schoolCode": "1865",
+      "majorKey": "5a324641",
+      "majorName": "人力资源管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 584,
+          "minRank": 981,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 621,
+          "minRank": 4019,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国人民大学(苏州校区)",
+      "schoolCode": "1865",
+      "majorKey": "c8cc37b2",
+      "majorName": "传播学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 583,
+          "minRank": 1036,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国人民大学(苏州校区)",
+      "schoolCode": "1865",
+      "majorKey": "7b1e1d6e",
+      "majorName": "国民经济管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 591,
+          "minRank": 729,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国人民大学(苏州校区)",
+      "schoolCode": "1865",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 626,
+          "minRank": 3375,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国人民大学(苏州校区)",
+      "schoolCode": "1865",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 593,
+          "minRank": 656,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 621,
+          "minRank": 4019,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "国民经济管理",
+          "majorKey": "7b1e1d6e",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "70000",
+          "menlei": "经",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 729,
+          "equivRank": 729
+        },
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "70000",
+          "menlei": "经",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 656,
+          "equivRank": 656
+        },
+        {
+          "majorName": "传播学",
+          "majorKey": "c8cc37b2",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "70000",
+          "menlei": "文",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 1036,
+          "equivRank": 1036
+        },
+        {
+          "majorName": "人力资源管理",
+          "majorKey": "5a324641",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "70000",
+          "menlei": "管",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 981,
+          "equivRank": 981
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "70000",
+          "menlei": "经",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 4019,
+          "equivRank": 4019
+        },
+        {
+          "majorName": "人力资源管理",
+          "majorKey": "5a324641",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "70000",
+          "menlei": "管",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 4019,
+          "equivRank": 4019
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "70000",
+          "menlei": "理",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 3375,
+          "equivRank": 3375
+        }
+      ]
+    }
+  ]
+}

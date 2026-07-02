@@ -1,0 +1,187 @@
+{
+  "key": "韩山师范学院",
+  "code": "2039",
+  "name": "韩山师范学院",
+  "leaves": [
+    {
+      "schoolKey": "韩山师范学院",
+      "schoolCode": "2039",
+      "majorKey": "5a324641",
+      "majorName": "人力资源管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 573,
+          "minRank": 17772,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "韩山师范学院",
+      "schoolCode": "2039",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 550,
+          "minRank": 23459,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "韩山师范学院",
+      "schoolCode": "2039",
+      "majorKey": "8f1def37",
+      "majorName": "日语",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 569,
+          "minRank": 18735,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "韩山师范学院",
+      "schoolCode": "2039",
+      "majorKey": "d2fbd5c5",
+      "majorName": "汉语国际教育",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 574,
+          "minRank": 17584,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "韩山师范学院",
+      "schoolCode": "2039",
+      "majorKey": "e2472a71",
+      "majorName": "生物科学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 544,
+          "minRank": 25123,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "韩山师范学院",
+      "schoolCode": "2039",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 547,
+          "minRank": 24344,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "人力资源管理",
+          "majorKey": "5a324641",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5050",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 17772,
+          "equivRank": 17772
+        },
+        {
+          "majorName": "日语",
+          "majorKey": "8f1def37",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5710",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 18735,
+          "equivRank": 18735
+        },
+        {
+          "majorName": "汉语国际教育",
+          "majorKey": "d2fbd5c5",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5050",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 17584,
+          "equivRank": 17584
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5710",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 23459,
+          "equivRank": 23459
+        },
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5710",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 25123,
+          "equivRank": 25123
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5710",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 24344,
+          "equivRank": 24344
+        }
+      ]
+    }
+  ]
+}

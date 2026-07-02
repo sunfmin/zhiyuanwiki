@@ -1,0 +1,98 @@
+{
+  "key": "安徽医科大学",
+  "code": "H121",
+  "name": "安徽医科大学",
+  "leaves": [
+    {
+      "schoolKey": "安徽医科大学",
+      "schoolCode": "H121",
+      "majorKey": "f9504a0c",
+      "majorName": "中药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 576,
+          "minRank": 26551,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安徽医科大学",
+      "schoolCode": "H121",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 591,
+          "minRank": 18418,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安徽医科大学",
+      "schoolCode": "H121",
+      "majorKey": "1954d9c9",
+      "majorName": "预防医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 563,
+          "minRank": 34890,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "中药学",
+          "majorKey": "f9504a0c",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 26551,
+          "equivRank": 26551
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6050",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 18418,
+          "equivRank": 18418
+        },
+        {
+          "majorName": "预防医学",
+          "majorKey": "1954d9c9",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 34890,
+          "equivRank": 34890
+        }
+      ]
+    }
+  ]
+}

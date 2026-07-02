@@ -1,0 +1,41 @@
+{
+  "key": "齐鲁师范学院",
+  "code": "3766",
+  "name": "齐鲁师范学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "精细化工",
+          "majorKey": "c62b143a",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "5500元",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "物理,化学",
+          "plan": 10,
+          "tuition": "2.6万元",
+          "menlei": "理",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

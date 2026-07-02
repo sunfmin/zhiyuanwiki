@@ -1,0 +1,208 @@
+{
+  "key": "湖北文理学院",
+  "code": "1945",
+  "name": "湖北文理学院",
+  "leaves": [
+    {
+      "schoolKey": "湖北文理学院",
+      "schoolCode": "1945",
+      "majorKey": "1f59c989",
+      "majorName": "化学工程与工艺",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 460,
+          "minRank": 46345,
+          "maxScore": 467
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北文理学院",
+      "schoolCode": "1945",
+      "majorKey": "d061ae24",
+      "majorName": "地理科学",
+      "selKe": "地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 464,
+          "minRank": 12852,
+          "maxScore": 483
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北文理学院",
+      "schoolCode": "1945",
+      "majorKey": "4ea26300",
+      "majorName": "广播电视学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 345,
+          "minRank": 23563,
+          "maxScore": 395
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北文理学院",
+      "schoolCode": "1945",
+      "majorKey": "710bfc36",
+      "majorName": "机械类",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 401,
+          "minRank": 41010,
+          "maxScore": 411
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 484,
+          "minRank": 39750,
+          "maxScore": 491
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 481,
+          "minRank": 38757,
+          "maxScore": 487
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北文理学院",
+      "schoolCode": "1945",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 511,
+          "minRank": 7941,
+          "maxScore": 546
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北文理学院",
+      "schoolCode": "1945",
+      "majorKey": "1da18825",
+      "majorName": "物联网工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 479,
+          "minRank": 41569,
+          "maxScore": 484
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北文理学院",
+      "schoolCode": "1945",
+      "majorKey": "8230723d",
+      "majorName": "计算机类",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 403,
+          "minRank": 40334,
+          "maxScore": 406
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北文理学院",
+      "schoolCode": "1945",
+      "majorKey": "7b7511cd",
+      "majorName": "食品科学与工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 457,
+          "minRank": 47483,
+          "maxScore": 477
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4000",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械类",
+          "majorKey": "710bfc36",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 38757,
+          "equivRank": 36249
+        },
+        {
+          "majorName": "化学工程与工艺",
+          "majorKey": "1f59c989",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "4000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 46345,
+          "equivRank": 43347
+        },
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 47483,
+          "equivRank": 44411
+        }
+      ]
+    }
+  ]
+}

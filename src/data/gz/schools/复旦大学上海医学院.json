@@ -1,0 +1,90 @@
+{
+  "key": "复旦大学上海医学院",
+  "code": "0520",
+  "name": "复旦大学上海医学院",
+  "leaves": [
+    {
+      "schoolKey": "复旦大学上海医学院",
+      "schoolCode": "0520",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 680,
+          "minRank": 114,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 675,
+          "minRank": 129,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "复旦大学上海医学院",
+      "schoolCode": "0520",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选生物",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 600,
+          "minRank": 1787,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 607,
+          "minRank": 7062,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 599,
+          "minRank": 7330,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 2,
+      "tuition": "7400",
+      "schooling": "八年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 129,
+      "equivRank": 129,
+      "prevScore": 675
+    },
+    {
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "物理",
+      "selKe": "首选物理，再选生物",
+      "plan": 5,
+      "tuition": "7400",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 7330,
+      "equivRank": 7330,
+      "prevScore": 599
+    }
+  ]
+}

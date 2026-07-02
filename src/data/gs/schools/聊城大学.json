@@ -1,0 +1,98 @@
+{
+  "key": "聊城大学",
+  "code": "2405",
+  "name": "聊城大学",
+  "leaves": [
+    {
+      "schoolKey": "聊城大学",
+      "schoolCode": "2405",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 486,
+          "minRank": 34567,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "聊城大学",
+      "schoolCode": "2405",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 489,
+          "minRank": 33293,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "聊城大学",
+      "schoolCode": "2405",
+      "majorKey": "1c1ee3f7",
+      "majorName": "通信工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 486,
+          "minRank": 34567,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6300",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 33293,
+          "equivRank": 33293
+        },
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6600",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 34567,
+          "equivRank": 34567
+        },
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "6600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 34567,
+          "equivRank": 34567
+        }
+      ]
+    }
+  ]
+}

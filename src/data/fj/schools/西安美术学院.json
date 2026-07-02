@@ -1,0 +1,98 @@
+{
+  "key": "西安美术学院",
+  "code": "3445",
+  "name": "西安美术学院",
+  "leaves": [
+    {
+      "schoolKey": "西安美术学院",
+      "schoolCode": "3445",
+      "majorKey": "a59e1c5b",
+      "majorName": "美术学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 508,
+          "minRank": 13247,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西安美术学院",
+      "schoolCode": "3445",
+      "majorKey": "44d89b18",
+      "majorName": "艺术管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 501,
+          "minRank": 14561,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西安美术学院",
+      "schoolCode": "3445",
+      "majorKey": "eff7d0aa",
+      "majorName": "非物质文化遗产保护",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 511,
+          "minRank": 12736,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "艺术管理",
+          "majorKey": "44d89b18",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "15000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 14561,
+          "equivRank": 14561
+        },
+        {
+          "majorName": "非物质文化遗产保护",
+          "majorKey": "eff7d0aa",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "15000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 12736,
+          "equivRank": 12736
+        },
+        {
+          "majorName": "美术学",
+          "majorKey": "a59e1c5b",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "15000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 13247,
+          "equivRank": 13247
+        }
+      ]
+    }
+  ]
+}

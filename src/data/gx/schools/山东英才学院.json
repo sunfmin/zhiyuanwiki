@@ -1,0 +1,48 @@
+{
+  "key": "山东英才学院",
+  "code": "13006",
+  "name": "山东英才学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "专业组:101(首选科目:历史。再选科目:不限)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "31000元/年",
+          "menlei": "教"
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "专业组:102(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "智能车辆工程",
+          "majorKey": "3bcfe22a",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "28000元/年",
+          "menlei": "工"
+        },
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "28000元/年",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

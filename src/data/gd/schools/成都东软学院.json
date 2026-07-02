@@ -1,0 +1,142 @@
+{
+  "key": "成都东软学院",
+  "code": "12636",
+  "name": "成都东软学院",
+  "leaves": [
+    {
+      "schoolKey": "成都东软学院",
+      "schoolCode": "12636",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 455,
+          "minRank": 245740,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "成都东软学院",
+      "schoolCode": "12636",
+      "majorKey": "0b52f20f",
+      "majorName": "电子商务",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 511,
+          "minRank": 49666,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "成都东软学院",
+      "schoolCode": "12636",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 510,
+          "minRank": 50492,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "成都东软学院",
+      "schoolCode": "12636",
+      "majorKey": "0c33cbdd",
+      "majorName": "软件工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 499,
+          "minRank": 167481,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "204",
+      "groupName": "204",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "电子商务",
+          "majorKey": "0b52f20f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "19080",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 49666,
+          "equivRank": 49666
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "19080",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 50492,
+          "equivRank": 50492
+        }
+      ]
+    },
+    {
+      "groupCode": "205",
+      "groupName": "205",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "19080",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 167481,
+          "equivRank": 167481
+        }
+      ]
+    },
+    {
+      "groupCode": "206",
+      "groupName": "206",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "68000",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 245740,
+          "equivRank": 245740
+        }
+      ]
+    }
+  ]
+}

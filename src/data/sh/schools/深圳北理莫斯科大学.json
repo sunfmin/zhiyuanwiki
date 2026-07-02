@@ -1,0 +1,71 @@
+{
+  "key": "深圳北理莫斯科大学",
+  "code": "0068",
+  "name": "深圳北理莫斯科大学",
+  "leaves": [
+    {
+      "schoolKey": "深圳北理莫斯科大学",
+      "schoolCode": "0068",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 528,
+          "minRank": 16393,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "深圳北理莫斯科大学",
+      "schoolCode": "0068",
+      "majorKey": "92e14fa5",
+      "majorName": "电子与计算机工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 523,
+          "minRank": 17799,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "70000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 16393,
+          "equivRank": 16393
+        },
+        {
+          "majorName": "电子与计算机工程",
+          "majorKey": "92e14fa5",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "50000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 17799,
+          "equivRank": 17799
+        }
+      ]
+    }
+  ]
+}

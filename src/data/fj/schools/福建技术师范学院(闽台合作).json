@@ -1,0 +1,56 @@
+{
+  "key": "福建技术师范学院(闽台合作)",
+  "code": "1003",
+  "name": "福建技术师范学院(闽台合作)",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "家政学",
+          "majorKey": "263aa9c9",
+          "selKe": "不限",
+          "plan": 20,
+          "tuition": "15000",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "化学",
+          "plan": 60,
+          "tuition": "15000",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "家政学",
+          "majorKey": "263aa9c9",
+          "selKe": "不限",
+          "plan": 30,
+          "tuition": "15000",
+          "menlei": "法"
+        }
+      ]
+    }
+  ]
+}

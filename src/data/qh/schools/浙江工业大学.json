@@ -1,0 +1,79 @@
+{
+  "key": "浙江工业大学",
+  "code": "3235",
+  "name": "浙江工业大学",
+  "leaves": [
+    {
+      "schoolKey": "浙江工业大学",
+      "schoolCode": "3235",
+      "majorKey": "710bfc36",
+      "majorName": "机械类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 490,
+          "minRank": 3930,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "浙江工业大学",
+      "schoolCode": "3235",
+      "majorKey": "8230723d",
+      "majorName": "计算机类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 504,
+          "minRank": 3115,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "计算机类",
+      "majorKey": "8230723d",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 3,
+      "tuition": "6000",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 3115,
+      "equivRank": 3115,
+      "prevScore": 504
+    },
+    {
+      "majorName": "机械类",
+      "majorKey": "710bfc36",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 3,
+      "tuition": "6000",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 3930,
+      "equivRank": 3930,
+      "prevScore": 490
+    },
+    {
+      "majorName": "工商管理类",
+      "majorKey": "b74128f4",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 4,
+      "tuition": "5300",
+      "schooling": "四年",
+      "menlei": "管"
+    }
+  ]
+}

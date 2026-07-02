@@ -83,7 +83,7 @@ func zhuanyeCmd(args []string) {
 				details[baseKey] = md
 			}
 			md.Schools = append(md.Schools, majorSchool{
-				SchoolCode: d.Code, SchoolName: d.Name,
+				SchoolCode: d.Key, SchoolName: d.Name,
 				MajorName: lf.MajorName, MajorKey: lf.MajorKey,
 				MinRank: latest.MinRank, MinScore: latest.MinScore, Year: latest.Year, Track: latest.Track,
 			})

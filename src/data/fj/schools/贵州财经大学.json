@@ -1,0 +1,240 @@
+{
+  "key": "贵州财经大学",
+  "code": "2560",
+  "name": "贵州财经大学",
+  "leaves": [
+    {
+      "schoolKey": "贵州财经大学",
+      "schoolCode": "2561",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 495,
+          "minRank": 73670,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "贵州财经大学",
+      "schoolCode": "2561",
+      "majorKey": "63da9816",
+      "majorName": "公共管理类",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 531,
+          "minRank": 9424,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 532,
+          "minRank": 46183,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "贵州财经大学",
+      "schoolCode": "2561",
+      "majorKey": "28c62e21",
+      "majorName": "市场营销",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 471,
+          "minRank": 93819,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "贵州财经大学",
+      "schoolCode": "2561",
+      "majorKey": "e9c95a9c",
+      "majorName": "广告学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 528,
+          "minRank": 9875,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "贵州财经大学",
+      "schoolCode": "2561",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 544,
+          "minRank": 38598,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "贵州财经大学",
+      "schoolCode": "2561",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 531,
+          "minRank": 9424,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "贵州财经大学",
+      "schoolCode": "2561",
+      "majorKey": "bda0ff17",
+      "majorName": "经济学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 532,
+          "minRank": 46183,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "贵州财经大学",
+      "schoolCode": "2561",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 474,
+          "minRank": 91278,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "贵州财经大学",
+      "schoolCode": "2561",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 503,
+          "minRank": 67246,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4100",
+          "menlei": "法"
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4100",
+          "menlei": "文"
+        },
+        {
+          "majorName": "广告学",
+          "majorKey": "e9c95a9c",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4100",
+          "menlei": "文"
+        },
+        {
+          "majorName": "公共管理类",
+          "majorKey": "63da9816",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4100",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4100",
+          "menlei": "经"
+        },
+        {
+          "majorName": "公共管理类",
+          "majorKey": "63da9816",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4100",
+          "menlei": "管"
+        }
+      ]
+    }
+  ]
+}

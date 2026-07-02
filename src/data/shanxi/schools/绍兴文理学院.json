@@ -1,0 +1,157 @@
+{
+  "key": "绍兴文理学院",
+  "code": "1880",
+  "name": "绍兴文理学院",
+  "leaves": [
+    {
+      "schoolKey": "绍兴文理学院",
+      "schoolCode": "1880",
+      "majorKey": "d8f4c9ac",
+      "majorName": "光电信息科学与工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 474,
+          "minRank": 62907,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "绍兴文理学院",
+      "schoolCode": "1880",
+      "majorKey": "ed53a26b",
+      "majorName": "智能制造工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 479,
+          "minRank": 59820,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "绍兴文理学院",
+      "schoolCode": "1880",
+      "majorKey": "4ef2a1b4",
+      "majorName": "机械电子工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 489,
+          "minRank": 53752,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "绍兴文理学院",
+      "schoolCode": "1880",
+      "majorKey": "37356fa4",
+      "majorName": "环境科学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 463,
+          "minRank": 70076,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "绍兴文理学院",
+      "schoolCode": "1880",
+      "majorKey": "e2472a71",
+      "majorName": "生物科学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 468,
+          "minRank": 66752,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "政",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "政",
+          "plan": 5,
+          "tuition": "4800",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "4800",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 66752,
+          "equivRank": 66752
+        },
+        {
+          "majorName": "机械电子工程",
+          "majorKey": "4ef2a1b4",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 53752,
+          "equivRank": 53752
+        },
+        {
+          "majorName": "光电信息科学与工程",
+          "majorKey": "d8f4c9ac",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "6300",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 62907,
+          "equivRank": 62907
+        },
+        {
+          "majorName": "环境科学",
+          "majorKey": "37356fa4",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 70076,
+          "equivRank": 70076
+        }
+      ]
+    }
+  ]
+}

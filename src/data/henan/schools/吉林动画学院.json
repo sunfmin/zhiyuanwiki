@@ -1,0 +1,194 @@
+{
+  "key": "吉林动画学院",
+  "code": "6801",
+  "name": "吉林动画学院",
+  "leaves": [
+    {
+      "schoolKey": "吉林动画学院",
+      "schoolCode": "6801",
+      "majorKey": "e9c95a9c",
+      "majorName": "广告学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 475,
+          "minRank": 86143,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "吉林动画学院",
+      "schoolCode": "6801",
+      "majorKey": "889e9381",
+      "majorName": "数字媒体技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 440,
+          "minRank": 324967,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "吉林动画学院",
+      "schoolCode": "6801",
+      "majorKey": "fff04889",
+      "majorName": "网络与新媒体",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 474,
+          "minRank": 87119,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 442,
+          "minRank": 321305,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "吉林动画学院",
+      "schoolCode": "6801",
+      "majorKey": "c044672a",
+      "majorName": "飞行器动力工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 446,
+          "minRank": 313739,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "吉林动画学院",
+      "schoolCode": "6801",
+      "majorKey": "62f76a53",
+      "majorName": "飞行器控制与信息工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 443,
+          "minRank": 319430,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "110",
+      "groupName": "110",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "26000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 87119,
+          "equivRank": 87119
+        },
+        {
+          "majorName": "广告学",
+          "majorKey": "e9c95a9c",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "26000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 86143,
+          "equivRank": 86143
+        }
+      ]
+    },
+    {
+      "groupCode": "111",
+      "groupName": "111",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "26000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 321305,
+          "equivRank": 321305
+        }
+      ]
+    },
+    {
+      "groupCode": "112",
+      "groupName": "112",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "数字媒体技术",
+          "majorKey": "889e9381",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "26800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 324967,
+          "equivRank": 324967
+        },
+        {
+          "majorName": "新媒体技术",
+          "majorKey": "8053c1f9",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "26800",
+          "menlei": "工"
+        },
+        {
+          "majorName": "飞行器动力工程",
+          "majorKey": "c044672a",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "25000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 313739,
+          "equivRank": 313739
+        },
+        {
+          "majorName": "飞行器控制与信息工程",
+          "majorKey": "62f76a53",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "25000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 319430,
+          "equivRank": 319430
+        }
+      ]
+    }
+  ]
+}

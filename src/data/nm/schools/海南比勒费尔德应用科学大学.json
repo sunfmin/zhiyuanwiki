@@ -1,0 +1,141 @@
+{
+  "key": "海南比勒费尔德应用科学大学",
+  "code": "P89",
+  "name": "海南比勒费尔德应用科学大学",
+  "leaves": [
+    {
+      "schoolKey": "海南比勒费尔德应用科学大学",
+      "schoolCode": "P89",
+      "majorKey": "803b1149",
+      "majorName": "物流工程",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 415,
+          "minRank": 56591,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "海南比勒费尔德应用科学大学",
+      "schoolCode": "P89",
+      "majorKey": "14856541",
+      "majorName": "电子信息科学与技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 383,
+          "minRank": 66383,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "海南比勒费尔德应用科学大学",
+      "schoolCode": "P89",
+      "majorKey": "7b4807f8",
+      "majorName": "经济工程",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 454,
+          "minRank": 43816,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "海南比勒费尔德应用科学大学",
+      "schoolCode": "P89",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 497,
+          "minRank": 30626,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "100000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 30626,
+          "equivRank": 30626
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电子信息科学与技术",
+          "majorKey": "14856541",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "100000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 66383,
+          "equivRank": 66383
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "经济工程",
+          "majorKey": "7b4807f8",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "100000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 43816,
+          "equivRank": 43816
+        },
+        {
+          "majorName": "物流工程",
+          "majorKey": "803b1149",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "100000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 56591,
+          "equivRank": 56591
+        }
+      ]
+    }
+  ]
+}

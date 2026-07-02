@@ -1,0 +1,71 @@
+{
+  "key": "西华师范大学",
+  "code": "1396",
+  "name": "西华师范大学",
+  "leaves": [
+    {
+      "schoolKey": "西华师范大学",
+      "schoolCode": "1396",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 543,
+          "minRank": 27778,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西华师范大学",
+      "schoolCode": "1396",
+      "majorKey": "bda0ff17",
+      "majorName": "经济学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 539,
+          "minRank": 28865,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5760",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 27778,
+          "equivRank": 27778
+        },
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5760",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 28865,
+          "equivRank": 28865
+        }
+      ]
+    }
+  ]
+}

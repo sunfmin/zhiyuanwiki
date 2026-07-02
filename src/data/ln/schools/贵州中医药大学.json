@@ -1,0 +1,181 @@
+{
+  "key": "贵州中医药大学",
+  "code": "0662",
+  "name": "贵州中医药大学",
+  "leaves": [
+    {
+      "schoolKey": "贵州中医药大学",
+      "schoolCode": "0662",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 565,
+          "minRank": 5181,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 545,
+          "minRank": 35036,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "贵州中医药大学",
+      "schoolCode": "0662",
+      "majorKey": "fba2c77b",
+      "majorName": "中药制药",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 488,
+          "minRank": 62555,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "贵州中医药大学",
+      "schoolCode": "0662",
+      "majorKey": "8a499b4f",
+      "majorName": "中西医临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 518,
+          "minRank": 47734,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "贵州中医药大学",
+      "schoolCode": "0662",
+      "majorKey": "4fa2a9fc",
+      "majorName": "健康服务与管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 504,
+          "minRank": 14172,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "贵州中医药大学",
+      "schoolCode": "0662",
+      "majorKey": "dc8e7679",
+      "majorName": "药物制剂",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 458,
+          "minRank": 77738,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "中医学",
+      "majorKey": "2285e5ca",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 1,
+      "tuition": "4500",
+      "schooling": "5",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 5181,
+      "equivRank": 5181,
+      "prevScore": 565
+    },
+    {
+      "majorName": "健康服务与管理",
+      "majorKey": "4fa2a9fc",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 2,
+      "tuition": "4100",
+      "schooling": "4",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 14172,
+      "equivRank": 14172,
+      "prevScore": 504
+    },
+    {
+      "majorName": "中医学",
+      "majorKey": "2285e5ca",
+      "track": "物理",
+      "selKe": "物理",
+      "plan": 2,
+      "tuition": "4500",
+      "schooling": "5",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 35036,
+      "equivRank": 35036,
+      "prevScore": 545
+    },
+    {
+      "majorName": "中西医临床医学",
+      "majorKey": "8a499b4f",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 3,
+      "tuition": "4500",
+      "schooling": "5",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 47734,
+      "equivRank": 47734,
+      "prevScore": 518
+    },
+    {
+      "majorName": "中药制药",
+      "majorKey": "fba2c77b",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 2,
+      "tuition": "4200",
+      "schooling": "4",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 62555,
+      "equivRank": 62555,
+      "prevScore": 488
+    },
+    {
+      "majorName": "药物制剂",
+      "majorKey": "dc8e7679",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 3,
+      "tuition": "24000",
+      "schooling": "4",
+      "menlei": "医",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 77738,
+      "equivRank": 77738,
+      "prevScore": 458
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "key": "新疆农业大学",
+  "code": "0986",
+  "name": "新疆农业大学",
+  "leaves": [
+    {
+      "schoolKey": "新疆农业大学",
+      "schoolCode": "0986",
+      "majorKey": "cd7e1ba1",
+      "majorName": "农业资源与环境",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 453,
+          "minRank": 44142,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "新疆农业大学",
+      "schoolCode": "0986",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 478,
+          "minRank": 36331,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "新疆农业大学",
+      "schoolCode": "0986",
+      "majorKey": "c5a57efa",
+      "majorName": "水利水电工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 477,
+          "minRank": 36606,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "新疆农业大学",
+      "schoolCode": "0986",
+      "majorKey": "7b7511cd",
+      "majorName": "食品科学与工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 474,
+          "minRank": 37522,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "005",
+      "groupName": "005",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "3500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 36331,
+          "equivRank": 36331
+        },
+        {
+          "majorName": "水利水电工程",
+          "majorKey": "c5a57efa",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "3500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 36606,
+          "equivRank": 36606
+        },
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "3500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 37522,
+          "equivRank": 37522
+        },
+        {
+          "majorName": "农业资源与环境",
+          "majorKey": "cd7e1ba1",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "3500",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 44142,
+          "equivRank": 44142
+        }
+      ]
+    }
+  ]
+}

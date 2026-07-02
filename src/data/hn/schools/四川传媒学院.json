@@ -1,0 +1,84 @@
+{
+  "key": "四川传媒学院",
+  "code": "5132",
+  "name": "四川传媒学院",
+  "leaves": [
+    {
+      "schoolKey": "四川传媒学院",
+      "schoolCode": "5132",
+      "majorKey": "b86f75b5",
+      "majorName": "广播电视编导",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 463,
+          "minRank": 42181,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 481,
+          "minRank": 111620,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 488,
+          "minRank": 32285,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 507,
+          "minRank": 83152,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（Y10）",
+      "groupName": "（Y10）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "广播电视编导",
+          "majorKey": "b86f75b5",
+          "selKe": "首选历史，再选不限",
+          "plan": 2,
+          "tuition": "20000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 32285,
+          "equivRank": 32285
+        }
+      ]
+    },
+    {
+      "groupCode": "（Y11）",
+      "groupName": "（Y11）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "广播电视编导",
+          "majorKey": "b86f75b5",
+          "selKe": "首选物理，再选不限",
+          "plan": 1,
+          "tuition": "20000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 83152,
+          "equivRank": 83152
+        }
+      ]
+    }
+  ]
+}

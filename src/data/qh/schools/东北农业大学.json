@@ -1,0 +1,69 @@
+{
+  "key": "东北农业大学",
+  "code": "2188",
+  "name": "东北农业大学",
+  "leaves": [
+    {
+      "schoolKey": "东北农业大学",
+      "schoolCode": "2188",
+      "majorKey": "b74128f4",
+      "majorName": "工商管理类",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 473,
+          "minRank": 5188,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "东北农业大学",
+      "schoolCode": "2188",
+      "majorKey": "6c24cdec",
+      "majorName": "水利类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 475,
+          "minRank": 5035,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "水利类",
+      "majorKey": "6c24cdec",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 3,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 5035,
+      "equivRank": 5035,
+      "prevScore": 475
+    },
+    {
+      "majorName": "工商管理类",
+      "majorKey": "b74128f4",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 5,
+      "tuition": "4000",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 5188,
+      "equivRank": 5188,
+      "prevScore": 473
+    }
+  ]
+}

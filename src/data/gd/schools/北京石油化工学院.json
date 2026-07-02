@@ -1,0 +1,133 @@
+{
+  "key": "北京石油化工学院",
+  "code": "10017",
+  "name": "北京石油化工学院",
+  "leaves": [
+    {
+      "schoolKey": "北京石油化工学院",
+      "schoolCode": "10017",
+      "majorKey": "bdb5a180",
+      "majorName": "机械工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 592,
+          "minRank": 33524,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京石油化工学院",
+      "schoolCode": "10017",
+      "majorKey": "c425ce53",
+      "majorName": "材料科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 552,
+          "minRank": 78907,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京石油化工学院",
+      "schoolCode": "10017",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 552,
+          "minRank": 78907,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京石油化工学院",
+      "schoolCode": "10017",
+      "majorKey": "683be8da",
+      "majorName": "金融科技",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 548,
+          "minRank": 84617,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "203",
+      "groupName": "203",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融科技",
+          "majorKey": "683be8da",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 84617,
+          "equivRank": 84617
+        }
+      ]
+    },
+    {
+      "groupCode": "204",
+      "groupName": "204",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械工程",
+          "majorKey": "bdb5a180",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 33524,
+          "equivRank": 33524
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 78907,
+          "equivRank": 78907
+        },
+        {
+          "majorName": "材料科学与工程",
+          "majorKey": "c425ce53",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 78907,
+          "equivRank": 78907
+        }
+      ]
+    }
+  ]
+}

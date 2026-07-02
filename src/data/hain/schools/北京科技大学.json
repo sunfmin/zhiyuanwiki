@@ -1,0 +1,195 @@
+{
+  "key": "北京科技大学",
+  "code": "0008",
+  "name": "北京科技大学",
+  "leaves": [
+    {
+      "schoolKey": "北京科技大学",
+      "schoolCode": "0008",
+      "majorKey": "2079a63e",
+      "majorName": "大数据管理与应用",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 706,
+          "minRank": 1528,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京科技大学",
+      "schoolCode": "0008",
+      "majorKey": "b74128f4",
+      "majorName": "工商管理类",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 685,
+          "minRank": 2483,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京科技大学",
+      "schoolCode": "0008",
+      "majorKey": "710bfc36",
+      "majorName": "机械类",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 705,
+          "minRank": 1562,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京科技大学",
+      "schoolCode": "0008",
+      "majorKey": "c425ce53",
+      "majorName": "材料科学与工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 705,
+          "minRank": 1562,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京科技大学",
+      "schoolCode": "0008",
+      "majorKey": "a70e63a1",
+      "majorName": "自动化类",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 707,
+          "minRank": 1489,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京科技大学",
+      "schoolCode": "0008",
+      "majorKey": "8230723d",
+      "majorName": "计算机类",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 708,
+          "minRank": 1454,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "工商管理类",
+          "majorKey": "b74128f4",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 2483,
+          "equivRank": 2483
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "大数据管理与应用",
+          "majorKey": "2079a63e",
+          "selKe": "物理",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 1528,
+          "equivRank": 1528
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "材料科学与工程",
+          "majorKey": "c425ce53",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 1562,
+          "equivRank": 1562
+        },
+        {
+          "majorName": "机械类",
+          "majorKey": "710bfc36",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 1562,
+          "equivRank": 1562
+        },
+        {
+          "majorName": "自动化类",
+          "majorKey": "a70e63a1",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 1489,
+          "equivRank": 1489
+        },
+        {
+          "majorName": "计算机类",
+          "majorKey": "8230723d",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 1454,
+          "equivRank": 1454
+        }
+      ]
+    }
+  ]
+}

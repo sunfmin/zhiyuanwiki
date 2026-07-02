@@ -1,0 +1,40 @@
+{
+  "key": "东北农业大学(中美合作)",
+  "code": "2454",
+  "name": "东北农业大学(中美合作)",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "待定",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "动物科学",
+          "majorKey": "ca01c9a2",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "待定",
+          "menlei": "农"
+        }
+      ]
+    }
+  ]
+}

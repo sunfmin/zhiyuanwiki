@@ -1,0 +1,141 @@
+{
+  "key": "上海中医药大学",
+  "code": "3119",
+  "name": "上海中医药大学",
+  "leaves": [
+    {
+      "schoolKey": "上海中医药大学",
+      "schoolCode": "3119",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 636,
+          "minRank": 5139,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海中医药大学",
+      "schoolCode": "3119",
+      "majorKey": "f9504a0c",
+      "majorName": "中药学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 598,
+          "minRank": 12318,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海中医药大学",
+      "schoolCode": "3119",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "化学必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 519,
+          "minRank": 32440,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海中医药大学",
+      "schoolCode": "3119",
+      "majorKey": "11a5a631",
+      "majorName": "智能医学工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 583,
+          "minRank": 15792,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 7,
+          "tuition": "7400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 32440,
+          "equivRank": 32440
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "8100",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 5139,
+          "equivRank": 5139
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "中药学",
+          "majorKey": "f9504a0c",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "8100",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 12318,
+          "equivRank": 12318
+        },
+        {
+          "majorName": "智能医学工程",
+          "majorKey": "11a5a631",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "7400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 15792,
+          "equivRank": 15792
+        }
+      ]
+    }
+  ]
+}

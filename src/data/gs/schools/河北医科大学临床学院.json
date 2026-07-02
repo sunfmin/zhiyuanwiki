@@ -1,0 +1,48 @@
+{
+  "key": "河北医科大学临床学院",
+  "code": "1233",
+  "name": "河北医科大学临床学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "中西医临床医学",
+          "majorKey": "8a499b4f",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "10000",
+          "menlei": "医"
+        },
+        {
+          "majorName": "医学影像技术",
+          "majorKey": "11fef64a",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "10000",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "物理,化学,生物",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学,生物",
+          "plan": 5,
+          "tuition": "10000",
+          "menlei": "医"
+        }
+      ]
+    }
+  ]
+}

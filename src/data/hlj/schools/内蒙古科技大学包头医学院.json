@@ -1,0 +1,189 @@
+{
+  "key": "内蒙古科技大学包头医学院",
+  "code": "1244",
+  "name": "内蒙古科技大学包头医学院",
+  "leaves": [
+    {
+      "schoolKey": "内蒙古科技大学包头医学院",
+      "schoolCode": "1244",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "化学和生物",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 411,
+          "minRank": 37710,
+          "maxScore": 425
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 476,
+          "minRank": 42594,
+          "maxScore": 506
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 487,
+          "minRank": 36685,
+          "maxScore": 492
+        }
+      ]
+    },
+    {
+      "schoolKey": "内蒙古科技大学包头医学院",
+      "schoolCode": "1244",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "化学和生物",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 410,
+          "minRank": 38029,
+          "maxScore": 421
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 462,
+          "minRank": 47561,
+          "maxScore": 472
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 442,
+          "minRank": 53055,
+          "maxScore": 443
+        }
+      ]
+    },
+    {
+      "schoolKey": "内蒙古科技大学包头医学院",
+      "schoolCode": "1244",
+      "majorKey": "2c72d9e9",
+      "majorName": "卫生检验与检疫",
+      "selKe": "化学和生物",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 409,
+          "minRank": 38389,
+          "maxScore": 410
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 437,
+          "minRank": 56952,
+          "maxScore": 438
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 423,
+          "minRank": 60506,
+          "maxScore": 428
+        }
+      ]
+    },
+    {
+      "schoolKey": "内蒙古科技大学包头医学院",
+      "schoolCode": "1244",
+      "majorKey": "83eea431",
+      "majorName": "麻醉学",
+      "selKe": "化学和生物",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 425,
+          "minRank": 33380,
+          "maxScore": 433
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 500,
+          "minRank": 34515,
+          "maxScore": 507
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 483,
+          "minRank": 38060,
+          "maxScore": 507
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学和生物",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学和生物",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 36685,
+          "equivRank": 34312
+        },
+        {
+          "majorName": "麻醉学",
+          "majorKey": "83eea431",
+          "selKe": "化学和生物",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 38060,
+          "equivRank": 35598
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学和生物",
+      "majors": [
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "化学和生物",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 53055,
+          "equivRank": 49622
+        },
+        {
+          "majorName": "卫生检验与检疫",
+          "majorKey": "2c72d9e9",
+          "selKe": "化学和生物",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 60506,
+          "equivRank": 56591
+        }
+      ]
+    }
+  ]
+}

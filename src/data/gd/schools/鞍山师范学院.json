@@ -1,0 +1,70 @@
+{
+  "key": "鞍山师范学院",
+  "code": "10169",
+  "name": "鞍山师范学院",
+  "leaves": [
+    {
+      "schoolKey": "鞍山师范学院",
+      "schoolCode": "10169",
+      "majorKey": "fd907dda",
+      "majorName": "社会工作",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 520,
+          "minRank": 43117,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 494,
+          "minRank": 176624,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "203",
+      "groupName": "203",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "社会工作",
+          "majorKey": "fd907dda",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4800",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 43117,
+          "equivRank": 43117
+        }
+      ]
+    },
+    {
+      "groupCode": "204",
+      "groupName": "204",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "社会工作",
+          "majorKey": "fd907dda",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4800",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 176624,
+          "equivRank": 176624
+        }
+      ]
+    }
+  ]
+}

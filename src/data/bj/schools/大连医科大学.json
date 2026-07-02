@@ -1,0 +1,79 @@
+{
+  "key": "大连医科大学",
+  "code": "2143",
+  "name": "大连医科大学",
+  "leaves": [
+    {
+      "schoolKey": "大连医科大学",
+      "schoolCode": "2143",
+      "majorKey": "8a499b4f",
+      "majorName": "中西医临床医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 595,
+          "minRank": 13015,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "大连医科大学",
+      "schoolCode": "2143",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 612,
+          "minRank": 9327,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "中西医临床医学",
+          "majorKey": "8a499b4f",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 13015,
+          "equivRank": 13015
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 9327,
+          "equivRank": 9327
+        }
+      ]
+    }
+  ]
+}

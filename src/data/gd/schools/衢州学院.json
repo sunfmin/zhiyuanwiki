@@ -1,0 +1,176 @@
+{
+  "key": "衢州学院",
+  "code": "11488",
+  "name": "衢州学院",
+  "leaves": [
+    {
+      "schoolKey": "衢州学院",
+      "schoolCode": "11488",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 495,
+          "minRank": 174785,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "衢州学院",
+      "schoolCode": "11488",
+      "majorKey": "2363aecb",
+      "majorName": "智能建造",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 495,
+          "minRank": 174785,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "衢州学院",
+      "schoolCode": "11488",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 535,
+          "minRank": 33134,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "衢州学院",
+      "schoolCode": "11488",
+      "majorKey": "7faf2092",
+      "majorName": "环境工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 493,
+          "minRank": 178420,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "衢州学院",
+      "schoolCode": "11488",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 533,
+          "minRank": 34382,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "205",
+      "groupName": "205",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5520",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 34382,
+          "equivRank": 34382
+        }
+      ]
+    },
+    {
+      "groupCode": "206",
+      "groupName": "206",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4800",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 33134,
+          "equivRank": 33134
+        }
+      ]
+    },
+    {
+      "groupCode": "207",
+      "groupName": "207",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "智能建造",
+          "majorKey": "2363aecb",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 174785,
+          "equivRank": 174785
+        },
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "4800",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 174785,
+          "equivRank": 174785
+        }
+      ]
+    },
+    {
+      "groupCode": "208",
+      "groupName": "208",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "环境工程",
+          "majorKey": "7faf2092",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 178420,
+          "equivRank": 178420
+        }
+      ]
+    }
+  ]
+}

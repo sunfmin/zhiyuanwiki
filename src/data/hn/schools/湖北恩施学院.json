@@ -1,0 +1,138 @@
+{
+  "key": "湖北恩施学院",
+  "code": "4820",
+  "name": "湖北恩施学院",
+  "leaves": [
+    {
+      "schoolKey": "湖北恩施学院",
+      "schoolCode": "4820",
+      "majorKey": "8a499b4f",
+      "majorName": "中西医临床医学",
+      "selKe": "首选历史，再选化学/生物(2选1)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 447,
+          "minRank": 45769,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北恩施学院",
+      "schoolCode": "4820",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 452,
+          "minRank": 122478,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 459,
+          "minRank": 121930,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 442,
+          "minRank": 163931,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北恩施学院",
+      "schoolCode": "4820",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 457,
+          "minRank": 54578,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 433,
+          "minRank": 149863,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 443,
+          "minRank": 162597,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北恩施学院",
+      "schoolCode": "4820",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 439,
+          "minRank": 136556,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 454,
+          "minRank": 41792,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（103）",
+      "groupName": "（103）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "首选物理，再选化学",
+          "plan": 3,
+          "tuition": "24800",
+          "menlei": "医",
+          "prevYear": 2024,
+          "prevRank": 163931,
+          "equivRank": 182198
+        },
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "首选物理，再选化学",
+          "plan": 2,
+          "tuition": "25800",
+          "menlei": "医",
+          "prevYear": 2024,
+          "prevRank": 162597,
+          "equivRank": 180715
+        }
+      ]
+    }
+  ]
+}

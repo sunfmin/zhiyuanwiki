@@ -1,0 +1,71 @@
+{
+  "key": "湖北汽车工业学院",
+  "code": "0476",
+  "name": "湖北汽车工业学院",
+  "leaves": [
+    {
+      "schoolKey": "湖北汽车工业学院",
+      "schoolCode": "0476",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 503,
+          "minRank": 28901,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北汽车工业学院",
+      "schoolCode": "0476",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 504,
+          "minRank": 28645,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 28645,
+          "equivRank": 28645
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 28901,
+          "equivRank": 28901
+        }
+      ]
+    }
+  ]
+}

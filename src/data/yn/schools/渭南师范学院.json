@@ -1,0 +1,176 @@
+{
+  "key": "渭南师范学院",
+  "code": "6120",
+  "name": "渭南师范学院",
+  "leaves": [
+    {
+      "schoolKey": "渭南师范学院",
+      "schoolCode": "6120",
+      "majorKey": "d061ae24",
+      "majorName": "地理科学",
+      "selKe": "首选物理，再选地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 501,
+          "minRank": 62419,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "渭南师范学院",
+      "schoolCode": "6120",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 509,
+          "minRank": 24086,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "渭南师范学院",
+      "schoolCode": "6120",
+      "majorKey": "3e2b336a",
+      "majorName": "教育技术学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 477,
+          "minRank": 79927,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "渭南师范学院",
+      "schoolCode": "6120",
+      "majorKey": "ec77cae2",
+      "majorName": "旅游管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 508,
+          "minRank": 24463,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "渭南师范学院",
+      "schoolCode": "6120",
+      "majorKey": "e2472a71",
+      "majorName": "生物科学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 499,
+          "minRank": 63813,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5350元",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 24086,
+          "equivRank": 24086
+        },
+        {
+          "majorName": "旅游管理",
+          "majorKey": "ec77cae2",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "5000元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 24463,
+          "equivRank": 24463
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "教育技术学",
+          "majorKey": "3e2b336a",
+          "selKe": "物理",
+          "plan": 6,
+          "tuition": "5350元",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 79927,
+          "equivRank": 79927
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "物理,化学",
+          "plan": 6,
+          "tuition": "6000元",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 63813,
+          "equivRank": 63813
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理,地理",
+      "majors": [
+        {
+          "majorName": "地理科学",
+          "majorKey": "d061ae24",
+          "selKe": "物理,地理",
+          "plan": 4,
+          "tuition": "6000元",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 62419,
+          "equivRank": 62419
+        }
+      ]
+    }
+  ]
+}

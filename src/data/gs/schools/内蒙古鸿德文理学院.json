@@ -1,0 +1,115 @@
+{
+  "key": "内蒙古鸿德文理学院",
+  "code": "1412",
+  "name": "内蒙古鸿德文理学院",
+  "leaves": [
+    {
+      "schoolKey": "内蒙古鸿德文理学院",
+      "schoolCode": "1412",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 438,
+          "minRank": 19694,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 395,
+          "minRank": 83289,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "内蒙古鸿德文理学院",
+      "schoolCode": "1412",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 433,
+          "minRank": 20759,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 394,
+          "minRank": 83835,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不提科目要求",
+          "plan": 3,
+          "tuition": "18000",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 20759,
+          "equivRank": 20759
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不提科目要求",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 19694,
+          "equivRank": 19694
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不提科目要求",
+          "plan": 3,
+          "tuition": "18000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 83289,
+          "equivRank": 83289
+        },
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不提科目要求",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 83835,
+          "equivRank": 83835
+        }
+      ]
+    }
+  ]
+}

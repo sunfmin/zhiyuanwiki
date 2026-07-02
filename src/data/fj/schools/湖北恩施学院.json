@@ -1,0 +1,40 @@
+{
+  "key": "湖北恩施学院",
+  "code": "2732",
+  "name": "湖北恩施学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "19800",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "24800",
+          "menlei": "医"
+        }
+      ]
+    }
+  ]
+}

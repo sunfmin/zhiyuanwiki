@@ -1,0 +1,175 @@
+{
+  "key": "嘉应学院",
+  "code": "10582",
+  "name": "嘉应学院",
+  "leaves": [
+    {
+      "schoolKey": "嘉应学院",
+      "schoolCode": "10582",
+      "majorKey": "e735f557",
+      "majorName": "园艺",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 459,
+          "minRank": 88560,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "嘉应学院",
+      "schoolCode": "10582",
+      "majorKey": "1da18825",
+      "majorName": "物联网工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 485,
+          "minRank": 67147,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "嘉应学院",
+      "schoolCode": "10582",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 489,
+          "minRank": 63972,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "嘉应学院",
+      "schoolCode": "10582",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 502,
+          "minRank": 16163,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 470,
+          "minRank": 79254,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "110",
+      "groupName": "专业组:110(首选科目:历史。再选科目:不限)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5050元/年",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 16163,
+          "equivRank": 16163
+        }
+      ]
+    },
+    {
+      "groupCode": "150",
+      "groupName": "专业组:150(首选科目:物理。再选科目:不限)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5050元/年",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 79254,
+          "equivRank": 79254
+        }
+      ]
+    },
+    {
+      "groupCode": "151",
+      "groupName": "专业组:151(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "物联网工程",
+          "majorKey": "1da18825",
+          "selKe": "化学",
+          "plan": 7,
+          "tuition": "5710元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 67147,
+          "equivRank": 67147
+        }
+      ]
+    },
+    {
+      "groupCode": "152",
+      "groupName": "专业组:152(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "园艺",
+          "majorKey": "e735f557",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "4560元/年",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 88560,
+          "equivRank": 88560
+        }
+      ]
+    },
+    {
+      "groupCode": "153",
+      "groupName": "专业组:153(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化学",
+          "plan": 6,
+          "tuition": "5710元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 63972,
+          "equivRank": 63972
+        }
+      ]
+    }
+  ]
+}

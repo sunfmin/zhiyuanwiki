@@ -1,0 +1,79 @@
+{
+  "key": "江汉大学",
+  "code": "0185",
+  "name": "江汉大学",
+  "leaves": [
+    {
+      "schoolKey": "江汉大学",
+      "schoolCode": "0185",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 569,
+          "minRank": 12033,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "江汉大学",
+      "schoolCode": "0185",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 557,
+          "minRank": 14710,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 12033,
+          "equivRank": 12033
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 14710,
+          "equivRank": 14710
+        }
+      ]
+    }
+  ]
+}

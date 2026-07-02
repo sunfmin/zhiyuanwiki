@@ -1,0 +1,72 @@
+{
+  "key": "厦门医学院",
+  "code": "1221",
+  "name": "厦门医学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "信息管理与信息系统",
+          "majorKey": "55e3bd26",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "4800",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6000",
+          "menlei": "医"
+        },
+        {
+          "majorName": "康复治疗学",
+          "majorKey": "a507c400",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6000",
+          "menlei": "医"
+        },
+        {
+          "majorName": "海洋药学",
+          "majorKey": "1ca19af0",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6000",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "生物",
+      "majors": [
+        {
+          "majorName": "助产学",
+          "majorKey": "754290a4",
+          "selKe": "生物",
+          "plan": 4,
+          "tuition": "6000",
+          "menlei": "医"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "key": "北京农学院",
+  "code": "1018",
+  "name": "北京农学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不提科目要求",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "管"
+        },
+        {
+          "majorName": "会展经济与管理",
+          "majorKey": "4150dfbb",
+          "selKe": "不提科目要求",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "应用化学",
+          "majorKey": "25624660",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "理"
+        },
+        {
+          "majorName": "植物保护",
+          "majorKey": "c931a1e1",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "免费",
+          "menlei": "农"
+        },
+        {
+          "majorName": "农业资源与环境",
+          "majorKey": "cd7e1ba1",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "免费",
+          "menlei": "农"
+        },
+        {
+          "majorName": "食品营养与健康",
+          "majorKey": "b069d960",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "4600",
+          "menlei": "工"
+        },
+        {
+          "majorName": "园艺",
+          "majorKey": "e735f557",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "免费",
+          "menlei": "农"
+        }
+      ]
+    }
+  ]
+}

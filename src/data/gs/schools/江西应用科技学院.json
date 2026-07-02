@@ -1,0 +1,48 @@
+{
+  "key": "江西应用科技学院",
+  "code": "2307",
+  "name": "江西应用科技学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不提科目要求",
+          "plan": 3,
+          "tuition": "23000",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "物联网工程",
+          "majorKey": "1da18825",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "23000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "23000",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

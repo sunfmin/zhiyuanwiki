@@ -1,0 +1,89 @@
+{
+  "key": "北京交通大学",
+  "code": "0004",
+  "name": "北京交通大学",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "电子信息类",
+          "majorKey": "5e0efed0",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "工"
+        },
+        {
+          "majorName": "计算机类",
+          "majorKey": "8230723d",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "5500",
+          "menlei": "工"
+        },
+        {
+          "majorName": "交通运输类",
+          "majorKey": "6c44bcf9",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "工"
+        },
+        {
+          "majorName": "自动化类",
+          "majorKey": "a70e63a1",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "工"
+        },
+        {
+          "majorName": "理科试验班",
+          "majorKey": "54728189",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "他"
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "100000",
+          "menlei": "工",
+          "coop": true
+        }
+      ]
+    },
+    {
+      "groupCode": "80",
+      "groupName": "80",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "理科试验班类",
+          "majorKey": "3af900ce",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "他"
+        }
+      ]
+    }
+  ]
+}

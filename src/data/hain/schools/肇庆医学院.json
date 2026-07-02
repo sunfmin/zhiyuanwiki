@@ -1,0 +1,106 @@
+{
+  "key": "肇庆医学院",
+  "code": "2132",
+  "name": "肇庆医学院",
+  "leaves": [
+    {
+      "schoolKey": "肇庆医学院",
+      "schoolCode": "2132",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 556,
+          "minRank": 21885,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "肇庆医学院",
+      "schoolCode": "2132",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "化学必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 561,
+          "minRank": 20674,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "肇庆医学院",
+      "schoolCode": "2132",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 571,
+          "minRank": 18255,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 20674,
+          "equivRank": 20674
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 21885,
+          "equivRank": 21885
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 18255,
+          "equivRank": 18255
+        }
+      ]
+    }
+  ]
+}

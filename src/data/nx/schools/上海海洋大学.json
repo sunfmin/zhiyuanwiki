@@ -1,0 +1,52 @@
+{
+  "key": "上海海洋大学",
+  "code": "3123",
+  "name": "上海海洋大学",
+  "leaves": [
+    {
+      "schoolKey": "上海海洋大学",
+      "schoolCode": "3123",
+      "majorKey": "19fc7b41",
+      "majorName": "水产类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 501,
+          "minRank": 7060,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "501",
+      "groupName": "501",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "水产类",
+          "majorKey": "19fc7b41",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "7700",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 7060,
+          "equivRank": 7060
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "7000",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

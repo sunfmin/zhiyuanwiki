@@ -1,0 +1,56 @@
+{
+  "key": "闽南师范大学(中高计划1)",
+  "code": "1130",
+  "name": "闽南师范大学(中高计划1)",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "不限",
+          "plan": 10,
+          "tuition": "5040",
+          "menlei": "经"
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 23,
+          "tuition": "5460",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "不限",
+          "plan": 21,
+          "tuition": "5040",
+          "menlei": "经"
+        }
+      ]
+    }
+  ]
+}

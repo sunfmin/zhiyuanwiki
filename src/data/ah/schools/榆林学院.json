@@ -1,0 +1,214 @@
+{
+  "key": "榆林学院",
+  "code": "2827",
+  "name": "榆林学院",
+  "leaves": [
+    {
+      "schoolKey": "榆林学院",
+      "schoolCode": "2827",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 500,
+          "minRank": 135050,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "榆林学院",
+      "schoolCode": "2827",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 500,
+          "minRank": 135050,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "榆林学院",
+      "schoolCode": "2827",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 495,
+          "minRank": 142426,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "榆林学院",
+      "schoolCode": "2827",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 497,
+          "minRank": 139469,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "榆林学院",
+      "schoolCode": "2827",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 506,
+          "minRank": 30698,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "榆林学院",
+      "schoolCode": "2827",
+      "majorKey": "fd907dda",
+      "majorName": "社会工作",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 507,
+          "minRank": 30259,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "榆林学院",
+      "schoolCode": "2827",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 506,
+          "minRank": 30698,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "社会工作",
+          "majorKey": "fd907dda",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000元/年",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 30259,
+          "equivRank": 30259
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000元/年",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 30698,
+          "equivRank": 30698
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000元/年",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 30698,
+          "equivRank": 30698
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5250元/年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 135050,
+          "equivRank": 135050
+        },
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6000元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 142426,
+          "equivRank": 142426
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6000元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 139469,
+          "equivRank": 139469
+        },
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "6000元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 135050,
+          "equivRank": 135050
+        }
+      ]
+    }
+  ]
+}

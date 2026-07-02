@@ -1,0 +1,208 @@
+{
+  "key": "中国人民大学(苏州校区)",
+  "code": "4855",
+  "name": "中国人民大学（苏州校区）",
+  "leaves": [
+    {
+      "schoolKey": "中国人民大学(苏州校区)",
+      "schoolCode": "4855",
+      "majorKey": "5a324641",
+      "majorName": "人力资源管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 609,
+          "minRank": 1297,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国人民大学(苏州校区)",
+      "schoolCode": "4855",
+      "majorKey": "c8cc37b2",
+      "majorName": "传播学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 611,
+          "minRank": 1189,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国人民大学(苏州校区)",
+      "schoolCode": "4855",
+      "majorKey": "7b1e1d6e",
+      "majorName": "国民经济管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 633,
+          "minRank": 4785,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国人民大学(苏州校区)",
+      "schoolCode": "4855",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 641,
+          "minRank": 3439,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国人民大学(苏州校区)",
+      "schoolCode": "4855",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 611,
+          "minRank": 1189,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 634,
+          "minRank": 4618,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（202）",
+      "groupName": "（202）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "首选历史，再选不限",
+          "plan": 4,
+          "tuition": "70000",
+          "menlei": "经",
+          "coop": true,
+          "prevYear": 2024,
+          "prevRank": 1189,
+          "equivRank": 1134
+        },
+        {
+          "majorName": "人力资源管理",
+          "majorKey": "5a324641",
+          "selKe": "首选历史，再选不限",
+          "plan": 2,
+          "tuition": "70000",
+          "menlei": "管",
+          "coop": true,
+          "prevYear": 2024,
+          "prevRank": 1297,
+          "equivRank": 1237
+        },
+        {
+          "majorName": "传播学",
+          "majorKey": "c8cc37b2",
+          "selKe": "首选历史，再选不限",
+          "plan": 1,
+          "tuition": "70000",
+          "menlei": "文",
+          "coop": true,
+          "prevYear": 2024,
+          "prevRank": 1189,
+          "equivRank": 1134
+        }
+      ]
+    },
+    {
+      "groupCode": "（105）",
+      "groupName": "（105）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "首选物理，再选化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "（203）",
+      "groupName": "（203）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "首选物理，再选不限",
+          "plan": 4,
+          "tuition": "70000",
+          "menlei": "经",
+          "coop": true,
+          "prevYear": 2024,
+          "prevRank": 4618,
+          "equivRank": 5133
+        },
+        {
+          "majorName": "国民经济管理",
+          "majorKey": "7b1e1d6e",
+          "selKe": "首选物理，再选不限",
+          "plan": 1,
+          "tuition": "70000",
+          "menlei": "经",
+          "coop": true,
+          "prevYear": 2024,
+          "prevRank": 4785,
+          "equivRank": 5318
+        }
+      ]
+    },
+    {
+      "groupCode": "（204）",
+      "groupName": "（204）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "首选物理，再选化学",
+          "plan": 1,
+          "tuition": "70000",
+          "menlei": "理",
+          "coop": true,
+          "prevYear": 2024,
+          "prevRank": 3439,
+          "equivRank": 3822
+        }
+      ]
+    }
+  ]
+}

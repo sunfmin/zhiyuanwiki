@@ -1,0 +1,115 @@
+{
+  "key": "安庆师范大学",
+  "code": "10372",
+  "name": "安庆师范大学",
+  "leaves": [
+    {
+      "schoolKey": "安庆师范大学",
+      "schoolCode": "10372",
+      "majorKey": "f3fa4b3d",
+      "majorName": "信息与计算科学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 471,
+          "minRank": 217963,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安庆师范大学",
+      "schoolCode": "10372",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 529,
+          "minRank": 37000,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安庆师范大学",
+      "schoolCode": "10372",
+      "majorKey": "5e0efed0",
+      "majorName": "电子信息类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 527,
+          "minRank": 117964,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "204",
+      "groupName": "204",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4900",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 37000,
+          "equivRank": 37000
+        }
+      ]
+    },
+    {
+      "groupCode": "205",
+      "groupName": "205",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电子信息类",
+          "majorKey": "5e0efed0",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 117964,
+          "equivRank": 117964
+        }
+      ]
+    },
+    {
+      "groupCode": "206",
+      "groupName": "206",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "信息与计算科学",
+          "majorKey": "f3fa4b3d",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "21000",
+          "menlei": "理",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 217963,
+          "equivRank": 217963
+        }
+      ]
+    }
+  ]
+}

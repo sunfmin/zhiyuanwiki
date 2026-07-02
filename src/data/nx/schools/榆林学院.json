@@ -1,0 +1,187 @@
+{
+  "key": "榆林学院",
+  "code": "6144",
+  "name": "榆林学院",
+  "leaves": [
+    {
+      "schoolKey": "榆林学院",
+      "schoolCode": "6144",
+      "majorKey": "1f59c989",
+      "majorName": "化学工程与工艺",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 436,
+          "minRank": 17102,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "榆林学院",
+      "schoolCode": "6144",
+      "majorKey": "d054f8d1",
+      "majorName": "应用统计学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 437,
+          "minRank": 16897,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "榆林学院",
+      "schoolCode": "6144",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 437,
+          "minRank": 16897,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "榆林学院",
+      "schoolCode": "6144",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 496,
+          "minRank": 2686,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "榆林学院",
+      "schoolCode": "6144",
+      "majorKey": "1da18825",
+      "majorName": "物联网工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 435,
+          "minRank": 17304,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "榆林学院",
+      "schoolCode": "6144",
+      "majorKey": "fd907dda",
+      "majorName": "社会工作",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 477,
+          "minRank": 3709,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 2686,
+          "equivRank": 2686
+        },
+        {
+          "majorName": "社会工作",
+          "majorKey": "fd907dda",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 3709,
+          "equivRank": 3709
+        }
+      ]
+    },
+    {
+      "groupCode": "501",
+      "groupName": "501",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "化学工程与工艺",
+          "majorKey": "1f59c989",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 17102,
+          "equivRank": 17102
+        },
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5250",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 16897,
+          "equivRank": 16897
+        },
+        {
+          "majorName": "物联网工程",
+          "majorKey": "1da18825",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 17304,
+          "equivRank": 17304
+        },
+        {
+          "majorName": "应用统计学",
+          "majorKey": "d054f8d1",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "6000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 16897,
+          "equivRank": 16897
+        }
+      ]
+    }
+  ]
+}

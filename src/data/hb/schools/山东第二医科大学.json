@@ -1,0 +1,125 @@
+{
+  "key": "山东第二医科大学",
+  "code": "H424",
+  "name": "山东第二医科大学",
+  "leaves": [
+    {
+      "schoolKey": "山东第二医科大学",
+      "schoolCode": "H424",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 513,
+          "minRank": 75381,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山东第二医科大学",
+      "schoolCode": "H424",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 536,
+          "minRank": 55626,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山东第二医科大学",
+      "schoolCode": "H424",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 516,
+          "minRank": 72834,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山东第二医科大学",
+      "schoolCode": "H424",
+      "majorKey": "83eea431",
+      "majorName": "麻醉学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 556,
+          "minRank": 39850,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "7920",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 75381,
+          "equivRank": 75381
+        },
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "7590",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 55626,
+          "equivRank": 55626
+        },
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "7920",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 72834,
+          "equivRank": 72834
+        },
+        {
+          "majorName": "麻醉学",
+          "majorKey": "83eea431",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "7920",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 39850,
+          "equivRank": 39850
+        }
+      ]
+    }
+  ]
+}

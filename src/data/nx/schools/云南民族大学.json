@@ -1,0 +1,68 @@
+{
+  "key": "云南民族大学",
+  "code": "5327",
+  "name": "云南民族大学",
+  "leaves": [
+    {
+      "schoolKey": "云南民族大学",
+      "schoolCode": "5327",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "历史,政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 505,
+          "minRank": 2286,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "701",
+      "groupName": "701",
+      "track": "历史",
+      "selKe": "历史,政治",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "历史,政治",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "法"
+        },
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "历史,政治",
+          "plan": 1,
+          "tuition": "4500",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 2286,
+          "equivRank": 2286
+        }
+      ]
+    },
+    {
+      "groupCode": "701",
+      "groupName": "701",
+      "track": "物理",
+      "selKe": "物理,政治",
+      "majors": [
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "物理,政治",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "经"
+        }
+      ]
+    }
+  ]
+}

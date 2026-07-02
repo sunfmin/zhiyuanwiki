@@ -1,0 +1,69 @@
+{
+  "key": "北京工业大学耿丹学院",
+  "code": "D904",
+  "name": "北京工业大学耿丹学院",
+  "leaves": [
+    {
+      "schoolKey": "北京工业大学耿丹学院",
+      "schoolCode": "D904",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 475,
+          "minRank": 247683,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京工业大学耿丹学院",
+      "schoolCode": "D904",
+      "majorKey": "e6a89fa4",
+      "majorName": "金融工程",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 486,
+          "minRank": 220849,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "金融工程",
+      "majorKey": "e6a89fa4",
+      "track": "综合",
+      "selKe": "物理",
+      "plan": 2,
+      "tuition": "46600",
+      "schooling": "4",
+      "menlei": "经",
+      "prevYear": 2025,
+      "prevRank": 220849,
+      "equivRank": 220849,
+      "prevScore": 486
+    },
+    {
+      "majorName": "计算机科学与技术",
+      "majorKey": "1d486608",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "plan": 2,
+      "tuition": "46600",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 247683,
+      "equivRank": 247683,
+      "prevScore": 475
+    }
+  ]
+}

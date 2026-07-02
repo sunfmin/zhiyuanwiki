@@ -1,0 +1,133 @@
+{
+  "key": "江南大学",
+  "code": "0786",
+  "name": "江南大学",
+  "leaves": [
+    {
+      "schoolKey": "江南大学",
+      "schoolCode": "0786",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 679,
+          "minRank": 2775,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "江南大学",
+      "schoolCode": "0786",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 680,
+          "minRank": 2714,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "江南大学",
+      "schoolCode": "0786",
+      "majorKey": "37356fa4",
+      "majorName": "环境科学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 649,
+          "minRank": 5165,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "江南大学",
+      "schoolCode": "0786",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 678,
+          "minRank": 2840,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 2775,
+          "equivRank": 2775
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 2714,
+          "equivRank": 2714
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 2840,
+          "equivRank": 2840
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "环境科学",
+          "majorKey": "37356fa4",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 5165,
+          "equivRank": 5165
+        }
+      ]
+    }
+  ]
+}

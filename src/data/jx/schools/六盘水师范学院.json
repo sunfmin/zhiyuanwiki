@@ -1,0 +1,222 @@
+{
+  "key": "六盘水师范学院",
+  "code": "6840",
+  "name": "六盘水师范学院",
+  "leaves": [
+    {
+      "schoolKey": "六盘水师范学院",
+      "schoolCode": "6840",
+      "majorKey": "e16fbe20",
+      "majorName": "安全工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 489,
+          "minRank": 98356,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "六盘水师范学院",
+      "schoolCode": "6840",
+      "majorKey": "409f7ac3",
+      "majorName": "应用物理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 493,
+          "minRank": 93255,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "六盘水师范学院",
+      "schoolCode": "6840",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 526,
+          "minRank": 22984,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "六盘水师范学院",
+      "schoolCode": "6840",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 495,
+          "minRank": 90756,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "六盘水师范学院",
+      "schoolCode": "6840",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 495,
+          "minRank": 90756,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "六盘水师范学院",
+      "schoolCode": "6840",
+      "majorKey": "7faf2092",
+      "majorName": "环境工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 491,
+          "minRank": 95753,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "六盘水师范学院",
+      "schoolCode": "6840",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 494,
+          "minRank": 92002,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第101组",
+      "groupName": "第101组",
+      "track": "历史",
+      "selKe": "历史,思想政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "历史,思想政治",
+          "plan": 2,
+          "tuition": "4100",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 22984,
+          "equivRank": 22984
+        }
+      ]
+    },
+    {
+      "groupCode": "第501组",
+      "groupName": "第501组",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "应用物理学",
+          "majorKey": "409f7ac3",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 93255,
+          "equivRank": 93255
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 92002,
+          "equivRank": 92002
+        },
+        {
+          "majorName": "环境工程",
+          "majorKey": "7faf2092",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 95753,
+          "equivRank": 95753
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 90756,
+          "equivRank": 90756
+        }
+      ]
+    },
+    {
+      "groupCode": "第502组",
+      "groupName": "第502组",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "安全工程",
+          "majorKey": "e16fbe20",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 98356,
+          "equivRank": 98356
+        },
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 90756,
+          "equivRank": 90756
+        }
+      ]
+    }
+  ]
+}

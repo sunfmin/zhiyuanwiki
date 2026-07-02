@@ -1,0 +1,121 @@
+{
+  "key": "邯郸学院",
+  "code": "1313",
+  "name": "邯郸学院",
+  "leaves": [
+    {
+      "schoolKey": "邯郸学院",
+      "schoolCode": "1313",
+      "majorKey": "9f802a9c",
+      "majorName": "数学与应用数学（师范）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 513,
+          "minRank": 156846,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "邯郸学院",
+      "schoolCode": "1313",
+      "majorKey": "bec128cc",
+      "majorName": "物理学（师范）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 531,
+          "minRank": 127926,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 519,
+          "minRank": 147575,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 512,
+          "minRank": 158348,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "邯郸学院",
+      "schoolCode": "1313",
+      "majorKey": "b54c1697",
+      "majorName": "网络工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 527,
+          "minRank": 132460,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 522,
+          "minRank": 143644,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 520,
+          "minRank": 148560,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "网络工程",
+      "majorKey": "b54c1697",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 4,
+      "tuition": "4900",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 148560,
+      "equivRank": 148560
+    },
+    {
+      "majorName": "数学与应用数学（师范）",
+      "majorKey": "9f802a9c",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 3,
+      "tuition": "5390",
+      "schooling": "四年",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 156846,
+      "equivRank": 156846
+    },
+    {
+      "majorName": "物理学（师范）",
+      "majorKey": "bec128cc",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 4,
+      "tuition": "4900",
+      "schooling": "四年",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 158348,
+      "equivRank": 158348
+    }
+  ]
+}

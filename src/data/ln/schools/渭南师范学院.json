@@ -1,0 +1,70 @@
+{
+  "key": "渭南师范学院",
+  "code": "0723",
+  "name": "渭南师范学院",
+  "leaves": [
+    {
+      "schoolKey": "渭南师范学院",
+      "schoolCode": "0723",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 461,
+          "minRank": 22112,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "渭南师范学院",
+      "schoolCode": "0723",
+      "majorKey": "b2ff5185",
+      "majorName": "朝鲜语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 474,
+          "minRank": 19628,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "朝鲜语",
+      "majorKey": "b2ff5185",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 9,
+      "tuition": "5000",
+      "schooling": "4",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 19628,
+      "equivRank": 19628,
+      "prevScore": 474
+    },
+    {
+      "majorName": "学前教育",
+      "majorKey": "97716b64",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 5,
+      "tuition": "39600",
+      "schooling": "4",
+      "menlei": "教",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 22112,
+      "equivRank": 22112,
+      "prevScore": 461
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "key": "保定学院",
+  "code": "1166",
+  "name": "保定学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不提科目要求",
+          "plan": 1,
+          "tuition": "5390",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "4600",
+          "menlei": "史"
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "5060",
+          "menlei": "文"
+        },
+        {
+          "majorName": "文物与博物馆学",
+          "majorKey": "5fcb9223",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "4600",
+          "menlei": "史"
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "投资学",
+          "majorKey": "287bdd33",
+          "selKe": "不提科目要求",
+          "plan": 1,
+          "tuition": "4600",
+          "menlei": "经"
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "004",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5390",
+          "menlei": "理"
+        },
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5390",
+          "menlei": "工"
+        },
+        {
+          "majorName": "物联网工程",
+          "majorKey": "1da18825",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "4900",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

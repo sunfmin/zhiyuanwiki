@@ -1,0 +1,168 @@
+{
+  "key": "张家口学院",
+  "code": "1349",
+  "name": "张家口学院",
+  "leaves": [
+    {
+      "schoolKey": "张家口学院",
+      "schoolCode": "1349",
+      "majorKey": "d061ae24",
+      "majorName": "地理科学",
+      "selKe": "首选历史，再选地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 523,
+          "minRank": 33265,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "张家口学院",
+      "schoolCode": "1349",
+      "majorKey": "889e9381",
+      "majorName": "数字媒体技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 503,
+          "minRank": 121846,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "张家口学院",
+      "schoolCode": "1349",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 501,
+          "minRank": 124545,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "张家口学院",
+      "schoolCode": "1349",
+      "majorKey": "11cedbac",
+      "majorName": "生态学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 488,
+          "minRank": 142201,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "张家口学院",
+      "schoolCode": "1349",
+      "majorKey": "b54c1697",
+      "majorName": "网络工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 502,
+          "minRank": 123201,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "地",
+      "majors": [
+        {
+          "majorName": "地理科学",
+          "majorKey": "d061ae24",
+          "selKe": "地",
+          "plan": 10,
+          "tuition": "4年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 33265,
+          "equivRank": 33265
+        }
+      ]
+    },
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "生态学",
+          "majorKey": "11cedbac",
+          "selKe": "化",
+          "plan": 10,
+          "tuition": "4年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 142201,
+          "equivRank": 142201
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "4年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 124545,
+          "equivRank": 124545
+        },
+        {
+          "majorName": "网络工程",
+          "majorKey": "b54c1697",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "4年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 123201,
+          "equivRank": 123201
+        },
+        {
+          "majorName": "数字媒体技术",
+          "majorKey": "889e9381",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "4年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 121846,
+          "equivRank": 121846
+        }
+      ]
+    }
+  ]
+}

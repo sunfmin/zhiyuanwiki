@@ -1,0 +1,133 @@
+{
+  "key": "太原工业学院",
+  "code": "14101",
+  "name": "太原工业学院",
+  "leaves": [
+    {
+      "schoolKey": "太原工业学院",
+      "schoolCode": "14101",
+      "majorKey": "e063e51a",
+      "majorName": "微电子科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 464,
+          "minRank": 84297,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "太原工业学院",
+      "schoolCode": "14101",
+      "majorKey": "4ef2a1b4",
+      "majorName": "机械电子工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 469,
+          "minRank": 80130,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "太原工业学院",
+      "schoolCode": "14101",
+      "majorKey": "95a6509b",
+      "majorName": "能源化学工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 467,
+          "minRank": 81798,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "太原工业学院",
+      "schoolCode": "14101",
+      "majorKey": "48469b36",
+      "majorName": "跨境电子商务",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 411,
+          "minRank": 134467,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "专业组:101(首选科目:物理。再选科目:不限)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "跨境电子商务",
+          "majorKey": "48469b36",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4950元/年",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 134467,
+          "equivRank": 134467
+        }
+      ]
+    },
+    {
+      "groupCode": "105",
+      "groupName": "专业组:105(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械电子工程",
+          "majorKey": "4ef2a1b4",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5280元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 80130,
+          "equivRank": 80130
+        },
+        {
+          "majorName": "微电子科学与工程",
+          "majorKey": "e063e51a",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5280元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 84297,
+          "equivRank": 84297
+        },
+        {
+          "majorName": "能源化学工程",
+          "majorKey": "95a6509b",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5280元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 81798,
+          "equivRank": 81798
+        }
+      ]
+    }
+  ]
+}

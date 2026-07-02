@@ -1,0 +1,98 @@
+{
+  "key": "东北大学",
+  "code": "0334",
+  "name": "东北大学",
+  "leaves": [
+    {
+      "schoolKey": "东北大学",
+      "schoolCode": "0334",
+      "majorKey": "ed53a26b",
+      "majorName": "智能制造工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 575,
+          "minRank": 5016,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "东北大学",
+      "schoolCode": "0334",
+      "majorKey": "710bfc36",
+      "majorName": "机械类",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 575,
+          "minRank": 5016,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "东北大学",
+      "schoolCode": "0334",
+      "majorKey": "8230723d",
+      "majorName": "计算机类",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 576,
+          "minRank": 4823,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "机械类",
+          "majorKey": "710bfc36",
+          "selKe": "物理和化学",
+          "plan": 3,
+          "tuition": "6240",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 5016,
+          "equivRank": 5016
+        },
+        {
+          "majorName": "计算机类",
+          "majorKey": "8230723d",
+          "selKe": "物理和化学",
+          "plan": 3,
+          "tuition": "16000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 4823,
+          "equivRank": 4823
+        },
+        {
+          "majorName": "智能制造工程",
+          "majorKey": "ed53a26b",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "6240",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 5016,
+          "equivRank": 5016
+        }
+      ]
+    }
+  ]
+}

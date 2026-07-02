@@ -1,0 +1,211 @@
+{
+  "key": "贵州警察学院",
+  "code": "6323",
+  "name": "贵州警察学院",
+  "leaves": [
+    {
+      "schoolKey": "贵州警察学院",
+      "schoolCode": "6323",
+      "majorKey": "e6801f33",
+      "majorName": "信息安全",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 513,
+          "minRank": 114462,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 529,
+          "minRank": 107572,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 530,
+          "minRank": 120767,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "贵州警察学院",
+      "schoolCode": "6323",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 530,
+          "minRank": 26284,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 520,
+          "minRank": 107386,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 537,
+          "minRank": 23736,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 536,
+          "minRank": 98546,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 556,
+          "minRank": 20940,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 548,
+          "minRank": 95642,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "贵州警察学院",
+      "schoolCode": "6323",
+      "majorKey": "932ef560",
+      "majorName": "法学类",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 512,
+          "minRank": 29917,
+          "maxScore": 0
+        },
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 494,
+          "minRank": 113466,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "贵州警察学院",
+      "schoolCode": "6323",
+      "majorKey": "a5b00ae5",
+      "majorName": "监狱学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 535,
+          "minRank": 92078,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 531,
+          "minRank": 104892,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 545,
+          "minRank": 99722,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "首选历史，再选不限",
+          "plan": 1,
+          "tuition": "4100",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 20940,
+          "equivRank": 20940
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "首选物理，再选不限",
+          "plan": 2,
+          "tuition": "4100",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 95642,
+          "equivRank": 95642
+        },
+        {
+          "majorName": "监狱学",
+          "majorKey": "a5b00ae5",
+          "selKe": "首选物理，再选不限",
+          "plan": 1,
+          "tuition": "4100",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 99722,
+          "equivRank": 99722
+        }
+      ]
+    },
+    {
+      "groupCode": "（03）",
+      "groupName": "（03）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "信息安全",
+          "majorKey": "e6801f33",
+          "selKe": "首选物理，再选化学",
+          "plan": 1,
+          "tuition": "4200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 120767,
+          "equivRank": 120767
+        }
+      ]
+    }
+  ]
+}

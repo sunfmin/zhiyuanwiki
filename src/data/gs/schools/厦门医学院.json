@@ -1,0 +1,56 @@
+{
+  "key": "厦门医学院",
+  "code": "2214",
+  "name": "厦门医学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6000",
+          "menlei": "医"
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "医"
+        },
+        {
+          "majorName": "眼视光学",
+          "majorKey": "d35344f4",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6000",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物",
+          "plan": 4,
+          "tuition": "6000",
+          "menlei": "医"
+        }
+      ]
+    }
+  ]
+}

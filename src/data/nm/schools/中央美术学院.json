@@ -1,0 +1,106 @@
+{
+  "key": "中央美术学院",
+  "code": "0260",
+  "name": "中央美术学院",
+  "leaves": [
+    {
+      "schoolKey": "中央美术学院",
+      "schoolCode": "0260",
+      "majorKey": "ae17c365",
+      "majorName": "艺术史论",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 559,
+          "minRank": 4087,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中央美术学院",
+      "schoolCode": "0260",
+      "majorKey": "c23e4b23",
+      "majorName": "艺术教育",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 590,
+          "minRank": 2068,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中央美术学院",
+      "schoolCode": "0260",
+      "majorKey": "44d89b18",
+      "majorName": "艺术管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 537,
+          "minRank": 5963,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "艺术教育",
+          "majorKey": "c23e4b23",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "8000",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 2068,
+          "equivRank": 2068
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "艺术史论",
+          "majorKey": "ae17c365",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "45000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 4087,
+          "equivRank": 4087
+        },
+        {
+          "majorName": "艺术管理",
+          "majorKey": "44d89b18",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "45000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 5963,
+          "equivRank": 5963
+        }
+      ]
+    }
+  ]
+}

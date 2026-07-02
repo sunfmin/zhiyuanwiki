@@ -1,0 +1,71 @@
+{
+  "key": "北京大学医学部",
+  "code": "0093",
+  "name": "北京大学医学部",
+  "leaves": [
+    {
+      "schoolKey": "北京大学医学部",
+      "schoolCode": "0093",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 815,
+          "minRank": 105,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京大学医学部",
+      "schoolCode": "0093",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 855,
+          "minRank": 105,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 105,
+          "equivRank": 105
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 105,
+          "equivRank": 105
+        }
+      ]
+    }
+  ]
+}

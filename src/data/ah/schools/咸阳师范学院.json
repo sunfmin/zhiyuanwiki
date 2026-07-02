@@ -1,0 +1,221 @@
+{
+  "key": "咸阳师范学院",
+  "code": "2726",
+  "name": "咸阳师范学院",
+  "leaves": [
+    {
+      "schoolKey": "咸阳师范学院",
+      "schoolCode": "2726",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 509,
+          "minRank": 121838,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "咸阳师范学院",
+      "schoolCode": "2726",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 477,
+          "minRank": 44750,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 485,
+          "minRank": 157276,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "咸阳师范学院",
+      "schoolCode": "2726",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 510,
+          "minRank": 120475,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "咸阳师范学院",
+      "schoolCode": "2726",
+      "majorKey": "5fcb9223",
+      "majorName": "文物与博物馆学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 511,
+          "minRank": 28434,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "咸阳师范学院",
+      "schoolCode": "2726",
+      "majorKey": "653f630d",
+      "majorName": "物理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 509,
+          "minRank": 121838,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "咸阳师范学院",
+      "schoolCode": "2726",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 509,
+          "minRank": 29349,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000元/年",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 29349,
+          "equivRank": 29349
+        },
+        {
+          "majorName": "文物与博物馆学",
+          "majorKey": "5fcb9223",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "5000元/年",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 28434,
+          "equivRank": 28434
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002专业组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 6,
+          "tuition": "38000元/年",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 44750,
+          "equivRank": 44750
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "38000元/年",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 157276,
+          "equivRank": 157276
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5250元/年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 120475,
+          "equivRank": 120475
+        },
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5250元/年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 121838,
+          "equivRank": 121838
+        },
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5250元/年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 121838,
+          "equivRank": 121838
+        }
+      ]
+    }
+  ]
+}

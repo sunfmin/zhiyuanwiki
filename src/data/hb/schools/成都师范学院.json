@@ -1,0 +1,211 @@
+{
+  "key": "成都师范学院",
+  "code": "K179",
+  "name": "成都师范学院",
+  "leaves": [
+    {
+      "schoolKey": "成都师范学院",
+      "schoolCode": "K179",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 548,
+          "minRank": 14175,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "成都师范学院",
+      "schoolCode": "K179",
+      "majorKey": "889e9381",
+      "majorName": "数字媒体技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 520,
+          "minRank": 69316,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "成都师范学院",
+      "schoolCode": "K179",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 521,
+          "minRank": 68420,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "成都师范学院",
+      "schoolCode": "K179",
+      "majorKey": "178ae2b7",
+      "majorName": "电子科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 522,
+          "minRank": 67533,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "成都师范学院",
+      "schoolCode": "K179",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 545,
+          "minRank": 14983,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "成都师范学院",
+      "schoolCode": "K179",
+      "majorKey": "63b95502",
+      "majorName": "食品质量与安全",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 516,
+          "minRank": 72834,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "4800",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 14983,
+          "equivRank": 14983
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "4800",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 14175,
+          "equivRank": 14175
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "食品质量与安全",
+          "majorKey": "63b95502",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 72834,
+          "equivRank": 72834
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "5200",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 68420,
+          "equivRank": 68420
+        },
+        {
+          "majorName": "电子科学与技术",
+          "majorKey": "178ae2b7",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 67533,
+          "equivRank": 67533
+        }
+      ]
+    },
+    {
+      "groupCode": "05",
+      "groupName": "05",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "数字媒体技术",
+          "majorKey": "889e9381",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 69316,
+          "equivRank": 69316
+        }
+      ]
+    }
+  ]
+}

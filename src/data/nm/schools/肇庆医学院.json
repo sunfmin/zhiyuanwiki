@@ -1,0 +1,98 @@
+{
+  "key": "肇庆医学院",
+  "code": "R18",
+  "name": "肇庆医学院",
+  "leaves": [
+    {
+      "schoolKey": "肇庆医学院",
+      "schoolCode": "R18",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 485,
+          "minRank": 34211,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "肇庆医学院",
+      "schoolCode": "R18",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 486,
+          "minRank": 33918,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "肇庆医学院",
+      "schoolCode": "R18",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 486,
+          "minRank": 33918,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 34211,
+          "equivRank": 34211
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 33918,
+          "equivRank": 33918
+        },
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 33918,
+          "equivRank": 33918
+        }
+      ]
+    }
+  ]
+}

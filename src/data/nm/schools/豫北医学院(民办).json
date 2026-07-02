@@ -1,0 +1,48 @@
+{
+  "key": "豫北医学院(民办)",
+  "code": "E01",
+  "name": "豫北医学院（民办）",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学,生物学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学,生物学",
+          "plan": 2,
+          "tuition": "17000",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "17000",
+          "menlei": "医"
+        },
+        {
+          "majorName": "康复治疗学",
+          "majorKey": "a507c400",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "17000",
+          "menlei": "医"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "key": "云南民族大学",
+  "code": "3562",
+  "name": "云南民族大学",
+  "leaves": [
+    {
+      "schoolKey": "云南民族大学",
+      "schoolCode": "3562",
+      "majorKey": "5a324641",
+      "majorName": "人力资源管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 521,
+          "minRank": 11007,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "云南民族大学",
+      "schoolCode": "3562",
+      "majorKey": "89d2a044",
+      "majorName": "人类学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 540,
+          "minRank": 8090,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "云南民族大学",
+      "schoolCode": "3562",
+      "majorKey": "1c1ee3f7",
+      "majorName": "通信工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 534,
+          "minRank": 44918,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "900",
+      "groupName": "专业组：900 (选考地理)",
+      "track": "历史",
+      "selKe": "地理",
+      "majors": [
+        {
+          "majorName": "民族学",
+          "majorKey": "eca12e7e",
+          "selKe": "地理",
+          "plan": 2,
+          "tuition": "5100",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "人类学",
+          "majorKey": "89d2a044",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5100",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 8090,
+          "equivRank": 8090
+        },
+        {
+          "majorName": "人力资源管理",
+          "majorKey": "5a324641",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 11007,
+          "equivRank": 11007
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "理"
+        },
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 44918,
+          "equivRank": 44918
+        }
+      ]
+    }
+  ]
+}

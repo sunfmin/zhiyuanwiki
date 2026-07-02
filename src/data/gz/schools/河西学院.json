@@ -1,0 +1,210 @@
+{
+  "key": "河西学院",
+  "code": "0961",
+  "name": "河西学院",
+  "leaves": [
+    {
+      "schoolKey": "河西学院",
+      "schoolCode": "0961",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 460,
+          "minRank": 82113,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 465,
+          "minRank": 81452,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河西学院",
+      "schoolCode": "0961",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 461,
+          "minRank": 81295,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 466,
+          "minRank": 81286,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河西学院",
+      "schoolCode": "0961",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 510,
+          "minRank": 16032,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 520,
+          "minRank": 15241,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河西学院",
+      "schoolCode": "0961",
+      "majorKey": "14eeb10f",
+      "majorName": "生物工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 441,
+          "minRank": 99003,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河西学院",
+      "schoolCode": "0961",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 500,
+          "minRank": 19148,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 506,
+          "minRank": 19535,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河西学院",
+      "schoolCode": "0961",
+      "majorKey": "5354ffc5",
+      "majorName": "酿酒工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 446,
+          "minRank": 94900,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 457,
+          "minRank": 89888,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "汉语言文学",
+      "majorKey": "97bc5998",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 2,
+      "tuition": "3800",
+      "schooling": "四年",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 15241,
+      "equivRank": 15241,
+      "prevScore": 520
+    },
+    {
+      "majorName": "英语",
+      "majorKey": "49c5cdf9",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 2,
+      "tuition": "4300",
+      "schooling": "四年",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 19535,
+      "equivRank": 19535,
+      "prevScore": 506
+    },
+    {
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 4,
+      "tuition": "4600",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 81286,
+      "equivRank": 81286,
+      "prevScore": 466
+    },
+    {
+      "majorName": "化学",
+      "majorKey": "04ab47fe",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 2,
+      "tuition": "4000",
+      "schooling": "四年",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 81452,
+      "equivRank": 81452,
+      "prevScore": 465
+    },
+    {
+      "majorName": "酿酒工程",
+      "majorKey": "5354ffc5",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 2,
+      "tuition": "4400",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 89888,
+      "equivRank": 89888,
+      "prevScore": 457
+    }
+  ]
+}

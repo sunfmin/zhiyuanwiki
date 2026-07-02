@@ -1,0 +1,90 @@
+{
+  "key": "酒泉职业技术大学",
+  "code": "6225",
+  "name": "酒泉职业技术大学",
+  "leaves": [
+    {
+      "schoolKey": "酒泉职业技术大学",
+      "schoolCode": "6225",
+      "majorKey": "ec77cae2",
+      "majorName": "旅游管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 500,
+          "minRank": 17717,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 484,
+          "minRank": 72040,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "酒泉职业技术大学",
+      "schoolCode": "6225",
+      "majorKey": "c5a57efa",
+      "majorName": "水利水电工程",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 484,
+          "minRank": 72040,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "旅游管理",
+      "majorKey": "ec77cae2",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 1,
+      "tuition": "6000",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 17717,
+      "equivRank": 17717,
+      "prevScore": 500
+    },
+    {
+      "majorName": "旅游管理",
+      "majorKey": "ec77cae2",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 1,
+      "tuition": "6000",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 72040,
+      "equivRank": 72040,
+      "prevScore": 484
+    },
+    {
+      "majorName": "水利水电工程",
+      "majorKey": "c5a57efa",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 3,
+      "tuition": "6500",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 72040,
+      "equivRank": 72040,
+      "prevScore": 484
+    }
+  ]
+}

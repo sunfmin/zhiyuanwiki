@@ -1,0 +1,40 @@
+{
+  "key": "芜湖学院",
+  "code": "3412",
+  "name": "芜湖学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 10,
+          "tuition": "18000",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电子信息类",
+          "majorKey": "5e0efed0",
+          "selKe": "化学",
+          "plan": 15,
+          "tuition": "18800",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

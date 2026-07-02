@@ -1,0 +1,90 @@
+{
+  "key": "辽宁师范大学",
+  "code": "2024",
+  "name": "辽宁师范大学",
+  "leaves": [
+    {
+      "schoolKey": "辽宁师范大学",
+      "schoolCode": "2024",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 451,
+          "minRank": 7057,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "辽宁师范大学",
+      "schoolCode": "2024",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 473,
+          "minRank": 2146,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 438,
+          "minRank": 8345,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "英语",
+      "majorKey": "49c5cdf9",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 3,
+      "tuition": "4800",
+      "schooling": "四年",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 2146,
+      "equivRank": 2146,
+      "prevScore": 473
+    },
+    {
+      "majorName": "会计学",
+      "majorKey": "8aa56116",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 2,
+      "tuition": "5200",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 7057,
+      "equivRank": 7057,
+      "prevScore": 451
+    },
+    {
+      "majorName": "英语",
+      "majorKey": "49c5cdf9",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 3,
+      "tuition": "4800",
+      "schooling": "四年",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 8345,
+      "equivRank": 8345,
+      "prevScore": 438
+    }
+  ]
+}

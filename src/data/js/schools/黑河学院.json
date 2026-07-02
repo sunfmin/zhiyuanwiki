@@ -1,0 +1,160 @@
+{
+  "key": "黑河学院",
+  "code": "4333",
+  "name": "黑河学院",
+  "leaves": [
+    {
+      "schoolKey": "黑河学院",
+      "schoolCode": "4333",
+      "majorKey": "25624660",
+      "majorName": "应用化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 492,
+          "minRank": 173223,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "黑河学院",
+      "schoolCode": "4333",
+      "majorKey": "c425ce53",
+      "majorName": "材料科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 493,
+          "minRank": 171881,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "黑河学院",
+      "schoolCode": "4333",
+      "majorKey": "0ac1da59",
+      "majorName": "生物技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 493,
+          "minRank": 171881,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "黑河学院",
+      "schoolCode": "4333",
+      "majorKey": "8f1501ac",
+      "majorName": "翻译",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 499,
+          "minRank": 163926,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "黑河学院",
+      "schoolCode": "4333",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 496,
+          "minRank": 167921,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "翻译",
+          "majorKey": "8f1501ac",
+          "selKe": "首选物理，再选不限",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 163926,
+          "equivRank": 163926
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "首选物理，再选化学",
+          "plan": 4,
+          "tuition": "4200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 167921,
+          "equivRank": 167921
+        },
+        {
+          "majorName": "应用化学",
+          "majorKey": "25624660",
+          "selKe": "首选物理，再选化学",
+          "plan": 3,
+          "tuition": "4200",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 173223,
+          "equivRank": 173223
+        },
+        {
+          "majorName": "生物技术",
+          "majorKey": "0ac1da59",
+          "selKe": "首选物理，再选化学",
+          "plan": 3,
+          "tuition": "4500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 171881,
+          "equivRank": 171881
+        },
+        {
+          "majorName": "材料科学与工程",
+          "majorKey": "c425ce53",
+          "selKe": "首选物理，再选化学",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 171881,
+          "equivRank": 171881
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "key": "北京物资学院",
+  "code": "1128",
+  "name": "北京物资学院",
+  "leaves": [
+    {
+      "schoolKey": "北京物资学院",
+      "schoolCode": "1128",
+      "majorKey": "41438d10",
+      "majorName": "劳动与社会保障",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 550,
+          "minRank": 10904,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京物资学院",
+      "schoolCode": "1128",
+      "majorKey": "803b1149",
+      "majorName": "物流工程",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 549,
+          "minRank": 31830,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京物资学院",
+      "schoolCode": "1128",
+      "majorKey": "1f91868a",
+      "majorName": "采购管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 535,
+          "minRank": 39840,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京物资学院",
+      "schoolCode": "1128",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 524,
+          "minRank": 46781,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "劳动与社会保障",
+          "majorKey": "41438d10",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "4200元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 10904,
+          "equivRank": 10904
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "采购管理",
+          "majorKey": "1f91868a",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "4200元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 39840,
+          "equivRank": 39840
+        },
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "4200元",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 46781,
+          "equivRank": 46781
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "物流工程",
+          "majorKey": "803b1149",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "4600元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 31830,
+          "equivRank": 31830
+        }
+      ]
+    }
+  ]
+}

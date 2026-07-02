@@ -1,0 +1,243 @@
+{
+  "key": "山西大同大学",
+  "code": "1406",
+  "name": "山西大同大学",
+  "leaves": [
+    {
+      "schoolKey": "山西大同大学",
+      "schoolCode": "1406",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 506,
+          "minRank": 12192,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 508,
+          "minRank": 9645,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 547,
+          "minRank": 35073,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 552,
+          "minRank": 6774,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山西大同大学",
+      "schoolCode": "1406",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 515,
+          "minRank": 35260,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 522,
+          "minRank": 30719,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 557,
+          "minRank": 30207,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 545,
+          "minRank": 34938,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山西大同大学",
+      "schoolCode": "1406",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 509,
+          "minRank": 11555,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 508,
+          "minRank": 9645,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 532,
+          "minRank": 8846,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 536,
+          "minRank": 9555,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山西大同大学",
+      "schoolCode": "1406",
+      "majorKey": "653f630d",
+      "majorName": "物理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 485,
+          "minRank": 50160,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 470,
+          "minRank": 55409,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 505,
+          "minRank": 57861,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 502,
+          "minRank": 60834,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山西大同大学",
+      "schoolCode": "1406",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 516,
+          "minRank": 51989,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "中医学",
+      "majorKey": "2285e5ca",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 5,
+      "tuition": "5480",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 6774,
+      "equivRank": 6774,
+      "prevScore": 552
+    },
+    {
+      "majorName": "汉语言文学",
+      "majorKey": "97bc5998",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 5,
+      "tuition": "5040",
+      "schooling": "四年",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 9555,
+      "equivRank": 9555,
+      "prevScore": 536
+    },
+    {
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "物理",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "plan": 15,
+      "tuition": "5480",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 34938,
+      "equivRank": 34938,
+      "prevScore": 545
+    },
+    {
+      "majorName": "计算机科学与技术",
+      "majorKey": "1d486608",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 5,
+      "tuition": "5370",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 51989,
+      "equivRank": 51989,
+      "prevScore": 516
+    },
+    {
+      "majorName": "物理学",
+      "majorKey": "653f630d",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 10,
+      "tuition": "5040",
+      "schooling": "四年",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 60834,
+      "equivRank": 60834,
+      "prevScore": 502
+    }
+  ]
+}

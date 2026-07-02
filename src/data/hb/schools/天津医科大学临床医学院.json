@@ -1,0 +1,149 @@
+{
+  "key": "天津医科大学临床医学院",
+  "code": "F140",
+  "name": "天津医科大学临床医学院",
+  "leaves": [
+    {
+      "schoolKey": "天津医科大学临床医学院",
+      "schoolCode": "F140",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 487,
+          "minRank": 98000,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "天津医科大学临床医学院",
+      "schoolCode": "F140",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 505,
+          "minRank": 82251,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "天津医科大学临床医学院",
+      "schoolCode": "F140",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 467,
+          "minRank": 115600,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "天津医科大学临床医学院",
+      "schoolCode": "F140",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 474,
+          "minRank": 109513,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "20000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 109513,
+          "equivRank": 109513
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "物理,化学",
+          "plan": 9,
+          "tuition": "20000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 115600,
+          "equivRank": 115600
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理,化学,生物",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学,生物",
+          "plan": 6,
+          "tuition": "20000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 98000,
+          "equivRank": 98000
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "物理",
+      "selKe": "物理,化学,生物",
+      "majors": [
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "物理,化学,生物",
+          "plan": 2,
+          "tuition": "20000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 82251,
+          "equivRank": 82251
+        }
+      ]
+    }
+  ]
+}

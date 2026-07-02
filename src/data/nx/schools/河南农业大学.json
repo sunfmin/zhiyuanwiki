@@ -1,0 +1,80 @@
+{
+  "key": "河南农业大学",
+  "code": "4135",
+  "name": "河南农业大学",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "工商管理类",
+          "majorKey": "b74128f4",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "4400",
+          "menlei": "管"
+        },
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "4400",
+          "menlei": "经"
+        }
+      ]
+    },
+    {
+      "groupCode": "501",
+      "groupName": "501",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "植物保护",
+          "majorKey": "c931a1e1",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "农"
+        },
+        {
+          "majorName": "植物生产类",
+          "majorKey": "8f1a8b4f",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "农"
+        },
+        {
+          "majorName": "轻工类",
+          "majorKey": "3410d8fb",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "A02",
+      "groupName": "A02",
+      "track": "物理",
+      "selKe": "物理,化学,生物",
+      "majors": [
+        {
+          "majorName": "动物生产类",
+          "majorKey": "09523c1b",
+          "selKe": "物理,化学,生物",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "农"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "key": "内蒙古医科大学",
+  "code": "3083",
+  "name": "内蒙古医科大学",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "516",
+      "groupName": "专业组：516 (选考化学且生物学)",
+      "track": "物理",
+      "selKe": "化学和生物",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学和生物",
+          "plan": 4,
+          "tuition": "5000",
+          "menlei": "医"
+        },
+        {
+          "majorName": "精神医学",
+          "majorKey": "e86ddf0a",
+          "selKe": "化学和生物",
+          "plan": 5,
+          "tuition": "5000",
+          "menlei": "医"
+        },
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学和生物",
+          "plan": 7,
+          "tuition": "5000",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "600",
+      "groupName": "专业组：600 (选考生物学)",
+      "track": "物理",
+      "selKe": "生物",
+      "majors": [
+        {
+          "majorName": "针灸推拿学",
+          "majorKey": "c744f66e",
+          "selKe": "生物",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "医"
+        }
+      ]
+    }
+  ]
+}

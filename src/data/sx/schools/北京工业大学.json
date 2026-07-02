@@ -1,0 +1,198 @@
+{
+  "key": "北京工业大学",
+  "code": "1005",
+  "name": "北京工业大学",
+  "leaves": [
+    {
+      "schoolKey": "北京工业大学",
+      "schoolCode": "1005",
+      "majorKey": "2ca5ff3e",
+      "majorName": "土木类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 606,
+          "minRank": 9951,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京工业大学",
+      "schoolCode": "1005",
+      "majorKey": "6b32f2c4",
+      "majorName": "建筑学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 548,
+          "minRank": 28953,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京工业大学",
+      "schoolCode": "1005",
+      "majorKey": "710bfc36",
+      "majorName": "机械类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 613,
+          "minRank": 8390,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京工业大学",
+      "schoolCode": "1005",
+      "majorKey": "b2ac374c",
+      "majorName": "材料类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 561,
+          "minRank": 23609,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京工业大学",
+      "schoolCode": "1005",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 614,
+          "minRank": 8172,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京工业大学",
+      "schoolCode": "1005",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 615,
+          "minRank": 7990,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "土木类",
+          "majorKey": "2ca5ff3e",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 9951,
+          "equivRank": 9951
+        },
+        {
+          "majorName": "机械类",
+          "majorKey": "710bfc36",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 8390,
+          "equivRank": 8390
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 8172,
+          "equivRank": 8172
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 7990,
+          "equivRank": 7990
+        }
+      ]
+    },
+    {
+      "groupCode": "201",
+      "groupName": "201",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "土木类",
+          "majorKey": "2ca5ff3e",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 9951,
+          "equivRank": 9951
+        },
+        {
+          "majorName": "建筑学",
+          "majorKey": "6b32f2c4",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 28953,
+          "equivRank": 28953
+        },
+        {
+          "majorName": "材料类",
+          "majorKey": "b2ac374c",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 23609,
+          "equivRank": 23609
+        }
+      ]
+    }
+  ]
+}

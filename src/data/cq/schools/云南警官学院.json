@@ -1,0 +1,111 @@
+{
+  "key": "云南警官学院",
+  "code": "5334",
+  "name": "云南警官学院",
+  "leaves": [
+    {
+      "schoolKey": "云南警官学院",
+      "schoolCode": "5334",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 504,
+          "minRank": 12632,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 497,
+          "minRank": 11656,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 534,
+          "minRank": 8505,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 547,
+          "minRank": 7586,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "云南警官学院",
+      "schoolCode": "5334",
+      "majorKey": "3093c484",
+      "majorName": "网络空间安全",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 542,
+          "minRank": 23406,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 528,
+          "minRank": 28266,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 559,
+          "minRank": 29235,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 553,
+          "minRank": 30770,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "法学",
+      "majorKey": "a1113a1f",
+      "track": "历史",
+      "selKe": "首选历史，再选思想政治",
+      "plan": 4,
+      "tuition": "4500",
+      "schooling": "四年",
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevRank": 7586,
+      "equivRank": 7586,
+      "prevScore": 547
+    },
+    {
+      "majorName": "网络空间安全",
+      "majorKey": "3093c484",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 2,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 30770,
+      "equivRank": 30770,
+      "prevScore": 553
+    }
+  ]
+}

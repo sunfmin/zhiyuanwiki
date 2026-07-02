@@ -1,0 +1,275 @@
+{
+  "key": "黑河学院",
+  "code": "1600",
+  "name": "黑河学院",
+  "leaves": [
+    {
+      "schoolKey": "黑河学院",
+      "schoolCode": "1600",
+      "majorKey": "d8f4c9ac",
+      "majorName": "光电信息科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 502,
+          "minRank": 132119,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "黑河学院",
+      "schoolCode": "1600",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 490,
+          "minRank": 149816,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "黑河学院",
+      "schoolCode": "1600",
+      "majorKey": "4ea26300",
+      "majorName": "广播电视学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 503,
+          "minRank": 32050,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "黑河学院",
+      "schoolCode": "1600",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 503,
+          "minRank": 32050,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "黑河学院",
+      "schoolCode": "1600",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 505,
+          "minRank": 31122,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "黑河学院",
+      "schoolCode": "1600",
+      "majorKey": "8b6a817b",
+      "majorName": "物流管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 503,
+          "minRank": 32050,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 490,
+          "minRank": 149816,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "黑河学院",
+      "schoolCode": "1600",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 491,
+          "minRank": 148355,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "黑河学院",
+      "schoolCode": "1600",
+      "majorKey": "1c1ee3f7",
+      "majorName": "通信工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 498,
+          "minRank": 137898,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "物流管理",
+          "majorKey": "8b6a817b",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4000元/年",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 32050,
+          "equivRank": 32050
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4000元/年",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 31122,
+          "equivRank": 31122
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "3000元/年",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 32050,
+          "equivRank": 32050
+        },
+        {
+          "majorName": "广播电视学",
+          "majorKey": "4ea26300",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4000元/年",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 32050,
+          "equivRank": 32050
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "物流管理",
+          "majorKey": "8b6a817b",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4000元/年",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 149816,
+          "equivRank": 149816
+        },
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4000元/年",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 149816,
+          "equivRank": 149816
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002专业组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "3000元/年",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 148355,
+          "equivRank": 148355
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "光电信息科学与工程",
+          "majorKey": "d8f4c9ac",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5000元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 132119,
+          "equivRank": 132119
+        },
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5000元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 137898,
+          "equivRank": 137898
+        }
+      ]
+    }
+  ]
+}

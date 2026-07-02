@@ -1,0 +1,160 @@
+{
+  "key": "山东科技大学",
+  "code": "0646",
+  "name": "山东科技大学",
+  "leaves": [
+    {
+      "schoolKey": "山东科技大学",
+      "schoolCode": "0646",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 465,
+          "minRank": 34206,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山东科技大学",
+      "schoolCode": "0646",
+      "majorKey": "1da18825",
+      "majorName": "物联网工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 489,
+          "minRank": 27375,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山东科技大学",
+      "schoolCode": "0646",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 494,
+          "minRank": 25917,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山东科技大学",
+      "schoolCode": "0646",
+      "majorKey": "ac3cf080",
+      "majorName": "船舶与海洋工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 486,
+          "minRank": 28229,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山东科技大学",
+      "schoolCode": "0646",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 468,
+          "minRank": 33357,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "6325",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 34206,
+          "equivRank": 34206
+        },
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 33357,
+          "equivRank": 33357
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "船舶与海洋工程",
+          "majorKey": "ac3cf080",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 28229,
+          "equivRank": 28229
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "6600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 25917,
+          "equivRank": 25917
+        },
+        {
+          "majorName": "物联网工程",
+          "majorKey": "1da18825",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "6600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 27375,
+          "equivRank": 27375
+        }
+      ]
+    }
+  ]
+}

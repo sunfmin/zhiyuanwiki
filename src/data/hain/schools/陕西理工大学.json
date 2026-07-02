@@ -1,0 +1,141 @@
+{
+  "key": "陕西理工大学",
+  "code": "2696",
+  "name": "陕西理工大学",
+  "leaves": [
+    {
+      "schoolKey": "陕西理工大学",
+      "schoolCode": "2696",
+      "majorKey": "d061ae24",
+      "majorName": "地理科学",
+      "selKe": "地理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 601,
+          "minRank": 12010,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "陕西理工大学",
+      "schoolCode": "2696",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 566,
+          "minRank": 19444,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "陕西理工大学",
+      "schoolCode": "2696",
+      "majorKey": "ed53a26b",
+      "majorName": "智能制造工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 585,
+          "minRank": 15154,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "陕西理工大学",
+      "schoolCode": "2696",
+      "majorKey": "bda0ff17",
+      "majorName": "经济学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 563,
+          "minRank": 20161,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 19444,
+          "equivRank": 19444
+        },
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 20161,
+          "equivRank": 20161
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "智能制造工程",
+          "majorKey": "ed53a26b",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 15154,
+          "equivRank": 15154
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "地理",
+      "majors": [
+        {
+          "majorName": "地理科学",
+          "majorKey": "d061ae24",
+          "selKe": "地理",
+          "plan": 1,
+          "tuition": "6000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 12010,
+          "equivRank": 12010
+        }
+      ]
+    }
+  ]
+}

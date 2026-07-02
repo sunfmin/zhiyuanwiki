@@ -1,0 +1,56 @@
+{
+  "key": "国防科技大学(女)",
+  "code": "2588",
+  "name": "国防科技大学(女)",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法语",
+          "majorKey": "e5fc6283",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "测控技术与仪器",
+          "majorKey": "1bd76ba8",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "",
+          "menlei": "工"
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "",
+          "menlei": "工"
+        },
+        {
+          "majorName": "海洋信息工程",
+          "majorKey": "0359f95f",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

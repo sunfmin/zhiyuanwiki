@@ -1,0 +1,49 @@
+{
+  "key": "浙江大学医学院",
+  "code": "A345",
+  "name": "浙江大学医学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 6,
+          "tuition": "6000",
+          "menlei": "医"
+        },
+        {
+          "majorName": "医学试验班类",
+          "majorKey": "a191bc68",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "6000",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "生物医学",
+          "majorKey": "41220568",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "160000",
+          "menlei": "医",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

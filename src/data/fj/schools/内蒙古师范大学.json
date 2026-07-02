@@ -1,0 +1,64 @@
+{
+  "key": "内蒙古师范大学",
+  "code": "3082",
+  "name": "内蒙古师范大学",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "民族学",
+          "majorKey": "eca12e7e",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4200",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "4600",
+          "menlei": "理"
+        },
+        {
+          "majorName": "环境科学",
+          "majorKey": "37356fa4",
+          "selKe": "化学",
+          "plan": 6,
+          "tuition": "4600",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "酒店管理",
+          "majorKey": "ec686c36",
+          "selKe": "不限",
+          "plan": 6,
+          "tuition": "4600",
+          "menlei": "管"
+        }
+      ]
+    }
+  ]
+}

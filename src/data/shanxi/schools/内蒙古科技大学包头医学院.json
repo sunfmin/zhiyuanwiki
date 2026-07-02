@@ -1,0 +1,79 @@
+{
+  "key": "内蒙古科技大学包头医学院",
+  "code": "1345",
+  "name": "内蒙古科技大学包头医学院",
+  "leaves": [
+    {
+      "schoolKey": "内蒙古科技大学包头医学院",
+      "schoolCode": "1345",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "化学和生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 502,
+          "minRank": 46377,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "内蒙古科技大学包头医学院",
+      "schoolCode": "1345",
+      "majorKey": "1954d9c9",
+      "majorName": "预防医学",
+      "selKe": "化学和生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 499,
+          "minRank": 48052,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化且生",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化且生",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 46377,
+          "equivRank": 46377
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "化且生",
+      "majors": [
+        {
+          "majorName": "预防医学",
+          "majorKey": "1954d9c9",
+          "selKe": "化且生",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 48052,
+          "equivRank": 48052
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "key": "仰恩大学",
+  "code": "B784",
+  "name": "仰恩大学",
+  "leaves": [
+    {
+      "schoolKey": "仰恩大学",
+      "schoolCode": "B784",
+      "majorKey": "9c5f4a34",
+      "majorName": "新闻学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 489,
+          "minRank": 213824,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "仰恩大学",
+      "schoolCode": "B784",
+      "majorKey": "bda0ff17",
+      "majorName": "经济学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 489,
+          "minRank": 211969,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "经济学",
+      "majorKey": "bda0ff17",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 5,
+      "tuition": "23000",
+      "schooling": "4",
+      "menlei": "经",
+      "prevYear": 2025,
+      "prevRank": 211969,
+      "equivRank": 211969,
+      "prevScore": 489
+    },
+    {
+      "majorName": "新闻学",
+      "majorKey": "9c5f4a34",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 5,
+      "tuition": "23000",
+      "schooling": "4",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 213824,
+      "equivRank": 213824,
+      "prevScore": 489
+    }
+  ]
+}

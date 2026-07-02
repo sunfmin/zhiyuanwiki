@@ -1,0 +1,72 @@
+{
+  "key": "昌吉学院",
+  "code": "2339",
+  "name": "昌吉学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "3100",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "智能感知工程",
+          "majorKey": "335b6287",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "3500",
+          "menlei": "工"
+        },
+        {
+          "majorName": "高分子材料与工程",
+          "majorKey": "fc81313f",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "3500",
+          "menlei": "工"
+        },
+        {
+          "majorName": "新能源材料与器件",
+          "majorKey": "35ec1f36",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "3500",
+          "menlei": "工"
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "3500",
+          "menlei": "工"
+        },
+        {
+          "majorName": "智慧农业",
+          "majorKey": "67ecef51",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "3500",
+          "menlei": "农"
+        }
+      ]
+    }
+  ]
+}

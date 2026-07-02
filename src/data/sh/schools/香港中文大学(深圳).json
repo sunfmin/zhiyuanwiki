@@ -1,0 +1,101 @@
+{
+  "key": "香港中文大学(深圳)",
+  "code": "0066",
+  "name": "香港中文大学(深圳)",
+  "leaves": [
+    {
+      "schoolKey": "香港中文大学(深圳)",
+      "schoolCode": "0066",
+      "majorKey": "54728189",
+      "majorName": "理科试验班",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 580,
+          "minRank": 4096,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "香港中文大学(深圳)",
+      "schoolCode": "0066",
+      "majorKey": "47abff30",
+      "majorName": "经济管理试验班",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 575,
+          "minRank": 5016,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "理科试验班",
+          "majorKey": "54728189",
+          "selKe": "不限科目",
+          "plan": 7,
+          "tuition": "140000",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 4096,
+          "equivRank": 4096
+        },
+        {
+          "majorName": "人文科学试验班",
+          "majorKey": "e70fa033",
+          "selKe": "不限科目",
+          "plan": 5,
+          "tuition": "140000",
+          "menlei": "他"
+        },
+        {
+          "majorName": "经济管理试验班",
+          "majorKey": "47abff30",
+          "selKe": "不限科目",
+          "plan": 10,
+          "tuition": "140000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 5016,
+          "equivRank": 5016
+        },
+        {
+          "majorName": "经济管理试验班",
+          "majorKey": "47abff30",
+          "selKe": "不限科目",
+          "plan": 3,
+          "tuition": "140000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 5016,
+          "equivRank": 5016
+        },
+        {
+          "majorName": "理科试验班",
+          "majorKey": "54728189",
+          "selKe": "不限科目",
+          "plan": 58,
+          "tuition": "140000",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 4096,
+          "equivRank": 4096
+        }
+      ]
+    }
+  ]
+}

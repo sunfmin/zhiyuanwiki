@@ -1,0 +1,250 @@
+{
+  "key": "保定学院",
+  "code": "1308",
+  "name": "保定学院",
+  "leaves": [
+    {
+      "schoolKey": "保定学院",
+      "schoolCode": "1308",
+      "majorKey": "5a324641",
+      "majorName": "人力资源管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 475,
+          "minRank": 105453,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 483,
+          "minRank": 109059,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "保定学院",
+      "schoolCode": "1308",
+      "majorKey": "d061ae24",
+      "majorName": "地理科学",
+      "selKe": "首选历史，再选地理",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 484,
+          "minRank": 26493,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 495,
+          "minRank": 26806,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "保定学院",
+      "schoolCode": "1308",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 465,
+          "minRank": 115700,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 470,
+          "minRank": 126123,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "保定学院",
+      "schoolCode": "1308",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 476,
+          "minRank": 30148,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 516,
+          "minRank": 18763,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "保定学院",
+      "schoolCode": "1308",
+      "majorKey": "f3a3be38",
+      "majorName": "知识产权",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 488,
+          "minRank": 24831,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 499,
+          "minRank": 25084,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "保定学院",
+      "schoolCode": "1308",
+      "majorKey": "0c33cbdd",
+      "majorName": "软件工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 512,
+          "minRank": 70811,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 467,
+          "minRank": 130083,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（102）",
+      "groupName": "（102）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "知识产权",
+          "majorKey": "f3a3be38",
+          "selKe": "首选历史，再选不限",
+          "plan": 1,
+          "tuition": "4600",
+          "menlei": "法",
+          "prevYear": 2024,
+          "prevRank": 25084,
+          "equivRank": 23923
+        }
+      ]
+    },
+    {
+      "groupCode": "（103）",
+      "groupName": "（103）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "首选历史，再选不限",
+          "plan": 1,
+          "tuition": "5060",
+          "menlei": "文",
+          "prevYear": 2024,
+          "prevRank": 18763,
+          "equivRank": 17894
+        }
+      ]
+    },
+    {
+      "groupCode": "（104）",
+      "groupName": "（104）",
+      "track": "历史",
+      "selKe": "首选历史，再选地理",
+      "majors": [
+        {
+          "majorName": "地理科学",
+          "majorKey": "d061ae24",
+          "selKe": "首选历史，再选地理",
+          "plan": 1,
+          "tuition": "4900",
+          "menlei": "理",
+          "prevYear": 2024,
+          "prevRank": 26806,
+          "equivRank": 25565
+        }
+      ]
+    },
+    {
+      "groupCode": "（105）",
+      "groupName": "（105）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "投资学",
+          "majorKey": "287bdd33",
+          "selKe": "首选物理，再选不限",
+          "plan": 1,
+          "tuition": "4600",
+          "menlei": "经"
+        }
+      ]
+    },
+    {
+      "groupCode": "（106）",
+      "groupName": "（106）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "首选物理，再选化学",
+          "plan": 1,
+          "tuition": "5390",
+          "menlei": "工",
+          "prevYear": 2024,
+          "prevRank": 130083,
+          "equivRank": 144578
+        },
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "首选物理，再选化学",
+          "plan": 1,
+          "tuition": "5390",
+          "menlei": "理",
+          "prevYear": 2024,
+          "prevRank": 126123,
+          "equivRank": 140177
+        }
+      ]
+    }
+  ]
+}

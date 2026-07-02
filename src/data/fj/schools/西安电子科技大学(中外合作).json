@@ -1,0 +1,51 @@
+{
+  "key": "西安电子科技大学(中外合作)",
+  "code": "3424",
+  "name": "西安电子科技大学(中外合作)",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "70000",
+          "menlei": "工",
+          "coop": true
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "80000",
+          "menlei": "工",
+          "coop": true
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "大数据管理与应用",
+          "majorKey": "2079a63e",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "68000",
+          "menlei": "管",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

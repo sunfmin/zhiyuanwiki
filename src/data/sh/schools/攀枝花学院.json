@@ -1,0 +1,79 @@
+{
+  "key": "攀枝花学院",
+  "code": "0880",
+  "name": "攀枝花学院",
+  "leaves": [
+    {
+      "schoolKey": "攀枝花学院",
+      "schoolCode": "0880",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 465,
+          "minRank": 34206,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "攀枝花学院",
+      "schoolCode": "0880",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 428,
+          "minRank": 43622,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限科目",
+          "plan": 1,
+          "tuition": "5520",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 43622,
+          "equivRank": 43622
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "6670",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 34206,
+          "equivRank": 34206
+        }
+      ]
+    }
+  ]
+}

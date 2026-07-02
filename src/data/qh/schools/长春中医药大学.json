@@ -1,0 +1,190 @@
+{
+  "key": "长春中医药大学",
+  "code": "2128",
+  "name": "长春中医药大学",
+  "leaves": [
+    {
+      "schoolKey": "长春中医药大学",
+      "schoolCode": "2128",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 458,
+          "minRank": 6447,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春中医药大学",
+      "schoolCode": "2128",
+      "majorKey": "8a499b4f",
+      "majorName": "中西医临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 430,
+          "minRank": 9218,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春中医药大学",
+      "schoolCode": "2128",
+      "majorKey": "4fa2a9fc",
+      "majorName": "健康服务与管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 422,
+          "minRank": 4935,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春中医药大学",
+      "schoolCode": "2128",
+      "majorKey": "28bd788f",
+      "majorName": "制药工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 393,
+          "minRank": 13989,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春中医药大学",
+      "schoolCode": "2128",
+      "majorKey": "c744f66e",
+      "majorName": "针灸推拿学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 405,
+          "minRank": 6239,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 438,
+          "minRank": 8345,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "健康服务与管理",
+      "majorKey": "4fa2a9fc",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 1,
+      "tuition": "4800",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 4935,
+      "equivRank": 4935,
+      "prevScore": 422
+    },
+    {
+      "majorName": "针灸推拿学",
+      "majorKey": "c744f66e",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 1,
+      "tuition": "6160",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 6239,
+      "equivRank": 6239,
+      "prevScore": 405
+    },
+    {
+      "majorName": "中医学",
+      "majorKey": "2285e5ca",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 2,
+      "tuition": "6160",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 6447,
+      "equivRank": 6447,
+      "prevScore": 458
+    },
+    {
+      "majorName": "针灸推拿学",
+      "majorKey": "c744f66e",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 2,
+      "tuition": "6160",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 8345,
+      "equivRank": 8345,
+      "prevScore": 438
+    },
+    {
+      "majorName": "中西医临床医学",
+      "majorKey": "8a499b4f",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 2,
+      "tuition": "6160",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 9218,
+      "equivRank": 9218,
+      "prevScore": 430
+    },
+    {
+      "majorName": "制药工程",
+      "majorKey": "28bd788f",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 1,
+      "tuition": "5940",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 13989,
+      "equivRank": 13989,
+      "prevScore": 393
+    },
+    {
+      "majorName": "中药学",
+      "majorKey": "f9504a0c",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 1,
+      "tuition": "6160",
+      "schooling": "四年",
+      "menlei": "医"
+    }
+  ]
+}

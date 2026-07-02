@@ -1,0 +1,148 @@
+{
+  "key": "抚州医药学院",
+  "code": "8277",
+  "name": "抚州医药学院",
+  "leaves": [
+    {
+      "schoolKey": "抚州医药学院",
+      "schoolCode": "8277",
+      "majorKey": "f9504a0c",
+      "majorName": "中药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 471,
+          "minRank": 122100,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "抚州医药学院",
+      "schoolCode": "8277",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选历史，再选生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 508,
+          "minRank": 32690,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 468,
+          "minRank": 125395,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "抚州医药学院",
+      "schoolCode": "8277",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 471,
+          "minRank": 122100,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "抚州医药学院",
+      "schoolCode": "8277",
+      "majorKey": "c744f66e",
+      "majorName": "针灸推拿学",
+      "selKe": "首选物理，再选生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 475,
+          "minRank": 116515,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第501组",
+      "groupName": "第501组",
+      "track": "物理",
+      "selKe": "物理,生物",
+      "majors": [
+        {
+          "majorName": "针灸推拿学",
+          "majorKey": "c744f66e",
+          "selKe": "物理,生物",
+          "plan": 200,
+          "tuition": "4350",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 116515,
+          "equivRank": 116515
+        }
+      ]
+    },
+    {
+      "groupCode": "第502组",
+      "groupName": "第502组",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "中药学",
+          "majorKey": "f9504a0c",
+          "selKe": "物理,化学",
+          "plan": 100,
+          "tuition": "4350",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 122100,
+          "equivRank": 122100
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "物理,化学",
+          "plan": 100,
+          "tuition": "4350",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 122100,
+          "equivRank": 122100
+        }
+      ]
+    },
+    {
+      "groupCode": "第503组",
+      "groupName": "第503组",
+      "track": "物理",
+      "selKe": "物理,生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "物理,生物",
+          "plan": 80,
+          "tuition": "4350",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 125395,
+          "equivRank": 125395
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "key": "浙江理工大学",
+  "code": "3236",
+  "name": "浙江理工大学",
+  "leaves": [
+    {
+      "schoolKey": "浙江理工大学",
+      "schoolCode": "3236",
+      "majorKey": "6b32f2c4",
+      "majorName": "建筑学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 442,
+          "minRank": 7932,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "浙江理工大学",
+      "schoolCode": "3236",
+      "majorKey": "b2ac374c",
+      "majorName": "材料类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 460,
+          "minRank": 6276,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "材料类",
+      "majorKey": "b2ac374c",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 1,
+      "tuition": "6000",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 6276,
+      "equivRank": 6276,
+      "prevScore": 460
+    },
+    {
+      "majorName": "建筑学",
+      "majorKey": "6b32f2c4",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 2,
+      "tuition": "6000",
+      "schooling": "五年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 7932,
+      "equivRank": 7932,
+      "prevScore": 442
+    }
+  ]
+}

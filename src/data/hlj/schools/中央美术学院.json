@@ -1,0 +1,52 @@
+{
+  "key": "中央美术学院",
+  "code": "1039",
+  "name": "中央美术学院",
+  "leaves": [
+    {
+      "schoolKey": "中央美术学院",
+      "schoolCode": "1039",
+      "majorKey": "44d89b18",
+      "majorName": "艺术管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 533,
+          "minRank": 5644,
+          "maxScore": 564
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 541,
+          "minRank": 4109,
+          "maxScore": 542
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "艺术管理",
+          "majorKey": "44d89b18",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "45000",
+          "menlei": "艺",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 4109,
+          "equivRank": 4109
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "key": "辽宁师范大学",
+  "code": "1453",
+  "name": "辽宁师范大学",
+  "leaves": [
+    {
+      "schoolKey": "辽宁师范大学",
+      "schoolCode": "1453",
+      "majorKey": "3e2b336a",
+      "majorName": "教育技术学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 474,
+          "minRank": 40132,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "辽宁师范大学",
+      "schoolCode": "1453",
+      "majorKey": "d2fbd5c5",
+      "majorName": "汉语国际教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 529,
+          "minRank": 4702,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "汉语国际教育",
+          "majorKey": "d2fbd5c5",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "4800",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 4702,
+          "equivRank": 4702
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "教育技术学",
+          "majorKey": "3e2b336a",
+          "selKe": "物理",
+          "plan": 4,
+          "tuition": "5200",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 40132,
+          "equivRank": 40132
+        }
+      ]
+    }
+  ]
+}

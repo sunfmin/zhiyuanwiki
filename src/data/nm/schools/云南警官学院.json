@@ -1,0 +1,108 @@
+{
+  "key": "云南警官学院",
+  "code": "D56",
+  "name": "云南警官学院",
+  "leaves": [
+    {
+      "schoolKey": "云南警官学院",
+      "schoolCode": "D56",
+      "majorKey": "cd1ecf5e",
+      "majorName": "禁毒学",
+      "selKe": "历史,政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 603,
+          "minRank": 1434,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 583,
+          "minRank": 9219,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "思想政治",
+      "majors": [
+        {
+          "majorName": "禁毒学",
+          "majorKey": "cd1ecf5e",
+          "selKe": "思想政治",
+          "plan": 8,
+          "tuition": "4950",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 1434,
+          "equivRank": 1434
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "思想政治",
+      "majors": [
+        {
+          "majorName": "禁毒学",
+          "majorKey": "cd1ecf5e",
+          "selKe": "思想政治",
+          "plan": 2,
+          "tuition": "4950",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 1434,
+          "equivRank": 1434
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "思想政治",
+      "majors": [
+        {
+          "majorName": "禁毒学",
+          "majorKey": "cd1ecf5e",
+          "selKe": "思想政治",
+          "plan": 9,
+          "tuition": "4950",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 9219,
+          "equivRank": 9219
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "004",
+      "track": "物理",
+      "selKe": "思想政治",
+      "majors": [
+        {
+          "majorName": "禁毒学",
+          "majorKey": "cd1ecf5e",
+          "selKe": "思想政治",
+          "plan": 1,
+          "tuition": "4950",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 9219,
+          "equivRank": 9219
+        }
+      ]
+    }
+  ]
+}

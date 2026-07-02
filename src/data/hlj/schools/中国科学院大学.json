@@ -1,0 +1,195 @@
+{
+  "key": "中国科学院大学",
+  "code": "1008",
+  "name": "中国科学院大学",
+  "leaves": [
+    {
+      "schoolKey": "中国科学院大学",
+      "schoolCode": "1008",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 675,
+          "minRank": 202,
+          "maxScore": 684
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国科学院大学",
+      "schoolCode": "1008",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 672,
+          "minRank": 248,
+          "maxScore": 672
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国科学院大学",
+      "schoolCode": "1008",
+      "majorKey": "653f630d",
+      "majorName": "物理学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 673,
+          "minRank": 230,
+          "maxScore": 687
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国科学院大学",
+      "schoolCode": "1008",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 673,
+          "minRank": 230,
+          "maxScore": 676
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国科学院大学",
+      "schoolCode": "1008",
+      "majorKey": "3093c484",
+      "majorName": "网络空间安全",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 672,
+          "minRank": 248,
+          "maxScore": 672
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国科学院大学",
+      "schoolCode": "1008",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 673,
+          "minRank": 230,
+          "maxScore": 682
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 248,
+          "equivRank": 232
+        },
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 230,
+          "equivRank": 215
+        },
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "理"
+        },
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "理"
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 230,
+          "equivRank": 215
+        },
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 202,
+          "equivRank": 189
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 230,
+          "equivRank": 215
+        },
+        {
+          "majorName": "网络空间安全",
+          "majorKey": "3093c484",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 248,
+          "equivRank": 232
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "key": "常州工学院",
+  "code": "3036",
+  "name": "常州工学院",
+  "leaves": [
+    {
+      "schoolKey": "常州工学院",
+      "schoolCode": "3036",
+      "majorKey": "6b32f2c4",
+      "majorName": "建筑学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 471,
+          "minRank": 74635,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "常州工学院",
+      "schoolCode": "3036",
+      "majorKey": "92b6110d",
+      "majorName": "车辆工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 488,
+          "minRank": 62616,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "车辆工程",
+          "majorKey": "92b6110d",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 62616,
+          "equivRank": 62616
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "建筑学",
+          "majorKey": "6b32f2c4",
+          "selKe": "物理",
+          "plan": 4,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 74635,
+          "equivRank": 74635
+        }
+      ]
+    }
+  ]
+}

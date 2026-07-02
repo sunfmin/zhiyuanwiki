@@ -1,0 +1,56 @@
+{
+  "key": "遵义医科大学医学与科技学院",
+  "code": "13653",
+  "name": "遵义医科大学医学与科技学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "100",
+      "groupName": "专业组:100(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 10,
+          "tuition": "12000元/年",
+          "menlei": "医"
+        },
+        {
+          "majorName": "麻醉学",
+          "majorKey": "83eea431",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "12000元/年",
+          "menlei": "医"
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "12000元/年",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "101",
+      "groupName": "专业组:101(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "12000元/年",
+          "menlei": "医"
+        }
+      ]
+    }
+  ]
+}

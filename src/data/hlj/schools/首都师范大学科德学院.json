@@ -1,0 +1,100 @@
+{
+  "key": "首都师范大学科德学院",
+  "code": "3002",
+  "name": "首都师范大学科德学院",
+  "leaves": [
+    {
+      "schoolKey": "首都师范大学科德学院",
+      "schoolCode": "3002",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 399,
+          "minRank": 71377,
+          "maxScore": 399
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都师范大学科德学院",
+      "schoolCode": "3002",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 410,
+          "minRank": 23790,
+          "maxScore": 424
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 373,
+          "minRank": 81670,
+          "maxScore": 373
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 417,
+          "minRank": 20723,
+          "maxScore": 433
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 362,
+          "minRank": 84594,
+          "maxScore": 362
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "79800",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 20723,
+          "equivRank": 20723
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "79800",
+          "menlei": "管",
+          "prevYear": 2024,
+          "prevRank": 71377,
+          "equivRank": 71377
+        },
+        {
+          "majorName": "审计学",
+          "majorKey": "87f6e6a2",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "79800",
+          "menlei": "管"
+        }
+      ]
+    }
+  ]
+}

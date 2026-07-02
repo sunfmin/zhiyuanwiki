@@ -1,0 +1,187 @@
+{
+  "key": "聊城大学",
+  "code": "3717",
+  "name": "聊城大学",
+  "leaves": [
+    {
+      "schoolKey": "聊城大学",
+      "schoolCode": "3717",
+      "majorKey": "b3e5d67f",
+      "majorName": "动物医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 518,
+          "minRank": 50619,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "聊城大学",
+      "schoolCode": "3717",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 546,
+          "minRank": 11945,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "聊城大学",
+      "schoolCode": "3717",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 517,
+          "minRank": 51310,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "聊城大学",
+      "schoolCode": "3717",
+      "majorKey": "e2472a71",
+      "majorName": "生物科学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 514,
+          "minRank": 53307,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "聊城大学",
+      "schoolCode": "3717",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 549,
+          "minRank": 11180,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "聊城大学",
+      "schoolCode": "3717",
+      "majorKey": "92b6110d",
+      "majorName": "车辆工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 515,
+          "minRank": 52642,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "5200元",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 11945,
+          "equivRank": 11945
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "5200元",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 11180,
+          "equivRank": 11180
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "动物医学",
+          "majorKey": "b3e5d67f",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "6300元",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 50619,
+          "equivRank": 50619
+        },
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "6600元",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 53307,
+          "equivRank": 53307
+        },
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6300元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 51310,
+          "equivRank": 51310
+        },
+        {
+          "majorName": "车辆工程",
+          "majorKey": "92b6110d",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6300元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 52642,
+          "equivRank": 52642
+        }
+      ]
+    }
+  ]
+}

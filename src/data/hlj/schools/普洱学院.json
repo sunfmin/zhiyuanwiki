@@ -1,0 +1,107 @@
+{
+  "key": "普洱学院",
+  "code": "2324",
+  "name": "普洱学院",
+  "leaves": [
+    {
+      "schoolKey": "普洱学院",
+      "schoolCode": "2324",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "政治",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 386,
+          "minRank": 14672,
+          "maxScore": 390
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 453,
+          "minRank": 15971,
+          "maxScore": 464
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 441,
+          "minRank": 16458,
+          "maxScore": 453
+        }
+      ]
+    },
+    {
+      "schoolKey": "普洱学院",
+      "schoolCode": "2324",
+      "majorKey": "e2472a71",
+      "majorName": "生物科学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 347,
+          "minRank": 61133,
+          "maxScore": 361
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 421,
+          "minRank": 62957,
+          "maxScore": 452
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 408,
+          "minRank": 66529,
+          "maxScore": 415
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "政治",
+          "plan": 5,
+          "tuition": "4200",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 16458,
+          "equivRank": 16458
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 66529,
+          "equivRank": 62225
+        }
+      ]
+    }
+  ]
+}

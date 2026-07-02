@@ -1,0 +1,121 @@
+{
+  "key": "德州学院",
+  "code": "2683",
+  "name": "德州学院",
+  "leaves": [
+    {
+      "schoolKey": "德州学院",
+      "schoolCode": "2683",
+      "majorKey": "28bd788f",
+      "majorName": "制药工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 487,
+          "minRank": 120091,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 505,
+          "minRank": 122563,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 508,
+          "minRank": 134800,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 516,
+          "minRank": 140608,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "德州学院",
+      "schoolCode": "2683",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 515,
+          "minRank": 28124,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 530,
+          "minRank": 26284,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 530,
+          "minRank": 26805,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 542,
+          "minRank": 27430,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "首选历史，再选不限",
+          "plan": 5,
+          "tuition": "5060",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 27430,
+          "equivRank": 27430
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "制药工程",
+          "majorKey": "28bd788f",
+          "selKe": "首选物理，再选化学",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 140608,
+          "equivRank": 140608
+        }
+      ]
+    }
+  ]
+}

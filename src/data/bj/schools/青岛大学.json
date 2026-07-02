@@ -1,0 +1,160 @@
+{
+  "key": "青岛大学",
+  "code": "3737",
+  "name": "青岛大学",
+  "leaves": [
+    {
+      "schoolKey": "青岛大学",
+      "schoolCode": "3737",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 591,
+          "minRank": 13897,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "青岛大学",
+      "schoolCode": "3737",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 585,
+          "minRank": 15321,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "青岛大学",
+      "schoolCode": "3737",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 588,
+          "minRank": 14588,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "青岛大学",
+      "schoolCode": "3737",
+      "majorKey": "bda0ff17",
+      "majorName": "经济学",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 531,
+          "minRank": 29184,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "青岛大学",
+      "schoolCode": "3737",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 548,
+          "minRank": 24611,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "6600",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 29184,
+          "equivRank": 29184
+        },
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "6600",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 24611,
+          "equivRank": 24611
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "7920",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 13897,
+          "equivRank": 13897
+        },
+        {
+          "majorName": "医学影像学",
+          "majorKey": "5780af73",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "7920",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 15321,
+          "equivRank": 15321
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "7920",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 14588,
+          "equivRank": 14588
+        }
+      ]
+    }
+  ]
+}

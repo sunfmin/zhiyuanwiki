@@ -1,0 +1,97 @@
+{
+  "key": "锦州医科大学",
+  "code": "F477",
+  "name": "锦州医科大学",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "5500",
+          "menlei": "医"
+        },
+        {
+          "majorName": "医学影像学",
+          "majorKey": "5780af73",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "医"
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "医"
+        },
+        {
+          "majorName": "基础医学",
+          "majorKey": "8ca67fa5",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "医"
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "医"
+        },
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理,生物",
+      "majors": [
+        {
+          "majorName": "运动康复",
+          "majorKey": "047778fd",
+          "selKe": "物理,生物",
+          "plan": 2,
+          "tuition": "32000",
+          "menlei": "教",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

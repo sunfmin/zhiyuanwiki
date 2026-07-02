@@ -1,0 +1,72 @@
+{
+  "key": "贵阳学院",
+  "code": "2559",
+  "name": "贵阳学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "700",
+      "groupName": "专业组：700 (选考思想政治)",
+      "track": "历史",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "政治",
+          "plan": 2,
+          "tuition": "4100",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电子科学与技术",
+          "majorKey": "178ae2b7",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "工"
+        },
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "工"
+        },
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "4200",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "数字经济",
+          "majorKey": "ca37000f",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "4100",
+          "menlei": "经"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "key": "莆田学院(面向莆田,临床及口腔)",
+  "code": "1144",
+  "name": "莆田学院(面向莆田,临床及口腔)",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 80,
+          "tuition": "6240",
+          "menlei": "医"
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "化学",
+          "plan": 10,
+          "tuition": "6240",
+          "menlei": "医"
+        }
+      ]
+    }
+  ]
+}

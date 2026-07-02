@@ -1,0 +1,146 @@
+{
+  "key": "玉林师范学院",
+  "code": "4514",
+  "name": "玉林师范学院",
+  "leaves": [
+    {
+      "schoolKey": "玉林师范学院",
+      "schoolCode": "4514",
+      "majorKey": "e6801f33",
+      "majorName": "信息安全",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 498,
+          "minRank": 130019,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "玉林师范学院",
+      "schoolCode": "4514",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 530,
+          "minRank": 29871,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "玉林师范学院",
+      "schoolCode": "4514",
+      "majorKey": "653f630d",
+      "majorName": "物理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 499,
+          "minRank": 128670,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4年",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 29871,
+          "equivRank": 29871
+        }
+      ]
+    },
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "信息安全",
+          "majorKey": "e6801f33",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "4年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 130019,
+          "equivRank": 130019
+        },
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "4年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 128670,
+          "equivRank": 128670
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "智慧农业",
+          "majorKey": "67ecef51",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "4年",
+          "menlei": "农"
+        }
+      ]
+    },
+    {
+      "groupCode": "103",
+      "groupName": "103",
+      "track": "物理",
+      "selKe": "化和生",
+      "majors": [
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "化和生",
+          "plan": 4,
+          "tuition": "4年",
+          "menlei": "理"
+        },
+        {
+          "majorName": "生物技术",
+          "majorKey": "0ac1da59",
+          "selKe": "化和生",
+          "plan": 4,
+          "tuition": "4年",
+          "menlei": "理"
+        }
+      ]
+    }
+  ]
+}

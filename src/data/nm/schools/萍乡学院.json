@@ -1,0 +1,133 @@
+{
+  "key": "萍乡学院",
+  "code": "0582",
+  "name": "萍乡学院",
+  "leaves": [
+    {
+      "schoolKey": "萍乡学院",
+      "schoolCode": "0582",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 513,
+          "minRank": 8397,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "萍乡学院",
+      "schoolCode": "0582",
+      "majorKey": "25624660",
+      "majorName": "应用化学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 423,
+          "minRank": 53969,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "萍乡学院",
+      "schoolCode": "0582",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 518,
+          "minRank": 7846,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "萍乡学院",
+      "schoolCode": "0582",
+      "majorKey": "2698a02f",
+      "majorName": "环境生态工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 418,
+          "minRank": 55623,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "3650",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 7846,
+          "equivRank": 7846
+        },
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "3650",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 8397,
+          "equivRank": 8397
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "应用化学",
+          "majorKey": "25624660",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4120",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 53969,
+          "equivRank": 53969
+        },
+        {
+          "majorName": "环境生态工程",
+          "majorKey": "2698a02f",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4120",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 55623,
+          "equivRank": 55623
+        }
+      ]
+    }
+  ]
+}

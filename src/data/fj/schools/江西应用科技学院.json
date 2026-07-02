@@ -1,0 +1,40 @@
+{
+  "key": "江西应用科技学院",
+  "code": "2907",
+  "name": "江西应用科技学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不限",
+          "plan": 6,
+          "tuition": "25000",
+          "menlei": "教"
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化学",
+          "plan": 8,
+          "tuition": "23000",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

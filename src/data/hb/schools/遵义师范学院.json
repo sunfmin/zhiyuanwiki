@@ -1,0 +1,48 @@
+{
+  "key": "遵义师范学院",
+  "code": "K261",
+  "name": "遵义师范学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "4200",
+          "menlei": "理"
+        },
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "理"
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "4200",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "key": "广东警官学院",
+  "code": "11110",
+  "name": "广东警官学院",
+  "leaves": [
+    {
+      "schoolKey": "广东警官学院",
+      "schoolCode": "11110",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 558,
+          "minRank": 5108,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 556,
+          "minRank": 22022,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "专业组:101(首选科目:历史。再选科目:不限)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4590元/年",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 5108,
+          "equivRank": 5108
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "专业组:102(首选科目:物理。再选科目:不限)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4590元/年",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 22022,
+          "equivRank": 22022
+        }
+      ]
+    }
+  ]
+}

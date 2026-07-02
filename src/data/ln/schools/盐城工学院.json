@@ -1,0 +1,69 @@
+{
+  "key": "盐城工学院",
+  "code": "0305",
+  "name": "盐城工学院",
+  "leaves": [
+    {
+      "schoolKey": "盐城工学院",
+      "schoolCode": "0305",
+      "majorKey": "72c52639",
+      "majorName": "材料物理",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 472,
+          "minRank": 70552,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "盐城工学院",
+      "schoolCode": "0305",
+      "majorKey": "fc81313f",
+      "majorName": "高分子材料与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 488,
+          "minRank": 62555,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "高分子材料与工程",
+      "majorKey": "fc81313f",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 2,
+      "tuition": "5800",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 62555,
+      "equivRank": 62555,
+      "prevScore": 488
+    },
+    {
+      "majorName": "材料物理",
+      "majorKey": "72c52639",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 3,
+      "tuition": "5800",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 70552,
+      "equivRank": 70552,
+      "prevScore": 472
+    }
+  ]
+}

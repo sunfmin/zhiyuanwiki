@@ -1,0 +1,65 @@
+{
+  "key": "滨州职业学院",
+  "code": "3796",
+  "name": "滨州职业学院",
+  "leaves": [
+    {
+      "schoolKey": "滨州职业学院",
+      "schoolCode": "3796",
+      "majorKey": "9e206850",
+      "majorName": "护理（定向培养军士生。只招男生。空军。要求政考、体检。要求高考成绩不低于普通类二段线）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 456,
+          "minRank": 217387,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "滨州职业学院",
+      "schoolCode": "3796",
+      "majorKey": "bd596f39",
+      "majorName": "航海技术（定向培养军士生。只招男生。海军。水面舰艇。要求政考、体检。要求高考成绩不低于普通类二段线）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 446,
+          "minRank": 225499,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "护理（定向培养军士生。只招男生。空军。要求政考、体检。要求高考成绩不低于普通类二段线）",
+      "majorKey": "9e206850",
+      "selKe": "不限",
+      "plan": 5,
+      "tuition": "7900",
+      "schooling": "三年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 217387,
+      "equivRank": 217387
+    },
+    {
+      "majorName": "航海技术（定向培养军士生。只招男生。海军。水面舰艇。要求政考、体检。要求高考成绩不低于普通类二段线）",
+      "majorKey": "bd596f39",
+      "selKe": "不限",
+      "plan": 5,
+      "tuition": "6000",
+      "schooling": "三年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 225499,
+      "equivRank": 225499
+    }
+  ]
+}

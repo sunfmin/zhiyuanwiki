@@ -1,0 +1,114 @@
+{
+  "key": "山东航空学院",
+  "code": "3726",
+  "name": "山东航空学院",
+  "leaves": [
+    {
+      "schoolKey": "山东航空学院",
+      "schoolCode": "3726",
+      "majorKey": "904549c4",
+      "majorName": "交通运输",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 538,
+          "minRank": 78802,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山东航空学院",
+      "schoolCode": "3726",
+      "majorKey": "ca37000f",
+      "majorName": "数字经济",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 514,
+          "minRank": 108557,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山东航空学院",
+      "schoolCode": "3726",
+      "majorKey": "1c1ee3f7",
+      "majorName": "通信工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 527,
+          "minRank": 91961,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "数字经济",
+          "majorKey": "ca37000f",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4年",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 108557,
+          "equivRank": 108557
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "交通运输",
+          "majorKey": "904549c4",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "4年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 78802,
+          "equivRank": 78802
+        }
+      ]
+    },
+    {
+      "groupCode": "103",
+      "groupName": "103",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "4年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 91961,
+          "equivRank": 91961
+        }
+      ]
+    }
+  ]
+}

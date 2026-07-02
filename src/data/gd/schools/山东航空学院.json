@@ -1,0 +1,105 @@
+{
+  "key": "山东航空学院",
+  "code": "10449",
+  "name": "山东航空学院",
+  "leaves": [
+    {
+      "schoolKey": "山东航空学院",
+      "schoolCode": "10449",
+      "majorKey": "904549c4",
+      "majorName": "交通运输",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 529,
+          "minRank": 114681,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山东航空学院",
+      "schoolCode": "10449",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 536,
+          "minRank": 32474,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 512,
+          "minRank": 143990,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "204",
+      "groupName": "204",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 32474,
+          "equivRank": 32474
+        }
+      ]
+    },
+    {
+      "groupCode": "205",
+      "groupName": "205",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 143990,
+          "equivRank": 143990
+        }
+      ]
+    },
+    {
+      "groupCode": "206",
+      "groupName": "206",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "交通运输",
+          "majorKey": "904549c4",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 114681,
+          "equivRank": 114681
+        }
+      ]
+    }
+  ]
+}

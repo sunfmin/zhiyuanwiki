@@ -1,0 +1,67 @@
+{
+  "key": "湖北恩施学院",
+  "code": "3521",
+  "name": "湖北恩施学院",
+  "leaves": [
+    {
+      "schoolKey": "湖北恩施学院",
+      "schoolCode": "3521",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 383,
+          "minRank": 47252,
+          "maxScore": 392
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北恩施学院",
+      "schoolCode": "3521",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 494,
+          "minRank": 36432,
+          "maxScore": 506
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 475,
+          "minRank": 40911,
+          "maxScore": 481
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "25800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 40911,
+          "equivRank": 38264
+        }
+      ]
+    }
+  ]
+}

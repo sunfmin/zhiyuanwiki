@@ -1,0 +1,180 @@
+{
+  "key": "长江师范学院",
+  "code": "5009",
+  "name": "长江师范学院",
+  "leaves": [
+    {
+      "schoolKey": "长江师范学院",
+      "schoolCode": "5009",
+      "majorKey": "d054f8d1",
+      "majorName": "应用统计学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 402,
+          "minRank": 12754,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长江师范学院",
+      "schoolCode": "5009",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 407,
+          "minRank": 12126,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长江师范学院",
+      "schoolCode": "5009",
+      "majorKey": "331c4c8e",
+      "majorName": "新闻传播学类",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 450,
+          "minRank": 3203,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 404,
+          "minRank": 12476,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长江师范学院",
+      "schoolCode": "5009",
+      "majorKey": "b2ac374c",
+      "majorName": "材料类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 381,
+          "minRank": 15610,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长江师范学院",
+      "schoolCode": "5009",
+      "majorKey": "cb64b1e8",
+      "majorName": "环境科学与工程类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 391,
+          "minRank": 14247,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "新闻传播学类",
+      "majorKey": "331c4c8e",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 2,
+      "tuition": "5625",
+      "schooling": "四年",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 3203,
+      "equivRank": 3203,
+      "prevScore": 450
+    },
+    {
+      "majorName": "数学与应用数学",
+      "majorKey": "618fdffd",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 2,
+      "tuition": "3750",
+      "schooling": "四年",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 12126,
+      "equivRank": 12126,
+      "prevScore": 407
+    },
+    {
+      "majorName": "新闻传播学类",
+      "majorKey": "331c4c8e",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 2,
+      "tuition": "5625",
+      "schooling": "四年",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 12476,
+      "equivRank": 12476,
+      "prevScore": 404
+    },
+    {
+      "majorName": "应用统计学",
+      "majorKey": "d054f8d1",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 2,
+      "tuition": "5625",
+      "schooling": "四年",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 12754,
+      "equivRank": 12754,
+      "prevScore": 402
+    },
+    {
+      "majorName": "环境科学与工程类",
+      "majorKey": "cb64b1e8",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 3,
+      "tuition": "4625",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 14247,
+      "equivRank": 14247,
+      "prevScore": 391
+    },
+    {
+      "majorName": "材料类",
+      "majorKey": "b2ac374c",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 4,
+      "tuition": "5625",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 15610,
+      "equivRank": 15610,
+      "prevScore": 381
+    }
+  ]
+}

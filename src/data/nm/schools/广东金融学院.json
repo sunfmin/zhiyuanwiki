@@ -1,0 +1,150 @@
+{
+  "key": "广东金融学院",
+  "code": "0208",
+  "name": "广东金融学院",
+  "leaves": [
+    {
+      "schoolKey": "广东金融学院",
+      "schoolCode": "0208",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 559,
+          "minRank": 4087,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 537,
+          "minRank": 19553,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "广东金融学院",
+      "schoolCode": "0208",
+      "majorKey": "55e3bd26",
+      "majorName": "信息管理与信息系统",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 510,
+          "minRank": 26955,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "广东金融学院",
+      "schoolCode": "0208",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 550,
+          "minRank": 4823,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 529,
+          "minRank": 21608,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5050",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 4823,
+          "equivRank": 4823
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5050",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 4087,
+          "equivRank": 4087
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5050",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 21608,
+          "equivRank": 21608
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5050",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 19553,
+          "equivRank": 19553
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "信息管理与信息系统",
+          "majorKey": "55e3bd26",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5050",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 26955,
+          "equivRank": 26955
+        }
+      ]
+    }
+  ]
+}

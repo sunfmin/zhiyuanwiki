@@ -1,0 +1,133 @@
+{
+  "key": "哈尔滨学院",
+  "code": "2340",
+  "name": "哈尔滨学院",
+  "leaves": [
+    {
+      "schoolKey": "哈尔滨学院",
+      "schoolCode": "2340",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 478,
+          "minRank": 3660,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "哈尔滨学院",
+      "schoolCode": "2340",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 436,
+          "minRank": 17102,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "哈尔滨学院",
+      "schoolCode": "2340",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 481,
+          "minRank": 3469,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "哈尔滨学院",
+      "schoolCode": "2340",
+      "majorKey": "c9ebf22b",
+      "majorName": "电气工程与智能控制",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 439,
+          "minRank": 16511,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "2800",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 3660,
+          "equivRank": 3660
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "2500",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 3469,
+          "equivRank": 3469
+        }
+      ]
+    },
+    {
+      "groupCode": "501",
+      "groupName": "501",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "2500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 17102,
+          "equivRank": 17102
+        },
+        {
+          "majorName": "电气工程与智能控制",
+          "majorKey": "c9ebf22b",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 16511,
+          "equivRank": 16511
+        }
+      ]
+    }
+  ]
+}

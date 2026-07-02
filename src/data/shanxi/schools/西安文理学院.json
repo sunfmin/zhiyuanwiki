@@ -1,0 +1,207 @@
+{
+  "key": "西安文理学院",
+  "code": "3679",
+  "name": "西安文理学院",
+  "leaves": [
+    {
+      "schoolKey": "西安文理学院",
+      "schoolCode": "3679",
+      "majorKey": "d8f4c9ac",
+      "majorName": "光电信息科学与工程",
+      "selKe": "化学和生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 498,
+          "minRank": 48575,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西安文理学院",
+      "schoolCode": "3679",
+      "majorKey": "e9c95a9c",
+      "majorName": "广告学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 472,
+          "minRank": 17494,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西安文理学院",
+      "schoolCode": "3679",
+      "majorKey": "8f1def37",
+      "majorName": "日语",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 461,
+          "minRank": 20493,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西安文理学院",
+      "schoolCode": "3679",
+      "majorKey": "d2fbd5c5",
+      "majorName": "汉语国际教育",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 476,
+          "minRank": 16476,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "5000",
+          "menlei": "教"
+        },
+        {
+          "majorName": "汉语国际教育",
+          "majorKey": "d2fbd5c5",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 16476,
+          "equivRank": 16476
+        },
+        {
+          "majorName": "广告学",
+          "majorKey": "e9c95a9c",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "5000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 17494,
+          "equivRank": 17494
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化且生",
+      "majors": [
+        {
+          "majorName": "环境生态工程",
+          "majorKey": "2698a02f",
+          "selKe": "化且生",
+          "plan": 4,
+          "tuition": "6000",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "5250",
+          "menlei": "理"
+        }
+      ]
+    },
+    {
+      "groupCode": "303",
+      "groupName": "303",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "应用化学",
+          "majorKey": "25624660",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "6000",
+          "menlei": "理"
+        },
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "6000",
+          "menlei": "理"
+        },
+        {
+          "majorName": "化学工程与工艺",
+          "majorKey": "1f59c989",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "6000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "食品安全与检测",
+          "majorKey": "96ba607c",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "6000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "生物制药",
+          "majorKey": "97b7b689",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "6000",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "304",
+      "groupName": "304",
+      "track": "物理",
+      "selKe": "政",
+      "majors": [
+        {
+          "majorName": "经济与金融",
+          "majorKey": "8e6ea071",
+          "selKe": "政",
+          "plan": 5,
+          "tuition": "5000",
+          "menlei": "经"
+        }
+      ]
+    }
+  ]
+}

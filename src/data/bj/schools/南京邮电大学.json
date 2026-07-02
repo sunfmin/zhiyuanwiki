@@ -1,0 +1,98 @@
+{
+  "key": "南京邮电大学",
+  "code": "3233",
+  "name": "南京邮电大学",
+  "leaves": [
+    {
+      "schoolKey": "南京邮电大学",
+      "schoolCode": "3233",
+      "majorKey": "e6801f33",
+      "majorName": "信息安全",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 610,
+          "minRank": 9524,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "南京邮电大学",
+      "schoolCode": "3233",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 613,
+          "minRank": 8924,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "南京邮电大学",
+      "schoolCode": "3233",
+      "majorKey": "1c1ee3f7",
+      "majorName": "通信工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 613,
+          "minRank": 8924,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6380",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 8924,
+          "equivRank": 8924
+        },
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6380",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 8924,
+          "equivRank": 8924
+        },
+        {
+          "majorName": "信息安全",
+          "majorKey": "e6801f33",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6380",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 9524,
+          "equivRank": 9524
+        }
+      ]
+    }
+  ]
+}

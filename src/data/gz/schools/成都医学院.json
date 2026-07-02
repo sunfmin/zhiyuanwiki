@@ -1,0 +1,120 @@
+{
+  "key": "成都医学院",
+  "code": "0300",
+  "name": "成都医学院",
+  "leaves": [
+    {
+      "schoolKey": "成都医学院",
+      "schoolCode": "0300",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 485,
+          "minRank": 61695,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 489,
+          "minRank": 60305,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "成都医学院",
+      "schoolCode": "0300",
+      "majorKey": "97b7b689",
+      "majorName": "生物制药",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 490,
+          "minRank": 58572,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 498,
+          "minRank": 53426,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "成都医学院",
+      "schoolCode": "0300",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 486,
+          "minRank": 61409,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 492,
+          "minRank": 58600,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "生物制药",
+      "majorKey": "97b7b689",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 5,
+      "tuition": "5980",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 53426,
+      "equivRank": 53426,
+      "prevScore": 498
+    },
+    {
+      "majorName": "药学",
+      "majorKey": "e9e6a481",
+      "track": "物理",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "plan": 12,
+      "tuition": "6670",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 58600,
+      "equivRank": 58600,
+      "prevScore": 492
+    },
+    {
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 8,
+      "tuition": "6670",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 60305,
+      "equivRank": 60305,
+      "prevScore": 489
+    }
+  ]
+}

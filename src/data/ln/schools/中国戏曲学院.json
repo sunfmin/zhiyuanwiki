@@ -1,0 +1,69 @@
+{
+  "key": "中国戏曲学院",
+  "code": "0049",
+  "name": "中国戏曲学院",
+  "leaves": [
+    {
+      "schoolKey": "中国戏曲学院",
+      "schoolCode": "0049",
+      "majorKey": "b8236e06",
+      "majorName": "戏剧影视文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 573,
+          "minRank": 4341,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国戏曲学院",
+      "schoolCode": "0049",
+      "majorKey": "44d89b18",
+      "majorName": "艺术管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 554,
+          "minRank": 6477,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "戏剧影视文学",
+      "majorKey": "b8236e06",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 1,
+      "tuition": "8000",
+      "schooling": "4",
+      "menlei": "艺",
+      "prevYear": 2025,
+      "prevRank": 4341,
+      "equivRank": 4341,
+      "prevScore": 573
+    },
+    {
+      "majorName": "艺术管理",
+      "majorKey": "44d89b18",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 1,
+      "tuition": "8000",
+      "schooling": "4",
+      "menlei": "艺",
+      "prevYear": 2025,
+      "prevRank": 6477,
+      "equivRank": 6477,
+      "prevScore": 554
+    }
+  ]
+}

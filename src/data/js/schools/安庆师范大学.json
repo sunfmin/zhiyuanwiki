@@ -1,0 +1,131 @@
+{
+  "key": "安庆师范大学",
+  "code": "2343",
+  "name": "安庆师范大学",
+  "leaves": [
+    {
+      "schoolKey": "安庆师范大学",
+      "schoolCode": "2343",
+      "majorKey": "f3fa4b3d",
+      "majorName": "信息与计算科学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 509,
+          "minRank": 150364,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安庆师范大学",
+      "schoolCode": "2343",
+      "majorKey": "b74128f4",
+      "majorName": "工商管理类",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 516,
+          "minRank": 27560,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 527,
+          "minRank": 27626,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 534,
+          "minRank": 25037,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安庆师范大学",
+      "schoolCode": "2343",
+      "majorKey": "331c4c8e",
+      "majorName": "新闻传播学类",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 517,
+          "minRank": 26994,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 525,
+          "minRank": 28557,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 533,
+          "minRank": 25449,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 549,
+          "minRank": 24175,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "新闻传播学类",
+          "majorKey": "331c4c8e",
+          "selKe": "首选历史，再选不限",
+          "plan": 5,
+          "tuition": "4900",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 24175,
+          "equivRank": 24175
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "信息与计算科学",
+          "majorKey": "f3fa4b3d",
+          "selKe": "首选物理，再选化学",
+          "plan": 5,
+          "tuition": "21000",
+          "menlei": "理",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 150364,
+          "equivRank": 150364
+        }
+      ]
+    }
+  ]
+}

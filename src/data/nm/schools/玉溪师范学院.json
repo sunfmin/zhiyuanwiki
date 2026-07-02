@@ -1,0 +1,133 @@
+{
+  "key": "玉溪师范学院",
+  "code": "0340",
+  "name": "玉溪师范学院",
+  "leaves": [
+    {
+      "schoolKey": "玉溪师范学院",
+      "schoolCode": "0340",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 485,
+          "minRank": 11683,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "玉溪师范学院",
+      "schoolCode": "0340",
+      "majorKey": "f36575cb",
+      "majorName": "应用生物科学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 422,
+          "minRank": 54269,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "玉溪师范学院",
+      "schoolCode": "0340",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 486,
+          "minRank": 11557,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "玉溪师范学院",
+      "schoolCode": "0340",
+      "majorKey": "653f630d",
+      "majorName": "物理学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 420,
+          "minRank": 54937,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 11557,
+          "equivRank": 11557
+        },
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 11683,
+          "equivRank": 11683
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "应用生物科学",
+          "majorKey": "f36575cb",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4950",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 54269,
+          "equivRank": 54269
+        },
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 54937,
+          "equivRank": 54937
+        }
+      ]
+    }
+  ]
+}

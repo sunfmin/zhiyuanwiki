@@ -1,0 +1,114 @@
+{
+  "key": "泰山学院",
+  "code": "A76",
+  "name": "泰山学院",
+  "leaves": [
+    {
+      "schoolKey": "泰山学院",
+      "schoolCode": "A76",
+      "majorKey": "ec77cae2",
+      "majorName": "旅游管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 472,
+          "minRank": 13311,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "泰山学院",
+      "schoolCode": "A76",
+      "majorKey": "710bfc36",
+      "majorName": "机械类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 491,
+          "minRank": 32445,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "泰山学院",
+      "schoolCode": "A76",
+      "majorKey": "5e0efed0",
+      "majorName": "电子信息类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 497,
+          "minRank": 30626,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "004",
+      "groupName": "004",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "旅游管理",
+          "majorKey": "ec77cae2",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "6600",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 13311,
+          "equivRank": 13311
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电子信息类",
+          "majorKey": "5e0efed0",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "6600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 30626,
+          "equivRank": 30626
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械类",
+          "majorKey": "710bfc36",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 32445,
+          "equivRank": 32445
+        }
+      ]
+    }
+  ]
+}

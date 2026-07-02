@@ -1,0 +1,98 @@
+{
+  "key": "河北传媒学院",
+  "code": "1432",
+  "name": "河北传媒学院",
+  "leaves": [
+    {
+      "schoolKey": "河北传媒学院",
+      "schoolCode": "1432",
+      "majorKey": "b86f75b5",
+      "majorName": "广播电视编导",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 423,
+          "minRank": 39716,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北传媒学院",
+      "schoolCode": "1432",
+      "majorKey": "b8236e06",
+      "majorName": "戏剧影视文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 417,
+          "minRank": 41598,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "104",
+      "groupName": "104",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "广播电视编导",
+          "majorKey": "b86f75b5",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "29000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 39716,
+          "equivRank": 39716
+        },
+        {
+          "majorName": "戏剧影视文学",
+          "majorKey": "b8236e06",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "29000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 41598,
+          "equivRank": 41598
+        }
+      ]
+    },
+    {
+      "groupCode": "105",
+      "groupName": "105",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "影视技术",
+          "majorKey": "913de9bc",
+          "selKe": "物理",
+          "plan": 4,
+          "tuition": "29000",
+          "menlei": "艺"
+        },
+        {
+          "majorName": "广播电视编导",
+          "majorKey": "b86f75b5",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "29000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 39716,
+          "equivRank": 119950
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "key": "西安理工大学高科学院",
+  "code": "3738",
+  "name": "西安理工大学高科学院",
+  "leaves": [
+    {
+      "schoolKey": "西安理工大学高科学院",
+      "schoolCode": "3738",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 418,
+          "minRank": 100748,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西安理工大学高科学院",
+      "schoolCode": "3738",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 420,
+          "minRank": 99419,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "26800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 100748,
+          "equivRank": 100748
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "26800",
+          "menlei": "工"
+        },
+        {
+          "majorName": "智能电网信息工程",
+          "majorKey": "20114800",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "26800",
+          "menlei": "工"
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "26800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 99419,
+          "equivRank": 99419
+        }
+      ]
+    }
+  ]
+}

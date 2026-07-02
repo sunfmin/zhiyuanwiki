@@ -1,0 +1,125 @@
+{
+  "key": "上海师范大学天华学院",
+  "code": "3229",
+  "name": "上海师范大学天华学院",
+  "leaves": [
+    {
+      "schoolKey": "上海师范大学天华学院",
+      "schoolCode": "3229",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 392,
+          "minRank": 72994,
+          "maxScore": 428
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海师范大学天华学院",
+      "schoolCode": "3229",
+      "majorKey": "4c4c62eb",
+      "majorName": "国际商务",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 376,
+          "minRank": 16712,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 399,
+          "minRank": 26108,
+          "maxScore": 408
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海师范大学天华学院",
+      "schoolCode": "3229",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 376,
+          "minRank": 16712,
+          "maxScore": 376
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 394,
+          "minRank": 73355,
+          "maxScore": 441
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海师范大学天华学院",
+      "schoolCode": "3229",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 384,
+          "minRank": 76158,
+          "maxScore": 406
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "48000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 76158,
+          "equivRank": 71231
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "48000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 72994,
+          "equivRank": 68271
+        }
+      ]
+    }
+  ]
+}

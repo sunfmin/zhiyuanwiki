@@ -1,0 +1,143 @@
+{
+  "key": "宁夏师范大学",
+  "code": "1737",
+  "name": "宁夏师范大学",
+  "leaves": [
+    {
+      "schoolKey": "宁夏师范大学",
+      "schoolCode": "1737",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 546,
+          "minRank": 9238,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "宁夏师范大学",
+      "schoolCode": "1737",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 481,
+          "minRank": 67733,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "宁夏师范大学",
+      "schoolCode": "1737",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 539,
+          "minRank": 9039,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 549,
+          "minRank": 8699,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "宁夏师范大学",
+      "schoolCode": "1737",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 464,
+          "minRank": 78643,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 482,
+          "minRank": 66878,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "汉语言文学",
+      "majorKey": "97bc5998",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 2,
+      "tuition": "4400",
+      "schooling": "四年",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 8699,
+      "equivRank": 8699,
+      "prevScore": 549
+    },
+    {
+      "majorName": "历史学",
+      "majorKey": "c9800f2a",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 2,
+      "tuition": "4400",
+      "schooling": "四年",
+      "menlei": "史",
+      "prevYear": 2025,
+      "prevRank": 9238,
+      "equivRank": 9238,
+      "prevScore": 546
+    },
+    {
+      "majorName": "电子信息工程",
+      "majorKey": "fd603692",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 4,
+      "tuition": "4840",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 66878,
+      "equivRank": 66878,
+      "prevScore": 482
+    },
+    {
+      "majorName": "小学教育",
+      "majorKey": "c240892f",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 2,
+      "tuition": "4400",
+      "schooling": "四年",
+      "menlei": "教",
+      "prevYear": 2025,
+      "prevRank": 67733,
+      "equivRank": 67733,
+      "prevScore": 481
+    }
+  ]
+}

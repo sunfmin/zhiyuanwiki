@@ -1,0 +1,106 @@
+{
+  "key": "兰州石化职业技术大学",
+  "code": "P56",
+  "name": "兰州石化职业技术大学",
+  "leaves": [
+    {
+      "schoolKey": "兰州石化职业技术大学",
+      "schoolCode": "P56",
+      "majorKey": "49f153aa",
+      "majorName": "大数据与会计",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 511,
+          "minRank": 8638,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "兰州石化职业技术大学",
+      "schoolCode": "P56",
+      "majorKey": "889e9381",
+      "majorName": "数字媒体技术",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 458,
+          "minRank": 42515,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "兰州石化职业技术大学",
+      "schoolCode": "P56",
+      "majorKey": "ee183f47",
+      "majorName": "现代测控工程技术",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 465,
+          "minRank": 40336,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "大数据与会计",
+          "majorKey": "49f153aa",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 8638,
+          "equivRank": 8638
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "004",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "现代测控工程技术",
+          "majorKey": "ee183f47",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 40336,
+          "equivRank": 40336
+        },
+        {
+          "majorName": "数字媒体技术",
+          "majorKey": "889e9381",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "6500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 42515,
+          "equivRank": 42515
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "key": "文山学院",
+  "code": "5326",
+  "name": "文山学院",
+  "leaves": [
+    {
+      "schoolKey": "文山学院",
+      "schoolCode": "5326",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 523,
+          "minRank": 33891,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "文山学院",
+      "schoolCode": "5326",
+      "majorKey": "7b7511cd",
+      "majorName": "食品科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 496,
+          "minRank": 132669,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 9,
+          "tuition": "4年",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 33891,
+          "equivRank": 33891
+        }
+      ]
+    },
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "4年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 132669,
+          "equivRank": 132669
+        }
+      ]
+    }
+  ]
+}

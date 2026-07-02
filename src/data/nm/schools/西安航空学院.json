@@ -1,0 +1,98 @@
+{
+  "key": "西安航空学院",
+  "code": "N31",
+  "name": "西安航空学院",
+  "leaves": [
+    {
+      "schoolKey": "西安航空学院",
+      "schoolCode": "N31",
+      "majorKey": "acbf731b",
+      "majorName": "复合材料与工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 490,
+          "minRank": 32753,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西安航空学院",
+      "schoolCode": "N31",
+      "majorKey": "b176ee03",
+      "majorName": "建筑环境与能源应用工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 485,
+          "minRank": 34211,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西安航空学院",
+      "schoolCode": "N31",
+      "majorKey": "c425ce53",
+      "majorName": "材料科学与工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 491,
+          "minRank": 32445,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "材料科学与工程",
+          "majorKey": "c425ce53",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 32445,
+          "equivRank": 32445
+        },
+        {
+          "majorName": "复合材料与工程",
+          "majorKey": "acbf731b",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 32753,
+          "equivRank": 32753
+        },
+        {
+          "majorName": "建筑环境与能源应用工程",
+          "majorKey": "b176ee03",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 34211,
+          "equivRank": 34211
+        }
+      ]
+    }
+  ]
+}

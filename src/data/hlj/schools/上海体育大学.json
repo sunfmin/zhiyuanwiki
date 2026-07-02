@@ -1,0 +1,42 @@
+{
+  "key": "上海体育大学",
+  "code": "1475",
+  "name": "上海体育大学",
+  "leaves": [
+    {
+      "schoolKey": "上海体育大学",
+      "schoolCode": "1475",
+      "majorKey": "25bf7075",
+      "majorName": "医学技术类",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 548,
+          "minRank": 17306,
+          "maxScore": 551
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "运动人体科学",
+          "majorKey": "676f341a",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "58000",
+          "menlei": "教",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

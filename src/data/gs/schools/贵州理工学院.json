@@ -1,0 +1,141 @@
+{
+  "key": "贵州理工学院",
+  "code": "3534",
+  "name": "贵州理工学院",
+  "leaves": [
+    {
+      "schoolKey": "贵州理工学院",
+      "schoolCode": "3534",
+      "majorKey": "1f59c989",
+      "majorName": "化学工程与工艺",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 475,
+          "minRank": 39656,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "贵州理工学院",
+      "schoolCode": "3534",
+      "majorKey": "42b22d93",
+      "majorName": "新能源科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 487,
+          "minRank": 34136,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "贵州理工学院",
+      "schoolCode": "3534",
+      "majorKey": "c425ce53",
+      "majorName": "材料科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 470,
+          "minRank": 42082,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "贵州理工学院",
+      "schoolCode": "3534",
+      "majorKey": "94c614cf",
+      "majorName": "焊接技术与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 470,
+          "minRank": 42082,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "材料科学与工程",
+          "majorKey": "c425ce53",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 42082,
+          "equivRank": 42082
+        },
+        {
+          "majorName": "焊接技术与工程",
+          "majorKey": "94c614cf",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 42082,
+          "equivRank": 42082
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "化学工程与工艺",
+          "majorKey": "1f59c989",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 39656,
+          "equivRank": 39656
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "新能源科学与工程",
+          "majorKey": "42b22d93",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 34136,
+          "equivRank": 34136
+        }
+      ]
+    }
+  ]
+}

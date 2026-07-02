@@ -1,0 +1,103 @@
+{
+  "key": "攀枝花学院",
+  "code": "3099",
+  "name": "攀枝花学院",
+  "leaves": [
+    {
+      "schoolKey": "攀枝花学院",
+      "schoolCode": "3099",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 522,
+          "minRank": 53007,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "攀枝花学院",
+      "schoolCode": "3099",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 518,
+          "minRank": 55877,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "攀枝花学院",
+      "schoolCode": "3099",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 484,
+          "minRank": 17924,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "5520",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5980",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 55877,
+          "equivRank": 55877
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "6670",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 53007,
+          "equivRank": 53007
+        }
+      ]
+    }
+  ]
+}

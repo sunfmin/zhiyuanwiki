@@ -1,0 +1,58 @@
+{
+  "key": "武昌理工学院",
+  "code": "3504",
+  "name": "武昌理工学院",
+  "leaves": [
+    {
+      "schoolKey": "武昌理工学院",
+      "schoolCode": "3504",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 351,
+          "minRank": 59541,
+          "maxScore": 352
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 424,
+          "minRank": 61819,
+          "maxScore": 441
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 386,
+          "minRank": 75357,
+          "maxScore": 410
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "22800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 75357,
+          "equivRank": 70482
+        }
+      ]
+    }
+  ]
+}

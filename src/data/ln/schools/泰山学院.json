@@ -1,0 +1,99 @@
+{
+  "key": "泰山学院",
+  "code": "0453",
+  "name": "泰山学院",
+  "leaves": [
+    {
+      "schoolKey": "泰山学院",
+      "schoolCode": "0453",
+      "majorKey": "710bfc36",
+      "majorName": "机械类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 491,
+          "minRank": 61050,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "泰山学院",
+      "schoolCode": "0453",
+      "majorKey": "d47d0996",
+      "majorName": "生物科学类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 476,
+          "minRank": 68589,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "泰山学院",
+      "schoolCode": "0453",
+      "majorKey": "3093c484",
+      "majorName": "网络空间安全",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 484,
+          "minRank": 64528,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "机械类",
+      "majorKey": "710bfc36",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 3,
+      "tuition": "5500",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 61050,
+      "equivRank": 61050,
+      "prevScore": 491
+    },
+    {
+      "majorName": "网络空间安全",
+      "majorKey": "3093c484",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 3,
+      "tuition": "5500",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 64528,
+      "equivRank": 64528,
+      "prevScore": 484
+    },
+    {
+      "majorName": "生物科学类",
+      "majorKey": "d47d0996",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 4,
+      "tuition": "5500",
+      "schooling": "4",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 68589,
+      "equivRank": 68589,
+      "prevScore": 476
+    }
+  ]
+}

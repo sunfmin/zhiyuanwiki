@@ -1,0 +1,64 @@
+{
+  "key": "西安科技大学高新学院",
+  "code": "3750",
+  "name": "西安科技大学高新学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "人文教育",
+          "majorKey": "4f7afa64",
+          "selKe": "不提科目要求",
+          "plan": 3,
+          "tuition": "27000",
+          "menlei": "教"
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不提科目要求",
+          "plan": 3,
+          "tuition": "42800",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "28000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "28000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "42800",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

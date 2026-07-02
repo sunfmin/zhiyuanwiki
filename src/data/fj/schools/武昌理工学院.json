@@ -1,0 +1,81 @@
+{
+  "key": "武昌理工学院",
+  "code": "3378",
+  "name": "武昌理工学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "22800",
+          "menlei": "法"
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "22800",
+          "menlei": "文"
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "22800",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "24800",
+          "menlei": "工"
+        },
+        {
+          "majorName": "智能科学与技术",
+          "majorKey": "0637b0d6",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "28800",
+          "menlei": "工"
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "62800",
+          "menlei": "工",
+          "coop": true
+        },
+        {
+          "majorName": "卫生检验与检疫",
+          "majorKey": "2c72d9e9",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "22800",
+          "menlei": "医"
+        }
+      ]
+    }
+  ]
+}

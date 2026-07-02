@@ -1,0 +1,334 @@
+{
+  "key": "南昌医学院",
+  "code": "H380",
+  "name": "南昌医学院",
+  "leaves": [
+    {
+      "schoolKey": "南昌医学院",
+      "schoolCode": "H380",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "首选物理，再选生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 534,
+          "minRank": 57289,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "南昌医学院",
+      "schoolCode": "H380",
+      "majorKey": "8a499b4f",
+      "majorName": "中西医临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 521,
+          "minRank": 68420,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "南昌医学院",
+      "schoolCode": "H380",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 546,
+          "minRank": 47563,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "南昌医学院",
+      "schoolCode": "H380",
+      "majorKey": "11fef64a",
+      "majorName": "医学影像技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 521,
+          "minRank": 68420,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "南昌医学院",
+      "schoolCode": "H380",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 520,
+          "minRank": 69316,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "南昌医学院",
+      "schoolCode": "H380",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 569,
+          "minRank": 30847,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "南昌医学院",
+      "schoolCode": "H380",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选历史，再选生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 532,
+          "minRank": 18758,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 524,
+          "minRank": 65801,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "南昌医学院",
+      "schoolCode": "H380",
+      "majorKey": "c744f66e",
+      "majorName": "针灸推拿学",
+      "selKe": "首选物理，再选生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 534,
+          "minRank": 57289,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "南昌医学院",
+      "schoolCode": "H380",
+      "majorKey": "1954d9c9",
+      "majorName": "预防医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 477,
+          "minRank": 106903,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史,生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "历史,生物",
+          "plan": 3,
+          "tuition": "4350",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 18758,
+          "equivRank": 18758
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "医学影像技术",
+          "majorKey": "11fef64a",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "4350",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 68420,
+          "equivRank": 68420
+        },
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "4350",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 69316,
+          "equivRank": 69316
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4350",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 47563,
+          "equivRank": 47563
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "4350",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 30847,
+          "equivRank": 30847
+        }
+      ]
+    },
+    {
+      "groupCode": "05",
+      "groupName": "05",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "预防医学",
+          "majorKey": "1954d9c9",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "4350",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 106903,
+          "equivRank": 106903
+        }
+      ]
+    },
+    {
+      "groupCode": "06",
+      "groupName": "06",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "中西医临床医学",
+          "majorKey": "8a499b4f",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4350",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 68420,
+          "equivRank": 68420
+        }
+      ]
+    },
+    {
+      "groupCode": "07",
+      "groupName": "07",
+      "track": "物理",
+      "selKe": "物理,生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "物理,生物",
+          "plan": 2,
+          "tuition": "4350",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 65801,
+          "equivRank": 65801
+        }
+      ]
+    },
+    {
+      "groupCode": "08",
+      "groupName": "08",
+      "track": "物理",
+      "selKe": "物理,生物",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "物理,生物",
+          "plan": 1,
+          "tuition": "4350",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 57289,
+          "equivRank": 57289
+        },
+        {
+          "majorName": "针灸推拿学",
+          "majorKey": "c744f66e",
+          "selKe": "物理,生物",
+          "plan": 1,
+          "tuition": "4350",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 57289,
+          "equivRank": 57289
+        }
+      ]
+    }
+  ]
+}

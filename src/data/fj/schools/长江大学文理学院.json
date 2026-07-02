@@ -1,0 +1,112 @@
+{
+  "key": "长江大学文理学院",
+  "code": "2342",
+  "name": "长江大学文理学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "700",
+      "groupName": "专业组：700 (选考思想政治)",
+      "track": "历史",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "政治",
+          "plan": 2,
+          "tuition": "15000",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融学类",
+          "majorKey": "b39b8034",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "15000",
+          "menlei": "经"
+        },
+        {
+          "majorName": "外国语言文学类",
+          "majorKey": "3c2f7b8b",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "16500",
+          "menlei": "文"
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "16500",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "18500",
+          "menlei": "工"
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "18500",
+          "menlei": "工"
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "18500",
+          "menlei": "工"
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "19000",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "外国语言文学类",
+          "majorKey": "3c2f7b8b",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "16500",
+          "menlei": "文"
+        }
+      ]
+    }
+  ]
+}

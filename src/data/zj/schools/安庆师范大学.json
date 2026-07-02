@@ -1,0 +1,110 @@
+{
+  "key": "安庆师范大学",
+  "code": "3436",
+  "name": "安庆师范大学",
+  "leaves": [
+    {
+      "schoolKey": "安庆师范大学",
+      "schoolCode": "3436",
+      "majorKey": "4da3d5ff",
+      "majorName": "信息与计算科学（中外合作办学）",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 504,
+          "minRank": 157621,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 521,
+          "minRank": 144854,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 574,
+          "minRank": 83385,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安庆师范大学",
+      "schoolCode": "3436",
+      "majorKey": "5e0efed0",
+      "majorName": "电子信息类",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "综合",
+          "minScore": 554,
+          "minRank": 102450,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 558,
+          "minRank": 97529,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "综合",
+          "minScore": 549,
+          "minRank": 111794,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安庆师范大学",
+      "schoolCode": "3436",
+      "majorKey": "a9ae7a57",
+      "majorName": "科学教育（师范）",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 573,
+          "minRank": 84451,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "信息与计算科学（中外合作办学）",
+      "majorKey": "4da3d5ff",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 5,
+      "tuition": "21000",
+      "schooling": "四年",
+      "menlei": "理",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 83385,
+      "equivRank": 83385
+    },
+    {
+      "majorName": "科学教育（师范）",
+      "majorKey": "a9ae7a57",
+      "selKe": "不限",
+      "plan": 5,
+      "tuition": "4900",
+      "schooling": "四年",
+      "menlei": "教",
+      "prevYear": 2025,
+      "prevRank": 84451,
+      "equivRank": 84451
+    }
+  ]
+}

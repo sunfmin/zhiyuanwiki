@@ -1,0 +1,106 @@
+{
+  "key": "玉林师范学院",
+  "code": "6212",
+  "name": "玉林师范学院",
+  "leaves": [
+    {
+      "schoolKey": "玉林师范学院",
+      "schoolCode": "6212",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 484,
+          "minRank": 21377,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "玉林师范学院",
+      "schoolCode": "6212",
+      "majorKey": "4428fd77",
+      "majorName": "商务英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 480,
+          "minRank": 22432,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "玉林师范学院",
+      "schoolCode": "6212",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 479,
+          "minRank": 22730,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "4200",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 21377,
+          "equivRank": 21377
+        }
+      ]
+    },
+    {
+      "groupCode": "104",
+      "groupName": "104",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "4200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 22730,
+          "equivRank": 22730
+        },
+        {
+          "majorName": "商务英语",
+          "majorKey": "4428fd77",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 22432,
+          "equivRank": 22432
+        }
+      ]
+    }
+  ]
+}

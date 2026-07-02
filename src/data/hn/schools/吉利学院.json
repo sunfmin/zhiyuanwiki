@@ -1,0 +1,133 @@
+{
+  "key": "吉利学院",
+  "code": "1184",
+  "name": "吉利学院",
+  "leaves": [
+    {
+      "schoolKey": "吉利学院",
+      "schoolCode": "1184",
+      "majorKey": "87f6e6a2",
+      "majorName": "审计学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 452,
+          "minRank": 47905,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "吉利学院",
+      "schoolCode": "1184",
+      "majorKey": "28c62e21",
+      "majorName": "市场营销",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 449,
+          "minRank": 49527,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "吉利学院",
+      "schoolCode": "1184",
+      "majorKey": "039d4de9",
+      "majorName": "新能源汽车工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 444,
+          "minRank": 161251,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "吉利学院",
+      "schoolCode": "1184",
+      "majorKey": "8230723d",
+      "majorName": "计算机类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 441,
+          "minRank": 165291,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（101）",
+      "groupName": "（101）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "审计学",
+          "majorKey": "87f6e6a2",
+          "selKe": "首选历史，再选不限",
+          "plan": 2,
+          "tuition": "26800",
+          "menlei": "管",
+          "prevYear": 2024,
+          "prevRank": 47905,
+          "equivRank": 45687
+        },
+        {
+          "majorName": "市场营销",
+          "majorKey": "28c62e21",
+          "selKe": "首选历史，再选不限",
+          "plan": 2,
+          "tuition": "26800",
+          "menlei": "管",
+          "prevYear": 2024,
+          "prevRank": 49527,
+          "equivRank": 47234
+        }
+      ]
+    },
+    {
+      "groupCode": "（102）",
+      "groupName": "（102）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "计算机类",
+          "majorKey": "8230723d",
+          "selKe": "首选物理，再选化学",
+          "plan": 3,
+          "tuition": "26800",
+          "menlei": "工",
+          "prevYear": 2024,
+          "prevRank": 165291,
+          "equivRank": 183710
+        },
+        {
+          "majorName": "新能源汽车工程",
+          "majorKey": "039d4de9",
+          "selKe": "首选物理，再选化学",
+          "plan": 3,
+          "tuition": "26800",
+          "menlei": "工",
+          "prevYear": 2024,
+          "prevRank": 161251,
+          "equivRank": 179219
+        }
+      ]
+    }
+  ]
+}

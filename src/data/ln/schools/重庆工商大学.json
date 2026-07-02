@@ -1,0 +1,263 @@
+{
+  "key": "重庆工商大学",
+  "code": "1799",
+  "name": "重庆工商大学",
+  "leaves": [
+    {
+      "schoolKey": "重庆工商大学",
+      "schoolCode": "1799",
+      "majorKey": "b74128f4",
+      "majorName": "工商管理类",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 553,
+          "minRank": 6598,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "重庆工商大学",
+      "schoolCode": "1799",
+      "majorKey": "4166f1ff",
+      "majorName": "工程管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 528,
+          "minRank": 42898,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "重庆工商大学",
+      "schoolCode": "1799",
+      "majorKey": "8b6a817b",
+      "majorName": "物流管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 528,
+          "minRank": 42898,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "重庆工商大学",
+      "schoolCode": "1799",
+      "majorKey": "bda0ff17",
+      "majorName": "经济学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 562,
+          "minRank": 5528,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 573,
+          "minRank": 23198,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "重庆工商大学",
+      "schoolCode": "1799",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 571,
+          "minRank": 23997,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "重庆工商大学",
+      "schoolCode": "1799",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 525,
+          "minRank": 10664,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 520,
+          "minRank": 46756,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "重庆工商大学",
+      "schoolCode": "1799",
+      "majorKey": "b39b8034",
+      "majorName": "金融学类",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 553,
+          "minRank": 31427,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "经济学",
+      "majorKey": "bda0ff17",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 2,
+      "tuition": "4500",
+      "schooling": "4",
+      "menlei": "经",
+      "prevYear": 2025,
+      "prevRank": 5528,
+      "equivRank": 5528,
+      "prevScore": 562
+    },
+    {
+      "majorName": "工商管理类",
+      "majorKey": "b74128f4",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 2,
+      "tuition": "5600",
+      "schooling": "4",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 6598,
+      "equivRank": 6598,
+      "prevScore": 553
+    },
+    {
+      "majorName": "金融学",
+      "majorKey": "5a699e63",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 3,
+      "tuition": "30000",
+      "schooling": "4",
+      "menlei": "经",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 10664,
+      "equivRank": 10664,
+      "prevScore": 525
+    },
+    {
+      "majorName": "经济学",
+      "majorKey": "bda0ff17",
+      "track": "物理",
+      "selKe": "物理",
+      "plan": 2,
+      "tuition": "4500",
+      "schooling": "4",
+      "menlei": "经",
+      "prevYear": 2025,
+      "prevRank": 23198,
+      "equivRank": 23198,
+      "prevScore": 573
+    },
+    {
+      "majorName": "财务管理",
+      "majorKey": "8220c852",
+      "track": "物理",
+      "selKe": "物理",
+      "plan": 2,
+      "tuition": "5600",
+      "schooling": "4",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 23997,
+      "equivRank": 23997,
+      "prevScore": 571
+    },
+    {
+      "majorName": "金融学类",
+      "majorKey": "b39b8034",
+      "track": "物理",
+      "selKe": "物理",
+      "plan": 2,
+      "tuition": "4500",
+      "schooling": "4",
+      "menlei": "经",
+      "prevYear": 2025,
+      "prevRank": 31427,
+      "equivRank": 31427,
+      "prevScore": 553
+    },
+    {
+      "majorName": "工程管理",
+      "majorKey": "4166f1ff",
+      "track": "物理",
+      "selKe": "物理",
+      "plan": 3,
+      "tuition": "4500",
+      "schooling": "4",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 42898,
+      "equivRank": 42898,
+      "prevScore": 528
+    },
+    {
+      "majorName": "物流管理",
+      "majorKey": "8b6a817b",
+      "track": "物理",
+      "selKe": "物理",
+      "plan": 3,
+      "tuition": "4500",
+      "schooling": "4",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 42898,
+      "equivRank": 42898,
+      "prevScore": 528
+    },
+    {
+      "majorName": "金融学",
+      "majorKey": "5a699e63",
+      "track": "物理",
+      "selKe": "物理",
+      "plan": 3,
+      "tuition": "30000",
+      "schooling": "4",
+      "menlei": "经",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 46756,
+      "equivRank": 46756,
+      "prevScore": 520
+    }
+  ]
+}

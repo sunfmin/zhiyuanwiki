@@ -1,0 +1,205 @@
+{
+  "key": "西安航空学院",
+  "code": "11736",
+  "name": "西安航空学院",
+  "leaves": [
+    {
+      "schoolKey": "西安航空学院",
+      "schoolCode": "11736",
+      "majorKey": "b176ee03",
+      "majorName": "建筑环境与能源应用工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 510,
+          "minRank": 147555,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西安航空学院",
+      "schoolCode": "11736",
+      "majorKey": "4ef2a1b4",
+      "majorName": "机械电子工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 514,
+          "minRank": 140399,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西安航空学院",
+      "schoolCode": "11736",
+      "majorKey": "c425ce53",
+      "majorName": "材料科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 513,
+          "minRank": 142207,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西安航空学院",
+      "schoolCode": "11736",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 517,
+          "minRank": 135188,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西安航空学院",
+      "schoolCode": "11736",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 532,
+          "minRank": 109529,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西安航空学院",
+      "schoolCode": "11736",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 513,
+          "minRank": 142207,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "201",
+      "groupName": "201",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "材料科学与工程",
+          "majorKey": "c425ce53",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 142207,
+          "equivRank": 142207
+        },
+        {
+          "majorName": "建筑环境与能源应用工程",
+          "majorKey": "b176ee03",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 147555,
+          "equivRank": 147555
+        }
+      ]
+    },
+    {
+      "groupCode": "202",
+      "groupName": "202",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "30000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 109529,
+          "equivRank": 109529
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "30000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 135188,
+          "equivRank": 135188
+        }
+      ]
+    },
+    {
+      "groupCode": "203",
+      "groupName": "203",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械电子工程",
+          "majorKey": "4ef2a1b4",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "35000",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 140399,
+          "equivRank": 140399
+        }
+      ]
+    },
+    {
+      "groupCode": "204",
+      "groupName": "204",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "50000",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 142207,
+          "equivRank": 142207
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "key": "鞍山师范学院",
+  "code": "2027",
+  "name": "鞍山师范学院",
+  "leaves": [
+    {
+      "schoolKey": "鞍山师范学院",
+      "schoolCode": "2027",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 458,
+          "minRank": 2778,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 373,
+          "minRank": 16801,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "历史学",
+      "majorKey": "c9800f2a",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 3,
+      "tuition": "4800",
+      "schooling": "四年",
+      "menlei": "史",
+      "prevYear": 2025,
+      "prevRank": 2778,
+      "equivRank": 2778,
+      "prevScore": 458
+    },
+    {
+      "majorName": "历史学",
+      "majorKey": "c9800f2a",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 1,
+      "tuition": "4800",
+      "schooling": "四年",
+      "menlei": "史",
+      "prevYear": 2025,
+      "prevRank": 16801,
+      "equivRank": 16801,
+      "prevScore": 373
+    }
+  ]
+}

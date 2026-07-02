@@ -1,0 +1,203 @@
+{
+  "key": "青海师范大学",
+  "code": "3812",
+  "name": "青海师范大学",
+  "leaves": [
+    {
+      "schoolKey": "青海师范大学",
+      "schoolCode": "3812",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 503,
+          "minRank": 10263,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "青海师范大学",
+      "schoolCode": "3812",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 503,
+          "minRank": 10263,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "青海师范大学",
+      "schoolCode": "3812",
+      "majorKey": "11cedbac",
+      "majorName": "生态学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 450,
+          "minRank": 79025,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "青海师范大学",
+      "schoolCode": "3812",
+      "majorKey": "e2472a71",
+      "majorName": "生物科学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 471,
+          "minRank": 64804,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "青海师范大学",
+      "schoolCode": "3812",
+      "majorKey": "ec686c36",
+      "majorName": "酒店管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 501,
+          "minRank": 10696,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "青海师范大学",
+      "schoolCode": "3812",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 459,
+          "minRank": 72814,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 10263,
+          "equivRank": 10263
+        },
+        {
+          "majorName": "酒店管理",
+          "majorKey": "ec686c36",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 10696,
+          "equivRank": 10696
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "政",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "政",
+          "plan": 3,
+          "tuition": "4500",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 10263,
+          "equivRank": 10263
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 72814,
+          "equivRank": 72814
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 64804,
+          "equivRank": 64804
+        },
+        {
+          "majorName": "生态学",
+          "majorKey": "11cedbac",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 79025,
+          "equivRank": 79025
+        }
+      ]
+    }
+  ]
+}

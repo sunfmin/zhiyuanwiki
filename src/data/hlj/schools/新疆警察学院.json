@@ -1,0 +1,116 @@
+{
+  "key": "新疆警察学院",
+  "code": "2493",
+  "name": "新疆警察学院",
+  "leaves": [
+    {
+      "schoolKey": "新疆警察学院",
+      "schoolCode": "2493",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 441,
+          "minRank": 53422,
+          "maxScore": 470
+        }
+      ]
+    },
+    {
+      "schoolKey": "新疆警察学院",
+      "schoolCode": "2493",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 405,
+          "minRank": 11417,
+          "maxScore": 414
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 387,
+          "minRank": 45853,
+          "maxScore": 396
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 481,
+          "minRank": 10495,
+          "maxScore": 494
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 489,
+          "minRank": 35963,
+          "maxScore": 496
+        }
+      ]
+    },
+    {
+      "schoolKey": "新疆警察学院",
+      "schoolCode": "2493",
+      "majorKey": "3093c484",
+      "majorName": "网络空间安全",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 474,
+          "minRank": 41266,
+          "maxScore": 476
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 9,
+          "tuition": "4000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 10495,
+          "equivRank": 10495
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 6,
+          "tuition": "4500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 53422,
+          "equivRank": 49966
+        }
+      ]
+    }
+  ]
+}

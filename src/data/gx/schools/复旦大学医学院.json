@@ -1,0 +1,72 @@
+{
+  "key": "复旦大学医学院",
+  "code": "19246",
+  "name": "复旦大学医学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "100",
+      "groupName": "专业组:100(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "基础医学",
+          "majorKey": "8ca67fa5",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "7400元/年",
+          "menlei": "医"
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "7400元/年",
+          "menlei": "医"
+        },
+        {
+          "majorName": "预防医学",
+          "majorKey": "1954d9c9",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "7400元/年",
+          "menlei": "医"
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "7400元/年",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组:500(国家专项计划。首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "预防医学",
+          "majorKey": "1954d9c9",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "7400元/年",
+          "menlei": "医"
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "7400元/年",
+          "menlei": "医"
+        }
+      ]
+    }
+  ]
+}

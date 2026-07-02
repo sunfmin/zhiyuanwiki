@@ -1,0 +1,56 @@
+{
+  "key": "烟台南山学院",
+  "code": "3541",
+  "name": "烟台南山学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语国际教育",
+          "majorKey": "d2fbd5c5",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "18800",
+          "menlei": "文"
+        },
+        {
+          "majorName": "旅游管理",
+          "majorKey": "ec77cae2",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "17800",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "工业设计",
+          "majorKey": "fee47c1b",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "15800",
+          "menlei": "工"
+        },
+        {
+          "majorName": "飞行器动力工程",
+          "majorKey": "c044672a",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "17800",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "key": "西安科技大学高新学院",
+  "code": "E042",
+  "name": "西安科技大学高新学院",
+  "leaves": [
+    {
+      "schoolKey": "西安科技大学高新学院",
+      "schoolCode": "E042",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 478,
+          "minRank": 240683,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西安科技大学高新学院",
+      "schoolCode": "E042",
+      "majorKey": "42b22d93",
+      "majorName": "新能源科学与工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 454,
+          "minRank": 300000,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西安科技大学高新学院",
+      "schoolCode": "E042",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 452,
+          "minRank": 306100,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西安科技大学高新学院",
+      "schoolCode": "E042",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 494,
+          "minRank": 201002,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "财务管理",
+      "majorKey": "8220c852",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "42800",
+      "schooling": "4",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 201002,
+      "equivRank": 201002,
+      "prevScore": 494
+    },
+    {
+      "majorName": "学前教育",
+      "majorKey": "97716b64",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 3,
+      "tuition": "27000",
+      "schooling": "4",
+      "menlei": "教",
+      "prevYear": 2025,
+      "prevRank": 240683,
+      "equivRank": 240683,
+      "prevScore": 478
+    },
+    {
+      "majorName": "新能源科学与工程",
+      "majorKey": "42b22d93",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "plan": 2,
+      "tuition": "28000",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 300000,
+      "equivRank": 300000,
+      "prevScore": 454
+    },
+    {
+      "majorName": "计算机科学与技术",
+      "majorKey": "1d486608",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "plan": 4,
+      "tuition": "49600",
+      "schooling": "4",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 306100,
+      "equivRank": 306100,
+      "prevScore": 452
+    }
+  ]
+}

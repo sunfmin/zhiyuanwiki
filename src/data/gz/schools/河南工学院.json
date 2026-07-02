@@ -1,0 +1,129 @@
+{
+  "key": "河南工学院",
+  "code": "0925",
+  "name": "河南工学院",
+  "leaves": [
+    {
+      "schoolKey": "河南工学院",
+      "schoolCode": "0925",
+      "majorKey": "d9b0a3d9",
+      "majorName": "商务经济学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 455,
+          "minRank": 86553,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 509,
+          "minRank": 18690,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河南工学院",
+      "schoolCode": "0925",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 468,
+          "minRank": 75606,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河南工学院",
+      "schoolCode": "0925",
+      "majorKey": "8b6a817b",
+      "majorName": "物流管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 497,
+          "minRank": 22715,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河南工学院",
+      "schoolCode": "0925",
+      "majorKey": "48469b36",
+      "majorName": "跨境电子商务",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 450,
+          "minRank": 91009,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 493,
+          "minRank": 24380,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "商务经济学",
+      "majorKey": "d9b0a3d9",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 1,
+      "tuition": "4400",
+      "schooling": "四年",
+      "menlei": "经",
+      "prevYear": 2025,
+      "prevRank": 18690,
+      "equivRank": 18690,
+      "prevScore": 509
+    },
+    {
+      "majorName": "物流管理",
+      "majorKey": "8b6a817b",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 2,
+      "tuition": "4400",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 22715,
+      "equivRank": 22715,
+      "prevScore": 497
+    },
+    {
+      "majorName": "跨境电子商务",
+      "majorKey": "48469b36",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 2,
+      "tuition": "4400",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 24380,
+      "equivRank": 24380,
+      "prevScore": 493
+    }
+  ]
+}

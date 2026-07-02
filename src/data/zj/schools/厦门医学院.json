@@ -1,0 +1,65 @@
+{
+  "key": "厦门医学院",
+  "code": "3574",
+  "name": "厦门医学院",
+  "leaves": [
+    {
+      "schoolKey": "厦门医学院",
+      "schoolCode": "3574",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 575,
+          "minRank": 81161,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "厦门医学院",
+      "schoolCode": "3574",
+      "majorKey": "1ca19af0",
+      "majorName": "海洋药学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 541,
+          "minRank": 123985,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 1,
+      "tuition": "6000",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 81161,
+      "equivRank": 81161
+    },
+    {
+      "majorName": "海洋药学",
+      "majorKey": "1ca19af0",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 1,
+      "tuition": "6000",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 123985,
+      "equivRank": 123985
+    }
+  ]
+}

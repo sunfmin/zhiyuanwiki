@@ -1,0 +1,99 @@
+{
+  "key": "浙江药科职业大学",
+  "code": "1609",
+  "name": "浙江药科职业大学",
+  "leaves": [
+    {
+      "schoolKey": "浙江药科职业大学",
+      "schoolCode": "1609",
+      "majorKey": "0dd876e8",
+      "majorName": "药事服务与管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 373,
+          "minRank": 50983,
+          "maxScore": 405
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 458,
+          "minRank": 48995,
+          "maxScore": 461
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 457,
+          "minRank": 47483,
+          "maxScore": 463
+        }
+      ]
+    },
+    {
+      "schoolKey": "浙江药科职业大学",
+      "schoolCode": "1609",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 375,
+          "minRank": 50222,
+          "maxScore": 385
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 459,
+          "minRank": 48674,
+          "maxScore": 463
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 460,
+          "minRank": 46345,
+          "maxScore": 476
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "药事服务与管理",
+          "majorKey": "0dd876e8",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "6600",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 47483,
+          "equivRank": 44411
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "7590",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 46345,
+          "equivRank": 43347
+        }
+      ]
+    }
+  ]
+}

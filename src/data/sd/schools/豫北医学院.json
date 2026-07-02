@@ -1,0 +1,99 @@
+{
+  "key": "豫北医学院",
+  "code": "D505",
+  "name": "豫北医学院",
+  "leaves": [
+    {
+      "schoolKey": "豫北医学院",
+      "schoolCode": "D505",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物化生(3科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 510,
+          "minRank": 162182,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "豫北医学院",
+      "schoolCode": "D505",
+      "majorKey": "11fef64a",
+      "majorName": "医学影像技术",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 473,
+          "minRank": 252613,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "豫北医学院",
+      "schoolCode": "D505",
+      "majorKey": "a507c400",
+      "majorName": "康复治疗学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 476,
+          "minRank": 245463,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "综合",
+      "selKe": "物理,化学,生物",
+      "plan": 2,
+      "tuition": "17000",
+      "schooling": "5",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 162182,
+      "equivRank": 162182,
+      "prevScore": 510
+    },
+    {
+      "majorName": "康复治疗学",
+      "majorKey": "a507c400",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "plan": 1,
+      "tuition": "17000",
+      "schooling": "4",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 245463,
+      "equivRank": 245463,
+      "prevScore": 476
+    },
+    {
+      "majorName": "医学影像技术",
+      "majorKey": "11fef64a",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "plan": 2,
+      "tuition": "17000",
+      "schooling": "4",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 252613,
+      "equivRank": 252613,
+      "prevScore": 473
+    }
+  ]
+}

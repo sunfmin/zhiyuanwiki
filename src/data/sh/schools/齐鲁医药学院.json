@@ -1,0 +1,187 @@
+{
+  "key": "齐鲁医药学院",
+  "code": "0661",
+  "name": "齐鲁医药学院",
+  "leaves": [
+    {
+      "schoolKey": "齐鲁医药学院",
+      "schoolCode": "0661",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 413,
+          "minRank": 46964,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "齐鲁医药学院",
+      "schoolCode": "0661",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 460,
+          "minRank": 35524,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "齐鲁医药学院",
+      "schoolCode": "0661",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 435,
+          "minRank": 41932,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "齐鲁医药学院",
+      "schoolCode": "0661",
+      "majorKey": "97b7b689",
+      "majorName": "生物制药",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 419,
+          "minRank": 45675,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "齐鲁医药学院",
+      "schoolCode": "0661",
+      "majorKey": "27c81131",
+      "majorName": "生物医学工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 413,
+          "minRank": 46964,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "齐鲁医药学院",
+      "schoolCode": "0661",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 415,
+          "minRank": 46550,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "19000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 41932,
+          "equivRank": 41932
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "生物制药",
+          "majorKey": "97b7b689",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "18500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 45675,
+          "equivRank": 45675
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "29800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 35524,
+          "equivRank": 35524
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "物理和化学",
+          "plan": 1,
+          "tuition": "19000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 46550,
+          "equivRank": 46550
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "22500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 46964,
+          "equivRank": 46964
+        },
+        {
+          "majorName": "生物医学工程",
+          "majorKey": "27c81131",
+          "selKe": "物理和化学",
+          "plan": 1,
+          "tuition": "18500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 46964,
+          "equivRank": 46964
+        }
+      ]
+    }
+  ]
+}

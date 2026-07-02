@@ -1,0 +1,58 @@
+{
+  "key": "乐山师范学院",
+  "code": "2239",
+  "name": "乐山师范学院",
+  "leaves": [
+    {
+      "schoolKey": "乐山师范学院",
+      "schoolCode": "2239",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 407,
+          "minRank": 38959,
+          "maxScore": 413
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 479,
+          "minRank": 41569,
+          "maxScore": 497
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 447,
+          "minRank": 51159,
+          "maxScore": 468
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化学",
+          "plan": 6,
+          "tuition": "5980",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 51159,
+          "equivRank": 47849
+        }
+      ]
+    }
+  ]
+}

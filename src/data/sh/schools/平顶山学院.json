@@ -1,0 +1,71 @@
+{
+  "key": "平顶山学院",
+  "code": "0701",
+  "name": "平顶山学院",
+  "leaves": [
+    {
+      "schoolKey": "平顶山学院",
+      "schoolCode": "0701",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 424,
+          "minRank": 44546,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "平顶山学院",
+      "schoolCode": "0701",
+      "majorKey": "8f1501ac",
+      "majorName": "翻译",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 422,
+          "minRank": 45012,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "4400",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 44546,
+          "equivRank": 44546
+        },
+        {
+          "majorName": "翻译",
+          "majorKey": "8f1501ac",
+          "selKe": "不限科目",
+          "plan": 3,
+          "tuition": "4400",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 45012,
+          "equivRank": 45012
+        }
+      ]
+    }
+  ]
+}

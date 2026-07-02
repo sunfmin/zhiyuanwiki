@@ -1,0 +1,121 @@
+{
+  "key": "上海视觉艺术学院",
+  "code": "8004",
+  "name": "上海视觉艺术学院",
+  "leaves": [
+    {
+      "schoolKey": "上海视觉艺术学院",
+      "schoolCode": "8004",
+      "majorKey": "b86f75b5",
+      "majorName": "广播电视编导",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 495,
+          "minRank": 43078,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 505,
+          "minRank": 138641,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 520,
+          "minRank": 38007,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 524,
+          "minRank": 129305,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海视觉艺术学院",
+      "schoolCode": "8004",
+      "majorKey": "7a929633",
+      "majorName": "文化产业管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 500,
+          "minRank": 37213,
+          "maxScore": 0
+        },
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 453,
+          "minRank": 148801,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 498,
+          "minRank": 41709,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 501,
+          "minRank": 126588,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "广播电视编导",
+          "majorKey": "b86f75b5",
+          "selKe": "首选历史，再选不限",
+          "plan": 1,
+          "tuition": "68000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 38007,
+          "equivRank": 38007
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "广播电视编导",
+          "majorKey": "b86f75b5",
+          "selKe": "首选物理，再选不限",
+          "plan": 1,
+          "tuition": "68000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 129305,
+          "equivRank": 129305
+        }
+      ]
+    }
+  ]
+}

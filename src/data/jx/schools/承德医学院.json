@@ -1,0 +1,79 @@
+{
+  "key": "承德医学院",
+  "code": "2088",
+  "name": "承德医学院",
+  "leaves": [
+    {
+      "schoolKey": "承德医学院",
+      "schoolCode": "2088",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 548,
+          "minRank": 36643,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "承德医学院",
+      "schoolCode": "2088",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 485,
+          "minRank": 103528,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第501组",
+      "groupName": "第501组",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "5720",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 36643,
+          "equivRank": 36643
+        }
+      ]
+    },
+    {
+      "groupCode": "第502组",
+      "groupName": "第502组",
+      "track": "物理",
+      "selKe": "物理,生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "物理,生物",
+          "plan": 2,
+          "tuition": "5720",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 103528,
+          "equivRank": 103528
+        }
+      ]
+    }
+  ]
+}

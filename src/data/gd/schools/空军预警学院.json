@@ -1,0 +1,48 @@
+{
+  "key": "空军预警学院",
+  "code": "92023",
+  "name": "空军预警学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "预警探测",
+          "majorKey": "0f8fe605",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "免费",
+          "menlei": "法"
+        },
+        {
+          "majorName": "侦察情报",
+          "majorKey": "65a5527d",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "他"
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "网电指挥与工程",
+          "majorKey": "256d95cd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "免费",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

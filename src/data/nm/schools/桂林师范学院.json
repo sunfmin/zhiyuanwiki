@@ -1,0 +1,124 @@
+{
+  "key": "桂林师范学院",
+  "code": "G26",
+  "name": "桂林师范学院",
+  "leaves": [
+    {
+      "schoolKey": "桂林师范学院",
+      "schoolCode": "G26",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 471,
+          "minRank": 13438,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "桂林师范学院",
+      "schoolCode": "G26",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 483,
+          "minRank": 11943,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 431,
+          "minRank": 51337,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "桂林师范学院",
+      "schoolCode": "G26",
+      "majorKey": "b534555a",
+      "majorName": "科学教育",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 424,
+          "minRank": 53661,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 11943,
+          "equivRank": 11943
+        },
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4200",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 13438,
+          "equivRank": 13438
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "科学教育",
+          "majorKey": "b534555a",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4200",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 53661,
+          "equivRank": 53661
+        },
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 51337,
+          "equivRank": 51337
+        }
+      ]
+    }
+  ]
+}

@@ -105,7 +105,7 @@ export default function SchoolSearch({ schools, prov }: { schools: SchoolIndexEn
         {list.map((s) => (
           <li>
             <a
-              href={`/${prov}/yuanxiao/${s.code}/`}
+              href={`/${prov}/yuanxiao/${s.key}/`}
               class="block rounded-lg border border-slate-200 bg-white px-3 py-2 hover:border-slate-400"
             >
               <div class="flex items-baseline justify-between gap-2">

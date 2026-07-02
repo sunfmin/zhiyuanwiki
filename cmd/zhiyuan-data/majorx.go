@@ -30,7 +30,6 @@ func buildMajorBundle(dbPath string, p province) schoolBundle {
 		fatal(fmt.Errorf("DB 无%s分数行——先跑 `zhiyuan-data import -prov %s`", p.name, p.slug))
 	}
 	fmt.Printf("  专业录取分数：%d 行（%s·含位次）\n", len(scores), strings.Join(p.tracks, "/"))
-	schools, leaves := core.AggregateLeaves(scores)
 
 	idx, err := db.SchoolIndex()
 	if err != nil {
@@ -62,11 +61,21 @@ func buildMajorBundle(dbPath string, p province) schoolBundle {
 	if refYear == 0 {
 		refYear = latestScoreYear(scores)
 	}
-	planByCode := buildPlanMajorsTracked(plan, leaves, totals, refYear, menlei.Code)
+
+	// 身份归并覆盖 分数∪计划（同 buildDBBundle，ADR-0021）：院校全集、按校名归并、按渠道拆分。
+	resolver := core.BuildSchoolResolver(append(core.IdentRowsFromScores(scores), core.IdentRowsFromPlan(planAll)...))
+	schools, leaves := core.AggregateLeavesR(scores, resolver)
+	if rn := resolver.Renames(); len(rn) > 0 {
+		fmt.Printf("  改名/转设归并 %d 处（人工可复核）：\n", len(rn))
+		for _, s := range rn {
+			fmt.Printf("    · %s\n", s)
+		}
+	}
+	planByEntity := buildPlanMajorsTracked(plan, leaves, resolver, totals, refYear, menlei.Code)
 
 	byCode := map[string][]core.MajorLeaf{}
 	for _, lf := range leaves {
-		byCode[lf.SchoolCode] = append(byCode[lf.SchoolCode], lf)
+		byCode[leafGroupKey(lf)] = append(byCode[leafGroupKey(lf)], lf)
 	}
 
 	b := schoolBundle{
@@ -77,13 +86,13 @@ func buildMajorBundle(dbPath string, p province) schoolBundle {
 	}
 	planCount, matched := 0, 0
 	for _, s := range schools {
-		d := schoolDetail{School: s, Leaves: byCode[s.Code], Plan2026: planByCode[s.Code]}
+		d := schoolDetail{School: s, Leaves: nonNilLeaves(byCode[schoolKey(s)]), Plan2026: planByEntity[schoolKey(s)]}
 		planCount += len(d.Plan2026)
-		b.details[s.Code] = d
+		b.details[schoolKey(s)] = d
 		if m, ok := idx.Lookup(s.Name); ok {
 			matched++
-			b.levels[s.Code] = [3]bool{m.Is985, m.Is211, m.Syl}
-			b.meta[s.Code] = schoolMetaOut{
+			b.levels[schoolKey(s)] = [3]bool{m.Is985, m.Is211, m.Syl}
+			b.meta[schoolKey(s)] = schoolMetaOut{
 				Province: m.Province, City: m.City, CityTier: core.CityTier(m.City),
 				Owner: m.Ownership, Kind: m.Kind, Levels: levelsOf(m),
 			}
@@ -94,59 +103,68 @@ func buildMajorBundle(dbPath string, p province) schoolBundle {
 	return b
 }
 
-// buildPlanMajorsTracked 把招生计划逐专业聚合成院校报考视图，按 (院校,专业,选科,科类) 合并计划，
-// 并按 (院校,专业名) 在同科类下挂往年最低位次/等效位次。双科类省同一专业在物理/历史各成一条。
-func buildPlanMajorsTracked(plan []core.PlanRow, leaves []core.MajorLeaf, totals map[core.YearTrack]int, refYear int, menlei func(string) string) map[string][]zj.PlanMajor {
+// buildPlanMajorsTracked 把招生计划逐专业聚合成院校报考视图，按 (渠道,专业,选科,科类) 合并计划，
+// 并按 院校实体键+渠道+专业名 在同科类下挂往年最低位次/等效位次。双科类省同一专业在物理/历史各成一条。
+// 返回 院校实体键 → 列表（ADR-0021：按归一化校名归拢，同名多渠道并入一页）。
+func buildPlanMajorsTracked(plan []core.PlanRow, leaves []core.MajorLeaf, r *core.SchoolResolver, totals map[core.YearTrack]int, refYear int, menlei func(string) string) map[string][]zj.PlanMajor {
 	leafIdx := map[string]*core.MajorLeaf{}
 	for i := range leaves {
-		leafIdx[leaves[i].SchoolCode+"/"+leaves[i].MajorKey] = &leaves[i]
+		leafIdx[leaves[i].SchoolKey+"/"+leaves[i].SchoolCode+"/"+leaves[i].MajorKey] = &leaves[i]
 	}
 
-	type mkey struct{ school, major, selke, track string }
-	order := map[string][]mkey{}
+	type mkey struct{ channel, major, selke, track string }
+	order := []mkey{}
+	mkeyEnt := map[mkey]string{}
 	seen := map[mkey]*zj.PlanMajor{}
 
-	for _, r := range plan {
-		key := core.MajorKey(r.MajorName)
-		k := mkey{r.SchoolCode, key, r.SelKe, r.Track}
+	for _, row := range plan {
+		ent := r.Entity(row.SchoolName)
+		ch := r.Channel(row.SchoolName, row.SchoolCode)
+		key := core.MajorKey(row.MajorName)
+		k := mkey{ch, key, row.SelKe, row.Track}
 		if pm := seen[k]; pm != nil {
-			pm.Plan += r.Plan
+			pm.Plan += row.Plan
 			continue
 		}
 		pm := &zj.PlanMajor{
-			MajorName: core.NormalizeMajorName(r.MajorName),
+			MajorName: core.NormalizeMajorName(row.MajorName),
 			MajorKey:  key,
-			Track:     r.Track,
-			SelKe:     r.SelKe,
-			Plan:      r.Plan,
-			Tuition:   r.Tuition,
-			Schooling: r.Schooling,
-			Coop:      core.IsCoop(r.MajorName, r.FullName, r.Remark),
+			Track:     row.Track,
+			SelKe:     row.SelKe,
+			Plan:      row.Plan,
+			Tuition:   row.Tuition,
+			Schooling: row.Schooling,
+			Coop:      core.IsCoop(row.MajorName, row.FullName, row.Remark),
 		}
 		if menlei != nil {
-			pm.Menlei = menlei(r.MajorName)
+			pm.Menlei = menlei(row.MajorName)
 		}
-		if lf := leafIdx[r.SchoolCode+"/"+key]; lf != nil {
-			if ys := core.LeafLatestForTrack(lf, r.Track); ys != nil {
+		if lf := leafIdx[ent+"/"+ch+"/"+key]; lf != nil {
+			if ys := core.LeafLatestForTrack(lf, row.Track); ys != nil {
 				pm.PrevYear = ys.Year
 				pm.PrevRank = ys.MinRank
 				// 只有分数省（西藏）的定位基准。仅在「同科类」有录取史时才挂分——理/文分数不可比，
 				// LeafLatestForTrack 在本科类无史时会回退到另一科类，那条分数对本科类无意义、不能用作定位。
 				// （有位次省的 PrevRank/EquivRank 维持原回退行为不变；PrevScore 它们用不到。）
-				if ys.Track == r.Track {
+				if ys.Track == row.Track {
 					pm.PrevScore = ys.MinScore
 				}
 				pm.EquivRank = core.EquivRank(ys.MinRank,
 					core.YearTrack{Year: ys.Year, Track: ys.Track},
-					core.YearTrack{Year: refYear, Track: r.Track}, totals)
+					core.YearTrack{Year: refYear, Track: row.Track}, totals)
 			}
 		}
 		seen[k] = pm
-		order[r.SchoolCode] = append(order[r.SchoolCode], k)
+		mkeyEnt[k] = ent
+		order = append(order, k)
 	}
 
 	out := map[string][]zj.PlanMajor{}
-	for school, keys := range order {
+	byEnt := map[string][]mkey{}
+	for _, k := range order {
+		byEnt[mkeyEnt[k]] = append(byEnt[mkeyEnt[k]], k)
+	}
+	for ent, keys := range byEnt {
 		list := make([]zj.PlanMajor, 0, len(keys))
 		for _, k := range keys {
 			list = append(list, *seen[k])
@@ -168,7 +186,7 @@ func buildPlanMajorsTracked(plan []core.PlanRow, leaves []core.MajorLeaf, totals
 			}
 			return list[i].MajorName < list[j].MajorName
 		})
-		out[school] = list
+		out[ent] = list
 	}
 	return out
 }

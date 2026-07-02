@@ -1,0 +1,45 @@
+{
+  "key": "南方科技大学",
+  "code": "0065",
+  "name": "南方科技大学",
+  "leaves": [
+    {
+      "schoolKey": "南方科技大学",
+      "schoolCode": "0065",
+      "majorKey": "653f630d",
+      "majorName": "物理学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 576,
+          "minRank": 4823,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "物理和化学",
+          "plan": 20,
+          "tuition": "6000",
+          "menlei": "理",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 4823,
+          "equivRank": 4823
+        }
+      ]
+    }
+  ]
+}

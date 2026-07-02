@@ -1,0 +1,216 @@
+{
+  "key": "吉林警察学院",
+  "code": "4220",
+  "name": "吉林警察学院",
+  "leaves": [
+    {
+      "schoolKey": "吉林警察学院",
+      "schoolCode": "4220",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 507,
+          "minRank": 32917,
+          "maxScore": 0
+        },
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 496,
+          "minRank": 111516,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 525,
+          "minRank": 28557,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 514,
+          "minRank": 113412,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 531,
+          "minRank": 26371,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 529,
+          "minRank": 107572,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 551,
+          "minRank": 23247,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 530,
+          "minRank": 120767,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "吉林警察学院",
+      "schoolCode": "4220",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 485,
+          "minRank": 122007,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 503,
+          "minRank": 124505,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 511,
+          "minRank": 130825,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 517,
+          "minRank": 139203,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "吉林警察学院",
+      "schoolCode": "4220",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 485,
+          "minRank": 122007,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 503,
+          "minRank": 124505,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 523,
+          "minRank": 115153,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 525,
+          "minRank": 127836,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "首选历史，再选不限",
+          "plan": 8,
+          "tuition": "5280",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 23247,
+          "equivRank": 23247
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "首选物理，再选不限",
+          "plan": 5,
+          "tuition": "5280",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 120767,
+          "equivRank": 120767
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "首选物理，再选不限",
+          "plan": 4,
+          "tuition": "5280",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 127836,
+          "equivRank": 127836
+        }
+      ]
+    },
+    {
+      "groupCode": "（03）",
+      "groupName": "（03）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "首选物理，再选化学",
+          "plan": 8,
+          "tuition": "5940",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 139203,
+          "equivRank": 139203
+        }
+      ]
+    }
+  ]
+}

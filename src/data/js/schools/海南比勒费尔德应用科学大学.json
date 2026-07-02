@@ -1,0 +1,173 @@
+{
+  "key": "海南比勒费尔德应用科学大学",
+  "code": "5621",
+  "name": "海南比勒费尔德应用科学大学",
+  "leaves": [
+    {
+      "schoolKey": "海南比勒费尔德应用科学大学",
+      "schoolCode": "5621",
+      "majorKey": "803b1149",
+      "majorName": "物流工程",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 464,
+          "minRank": 204991,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "海南比勒费尔德应用科学大学",
+      "schoolCode": "5621",
+      "majorKey": "14856541",
+      "majorName": "电子信息科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 453,
+          "minRank": 169837,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 462,
+          "minRank": 187958,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 473,
+          "minRank": 195768,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "海南比勒费尔德应用科学大学",
+      "schoolCode": "5621",
+      "majorKey": "7b4807f8",
+      "majorName": "经济工程",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 466,
+          "minRank": 202992,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "海南比勒费尔德应用科学大学",
+      "schoolCode": "5621",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 454,
+          "minRank": 169034,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 462,
+          "minRank": 187958,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 464,
+          "minRank": 204991,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "物流工程",
+          "majorKey": "803b1149",
+          "selKe": "首选物理，再选不限",
+          "plan": 6,
+          "tuition": "100000",
+          "menlei": "管",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 204991,
+          "equivRank": 204991
+        },
+        {
+          "majorName": "经济工程",
+          "majorKey": "7b4807f8",
+          "selKe": "首选物理，再选不限",
+          "plan": 6,
+          "tuition": "100000",
+          "menlei": "经",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 202992,
+          "equivRank": 202992
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "电子信息科学与技术",
+          "majorKey": "14856541",
+          "selKe": "首选物理，再选化学",
+          "plan": 6,
+          "tuition": "100000",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 195768,
+          "equivRank": 195768
+        }
+      ]
+    },
+    {
+      "groupCode": "（03）",
+      "groupName": "（03）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "首选物理，再选化学",
+          "plan": 6,
+          "tuition": "100000",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 204991,
+          "equivRank": 204991
+        }
+      ]
+    }
+  ]
+}

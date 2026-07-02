@@ -1,0 +1,143 @@
+{
+  "key": "汉口学院",
+  "code": "2717",
+  "name": "汉口学院",
+  "leaves": [
+    {
+      "schoolKey": "汉口学院",
+      "schoolCode": "2717",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 435,
+          "minRank": 27885,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "汉口学院",
+      "schoolCode": "2717",
+      "majorKey": "1c1ee3f7",
+      "majorName": "通信工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 401,
+          "minRank": 111768,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "23800",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 27885,
+          "equivRank": 27885
+        },
+        {
+          "majorName": "人力资源管理",
+          "majorKey": "5a324641",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "23800",
+          "menlei": "管"
+        },
+        {
+          "majorName": "财务会计教育",
+          "majorKey": "00a38f66",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "23800",
+          "menlei": "管"
+        },
+        {
+          "majorName": "广播电视编导",
+          "majorKey": "b86f75b5",
+          "selKe": "不限",
+          "plan": 7,
+          "tuition": "26800",
+          "menlei": "艺"
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "电子商务",
+          "majorKey": "0b52f20f",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "23800",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "25500",
+          "menlei": "工"
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "25500",
+          "menlei": "工"
+        },
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "25500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 111768,
+          "equivRank": 111768
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "23800",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

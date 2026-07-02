@@ -1,0 +1,90 @@
+{
+  "key": "重庆财经学院",
+  "code": "3590",
+  "name": "重庆财经学院",
+  "leaves": [
+    {
+      "schoolKey": "重庆财经学院",
+      "schoolCode": "3590",
+      "majorKey": "fff04889",
+      "majorName": "网络与新媒体",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 476,
+          "minRank": 19290,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "重庆财经学院",
+      "schoolCode": "3590",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 478,
+          "minRank": 18893,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 474,
+          "minRank": 69565,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "金融学",
+      "majorKey": "5a699e63",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 1,
+      "tuition": "15000",
+      "schooling": "4",
+      "menlei": "经",
+      "prevYear": 2025,
+      "prevRank": 18893,
+      "equivRank": 18893,
+      "prevScore": 478
+    },
+    {
+      "majorName": "网络与新媒体",
+      "majorKey": "fff04889",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 2,
+      "tuition": "15000",
+      "schooling": "4",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 19290,
+      "equivRank": 19290,
+      "prevScore": 476
+    },
+    {
+      "majorName": "金融学",
+      "majorKey": "5a699e63",
+      "track": "物理",
+      "selKe": "物理",
+      "plan": 2,
+      "tuition": "15000",
+      "schooling": "4",
+      "menlei": "经",
+      "prevYear": 2025,
+      "prevRank": 69565,
+      "equivRank": 69565,
+      "prevScore": 474
+    }
+  ]
+}

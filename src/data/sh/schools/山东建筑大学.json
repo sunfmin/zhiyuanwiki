@@ -1,0 +1,141 @@
+{
+  "key": "山东建筑大学",
+  "code": "0650",
+  "name": "山东建筑大学",
+  "leaves": [
+    {
+      "schoolKey": "山东建筑大学",
+      "schoolCode": "0650",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 443,
+          "minRank": 39958,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山东建筑大学",
+      "schoolCode": "0650",
+      "majorKey": "2a1f2fe5",
+      "majorName": "城乡规划",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 448,
+          "minRank": 38707,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山东建筑大学",
+      "schoolCode": "0650",
+      "majorKey": "b8be11ab",
+      "majorName": "工程造价",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 436,
+          "minRank": 41677,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山东建筑大学",
+      "schoolCode": "0650",
+      "majorKey": "6b32f2c4",
+      "majorName": "建筑学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 430,
+          "minRank": 43131,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "城乡规划",
+          "majorKey": "2a1f2fe5",
+          "selKe": "不限科目",
+          "plan": 1,
+          "tuition": "6600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 38707,
+          "equivRank": 38707
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "6325",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 39958,
+          "equivRank": 39958
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "工程造价",
+          "majorKey": "b8be11ab",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "6600",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 41677,
+          "equivRank": 41677
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "建筑学",
+          "majorKey": "6b32f2c4",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "50000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 43131,
+          "equivRank": 43131
+        }
+      ]
+    }
+  ]
+}

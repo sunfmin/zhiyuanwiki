@@ -1,0 +1,176 @@
+{
+  "key": "安康学院",
+  "code": "6146",
+  "name": "安康学院",
+  "leaves": [
+    {
+      "schoolKey": "安康学院",
+      "schoolCode": "6146",
+      "majorKey": "28bd788f",
+      "majorName": "制药工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 434,
+          "minRank": 17511,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安康学院",
+      "schoolCode": "6146",
+      "majorKey": "b8be11ab",
+      "majorName": "工程造价",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 423,
+          "minRank": 19720,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安康学院",
+      "schoolCode": "6146",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "历史,政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 474,
+          "minRank": 3908,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安康学院",
+      "schoolCode": "6146",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 435,
+          "minRank": 17304,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安康学院",
+      "schoolCode": "6146",
+      "majorKey": "ec77cae2",
+      "majorName": "旅游管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 451,
+          "minRank": 5432,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "旅游管理",
+          "majorKey": "ec77cae2",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 5432,
+          "equivRank": 5432
+        }
+      ]
+    },
+    {
+      "groupCode": "702",
+      "groupName": "702",
+      "track": "历史",
+      "selKe": "历史,政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "历史,政治",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 3908,
+          "equivRank": 3908
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "工程造价",
+          "majorKey": "b8be11ab",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 19720,
+          "equivRank": 19720
+        }
+      ]
+    },
+    {
+      "groupCode": "502",
+      "groupName": "502",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "制药工程",
+          "majorKey": "28bd788f",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 17511,
+          "equivRank": 17511
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 17304,
+          "equivRank": 17304
+        }
+      ]
+    }
+  ]
+}

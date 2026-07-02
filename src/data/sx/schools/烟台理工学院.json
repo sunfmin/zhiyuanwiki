@@ -1,0 +1,141 @@
+{
+  "key": "烟台理工学院",
+  "code": "3443",
+  "name": "烟台理工学院",
+  "leaves": [
+    {
+      "schoolKey": "烟台理工学院",
+      "schoolCode": "3443",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 477,
+          "minRank": 23332,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "烟台理工学院",
+      "schoolCode": "3443",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 469,
+          "minRank": 25701,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "烟台理工学院",
+      "schoolCode": "3443",
+      "majorKey": "fff04889",
+      "majorName": "网络与新媒体",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 468,
+          "minRank": 25991,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "烟台理工学院",
+      "schoolCode": "3443",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 448,
+          "minRank": 92231,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "21800",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 23332,
+          "equivRank": 23332
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "21800",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 25701,
+          "equivRank": 25701
+        },
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "21800",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 25991,
+          "equivRank": 25991
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "21800",
+          "menlei": "工"
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "21800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 92231,
+          "equivRank": 92231
+        }
+      ]
+    }
+  ]
+}

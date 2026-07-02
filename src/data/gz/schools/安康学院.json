@@ -1,0 +1,83 @@
+{
+  "key": "安康学院",
+  "code": "0063",
+  "name": "安康学院",
+  "leaves": [
+    {
+      "schoolKey": "安康学院",
+      "schoolCode": "0063",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 473,
+          "minRank": 71243,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 474,
+          "minRank": 73730,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安康学院",
+      "schoolCode": "0063",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 497,
+          "minRank": 20188,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 509,
+          "minRank": 18745,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "英语",
+      "majorKey": "49c5cdf9",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 3,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 18745,
+      "equivRank": 18745,
+      "prevScore": 509
+    },
+    {
+      "majorName": "小学教育",
+      "majorKey": "c240892f",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 3,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "教",
+      "prevYear": 2025,
+      "prevRank": 73730,
+      "equivRank": 73730,
+      "prevScore": 474
+    }
+  ]
+}

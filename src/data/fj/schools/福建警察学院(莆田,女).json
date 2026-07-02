@@ -1,0 +1,48 @@
+{
+  "key": "福建警察学院(莆田,女)",
+  "code": "1019",
+  "name": "福建警察学院(莆田,女)",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "700",
+      "groupName": "专业组：700 (选考思想政治)",
+      "track": "历史",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "治安学",
+          "majorKey": "39094c4c",
+          "selKe": "政治",
+          "plan": 1,
+          "tuition": "5200",
+          "menlei": "法"
+        },
+        {
+          "majorName": "侦查学",
+          "majorKey": "39f460ad",
+          "selKe": "政治",
+          "plan": 1,
+          "tuition": "5200",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "交通管理工程",
+          "majorKey": "1dfc7924",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5200",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

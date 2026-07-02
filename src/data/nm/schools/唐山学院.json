@@ -1,0 +1,106 @@
+{
+  "key": "唐山学院",
+  "code": "0314",
+  "name": "唐山学院",
+  "leaves": [
+    {
+      "schoolKey": "唐山学院",
+      "schoolCode": "0314",
+      "majorKey": "4ef2a1b4",
+      "majorName": "机械电子工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 489,
+          "minRank": 33044,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "唐山学院",
+      "schoolCode": "0314",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 491,
+          "minRank": 32445,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "唐山学院",
+      "schoolCode": "0314",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 521,
+          "minRank": 7500,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4600",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 7500,
+          "equivRank": 7500
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械电子工程",
+          "majorKey": "4ef2a1b4",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5300",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 33044,
+          "equivRank": 33044
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5300",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 32445,
+          "equivRank": 32445
+        }
+      ]
+    }
+  ]
+}

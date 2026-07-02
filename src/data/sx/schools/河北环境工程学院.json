@@ -1,0 +1,168 @@
+{
+  "key": "河北环境工程学院",
+  "code": "1559",
+  "name": "河北环境工程学院",
+  "leaves": [
+    {
+      "schoolKey": "河北环境工程学院",
+      "schoolCode": "1559",
+      "majorKey": "4150dfbb",
+      "majorName": "会展经济与管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 477,
+          "minRank": 23332,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北环境工程学院",
+      "schoolCode": "1559",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 467,
+          "minRank": 78272,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北环境工程学院",
+      "schoolCode": "1559",
+      "majorKey": "8b6a817b",
+      "majorName": "物流管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 478,
+          "minRank": 23028,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北环境工程学院",
+      "schoolCode": "1559",
+      "majorKey": "2698a02f",
+      "majorName": "环境生态工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 462,
+          "minRank": 81872,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北环境工程学院",
+      "schoolCode": "1559",
+      "majorKey": "63b95502",
+      "majorName": "食品质量与安全",
+      "selKe": "首选物理，再选生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 459,
+          "minRank": 84115,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "会展经济与管理",
+          "majorKey": "4150dfbb",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "4600",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 23332,
+          "equivRank": 23332
+        },
+        {
+          "majorName": "物流管理",
+          "majorKey": "8b6a817b",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "4600",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 23028,
+          "equivRank": 23028
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 78272,
+          "equivRank": 78272
+        },
+        {
+          "majorName": "环境生态工程",
+          "majorKey": "2698a02f",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5390",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 81872,
+          "equivRank": 81872
+        }
+      ]
+    },
+    {
+      "groupCode": "103",
+      "groupName": "103",
+      "track": "物理",
+      "selKe": "物理,生物",
+      "majors": [
+        {
+          "majorName": "食品质量与安全",
+          "majorKey": "63b95502",
+          "selKe": "物理,生物",
+          "plan": 3,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 84115,
+          "equivRank": 84115
+        }
+      ]
+    }
+  ]
+}

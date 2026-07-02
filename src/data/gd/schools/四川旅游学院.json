@@ -1,0 +1,45 @@
+{
+  "key": "四川旅游学院",
+  "code": "11552",
+  "name": "四川旅游学院",
+  "leaves": [
+    {
+      "schoolKey": "四川旅游学院",
+      "schoolCode": "11552",
+      "majorKey": "3f1c9a86",
+      "majorName": "建筑电气与智能化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 487,
+          "minRank": 189396,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "202",
+      "groupName": "202",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "建筑电气与智能化",
+          "majorKey": "3f1c9a86",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "38000",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 189396,
+          "equivRank": 189396
+        }
+      ]
+    }
+  ]
+}

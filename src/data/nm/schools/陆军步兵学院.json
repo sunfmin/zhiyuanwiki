@@ -1,0 +1,182 @@
+{
+  "key": "陆军步兵学院",
+  "code": "M54",
+  "name": "陆军步兵学院",
+  "leaves": [
+    {
+      "schoolKey": "陆军步兵学院",
+      "schoolCode": "M54",
+      "majorKey": "539edab4",
+      "majorName": "作战指挥",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 572,
+          "minRank": 11394,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "陆军步兵学院",
+      "schoolCode": "M54",
+      "majorKey": "f25755e8",
+      "majorName": "指挥信息系统工程",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 577,
+          "minRank": 10380,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "陆军步兵学院",
+      "schoolCode": "M54",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 611,
+          "minRank": 1102,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "陆军步兵学院",
+      "schoolCode": "M54",
+      "majorKey": "f7dced26",
+      "majorName": "装甲车辆工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 574,
+          "minRank": 10991,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 1102,
+          "equivRank": 1102
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "指挥信息系统工程",
+          "majorKey": "f25755e8",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 10380,
+          "equivRank": 10380
+        },
+        {
+          "majorName": "作战指挥",
+          "majorKey": "539edab4",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 11394,
+          "equivRank": 11394
+        },
+        {
+          "majorName": "作战指挥",
+          "majorKey": "539edab4",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 11394,
+          "equivRank": 11394
+        },
+        {
+          "majorName": "作战指挥",
+          "majorKey": "539edab4",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 11394,
+          "equivRank": 11394
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "装甲车辆工程",
+          "majorKey": "f7dced26",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 10991,
+          "equivRank": 10991
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "004",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "作战指挥",
+          "majorKey": "539edab4",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 11394,
+          "equivRank": 11394
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "key": "延安大学",
+  "code": "3532",
+  "name": "延安大学",
+  "leaves": [
+    {
+      "schoolKey": "延安大学",
+      "schoolCode": "3532",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 511,
+          "minRank": 12736,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "延安大学",
+      "schoolCode": "3532",
+      "majorKey": "8f1def37",
+      "majorName": "日语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 505,
+          "minRank": 13835,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "延安大学",
+      "schoolCode": "3532",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 531,
+          "minRank": 9424,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "延安大学",
+      "schoolCode": "3532",
+      "majorKey": "7faf2092",
+      "majorName": "环境工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 513,
+          "minRank": 59514,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "延安大学",
+      "schoolCode": "3532",
+      "majorKey": "fd907dda",
+      "majorName": "社会工作",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 507,
+          "minRank": 13459,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "延安大学",
+      "schoolCode": "3532",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 517,
+          "minRank": 56618,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "延安大学",
+      "schoolCode": "3532",
+      "majorKey": "047778fd",
+      "majorName": "运动康复",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 512,
+          "minRank": 60283,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 9424,
+          "equivRank": 9424
+        },
+        {
+          "majorName": "社会工作",
+          "majorKey": "fd907dda",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "5400",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 13459,
+          "equivRank": 13459
+        },
+        {
+          "majorName": "日语",
+          "majorKey": "8f1def37",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 13835,
+          "equivRank": 13835
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 12736,
+          "equivRank": 12736
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6480",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 56618,
+          "equivRank": 56618
+        },
+        {
+          "majorName": "环境工程",
+          "majorKey": "7faf2092",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6480",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 59514,
+          "equivRank": 59514
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "运动康复",
+          "majorKey": "047778fd",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 60283,
+          "equivRank": 60283
+        }
+      ]
+    }
+  ]
+}

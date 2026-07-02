@@ -1,0 +1,42 @@
+{
+  "key": "山东科技大学(中外合作)",
+  "code": "3151",
+  "name": "山东科技大学(中外合作)",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械电子工程",
+          "majorKey": "4ef2a1b4",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "55000",
+          "menlei": "工",
+          "coop": true
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "42000",
+          "menlei": "经",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "key": "上海中医药大学",
+  "code": "2113",
+  "name": "上海中医药大学",
+  "leaves": [
+    {
+      "schoolKey": "上海中医药大学",
+      "schoolCode": "2113",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 617,
+          "minRank": 6556,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 647,
+          "minRank": 6253,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 640,
+          "minRank": 8014,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 635,
+          "minRank": 10262,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海中医药大学",
+      "schoolCode": "2113",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 568,
+          "minRank": 37468,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 594,
+          "minRank": 37178,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 591,
+          "minRank": 38210,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 591,
+          "minRank": 43570,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "首选物理，再选化学",
+          "plan": 4,
+          "tuition": "8100",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 10262,
+          "equivRank": 10262
+        },
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "首选物理，再选化学",
+          "plan": 2,
+          "tuition": "8100",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 10262,
+          "equivRank": 10262
+        },
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "首选物理，再选化学",
+          "plan": 2,
+          "tuition": "8100",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 10262,
+          "equivRank": 10262
+        },
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "首选物理，再选化学",
+          "plan": 2,
+          "tuition": "8100",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 10262,
+          "equivRank": 10262
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "首选物理，再选化学",
+          "plan": 4,
+          "tuition": "22000",
+          "menlei": "医",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 43570,
+          "equivRank": 43570
+        }
+      ]
+    }
+  ]
+}

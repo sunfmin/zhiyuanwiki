@@ -1,0 +1,78 @@
+{
+  "key": "南京工业大学",
+  "code": "3080",
+  "name": "南京工业大学",
+  "leaves": [
+    {
+      "schoolKey": "南京工业大学",
+      "schoolCode": "3080",
+      "majorKey": "24d6dbdf",
+      "majorName": "交通工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 487,
+          "minRank": 4147,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "南京工业大学",
+      "schoolCode": "3080",
+      "majorKey": "25624660",
+      "majorName": "应用化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 423,
+          "minRank": 10047,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "交通工程",
+      "majorKey": "24d6dbdf",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 2,
+      "tuition": "5800",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 4147,
+      "equivRank": 4147,
+      "prevScore": 487
+    },
+    {
+      "majorName": "应用化学",
+      "majorKey": "25624660",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 3,
+      "tuition": "6050",
+      "schooling": "四年",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 10047,
+      "equivRank": 10047,
+      "prevScore": 423
+    },
+    {
+      "majorName": "本科预科班",
+      "majorKey": "dbf775e5",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 8,
+      "schooling": "一年",
+      "menlei": "他"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "key": "常州工学院",
+  "code": "2353",
+  "name": "常州工学院",
+  "leaves": [
+    {
+      "schoolKey": "常州工学院",
+      "schoolCode": "2353",
+      "majorKey": "acbf731b",
+      "majorName": "复合材料与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 525,
+          "minRank": 50185,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "常州工学院",
+      "schoolCode": "2353",
+      "majorKey": "4166f1ff",
+      "majorName": "工程管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 515,
+          "minRank": 57330,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "常州工学院",
+      "schoolCode": "2353",
+      "majorKey": "8b6a817b",
+      "majorName": "物流管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 514,
+          "minRank": 58056,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "常州工学院",
+      "schoolCode": "2353",
+      "majorKey": "e50fcc71",
+      "majorName": "资源循环科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 522,
+          "minRank": 52279,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "常州工学院",
+      "schoolCode": "2353",
+      "majorKey": "1c1ee3f7",
+      "majorName": "通信工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 523,
+          "minRank": 51600,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "复合材料与工程",
+          "majorKey": "acbf731b",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 50185,
+          "equivRank": 50185
+        },
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 51600,
+          "equivRank": 51600
+        },
+        {
+          "majorName": "资源循环科学与工程",
+          "majorKey": "e50fcc71",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 52279,
+          "equivRank": 52279
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "工程管理",
+          "majorKey": "4166f1ff",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 57330,
+          "equivRank": 57330
+        },
+        {
+          "majorName": "物流管理",
+          "majorKey": "8b6a817b",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 58056,
+          "equivRank": 58056
+        }
+      ]
+    }
+  ]
+}

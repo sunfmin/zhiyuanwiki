@@ -1,0 +1,92 @@
+{
+  "key": "遵义医科大学医学与科技学院",
+  "code": "5262",
+  "name": "遵义医科大学医学与科技学院",
+  "leaves": [
+    {
+      "schoolKey": "遵义医科大学医学与科技学院",
+      "schoolCode": "5262",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 465,
+          "minRank": 107979,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 467,
+          "minRank": 113610,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 479,
+          "minRank": 114296,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "遵义医科大学医学与科技学院",
+      "schoolCode": "5262",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 466,
+          "minRank": 106947,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 483,
+          "minRank": 109059,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（101）",
+      "groupName": "（101）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "首选物理，再选化学",
+          "plan": 4,
+          "tuition": "12000",
+          "menlei": "医",
+          "prevYear": 2024,
+          "prevRank": 109059,
+          "equivRank": 121212
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "首选物理，再选化学",
+          "plan": 4,
+          "tuition": "12000",
+          "menlei": "医",
+          "prevYear": 2024,
+          "prevRank": 114296,
+          "equivRank": 127032
+        }
+      ]
+    }
+  ]
+}

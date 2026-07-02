@@ -1,0 +1,212 @@
+{
+  "key": "四川旅游学院",
+  "code": "2443",
+  "name": "四川旅游学院",
+  "leaves": [
+    {
+      "schoolKey": "四川旅游学院",
+      "schoolCode": "2443",
+      "majorKey": "4428fd77",
+      "majorName": "商务英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 510,
+          "minRank": 28906,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 503,
+          "minRank": 130632,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "四川旅游学院",
+      "schoolCode": "2443",
+      "majorKey": "3f1c9a86",
+      "majorName": "建筑电气与智能化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 483,
+          "minRank": 160272,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "四川旅游学院",
+      "schoolCode": "2443",
+      "majorKey": "889e9381",
+      "majorName": "数字媒体技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 494,
+          "minRank": 143937,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "四川旅游学院",
+      "schoolCode": "2443",
+      "majorKey": "8742ced2",
+      "majorName": "烹饪与营养教育",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 494,
+          "minRank": 143937,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "四川旅游学院",
+      "schoolCode": "2443",
+      "majorKey": "9b8820c1",
+      "majorName": "风景园林",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 511,
+          "minRank": 28434,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 501,
+          "minRank": 133575,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "商务英语",
+          "majorKey": "4428fd77",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "4800元/年",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 28906,
+          "equivRank": 28906
+        },
+        {
+          "majorName": "风景园林",
+          "majorKey": "9b8820c1",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5200元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 28434,
+          "equivRank": 28434
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "风景园林",
+          "majorKey": "9b8820c1",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5200元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 133575,
+          "equivRank": 133575
+        },
+        {
+          "majorName": "商务英语",
+          "majorKey": "4428fd77",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4800元/年",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 130632,
+          "equivRank": 130632
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "烹饪与营养教育",
+          "majorKey": "8742ced2",
+          "selKe": "化学",
+          "plan": 8,
+          "tuition": "5200元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 143937,
+          "equivRank": 143937
+        },
+        {
+          "majorName": "数字媒体技术",
+          "majorKey": "889e9381",
+          "selKe": "化学",
+          "plan": 6,
+          "tuition": "5200元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 143937,
+          "equivRank": 143937
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "建筑电气与智能化",
+          "majorKey": "3f1c9a86",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "38000元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 160272,
+          "equivRank": 160272
+        }
+      ]
+    }
+  ]
+}

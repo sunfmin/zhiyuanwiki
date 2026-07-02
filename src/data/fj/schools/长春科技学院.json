@@ -1,0 +1,114 @@
+{
+  "key": "长春科技学院",
+  "code": "2330",
+  "name": "长春科技学院",
+  "leaves": [
+    {
+      "schoolKey": "长春科技学院",
+      "schoolCode": "2330",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 475,
+          "minRank": 90360,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春科技学院",
+      "schoolCode": "2330",
+      "majorKey": "f9504a0c",
+      "majorName": "中药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 453,
+          "minRank": 109170,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春科技学院",
+      "schoolCode": "2330",
+      "majorKey": "6e702db2",
+      "majorName": "食品科学与工程类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 458,
+          "minRank": 104965,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "食品科学与工程类",
+          "majorKey": "6e702db2",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "26000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 104965,
+          "equivRank": 104965
+        },
+        {
+          "majorName": "中药学",
+          "majorKey": "f9504a0c",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "28000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 109170,
+          "equivRank": 109170
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "39000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 90360,
+          "equivRank": 90360
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "27000",
+          "menlei": "管"
+        }
+      ]
+    }
+  ]
+}

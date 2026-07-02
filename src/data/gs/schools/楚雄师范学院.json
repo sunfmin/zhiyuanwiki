@@ -1,0 +1,64 @@
+{
+  "key": "楚雄师范学院",
+  "code": "3584",
+  "name": "楚雄师范学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "人文教育",
+          "majorKey": "4f7afa64",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "教"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "地理",
+      "majors": [
+        {
+          "majorName": "地理科学",
+          "majorKey": "d061ae24",
+          "selKe": "地理",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "理"
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "5000",
+          "menlei": "理"
+        },
+        {
+          "majorName": "葡萄与葡萄酒工程",
+          "majorKey": "c6b832d2",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "key": "北京服装学院",
+  "code": "1037",
+  "name": "北京服装学院",
+  "leaves": [
+    {
+      "schoolKey": "北京服装学院",
+      "schoolCode": "1037",
+      "majorKey": "c8cc37b2",
+      "majorName": "传播学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 533,
+          "minRank": 19588,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京服装学院",
+      "schoolCode": "1037",
+      "majorKey": "b74128f4",
+      "majorName": "工商管理类",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 527,
+          "minRank": 97676,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京服装学院",
+      "schoolCode": "1037",
+      "majorKey": "e9c95a9c",
+      "majorName": "广告学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 533,
+          "minRank": 19588,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 528,
+          "minRank": 96333,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京服装学院",
+      "schoolCode": "1037",
+      "majorKey": "416fa48b",
+      "majorName": "智能工程与创意设计",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 521,
+          "minRank": 105379,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京服装学院",
+      "schoolCode": "1037",
+      "majorKey": "90cd213e",
+      "majorName": "服装设计与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 525,
+          "minRank": 100155,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京服装学院",
+      "schoolCode": "1037",
+      "majorKey": "d4e859f9",
+      "majorName": "轻化工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 523,
+          "minRank": 102791,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京服装学院",
+      "schoolCode": "1037",
+      "majorKey": "fc81313f",
+      "majorName": "高分子材料与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 522,
+          "minRank": 104065,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "传播学",
+          "majorKey": "c8cc37b2",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4200元/年",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 19588,
+          "equivRank": 19588
+        },
+        {
+          "majorName": "广告学",
+          "majorKey": "e9c95a9c",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4200元/年",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 19588,
+          "equivRank": 19588
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "广告学",
+          "majorKey": "e9c95a9c",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4200元/年",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 96333,
+          "equivRank": 96333
+        },
+        {
+          "majorName": "工商管理类",
+          "majorKey": "b74128f4",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4200元/年",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 97676,
+          "equivRank": 97676
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "服装设计与工程",
+          "majorKey": "90cd213e",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4600元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 100155,
+          "equivRank": 100155
+        },
+        {
+          "majorName": "高分子材料与工程",
+          "majorKey": "fc81313f",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "4600元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 104065,
+          "equivRank": 104065
+        },
+        {
+          "majorName": "轻化工程",
+          "majorKey": "d4e859f9",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4600元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 102791,
+          "equivRank": 102791
+        },
+        {
+          "majorName": "智能工程与创意设计",
+          "majorKey": "416fa48b",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "4600元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 105379,
+          "equivRank": 105379
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "key": "天津医科大学临床医学院",
+  "code": "13661",
+  "name": "天津医科大学临床医学院",
+  "leaves": [
+    {
+      "schoolKey": "天津医科大学临床医学院",
+      "schoolCode": "13661",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 525,
+          "minRank": 121389,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "天津医科大学临床医学院",
+      "schoolCode": "13661",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 532,
+          "minRank": 109529,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "天津医科大学临床医学院",
+      "schoolCode": "13661",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 483,
+          "minRank": 196482,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "天津医科大学临床医学院",
+      "schoolCode": "13661",
+      "majorKey": "d35344f4",
+      "majorName": "眼视光学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 481,
+          "minRank": 200035,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "天津医科大学临床医学院",
+      "schoolCode": "13661",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 481,
+          "minRank": 200035,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "205",
+      "groupName": "205",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "健康服务与管理",
+          "majorKey": "4fa2a9fc",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "15000",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "206",
+      "groupName": "206",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "健康服务与管理",
+          "majorKey": "4fa2a9fc",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "15000",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "207",
+      "groupName": "207",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "20000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 200035,
+          "equivRank": 200035
+        },
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 8,
+          "tuition": "20000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 196482,
+          "equivRank": 196482
+        },
+        {
+          "majorName": "眼视光学",
+          "majorKey": "d35344f4",
+          "selKe": "化学",
+          "plan": 6,
+          "tuition": "20000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 200035,
+          "equivRank": 200035
+        },
+        {
+          "majorName": "康复治疗学",
+          "majorKey": "a507c400",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "20000",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "208",
+      "groupName": "208",
+      "track": "物理",
+      "selKe": "化学和生物",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学和生物",
+          "plan": 3,
+          "tuition": "20000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 121389,
+          "equivRank": 121389
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "化学和生物",
+          "plan": 3,
+          "tuition": "20000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 109529,
+          "equivRank": 109529
+        }
+      ]
+    }
+  ]
+}

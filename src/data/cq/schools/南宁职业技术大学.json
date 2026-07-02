@@ -1,0 +1,90 @@
+{
+  "key": "南宁职业技术大学",
+  "code": "4517",
+  "name": "南宁职业技术大学",
+  "leaves": [
+    {
+      "schoolKey": "南宁职业技术大学",
+      "schoolCode": "4517",
+      "majorKey": "48469b36",
+      "majorName": "跨境电子商务",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 500,
+          "minRank": 17717,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 483,
+          "minRank": 72625,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "南宁职业技术大学",
+      "schoolCode": "4517",
+      "majorKey": "7bacae62",
+      "majorName": "软件工程技术",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 485,
+          "minRank": 71425,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "跨境电子商务",
+      "majorKey": "48469b36",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 2,
+      "tuition": "7500",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 17717,
+      "equivRank": 17717,
+      "prevScore": 500
+    },
+    {
+      "majorName": "软件工程技术",
+      "majorKey": "7bacae62",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 5,
+      "tuition": "7500",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 71425,
+      "equivRank": 71425,
+      "prevScore": 485
+    },
+    {
+      "majorName": "跨境电子商务",
+      "majorKey": "48469b36",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 3,
+      "tuition": "7500",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 72625,
+      "equivRank": 72625,
+      "prevScore": 483
+    }
+  ]
+}

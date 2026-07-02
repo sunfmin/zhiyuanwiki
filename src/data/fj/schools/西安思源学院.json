@@ -1,0 +1,80 @@
+{
+  "key": "西安思源学院",
+  "code": "3450",
+  "name": "西安思源学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "25080",
+          "menlei": "教"
+        },
+        {
+          "majorName": "中国语言文学类",
+          "majorKey": "a9584ad9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "25080",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机器人工程",
+          "majorKey": "301e14e8",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "27170",
+          "menlei": "工"
+        },
+        {
+          "majorName": "计算机类",
+          "majorKey": "8230723d",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "27170",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "28120",
+          "menlei": "文"
+        },
+        {
+          "majorName": "建筑学",
+          "majorKey": "6b32f2c4",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "27170",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

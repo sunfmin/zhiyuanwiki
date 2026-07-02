@@ -1,0 +1,57 @@
+{
+  "key": "南昌大学",
+  "code": "3605",
+  "name": "南昌大学",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "8750",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "材料科学与工程",
+          "majorKey": "c425ce53",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5250",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "80000",
+          "menlei": "医",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

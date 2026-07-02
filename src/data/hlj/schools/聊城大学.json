@@ -1,0 +1,233 @@
+{
+  "key": "聊城大学",
+  "code": "1810",
+  "name": "聊城大学",
+  "leaves": [
+    {
+      "schoolKey": "聊城大学",
+      "schoolCode": "1810",
+      "majorKey": "b3e5d67f",
+      "majorName": "动物医学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 395,
+          "minRank": 43077,
+          "maxScore": 422
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 467,
+          "minRank": 45792,
+          "maxScore": 479
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 481,
+          "minRank": 38757,
+          "maxScore": 493
+        }
+      ]
+    },
+    {
+      "schoolKey": "聊城大学",
+      "schoolCode": "1810",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 399,
+          "minRank": 41689,
+          "maxScore": 406
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 467,
+          "minRank": 45792,
+          "maxScore": 481
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 481,
+          "minRank": 38757,
+          "maxScore": 486
+        }
+      ]
+    },
+    {
+      "schoolKey": "聊城大学",
+      "schoolCode": "1810",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 451,
+          "minRank": 5483,
+          "maxScore": 456
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 543,
+          "minRank": 4732,
+          "maxScore": 550
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 534,
+          "minRank": 4667,
+          "maxScore": 541
+        }
+      ]
+    },
+    {
+      "schoolKey": "聊城大学",
+      "schoolCode": "1810",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 448,
+          "minRank": 5799,
+          "maxScore": 451
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 544,
+          "minRank": 4641,
+          "maxScore": 554
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 534,
+          "minRank": 4667,
+          "maxScore": 539
+        }
+      ]
+    },
+    {
+      "schoolKey": "聊城大学",
+      "schoolCode": "1810",
+      "majorKey": "97b7b689",
+      "majorName": "生物制药",
+      "selKe": "化学和生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 461,
+          "minRank": 45980,
+          "maxScore": 467
+        }
+      ]
+    },
+    {
+      "schoolKey": "聊城大学",
+      "schoolCode": "1810",
+      "majorKey": "14eeb10f",
+      "majorName": "生物工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 370,
+          "minRank": 52112,
+          "maxScore": 380
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 462,
+          "minRank": 47561,
+          "maxScore": 470
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 6,
+          "tuition": "4400",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 4667,
+          "equivRank": 4667
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 4667,
+          "equivRank": 4667
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "智慧农业",
+          "majorKey": "67ecef51",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "农"
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学和生物",
+      "majors": [
+        {
+          "majorName": "生物制药",
+          "majorKey": "97b7b689",
+          "selKe": "化学和生物",
+          "plan": 3,
+          "tuition": "6300",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 45980,
+          "equivRank": 43005
+        }
+      ]
+    }
+  ]
+}

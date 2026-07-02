@@ -1,0 +1,64 @@
+{
+  "key": "香港中文大学(深圳)(综合评价)",
+  "code": "3504",
+  "name": "香港中文大学(深圳)(综合评价)",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "人文科学试验班",
+          "majorKey": "e70fa033",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "140000",
+          "menlei": "他"
+        },
+        {
+          "majorName": "经济管理试验班",
+          "majorKey": "47abff30",
+          "selKe": "不限",
+          "plan": 6,
+          "tuition": "140000",
+          "menlei": "经"
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "理科试验班",
+          "majorKey": "54728189",
+          "selKe": "化学",
+          "plan": 37,
+          "tuition": "140000",
+          "menlei": "他"
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "经济管理试验班",
+          "majorKey": "47abff30",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "140000",
+          "menlei": "经"
+        }
+      ]
+    }
+  ]
+}

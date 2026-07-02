@@ -1,0 +1,148 @@
+{
+  "key": "河北师范大学",
+  "code": "1165",
+  "name": "河北师范大学",
+  "leaves": [
+    {
+      "schoolKey": "河北师范大学",
+      "schoolCode": "1165",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 451,
+          "minRank": 7057,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北师范大学",
+      "schoolCode": "1165",
+      "majorKey": "17c0dc67",
+      "majorName": "心理学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 394,
+          "minRank": 13846,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北师范大学",
+      "schoolCode": "1165",
+      "majorKey": "dbf775e5",
+      "majorName": "本科预科班",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 434,
+          "minRank": 4181,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 394,
+          "minRank": 13846,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北师范大学",
+      "schoolCode": "1165",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 504,
+          "minRank": 1212,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "汉语言文学",
+      "majorKey": "97bc5998",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 3,
+      "tuition": "5060",
+      "schooling": "四年",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 1212,
+      "equivRank": 1212,
+      "prevScore": 504
+    },
+    {
+      "majorName": "本科预科班",
+      "majorKey": "dbf775e5",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 5,
+      "schooling": "一年",
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 4181,
+      "equivRank": 4181,
+      "prevScore": 434
+    },
+    {
+      "majorName": "化学",
+      "majorKey": "04ab47fe",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 4,
+      "tuition": "5390",
+      "schooling": "四年",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 7057,
+      "equivRank": 7057,
+      "prevScore": 451
+    },
+    {
+      "majorName": "心理学",
+      "majorKey": "17c0dc67",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 3,
+      "tuition": "4900",
+      "schooling": "四年",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 13846,
+      "equivRank": 13846,
+      "prevScore": 394
+    },
+    {
+      "majorName": "本科预科班",
+      "majorKey": "dbf775e5",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 5,
+      "schooling": "一年",
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 13846,
+      "equivRank": 13846,
+      "prevScore": 394
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "key": "北京师范大学(珠海校区)",
+  "code": "2285",
+  "name": "北京师范大学(珠海校区)",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "社会科学试验班",
+          "majorKey": "38bcf50d",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4800",
+          "menlei": "他"
+        },
+        {
+          "majorName": "人文科学试验班",
+          "majorKey": "e70fa033",
+          "selKe": "不限",
+          "plan": 9,
+          "tuition": "4800",
+          "menlei": "他"
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "理科试验班",
+          "majorKey": "54728189",
+          "selKe": "化学",
+          "plan": 8,
+          "tuition": "5400",
+          "menlei": "他"
+        },
+        {
+          "majorName": "数学类",
+          "majorKey": "33b3d741",
+          "selKe": "化学",
+          "plan": 10,
+          "tuition": "5400",
+          "menlei": "理"
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "社会科学试验班",
+          "majorKey": "38bcf50d",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4800",
+          "menlei": "他"
+        }
+      ]
+    }
+  ]
+}

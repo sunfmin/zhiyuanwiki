@@ -1,0 +1,226 @@
+{
+  "key": "滨州医学院",
+  "code": "3743",
+  "name": "滨州医学院",
+  "leaves": [
+    {
+      "schoolKey": "滨州医学院",
+      "schoolCode": "3743",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "首选历史，再选化学/生物(2选1)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 527,
+          "minRank": 8049,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 515,
+          "minRank": 8521,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "滨州医学院",
+      "schoolCode": "3743",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 544,
+          "minRank": 22602,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 547,
+          "minRank": 21046,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 581,
+          "minRank": 19881,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 571,
+          "minRank": 22294,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "滨州医学院",
+      "schoolCode": "3743",
+      "majorKey": "9347fbcd",
+      "majorName": "康复作业治疗",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 510,
+          "minRank": 55724,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "滨州医学院",
+      "schoolCode": "3743",
+      "majorKey": "55f72efa",
+      "majorName": "康复物理治疗",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 510,
+          "minRank": 55724,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "滨州医学院",
+      "schoolCode": "3743",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 520,
+          "minRank": 49340,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 524,
+          "minRank": 47131,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "滨州医学院",
+      "schoolCode": "3743",
+      "majorKey": "e0d708da",
+      "majorName": "特殊教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 487,
+          "minRank": 16657,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 480,
+          "minRank": 15119,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "滨州医学院",
+      "schoolCode": "3743",
+      "majorKey": "0ac1da59",
+      "majorName": "生物技术",
+      "selKe": "首选物理，再选化学/生物(2选1)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 480,
+          "minRank": 52723,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 478,
+          "minRank": 51380,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 4,
+      "tuition": "7920",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 22294,
+      "equivRank": 22294,
+      "prevScore": 571
+    },
+    {
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 2,
+      "tuition": "7920",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 47131,
+      "equivRank": 47131,
+      "prevScore": 524
+    },
+    {
+      "majorName": "康复作业治疗",
+      "majorKey": "9347fbcd",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 2,
+      "tuition": "6600",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 55724,
+      "equivRank": 55724,
+      "prevScore": 510
+    },
+    {
+      "majorName": "康复物理治疗",
+      "majorKey": "55f72efa",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 2,
+      "tuition": "7920",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 55724,
+      "equivRank": 55724,
+      "prevScore": 510
+    }
+  ]
+}

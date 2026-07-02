@@ -1,0 +1,439 @@
+{
+  "key": "重庆师范大学",
+  "code": "K070",
+  "name": "重庆师范大学",
+  "leaves": [
+    {
+      "schoolKey": "重庆师范大学",
+      "schoolCode": "K070",
+      "majorKey": "da4cc459",
+      "majorName": "地理科学类",
+      "selKe": "首选历史，再选地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 579,
+          "minRank": 6717,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 568,
+          "minRank": 31498,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "重庆师范大学",
+      "schoolCode": "K070",
+      "majorKey": "b74128f4",
+      "majorName": "工商管理类",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 577,
+          "minRank": 7128,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "重庆师范大学",
+      "schoolCode": "K070",
+      "majorKey": "b86f75b5",
+      "majorName": "广播电视编导",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 566,
+          "minRank": 9556,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 553,
+          "minRank": 42136,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "重庆师范大学",
+      "schoolCode": "K070",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 586,
+          "minRank": 5391,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 576,
+          "minRank": 26551,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "重庆师范大学",
+      "schoolCode": "K070",
+      "majorKey": "e2472a71",
+      "majorName": "生物科学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 556,
+          "minRank": 39850,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "重庆师范大学",
+      "schoolCode": "K070",
+      "majorKey": "0b52f20f",
+      "majorName": "电子商务",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 537,
+          "minRank": 54820,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "重庆师范大学",
+      "schoolCode": "K070",
+      "majorKey": "63b95502",
+      "majorName": "食品质量与安全",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 552,
+          "minRank": 42868,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "工商管理类",
+          "majorKey": "b74128f4",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "5600",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 7128,
+          "equivRank": 7128
+        },
+        {
+          "majorName": "教育康复学",
+          "majorKey": "7bce1c7b",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "3125",
+          "menlei": "教"
+        },
+        {
+          "majorName": "新闻传播学类",
+          "majorKey": "331c4c8e",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5600",
+          "menlei": "文"
+        },
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5600",
+          "menlei": "经"
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "4375",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "广播电视编导",
+          "majorKey": "b86f75b5",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "11500",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 9556,
+          "equivRank": 9556
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "历史",
+      "selKe": "历史,政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "历史,政治",
+          "plan": 2,
+          "tuition": "3100",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 5391,
+          "equivRank": 5391
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "历史",
+      "selKe": "历史,地理",
+      "majors": [
+        {
+          "majorName": "地理科学类",
+          "majorKey": "da4cc459",
+          "selKe": "历史,地理",
+          "plan": 4,
+          "tuition": "5625",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 6717,
+          "equivRank": 6717
+        }
+      ]
+    },
+    {
+      "groupCode": "05",
+      "groupName": "05",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "电子商务",
+          "majorKey": "0b52f20f",
+          "selKe": "物理",
+          "plan": 5,
+          "tuition": "5600",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 54820,
+          "equivRank": 54820
+        },
+        {
+          "majorName": "工商管理类",
+          "majorKey": "b74128f4",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "5600",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 7128,
+          "equivRank": 12589
+        },
+        {
+          "majorName": "教育康复学",
+          "majorKey": "7bce1c7b",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "3125",
+          "menlei": "教"
+        },
+        {
+          "majorName": "新闻传播学类",
+          "majorKey": "331c4c8e",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "5600",
+          "menlei": "文"
+        },
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "5600",
+          "menlei": "经"
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "4375",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "06",
+      "groupName": "06",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "广播电视编导",
+          "majorKey": "b86f75b5",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "11500",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 42136,
+          "equivRank": 42136
+        }
+      ]
+    },
+    {
+      "groupCode": "07",
+      "groupName": "07",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "3750",
+          "menlei": "理"
+        },
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "3750",
+          "menlei": "理"
+        },
+        {
+          "majorName": "电子信息科学与技术",
+          "majorKey": "14856541",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "5600",
+          "menlei": "工"
+        },
+        {
+          "majorName": "食品质量与安全",
+          "majorKey": "63b95502",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 42868,
+          "equivRank": 42868
+        }
+      ]
+    },
+    {
+      "groupCode": "08",
+      "groupName": "08",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "3750",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 39850,
+          "equivRank": 39850
+        },
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "3750",
+          "menlei": "理"
+        }
+      ]
+    },
+    {
+      "groupCode": "09",
+      "groupName": "09",
+      "track": "物理",
+      "selKe": "物理,政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "物理,政治",
+          "plan": 1,
+          "tuition": "3100",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 26551,
+          "equivRank": 26551
+        }
+      ]
+    },
+    {
+      "groupCode": "10",
+      "groupName": "10",
+      "track": "物理",
+      "selKe": "物理,地理",
+      "majors": [
+        {
+          "majorName": "地理科学类",
+          "majorKey": "da4cc459",
+          "selKe": "物理,地理",
+          "plan": 2,
+          "tuition": "5625",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 31498,
+          "equivRank": 31498
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "key": "河西学院",
+  "code": "6110",
+  "name": "河西学院",
+  "leaves": [
+    {
+      "schoolKey": "河西学院",
+      "schoolCode": "6110",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 452,
+          "minRank": 3092,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河西学院",
+      "schoolCode": "6110",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 399,
+          "minRank": 13149,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河西学院",
+      "schoolCode": "6110",
+      "majorKey": "ec77cae2",
+      "majorName": "旅游管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 428,
+          "minRank": 4563,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河西学院",
+      "schoolCode": "6110",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 395,
+          "minRank": 13698,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "思想政治教育",
+      "majorKey": "6a15bc12",
+      "track": "历史",
+      "selKe": "首选历史，再选思想政治",
+      "plan": 2,
+      "tuition": "3800",
+      "schooling": "四年",
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevRank": 3092,
+      "equivRank": 3092,
+      "prevScore": 452
+    },
+    {
+      "majorName": "旅游管理",
+      "majorKey": "ec77cae2",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 2,
+      "tuition": "3800",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 4563,
+      "equivRank": 4563,
+      "prevScore": 428
+    },
+    {
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 4,
+      "tuition": "4600",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 13149,
+      "equivRank": 13149,
+      "prevScore": 399
+    },
+    {
+      "majorName": "药学",
+      "majorKey": "e9e6a481",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 2,
+      "tuition": "4600",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 13698,
+      "equivRank": 13698,
+      "prevScore": 395
+    }
+  ]
+}

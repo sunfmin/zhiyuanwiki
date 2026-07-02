@@ -1,0 +1,79 @@
+{
+  "key": "渭南师范学院",
+  "code": "1296",
+  "name": "渭南师范学院",
+  "leaves": [
+    {
+      "schoolKey": "渭南师范学院",
+      "schoolCode": "1296",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 505,
+          "minRank": 38775,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "渭南师范学院",
+      "schoolCode": "1296",
+      "majorKey": "bda0ff17",
+      "majorName": "经济学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 526,
+          "minRank": 32629,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 32629,
+          "equivRank": 32629
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "39600",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 38775,
+          "equivRank": 38775
+        }
+      ]
+    }
+  ]
+}

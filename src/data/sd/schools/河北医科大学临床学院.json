@@ -1,0 +1,69 @@
+{
+  "key": "河北医科大学临床学院",
+  "code": "D415",
+  "name": "河北医科大学临床学院",
+  "leaves": [
+    {
+      "schoolKey": "河北医科大学临床学院",
+      "schoolCode": "D415",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物化生(3科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 519,
+          "minRank": 142466,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北医科大学临床学院",
+      "schoolCode": "D415",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "生物必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 513,
+          "minRank": 154736,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "综合",
+      "selKe": "物理,化学,生物",
+      "plan": 7,
+      "tuition": "10000",
+      "schooling": "5",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 142466,
+      "equivRank": 142466,
+      "prevScore": 519
+    },
+    {
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "综合",
+      "selKe": "生物",
+      "plan": 3,
+      "tuition": "10000",
+      "schooling": "4",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 154736,
+      "equivRank": 154736,
+      "prevScore": 513
+    }
+  ]
+}

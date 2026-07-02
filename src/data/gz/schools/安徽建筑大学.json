@@ -1,0 +1,157 @@
+{
+  "key": "安徽建筑大学",
+  "code": "0025",
+  "name": "安徽建筑大学",
+  "leaves": [
+    {
+      "schoolKey": "安徽建筑大学",
+      "schoolCode": "0025",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 548,
+          "minRank": 7446,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 559,
+          "minRank": 6875,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安徽建筑大学",
+      "schoolCode": "0025",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 522,
+          "minRank": 38364,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 540,
+          "minRank": 27928,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安徽建筑大学",
+      "schoolCode": "0025",
+      "majorKey": "c5a57efa",
+      "majorName": "水利水电工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 523,
+          "minRank": 37565,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 528,
+          "minRank": 34270,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安徽建筑大学",
+      "schoolCode": "0025",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 558,
+          "minRank": 5957,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 576,
+          "minRank": 4516,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "法学",
+      "majorKey": "a1113a1f",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 1,
+      "tuition": "5390",
+      "schooling": "四年",
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevRank": 4516,
+      "equivRank": 4516,
+      "prevScore": 576
+    },
+    {
+      "majorName": "会计学",
+      "majorKey": "8aa56116",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 1,
+      "tuition": "5390",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 6875,
+      "equivRank": 6875,
+      "prevScore": 559
+    },
+    {
+      "majorName": "机械设计制造及其自动化",
+      "majorKey": "55ff9da5",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 1,
+      "tuition": "5980",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 27928,
+      "equivRank": 27928,
+      "prevScore": 540
+    },
+    {
+      "majorName": "水利水电工程",
+      "majorKey": "c5a57efa",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 2,
+      "tuition": "5200",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 34270,
+      "equivRank": 34270,
+      "prevScore": 528
+    }
+  ]
+}

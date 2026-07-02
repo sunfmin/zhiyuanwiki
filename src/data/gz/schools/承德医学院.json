@@ -1,0 +1,46 @@
+{
+  "key": "承德医学院",
+  "code": "0307",
+  "name": "承德医学院",
+  "leaves": [
+    {
+      "schoolKey": "承德医学院",
+      "schoolCode": "0307",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选生物",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 483,
+          "minRank": 63129,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 470,
+          "minRank": 77455,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "物理",
+      "selKe": "首选物理，再选生物",
+      "plan": 4,
+      "tuition": "5720",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 77455,
+      "equivRank": 77455,
+      "prevScore": 470
+    }
+  ]
+}

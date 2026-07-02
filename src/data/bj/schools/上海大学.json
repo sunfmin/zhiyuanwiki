@@ -1,0 +1,65 @@
+{
+  "key": "上海大学",
+  "code": "3120",
+  "name": "上海大学",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "文科试验班类",
+          "majorKey": "f5e060b4",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "6500",
+          "menlei": "他"
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "电气类",
+          "majorKey": "e1371d8e",
+          "selKe": "物理,化学",
+          "plan": 9,
+          "tuition": "7000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "电子信息类",
+          "majorKey": "5e0efed0",
+          "selKe": "物理,化学",
+          "plan": 8,
+          "tuition": "7000",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "",
+          "menlei": "经",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

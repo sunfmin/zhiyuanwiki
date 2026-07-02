@@ -1,0 +1,133 @@
+{
+  "key": "咸阳师范学院",
+  "code": "3681",
+  "name": "咸阳师范学院",
+  "leaves": [
+    {
+      "schoolKey": "咸阳师范学院",
+      "schoolCode": "3681",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 496,
+          "minRank": 30242,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "咸阳师范学院",
+      "schoolCode": "3681",
+      "majorKey": "5ce793fe",
+      "majorName": "数据科学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 489,
+          "minRank": 33293,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "咸阳师范学院",
+      "schoolCode": "3681",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 525,
+          "minRank": 5132,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "咸阳师范学院",
+      "schoolCode": "3681",
+      "majorKey": "653f630d",
+      "majorName": "物理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 489,
+          "minRank": 33293,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5350",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 5132,
+          "equivRank": 5132
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5250",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 30242,
+          "equivRank": 30242
+        },
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5250",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 33293,
+          "equivRank": 33293
+        },
+        {
+          "majorName": "数据科学",
+          "majorKey": "5ce793fe",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 33293,
+          "equivRank": 33293
+        }
+      ]
+    }
+  ]
+}

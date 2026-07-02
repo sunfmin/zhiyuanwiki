@@ -1,0 +1,502 @@
+{
+  "key": "集美大学",
+  "code": "3506",
+  "name": "集美大学",
+  "leaves": [
+    {
+      "schoolKey": "集美大学",
+      "schoolCode": "3506",
+      "majorKey": "ab2d8ff0",
+      "majorName": "少数民族预科班",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 560,
+          "minRank": 8296,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 534,
+          "minRank": 39841,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "集美大学",
+      "schoolCode": "3506",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 573,
+          "minRank": 19584,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "集美大学",
+      "schoolCode": "3506",
+      "majorKey": "5f3767bd",
+      "majorName": "水产养殖学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 496,
+          "minRank": 65271,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "集美大学",
+      "schoolCode": "3506",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 587,
+          "minRank": 3571,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "集美大学",
+      "schoolCode": "3506",
+      "majorKey": "0b52f20f",
+      "majorName": "电子商务",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 539,
+          "minRank": 36923,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5460元",
+          "menlei": "管"
+        },
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5460元",
+          "menlei": "经"
+        },
+        {
+          "majorName": "市场营销",
+          "majorKey": "28c62e21",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5460元",
+          "menlei": "管"
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5460元",
+          "menlei": "文"
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5460元",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 3571,
+          "equivRank": 3571
+        },
+        {
+          "majorName": "社会工作",
+          "majorKey": "fd907dda",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5460元",
+          "menlei": "法"
+        },
+        {
+          "majorName": "翻译",
+          "majorKey": "8f1501ac",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5460元",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5460元",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 3571,
+          "equivRank": 3571
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "少数民族预科班",
+          "majorKey": "ab2d8ff0",
+          "selKe": "历史",
+          "plan": 5,
+          "tuition": "5040元",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 8296,
+          "equivRank": 8296
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "5460元",
+          "menlei": "管"
+        },
+        {
+          "majorName": "电子商务",
+          "majorKey": "0b52f20f",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "5460元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 36923,
+          "equivRank": 36923
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "应用物理学",
+          "majorKey": "409f7ac3",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5460元",
+          "menlei": "理"
+        },
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5460元",
+          "menlei": "理"
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5460元",
+          "menlei": "工"
+        },
+        {
+          "majorName": "网络空间安全",
+          "majorKey": "3093c484",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5460元",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "船舶与海洋工程",
+          "majorKey": "ac3cf080",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "5460元",
+          "menlei": "工"
+        },
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5460元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 19584,
+          "equivRank": 19584
+        },
+        {
+          "majorName": "交通运输",
+          "majorKey": "904549c4",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5460元",
+          "menlei": "工"
+        },
+        {
+          "majorName": "港口航道与海岸工程",
+          "majorKey": "8cb4f310",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5460元",
+          "menlei": "工"
+        },
+        {
+          "majorName": "能源与动力工程",
+          "majorKey": "34997647",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5460元",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "环境工程",
+          "majorKey": "7faf2092",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5460元",
+          "menlei": "工"
+        },
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5460元",
+          "menlei": "工"
+        },
+        {
+          "majorName": "生物工程",
+          "majorKey": "14eeb10f",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5460元",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "05",
+      "groupName": "05",
+      "track": "物理",
+      "selKe": "物理,化学,生物",
+      "majors": [
+        {
+          "majorName": "水产养殖学",
+          "majorKey": "5f3767bd",
+          "selKe": "物理,化学,生物",
+          "plan": 7,
+          "tuition": "5460元",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 65271,
+          "equivRank": 65271
+        },
+        {
+          "majorName": "动物科学",
+          "majorKey": "ca01c9a2",
+          "selKe": "物理,化学,生物",
+          "plan": 3,
+          "tuition": "5460元",
+          "menlei": "农"
+        },
+        {
+          "majorName": "水生动物医学",
+          "majorKey": "95a1ad6d",
+          "selKe": "物理,化学,生物",
+          "plan": 3,
+          "tuition": "5460元",
+          "menlei": "农"
+        },
+        {
+          "majorName": "海洋渔业科学与技术",
+          "majorKey": "0a93dc78",
+          "selKe": "物理,化学,生物",
+          "plan": 3,
+          "tuition": "5460元",
+          "menlei": "农"
+        }
+      ]
+    },
+    {
+      "groupCode": "06",
+      "groupName": "06",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "电子商务",
+          "majorKey": "0b52f20f",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "5460元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 36923,
+          "equivRank": 36923
+        }
+      ]
+    },
+    {
+      "groupCode": "07",
+      "groupName": "07",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5460元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 19584,
+          "equivRank": 19584
+        }
+      ]
+    },
+    {
+      "groupCode": "08",
+      "groupName": "08",
+      "track": "物理",
+      "selKe": "物理,化学,生物",
+      "majors": [
+        {
+          "majorName": "水产养殖学",
+          "majorKey": "5f3767bd",
+          "selKe": "物理,化学,生物",
+          "plan": 3,
+          "tuition": "5460元",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 65271,
+          "equivRank": 65271
+        }
+      ]
+    },
+    {
+      "groupCode": "09",
+      "groupName": "09",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "少数民族预科班",
+          "majorKey": "ab2d8ff0",
+          "selKe": "物理",
+          "plan": 5,
+          "tuition": "5040元",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 39841,
+          "equivRank": 39841
+        }
+      ]
+    },
+    {
+      "groupCode": "99",
+      "groupName": "99",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "船舶电子电气工程",
+          "majorKey": "d05a55f7",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "5460元",
+          "menlei": "工"
+        },
+        {
+          "majorName": "航海技术",
+          "majorKey": "8f20480e",
+          "selKe": "物理,化学",
+          "plan": 20,
+          "tuition": "5460元",
+          "menlei": "工"
+        },
+        {
+          "majorName": "轮机工程",
+          "majorKey": "7115c029",
+          "selKe": "物理,化学",
+          "plan": 10,
+          "tuition": "5460元",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

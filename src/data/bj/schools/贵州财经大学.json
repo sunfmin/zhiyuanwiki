@@ -1,0 +1,101 @@
+{
+  "key": "贵州财经大学",
+  "code": "5204",
+  "name": "贵州财经大学",
+  "leaves": [
+    {
+      "schoolKey": "贵州财经大学",
+      "schoolCode": "5204",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 474,
+          "minRank": 44376,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "贵州财经大学",
+      "schoolCode": "5204",
+      "majorKey": "28c62e21",
+      "majorName": "市场营销",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 458,
+          "minRank": 48219,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "贵州财经大学",
+      "schoolCode": "5204",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 474,
+          "minRank": 44376,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "市场营销",
+          "majorKey": "28c62e21",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "60000",
+          "menlei": "管",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 48219,
+          "equivRank": 48219
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "60000",
+          "menlei": "管",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 44376,
+          "equivRank": 44376
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "60000",
+          "menlei": "管",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 44376,
+          "equivRank": 44376
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "key": "江苏科技大学苏州理工学院",
+  "code": "2881",
+  "name": "江苏科技大学苏州理工学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "20000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "焊接技术与工程",
+          "majorKey": "94c614cf",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "20000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "船舶与海洋工程",
+          "majorKey": "ac3cf080",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "20000",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

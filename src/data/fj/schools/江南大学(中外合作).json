@@ -1,0 +1,42 @@
+{
+  "key": "江南大学(中外合作)",
+  "code": "2875",
+  "name": "江南大学(中外合作)",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "26400",
+          "menlei": "工",
+          "coop": true
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "大数据管理与应用",
+          "majorKey": "2079a63e",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "26400",
+          "menlei": "管",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

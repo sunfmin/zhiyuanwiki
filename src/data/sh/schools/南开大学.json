@@ -1,0 +1,163 @@
+{
+  "key": "南开大学",
+  "code": "0251",
+  "name": "南开大学",
+  "leaves": [
+    {
+      "schoolKey": "南开大学",
+      "schoolCode": "0251",
+      "majorKey": "a9584ad9",
+      "majorName": "中国语言文学类",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 580,
+          "minRank": 4096,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "南开大学",
+      "schoolCode": "0251",
+      "majorKey": "54728189",
+      "majorName": "理科试验班",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 580,
+          "minRank": 4096,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "南开大学",
+      "schoolCode": "0251",
+      "majorKey": "0cabaa98",
+      "majorName": "经济学类",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 580,
+          "minRank": 4096,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "南开大学",
+      "schoolCode": "0251",
+      "majorKey": "b39b8034",
+      "majorName": "金融学类",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 580,
+          "minRank": 4096,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "中国语言文学类",
+          "majorKey": "a9584ad9",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 4096,
+          "equivRank": 4096
+        },
+        {
+          "majorName": "哲学类",
+          "majorKey": "d027e8b0",
+          "selKe": "不限科目",
+          "plan": 1,
+          "tuition": "5200",
+          "menlei": "哲"
+        },
+        {
+          "majorName": "经济学类",
+          "majorKey": "0cabaa98",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 4096,
+          "equivRank": 4096
+        },
+        {
+          "majorName": "金融学类",
+          "majorKey": "b39b8034",
+          "selKe": "不限科目",
+          "plan": 4,
+          "tuition": "5200",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 4096,
+          "equivRank": 4096
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "理科试验班",
+          "majorKey": "54728189",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "5800",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 4096,
+          "equivRank": 4096
+        },
+        {
+          "majorName": "理科试验班",
+          "majorKey": "54728189",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "6200",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 4096,
+          "equivRank": 4096
+        },
+        {
+          "majorName": "理科试验班",
+          "majorKey": "54728189",
+          "selKe": "物理和化学",
+          "plan": 4,
+          "tuition": "5800",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 4096,
+          "equivRank": 4096
+        }
+      ]
+    }
+  ]
+}

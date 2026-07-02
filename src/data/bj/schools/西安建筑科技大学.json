@@ -1,0 +1,41 @@
+{
+  "key": "西安建筑科技大学",
+  "code": "6117",
+  "name": "西安建筑科技大学",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "建筑类",
+          "majorKey": "caa6f3a9",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "6480",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "50000",
+          "menlei": "工",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

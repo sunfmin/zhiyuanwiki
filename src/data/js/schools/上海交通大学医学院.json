@@ -1,0 +1,181 @@
+{
+  "key": "上海交通大学医学院",
+  "code": "2139",
+  "name": "上海交通大学医学院",
+  "leaves": [
+    {
+      "schoolKey": "上海交通大学医学院",
+      "schoolCode": "2139",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 669,
+          "minRank": 114,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 686,
+          "minRank": 142,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 688,
+          "minRank": 122,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 679,
+          "minRank": 227,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海交通大学医学院",
+      "schoolCode": "2139",
+      "majorKey": "696c3187",
+      "majorName": "医学试验班",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 657,
+          "minRank": 388,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 678,
+          "minRank": 493,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 676,
+          "minRank": 596,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 666,
+          "minRank": 1147,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海交通大学医学院",
+      "schoolCode": "2139",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 668,
+          "minRank": 937,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "医学试验班",
+          "majorKey": "696c3187",
+          "selKe": "首选物理，再选化学",
+          "plan": 24,
+          "tuition": "7400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 1147,
+          "equivRank": 1147
+        },
+        {
+          "majorName": "医学试验班",
+          "majorKey": "696c3187",
+          "selKe": "首选物理，再选化学",
+          "plan": 5,
+          "tuition": "7400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 1147,
+          "equivRank": 1147
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "首选物理，再选化学",
+          "plan": 3,
+          "tuition": "7400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 937,
+          "equivRank": 937
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "首选物理，再选化学",
+          "plan": 3,
+          "tuition": "7400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 227,
+          "equivRank": 227
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "首选物理，再选化学",
+          "plan": 1,
+          "tuition": "7400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 227,
+          "equivRank": 227
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "首选物理，再选化学",
+          "plan": 1,
+          "tuition": "10000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 227,
+          "equivRank": 227
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "key": "西北工业大学",
+  "code": "2682",
+  "name": "西北工业大学",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "航空航天类",
+          "majorKey": "9cce9a80",
+          "selKe": "物理,化学",
+          "plan": 7,
+          "tuition": "6600",
+          "menlei": "工"
+        },
+        {
+          "majorName": "航空航天类",
+          "majorKey": "9cce9a80",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6600",
+          "menlei": "工"
+        },
+        {
+          "majorName": "计算机类",
+          "majorKey": "8230723d",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6600",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "80",
+      "groupName": "80",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "探测制导与控制技术",
+          "majorKey": "e918d759",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "70000",
+          "menlei": "工",
+          "coop": true
+        },
+        {
+          "majorName": "航空航天工程",
+          "majorKey": "dbd998c2",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "70000",
+          "menlei": "工",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

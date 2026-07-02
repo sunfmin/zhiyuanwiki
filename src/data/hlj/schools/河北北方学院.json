@@ -1,0 +1,107 @@
+{
+  "key": "河北北方学院",
+  "code": "1154",
+  "name": "河北北方学院",
+  "leaves": [
+    {
+      "schoolKey": "河北北方学院",
+      "schoolCode": "1154",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 419,
+          "minRank": 35254,
+          "maxScore": 436
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 516,
+          "minRank": 29528,
+          "maxScore": 535
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 519,
+          "minRank": 25891,
+          "maxScore": 542
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北北方学院",
+      "schoolCode": "1154",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 411,
+          "minRank": 37710,
+          "maxScore": 418
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 481,
+          "minRank": 40839,
+          "maxScore": 491
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 462,
+          "minRank": 45615,
+          "maxScore": 482
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5700",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 25891,
+          "equivRank": 24216
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5700",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 45615,
+          "equivRank": 42664
+        }
+      ]
+    }
+  ]
+}

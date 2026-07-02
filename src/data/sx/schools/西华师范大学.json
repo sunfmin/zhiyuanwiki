@@ -1,0 +1,195 @@
+{
+  "key": "西华师范大学",
+  "code": "7217",
+  "name": "西华师范大学",
+  "leaves": [
+    {
+      "schoolKey": "西华师范大学",
+      "schoolCode": "7217",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 504,
+          "minRank": 16277,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西华师范大学",
+      "schoolCode": "7217",
+      "majorKey": "ec77cae2",
+      "majorName": "旅游管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 498,
+          "minRank": 17737,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西华师范大学",
+      "schoolCode": "7217",
+      "majorKey": "72c52639",
+      "majorName": "材料物理",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 474,
+          "minRank": 73190,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西华师范大学",
+      "schoolCode": "7217",
+      "majorKey": "2698a02f",
+      "majorName": "环境生态工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 473,
+          "minRank": 73886,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西华师范大学",
+      "schoolCode": "7217",
+      "majorKey": "37356fa4",
+      "majorName": "环境科学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 474,
+          "minRank": 73190,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西华师范大学",
+      "schoolCode": "7217",
+      "majorKey": "a32c820b",
+      "majorName": "野生动物与自然保护区管理",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 469,
+          "minRank": 76852,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "5760",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 16277,
+          "equivRank": 16277
+        },
+        {
+          "majorName": "旅游管理",
+          "majorKey": "ec77cae2",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "5760",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 17737,
+          "equivRank": 17737
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "环境生态工程",
+          "majorKey": "2698a02f",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "6240",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 73886,
+          "equivRank": 73886
+        },
+        {
+          "majorName": "环境科学",
+          "majorKey": "37356fa4",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "6240",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 73190,
+          "equivRank": 73190
+        },
+        {
+          "majorName": "材料物理",
+          "majorKey": "72c52639",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "6240",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 73190,
+          "equivRank": 73190
+        }
+      ]
+    },
+    {
+      "groupCode": "105",
+      "groupName": "105",
+      "track": "物理",
+      "selKe": "物理,化学,生物",
+      "majors": [
+        {
+          "majorName": "野生动物与自然保护区管理",
+          "majorKey": "a32c820b",
+          "selKe": "物理,化学,生物",
+          "plan": 3,
+          "tuition": "5760",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 76852,
+          "equivRank": 76852
+        }
+      ]
+    }
+  ]
+}

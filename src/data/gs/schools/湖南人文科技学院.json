@@ -1,0 +1,195 @@
+{
+  "key": "湖南人文科技学院",
+  "code": "2868",
+  "name": "湖南人文科技学院",
+  "leaves": [
+    {
+      "schoolKey": "湖南人文科技学院",
+      "schoolCode": "2868",
+      "majorKey": "59687759",
+      "majorName": "应用心理学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 468,
+          "minRank": 13568,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 442,
+          "minRank": 56955,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖南人文科技学院",
+      "schoolCode": "2868",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 462,
+          "minRank": 46200,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖南人文科技学院",
+      "schoolCode": "2868",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 473,
+          "minRank": 12671,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 442,
+          "minRank": 56955,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖南人文科技学院",
+      "schoolCode": "2868",
+      "majorKey": "fff04889",
+      "majorName": "网络与新媒体",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 464,
+          "minRank": 14358,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 439,
+          "minRank": 58635,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不提科目要求",
+          "plan": 5,
+          "tuition": "待定",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 12671,
+          "equivRank": 12671
+        },
+        {
+          "majorName": "应用心理学",
+          "majorKey": "59687759",
+          "selKe": "不提科目要求",
+          "plan": 4,
+          "tuition": "待定",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 13568,
+          "equivRank": 13568
+        },
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "不提科目要求",
+          "plan": 3,
+          "tuition": "待定",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 14358,
+          "equivRank": 14358
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不提科目要求",
+          "plan": 1,
+          "tuition": "待定",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 56955,
+          "equivRank": 56955
+        },
+        {
+          "majorName": "应用心理学",
+          "majorKey": "59687759",
+          "selKe": "不提科目要求",
+          "plan": 2,
+          "tuition": "待定",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 56955,
+          "equivRank": 56955
+        },
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "不提科目要求",
+          "plan": 2,
+          "tuition": "待定",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 58635,
+          "equivRank": 58635
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "004",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理,化学",
+          "plan": 6,
+          "tuition": "待定",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 46200,
+          "equivRank": 46200
+        }
+      ]
+    }
+  ]
+}

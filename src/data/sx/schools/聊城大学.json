@@ -1,0 +1,249 @@
+{
+  "key": "聊城大学",
+  "code": "3420",
+  "name": "聊城大学",
+  "leaves": [
+    {
+      "schoolKey": "聊城大学",
+      "schoolCode": "3420",
+      "majorKey": "25624660",
+      "majorName": "应用化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 435,
+          "minRank": 101605,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "聊城大学",
+      "schoolCode": "3420",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 482,
+          "minRank": 67495,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "聊城大学",
+      "schoolCode": "3420",
+      "majorKey": "35ec1f36",
+      "majorName": "新能源材料与器件",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 483,
+          "minRank": 66776,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "聊城大学",
+      "schoolCode": "3420",
+      "majorKey": "97b7b689",
+      "majorName": "生物制药",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 427,
+          "minRank": 107147,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "聊城大学",
+      "schoolCode": "3420",
+      "majorKey": "14eeb10f",
+      "majorName": "生物工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 434,
+          "minRank": 102255,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "聊城大学",
+      "schoolCode": "3420",
+      "majorKey": "1c1ee3f7",
+      "majorName": "通信工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 484,
+          "minRank": 66080,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "聊城大学",
+      "schoolCode": "3420",
+      "majorKey": "7b7511cd",
+      "majorName": "食品科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 482,
+          "minRank": 67495,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "5200",
+          "menlei": "文"
+        },
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "史"
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "新能源材料与器件",
+          "majorKey": "35ec1f36",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 66776,
+          "equivRank": 66776
+        },
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 66080,
+          "equivRank": 66080
+        },
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 67495,
+          "equivRank": 67495
+        },
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6600",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 67495,
+          "equivRank": 67495
+        }
+      ]
+    },
+    {
+      "groupCode": "501",
+      "groupName": "501",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "应用化学",
+          "majorKey": "25624660",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "40000",
+          "menlei": "理",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 101605,
+          "equivRank": 101605
+        },
+        {
+          "majorName": "生物工程",
+          "majorKey": "14eeb10f",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "40000",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 102255,
+          "equivRank": 102255
+        }
+      ]
+    },
+    {
+      "groupCode": "502",
+      "groupName": "502",
+      "track": "物理",
+      "selKe": "物理,化学,生物",
+      "majors": [
+        {
+          "majorName": "生物制药",
+          "majorKey": "97b7b689",
+          "selKe": "物理,化学,生物",
+          "plan": 3,
+          "tuition": "40000",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 107147,
+          "equivRank": 107147
+        }
+      ]
+    }
+  ]
+}

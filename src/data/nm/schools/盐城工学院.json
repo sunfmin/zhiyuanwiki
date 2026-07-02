@@ -1,0 +1,140 @@
+{
+  "key": "盐城工学院",
+  "code": "E83",
+  "name": "盐城工学院",
+  "leaves": [
+    {
+      "schoolKey": "盐城工学院",
+      "schoolCode": "E83",
+      "majorKey": "24d6dbdf",
+      "majorName": "交通工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 493,
+          "minRank": 31838,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "盐城工学院",
+      "schoolCode": "E83",
+      "majorKey": "ec77cae2",
+      "majorName": "旅游管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 489,
+          "minRank": 11157,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "盐城工学院",
+      "schoolCode": "E83",
+      "majorKey": "cde36de1",
+      "majorName": "民族预科班",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 483,
+          "minRank": 11943,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 471,
+          "minRank": 38447,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "旅游管理",
+          "majorKey": "ec77cae2",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 11157,
+          "equivRank": 11157
+        }
+      ]
+    },
+    {
+      "groupCode": "006",
+      "groupName": "006",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "民族预科班",
+          "majorKey": "cde36de1",
+          "selKe": "不限",
+          "plan": 8,
+          "tuition": "5200",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 11943,
+          "equivRank": 11943
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "交通工程",
+          "majorKey": "24d6dbdf",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 31838,
+          "equivRank": 31838
+        }
+      ]
+    },
+    {
+      "groupCode": "005",
+      "groupName": "005",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "民族预科班",
+          "majorKey": "cde36de1",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 38447,
+          "equivRank": 38447
+        }
+      ]
+    }
+  ]
+}

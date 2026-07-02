@@ -1,0 +1,220 @@
+{
+  "key": "河南中医药大学",
+  "code": "1871",
+  "name": "河南中医药大学",
+  "leaves": [
+    {
+      "schoolKey": "河南中医药大学",
+      "schoolCode": "1871",
+      "majorKey": "db5334a1",
+      "majorName": "中药学类",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 398,
+          "minRank": 42018,
+          "maxScore": 416
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 499,
+          "minRank": 34833,
+          "maxScore": 504
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 482,
+          "minRank": 38402,
+          "maxScore": 494
+        }
+      ]
+    },
+    {
+      "schoolKey": "河南中医药大学",
+      "schoolCode": "1871",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "生物",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 398,
+          "minRank": 42018,
+          "maxScore": 423
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 482,
+          "minRank": 11577,
+          "maxScore": 497
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 469,
+          "minRank": 45054,
+          "maxScore": 475
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 468,
+          "minRank": 12297,
+          "maxScore": 468
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 489,
+          "minRank": 35963,
+          "maxScore": 492
+        }
+      ]
+    },
+    {
+      "schoolKey": "河南中医药大学",
+      "schoolCode": "1871",
+      "majorKey": "c744f66e",
+      "majorName": "针灸推拿学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 420,
+          "minRank": 34912,
+          "maxScore": 430
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 504,
+          "minRank": 33269,
+          "maxScore": 543
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 531,
+          "minRank": 4921,
+          "maxScore": 541
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 521,
+          "minRank": 25264,
+          "maxScore": 524
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "针灸推拿学",
+          "majorKey": "c744f66e",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 4921,
+          "equivRank": 4921
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "历史",
+      "selKe": "生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 12297,
+          "equivRank": 12297
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "针灸推拿学",
+          "majorKey": "c744f66e",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 25264,
+          "equivRank": 23629
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "第004组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "药物制剂",
+          "majorKey": "dc8e7679",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "医"
+        },
+        {
+          "majorName": "中药学",
+          "majorKey": "f9504a0c",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "005",
+      "groupName": "第005组",
+      "track": "物理",
+      "selKe": "生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 35963,
+          "equivRank": 33636
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "key": "广州工商学院",
+  "code": "4492",
+  "name": "广州工商学院",
+  "leaves": [
+    {
+      "schoolKey": "广州工商学院",
+      "schoolCode": "4492",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 443,
+          "minRank": 162597,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "广州工商学院",
+      "schoolCode": "4492",
+      "majorKey": "4428fd77",
+      "majorName": "商务英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 442,
+          "minRank": 53293,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "广州工商学院",
+      "schoolCode": "4492",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 427,
+          "minRank": 183616,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "广州工商学院",
+      "schoolCode": "4492",
+      "majorKey": "0c33cbdd",
+      "majorName": "软件工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 439,
+          "minRank": 167982,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "广州工商学院",
+      "schoolCode": "4492",
+      "majorKey": "1c1ee3f7",
+      "majorName": "通信工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 423,
+          "minRank": 188716,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（102）",
+      "groupName": "（102）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "商务英语",
+          "majorKey": "4428fd77",
+          "selKe": "首选历史，再选不限",
+          "plan": 1,
+          "tuition": "46600",
+          "menlei": "文",
+          "prevYear": 2024,
+          "prevRank": 53293,
+          "equivRank": 50826
+        }
+      ]
+    },
+    {
+      "groupCode": "（103）",
+      "groupName": "（103）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "商务英语",
+          "majorKey": "4428fd77",
+          "selKe": "首选物理，再选不限",
+          "plan": 1,
+          "tuition": "46600",
+          "menlei": "文",
+          "prevYear": 2024,
+          "prevRank": 53293,
+          "equivRank": 202447
+        }
+      ]
+    },
+    {
+      "groupCode": "（104）",
+      "groupName": "（104）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "首选物理，再选化学",
+          "plan": 3,
+          "tuition": "47600",
+          "menlei": "工",
+          "prevYear": 2024,
+          "prevRank": 162597,
+          "equivRank": 180715
+        }
+      ]
+    },
+    {
+      "groupCode": "（205）",
+      "groupName": "（205）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "首选物理，再选化学",
+          "plan": 4,
+          "tuition": "78605",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2024,
+          "prevRank": 183616,
+          "equivRank": 204077
+        },
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "首选物理，再选化学",
+          "plan": 3,
+          "tuition": "78605",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2024,
+          "prevRank": 167982,
+          "equivRank": 186701
+        },
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "首选物理，再选化学",
+          "plan": 3,
+          "tuition": "78605",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2024,
+          "prevRank": 188716,
+          "equivRank": 209745
+        }
+      ]
+    }
+  ]
+}

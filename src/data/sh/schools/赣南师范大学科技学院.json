@@ -1,0 +1,106 @@
+{
+  "key": "赣南师范大学科技学院",
+  "code": "0623",
+  "name": "赣南师范大学科技学院",
+  "leaves": [
+    {
+      "schoolKey": "赣南师范大学科技学院",
+      "schoolCode": "0623",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 410,
+          "minRank": 47630,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "赣南师范大学科技学院",
+      "schoolCode": "0623",
+      "majorKey": "328d1a00",
+      "majorName": "智能测控工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 405,
+          "minRank": 48663,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "赣南师范大学科技学院",
+      "schoolCode": "0623",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 409,
+          "minRank": 47844,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限科目",
+          "plan": 3,
+          "tuition": "12000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 47844,
+          "equivRank": 47844
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "13500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 47630,
+          "equivRank": 47630
+        },
+        {
+          "majorName": "智能测控工程",
+          "majorKey": "328d1a00",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "13500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 48663,
+          "equivRank": 48663
+        }
+      ]
+    }
+  ]
+}

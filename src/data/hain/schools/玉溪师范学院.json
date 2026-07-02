@@ -1,0 +1,133 @@
+{
+  "key": "玉溪师范学院",
+  "code": "2597",
+  "name": "玉溪师范学院",
+  "leaves": [
+    {
+      "schoolKey": "玉溪师范学院",
+      "schoolCode": "2597",
+      "majorKey": "ec77cae2",
+      "majorName": "旅游管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 558,
+          "minRank": 21454,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "玉溪师范学院",
+      "schoolCode": "2597",
+      "majorKey": "e2472a71",
+      "majorName": "生物科学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 520,
+          "minRank": 31766,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "玉溪师范学院",
+      "schoolCode": "2597",
+      "majorKey": "8e6ea071",
+      "majorName": "经济与金融",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 553,
+          "minRank": 22684,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "玉溪师范学院",
+      "schoolCode": "2597",
+      "majorKey": "1c1ee3f7",
+      "majorName": "通信工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 520,
+          "minRank": 31766,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "旅游管理",
+          "majorKey": "ec77cae2",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 21454,
+          "equivRank": 21454
+        },
+        {
+          "majorName": "经济与金融",
+          "majorKey": "8e6ea071",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 22684,
+          "equivRank": 22684
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 31766,
+          "equivRank": 31766
+        },
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 31766,
+          "equivRank": 31766
+        }
+      ]
+    }
+  ]
+}

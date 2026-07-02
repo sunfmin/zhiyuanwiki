@@ -1,0 +1,44 @@
+{
+  "key": "上海健康医学院",
+  "code": "3170",
+  "name": "上海健康医学院",
+  "leaves": [
+    {
+      "schoolKey": "上海健康医学院",
+      "schoolCode": "3170",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 495,
+          "minRank": 7705,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "501",
+      "groupName": "501",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "7400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 7705,
+          "equivRank": 7705
+        }
+      ]
+    }
+  ]
+}

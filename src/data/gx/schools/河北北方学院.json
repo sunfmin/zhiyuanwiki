@@ -1,0 +1,114 @@
+{
+  "key": "河北北方学院",
+  "code": "10092",
+  "name": "河北北方学院",
+  "leaves": [
+    {
+      "schoolKey": "河北北方学院",
+      "schoolCode": "10092",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 490,
+          "minRank": 63253,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北北方学院",
+      "schoolCode": "10092",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 462,
+          "minRank": 86001,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北北方学院",
+      "schoolCode": "10092",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 439,
+          "minRank": 106767,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "151",
+      "groupName": "专业组:151(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 10,
+          "tuition": "5700元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 63253,
+          "equivRank": 63253
+        }
+      ]
+    },
+    {
+      "groupCode": "152",
+      "groupName": "专业组:152(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "医学影像学",
+          "majorKey": "5780af73",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5700元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 86001,
+          "equivRank": 86001
+        }
+      ]
+    },
+    {
+      "groupCode": "153",
+      "groupName": "专业组:153(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "化学",
+          "plan": 10,
+          "tuition": "5700元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 106767,
+          "equivRank": 106767
+        }
+      ]
+    }
+  ]
+}

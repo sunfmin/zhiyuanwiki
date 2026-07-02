@@ -1,0 +1,106 @@
+{
+  "key": "广州美术学院",
+  "code": "H783",
+  "name": "广州美术学院",
+  "leaves": [
+    {
+      "schoolKey": "广州美术学院",
+      "schoolCode": "H783",
+      "majorKey": "fee47c1b",
+      "majorName": "工业设计",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 551,
+          "minRank": 43643,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "广州美术学院",
+      "schoolCode": "H783",
+      "majorKey": "6b32f2c4",
+      "majorName": "建筑学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 552,
+          "minRank": 42868,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "广州美术学院",
+      "schoolCode": "H783",
+      "majorKey": "9b8820c1",
+      "majorName": "风景园林",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 534,
+          "minRank": 57289,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "风景园林",
+          "majorKey": "9b8820c1",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "15000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 57289,
+          "equivRank": 57289
+        },
+        {
+          "majorName": "建筑学",
+          "majorKey": "6b32f2c4",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "15000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 42868,
+          "equivRank": 42868
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "工业设计",
+          "majorKey": "fee47c1b",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "15000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 43643,
+          "equivRank": 43643
+        }
+      ]
+    }
+  ]
+}

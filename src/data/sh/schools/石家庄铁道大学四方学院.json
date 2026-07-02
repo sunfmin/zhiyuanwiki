@@ -1,0 +1,168 @@
+{
+  "key": "石家庄铁道大学四方学院",
+  "code": "0293",
+  "name": "石家庄铁道大学四方学院",
+  "leaves": [
+    {
+      "schoolKey": "石家庄铁道大学四方学院",
+      "schoolCode": "0293",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 411,
+          "minRank": 47401,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "石家庄铁道大学四方学院",
+      "schoolCode": "0293",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 413,
+          "minRank": 46964,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "石家庄铁道大学四方学院",
+      "schoolCode": "0293",
+      "majorKey": "4166f1ff",
+      "majorName": "工程管理",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 408,
+          "minRank": 48030,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "石家庄铁道大学四方学院",
+      "schoolCode": "0293",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 417,
+          "minRank": 46139,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "石家庄铁道大学四方学院",
+      "schoolCode": "0293",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 421,
+          "minRank": 45226,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限科目",
+          "plan": 4,
+          "tuition": "10000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 47401,
+          "equivRank": 47401
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "工程管理",
+          "majorKey": "4166f1ff",
+          "selKe": "物理",
+          "plan": 4,
+          "tuition": "10000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 48030,
+          "equivRank": 48030
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "物理和化学",
+          "plan": 4,
+          "tuition": "10000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 46964,
+          "equivRank": 46964
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理和化学",
+          "plan": 4,
+          "tuition": "10000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 45226,
+          "equivRank": 45226
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "物理和化学",
+          "plan": 4,
+          "tuition": "10000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 46139,
+          "equivRank": 46139
+        }
+      ]
+    }
+  ]
+}

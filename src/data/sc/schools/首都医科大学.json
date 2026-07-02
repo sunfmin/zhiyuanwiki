@@ -1,0 +1,236 @@
+{
+  "key": "首都医科大学",
+  "code": "1106",
+  "name": "首都医科大学",
+  "leaves": [
+    {
+      "schoolKey": "首都医科大学",
+      "schoolCode": "1106",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 624,
+          "minRank": 11304,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都医科大学",
+      "schoolCode": "1106",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 660,
+          "minRank": 1834,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都医科大学",
+      "schoolCode": "1106",
+      "majorKey": "db9ffa2a",
+      "majorName": "儿科学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 633,
+          "minRank": 7923,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都医科大学",
+      "schoolCode": "1106",
+      "majorKey": "30e8a552",
+      "majorName": "公共事业管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 571,
+          "minRank": 45003,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都医科大学",
+      "schoolCode": "1106",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 553,
+          "minRank": 62454,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都医科大学",
+      "schoolCode": "1106",
+      "majorKey": "f84887da",
+      "majorName": "眼视光医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 634,
+          "minRank": 7620,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都医科大学",
+      "schoolCode": "1106",
+      "majorKey": "1954d9c9",
+      "majorName": "预防医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 617,
+          "minRank": 14292,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "",
+      "majors": [
+        {
+          "majorName": "公共事业管理",
+          "majorKey": "30e8a552",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4年",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 45003,
+          "equivRank": 45003
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 1834,
+          "equivRank": 1834
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "5年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 1834,
+          "equivRank": 1834
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "5年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 1834,
+          "equivRank": 1834
+        },
+        {
+          "majorName": "儿科学",
+          "majorKey": "db9ffa2a",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "5年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 7923,
+          "equivRank": 7923
+        },
+        {
+          "majorName": "眼视光医学",
+          "majorKey": "f84887da",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 7620,
+          "equivRank": 7620
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "4年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 62454,
+          "equivRank": 62454
+        },
+        {
+          "majorName": "预防医学",
+          "majorKey": "1954d9c9",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 14292,
+          "equivRank": 14292
+        },
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "5年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 11304,
+          "equivRank": 11304
+        }
+      ]
+    }
+  ]
+}

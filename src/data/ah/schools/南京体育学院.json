@@ -1,0 +1,141 @@
+{
+  "key": "南京体育学院",
+  "code": "2075",
+  "name": "南京体育学院",
+  "leaves": [
+    {
+      "schoolKey": "南京体育学院",
+      "schoolCode": "2075",
+      "majorKey": "a507c400",
+      "majorName": "康复治疗学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 526,
+          "minRank": 98913,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "南京体育学院",
+      "schoolCode": "2075",
+      "majorKey": "9c5f4a34",
+      "majorName": "新闻学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 528,
+          "minRank": 21486,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "南京体育学院",
+      "schoolCode": "2075",
+      "majorKey": "676f341a",
+      "majorName": "运动人体科学",
+      "selKe": "首选物理，再选生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 524,
+          "minRank": 101477,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "南京体育学院",
+      "schoolCode": "2075",
+      "majorKey": "047778fd",
+      "majorName": "运动康复",
+      "selKe": "首选物理，再选生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 523,
+          "minRank": 102791,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "新闻学",
+          "majorKey": "9c5f4a34",
+          "selKe": "不限",
+          "plan": 7,
+          "tuition": "5200元/年",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 21486,
+          "equivRank": 21486
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "康复治疗学",
+          "majorKey": "a507c400",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "6800元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 98913,
+          "equivRank": 98913
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002专业组",
+      "track": "物理",
+      "selKe": "生物学",
+      "majors": [
+        {
+          "majorName": "运动人体科学",
+          "majorKey": "676f341a",
+          "selKe": "生物学",
+          "plan": 4,
+          "tuition": "5300元/年",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 101477,
+          "equivRank": 101477
+        },
+        {
+          "majorName": "运动康复",
+          "majorKey": "047778fd",
+          "selKe": "生物学",
+          "plan": 4,
+          "tuition": "5300元/年",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 102791,
+          "equivRank": 102791
+        }
+      ]
+    }
+  ]
+}

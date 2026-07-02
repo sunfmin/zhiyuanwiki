@@ -1,0 +1,168 @@
+{
+  "key": "东北师范大学",
+  "code": "0372",
+  "name": "东北师范大学",
+  "leaves": [
+    {
+      "schoolKey": "东北师范大学",
+      "schoolCode": "0372",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 520,
+          "minRank": 18580,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "东北师范大学",
+      "schoolCode": "0372",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 539,
+          "minRank": 13322,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "东北师范大学",
+      "schoolCode": "0372",
+      "majorKey": "3d12abf2",
+      "majorName": "物理学类",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 541,
+          "minRank": 12796,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "东北师范大学",
+      "schoolCode": "0372",
+      "majorKey": "d47d0996",
+      "majorName": "生物科学类",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 539,
+          "minRank": 13322,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "东北师范大学",
+      "schoolCode": "0372",
+      "majorKey": "0cabaa98",
+      "majorName": "经济学类",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 531,
+          "minRank": 15514,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "5810",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 13322,
+          "equivRank": 13322
+        },
+        {
+          "majorName": "经济学类",
+          "majorKey": "0cabaa98",
+          "selKe": "不限科目",
+          "plan": 3,
+          "tuition": "6070",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 15514,
+          "equivRank": 15514
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "生物科学类",
+          "majorKey": "d47d0996",
+          "selKe": "物理和化学",
+          "plan": 3,
+          "tuition": "6320",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 13322,
+          "equivRank": 13322
+        },
+        {
+          "majorName": "物理学类",
+          "majorKey": "3d12abf2",
+          "selKe": "物理和化学",
+          "plan": 3,
+          "tuition": "6320",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 12796,
+          "equivRank": 12796
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限科目",
+          "plan": 4,
+          "tuition": "37000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 18580,
+          "equivRank": 18580
+        }
+      ]
+    }
+  ]
+}

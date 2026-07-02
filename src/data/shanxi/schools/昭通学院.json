@@ -1,0 +1,106 @@
+{
+  "key": "昭通学院",
+  "code": "3559",
+  "name": "昭通学院",
+  "leaves": [
+    {
+      "schoolKey": "昭通学院",
+      "schoolCode": "3559",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 434,
+          "minRank": 89969,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "昭通学院",
+      "schoolCode": "3559",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 460,
+          "minRank": 20762,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "昭通学院",
+      "schoolCode": "3559",
+      "majorKey": "062bcf46",
+      "majorName": "行政管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 448,
+          "minRank": 24085,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 20762,
+          "equivRank": 20762
+        },
+        {
+          "majorName": "行政管理",
+          "majorKey": "062bcf46",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 24085,
+          "equivRank": 24085
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 89969,
+          "equivRank": 89969
+        }
+      ]
+    }
+  ]
+}

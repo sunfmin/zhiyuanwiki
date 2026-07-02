@@ -1,0 +1,222 @@
+{
+  "key": "安徽医科大学",
+  "code": "10366",
+  "name": "安徽医科大学",
+  "leaves": [
+    {
+      "schoolKey": "安徽医科大学",
+      "schoolCode": "10366",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 534,
+          "minRank": 106297,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安徽医科大学",
+      "schoolCode": "10366",
+      "majorKey": "bd766b24",
+      "majorName": "医疗保险",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 533,
+          "minRank": 107886,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安徽医科大学",
+      "schoolCode": "10366",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 546,
+          "minRank": 87668,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安徽医科大学",
+      "schoolCode": "10366",
+      "majorKey": "2079a63e",
+      "majorName": "大数据管理与应用",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 539,
+          "minRank": 98392,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安徽医科大学",
+      "schoolCode": "10366",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 533,
+          "minRank": 107886,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安徽医科大学",
+      "schoolCode": "10366",
+      "majorKey": "047778fd",
+      "majorName": "运动康复",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 536,
+          "minRank": 103197,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安徽医科大学",
+      "schoolCode": "10366",
+      "majorKey": "1954d9c9",
+      "majorName": "预防医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 526,
+          "minRank": 119651,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "203",
+      "groupName": "203",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "医疗保险",
+          "majorKey": "bd766b24",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4900",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 107886,
+          "equivRank": 107886
+        },
+        {
+          "majorName": "大数据管理与应用",
+          "majorKey": "2079a63e",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4900",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 98392,
+          "equivRank": 98392
+        },
+        {
+          "majorName": "运动康复",
+          "majorKey": "047778fd",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 103197,
+          "equivRank": 103197
+        }
+      ]
+    },
+    {
+      "groupCode": "204",
+      "groupName": "204",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "6050",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 106297,
+          "equivRank": 106297
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6050",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 87668,
+          "equivRank": 87668
+        },
+        {
+          "majorName": "预防医学",
+          "majorKey": "1954d9c9",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 119651,
+          "equivRank": 119651
+        },
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 107886,
+          "equivRank": 107886
+        },
+        {
+          "majorName": "助产学",
+          "majorKey": "754290a4",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "医"
+        }
+      ]
+    }
+  ]
+}

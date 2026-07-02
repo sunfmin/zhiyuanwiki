@@ -1,0 +1,79 @@
+{
+  "key": "肇庆学院",
+  "code": "0853",
+  "name": "肇庆学院",
+  "leaves": [
+    {
+      "schoolKey": "肇庆学院",
+      "schoolCode": "0853",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 502,
+          "minRank": 9663,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "肇庆学院",
+      "schoolCode": "0853",
+      "majorKey": "c0cadbbb",
+      "majorName": "资源环境科学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 427,
+          "minRank": 52652,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "006",
+      "groupName": "006",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5050",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 9663,
+          "equivRank": 9663
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "004",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "资源环境科学",
+          "majorKey": "c0cadbbb",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5710",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 52652,
+          "equivRank": 52652
+        }
+      ]
+    }
+  ]
+}

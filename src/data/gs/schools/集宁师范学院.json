@@ -1,0 +1,79 @@
+{
+  "key": "集宁师范学院",
+  "code": "1385",
+  "name": "集宁师范学院",
+  "leaves": [
+    {
+      "schoolKey": "集宁师范学院",
+      "schoolCode": "1385",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 469,
+          "minRank": 13375,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "集宁师范学院",
+      "schoolCode": "1385",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 458,
+          "minRank": 15545,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不提科目要求",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 15545,
+          "equivRank": 15545
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "思想政治,历史",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "思想政治,历史",
+          "plan": 3,
+          "tuition": "4200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 13375,
+          "equivRank": 13375
+        }
+      ]
+    }
+  ]
+}

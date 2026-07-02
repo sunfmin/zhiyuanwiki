@@ -1,0 +1,174 @@
+{
+  "key": "上海交通大学医学院",
+  "code": "0120",
+  "name": "上海交通大学医学院",
+  "leaves": [
+    {
+      "schoolKey": "上海交通大学医学院",
+      "schoolCode": "0120",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 580,
+          "minRank": 4096,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海交通大学医学院",
+      "schoolCode": "0120",
+      "majorKey": "25bf7075",
+      "majorName": "医学技术类",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 580,
+          "minRank": 4096,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海交通大学医学院",
+      "schoolCode": "0120",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 580,
+          "minRank": 4096,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海交通大学医学院",
+      "schoolCode": "0120",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 579,
+          "minRank": 4285,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "7400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 4096,
+          "equivRank": 4096
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理和化学",
+          "plan": 1,
+          "tuition": "7400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 4096,
+          "equivRank": 4096
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理和化学",
+          "plan": 3,
+          "tuition": "10000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 4096,
+          "equivRank": 4096
+        }
+      ]
+    },
+    {
+      "groupCode": "Q2",
+      "groupName": "Q2",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "物理和化学",
+          "plan": 25,
+          "tuition": "7400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 4096,
+          "equivRank": 4096
+        },
+        {
+          "majorName": "医学技术类",
+          "majorKey": "25bf7075",
+          "selKe": "物理和化学",
+          "plan": 60,
+          "tuition": "7400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 4096,
+          "equivRank": 4096
+        }
+      ]
+    },
+    {
+      "groupCode": "Q3",
+      "groupName": "Q3",
+      "track": "综合",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 18,
+          "tuition": "7400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 4285,
+          "equivRank": 4285
+        },
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 12,
+          "tuition": "7400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 4285,
+          "equivRank": 4285
+        }
+      ]
+    }
+  ]
+}

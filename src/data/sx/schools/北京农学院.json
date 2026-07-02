@@ -1,0 +1,73 @@
+{
+  "key": "北京农学院",
+  "code": "1019",
+  "name": "北京农学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "食品营养与健康",
+          "majorKey": "b069d960",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "4600",
+          "menlei": "工"
+        },
+        {
+          "majorName": "动物科学",
+          "majorKey": "ca01c9a2",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "-",
+          "menlei": "农"
+        },
+        {
+          "majorName": "应用化学",
+          "majorKey": "25624660",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "理"
+        },
+        {
+          "majorName": "植物保护",
+          "majorKey": "c931a1e1",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "-",
+          "menlei": "农"
+        },
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "-",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "501",
+      "groupName": "501",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "-",
+          "menlei": "工",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

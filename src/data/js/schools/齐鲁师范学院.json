@@ -1,0 +1,167 @@
+{
+  "key": "齐鲁师范学院",
+  "code": "2710",
+  "name": "齐鲁师范学院",
+  "leaves": [
+    {
+      "schoolKey": "齐鲁师范学院",
+      "schoolCode": "2710",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 515,
+          "minRank": 92075,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 519,
+          "minRank": 108391,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 523,
+          "minRank": 115153,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "齐鲁师范学院",
+      "schoolCode": "2710",
+      "majorKey": "653f630d",
+      "majorName": "物理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 503,
+          "minRank": 158579,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "齐鲁师范学院",
+      "schoolCode": "2710",
+      "majorKey": "da8a20f0",
+      "majorName": "生物信息学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 496,
+          "minRank": 167921,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "齐鲁师范学院",
+      "schoolCode": "2710",
+      "majorKey": "e2472a71",
+      "majorName": "生物科学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 465,
+          "minRank": 204004,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "齐鲁师范学院",
+      "schoolCode": "2710",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 520,
+          "minRank": 25298,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 531,
+          "minRank": 25823,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 531,
+          "minRank": 26371,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "生物信息学",
+          "majorKey": "da8a20f0",
+          "selKe": "首选物理，再选化学",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 167921,
+          "equivRank": 167921
+        },
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "首选物理，再选化学",
+          "plan": 5,
+          "tuition": "6600",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 158579,
+          "equivRank": 158579
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "首选物理，再选化学",
+          "plan": 10,
+          "tuition": "26000",
+          "menlei": "理",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 204004,
+          "equivRank": 204004
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "key": "湘潭大学",
+  "code": "4315",
+  "name": "湘潭大学",
+  "leaves": [
+    {
+      "schoolKey": "湘潭大学",
+      "schoolCode": "4315",
+      "majorKey": "33b3d741",
+      "majorName": "数学类",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 579,
+          "minRank": 16724,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湘潭大学",
+      "schoolCode": "4315",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 583,
+          "minRank": 15792,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湘潭大学",
+      "schoolCode": "4315",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 577,
+          "minRank": 17264,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湘潭大学",
+      "schoolCode": "4315",
+      "majorKey": "3093c484",
+      "majorName": "网络空间安全",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 585,
+          "minRank": 15321,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "5500",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 17264,
+          "equivRank": 17264
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5300",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 15792,
+          "equivRank": 15792
+        },
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "经"
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "数学类",
+          "majorKey": "33b3d741",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "5300",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 16724,
+          "equivRank": 16724
+        },
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6500",
+          "menlei": "工"
+        },
+        {
+          "majorName": "网络空间安全",
+          "majorKey": "3093c484",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 15321,
+          "equivRank": 15321
+        }
+      ]
+    }
+  ]
+}

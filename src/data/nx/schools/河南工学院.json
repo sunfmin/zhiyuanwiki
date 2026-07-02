@@ -1,0 +1,98 @@
+{
+  "key": "河南工学院",
+  "code": "4195",
+  "name": "河南工学院",
+  "leaves": [
+    {
+      "schoolKey": "河南工学院",
+      "schoolCode": "4195",
+      "majorKey": "4428fd77",
+      "majorName": "商务英语",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 421,
+          "minRank": 20127,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河南工学院",
+      "schoolCode": "4195",
+      "majorKey": "13c18eb7",
+      "majorName": "工业工程",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 422,
+          "minRank": 19930,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河南工学院",
+      "schoolCode": "4195",
+      "majorKey": "fcd46a8c",
+      "majorName": "金融数学",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 424,
+          "minRank": 19510,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "商务英语",
+          "majorKey": "4428fd77",
+          "selKe": "物理",
+          "plan": 4,
+          "tuition": "4400",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 20127,
+          "equivRank": 20127
+        },
+        {
+          "majorName": "工业工程",
+          "majorKey": "13c18eb7",
+          "selKe": "物理",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 19930,
+          "equivRank": 19930
+        },
+        {
+          "majorName": "金融数学",
+          "majorKey": "fcd46a8c",
+          "selKe": "物理",
+          "plan": 3,
+          "tuition": "4400",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 19510,
+          "equivRank": 19510
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "key": "山东工程职业技术大学",
+  "code": "3430",
+  "name": "山东工程职业技术大学",
+  "leaves": [
+    {
+      "schoolKey": "山东工程职业技术大学",
+      "schoolCode": "3430",
+      "majorKey": "e1f1d9ae",
+      "majorName": "企业数字化管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 422,
+          "minRank": 21455,
+          "maxScore": 449
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 401,
+          "minRank": 23673,
+          "maxScore": 434
+        }
+      ]
+    },
+    {
+      "schoolKey": "山东工程职业技术大学",
+      "schoolCode": "3430",
+      "majorKey": "49f153aa",
+      "majorName": "大数据与会计",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 371,
+          "minRank": 17711,
+          "maxScore": 380
+        }
+      ]
+    },
+    {
+      "schoolKey": "山东工程职业技术大学",
+      "schoolCode": "3430",
+      "majorKey": "d0b34f4f",
+      "majorName": "大数据工程技术",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 388,
+          "minRank": 75723,
+          "maxScore": 407
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 382,
+          "minRank": 76944,
+          "maxScore": 414
+        }
+      ]
+    },
+    {
+      "schoolKey": "山东工程职业技术大学",
+      "schoolCode": "3430",
+      "majorKey": "a8fb44ce",
+      "majorName": "新能源汽车工程技术",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 332,
+          "minRank": 67141,
+          "maxScore": 338
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "企业数字化管理",
+          "majorKey": "e1f1d9ae",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "21800",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 23673,
+          "equivRank": 23673
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "大数据工程技术",
+          "majorKey": "d0b34f4f",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "21800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 76944,
+          "equivRank": 71966
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "第004组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "机械设计制造及自动化",
+          "majorKey": "b217b8b5",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "45800",
+          "menlei": "艺",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

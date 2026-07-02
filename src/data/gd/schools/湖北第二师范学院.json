@@ -1,0 +1,116 @@
+{
+  "key": "湖北第二师范学院",
+  "code": "14099",
+  "name": "湖北第二师范学院",
+  "leaves": [
+    {
+      "schoolKey": "湖北第二师范学院",
+      "schoolCode": "14099",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 515,
+          "minRank": 46730,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北第二师范学院",
+      "schoolCode": "14099",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 541,
+          "minRank": 29436,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "205",
+      "groupName": "205",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 29436,
+          "equivRank": 29436
+        }
+      ]
+    },
+    {
+      "groupCode": "206",
+      "groupName": "206",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "25000",
+          "menlei": "教",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 46730,
+          "equivRank": 46730
+        }
+      ]
+    },
+    {
+      "groupCode": "207",
+      "groupName": "207",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 29436,
+          "equivRank": 88824
+        }
+      ]
+    },
+    {
+      "groupCode": "208",
+      "groupName": "208",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "25000",
+          "menlei": "工",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

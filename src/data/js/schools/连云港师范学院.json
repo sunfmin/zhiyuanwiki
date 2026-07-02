@@ -1,0 +1,195 @@
+{
+  "key": "连云港师范学院",
+  "code": "1330",
+  "name": "连云港师范学院",
+  "leaves": [
+    {
+      "schoolKey": "连云港师范学院",
+      "schoolCode": "1330",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 511,
+          "minRank": 42335,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 531,
+          "minRank": 119385,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "连云港师范学院",
+      "schoolCode": "1330",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 531,
+          "minRank": 32122,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 511,
+          "minRank": 146161,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "连云港师范学院",
+      "schoolCode": "1330",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 506,
+          "minRank": 154519,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "连云港师范学院",
+      "schoolCode": "1330",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 532,
+          "minRank": 31665,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 512,
+          "minRank": 144773,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "首选历史，再选不限",
+          "plan": 71,
+          "tuition": "5200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 31665,
+          "equivRank": 31665
+        },
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "首选历史，再选不限",
+          "plan": 26,
+          "tuition": "5200",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 32122,
+          "equivRank": 32122
+        },
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "首选历史，再选不限",
+          "plan": 10,
+          "tuition": "5200",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 42335,
+          "equivRank": 42335
+        }
+      ]
+    },
+    {
+      "groupCode": "（03）",
+      "groupName": "（03）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "首选物理，再选不限",
+          "plan": 53,
+          "tuition": "5200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 144773,
+          "equivRank": 144773
+        },
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "首选物理，再选不限",
+          "plan": 40,
+          "tuition": "5200",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 146161,
+          "equivRank": 146161
+        },
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "首选物理，再选不限",
+          "plan": 10,
+          "tuition": "5200",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 119385,
+          "equivRank": 119385
+        }
+      ]
+    },
+    {
+      "groupCode": "（04）",
+      "groupName": "（04）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "首选物理，再选化学",
+          "plan": 124,
+          "tuition": "5500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 154519,
+          "equivRank": 154519
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "key": "重庆第二师范学院",
+  "code": "2382",
+  "name": "重庆第二师范学院",
+  "leaves": [
+    {
+      "schoolKey": "重庆第二师范学院",
+      "schoolCode": "2382",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 500,
+          "minRank": 14732,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 503,
+          "minRank": 67246,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "重庆第二师范学院",
+      "schoolCode": "2382",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 519,
+          "minRank": 55133,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "重庆第二师范学院",
+      "schoolCode": "2382",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 519,
+          "minRank": 55133,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "重庆第二师范学院",
+      "schoolCode": "2382",
+      "majorKey": "1c2e12ae",
+      "majorName": "时尚传播",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 516,
+          "minRank": 11895,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 502,
+          "minRank": 67989,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "重庆第二师范学院",
+      "schoolCode": "2382",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 520,
+          "minRank": 54409,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "3750",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 14732,
+          "equivRank": 14732
+        },
+        {
+          "majorName": "时尚传播",
+          "majorKey": "1c2e12ae",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "5625",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 11895,
+          "equivRank": 11895
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "3750",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 55133,
+          "equivRank": 55133
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5625",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 54409,
+          "equivRank": 54409
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5625",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 55133,
+          "equivRank": 55133
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "3750",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 67246,
+          "equivRank": 67246
+        },
+        {
+          "majorName": "时尚传播",
+          "majorKey": "1c2e12ae",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "5625",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 67989,
+          "equivRank": 67989
+        }
+      ]
+    }
+  ]
+}

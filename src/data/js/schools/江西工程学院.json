@@ -1,0 +1,136 @@
+{
+  "key": "江西工程学院",
+  "code": "8171",
+  "name": "江西工程学院",
+  "leaves": [
+    {
+      "schoolKey": "江西工程学院",
+      "schoolCode": "8171",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 476,
+          "minRank": 173584,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 490,
+          "minRank": 175732,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "江西工程学院",
+      "schoolCode": "8171",
+      "majorKey": "fff04889",
+      "majorName": "网络与新媒体",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 479,
+          "minRank": 50547,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "江西工程学院",
+      "schoolCode": "8171",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 477,
+          "minRank": 172470,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 487,
+          "minRank": 179556,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "江西工程学院",
+      "schoolCode": "8171",
+      "majorKey": "8b94c422",
+      "majorName": "贸易经济",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 499,
+          "minRank": 48117,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "贸易经济",
+          "majorKey": "8b94c422",
+          "selKe": "首选历史，再选不限",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 48117,
+          "equivRank": 48117
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "首选物理，再选化学",
+          "plan": 3,
+          "tuition": "18000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 175732,
+          "equivRank": 175732
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "首选物理，再选化学",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 179556,
+          "equivRank": 179556
+        }
+      ]
+    }
+  ]
+}

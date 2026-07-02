@@ -1,0 +1,195 @@
+{
+  "key": "淮阴师范学院",
+  "code": "1796",
+  "name": "淮阴师范学院",
+  "leaves": [
+    {
+      "schoolKey": "淮阴师范学院",
+      "schoolCode": "1796",
+      "majorKey": "f513eff7",
+      "majorName": "合成生物学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 447,
+          "minRank": 54160,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "淮阴师范学院",
+      "schoolCode": "1796",
+      "majorKey": "b8be11ab",
+      "majorName": "工程造价",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 448,
+          "minRank": 53621,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "淮阴师范学院",
+      "schoolCode": "1796",
+      "majorKey": "aa66e27a",
+      "majorName": "数字人文",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 466,
+          "minRank": 13969,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "淮阴师范学院",
+      "schoolCode": "1796",
+      "majorKey": "ec77cae2",
+      "majorName": "旅游管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 467,
+          "minRank": 13762,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "淮阴师范学院",
+      "schoolCode": "1796",
+      "majorKey": "f3a3be38",
+      "majorName": "知识产权",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 474,
+          "minRank": 12493,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "淮阴师范学院",
+      "schoolCode": "1796",
+      "majorKey": "28e28fed",
+      "majorName": "纳米材料与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 452,
+          "minRank": 51458,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "旅游管理",
+          "majorKey": "ec77cae2",
+          "selKe": "不提科目要求",
+          "plan": 4,
+          "tuition": "5200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 13762,
+          "equivRank": 13762
+        },
+        {
+          "majorName": "知识产权",
+          "majorKey": "f3a3be38",
+          "selKe": "不提科目要求",
+          "plan": 3,
+          "tuition": "5200",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 12493,
+          "equivRank": 12493
+        },
+        {
+          "majorName": "数字人文",
+          "majorKey": "aa66e27a",
+          "selKe": "不提科目要求",
+          "plan": 3,
+          "tuition": "5200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 13969,
+          "equivRank": 13969
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "工程造价",
+          "majorKey": "b8be11ab",
+          "selKe": "物理",
+          "plan": 3,
+          "tuition": "5200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 53621,
+          "equivRank": 53621
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "合成生物学",
+          "majorKey": "f513eff7",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 54160,
+          "equivRank": 54160
+        },
+        {
+          "majorName": "纳米材料与技术",
+          "majorKey": "28e28fed",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 51458,
+          "equivRank": 51458
+        }
+      ]
+    }
+  ]
+}

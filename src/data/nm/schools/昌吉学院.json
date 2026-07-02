@@ -1,0 +1,141 @@
+{
+  "key": "昌吉学院",
+  "code": "B41",
+  "name": "昌吉学院",
+  "leaves": [
+    {
+      "schoolKey": "昌吉学院",
+      "schoolCode": "B41",
+      "majorKey": "1f59c989",
+      "majorName": "化学工程与工艺",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 414,
+          "minRank": 56914,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "昌吉学院",
+      "schoolCode": "B41",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "历史,政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 494,
+          "minRank": 10554,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "昌吉学院",
+      "schoolCode": "B41",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 414,
+          "minRank": 56914,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "昌吉学院",
+      "schoolCode": "B41",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 501,
+          "minRank": 9784,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "思想政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "思想政治",
+          "plan": 1,
+          "tuition": "3100",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 10554,
+          "equivRank": 10554
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "3100",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 9784,
+          "equivRank": 9784
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "化学工程与工艺",
+          "majorKey": "1f59c989",
+          "selKe": "化学",
+          "plan": 8,
+          "tuition": "3500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 56914,
+          "equivRank": 56914
+        },
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "3500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 56914,
+          "equivRank": 56914
+        }
+      ]
+    }
+  ]
+}

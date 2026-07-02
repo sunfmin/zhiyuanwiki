@@ -1,0 +1,133 @@
+{
+  "key": "攀枝花学院",
+  "code": "3376",
+  "name": "攀枝花学院",
+  "leaves": [
+    {
+      "schoolKey": "攀枝花学院",
+      "schoolCode": "3376",
+      "majorKey": "b308db6c",
+      "majorName": "储能科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 468,
+          "minRank": 43097,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "攀枝花学院",
+      "schoolCode": "3376",
+      "majorKey": "14eeb10f",
+      "majorName": "生物工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 468,
+          "minRank": 43097,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "攀枝花学院",
+      "schoolCode": "3376",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 473,
+          "minRank": 40605,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "攀枝花学院",
+      "schoolCode": "3376",
+      "majorKey": "062bcf46",
+      "majorName": "行政管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 454,
+          "minRank": 16371,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "行政管理",
+          "majorKey": "062bcf46",
+          "selKe": "不提科目要求",
+          "plan": 4,
+          "tuition": "5520",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 16371,
+          "equivRank": 16371
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "储能科学与工程",
+          "majorKey": "b308db6c",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5980",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 43097,
+          "equivRank": 43097
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5980",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 40605,
+          "equivRank": 40605
+        },
+        {
+          "majorName": "生物工程",
+          "majorKey": "14eeb10f",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5980",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 43097,
+          "equivRank": 43097
+        }
+      ]
+    }
+  ]
+}

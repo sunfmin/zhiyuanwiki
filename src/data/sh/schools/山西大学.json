@@ -1,0 +1,133 @@
+{
+  "key": "山西大学",
+  "code": "0323",
+  "name": "山西大学",
+  "leaves": [
+    {
+      "schoolKey": "山西大学",
+      "schoolCode": "0323",
+      "majorKey": "a9584ad9",
+      "majorName": "中国语言文学类",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 510,
+          "minRank": 21367,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山西大学",
+      "schoolCode": "0323",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 509,
+          "minRank": 21654,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山西大学",
+      "schoolCode": "0323",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 530,
+          "minRank": 15808,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山西大学",
+      "schoolCode": "0323",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 532,
+          "minRank": 15236,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "中国语言文学类",
+          "majorKey": "a9584ad9",
+          "selKe": "不限科目",
+          "plan": 1,
+          "tuition": "5175",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 21367,
+          "equivRank": 21367
+        },
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "不限科目",
+          "plan": 1,
+          "tuition": "5175",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 21654,
+          "equivRank": 21654
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理和化学",
+          "plan": 1,
+          "tuition": "5520",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 15236,
+          "equivRank": 15236
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理和化学",
+          "plan": 1,
+          "tuition": "5520",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 15808,
+          "equivRank": 15808
+        }
+      ]
+    }
+  ]
+}

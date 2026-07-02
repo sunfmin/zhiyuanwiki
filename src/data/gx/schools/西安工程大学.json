@@ -1,0 +1,128 @@
+{
+  "key": "西安工程大学",
+  "code": "10709",
+  "name": "西安工程大学",
+  "leaves": [
+    {
+      "schoolKey": "西安工程大学",
+      "schoolCode": "10709",
+      "majorKey": "90cd213e",
+      "majorName": "服装设计与工程",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 494,
+          "minRank": 60269,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西安工程大学",
+      "schoolCode": "10709",
+      "majorKey": "262ecb48",
+      "majorName": "纺织工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 466,
+          "minRank": 82643,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西安工程大学",
+      "schoolCode": "10709",
+      "majorKey": "d4e859f9",
+      "majorName": "轻化工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 480,
+          "minRank": 71100,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "110",
+      "groupName": "专业组:110(首选科目:物理。再选科目:不限)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "服装设计与工程",
+          "majorKey": "90cd213e",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "6480元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 60269,
+          "equivRank": 60269
+        },
+        {
+          "majorName": "服装设计与工程",
+          "majorKey": "90cd213e",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "6480元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 60269,
+          "equivRank": 60269
+        }
+      ]
+    },
+    {
+      "groupCode": "111",
+      "groupName": "专业组:111(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "纺织工程",
+          "majorKey": "262ecb48",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6480元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 82643,
+          "equivRank": 82643
+        },
+        {
+          "majorName": "轻化工程",
+          "majorKey": "d4e859f9",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6480元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 71100,
+          "equivRank": 71100
+        },
+        {
+          "majorName": "轻化工程",
+          "majorKey": "d4e859f9",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6480元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 71100,
+          "equivRank": 71100
+        }
+      ]
+    }
+  ]
+}

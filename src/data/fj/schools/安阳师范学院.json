@@ -1,0 +1,96 @@
+{
+  "key": "安阳师范学院",
+  "code": "2218",
+  "name": "安阳师范学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "700",
+      "groupName": "专业组：700 (选考思想政治)",
+      "track": "历史",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "政治",
+          "plan": 4,
+          "tuition": "4400",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "900",
+      "groupName": "专业组：900 (选考地理)",
+      "track": "历史",
+      "selKe": "地理",
+      "majors": [
+        {
+          "majorName": "地理科学",
+          "majorKey": "d061ae24",
+          "selKe": "地理",
+          "plan": 4,
+          "tuition": "5000",
+          "menlei": "理"
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4400",
+          "menlei": "教"
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4800",
+          "menlei": "文"
+        },
+        {
+          "majorName": "汉语国际教育",
+          "majorKey": "d2fbd5c5",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4400",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化学",
+          "plan": 6,
+          "tuition": "5000",
+          "menlei": "理"
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化学",
+          "plan": 6,
+          "tuition": "5000",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "key": "中国美术学院",
+  "code": "3313",
+  "name": "中国美术学院",
+  "leaves": [
+    {
+      "schoolKey": "中国美术学院",
+      "schoolCode": "3313",
+      "majorKey": "fee47c1b",
+      "majorName": "工业设计",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 602,
+          "minRank": 9010,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国美术学院",
+      "schoolCode": "3313",
+      "majorKey": "b86f75b5",
+      "majorName": "广播电视编导",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 580,
+          "minRank": 4592,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国美术学院",
+      "schoolCode": "3313",
+      "majorKey": "6b32f2c4",
+      "majorName": "建筑学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 567,
+          "minRank": 6806,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国美术学院",
+      "schoolCode": "3313",
+      "majorKey": "93bb8261",
+      "majorName": "艺术学理论类",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 584,
+          "minRank": 3983,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国美术学院",
+      "schoolCode": "3313",
+      "majorKey": "72bed0ee",
+      "majorName": "艺术设计学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 569,
+          "minRank": 6425,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国美术学院",
+      "schoolCode": "3313",
+      "majorKey": "9b8820c1",
+      "majorName": "风景园林",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 568,
+          "minRank": 6605,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "建筑学",
+          "majorKey": "6b32f2c4",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "1.8万元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 6806,
+          "equivRank": 6806
+        },
+        {
+          "majorName": "风景园林",
+          "majorKey": "9b8820c1",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "1.8万元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 6605,
+          "equivRank": 6605
+        },
+        {
+          "majorName": "广播电视编导",
+          "majorKey": "b86f75b5",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "1.8万元",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 4592,
+          "equivRank": 4592
+        },
+        {
+          "majorName": "艺术学理论类",
+          "majorKey": "93bb8261",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "7500元",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 3983,
+          "equivRank": 3983
+        },
+        {
+          "majorName": "艺术设计学",
+          "majorKey": "72bed0ee",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "1.8万元",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 6425,
+          "equivRank": 6425
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "工业设计",
+          "majorKey": "fee47c1b",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "1.8万元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 9010,
+          "equivRank": 9010
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "key": "西安电子科技大学",
+  "code": "0925",
+  "name": "西安电子科技大学",
+  "leaves": [
+    {
+      "schoolKey": "西安电子科技大学",
+      "schoolCode": "0925",
+      "majorKey": "2079a63e",
+      "majorName": "大数据管理与应用",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 566,
+          "minRank": 6814,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西安电子科技大学",
+      "schoolCode": "0925",
+      "majorKey": "5e0efed0",
+      "majorName": "电子信息类",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 580,
+          "minRank": 4096,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西安电子科技大学",
+      "schoolCode": "0925",
+      "majorKey": "1c1ee3f7",
+      "majorName": "通信工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 575,
+          "minRank": 5016,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "电子信息类",
+          "majorKey": "5e0efed0",
+          "selKe": "物理和化学",
+          "plan": 4,
+          "tuition": "6600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 4096,
+          "equivRank": 4096
+        },
+        {
+          "majorName": "电子信息类",
+          "majorKey": "5e0efed0",
+          "selKe": "物理和化学",
+          "plan": 4,
+          "tuition": "6600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 4096,
+          "equivRank": 4096
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "大数据管理与应用",
+          "majorKey": "2079a63e",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "68000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 6814,
+          "equivRank": 6814
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "80000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 5016,
+          "equivRank": 5016
+        }
+      ]
+    }
+  ]
+}

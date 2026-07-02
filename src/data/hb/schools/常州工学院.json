@@ -1,0 +1,125 @@
+{
+  "key": "常州工学院",
+  "code": "F897",
+  "name": "常州工学院",
+  "leaves": [
+    {
+      "schoolKey": "常州工学院",
+      "schoolCode": "F897",
+      "majorKey": "d8f4c9ac",
+      "majorName": "光电信息科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 530,
+          "minRank": 59811,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "常州工学院",
+      "schoolCode": "F897",
+      "majorKey": "da95770c",
+      "majorName": "自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 532,
+          "minRank": 58101,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "常州工学院",
+      "schoolCode": "F897",
+      "majorKey": "92b6110d",
+      "majorName": "车辆工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 529,
+          "minRank": 60630,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "常州工学院",
+      "schoolCode": "F897",
+      "majorKey": "13d3a878",
+      "majorName": "集成电路设计与集成系统",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 528,
+          "minRank": 61487,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "光电信息科学与工程",
+          "majorKey": "d8f4c9ac",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 59811,
+          "equivRank": 59811
+        },
+        {
+          "majorName": "车辆工程",
+          "majorKey": "92b6110d",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 60630,
+          "equivRank": 60630
+        },
+        {
+          "majorName": "集成电路设计与集成系统",
+          "majorKey": "13d3a878",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 61487,
+          "equivRank": 61487
+        },
+        {
+          "majorName": "自动化",
+          "majorKey": "da95770c",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 58101,
+          "equivRank": 58101
+        }
+      ]
+    }
+  ]
+}

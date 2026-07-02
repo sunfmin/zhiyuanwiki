@@ -1,0 +1,48 @@
+{
+  "key": "成都医学院",
+  "code": "2370",
+  "name": "成都医学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6670",
+          "menlei": "医"
+        },
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "6670",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "516",
+      "groupName": "专业组：516 (选考化学且生物学)",
+      "track": "物理",
+      "selKe": "化学和生物",
+      "majors": [
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化学和生物",
+          "plan": 4,
+          "tuition": "6670",
+          "menlei": "医"
+        }
+      ]
+    }
+  ]
+}

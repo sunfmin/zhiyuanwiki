@@ -1,0 +1,168 @@
+{
+  "key": "长春光华学院",
+  "code": "1584",
+  "name": "长春光华学院",
+  "leaves": [
+    {
+      "schoolKey": "长春光华学院",
+      "schoolCode": "1584",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 379,
+          "minRank": 91426,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春光华学院",
+      "schoolCode": "1584",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 384,
+          "minRank": 88949,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春光华学院",
+      "schoolCode": "1584",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 385,
+          "minRank": 88450,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春光华学院",
+      "schoolCode": "1584",
+      "majorKey": "301e14e8",
+      "majorName": "机器人工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 383,
+          "minRank": 89481,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春光华学院",
+      "schoolCode": "1584",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 417,
+          "minRank": 24188,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不提科目要求",
+          "plan": 4,
+          "tuition": "25000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 24188,
+          "equivRank": 24188
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不提科目要求",
+          "plan": 3,
+          "tuition": "25000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 88949,
+          "equivRank": 88949
+        },
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不提科目要求",
+          "plan": 3,
+          "tuition": "26000",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 88450,
+          "equivRank": 88450
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "25000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 91426,
+          "equivRank": 91426
+        },
+        {
+          "majorName": "机器人工程",
+          "majorKey": "301e14e8",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "25000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 89481,
+          "equivRank": 89481
+        }
+      ]
+    }
+  ]
+}

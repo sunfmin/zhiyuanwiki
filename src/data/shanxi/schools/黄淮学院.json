@@ -1,0 +1,183 @@
+{
+  "key": "黄淮学院",
+  "code": "2520",
+  "name": "黄淮学院",
+  "leaves": [
+    {
+      "schoolKey": "黄淮学院",
+      "schoolCode": "2520",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 450,
+          "minRank": 23555,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "黄淮学院",
+      "schoolCode": "2520",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 432,
+          "minRank": 91296,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4400",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "政",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "政",
+          "plan": 5,
+          "tuition": "4400",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 23555,
+          "equivRank": 23555
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "5000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 91296,
+          "equivRank": 91296
+        },
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "5000",
+          "menlei": "理"
+        },
+        {
+          "majorName": "智能制造工程",
+          "majorKey": "ed53a26b",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "5000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化",
+          "plan": 10,
+          "tuition": "5000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "化",
+          "plan": 20,
+          "tuition": "5000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "5000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "化学工程与工艺",
+          "majorKey": "1f59c989",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "5000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "医学影像技术",
+          "majorKey": "11fef64a",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "医"
+        },
+        {
+          "majorName": "康复治疗学",
+          "majorKey": "a507c400",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "生",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "医"
+        },
+        {
+          "majorName": "助产学",
+          "majorKey": "754290a4",
+          "selKe": "生",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "医"
+        }
+      ]
+    }
+  ]
+}

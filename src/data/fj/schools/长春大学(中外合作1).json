@@ -1,0 +1,69 @@
+{
+  "key": "长春大学(中外合作1)",
+  "code": "2319",
+  "name": "长春大学(中外合作1)",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "俄语",
+          "majorKey": "7d0b62a8",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "26000",
+          "menlei": "文",
+          "coop": true
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械工程",
+          "majorKey": "bdb5a180",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "26000",
+          "menlei": "工",
+          "coop": true
+        },
+        {
+          "majorName": "材料科学与工程",
+          "majorKey": "c425ce53",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "26000",
+          "menlei": "工",
+          "coop": true
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "26000",
+          "menlei": "工",
+          "coop": true
+        },
+        {
+          "majorName": "自动化",
+          "majorKey": "da95770c",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "26000",
+          "menlei": "工",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

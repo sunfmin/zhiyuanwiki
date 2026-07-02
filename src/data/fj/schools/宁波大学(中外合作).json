@@ -1,0 +1,59 @@
+{
+  "key": "宁波大学(中外合作)",
+  "code": "3087",
+  "name": "宁波大学(中外合作)",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "旅游管理",
+          "majorKey": "ec77cae2",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "28800",
+          "menlei": "管",
+          "coop": true
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "28800",
+          "menlei": "理",
+          "coop": true
+        }
+      ]
+    },
+    {
+      "groupCode": "900",
+      "groupName": "专业组：900 (选考地理)",
+      "track": "物理",
+      "selKe": "地理",
+      "majors": [
+        {
+          "majorName": "人文地理与城乡规划",
+          "majorKey": "d7013734",
+          "selKe": "地理",
+          "plan": 2,
+          "tuition": "28800",
+          "menlei": "理",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

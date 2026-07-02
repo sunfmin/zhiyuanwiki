@@ -1,0 +1,71 @@
+{
+  "key": "东北电力大学",
+  "code": "0375",
+  "name": "东北电力大学",
+  "leaves": [
+    {
+      "schoolKey": "东北电力大学",
+      "schoolCode": "0375",
+      "majorKey": "20114800",
+      "majorName": "智能电网信息工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 516,
+          "minRank": 19710,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "东北电力大学",
+      "schoolCode": "0375",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 520,
+          "minRank": 18580,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理和化学",
+          "plan": 3,
+          "tuition": "5940",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 18580,
+          "equivRank": 18580
+        },
+        {
+          "majorName": "智能电网信息工程",
+          "majorKey": "20114800",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "5940",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 19710,
+          "equivRank": 19710
+        }
+      ]
+    }
+  ]
+}

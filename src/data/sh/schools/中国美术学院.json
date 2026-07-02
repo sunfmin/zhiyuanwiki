@@ -1,0 +1,133 @@
+{
+  "key": "中国美术学院",
+  "code": "0519",
+  "name": "中国美术学院",
+  "leaves": [
+    {
+      "schoolKey": "中国美术学院",
+      "schoolCode": "0519",
+      "majorKey": "fee47c1b",
+      "majorName": "工业设计",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 551,
+          "minRank": 10254,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国美术学院",
+      "schoolCode": "0519",
+      "majorKey": "93bb8261",
+      "majorName": "艺术学理论类",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 541,
+          "minRank": 12796,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国美术学院",
+      "schoolCode": "0519",
+      "majorKey": "72bed0ee",
+      "majorName": "艺术设计学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 541,
+          "minRank": 12796,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国美术学院",
+      "schoolCode": "0519",
+      "majorKey": "9b8820c1",
+      "majorName": "风景园林",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 538,
+          "minRank": 13615,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "艺术设计学",
+          "majorKey": "72bed0ee",
+          "selKe": "不限科目",
+          "plan": 1,
+          "tuition": "18000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 12796,
+          "equivRank": 12796
+        },
+        {
+          "majorName": "风景园林",
+          "majorKey": "9b8820c1",
+          "selKe": "不限科目",
+          "plan": 1,
+          "tuition": "18000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 13615,
+          "equivRank": 13615
+        },
+        {
+          "majorName": "艺术学理论类",
+          "majorKey": "93bb8261",
+          "selKe": "不限科目",
+          "plan": 1,
+          "tuition": "7500",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 12796,
+          "equivRank": 12796
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "工业设计",
+          "majorKey": "fee47c1b",
+          "selKe": "物理和化学",
+          "plan": 3,
+          "tuition": "18000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 10254,
+          "equivRank": 10254
+        }
+      ]
+    }
+  ]
+}

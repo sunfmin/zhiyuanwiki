@@ -1,0 +1,222 @@
+{
+  "key": "湖州师范学院",
+  "code": "0577",
+  "name": "湖州师范学院",
+  "leaves": [
+    {
+      "schoolKey": "湖州师范学院",
+      "schoolCode": "0577",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 532,
+          "minRank": 30928,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖州师范学院",
+      "schoolCode": "0577",
+      "majorKey": "7d0b62a8",
+      "majorName": "俄语",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 536,
+          "minRank": 29727,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖州师范学院",
+      "schoolCode": "0577",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "化学必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 545,
+          "minRank": 27231,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖州师范学院",
+      "schoolCode": "0577",
+      "majorKey": "c425ce53",
+      "majorName": "材料科学与工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 516,
+          "minRank": 35525,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖州师范学院",
+      "schoolCode": "0577",
+      "majorKey": "653f630d",
+      "majorName": "物理学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 527,
+          "minRank": 32342,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖州师范学院",
+      "schoolCode": "0577",
+      "majorKey": "e2472a71",
+      "majorName": "生物科学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 513,
+          "minRank": 36409,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖州师范学院",
+      "schoolCode": "0577",
+      "majorKey": "f3a3be38",
+      "majorName": "知识产权",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 542,
+          "minRank": 28062,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "知识产权",
+          "majorKey": "f3a3be38",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4800",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 28062,
+          "equivRank": 28062
+        },
+        {
+          "majorName": "俄语",
+          "majorKey": "7d0b62a8",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4800",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 29727,
+          "equivRank": 29727
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 32342,
+          "equivRank": 32342
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "6300",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 30928,
+          "equivRank": 30928
+        },
+        {
+          "majorName": "材料科学与工程",
+          "majorKey": "c425ce53",
+          "selKe": "物理加化学",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 35525,
+          "equivRank": 35525
+        },
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "物理加化学",
+          "plan": 4,
+          "tuition": "4800",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 36409,
+          "equivRank": 36409
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "6300",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 27231,
+          "equivRank": 27231
+        }
+      ]
+    }
+  ]
+}

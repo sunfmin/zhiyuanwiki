@@ -1,0 +1,149 @@
+{
+  "key": "西北民族大学",
+  "code": "0956",
+  "name": "西北民族大学",
+  "leaves": [
+    {
+      "schoolKey": "西北民族大学",
+      "schoolCode": "0956",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 430,
+          "minRank": 43131,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西北民族大学",
+      "schoolCode": "0956",
+      "majorKey": "89d5a9a6",
+      "majorName": "文物保护技术",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 435,
+          "minRank": 41932,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西北民族大学",
+      "schoolCode": "0956",
+      "majorKey": "eca12e7e",
+      "majorName": "民族学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 440,
+          "minRank": 40711,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西北民族大学",
+      "schoolCode": "0956",
+      "majorKey": "91ab3182",
+      "majorName": "阿拉伯语",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 410,
+          "minRank": 47630,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "民族学",
+          "majorKey": "eca12e7e",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "3800",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 40711,
+          "equivRank": 40711
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "阿拉伯语",
+          "majorKey": "91ab3182",
+          "selKe": "不限科目",
+          "plan": 1,
+          "tuition": "4400",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 47630,
+          "equivRank": 47630
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "3800",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 43131,
+          "equivRank": 43131
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "综合",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "文物保护技术",
+          "majorKey": "89d5a9a6",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "3800",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 41932,
+          "equivRank": 41932
+        }
+      ]
+    }
+  ]
+}

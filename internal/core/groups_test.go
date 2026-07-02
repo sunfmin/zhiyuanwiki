@@ -6,21 +6,22 @@ import "testing"
 // 这是四川/安徽等省的真实形态，也修复了江苏/湖南/黑龙江的潜在串档。
 func TestBuildGroups2026SplitsByTrack(t *testing.T) {
 	plan := []PlanRow{
-		{Year: 2025, Track: "物理", SchoolCode: "3415", GroupCode: "101", GroupName: "101组", MajorName: "会计学", Plan: 5},
-		{Year: 2025, Track: "历史", SchoolCode: "3415", GroupCode: "101", GroupName: "101组", MajorName: "法学", Plan: 4},
+		{Year: 2025, Track: "物理", SchoolCode: "3415", SchoolName: "某大学", GroupCode: "101", GroupName: "101组", MajorName: "会计学", Plan: 5},
+		{Year: 2025, Track: "历史", SchoolCode: "3415", SchoolName: "某大学", GroupCode: "101", GroupName: "101组", MajorName: "法学", Plan: 4},
 	}
+	ent := NormName("某大学")
 	leaves := []MajorLeaf{
 		// 会计学同时有物理(位次1000)、历史(位次2000)两年——挂接应取各自科类。
-		{SchoolCode: "3415", MajorKey: MajorKey("会计学"), MajorName: "会计学", Years: []YearScore{
+		{SchoolKey: ent, SchoolCode: "3415", MajorKey: MajorKey("会计学"), MajorName: "会计学", Years: []YearScore{
 			{Year: 2024, Track: "物理", MinScore: 600, MinRank: 1000},
 			{Year: 2024, Track: "历史", MinScore: 590, MinRank: 2000},
 		}},
-		{SchoolCode: "3415", MajorKey: MajorKey("法学"), MajorName: "法学", Years: []YearScore{
+		{SchoolKey: ent, SchoolCode: "3415", MajorKey: MajorKey("法学"), MajorName: "法学", Years: []YearScore{
 			{Year: 2024, Track: "历史", MinScore: 580, MinRank: 2500},
 		}},
 	}
 	got := BuildGroups2026(plan, leaves, nil, nil)
-	groups := got["3415"]
+	groups := got[ent]
 	if len(groups) != 2 {
 		t.Fatalf("同校同号跨科类应拆成 2 个组，got %d: %+v", len(groups), groups)
 	}

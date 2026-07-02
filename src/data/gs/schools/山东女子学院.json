@@ -1,0 +1,236 @@
+{
+  "key": "山东女子学院",
+  "code": "2435",
+  "name": "山东女子学院",
+  "leaves": [
+    {
+      "schoolKey": "山东女子学院",
+      "schoolCode": "2435",
+      "majorKey": "a507c400",
+      "majorName": "康复治疗学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 460,
+          "minRank": 47226,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山东女子学院",
+      "schoolCode": "2435",
+      "majorKey": "889e9381",
+      "majorName": "数字媒体技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 462,
+          "minRank": 46200,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山东女子学院",
+      "schoolCode": "2435",
+      "majorKey": "d5543eac",
+      "majorName": "数据计算及应用",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 439,
+          "minRank": 58635,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山东女子学院",
+      "schoolCode": "2435",
+      "majorKey": "8f1def37",
+      "majorName": "日语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 456,
+          "minRank": 15941,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 424,
+          "minRank": 67046,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山东女子学院",
+      "schoolCode": "2435",
+      "majorKey": "48469b36",
+      "majorName": "跨境电子商务",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 456,
+          "minRank": 15941,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 437,
+          "minRank": 59737,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "日语",
+          "majorKey": "8f1def37",
+          "selKe": "不提科目要求",
+          "plan": 1,
+          "tuition": "4400",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 15941,
+          "equivRank": 15941
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "跨境电子商务",
+          "majorKey": "48469b36",
+          "selKe": "不提科目要求",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 15941,
+          "equivRank": 15941
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "日语",
+          "majorKey": "8f1def37",
+          "selKe": "不提科目要求",
+          "plan": 1,
+          "tuition": "4400",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 67046,
+          "equivRank": 67046
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "004",
+      "track": "物理",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "跨境电子商务",
+          "majorKey": "48469b36",
+          "selKe": "不提科目要求",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 59737,
+          "equivRank": 59737
+        }
+      ]
+    },
+    {
+      "groupCode": "005",
+      "groupName": "005",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "康复治疗学",
+          "majorKey": "a507c400",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 47226,
+          "equivRank": 47226
+        }
+      ]
+    },
+    {
+      "groupCode": "006",
+      "groupName": "006",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "数据计算及应用",
+          "majorKey": "d5543eac",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 58635,
+          "equivRank": 58635
+        }
+      ]
+    },
+    {
+      "groupCode": "007",
+      "groupName": "007",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "数字媒体技术",
+          "majorKey": "889e9381",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6300",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 46200,
+          "equivRank": 46200
+        }
+      ]
+    }
+  ]
+}

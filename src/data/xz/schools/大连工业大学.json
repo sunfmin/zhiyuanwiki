@@ -1,0 +1,79 @@
+{
+  "key": "大连工业大学",
+  "code": "0040",
+  "name": "大连工业大学",
+  "leaves": [
+    {
+      "schoolKey": "大连工业大学",
+      "schoolCode": "0040",
+      "majorKey": "5a324641",
+      "majorName": "人力资源管理",
+      "selKe": "",
+      "years": [
+        {
+          "year": 2024,
+          "track": "理科",
+          "minScore": 269,
+          "minRank": 0,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "理科",
+          "minScore": 286,
+          "minRank": 0,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "大连工业大学",
+      "schoolCode": "0040",
+      "majorKey": "eff7d0aa",
+      "majorName": "非物质文化遗产保护",
+      "selKe": "",
+      "years": [
+        {
+          "year": 2024,
+          "track": "文科",
+          "minScore": 314,
+          "minRank": 0,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "文科",
+          "minScore": 325,
+          "minRank": 0,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "非物质文化遗产保护",
+      "majorKey": "eff7d0aa",
+      "track": "文科",
+      "selKe": "",
+      "plan": 3,
+      "tuition": "6000",
+      "schooling": "四年",
+      "menlei": "艺",
+      "prevYear": 2025,
+      "prevScore": 325
+    },
+    {
+      "majorName": "人力资源管理",
+      "majorKey": "5a324641",
+      "track": "理科",
+      "selKe": "",
+      "plan": 2,
+      "tuition": "5200",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevScore": 286
+    }
+  ]
+}

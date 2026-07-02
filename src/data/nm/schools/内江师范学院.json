@@ -1,0 +1,160 @@
+{
+  "key": "内江师范学院",
+  "code": "0547",
+  "name": "内江师范学院",
+  "leaves": [
+    {
+      "schoolKey": "内江师范学院",
+      "schoolCode": "0547",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 529,
+          "minRank": 6717,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "内江师范学院",
+      "schoolCode": "0547",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 482,
+          "minRank": 35112,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "内江师范学院",
+      "schoolCode": "0547",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 534,
+          "minRank": 6226,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "内江师范学院",
+      "schoolCode": "0547",
+      "majorKey": "653f630d",
+      "majorName": "物理学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 488,
+          "minRank": 33332,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "内江师范学院",
+      "schoolCode": "0547",
+      "majorKey": "fff04889",
+      "majorName": "网络与新媒体",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 530,
+          "minRank": 6622,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5520",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 6226,
+          "equivRank": 6226
+        },
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4800",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 6717,
+          "equivRank": 6717
+        },
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5520",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 6622,
+          "equivRank": 6622
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5980",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 33332,
+          "equivRank": 33332
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5980",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 35112,
+          "equivRank": 35112
+        }
+      ]
+    }
+  ]
+}

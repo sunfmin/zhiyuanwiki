@@ -1,0 +1,173 @@
+{
+  "key": "邢台学院",
+  "code": "1173",
+  "name": "邢台学院",
+  "leaves": [
+    {
+      "schoolKey": "邢台学院",
+      "schoolCode": "1173",
+      "majorKey": "1f59c989",
+      "majorName": "化学工程与工艺",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 437,
+          "minRank": 87908,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "邢台学院",
+      "schoolCode": "1173",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 449,
+          "minRank": 23842,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "邢台学院",
+      "schoolCode": "1173",
+      "majorKey": "b8236e06",
+      "majorName": "戏剧影视文学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 449,
+          "minRank": 23842,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "邢台学院",
+      "schoolCode": "1173",
+      "majorKey": "e2472a71",
+      "majorName": "生物科学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 439,
+          "minRank": 86540,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4600",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 23842,
+          "equivRank": 23842
+        },
+        {
+          "majorName": "汉语国际教育",
+          "majorKey": "d2fbd5c5",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4600",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "戏剧影视文学",
+          "majorKey": "b8236e06",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "8000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 23842,
+          "equivRank": 23842
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "历史",
+      "selKe": "地",
+      "majors": [
+        {
+          "majorName": "地理信息科学",
+          "majorKey": "f9ecceea",
+          "selKe": "地",
+          "plan": 5,
+          "tuition": "4900",
+          "menlei": "理"
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "4900",
+          "menlei": "理"
+        },
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "4900",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 86540,
+          "equivRank": 86540
+        },
+        {
+          "majorName": "化学工程与工艺",
+          "majorKey": "1f59c989",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 87908,
+          "equivRank": 87908
+        }
+      ]
+    }
+  ]
+}

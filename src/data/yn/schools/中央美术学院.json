@@ -1,0 +1,73 @@
+{
+  "key": "中央美术学院",
+  "code": "1136",
+  "name": "中央美术学院",
+  "leaves": [
+    {
+      "schoolKey": "中央美术学院",
+      "schoolCode": "1136",
+      "majorKey": "ae17c365",
+      "majorName": "艺术史论",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 576,
+          "minRank": 5366,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中央美术学院",
+      "schoolCode": "1136",
+      "majorKey": "44d89b18",
+      "majorName": "艺术管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 616,
+          "minRank": 984,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "艺术史论",
+          "majorKey": "ae17c365",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "4.5万元",
+          "menlei": "艺",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 5366,
+          "equivRank": 5366
+        },
+        {
+          "majorName": "艺术管理",
+          "majorKey": "44d89b18",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "4.5万元",
+          "menlei": "艺",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 984,
+          "equivRank": 984
+        }
+      ]
+    }
+  ]
+}

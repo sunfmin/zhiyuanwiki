@@ -1,0 +1,71 @@
+{
+  "key": "山东交通学院",
+  "code": "0663",
+  "name": "山东交通学院",
+  "leaves": [
+    {
+      "schoolKey": "山东交通学院",
+      "schoolCode": "0663",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 447,
+          "minRank": 38962,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山东交通学院",
+      "schoolCode": "0663",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 443,
+          "minRank": 39958,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限科目",
+          "plan": 3,
+          "tuition": "4400",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 38962,
+          "equivRank": 38962
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "6325",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 39958,
+          "equivRank": 39958
+        }
+      ]
+    }
+  ]
+}

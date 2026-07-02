@@ -1,0 +1,60 @@
+{
+  "key": "邢台医学院",
+  "code": "1173",
+  "name": "邢台医学院",
+  "leaves": [
+    {
+      "schoolKey": "邢台医学院",
+      "schoolCode": "1173",
+      "majorKey": "e849f952",
+      "majorName": "口腔医学技术",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 434,
+          "minRank": 56148,
+          "maxScore": 444
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5200",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "口腔医学技术",
+          "majorKey": "e849f952",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 56148,
+          "equivRank": 52515
+        }
+      ]
+    }
+  ]
+}

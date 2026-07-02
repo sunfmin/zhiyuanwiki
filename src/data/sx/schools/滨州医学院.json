@@ -1,0 +1,181 @@
+{
+  "key": "滨州医学院",
+  "code": "3415",
+  "name": "滨州医学院",
+  "leaves": [
+    {
+      "schoolKey": "滨州医学院",
+      "schoolCode": "8415",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 534,
+          "minRank": 35484,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "滨州医学院",
+      "schoolCode": "8415",
+      "majorKey": "30e8a552",
+      "majorName": "公共事业管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 478,
+          "minRank": 23028,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "滨州医学院",
+      "schoolCode": "8415",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 495,
+          "minRank": 58484,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "滨州医学院",
+      "schoolCode": "8415",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 477,
+          "minRank": 70989,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "滨州医学院",
+      "schoolCode": "8415",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 488,
+          "minRank": 63327,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "104",
+      "groupName": "104",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "公共事业管理",
+          "majorKey": "30e8a552",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "6325",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "7920",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 35484,
+          "equivRank": 35484
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "7590",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 63327,
+          "equivRank": 63327
+        }
+      ]
+    },
+    {
+      "groupCode": "105",
+      "groupName": "105",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "7590",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 58484,
+          "equivRank": 58484
+        }
+      ]
+    },
+    {
+      "groupCode": "111",
+      "groupName": "111",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "7920",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 70989,
+          "equivRank": 70989
+        }
+      ]
+    }
+  ]
+}

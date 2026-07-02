@@ -1,0 +1,141 @@
+{
+  "key": "张家口学院",
+  "code": "3260",
+  "name": "张家口学院",
+  "leaves": [
+    {
+      "schoolKey": "张家口学院",
+      "schoolCode": "3260",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 525,
+          "minRank": 42821,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "张家口学院",
+      "schoolCode": "3260",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 526,
+          "minRank": 42086,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "张家口学院",
+      "schoolCode": "3260",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 534,
+          "minRank": 36410,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "张家口学院",
+      "schoolCode": "3260",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 543,
+          "minRank": 30657,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 10,
+          "tuition": "4600",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 42821,
+          "equivRank": 42821
+        },
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不限",
+          "plan": 10,
+          "tuition": "4600",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 42086,
+          "equivRank": 42086
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "历史",
+      "selKe": "政",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "政",
+          "plan": 10,
+          "tuition": "4600",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 36410,
+          "equivRank": 36410
+        }
+      ]
+    },
+    {
+      "groupCode": "103",
+      "groupName": "103",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4600",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 30657,
+          "equivRank": 30657
+        }
+      ]
+    }
+  ]
+}

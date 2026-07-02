@@ -1,0 +1,222 @@
+{
+  "key": "河北医科大学",
+  "code": "1328",
+  "name": "河北医科大学",
+  "leaves": [
+    {
+      "schoolKey": "河北医科大学",
+      "schoolCode": "1328",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理,化学,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 539,
+          "minRank": 3475,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北医科大学",
+      "schoolCode": "1328",
+      "majorKey": "11fef64a",
+      "majorName": "医学影像技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 459,
+          "minRank": 12834,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北医科大学",
+      "schoolCode": "1328",
+      "majorKey": "2c72d9e9",
+      "majorName": "卫生检验与检疫",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 454,
+          "minRank": 13700,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北医科大学",
+      "schoolCode": "1328",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "历史,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 457,
+          "minRank": 4991,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北医科大学",
+      "schoolCode": "1328",
+      "majorKey": "97b7b689",
+      "majorName": "生物制药",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 454,
+          "minRank": 13700,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北医科大学",
+      "schoolCode": "1328",
+      "majorKey": "41174006",
+      "majorName": "药学类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 454,
+          "minRank": 13700,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北医科大学",
+      "schoolCode": "1328",
+      "majorKey": "83eea431",
+      "majorName": "麻醉学",
+      "selKe": "物理,化学,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 536,
+          "minRank": 3701,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "601",
+      "groupName": "601",
+      "track": "历史",
+      "selKe": "历史,生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "历史,生物",
+          "plan": 5,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 4991,
+          "equivRank": 4991
+        }
+      ]
+    },
+    {
+      "groupCode": "501",
+      "groupName": "501",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "药学类",
+          "majorKey": "41174006",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 13700,
+          "equivRank": 13700
+        },
+        {
+          "majorName": "医学影像技术",
+          "majorKey": "11fef64a",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 12834,
+          "equivRank": 12834
+        },
+        {
+          "majorName": "卫生检验与检疫",
+          "majorKey": "2c72d9e9",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 13700,
+          "equivRank": 13700
+        },
+        {
+          "majorName": "生物制药",
+          "majorKey": "97b7b689",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 13700,
+          "equivRank": 13700
+        }
+      ]
+    },
+    {
+      "groupCode": "A02",
+      "groupName": "A02",
+      "track": "物理",
+      "selKe": "物理,化学,生物",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学,生物",
+          "plan": 3,
+          "tuition": "5700",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 3475,
+          "equivRank": 3475
+        },
+        {
+          "majorName": "麻醉学",
+          "majorKey": "83eea431",
+          "selKe": "物理,化学,生物",
+          "plan": 2,
+          "tuition": "5700",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 3701,
+          "equivRank": 3701
+        }
+      ]
+    }
+  ]
+}

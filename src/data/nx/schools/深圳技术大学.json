@@ -1,0 +1,106 @@
+{
+  "key": "深圳技术大学",
+  "code": "4431",
+  "name": "深圳技术大学",
+  "leaves": [
+    {
+      "schoolKey": "深圳技术大学",
+      "schoolCode": "4431",
+      "majorKey": "301e14e8",
+      "majorName": "机器人工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 529,
+          "minRank": 4265,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "深圳技术大学",
+      "schoolCode": "4431",
+      "majorKey": "8b6a817b",
+      "majorName": "物流管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 522,
+          "minRank": 1627,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "深圳技术大学",
+      "schoolCode": "4431",
+      "majorKey": "1da18825",
+      "majorName": "物联网工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 527,
+          "minRank": 4435,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "物流管理",
+          "majorKey": "8b6a817b",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 1627,
+          "equivRank": 1627
+        }
+      ]
+    },
+    {
+      "groupCode": "501",
+      "groupName": "501",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "机器人工程",
+          "majorKey": "301e14e8",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 4265,
+          "equivRank": 4265
+        },
+        {
+          "majorName": "物联网工程",
+          "majorKey": "1da18825",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 4435,
+          "equivRank": 4435
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "key": "马鞍山学院",
+  "code": "D614",
+  "name": "马鞍山学院",
+  "leaves": [
+    {
+      "schoolKey": "马鞍山学院",
+      "schoolCode": "D614",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 457,
+          "minRank": 292830,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "马鞍山学院",
+      "schoolCode": "D614",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 455,
+          "minRank": 298828,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "马鞍山学院",
+      "schoolCode": "D614",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 490,
+          "minRank": 210789,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "财务管理",
+      "majorKey": "8220c852",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 7,
+      "tuition": "22500",
+      "schooling": "4",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 210789,
+      "equivRank": 210789,
+      "prevScore": 490
+    },
+    {
+      "majorName": "机械设计制造及其自动化",
+      "majorKey": "55ff9da5",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "plan": 5,
+      "tuition": "22500",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 292830,
+      "equivRank": 292830,
+      "prevScore": 457
+    },
+    {
+      "majorName": "电气工程及其自动化",
+      "majorKey": "45947d31",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "plan": 8,
+      "tuition": "22500",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 298828,
+      "equivRank": 298828,
+      "prevScore": 455
+    }
+  ]
+}

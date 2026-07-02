@@ -1,0 +1,103 @@
+{
+  "key": "兰州文理学院",
+  "code": "6211",
+  "name": "兰州文理学院",
+  "leaves": [
+    {
+      "schoolKey": "兰州文理学院",
+      "schoolCode": "6211",
+      "majorKey": "25624660",
+      "majorName": "应用化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 448,
+          "minRank": 155947,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "兰州文理学院",
+      "schoolCode": "6211",
+      "majorKey": "c425ce53",
+      "majorName": "材料科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 447,
+          "minRank": 157289,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "兰州文理学院",
+      "schoolCode": "6211",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 477,
+          "minRank": 35117,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（101）",
+      "groupName": "（101）",
+      "track": "历史",
+      "selKe": "首选历史，再选思想政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "首选历史，再选思想政治",
+          "plan": 5,
+          "tuition": "3800",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "（102）",
+      "groupName": "（102）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "材料科学与工程",
+          "majorKey": "c425ce53",
+          "selKe": "首选物理，再选化学",
+          "plan": 5,
+          "tuition": "4700",
+          "menlei": "工",
+          "prevYear": 2024,
+          "prevRank": 157289,
+          "equivRank": 174816
+        },
+        {
+          "majorName": "应用化学",
+          "majorKey": "25624660",
+          "selKe": "首选物理，再选化学",
+          "plan": 5,
+          "tuition": "4300",
+          "menlei": "理",
+          "prevYear": 2024,
+          "prevRank": 155947,
+          "equivRank": 173324
+        }
+      ]
+    }
+  ]
+}

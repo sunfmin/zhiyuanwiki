@@ -1,0 +1,311 @@
+{
+  "key": "河北医科大学",
+  "code": "3275",
+  "name": "河北医科大学",
+  "leaves": [
+    {
+      "schoolKey": "河北医科大学",
+      "schoolCode": "3275",
+      "majorKey": "f9504a0c",
+      "majorName": "中药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 574,
+          "minRank": 79867,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北医科大学",
+      "schoolCode": "3275",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 575,
+          "minRank": 78368,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北医科大学",
+      "schoolCode": "3275",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 567,
+          "minRank": 90232,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北医科大学",
+      "schoolCode": "3275",
+      "majorKey": "8ca67fa5",
+      "majorName": "基础医学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 585,
+          "minRank": 64425,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北医科大学",
+      "schoolCode": "3275",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选历史，再选生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 560,
+          "minRank": 21123,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北医科大学",
+      "schoolCode": "3275",
+      "majorKey": "0798db5f",
+      "majorName": "法医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 592,
+          "minRank": 55298,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北医科大学",
+      "schoolCode": "3275",
+      "majorKey": "f84887da",
+      "majorName": "眼视光医学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 567,
+          "minRank": 90232,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北医科大学",
+      "schoolCode": "3275",
+      "majorKey": "e86ddf0a",
+      "majorName": "精神医学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 568,
+          "minRank": 88775,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北医科大学",
+      "schoolCode": "3275",
+      "majorKey": "1954d9c9",
+      "majorName": "预防医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 564,
+          "minRank": 94843,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北医科大学",
+      "schoolCode": "3275",
+      "majorKey": "83eea431",
+      "majorName": "麻醉学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 570,
+          "minRank": 85847,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "103",
+      "groupName": "103",
+      "track": "历史",
+      "selKe": "生",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生",
+          "plan": 4,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 21123,
+          "equivRank": 21123
+        }
+      ]
+    },
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "化且生",
+      "majors": [
+        {
+          "majorName": "基础医学",
+          "majorKey": "8ca67fa5",
+          "selKe": "化且生",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 64425,
+          "equivRank": 64425
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化且生",
+          "plan": 8,
+          "tuition": "5700",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 78368,
+          "equivRank": 78368
+        },
+        {
+          "majorName": "麻醉学",
+          "majorKey": "83eea431",
+          "selKe": "化且生",
+          "plan": 3,
+          "tuition": "5700",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 85847,
+          "equivRank": 85847
+        },
+        {
+          "majorName": "医学影像学",
+          "majorKey": "5780af73",
+          "selKe": "化且生",
+          "plan": 3,
+          "tuition": "5700",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 90232,
+          "equivRank": 90232
+        },
+        {
+          "majorName": "眼视光医学",
+          "majorKey": "f84887da",
+          "selKe": "化且生",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 90232,
+          "equivRank": 90232
+        },
+        {
+          "majorName": "精神医学",
+          "majorKey": "e86ddf0a",
+          "selKe": "化且生",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 88775,
+          "equivRank": 88775
+        },
+        {
+          "majorName": "康复治疗学",
+          "majorKey": "a507c400",
+          "selKe": "化且生",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "中药学",
+          "majorKey": "f9504a0c",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 79867,
+          "equivRank": 79867
+        },
+        {
+          "majorName": "法医学",
+          "majorKey": "0798db5f",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 55298,
+          "equivRank": 55298
+        },
+        {
+          "majorName": "预防医学",
+          "majorKey": "1954d9c9",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 94843,
+          "equivRank": 94843
+        }
+      ]
+    }
+  ]
+}

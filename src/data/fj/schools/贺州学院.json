@@ -1,0 +1,187 @@
+{
+  "key": "贺州学院",
+  "code": "2711",
+  "name": "贺州学院",
+  "leaves": [
+    {
+      "schoolKey": "贺州学院",
+      "schoolCode": "2711",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 500,
+          "minRank": 69546,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "贺州学院",
+      "schoolCode": "2711",
+      "majorKey": "2f5c1273",
+      "majorName": "茶学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 495,
+          "minRank": 73670,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "贺州学院",
+      "schoolCode": "2711",
+      "majorKey": "ec686c36",
+      "majorName": "酒店管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 491,
+          "minRank": 76979,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "贺州学院",
+      "schoolCode": "2711",
+      "majorKey": "683be8da",
+      "majorName": "金融科技",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 493,
+          "minRank": 75303,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "贺州学院",
+      "schoolCode": "2711",
+      "majorKey": "13d3a878",
+      "majorName": "集成电路设计与集成系统",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 501,
+          "minRank": 68791,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "贺州学院",
+      "schoolCode": "2711",
+      "majorKey": "fc81313f",
+      "majorName": "高分子材料与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 498,
+          "minRank": 71202,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "高分子材料与工程",
+          "majorKey": "fc81313f",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 71202,
+          "equivRank": 71202
+        },
+        {
+          "majorName": "集成电路设计与集成系统",
+          "majorKey": "13d3a878",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 68791,
+          "equivRank": 68791
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 69546,
+          "equivRank": 69546
+        },
+        {
+          "majorName": "茶学",
+          "majorKey": "2f5c1273",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "3800",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 73670,
+          "equivRank": 73670
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融科技",
+          "majorKey": "683be8da",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "4600",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 75303,
+          "equivRank": 75303
+        },
+        {
+          "majorName": "酒店管理",
+          "majorKey": "ec686c36",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "4600",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 76979,
+          "equivRank": 76979
+        }
+      ]
+    }
+  ]
+}

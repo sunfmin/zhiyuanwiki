@@ -1,0 +1,106 @@
+{
+  "key": "河南财经政法大学",
+  "code": "4123",
+  "name": "河南财经政法大学",
+  "leaves": [
+    {
+      "schoolKey": "河南财经政法大学",
+      "schoolCode": "4123",
+      "majorKey": "1da18825",
+      "majorName": "物联网工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 508,
+          "minRank": 35404,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河南财经政法大学",
+      "schoolCode": "4123",
+      "majorKey": "9d1daa67",
+      "majorName": "经济与贸易类",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 515,
+          "minRank": 33474,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河南财经政法大学",
+      "schoolCode": "4123",
+      "majorKey": "fc24be19",
+      "majorName": "财政学类",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 512,
+          "minRank": 34272,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财政学类",
+          "majorKey": "fc24be19",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4800",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 34272,
+          "equivRank": 34272
+        },
+        {
+          "majorName": "经济与贸易类",
+          "majorKey": "9d1daa67",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4400",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 33474,
+          "equivRank": 33474
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "物联网工程",
+          "majorKey": "1da18825",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 35404,
+          "equivRank": 35404
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "key": "河南工学院",
+  "code": "5510",
+  "name": "河南工学院",
+  "leaves": [
+    {
+      "schoolKey": "河南工学院",
+      "schoolCode": "5510",
+      "majorKey": "889e9381",
+      "majorName": "数字媒体技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 476,
+          "minRank": 71748,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河南工学院",
+      "schoolCode": "5510",
+      "majorKey": "35ec1f36",
+      "majorName": "新能源材料与器件",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 477,
+          "minRank": 70989,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河南工学院",
+      "schoolCode": "5510",
+      "majorKey": "1bd76ba8",
+      "majorName": "测控技术与仪器",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 476,
+          "minRank": 71748,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "数字媒体技术",
+          "majorKey": "889e9381",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 71748,
+          "equivRank": 71748
+        },
+        {
+          "majorName": "新能源材料与器件",
+          "majorKey": "35ec1f36",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 70989,
+          "equivRank": 70989
+        },
+        {
+          "majorName": "测控技术与仪器",
+          "majorKey": "1bd76ba8",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 71748,
+          "equivRank": 71748
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "key": "北京化工大学",
+  "code": "0010",
+  "name": "北京化工大学",
+  "leaves": [
+    {
+      "schoolKey": "北京化工大学",
+      "schoolCode": "0010",
+      "majorKey": "b363aa3d",
+      "majorName": "工科试验班",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 685,
+          "minRank": 2483,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京化工大学",
+      "schoolCode": "0010",
+      "majorKey": "54728189",
+      "majorName": "理科试验班",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 679,
+          "minRank": 2839,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京化工大学",
+      "schoolCode": "0010",
+      "majorKey": "a70e63a1",
+      "majorName": "自动化类",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 691,
+          "minRank": 2186,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京化工大学",
+      "schoolCode": "0010",
+      "majorKey": "8230723d",
+      "majorName": "计算机类",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 686,
+          "minRank": 2429,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "物理,化学",
+          "plan": 6,
+          "tuition": "5000",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 2483,
+          "equivRank": 2483
+        },
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "5000",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 2483,
+          "equivRank": 2483
+        },
+        {
+          "majorName": "理科试验班",
+          "majorKey": "54728189",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 2839,
+          "equivRank": 2839
+        }
+      ]
+    },
+    {
+      "groupCode": "80",
+      "groupName": "80",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "理科试验班",
+          "majorKey": "54728189",
+          "selKe": "物理,化学",
+          "plan": 6,
+          "tuition": "5000",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 2839,
+          "equivRank": 2839
+        },
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "5000",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 2483,
+          "equivRank": 2483
+        },
+        {
+          "majorName": "计算机类",
+          "majorKey": "8230723d",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 2429,
+          "equivRank": 2429
+        },
+        {
+          "majorName": "自动化类",
+          "majorKey": "a70e63a1",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 2186,
+          "equivRank": 2186
+        }
+      ]
+    }
+  ]
+}

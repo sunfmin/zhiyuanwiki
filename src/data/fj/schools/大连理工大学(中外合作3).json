@@ -1,0 +1,43 @@
+{
+  "key": "大连理工大学(中外合作3)",
+  "code": "2422",
+  "name": "大连理工大学(中外合作3)",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "60000",
+          "menlei": "理",
+          "coop": true
+        },
+        {
+          "majorName": "应用物理学",
+          "majorKey": "409f7ac3",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "60000",
+          "menlei": "理",
+          "coop": true
+        },
+        {
+          "majorName": "工程力学",
+          "majorKey": "8c993eb0",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "60000",
+          "menlei": "工",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

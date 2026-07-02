@@ -1,0 +1,71 @@
+{
+  "key": "湘南学院",
+  "code": "4332",
+  "name": "湘南学院",
+  "leaves": [
+    {
+      "schoolKey": "湘南学院",
+      "schoolCode": "4332",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 510,
+          "minRank": 34871,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湘南学院",
+      "schoolCode": "4332",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 499,
+          "minRank": 37822,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "7150",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 34871,
+          "equivRank": 34871
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 37822,
+          "equivRank": 37822
+        }
+      ]
+    }
+  ]
+}

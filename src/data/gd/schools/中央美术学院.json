@@ -1,0 +1,291 @@
+{
+  "key": "中央美术学院",
+  "code": "10047",
+  "name": "中央美术学院",
+  "leaves": [
+    {
+      "schoolKey": "中央美术学院",
+      "schoolCode": "10047",
+      "majorKey": "fee47c1b",
+      "majorName": "工业设计",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 608,
+          "minRank": 21322,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中央美术学院",
+      "schoolCode": "10047",
+      "majorKey": "7a929633",
+      "majorName": "文化产业管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 590,
+          "minRank": 35160,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中央美术学院",
+      "schoolCode": "10047",
+      "majorKey": "ae17c365",
+      "majorName": "艺术史论",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 580,
+          "minRank": 11211,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 584,
+          "minRank": 40786,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中央美术学院",
+      "schoolCode": "10047",
+      "majorKey": "c23e4b23",
+      "majorName": "艺术教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 596,
+          "minRank": 6223,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中央美术学院",
+      "schoolCode": "10047",
+      "majorKey": "44d89b18",
+      "majorName": "艺术管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 591,
+          "minRank": 7548,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 586,
+          "minRank": 38786,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中央美术学院",
+      "schoolCode": "10047",
+      "majorKey": "eff7d0aa",
+      "majorName": "非物质文化遗产保护",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 614,
+          "minRank": 2753,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 594,
+          "minRank": 31761,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "206",
+      "groupName": "206",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "艺术教育",
+          "majorKey": "c23e4b23",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "8000",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 6223,
+          "equivRank": 6223
+        },
+        {
+          "majorName": "艺术管理",
+          "majorKey": "44d89b18",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "8000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 7548,
+          "equivRank": 7548
+        },
+        {
+          "majorName": "非物质文化遗产保护",
+          "majorKey": "eff7d0aa",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "8000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 2753,
+          "equivRank": 2753
+        }
+      ]
+    },
+    {
+      "groupCode": "207",
+      "groupName": "207",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "艺术史论",
+          "majorKey": "ae17c365",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "45000",
+          "menlei": "艺",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 11211,
+          "equivRank": 11211
+        },
+        {
+          "majorName": "艺术管理",
+          "majorKey": "44d89b18",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "45000",
+          "menlei": "艺",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 7548,
+          "equivRank": 7548
+        }
+      ]
+    },
+    {
+      "groupCode": "208",
+      "groupName": "208",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "文化产业管理",
+          "majorKey": "7a929633",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "8000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 35160,
+          "equivRank": 35160
+        },
+        {
+          "majorName": "艺术管理",
+          "majorKey": "44d89b18",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "8000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 38786,
+          "equivRank": 38786
+        },
+        {
+          "majorName": "非物质文化遗产保护",
+          "majorKey": "eff7d0aa",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "8000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 31761,
+          "equivRank": 31761
+        }
+      ]
+    },
+    {
+      "groupCode": "209",
+      "groupName": "209",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "艺术史论",
+          "majorKey": "ae17c365",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "45000",
+          "menlei": "艺",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 40786,
+          "equivRank": 40786
+        },
+        {
+          "majorName": "艺术管理",
+          "majorKey": "44d89b18",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "45000",
+          "menlei": "艺",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 38786,
+          "equivRank": 38786
+        }
+      ]
+    },
+    {
+      "groupCode": "210",
+      "groupName": "210",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "工业设计",
+          "majorKey": "fee47c1b",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "15000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 21322,
+          "equivRank": 21322
+        }
+      ]
+    }
+  ]
+}

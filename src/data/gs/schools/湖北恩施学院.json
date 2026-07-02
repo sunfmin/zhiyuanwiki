@@ -1,0 +1,48 @@
+{
+  "key": "湖北恩施学院",
+  "code": "2804",
+  "name": "湖北恩施学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不提科目要求",
+          "plan": 3,
+          "tuition": "19800",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "24800",
+          "menlei": "医"
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "25800",
+          "menlei": "医"
+        }
+      ]
+    }
+  ]
+}

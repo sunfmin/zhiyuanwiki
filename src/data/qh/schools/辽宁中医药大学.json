@@ -1,0 +1,120 @@
+{
+  "key": "辽宁中医药大学",
+  "code": "2021",
+  "name": "辽宁中医药大学",
+  "leaves": [
+    {
+      "schoolKey": "辽宁中医药大学",
+      "schoolCode": "2021",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 496,
+          "minRank": 1404,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 441,
+          "minRank": 8033,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "辽宁中医药大学",
+      "schoolCode": "2021",
+      "majorKey": "fba2c77b",
+      "majorName": "中药制药",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 412,
+          "minRank": 11442,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "辽宁中医药大学",
+      "schoolCode": "2021",
+      "majorKey": "dc8e7679",
+      "majorName": "药物制剂",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 399,
+          "minRank": 13149,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "中医学",
+      "majorKey": "2285e5ca",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 1,
+      "tuition": "5500",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 1404,
+      "equivRank": 1404,
+      "prevScore": 496
+    },
+    {
+      "majorName": "中医学",
+      "majorKey": "2285e5ca",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 3,
+      "tuition": "5500",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 8033,
+      "equivRank": 8033,
+      "prevScore": 441
+    },
+    {
+      "majorName": "中药制药",
+      "majorKey": "fba2c77b",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 3,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 11442,
+      "equivRank": 11442,
+      "prevScore": 412
+    },
+    {
+      "majorName": "药物制剂",
+      "majorKey": "dc8e7679",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 3,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 13149,
+      "equivRank": 13149,
+      "prevScore": 399
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "key": "中央美术学院",
+  "code": "1147",
+  "name": "中央美术学院",
+  "leaves": [
+    {
+      "schoolKey": "中央美术学院",
+      "schoolCode": "1147",
+      "majorKey": "fee47c1b",
+      "majorName": "工业设计",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 594,
+          "minRank": 16588,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 599,
+          "minRank": 16296,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中央美术学院",
+      "schoolCode": "1147",
+      "majorKey": "ae17c365",
+      "majorName": "艺术史论",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 607,
+          "minRank": 1421,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 619,
+          "minRank": 8041,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 532,
+          "minRank": 15662,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 519,
+          "minRank": 71119,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中央美术学院",
+      "schoolCode": "1147",
+      "majorKey": "c23e4b23",
+      "majorName": "艺术教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 572,
+          "minRank": 5289,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 594,
+          "minRank": 2998,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中央美术学院",
+      "schoolCode": "1147",
+      "majorKey": "44d89b18",
+      "majorName": "艺术管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 561,
+          "minRank": 7140,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 462,
+          "minRank": 136906,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 585,
+          "minRank": 4157,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 567,
+          "minRank": 33317,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（101）",
+      "groupName": "（101）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "艺术管理",
+          "majorKey": "44d89b18",
+          "selKe": "首选历史，再选不限",
+          "plan": 1,
+          "tuition": "8000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 4157,
+          "equivRank": 4157
+        },
+        {
+          "majorName": "艺术教育",
+          "majorKey": "c23e4b23",
+          "selKe": "首选历史，再选不限",
+          "plan": 1,
+          "tuition": "8000",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 2998,
+          "equivRank": 2998
+        }
+      ]
+    },
+    {
+      "groupCode": "（Y02）",
+      "groupName": "（Y02）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "艺术史论",
+          "majorKey": "ae17c365",
+          "selKe": "首选历史，再选不限",
+          "plan": 2,
+          "tuition": "45000",
+          "menlei": "艺",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 15662,
+          "equivRank": 15662
+        },
+        {
+          "majorName": "艺术管理",
+          "majorKey": "44d89b18",
+          "selKe": "首选历史，再选不限",
+          "plan": 1,
+          "tuition": "45000",
+          "menlei": "艺",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 4157,
+          "equivRank": 4157
+        }
+      ]
+    },
+    {
+      "groupCode": "（205）",
+      "groupName": "（205）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "工业设计",
+          "majorKey": "fee47c1b",
+          "selKe": "首选物理，再选化学",
+          "plan": 2,
+          "tuition": "15000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 16296,
+          "equivRank": 16296
+        }
+      ]
+    },
+    {
+      "groupCode": "（Y03）",
+      "groupName": "（Y03）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "艺术管理",
+          "majorKey": "44d89b18",
+          "selKe": "首选物理，再选不限",
+          "plan": 1,
+          "tuition": "8000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 33317,
+          "equivRank": 33317
+        }
+      ]
+    },
+    {
+      "groupCode": "（Y04）",
+      "groupName": "（Y04）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "艺术管理",
+          "majorKey": "44d89b18",
+          "selKe": "首选物理，再选不限",
+          "plan": 1,
+          "tuition": "45000",
+          "menlei": "艺",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 33317,
+          "equivRank": 33317
+        },
+        {
+          "majorName": "艺术史论",
+          "majorKey": "ae17c365",
+          "selKe": "首选物理，再选不限",
+          "plan": 1,
+          "tuition": "45000",
+          "menlei": "艺",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 71119,
+          "equivRank": 71119
+        }
+      ]
+    }
+  ]
+}

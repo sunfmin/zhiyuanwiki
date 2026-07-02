@@ -1,0 +1,77 @@
+{
+  "key": "福建农林大学(中外合作)",
+  "code": "1052",
+  "name": "福建农林大学(中外合作)",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "风景园林",
+          "majorKey": "9b8820c1",
+          "selKe": "不限",
+          "plan": 10,
+          "tuition": "58000",
+          "menlei": "工",
+          "coop": true
+        },
+        {
+          "majorName": "农林经济管理",
+          "majorKey": "1f0182ac",
+          "selKe": "不限",
+          "plan": 10,
+          "tuition": "54000",
+          "menlei": "管",
+          "coop": true
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "生态学",
+          "majorKey": "11cedbac",
+          "selKe": "化学",
+          "plan": 20,
+          "tuition": "20000",
+          "menlei": "理",
+          "coop": true
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "风景园林",
+          "majorKey": "9b8820c1",
+          "selKe": "不限",
+          "plan": 30,
+          "tuition": "58000",
+          "menlei": "工",
+          "coop": true
+        },
+        {
+          "majorName": "农林经济管理",
+          "majorKey": "1f0182ac",
+          "selKe": "不限",
+          "plan": 30,
+          "tuition": "54000",
+          "menlei": "管",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

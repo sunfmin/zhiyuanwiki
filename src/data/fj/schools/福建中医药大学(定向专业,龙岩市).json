@@ -1,0 +1,56 @@
+{
+  "key": "福建中医药大学(定向专业,龙岩市)",
+  "code": "1086",
+  "name": "福建中医药大学(定向专业,龙岩市)",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "6760",
+          "menlei": "医"
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "6760",
+          "menlei": "医"
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "6760",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "600",
+      "groupName": "专业组：600 (选考生物学)",
+      "track": "物理",
+      "selKe": "生物",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "生物",
+          "plan": 1,
+          "tuition": "6760",
+          "menlei": "医"
+        }
+      ]
+    }
+  ]
+}

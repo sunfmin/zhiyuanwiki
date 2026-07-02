@@ -1,0 +1,49 @@
+{
+  "key": "北京农学院",
+  "code": "F008",
+  "name": "北京农学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "农业资源与环境",
+          "majorKey": "cd7e1ba1",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "免费",
+          "menlei": "农"
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "农业资源与环境",
+          "majorKey": "cd7e1ba1",
+          "selKe": "物理,化学",
+          "plan": 6,
+          "tuition": "36000",
+          "menlei": "农",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

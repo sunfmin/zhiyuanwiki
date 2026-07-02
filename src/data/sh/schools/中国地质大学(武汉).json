@@ -1,0 +1,114 @@
+{
+  "key": "中国地质大学(武汉)",
+  "code": "0714",
+  "name": "中国地质大学(武汉)",
+  "leaves": [
+    {
+      "schoolKey": "中国地质大学(武汉)",
+      "schoolCode": "0714",
+      "majorKey": "037ceb06",
+      "majorName": "地理空间信息工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 539,
+          "minRank": 13322,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国地质大学(武汉)",
+      "schoolCode": "0714",
+      "majorKey": "29ccd75a",
+      "majorName": "测绘类",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 549,
+          "minRank": 10761,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国地质大学(武汉)",
+      "schoolCode": "0714",
+      "majorKey": "0cabaa98",
+      "majorName": "经济学类",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 538,
+          "minRank": 13615,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "测绘类",
+          "majorKey": "29ccd75a",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "5850",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 10761,
+          "equivRank": 10761
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "经济学类",
+          "majorKey": "0cabaa98",
+          "selKe": "不限科目",
+          "plan": 3,
+          "tuition": "4500",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 13615,
+          "equivRank": 13615
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "地理空间信息工程",
+          "majorKey": "037ceb06",
+          "selKe": "物理和化学",
+          "plan": 1,
+          "tuition": "74000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 13322,
+          "equivRank": 13322
+        }
+      ]
+    }
+  ]
+}

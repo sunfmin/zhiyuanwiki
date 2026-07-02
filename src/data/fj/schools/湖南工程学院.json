@@ -1,0 +1,104 @@
+{
+  "key": "湖南工程学院",
+  "code": "2762",
+  "name": "湖南工程学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "统计学",
+          "majorKey": "24c5453f",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "理"
+        },
+        {
+          "majorName": "材料成型及控制工程",
+          "majorKey": "98867766",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5900",
+          "menlei": "工"
+        },
+        {
+          "majorName": "新能源科学与工程",
+          "majorKey": "42b22d93",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5900",
+          "menlei": "工"
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5900",
+          "menlei": "工"
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5900",
+          "menlei": "工"
+        },
+        {
+          "majorName": "纺织工程",
+          "majorKey": "262ecb48",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5900",
+          "menlei": "工"
+        },
+        {
+          "majorName": "轻化工程",
+          "majorKey": "d4e859f9",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5900",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4500",
+          "menlei": "文"
+        }
+      ]
+    }
+  ]
+}

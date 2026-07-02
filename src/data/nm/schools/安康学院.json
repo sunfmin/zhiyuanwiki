@@ -1,0 +1,79 @@
+{
+  "key": "安康学院",
+  "code": "G23",
+  "name": "安康学院",
+  "leaves": [
+    {
+      "schoolKey": "安康学院",
+      "schoolCode": "G23",
+      "majorKey": "ff33db96",
+      "majorName": "化妆品技术与工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 467,
+          "minRank": 39710,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安康学院",
+      "schoolCode": "G23",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 483,
+          "minRank": 11943,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 11943,
+          "equivRank": 11943
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "化妆品技术与工程",
+          "majorKey": "ff33db96",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 39710,
+          "equivRank": 39710
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "key": "长沙理工大学",
+  "code": "4317",
+  "name": "长沙理工大学",
+  "leaves": [
+    {
+      "schoolKey": "长沙理工大学",
+      "schoolCode": "4317",
+      "majorKey": "904549c4",
+      "majorName": "交通运输",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 567,
+          "minRank": 19705,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长沙理工大学",
+      "schoolCode": "4317",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 563,
+          "minRank": 20702,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长沙理工大学",
+      "schoolCode": "4317",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 586,
+          "minRank": 15084,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长沙理工大学",
+      "schoolCode": "4317",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 552,
+          "minRank": 23531,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 23531,
+          "equivRank": 23531
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "交通运输",
+          "majorKey": "904549c4",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 19705,
+          "equivRank": 19705
+        },
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 20702,
+          "equivRank": 20702
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 15084,
+          "equivRank": 15084
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "30000",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 15084,
+          "equivRank": 15084
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "key": "温州大学",
+  "code": "3335",
+  "name": "温州大学",
+  "leaves": [
+    {
+      "schoolKey": "温州大学",
+      "schoolCode": "3335",
+      "majorKey": "454d8669",
+      "majorName": "国际经贸规则",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 508,
+          "minRank": 35404,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "温州大学",
+      "schoolCode": "3335",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 516,
+          "minRank": 33240,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "温州大学",
+      "schoolCode": "3335",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 527,
+          "minRank": 30282,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "温州大学",
+      "schoolCode": "3335",
+      "majorKey": "062bcf46",
+      "majorName": "行政管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 527,
+          "minRank": 30282,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "温州大学",
+      "schoolCode": "3335",
+      "majorKey": "e6a89fa4",
+      "majorName": "金融工程",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 518,
+          "minRank": 32675,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "国际经贸规则",
+          "majorKey": "454d8669",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4800",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 35404,
+          "equivRank": 35404
+        },
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4800",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 33240,
+          "equivRank": 33240
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4800",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 30282,
+          "equivRank": 30282
+        },
+        {
+          "majorName": "行政管理",
+          "majorKey": "062bcf46",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4800",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 30282,
+          "equivRank": 30282
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "金融工程",
+          "majorKey": "e6a89fa4",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "5520",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 32675,
+          "equivRank": 32675
+        }
+      ]
+    }
+  ]
+}

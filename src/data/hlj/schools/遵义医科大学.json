@@ -1,0 +1,77 @@
+{
+  "key": "遵义医科大学",
+  "code": "2273",
+  "name": "遵义医科大学",
+  "leaves": [
+    {
+      "schoolKey": "遵义医科大学",
+      "schoolCode": "2273",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 538,
+          "minRank": 9265,
+          "maxScore": 541
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 598,
+          "minRank": 9083,
+          "maxScore": 601
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 569,
+          "minRank": 12066,
+          "maxScore": 581
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "4500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 12066,
+          "equivRank": 11285
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 6,
+          "tuition": "6960",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 12066,
+          "equivRank": 11285
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "key": "商洛学院",
+  "code": "0532",
+  "name": "商洛学院",
+  "leaves": [
+    {
+      "schoolKey": "商洛学院",
+      "schoolCode": "0532",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 433,
+          "minRank": 50667,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "商洛学院",
+      "schoolCode": "0532",
+      "majorKey": "d061ae24",
+      "majorName": "地理科学",
+      "selKe": "历史,地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 492,
+          "minRank": 10794,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "商洛学院",
+      "schoolCode": "0532",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "物理,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 475,
+          "minRank": 37238,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "商洛学院",
+      "schoolCode": "0532",
+      "majorKey": "0ac1da59",
+      "majorName": "生物技术",
+      "selKe": "物理,化学,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 441,
+          "minRank": 48019,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "商洛学院",
+      "schoolCode": "0532",
+      "majorKey": "49f6ae18",
+      "majorName": "食品卫生与营养学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 430,
+          "minRank": 51685,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "历史",
+      "selKe": "地理",
+      "majors": [
+        {
+          "majorName": "地理科学",
+          "majorKey": "d061ae24",
+          "selKe": "地理",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 10794,
+          "equivRank": 10794
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "004",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5250",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 50667,
+          "equivRank": 50667
+        },
+        {
+          "majorName": "食品卫生与营养学",
+          "majorKey": "49f6ae18",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 51685,
+          "equivRank": 51685
+        }
+      ]
+    },
+    {
+      "groupCode": "005",
+      "groupName": "005",
+      "track": "物理",
+      "selKe": "化学,生物学",
+      "majors": [
+        {
+          "majorName": "生物技术",
+          "majorKey": "0ac1da59",
+          "selKe": "化学,生物学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 48019,
+          "equivRank": 48019
+        }
+      ]
+    },
+    {
+      "groupCode": "006",
+      "groupName": "006",
+      "track": "物理",
+      "selKe": "生物学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物学",
+          "plan": 2,
+          "tuition": "6500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 37238,
+          "equivRank": 37238
+        }
+      ]
+    }
+  ]
+}

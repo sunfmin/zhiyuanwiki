@@ -1,0 +1,141 @@
+{
+  "key": "防灾科技学院",
+  "code": "1344",
+  "name": "防灾科技学院",
+  "leaves": [
+    {
+      "schoolKey": "防灾科技学院",
+      "schoolCode": "1344",
+      "majorKey": "8a93dc8f",
+      "majorName": "勘查技术与工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 449,
+          "minRank": 14615,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "防灾科技学院",
+      "schoolCode": "1344",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 423,
+          "minRank": 19720,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "防灾科技学院",
+      "schoolCode": "1344",
+      "majorKey": "c5a57efa",
+      "majorName": "水利水电工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 452,
+          "minRank": 14048,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "防灾科技学院",
+      "schoolCode": "1344",
+      "majorKey": "1c1ee3f7",
+      "majorName": "通信工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 445,
+          "minRank": 15352,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "501",
+      "groupName": "501",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "水利水电工程",
+          "majorKey": "c5a57efa",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 14048,
+          "equivRank": 14048
+        },
+        {
+          "majorName": "勘查技术与工程",
+          "majorKey": "8a93dc8f",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 14615,
+          "equivRank": 14615
+        }
+      ]
+    },
+    {
+      "groupCode": "5A2",
+      "groupName": "5A2",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 15352,
+          "equivRank": 15352
+        }
+      ]
+    },
+    {
+      "groupCode": "5A3",
+      "groupName": "5A3",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 19720,
+          "equivRank": 19720
+        }
+      ]
+    }
+  ]
+}

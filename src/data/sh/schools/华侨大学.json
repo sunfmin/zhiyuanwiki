@@ -1,0 +1,106 @@
+{
+  "key": "华侨大学",
+  "code": "0562",
+  "name": "华侨大学",
+  "leaves": [
+    {
+      "schoolKey": "华侨大学",
+      "schoolCode": "0562",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 483,
+          "minRank": 29108,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "华侨大学",
+      "schoolCode": "0562",
+      "majorKey": "0cabaa98",
+      "majorName": "经济学类",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 480,
+          "minRank": 29907,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "华侨大学",
+      "schoolCode": "0562",
+      "majorKey": "062bcf46",
+      "majorName": "行政管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 479,
+          "minRank": 30198,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "行政管理",
+          "majorKey": "062bcf46",
+          "selKe": "不限科目",
+          "plan": 3,
+          "tuition": "5460",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 30198,
+          "equivRank": 30198
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "5460",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 29108,
+          "equivRank": 29108
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "经济学类",
+          "majorKey": "0cabaa98",
+          "selKe": "不限科目",
+          "plan": 4,
+          "tuition": "28000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 29907,
+          "equivRank": 29907
+        }
+      ]
+    }
+  ]
+}

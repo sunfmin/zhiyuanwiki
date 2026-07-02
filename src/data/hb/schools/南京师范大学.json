@@ -1,0 +1,303 @@
+{
+  "key": "南京师范大学",
+  "code": "F881",
+  "name": "南京师范大学",
+  "leaves": [
+    {
+      "schoolKey": "南京师范大学",
+      "schoolCode": "F881",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 600,
+          "minRank": 14274,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "南京师范大学",
+      "schoolCode": "F881",
+      "majorKey": "7b08de6b",
+      "majorName": "历史学类",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 593,
+          "minRank": 4222,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "南京师范大学",
+      "schoolCode": "F881",
+      "majorKey": "f513eff7",
+      "majorName": "合成生物学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 560,
+          "minRank": 36984,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "南京师范大学",
+      "schoolCode": "F881",
+      "majorKey": "cb64b1e8",
+      "majorName": "环境科学与工程类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 599,
+          "minRank": 14688,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "南京师范大学",
+      "schoolCode": "F881",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 602,
+          "minRank": 13442,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "南京师范大学",
+      "schoolCode": "F881",
+      "majorKey": "bda0ff17",
+      "majorName": "经济学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 602,
+          "minRank": 2921,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "南京师范大学",
+      "schoolCode": "F881",
+      "majorKey": "3f8d675b",
+      "majorName": "能源动力类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 601,
+          "minRank": 13848,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "南京师范大学",
+      "schoolCode": "F881",
+      "majorKey": "062bcf46",
+      "majorName": "行政管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 592,
+          "minRank": 4379,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "行政管理",
+          "majorKey": "062bcf46",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "5200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 4379,
+          "equivRank": 4379
+        }
+      ]
+    },
+    {
+      "groupCode": "05",
+      "groupName": "05",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 2921,
+          "equivRank": 2921
+        }
+      ]
+    },
+    {
+      "groupCode": "06",
+      "groupName": "06",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "行政管理",
+          "majorKey": "062bcf46",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "5200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 4379,
+          "equivRank": 4379
+        },
+        {
+          "majorName": "历史学类",
+          "majorKey": "7b08de6b",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 4222,
+          "equivRank": 4222
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "5200",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "07",
+      "groupName": "07",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "能源动力类",
+          "majorKey": "3f8d675b",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 13848,
+          "equivRank": 13848
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 13442,
+          "equivRank": 13442
+        },
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6050",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 14274,
+          "equivRank": 14274
+        },
+        {
+          "majorName": "环境科学与工程类",
+          "majorKey": "cb64b1e8",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6380",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 14688,
+          "equivRank": 14688
+        }
+      ]
+    },
+    {
+      "groupCode": "08",
+      "groupName": "08",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "合成生物学",
+          "majorKey": "f513eff7",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "6380",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 36984,
+          "equivRank": 36984
+        },
+        {
+          "majorName": "环境科学与工程类",
+          "majorKey": "cb64b1e8",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6380",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 14688,
+          "equivRank": 14688
+        }
+      ]
+    }
+  ]
+}

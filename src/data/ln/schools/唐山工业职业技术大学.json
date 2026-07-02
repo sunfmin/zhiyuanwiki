@@ -1,0 +1,90 @@
+{
+  "key": "唐山工业职业技术大学",
+  "code": "2787",
+  "name": "唐山工业职业技术大学",
+  "leaves": [
+    {
+      "schoolKey": "唐山工业职业技术大学",
+      "schoolCode": "2787",
+      "majorKey": "49f153aa",
+      "majorName": "大数据与会计",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 489,
+          "minRank": 16852,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 466,
+          "minRank": 73704,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "唐山工业职业技术大学",
+      "schoolCode": "2787",
+      "majorKey": "6c9e381b",
+      "majorName": "机械电子工程技术",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 465,
+          "minRank": 74194,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "大数据与会计",
+      "majorKey": "49f153aa",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 3,
+      "tuition": "4600",
+      "schooling": "4",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 16852,
+      "equivRank": 16852,
+      "prevScore": 489
+    },
+    {
+      "majorName": "大数据与会计",
+      "majorKey": "49f153aa",
+      "track": "物理",
+      "selKe": "物理",
+      "plan": 2,
+      "tuition": "4600",
+      "schooling": "4",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 73704,
+      "equivRank": 73704,
+      "prevScore": 466
+    },
+    {
+      "majorName": "机械电子工程技术",
+      "majorKey": "6c9e381b",
+      "track": "物理",
+      "selKe": "物理",
+      "plan": 5,
+      "tuition": "4900",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 74194,
+      "equivRank": 74194,
+      "prevScore": 465
+    }
+  ]
+}

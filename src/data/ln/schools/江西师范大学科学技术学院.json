@@ -1,0 +1,129 @@
+{
+  "key": "江西师范大学科学技术学院",
+  "code": "3438",
+  "name": "江西师范大学科学技术学院",
+  "leaves": [
+    {
+      "schoolKey": "江西师范大学科学技术学院",
+      "schoolCode": "3438",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 456,
+          "minRank": 78788,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "江西师范大学科学技术学院",
+      "schoolCode": "3438",
+      "majorKey": "ca37000f",
+      "majorName": "数字经济",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 450,
+          "minRank": 81785,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "江西师范大学科学技术学院",
+      "schoolCode": "3438",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 494,
+          "minRank": 15914,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "江西师范大学科学技术学院",
+      "schoolCode": "3438",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 480,
+          "minRank": 18517,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "汉语言文学",
+      "majorKey": "97bc5998",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 2,
+      "tuition": "13000",
+      "schooling": "4",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 15914,
+      "equivRank": 15914,
+      "prevScore": 494
+    },
+    {
+      "majorName": "财务管理",
+      "majorKey": "8220c852",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 2,
+      "tuition": "13000",
+      "schooling": "4",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 18517,
+      "equivRank": 18517,
+      "prevScore": 480
+    },
+    {
+      "majorName": "人工智能",
+      "majorKey": "2fec4169",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 2,
+      "tuition": "14500",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 78788,
+      "equivRank": 78788,
+      "prevScore": 456
+    },
+    {
+      "majorName": "数字经济",
+      "majorKey": "ca37000f",
+      "track": "物理",
+      "selKe": "物理",
+      "plan": 4,
+      "tuition": "14500",
+      "schooling": "4",
+      "menlei": "经",
+      "prevYear": 2025,
+      "prevRank": 81785,
+      "equivRank": 81785,
+      "prevScore": 450
+    }
+  ]
+}

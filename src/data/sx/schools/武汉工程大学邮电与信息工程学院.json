@@ -1,0 +1,206 @@
+{
+  "key": "武汉工程大学邮电与信息工程学院",
+  "code": "5044",
+  "name": "武汉工程大学邮电与信息工程学院",
+  "leaves": [
+    {
+      "schoolKey": "武汉工程大学邮电与信息工程学院",
+      "schoolCode": "5044",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 441,
+          "minRank": 97252,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "武汉工程大学邮电与信息工程学院",
+      "schoolCode": "5044",
+      "majorKey": "4166f1ff",
+      "majorName": "工程管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 429,
+          "minRank": 105751,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "武汉工程大学邮电与信息工程学院",
+      "schoolCode": "5044",
+      "majorKey": "b8be11ab",
+      "majorName": "工程造价",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 420,
+          "minRank": 112074,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "武汉工程大学邮电与信息工程学院",
+      "schoolCode": "5044",
+      "majorKey": "ed53a26b",
+      "majorName": "智能制造工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 442,
+          "minRank": 96517,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "武汉工程大学邮电与信息工程学院",
+      "schoolCode": "5044",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 473,
+          "minRank": 24478,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "武汉工程大学邮电与信息工程学院",
+      "schoolCode": "5044",
+      "majorKey": "da95770c",
+      "majorName": "自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 443,
+          "minRank": 95819,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "103",
+      "groupName": "103",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "19000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 24478,
+          "equivRank": 24478
+        }
+      ]
+    },
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "19000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 97252,
+          "equivRank": 97252
+        },
+        {
+          "majorName": "智能制造工程",
+          "majorKey": "ed53a26b",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "19000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 96517,
+          "equivRank": 96517
+        },
+        {
+          "majorName": "自动化",
+          "majorKey": "da95770c",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "19000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 95819,
+          "equivRank": 95819
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "工程造价",
+          "majorKey": "b8be11ab",
+          "selKe": "物理",
+          "plan": 8,
+          "tuition": "19000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 112074,
+          "equivRank": 112074
+        },
+        {
+          "majorName": "工程造价",
+          "majorKey": "b8be11ab",
+          "selKe": "物理",
+          "plan": 3,
+          "tuition": "19000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 112074,
+          "equivRank": 112074
+        },
+        {
+          "majorName": "工程管理",
+          "majorKey": "4166f1ff",
+          "selKe": "物理",
+          "plan": 10,
+          "tuition": "19000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 105751,
+          "equivRank": 105751
+        }
+      ]
+    }
+  ]
+}

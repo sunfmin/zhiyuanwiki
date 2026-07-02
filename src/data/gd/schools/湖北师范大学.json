@@ -1,0 +1,160 @@
+{
+  "key": "湖北师范大学",
+  "code": "10513",
+  "name": "湖北师范大学",
+  "leaves": [
+    {
+      "schoolKey": "湖北师范大学",
+      "schoolCode": "10513",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 555,
+          "minRank": 74785,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北师范大学",
+      "schoolCode": "10513",
+      "majorKey": "7273f83c",
+      "majorName": "教育学类",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 555,
+          "minRank": 21791,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北师范大学",
+      "schoolCode": "10513",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 556,
+          "minRank": 21304,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北师范大学",
+      "schoolCode": "10513",
+      "majorKey": "e2472a71",
+      "majorName": "生物科学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 555,
+          "minRank": 74785,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北师范大学",
+      "schoolCode": "10513",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 555,
+          "minRank": 74785,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "203",
+      "groupName": "203",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "教育学类",
+          "majorKey": "7273f83c",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 21791,
+          "equivRank": 21791
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 21304,
+          "equivRank": 21304
+        }
+      ]
+    },
+    {
+      "groupCode": "204",
+      "groupName": "204",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 74785,
+          "equivRank": 74785
+        },
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 74785,
+          "equivRank": 74785
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 74785,
+          "equivRank": 74785
+        }
+      ]
+    }
+  ]
+}

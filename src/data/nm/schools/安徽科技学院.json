@@ -1,0 +1,187 @@
+{
+  "key": "安徽科技学院",
+  "code": "B39",
+  "name": "安徽科技学院",
+  "leaves": [
+    {
+      "schoolKey": "安徽科技学院",
+      "schoolCode": "B39",
+      "majorKey": "ca01c9a2",
+      "majorName": "动物科学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 456,
+          "minRank": 43178,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安徽科技学院",
+      "schoolCode": "B39",
+      "majorKey": "2a1f2fe5",
+      "majorName": "城乡规划",
+      "selKe": "物理,地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 441,
+          "minRank": 48019,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安徽科技学院",
+      "schoolCode": "B39",
+      "majorKey": "7faf2092",
+      "majorName": "环境工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 453,
+          "minRank": 44142,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安徽科技学院",
+      "schoolCode": "B39",
+      "majorKey": "97b7b689",
+      "majorName": "生物制药",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 459,
+          "minRank": 42207,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安徽科技学院",
+      "schoolCode": "B39",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 465,
+          "minRank": 40336,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安徽科技学院",
+      "schoolCode": "B39",
+      "majorKey": "9b8820c1",
+      "majorName": "风景园林",
+      "selKe": "物理,地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 439,
+          "minRank": 48647,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "动物科学",
+          "majorKey": "ca01c9a2",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4900",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 43178,
+          "equivRank": 43178
+        },
+        {
+          "majorName": "环境工程",
+          "majorKey": "7faf2092",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 44142,
+          "equivRank": 44142
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 40336,
+          "equivRank": 40336
+        },
+        {
+          "majorName": "生物制药",
+          "majorKey": "97b7b689",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 42207,
+          "equivRank": 42207
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "004",
+      "track": "物理",
+      "selKe": "地理",
+      "majors": [
+        {
+          "majorName": "城乡规划",
+          "majorKey": "2a1f2fe5",
+          "selKe": "地理",
+          "plan": 2,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 48019,
+          "equivRank": 48019
+        },
+        {
+          "majorName": "风景园林",
+          "majorKey": "9b8820c1",
+          "selKe": "地理",
+          "plan": 3,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 48647,
+          "equivRank": 48647
+        }
+      ]
+    }
+  ]
+}

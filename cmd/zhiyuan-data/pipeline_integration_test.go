@@ -91,7 +91,8 @@ func TestPipelineParseStoreProject(t *testing.T) {
 	if len(b.schools) != 1 || b.schools[0].Code != "1101" || b.schools[0].Name != "测试大学" {
 		t.Fatalf("院校聚合错误: %+v", b.schools)
 	}
-	d := b.details["1101"]
+	// 主键是归一化校名（ADR-0021），详情按 Key 取，不按代号。
+	d := b.details[b.schools[0].Key]
 	if len(d.Leaves) != 2 {
 		t.Fatalf("应有 2 个院校×专业叶子（计算机+汉语言），got %d", len(d.Leaves))
 	}

@@ -1,0 +1,160 @@
+{
+  "key": "蚌埠工商学院",
+  "code": "3481",
+  "name": "蚌埠工商学院",
+  "leaves": [
+    {
+      "schoolKey": "蚌埠工商学院",
+      "schoolCode": "3481",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 469,
+          "minRank": 169623,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "蚌埠工商学院",
+      "schoolCode": "3481",
+      "majorKey": "87f6e6a2",
+      "majorName": "审计学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 471,
+          "minRank": 166963,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "蚌埠工商学院",
+      "schoolCode": "3481",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 469,
+          "minRank": 169623,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "蚌埠工商学院",
+      "schoolCode": "3481",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 472,
+          "minRank": 165602,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "蚌埠工商学院",
+      "schoolCode": "3481",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 468,
+          "minRank": 170913,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "4年",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 169623,
+          "equivRank": 169623
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "4年",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 170913,
+          "equivRank": 170913
+        },
+        {
+          "majorName": "审计学",
+          "majorKey": "87f6e6a2",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "4年",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 166963,
+          "equivRank": 166963
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "4年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 165602,
+          "equivRank": 165602
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "4年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 169623,
+          "equivRank": 169623
+        }
+      ]
+    }
+  ]
+}

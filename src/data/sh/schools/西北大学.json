@@ -1,0 +1,149 @@
+{
+  "key": "西北大学",
+  "code": "0921",
+  "name": "西北大学",
+  "leaves": [
+    {
+      "schoolKey": "西北大学",
+      "schoolCode": "0921",
+      "majorKey": "3c2f7b8b",
+      "majorName": "外国语言文学类",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 540,
+          "minRank": 13049,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西北大学",
+      "schoolCode": "0921",
+      "majorKey": "0dfb72f6",
+      "majorName": "考古学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 557,
+          "minRank": 8824,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西北大学",
+      "schoolCode": "0921",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 538,
+          "minRank": 13615,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西北大学",
+      "schoolCode": "0921",
+      "majorKey": "fcd46a8c",
+      "majorName": "金融数学",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 543,
+          "minRank": 12291,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限科目",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 13615,
+          "equivRank": 13615
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "考古学",
+          "majorKey": "0dfb72f6",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "4250",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 8824,
+          "equivRank": 8824
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "外国语言文学类",
+          "majorKey": "3c2f7b8b",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 13049,
+          "equivRank": 13049
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "金融数学",
+          "majorKey": "fcd46a8c",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 12291,
+          "equivRank": 12291
+        }
+      ]
+    }
+  ]
+}

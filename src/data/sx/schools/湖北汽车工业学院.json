@@ -1,0 +1,145 @@
+{
+  "key": "湖北汽车工业学院",
+  "code": "5023",
+  "name": "湖北汽车工业学院",
+  "leaves": [
+    {
+      "schoolKey": "湖北汽车工业学院",
+      "schoolCode": "5023",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 500,
+          "minRank": 55138,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北汽车工业学院",
+      "schoolCode": "5023",
+      "majorKey": "0637b0d6",
+      "majorName": "智能科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 501,
+          "minRank": 54497,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北汽车工业学院",
+      "schoolCode": "5023",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 511,
+          "minRank": 48210,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北汽车工业学院",
+      "schoolCode": "5023",
+      "majorKey": "92b6110d",
+      "majorName": "车辆工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 501,
+          "minRank": 54497,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 55138,
+          "equivRank": 55138
+        },
+        {
+          "majorName": "车辆工程",
+          "majorKey": "92b6110d",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 54497,
+          "equivRank": 54497
+        },
+        {
+          "majorName": "智能科学与技术",
+          "majorKey": "0637b0d6",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 54497,
+          "equivRank": 54497
+        },
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 48210,
+          "equivRank": 48210
+        }
+      ]
+    },
+    {
+      "groupCode": "501",
+      "groupName": "501",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "车辆工程",
+          "majorKey": "92b6110d",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 54497,
+          "equivRank": 54497
+        }
+      ]
+    }
+  ]
+}

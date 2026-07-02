@@ -1,0 +1,206 @@
+{
+  "key": "河南中医药大学",
+  "code": "0959",
+  "name": "河南中医药大学",
+  "leaves": [
+    {
+      "schoolKey": "河南中医药大学",
+      "schoolCode": "0959",
+      "majorKey": "db5334a1",
+      "majorName": "中药学类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 497,
+          "minRank": 54012,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 504,
+          "minRank": 49712,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河南中医药大学",
+      "schoolCode": "0959",
+      "majorKey": "8a499b4f",
+      "majorName": "中西医临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 520,
+          "minRank": 39717,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 522,
+          "minRank": 37624,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河南中医药大学",
+      "schoolCode": "0959",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选历史，再选生物",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 530,
+          "minRank": 11055,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 481,
+          "minRank": 65317,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 556,
+          "minRank": 7425,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 497,
+          "minRank": 54241,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河南中医药大学",
+      "schoolCode": "0959",
+      "majorKey": "c744f66e",
+      "majorName": "针灸推拿学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 510,
+          "minRank": 45589,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 584,
+          "minRank": 3596,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 521,
+          "minRank": 38638,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "针灸推拿学",
+      "majorKey": "c744f66e",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 1,
+      "tuition": "6000",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 3596,
+      "equivRank": 3596,
+      "prevScore": 584
+    },
+    {
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "历史",
+      "selKe": "首选历史，再选生物",
+      "plan": 1,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 7425,
+      "equivRank": 7425,
+      "prevScore": 556
+    },
+    {
+      "majorName": "中西医临床医学",
+      "majorKey": "8a499b4f",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 4,
+      "tuition": "6000",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 37624,
+      "equivRank": 37624,
+      "prevScore": 522
+    },
+    {
+      "majorName": "针灸推拿学",
+      "majorKey": "c744f66e",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 2,
+      "tuition": "6000",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 38638,
+      "equivRank": 38638,
+      "prevScore": 521
+    },
+    {
+      "majorName": "中药学类",
+      "majorKey": "db5334a1",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 5,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 49712,
+      "equivRank": 49712,
+      "prevScore": 504
+    },
+    {
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "物理",
+      "selKe": "首选物理，再选生物",
+      "plan": 2,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 54241,
+      "equivRank": 54241,
+      "prevScore": 497
+    }
+  ]
+}

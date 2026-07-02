@@ -1,0 +1,249 @@
+{
+  "key": "河北中医药大学",
+  "code": "2679",
+  "name": "河北中医药大学",
+  "leaves": [
+    {
+      "schoolKey": "河北中医药大学",
+      "schoolCode": "2679",
+      "majorKey": "292fd16f",
+      "majorName": "中医儿科学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 533,
+          "minRank": 45540,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北中医药大学",
+      "schoolCode": "2679",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 536,
+          "minRank": 43666,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北中医药大学",
+      "schoolCode": "2679",
+      "majorKey": "fba2c77b",
+      "majorName": "中药制药",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 510,
+          "minRank": 61799,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北中医药大学",
+      "schoolCode": "2679",
+      "majorKey": "8a499b4f",
+      "majorName": "中西医临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 525,
+          "minRank": 50881,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北中医药大学",
+      "schoolCode": "2679",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 511,
+          "minRank": 61013,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北中医药大学",
+      "schoolCode": "2679",
+      "majorKey": "14eeb10f",
+      "majorName": "生物工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 509,
+          "minRank": 62571,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北中医药大学",
+      "schoolCode": "2679",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 510,
+          "minRank": 61799,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北中医药大学",
+      "schoolCode": "2679",
+      "majorKey": "c744f66e",
+      "majorName": "针灸推拿学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 536,
+          "minRank": 43666,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "生物工程",
+          "majorKey": "14eeb10f",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 62571,
+          "equivRank": 62571
+        },
+        {
+          "majorName": "中西医临床医学",
+          "majorKey": "8a499b4f",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5700",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 50881,
+          "equivRank": 50881
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 61799,
+          "equivRank": 61799
+        },
+        {
+          "majorName": "中药制药",
+          "majorKey": "fba2c77b",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 61799,
+          "equivRank": 61799
+        }
+      ]
+    },
+    {
+      "groupCode": "600",
+      "groupName": "专业组：600 (选考生物学)",
+      "track": "物理",
+      "selKe": "生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 61013,
+          "equivRank": 61013
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "5700",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 43666,
+          "equivRank": 43666
+        },
+        {
+          "majorName": "针灸推拿学",
+          "majorKey": "c744f66e",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5700",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 43666,
+          "equivRank": 43666
+        },
+        {
+          "majorName": "中医儿科学",
+          "majorKey": "292fd16f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 45540,
+          "equivRank": 45540
+        }
+      ]
+    }
+  ]
+}

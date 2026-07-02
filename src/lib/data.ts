@@ -16,7 +16,8 @@ export type TrackRange = {
 };
 
 export interface SchoolIndexEntry {
-  code: string;
+  key: string; // 归一化校名，主键与 URL slug（ADR-0021）
+  code: string; // 代表代号，仅展示
   name: string;
   leafCount: number;
   ranges: Record<string, TrackRange>; // 科类名 → 区间

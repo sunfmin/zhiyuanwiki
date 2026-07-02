@@ -1,0 +1,246 @@
+{
+  "key": "长春科技学院",
+  "code": "1590",
+  "name": "长春科技学院",
+  "leaves": [
+    {
+      "schoolKey": "长春科技学院",
+      "schoolCode": "1590",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 376,
+          "minRank": 92810,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春科技学院",
+      "schoolCode": "1590",
+      "majorKey": "b3e5d67f",
+      "majorName": "动物医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 395,
+          "minRank": 83289,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春科技学院",
+      "schoolCode": "1590",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 382,
+          "minRank": 89958,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春科技学院",
+      "schoolCode": "1590",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 387,
+          "minRank": 87412,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春科技学院",
+      "schoolCode": "1590",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 399,
+          "minRank": 81090,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春科技学院",
+      "schoolCode": "1590",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 390,
+          "minRank": 85910,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春科技学院",
+      "schoolCode": "1590",
+      "majorKey": "8230723d",
+      "majorName": "计算机类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 398,
+          "minRank": 81669,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春科技学院",
+      "schoolCode": "1590",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 382,
+          "minRank": 89958,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "不提科目要求",
+          "plan": 6,
+          "tuition": "39000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 92810,
+          "equivRank": 92810
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不提科目要求",
+          "plan": 4,
+          "tuition": "27000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 89958,
+          "equivRank": 89958
+        },
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "不提科目要求",
+          "plan": 2,
+          "tuition": "26000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 87412,
+          "equivRank": 87412
+        },
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不提科目要求",
+          "plan": 4,
+          "tuition": "27000",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 89958,
+          "equivRank": 89958
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "26000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 85910,
+          "equivRank": 85910
+        },
+        {
+          "majorName": "计算机类[计算机科学与技术、网络工程、数据科学与大数据技术]",
+          "majorKey": "08e6cf0c",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "28000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "动物医学",
+          "majorKey": "b3e5d67f",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "28000",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 83289,
+          "equivRank": 83289
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物",
+          "plan": 2,
+          "tuition": "28000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 81090,
+          "equivRank": 81090
+        }
+      ]
+    }
+  ]
+}

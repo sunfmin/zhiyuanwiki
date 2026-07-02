@@ -1,0 +1,59 @@
+{
+  "key": "中南财经政法大学(中外合作)",
+  "code": "3698",
+  "name": "中南财经政法大学(中外合作)",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "电影学",
+          "majorKey": "83596f16",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "48000",
+          "menlei": "艺",
+          "coop": true
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化学",
+          "plan": 12,
+          "tuition": "75000",
+          "menlei": "工",
+          "coop": true
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "电影学",
+          "majorKey": "83596f16",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "48000",
+          "menlei": "艺",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

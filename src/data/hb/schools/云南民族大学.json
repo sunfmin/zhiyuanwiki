@@ -1,0 +1,138 @@
+{
+  "key": "云南民族大学",
+  "code": "K360",
+  "name": "云南民族大学",
+  "leaves": [
+    {
+      "schoolKey": "云南民族大学",
+      "schoolCode": "K360",
+      "majorKey": "07a988ed",
+      "majorName": "政治学与行政学",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 552,
+          "minRank": 13127,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "云南民族大学",
+      "schoolCode": "K360",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 537,
+          "minRank": 54820,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "云南民族大学",
+      "schoolCode": "K360",
+      "majorKey": "062bcf46",
+      "majorName": "行政管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 550,
+          "minRank": 13647,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "行政管理",
+          "majorKey": "062bcf46",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "4500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 13647,
+          "equivRank": 13647
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "历史",
+      "selKe": "历史,政治",
+      "majors": [
+        {
+          "majorName": "政治学与行政学",
+          "majorKey": "07a988ed",
+          "selKe": "历史,政治",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 13127,
+          "equivRank": 13127
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "历史",
+      "selKe": "历史,地理",
+      "majors": [
+        {
+          "majorName": "民族学",
+          "majorKey": "eca12e7e",
+          "selKe": "历史,地理",
+          "plan": 2,
+          "tuition": "5100",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 54820,
+          "equivRank": 54820
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

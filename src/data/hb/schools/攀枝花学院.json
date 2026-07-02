@@ -1,0 +1,106 @@
+{
+  "key": "攀枝花学院",
+  "code": "K174",
+  "name": "攀枝花学院",
+  "leaves": [
+    {
+      "schoolKey": "攀枝花学院",
+      "schoolCode": "K174",
+      "majorKey": "c425ce53",
+      "majorName": "材料科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 486,
+          "minRank": 98920,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "攀枝花学院",
+      "schoolCode": "K174",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 514,
+          "minRank": 24253,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "攀枝花学院",
+      "schoolCode": "K174",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 493,
+          "minRank": 92758,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "5520",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 24253,
+          "equivRank": 24253
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "材料科学与工程",
+          "majorKey": "c425ce53",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "5980",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 98920,
+          "equivRank": 98920
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5980",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 92758,
+          "equivRank": 92758
+        }
+      ]
+    }
+  ]
+}

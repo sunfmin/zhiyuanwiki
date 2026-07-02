@@ -1,0 +1,280 @@
+{
+  "key": "北京工商大学",
+  "code": "1011",
+  "name": "北京工商大学",
+  "leaves": [
+    {
+      "schoolKey": "北京工商大学",
+      "schoolCode": "1011",
+      "majorKey": "4428fd77",
+      "majorName": "商务英语",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 531,
+          "minRank": 5601,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京工商大学",
+      "schoolCode": "1011",
+      "majorKey": "33b3d741",
+      "majorName": "数学类",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 547,
+          "minRank": 24595,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京工商大学",
+      "schoolCode": "1011",
+      "majorKey": "331c4c8e",
+      "majorName": "新闻传播学类",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 534,
+          "minRank": 5150,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京工商大学",
+      "schoolCode": "1011",
+      "majorKey": "bda0ff17",
+      "majorName": "经济学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 538,
+          "minRank": 28447,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京工商大学",
+      "schoolCode": "1011",
+      "majorKey": "df0e3f3c",
+      "majorName": "计算金融",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 534,
+          "minRank": 30252,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京工商大学",
+      "schoolCode": "1011",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 544,
+          "minRank": 25827,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京工商大学",
+      "schoolCode": "1011",
+      "majorKey": "e6a89fa4",
+      "majorName": "金融工程",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 533,
+          "minRank": 30724,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京工商大学",
+      "schoolCode": "1011",
+      "majorKey": "683be8da",
+      "majorName": "金融科技",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 537,
+          "minRank": 28892,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "新闻传播学类",
+          "majorKey": "331c4c8e",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 5150,
+          "equivRank": 5150
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4200",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 28447,
+          "equivRank": 28447
+        },
+        {
+          "majorName": "金融工程",
+          "majorKey": "e6a89fa4",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4200",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 30724,
+          "equivRank": 30724
+        },
+        {
+          "majorName": "计算金融",
+          "majorKey": "df0e3f3c",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 30252,
+          "equivRank": 30252
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 25827,
+          "equivRank": 25827
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "4600",
+          "menlei": "工"
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "4600",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "303",
+      "groupName": "303",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "高分子材料与工程",
+          "majorKey": "fc81313f",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "4600",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "304",
+      "groupName": "304",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "智能制造工程",
+          "majorKey": "ed53a26b",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "4600",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "305",
+      "groupName": "305",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "高分子材料与工程",
+          "majorKey": "fc81313f",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "4600",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

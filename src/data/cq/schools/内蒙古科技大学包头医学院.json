@@ -1,0 +1,69 @@
+{
+  "key": "内蒙古科技大学包头医学院",
+  "code": "1556",
+  "name": "内蒙古科技大学包头医学院",
+  "leaves": [
+    {
+      "schoolKey": "内蒙古科技大学包头医学院",
+      "schoolCode": "1556",
+      "majorKey": "1954d9c9",
+      "majorName": "预防医学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 494,
+          "minRank": 65772,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "内蒙古科技大学包头医学院",
+      "schoolCode": "1556",
+      "majorKey": "83eea431",
+      "majorName": "麻醉学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 528,
+          "minRank": 44745,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "麻醉学",
+      "majorKey": "83eea431",
+      "track": "物理",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "plan": 5,
+      "tuition": "5000",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 44745,
+      "equivRank": 44745,
+      "prevScore": 528
+    },
+    {
+      "majorName": "预防医学",
+      "majorKey": "1954d9c9",
+      "track": "物理",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "plan": 5,
+      "tuition": "5000",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 65772,
+      "equivRank": 65772,
+      "prevScore": 494
+    }
+  ]
+}

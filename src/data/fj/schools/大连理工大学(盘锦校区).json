@@ -1,0 +1,56 @@
+{
+  "key": "大连理工大学(盘锦校区)",
+  "code": "2423",
+  "name": "大连理工大学(盘锦校区)",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "海洋技术",
+          "majorKey": "f551bc07",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "6240",
+          "menlei": "理"
+        },
+        {
+          "majorName": "生物科学类",
+          "majorKey": "d47d0996",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6240",
+          "menlei": "理"
+        },
+        {
+          "majorName": "能源化学工程",
+          "majorKey": "95a6509b",
+          "selKe": "化学",
+          "plan": 10,
+          "tuition": "6240",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "经济学类",
+          "majorKey": "0cabaa98",
+          "selKe": "不限",
+          "plan": 8,
+          "tuition": "6240",
+          "menlei": "经"
+        }
+      ]
+    }
+  ]
+}

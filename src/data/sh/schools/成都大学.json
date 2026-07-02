@@ -1,0 +1,176 @@
+{
+  "key": "成都大学",
+  "code": "0879",
+  "name": "成都大学",
+  "leaves": [
+    {
+      "schoolKey": "成都大学",
+      "schoolCode": "0879",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 478,
+          "minRank": 30490,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "成都大学",
+      "schoolCode": "0879",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 491,
+          "minRank": 26773,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "成都大学",
+      "schoolCode": "0879",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 478,
+          "minRank": 30490,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "成都大学",
+      "schoolCode": "0879",
+      "majorKey": "0c33cbdd",
+      "majorName": "软件工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 484,
+          "minRank": 28826,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "成都大学",
+      "schoolCode": "0879",
+      "majorKey": "683be8da",
+      "majorName": "金融科技",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 470,
+          "minRank": 32768,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "5520",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 30490,
+          "equivRank": 30490
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "金融科技",
+          "majorKey": "683be8da",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "5520",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 32768,
+          "equivRank": 32768
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5520",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 26773,
+          "equivRank": 26773
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "5980",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 28826,
+          "equivRank": 28826
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "5980",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 30490,
+          "equivRank": 30490
+        }
+      ]
+    }
+  ]
+}

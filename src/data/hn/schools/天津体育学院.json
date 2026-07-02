@@ -1,0 +1,210 @@
+{
+  "key": "天津体育学院",
+  "code": "1215",
+  "name": "天津体育学院",
+  "leaves": [
+    {
+      "schoolKey": "天津体育学院",
+      "schoolCode": "1215",
+      "majorKey": "2079a63e",
+      "majorName": "大数据管理与应用",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 480,
+          "minRank": 91929,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "天津体育学院",
+      "schoolCode": "1215",
+      "majorKey": "9c5f4a34",
+      "majorName": "新闻学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 516,
+          "minRank": 18911,
+          "maxScore": 0
+        },
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 474,
+          "minRank": 98206,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 499,
+          "minRank": 20561,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 476,
+          "minRank": 104439,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 492,
+          "minRank": 28108,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 487,
+          "minRank": 104022,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 505,
+          "minRank": 24994,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 487,
+          "minRank": 105871,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "天津体育学院",
+      "schoolCode": "1215",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 436,
+          "minRank": 52324,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 473,
+          "minRank": 107543,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 489,
+          "minRank": 29441,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 489,
+          "minRank": 101478,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "天津体育学院",
+      "schoolCode": "1215",
+      "majorKey": "047778fd",
+      "majorName": "运动康复",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 506,
+          "minRank": 24616,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 478,
+          "minRank": 116904,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（104）",
+      "groupName": "（104）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "新闻学",
+          "majorKey": "9c5f4a34",
+          "selKe": "首选历史，再选不限",
+          "plan": 1,
+          "tuition": "4400",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 24994,
+          "equivRank": 24994
+        },
+        {
+          "majorName": "运动康复",
+          "majorKey": "047778fd",
+          "selKe": "首选历史，再选不限",
+          "plan": 1,
+          "tuition": "4400",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 24616,
+          "equivRank": 24616
+        }
+      ]
+    },
+    {
+      "groupCode": "（106）",
+      "groupName": "（106）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "新闻学",
+          "majorKey": "9c5f4a34",
+          "selKe": "首选物理，再选不限",
+          "plan": 1,
+          "tuition": "4400",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 105871,
+          "equivRank": 105871
+        },
+        {
+          "majorName": "运动康复",
+          "majorKey": "047778fd",
+          "selKe": "首选物理，再选不限",
+          "plan": 1,
+          "tuition": "4400",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 116904,
+          "equivRank": 116904
+        }
+      ]
+    }
+  ]
+}

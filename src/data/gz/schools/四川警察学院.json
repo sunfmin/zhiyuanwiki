@@ -1,0 +1,74 @@
+{
+  "key": "四川警察学院",
+  "code": "2169",
+  "name": "四川警察学院",
+  "leaves": [
+    {
+      "schoolKey": "四川警察学院",
+      "schoolCode": "2169",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 549,
+          "minRank": 7349,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 524,
+          "minRank": 37149,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 559,
+          "minRank": 6912,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 550,
+          "minRank": 23204,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "法学",
+      "majorKey": "a1113a1f",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 1,
+      "tuition": "5520",
+      "schooling": "四年",
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevRank": 6912,
+      "equivRank": 6912,
+      "prevScore": 559
+    },
+    {
+      "majorName": "法学",
+      "majorKey": "a1113a1f",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 1,
+      "tuition": "5520",
+      "schooling": "四年",
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevRank": 23204,
+      "equivRank": 23204,
+      "prevScore": 550
+    }
+  ]
+}

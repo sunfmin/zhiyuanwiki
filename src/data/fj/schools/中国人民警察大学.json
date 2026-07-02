@@ -1,0 +1,80 @@
+{
+  "key": "中国人民警察大学",
+  "code": "3673",
+  "name": "中国人民警察大学",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4900",
+          "menlei": "工"
+        },
+        {
+          "majorName": "消防工程",
+          "majorKey": "6332a75d",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "4900",
+          "menlei": "工"
+        },
+        {
+          "majorName": "火灾勘查",
+          "majorKey": "ccbc1616",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4900",
+          "menlei": "工"
+        },
+        {
+          "majorName": "核生化消防",
+          "majorKey": "cd31bc75",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4900",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "700",
+      "groupName": "专业组：700 (选考思想政治)",
+      "track": "物理",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "消防指挥",
+          "majorKey": "e2557bbc",
+          "selKe": "政治",
+          "plan": 2,
+          "tuition": "4900",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "海外安全管理",
+          "majorKey": "ad068215",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "4900",
+          "menlei": "管"
+        }
+      ]
+    }
+  ]
+}

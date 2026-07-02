@@ -1,0 +1,68 @@
+{
+  "key": "湛江科技学院",
+  "code": "8660",
+  "name": "湛江科技学院",
+  "leaves": [
+    {
+      "schoolKey": "湛江科技学院",
+      "schoolCode": "8660",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 490,
+          "minRank": 52535,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "首选历史，再选不限",
+          "plan": 2,
+          "tuition": "33800",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 52535,
+          "equivRank": 52535
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "首选物理，再选化学",
+          "plan": 3,
+          "tuition": "33000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "首选物理，再选化学",
+          "plan": 2,
+          "tuition": "33000",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

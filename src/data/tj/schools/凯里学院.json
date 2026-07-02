@@ -1,0 +1,133 @@
+{
+  "key": "凯里学院",
+  "code": "0734",
+  "name": "凯里学院",
+  "leaves": [
+    {
+      "schoolKey": "凯里学院",
+      "schoolCode": "0734",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 502,
+          "minRank": 39655,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "凯里学院",
+      "schoolCode": "0734",
+      "majorKey": "68209f46",
+      "majorName": "信息工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 501,
+          "minRank": 39953,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "凯里学院",
+      "schoolCode": "0734",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 509,
+          "minRank": 37624,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "凯里学院",
+      "schoolCode": "0734",
+      "majorKey": "ed53a26b",
+      "majorName": "智能制造工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 503,
+          "minRank": 39379,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "信息工程",
+          "majorKey": "68209f46",
+          "selKe": "物理加化学",
+          "plan": 4,
+          "tuition": "4200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 39953,
+          "equivRank": 39953
+        },
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "物理加化学",
+          "plan": 4,
+          "tuition": "4200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 39655,
+          "equivRank": 39655
+        },
+        {
+          "majorName": "智能制造工程",
+          "majorKey": "ed53a26b",
+          "selKe": "物理加化学",
+          "plan": 4,
+          "tuition": "4200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 39379,
+          "equivRank": 39379
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4100",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 37624,
+          "equivRank": 37624
+        }
+      ]
+    }
+  ]
+}

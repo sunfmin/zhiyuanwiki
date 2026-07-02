@@ -1,0 +1,193 @@
+{
+  "key": "淮阴工学院",
+  "code": "3243",
+  "name": "淮阴工学院",
+  "leaves": [
+    {
+      "schoolKey": "淮阴工学院",
+      "schoolCode": "3243",
+      "majorKey": "c6cedaad",
+      "majorName": "园林",
+      "selKe": "首选物理，再选生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 480,
+          "minRank": 77017,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "淮阴工学院",
+      "schoolCode": "3243",
+      "majorKey": "ab2d8ff0",
+      "majorName": "少数民族预科班",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 503,
+          "minRank": 25957,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 468,
+          "minRank": 86016,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "经济与金融",
+          "majorKey": "8e6ea071",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "5200元",
+          "menlei": "经"
+        },
+        {
+          "majorName": "社会工作",
+          "majorKey": "fd907dda",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5200元",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "少数民族预科班",
+          "majorKey": "ab2d8ff0",
+          "selKe": "历史",
+          "plan": 10,
+          "tuition": "5200元",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 25957,
+          "equivRank": 25957
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "金融数学",
+          "majorKey": "fcd46a8c",
+          "selKe": "物理",
+          "plan": 3,
+          "tuition": "5200元",
+          "menlei": "经"
+        },
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "5200元",
+          "menlei": "经"
+        },
+        {
+          "majorName": "经济与金融",
+          "majorKey": "8e6ea071",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "5200元",
+          "menlei": "经"
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5800元",
+          "menlei": "工"
+        },
+        {
+          "majorName": "生物工程",
+          "majorKey": "14eeb10f",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5800元",
+          "menlei": "工"
+        },
+        {
+          "majorName": "农学",
+          "majorKey": "c10bcf22",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "2500元",
+          "menlei": "农"
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理,生物",
+      "majors": [
+        {
+          "majorName": "园林",
+          "majorKey": "c6cedaad",
+          "selKe": "物理,生物",
+          "plan": 3,
+          "tuition": "2500元",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 77017,
+          "equivRank": 77017
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "少数民族预科班",
+          "majorKey": "ab2d8ff0",
+          "selKe": "物理",
+          "plan": 15,
+          "tuition": "5200元",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 86016,
+          "equivRank": 86016
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "key": "广西医科大学",
+  "code": "0471",
+  "name": "广西医科大学",
+  "leaves": [
+    {
+      "schoolKey": "广西医科大学",
+      "schoolCode": "0471",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 613,
+          "minRank": 4517,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "广西医科大学",
+      "schoolCode": "0471",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "物理,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 511,
+          "minRank": 26673,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "广西医科大学",
+      "schoolCode": "0471",
+      "majorKey": "11a5a631",
+      "majorName": "智能医学工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 497,
+          "minRank": 30626,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "广西医科大学",
+      "schoolCode": "0471",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 496,
+          "minRank": 30906,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "7500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 4517,
+          "equivRank": 4517
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 30906,
+          "equivRank": 30906
+        },
+        {
+          "majorName": "智能医学工程",
+          "majorKey": "11a5a631",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 30626,
+          "equivRank": 30626
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "生物学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物学",
+          "plan": 3,
+          "tuition": "6400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 26673,
+          "equivRank": 26673
+        }
+      ]
+    }
+  ]
+}

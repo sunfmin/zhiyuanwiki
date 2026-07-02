@@ -1,0 +1,106 @@
+{
+  "key": "内江师范学院",
+  "code": "0876",
+  "name": "内江师范学院",
+  "leaves": [
+    {
+      "schoolKey": "内江师范学院",
+      "schoolCode": "0876",
+      "majorKey": "59687759",
+      "majorName": "应用心理学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 446,
+          "minRank": 39191,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "内江师范学院",
+      "schoolCode": "0876",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 437,
+          "minRank": 41436,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "内江师范学院",
+      "schoolCode": "0876",
+      "majorKey": "653f630d",
+      "majorName": "物理学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 434,
+          "minRank": 42167,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "应用心理学",
+          "majorKey": "59687759",
+          "selKe": "不限科目",
+          "plan": 1,
+          "tuition": "5980",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 39191,
+          "equivRank": 39191
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "物理和化学",
+          "plan": 1,
+          "tuition": "5980",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 42167,
+          "equivRank": 42167
+        },
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理和化学",
+          "plan": 1,
+          "tuition": "5980",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 41436,
+          "equivRank": 41436
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "key": "盐城师范学院",
+  "code": "0141",
+  "name": "盐城师范学院",
+  "leaves": [
+    {
+      "schoolKey": "盐城师范学院",
+      "schoolCode": "0141",
+      "majorKey": "d7013734",
+      "majorName": "人文地理与城乡规划",
+      "selKe": "物理,地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 437,
+          "minRank": 49381,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "盐城师范学院",
+      "schoolCode": "0141",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 540,
+          "minRank": 5666,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "盐城师范学院",
+      "schoolCode": "0141",
+      "majorKey": "e6a89fa4",
+      "majorName": "金融工程",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 471,
+          "minRank": 38447,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 5666,
+          "equivRank": 5666
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "地理",
+      "majors": [
+        {
+          "majorName": "人文地理与城乡规划",
+          "majorKey": "d7013734",
+          "selKe": "地理",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 49381,
+          "equivRank": 49381
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融工程",
+          "majorKey": "e6a89fa4",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5200",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 38447,
+          "equivRank": 38447
+        }
+      ]
+    }
+  ]
+}

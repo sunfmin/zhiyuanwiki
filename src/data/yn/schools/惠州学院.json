@@ -1,0 +1,143 @@
+{
+  "key": "惠州学院",
+  "code": "4451",
+  "name": "惠州学院",
+  "leaves": [
+    {
+      "schoolKey": "惠州学院",
+      "schoolCode": "4451",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 516,
+          "minRank": 21195,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "惠州学院",
+      "schoolCode": "4451",
+      "majorKey": "9b8820c1",
+      "majorName": "风景园林",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 490,
+          "minRank": 69660,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "5050元",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 21195,
+          "equivRank": 21195
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "风景园林",
+          "majorKey": "9b8820c1",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "5710元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 69660,
+          "equivRank": 69660
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "应用统计学",
+          "majorKey": "d054f8d1",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5710元",
+          "menlei": "理"
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5710元",
+          "menlei": "工"
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5710元",
+          "menlei": "工"
+        },
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5710元",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "应用化学",
+          "majorKey": "25624660",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5710元",
+          "menlei": "理"
+        },
+        {
+          "majorName": "高分子材料与工程",
+          "majorKey": "fc81313f",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5710元",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "key": "西安科技大学高新学院",
+  "code": "14042",
+  "name": "西安科技大学高新学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "205",
+      "groupName": "205",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "27000",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "206",
+      "groupName": "206",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "42800",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "207",
+      "groupName": "207",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "49600",
+          "menlei": "工",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

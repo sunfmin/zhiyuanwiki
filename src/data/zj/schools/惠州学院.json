@@ -1,0 +1,72 @@
+{
+  "key": "惠州学院",
+  "code": "4463",
+  "name": "惠州学院",
+  "leaves": [
+    {
+      "schoolKey": "惠州学院",
+      "schoolCode": "4463",
+      "majorKey": "90cd213e",
+      "majorName": "服装设计与工程",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "综合",
+          "minScore": 545,
+          "minRank": 112193,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 566,
+          "minRank": 92967,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "惠州学院",
+      "schoolCode": "4463",
+      "majorKey": "8230723d",
+      "majorName": "计算机类",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 539,
+          "minRank": 125623,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "服装设计与工程",
+      "majorKey": "90cd213e",
+      "selKe": "不限",
+      "plan": 2,
+      "tuition": "5710",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 92967,
+      "equivRank": 92967
+    },
+    {
+      "majorName": "计算机类",
+      "majorKey": "8230723d",
+      "selKe": "物理、化学(2科必选)",
+      "plan": 2,
+      "tuition": "5710",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 125623,
+      "equivRank": 125623
+    }
+  ]
+}

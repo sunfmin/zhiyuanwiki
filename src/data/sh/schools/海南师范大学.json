@@ -1,0 +1,79 @@
+{
+  "key": "海南师范大学",
+  "code": "0832",
+  "name": "海南师范大学",
+  "leaves": [
+    {
+      "schoolKey": "海南师范大学",
+      "schoolCode": "0832",
+      "majorKey": "7273f83c",
+      "majorName": "教育学类",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 452,
+          "minRank": 37654,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "海南师范大学",
+      "schoolCode": "0832",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 454,
+          "minRank": 37099,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "教育学类",
+          "majorKey": "7273f83c",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "4180",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 37654,
+          "equivRank": 37654
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理和化学",
+          "plan": 3,
+          "tuition": "4620",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 37099,
+          "equivRank": 37099
+        }
+      ]
+    }
+  ]
+}

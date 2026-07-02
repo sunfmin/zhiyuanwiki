@@ -1,0 +1,245 @@
+{
+  "key": "上海体育大学",
+  "code": "3119",
+  "name": "上海体育大学",
+  "leaves": [
+    {
+      "schoolKey": "上海体育大学",
+      "schoolCode": "3119",
+      "majorKey": "25bf7075",
+      "majorName": "医学技术类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 547,
+          "minRank": 32923,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海体育大学",
+      "schoolCode": "3119",
+      "majorKey": "b74128f4",
+      "majorName": "工商管理类",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 569,
+          "minRank": 6604,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 558,
+          "minRank": 26994,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海体育大学",
+      "schoolCode": "3119",
+      "majorKey": "59687759",
+      "majorName": "应用心理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 547,
+          "minRank": 32923,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海体育大学",
+      "schoolCode": "3119",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 554,
+          "minRank": 29087,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海体育大学",
+      "schoolCode": "3119",
+      "majorKey": "9c5f4a34",
+      "majorName": "新闻学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 569,
+          "minRank": 6604,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海体育大学",
+      "schoolCode": "3119",
+      "majorKey": "180f6a43",
+      "majorName": "运动能力开发",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 539,
+          "minRank": 37443,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "新闻学",
+          "majorKey": "9c5f4a34",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "6500元",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 6604,
+          "equivRank": 6604
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "工商管理类",
+          "majorKey": "b74128f4",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "6500元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 6604,
+          "equivRank": 6604
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "工商管理类",
+          "majorKey": "b74128f4",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "6500元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 26994,
+          "equivRank": 26994
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "7000元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 29087,
+          "equivRank": 29087
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "医学技术类",
+          "majorKey": "25bf7075",
+          "selKe": "物理,化学",
+          "plan": 10,
+          "tuition": "7400元",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 32923,
+          "equivRank": 32923
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "应用心理学",
+          "majorKey": "59687759",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "7000元",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 32923,
+          "equivRank": 32923
+        }
+      ]
+    },
+    {
+      "groupCode": "05",
+      "groupName": "05",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "运动能力开发",
+          "majorKey": "180f6a43",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "7700元",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 37443,
+          "equivRank": 37443
+        }
+      ]
+    }
+  ]
+}

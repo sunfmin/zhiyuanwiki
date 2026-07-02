@@ -1,0 +1,71 @@
+{
+  "key": "蚌埠学院",
+  "code": "2011",
+  "name": "蚌埠学院",
+  "leaves": [
+    {
+      "schoolKey": "蚌埠学院",
+      "schoolCode": "2011",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 477,
+          "minRank": 61057,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "蚌埠学院",
+      "schoolCode": "2011",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 480,
+          "minRank": 59178,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "5390",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 61057,
+          "equivRank": 61057
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 59178,
+          "equivRank": 59178
+        }
+      ]
+    }
+  ]
+}

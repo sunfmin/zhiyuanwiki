@@ -1,0 +1,204 @@
+{
+  "key": "上海第二工业大学",
+  "code": "1477",
+  "name": "上海第二工业大学",
+  "leaves": [
+    {
+      "schoolKey": "上海第二工业大学",
+      "schoolCode": "1477",
+      "majorKey": "13c18eb7",
+      "majorName": "工业工程",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 426,
+          "minRank": 33075,
+          "maxScore": 431
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 520,
+          "minRank": 28339,
+          "maxScore": 526
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海第二工业大学",
+      "schoolCode": "1477",
+      "majorKey": "ed53a26b",
+      "majorName": "智能制造工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 427,
+          "minRank": 32776,
+          "maxScore": 436
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 531,
+          "minRank": 25107,
+          "maxScore": 533
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 528,
+          "minRank": 23036,
+          "maxScore": 529
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海第二工业大学",
+      "schoolCode": "1477",
+      "majorKey": "bdb5a180",
+      "majorName": "机械工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 443,
+          "minRank": 28210,
+          "maxScore": 449
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 537,
+          "minRank": 23393,
+          "maxScore": 544
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 536,
+          "minRank": 20638,
+          "maxScore": 539
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海第二工业大学",
+      "schoolCode": "1477",
+      "majorKey": "b54c1697",
+      "majorName": "网络工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 444,
+          "minRank": 27970,
+          "maxScore": 469
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 532,
+          "minRank": 24810,
+          "maxScore": 541
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 528,
+          "minRank": 23036,
+          "maxScore": 528
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海第二工业大学",
+      "schoolCode": "1477",
+      "majorKey": "da95770c",
+      "majorName": "自动化",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 423,
+          "minRank": 33972,
+          "maxScore": 428
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 533,
+          "minRank": 24536,
+          "maxScore": 544
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 530,
+          "minRank": 22442,
+          "maxScore": 531
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械工程",
+          "majorKey": "bdb5a180",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "7000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 20638,
+          "equivRank": 19303
+        },
+        {
+          "majorName": "智能制造工程",
+          "majorKey": "ed53a26b",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "7000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 23036,
+          "equivRank": 21546
+        },
+        {
+          "majorName": "自动化",
+          "majorKey": "da95770c",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "7000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 22442,
+          "equivRank": 20990
+        },
+        {
+          "majorName": "网络工程",
+          "majorKey": "b54c1697",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "7000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 23036,
+          "equivRank": 21546
+        }
+      ]
+    }
+  ]
+}

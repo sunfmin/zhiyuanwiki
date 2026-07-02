@@ -1,0 +1,177 @@
+{
+  "key": "北京交通大学(威海校区)",
+  "code": "2489",
+  "name": "北京交通大学(威海校区)",
+  "leaves": [
+    {
+      "schoolKey": "北京交通大学(威海校区)",
+      "schoolCode": "2489",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 580,
+          "minRank": 12874,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京交通大学(威海校区)",
+      "schoolCode": "2489",
+      "majorKey": "55e3bd26",
+      "majorName": "信息管理与信息系统",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 573,
+          "minRank": 15004,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京交通大学(威海校区)",
+      "schoolCode": "2489",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 554,
+          "minRank": 21757,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京交通大学(威海校区)",
+      "schoolCode": "2489",
+      "majorKey": "7faf2092",
+      "majorName": "环境工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 557,
+          "minRank": 20584,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京交通大学(威海校区)",
+      "schoolCode": "2489",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 590,
+          "minRank": 10058,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京交通大学(威海校区)",
+      "schoolCode": "2489",
+      "majorKey": "1c1ee3f7",
+      "majorName": "通信工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 589,
+          "minRank": 10334,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "100000",
+          "menlei": "管",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 21757,
+          "equivRank": 6489
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "100000",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 10334,
+          "equivRank": 10334
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "100000",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 10058,
+          "equivRank": 10058
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "环境工程",
+          "majorKey": "7faf2092",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "100000",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 20584,
+          "equivRank": 20584
+        }
+      ]
+    }
+  ]
+}

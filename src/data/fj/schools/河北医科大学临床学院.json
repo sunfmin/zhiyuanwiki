@@ -1,0 +1,80 @@
+{
+  "key": "河北医科大学临床学院",
+  "code": "2678",
+  "name": "河北医科大学临床学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "600",
+      "groupName": "专业组：600 (选考生物学)",
+      "track": "历史",
+      "selKe": "生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物",
+          "plan": 5,
+          "tuition": "10000",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "医学影像技术",
+          "majorKey": "11fef64a",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "10000",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "516",
+      "groupName": "专业组：516 (选考化学且生物学)",
+      "track": "物理",
+      "selKe": "化学和生物",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学和生物",
+          "plan": 3,
+          "tuition": "10000",
+          "menlei": "医"
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "化学和生物",
+          "plan": 3,
+          "tuition": "10000",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "600",
+      "groupName": "专业组：600 (选考生物学)",
+      "track": "物理",
+      "selKe": "生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物",
+          "plan": 5,
+          "tuition": "10000",
+          "menlei": "医"
+        }
+      ]
+    }
+  ]
+}

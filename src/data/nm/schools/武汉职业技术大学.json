@@ -1,0 +1,52 @@
+{
+  "key": "武汉职业技术大学",
+  "code": "0673",
+  "name": "武汉职业技术大学",
+  "leaves": [
+    {
+      "schoolKey": "武汉职业技术大学",
+      "schoolCode": "0673",
+      "majorKey": "b217b8b5",
+      "majorName": "机械设计制造及自动化",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 472,
+          "minRank": 38138,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "机械设计制造及自动化",
+          "majorKey": "b217b8b5",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 38138,
+          "equivRank": 38138
+        },
+        {
+          "majorName": "信息安全与管理",
+          "majorKey": "db1036d4",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "管"
+        }
+      ]
+    }
+  ]
+}

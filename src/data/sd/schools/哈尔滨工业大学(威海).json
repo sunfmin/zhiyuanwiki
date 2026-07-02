@@ -1,0 +1,101 @@
+{
+  "key": "哈尔滨工业大学(威海)",
+  "code": "H213",
+  "name": "哈尔滨工业大学(威海)",
+  "leaves": [
+    {
+      "schoolKey": "哈尔滨工业大学(威海)",
+      "schoolCode": "H213",
+      "majorKey": "b363aa3d",
+      "majorName": "工科试验班",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 648,
+          "minRank": 3904,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "哈尔滨工业大学(威海)",
+      "schoolCode": "H213",
+      "majorKey": "c90681af",
+      "majorName": "智能材料与结构",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 610,
+          "minRank": 18079,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "哈尔滨工业大学(威海)",
+      "schoolCode": "H213",
+      "majorKey": "ac3cf080",
+      "majorName": "船舶与海洋工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 607,
+          "minRank": 20314,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "工科试验班",
+      "majorKey": "b363aa3d",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "plan": 537,
+      "tuition": "6600",
+      "schooling": "4",
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 3904,
+      "equivRank": 3904,
+      "prevScore": 648
+    },
+    {
+      "majorName": "智能材料与结构",
+      "majorKey": "c90681af",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "plan": 8,
+      "tuition": "85000",
+      "schooling": "4",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 18079,
+      "equivRank": 18079,
+      "prevScore": 610
+    },
+    {
+      "majorName": "船舶与海洋工程",
+      "majorKey": "ac3cf080",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "plan": 15,
+      "tuition": "60000",
+      "schooling": "4",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 20314,
+      "equivRank": 20314,
+      "prevScore": 607
+    }
+  ]
+}

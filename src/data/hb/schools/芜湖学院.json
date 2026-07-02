@@ -1,0 +1,48 @@
+{
+  "key": "芜湖学院",
+  "code": "H182",
+  "name": "芜湖学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 5,
+          "tuition": "18000",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "电子信息类",
+          "majorKey": "5e0efed0",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "18800",
+          "menlei": "工"
+        },
+        {
+          "majorName": "计算机类",
+          "majorKey": "8230723d",
+          "selKe": "物理,化学",
+          "plan": 10,
+          "tuition": "18800",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

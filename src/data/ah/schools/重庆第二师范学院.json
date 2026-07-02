@@ -1,0 +1,140 @@
+{
+  "key": "重庆第二师范学院",
+  "code": "1167",
+  "name": "重庆第二师范学院",
+  "leaves": [
+    {
+      "schoolKey": "重庆第二师范学院",
+      "schoolCode": "1167",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 522,
+          "minRank": 104065,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "重庆第二师范学院",
+      "schoolCode": "1167",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 516,
+          "minRank": 26278,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 512,
+          "minRank": 117743,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "重庆第二师范学院",
+      "schoolCode": "1167",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 524,
+          "minRank": 101477,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "3750元/年",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 26278,
+          "equivRank": 26278
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "3750元/年",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 117743,
+          "equivRank": 117743
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "3750元/年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 101477,
+          "equivRank": 101477
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "3000元/年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 104065,
+          "equivRank": 104065
+        }
+      ]
+    }
+  ]
+}

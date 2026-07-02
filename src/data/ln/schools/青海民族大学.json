@@ -1,0 +1,129 @@
+{
+  "key": "青海民族大学",
+  "code": "0748",
+  "name": "青海民族大学",
+  "leaves": [
+    {
+      "schoolKey": "青海民族大学",
+      "schoolCode": "0748",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 479,
+          "minRank": 67042,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "青海民族大学",
+      "schoolCode": "0748",
+      "majorKey": "bda0ff17",
+      "majorName": "经济学",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 493,
+          "minRank": 16120,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "青海民族大学",
+      "schoolCode": "0748",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 486,
+          "minRank": 63506,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "青海民族大学",
+      "schoolCode": "0748",
+      "majorKey": "062bcf46",
+      "majorName": "行政管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 486,
+          "minRank": 17410,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "经济学",
+      "majorKey": "bda0ff17",
+      "track": "历史",
+      "selKe": "历史,政治",
+      "plan": 2,
+      "tuition": "4500",
+      "schooling": "4",
+      "menlei": "经",
+      "prevYear": 2025,
+      "prevRank": 16120,
+      "equivRank": 16120,
+      "prevScore": 493
+    },
+    {
+      "majorName": "行政管理",
+      "majorKey": "062bcf46",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 3,
+      "tuition": "4500",
+      "schooling": "4",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 17410,
+      "equivRank": 17410,
+      "prevScore": 486
+    },
+    {
+      "majorName": "药学",
+      "majorKey": "e9e6a481",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 1,
+      "tuition": "5500",
+      "schooling": "4",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 63506,
+      "equivRank": 63506,
+      "prevScore": 486
+    },
+    {
+      "majorName": "人工智能",
+      "majorKey": "2fec4169",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 2,
+      "tuition": "5200",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 67042,
+      "equivRank": 67042,
+      "prevScore": 479
+    }
+  ]
+}

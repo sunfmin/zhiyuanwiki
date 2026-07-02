@@ -1,0 +1,106 @@
+{
+  "key": "安康学院",
+  "code": "K484",
+  "name": "安康学院",
+  "leaves": [
+    {
+      "schoolKey": "安康学院",
+      "schoolCode": "K484",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 515,
+          "minRank": 23923,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安康学院",
+      "schoolCode": "K484",
+      "majorKey": "25624660",
+      "majorName": "应用化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 477,
+          "minRank": 106903,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安康学院",
+      "schoolCode": "K484",
+      "majorKey": "1da18825",
+      "majorName": "物联网工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 480,
+          "minRank": 104222,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 23923,
+          "equivRank": 23923
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "应用化学",
+          "majorKey": "25624660",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 106903,
+          "equivRank": 106903
+        },
+        {
+          "majorName": "物联网工程",
+          "majorKey": "1da18825",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 104222,
+          "equivRank": 104222
+        }
+      ]
+    }
+  ]
+}

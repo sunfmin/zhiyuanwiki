@@ -1,0 +1,153 @@
+{
+  "key": "上海交通大学医学院",
+  "code": "1455",
+  "name": "上海交通大学医学院",
+  "leaves": [
+    {
+      "schoolKey": "上海交通大学医学院",
+      "schoolCode": "1455",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 669,
+          "minRank": 107,
+          "maxScore": 669
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 694,
+          "minRank": 149,
+          "maxScore": 694
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 684,
+          "minRank": 99,
+          "maxScore": 684
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海交通大学医学院",
+      "schoolCode": "1455",
+      "majorKey": "696c3187",
+      "majorName": "医学试验班",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 646,
+          "minRank": 486,
+          "maxScore": 656
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 678,
+          "minRank": 518,
+          "maxScore": 686
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 655,
+          "minRank": 732,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "8140",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 99,
+          "equivRank": 93
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "8140",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 99,
+          "equivRank": 93
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "儿科学",
+          "majorKey": "db9ffa2a",
+          "selKe": "化学",
+          "plan": 10,
+          "tuition": "8140",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "8140",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 99,
+          "equivRank": 93
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "第004组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "8140",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 99,
+          "equivRank": 93
+        }
+      ]
+    }
+  ]
+}

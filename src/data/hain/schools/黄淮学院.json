@@ -1,0 +1,65 @@
+{
+  "key": "黄淮学院",
+  "code": "1587",
+  "name": "黄淮学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "商务经济学",
+          "majorKey": "d9b0a3d9",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4400",
+          "menlei": "经"
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 15,
+          "tuition": "4400",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "18000",
+          "menlei": "工",
+          "coop": true
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "综合",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 5,
+          "tuition": "4400",
+          "menlei": "文"
+        }
+      ]
+    }
+  ]
+}

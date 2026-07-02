@@ -1,0 +1,83 @@
+{
+  "key": "赤峰学院",
+  "code": "0312",
+  "name": "赤峰学院",
+  "leaves": [
+    {
+      "schoolKey": "赤峰学院",
+      "schoolCode": "0312",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 506,
+          "minRank": 17193,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 514,
+          "minRank": 16950,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "赤峰学院",
+      "schoolCode": "0312",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 488,
+          "minRank": 23302,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 502,
+          "minRank": 20903,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "汉语言文学",
+      "majorKey": "97bc5998",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 3,
+      "tuition": "4200",
+      "schooling": "四年",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 16950,
+      "equivRank": 16950,
+      "prevScore": 514
+    },
+    {
+      "majorName": "英语",
+      "majorKey": "49c5cdf9",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 2,
+      "tuition": "4200",
+      "schooling": "四年",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 20903,
+      "equivRank": 20903,
+      "prevScore": 502
+    }
+  ]
+}

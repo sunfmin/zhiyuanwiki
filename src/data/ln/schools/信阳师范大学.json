@@ -1,0 +1,71 @@
+{
+  "key": "信阳师范大学",
+  "code": "0477",
+  "name": "信阳师范大学",
+  "leaves": [
+    {
+      "schoolKey": "信阳师范大学",
+      "schoolCode": "0477",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 453,
+          "minRank": 80263,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "信阳师范大学",
+      "schoolCode": "0477",
+      "majorKey": "0ac1da59",
+      "majorName": "生物技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 455,
+          "minRank": 79305,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "生物技术",
+      "majorKey": "0ac1da59",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 5,
+      "tuition": "18000",
+      "schooling": "4",
+      "menlei": "理",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 79305,
+      "equivRank": 79305,
+      "prevScore": 455
+    },
+    {
+      "majorName": "土木工程",
+      "majorKey": "320e7128",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 5,
+      "tuition": "18000",
+      "schooling": "4",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 80263,
+      "equivRank": 80263,
+      "prevScore": 453
+    }
+  ]
+}

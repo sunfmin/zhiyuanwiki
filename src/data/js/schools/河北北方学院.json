@@ -1,0 +1,151 @@
+{
+  "key": "河北北方学院",
+  "code": "3349",
+  "name": "河北北方学院",
+  "leaves": [
+    {
+      "schoolKey": "河北北方学院",
+      "schoolCode": "3349",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 546,
+          "minRank": 59117,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 574,
+          "minRank": 54145,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 529,
+          "minRank": 107572,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 572,
+          "minRank": 64677,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北北方学院",
+      "schoolCode": "3349",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 546,
+          "minRank": 59117,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 573,
+          "minRank": 55137,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 537,
+          "minRank": 97313,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 561,
+          "minRank": 78396,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北北方学院",
+      "schoolCode": "3349",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 510,
+          "minRank": 97329,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 519,
+          "minRank": 108391,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 528,
+          "minRank": 108842,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "医学影像学",
+          "majorKey": "5780af73",
+          "selKe": "首选物理，再选化学",
+          "plan": 5,
+          "tuition": "5700",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 78396,
+          "equivRank": 78396
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "首选物理，再选化学",
+          "plan": 5,
+          "tuition": "5700",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 64677,
+          "equivRank": 64677
+        }
+      ]
+    }
+  ]
+}

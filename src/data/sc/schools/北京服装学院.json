@@ -1,0 +1,181 @@
+{
+  "key": "北京服装学院",
+  "code": "1103",
+  "name": "北京服装学院",
+  "leaves": [
+    {
+      "schoolKey": "北京服装学院",
+      "schoolCode": "1103",
+      "majorKey": "416fa48b",
+      "majorName": "智能工程与创意设计",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 528,
+          "minRank": 90690,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京服装学院",
+      "schoolCode": "1103",
+      "majorKey": "90cd213e",
+      "majorName": "服装设计与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 560,
+          "minRank": 55395,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京服装学院",
+      "schoolCode": "1103",
+      "majorKey": "d4e859f9",
+      "majorName": "轻化工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 525,
+          "minRank": 94428,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京服装学院",
+      "schoolCode": "1103",
+      "majorKey": "fc81313f",
+      "majorName": "高分子材料与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 525,
+          "minRank": 94428,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "高分子材料与工程",
+          "majorKey": "fc81313f",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "4年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 94428,
+          "equivRank": 94428
+        },
+        {
+          "majorName": "轻化工程",
+          "majorKey": "d4e859f9",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "4年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 94428,
+          "equivRank": 94428
+        },
+        {
+          "majorName": "智能工程与创意设计",
+          "majorKey": "416fa48b",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "4年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 90690,
+          "equivRank": 90690
+        },
+        {
+          "majorName": "服装设计与工程",
+          "majorKey": "90cd213e",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "4年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 55395,
+          "equivRank": 55395
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "少数民族预科",
+          "majorKey": "ec99f507",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4年",
+          "menlei": "法"
+        },
+        {
+          "majorName": "少数民族预科",
+          "majorKey": "ec99f507",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "4年",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "103",
+      "groupName": "103",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "少数民族预科",
+          "majorKey": "ec99f507",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "4年",
+          "menlei": "法"
+        },
+        {
+          "majorName": "少数民族预科",
+          "majorKey": "ec99f507",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "4年",
+          "menlei": "法"
+        },
+        {
+          "majorName": "少数民族预科",
+          "majorKey": "ec99f507",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "4年",
+          "menlei": "法"
+        }
+      ]
+    }
+  ]
+}

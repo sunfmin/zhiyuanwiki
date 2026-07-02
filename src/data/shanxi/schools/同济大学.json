@@ -1,0 +1,223 @@
+{
+  "key": "同济大学",
+  "code": "1618",
+  "name": "同济大学",
+  "leaves": [
+    {
+      "schoolKey": "同济大学",
+      "schoolCode": "1618",
+      "majorKey": "e70fa033",
+      "majorName": "人文科学试验班",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 608,
+          "minRank": 316,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "同济大学",
+      "schoolCode": "1618",
+      "majorKey": "b363aa3d",
+      "majorName": "工科试验班",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 642,
+          "minRank": 1800,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "同济大学",
+      "schoolCode": "1618",
+      "majorKey": "54728189",
+      "majorName": "理科试验班",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 642,
+          "minRank": 1800,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "人文科学试验班",
+          "majorKey": "e70fa033",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "6500",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 316,
+          "equivRank": 316
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6500",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "化",
+          "plan": 20,
+          "tuition": "7000",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 1800,
+          "equivRank": 1800
+        },
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "化",
+          "plan": 11,
+          "tuition": "7000",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 1800,
+          "equivRank": 1800
+        },
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "化",
+          "plan": 12,
+          "tuition": "7000",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 1800,
+          "equivRank": 1800
+        },
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "化",
+          "plan": 6,
+          "tuition": "7700",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 1800,
+          "equivRank": 1800
+        },
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "化",
+          "plan": 30,
+          "tuition": "7000",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 1800,
+          "equivRank": 1800
+        },
+        {
+          "majorName": "理科试验班",
+          "majorKey": "54728189",
+          "selKe": "化",
+          "plan": 22,
+          "tuition": "7000",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 1800,
+          "equivRank": 1800
+        },
+        {
+          "majorName": "建筑类",
+          "majorKey": "caa6f3a9",
+          "selKe": "化",
+          "plan": 6,
+          "tuition": "7700",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "医学试验班",
+          "majorKey": "696c3187",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "7400",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "303",
+      "groupName": "303",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "机械类",
+          "majorKey": "710bfc36",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "21000",
+          "menlei": "工",
+          "coop": true
+        }
+      ]
+    },
+    {
+      "groupCode": "304",
+      "groupName": "304",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "经济管理试验班",
+          "majorKey": "47abff30",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "6500",
+          "menlei": "经"
+        },
+        {
+          "majorName": "工程力学",
+          "majorKey": "8c993eb0",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "7000",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

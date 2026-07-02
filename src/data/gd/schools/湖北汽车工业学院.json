@@ -1,0 +1,80 @@
+{
+  "key": "湖北汽车工业学院",
+  "code": "10525",
+  "name": "湖北汽车工业学院",
+  "leaves": [
+    {
+      "schoolKey": "湖北汽车工业学院",
+      "schoolCode": "10525",
+      "majorKey": "4f2b01f0",
+      "majorName": "智能无人系统技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 536,
+          "minRank": 103197,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北汽车工业学院",
+      "schoolCode": "10525",
+      "majorKey": "92b6110d",
+      "majorName": "车辆工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 522,
+          "minRank": 126595,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "204",
+      "groupName": "204",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "智能无人系统技术",
+          "majorKey": "4f2b01f0",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 103197,
+          "equivRank": 103197
+        }
+      ]
+    },
+    {
+      "groupCode": "205",
+      "groupName": "205",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "车辆工程",
+          "majorKey": "92b6110d",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "30000",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 126595,
+          "equivRank": 126595
+        }
+      ]
+    }
+  ]
+}

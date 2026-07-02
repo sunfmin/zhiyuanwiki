@@ -1,0 +1,151 @@
+{
+  "key": "西安航空学院",
+  "code": "K487",
+  "name": "西安航空学院",
+  "leaves": [
+    {
+      "schoolKey": "西安航空学院",
+      "schoolCode": "K487",
+      "majorKey": "4ef2a1b4",
+      "majorName": "机械电子工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 497,
+          "minRank": 89180,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西安航空学院",
+      "schoolCode": "K487",
+      "majorKey": "98867766",
+      "majorName": "材料成型及控制工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 523,
+          "minRank": 66664,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西安航空学院",
+      "schoolCode": "K487",
+      "majorKey": "131a0e7c",
+      "majorName": "秘书学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 517,
+          "minRank": 23276,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西安航空学院",
+      "schoolCode": "K487",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 506,
+          "minRank": 81348,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "秘书学",
+          "majorKey": "131a0e7c",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 23276,
+          "equivRank": 23276
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "材料成型及控制工程",
+          "majorKey": "98867766",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 66664,
+          "equivRank": 66664
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "机械电子工程",
+          "majorKey": "4ef2a1b4",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "35000",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 89180,
+          "equivRank": 89180
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "50000",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 81348,
+          "equivRank": 81348
+        }
+      ]
+    }
+  ]
+}

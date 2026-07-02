@@ -1,0 +1,207 @@
+{
+  "key": "昆明城市学院",
+  "code": "3764",
+  "name": "昆明城市学院",
+  "leaves": [
+    {
+      "schoolKey": "昆明城市学院",
+      "schoolCode": "3764",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 390,
+          "minRank": 73796,
+          "maxScore": 396
+        }
+      ]
+    },
+    {
+      "schoolKey": "昆明城市学院",
+      "schoolCode": "3764",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 380,
+          "minRank": 15868,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "昆明城市学院",
+      "schoolCode": "3764",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 380,
+          "minRank": 15868,
+          "maxScore": 387
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 437,
+          "minRank": 17133,
+          "maxScore": 437
+        }
+      ]
+    },
+    {
+      "schoolKey": "昆明城市学院",
+      "schoolCode": "3764",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 381,
+          "minRank": 15654,
+          "maxScore": 393
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 329,
+          "minRank": 68319,
+          "maxScore": 352
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 411,
+          "minRank": 23602,
+          "maxScore": 459
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 428,
+          "minRank": 60280,
+          "maxScore": 428
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 435,
+          "minRank": 17478,
+          "maxScore": 440
+        }
+      ]
+    },
+    {
+      "schoolKey": "昆明城市学院",
+      "schoolCode": "3764",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 394,
+          "minRank": 73355,
+          "maxScore": 399
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 392,
+          "minRank": 72994,
+          "maxScore": 397
+        }
+      ]
+    },
+    {
+      "schoolKey": "昆明城市学院",
+      "schoolCode": "3764",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 329,
+          "minRank": 68319,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "22000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 17478,
+          "equivRank": 17478
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "22000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 17133,
+          "equivRank": 17133
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "22000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 73796,
+          "equivRank": 69022
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "22000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 72994,
+          "equivRank": 68271
+        }
+      ]
+    }
+  ]
+}

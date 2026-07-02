@@ -1,0 +1,64 @@
+{
+  "key": "贵州警察学院",
+  "code": "12107",
+  "name": "贵州警察学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "专业组:101(首选科目:历史。再选科目:不限)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4100元/年",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "105",
+      "groupName": "专业组:105(首选科目:物理。再选科目:不限)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4100元/年",
+          "menlei": "法"
+        },
+        {
+          "majorName": "监狱学",
+          "majorKey": "a5b00ae5",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4100元/年",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "106",
+      "groupName": "专业组:106(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "信息安全",
+          "majorKey": "e6801f33",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4200元/年",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

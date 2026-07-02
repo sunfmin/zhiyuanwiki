@@ -1,0 +1,79 @@
+{
+  "key": "北京农学院",
+  "code": "0523",
+  "name": "北京农学院",
+  "leaves": [
+    {
+      "schoolKey": "北京农学院",
+      "schoolCode": "0523",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 533,
+          "minRank": 6310,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京农学院",
+      "schoolCode": "0523",
+      "majorKey": "c931a1e1",
+      "majorName": "植物保护",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 528,
+          "minRank": 21892,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 6310,
+          "equivRank": 6310
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "植物保护",
+          "majorKey": "c931a1e1",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "免费",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 21892,
+          "equivRank": 21892
+        }
+      ]
+    }
+  ]
+}

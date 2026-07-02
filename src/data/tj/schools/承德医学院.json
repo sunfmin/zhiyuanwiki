@@ -1,0 +1,149 @@
+{
+  "key": "承德医学院",
+  "code": "0169",
+  "name": "承德医学院",
+  "leaves": [
+    {
+      "schoolKey": "承德医学院",
+      "schoolCode": "0169",
+      "majorKey": "8a499b4f",
+      "majorName": "中西医临床医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 566,
+          "minRank": 21500,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "承德医学院",
+      "schoolCode": "0169",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 583,
+          "minRank": 17050,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "承德医学院",
+      "schoolCode": "0169",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "生物必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 556,
+          "minRank": 24209,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "承德医学院",
+      "schoolCode": "0169",
+      "majorKey": "27c81131",
+      "majorName": "生物医学工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 521,
+          "minRank": 34074,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理加化学",
+          "plan": 6,
+          "tuition": "5720",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 17050,
+          "equivRank": 17050
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "中西医临床医学",
+          "majorKey": "8a499b4f",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 21500,
+          "equivRank": 21500
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物",
+          "plan": 2,
+          "tuition": "5720",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 24209,
+          "equivRank": 24209
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "生物医学工程",
+          "majorKey": "27c81131",
+          "selKe": "物理加化学",
+          "plan": 6,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 34074,
+          "equivRank": 34074
+        }
+      ]
+    }
+  ]
+}

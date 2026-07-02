@@ -1,0 +1,214 @@
+{
+  "key": "福建师范大学",
+  "code": "D11",
+  "name": "福建师范大学",
+  "leaves": [
+    {
+      "schoolKey": "福建师范大学",
+      "schoolCode": "D11",
+      "majorKey": "a4eb0b48",
+      "majorName": "心理学类",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 580,
+          "minRank": 2646,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "福建师范大学",
+      "schoolCode": "D11",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 538,
+          "minRank": 19305,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "福建师范大学",
+      "schoolCode": "D11",
+      "majorKey": "5ce793fe",
+      "majorName": "数据科学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 531,
+          "minRank": 21084,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "福建师范大学",
+      "schoolCode": "D11",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 581,
+          "minRank": 2588,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "福建师范大学",
+      "schoolCode": "D11",
+      "majorKey": "5e0efed0",
+      "majorName": "电子信息类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 545,
+          "minRank": 17590,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "福建师范大学",
+      "schoolCode": "D11",
+      "majorKey": "e50fcc71",
+      "majorName": "资源循环科学与工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 529,
+          "minRank": 21608,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "福建师范大学",
+      "schoolCode": "D11",
+      "majorKey": "0c33cbdd",
+      "majorName": "软件工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 537,
+          "minRank": 19553,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5460",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 2588,
+          "equivRank": 2588
+        },
+        {
+          "majorName": "心理学类",
+          "majorKey": "a4eb0b48",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5460",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 2646,
+          "equivRank": 2646
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "10500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 19553,
+          "equivRank": 19553
+        },
+        {
+          "majorName": "数据科学",
+          "majorKey": "5ce793fe",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5460",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 21084,
+          "equivRank": 21084
+        },
+        {
+          "majorName": "资源循环科学与工程",
+          "majorKey": "e50fcc71",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5460",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 21608,
+          "equivRank": 21608
+        },
+        {
+          "majorName": "电子信息类",
+          "majorKey": "5e0efed0",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5040",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 17590,
+          "equivRank": 17590
+        },
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5460",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 19305,
+          "equivRank": 19305
+        }
+      ]
+    }
+  ]
+}

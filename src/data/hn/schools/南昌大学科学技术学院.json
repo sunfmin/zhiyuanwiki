@@ -1,0 +1,70 @@
+{
+  "key": "南昌大学科学技术学院",
+  "code": "3632",
+  "name": "南昌大学科学技术学院",
+  "leaves": [
+    {
+      "schoolKey": "南昌大学科学技术学院",
+      "schoolCode": "3632",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 469,
+          "minRank": 39103,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 461,
+          "minRank": 138327,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（101）",
+      "groupName": "（101）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "首选历史，再选不限",
+          "plan": 3,
+          "tuition": "13000",
+          "menlei": "经",
+          "prevYear": 2024,
+          "prevRank": 39103,
+          "equivRank": 37293
+        }
+      ]
+    },
+    {
+      "groupCode": "（102）",
+      "groupName": "（102）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "首选物理，再选不限",
+          "plan": 3,
+          "tuition": "13000",
+          "menlei": "经",
+          "prevYear": 2024,
+          "prevRank": 138327,
+          "equivRank": 153741
+        }
+      ]
+    }
+  ]
+}

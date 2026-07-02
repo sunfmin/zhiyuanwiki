@@ -1,0 +1,198 @@
+{
+  "key": "北京建筑大学",
+  "code": "10016",
+  "name": "北京建筑大学",
+  "leaves": [
+    {
+      "schoolKey": "北京建筑大学",
+      "schoolCode": "10016",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 571,
+          "minRank": 54542,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京建筑大学",
+      "schoolCode": "10016",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 561,
+          "minRank": 66789,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京建筑大学",
+      "schoolCode": "10016",
+      "majorKey": "2a1f2fe5",
+      "majorName": "城乡规划",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 589,
+          "minRank": 36022,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京建筑大学",
+      "schoolCode": "10016",
+      "majorKey": "2363aecb",
+      "majorName": "智能建造",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 565,
+          "minRank": 61836,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京建筑大学",
+      "schoolCode": "10016",
+      "majorKey": "528488f6",
+      "majorName": "环境设计",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 574,
+          "minRank": 51128,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京建筑大学",
+      "schoolCode": "10016",
+      "majorKey": "b0765a88",
+      "majorName": "给排水科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 557,
+          "minRank": 72077,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "203",
+      "groupName": "203",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "城乡规划",
+          "majorKey": "2a1f2fe5",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 36022,
+          "equivRank": 36022
+        },
+        {
+          "majorName": "环境设计",
+          "majorKey": "528488f6",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4600",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 51128,
+          "equivRank": 51128
+        }
+      ]
+    },
+    {
+      "groupCode": "204",
+      "groupName": "204",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "智能建造",
+          "majorKey": "2363aecb",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 61836,
+          "equivRank": 61836
+        },
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 66789,
+          "equivRank": 66789
+        },
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 66789,
+          "equivRank": 66789
+        },
+        {
+          "majorName": "给排水科学与工程",
+          "majorKey": "b0765a88",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 72077,
+          "equivRank": 72077
+        },
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 54542,
+          "equivRank": 54542
+        }
+      ]
+    }
+  ]
+}

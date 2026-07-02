@@ -1,0 +1,139 @@
+{
+  "key": "哈尔滨工业大学(威海)",
+  "code": "E24",
+  "name": "哈尔滨工业大学（威海）",
+  "leaves": [
+    {
+      "schoolKey": "哈尔滨工业大学(威海)",
+      "schoolCode": "E24",
+      "majorKey": "b363aa3d",
+      "majorName": "工科试验班",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 654,
+          "minRank": 950,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "哈尔滨工业大学(威海)",
+      "schoolCode": "E24",
+      "majorKey": "0c33cbdd",
+      "majorName": "软件工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 646,
+          "minRank": 1372,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "化学",
+          "plan": 28,
+          "tuition": "7000",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 950,
+          "equivRank": 950
+        },
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "化学",
+          "plan": 14,
+          "tuition": "6600",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 950,
+          "equivRank": 950
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "化学",
+          "plan": 15,
+          "tuition": "12000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 1372,
+          "equivRank": 1372
+        },
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "化学",
+          "plan": 15,
+          "tuition": "6600",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 950,
+          "equivRank": 950
+        }
+      ]
+    },
+    {
+      "groupCode": "104",
+      "groupName": "104",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "化学",
+          "plan": 8,
+          "tuition": "6600",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 950,
+          "equivRank": 950
+        }
+      ]
+    },
+    {
+      "groupCode": "105",
+      "groupName": "105",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "6600",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 950,
+          "equivRank": 950
+        }
+      ]
+    }
+  ]
+}

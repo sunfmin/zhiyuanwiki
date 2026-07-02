@@ -1,0 +1,42 @@
+{
+  "key": "山东建筑大学(中外合作)",
+  "code": "3148",
+  "name": "山东建筑大学(中外合作)",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "48000",
+          "menlei": "工",
+          "coop": true
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "建筑学",
+          "majorKey": "6b32f2c4",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "50000",
+          "menlei": "工",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "key": "豫北医学院",
+  "code": "5437",
+  "name": "豫北医学院",
+  "leaves": [
+    {
+      "schoolKey": "豫北医学院",
+      "schoolCode": "5437",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 502,
+          "minRank": 53865,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "豫北医学院",
+      "schoolCode": "5437",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 466,
+          "minRank": 78989,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "豫北医学院",
+      "schoolCode": "5437",
+      "majorKey": "a507c400",
+      "majorName": "康复治疗学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 478,
+          "minRank": 70268,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "物理,化学,生物",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学,生物",
+          "plan": 2,
+          "tuition": "17000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 53865,
+          "equivRank": 53865
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "17000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 78989,
+          "equivRank": 78989
+        },
+        {
+          "majorName": "康复治疗学",
+          "majorKey": "a507c400",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "17000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 70268,
+          "equivRank": 70268
+        }
+      ]
+    }
+  ]
+}

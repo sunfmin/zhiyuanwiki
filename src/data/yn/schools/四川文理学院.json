@@ -1,0 +1,230 @@
+{
+  "key": "四川文理学院",
+  "code": "5185",
+  "name": "四川文理学院",
+  "leaves": [
+    {
+      "schoolKey": "四川文理学院",
+      "schoolCode": "5185",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 510,
+          "minRank": 56116,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "四川文理学院",
+      "schoolCode": "5185",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 521,
+          "minRank": 19782,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "四川文理学院",
+      "schoolCode": "5185",
+      "majorKey": "4166f1ff",
+      "majorName": "工程管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 503,
+          "minRank": 60983,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "四川文理学院",
+      "schoolCode": "5185",
+      "majorKey": "4ea26300",
+      "majorName": "广播电视学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 522,
+          "minRank": 19410,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "四川文理学院",
+      "schoolCode": "5185",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 513,
+          "minRank": 54037,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "四川文理学院",
+      "schoolCode": "5185",
+      "majorKey": "f3a3be38",
+      "majorName": "知识产权",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 537,
+          "minRank": 14556,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "四川文理学院",
+      "schoolCode": "5185",
+      "majorKey": "062bcf46",
+      "majorName": "行政管理",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 533,
+          "minRank": 15820,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "4800元",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 19782,
+          "equivRank": 19782
+        },
+        {
+          "majorName": "广播电视学",
+          "majorKey": "4ea26300",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "4800元",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 19410,
+          "equivRank": 19410
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "历史",
+      "selKe": "历史,政治",
+      "majors": [
+        {
+          "majorName": "知识产权",
+          "majorKey": "f3a3be38",
+          "selKe": "历史,政治",
+          "plan": 3,
+          "tuition": "4800元",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 14556,
+          "equivRank": 14556
+        },
+        {
+          "majorName": "行政管理",
+          "majorKey": "062bcf46",
+          "selKe": "历史,政治",
+          "plan": 3,
+          "tuition": "4800元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 15820,
+          "equivRank": 15820
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "工程管理",
+          "majorKey": "4166f1ff",
+          "selKe": "物理",
+          "plan": 3,
+          "tuition": "4800元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 60983,
+          "equivRank": 60983
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5200元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 56116,
+          "equivRank": 56116
+        },
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5200元",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 54037,
+          "equivRank": 54037
+        }
+      ]
+    }
+  ]
+}

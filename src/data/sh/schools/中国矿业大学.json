@@ -1,0 +1,141 @@
+{
+  "key": "中国矿业大学",
+  "code": "0423",
+  "name": "中国矿业大学",
+  "leaves": [
+    {
+      "schoolKey": "中国矿业大学",
+      "schoolCode": "0423",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 553,
+          "minRank": 9779,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国矿业大学",
+      "schoolCode": "0423",
+      "majorKey": "2079a63e",
+      "majorName": "大数据管理与应用",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 550,
+          "minRank": 10506,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国矿业大学",
+      "schoolCode": "0423",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 553,
+          "minRank": 9779,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国矿业大学",
+      "schoolCode": "0423",
+      "majorKey": "9d1daa67",
+      "majorName": "经济与贸易类",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 541,
+          "minRank": 12796,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "经济与贸易类",
+          "majorKey": "9d1daa67",
+          "selKe": "不限科目",
+          "plan": 3,
+          "tuition": "5200",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 12796,
+          "equivRank": 12796
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "大数据管理与应用",
+          "majorKey": "2079a63e",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 10506,
+          "equivRank": 10506
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "物理和化学",
+          "plan": 3,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 9779,
+          "equivRank": 9779
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理和化学",
+          "plan": 3,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 9779,
+          "equivRank": 9779
+        }
+      ]
+    }
+  ]
+}

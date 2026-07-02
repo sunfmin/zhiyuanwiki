@@ -1,0 +1,221 @@
+{
+  "key": "集美大学",
+  "code": "0627",
+  "name": "集美大学",
+  "leaves": [
+    {
+      "schoolKey": "集美大学",
+      "schoolCode": "0627",
+      "majorKey": "f9ecceea",
+      "majorName": "地理信息科学",
+      "selKe": "物理,地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 557,
+          "minRank": 14710,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "集美大学",
+      "schoolCode": "0627",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 557,
+          "minRank": 4273,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "集美大学",
+      "schoolCode": "0627",
+      "majorKey": "ec77cae2",
+      "majorName": "旅游管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 552,
+          "minRank": 4658,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 531,
+          "minRank": 21084,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "集美大学",
+      "schoolCode": "0627",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 558,
+          "minRank": 14494,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "集美大学",
+      "schoolCode": "0627",
+      "majorKey": "7faf2092",
+      "majorName": "环境工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 552,
+          "minRank": 15858,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "集美大学",
+      "schoolCode": "0627",
+      "majorKey": "63b95502",
+      "majorName": "食品质量与安全",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 557,
+          "minRank": 14710,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5460",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 4273,
+          "equivRank": 4273
+        },
+        {
+          "majorName": "旅游管理",
+          "majorKey": "ec77cae2",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5460",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 4658,
+          "equivRank": 4658
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "食品质量与安全",
+          "majorKey": "63b95502",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5460",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 14710,
+          "equivRank": 14710
+        },
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5460",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 14494,
+          "equivRank": 14494
+        },
+        {
+          "majorName": "环境工程",
+          "majorKey": "7faf2092",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5460",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 15858,
+          "equivRank": 15858
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "004",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "旅游管理",
+          "majorKey": "ec77cae2",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5460",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 21084,
+          "equivRank": 21084
+        }
+      ]
+    },
+    {
+      "groupCode": "005",
+      "groupName": "005",
+      "track": "物理",
+      "selKe": "地理",
+      "majors": [
+        {
+          "majorName": "地理信息科学",
+          "majorKey": "f9ecceea",
+          "selKe": "地理",
+          "plan": 2,
+          "tuition": "5460",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 14710,
+          "equivRank": 14710
+        }
+      ]
+    }
+  ]
+}

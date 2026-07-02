@@ -1,0 +1,174 @@
+{
+  "key": "中央美术学院",
+  "code": "3711",
+  "name": "中央美术学院",
+  "leaves": [
+    {
+      "schoolKey": "中央美术学院",
+      "schoolCode": "3712",
+      "majorKey": "fb5e31ab",
+      "majorName": "城市设计",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 567,
+          "minRank": 4695,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中央美术学院",
+      "schoolCode": "3712",
+      "majorKey": "ae17c365",
+      "majorName": "艺术史论",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 553,
+          "minRank": 6321,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 571,
+          "minRank": 24364,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中央美术学院",
+      "schoolCode": "3712",
+      "majorKey": "c23e4b23",
+      "majorName": "艺术教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 569,
+          "minRank": 4497,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中央美术学院",
+      "schoolCode": "3712",
+      "majorKey": "44d89b18",
+      "majorName": "艺术管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 569,
+          "minRank": 4497,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 601,
+          "minRank": 12436,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中央美术学院",
+      "schoolCode": "3712",
+      "majorKey": "eff7d0aa",
+      "majorName": "非物质文化遗产保护",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 589,
+          "minRank": 2592,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 604,
+          "minRank": 11461,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "艺术教育",
+          "majorKey": "c23e4b23",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "8000",
+          "menlei": "教"
+        },
+        {
+          "majorName": "城市设计",
+          "majorKey": "fb5e31ab",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "15000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "艺术管理",
+          "majorKey": "44d89b18",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "8000",
+          "menlei": "艺"
+        },
+        {
+          "majorName": "非物质文化遗产保护",
+          "majorKey": "eff7d0aa",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "8000",
+          "menlei": "艺"
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "艺术管理",
+          "majorKey": "44d89b18",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "8000",
+          "menlei": "艺"
+        },
+        {
+          "majorName": "非物质文化遗产保护",
+          "majorKey": "eff7d0aa",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "8000",
+          "menlei": "艺"
+        }
+      ]
+    }
+  ]
+}

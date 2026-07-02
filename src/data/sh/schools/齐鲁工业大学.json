@@ -1,0 +1,71 @@
+{
+  "key": "齐鲁工业大学",
+  "code": "0670",
+  "name": "齐鲁工业大学",
+  "leaves": [
+    {
+      "schoolKey": "齐鲁工业大学",
+      "schoolCode": "0670",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 482,
+          "minRank": 29358,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "齐鲁工业大学",
+      "schoolCode": "0670",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 477,
+          "minRank": 30789,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理和化学",
+          "plan": 3,
+          "tuition": "6325",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 30789,
+          "equivRank": 30789
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 29358,
+          "equivRank": 29358
+        }
+      ]
+    }
+  ]
+}

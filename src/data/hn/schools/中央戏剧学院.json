@@ -1,0 +1,96 @@
+{
+  "key": "中央戏剧学院",
+  "code": "1146",
+  "name": "中央戏剧学院",
+  "leaves": [
+    {
+      "schoolKey": "中央戏剧学院",
+      "schoolCode": "1146",
+      "majorKey": "b8236e06",
+      "majorName": "戏剧影视文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 569,
+          "minRank": 5745,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 576,
+          "minRank": 5596,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中央戏剧学院",
+      "schoolCode": "1146",
+      "majorKey": "44d89b18",
+      "majorName": "艺术管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 582,
+          "minRank": 3914,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 580,
+          "minRank": 4933,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（Y02）",
+      "groupName": "（Y02）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "戏剧影视文学",
+          "majorKey": "b8236e06",
+          "selKe": "首选历史，再选不限",
+          "plan": 2,
+          "tuition": "8000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 5596,
+          "equivRank": 5596
+        },
+        {
+          "majorName": "艺术管理",
+          "majorKey": "44d89b18",
+          "selKe": "首选历史，再选不限",
+          "plan": 2,
+          "tuition": "8000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 4933,
+          "equivRank": 4933
+        },
+        {
+          "majorName": "艺术管理",
+          "majorKey": "44d89b18",
+          "selKe": "首选历史，再选不限",
+          "plan": 1,
+          "tuition": "8000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 4933,
+          "equivRank": 4933
+        }
+      ]
+    }
+  ]
+}

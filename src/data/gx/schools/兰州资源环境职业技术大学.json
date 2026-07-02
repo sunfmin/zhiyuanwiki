@@ -1,0 +1,71 @@
+{
+  "key": "兰州资源环境职业技术大学",
+  "code": "16208",
+  "name": "兰州资源环境职业技术大学",
+  "leaves": [
+    {
+      "schoolKey": "兰州资源环境职业技术大学",
+      "schoolCode": "16208",
+      "majorKey": "520cb6d7",
+      "majorName": "智慧气象技术",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 434,
+          "minRank": 111593,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "兰州资源环境职业技术大学",
+      "schoolCode": "16208",
+      "majorKey": "02164ef1",
+      "majorName": "电气工程及自动化",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 438,
+          "minRank": 107684,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "100",
+      "groupName": "专业组:100(首选科目:物理。再选科目:不限)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "智慧气象技术",
+          "majorKey": "520cb6d7",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "6500元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 111593,
+          "equivRank": 111593
+        },
+        {
+          "majorName": "电气工程及自动化",
+          "majorKey": "02164ef1",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6500元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 107684,
+          "equivRank": 107684
+        }
+      ]
+    }
+  ]
+}

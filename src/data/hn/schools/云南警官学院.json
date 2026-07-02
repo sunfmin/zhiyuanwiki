@@ -1,0 +1,98 @@
+{
+  "key": "云南警官学院",
+  "code": "5322",
+  "name": "云南警官学院",
+  "leaves": [
+    {
+      "schoolKey": "云南警官学院",
+      "schoolCode": "5322",
+      "majorKey": "cd1ecf5e",
+      "majorName": "禁毒学",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 571,
+          "minRank": 4475,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 473,
+          "minRank": 107543,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 534,
+          "minRank": 13162,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 546,
+          "minRank": 44249,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 550,
+          "minRank": 10822,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 552,
+          "minRank": 43519,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（101）",
+      "groupName": "（101）",
+      "track": "历史",
+      "selKe": "首选历史，再选思想政治",
+      "majors": [
+        {
+          "majorName": "禁毒学",
+          "majorKey": "cd1ecf5e",
+          "selKe": "首选历史，再选思想政治",
+          "plan": 3,
+          "tuition": "4950",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 10822,
+          "equivRank": 10822
+        }
+      ]
+    },
+    {
+      "groupCode": "（102）",
+      "groupName": "（102）",
+      "track": "物理",
+      "selKe": "首选物理，再选思想政治",
+      "majors": [
+        {
+          "majorName": "禁毒学",
+          "majorKey": "cd1ecf5e",
+          "selKe": "首选物理，再选思想政治",
+          "plan": 2,
+          "tuition": "4950",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 43519,
+          "equivRank": 43519
+        }
+      ]
+    }
+  ]
+}

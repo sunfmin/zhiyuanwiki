@@ -1,0 +1,79 @@
+{
+  "key": "山西工程科技职业大学",
+  "code": "1370",
+  "name": "山西工程科技职业大学",
+  "leaves": [
+    {
+      "schoolKey": "山西工程科技职业大学",
+      "schoolCode": "1370",
+      "majorKey": "5a324641",
+      "majorName": "人力资源管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 453,
+          "minRank": 16575,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山西工程科技职业大学",
+      "schoolCode": "1370",
+      "majorKey": "0c7e03a9",
+      "majorName": "汽车服务工程技术",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 446,
+          "minRank": 54689,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "人力资源管理",
+          "majorKey": "5a324641",
+          "selKe": "不提科目要求",
+          "plan": 3,
+          "tuition": "4500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 16575,
+          "equivRank": 16575
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "汽车服务工程技术",
+          "majorKey": "0c7e03a9",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "4800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 54689,
+          "equivRank": 54689
+        }
+      ]
+    }
+  ]
+}

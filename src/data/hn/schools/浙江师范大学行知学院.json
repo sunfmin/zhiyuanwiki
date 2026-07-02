@@ -1,0 +1,143 @@
+{
+  "key": "浙江师范大学行知学院",
+  "code": "3358",
+  "name": "浙江师范大学行知学院",
+  "leaves": [
+    {
+      "schoolKey": "浙江师范大学行知学院",
+      "schoolCode": "3358",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 477,
+          "minRank": 37270,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "浙江师范大学行知学院",
+      "schoolCode": "3358",
+      "majorKey": "63b95502",
+      "majorName": "食品质量与安全",
+      "selKe": "首选物理，再选生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 446,
+          "minRank": 158935,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（101）",
+      "groupName": "（101）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "首选历史，再选不限",
+          "plan": 1,
+          "tuition": "24750",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 37270,
+          "equivRank": 37270
+        }
+      ]
+    },
+    {
+      "groupCode": "（102）",
+      "groupName": "（102）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "网络空间安全",
+          "majorKey": "3093c484",
+          "selKe": "首选物理，再选化学",
+          "plan": 2,
+          "tuition": "20000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "应用化学",
+          "majorKey": "25624660",
+          "selKe": "首选物理，再选化学",
+          "plan": 1,
+          "tuition": "24750",
+          "menlei": "理"
+        },
+        {
+          "majorName": "中药学",
+          "majorKey": "f9504a0c",
+          "selKe": "首选物理，再选化学",
+          "plan": 1,
+          "tuition": "20000",
+          "menlei": "医"
+        },
+        {
+          "majorName": "环境工程",
+          "majorKey": "7faf2092",
+          "selKe": "首选物理，再选化学",
+          "plan": 1,
+          "tuition": "20000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "物联网工程",
+          "majorKey": "1da18825",
+          "selKe": "首选物理，再选化学",
+          "plan": 1,
+          "tuition": "20000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "微电子科学与工程",
+          "majorKey": "e063e51a",
+          "selKe": "首选物理，再选化学",
+          "plan": 1,
+          "tuition": "20000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "首选物理，再选化学",
+          "plan": 1,
+          "tuition": "20000",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "（103）",
+      "groupName": "（103）",
+      "track": "物理",
+      "selKe": "首选物理，再选生物",
+      "majors": [
+        {
+          "majorName": "食品质量与安全",
+          "majorKey": "63b95502",
+          "selKe": "首选物理，再选生物",
+          "plan": 1,
+          "tuition": "20000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 158935,
+          "equivRank": 158935
+        }
+      ]
+    }
+  ]
+}

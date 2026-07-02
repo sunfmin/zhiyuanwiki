@@ -1,0 +1,251 @@
+{
+  "key": "首都经济贸易大学",
+  "code": "1129",
+  "name": "首都经济贸易大学",
+  "leaves": [
+    {
+      "schoolKey": "首都经济贸易大学",
+      "schoolCode": "1129",
+      "majorKey": "63da9816",
+      "majorName": "公共管理类",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 570,
+          "minRank": 21389,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都经济贸易大学",
+      "schoolCode": "1129",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 581,
+          "minRank": 16561,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都经济贸易大学",
+      "schoolCode": "1129",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 595,
+          "minRank": 2704,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 574,
+          "minRank": 19583,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都经济贸易大学",
+      "schoolCode": "1129",
+      "majorKey": "331c4c8e",
+      "majorName": "新闻传播学类",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 572,
+          "minRank": 6067,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都经济贸易大学",
+      "schoolCode": "1129",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 595,
+          "minRank": 11493,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都经济贸易大学",
+      "schoolCode": "1129",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 601,
+          "minRank": 2112,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "历史",
+          "plan": 5,
+          "tuition": "5000元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 2704,
+          "equivRank": 2704
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "5000元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 2112,
+          "equivRank": 2112
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "新闻传播学类",
+          "majorKey": "331c4c8e",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "5000元",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 6067,
+          "equivRank": 6067
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "公共管理类",
+          "majorKey": "63da9816",
+          "selKe": "物理",
+          "plan": 4,
+          "tuition": "5000元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 21389,
+          "equivRank": 21389
+        },
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "物理",
+          "plan": 4,
+          "tuition": "5000元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 19583,
+          "equivRank": 19583
+        },
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "5000元",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 16561,
+          "equivRank": 16561
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5500元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 11493,
+          "equivRank": 11493
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "公共管理类",
+          "majorKey": "63da9816",
+          "selKe": "物理",
+          "plan": 4,
+          "tuition": "5000元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 21389,
+          "equivRank": 21389
+        },
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "物理",
+          "plan": 3,
+          "tuition": "5000元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 19583,
+          "equivRank": 19583
+        }
+      ]
+    }
+  ]
+}

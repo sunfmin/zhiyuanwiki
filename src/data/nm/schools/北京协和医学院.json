@@ -1,0 +1,44 @@
+{
+  "key": "北京协和医学院",
+  "code": "P59",
+  "name": "北京协和医学院",
+  "leaves": [
+    {
+      "schoolKey": "北京协和医学院",
+      "schoolCode": "P59",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 600,
+          "minRank": 6349,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 6349,
+          "equivRank": 6349
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "key": "复旦大学医学院",
+  "code": "1452",
+  "name": "复旦大学医学院",
+  "leaves": [
+    {
+      "schoolKey": "复旦大学医学院",
+      "schoolCode": "1452",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 661,
+          "minRank": 195,
+          "maxScore": 666
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 694,
+          "minRank": 149,
+          "maxScore": 701
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 675,
+          "minRank": 202,
+          "maxScore": 685
+        }
+      ]
+    },
+    {
+      "schoolKey": "复旦大学医学院",
+      "schoolCode": "1452",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "生物",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 572,
+          "minRank": 2556,
+          "maxScore": 599
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 569,
+          "minRank": 2215,
+          "maxScore": 594
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "8140",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 202,
+          "equivRank": 189
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物",
+          "plan": 3,
+          "tuition": "7400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 2215,
+          "equivRank": 4446
+        }
+      ]
+    }
+  ]
+}

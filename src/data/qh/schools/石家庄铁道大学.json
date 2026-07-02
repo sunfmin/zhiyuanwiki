@@ -1,0 +1,99 @@
+{
+  "key": "石家庄铁道大学",
+  "code": "1175",
+  "name": "石家庄铁道大学",
+  "leaves": [
+    {
+      "schoolKey": "石家庄铁道大学",
+      "schoolCode": "1175",
+      "majorKey": "4166f1ff",
+      "majorName": "工程管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 453,
+          "minRank": 6878,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "石家庄铁道大学",
+      "schoolCode": "1175",
+      "majorKey": "b176ee03",
+      "majorName": "建筑环境与能源应用工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 434,
+          "minRank": 8767,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "石家庄铁道大学",
+      "schoolCode": "1175",
+      "majorKey": "8b6a817b",
+      "majorName": "物流管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 460,
+          "minRank": 6276,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "物流管理",
+      "majorKey": "8b6a817b",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 1,
+      "tuition": "4600",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 6276,
+      "equivRank": 6276,
+      "prevScore": 460
+    },
+    {
+      "majorName": "工程管理",
+      "majorKey": "4166f1ff",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 2,
+      "tuition": "5060",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 6878,
+      "equivRank": 6878,
+      "prevScore": 453
+    },
+    {
+      "majorName": "建筑环境与能源应用工程",
+      "majorKey": "b176ee03",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 2,
+      "tuition": "4900",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 8767,
+      "equivRank": 8767,
+      "prevScore": 434
+    }
+  ]
+}

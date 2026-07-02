@@ -1,0 +1,222 @@
+{
+  "key": "昆明医科大学海源学院",
+  "code": "3606",
+  "name": "昆明医科大学海源学院",
+  "leaves": [
+    {
+      "schoolKey": "昆明医科大学海源学院",
+      "schoolCode": "3606",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 414,
+          "minRank": 72726,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "昆明医科大学海源学院",
+      "schoolCode": "3606",
+      "majorKey": "11fef64a",
+      "majorName": "医学影像技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 412,
+          "minRank": 73809,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "昆明医科大学海源学院",
+      "schoolCode": "3606",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 412,
+          "minRank": 73809,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "昆明医科大学海源学院",
+      "schoolCode": "3606",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 428,
+          "minRank": 64800,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "昆明医科大学海源学院",
+      "schoolCode": "3606",
+      "majorKey": "59687759",
+      "majorName": "应用心理学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 445,
+          "minRank": 18222,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "昆明医科大学海源学院",
+      "schoolCode": "3606",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 413,
+          "minRank": 73271,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "昆明医科大学海源学院",
+      "schoolCode": "3606",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 425,
+          "minRank": 66451,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "应用心理学",
+          "majorKey": "59687759",
+          "selKe": "不提科目要求",
+          "plan": 1,
+          "tuition": "20000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 18222,
+          "equivRank": 18222
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "28000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 72726,
+          "equivRank": 72726
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "28000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 64800,
+          "equivRank": 64800
+        },
+        {
+          "majorName": "医学影像技术",
+          "majorKey": "11fef64a",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "25000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 73809,
+          "equivRank": 73809
+        },
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "25000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 73809,
+          "equivRank": 73809
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "24000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 66451,
+          "equivRank": 66451
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物",
+          "plan": 1,
+          "tuition": "24000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 73271,
+          "equivRank": 73271
+        }
+      ]
+    }
+  ]
+}

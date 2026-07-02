@@ -1,0 +1,69 @@
+{
+  "key": "华南师范大学",
+  "code": "4405",
+  "name": "华南师范大学",
+  "leaves": [
+    {
+      "schoolKey": "华南师范大学",
+      "schoolCode": "4405",
+      "majorKey": "d8f4c9ac",
+      "majorName": "光电信息科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 501,
+          "minRank": 3279,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "华南师范大学",
+      "schoolCode": "4405",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 526,
+          "minRank": 767,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "汉语言文学",
+      "majorKey": "97bc5998",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 2,
+      "tuition": "6060",
+      "schooling": "四年",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 767,
+      "equivRank": 767,
+      "prevScore": 526
+    },
+    {
+      "majorName": "光电信息科学与工程",
+      "majorKey": "d8f4c9ac",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 2,
+      "tuition": "6850",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 3279,
+      "equivRank": 3279,
+      "prevScore": 501
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "key": "北京物资学院",
+  "code": "10037",
+  "name": "北京物资学院",
+  "leaves": [
+    {
+      "schoolKey": "北京物资学院",
+      "schoolCode": "10037",
+      "majorKey": "5a324641",
+      "majorName": "人力资源管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 560,
+          "minRank": 19388,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京物资学院",
+      "schoolCode": "10037",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 550,
+          "minRank": 81695,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京物资学院",
+      "schoolCode": "10037",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 561,
+          "minRank": 18892,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京物资学院",
+      "schoolCode": "10037",
+      "majorKey": "ca969af2",
+      "majorName": "供应链管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 537,
+          "minRank": 101511,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京物资学院",
+      "schoolCode": "10037",
+      "majorKey": "d054f8d1",
+      "majorName": "应用统计学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 550,
+          "minRank": 81695,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "204",
+      "groupName": "204",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "人力资源管理",
+          "majorKey": "5a324641",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 19388,
+          "equivRank": 19388
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 18892,
+          "equivRank": 18892
+        }
+      ]
+    },
+    {
+      "groupCode": "205",
+      "groupName": "205",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "供应链管理",
+          "majorKey": "ca969af2",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "65000",
+          "menlei": "管",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 101511,
+          "equivRank": 101511
+        }
+      ]
+    },
+    {
+      "groupCode": "206",
+      "groupName": "206",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 81695,
+          "equivRank": 81695
+        },
+        {
+          "majorName": "应用统计学",
+          "majorKey": "d054f8d1",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 81695,
+          "equivRank": 81695
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "key": "蚌埠工商学院",
+  "code": "13611",
+  "name": "蚌埠工商学院",
+  "leaves": [
+    {
+      "schoolKey": "蚌埠工商学院",
+      "schoolCode": "13611",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 512,
+          "minRank": 48883,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 489,
+          "minRank": 185694,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "蚌埠工商学院",
+      "schoolCode": "13611",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 507,
+          "minRank": 52811,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 486,
+          "minRank": 191188,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "203",
+      "groupName": "203",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 48883,
+          "equivRank": 48883
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 52811,
+          "equivRank": 52811
+        }
+      ]
+    },
+    {
+      "groupCode": "204",
+      "groupName": "204",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 185694,
+          "equivRank": 185694
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 191188,
+          "equivRank": 191188
+        }
+      ]
+    }
+  ]
+}

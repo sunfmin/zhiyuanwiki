@@ -1,0 +1,105 @@
+{
+  "key": "贵州中医药大学",
+  "code": "P23",
+  "name": "贵州中医药大学",
+  "leaves": [
+    {
+      "schoolKey": "贵州中医药大学",
+      "schoolCode": "P23",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 590,
+          "minRank": 2068,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 541,
+          "minRank": 18582,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "贵州中医药大学",
+      "schoolCode": "P23",
+      "majorKey": "f9504a0c",
+      "majorName": "中药学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 513,
+          "minRank": 26090,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 2068,
+          "equivRank": 2068
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 18582,
+          "equivRank": 18582
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "中药学",
+          "majorKey": "f9504a0c",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 26090,
+          "equivRank": 26090
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "key": "重庆科技大学",
+  "code": "0850",
+  "name": "重庆科技大学",
+  "leaves": [
+    {
+      "schoolKey": "重庆科技大学",
+      "schoolCode": "0850",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 463,
+          "minRank": 34731,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "重庆科技大学",
+      "schoolCode": "0850",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 450,
+          "minRank": 38181,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限科目",
+          "plan": 4,
+          "tuition": "5625",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 34731,
+          "equivRank": 34731
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理和化学",
+          "plan": 1,
+          "tuition": "5625",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 38181,
+          "equivRank": 38181
+        }
+      ]
+    }
+  ]
+}

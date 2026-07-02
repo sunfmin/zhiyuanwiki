@@ -1,0 +1,106 @@
+{
+  "key": "蚌埠学院",
+  "code": "2084",
+  "name": "蚌埠学院",
+  "leaves": [
+    {
+      "schoolKey": "蚌埠学院",
+      "schoolCode": "2084",
+      "majorKey": "803b1149",
+      "majorName": "物流工程",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 434,
+          "minRank": 61414,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "蚌埠学院",
+      "schoolCode": "2084",
+      "majorKey": "14eeb10f",
+      "majorName": "生物工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 446,
+          "minRank": 54689,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "蚌埠学院",
+      "schoolCode": "2084",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 451,
+          "minRank": 51995,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "物流工程",
+          "majorKey": "803b1149",
+          "selKe": "物理",
+          "plan": 14,
+          "tuition": "4900",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 61414,
+          "equivRank": 61414
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理,化学",
+          "plan": 16,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 51995,
+          "equivRank": 51995
+        },
+        {
+          "majorName": "生物工程",
+          "majorKey": "14eeb10f",
+          "selKe": "物理,化学",
+          "plan": 19,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 54689,
+          "equivRank": 54689
+        }
+      ]
+    }
+  ]
+}

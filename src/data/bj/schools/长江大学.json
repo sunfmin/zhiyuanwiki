@@ -1,0 +1,49 @@
+{
+  "key": "长江大学",
+  "code": "4222",
+  "name": "长江大学",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "地质学",
+          "majorKey": "36fb4730",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "",
+          "menlei": "理"
+        },
+        {
+          "majorName": "油气储运工程",
+          "majorKey": "c9b2e9e3",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "60000",
+          "menlei": "工",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

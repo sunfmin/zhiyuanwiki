@@ -1,0 +1,169 @@
+{
+  "key": "山东英才学院",
+  "code": "1916",
+  "name": "山东英才学院",
+  "leaves": [
+    {
+      "schoolKey": "山东英才学院",
+      "schoolCode": "1916",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选历史，再选生物",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 449,
+          "minRank": 39333,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 405,
+          "minRank": 133618,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 459,
+          "minRank": 38662,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 411,
+          "minRank": 135939,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山东英才学院",
+      "schoolCode": "1916",
+      "majorKey": "fff04889",
+      "majorName": "网络与新媒体",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 445,
+          "minRank": 40942,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 459,
+          "minRank": 38572,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山东英才学院",
+      "schoolCode": "1916",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 447,
+          "minRank": 40306,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 392,
+          "minRank": 145452,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 402,
+          "minRank": 144345,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "财务管理",
+      "majorKey": "8220c852",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 3,
+      "tuition": "29800",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2024,
+      "prevRank": 40306,
+      "equivRank": 36555,
+      "prevScore": 447
+    },
+    {
+      "majorName": "网络与新媒体",
+      "majorKey": "fff04889",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 5,
+      "tuition": "31000",
+      "schooling": "四年",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 38572,
+      "equivRank": 38572,
+      "prevScore": 459
+    },
+    {
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "历史",
+      "selKe": "首选历史，再选生物",
+      "plan": 3,
+      "tuition": "29800",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 38662,
+      "equivRank": 38662,
+      "prevScore": 459
+    },
+    {
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "物理",
+      "selKe": "首选物理，再选生物",
+      "plan": 2,
+      "tuition": "29800",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 135939,
+      "equivRank": 135939,
+      "prevScore": 411
+    },
+    {
+      "majorName": "财务管理",
+      "majorKey": "8220c852",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 3,
+      "tuition": "29800",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 144345,
+      "equivRank": 144345,
+      "prevScore": 402
+    }
+  ]
+}

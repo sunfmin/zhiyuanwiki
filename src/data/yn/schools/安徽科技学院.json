@@ -1,0 +1,92 @@
+{
+  "key": "安徽科技学院",
+  "code": "3414",
+  "name": "安徽科技学院",
+  "leaves": [
+    {
+      "schoolKey": "安徽科技学院",
+      "schoolCode": "3414",
+      "majorKey": "f9ecceea",
+      "majorName": "地理信息科学",
+      "selKe": "首选物理，再选地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 497,
+          "minRank": 64526,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "物流管理",
+          "majorKey": "8b6a817b",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "4600元",
+          "menlei": "管"
+        },
+        {
+          "majorName": "质量管理工程",
+          "majorKey": "a1305d6a",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "4600元",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "动物科学",
+          "majorKey": "ca01c9a2",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "4900元",
+          "menlei": "农"
+        },
+        {
+          "majorName": "食品质量与安全",
+          "majorKey": "63b95502",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4900元",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理,地理",
+      "majors": [
+        {
+          "majorName": "地理信息科学",
+          "majorKey": "f9ecceea",
+          "selKe": "物理,地理",
+          "plan": 3,
+          "tuition": "4900元",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 64526,
+          "equivRank": 64526
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "key": "武汉城市学院",
+  "code": "3508",
+  "name": "武汉城市学院",
+  "leaves": [
+    {
+      "schoolKey": "武汉城市学院",
+      "schoolCode": "3508",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 378,
+          "minRank": 16289,
+          "maxScore": 378
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 430,
+          "minRank": 19981,
+          "maxScore": 443
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 434,
+          "minRank": 17663,
+          "maxScore": 434
+        }
+      ]
+    },
+    {
+      "schoolKey": "武汉城市学院",
+      "schoolCode": "3508",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 327,
+          "minRank": 69133,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "武汉城市学院",
+      "schoolCode": "3508",
+      "majorKey": "b8be11ab",
+      "majorName": "工程造价",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 378,
+          "minRank": 16289,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "武汉城市学院",
+      "schoolCode": "3508",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 331,
+          "minRank": 67556,
+          "maxScore": 331
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 400,
+          "minRank": 70984,
+          "maxScore": 400
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 397,
+          "minRank": 71023,
+          "maxScore": 397
+        }
+      ]
+    },
+    {
+      "schoolKey": "武汉城市学院",
+      "schoolCode": "3508",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 327,
+          "minRank": 69133,
+          "maxScore": 333
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 389,
+          "minRank": 75329,
+          "maxScore": 410
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 386,
+          "minRank": 75357,
+          "maxScore": 387
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "22800",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 17663,
+          "equivRank": 17663
+        },
+        {
+          "majorName": "健康服务与管理",
+          "majorKey": "4fa2a9fc",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "22800",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "22800",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 71023,
+          "equivRank": 66428
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "能源与环境系统工程",
+          "majorKey": "c0c8480c",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "22800",
+          "menlei": "工"
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "22800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 75357,
+          "equivRank": 70482
+        }
+      ]
+    }
+  ]
+}

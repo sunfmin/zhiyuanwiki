@@ -1,0 +1,144 @@
+{
+  "key": "中国消防救援学院",
+  "code": "1022",
+  "name": "中国消防救援学院",
+  "leaves": [
+    {
+      "schoolKey": "中国消防救援学院",
+      "schoolCode": "1022",
+      "majorKey": "e8c4da5d",
+      "majorName": "应急装备技术与工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 461,
+          "minRank": 12474,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国消防救援学院",
+      "schoolCode": "1022",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "历史,政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 497,
+          "minRank": 2646,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国消防救援学院",
+      "schoolCode": "1022",
+      "majorKey": "6332a75d",
+      "majorName": "消防工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 524,
+          "minRank": 4704,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国消防救援学院",
+      "schoolCode": "1022",
+      "majorKey": "62f76a53",
+      "majorName": "飞行器控制与信息工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 521,
+          "minRank": 4947,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "022",
+      "groupName": "022",
+      "track": "历史",
+      "selKe": "历史,政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "历史,政治",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 2646,
+          "equivRank": 2646
+        }
+      ]
+    },
+    {
+      "groupCode": "022",
+      "groupName": "022",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "应急装备技术与工程",
+          "majorKey": "e8c4da5d",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 12474,
+          "equivRank": 12474
+        },
+        {
+          "majorName": "应急装备技术与工程",
+          "majorKey": "e8c4da5d",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 12474,
+          "equivRank": 12474
+        },
+        {
+          "majorName": "消防工程",
+          "majorKey": "6332a75d",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 4704,
+          "equivRank": 4704
+        },
+        {
+          "majorName": "飞行器控制与信息工程",
+          "majorKey": "62f76a53",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 4947,
+          "equivRank": 4947
+        }
+      ]
+    }
+  ]
+}

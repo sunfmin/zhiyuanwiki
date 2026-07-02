@@ -1,0 +1,67 @@
+{
+  "key": "山东艺术学院",
+  "code": "2612",
+  "name": "山东艺术学院",
+  "leaves": [
+    {
+      "schoolKey": "山东艺术学院",
+      "schoolCode": "2612",
+      "majorKey": "e9ba80b9",
+      "majorName": "戏剧学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 511,
+          "minRank": 35617,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山东艺术学院",
+      "schoolCode": "2612",
+      "majorKey": "b8236e06",
+      "majorName": "戏剧影视文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 515,
+          "minRank": 33682,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 529,
+          "minRank": 33554,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "戏剧影视文学",
+          "majorKey": "b8236e06",
+          "selKe": "首选历史，再选不限",
+          "plan": 1,
+          "tuition": "7500",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 33554,
+          "equivRank": 33554
+        }
+      ]
+    }
+  ]
+}

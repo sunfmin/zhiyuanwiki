@@ -18,7 +18,7 @@ test(
     const { page, browser, out } = await renderToImage({
       baseURL: server.baseURL,
       name: "yuanxiao-zj",
-      path: "/zj/yuanxiao/0001/",
+      path: "/zj/yuanxiao/浙江大学/",
       viewport: { width: 1120, height: 1600 },
       fullPage: true,
       interact: async (p) => {

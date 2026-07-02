@@ -1,0 +1,69 @@
+{
+  "key": "吉林建筑科技学院",
+  "code": "D604",
+  "name": "吉林建筑科技学院",
+  "leaves": [
+    {
+      "schoolKey": "吉林建筑科技学院",
+      "schoolCode": "D604",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 446,
+          "minRank": 321168,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "吉林建筑科技学院",
+      "schoolCode": "D604",
+      "majorKey": "da95770c",
+      "majorName": "自动化",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 446,
+          "minRank": 319530,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "自动化",
+      "majorKey": "da95770c",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "plan": 2,
+      "tuition": "26000",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 319530,
+      "equivRank": 319530,
+      "prevScore": 446
+    },
+    {
+      "majorName": "土木工程",
+      "majorKey": "320e7128",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "plan": 2,
+      "tuition": "26000",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 321168,
+      "equivRank": 321168,
+      "prevScore": 446
+    }
+  ]
+}

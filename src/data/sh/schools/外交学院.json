@@ -1,0 +1,206 @@
+{
+  "key": "外交学院",
+  "code": "0057",
+  "name": "外交学院",
+  "leaves": [
+    {
+      "schoolKey": "外交学院",
+      "schoolCode": "0057",
+      "majorKey": "f2eed5a6",
+      "majorName": "国际事务与国际关系",
+      "selKe": "政治和历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 551,
+          "minRank": 10254,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "外交学院",
+      "schoolCode": "0057",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 551,
+          "minRank": 10254,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "外交学院",
+      "schoolCode": "0057",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 560,
+          "minRank": 8117,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "外交学院",
+      "schoolCode": "0057",
+      "majorKey": "8f1501ac",
+      "majorName": "翻译",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 562,
+          "minRank": 7663,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "外交学院",
+      "schoolCode": "0057",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 561,
+          "minRank": 7891,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "外交学院",
+      "schoolCode": "0057",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 543,
+          "minRank": 12291,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限科目",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 8117,
+          "equivRank": 8117
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限科目",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 7891,
+          "equivRank": 7891
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限科目",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 7891,
+          "equivRank": 7891
+        },
+        {
+          "majorName": "翻译",
+          "majorKey": "8f1501ac",
+          "selKe": "不限科目",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 7663,
+          "equivRank": 7663
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "物理",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 12291,
+          "equivRank": 12291
+        },
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 10254,
+          "equivRank": 10254
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "政治和历史",
+      "majors": [
+        {
+          "majorName": "国际事务与国际关系",
+          "majorKey": "f2eed5a6",
+          "selKe": "政治和历史",
+          "plan": 4,
+          "tuition": "5000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 10254,
+          "equivRank": 10254
+        }
+      ]
+    }
+  ]
+}

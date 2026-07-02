@@ -1,0 +1,69 @@
+{
+  "key": "韶关学院",
+  "code": "0576",
+  "name": "韶关学院",
+  "leaves": [
+    {
+      "schoolKey": "韶关学院",
+      "schoolCode": "0576",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 479,
+          "minRank": 67042,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "韶关学院",
+      "schoolCode": "0576",
+      "majorKey": "0c33cbdd",
+      "majorName": "软件工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 480,
+          "minRank": 66566,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "软件工程",
+      "majorKey": "0c33cbdd",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 10,
+      "tuition": "8000",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 66566,
+      "equivRank": 66566,
+      "prevScore": 480
+    },
+    {
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 10,
+      "tuition": "6380",
+      "schooling": "4",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 67042,
+      "equivRank": 67042,
+      "prevScore": 479
+    }
+  ]
+}

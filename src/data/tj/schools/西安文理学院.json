@@ -1,0 +1,168 @@
+{
+  "key": "西安文理学院",
+  "code": "1378",
+  "name": "西安文理学院",
+  "leaves": [
+    {
+      "schoolKey": "西安文理学院",
+      "schoolCode": "1378",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
+      "selKe": "历史必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 555,
+          "minRank": 24465,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西安文理学院",
+      "schoolCode": "1378",
+      "majorKey": "5fcb9223",
+      "majorName": "文物与博物馆学",
+      "selKe": "历史必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 543,
+          "minRank": 27778,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西安文理学院",
+      "schoolCode": "1378",
+      "majorKey": "301e14e8",
+      "majorName": "机器人工程",
+      "selKe": "物、化、生(3科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 524,
+          "minRank": 33220,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西安文理学院",
+      "schoolCode": "1378",
+      "majorKey": "97b7b689",
+      "majorName": "生物制药",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 514,
+          "minRank": 36107,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西安文理学院",
+      "schoolCode": "1378",
+      "majorKey": "e2472a71",
+      "majorName": "生物科学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 514,
+          "minRank": 36107,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "4250",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 24465,
+          "equivRank": 24465
+        },
+        {
+          "majorName": "文物与博物馆学",
+          "majorKey": "5fcb9223",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 27778,
+          "equivRank": 27778
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 36107,
+          "equivRank": 36107
+        },
+        {
+          "majorName": "生物制药",
+          "majorKey": "97b7b689",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 36107,
+          "equivRank": 36107
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "综合",
+      "selKe": "物理加化学加生物",
+      "majors": [
+        {
+          "majorName": "机器人工程",
+          "majorKey": "301e14e8",
+          "selKe": "物理加化学加生物",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 33220,
+          "equivRank": 33220
+        }
+      ]
+    }
+  ]
+}

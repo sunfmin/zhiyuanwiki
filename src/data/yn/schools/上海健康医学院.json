@@ -1,0 +1,195 @@
+{
+  "key": "上海健康医学院",
+  "code": "3110",
+  "name": "上海健康医学院",
+  "leaves": [
+    {
+      "schoolKey": "上海健康医学院",
+      "schoolCode": "3110",
+      "majorKey": "11fef64a",
+      "majorName": "医学影像技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 513,
+          "minRank": 54037,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海健康医学院",
+      "schoolCode": "3110",
+      "majorKey": "2c72d9e9",
+      "majorName": "卫生检验与检疫",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 511,
+          "minRank": 55401,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海健康医学院",
+      "schoolCode": "3110",
+      "majorKey": "e849f952",
+      "majorName": "口腔医学技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 518,
+          "minRank": 50619,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海健康医学院",
+      "schoolCode": "3110",
+      "majorKey": "a51e5414",
+      "majorName": "康复工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 500,
+          "minRank": 63097,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海健康医学院",
+      "schoolCode": "3110",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 506,
+          "minRank": 58868,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海健康医学院",
+      "schoolCode": "3110",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 512,
+          "minRank": 54745,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "卫生检验与检疫",
+          "majorKey": "2c72d9e9",
+          "selKe": "物理,化学",
+          "plan": 8,
+          "tuition": "7400元",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 55401,
+          "equivRank": 55401
+        },
+        {
+          "majorName": "口腔医学技术",
+          "majorKey": "e849f952",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "7400元",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 50619,
+          "equivRank": 50619
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "7400元",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 54745,
+          "equivRank": 54745
+        },
+        {
+          "majorName": "医学影像技术",
+          "majorKey": "11fef64a",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "7400元",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 54037,
+          "equivRank": 54037
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "康复工程",
+          "majorKey": "a51e5414",
+          "selKe": "物理,化学",
+          "plan": 10,
+          "tuition": "7000元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 63097,
+          "equivRank": 63097
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "物理,化学",
+          "plan": 10,
+          "tuition": "7400元",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 58868,
+          "equivRank": 58868
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "key": "中国科学技术大学",
+  "code": "A358",
+  "name": "中国科学技术大学",
+  "leaves": [
+    {
+      "schoolKey": "中国科学技术大学",
+      "schoolCode": "A358",
+      "majorKey": "b363aa3d",
+      "majorName": "工科试验班",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 673,
+          "minRank": 621,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中国科学技术大学",
+      "schoolCode": "A358",
+      "majorKey": "3af900ce",
+      "majorName": "理科试验班类",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 672,
+          "minRank": 696,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "工科试验班",
+      "majorKey": "b363aa3d",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "plan": 22,
+      "tuition": "4800",
+      "schooling": "4",
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 621,
+      "equivRank": 621,
+      "prevScore": 673
+    },
+    {
+      "majorName": "理科试验班类",
+      "majorKey": "3af900ce",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "plan": 23,
+      "tuition": "4800",
+      "schooling": "4",
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 696,
+      "equivRank": 696,
+      "prevScore": 672
+    }
+  ]
+}

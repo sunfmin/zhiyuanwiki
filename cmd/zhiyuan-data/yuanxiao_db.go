@@ -27,7 +27,6 @@ func buildDBBundle(dbPath string, p province) schoolBundle {
 		fatal(fmt.Errorf("DB 无%s分数行——先跑 `zhiyuan-data import -prov %s`", p.name, p.slug))
 	}
 	fmt.Printf("  专业录取分数：%d 行（%s·本科·含位次）\n", len(scores), strings.Join(p.tracks, "/"))
-	schools, leaves := core.AggregateLeaves(scores)
 
 	idx, err := db.SchoolIndex()
 	if err != nil {
@@ -58,7 +57,18 @@ func buildDBBundle(dbPath string, p province) schoolBundle {
 			}
 		}
 	}
-	groupsByCode := core.BuildGroups2026(plan, leaves, totals, menlei.Code)
+
+	// 院校身份归并器覆盖 分数(全年) ∪ 计划(全年)：院校全集含只在计划里出现的新招生校（如广州大学），
+	// 并按归一化校名归并、按渠道拆分（ADR-0021）。schools=并集，leaves/groups 均按实体键挂接。
+	resolver := core.BuildSchoolResolver(append(core.IdentRowsFromScores(scores), core.IdentRowsFromPlan(planAll)...))
+	schools, leaves := core.AggregateLeavesR(scores, resolver)
+	groups2026 := core.BuildGroups2026R(plan, leaves, resolver, totals, menlei.Code)
+	if rn := resolver.Renames(); len(rn) > 0 {
+		fmt.Printf("  改名/转设归并 %d 处（人工可复核）：\n", len(rn))
+		for _, s := range rn {
+			fmt.Printf("    · %s\n", s)
+		}
+	}
 
 	byCode := map[string][]core.MajorLeaf{}
 	for _, lf := range leaves {
@@ -73,7 +83,7 @@ func buildDBBundle(dbPath string, p province) schoolBundle {
 	}
 	groupCount, matched := 0, 0
 	for _, s := range schools {
-		d := schoolDetail{School: s, Leaves: byCode[schoolKey(s)], Groups2026: groupsByCode[s.Code]}
+		d := schoolDetail{School: s, Leaves: nonNilLeaves(byCode[schoolKey(s)]), Groups2026: groups2026[schoolKey(s)]}
 		groupCount += len(d.Groups2026)
 		b.details[schoolKey(s)] = d
 		if m, ok := idx.Lookup(s.Name); ok {
@@ -109,7 +119,6 @@ func buildDBBundleMajor(dbPath string, p province) schoolBundle {
 		fatal(fmt.Errorf("DB 无%s分数行——先跑 `zhiyuan-data import -prov %s`", p.name, p.slug))
 	}
 	fmt.Printf("  专业录取分数：%d 行（%s·含位次）\n", len(scores), strings.Join(p.tracks, "/"))
-	schools, leaves := core.AggregateLeaves(scores)
 
 	menlei, err := db.Menlei()
 	if err != nil {
@@ -131,7 +140,30 @@ func buildDBBundleMajor(dbPath string, p province) schoolBundle {
 	if err != nil {
 		fatal(err)
 	}
+
+	// 身份归并覆盖 分数∪计划（同 buildDBBundle）：院校全集含计划独有校、按校名归并（ADR-0021）。
+	resolver := core.BuildSchoolResolver(append(core.IdentRowsFromScores(scores), core.IdentRowsFromPlan(planAll)...))
+	schools, leaves := core.AggregateLeavesR(scores, resolver)
+	if rn := resolver.Renames(); len(rn) > 0 {
+		fmt.Printf("  改名/转设归并 %d 处（人工可复核）：\n", len(rn))
+		for _, s := range rn {
+			fmt.Printf("    · %s\n", s)
+		}
+	}
+	// 浙江报考视图（院校×专业）仍按代号建，然后按 code→实体键 归拢到院校页（同名多渠道并入一页）。
 	planByCode := zj.BuildPlan2026(zj.FromCorePlan(planAll), leaves, totals, zjRefYear, menlei)
+	codeToEntity := map[string]string{}
+	for _, r := range planAll {
+		codeToEntity[r.SchoolCode] = resolver.Entity(r.SchoolName)
+	}
+	planByEntity := map[string][]zj.PlanMajor{}
+	for code, majors := range planByCode {
+		ent := codeToEntity[code]
+		if ent == "" {
+			ent = resolver.Entity(code) // 兜底
+		}
+		planByEntity[ent] = append(planByEntity[ent], majors...)
+	}
 
 	byCode := map[string][]core.MajorLeaf{}
 	for _, lf := range leaves {
@@ -146,7 +178,7 @@ func buildDBBundleMajor(dbPath string, p province) schoolBundle {
 	}
 	planCount, matched := 0, 0
 	for _, s := range schools {
-		d := schoolDetail{School: s, Leaves: byCode[schoolKey(s)], Plan2026: planByCode[s.Code]}
+		d := schoolDetail{School: s, Leaves: nonNilLeaves(byCode[schoolKey(s)]), Plan2026: planByEntity[schoolKey(s)]}
 		planCount += len(d.Plan2026)
 		b.details[schoolKey(s)] = d
 		if a, ok := attrs[s.Code]; ok {
@@ -160,6 +192,15 @@ func buildDBBundleMajor(dbPath string, p province) schoolBundle {
 	}
 	fmt.Printf("  报考视图：院校×专业 %d 个 · 院校属性命中 %d/%d\n", planCount, matched, len(schools))
 	return b
+}
+
+// nonNilLeaves 保证叶子数组非 nil（计划独有校如广州大学无历史录取 → nil，会序列化成 JSON null，
+// 而前端 school.leaves.slice() 会在 null 上崩）。空叶子序列化成 []。
+func nonNilLeaves(lvs []core.MajorLeaf) []core.MajorLeaf {
+	if lvs == nil {
+		return []core.MajorLeaf{}
+	}
+	return lvs
 }
 
 // levelsOf 把全国院校属性的层次布尔转成数组（与 zj/hlj 的 Levels() 同形）。

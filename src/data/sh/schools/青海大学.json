@@ -1,0 +1,195 @@
+{
+  "key": "青海大学",
+  "code": "0961",
+  "name": "青海大学",
+  "leaves": [
+    {
+      "schoolKey": "青海大学",
+      "schoolCode": "0961",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理和化学和生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 522,
+          "minRank": 18065,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "青海大学",
+      "schoolCode": "0961",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "物理和化学和生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 518,
+          "minRank": 19117,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "青海大学",
+      "schoolCode": "0961",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 517,
+          "minRank": 19421,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "青海大学",
+      "schoolCode": "0961",
+      "majorKey": "bda0ff17",
+      "majorName": "经济学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 492,
+          "minRank": 26498,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "青海大学",
+      "schoolCode": "0961",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 521,
+          "minRank": 18317,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "青海大学",
+      "schoolCode": "0961",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 489,
+          "minRank": 27375,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限科目",
+          "plan": 1,
+          "tuition": "4720",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 27375,
+          "equivRank": 27375
+        },
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "不限科目",
+          "plan": 1,
+          "tuition": "4720",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 26498,
+          "equivRank": 26498
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理和化学",
+          "plan": 1,
+          "tuition": "5460",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 19421,
+          "equivRank": 19421
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理和化学",
+          "plan": 1,
+          "tuition": "5460",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 18317,
+          "equivRank": 18317
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理和化学和生物学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理和化学和生物学",
+          "plan": 1,
+          "tuition": "5770",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 18065,
+          "equivRank": 18065
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "物理和化学和生物学",
+          "plan": 1,
+          "tuition": "5770",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 19117,
+          "equivRank": 19117
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "key": "湖州学院",
+  "code": "2022",
+  "name": "湖州学院",
+  "leaves": [
+    {
+      "schoolKey": "湖州学院",
+      "schoolCode": "2022",
+      "majorKey": "28bd788f",
+      "majorName": "制药工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 459,
+          "minRank": 47742,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖州学院",
+      "schoolCode": "2022",
+      "majorKey": "e6cfcc6c",
+      "majorName": "材料化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 459,
+          "minRank": 47742,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖州学院",
+      "schoolCode": "2022",
+      "majorKey": "14eeb10f",
+      "majorName": "生物工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 458,
+          "minRank": 48246,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖州学院",
+      "schoolCode": "2022",
+      "majorKey": "fc81313f",
+      "majorName": "高分子材料与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 462,
+          "minRank": 46200,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "生物工程",
+          "majorKey": "14eeb10f",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 48246,
+          "equivRank": 48246
+        },
+        {
+          "majorName": "材料化学",
+          "majorKey": "e6cfcc6c",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 47742,
+          "equivRank": 47742
+        },
+        {
+          "majorName": "高分子材料与工程",
+          "majorKey": "fc81313f",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 46200,
+          "equivRank": 46200
+        },
+        {
+          "majorName": "制药工程",
+          "majorKey": "28bd788f",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 47742,
+          "equivRank": 47742
+        }
+      ]
+    }
+  ]
+}

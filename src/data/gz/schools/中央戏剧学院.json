@@ -1,0 +1,76 @@
+{
+  "key": "中央戏剧学院",
+  "code": "2930",
+  "name": "中央戏剧学院",
+  "leaves": [
+    {
+      "schoolKey": "中央戏剧学院",
+      "schoolCode": "2930",
+      "majorKey": "7b95f06f",
+      "majorName": "戏剧教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 582,
+          "minRank": 3237,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 586,
+          "minRank": 3413,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中央戏剧学院",
+      "schoolCode": "2930",
+      "majorKey": "44d89b18",
+      "majorName": "艺术管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 590,
+          "minRank": 2974,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "艺术管理",
+      "majorKey": "44d89b18",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 1,
+      "tuition": "8000",
+      "schooling": "四年",
+      "menlei": "艺",
+      "prevYear": 2025,
+      "prevRank": 2974,
+      "equivRank": 2974,
+      "prevScore": 590
+    },
+    {
+      "majorName": "戏剧教育",
+      "majorKey": "7b95f06f",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 2,
+      "tuition": "8000",
+      "schooling": "四年",
+      "menlei": "艺",
+      "prevYear": 2025,
+      "prevRank": 3413,
+      "equivRank": 3413,
+      "prevScore": 586
+    }
+  ]
+}

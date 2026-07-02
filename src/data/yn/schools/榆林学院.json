@@ -1,0 +1,222 @@
+{
+  "key": "榆林学院",
+  "code": "6128",
+  "name": "榆林学院",
+  "leaves": [
+    {
+      "schoolKey": "榆林学院",
+      "schoolCode": "6128",
+      "majorKey": "6726c2e9",
+      "majorName": "中草药栽培与鉴定",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 483,
+          "minRank": 75535,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "榆林学院",
+      "schoolCode": "6128",
+      "majorKey": "ca01c9a2",
+      "majorName": "动物科学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 478,
+          "minRank": 79199,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "榆林学院",
+      "schoolCode": "6128",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 528,
+          "minRank": 17367,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "榆林学院",
+      "schoolCode": "6128",
+      "majorKey": "ec77cae2",
+      "majorName": "旅游管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 520,
+          "minRank": 20125,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "榆林学院",
+      "schoolCode": "6128",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 480,
+          "minRank": 77767,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "榆林学院",
+      "schoolCode": "6128",
+      "majorKey": "97f88c14",
+      "majorName": "水土保持与荒漠化防治",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 477,
+          "minRank": 79927,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "榆林学院",
+      "schoolCode": "6128",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 522,
+          "minRank": 19410,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "旅游管理",
+          "majorKey": "ec77cae2",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5000元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 20125,
+          "equivRank": 20125
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5000元",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 19410,
+          "equivRank": 19410
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "历史",
+      "selKe": "历史,政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "历史,政治",
+          "plan": 2,
+          "tuition": "5000元",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 17367,
+          "equivRank": 17367
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "动物科学",
+          "majorKey": "ca01c9a2",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6000元",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 79199,
+          "equivRank": 79199
+        },
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6000元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 77767,
+          "equivRank": 77767
+        },
+        {
+          "majorName": "水土保持与荒漠化防治",
+          "majorKey": "97f88c14",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6000元",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 79927,
+          "equivRank": 79927
+        },
+        {
+          "majorName": "中草药栽培与鉴定",
+          "majorKey": "6726c2e9",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "6500元",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 75535,
+          "equivRank": 75535
+        }
+      ]
+    }
+  ]
+}

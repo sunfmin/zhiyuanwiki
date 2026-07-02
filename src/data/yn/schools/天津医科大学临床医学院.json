@@ -1,0 +1,259 @@
+{
+  "key": "天津医科大学临床医学院",
+  "code": "1232",
+  "name": "天津医科大学临床医学院",
+  "leaves": [
+    {
+      "schoolKey": "天津医科大学临床医学院",
+      "schoolCode": "1232",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 521,
+          "minRank": 48775,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "天津医科大学临床医学院",
+      "schoolCode": "1232",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 461,
+          "minRank": 92196,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "天津医科大学临床医学院",
+      "schoolCode": "1232",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 516,
+          "minRank": 52003,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "天津医科大学临床医学院",
+      "schoolCode": "1232",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 459,
+          "minRank": 93709,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "天津医科大学临床医学院",
+      "schoolCode": "1232",
+      "majorKey": "d35344f4",
+      "majorName": "眼视光学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 478,
+          "minRank": 79199,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "天津医科大学临床医学院",
+      "schoolCode": "1232",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 458,
+          "minRank": 94444,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "健康服务与管理",
+          "majorKey": "4fa2a9fc",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "1.5万元",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "健康服务与管理",
+          "majorKey": "4fa2a9fc",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "1.5万元",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "物理,化学",
+          "plan": 7,
+          "tuition": "2万元",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 94444,
+          "equivRank": 94444
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "物理,化学",
+          "plan": 15,
+          "tuition": "2万元",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 93709,
+          "equivRank": 93709
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "康复治疗学",
+          "majorKey": "a507c400",
+          "selKe": "物理,化学",
+          "plan": 8,
+          "tuition": "2万元",
+          "menlei": "医"
+        },
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "物理,化学",
+          "plan": 7,
+          "tuition": "2万元",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 92196,
+          "equivRank": 92196
+        },
+        {
+          "majorName": "眼视光学",
+          "majorKey": "d35344f4",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "2万元",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 79199,
+          "equivRank": 79199
+        },
+        {
+          "majorName": "医学影像技术",
+          "majorKey": "11fef64a",
+          "selKe": "物理,化学",
+          "plan": 14,
+          "tuition": "2万元",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "05",
+      "groupName": "05",
+      "track": "物理",
+      "selKe": "物理,化学,生物",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学,生物",
+          "plan": 11,
+          "tuition": "2万元",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 48775,
+          "equivRank": 48775
+        }
+      ]
+    },
+    {
+      "groupCode": "06",
+      "groupName": "06",
+      "track": "物理",
+      "selKe": "物理,化学,生物",
+      "majors": [
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "物理,化学,生物",
+          "plan": 8,
+          "tuition": "2万元",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 52003,
+          "equivRank": 52003
+        }
+      ]
+    }
+  ]
+}

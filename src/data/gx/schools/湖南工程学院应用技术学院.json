@@ -1,0 +1,40 @@
+{
+  "key": "湖南工程学院应用技术学院",
+  "code": "12660",
+  "name": "湖南工程学院应用技术学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "专业组:101(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "14950元/年",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "专业组:102(首选科目:物理。再选科目:不限)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "12700元/年",
+          "menlei": "管"
+        }
+      ]
+    }
+  ]
+}

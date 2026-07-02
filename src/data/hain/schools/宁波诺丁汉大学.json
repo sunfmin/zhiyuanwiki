@@ -1,0 +1,69 @@
+{
+  "key": "宁波诺丁汉大学",
+  "code": "1056",
+  "name": "宁波诺丁汉大学",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "国际商务",
+          "majorKey": "4c4c62eb",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "110000",
+          "menlei": "管",
+          "coop": true
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "110000",
+          "menlei": "管",
+          "coop": true
+        },
+        {
+          "majorName": "传播学",
+          "majorKey": "c8cc37b2",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "110000",
+          "menlei": "文",
+          "coop": true
+        },
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "110000",
+          "menlei": "经",
+          "coop": true
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "110000",
+          "menlei": "工",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

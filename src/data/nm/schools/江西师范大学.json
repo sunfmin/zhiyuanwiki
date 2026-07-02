@@ -1,0 +1,141 @@
+{
+  "key": "江西师范大学",
+  "code": "0329",
+  "name": "江西师范大学",
+  "leaves": [
+    {
+      "schoolKey": "江西师范大学",
+      "schoolCode": "0329",
+      "majorKey": "7b08de6b",
+      "majorName": "历史学类",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 583,
+          "minRank": 2470,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "江西师范大学",
+      "schoolCode": "0329",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 564,
+          "minRank": 13154,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "江西师范大学",
+      "schoolCode": "0329",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 584,
+          "minRank": 2414,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "江西师范大学",
+      "schoolCode": "0329",
+      "majorKey": "5af2c3fd",
+      "majorName": "马克思主义理论",
+      "selKe": "历史,政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 586,
+          "minRank": 2287,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "思想政治",
+      "majors": [
+        {
+          "majorName": "马克思主义理论",
+          "majorKey": "5af2c3fd",
+          "selKe": "思想政治",
+          "plan": 1,
+          "tuition": "4660",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 2287,
+          "equivRank": 2287
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4380",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 2414,
+          "equivRank": 2414
+        },
+        {
+          "majorName": "历史学类",
+          "majorKey": "7b08de6b",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4380",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 2470,
+          "equivRank": 2470
+        }
+      ]
+    },
+    {
+      "groupCode": "501",
+      "groupName": "501",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4940",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 13154,
+          "equivRank": 13154
+        }
+      ]
+    }
+  ]
+}

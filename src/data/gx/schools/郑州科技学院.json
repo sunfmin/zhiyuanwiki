@@ -1,0 +1,56 @@
+{
+  "key": "郑州科技学院",
+  "code": "12746",
+  "name": "郑州科技学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "专业组:101(首选科目:历史。再选科目:不限)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "15000元/年",
+          "menlei": "经"
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "15000元/年",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "103",
+      "groupName": "专业组:103(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "16000元/年",
+          "menlei": "工"
+        },
+        {
+          "majorName": "新能源汽车工程",
+          "majorKey": "039d4de9",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "16000元/年",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

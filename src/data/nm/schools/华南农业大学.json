@@ -1,0 +1,149 @@
+{
+  "key": "华南农业大学",
+  "code": "0078",
+  "name": "华南农业大学",
+  "leaves": [
+    {
+      "schoolKey": "华南农业大学",
+      "schoolCode": "0078",
+      "majorKey": "cde36de1",
+      "majorName": "民族预科班",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 541,
+          "minRank": 5582,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 513,
+          "minRank": 26090,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "华南农业大学",
+      "schoolCode": "0078",
+      "majorKey": "dc3f68a2",
+      "majorName": "草业科学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 561,
+          "minRank": 13809,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "民族预科班",
+          "majorKey": "cde36de1",
+          "selKe": "不限",
+          "plan": 15,
+          "tuition": "6061",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 5582,
+          "equivRank": 5582
+        },
+        {
+          "majorName": "民族预科班",
+          "majorKey": "cde36de1",
+          "selKe": "不限",
+          "plan": 20,
+          "tuition": "6061",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 5582,
+          "equivRank": 5582
+        },
+        {
+          "majorName": "民族预科班",
+          "majorKey": "cde36de1",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "6061",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 5582,
+          "equivRank": 5582
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "民族预科班",
+          "majorKey": "cde36de1",
+          "selKe": "不限",
+          "plan": 15,
+          "tuition": "6061",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 26090,
+          "equivRank": 26090
+        },
+        {
+          "majorName": "民族预科班",
+          "majorKey": "cde36de1",
+          "selKe": "不限",
+          "plan": 20,
+          "tuition": "6061",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 26090,
+          "equivRank": 26090
+        },
+        {
+          "majorName": "民族预科班",
+          "majorKey": "cde36de1",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "6061",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 26090,
+          "equivRank": 26090
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "草业科学",
+          "majorKey": "dc3f68a2",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5480",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 13809,
+          "equivRank": 13809
+        }
+      ]
+    }
+  ]
+}

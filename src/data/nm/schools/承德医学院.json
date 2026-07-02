@@ -1,0 +1,44 @@
+{
+  "key": "承德医学院",
+  "code": "0030",
+  "name": "承德医学院",
+  "leaves": [
+    {
+      "schoolKey": "承德医学院",
+      "schoolCode": "0030",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "物理,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 486,
+          "minRank": 33918,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "生物学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物学",
+          "plan": 6,
+          "tuition": "5720",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 33918,
+          "equivRank": 33918
+        }
+      ]
+    }
+  ]
+}

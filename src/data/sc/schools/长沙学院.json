@@ -1,0 +1,114 @@
+{
+  "key": "长沙学院",
+  "code": "4332",
+  "name": "长沙学院",
+  "leaves": [
+    {
+      "schoolKey": "长沙学院",
+      "schoolCode": "4332",
+      "majorKey": "4166f1ff",
+      "majorName": "工程管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 509,
+          "minRank": 115134,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长沙学院",
+      "schoolCode": "4332",
+      "majorKey": "b86f75b5",
+      "majorName": "广播电视编导",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 534,
+          "minRank": 27829,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长沙学院",
+      "schoolCode": "4332",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 562,
+          "minRank": 15119,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "广播电视编导",
+          "majorKey": "b86f75b5",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4年",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 27829,
+          "equivRank": 27829
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4年",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 15119,
+          "equivRank": 15119
+        }
+      ]
+    },
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "工程管理",
+          "majorKey": "4166f1ff",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4年",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 115134,
+          "equivRank": 115134
+        }
+      ]
+    }
+  ]
+}

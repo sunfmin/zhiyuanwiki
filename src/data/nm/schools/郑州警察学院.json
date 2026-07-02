@@ -1,0 +1,396 @@
+{
+  "key": "郑州警察学院",
+  "code": "0008",
+  "name": "郑州警察学院",
+  "leaves": [
+    {
+      "schoolKey": "郑州警察学院",
+      "schoolCode": "0008",
+      "majorKey": "39f460ad",
+      "majorName": "侦查学",
+      "selKe": "历史,政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 540,
+          "minRank": 5666,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 541,
+          "minRank": 18582,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "郑州警察学院",
+      "schoolCode": "0008",
+      "majorKey": "a0cbcd76",
+      "majorName": "公安管理学",
+      "selKe": "历史,政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 548,
+          "minRank": 5002,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "郑州警察学院",
+      "schoolCode": "0008",
+      "majorKey": "f4acab56",
+      "majorName": "刑事科学技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 619,
+          "minRank": 3796,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "郑州警察学院",
+      "schoolCode": "0008",
+      "majorKey": "39094c4c",
+      "majorName": "治安学",
+      "selKe": "历史,政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 620,
+          "minRank": 793,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 608,
+          "minRank": 5194,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "郑州警察学院",
+      "schoolCode": "0008",
+      "majorKey": "47d4d9c0",
+      "majorName": "网络安全与执法",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 583,
+          "minRank": 9219,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "郑州警察学院",
+      "schoolCode": "0008",
+      "majorKey": "0616cd11",
+      "majorName": "警务指挥与战术",
+      "selKe": "物理,政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 534,
+          "minRank": 20296,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "郑州警察学院",
+      "schoolCode": "0008",
+      "majorKey": "cdc185ed",
+      "majorName": "铁路警务",
+      "selKe": "历史,政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 618,
+          "minRank": 859,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 604,
+          "minRank": 5740,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "思想政治",
+      "majors": [
+        {
+          "majorName": "治安学",
+          "majorKey": "39094c4c",
+          "selKe": "思想政治",
+          "plan": 2,
+          "tuition": "4400",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 793,
+          "equivRank": 793
+        },
+        {
+          "majorName": "治安学",
+          "majorKey": "39094c4c",
+          "selKe": "思想政治",
+          "plan": 3,
+          "tuition": "4400",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 793,
+          "equivRank": 793
+        },
+        {
+          "majorName": "侦查学",
+          "majorKey": "39f460ad",
+          "selKe": "思想政治",
+          "plan": 1,
+          "tuition": "4400",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 5666,
+          "equivRank": 5666
+        },
+        {
+          "majorName": "公安管理学",
+          "majorKey": "a0cbcd76",
+          "selKe": "思想政治",
+          "plan": 1,
+          "tuition": "4400",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 5002,
+          "equivRank": 5002
+        },
+        {
+          "majorName": "铁路警务",
+          "majorKey": "cdc185ed",
+          "selKe": "思想政治",
+          "plan": 3,
+          "tuition": "4400",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 859,
+          "equivRank": 859
+        }
+      ]
+    },
+    {
+      "groupCode": "100",
+      "groupName": "100",
+      "track": "历史",
+      "selKe": "思想政治",
+      "majors": [
+        {
+          "majorName": "铁路警务",
+          "majorKey": "cdc185ed",
+          "selKe": "思想政治",
+          "plan": 1,
+          "tuition": "4400",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 859,
+          "equivRank": 859
+        }
+      ]
+    },
+    {
+      "groupCode": "200",
+      "groupName": "200",
+      "track": "历史",
+      "selKe": "思想政治",
+      "majors": [
+        {
+          "majorName": "治安学",
+          "majorKey": "39094c4c",
+          "selKe": "思想政治",
+          "plan": 1,
+          "tuition": "4400",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 793,
+          "equivRank": 793
+        },
+        {
+          "majorName": "治安学",
+          "majorKey": "39094c4c",
+          "selKe": "思想政治",
+          "plan": 1,
+          "tuition": "4400",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 793,
+          "equivRank": 793
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "思想政治",
+      "majors": [
+        {
+          "majorName": "治安学",
+          "majorKey": "39094c4c",
+          "selKe": "思想政治",
+          "plan": 6,
+          "tuition": "4400",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 5194,
+          "equivRank": 5194
+        },
+        {
+          "majorName": "侦查学",
+          "majorKey": "39f460ad",
+          "selKe": "思想政治",
+          "plan": 2,
+          "tuition": "4400",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 18582,
+          "equivRank": 18582
+        },
+        {
+          "majorName": "警务指挥与战术",
+          "majorKey": "0616cd11",
+          "selKe": "思想政治",
+          "plan": 1,
+          "tuition": "4400",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 20296,
+          "equivRank": 20296
+        },
+        {
+          "majorName": "铁路警务",
+          "majorKey": "cdc185ed",
+          "selKe": "思想政治",
+          "plan": 6,
+          "tuition": "4400",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 5740,
+          "equivRank": 5740
+        },
+        {
+          "majorName": "治安学",
+          "majorKey": "39094c4c",
+          "selKe": "思想政治",
+          "plan": 7,
+          "tuition": "4400",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 5194,
+          "equivRank": 5194
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "刑事科学技术",
+          "majorKey": "f4acab56",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 3796,
+          "equivRank": 3796
+        },
+        {
+          "majorName": "网络安全与执法",
+          "majorKey": "47d4d9c0",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 9219,
+          "equivRank": 9219
+        }
+      ]
+    },
+    {
+      "groupCode": "201",
+      "groupName": "201",
+      "track": "物理",
+      "selKe": "思想政治",
+      "majors": [
+        {
+          "majorName": "治安学",
+          "majorKey": "39094c4c",
+          "selKe": "思想政治",
+          "plan": 1,
+          "tuition": "4400",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 5194,
+          "equivRank": 5194
+        },
+        {
+          "majorName": "铁路警务",
+          "majorKey": "cdc185ed",
+          "selKe": "思想政治",
+          "plan": 1,
+          "tuition": "4400",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 5740,
+          "equivRank": 5740
+        }
+      ]
+    },
+    {
+      "groupCode": "300",
+      "groupName": "300",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "刑事科学技术",
+          "majorKey": "f4acab56",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 3796,
+          "equivRank": 3796
+        }
+      ]
+    }
+  ]
+}

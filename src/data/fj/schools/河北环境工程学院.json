@@ -1,0 +1,133 @@
+{
+  "key": "河北环境工程学院",
+  "code": "2661",
+  "name": "河北环境工程学院",
+  "leaves": [
+    {
+      "schoolKey": "河北环境工程学院",
+      "schoolCode": "2661",
+      "majorKey": "9c5f4a34",
+      "majorName": "新闻学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 482,
+          "minRank": 18365,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北环境工程学院",
+      "schoolCode": "2661",
+      "majorKey": "8b6a817b",
+      "majorName": "物流管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 481,
+          "minRank": 18606,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北环境工程学院",
+      "schoolCode": "2661",
+      "majorKey": "2698a02f",
+      "majorName": "环境生态工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 487,
+          "minRank": 80259,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北环境工程学院",
+      "schoolCode": "2661",
+      "majorKey": "7ab09507",
+      "majorName": "环境科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 492,
+          "minRank": 76112,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "新闻学",
+          "majorKey": "9c5f4a34",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 18365,
+          "equivRank": 18365
+        },
+        {
+          "majorName": "物流管理",
+          "majorKey": "8b6a817b",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 18606,
+          "equivRank": 18606
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "环境科学与工程",
+          "majorKey": "7ab09507",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 76112,
+          "equivRank": 76112
+        },
+        {
+          "majorName": "环境生态工程",
+          "majorKey": "2698a02f",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5390",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 80259,
+          "equivRank": 80259
+        }
+      ]
+    }
+  ]
+}

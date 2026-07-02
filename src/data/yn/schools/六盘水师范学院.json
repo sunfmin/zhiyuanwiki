@@ -1,0 +1,184 @@
+{
+  "key": "六盘水师范学院",
+  "code": "5214",
+  "name": "六盘水师范学院",
+  "leaves": [
+    {
+      "schoolKey": "六盘水师范学院",
+      "schoolCode": "5214",
+      "majorKey": "f9ecceea",
+      "majorName": "地理信息科学",
+      "selKe": "首选物理，再选地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 492,
+          "minRank": 68911,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "六盘水师范学院",
+      "schoolCode": "5214",
+      "majorKey": "4ef2a1b4",
+      "majorName": "机械电子工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 511,
+          "minRank": 55401,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "六盘水师范学院",
+      "schoolCode": "5214",
+      "majorKey": "61e687fe",
+      "majorName": "林学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 469,
+          "minRank": 86015,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "六盘水师范学院",
+      "schoolCode": "5214",
+      "majorKey": "3f9a4574",
+      "majorName": "采矿工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 474,
+          "minRank": 82168,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "六盘水师范学院",
+      "schoolCode": "5214",
+      "majorKey": "9b8820c1",
+      "majorName": "风景园林",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 475,
+          "minRank": 81411,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "风景园林",
+          "majorKey": "9b8820c1",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "4200元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 81411,
+          "equivRank": 81411
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "林学",
+          "majorKey": "61e687fe",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "3830元",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 86015,
+          "equivRank": 86015
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "机械电子工程",
+          "majorKey": "4ef2a1b4",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4200元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 55401,
+          "equivRank": 55401
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "采矿工程",
+          "majorKey": "3f9a4574",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "4200元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 82168,
+          "equivRank": 82168
+        }
+      ]
+    },
+    {
+      "groupCode": "05",
+      "groupName": "05",
+      "track": "物理",
+      "selKe": "物理,地理",
+      "majors": [
+        {
+          "majorName": "地理信息科学",
+          "majorKey": "f9ecceea",
+          "selKe": "物理,地理",
+          "plan": 2,
+          "tuition": "4200元",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 68911,
+          "equivRank": 68911
+        }
+      ]
+    }
+  ]
+}

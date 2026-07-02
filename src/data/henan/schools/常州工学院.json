@@ -1,0 +1,187 @@
+{
+  "key": "常州工学院",
+  "code": "3855",
+  "name": "常州工学院",
+  "leaves": [
+    {
+      "schoolKey": "常州工学院",
+      "schoolCode": "3855",
+      "majorKey": "b86f75b5",
+      "majorName": "广播电视编导",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 549,
+          "minRank": 26541,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "常州工学院",
+      "schoolCode": "3855",
+      "majorKey": "ed53a26b",
+      "majorName": "智能制造工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 570,
+          "minRank": 84303,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "常州工学院",
+      "schoolCode": "3855",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 577,
+          "minRank": 74080,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "常州工学院",
+      "schoolCode": "3855",
+      "majorKey": "98867766",
+      "majorName": "材料成型及控制工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 567,
+          "minRank": 88776,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "常州工学院",
+      "schoolCode": "3855",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 551,
+          "minRank": 25338,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "常州工学院",
+      "schoolCode": "3855",
+      "majorKey": "263043c1",
+      "majorName": "飞行器制造工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 570,
+          "minRank": 84303,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "103",
+      "groupName": "103",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 25338,
+          "equivRank": 25338
+        },
+        {
+          "majorName": "广播电视编导",
+          "majorKey": "b86f75b5",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "6800",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 26541,
+          "equivRank": 26541
+        }
+      ]
+    },
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 74080,
+          "equivRank": 74080
+        },
+        {
+          "majorName": "材料成型及控制工程",
+          "majorKey": "98867766",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 88776,
+          "equivRank": 88776
+        },
+        {
+          "majorName": "智能制造工程",
+          "majorKey": "ed53a26b",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 84303,
+          "equivRank": 84303
+        },
+        {
+          "majorName": "飞行器制造工程",
+          "majorKey": "263043c1",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 84303,
+          "equivRank": 84303
+        }
+      ]
+    }
+  ]
+}

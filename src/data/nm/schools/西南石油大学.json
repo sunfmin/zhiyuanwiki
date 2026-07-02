@@ -1,0 +1,138 @@
+{
+  "key": "西南石油大学",
+  "code": "M30",
+  "name": "西南石油大学",
+  "leaves": [
+    {
+      "schoolKey": "西南石油大学",
+      "schoolCode": "M30",
+      "majorKey": "c9b2e9e3",
+      "majorName": "油气储运工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 597,
+          "minRank": 6818,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西南石油大学",
+      "schoolCode": "M30",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 610,
+          "minRank": 1139,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西南石油大学",
+      "schoolCode": "M30",
+      "majorKey": "f0f8c4c6",
+      "majorName": "石油工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 589,
+          "minRank": 8198,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "000",
+      "groupName": "000",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "体育教育",
+          "majorKey": "d7e2a3c1",
+          "selKe": "不限",
+          "plan": 0,
+          "tuition": "5760",
+          "menlei": "教"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5760",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 1139,
+          "equivRank": 1139
+        }
+      ]
+    },
+    {
+      "groupCode": "000",
+      "groupName": "000",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "体育教育",
+          "majorKey": "d7e2a3c1",
+          "selKe": "不限",
+          "plan": 0,
+          "tuition": "5760",
+          "menlei": "教"
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "石油工程",
+          "majorKey": "f0f8c4c6",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6240",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 8198,
+          "equivRank": 8198
+        },
+        {
+          "majorName": "油气储运工程",
+          "majorKey": "c9b2e9e3",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6240",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 6818,
+          "equivRank": 6818
+        }
+      ]
+    }
+  ]
+}

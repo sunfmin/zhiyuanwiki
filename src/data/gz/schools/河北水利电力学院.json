@@ -1,0 +1,83 @@
+{
+  "key": "河北水利电力学院",
+  "code": "0904",
+  "name": "河北水利电力学院",
+  "leaves": [
+    {
+      "schoolKey": "河北水利电力学院",
+      "schoolCode": "0904",
+      "majorKey": "8a93dc8f",
+      "majorName": "勘查技术与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 461,
+          "minRank": 81007,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 468,
+          "minRank": 79333,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北水利电力学院",
+      "schoolCode": "0904",
+      "majorKey": "a6fe1434",
+      "majorName": "测绘工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 458,
+          "minRank": 83996,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 468,
+          "minRank": 79020,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "测绘工程",
+      "majorKey": "a6fe1434",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 3,
+      "tuition": "4900",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 79020,
+      "equivRank": 79020,
+      "prevScore": 468
+    },
+    {
+      "majorName": "勘查技术与工程",
+      "majorKey": "8a93dc8f",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 2,
+      "tuition": "4900",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 79333,
+      "equivRank": 79333,
+      "prevScore": 468
+    }
+  ]
+}

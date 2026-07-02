@@ -1,0 +1,222 @@
+{
+  "key": "青海大学",
+  "code": "2839",
+  "name": "青海大学",
+  "leaves": [
+    {
+      "schoolKey": "青海大学",
+      "schoolCode": "2839",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物、化、生(3科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 598,
+          "minRank": 12558,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "青海大学",
+      "schoolCode": "2839",
+      "majorKey": "b3e5d67f",
+      "majorName": "动物医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 606,
+          "minRank": 11126,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "青海大学",
+      "schoolCode": "2839",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "物、化、生(3科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 597,
+          "minRank": 12734,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "青海大学",
+      "schoolCode": "2839",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 611,
+          "minRank": 10262,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "青海大学",
+      "schoolCode": "2839",
+      "majorKey": "bda0ff17",
+      "majorName": "经济学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 624,
+          "minRank": 8280,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "青海大学",
+      "schoolCode": "2839",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 630,
+          "minRank": 7443,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "青海大学",
+      "schoolCode": "2839",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 624,
+          "minRank": 8280,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4720",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 8280,
+          "equivRank": 8280
+        },
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4720",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 8280,
+          "equivRank": 8280
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "动物医学",
+          "majorKey": "b3e5d67f",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5250",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 11126,
+          "equivRank": 11126
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5460",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 10262,
+          "equivRank": 10262
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5460",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 7443,
+          "equivRank": 7443
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理,化学,生物",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学,生物",
+          "plan": 1,
+          "tuition": "5770",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 12558,
+          "equivRank": 12558
+        },
+        {
+          "majorName": "医学影像学",
+          "majorKey": "5780af73",
+          "selKe": "物理,化学,生物",
+          "plan": 1,
+          "tuition": "5770",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 12734,
+          "equivRank": 12734
+        }
+      ]
+    }
+  ]
+}

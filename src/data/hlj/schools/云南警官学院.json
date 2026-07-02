@@ -1,0 +1,149 @@
+{
+  "key": "云南警官学院",
+  "code": "2330",
+  "name": "云南警官学院",
+  "leaves": [
+    {
+      "schoolKey": "云南警官学院",
+      "schoolCode": "2330",
+      "majorKey": "cd1ecf5e",
+      "majorName": "禁毒学",
+      "selKe": "政治",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 466,
+          "minRank": 4176,
+          "maxScore": 466
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 512,
+          "minRank": 13245,
+          "maxScore": 512
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 590,
+          "minRank": 1613,
+          "maxScore": 590
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 576,
+          "minRank": 13544,
+          "maxScore": 577
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 590,
+          "minRank": 1170,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 561,
+          "minRank": 13977,
+          "maxScore": 561
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "禁毒学",
+          "majorKey": "cd1ecf5e",
+          "selKe": "政治",
+          "plan": 1,
+          "tuition": "4950",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 1170,
+          "equivRank": 1170
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "历史",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "政治",
+          "plan": 6,
+          "tuition": "4500",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "禁毒学",
+          "majorKey": "cd1ecf5e",
+          "selKe": "政治",
+          "plan": 3,
+          "tuition": "4950",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 13977,
+          "equivRank": 13073
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "第004组",
+      "track": "物理",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "禁毒学",
+          "majorKey": "cd1ecf5e",
+          "selKe": "政治",
+          "plan": 1,
+          "tuition": "4950",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 13977,
+          "equivRank": 13073
+        }
+      ]
+    },
+    {
+      "groupCode": "005",
+      "groupName": "第005组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "网络空间安全",
+          "majorKey": "3093c484",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5000",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

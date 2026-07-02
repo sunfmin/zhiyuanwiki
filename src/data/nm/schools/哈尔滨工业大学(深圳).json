@@ -1,0 +1,106 @@
+{
+  "key": "哈尔滨工业大学(深圳)",
+  "code": "0186",
+  "name": "哈尔滨工业大学（深圳）",
+  "leaves": [
+    {
+      "schoolKey": "哈尔滨工业大学(深圳)",
+      "schoolCode": "0186",
+      "majorKey": "b363aa3d",
+      "majorName": "工科试验班",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 668,
+          "minRank": 436,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "哈尔滨工业大学(深圳)",
+      "schoolCode": "0186",
+      "majorKey": "caa6f3a9",
+      "majorName": "建筑类",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 627,
+          "minRank": 585,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "哈尔滨工业大学(深圳)",
+      "schoolCode": "0186",
+      "majorKey": "47abff30",
+      "majorName": "经济管理试验班",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 634,
+          "minRank": 397,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "006",
+      "groupName": "006",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "经济管理试验班",
+          "majorKey": "47abff30",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5510",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 397,
+          "equivRank": 397
+        },
+        {
+          "majorName": "建筑类",
+          "majorKey": "caa6f3a9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6230",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 585,
+          "equivRank": 585
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6230",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 436,
+          "equivRank": 436
+        }
+      ]
+    }
+  ]
+}

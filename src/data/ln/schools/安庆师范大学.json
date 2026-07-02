@@ -1,0 +1,99 @@
+{
+  "key": "安庆师范大学",
+  "code": "0372",
+  "name": "安庆师范大学",
+  "leaves": [
+    {
+      "schoolKey": "安庆师范大学",
+      "schoolCode": "0372",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 491,
+          "minRank": 16507,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安庆师范大学",
+      "schoolCode": "0372",
+      "majorKey": "5e0efed0",
+      "majorName": "电子信息类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 500,
+          "minRank": 56548,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安庆师范大学",
+      "schoolCode": "0372",
+      "majorKey": "8230723d",
+      "majorName": "计算机类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 506,
+          "minRank": 53584,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "国际经济与贸易",
+      "majorKey": "f8a1727e",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 5,
+      "tuition": "4900",
+      "schooling": "4",
+      "menlei": "经",
+      "prevYear": 2025,
+      "prevRank": 16507,
+      "equivRank": 16507,
+      "prevScore": 491
+    },
+    {
+      "majorName": "计算机类",
+      "majorKey": "8230723d",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 5,
+      "tuition": "5200",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 53584,
+      "equivRank": 53584,
+      "prevScore": 506
+    },
+    {
+      "majorName": "电子信息类",
+      "majorKey": "5e0efed0",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 5,
+      "tuition": "5200",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 56548,
+      "equivRank": 56548,
+      "prevScore": 500
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "key": "五邑大学",
+  "code": "3031",
+  "name": "五邑大学",
+  "leaves": [
+    {
+      "schoolKey": "五邑大学",
+      "schoolCode": "3031",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 530,
+          "minRank": 4578,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 495,
+          "minRank": 30723,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "五邑大学",
+      "schoolCode": "3031",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 514,
+          "minRank": 23242,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不提科目要求",
+          "plan": 1,
+          "tuition": "5050",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 4578,
+          "equivRank": 4578
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不提科目要求",
+          "plan": 1,
+          "tuition": "5050",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 30723,
+          "equivRank": 30723
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5710",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 23242,
+          "equivRank": 23242
+        }
+      ]
+    }
+  ]
+}

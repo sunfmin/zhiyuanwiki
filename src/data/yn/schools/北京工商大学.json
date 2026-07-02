@@ -1,0 +1,160 @@
+{
+  "key": "北京工商大学",
+  "code": "1111",
+  "name": "北京工商大学",
+  "leaves": [
+    {
+      "schoolKey": "北京工商大学",
+      "schoolCode": "1111",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 553,
+          "minRank": 29629,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京工商大学",
+      "schoolCode": "1111",
+      "majorKey": "d054f8d1",
+      "majorName": "应用统计学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 557,
+          "minRank": 27488,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京工商大学",
+      "schoolCode": "1111",
+      "majorKey": "bd3a8fa7",
+      "majorName": "物流管理与工程类",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 552,
+          "minRank": 30166,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京工商大学",
+      "schoolCode": "1111",
+      "majorKey": "bb33137b",
+      "majorName": "经济统计学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 555,
+          "minRank": 28548,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京工商大学",
+      "schoolCode": "1111",
+      "majorKey": "ac49b617",
+      "majorName": "香料香精技术与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 559,
+          "minRank": 26501,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "物理",
+          "plan": 5,
+          "tuition": "4200元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 29629,
+          "equivRank": 29629
+        },
+        {
+          "majorName": "物流管理与工程类",
+          "majorKey": "bd3a8fa7",
+          "selKe": "物理",
+          "plan": 5,
+          "tuition": "4200元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 30166,
+          "equivRank": 30166
+        },
+        {
+          "majorName": "经济统计学",
+          "majorKey": "bb33137b",
+          "selKe": "物理",
+          "plan": 5,
+          "tuition": "4200元",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 28548,
+          "equivRank": 28548
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "应用统计学",
+          "majorKey": "d054f8d1",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "4600元",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 27488,
+          "equivRank": 27488
+        },
+        {
+          "majorName": "香料香精技术与工程",
+          "majorKey": "ac49b617",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "4600元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 26501,
+          "equivRank": 26501
+        }
+      ]
+    }
+  ]
+}

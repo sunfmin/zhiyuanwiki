@@ -1,0 +1,168 @@
+{
+  "key": "郑州大学",
+  "code": "0682",
+  "name": "郑州大学",
+  "leaves": [
+    {
+      "schoolKey": "郑州大学",
+      "schoolCode": "0682",
+      "majorKey": "331c4c8e",
+      "majorName": "新闻传播学类",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 533,
+          "minRank": 14978,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "郑州大学",
+      "schoolCode": "0682",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 535,
+          "minRank": 14414,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "郑州大学",
+      "schoolCode": "0682",
+      "majorKey": "d47d0996",
+      "majorName": "生物科学类",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 545,
+          "minRank": 11777,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "郑州大学",
+      "schoolCode": "0682",
+      "majorKey": "0cabaa98",
+      "majorName": "经济学类",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 538,
+          "minRank": 13615,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "郑州大学",
+      "schoolCode": "0682",
+      "majorKey": "a70e63a1",
+      "majorName": "自动化类",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 544,
+          "minRank": 12020,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "4400",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 14414,
+          "equivRank": 14414
+        },
+        {
+          "majorName": "新闻传播学类",
+          "majorKey": "331c4c8e",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "4400",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 14978,
+          "equivRank": 14978
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "经济学类",
+          "majorKey": "0cabaa98",
+          "selKe": "物理",
+          "plan": 3,
+          "tuition": "4400",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 13615,
+          "equivRank": 13615
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "自动化类",
+          "majorKey": "a70e63a1",
+          "selKe": "物理和化学",
+          "plan": 4,
+          "tuition": "5700",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 12020,
+          "equivRank": 12020
+        },
+        {
+          "majorName": "生物科学类",
+          "majorKey": "d47d0996",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 11777,
+          "equivRank": 11777
+        }
+      ]
+    }
+  ]
+}

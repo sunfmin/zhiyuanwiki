@@ -1,0 +1,189 @@
+{
+  "key": "安阳师范学院",
+  "code": "0479",
+  "name": "安阳师范学院",
+  "leaves": [
+    {
+      "schoolKey": "安阳师范学院",
+      "schoolCode": "0479",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 504,
+          "minRank": 54523,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安阳师范学院",
+      "schoolCode": "0479",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 504,
+          "minRank": 54523,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安阳师范学院",
+      "schoolCode": "0479",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 525,
+          "minRank": 10664,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安阳师范学院",
+      "schoolCode": "0479",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 532,
+          "minRank": 9530,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安阳师范学院",
+      "schoolCode": "0479",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 540,
+          "minRank": 8364,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安阳师范学院",
+      "schoolCode": "0479",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 511,
+          "minRank": 51132,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "汉语言文学",
+      "majorKey": "97bc5998",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 3,
+      "tuition": "4800",
+      "schooling": "4",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 8364,
+      "equivRank": 8364,
+      "prevScore": 540
+    },
+    {
+      "majorName": "思想政治教育",
+      "majorKey": "6a15bc12",
+      "track": "历史",
+      "selKe": "历史,政治",
+      "plan": 2,
+      "tuition": "4400",
+      "schooling": "4",
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevRank": 9530,
+      "equivRank": 9530,
+      "prevScore": 532
+    },
+    {
+      "majorName": "历史学",
+      "majorKey": "c9800f2a",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 2,
+      "tuition": "4400",
+      "schooling": "4",
+      "menlei": "史",
+      "prevYear": 2025,
+      "prevRank": 10664,
+      "equivRank": 10664,
+      "prevScore": 525
+    },
+    {
+      "majorName": "电气工程及其自动化",
+      "majorKey": "45947d31",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 4,
+      "tuition": "5000",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 51132,
+      "equivRank": 51132,
+      "prevScore": 511
+    },
+    {
+      "majorName": "人工智能",
+      "majorKey": "2fec4169",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 3,
+      "tuition": "5000",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 54523,
+      "equivRank": 54523,
+      "prevScore": 504
+    },
+    {
+      "majorName": "化学",
+      "majorKey": "04ab47fe",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 2,
+      "tuition": "5000",
+      "schooling": "4",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 54523,
+      "equivRank": 54523,
+      "prevScore": 504
+    }
+  ]
+}

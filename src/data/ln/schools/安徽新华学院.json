@@ -1,0 +1,99 @@
+{
+  "key": "安徽新华学院",
+  "code": "2216",
+  "name": "安徽新华学院",
+  "leaves": [
+    {
+      "schoolKey": "安徽新华学院",
+      "schoolCode": "2216",
+      "majorKey": "28bd788f",
+      "majorName": "制药工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 428,
+          "minRank": 92484,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安徽新华学院",
+      "schoolCode": "2216",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 441,
+          "minRank": 86256,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "安徽新华学院",
+      "schoolCode": "2216",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 430,
+          "minRank": 91538,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "电子信息工程",
+      "majorKey": "fd603692",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 3,
+      "tuition": "26000",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 86256,
+      "equivRank": 86256,
+      "prevScore": 441
+    },
+    {
+      "majorName": "药学",
+      "majorKey": "e9e6a481",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 4,
+      "tuition": "26000",
+      "schooling": "4",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 91538,
+      "equivRank": 91538,
+      "prevScore": 430
+    },
+    {
+      "majorName": "制药工程",
+      "majorKey": "28bd788f",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 3,
+      "tuition": "26000",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 92484,
+      "equivRank": 92484,
+      "prevScore": 428
+    }
+  ]
+}

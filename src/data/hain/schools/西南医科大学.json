@@ -1,0 +1,214 @@
+{
+  "key": "西南医科大学",
+  "code": "2371",
+  "name": "西南医科大学",
+  "leaves": [
+    {
+      "schoolKey": "西南医科大学",
+      "schoolCode": "2371",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 607,
+          "minRank": 10923,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西南医科大学",
+      "schoolCode": "2371",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 601,
+          "minRank": 12010,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西南医科大学",
+      "schoolCode": "2371",
+      "majorKey": "11fef64a",
+      "majorName": "医学影像技术",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 598,
+          "minRank": 12558,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西南医科大学",
+      "schoolCode": "2371",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 616,
+          "minRank": 9485,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西南医科大学",
+      "schoolCode": "2371",
+      "majorKey": "28c62e21",
+      "majorName": "市场营销",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 606,
+          "minRank": 11126,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西南医科大学",
+      "schoolCode": "2371",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 613,
+          "minRank": 9938,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西南医科大学",
+      "schoolCode": "2371",
+      "majorKey": "83eea431",
+      "majorName": "麻醉学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 606,
+          "minRank": 11126,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "市场营销",
+          "majorKey": "28c62e21",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5760",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 11126,
+          "equivRank": 11126
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5760",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 9938,
+          "equivRank": 9938
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "6960",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 10923,
+          "equivRank": 10923
+        },
+        {
+          "majorName": "医学影像学",
+          "majorKey": "5780af73",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "6960",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 12010,
+          "equivRank": 12010
+        },
+        {
+          "majorName": "麻醉学",
+          "majorKey": "83eea431",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6960",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 11126,
+          "equivRank": 11126
+        },
+        {
+          "majorName": "医学影像技术",
+          "majorKey": "11fef64a",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6960",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 12558,
+          "equivRank": 12558
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6960",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 9485,
+          "equivRank": 9485
+        }
+      ]
+    }
+  ]
+}

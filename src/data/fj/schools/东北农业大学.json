@@ -1,0 +1,88 @@
+{
+  "key": "东北农业大学",
+  "code": "2453",
+  "name": "东北农业大学",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融学类",
+          "majorKey": "b39b8034",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "3500",
+          "menlei": "经"
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "法"
+        },
+        {
+          "majorName": "土地资源管理",
+          "majorKey": "6c4793b8",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "3300",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械类",
+          "majorKey": "710bfc36",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "3800",
+          "menlei": "工"
+        },
+        {
+          "majorName": "水利类",
+          "majorKey": "6c24cdec",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "食品科学与工程类",
+          "majorKey": "6e702db2",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "工"
+        },
+        {
+          "majorName": "园艺",
+          "majorKey": "e735f557",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "3000",
+          "menlei": "农"
+        },
+        {
+          "majorName": "动物医学",
+          "majorKey": "b3e5d67f",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "3000",
+          "menlei": "农"
+        }
+      ]
+    }
+  ]
+}

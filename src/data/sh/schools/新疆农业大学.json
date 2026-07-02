@@ -1,0 +1,133 @@
+{
+  "key": "新疆农业大学",
+  "code": "0983",
+  "name": "新疆农业大学",
+  "leaves": [
+    {
+      "schoolKey": "新疆农业大学",
+      "schoolCode": "0983",
+      "majorKey": "b74128f4",
+      "majorName": "工商管理类",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 397,
+          "minRank": 50278,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "新疆农业大学",
+      "schoolCode": "0983",
+      "majorKey": "c5a57efa",
+      "majorName": "水利水电工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 421,
+          "minRank": 45226,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "新疆农业大学",
+      "schoolCode": "0983",
+      "majorKey": "14856541",
+      "majorName": "电子信息科学与技术",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 420,
+          "minRank": 45426,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "新疆农业大学",
+      "schoolCode": "0983",
+      "majorKey": "9d1daa67",
+      "majorName": "经济与贸易类",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 399,
+          "minRank": 49882,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "经济与贸易类",
+          "majorKey": "9d1daa67",
+          "selKe": "不限科目",
+          "plan": 5,
+          "tuition": "18000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 49882,
+          "equivRank": 49882
+        },
+        {
+          "majorName": "工商管理类",
+          "majorKey": "b74128f4",
+          "selKe": "不限科目",
+          "plan": 5,
+          "tuition": "18000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 50278,
+          "equivRank": 50278
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "电子信息科学与技术",
+          "majorKey": "14856541",
+          "selKe": "物理和化学",
+          "plan": 5,
+          "tuition": "3500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 45426,
+          "equivRank": 45426
+        },
+        {
+          "majorName": "水利水电工程",
+          "majorKey": "c5a57efa",
+          "selKe": "物理和化学",
+          "plan": 5,
+          "tuition": "3500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 45226,
+          "equivRank": 45226
+        }
+      ]
+    }
+  ]
+}

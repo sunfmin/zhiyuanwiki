@@ -1,0 +1,159 @@
+{
+  "key": "山东石油化工学院",
+  "code": "13386",
+  "name": "山东石油化工学院",
+  "leaves": [
+    {
+      "schoolKey": "山东石油化工学院",
+      "schoolCode": "13386",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 519,
+          "minRank": 43840,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 491,
+          "minRank": 181971,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山东石油化工学院",
+      "schoolCode": "13386",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 509,
+          "minRank": 149387,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山东石油化工学院",
+      "schoolCode": "13386",
+      "majorKey": "f0f8c4c6",
+      "majorName": "石油工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 510,
+          "minRank": 147555,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山东石油化工学院",
+      "schoolCode": "13386",
+      "majorKey": "da95770c",
+      "majorName": "自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 507,
+          "minRank": 153021,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "204",
+      "groupName": "204",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 43840,
+          "equivRank": 43840
+        }
+      ]
+    },
+    {
+      "groupCode": "205",
+      "groupName": "205",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 181971,
+          "equivRank": 181971
+        }
+      ]
+    },
+    {
+      "groupCode": "206",
+      "groupName": "206",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "石油工程",
+          "majorKey": "f0f8c4c6",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5750",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 147555,
+          "equivRank": 147555
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 149387,
+          "equivRank": 149387
+        },
+        {
+          "majorName": "自动化",
+          "majorKey": "da95770c",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 153021,
+          "equivRank": 153021
+        }
+      ]
+    }
+  ]
+}

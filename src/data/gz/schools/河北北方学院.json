@@ -1,0 +1,83 @@
+{
+  "key": "河北北方学院",
+  "code": "0860",
+  "name": "河北北方学院",
+  "leaves": [
+    {
+      "schoolKey": "河北北方学院",
+      "schoolCode": "0860",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 514,
+          "minRank": 42851,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 518,
+          "minRank": 40218,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北北方学院",
+      "schoolCode": "0860",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 488,
+          "minRank": 59959,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 488,
+          "minRank": 61662,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 5,
+      "tuition": "5700",
+      "schooling": "五年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 40218,
+      "equivRank": 40218,
+      "prevScore": 518
+    },
+    {
+      "majorName": "医学检验技术",
+      "majorKey": "f106fa76",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 5,
+      "tuition": "5700",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 61662,
+      "equivRank": 61662,
+      "prevScore": 488
+    }
+  ]
+}

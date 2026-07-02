@@ -1,0 +1,44 @@
+{
+  "key": "文山学院",
+  "code": "K366",
+  "name": "文山学院",
+  "leaves": [
+    {
+      "schoolKey": "文山学院",
+      "schoolCode": "K366",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 509,
+          "minRank": 25846,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "历史",
+          "plan": 5,
+          "tuition": "4200",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 25846,
+          "equivRank": 25846
+        }
+      ]
+    }
+  ]
+}

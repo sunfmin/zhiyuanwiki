@@ -1,0 +1,231 @@
+{
+  "key": "合肥大学",
+  "code": "2682",
+  "name": "合肥大学",
+  "leaves": [
+    {
+      "schoolKey": "合肥大学",
+      "schoolCode": "2682",
+      "majorKey": "1f59c989",
+      "majorName": "化学工程与工艺",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 530,
+          "minRank": 47532,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "合肥大学",
+      "schoolCode": "2682",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 512,
+          "minRank": 12576,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "合肥大学",
+      "schoolCode": "2682",
+      "majorKey": "35ec1f36",
+      "majorName": "新能源材料与器件",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 534,
+          "minRank": 44918,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "合肥大学",
+      "schoolCode": "2682",
+      "majorKey": "8b6a817b",
+      "majorName": "物流管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 529,
+          "minRank": 9730,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 527,
+          "minRank": 49465,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "合肥大学",
+      "schoolCode": "2682",
+      "majorKey": "7faf2092",
+      "majorName": "环境工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 525,
+          "minRank": 50881,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "合肥大学",
+      "schoolCode": "2682",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 522,
+          "minRank": 10821,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 535,
+          "minRank": 44290,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4900",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 10821,
+          "equivRank": 10821
+        },
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "4900",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 12576,
+          "equivRank": 12576
+        },
+        {
+          "majorName": "物流管理",
+          "majorKey": "8b6a817b",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5635",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 9730,
+          "equivRank": 9730
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "新能源材料与器件",
+          "majorKey": "35ec1f36",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 44918,
+          "equivRank": 44918
+        },
+        {
+          "majorName": "化学工程与工艺",
+          "majorKey": "1f59c989",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5980",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 47532,
+          "equivRank": 47532
+        },
+        {
+          "majorName": "环境工程",
+          "majorKey": "7faf2092",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 50881,
+          "equivRank": 50881
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4900",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 44290,
+          "equivRank": 44290
+        },
+        {
+          "majorName": "物流管理",
+          "majorKey": "8b6a817b",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5635",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 49465,
+          "equivRank": 49465
+        }
+      ]
+    }
+  ]
+}

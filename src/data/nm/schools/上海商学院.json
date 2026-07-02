@@ -1,0 +1,301 @@
+{
+  "key": "上海商学院",
+  "code": "A59",
+  "name": "上海商学院",
+  "leaves": [
+    {
+      "schoolKey": "上海商学院",
+      "schoolCode": "A59",
+      "majorKey": "55e3bd26",
+      "majorName": "信息管理与信息系统",
+      "selKe": "物理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 507,
+          "minRank": 27790,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海商学院",
+      "schoolCode": "A59",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 536,
+          "minRank": 6045,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 507,
+          "minRank": 27790,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海商学院",
+      "schoolCode": "A59",
+      "majorKey": "28c62e21",
+      "majorName": "市场营销",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 531,
+          "minRank": 6528,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 515,
+          "minRank": 25519,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海商学院",
+      "schoolCode": "A59",
+      "majorKey": "8f1def37",
+      "majorName": "日语",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 530,
+          "minRank": 6622,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 504,
+          "minRank": 28645,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海商学院",
+      "schoolCode": "A59",
+      "majorKey": "cde36de1",
+      "majorName": "民族预科班",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 533,
+          "minRank": 6310,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 503,
+          "minRank": 28901,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海商学院",
+      "schoolCode": "A59",
+      "majorKey": "2e55aa48",
+      "majorName": "税收学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 538,
+          "minRank": 5870,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 525,
+          "minRank": 22719,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "民族预科班",
+          "majorKey": "cde36de1",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6500",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 6310,
+          "equivRank": 6310
+        }
+      ]
+    },
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "税收学",
+          "majorKey": "2e55aa48",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6500",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 5870,
+          "equivRank": 5870
+        },
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6500",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 6045,
+          "equivRank": 6045
+        },
+        {
+          "majorName": "日语",
+          "majorKey": "8f1def37",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "6500",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 6622,
+          "equivRank": 6622
+        },
+        {
+          "majorName": "市场营销",
+          "majorKey": "28c62e21",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 6528,
+          "equivRank": 6528
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "民族预科班",
+          "majorKey": "cde36de1",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6500",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 28901,
+          "equivRank": 28901
+        }
+      ]
+    },
+    {
+      "groupCode": "201",
+      "groupName": "201",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "税收学",
+          "majorKey": "2e55aa48",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "6500",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 22719,
+          "equivRank": 22719
+        },
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6500",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 27790,
+          "equivRank": 27790
+        },
+        {
+          "majorName": "日语",
+          "majorKey": "8f1def37",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "6500",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 28645,
+          "equivRank": 28645
+        },
+        {
+          "majorName": "市场营销",
+          "majorKey": "28c62e21",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "6500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 25519,
+          "equivRank": 25519
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "信息管理与信息系统",
+          "majorKey": "55e3bd26",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "6500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 27790,
+          "equivRank": 27790
+        }
+      ]
+    }
+  ]
+}

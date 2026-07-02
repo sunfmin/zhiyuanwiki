@@ -1,0 +1,218 @@
+{
+  "key": "四川大学锦江学院",
+  "code": "3714",
+  "name": "四川大学锦江学院",
+  "leaves": [
+    {
+      "schoolKey": "四川大学锦江学院",
+      "schoolCode": "3714",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 432,
+          "minRank": 19643,
+          "maxScore": 446
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 397,
+          "minRank": 72171,
+          "maxScore": 406
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 431,
+          "minRank": 18177,
+          "maxScore": 448
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 396,
+          "minRank": 71394,
+          "maxScore": 404
+        }
+      ]
+    },
+    {
+      "schoolKey": "四川大学锦江学院",
+      "schoolCode": "3714",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 329,
+          "minRank": 68319,
+          "maxScore": 329
+        }
+      ]
+    },
+    {
+      "schoolKey": "四川大学锦江学院",
+      "schoolCode": "3714",
+      "majorKey": "c3651db1",
+      "majorName": "德语",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 372,
+          "minRank": 17499,
+          "maxScore": 372
+        }
+      ]
+    },
+    {
+      "schoolKey": "四川大学锦江学院",
+      "schoolCode": "3714",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 331,
+          "minRank": 67556,
+          "maxScore": 342
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 369,
+          "minRank": 83252,
+          "maxScore": 411
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 384,
+          "minRank": 76158,
+          "maxScore": 389
+        }
+      ]
+    },
+    {
+      "schoolKey": "四川大学锦江学院",
+      "schoolCode": "3714",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 429,
+          "minRank": 20173,
+          "maxScore": 429
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 382,
+          "minRank": 78108,
+          "maxScore": 382
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "18000",
+          "menlei": "文",
+          "prevYear": 2024,
+          "prevRank": 20173,
+          "equivRank": 20173
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 18177,
+          "equivRank": 18177
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "18000",
+          "menlei": "文",
+          "prevYear": 2024,
+          "prevRank": 78108,
+          "equivRank": 70084
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 71394,
+          "equivRank": 66775
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 76158,
+          "equivRank": 71231
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "18000",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "key": "西安建筑科技大学华清学院",
+  "code": "3434",
+  "name": "西安建筑科技大学华清学院",
+  "leaves": [
+    {
+      "schoolKey": "西安建筑科技大学华清学院",
+      "schoolCode": "3434",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 455,
+          "minRank": 107492,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西安建筑科技大学华清学院",
+      "schoolCode": "3434",
+      "majorKey": "b176ee03",
+      "majorName": "建筑环境与能源应用工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 466,
+          "minRank": 98212,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "西安建筑科技大学华清学院",
+      "schoolCode": "3434",
+      "majorKey": "4ef2a1b4",
+      "majorName": "机械电子工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 456,
+          "minRank": 106608,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械电子工程",
+          "majorKey": "4ef2a1b4",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "22000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 106608,
+          "equivRank": 106608
+        },
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "22000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 107492,
+          "equivRank": 107492
+        },
+        {
+          "majorName": "建筑环境与能源应用工程",
+          "majorKey": "b176ee03",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "22000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 98212,
+          "equivRank": 98212
+        },
+        {
+          "majorName": "城市地下空间工程",
+          "majorKey": "7201e1a9",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "22000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "安全工程",
+          "majorKey": "e16fbe20",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "22000",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

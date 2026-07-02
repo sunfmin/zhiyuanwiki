@@ -1,0 +1,122 @@
+{
+  "key": "西南大学(中外合作)",
+  "code": "3483",
+  "name": "西南大学(中外合作)",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "50000",
+          "menlei": "经",
+          "coop": true
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "生物技术",
+          "majorKey": "0ac1da59",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "50000",
+          "menlei": "理",
+          "coop": true
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "50000",
+          "menlei": "工",
+          "coop": true
+        },
+        {
+          "majorName": "自动化",
+          "majorKey": "da95770c",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "50000",
+          "menlei": "工",
+          "coop": true
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "50000",
+          "menlei": "工",
+          "coop": true
+        },
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "50000",
+          "menlei": "工",
+          "coop": true
+        },
+        {
+          "majorName": "食品质量与安全",
+          "majorKey": "63b95502",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "50000",
+          "menlei": "工",
+          "coop": true
+        },
+        {
+          "majorName": "植物科学与技术",
+          "majorKey": "8006af93",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "38000",
+          "menlei": "农",
+          "coop": true
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "60000",
+          "menlei": "医",
+          "coop": true
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "50000",
+          "menlei": "经",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

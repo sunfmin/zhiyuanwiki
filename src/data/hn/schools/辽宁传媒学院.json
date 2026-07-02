@@ -1,0 +1,111 @@
+{
+  "key": "辽宁传媒学院",
+  "code": "2178",
+  "name": "辽宁传媒学院",
+  "leaves": [
+    {
+      "schoolKey": "辽宁传媒学院",
+      "schoolCode": "2178",
+      "majorKey": "9c5f4a34",
+      "majorName": "新闻学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 422,
+          "minRank": 189966,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "辽宁传媒学院",
+      "schoolCode": "2178",
+      "majorKey": "fff04889",
+      "majorName": "网络与新媒体",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 426,
+          "minRank": 184956,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（102）",
+      "groupName": "（102）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "首选历史，再选不限",
+          "plan": 5,
+          "tuition": "27000",
+          "menlei": "文",
+          "prevYear": 2024,
+          "prevRank": 184956,
+          "equivRank": 51609
+        },
+        {
+          "majorName": "应用中文",
+          "majorKey": "f72a50cb",
+          "selKe": "首选历史，再选不限",
+          "plan": 5,
+          "tuition": "27000",
+          "menlei": "文"
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "首选历史，再选不限",
+          "plan": 5,
+          "tuition": "27000",
+          "menlei": "文"
+        },
+        {
+          "majorName": "新闻学",
+          "majorKey": "9c5f4a34",
+          "selKe": "首选历史，再选不限",
+          "plan": 2,
+          "tuition": "27000",
+          "menlei": "文",
+          "prevYear": 2024,
+          "prevRank": 189966,
+          "equivRank": 53006
+        }
+      ]
+    },
+    {
+      "groupCode": "（103）",
+      "groupName": "（103）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "虚拟现实技术",
+          "majorKey": "b26a9631",
+          "selKe": "首选物理，再选化学",
+          "plan": 5,
+          "tuition": "27000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "数字媒体技术",
+          "majorKey": "889e9381",
+          "selKe": "首选物理，再选化学",
+          "plan": 5,
+          "tuition": "27000",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

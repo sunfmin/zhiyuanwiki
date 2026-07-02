@@ -1,0 +1,98 @@
+{
+  "key": "青岛农业大学",
+  "code": "3726",
+  "name": "青岛农业大学",
+  "leaves": [
+    {
+      "schoolKey": "青岛农业大学",
+      "schoolCode": "3726",
+      "majorKey": "cd7e1ba1",
+      "majorName": "农业资源与环境",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 458,
+          "minRank": 48219,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "青岛农业大学",
+      "schoolCode": "3726",
+      "majorKey": "ee804eaf",
+      "majorName": "草坪科学与工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 488,
+          "minRank": 40740,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "青岛农业大学",
+      "schoolCode": "3726",
+      "majorKey": "71c70306",
+      "majorName": "马业科学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 491,
+          "minRank": 39912,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "马业科学",
+          "majorKey": "71c70306",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 39912,
+          "equivRank": 39912
+        },
+        {
+          "majorName": "农业资源与环境",
+          "majorKey": "cd7e1ba1",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "6325",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 48219,
+          "equivRank": 48219
+        },
+        {
+          "majorName": "草坪科学与工程",
+          "majorKey": "ee804eaf",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 40740,
+          "equivRank": 40740
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "key": "石家庄铁道大学四方学院",
+  "code": "5078",
+  "name": "石家庄铁道大学四方学院",
+  "leaves": [
+    {
+      "schoolKey": "石家庄铁道大学四方学院",
+      "schoolCode": "5078",
+      "majorKey": "24d6dbdf",
+      "majorName": "交通工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 494,
+          "minRank": 143937,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "石家庄铁道大学四方学院",
+      "schoolCode": "5078",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 487,
+          "minRank": 154269,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "石家庄铁道大学四方学院",
+      "schoolCode": "5078",
+      "majorKey": "4166f1ff",
+      "majorName": "工程管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 502,
+          "minRank": 132119,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "石家庄铁道大学四方学院",
+      "schoolCode": "5078",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 500,
+          "minRank": 135050,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "石家庄铁道大学四方学院",
+      "schoolCode": "5078",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 521,
+          "minRank": 105379,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "石家庄铁道大学四方学院",
+      "schoolCode": "5078",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 500,
+          "minRank": 33445,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "10000元/年",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 33445,
+          "equivRank": 33445
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "工程管理",
+          "majorKey": "4166f1ff",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "10000元/年",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 132119,
+          "equivRank": 132119
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "10000元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 105379,
+          "equivRank": 105379
+        },
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "10000元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 135050,
+          "equivRank": 135050
+        },
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "化学",
+          "plan": 10,
+          "tuition": "10000元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 154269,
+          "equivRank": 154269
+        },
+        {
+          "majorName": "交通工程",
+          "majorKey": "24d6dbdf",
+          "selKe": "化学",
+          "plan": 6,
+          "tuition": "10000元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 143937,
+          "equivRank": 143937
+        }
+      ]
+    }
+  ]
+}

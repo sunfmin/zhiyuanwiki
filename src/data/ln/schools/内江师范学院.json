@@ -1,0 +1,129 @@
+{
+  "key": "内江师范学院",
+  "code": "0640",
+  "name": "内江师范学院",
+  "leaves": [
+    {
+      "schoolKey": "内江师范学院",
+      "schoolCode": "0640",
+      "majorKey": "3c2f7b8b",
+      "majorName": "外国语言文学类",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 528,
+          "minRank": 10164,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "内江师范学院",
+      "schoolCode": "0640",
+      "majorKey": "b8be11ab",
+      "majorName": "工程造价",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 479,
+          "minRank": 67042,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "内江师范学院",
+      "schoolCode": "0640",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 544,
+          "minRank": 7846,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "内江师范学院",
+      "schoolCode": "0640",
+      "majorKey": "fcd46a8c",
+      "majorName": "金融数学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 486,
+          "minRank": 63506,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "法学",
+      "majorKey": "a1113a1f",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 2,
+      "tuition": "5520",
+      "schooling": "4",
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevRank": 7846,
+      "equivRank": 7846,
+      "prevScore": 544
+    },
+    {
+      "majorName": "外国语言文学类",
+      "majorKey": "3c2f7b8b",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 2,
+      "tuition": "5520",
+      "schooling": "4",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 10164,
+      "equivRank": 10164,
+      "prevScore": 528
+    },
+    {
+      "majorName": "金融数学",
+      "majorKey": "fcd46a8c",
+      "track": "物理",
+      "selKe": "物理",
+      "plan": 2,
+      "tuition": "5520",
+      "schooling": "4",
+      "menlei": "经",
+      "prevYear": 2025,
+      "prevRank": 63506,
+      "equivRank": 63506,
+      "prevScore": 486
+    },
+    {
+      "majorName": "工程造价",
+      "majorKey": "b8be11ab",
+      "track": "物理",
+      "selKe": "物理",
+      "plan": 2,
+      "tuition": "5520",
+      "schooling": "4",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 67042,
+      "equivRank": 67042,
+      "prevScore": 479
+    }
+  ]
+}

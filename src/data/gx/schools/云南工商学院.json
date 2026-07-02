@@ -1,0 +1,56 @@
+{
+  "key": "云南工商学院",
+  "code": "13909",
+  "name": "云南工商学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "100",
+      "groupName": "专业组:100(首选科目:历史。再选科目:不限)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "21800元/年",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "101",
+      "groupName": "专业组:101(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "21800元/年",
+          "menlei": "工"
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "25800元/年",
+          "menlei": "工"
+        },
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "22800元/年",
+          "menlei": "医"
+        }
+      ]
+    }
+  ]
+}

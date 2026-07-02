@@ -1,0 +1,114 @@
+{
+  "key": "豫北医学院",
+  "code": "3548",
+  "name": "豫北医学院",
+  "leaves": [
+    {
+      "schoolKey": "豫北医学院",
+      "schoolCode": "3548",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 525,
+          "minRank": 50881,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "豫北医学院",
+      "schoolCode": "3548",
+      "majorKey": "a507c400",
+      "majorName": "康复治疗学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 493,
+          "minRank": 75303,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "豫北医学院",
+      "schoolCode": "3548",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 487,
+          "minRank": 80259,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "康复治疗学",
+          "majorKey": "a507c400",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "17000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 75303,
+          "equivRank": 75303
+        }
+      ]
+    },
+    {
+      "groupCode": "516",
+      "groupName": "专业组：516 (选考化学且生物学)",
+      "track": "物理",
+      "selKe": "化学和生物",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学和生物",
+          "plan": 2,
+          "tuition": "17000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 50881,
+          "equivRank": 50881
+        }
+      ]
+    },
+    {
+      "groupCode": "600",
+      "groupName": "专业组：600 (选考生物学)",
+      "track": "物理",
+      "selKe": "生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物",
+          "plan": 2,
+          "tuition": "17000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 80259,
+          "equivRank": 80259
+        }
+      ]
+    }
+  ]
+}

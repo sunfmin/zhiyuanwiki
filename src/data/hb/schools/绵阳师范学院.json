@@ -1,0 +1,160 @@
+{
+  "key": "绵阳师范学院",
+  "code": "K163",
+  "name": "绵阳师范学院",
+  "leaves": [
+    {
+      "schoolKey": "绵阳师范学院",
+      "schoolCode": "K163",
+      "majorKey": "c3651db1",
+      "majorName": "德语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 534,
+          "minRank": 18158,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "绵阳师范学院",
+      "schoolCode": "K163",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 496,
+          "minRank": 90091,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "绵阳师范学院",
+      "schoolCode": "K163",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 536,
+          "minRank": 17551,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "绵阳师范学院",
+      "schoolCode": "K163",
+      "majorKey": "7ab09507",
+      "majorName": "环境科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 491,
+          "minRank": 94466,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "绵阳师范学院",
+      "schoolCode": "K163",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 534,
+          "minRank": 18158,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "德语",
+          "majorKey": "c3651db1",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5520",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 18158,
+          "equivRank": 18158
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5520",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 17551,
+          "equivRank": 17551
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5520",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 18158,
+          "equivRank": 18158
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5980",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 90091,
+          "equivRank": 90091
+        },
+        {
+          "majorName": "环境科学与工程",
+          "majorKey": "7ab09507",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5980",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 94466,
+          "equivRank": 94466
+        }
+      ]
+    }
+  ]
+}

@@ -30,9 +30,11 @@ type trackRange struct {
 	MaxRank  int `json:"maxRank"`
 }
 
-// schoolIndexEntry 是 schools.json 索引项。Ranges 按科类名给出各自录取线区间
-// （黑龙江=物理/历史；浙江=综合），列表可按任一科类的 MaxScore 排序。
+// schoolIndexEntry 是 schools.json 索引项。Key（归一化校名）是主键与 URL slug（ADR-0021）；
+// Code 是代表代号，仅供展示。Ranges 按科类名给出各自录取线区间（黑龙江=物理/历史；浙江=综合），
+// 列表可按任一科类的 MaxScore 排序。
 type schoolIndexEntry struct {
+	Key       string                 `json:"key"`
 	Code      string                 `json:"code"`
 	Name      string                 `json:"name"`
 	LeafCount int                    `json:"leafCount"`
@@ -92,13 +94,13 @@ func rangeForTrack(leaves []core.MajorLeaf, track string) *trackRange {
 	return r
 }
 
-// schoolKey 是院校实体在投影层的**主键**——用作 details/meta/levels map 键、schools.json 索引 Code、
-// 以及每校详情文件名 slug。当前 == 院校代号；ADR-0021 将其改为归一化校名派生（报考实体粒度）。
-// 全站对「院校实体键」的读写收口到此处，便于 #37 单点替换而不散落改 s.Code。
-func schoolKey(s core.School) string { return s.Code }
+// schoolKey 是院校实体在投影层的**主键**——用作 details/meta/levels map 键、schools.json 索引 Key、
+// 以及每校详情文件名 slug（URL 段）。ADR-0021 起 == 归一化校名（报考实体粒度，保留校区后缀），
+// 不再是逐年逐源不稳的院校代号。
+func schoolKey(s core.School) string { return s.Key }
 
-// leafGroupKey 是把院校×专业叶子归拢到其院校实体的键，须与 schoolKey **同源**。当前 == 叶子院校代号。
-func leafGroupKey(lf core.MajorLeaf) string { return lf.SchoolCode }
+// leafGroupKey 是把院校×专业叶子归拢到其院校实体的键，须与 schoolKey **同源** == 叶子的院校实体键。
+func leafGroupKey(lf core.MajorLeaf) string { return lf.SchoolKey }
 
 // schoolBundle 是某省份院校数据的中间产物，由各省 builder 产出、由 emitSchoolData 落盘。
 type schoolBundle struct {
@@ -126,7 +128,7 @@ func emitSchoolData(p province, b schoolBundle, outDir, pubDir string) {
 				ranges[tr] = r
 			}
 		}
-		e := schoolIndexEntry{Code: schoolKey(s), Name: s.Name, LeafCount: len(lvs), Ranges: ranges}
+		e := schoolIndexEntry{Key: schoolKey(s), Code: s.Code, Name: s.Name, LeafCount: len(lvs), Ranges: ranges}
 		if lv, ok := b.levels[schoolKey(s)]; ok {
 			e.Is985, e.Is211, e.IsShuangYiLiu = lv[0], lv[1], lv[2]
 			if lv[0] {
@@ -154,6 +156,11 @@ func emitSchoolData(p province, b schoolBundle, outDir, pubDir string) {
 	fmt.Printf("  院校过滤属性：%d 所 → %s\n", len(b.meta), filepath.Join(pubDir, "school-meta.json"))
 
 	detailDir := filepath.Join(outDir, "schools")
+	// 先清空再重写：主键=校名后文件名是校名（ADR-0021），旧的按代号命名的详情文件必须清掉，
+	// 否则与新文件并存、被 Astro glob 当成陈旧幽灵页。改名/合并导致的孤儿文件也一并清除。
+	if err := os.RemoveAll(detailDir); err != nil {
+		fatal(err)
+	}
 	if err := os.MkdirAll(detailDir, 0o755); err != nil {
 		fatal(err)
 	}

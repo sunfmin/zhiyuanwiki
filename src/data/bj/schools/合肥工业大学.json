@@ -1,0 +1,97 @@
+{
+  "key": "合肥工业大学",
+  "code": "3401",
+  "name": "合肥工业大学",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "数字经济",
+          "majorKey": "ca37000f",
+          "selKe": "物理",
+          "plan": 4,
+          "tuition": "5500",
+          "menlei": "经"
+        },
+        {
+          "majorName": "信息管理与信息系统",
+          "majorKey": "55e3bd26",
+          "selKe": "物理",
+          "plan": 3,
+          "tuition": "6600",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "5500",
+          "menlei": "工"
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "6050",
+          "menlei": "工"
+        },
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6050",
+          "menlei": "工"
+        },
+        {
+          "majorName": "车辆工程",
+          "majorKey": "92b6110d",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6050",
+          "menlei": "工"
+        },
+        {
+          "majorName": "量子信息科学",
+          "majorKey": "417c78e9",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "理"
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "50000",
+          "menlei": "经",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

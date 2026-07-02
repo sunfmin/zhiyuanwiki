@@ -1,0 +1,40 @@
+{
+  "key": "邢台学院",
+  "code": "10104",
+  "name": "邢台学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "100",
+      "groupName": "专业组:100(首选科目:历史。再选科目:地理)",
+      "track": "历史",
+      "selKe": "地理",
+      "majors": [
+        {
+          "majorName": "地理科学",
+          "majorKey": "d061ae24",
+          "selKe": "地理",
+          "plan": 5,
+          "tuition": "4900元/年",
+          "menlei": "理"
+        }
+      ]
+    },
+    {
+      "groupCode": "101",
+      "groupName": "专业组:101(首选科目:物理。再选科目:不限)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4600元/年",
+          "menlei": "管"
+        }
+      ]
+    }
+  ]
+}

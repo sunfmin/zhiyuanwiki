@@ -1,0 +1,48 @@
+{
+  "key": "北京电子科技学院(女)",
+  "code": "2247",
+  "name": "北京电子科技学院(女)",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "行政管理",
+          "majorKey": "062bcf46",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4200",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "网络空间安全",
+          "majorKey": "3093c484",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4600",
+          "menlei": "工"
+        },
+        {
+          "majorName": "密码科学与技术",
+          "majorKey": "95e6fe0b",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4600",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

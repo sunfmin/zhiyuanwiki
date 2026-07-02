@@ -1,0 +1,194 @@
+{
+  "key": "长春大学旅游学院",
+  "code": "F652",
+  "name": "长春大学旅游学院",
+  "leaves": [
+    {
+      "schoolKey": "长春大学旅游学院",
+      "schoolCode": "F652",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 445,
+          "minRank": 49762,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 426,
+          "minRank": 148657,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春大学旅游学院",
+      "schoolCode": "F652",
+      "majorKey": "889e9381",
+      "majorName": "数字媒体技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 428,
+          "minRank": 147149,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春大学旅游学院",
+      "schoolCode": "F652",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 458,
+          "minRank": 123214,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春大学旅游学院",
+      "schoolCode": "F652",
+      "majorKey": "d2fbd5c5",
+      "majorName": "汉语国际教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 442,
+          "minRank": 50955,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "26000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 49762,
+          "equivRank": 49762
+        },
+        {
+          "majorName": "汉语国际教育",
+          "majorKey": "d2fbd5c5",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "26000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 50955,
+          "equivRank": 50955
+        },
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "26000",
+          "menlei": "经"
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "物理",
+          "plan": 4,
+          "tuition": "26000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 148657,
+          "equivRank": 148657
+        },
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "物理",
+          "plan": 4,
+          "tuition": "26000",
+          "menlei": "经"
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "物理",
+          "plan": 3,
+          "tuition": "26000",
+          "menlei": "管"
+        },
+        {
+          "majorName": "汉语国际教育",
+          "majorKey": "d2fbd5c5",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "26000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 50955,
+          "equivRank": 89996
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "数字媒体技术",
+          "majorKey": "889e9381",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "26000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 147149,
+          "equivRank": 147149
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "26000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 123214,
+          "equivRank": 123214
+        }
+      ]
+    }
+  ]
+}

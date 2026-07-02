@@ -1,0 +1,222 @@
+{
+  "key": "徐州工程学院",
+  "code": "2332",
+  "name": "徐州工程学院",
+  "leaves": [
+    {
+      "schoolKey": "徐州工程学院",
+      "schoolCode": "2332",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 558,
+          "minRank": 10109,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "徐州工程学院",
+      "schoolCode": "2332",
+      "majorKey": "4166f1ff",
+      "majorName": "工程管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 521,
+          "minRank": 60705,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "徐州工程学院",
+      "schoolCode": "2332",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 526,
+          "minRank": 55683,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "徐州工程学院",
+      "schoolCode": "2332",
+      "majorKey": "803b1149",
+      "majorName": "物流工程",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 518,
+          "minRank": 63821,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "徐州工程学院",
+      "schoolCode": "2332",
+      "majorKey": "14eeb10f",
+      "majorName": "生物工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 525,
+          "minRank": 56652,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "徐州工程学院",
+      "schoolCode": "2332",
+      "majorKey": "0b52f20f",
+      "majorName": "电子商务",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 547,
+          "minRank": 13772,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "徐州工程学院",
+      "schoolCode": "2332",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 549,
+          "minRank": 13070,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第101组",
+      "groupName": "第101组",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "5200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 10109,
+          "equivRank": 10109
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "5200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 13070,
+          "equivRank": 13070
+        },
+        {
+          "majorName": "电子商务",
+          "majorKey": "0b52f20f",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "5200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 13772,
+          "equivRank": 13772
+        }
+      ]
+    },
+    {
+      "groupCode": "第501组",
+      "groupName": "第501组",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "工程管理",
+          "majorKey": "4166f1ff",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "5200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 60705,
+          "equivRank": 60705
+        },
+        {
+          "majorName": "物流工程",
+          "majorKey": "803b1149",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 63821,
+          "equivRank": 63821
+        }
+      ]
+    },
+    {
+      "groupCode": "第502组",
+      "groupName": "第502组",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 55683,
+          "equivRank": 55683
+        },
+        {
+          "majorName": "生物工程",
+          "majorKey": "14eeb10f",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 56652,
+          "equivRank": 56652
+        }
+      ]
+    }
+  ]
+}

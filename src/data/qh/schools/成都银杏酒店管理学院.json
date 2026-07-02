@@ -1,0 +1,90 @@
+{
+  "key": "成都银杏酒店管理学院",
+  "code": "5130",
+  "name": "成都银杏酒店管理学院",
+  "leaves": [
+    {
+      "schoolKey": "成都银杏酒店管理学院",
+      "schoolCode": "5130",
+      "majorKey": "8742ced2",
+      "majorName": "烹饪与营养教育",
+      "selKe": "首选物理，再选生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 314,
+          "minRank": 25083,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "成都银杏酒店管理学院",
+      "schoolCode": "5130",
+      "majorKey": "ec686c36",
+      "majorName": "酒店管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 425,
+          "minRank": 4764,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 349,
+          "minRank": 20290,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "酒店管理",
+      "majorKey": "ec686c36",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 3,
+      "tuition": "15900",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 4764,
+      "equivRank": 4764,
+      "prevScore": 425
+    },
+    {
+      "majorName": "酒店管理",
+      "majorKey": "ec686c36",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 2,
+      "tuition": "15900",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 20290,
+      "equivRank": 20290,
+      "prevScore": 349
+    },
+    {
+      "majorName": "烹饪与营养教育",
+      "majorKey": "8742ced2",
+      "track": "物理",
+      "selKe": "首选物理，再选生物",
+      "plan": 5,
+      "tuition": "15900",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 25083,
+      "equivRank": 25083,
+      "prevScore": 314
+    }
+  ]
+}

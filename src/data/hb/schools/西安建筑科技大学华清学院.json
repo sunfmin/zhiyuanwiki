@@ -1,0 +1,52 @@
+{
+  "key": "西安建筑科技大学华清学院",
+  "code": "K530",
+  "name": "西安建筑科技大学华清学院",
+  "leaves": [
+    {
+      "schoolKey": "西安建筑科技大学华清学院",
+      "schoolCode": "K530",
+      "majorKey": "ca37000f",
+      "majorName": "数字经济",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 432,
+          "minRank": 144110,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "数字经济",
+          "majorKey": "ca37000f",
+          "selKe": "物理",
+          "plan": 3,
+          "tuition": "22000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 144110,
+          "equivRank": 144110
+        },
+        {
+          "majorName": "工程管理",
+          "majorKey": "4166f1ff",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "22000",
+          "menlei": "管"
+        }
+      ]
+    }
+  ]
+}

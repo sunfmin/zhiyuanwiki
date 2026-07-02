@@ -1,0 +1,168 @@
+{
+  "key": "海南医科大学",
+  "code": "0415",
+  "name": "海南医科大学",
+  "leaves": [
+    {
+      "schoolKey": "海南医科大学",
+      "schoolCode": "0415",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 593,
+          "minRank": 14616,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "海南医科大学",
+      "schoolCode": "0415",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 591,
+          "minRank": 15122,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "海南医科大学",
+      "schoolCode": "0415",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "化学必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 547,
+          "minRank": 26718,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "海南医科大学",
+      "schoolCode": "0415",
+      "majorKey": "1ca19af0",
+      "majorName": "海洋药学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 514,
+          "minRank": 36107,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "海南医科大学",
+      "schoolCode": "0415",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 519,
+          "minRank": 34670,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理加化学",
+          "plan": 5,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 14616,
+          "equivRank": 14616
+        },
+        {
+          "majorName": "医学影像学",
+          "majorKey": "5780af73",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 15122,
+          "equivRank": 15122
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "物理加化学",
+          "plan": 3,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 34670,
+          "equivRank": 34670
+        },
+        {
+          "majorName": "海洋药学",
+          "majorKey": "1ca19af0",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 36107,
+          "equivRank": 36107
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 26718,
+          "equivRank": 26718
+        }
+      ]
+    }
+  ]
+}

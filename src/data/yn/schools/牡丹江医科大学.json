@@ -1,0 +1,284 @@
+{
+  "key": "牡丹江医科大学",
+  "code": "2312",
+  "name": "牡丹江医科大学",
+  "leaves": [
+    {
+      "schoolKey": "牡丹江医科大学",
+      "schoolCode": "2312",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 538,
+          "minRank": 38037,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "牡丹江医科大学",
+      "schoolCode": "2312",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 535,
+          "minRank": 39840,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "牡丹江医科大学",
+      "schoolCode": "2312",
+      "majorKey": "11fef64a",
+      "majorName": "医学影像技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 524,
+          "minRank": 46781,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "牡丹江医科大学",
+      "schoolCode": "2312",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 494,
+          "minRank": 67462,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "牡丹江医科大学",
+      "schoolCode": "2312",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 539,
+          "minRank": 37443,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "牡丹江医科大学",
+      "schoolCode": "2312",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 493,
+          "minRank": 68200,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "牡丹江医科大学",
+      "schoolCode": "2312",
+      "majorKey": "0ac1da59",
+      "majorName": "生物技术",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 499,
+          "minRank": 63813,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "牡丹江医科大学",
+      "schoolCode": "2312",
+      "majorKey": "dc8e7679",
+      "majorName": "药物制剂",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 507,
+          "minRank": 58183,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "牡丹江医科大学",
+      "schoolCode": "2312",
+      "majorKey": "83eea431",
+      "majorName": "麻醉学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 538,
+          "minRank": 38037,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "医学影像学",
+          "majorKey": "5780af73",
+          "selKe": "物理,化学",
+          "plan": 8,
+          "tuition": "5500元",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 39840,
+          "equivRank": 39840
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4800元",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 37443,
+          "equivRank": 37443
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "医学影像技术",
+          "majorKey": "11fef64a",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5500元",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 46781,
+          "equivRank": 46781
+        },
+        {
+          "majorName": "药物制剂",
+          "majorKey": "dc8e7679",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4600元",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 58183,
+          "equivRank": 58183
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理,化学,生物",
+      "majors": [
+        {
+          "majorName": "麻醉学",
+          "majorKey": "83eea431",
+          "selKe": "物理,化学,生物",
+          "plan": 5,
+          "tuition": "4400元",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 38037,
+          "equivRank": 38037
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学,生物",
+          "plan": 14,
+          "tuition": "4400元",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 38037,
+          "equivRank": 38037
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "物理",
+      "selKe": "物理,化学,生物",
+      "majors": [
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "物理,化学,生物",
+          "plan": 5,
+          "tuition": "4400元",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 67462,
+          "equivRank": 67462
+        },
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "物理,化学,生物",
+          "plan": 4,
+          "tuition": "4000元",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 68200,
+          "equivRank": 68200
+        },
+        {
+          "majorName": "生物技术",
+          "majorKey": "0ac1da59",
+          "selKe": "物理,化学,生物",
+          "plan": 2,
+          "tuition": "4500元",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 63813,
+          "equivRank": 63813
+        }
+      ]
+    }
+  ]
+}

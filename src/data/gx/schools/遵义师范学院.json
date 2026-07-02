@@ -1,0 +1,80 @@
+{
+  "key": "遵义师范学院",
+  "code": "10664",
+  "name": "遵义师范学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "专业组:101(首选科目:物理。再选科目:不限)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4100元/年",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "专业组:102(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4200元/年",
+          "menlei": "理"
+        },
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4200元/年",
+          "menlei": "理"
+        }
+      ]
+    },
+    {
+      "groupCode": "103",
+      "groupName": "专业组:103(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4200元/年",
+          "menlei": "工"
+        },
+        {
+          "majorName": "电子信息科学与技术",
+          "majorKey": "14856541",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4200元/年",
+          "menlei": "工"
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4200元/年",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

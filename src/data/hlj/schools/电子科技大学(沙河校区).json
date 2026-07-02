@@ -1,0 +1,96 @@
+{
+  "key": "电子科技大学(沙河校区)",
+  "code": "2213",
+  "name": "电子科技大学(沙河校区)",
+  "leaves": [
+    {
+      "schoolKey": "电子科技大学(沙河校区)",
+      "schoolCode": "2213",
+      "majorKey": "0c33cbdd",
+      "majorName": "软件工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 620,
+          "minRank": 1478,
+          "maxScore": 628
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 661,
+          "minRank": 1368,
+          "maxScore": 662
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 641,
+          "minRank": 1417,
+          "maxScore": 642
+        }
+      ]
+    },
+    {
+      "schoolKey": "电子科技大学(沙河校区)",
+      "schoolCode": "2213",
+      "majorKey": "13d3a878",
+      "majorName": "集成电路设计与集成系统",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 622,
+          "minRank": 1381,
+          "maxScore": 636
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "9800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 1417,
+          "equivRank": 1325
+        },
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "9800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 1417,
+          "equivRank": 1325
+        },
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "9800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 1417,
+          "equivRank": 1325
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "key": "山西工程科技职业大学",
+  "code": "3429",
+  "name": "山西工程科技职业大学",
+  "leaves": [
+    {
+      "schoolKey": "山西工程科技职业大学",
+      "schoolCode": "3429",
+      "majorKey": "49f153aa",
+      "majorName": "大数据与会计",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 506,
+          "minRank": 37763,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 511,
+          "minRank": 35617,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山西工程科技职业大学",
+      "schoolCode": "3429",
+      "majorKey": "b8be11ab",
+      "majorName": "工程造价",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 475,
+          "minRank": 130970,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 486,
+          "minRank": 141124,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 508,
+          "minRank": 134800,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 508,
+          "minRank": 151737,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山西工程科技职业大学",
+      "schoolCode": "3429",
+      "majorKey": "e3b353e3",
+      "majorName": "应用英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 527,
+          "minRank": 34549,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山西工程科技职业大学",
+      "schoolCode": "3429",
+      "majorKey": "0c7e03a9",
+      "majorName": "汽车服务工程技术",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 484,
+          "minRank": 142974,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 510,
+          "minRank": 132149,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 509,
+          "minRank": 150364,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山西工程科技职业大学",
+      "schoolCode": "3429",
+      "majorKey": "42360310",
+      "majorName": "电梯工程技术",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 475,
+          "minRank": 130970,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "应用英语",
+          "majorKey": "e3b353e3",
+          "selKe": "首选历史，再选不限",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 34549,
+          "equivRank": 34549
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "工程造价",
+          "majorKey": "b8be11ab",
+          "selKe": "首选物理，再选不限",
+          "plan": 5,
+          "tuition": "4800",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 151737,
+          "equivRank": 151737
+        },
+        {
+          "majorName": "汽车服务工程技术",
+          "majorKey": "0c7e03a9",
+          "selKe": "首选物理，再选不限",
+          "plan": 2,
+          "tuition": "4800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 150364,
+          "equivRank": 150364
+        }
+      ]
+    }
+  ]
+}

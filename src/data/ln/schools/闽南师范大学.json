@@ -1,0 +1,99 @@
+{
+  "key": "闽南师范大学",
+  "code": "0402",
+  "name": "闽南师范大学",
+  "leaves": [
+    {
+      "schoolKey": "闽南师范大学",
+      "schoolCode": "0402",
+      "majorKey": "25624660",
+      "majorName": "应用化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 470,
+          "minRank": 71586,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "闽南师范大学",
+      "schoolCode": "0402",
+      "majorKey": "8f1def37",
+      "majorName": "日语",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 463,
+          "minRank": 75207,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "闽南师范大学",
+      "schoolCode": "0402",
+      "majorKey": "7ab09507",
+      "majorName": "环境科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 468,
+          "minRank": 72639,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "应用化学",
+      "majorKey": "25624660",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 3,
+      "tuition": "5460",
+      "schooling": "4",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 71586,
+      "equivRank": 71586,
+      "prevScore": 470
+    },
+    {
+      "majorName": "环境科学与工程",
+      "majorKey": "7ab09507",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 3,
+      "tuition": "5040",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 72639,
+      "equivRank": 72639,
+      "prevScore": 468
+    },
+    {
+      "majorName": "日语",
+      "majorKey": "8f1def37",
+      "track": "物理",
+      "selKe": "物理",
+      "plan": 2,
+      "tuition": "5040",
+      "schooling": "4",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 75207,
+      "equivRank": 75207,
+      "prevScore": 463
+    }
+  ]
+}

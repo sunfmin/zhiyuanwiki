@@ -1,0 +1,188 @@
+{
+  "key": "沈阳农业大学",
+  "code": "10157",
+  "name": "沈阳农业大学",
+  "leaves": [
+    {
+      "schoolKey": "沈阳农业大学",
+      "schoolCode": "10157",
+      "majorKey": "b3e5d67f",
+      "majorName": "动物医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 527,
+          "minRank": 117960,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "沈阳农业大学",
+      "schoolCode": "10157",
+      "majorKey": "e735f557",
+      "majorName": "园艺",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 523,
+          "minRank": 124908,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "沈阳农业大学",
+      "schoolCode": "10157",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 539,
+          "minRank": 98390,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "沈阳农业大学",
+      "schoolCode": "10157",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 546,
+          "minRank": 87666,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "沈阳农业大学",
+      "schoolCode": "10157",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 540,
+          "minRank": 96825,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "205",
+      "groupName": "205",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 98390,
+          "equivRank": 98390
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5700",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 87666,
+          "equivRank": 87666
+        }
+      ]
+    },
+    {
+      "groupCode": "206",
+      "groupName": "206",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 96825,
+          "equivRank": 96825
+        }
+      ]
+    },
+    {
+      "groupCode": "207",
+      "groupName": "207",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "园艺",
+          "majorKey": "e735f557",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 124908,
+          "equivRank": 124908
+        },
+        {
+          "majorName": "动物医学",
+          "majorKey": "b3e5d67f",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 117960,
+          "equivRank": 117960
+        }
+      ]
+    },
+    {
+      "groupCode": "208",
+      "groupName": "208",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "39000",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 87666,
+          "equivRank": 87666
+        }
+      ]
+    }
+  ]
+}

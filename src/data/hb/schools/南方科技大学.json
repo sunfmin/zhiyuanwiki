@@ -1,0 +1,43 @@
+{
+  "key": "南方科技大学",
+  "code": "H801",
+  "name": "南方科技大学",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "物理,化学",
+          "plan": 62,
+          "tuition": "6000",
+          "menlei": "理",
+          "coop": true
+        },
+        {
+          "majorName": "生物医学工程",
+          "majorKey": "27c81131",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "135000",
+          "menlei": "工",
+          "coop": true
+        },
+        {
+          "majorName": "生物医学科学",
+          "majorKey": "aa6c230b",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "135000",
+          "menlei": "医",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

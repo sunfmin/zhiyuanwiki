@@ -1,0 +1,95 @@
+{
+  "key": "大连医科大学",
+  "code": "1365",
+  "name": "大连医科大学",
+  "leaves": [
+    {
+      "schoolKey": "大连医科大学",
+      "schoolCode": "1365",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 614,
+          "minRank": 5116,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "大连医科大学",
+      "schoolCode": "1365",
+      "majorKey": "c69b91ea",
+      "majorName": "临床药学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 561,
+          "minRank": 19096,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "大连医科大学",
+      "schoolCode": "1365",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 564,
+          "minRank": 18068,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 5116,
+          "equivRank": 5116
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化",
+          "plan": 4,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 5116,
+          "equivRank": 5116
+        }
+      ]
+    }
+  ]
+}

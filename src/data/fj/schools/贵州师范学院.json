@@ -1,0 +1,64 @@
+{
+  "key": "贵州师范学院",
+  "code": "2575",
+  "name": "贵州师范学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "700",
+      "groupName": "专业组：700 (选考思想政治)",
+      "track": "历史",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "政治",
+          "plan": 4,
+          "tuition": "4100",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "719",
+      "groupName": "专业组：719 (选考思想政治且地理)",
+      "track": "历史",
+      "selKe": "政治和地理",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "政治和地理",
+          "plan": 4,
+          "tuition": "4100",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4100",
+          "menlei": "教"
+        },
+        {
+          "majorName": "应用心理学",
+          "majorKey": "59687759",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4200",
+          "menlei": "理"
+        }
+      ]
+    }
+  ]
+}

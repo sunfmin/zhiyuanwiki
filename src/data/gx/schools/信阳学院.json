@@ -1,0 +1,40 @@
+{
+  "key": "信阳学院",
+  "code": "13503",
+  "name": "信阳学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "100",
+      "groupName": "专业组:100(首选科目:历史。再选科目:不限)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "15000元/年",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "101",
+      "groupName": "专业组:101(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "16000元/年",
+          "menlei": "理"
+        }
+      ]
+    }
+  ]
+}

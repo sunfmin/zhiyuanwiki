@@ -1,0 +1,71 @@
+{
+  "key": "荆楚理工学院",
+  "code": "0679",
+  "name": "荆楚理工学院",
+  "leaves": [
+    {
+      "schoolKey": "荆楚理工学院",
+      "schoolCode": "0679",
+      "majorKey": "28bd788f",
+      "majorName": "制药工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 479,
+          "minRank": 36015,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "荆楚理工学院",
+      "schoolCode": "0679",
+      "majorKey": "8006af93",
+      "majorName": "植物科学与技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 464,
+          "minRank": 40648,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "制药工程",
+          "majorKey": "28bd788f",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 36015,
+          "equivRank": 36015
+        },
+        {
+          "majorName": "植物科学与技术",
+          "majorKey": "8006af93",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "3000",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 40648,
+          "equivRank": 40648
+        }
+      ]
+    }
+  ]
+}

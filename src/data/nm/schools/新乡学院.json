@@ -1,0 +1,160 @@
+{
+  "key": "新乡学院",
+  "code": "0091",
+  "name": "新乡学院",
+  "leaves": [
+    {
+      "schoolKey": "新乡学院",
+      "schoolCode": "0091",
+      "majorKey": "17c0dc67",
+      "majorName": "心理学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 486,
+          "minRank": 11557,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "新乡学院",
+      "schoolCode": "0091",
+      "majorKey": "33b3d741",
+      "majorName": "数学类",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 462,
+          "minRank": 41288,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "新乡学院",
+      "schoolCode": "0091",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 455,
+          "minRank": 43491,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "新乡学院",
+      "schoolCode": "0091",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 467,
+          "minRank": 39710,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "新乡学院",
+      "schoolCode": "0091",
+      "majorKey": "8b6a817b",
+      "majorName": "物流管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 480,
+          "minRank": 12337,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "心理学",
+          "majorKey": "17c0dc67",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 11557,
+          "equivRank": 11557
+        },
+        {
+          "majorName": "物流管理",
+          "majorKey": "8b6a817b",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4400",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 12337,
+          "equivRank": 12337
+        }
+      ]
+    },
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学类",
+          "majorKey": "33b3d741",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 41288,
+          "equivRank": 41288
+        },
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 39710,
+          "equivRank": 39710
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 43491,
+          "equivRank": 43491
+        }
+      ]
+    }
+  ]
+}

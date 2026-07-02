@@ -1,0 +1,106 @@
+{
+  "key": "攀枝花学院",
+  "code": "11360",
+  "name": "攀枝花学院",
+  "leaves": [
+    {
+      "schoolKey": "攀枝花学院",
+      "schoolCode": "11360",
+      "majorKey": "4428fd77",
+      "majorName": "商务英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 521,
+          "minRank": 42415,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "攀枝花学院",
+      "schoolCode": "11360",
+      "majorKey": "42b22d93",
+      "majorName": "新能源科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 503,
+          "minRank": 160243,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "攀枝花学院",
+      "schoolCode": "11360",
+      "majorKey": "92b6110d",
+      "majorName": "车辆工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 503,
+          "minRank": 160243,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "203",
+      "groupName": "203",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "商务英语",
+          "majorKey": "4428fd77",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "5520",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 42415,
+          "equivRank": 42415
+        }
+      ]
+    },
+    {
+      "groupCode": "204",
+      "groupName": "204",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "车辆工程",
+          "majorKey": "92b6110d",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5980",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 160243,
+          "equivRank": 160243
+        },
+        {
+          "majorName": "新能源科学与工程",
+          "majorKey": "42b22d93",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5980",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 160243,
+          "equivRank": 160243
+        }
+      ]
+    }
+  ]
+}

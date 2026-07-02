@@ -1,0 +1,114 @@
+{
+  "key": "哈尔滨远东理工学院",
+  "code": "1583",
+  "name": "哈尔滨远东理工学院",
+  "leaves": [
+    {
+      "schoolKey": "哈尔滨远东理工学院",
+      "schoolCode": "1583",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 414,
+          "minRank": 33915,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "哈尔滨远东理工学院",
+      "schoolCode": "1583",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 387,
+          "minRank": 120057,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "哈尔滨远东理工学院",
+      "schoolCode": "1583",
+      "majorKey": "8230723d",
+      "majorName": "计算机类",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 389,
+          "minRank": 118957,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "25800",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 33915,
+          "equivRank": 33915
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "25800",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "计算机类",
+          "majorKey": "8230723d",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "25800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 118957,
+          "equivRank": 118957
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "25800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 120057,
+          "equivRank": 120057
+        }
+      ]
+    }
+  ]
+}

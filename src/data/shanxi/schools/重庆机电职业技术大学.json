@@ -1,0 +1,97 @@
+{
+  "key": "重庆机电职业技术大学",
+  "code": "3271",
+  "name": "重庆机电职业技术大学",
+  "leaves": [
+    {
+      "schoolKey": "重庆机电职业技术大学",
+      "schoolCode": "3271",
+      "majorKey": "6daff4b6",
+      "majorName": "大数据与财务管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 437,
+          "minRank": 27305,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 404,
+          "minRank": 109889,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "重庆机电职业技术大学",
+      "schoolCode": "3271",
+      "majorKey": "d0b34f4f",
+      "majorName": "大数据工程技术",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 404,
+          "minRank": 109889,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "大数据与财务管理",
+          "majorKey": "6daff4b6",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "15000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 27305,
+          "equivRank": 27305
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "大数据工程技术",
+          "majorKey": "d0b34f4f",
+          "selKe": "不限",
+          "plan": 15,
+          "tuition": "16000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 109889,
+          "equivRank": 109889
+        },
+        {
+          "majorName": "大数据与财务管理",
+          "majorKey": "6daff4b6",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "15000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 109889,
+          "equivRank": 109889
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "key": "西藏农牧学院",
+  "code": "10693",
+  "name": "西藏农牧学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "100",
+      "groupName": "专业组:100(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "草业科学",
+          "majorKey": "dc3f68a2",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "免费",
+          "menlei": "农"
+        }
+      ]
+    },
+    {
+      "groupCode": "101",
+      "groupName": "专业组:101(首选科目:物理。再选科目:生物)",
+      "track": "物理",
+      "selKe": "生物",
+      "majors": [
+        {
+          "majorName": "园林",
+          "majorKey": "c6cedaad",
+          "selKe": "生物",
+          "plan": 2,
+          "tuition": "免费",
+          "menlei": "农"
+        }
+      ]
+    }
+  ]
+}

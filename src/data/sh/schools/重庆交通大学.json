@@ -1,0 +1,79 @@
+{
+  "key": "重庆交通大学",
+  "code": "0843",
+  "name": "重庆交通大学",
+  "leaves": [
+    {
+      "schoolKey": "重庆交通大学",
+      "schoolCode": "0843",
+      "majorKey": "b74128f4",
+      "majorName": "工商管理类",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 471,
+          "minRank": 32490,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "重庆交通大学",
+      "schoolCode": "0843",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 501,
+          "minRank": 23963,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "工商管理类",
+          "majorKey": "b74128f4",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "5580",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 32490,
+          "equivRank": 32490
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "5560",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 23963,
+          "equivRank": 23963
+        }
+      ]
+    }
+  ]
+}

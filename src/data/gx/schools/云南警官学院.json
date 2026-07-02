@@ -1,0 +1,40 @@
+{
+  "key": "云南警官学院",
+  "code": "11392",
+  "name": "云南警官学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "专业组:101(首选科目:历史。再选科目:思想政治)",
+      "track": "历史",
+      "selKe": "思想政治",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "思想政治",
+          "plan": 4,
+          "tuition": "4500元/年",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "专业组:102(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "网络空间安全",
+          "majorKey": "3093c484",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5000元/年",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

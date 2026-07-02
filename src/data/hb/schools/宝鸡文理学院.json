@@ -1,0 +1,160 @@
+{
+  "key": "宝鸡文理学院",
+  "code": "K473",
+  "name": "宝鸡文理学院",
+  "leaves": [
+    {
+      "schoolKey": "宝鸡文理学院",
+      "schoolCode": "K473",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 516,
+          "minRank": 23607,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "宝鸡文理学院",
+      "schoolCode": "K473",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 488,
+          "minRank": 97095,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "宝鸡文理学院",
+      "schoolCode": "K473",
+      "majorKey": "3c2f7b8b",
+      "majorName": "外国语言文学类",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 514,
+          "minRank": 24253,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "宝鸡文理学院",
+      "schoolCode": "K473",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 489,
+          "minRank": 96218,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "宝鸡文理学院",
+      "schoolCode": "K473",
+      "majorKey": "0c33cbdd",
+      "majorName": "软件工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 491,
+          "minRank": 94466,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 23607,
+          "equivRank": 23607
+        },
+        {
+          "majorName": "外国语言文学类",
+          "majorKey": "3c2f7b8b",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 24253,
+          "equivRank": 24253
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5250",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 97095,
+          "equivRank": 97095
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 96218,
+          "equivRank": 96218
+        },
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 94466,
+          "equivRank": 94466
+        }
+      ]
+    }
+  ]
+}

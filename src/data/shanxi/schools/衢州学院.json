@@ -1,0 +1,95 @@
+{
+  "key": "衢州学院",
+  "code": "1896",
+  "name": "衢州学院",
+  "leaves": [
+    {
+      "schoolKey": "衢州学院",
+      "schoolCode": "1896",
+      "majorKey": "301e14e8",
+      "majorName": "机器人工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 452,
+          "minRank": 77609,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "衢州学院",
+      "schoolCode": "1896",
+      "majorKey": "4ef2a1b4",
+      "majorName": "机械电子工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 464,
+          "minRank": 69377,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "衢州学院",
+      "schoolCode": "1896",
+      "majorKey": "7faf2092",
+      "majorName": "环境工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 444,
+          "minRank": 83134,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "机械电子工程",
+          "majorKey": "4ef2a1b4",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 69377,
+          "equivRank": 69377
+        },
+        {
+          "majorName": "新能源材料与器件",
+          "majorKey": "35ec1f36",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "工"
+        },
+        {
+          "majorName": "机器人工程",
+          "majorKey": "301e14e8",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 77609,
+          "equivRank": 77609
+        }
+      ]
+    }
+  ]
+}

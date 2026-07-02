@@ -1,0 +1,79 @@
+{
+  "key": "山东航空学院",
+  "code": "3733",
+  "name": "山东航空学院",
+  "leaves": [
+    {
+      "schoolKey": "山东航空学院",
+      "schoolCode": "3733",
+      "majorKey": "904549c4",
+      "majorName": "交通运输",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 503,
+          "minRank": 36716,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山东航空学院",
+      "schoolCode": "3733",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 481,
+          "minRank": 42535,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 42535,
+          "equivRank": 42535
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "交通运输",
+          "majorKey": "904549c4",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 36716,
+          "equivRank": 36716
+        }
+      ]
+    }
+  ]
+}

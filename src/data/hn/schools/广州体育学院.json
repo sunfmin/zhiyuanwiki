@@ -1,0 +1,60 @@
+{
+  "key": "广州体育学院",
+  "code": "4416",
+  "name": "广州体育学院",
+  "leaves": [
+    {
+      "schoolKey": "广州体育学院",
+      "schoolCode": "4416",
+      "majorKey": "b86f75b5",
+      "majorName": "广播电视编导",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 493,
+          "minRank": 27664,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（105）",
+      "groupName": "（105）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "新闻学",
+          "majorKey": "9c5f4a34",
+          "selKe": "首选历史，再选不限",
+          "plan": 1,
+          "tuition": "5200",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "（Y06）",
+      "groupName": "（Y06）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "广播电视编导",
+          "majorKey": "b86f75b5",
+          "selKe": "首选历史，再选不限",
+          "plan": 2,
+          "tuition": "10000",
+          "menlei": "艺",
+          "prevYear": 2024,
+          "prevRank": 27664,
+          "equivRank": 26383
+        }
+      ]
+    }
+  ]
+}

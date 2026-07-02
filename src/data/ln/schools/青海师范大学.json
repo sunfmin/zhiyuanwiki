@@ -1,0 +1,129 @@
+{
+  "key": "青海师范大学",
+  "code": "0746",
+  "name": "青海师范大学",
+  "leaves": [
+    {
+      "schoolKey": "青海师范大学",
+      "schoolCode": "0746",
+      "majorKey": "d061ae24",
+      "majorName": "地理科学",
+      "selKe": "首选物理，再选地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 529,
+          "minRank": 42471,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "青海师范大学",
+      "schoolCode": "0746",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 540,
+          "minRank": 8364,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "青海师范大学",
+      "schoolCode": "0746",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 532,
+          "minRank": 41074,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "青海师范大学",
+      "schoolCode": "0746",
+      "majorKey": "0ac1da59",
+      "majorName": "生物技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 476,
+          "minRank": 68589,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "思想政治教育",
+      "majorKey": "6a15bc12",
+      "track": "历史",
+      "selKe": "历史,政治",
+      "plan": 3,
+      "tuition": "4500",
+      "schooling": "4",
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevRank": 8364,
+      "equivRank": 8364,
+      "prevScore": 540
+    },
+    {
+      "majorName": "数学与应用数学",
+      "majorKey": "618fdffd",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 2,
+      "tuition": "5000",
+      "schooling": "4",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 41074,
+      "equivRank": 41074,
+      "prevScore": 532
+    },
+    {
+      "majorName": "地理科学",
+      "majorKey": "d061ae24",
+      "track": "物理",
+      "selKe": "物理,地理",
+      "plan": 2,
+      "tuition": "5000",
+      "schooling": "4",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 42471,
+      "equivRank": 42471,
+      "prevScore": 529
+    },
+    {
+      "majorName": "生物技术",
+      "majorKey": "0ac1da59",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 2,
+      "tuition": "5000",
+      "schooling": "4",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 68589,
+      "equivRank": 68589,
+      "prevScore": 476
+    }
+  ]
+}

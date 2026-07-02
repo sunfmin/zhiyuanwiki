@@ -1,0 +1,176 @@
+{
+  "key": "渭南师范学院",
+  "code": "3365",
+  "name": "渭南师范学院",
+  "leaves": [
+    {
+      "schoolKey": "渭南师范学院",
+      "schoolCode": "3365",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 494,
+          "minRank": 74485,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "渭南师范学院",
+      "schoolCode": "3365",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 451,
+          "minRank": 25344,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "渭南师范学院",
+      "schoolCode": "3365",
+      "majorKey": "b86f75b5",
+      "majorName": "广播电视编导",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 481,
+          "minRank": 18606,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "渭南师范学院",
+      "schoolCode": "3365",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 495,
+          "minRank": 73670,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "渭南师范学院",
+      "schoolCode": "3365",
+      "majorKey": "bda0ff17",
+      "majorName": "经济学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 486,
+          "minRank": 17496,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "渭南师范学院",
+      "schoolCode": "3365",
+      "majorKey": "95a6509b",
+      "majorName": "能源化学工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 493,
+          "minRank": 75303,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 17496,
+          "equivRank": 17496
+        },
+        {
+          "majorName": "广播电视编导",
+          "majorKey": "b86f75b5",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "14000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 18606,
+          "equivRank": 18606
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5250",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 73670,
+          "equivRank": 73670
+        },
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5250",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 74485,
+          "equivRank": 74485
+        },
+        {
+          "majorName": "能源化学工程",
+          "majorKey": "95a6509b",
+          "selKe": "化学",
+          "plan": 6,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 75303,
+          "equivRank": 75303
+        }
+      ]
+    }
+  ]
+}

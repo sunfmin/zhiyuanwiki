@@ -1,0 +1,177 @@
+{
+  "key": "首都体育学院",
+  "code": "0005",
+  "name": "首都体育学院",
+  "leaves": [
+    {
+      "schoolKey": "首都体育学院",
+      "schoolCode": "0005",
+      "majorKey": "30e8a552",
+      "majorName": "公共事业管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 557,
+          "minRank": 22635,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 547,
+          "minRank": 122973,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都体育学院",
+      "schoolCode": "0005",
+      "majorKey": "9c5f4a34",
+      "majorName": "新闻学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 570,
+          "minRank": 16333,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 535,
+          "minRank": 143976,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都体育学院",
+      "schoolCode": "0005",
+      "majorKey": "676f341a",
+      "majorName": "运动人体科学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 548,
+          "minRank": 121209,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都体育学院",
+      "schoolCode": "0005",
+      "majorKey": "047778fd",
+      "majorName": "运动康复",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 550,
+          "minRank": 117829,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "公共事业管理",
+          "majorKey": "30e8a552",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 22635,
+          "equivRank": 22635
+        },
+        {
+          "majorName": "新闻学",
+          "majorKey": "9c5f4a34",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 16333,
+          "equivRank": 16333
+        }
+      ]
+    },
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "新闻学",
+          "majorKey": "9c5f4a34",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 143976,
+          "equivRank": 143976
+        },
+        {
+          "majorName": "公共事业管理",
+          "majorKey": "30e8a552",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 122973,
+          "equivRank": 122973
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "运动人体科学",
+          "majorKey": "676f341a",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 121209,
+          "equivRank": 121209
+        },
+        {
+          "majorName": "运动康复",
+          "majorKey": "047778fd",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4200",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 117829,
+          "equivRank": 117829
+        }
+      ]
+    }
+  ]
+}

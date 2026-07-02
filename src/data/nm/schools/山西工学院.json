@@ -1,0 +1,71 @@
+{
+  "key": "山西工学院",
+  "code": "B99",
+  "name": "山西工学院",
+  "leaves": [
+    {
+      "schoolKey": "山西工学院",
+      "schoolCode": "B99",
+      "majorKey": "cc1bfa45",
+      "majorName": "应急技术与管理",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 467,
+          "minRank": 39710,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山西工学院",
+      "schoolCode": "B99",
+      "majorKey": "3f9a4574",
+      "majorName": "采矿工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 464,
+          "minRank": 40648,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "采矿工程",
+          "majorKey": "3f9a4574",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 40648,
+          "equivRank": 40648
+        },
+        {
+          "majorName": "应急技术与管理",
+          "majorKey": "cc1bfa45",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 39710,
+          "equivRank": 39710
+        }
+      ]
+    }
+  ]
+}

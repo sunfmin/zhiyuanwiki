@@ -12,8 +12,9 @@ export function getStaticPaths() {
     eager: true,
   });
   return Object.entries(files).map(([path, m]) => {
-    const prov = path.split("/")[3]; // /src/data/<prov>/schools/<code>.json
-    return { params: { prov, code: m.default.code }, props: { prov, school: m.default } };
+    const prov = path.split("/")[3]; // /src/data/<prov>/schools/<key>.json
+    // URL slug = 归一化校名（ADR-0021）。路由参数名仍叫 code，但承载的是 school.key。
+    return { params: { prov, code: m.default.key }, props: { prov, school: m.default } };
   });
 }
 
@@ -36,7 +37,7 @@ const tracksLabel = cfg.tracks.map((t) => t.name).join(" / ");
 
 // 院校身份头：层次徽标 + 录取区间，取自构建期索引（schools.json，仅含有录取记录的院校）。
 // 位次是全站的决策数（站名即「位次」），故把位次区间做成首屏最醒目的读数。
-const idx = schoolsOf(prov).find((s) => s.code === school.code);
+const idx = schoolsOf(prov).find((s) => s.key === school.key);
 const multiTrack = cfg.tracks.length > 1;
 const trackName = cfg.tracks[0].name;
 
@@ -85,7 +86,7 @@ const tierSeals = [
 ].filter(Boolean) as { label: string; kind: string }[];
 
 // 页面主实体是该院校 → CollegeOrUniversity。工程标签（985/211/双一流）作 award。
-const pageUrl = new URL(`/${prov}/yuanxiao/${school.code}/`, Astro.site).href;
+const pageUrl = new URL(`/${prov}/yuanxiao/${school.key}/`, Astro.site).href;
 // 标题/描述按当页数据填充：原「校名 · 院校 · 站名」太短（SEO 检测判 title 过短）、描述太空。
 // 标题补省份 + 关键词 + 年份区间（典型落在 40–60 字符）；描述带层次徽标、顶点专业读数与收录规模，都源当页。
 const tiers = tierSeals.map((t) => t.label).join("/");

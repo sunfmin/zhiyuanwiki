@@ -1,0 +1,120 @@
+{
+  "key": "国际关系学院(男)",
+  "code": "2589",
+  "name": "国际关系学院(男)",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "700",
+      "groupName": "专业组：700 (选考思想政治)",
+      "track": "历史",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "政治学、经济学与哲学",
+          "majorKey": "7a40accf",
+          "selKe": "政治",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "法"
+        },
+        {
+          "majorName": "国家安全学",
+          "majorKey": "ac25ad81",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "法"
+        },
+        {
+          "majorName": "海外利益安全",
+          "majorKey": "e9411422",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "法"
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "工"
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "经"
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "法"
+        },
+        {
+          "majorName": "法语",
+          "majorKey": "e5fc6283",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "6000",
+          "menlei": "文"
+        },
+        {
+          "majorName": "日语",
+          "majorKey": "8f1def37",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "6000",
+          "menlei": "文"
+        }
+      ]
+    }
+  ]
+}

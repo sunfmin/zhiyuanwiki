@@ -1,0 +1,124 @@
+{
+  "key": "长沙师范学院",
+  "code": "4366",
+  "name": "长沙师范学院",
+  "leaves": [
+    {
+      "schoolKey": "长沙师范学院",
+      "schoolCode": "4366",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 530,
+          "minRank": 16449,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "4000元",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 16449,
+          "equivRank": 16449
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "科学教育",
+          "majorKey": "b534555a",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "4000元",
+          "menlei": "教"
+        },
+        {
+          "majorName": "酒店管理",
+          "majorKey": "ec686c36",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "4000元",
+          "menlei": "管"
+        },
+        {
+          "majorName": "电子商务",
+          "majorKey": "0b52f20f",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "4000元",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "包装工程",
+          "majorKey": "0722cb68",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5900元",
+          "menlei": "工"
+        },
+        {
+          "majorName": "工业设计",
+          "majorKey": "fee47c1b",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5900元",
+          "menlei": "工"
+        },
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4000元",
+          "menlei": "理"
+        },
+        {
+          "majorName": "物联网工程",
+          "majorKey": "1da18825",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5900元",
+          "menlei": "工"
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5900元",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

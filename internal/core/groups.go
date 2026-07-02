@@ -79,49 +79,58 @@ func LeafLatestForTrack(l *MajorLeaf, track string) *YearScore {
 	return best
 }
 
-// BuildGroups2026 把招生计划行按院校→组聚合成单年视图，并用 leaves（按院校代码+专业名）
-// 挂接每个组内专业的往年最低位次与等效位次。menlei（可为 nil）把专业名归到学科门类码。
-// 返回 院校代码 → 组列表。
+// BuildGroups2026 用计划行自建身份归并器聚合组视图。详见 BuildGroups2026R。
 func BuildGroups2026(plan []PlanRow, leaves []MajorLeaf, totals map[YearTrack]int, menlei func(string) string) map[string][]Group2026 {
+	return BuildGroups2026R(plan, leaves, BuildSchoolResolver(IdentRowsFromPlan(plan)), totals, menlei)
+}
+
+// BuildGroups2026R 把招生计划行按 院校实体→渠道→组 聚合成单年视图，并用 leaves（按
+// 院校实体键+渠道+专业名）挂接每个组内专业的往年最低位次与等效位次。menlei（可为 nil）把专业名
+// 归到学科门类码。返回 院校实体键 → 组列表（ADR-0021：主键是归一化校名，不是院校代号）。
+func BuildGroups2026R(plan []PlanRow, leaves []MajorLeaf, r *SchoolResolver, totals map[YearTrack]int, menlei func(string) string) map[string][]Group2026 {
 	leafIdx := map[string]*MajorLeaf{}
 	for i := range leaves {
-		leafIdx[leaves[i].SchoolCode+"/"+leaves[i].MajorKey] = &leaves[i]
+		leafIdx[leaves[i].SchoolKey+"/"+leaves[i].SchoolCode+"/"+leaves[i].MajorKey] = &leaves[i]
 	}
 
-	// 院校专业组在 3+1+2 下是按 (院校, 科类, 组代码) 一等的：同校同号的物理组与历史组是两个组。
-	// 故键必须含科类——个别省（四川/安徽等）的组代码在两科类间复用，缺科类会把历史专业并进物理组。
-	type gkey struct{ school, track, group string }
+	// 组在 3+1+2 下按 (渠道, 科类, 组代码) 一等：同校同号的物理组与历史组是两个组；普通/专项两渠道
+	// 的同号组也须分开（故键含渠道代表代号）。个别省组代码在两科类间复用，缺科类会把历史专业并进物理组。
+	type gkey struct{ channel, track, group string }
 	order := []gkey{}
 	groups := map[gkey]*Group2026{}
+	gkeyEnt := map[gkey]string{} // gkey -> 院校实体键（输出归拢用）
 
-	for _, r := range plan {
-		k := gkey{r.SchoolCode, r.Track, r.GroupCode}
+	for _, row := range plan {
+		ent := r.Entity(row.SchoolName)
+		ch := r.Channel(row.SchoolName, row.SchoolCode)
+		k := gkey{ch, row.Track, row.GroupCode}
 		g := groups[k]
 		if g == nil {
-			g = &Group2026{GroupCode: r.GroupCode, GroupName: r.GroupName, Track: r.Track, SelKe: r.SelKe}
+			g = &Group2026{GroupCode: row.GroupCode, GroupName: row.GroupName, Track: row.Track, SelKe: row.SelKe}
 			groups[k] = g
+			gkeyEnt[k] = ent
 			order = append(order, k)
 		}
-		if g.SelKe != r.SelKe {
+		if g.SelKe != row.SelKe {
 			g.SelKe = "" // 组内选科不统一
 		}
 		gm := GroupMajor{
-			MajorName: NormalizeMajorName(r.MajorName),
-			MajorKey:  MajorKey(r.MajorName),
-			SelKe:     r.SelKe,
-			Plan:      r.Plan,
-			Tuition:   r.Tuition,
-			Coop:      IsCoop(r.MajorName, r.FullName, r.Remark),
+			MajorName: NormalizeMajorName(row.MajorName),
+			MajorKey:  MajorKey(row.MajorName),
+			SelKe:     row.SelKe,
+			Plan:      row.Plan,
+			Tuition:   row.Tuition,
+			Coop:      IsCoop(row.MajorName, row.FullName, row.Remark),
 		}
 		if menlei != nil {
-			gm.Menlei = menlei(r.MajorName)
+			gm.Menlei = menlei(row.MajorName)
 		}
-		if lf := leafIdx[r.SchoolCode+"/"+gm.MajorKey]; lf != nil {
-			if p := LeafLatestForTrack(lf, r.Track); p != nil {
+		if lf := leafIdx[ent+"/"+ch+"/"+gm.MajorKey]; lf != nil {
+			if p := LeafLatestForTrack(lf, row.Track); p != nil {
 				gm.PrevYear = p.Year
 				gm.PrevRank = p.MinRank
 				gm.EquivRank = EquivRank(p.MinRank,
-					YearTrack{Year: p.Year, Track: p.Track}, YearTrack{Year: r.Year, Track: r.Track}, totals)
+					YearTrack{Year: p.Year, Track: p.Track}, YearTrack{Year: row.Year, Track: row.Track}, totals)
 			}
 		}
 		g.Majors = append(g.Majors, gm)
@@ -129,14 +138,15 @@ func BuildGroups2026(plan []PlanRow, leaves []MajorLeaf, totals map[YearTrack]in
 
 	out := map[string][]Group2026{}
 	for _, k := range order {
-		out[k.school] = append(out[k.school], *groups[k])
+		ent := gkeyEnt[k]
+		out[ent] = append(out[ent], *groups[k])
 	}
-	for code := range out {
-		sort.Slice(out[code], func(i, j int) bool {
-			if out[code][i].Track != out[code][j].Track {
-				return out[code][i].Track < out[code][j].Track
+	for ent := range out {
+		sort.Slice(out[ent], func(i, j int) bool {
+			if out[ent][i].Track != out[ent][j].Track {
+				return out[ent][i].Track < out[ent][j].Track
 			}
-			return out[code][i].GroupCode < out[code][j].GroupCode
+			return out[ent][i].GroupCode < out[ent][j].GroupCode
 		})
 	}
 	return out

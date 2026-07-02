@@ -1,0 +1,162 @@
+{
+  "key": "桂林医科大学",
+  "code": "2552",
+  "name": "桂林医科大学",
+  "leaves": [
+    {
+      "schoolKey": "桂林医科大学",
+      "schoolCode": "2552",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 543,
+          "minRank": 39235,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "桂林医科大学",
+      "schoolCode": "2552",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 541,
+          "minRank": 40511,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "桂林医科大学",
+      "schoolCode": "2552",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 488,
+          "minRank": 79451,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "桂林医科大学",
+      "schoolCode": "2552",
+      "majorKey": "a507c400",
+      "majorName": "康复治疗学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 490,
+          "minRank": 77780,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "桂林医科大学",
+      "schoolCode": "2552",
+      "majorKey": "11a5a631",
+      "majorName": "智能医学工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 485,
+          "minRank": 81945,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "桂林医科大学",
+      "schoolCode": "2552",
+      "majorKey": "97b7b689",
+      "majorName": "生物制药",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 549,
+          "minRank": 35614,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "桂林医科大学",
+      "schoolCode": "2552",
+      "majorKey": "49f6ae18",
+      "majorName": "食品卫生与营养学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 489,
+          "minRank": 78616,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "生物制药",
+          "majorKey": "97b7b689",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5520",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 35614,
+          "equivRank": 35614
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "7500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 39235,
+          "equivRank": 39235
+        },
+        {
+          "majorName": "医学影像学",
+          "majorKey": "5780af73",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "6480",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 40511,
+          "equivRank": 40511
+        }
+      ]
+    }
+  ]
+}

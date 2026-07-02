@@ -1,0 +1,120 @@
+{
+  "key": "宿州学院",
+  "code": "2230",
+  "name": "宿州学院",
+  "leaves": [
+    {
+      "schoolKey": "宿州学院",
+      "schoolCode": "2230",
+      "majorKey": "1f59c989",
+      "majorName": "化学工程与工艺",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 445,
+          "minRank": 95729,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 460,
+          "minRank": 87089,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "宿州学院",
+      "schoolCode": "2230",
+      "majorKey": "535619c0",
+      "majorName": "水文与水资源工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 450,
+          "minRank": 91223,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 458,
+          "minRank": 88659,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "宿州学院",
+      "schoolCode": "2230",
+      "majorKey": "7faf2092",
+      "majorName": "环境工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 444,
+          "minRank": 96631,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 455,
+          "minRank": 91814,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "化学工程与工艺",
+      "majorKey": "1f59c989",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 3,
+      "tuition": "4900",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 87089,
+      "equivRank": 87089,
+      "prevScore": 460
+    },
+    {
+      "majorName": "水文与水资源工程",
+      "majorKey": "535619c0",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 2,
+      "tuition": "4900",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 88659,
+      "equivRank": 88659,
+      "prevScore": 458
+    },
+    {
+      "majorName": "环境工程",
+      "majorKey": "7faf2092",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 3,
+      "tuition": "4900",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 91814,
+      "equivRank": 91814,
+      "prevScore": 455
+    }
+  ]
+}

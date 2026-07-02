@@ -1,0 +1,144 @@
+{
+  "key": "云南警官学院",
+  "code": "6421",
+  "name": "云南警官学院",
+  "leaves": [
+    {
+      "schoolKey": "云南警官学院",
+      "schoolCode": "6421",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 517,
+          "minRank": 26994,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 533,
+          "minRank": 24971,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "云南警官学院",
+      "schoolCode": "6421",
+      "majorKey": "cd1ecf5e",
+      "majorName": "禁毒学",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 607,
+          "minRank": 3204,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 551,
+          "minRank": 76116,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 610,
+          "minRank": 2516,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 574,
+          "minRank": 54263,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 620,
+          "minRank": 2253,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 577,
+          "minRank": 58764,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "云南警官学院",
+      "schoolCode": "6421",
+      "majorKey": "3093c484",
+      "majorName": "网络空间安全",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 507,
+          "minRank": 100402,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 523,
+          "minRank": 104327,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "历史",
+      "selKe": "首选历史，再选思想政治",
+      "majors": [
+        {
+          "majorName": "禁毒学",
+          "majorKey": "cd1ecf5e",
+          "selKe": "首选历史，再选思想政治",
+          "plan": 1,
+          "tuition": "4950",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 2253,
+          "equivRank": 2253
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选思想政治",
+      "majors": [
+        {
+          "majorName": "禁毒学",
+          "majorKey": "cd1ecf5e",
+          "selKe": "首选物理，再选思想政治",
+          "plan": 4,
+          "tuition": "4950",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 58764,
+          "equivRank": 58764
+        }
+      ]
+    }
+  ]
+}

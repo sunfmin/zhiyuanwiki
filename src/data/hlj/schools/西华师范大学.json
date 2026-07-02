@@ -1,0 +1,232 @@
+{
+  "key": "西华师范大学",
+  "code": "2229",
+  "name": "西华师范大学",
+  "leaves": [
+    {
+      "schoolKey": "西华师范大学",
+      "schoolCode": "2229",
+      "majorKey": "f3fa4b3d",
+      "majorName": "信息与计算科学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 429,
+          "minRank": 58069,
+          "maxScore": 446
+        }
+      ]
+    },
+    {
+      "schoolKey": "西华师范大学",
+      "schoolCode": "2229",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 451,
+          "minRank": 5483,
+          "maxScore": 460
+        }
+      ]
+    },
+    {
+      "schoolKey": "西华师范大学",
+      "schoolCode": "2229",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 434,
+          "minRank": 7366,
+          "maxScore": 445
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 412,
+          "minRank": 37382,
+          "maxScore": 472
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 495,
+          "minRank": 9841,
+          "maxScore": 505
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 446,
+          "minRank": 53494,
+          "maxScore": 484
+        }
+      ]
+    },
+    {
+      "schoolKey": "西华师范大学",
+      "schoolCode": "2229",
+      "majorKey": "653f630d",
+      "majorName": "物理学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 451,
+          "minRank": 26010,
+          "maxScore": 491
+        }
+      ]
+    },
+    {
+      "schoolKey": "西华师范大学",
+      "schoolCode": "2229",
+      "majorKey": "7faf2092",
+      "majorName": "环境工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 383,
+          "minRank": 77740,
+          "maxScore": 498
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 422,
+          "minRank": 60870,
+          "maxScore": 426
+        }
+      ]
+    },
+    {
+      "schoolKey": "西华师范大学",
+      "schoolCode": "2229",
+      "majorKey": "d47d0996",
+      "majorName": "生物科学类",
+      "selKe": "化学和生物",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 447,
+          "minRank": 27091,
+          "maxScore": 474
+        }
+      ]
+    },
+    {
+      "schoolKey": "西华师范大学",
+      "schoolCode": "2229",
+      "majorKey": "131a0e7c",
+      "majorName": "秘书学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 438,
+          "minRank": 6849,
+          "maxScore": 461
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 505,
+          "minRank": 8590,
+          "maxScore": 526
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 509,
+          "minRank": 7058,
+          "maxScore": 513
+        }
+      ]
+    },
+    {
+      "schoolKey": "西华师范大学",
+      "schoolCode": "2229",
+      "majorKey": "24c5453f",
+      "majorName": "统计学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 396,
+          "minRank": 72581,
+          "maxScore": 448
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 426,
+          "minRank": 59268,
+          "maxScore": 444
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "俄语",
+          "majorKey": "7d0b62a8",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5760",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "化学",
+          "plan": 7,
+          "tuition": "6240",
+          "menlei": "理",
+          "prevYear": 2023,
+          "prevRank": 26010,
+          "equivRank": 26010
+        },
+        {
+          "majorName": "环境工程",
+          "majorKey": "7faf2092",
+          "selKe": "化学",
+          "plan": 8,
+          "tuition": "6240",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 60870,
+          "equivRank": 56932
+        }
+      ]
+    }
+  ]
+}

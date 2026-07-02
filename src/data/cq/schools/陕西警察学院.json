@@ -1,0 +1,111 @@
+{
+  "key": "陕西警察学院",
+  "code": "6148",
+  "name": "陕西警察学院",
+  "leaves": [
+    {
+      "schoolKey": "陕西警察学院",
+      "schoolCode": "6148",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 526,
+          "minRank": 11622,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 522,
+          "minRank": 48378,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "陕西警察学院",
+      "schoolCode": "6148",
+      "majorKey": "ad068215",
+      "majorName": "海外安全管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 527,
+          "minRank": 11419,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 533,
+          "minRank": 41740,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "海外安全管理",
+      "majorKey": "ad068215",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 1,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 11419,
+      "equivRank": 11419,
+      "prevScore": 527
+    },
+    {
+      "majorName": "法学",
+      "majorKey": "a1113a1f",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 12,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevRank": 11622,
+      "equivRank": 11622,
+      "prevScore": 526
+    },
+    {
+      "majorName": "海外安全管理",
+      "majorKey": "ad068215",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 2,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 41740,
+      "equivRank": 41740,
+      "prevScore": 533
+    },
+    {
+      "majorName": "法学",
+      "majorKey": "a1113a1f",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 5,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevRank": 48378,
+      "equivRank": 48378,
+      "prevScore": 522
+    }
+  ]
+}

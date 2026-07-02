@@ -1,0 +1,138 @@
+{
+  "key": "重庆中医药学院",
+  "code": "2191",
+  "name": "重庆中医药学院",
+  "leaves": [
+    {
+      "schoolKey": "重庆中医药学院",
+      "schoolCode": "2191",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 534,
+          "minRank": 24261,
+          "maxScore": 554
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 532,
+          "minRank": 4846,
+          "maxScore": 533
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 536,
+          "minRank": 20638,
+          "maxScore": 569
+        }
+      ]
+    },
+    {
+      "schoolKey": "重庆中医药学院",
+      "schoolCode": "2191",
+      "majorKey": "f9504a0c",
+      "majorName": "中药学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 499,
+          "minRank": 34833,
+          "maxScore": 516
+        }
+      ]
+    },
+    {
+      "schoolKey": "重庆中医药学院",
+      "schoolCode": "2191",
+      "majorKey": "c744f66e",
+      "majorName": "针灸推拿学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 533,
+          "minRank": 4763,
+          "maxScore": 535
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 532,
+          "minRank": 21797,
+          "maxScore": 534
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6900",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 4846,
+          "equivRank": 4846
+        },
+        {
+          "majorName": "针灸推拿学",
+          "majorKey": "c744f66e",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6900",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 4763,
+          "equivRank": 4763
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "6900",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 20638,
+          "equivRank": 19303
+        },
+        {
+          "majorName": "针灸推拿学",
+          "majorKey": "c744f66e",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "6900",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 21797,
+          "equivRank": 20387
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "key": "梧州学院",
+  "code": "3179",
+  "name": "梧州学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不提科目要求",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不提科目要求",
+          "plan": 1,
+          "tuition": "4200",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "新能源科学与工程",
+          "majorKey": "42b22d93",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "4578",
+          "menlei": "工"
+        },
+        {
+          "majorName": "中药学",
+          "majorKey": "f9504a0c",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "4590",
+          "menlei": "医"
+        }
+      ]
+    }
+  ]
+}

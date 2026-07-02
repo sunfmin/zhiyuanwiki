@@ -1,0 +1,151 @@
+{
+  "key": "广西农业职业技术大学",
+  "code": "4559",
+  "name": "广西农业职业技术大学",
+  "leaves": [
+    {
+      "schoolKey": "广西农业职业技术大学",
+      "schoolCode": "4559",
+      "majorKey": "077a4ff5",
+      "majorName": "中文国际教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 475,
+          "minRank": 36096,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "广西农业职业技术大学",
+      "schoolCode": "4559",
+      "majorKey": "2bb8841b",
+      "majorName": "园林景观工程",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 468,
+          "minRank": 128788,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "广西农业职业技术大学",
+      "schoolCode": "4559",
+      "majorKey": "df0af94b",
+      "majorName": "计算机应用工程",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 471,
+          "minRank": 124739,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "广西农业职业技术大学",
+      "schoolCode": "4559",
+      "majorKey": "ce09efb0",
+      "majorName": "金融科技应用",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 474,
+          "minRank": 36594,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 467,
+          "minRank": 130083,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（101）",
+      "groupName": "（101）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "金融科技应用",
+          "majorKey": "ce09efb0",
+          "selKe": "首选历史，再选不限",
+          "plan": 5,
+          "tuition": "7000",
+          "menlei": "经",
+          "prevYear": 2024,
+          "prevRank": 36594,
+          "equivRank": 34900
+        },
+        {
+          "majorName": "中文国际教育",
+          "majorKey": "077a4ff5",
+          "selKe": "首选历史，再选不限",
+          "plan": 5,
+          "tuition": "6500",
+          "menlei": "教",
+          "prevYear": 2024,
+          "prevRank": 36096,
+          "equivRank": 34425
+        }
+      ]
+    },
+    {
+      "groupCode": "（102）",
+      "groupName": "（102）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "计算机应用工程",
+          "majorKey": "df0af94b",
+          "selKe": "首选物理，再选不限",
+          "plan": 9,
+          "tuition": "7500",
+          "menlei": "工",
+          "prevYear": 2024,
+          "prevRank": 124739,
+          "equivRank": 138639
+        },
+        {
+          "majorName": "金融科技应用",
+          "majorKey": "ce09efb0",
+          "selKe": "首选物理，再选不限",
+          "plan": 6,
+          "tuition": "7000",
+          "menlei": "经",
+          "prevYear": 2024,
+          "prevRank": 130083,
+          "equivRank": 144578
+        },
+        {
+          "majorName": "园林景观工程",
+          "majorKey": "2bb8841b",
+          "selKe": "首选物理，再选不限",
+          "plan": 5,
+          "tuition": "7500",
+          "menlei": "农",
+          "prevYear": 2024,
+          "prevRank": 128788,
+          "equivRank": 143139
+        }
+      ]
+    }
+  ]
+}

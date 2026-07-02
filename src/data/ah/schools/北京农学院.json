@@ -1,0 +1,107 @@
+{
+  "key": "北京农学院",
+  "code": "1057",
+  "name": "北京农学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4200元/年",
+          "menlei": "经"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002专业组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "36000元/年",
+          "menlei": "经",
+          "coop": true
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "农业资源与环境",
+          "majorKey": "cd7e1ba1",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "免学费",
+          "menlei": "农"
+        },
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4600元/年",
+          "menlei": "工"
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "4600元/年",
+          "menlei": "工"
+        },
+        {
+          "majorName": "酿酒工程",
+          "majorKey": "5354ffc5",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "4600元/年",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "36000元/年",
+          "menlei": "工",
+          "coop": true
+        },
+        {
+          "majorName": "农业资源与环境",
+          "majorKey": "cd7e1ba1",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "36000元/年",
+          "menlei": "农",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

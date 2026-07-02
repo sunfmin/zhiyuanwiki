@@ -1,0 +1,141 @@
+{
+  "key": "长春光华学院",
+  "code": "13600",
+  "name": "长春光华学院",
+  "leaves": [
+    {
+      "schoolKey": "长春光华学院",
+      "schoolCode": "13600",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 336,
+          "minRank": 206024,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春光华学院",
+      "schoolCode": "13600",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 392,
+          "minRank": 58418,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春光华学院",
+      "schoolCode": "13600",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 391,
+          "minRank": 58923,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春光华学院",
+      "schoolCode": "13600",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 337,
+          "minRank": 205225,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "专业组:101(首选科目:历史。再选科目:不限)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "26000元/年",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 58418,
+          "equivRank": 58418
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "25000元/年",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 58923,
+          "equivRank": 58923
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "专业组:102(首选科目:物理。再选科目:不限)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "25000元/年",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 206024,
+          "equivRank": 206024
+        }
+      ]
+    },
+    {
+      "groupCode": "103",
+      "groupName": "专业组:103(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "25000元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 205225,
+          "equivRank": 205225
+        }
+      ]
+    }
+  ]
+}

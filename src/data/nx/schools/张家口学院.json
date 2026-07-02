@@ -1,0 +1,79 @@
+{
+  "key": "张家口学院",
+  "code": "1347",
+  "name": "张家口学院",
+  "leaves": [
+    {
+      "schoolKey": "张家口学院",
+      "schoolCode": "1347",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "历史,政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 473,
+          "minRank": 3966,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "张家口学院",
+      "schoolCode": "1347",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 481,
+          "minRank": 3469,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 3,
+          "tuition": "4600",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 3469,
+          "equivRank": 3469
+        }
+      ]
+    },
+    {
+      "groupCode": "702",
+      "groupName": "702",
+      "track": "历史",
+      "selKe": "历史,政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "历史,政治",
+          "plan": 3,
+          "tuition": "4600",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 3966,
+          "equivRank": 3966
+        }
+      ]
+    }
+  ]
+}

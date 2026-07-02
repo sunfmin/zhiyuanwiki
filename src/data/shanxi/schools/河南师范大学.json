@@ -1,0 +1,168 @@
+{
+  "key": "河南师范大学",
+  "code": "2506",
+  "name": "河南师范大学",
+  "leaves": [
+    {
+      "schoolKey": "河南师范大学",
+      "schoolCode": "2506",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 511,
+          "minRank": 41507,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河南师范大学",
+      "schoolCode": "2506",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 519,
+          "minRank": 37401,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河南师范大学",
+      "schoolCode": "2506",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 526,
+          "minRank": 6339,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河南师范大学",
+      "schoolCode": "2506",
+      "majorKey": "e2472a71",
+      "majorName": "生物科学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 509,
+          "minRank": 42567,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河南师范大学",
+      "schoolCode": "2506",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 530,
+          "minRank": 5726,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4840",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 6339,
+          "equivRank": 6339
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4840",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 5726,
+          "equivRank": 5726
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "环境科学与工程类",
+          "majorKey": "cb64b1e8",
+          "selKe": "化",
+          "plan": 10,
+          "tuition": "5000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 37401,
+          "equivRank": 37401
+        },
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化",
+          "plan": 10,
+          "tuition": "5500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 41507,
+          "equivRank": 41507
+        },
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 42567,
+          "equivRank": 42567
+        }
+      ]
+    }
+  ]
+}

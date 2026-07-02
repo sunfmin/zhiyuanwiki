@@ -1,0 +1,178 @@
+{
+  "key": "常德学院",
+  "code": "8609",
+  "name": "常德学院",
+  "leaves": [
+    {
+      "schoolKey": "常德学院",
+      "schoolCode": "8609",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 462,
+          "minRank": 141919,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 476,
+          "minRank": 150469,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 491,
+          "minRank": 156374,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 492,
+          "minRank": 173223,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "常德学院",
+      "schoolCode": "8609",
+      "majorKey": "14856541",
+      "majorName": "电子信息科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 455,
+          "minRank": 147317,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 480,
+          "minRank": 146747,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 492,
+          "minRank": 155088,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "常德学院",
+      "schoolCode": "8609",
+      "majorKey": "da95770c",
+      "majorName": "自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 491,
+          "minRank": 174488,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "常德学院",
+      "schoolCode": "8609",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 477,
+          "minRank": 52363,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 479,
+          "minRank": 51298,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 494,
+          "minRank": 43538,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 508,
+          "minRank": 43730,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "首选历史，再选不限",
+          "plan": 3,
+          "tuition": "19800",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 43730,
+          "equivRank": 43730
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "自动化",
+          "majorKey": "da95770c",
+          "selKe": "首选物理，再选化学",
+          "plan": 3,
+          "tuition": "22500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 174488,
+          "equivRank": 174488
+        },
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "首选物理，再选化学",
+          "plan": 2,
+          "tuition": "22500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 173223,
+          "equivRank": 173223
+        }
+      ]
+    }
+  ]
+}

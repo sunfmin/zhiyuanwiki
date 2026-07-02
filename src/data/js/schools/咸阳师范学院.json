@@ -1,0 +1,115 @@
+{
+  "key": "咸阳师范学院",
+  "code": "7165",
+  "name": "咸阳师范学院",
+  "leaves": [
+    {
+      "schoolKey": "咸阳师范学院",
+      "schoolCode": "7165",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 491,
+          "minRank": 43099,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 498,
+          "minRank": 41709,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 480,
+          "minRank": 50085,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 503,
+          "minRank": 46229,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "咸阳师范学院",
+      "schoolCode": "7165",
+      "majorKey": "ca37000f",
+      "majorName": "数字经济",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 493,
+          "minRank": 134436,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 511,
+          "minRank": 130825,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 519,
+          "minRank": 136395,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "首选历史，再选不限",
+          "plan": 3,
+          "tuition": "38000",
+          "menlei": "教",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 46229,
+          "equivRank": 46229
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "数字经济",
+          "majorKey": "ca37000f",
+          "selKe": "首选物理，再选不限",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 136395,
+          "equivRank": 136395
+        }
+      ]
+    }
+  ]
+}

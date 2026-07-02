@@ -1,0 +1,128 @@
+{
+  "key": "岭南师范学院",
+  "code": "2976",
+  "name": "岭南师范学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5050",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "应用物理学",
+          "majorKey": "409f7ac3",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5710",
+          "menlei": "理"
+        },
+        {
+          "majorName": "统计学",
+          "majorKey": "24c5453f",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5710",
+          "menlei": "理"
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5710",
+          "menlei": "工"
+        },
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "8000",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "516",
+      "groupName": "专业组：516 (选考化学且生物学)",
+      "track": "物理",
+      "selKe": "化学和生物",
+      "majors": [
+        {
+          "majorName": "海洋资源开发技术",
+          "majorKey": "2dee13d2",
+          "selKe": "化学和生物",
+          "plan": 3,
+          "tuition": "5710",
+          "menlei": "工"
+        },
+        {
+          "majorName": "园林",
+          "majorKey": "c6cedaad",
+          "selKe": "化学和生物",
+          "plan": 3,
+          "tuition": "4568",
+          "menlei": "农"
+        }
+      ]
+    },
+    {
+      "groupCode": "900",
+      "groupName": "专业组：900 (选考地理)",
+      "track": "物理",
+      "selKe": "地理",
+      "majors": [
+        {
+          "majorName": "地理信息科学",
+          "majorKey": "f9ecceea",
+          "selKe": "地理",
+          "plan": 2,
+          "tuition": "5710",
+          "menlei": "理"
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "电子商务",
+          "majorKey": "0b52f20f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5050",
+          "menlei": "管"
+        },
+        {
+          "majorName": "电力工程及自动化",
+          "majorKey": "b0306b1f",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5710",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

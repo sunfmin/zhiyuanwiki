@@ -1,0 +1,133 @@
+{
+  "key": "牡丹江医科大学",
+  "code": "0632",
+  "name": "牡丹江医科大学",
+  "leaves": [
+    {
+      "schoolKey": "牡丹江医科大学",
+      "schoolCode": "0632",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物、化、生(3科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 551,
+          "minRank": 23195,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "牡丹江医科大学",
+      "schoolCode": "0632",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 552,
+          "minRank": 22952,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "牡丹江医科大学",
+      "schoolCode": "0632",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 573,
+          "minRank": 17772,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "牡丹江医科大学",
+      "schoolCode": "0632",
+      "majorKey": "83eea431",
+      "majorName": "麻醉学",
+      "selKe": "物、化、生(3科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 549,
+          "minRank": 23760,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "医学影像学",
+          "majorKey": "5780af73",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 22952,
+          "equivRank": 22952
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4800",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 17772,
+          "equivRank": 17772
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学,生物",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学,生物",
+          "plan": 3,
+          "tuition": "4400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 23195,
+          "equivRank": 23195
+        },
+        {
+          "majorName": "麻醉学",
+          "majorKey": "83eea431",
+          "selKe": "物理,化学,生物",
+          "plan": 2,
+          "tuition": "4400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 23760,
+          "equivRank": 23760
+        }
+      ]
+    }
+  ]
+}

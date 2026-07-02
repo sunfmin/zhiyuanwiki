@@ -1,0 +1,150 @@
+{
+  "key": "首都体育学院",
+  "code": "1165",
+  "name": "首都体育学院",
+  "leaves": [
+    {
+      "schoolKey": "首都体育学院",
+      "schoolCode": "1165",
+      "majorKey": "b996d826",
+      "majorName": "体育经济与管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 556,
+          "minRank": 9401,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 524,
+          "minRank": 46781,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都体育学院",
+      "schoolCode": "1165",
+      "majorKey": "9c5f4a34",
+      "majorName": "新闻学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 557,
+          "minRank": 9185,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 524,
+          "minRank": 46781,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都体育学院",
+      "schoolCode": "1165",
+      "majorKey": "676f341a",
+      "majorName": "运动人体科学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 528,
+          "minRank": 44143,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "体育经济与管理",
+          "majorKey": "b996d826",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "4200元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 9401,
+          "equivRank": 9401
+        },
+        {
+          "majorName": "新闻学",
+          "majorKey": "9c5f4a34",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "4200元",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 9185,
+          "equivRank": 9185
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "体育经济与管理",
+          "majorKey": "b996d826",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "4200元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 46781,
+          "equivRank": 46781
+        },
+        {
+          "majorName": "新闻学",
+          "majorKey": "9c5f4a34",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "4200元",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 46781,
+          "equivRank": 46781
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "运动人体科学",
+          "majorKey": "676f341a",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "4200元",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 44143,
+          "equivRank": 44143
+        }
+      ]
+    }
+  ]
+}

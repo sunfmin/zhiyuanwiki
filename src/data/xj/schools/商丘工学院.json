@@ -1,0 +1,69 @@
+{
+  "key": "商丘工学院",
+  "code": "2655",
+  "name": "商丘工学院",
+  "leaves": [
+    {
+      "schoolKey": "商丘工学院",
+      "schoolCode": "2655",
+      "majorKey": "754290a4",
+      "majorName": "助产学",
+      "selKe": "",
+      "years": [
+        {
+          "year": 2025,
+          "track": "文科",
+          "minScore": 333,
+          "minRank": 14201,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "商丘工学院",
+      "schoolCode": "2655",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "",
+      "years": [
+        {
+          "year": 2025,
+          "track": "文科",
+          "minScore": 334,
+          "minRank": 14105,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "文科",
+      "selKe": "",
+      "plan": 4,
+      "tuition": "16800",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 14105,
+      "equivRank": 14105,
+      "prevScore": 334
+    },
+    {
+      "majorName": "助产学",
+      "majorKey": "754290a4",
+      "track": "文科",
+      "selKe": "",
+      "plan": 4,
+      "tuition": "16800",
+      "schooling": "四年",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 14201,
+      "equivRank": 14201,
+      "prevScore": 333
+    }
+  ]
+}

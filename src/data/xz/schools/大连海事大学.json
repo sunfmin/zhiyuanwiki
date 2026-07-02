@@ -1,0 +1,72 @@
+{
+  "key": "大连海事大学",
+  "code": "0075",
+  "name": "大连海事大学",
+  "leaves": [
+    {
+      "schoolKey": "大连海事大学",
+      "schoolCode": "0075",
+      "majorKey": "63da9816",
+      "majorName": "公共管理类",
+      "selKe": "",
+      "years": [
+        {
+          "year": 2024,
+          "track": "文科",
+          "minScore": 351,
+          "minRank": 0,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "文科",
+          "minScore": 365,
+          "minRank": 0,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "大连海事大学",
+      "schoolCode": "0075",
+      "majorKey": "07a988ed",
+      "majorName": "政治学与行政学",
+      "selKe": "",
+      "years": [
+        {
+          "year": 2025,
+          "track": "文科",
+          "minScore": 413,
+          "minRank": 0,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "政治学与行政学",
+      "majorKey": "07a988ed",
+      "track": "文科",
+      "selKe": "",
+      "plan": 2,
+      "tuition": "4800",
+      "schooling": "四年",
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevScore": 413
+    },
+    {
+      "majorName": "公共管理类",
+      "majorKey": "63da9816",
+      "track": "文科",
+      "selKe": "",
+      "plan": 1,
+      "tuition": "5200",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevScore": 365
+    }
+  ]
+}

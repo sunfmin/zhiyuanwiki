@@ -1,0 +1,133 @@
+{
+  "key": "甘肃民族师范学院",
+  "code": "J52",
+  "name": "甘肃民族师范学院",
+  "leaves": [
+    {
+      "schoolKey": "甘肃民族师范学院",
+      "schoolCode": "J52",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 455,
+          "minRank": 43491,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "甘肃民族师范学院",
+      "schoolCode": "J52",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 514,
+          "minRank": 8270,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "甘肃民族师范学院",
+      "schoolCode": "J52",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 465,
+          "minRank": 40336,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "甘肃民族师范学院",
+      "schoolCode": "J52",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 453,
+          "minRank": 44142,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "3800",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 8270,
+          "equivRank": 8270
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 43491,
+          "equivRank": 43491
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 40336,
+          "equivRank": 40336
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 44142,
+          "equivRank": 44142
+        }
+      ]
+    }
+  ]
+}

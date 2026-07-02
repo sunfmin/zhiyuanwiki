@@ -1,0 +1,169 @@
+{
+  "key": "吉林外国语大学",
+  "code": "0632",
+  "name": "吉林外国语大学",
+  "leaves": [
+    {
+      "schoolKey": "吉林外国语大学",
+      "schoolCode": "0632",
+      "majorKey": "b74128f4",
+      "majorName": "工商管理类",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 497,
+          "minRank": 41118,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "吉林外国语大学",
+      "schoolCode": "0632",
+      "majorKey": "8f1def37",
+      "majorName": "日语",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 501,
+          "minRank": 39953,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "吉林外国语大学",
+      "schoolCode": "0632",
+      "majorKey": "be4d6166",
+      "majorName": "葡萄牙语",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 502,
+          "minRank": 39655,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "吉林外国语大学",
+      "schoolCode": "0632",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 496,
+          "minRank": 41412,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "吉林外国语大学",
+      "schoolCode": "0632",
+      "majorKey": "683be8da",
+      "majorName": "金融科技",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 495,
+          "minRank": 41708,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "葡萄牙语",
+          "majorKey": "be4d6166",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "25000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 39655,
+          "equivRank": 39655
+        },
+        {
+          "majorName": "日语",
+          "majorKey": "8f1def37",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "25000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 39953,
+          "equivRank": 39953
+        },
+        {
+          "majorName": "工商管理类",
+          "majorKey": "b74128f4",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "24000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 41118,
+          "equivRank": 41118
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "金融科技",
+          "majorKey": "683be8da",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "24000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 41708,
+          "equivRank": 41708
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "32000",
+          "menlei": "经",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 41412,
+          "equivRank": 41412
+        }
+      ]
+    }
+  ]
+}

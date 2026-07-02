@@ -1,0 +1,141 @@
+{
+  "key": "长春科技学院",
+  "code": "13606",
+  "name": "长春科技学院",
+  "leaves": [
+    {
+      "schoolKey": "长春科技学院",
+      "schoolCode": "13606",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 470,
+          "minRank": 219782,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春科技学院",
+      "schoolCode": "13606",
+      "majorKey": "f9504a0c",
+      "majorName": "中药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 466,
+          "minRank": 226887,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春科技学院",
+      "schoolCode": "13606",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 466,
+          "minRank": 226887,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春科技学院",
+      "schoolCode": "13606",
+      "majorKey": "8230723d",
+      "majorName": "计算机类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 467,
+          "minRank": 225145,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "203",
+      "groupName": "203",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "不限",
+          "plan": 12,
+          "tuition": "39000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 219782,
+          "equivRank": 219782
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 8,
+          "tuition": "27000",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "204",
+      "groupName": "204",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "26000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 226887,
+          "equivRank": 226887
+        },
+        {
+          "majorName": "计算机类",
+          "majorKey": "8230723d",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "28000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 225145,
+          "equivRank": 225145
+        },
+        {
+          "majorName": "中药学",
+          "majorKey": "f9504a0c",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "28000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 226887,
+          "equivRank": 226887
+        }
+      ]
+    }
+  ]
+}

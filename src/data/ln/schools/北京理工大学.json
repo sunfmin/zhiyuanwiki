@@ -1,0 +1,131 @@
+{
+  "key": "北京理工大学",
+  "code": "0007",
+  "name": "北京理工大学",
+  "leaves": [
+    {
+      "schoolKey": "北京理工大学",
+      "schoolCode": "0007",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 633,
+          "minRank": 5103,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京理工大学",
+      "schoolCode": "0007",
+      "majorKey": "d8f4c9ac",
+      "majorName": "光电信息科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 651,
+          "minRank": 2356,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京理工大学",
+      "schoolCode": "0007",
+      "majorKey": "b363aa3d",
+      "majorName": "工科试验班",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 677,
+          "minRank": 431,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京理工大学",
+      "schoolCode": "0007",
+      "majorKey": "38bcf50d",
+      "majorName": "社会科学试验班",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 633,
+          "minRank": 454,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "工科试验班",
+      "majorKey": "b363aa3d",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 73,
+      "tuition": "5500",
+      "schooling": "4",
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 431,
+      "equivRank": 431,
+      "prevScore": 677
+    },
+    {
+      "majorName": "社会科学试验班",
+      "majorKey": "38bcf50d",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 14,
+      "tuition": "5000",
+      "schooling": "4",
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 454,
+      "equivRank": 454,
+      "prevScore": 633
+    },
+    {
+      "majorName": "光电信息科学与工程",
+      "majorKey": "d8f4c9ac",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 4,
+      "tuition": "57000",
+      "schooling": "4",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 2356,
+      "equivRank": 2356,
+      "prevScore": 651
+    },
+    {
+      "majorName": "会计学",
+      "majorKey": "8aa56116",
+      "track": "物理",
+      "selKe": "物理",
+      "plan": 2,
+      "tuition": "78000",
+      "schooling": "4",
+      "menlei": "管",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 5103,
+      "equivRank": 5103,
+      "prevScore": 633
+    }
+  ]
+}

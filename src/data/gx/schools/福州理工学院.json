@@ -1,0 +1,56 @@
+{
+  "key": "福州理工学院",
+  "code": "13773",
+  "name": "福州理工学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "专业组:101(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "35600元/年",
+          "menlei": "工"
+        },
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "38000元/年",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "103",
+      "groupName": "专业组:103(首选科目:物理。再选科目:不限)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "35600元/年",
+          "menlei": "文"
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 7,
+          "tuition": "32000元/年",
+          "menlei": "管"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "key": "广州工商学院",
+  "code": "3063",
+  "name": "广州工商学院",
+  "leaves": [
+    {
+      "schoolKey": "广州工商学院",
+      "schoolCode": "3063",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 394,
+          "minRank": 39149,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "46600",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 39149,
+          "equivRank": 39149
+        },
+        {
+          "majorName": "日语",
+          "majorKey": "8f1def37",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "46600",
+          "menlei": "文"
+        },
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "47600",
+          "menlei": "管"
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "47600",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "46600",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 39149,
+          "equivRank": 131255
+        },
+        {
+          "majorName": "日语",
+          "majorKey": "8f1def37",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "46600",
+          "menlei": "文"
+        },
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "47600",
+          "menlei": "管"
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "47600",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "化",
+          "plan": 16,
+          "tuition": "78605",
+          "menlei": "工",
+          "coop": true
+        },
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "化",
+          "plan": 16,
+          "tuition": "78605",
+          "menlei": "工",
+          "coop": true
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化",
+          "plan": 15,
+          "tuition": "78605",
+          "menlei": "工",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

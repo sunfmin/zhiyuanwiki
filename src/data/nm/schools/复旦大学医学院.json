@@ -1,0 +1,79 @@
+{
+  "key": "复旦大学医学院",
+  "code": "K04",
+  "name": "复旦大学医学院",
+  "leaves": [
+    {
+      "schoolKey": "复旦大学医学院",
+      "schoolCode": "K04",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 681,
+          "minRank": 167,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "复旦大学医学院",
+      "schoolCode": "K04",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "物理,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 582,
+          "minRank": 9394,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "7400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 167,
+          "equivRank": 167
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "生物学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物学",
+          "plan": 2,
+          "tuition": "7400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 9394,
+          "equivRank": 9394
+        }
+      ]
+    }
+  ]
+}

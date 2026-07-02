@@ -1,0 +1,176 @@
+{
+  "key": "首都经济贸易大学",
+  "code": "2421",
+  "name": "首都经济贸易大学",
+  "leaves": [
+    {
+      "schoolKey": "首都经济贸易大学",
+      "schoolCode": "2421",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 599,
+          "minRank": 27826,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都经济贸易大学",
+      "schoolCode": "2421",
+      "majorKey": "55e3bd26",
+      "majorName": "信息管理与信息系统",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 594,
+          "minRank": 31261,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都经济贸易大学",
+      "schoolCode": "2421",
+      "majorKey": "28c62e21",
+      "majorName": "市场营销",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 586,
+          "minRank": 5530,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都经济贸易大学",
+      "schoolCode": "2421",
+      "majorKey": "bda0ff17",
+      "majorName": "经济学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 599,
+          "minRank": 27826,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都经济贸易大学",
+      "schoolCode": "2421",
+      "majorKey": "24c5453f",
+      "majorName": "统计学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 577,
+          "minRank": 44443,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "市场营销",
+          "majorKey": "28c62e21",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "5000元/年",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 5530,
+          "equivRank": 5530
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002专业组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "信息管理与信息系统",
+          "majorKey": "55e3bd26",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5000元/年",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 31261,
+          "equivRank": 31261
+        },
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5000元/年",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 27826,
+          "equivRank": 27826
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5500元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 27826,
+          "equivRank": 27826
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "004专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "统计学",
+          "majorKey": "24c5453f",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "98000元/年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 44443,
+          "equivRank": 44443
+        }
+      ]
+    }
+  ]
+}

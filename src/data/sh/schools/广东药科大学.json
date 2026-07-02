@@ -1,0 +1,106 @@
+{
+  "key": "广东药科大学",
+  "code": "0780",
+  "name": "广东药科大学",
+  "leaves": [
+    {
+      "schoolKey": "广东药科大学",
+      "schoolCode": "0780",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 484,
+          "minRank": 28826,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "广东药科大学",
+      "schoolCode": "0780",
+      "majorKey": "dc8e7679",
+      "majorName": "药物制剂",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 474,
+          "minRank": 31654,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "广东药科大学",
+      "schoolCode": "0780",
+      "majorKey": "1954d9c9",
+      "majorName": "预防医学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 461,
+          "minRank": 35266,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "物理和化学",
+          "plan": 3,
+          "tuition": "6960",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 28826,
+          "equivRank": 28826
+        },
+        {
+          "majorName": "药物制剂",
+          "majorKey": "dc8e7679",
+          "selKe": "物理和化学",
+          "plan": 3,
+          "tuition": "6960",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 31654,
+          "equivRank": 31654
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "预防医学",
+          "majorKey": "1954d9c9",
+          "selKe": "物理和化学",
+          "plan": 4,
+          "tuition": "6960",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 35266,
+          "equivRank": 35266
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "key": "西南财经大学天府学院",
+  "code": "4037",
+  "name": "西南财经大学天府学院",
+  "leaves": [
+    {
+      "schoolKey": "西南财经大学天府学院",
+      "schoolCode": "4037",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 483,
+          "minRank": 17955,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 467,
+          "minRank": 73184,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "会计学",
+      "majorKey": "8aa56116",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 2,
+      "tuition": "18000",
+      "schooling": "4",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 17955,
+      "equivRank": 17955,
+      "prevScore": 483
+    },
+    {
+      "majorName": "会计学",
+      "majorKey": "8aa56116",
+      "track": "物理",
+      "selKe": "物理",
+      "plan": 2,
+      "tuition": "18000",
+      "schooling": "4",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 73184,
+      "equivRank": 73184,
+      "prevScore": 467
+    }
+  ]
+}

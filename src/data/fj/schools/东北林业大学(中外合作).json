@@ -1,0 +1,52 @@
+{
+  "key": "东北林业大学(中外合作)",
+  "code": "2452",
+  "name": "东北林业大学(中外合作)",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "60000",
+          "menlei": "理",
+          "coop": true
+        },
+        {
+          "majorName": "生物技术",
+          "majorKey": "0ac1da59",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "60000",
+          "menlei": "理",
+          "coop": true
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "60000",
+          "menlei": "工",
+          "coop": true
+        },
+        {
+          "majorName": "工程管理",
+          "majorKey": "4166f1ff",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "35000",
+          "menlei": "管",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

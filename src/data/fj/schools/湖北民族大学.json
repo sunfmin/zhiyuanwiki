@@ -1,0 +1,214 @@
+{
+  "key": "湖北民族大学",
+  "code": "2746",
+  "name": "湖北民族大学",
+  "leaves": [
+    {
+      "schoolKey": "湖北民族大学",
+      "schoolCode": "2746",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 516,
+          "minRank": 57329,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北民族大学",
+      "schoolCode": "2746",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 502,
+          "minRank": 14390,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北民族大学",
+      "schoolCode": "2746",
+      "majorKey": "4428fd77",
+      "majorName": "商务英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 499,
+          "minRank": 14911,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北民族大学",
+      "schoolCode": "2746",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 502,
+          "minRank": 14390,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北民族大学",
+      "schoolCode": "2746",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 509,
+          "minRank": 62571,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北民族大学",
+      "schoolCode": "2746",
+      "majorKey": "61e687fe",
+      "majorName": "林学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 512,
+          "minRank": 60283,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北民族大学",
+      "schoolCode": "2746",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 510,
+          "minRank": 12894,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 14390,
+          "equivRank": 14390
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 12894,
+          "equivRank": 12894
+        },
+        {
+          "majorName": "商务英语",
+          "majorKey": "4428fd77",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 14911,
+          "equivRank": 14911
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 14390,
+          "equivRank": 14390
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "林学",
+          "majorKey": "61e687fe",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "3000",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 60283,
+          "equivRank": 60283
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 57329,
+          "equivRank": 57329
+        },
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 62571,
+          "equivRank": 62571
+        }
+      ]
+    }
+  ]
+}

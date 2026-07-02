@@ -1,0 +1,93 @@
+{
+  "key": "燕京理工学院",
+  "code": "1394",
+  "name": "燕京理工学院",
+  "leaves": [
+    {
+      "schoolKey": "燕京理工学院",
+      "schoolCode": "1394",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 457,
+          "minRank": 143782,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 443,
+          "minRank": 162957,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "燕京理工学院",
+      "schoolCode": "1394",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 442,
+          "minRank": 53293,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 467,
+          "minRank": 42127,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（102）",
+      "groupName": "（102）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "首选历史，再选不限",
+          "plan": 1,
+          "tuition": "20000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 42127,
+          "equivRank": 42127
+        }
+      ]
+    },
+    {
+      "groupCode": "（103）",
+      "groupName": "（103）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "首选物理，再选化学",
+          "plan": 1,
+          "tuition": "22000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 162957,
+          "equivRank": 162957
+        }
+      ]
+    }
+  ]
+}

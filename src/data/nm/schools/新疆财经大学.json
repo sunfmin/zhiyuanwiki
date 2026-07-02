@@ -1,0 +1,176 @@
+{
+  "key": "新疆财经大学",
+  "code": "B34",
+  "name": "新疆财经大学",
+  "leaves": [
+    {
+      "schoolKey": "新疆财经大学",
+      "schoolCode": "B34",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 522,
+          "minRank": 7390,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 499,
+          "minRank": 30054,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "新疆财经大学",
+      "schoolCode": "B34",
+      "majorKey": "bda0ff17",
+      "majorName": "经济学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 517,
+          "minRank": 7930,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 474,
+          "minRank": 37522,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "新疆财经大学",
+      "schoolCode": "B34",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 512,
+          "minRank": 8528,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 497,
+          "minRank": 30626,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "3200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 7390,
+          "equivRank": 7390
+        },
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "3200",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 7930,
+          "equivRank": 7930
+        }
+      ]
+    },
+    {
+      "groupCode": "010",
+      "groupName": "010",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "3200",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 8528,
+          "equivRank": 8528
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "3200",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 30626,
+          "equivRank": 30626
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "3200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 30054,
+          "equivRank": 30054
+        }
+      ]
+    },
+    {
+      "groupCode": "020",
+      "groupName": "020",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "经济学",
+          "majorKey": "bda0ff17",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "3200",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 37522,
+          "equivRank": 37522
+        }
+      ]
+    }
+  ]
+}

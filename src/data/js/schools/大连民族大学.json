@@ -1,0 +1,243 @@
+{
+  "key": "大连民族大学",
+  "code": "4140",
+  "name": "大连民族大学",
+  "leaves": [
+    {
+      "schoolKey": "大连民族大学",
+      "schoolCode": "4140",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 555,
+          "minRank": 86192,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "大连民族大学",
+      "schoolCode": "4140",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 539,
+          "minRank": 28888,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "大连民族大学",
+      "schoolCode": "4140",
+      "majorKey": "28c62e21",
+      "majorName": "市场营销",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 503,
+          "minRank": 35398,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 507,
+          "minRank": 37290,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 515,
+          "minRank": 33682,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "大连民族大学",
+      "schoolCode": "4140",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 514,
+          "minRank": 93045,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 530,
+          "minRank": 97144,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 540,
+          "minRank": 93432,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 554,
+          "minRank": 87528,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "大连民族大学",
+      "schoolCode": "4140",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 518,
+          "minRank": 88825,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 530,
+          "minRank": 97144,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 541,
+          "minRank": 92180,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 553,
+          "minRank": 88855,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "大连民族大学",
+      "schoolCode": "4140",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 511,
+          "minRank": 96247,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 532,
+          "minRank": 95097,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 537,
+          "minRank": 97313,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "首选历史，再选不限",
+          "plan": 6,
+          "tuition": "5200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 28888,
+          "equivRank": 28888
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "首选物理，再选不限",
+          "plan": 4,
+          "tuition": "5200",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 86192,
+          "equivRank": 86192
+        }
+      ]
+    },
+    {
+      "groupCode": "（03）",
+      "groupName": "（03）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "首选物理，再选化学",
+          "plan": 6,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 88855,
+          "equivRank": 88855
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "首选物理，再选化学",
+          "plan": 4,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 87528,
+          "equivRank": 87528
+        }
+      ]
+    }
+  ]
+}

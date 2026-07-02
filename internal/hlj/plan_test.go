@@ -86,14 +86,15 @@ func TestBuildGroups2026(t *testing.T) {
 		{Year: 2026, Track: "物理", SchoolCode: "1003", SchoolName: "清华大学", GroupCode: "009", GroupName: "第009组", MajorName: "法学", SelKe: "化学", Plan: 3},
 	}
 	// 注意：往年叶子的组号是 012（2023），与 2026 的 009 不同——必须按院校+专业名挂接，不按组号。
+	ent := core.NormName("清华大学")
 	leaves := []core.MajorLeaf{
-		{SchoolCode: "1003", MajorKey: core.MajorKey("计算机类"), MajorName: "计算机类",
+		{SchoolKey: ent, SchoolCode: "1003", MajorKey: core.MajorKey("计算机类"), MajorName: "计算机类",
 			Years: []core.YearScore{{Year: 2025, Track: "物理", MinScore: 690, MinRank: 120}}},
 	}
 	totals := map[core.YearTrack]int{}
 	groups := BuildGroups2026(plan, leaves, totals, nil)
 
-	gs := groups["1003"]
+	gs := groups[ent]
 	if len(gs) != 1 || gs[0].GroupCode != "009" {
 		t.Fatalf("groups[1003] = %+v", gs)
 	}

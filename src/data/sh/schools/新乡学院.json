@@ -1,0 +1,71 @@
+{
+  "key": "新乡学院",
+  "code": "0703",
+  "name": "新乡学院",
+  "leaves": [
+    {
+      "schoolKey": "新乡学院",
+      "schoolCode": "0703",
+      "majorKey": "c395dc5a",
+      "majorName": "增材制造工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 423,
+          "minRank": 44773,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "新乡学院",
+      "schoolCode": "0703",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 424,
+          "minRank": 44546,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "增材制造工程",
+          "majorKey": "c395dc5a",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 44773,
+          "equivRank": 44773
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "物理和化学",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 44546,
+          "equivRank": 44546
+        }
+      ]
+    }
+  ]
+}

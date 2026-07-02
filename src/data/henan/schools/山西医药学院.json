@@ -1,0 +1,125 @@
+{
+  "key": "山西医药学院",
+  "code": "5735",
+  "name": "山西医药学院",
+  "leaves": [
+    {
+      "schoolKey": "山西医药学院",
+      "schoolCode": "5735",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 525,
+          "minRank": 160379,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山西医药学院",
+      "schoolCode": "5735",
+      "majorKey": "a507c400",
+      "majorName": "康复治疗学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 529,
+          "minRank": 153171,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山西医药学院",
+      "schoolCode": "5735",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 538,
+          "minRank": 136913,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山西医药学院",
+      "schoolCode": "5735",
+      "majorKey": "d35344f4",
+      "majorName": "眼视光学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 533,
+          "minRank": 145854,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 136913,
+          "equivRank": 136913
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化",
+          "plan": 18,
+          "tuition": "5480",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 160379,
+          "equivRank": 160379
+        },
+        {
+          "majorName": "眼视光学",
+          "majorKey": "d35344f4",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "5400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 145854,
+          "equivRank": 145854
+        },
+        {
+          "majorName": "康复治疗学",
+          "majorKey": "a507c400",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5400",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 153171,
+          "equivRank": 153171
+        }
+      ]
+    }
+  ]
+}

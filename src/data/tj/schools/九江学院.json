@@ -1,0 +1,133 @@
+{
+  "key": "九江学院",
+  "code": "0718",
+  "name": "九江学院",
+  "leaves": [
+    {
+      "schoolKey": "九江学院",
+      "schoolCode": "0718",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 513,
+          "minRank": 36333,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "九江学院",
+      "schoolCode": "0718",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 511,
+          "minRank": 36973,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "九江学院",
+      "schoolCode": "0718",
+      "majorKey": "8b6a817b",
+      "majorName": "物流管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 515,
+          "minRank": 35651,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "九江学院",
+      "schoolCode": "0718",
+      "majorKey": "1da18825",
+      "majorName": "物联网工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 510,
+          "minRank": 37091,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "物流管理",
+          "majorKey": "8b6a817b",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4270",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 35651,
+          "equivRank": 35651
+        },
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4270",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 36333,
+          "equivRank": 36333
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "物联网工程",
+          "majorKey": "1da18825",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "4790",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 37091,
+          "equivRank": 37091
+        },
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理加化学",
+          "plan": 3,
+          "tuition": "4530",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 36973,
+          "equivRank": 36973
+        }
+      ]
+    }
+  ]
+}

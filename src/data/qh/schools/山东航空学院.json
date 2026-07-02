@@ -1,0 +1,90 @@
+{
+  "key": "山东航空学院",
+  "code": "3675",
+  "name": "山东航空学院",
+  "leaves": [
+    {
+      "schoolKey": "山东航空学院",
+      "schoolCode": "3675",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 471,
+          "minRank": 2236,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 430,
+          "minRank": 9218,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "山东航空学院",
+      "schoolCode": "3675",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 429,
+          "minRank": 9337,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "思想政治教育",
+      "majorKey": "6a15bc12",
+      "track": "历史",
+      "selKe": "首选历史，再选思想政治",
+      "plan": 1,
+      "tuition": "5280",
+      "schooling": "四年",
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevRank": 2236,
+      "equivRank": 2236,
+      "prevScore": 471
+    },
+    {
+      "majorName": "思想政治教育",
+      "majorKey": "6a15bc12",
+      "track": "物理",
+      "selKe": "首选物理，再选思想政治",
+      "plan": 1,
+      "tuition": "5280",
+      "schooling": "四年",
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevRank": 9218,
+      "equivRank": 9218,
+      "prevScore": 430
+    },
+    {
+      "majorName": "机械设计制造及其自动化",
+      "majorKey": "55ff9da5",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 3,
+      "tuition": "6300",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 9337,
+      "equivRank": 9337,
+      "prevScore": 429
+    }
+  ]
+}

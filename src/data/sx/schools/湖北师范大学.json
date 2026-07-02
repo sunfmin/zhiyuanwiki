@@ -1,0 +1,160 @@
+{
+  "key": "湖北师范大学",
+  "code": "5015",
+  "name": "湖北师范大学",
+  "leaves": [
+    {
+      "schoolKey": "湖北师范大学",
+      "schoolCode": "5015",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 505,
+          "minRank": 51936,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北师范大学",
+      "schoolCode": "5015",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 540,
+          "minRank": 9074,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北师范大学",
+      "schoolCode": "5015",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 506,
+          "minRank": 51323,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北师范大学",
+      "schoolCode": "5015",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 541,
+          "minRank": 8894,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北师范大学",
+      "schoolCode": "5015",
+      "majorKey": "653f630d",
+      "majorName": "物理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 501,
+          "minRank": 54497,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "103",
+      "groupName": "103",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 9074,
+          "equivRank": 9074
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 8894,
+          "equivRank": 8894
+        }
+      ]
+    },
+    {
+      "groupCode": "104",
+      "groupName": "104",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 51936,
+          "equivRank": 51936
+        },
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 51323,
+          "equivRank": 51323
+        },
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 54497,
+          "equivRank": 54497
+        }
+      ]
+    }
+  ]
+}

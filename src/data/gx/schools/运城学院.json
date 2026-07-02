@@ -1,0 +1,141 @@
+{
+  "key": "运城学院",
+  "code": "10123",
+  "name": "运城学院",
+  "leaves": [
+    {
+      "schoolKey": "运城学院",
+      "schoolCode": "10123",
+      "majorKey": "c6cedaad",
+      "majorName": "园林",
+      "selKe": "首选物理，再选生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 416,
+          "minRank": 129363,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "运城学院",
+      "schoolCode": "10123",
+      "majorKey": "e6cfcc6c",
+      "majorName": "材料化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 425,
+          "minRank": 120389,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "运城学院",
+      "schoolCode": "10123",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 443,
+          "minRank": 35389,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "运城学院",
+      "schoolCode": "10123",
+      "majorKey": "131a0e7c",
+      "majorName": "秘书学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 440,
+          "minRank": 36602,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "专业组:101(首选科目:历史。再选科目:不限)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 35389,
+          "equivRank": 35389
+        },
+        {
+          "majorName": "秘书学",
+          "majorKey": "131a0e7c",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 36602,
+          "equivRank": 36602
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "专业组:102(首选科目:物理。再选科目:生物)",
+      "track": "物理",
+      "selKe": "生物",
+      "majors": [
+        {
+          "majorName": "园林",
+          "majorKey": "c6cedaad",
+          "selKe": "生物",
+          "plan": 5,
+          "tuition": "",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 129363,
+          "equivRank": 129363
+        }
+      ]
+    },
+    {
+      "groupCode": "103",
+      "groupName": "专业组:103(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "材料化学",
+          "majorKey": "e6cfcc6c",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 120389,
+          "equivRank": 120389
+        }
+      ]
+    }
+  ]
+}

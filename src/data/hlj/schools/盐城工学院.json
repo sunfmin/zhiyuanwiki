@@ -1,0 +1,92 @@
+{
+  "key": "盐城工学院",
+  "code": "1544",
+  "name": "盐城工学院",
+  "leaves": [
+    {
+      "schoolKey": "盐城工学院",
+      "schoolCode": "1544",
+      "majorKey": "24d6dbdf",
+      "majorName": "交通工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 460,
+          "minRank": 48320,
+          "maxScore": 465
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 456,
+          "minRank": 47867,
+          "maxScore": 459
+        }
+      ]
+    },
+    {
+      "schoolKey": "盐城工学院",
+      "schoolCode": "1544",
+      "majorKey": "25624660",
+      "majorName": "应用化学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 377,
+          "minRank": 49503,
+          "maxScore": 382
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 459,
+          "minRank": 48674,
+          "maxScore": 460
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 458,
+          "minRank": 47067,
+          "maxScore": 481
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "应用化学",
+          "majorKey": "25624660",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 47067,
+          "equivRank": 44022
+        },
+        {
+          "majorName": "交通工程",
+          "majorKey": "24d6dbdf",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 47867,
+          "equivRank": 44770
+        }
+      ]
+    }
+  ]
+}

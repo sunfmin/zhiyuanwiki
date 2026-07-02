@@ -1,0 +1,141 @@
+{
+  "key": "六盘水师范学院",
+  "code": "2977",
+  "name": "六盘水师范学院",
+  "leaves": [
+    {
+      "schoolKey": "六盘水师范学院",
+      "schoolCode": "2977",
+      "majorKey": "2a1f2fe5",
+      "majorName": "城乡规划",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 492,
+          "minRank": 76112,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "六盘水师范学院",
+      "schoolCode": "2977",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 486,
+          "minRank": 17496,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "六盘水师范学院",
+      "schoolCode": "2977",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 491,
+          "minRank": 76979,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "六盘水师范学院",
+      "schoolCode": "2977",
+      "majorKey": "42b22d93",
+      "majorName": "新能源科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 491,
+          "minRank": 76979,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4100",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 17496,
+          "equivRank": 17496
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 76979,
+          "equivRank": 76979
+        },
+        {
+          "majorName": "新能源科学与工程",
+          "majorKey": "42b22d93",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 76979,
+          "equivRank": 76979
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "城乡规划",
+          "majorKey": "2a1f2fe5",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 76112,
+          "equivRank": 76112
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "key": "首都医科大学",
+  "code": "1022",
+  "name": "首都医科大学",
+  "leaves": [
+    {
+      "schoolKey": "首都医科大学",
+      "schoolCode": "1022",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 614,
+          "minRank": 5116,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都医科大学",
+      "schoolCode": "1022",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 578,
+          "minRank": 13432,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都医科大学",
+      "schoolCode": "1022",
+      "majorKey": "db9ffa2a",
+      "majorName": "儿科学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 604,
+          "minRank": 6968,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都医科大学",
+      "schoolCode": "1022",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 570,
+          "minRank": 16053,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都医科大学",
+      "schoolCode": "1022",
+      "majorKey": "55f72efa",
+      "majorName": "康复物理治疗",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 566,
+          "minRank": 17400,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 13432,
+          "equivRank": 13432
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 13432,
+          "equivRank": 13432
+        },
+        {
+          "majorName": "儿科学",
+          "majorKey": "db9ffa2a",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 6968,
+          "equivRank": 6968
+        },
+        {
+          "majorName": "儿科学",
+          "majorKey": "db9ffa2a",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 6968,
+          "equivRank": 6968
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 16053,
+          "equivRank": 16053
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "听力与言语康复学",
+          "majorKey": "10433b46",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "6000",
+          "menlei": "医"
+        },
+        {
+          "majorName": "康复物理治疗",
+          "majorKey": "55f72efa",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 17400,
+          "equivRank": 17400
+        }
+      ]
+    },
+    {
+      "groupCode": "303",
+      "groupName": "303",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "304",
+      "groupName": "304",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "助产学",
+          "majorKey": "754290a4",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "6000",
+          "menlei": "医"
+        }
+      ]
+    }
+  ]
+}

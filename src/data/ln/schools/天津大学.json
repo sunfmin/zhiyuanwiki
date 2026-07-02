@@ -1,0 +1,220 @@
+{
+  "key": "天津大学",
+  "code": "0056",
+  "name": "天津大学",
+  "leaves": [
+    {
+      "schoolKey": "天津大学",
+      "schoolCode": "0056",
+      "majorKey": "696c3187",
+      "majorName": "医学试验班",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 649,
+          "minRank": 2609,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "天津大学",
+      "schoolCode": "0056",
+      "majorKey": "b363aa3d",
+      "majorName": "工科试验班",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 659,
+          "minRank": 1496,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "天津大学",
+      "schoolCode": "0056",
+      "majorKey": "6b32f2c4",
+      "majorName": "建筑学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 606,
+          "minRank": 1643,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "天津大学",
+      "schoolCode": "0056",
+      "majorKey": "caa6f3a9",
+      "majorName": "建筑类",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 611,
+          "minRank": 1368,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "天津大学",
+      "schoolCode": "0056",
+      "majorKey": "33b3d741",
+      "majorName": "数学类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 652,
+          "minRank": 2228,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "天津大学",
+      "schoolCode": "0056",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 632,
+          "minRank": 486,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "天津大学",
+      "schoolCode": "0056",
+      "majorKey": "47abff30",
+      "majorName": "经济管理试验班",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 637,
+          "minRank": 4398,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "法学",
+      "majorKey": "a1113a1f",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 5,
+      "tuition": "5200",
+      "schooling": "4",
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevRank": 486,
+      "equivRank": 486,
+      "prevScore": 632
+    },
+    {
+      "majorName": "建筑类",
+      "majorKey": "caa6f3a9",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 10,
+      "tuition": "5800",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 1368,
+      "equivRank": 1368,
+      "prevScore": 611
+    },
+    {
+      "majorName": "工科试验班",
+      "majorKey": "b363aa3d",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 141,
+      "tuition": "5800",
+      "schooling": "4",
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 1496,
+      "equivRank": 1496,
+      "prevScore": 659
+    },
+    {
+      "majorName": "建筑学",
+      "majorKey": "6b32f2c4",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 5,
+      "tuition": "待定",
+      "schooling": "5",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 1643,
+      "equivRank": 1643,
+      "prevScore": 606
+    },
+    {
+      "majorName": "数学类",
+      "majorKey": "33b3d741",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 20,
+      "tuition": "5800",
+      "schooling": "4",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 2228,
+      "equivRank": 2228,
+      "prevScore": 652
+    },
+    {
+      "majorName": "医学试验班",
+      "majorKey": "696c3187",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 10,
+      "tuition": "待定",
+      "schooling": "4",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 2609,
+      "equivRank": 2609,
+      "prevScore": 649
+    },
+    {
+      "majorName": "经济管理试验班",
+      "majorKey": "47abff30",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 15,
+      "tuition": "5200",
+      "schooling": "4",
+      "menlei": "经",
+      "prevYear": 2025,
+      "prevRank": 4398,
+      "equivRank": 4398,
+      "prevScore": 637
+    }
+  ]
+}

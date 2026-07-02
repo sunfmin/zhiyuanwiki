@@ -1,0 +1,106 @@
+{
+  "key": "广州医科大学",
+  "code": "2036",
+  "name": "广州医科大学",
+  "leaves": [
+    {
+      "schoolKey": "广州医科大学",
+      "schoolCode": "2036",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 605,
+          "minRank": 5206,
+          "maxScore": 605
+        }
+      ]
+    },
+    {
+      "schoolKey": "广州医科大学",
+      "schoolCode": "2036",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 514,
+          "minRank": 27485,
+          "maxScore": 524
+        }
+      ]
+    },
+    {
+      "schoolKey": "广州医科大学",
+      "schoolCode": "2036",
+      "majorKey": "0ac1da59",
+      "majorName": "生物技术",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 530,
+          "minRank": 22442,
+          "maxScore": 530
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "7656",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 5206,
+          "equivRank": 4869
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "生物技术",
+          "majorKey": "0ac1da59",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "6230",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 22442,
+          "equivRank": 20990
+        },
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "6960",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 27485,
+          "equivRank": 25707
+        }
+      ]
+    }
+  ]
+}

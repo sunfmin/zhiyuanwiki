@@ -1,0 +1,105 @@
+{
+  "key": "湖南人文科技学院",
+  "code": "4345",
+  "name": "湖南人文科技学院",
+  "leaves": [
+    {
+      "schoolKey": "湖南人文科技学院",
+      "schoolCode": "4345",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 470,
+          "minRank": 4138,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 438,
+          "minRank": 16717,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖南人文科技学院",
+      "schoolCode": "4345",
+      "majorKey": "1c1ee3f7",
+      "majorName": "通信工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 436,
+          "minRank": 17102,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "待定",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 4138,
+          "equivRank": 4138
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "待定",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 16717,
+          "equivRank": 16717
+        }
+      ]
+    },
+    {
+      "groupCode": "502",
+      "groupName": "502",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "待定",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 17102,
+          "equivRank": 17102
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "key": "营口理工学院",
+  "code": "F497",
+  "name": "营口理工学院",
+  "leaves": [
+    {
+      "schoolKey": "营口理工学院",
+      "schoolCode": "F497",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 503,
+          "minRank": 83964,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "营口理工学院",
+      "schoolCode": "F497",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 502,
+          "minRank": 84879,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "营口理工学院",
+      "schoolCode": "F497",
+      "majorKey": "e6a89fa4",
+      "majorName": "金融工程",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 478,
+          "minRank": 106016,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "金融工程",
+          "majorKey": "e6a89fa4",
+          "selKe": "物理",
+          "plan": 3,
+          "tuition": "4900",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 106016,
+          "equivRank": 106016
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 83964,
+          "equivRank": 83964
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 84879,
+          "equivRank": 84879
+        }
+      ]
+    }
+  ]
+}

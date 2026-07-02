@@ -1,0 +1,143 @@
+{
+  "key": "中央美术学院",
+  "code": "0047",
+  "name": "中央美术学院",
+  "leaves": [
+    {
+      "schoolKey": "中央美术学院",
+      "schoolCode": "0047",
+      "majorKey": "ae17c365",
+      "majorName": "艺术史论",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 573,
+          "minRank": 4341,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 524,
+          "minRank": 44808,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中央美术学院",
+      "schoolCode": "0047",
+      "majorKey": "c23e4b23",
+      "majorName": "艺术教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 581,
+          "minRank": 3534,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中央美术学院",
+      "schoolCode": "0047",
+      "majorKey": "44d89b18",
+      "majorName": "艺术管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 587,
+          "minRank": 3025,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 592,
+          "minRank": 16282,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "艺术管理",
+      "majorKey": "44d89b18",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 1,
+      "tuition": "8000",
+      "schooling": "4",
+      "menlei": "艺",
+      "prevYear": 2025,
+      "prevRank": 3025,
+      "equivRank": 3025,
+      "prevScore": 587
+    },
+    {
+      "majorName": "艺术教育",
+      "majorKey": "c23e4b23",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 1,
+      "tuition": "8000",
+      "schooling": "4",
+      "menlei": "教",
+      "prevYear": 2025,
+      "prevRank": 3534,
+      "equivRank": 3534,
+      "prevScore": 581
+    },
+    {
+      "majorName": "艺术史论",
+      "majorKey": "ae17c365",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 2,
+      "tuition": "45000",
+      "schooling": "4",
+      "menlei": "艺",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 4341,
+      "equivRank": 4341,
+      "prevScore": 573
+    },
+    {
+      "majorName": "艺术管理",
+      "majorKey": "44d89b18",
+      "track": "物理",
+      "selKe": "物理",
+      "plan": 1,
+      "tuition": "8000",
+      "schooling": "4",
+      "menlei": "艺",
+      "prevYear": 2025,
+      "prevRank": 16282,
+      "equivRank": 16282,
+      "prevScore": 592
+    },
+    {
+      "majorName": "艺术史论",
+      "majorKey": "ae17c365",
+      "track": "物理",
+      "selKe": "物理",
+      "plan": 2,
+      "tuition": "45000",
+      "schooling": "4",
+      "menlei": "艺",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 44808,
+      "equivRank": 44808,
+      "prevScore": 524
+    }
+  ]
+}

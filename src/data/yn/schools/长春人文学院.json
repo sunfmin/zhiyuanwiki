@@ -1,0 +1,79 @@
+{
+  "key": "长春人文学院",
+  "code": "2253",
+  "name": "长春人文学院",
+  "leaves": [
+    {
+      "schoolKey": "长春人文学院",
+      "schoolCode": "2253",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 490,
+          "minRank": 31076,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春人文学院",
+      "schoolCode": "2253",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 423,
+          "minRank": 119311,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "2.5万元",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 31076,
+          "equivRank": 31076
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "2.5万元",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 119311,
+          "equivRank": 119311
+        }
+      ]
+    }
+  ]
+}

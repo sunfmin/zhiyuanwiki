@@ -1,0 +1,69 @@
+{
+  "key": "云南师范大学",
+  "code": "5236",
+  "name": "云南师范大学",
+  "leaves": [
+    {
+      "schoolKey": "云南师范大学",
+      "schoolCode": "5236",
+      "majorKey": "ec77cae2",
+      "majorName": "旅游管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 443,
+          "minRank": 3621,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "云南师范大学",
+      "schoolCode": "5236",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 453,
+          "minRank": 6878,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "旅游管理",
+      "majorKey": "ec77cae2",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 2,
+      "tuition": "4500",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 3621,
+      "equivRank": 3621,
+      "prevScore": 443
+    },
+    {
+      "majorName": "法学",
+      "majorKey": "a1113a1f",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 2,
+      "tuition": "4500",
+      "schooling": "四年",
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevRank": 6878,
+      "equivRank": 6878,
+      "prevScore": 453
+    }
+  ]
+}

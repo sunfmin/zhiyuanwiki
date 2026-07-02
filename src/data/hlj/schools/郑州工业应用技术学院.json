@@ -1,0 +1,165 @@
+{
+  "key": "郑州工业应用技术学院",
+  "code": "3463",
+  "name": "郑州工业应用技术学院",
+  "leaves": [
+    {
+      "schoolKey": "郑州工业应用技术学院",
+      "schoolCode": "3463",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 368,
+          "minRank": 18289,
+          "maxScore": 376
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 331,
+          "minRank": 67556,
+          "maxScore": 337
+        },
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 420,
+          "minRank": 21801,
+          "maxScore": 446
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 375,
+          "minRank": 80885,
+          "maxScore": 399
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 425,
+          "minRank": 19248,
+          "maxScore": 437
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 380,
+          "minRank": 77743,
+          "maxScore": 390
+        }
+      ]
+    },
+    {
+      "schoolKey": "郑州工业应用技术学院",
+      "schoolCode": "3463",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "化学和生物",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 328,
+          "minRank": 68713,
+          "maxScore": 354
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 376,
+          "minRank": 80485,
+          "maxScore": 408
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 382,
+          "minRank": 76944,
+          "maxScore": 409
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "15000",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "第003组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "15000",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "第004组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "16000",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "005",
+      "groupName": "第005组",
+      "track": "物理",
+      "selKe": "化学和生物",
+      "majors": [
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化学和生物",
+          "plan": 5,
+          "tuition": "17000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 76944,
+          "equivRank": 71966
+        },
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学和生物",
+          "plan": 5,
+          "tuition": "17000",
+          "menlei": "医"
+        }
+      ]
+    }
+  ]
+}

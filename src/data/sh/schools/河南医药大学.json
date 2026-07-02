@@ -1,0 +1,125 @@
+{
+  "key": "河南医药大学",
+  "code": "0690",
+  "name": "河南医药大学",
+  "leaves": [
+    {
+      "schoolKey": "河南医药大学",
+      "schoolCode": "0690",
+      "majorKey": "db9ffa2a",
+      "majorName": "儿科学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 461,
+          "minRank": 35266,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河南医药大学",
+      "schoolCode": "0690",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 472,
+          "minRank": 32224,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河南医药大学",
+      "schoolCode": "0690",
+      "majorKey": "e86ddf0a",
+      "majorName": "精神医学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 472,
+          "minRank": 32224,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河南医药大学",
+      "schoolCode": "0690",
+      "majorKey": "83eea431",
+      "majorName": "麻醉学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 467,
+          "minRank": 33627,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "儿科学",
+          "majorKey": "db9ffa2a",
+          "selKe": "物理和化学",
+          "plan": 5,
+          "tuition": "6050",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 35266,
+          "equivRank": 35266
+        },
+        {
+          "majorName": "精神医学",
+          "majorKey": "e86ddf0a",
+          "selKe": "物理和化学",
+          "plan": 3,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 32224,
+          "equivRank": 32224
+        },
+        {
+          "majorName": "医学影像学",
+          "majorKey": "5780af73",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 32224,
+          "equivRank": 32224
+        },
+        {
+          "majorName": "麻醉学",
+          "majorKey": "83eea431",
+          "selKe": "物理和化学",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 33627,
+          "equivRank": 33627
+        }
+      ]
+    }
+  ]
+}

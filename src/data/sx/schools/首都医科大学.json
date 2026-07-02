@@ -1,0 +1,182 @@
+{
+  "key": "首都医科大学",
+  "code": "1022",
+  "name": "首都医科大学",
+  "leaves": [
+    {
+      "schoolKey": "首都医科大学",
+      "schoolCode": "1022",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 635,
+          "minRank": 4441,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都医科大学",
+      "schoolCode": "1022",
+      "majorKey": "c69b91ea",
+      "majorName": "临床药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 607,
+          "minRank": 9716,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都医科大学",
+      "schoolCode": "1022",
+      "majorKey": "db9ffa2a",
+      "majorName": "儿科学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 631,
+          "minRank": 5048,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都医科大学",
+      "schoolCode": "1022",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 654,
+          "minRank": 2245,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都医科大学",
+      "schoolCode": "1022",
+      "majorKey": "1954d9c9",
+      "majorName": "预防医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 606,
+          "minRank": 9951,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 4441,
+          "equivRank": 4441
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 4441,
+          "equivRank": 4441
+        },
+        {
+          "majorName": "儿科学",
+          "majorKey": "db9ffa2a",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 5048,
+          "equivRank": 5048
+        },
+        {
+          "majorName": "儿科学",
+          "majorKey": "db9ffa2a",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 5048,
+          "equivRank": 5048
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 2245,
+          "equivRank": 2245
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "预防医学",
+          "majorKey": "1954d9c9",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 9951,
+          "equivRank": 9951
+        },
+        {
+          "majorName": "临床药学",
+          "majorKey": "c69b91ea",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 9716,
+          "equivRank": 9716
+        }
+      ]
+    }
+  ]
+}

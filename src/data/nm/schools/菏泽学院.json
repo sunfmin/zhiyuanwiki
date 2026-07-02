@@ -1,0 +1,201 @@
+{
+  "key": "菏泽学院",
+  "code": "A89",
+  "name": "菏泽学院",
+  "leaves": [
+    {
+      "schoolKey": "菏泽学院",
+      "schoolCode": "A89",
+      "majorKey": "4fa2a9fc",
+      "majorName": "健康服务与管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 485,
+          "minRank": 11683,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 439,
+          "minRank": 48647,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "菏泽学院",
+      "schoolCode": "A89",
+      "majorKey": "e9c95a9c",
+      "majorName": "广告学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 505,
+          "minRank": 9326,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 471,
+          "minRank": 38447,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "菏泽学院",
+      "schoolCode": "A89",
+      "majorKey": "e2472a71",
+      "majorName": "生物科学",
+      "selKe": "物理,化学,生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 459,
+          "minRank": 42207,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "菏泽学院",
+      "schoolCode": "A89",
+      "majorKey": "7b7511cd",
+      "majorName": "食品科学与工程",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 476,
+          "minRank": 36946,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "005",
+      "groupName": "005",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "健康服务与管理",
+          "majorKey": "4fa2a9fc",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 11683,
+          "equivRank": 11683
+        }
+      ]
+    },
+    {
+      "groupCode": "006",
+      "groupName": "006",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "广告学",
+          "majorKey": "e9c95a9c",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4400",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 9326,
+          "equivRank": 9326
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 36946,
+          "equivRank": 36946
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "化学,生物学",
+      "majors": [
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "化学,生物学",
+          "plan": 3,
+          "tuition": "6325",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 42207,
+          "equivRank": 42207
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "广告学",
+          "majorKey": "e9c95a9c",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4400",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 38447,
+          "equivRank": 38447
+        }
+      ]
+    },
+    {
+      "groupCode": "004",
+      "groupName": "004",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "健康服务与管理",
+          "majorKey": "4fa2a9fc",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 48647,
+          "equivRank": 48647
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "key": "广西财经学院",
+  "code": "1548",
+  "name": "广西财经学院",
+  "leaves": [
+    {
+      "schoolKey": "广西财经学院",
+      "schoolCode": "1548",
+      "majorKey": "bda0ff17",
+      "majorName": "经济学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 497,
+          "minRank": 15360,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "广西财经学院",
+      "schoolCode": "1548",
+      "majorKey": "6db99de4",
+      "majorName": "财政学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 506,
+          "minRank": 53584,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "经济学",
+      "majorKey": "bda0ff17",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 3,
+      "tuition": "4600",
+      "schooling": "4",
+      "menlei": "经",
+      "prevYear": 2025,
+      "prevRank": 15360,
+      "equivRank": 15360,
+      "prevScore": 497
+    },
+    {
+      "majorName": "财政学",
+      "majorKey": "6db99de4",
+      "track": "物理",
+      "selKe": "物理",
+      "plan": 2,
+      "tuition": "4600",
+      "schooling": "4",
+      "menlei": "经",
+      "prevYear": 2025,
+      "prevRank": 53584,
+      "equivRank": 53584,
+      "prevScore": 506
+    }
+  ]
+}

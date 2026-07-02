@@ -1,0 +1,160 @@
+{
+  "key": "信阳农林学院",
+  "code": "H571",
+  "name": "信阳农林学院",
+  "leaves": [
+    {
+      "schoolKey": "信阳农林学院",
+      "schoolCode": "H571",
+      "majorKey": "b3e5d67f",
+      "majorName": "动物医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 508,
+          "minRank": 79629,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "信阳农林学院",
+      "schoolCode": "H571",
+      "majorKey": "ca01c9a2",
+      "majorName": "动物科学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 497,
+          "minRank": 89180,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "信阳农林学院",
+      "schoolCode": "H571",
+      "majorKey": "c6cedaad",
+      "majorName": "园林",
+      "selKe": "首选物理，再选生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 479,
+          "minRank": 105123,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "信阳农林学院",
+      "schoolCode": "H571",
+      "majorKey": "5f3767bd",
+      "majorName": "水产养殖学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 495,
+          "minRank": 90978,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "信阳农林学院",
+      "schoolCode": "H571",
+      "majorKey": "2f5c1273",
+      "majorName": "茶学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 495,
+          "minRank": 90978,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "动物医学",
+          "majorKey": "b3e5d67f",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "5000",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 79629,
+          "equivRank": 79629
+        },
+        {
+          "majorName": "动物科学",
+          "majorKey": "ca01c9a2",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "5000",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 89180,
+          "equivRank": 89180
+        },
+        {
+          "majorName": "茶学",
+          "majorKey": "2f5c1273",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 90978,
+          "equivRank": 90978
+        },
+        {
+          "majorName": "水产养殖学",
+          "majorKey": "5f3767bd",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 90978,
+          "equivRank": 90978
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,生物",
+      "majors": [
+        {
+          "majorName": "园林",
+          "majorKey": "c6cedaad",
+          "selKe": "物理,生物",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 105123,
+          "equivRank": 105123
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "key": "皖南医学院",
+  "code": "3210",
+  "name": "皖南医学院",
+  "leaves": [
+    {
+      "schoolKey": "皖南医学院",
+      "schoolCode": "3210",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 538,
+          "minRank": 33514,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "皖南医学院",
+      "schoolCode": "3210",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 543,
+          "minRank": 31136,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "皖南医学院",
+      "schoolCode": "3210",
+      "majorKey": "83eea431",
+      "majorName": "麻醉学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 538,
+          "minRank": 33514,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "130",
+      "groupName": "130",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5720",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 33514,
+          "equivRank": 33514
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5720",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 31136,
+          "equivRank": 31136
+        },
+        {
+          "majorName": "麻醉学",
+          "majorKey": "83eea431",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5720",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 33514,
+          "equivRank": 33514
+        }
+      ]
+    }
+  ]
+}

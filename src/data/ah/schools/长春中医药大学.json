@@ -1,0 +1,188 @@
+{
+  "key": "长春中医药大学",
+  "code": "1108",
+  "name": "长春中医药大学",
+  "leaves": [
+    {
+      "schoolKey": "长春中医药大学",
+      "schoolCode": "1108",
+      "majorKey": "f9504a0c",
+      "majorName": "中药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 514,
+          "minRank": 114928,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春中医药大学",
+      "schoolCode": "1108",
+      "majorKey": "28bd788f",
+      "majorName": "制药工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 508,
+          "minRank": 123337,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春中医药大学",
+      "schoolCode": "1108",
+      "majorKey": "754290a4",
+      "majorName": "助产学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 505,
+          "minRank": 127752,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春中医药大学",
+      "schoolCode": "1108",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 506,
+          "minRank": 126302,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春中医药大学",
+      "schoolCode": "1108",
+      "majorKey": "97b7b689",
+      "majorName": "生物制药",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 497,
+          "minRank": 139469,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春中医药大学",
+      "schoolCode": "1108",
+      "majorKey": "24bf5f4d",
+      "majorName": "药事管理",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 508,
+          "minRank": 123337,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "中药学",
+          "majorKey": "f9504a0c",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6160元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 114928,
+          "equivRank": 114928
+        },
+        {
+          "majorName": "助产学",
+          "majorKey": "754290a4",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5600元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 127752,
+          "equivRank": 127752
+        },
+        {
+          "majorName": "药事管理",
+          "majorKey": "24bf5f4d",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6160元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 123337,
+          "equivRank": 123337
+        },
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "化学",
+          "plan": 9,
+          "tuition": "6160元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 126302,
+          "equivRank": 126302
+        },
+        {
+          "majorName": "制药工程",
+          "majorKey": "28bd788f",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5940元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 123337,
+          "equivRank": 123337
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "生物制药",
+          "majorKey": "97b7b689",
+          "selKe": "化学",
+          "plan": 6,
+          "tuition": "26000元/年",
+          "menlei": "工",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 139469,
+          "equivRank": 139469
+        }
+      ]
+    }
+  ]
+}

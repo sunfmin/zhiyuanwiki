@@ -1,0 +1,71 @@
+{
+  "key": "商丘工学院",
+  "code": "2316",
+  "name": "商丘工学院",
+  "leaves": [
+    {
+      "schoolKey": "商丘工学院",
+      "schoolCode": "2316",
+      "majorKey": "e9cb8b0a",
+      "majorName": "汽车服务工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 479,
+          "minRank": 166052,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "商丘工学院",
+      "schoolCode": "2316",
+      "majorKey": "92b6110d",
+      "majorName": "车辆工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 477,
+          "minRank": 168871,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "汽车服务工程",
+          "majorKey": "e9cb8b0a",
+          "selKe": "化学",
+          "plan": 10,
+          "tuition": "15800元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 166052,
+          "equivRank": 166052
+        },
+        {
+          "majorName": "车辆工程",
+          "majorKey": "92b6110d",
+          "selKe": "化学",
+          "plan": 10,
+          "tuition": "15800元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 168871,
+          "equivRank": 168871
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "key": "长春大学",
+  "code": "2227",
+  "name": "长春大学",
+  "leaves": [
+    {
+      "schoolKey": "长春大学",
+      "schoolCode": "2227",
+      "majorKey": "f3fa4b3d",
+      "majorName": "信息与计算科学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 478,
+          "minRank": 43320,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春大学",
+      "schoolCode": "2227",
+      "majorKey": "d875ea2d",
+      "majorName": "光电信息材料与器件",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 467,
+          "minRank": 46071,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春大学",
+      "schoolCode": "2227",
+      "majorKey": "bdb5a180",
+      "majorName": "机械工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 468,
+          "minRank": 45832,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "光电信息材料与器件",
+          "majorKey": "d875ea2d",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5400",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 46071,
+          "equivRank": 46071
+        },
+        {
+          "majorName": "机械工程",
+          "majorKey": "bdb5a180",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5940",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 45832,
+          "equivRank": 45832
+        },
+        {
+          "majorName": "信息与计算科学",
+          "majorKey": "f3fa4b3d",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "5500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 43320,
+          "equivRank": 43320
+        }
+      ]
+    }
+  ]
+}

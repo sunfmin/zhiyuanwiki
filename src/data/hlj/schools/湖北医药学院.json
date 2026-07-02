@@ -1,0 +1,163 @@
+{
+  "key": "湖北医药学院",
+  "code": "1952",
+  "name": "湖北医药学院",
+  "leaves": [
+    {
+      "schoolKey": "湖北医药学院",
+      "schoolCode": "1952",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 428,
+          "minRank": 32477,
+          "maxScore": 437
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 521,
+          "minRank": 28067,
+          "maxScore": 526
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 501,
+          "minRank": 31850,
+          "maxScore": 535
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北医药学院",
+      "schoolCode": "1952",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 428,
+          "minRank": 32477,
+          "maxScore": 428
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 529,
+          "minRank": 25726,
+          "maxScore": 529
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 513,
+          "minRank": 27830,
+          "maxScore": 513
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北医药学院",
+      "schoolCode": "1952",
+      "majorKey": "11fef64a",
+      "majorName": "医学影像技术",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 511,
+          "minRank": 31079,
+          "maxScore": 511
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 500,
+          "minRank": 32203,
+          "maxScore": 500
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北医药学院",
+      "schoolCode": "1952",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 426,
+          "minRank": 33075,
+          "maxScore": 426
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 509,
+          "minRank": 31720,
+          "maxScore": 512
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 491,
+          "minRank": 35295,
+          "maxScore": 499
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 31850,
+          "equivRank": 29789
+        },
+        {
+          "majorName": "医学影像学",
+          "majorKey": "5780af73",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 27830,
+          "equivRank": 26029
+        },
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 35295,
+          "equivRank": 33011
+        }
+      ]
+    }
+  ]
+}

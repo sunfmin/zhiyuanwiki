@@ -1,0 +1,71 @@
+{
+  "key": "皖西学院",
+  "code": "10376",
+  "name": "皖西学院",
+  "leaves": [
+    {
+      "schoolKey": "皖西学院",
+      "schoolCode": "10376",
+      "majorKey": "7ab09507",
+      "majorName": "环境科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 451,
+          "minRank": 95726,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "皖西学院",
+      "schoolCode": "10376",
+      "majorKey": "14eeb10f",
+      "majorName": "生物工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 452,
+          "minRank": 94814,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "专业组:101(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "环境科学与工程",
+          "majorKey": "7ab09507",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "4900元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 95726,
+          "equivRank": 95726
+        },
+        {
+          "majorName": "生物工程",
+          "majorKey": "14eeb10f",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "4900元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 94814,
+          "equivRank": 94814
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "key": "上海大学",
+  "code": "3024",
+  "name": "上海大学",
+  "leaves": [
+    {
+      "schoolKey": "上海大学",
+      "schoolCode": "3024",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 526,
+          "minRank": 742,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海大学",
+      "schoolCode": "3024",
+      "majorKey": "f5e060b4",
+      "majorName": "文科试验班类",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 524,
+          "minRank": 786,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "思想政治教育",
+      "majorKey": "6a15bc12",
+      "track": "历史",
+      "selKe": "首选历史，再选思想政治",
+      "plan": 3,
+      "tuition": "6500",
+      "schooling": "四年",
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevRank": 742,
+      "equivRank": 742,
+      "prevScore": 526
+    },
+    {
+      "majorName": "文科试验班类",
+      "majorKey": "f5e060b4",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 3,
+      "tuition": "6500",
+      "schooling": "四年",
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 786,
+      "equivRank": 786,
+      "prevScore": 524
+    },
+    {
+      "majorName": "电气类",
+      "majorKey": "e1371d8e",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 3,
+      "tuition": "7000",
+      "schooling": "四年",
+      "menlei": "工"
+    }
+  ]
+}

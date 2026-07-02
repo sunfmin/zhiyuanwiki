@@ -1,0 +1,222 @@
+{
+  "key": "江苏师范大学",
+  "code": "1825",
+  "name": "江苏师范大学",
+  "leaves": [
+    {
+      "schoolKey": "江苏师范大学",
+      "schoolCode": "1825",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 585,
+          "minRank": 37839,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "江苏师范大学",
+      "schoolCode": "1825",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 585,
+          "minRank": 37839,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "江苏师范大学",
+      "schoolCode": "1825",
+      "majorKey": "d2fbd5c5",
+      "majorName": "汉语国际教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 581,
+          "minRank": 6406,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "江苏师范大学",
+      "schoolCode": "1825",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 583,
+          "minRank": 6080,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "江苏师范大学",
+      "schoolCode": "1825",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 578,
+          "minRank": 43621,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "江苏师范大学",
+      "schoolCode": "1825",
+      "majorKey": "653f630d",
+      "majorName": "物理学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 581,
+          "minRank": 41062,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "江苏师范大学",
+      "schoolCode": "1825",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 575,
+          "minRank": 46234,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5720元/年",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 6080,
+          "equivRank": 6080
+        },
+        {
+          "majorName": "汉语国际教育",
+          "majorKey": "d2fbd5c5",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5720元/年",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 6406,
+          "equivRank": 6406
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5200元/年",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 46234,
+          "equivRank": 46234
+        },
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5200元/年",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 43621,
+          "equivRank": 43621
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "6050元/年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 37839,
+          "equivRank": 37839
+        },
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6050元/年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 41062,
+          "equivRank": 41062
+        },
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "5800元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 37839,
+          "equivRank": 37839
+        }
+      ]
+    }
+  ]
+}

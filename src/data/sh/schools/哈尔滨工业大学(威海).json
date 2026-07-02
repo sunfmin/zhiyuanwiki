@@ -1,0 +1,90 @@
+{
+  "key": "哈尔滨工业大学(威海)",
+  "code": "0645",
+  "name": "哈尔滨工业大学(威海)",
+  "leaves": [
+    {
+      "schoolKey": "哈尔滨工业大学(威海)",
+      "schoolCode": "0645",
+      "majorKey": "b363aa3d",
+      "majorName": "工科试验班",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 580,
+          "minRank": 4096,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "哈尔滨工业大学(威海)",
+      "schoolCode": "0645",
+      "majorKey": "c90681af",
+      "majorName": "智能材料与结构",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 571,
+          "minRank": 5815,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "6600",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 4096,
+          "equivRank": 4096
+        },
+        {
+          "majorName": "工科试验班",
+          "majorKey": "b363aa3d",
+          "selKe": "物理和化学",
+          "plan": 4,
+          "tuition": "7000",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 4096,
+          "equivRank": 4096
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "智能材料与结构",
+          "majorKey": "c90681af",
+          "selKe": "物理和化学",
+          "plan": 3,
+          "tuition": "85000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 5815,
+          "equivRank": 5815
+        }
+      ]
+    }
+  ]
+}

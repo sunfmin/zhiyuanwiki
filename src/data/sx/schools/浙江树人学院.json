@@ -1,0 +1,71 @@
+{
+  "key": "浙江树人学院",
+  "code": "4227",
+  "name": "浙江树人学院",
+  "leaves": [
+    {
+      "schoolKey": "浙江树人学院",
+      "schoolCode": "4227",
+      "majorKey": "4150dfbb",
+      "majorName": "会展经济与管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 449,
+          "minRank": 31672,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "浙江树人学院",
+      "schoolCode": "4227",
+      "majorKey": "fd907dda",
+      "majorName": "社会工作",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 446,
+          "minRank": 32584,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "会展经济与管理",
+          "majorKey": "4150dfbb",
+          "selKe": "历史",
+          "plan": 5,
+          "tuition": "31000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 31672,
+          "equivRank": 31672
+        },
+        {
+          "majorName": "社会工作",
+          "majorKey": "fd907dda",
+          "selKe": "历史",
+          "plan": 5,
+          "tuition": "31000",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 32584,
+          "equivRank": 32584
+        }
+      ]
+    }
+  ]
+}

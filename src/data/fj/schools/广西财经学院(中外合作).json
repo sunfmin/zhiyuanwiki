@@ -1,0 +1,42 @@
+{
+  "key": "广西财经学院(中外合作)",
+  "code": "2506",
+  "name": "广西财经学院(中外合作)",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数字媒体技术",
+          "majorKey": "889e9381",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "35000",
+          "menlei": "工",
+          "coop": true
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融数学",
+          "majorKey": "fcd46a8c",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "35000",
+          "menlei": "经",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

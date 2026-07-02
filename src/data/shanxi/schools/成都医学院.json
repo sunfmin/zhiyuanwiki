@@ -1,0 +1,44 @@
+{
+  "key": "成都医学院",
+  "code": "3397",
+  "name": "成都医学院",
+  "leaves": [
+    {
+      "schoolKey": "成都医学院",
+      "schoolCode": "3397",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 546,
+          "minRank": 25009,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化",
+          "plan": 50,
+          "tuition": "6670",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 25009,
+          "equivRank": 25009
+        }
+      ]
+    }
+  ]
+}

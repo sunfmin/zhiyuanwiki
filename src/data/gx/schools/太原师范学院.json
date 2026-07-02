@@ -1,0 +1,249 @@
+{
+  "key": "太原师范学院",
+  "code": "10119",
+  "name": "太原师范学院",
+  "leaves": [
+    {
+      "schoolKey": "太原师范学院",
+      "schoolCode": "10119",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 444,
+          "minRank": 102066,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "太原师范学院",
+      "schoolCode": "10119",
+      "majorKey": "c9800f2a",
+      "majorName": "历史学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 451,
+          "minRank": 32228,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "太原师范学院",
+      "schoolCode": "10119",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 443,
+          "minRank": 35389,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "太原师范学院",
+      "schoolCode": "10119",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 499,
+          "minRank": 16957,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "太原师范学院",
+      "schoolCode": "10119",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 449,
+          "minRank": 97579,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "太原师范学院",
+      "schoolCode": "10119",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 479,
+          "minRank": 22484,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "太原师范学院",
+      "schoolCode": "10119",
+      "majorKey": "e2472a71",
+      "majorName": "生物科学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 442,
+          "minRank": 103930,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "太原师范学院",
+      "schoolCode": "10119",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 442,
+          "minRank": 35788,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "专业组:101(首选科目:历史。再选科目:不限)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "5000元/年",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 35389,
+          "equivRank": 35389
+        },
+        {
+          "majorName": "汉语言文学",
+          "majorKey": "97bc5998",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5000元/年",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 22484,
+          "equivRank": 22484
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "5000元/年",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 35788,
+          "equivRank": 35788
+        },
+        {
+          "majorName": "历史学",
+          "majorKey": "c9800f2a",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5000元/年",
+          "menlei": "史",
+          "prevYear": 2025,
+          "prevRank": 32228,
+          "equivRank": 32228
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "专业组:102(首选科目:历史。再选科目:思想政治)",
+      "track": "历史",
+      "selKe": "思想政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "思想政治",
+          "plan": 3,
+          "tuition": "5000元/年",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 16957,
+          "equivRank": 16957
+        }
+      ]
+    },
+    {
+      "groupCode": "103",
+      "groupName": "专业组:103(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5000元/年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 97579,
+          "equivRank": 97579
+        },
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "5000元/年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 102066,
+          "equivRank": 102066
+        },
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5000元/年",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 103930,
+          "equivRank": 103930
+        }
+      ]
+    }
+  ]
+}

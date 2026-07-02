@@ -1,0 +1,64 @@
+{
+  "key": "河北医科大学临床学院",
+  "code": "F248",
+  "name": "河北医科大学临床学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史,生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "历史,生物",
+          "plan": 4,
+          "tuition": "10000",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学,生物",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学,生物",
+          "plan": 4,
+          "tuition": "10000",
+          "menlei": "医"
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "物理,化学,生物",
+          "plan": 3,
+          "tuition": "10000",
+          "menlei": "医"
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理,生物",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "物理,生物",
+          "plan": 4,
+          "tuition": "10000",
+          "menlei": "医"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "key": "攀枝花学院",
+  "code": "2243",
+  "name": "攀枝花学院",
+  "leaves": [
+    {
+      "schoolKey": "攀枝花学院",
+      "schoolCode": "2243",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 324,
+          "minRank": 70320,
+          "maxScore": 339
+        }
+      ]
+    },
+    {
+      "schoolKey": "攀枝花学院",
+      "schoolCode": "2243",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 444,
+          "minRank": 15943,
+          "maxScore": 454
+        }
+      ]
+    },
+    {
+      "schoolKey": "攀枝花学院",
+      "schoolCode": "2243",
+      "majorKey": "2363aecb",
+      "majorName": "智能建造",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 334,
+          "minRank": 66357,
+          "maxScore": 339
+        }
+      ]
+    },
+    {
+      "schoolKey": "攀枝花学院",
+      "schoolCode": "2243",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 452,
+          "minRank": 51235,
+          "maxScore": 491
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 456,
+          "minRank": 47867,
+          "maxScore": 472
+        }
+      ]
+    },
+    {
+      "schoolKey": "攀枝花学院",
+      "schoolCode": "2243",
+      "majorKey": "8b6a817b",
+      "majorName": "物流管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 450,
+          "minRank": 16483,
+          "maxScore": 467
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5520",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 15943,
+          "equivRank": 15943
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5980",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 47867,
+          "equivRank": 44770
+        }
+      ]
+    }
+  ]
+}

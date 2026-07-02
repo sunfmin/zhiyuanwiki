@@ -1,0 +1,56 @@
+{
+  "key": "海南比勒费尔德应用科学大学",
+  "code": "2630",
+  "name": "海南比勒费尔德应用科学大学",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电子信息科学与技术",
+          "majorKey": "14856541",
+          "selKe": "化学",
+          "plan": 6,
+          "tuition": "100000",
+          "menlei": "工"
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "化学",
+          "plan": 6,
+          "tuition": "100000",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "经济工程",
+          "majorKey": "7b4807f8",
+          "selKe": "不限",
+          "plan": 6,
+          "tuition": "100000",
+          "menlei": "经"
+        },
+        {
+          "majorName": "物流工程",
+          "majorKey": "803b1149",
+          "selKe": "不限",
+          "plan": 6,
+          "tuition": "100000",
+          "menlei": "管"
+        }
+      ]
+    }
+  ]
+}

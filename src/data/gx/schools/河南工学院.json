@@ -1,0 +1,133 @@
+{
+  "key": "河南工学院",
+  "code": "11329",
+  "name": "河南工学院",
+  "leaves": [
+    {
+      "schoolKey": "河南工学院",
+      "schoolCode": "11329",
+      "majorKey": "13c18eb7",
+      "majorName": "工业工程",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 433,
+          "minRank": 112512,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河南工学院",
+      "schoolCode": "11329",
+      "majorKey": "d355d755",
+      "majorName": "电缆工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 485,
+          "minRank": 67147,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河南工学院",
+      "schoolCode": "11329",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 432,
+          "minRank": 113460,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河南工学院",
+      "schoolCode": "11329",
+      "majorKey": "fcd46a8c",
+      "majorName": "金融数学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 437,
+          "minRank": 108657,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "专业组:101(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电缆工程",
+          "majorKey": "d355d755",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "5000元/年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 67147,
+          "equivRank": 67147
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "专业组:102(首选科目:物理。再选科目:不限)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融数学",
+          "majorKey": "fcd46a8c",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4400元/年",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 108657,
+          "equivRank": 108657
+        },
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4400元/年",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 113460,
+          "equivRank": 113460
+        },
+        {
+          "majorName": "工业工程",
+          "majorKey": "13c18eb7",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5000元/年",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 112512,
+          "equivRank": 112512
+        }
+      ]
+    }
+  ]
+}

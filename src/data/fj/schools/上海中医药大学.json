@@ -1,0 +1,71 @@
+{
+  "key": "上海中医药大学",
+  "code": "3227",
+  "name": "上海中医药大学",
+  "leaves": [
+    {
+      "schoolKey": "上海中医药大学",
+      "schoolCode": "3227",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 635,
+          "minRank": 3867,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海中医药大学",
+      "schoolCode": "3227",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 575,
+          "minRank": 22544,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "8100",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 3867,
+          "equivRank": 3867
+        },
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "8100",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 3867,
+          "equivRank": 3867
+        }
+      ]
+    }
+  ]
+}

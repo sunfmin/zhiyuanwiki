@@ -1,0 +1,196 @@
+{
+  "key": "广东工业大学",
+  "code": "4430",
+  "name": "广东工业大学",
+  "leaves": [
+    {
+      "schoolKey": "广东工业大学",
+      "schoolCode": "4430",
+      "majorKey": "07c28723",
+      "majorName": "工商管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 544,
+          "minRank": 25678,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "广东工业大学",
+      "schoolCode": "4430",
+      "majorKey": "ca37000f",
+      "majorName": "数字经济",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 503,
+          "minRank": 36716,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "广东工业大学",
+      "schoolCode": "4430",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 561,
+          "minRank": 21198,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "广东工业大学",
+      "schoolCode": "4430",
+      "majorKey": "b2ac374c",
+      "majorName": "材料类",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 557,
+          "minRank": 22217,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "广东工业大学",
+      "schoolCode": "4430",
+      "majorKey": "3f8d675b",
+      "majorName": "能源动力类",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 559,
+          "minRank": 21697,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "广东工业大学",
+      "schoolCode": "4430",
+      "majorKey": "95a6509b",
+      "majorName": "能源化学工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 559,
+          "minRank": 21697,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "工商管理",
+          "majorKey": "07c28723",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6060",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 25678,
+          "equivRank": 25678
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6850",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 21198,
+          "equivRank": 21198
+        },
+        {
+          "majorName": "能源化学工程",
+          "majorKey": "95a6509b",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6850",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 21697,
+          "equivRank": 21697
+        },
+        {
+          "majorName": "材料类",
+          "majorKey": "b2ac374c",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "6850",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 22217,
+          "equivRank": 22217
+        },
+        {
+          "majorName": "能源动力类",
+          "majorKey": "3f8d675b",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "6850",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 21697,
+          "equivRank": 21697
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "数字经济",
+          "majorKey": "ca37000f",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "",
+          "menlei": "经",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 36716,
+          "equivRank": 36716
+        }
+      ]
+    }
+  ]
+}

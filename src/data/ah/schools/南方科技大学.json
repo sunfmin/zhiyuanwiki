@@ -1,0 +1,49 @@
+{
+  "key": "南方科技大学",
+  "code": "2051",
+  "name": "南方科技大学",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "化学",
+          "plan": 70,
+          "tuition": "6000元/年",
+          "menlei": "理",
+          "coop": true
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "生物医学工程",
+          "majorKey": "27c81131",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "135000元/年",
+          "menlei": "工"
+        },
+        {
+          "majorName": "生物医学科学",
+          "majorKey": "aa6c230b",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "135000元/年",
+          "menlei": "医"
+        }
+      ]
+    }
+  ]
+}

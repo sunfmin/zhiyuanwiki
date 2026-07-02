@@ -1,0 +1,106 @@
+{
+  "key": "江西水利电力大学",
+  "code": "3623",
+  "name": "江西水利电力大学",
+  "leaves": [
+    {
+      "schoolKey": "江西水利电力大学",
+      "schoolCode": "3623",
+      "majorKey": "87f6e6a2",
+      "majorName": "审计学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 496,
+          "minRank": 38621,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "江西水利电力大学",
+      "schoolCode": "3623",
+      "majorKey": "c5a57efa",
+      "majorName": "水利水电工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 485,
+          "minRank": 41561,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "江西水利电力大学",
+      "schoolCode": "3623",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 489,
+          "minRank": 40462,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "审计学",
+          "majorKey": "87f6e6a2",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4270",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 38621,
+          "equivRank": 38621
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "水利水电工程",
+          "majorKey": "c5a57efa",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4530",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 41561,
+          "equivRank": 41561
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "4790",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 40462,
+          "equivRank": 40462
+        }
+      ]
+    }
+  ]
+}

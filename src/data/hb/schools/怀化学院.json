@@ -1,0 +1,203 @@
+{
+  "key": "怀化学院",
+  "code": "H672",
+  "name": "怀化学院",
+  "leaves": [
+    {
+      "schoolKey": "怀化学院",
+      "schoolCode": "H672",
+      "majorKey": "d8f4c9ac",
+      "majorName": "光电信息科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 492,
+          "minRank": 93598,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "怀化学院",
+      "schoolCode": "H672",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 512,
+          "minRank": 24873,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "怀化学院",
+      "schoolCode": "H672",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 494,
+          "minRank": 91841,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "怀化学院",
+      "schoolCode": "H672",
+      "majorKey": "e6cfcc6c",
+      "majorName": "材料化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 491,
+          "minRank": 94466,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "怀化学院",
+      "schoolCode": "H672",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 513,
+          "minRank": 24565,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "怀化学院",
+      "schoolCode": "H672",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 495,
+          "minRank": 90978,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 24873,
+          "equivRank": 24873
+        },
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "文"
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 24565,
+          "equivRank": 24565
+        },
+        {
+          "majorName": "风景园林",
+          "majorKey": "9b8820c1",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "4800",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "光电信息科学与工程",
+          "majorKey": "d8f4c9ac",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 93598,
+          "equivRank": 93598
+        },
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 91841,
+          "equivRank": 91841
+        },
+        {
+          "majorName": "材料化学",
+          "majorKey": "e6cfcc6c",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 94466,
+          "equivRank": 94466
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 90978,
+          "equivRank": 90978
+        }
+      ]
+    }
+  ]
+}

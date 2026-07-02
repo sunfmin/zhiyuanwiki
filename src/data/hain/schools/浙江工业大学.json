@@ -1,0 +1,133 @@
+{
+  "key": "浙江工业大学",
+  "code": "0952",
+  "name": "浙江工业大学",
+  "leaves": [
+    {
+      "schoolKey": "浙江工业大学",
+      "schoolCode": "0952",
+      "majorKey": "3d66465b",
+      "majorName": "化工与制药类",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 656,
+          "minRank": 4584,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "浙江工业大学",
+      "schoolCode": "0952",
+      "majorKey": "2ca5ff3e",
+      "majorName": "土木类",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 649,
+          "minRank": 5269,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "浙江工业大学",
+      "schoolCode": "0952",
+      "majorKey": "5e0efed0",
+      "majorName": "电子信息类",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 656,
+          "minRank": 4584,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "浙江工业大学",
+      "schoolCode": "0952",
+      "majorKey": "78bffed9",
+      "majorName": "管理科学与工程类",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 637,
+          "minRank": 6580,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "管理科学与工程类",
+          "majorKey": "78bffed9",
+          "selKe": "物理",
+          "plan": 5,
+          "tuition": "5300",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 6580,
+          "equivRank": 6580
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "化工与制药类",
+          "majorKey": "3d66465b",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 4584,
+          "equivRank": 4584
+        },
+        {
+          "majorName": "土木类",
+          "majorKey": "2ca5ff3e",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "6900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 5269,
+          "equivRank": 5269
+        },
+        {
+          "majorName": "电子信息类",
+          "majorKey": "5e0efed0",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 4584,
+          "equivRank": 4584
+        }
+      ]
+    }
+  ]
+}

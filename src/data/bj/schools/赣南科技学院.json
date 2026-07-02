@@ -1,0 +1,71 @@
+{
+  "key": "赣南科技学院",
+  "code": "3636",
+  "name": "赣南科技学院",
+  "leaves": [
+    {
+      "schoolKey": "赣南科技学院",
+      "schoolCode": "3636",
+      "majorKey": "0b52f20f",
+      "majorName": "电子商务",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 476,
+          "minRank": 43852,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "赣南科技学院",
+      "schoolCode": "3636",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 475,
+          "minRank": 44121,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "3880",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 44121,
+          "equivRank": 44121
+        },
+        {
+          "majorName": "电子商务",
+          "majorKey": "0b52f20f",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4350",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 43852,
+          "equivRank": 43852
+        }
+      ]
+    }
+  ]
+}

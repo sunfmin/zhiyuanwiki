@@ -1,0 +1,252 @@
+{
+  "key": "遵义医科大学",
+  "code": "5190",
+  "name": "遵义医科大学",
+  "leaves": [
+    {
+      "schoolKey": "遵义医科大学",
+      "schoolCode": "5190",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 618,
+          "minRank": 28088,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "遵义医科大学",
+      "schoolCode": "5190",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 583,
+          "minRank": 67120,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "遵义医科大学",
+      "schoolCode": "5190",
+      "majorKey": "11fef64a",
+      "majorName": "医学影像技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 565,
+          "minRank": 93269,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "遵义医科大学",
+      "schoolCode": "5190",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 623,
+          "minRank": 23980,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "遵义医科大学",
+      "schoolCode": "5190",
+      "majorKey": "f84887da",
+      "majorName": "眼视光医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 585,
+          "minRank": 64425,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "遵义医科大学",
+      "schoolCode": "5190",
+      "majorKey": "e86ddf0a",
+      "majorName": "精神医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 582,
+          "minRank": 68439,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "遵义医科大学",
+      "schoolCode": "5190",
+      "majorKey": "83eea431",
+      "majorName": "麻醉学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 602,
+          "minRank": 43771,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化",
+          "plan": 10,
+          "tuition": "4500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 28088,
+          "equivRank": 28088
+        },
+        {
+          "majorName": "麻醉学",
+          "majorKey": "83eea431",
+          "selKe": "化",
+          "plan": 6,
+          "tuition": "4500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 43771,
+          "equivRank": 43771
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "化",
+          "plan": 6,
+          "tuition": "4500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 23980,
+          "equivRank": 23980
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "6960",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 28088,
+          "equivRank": 28088
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "6960",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 23980,
+          "equivRank": 23980
+        }
+      ]
+    },
+    {
+      "groupCode": "103",
+      "groupName": "103",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "医学影像学",
+          "majorKey": "5780af73",
+          "selKe": "化",
+          "plan": 6,
+          "tuition": "4500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 67120,
+          "equivRank": 67120
+        },
+        {
+          "majorName": "眼视光医学",
+          "majorKey": "f84887da",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "4500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 64425,
+          "equivRank": 64425
+        },
+        {
+          "majorName": "精神医学",
+          "majorKey": "e86ddf0a",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "4500",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 68439,
+          "equivRank": 68439
+        }
+      ]
+    },
+    {
+      "groupCode": "104",
+      "groupName": "104",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "医学影像技术",
+          "majorKey": "11fef64a",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 93269,
+          "equivRank": 93269
+        }
+      ]
+    }
+  ]
+}

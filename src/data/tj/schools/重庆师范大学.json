@@ -1,0 +1,138 @@
+{
+  "key": "重庆师范大学",
+  "code": "0187",
+  "name": "重庆师范大学",
+  "leaves": [
+    {
+      "schoolKey": "重庆师范大学",
+      "schoolCode": "0187",
+      "majorKey": "d8f4c9ac",
+      "majorName": "光电信息科学与工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 560,
+          "minRank": 23083,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "重庆师范大学",
+      "schoolCode": "0187",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 566,
+          "minRank": 21500,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "重庆师范大学",
+      "schoolCode": "0187",
+      "majorKey": "4272328b",
+      "majorName": "教育学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 562,
+          "minRank": 22547,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "教育学",
+          "majorKey": "4272328b",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "3125",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 22547,
+          "equivRank": 22547
+        },
+        {
+          "majorName": "工商管理类",
+          "majorKey": "b74128f4",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "5600",
+          "menlei": "管"
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "物理学",
+          "majorKey": "653f630d",
+          "selKe": "物理加化学",
+          "plan": 3,
+          "tuition": "3750",
+          "menlei": "理"
+        },
+        {
+          "majorName": "光电信息科学与工程",
+          "majorKey": "d8f4c9ac",
+          "selKe": "物理加化学",
+          "plan": 5,
+          "tuition": "5600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 23083,
+          "equivRank": 23083
+        },
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "物理加化学",
+          "plan": 5,
+          "tuition": "5600",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "物理加化学",
+          "plan": 3,
+          "tuition": "3750",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 21500,
+          "equivRank": 21500
+        }
+      ]
+    }
+  ]
+}

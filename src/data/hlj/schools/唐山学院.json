@@ -1,0 +1,157 @@
+{
+  "key": "唐山学院",
+  "code": "1166",
+  "name": "唐山学院",
+  "leaves": [
+    {
+      "schoolKey": "唐山学院",
+      "schoolCode": "1166",
+      "majorKey": "87f6e6a2",
+      "majorName": "审计学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 364,
+          "minRank": 54455,
+          "maxScore": 369
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 468,
+          "minRank": 45431,
+          "maxScore": 474
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 491,
+          "minRank": 9189,
+          "maxScore": 508
+        }
+      ]
+    },
+    {
+      "schoolKey": "唐山学院",
+      "schoolCode": "1166",
+      "majorKey": "4ef2a1b4",
+      "majorName": "机械电子工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 361,
+          "minRank": 55651,
+          "maxScore": 372
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 458,
+          "minRank": 48995,
+          "maxScore": 467
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 462,
+          "minRank": 45615,
+          "maxScore": 468
+        }
+      ]
+    },
+    {
+      "schoolKey": "唐山学院",
+      "schoolCode": "1166",
+      "majorKey": "0b52f20f",
+      "majorName": "电子商务",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 362,
+          "minRank": 55241,
+          "maxScore": 363
+        }
+      ]
+    },
+    {
+      "schoolKey": "唐山学院",
+      "schoolCode": "1166",
+      "majorKey": "da95770c",
+      "majorName": "自动化",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 457,
+          "minRank": 49383,
+          "maxScore": 458
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 464,
+          "minRank": 44871,
+          "maxScore": 486
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "审计学",
+          "majorKey": "87f6e6a2",
+          "selKe": "不限",
+          "plan": 4,
+          "tuition": "4600",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 9189,
+          "equivRank": 9189
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械电子工程",
+          "majorKey": "4ef2a1b4",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5300",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 45615,
+          "equivRank": 42664
+        },
+        {
+          "majorName": "自动化",
+          "majorKey": "da95770c",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "5300",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 44871,
+          "equivRank": 41968
+        }
+      ]
+    }
+  ]
+}

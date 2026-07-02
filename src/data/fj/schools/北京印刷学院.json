@@ -1,0 +1,80 @@
+{
+  "key": "北京印刷学院",
+  "code": "2297",
+  "name": "北京印刷学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "传播学",
+          "majorKey": "c8cc37b2",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4200",
+          "menlei": "文"
+        },
+        {
+          "majorName": "编辑出版学",
+          "majorKey": "22544579",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "文"
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "机械工程",
+          "majorKey": "bdb5a180",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4600",
+          "menlei": "工"
+        },
+        {
+          "majorName": "包装工程",
+          "majorKey": "0722cb68",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "4600",
+          "menlei": "工"
+        },
+        {
+          "majorName": "印刷工程",
+          "majorKey": "a4e1a6bc",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "数字出版",
+          "majorKey": "01c01965",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4200",
+          "menlei": "文"
+        }
+      ]
+    }
+  ]
+}

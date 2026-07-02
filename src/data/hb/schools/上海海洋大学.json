@@ -1,0 +1,224 @@
+{
+  "key": "上海海洋大学",
+  "code": "F783",
+  "name": "上海海洋大学",
+  "leaves": [
+    {
+      "schoolKey": "上海海洋大学",
+      "schoolCode": "F783",
+      "majorKey": "55e3bd26",
+      "majorName": "信息管理与信息系统",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 569,
+          "minRank": 30847,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海海洋大学",
+      "schoolCode": "F783",
+      "majorKey": "28c62e21",
+      "majorName": "市场营销",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 567,
+          "minRank": 9317,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海海洋大学",
+      "schoolCode": "F783",
+      "majorKey": "b176ee03",
+      "majorName": "建筑环境与能源应用工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 573,
+          "minRank": 28352,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海海洋大学",
+      "schoolCode": "F783",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 575,
+          "minRank": 27123,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海海洋大学",
+      "schoolCode": "F783",
+      "majorKey": "19fc7b41",
+      "majorName": "水产类",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 573,
+          "minRank": 28352,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海海洋大学",
+      "schoolCode": "F783",
+      "majorKey": "34997647",
+      "majorName": "能源与动力工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 577,
+          "minRank": 25989,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "上海海洋大学",
+      "schoolCode": "F783",
+      "majorKey": "63b95502",
+      "majorName": "食品质量与安全",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 573,
+          "minRank": 28352,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "市场营销",
+          "majorKey": "28c62e21",
+          "selKe": "历史",
+          "plan": 10,
+          "tuition": "19500",
+          "menlei": "管",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 9317,
+          "equivRank": 9317
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "水产类",
+          "majorKey": "19fc7b41",
+          "selKe": "物理,化学",
+          "plan": 8,
+          "tuition": "7700",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 28352,
+          "equivRank": 28352
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "物理,化学",
+          "plan": 7,
+          "tuition": "7000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 27123,
+          "equivRank": 27123
+        },
+        {
+          "majorName": "建筑环境与能源应用工程",
+          "majorKey": "b176ee03",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "7000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 28352,
+          "equivRank": 28352
+        },
+        {
+          "majorName": "能源与动力工程",
+          "majorKey": "34997647",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "7000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 25989,
+          "equivRank": 25989
+        },
+        {
+          "majorName": "食品质量与安全",
+          "majorKey": "63b95502",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "7000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 28352,
+          "equivRank": 28352
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "信息管理与信息系统",
+          "majorKey": "55e3bd26",
+          "selKe": "物理",
+          "plan": 10,
+          "tuition": "19500",
+          "menlei": "管",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 30847,
+          "equivRank": 30847
+        }
+      ]
+    }
+  ]
+}

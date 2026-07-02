@@ -1,268 +1,63 @@
 [
   {
-    "code": "0004",
-    "name": "北京交通大学",
-    "leafCount": 1,
+    "key": "三亚学院",
+    "code": "0875",
+    "name": "三亚学院",
+    "leafCount": 4,
     "ranges": {
-      "理科": {
+      "文科": {
         "year": 2024,
-        "minScore": 422,
-        "maxScore": 422,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "is211": true,
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0008",
-    "name": "北京科技大学",
-    "leafCount": 2,
-    "ranges": {
-      "理科": {
-        "year": 2025,
-        "minScore": 366,
-        "maxScore": 572,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "is211": true,
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0010",
-    "name": "北京化工大学",
-    "leafCount": 1,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 400,
-        "maxScore": 400,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 530,
-        "maxScore": 530,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "is211": true,
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0013",
-    "name": "北京邮电大学",
-    "leafCount": 1,
-    "ranges": {
-      "理科": {
-        "year": 2025,
-        "minScore": 601,
-        "maxScore": 601,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "is211": true,
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0015",
-    "name": "北京建筑大学",
-    "leafCount": 3,
-    "ranges": {
-      "理科": {
-        "year": 2025,
-        "minScore": 361,
-        "maxScore": 435,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0020",
-    "name": "北京林业大学",
-    "leafCount": 2,
-    "ranges": {
-      "理科": {
-        "year": 2023,
-        "minScore": 444,
-        "maxScore": 449,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "is211": true,
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0022",
-    "name": "北京中医药大学",
-    "leafCount": 4,
-    "ranges": {
-      "理科": {
-        "year": 2025,
-        "minScore": 369,
-        "maxScore": 560,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "is211": true,
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0029",
-    "name": "中国传媒大学",
-    "leafCount": 3,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 410,
-        "maxScore": 437,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 394,
-        "maxScore": 394,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "is211": true,
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0030",
-    "name": "中央财经大学",
-    "leafCount": 5,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 586,
-        "maxScore": 592,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 581,
-        "maxScore": 591,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "is211": true,
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0031",
-    "name": "对外经济贸易大学",
-    "leafCount": 2,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 436,
-        "maxScore": 436,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 380,
-        "maxScore": 380,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "is211": true,
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0034",
-    "name": "中国人民公安大学",
-    "leafCount": 15,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 404,
-        "maxScore": 537,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 396,
-        "maxScore": 556,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0036",
-    "name": "河北大学",
-    "leafCount": 8,
-    "ranges": {
-      "文科": {
-        "year": 2023,
-        "minScore": 351,
-        "maxScore": 359,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2023,
-        "minScore": 326,
-        "maxScore": 375,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0038",
-    "name": "河北师范大学",
-    "leafCount": 4,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 369,
-        "maxScore": 377,
+        "minScore": 283,
+        "maxScore": 292,
         "minRank": 0,
         "maxRank": 0
       },
       "理科": {
         "year": 2024,
-        "minScore": 372,
-        "maxScore": 372,
+        "minScore": 251,
+        "maxScore": 252,
         "minRank": 0,
         "maxRank": 0
       }
     }
   },
   {
-    "code": "0040",
-    "name": "大连工业大学",
-    "leafCount": 2,
+    "key": "三峡大学",
+    "code": "0329",
+    "name": "三峡大学",
+    "leafCount": 14,
     "ranges": {
       "文科": {
         "year": 2025,
-        "minScore": 325,
-        "maxScore": 325,
+        "minScore": 339,
+        "maxScore": 354,
         "minRank": 0,
         "maxRank": 0
       },
       "理科": {
         "year": 2025,
+        "minScore": 297,
+        "maxScore": 493,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "三峡大学科技学院",
+    "code": "0788",
+    "name": "三峡大学科技学院",
+    "leafCount": 2,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 297,
+        "maxScore": 297,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
         "minScore": 286,
         "maxScore": 286,
         "minRank": 0,
@@ -271,75 +66,239 @@
     }
   },
   {
-    "code": "0041",
-    "name": "沈阳农业大学",
-    "leafCount": 1,
+    "key": "三明学院",
+    "code": "0343",
+    "name": "三明学院",
+    "leafCount": 7,
     "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 307,
+        "maxScore": 308,
+        "minRank": 0,
+        "maxRank": 0
+      },
       "理科": {
-        "year": 2025,
-        "minScore": 349,
-        "maxScore": 349,
+        "year": 2024,
+        "minScore": 271,
+        "maxScore": 282,
         "minRank": 0,
         "maxRank": 0
       }
     }
   },
   {
-    "code": "0042",
-    "name": "中央民族大学",
-    "leafCount": 13,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 425,
-        "maxScore": 545,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 385,
-        "maxScore": 553,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
+    "key": "三江学院",
+    "code": "0613",
+    "name": "三江学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "上海交通大学",
+    "code": "0113",
+    "name": "上海交通大学",
+    "leafCount": 0,
+    "ranges": {},
     "is985": true,
     "is211": true,
     "isShuangYiLiu": true
   },
   {
-    "code": "0043",
-    "name": "中国政法大学",
-    "leafCount": 4,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 455,
-        "maxScore": 498,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 490,
-        "maxScore": 490,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
+    "key": "上海体育大学",
+    "code": "0128",
+    "name": "上海体育大学",
+    "leafCount": 0,
+    "ranges": {},
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "上海商学院",
+    "code": "0413",
+    "name": "上海商学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "上海外国语大学",
+    "code": "0123",
+    "name": "上海外国语大学",
+    "leafCount": 0,
+    "ranges": {},
     "is211": true,
     "isShuangYiLiu": true
   },
   {
-    "code": "0048",
-    "name": "天津工业大学",
+    "key": "上海外国语大学贤达经济人文学院",
+    "code": "0861",
+    "name": "上海外国语大学贤达经济人文学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "上海大学",
+    "code": "0131",
+    "name": "上海大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "上海对外经贸大学",
+    "code": "0125",
+    "name": "上海对外经贸大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "上海工程技术大学",
+    "code": "0307",
+    "name": "上海工程技术大学",
     "leafCount": 1,
     "ranges": {
       "理科": {
         "year": 2025,
-        "minScore": 345,
-        "maxScore": 345,
+        "minScore": 343,
+        "maxScore": 343,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "上海师范大学",
+    "code": "0122",
+    "name": "上海师范大学",
+    "leafCount": 6,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 355,
+        "maxScore": 363,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 337,
+        "maxScore": 371,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "上海师范大学天华学院",
+    "code": "0876",
+    "name": "上海师范大学天华学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "上海应用技术大学",
+    "code": "0119",
+    "name": "上海应用技术大学",
+    "leafCount": 4,
+    "ranges": {
+      "文科": {
+        "year": 2023,
+        "minScore": 325,
+        "maxScore": 353,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2023,
+        "minScore": 302,
+        "maxScore": 322,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "上海建桥学院",
+    "code": "0736",
+    "name": "上海建桥学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "上海戏剧学院",
+    "code": "0509",
+    "name": "上海戏剧学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "上海政法学院",
+    "code": "0395",
+    "name": "上海政法学院",
+    "leafCount": 3,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 385,
+        "maxScore": 479,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 353,
+        "maxScore": 463,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "上海海事大学",
+    "code": "0116",
+    "name": "上海海事大学",
+    "leafCount": 13,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 380,
+        "maxScore": 463,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 338,
+        "maxScore": 429,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "上海海关学院",
+    "code": "0126",
+    "name": "上海海关学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "上海海洋大学",
+    "code": "0120",
+    "name": "上海海洋大学",
+    "leafCount": 12,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 370,
+        "maxScore": 440,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 301,
+        "maxScore": 432,
         "minRank": 0,
         "maxRank": 0
       }
@@ -347,91 +306,73 @@
     "isShuangYiLiu": true
   },
   {
-    "code": "0049",
-    "name": "中国民航大学",
-    "leafCount": 13,
+    "key": "上海理工大学",
+    "code": "0115",
+    "name": "上海理工大学",
+    "leafCount": 4,
     "ranges": {
       "文科": {
         "year": 2025,
-        "minScore": 401,
-        "maxScore": 456,
+        "minScore": 376,
+        "maxScore": 480,
         "minRank": 0,
         "maxRank": 0
       },
       "理科": {
         "year": 2025,
-        "minScore": 348,
-        "maxScore": 522,
+        "minScore": 341,
+        "maxScore": 367,
         "minRank": 0,
         "maxRank": 0
       }
     }
   },
   {
-    "code": "0052",
-    "name": "天津师范大学",
-    "leafCount": 10,
+    "key": "上海电力大学",
+    "code": "0118",
+    "name": "上海电力大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "上海电机学院",
+    "code": "0362",
+    "name": "上海电机学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "上海立信会计金融学院",
+    "code": "0321",
+    "name": "上海立信会计金融学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "上海第二工业大学",
+    "code": "0409",
+    "name": "上海第二工业大学",
+    "leafCount": 2,
     "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 403,
-        "maxScore": 441,
-        "minRank": 0,
-        "maxRank": 0
-      },
       "理科": {
-        "year": 2024,
-        "minScore": 388,
-        "maxScore": 410,
+        "year": 2025,
+        "minScore": 302,
+        "maxScore": 302,
         "minRank": 0,
         "maxRank": 0
       }
     }
   },
   {
-    "code": "0057",
-    "name": "华北水利水电大学",
-    "leafCount": 10,
+    "key": "上海财经大学",
+    "code": "0124",
+    "name": "上海财经大学",
+    "leafCount": 3,
     "ranges": {
       "理科": {
         "year": 2025,
         "minScore": 339,
-        "maxScore": 381,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0060",
-    "name": "中北大学",
-    "leafCount": 2,
-    "ranges": {
-      "文科": {
-        "year": 2022,
-        "minScore": 350,
-        "maxScore": 350,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2022,
-        "minScore": 342,
-        "maxScore": 342,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0061",
-    "name": "太原理工大学",
-    "leafCount": 5,
-    "ranges": {
-      "理科": {
-        "year": 2022,
-        "minScore": 405,
-        "maxScore": 470,
+        "maxScore": 604,
         "minRank": 0,
         "maxRank": 0
       }
@@ -440,28 +381,37 @@
     "isShuangYiLiu": true
   },
   {
-    "code": "0069",
-    "name": "沈阳理工大学",
-    "leafCount": 24,
-    "ranges": {
-      "理科": {
-        "year": 2022,
-        "minScore": 275,
-        "maxScore": 379,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
+    "key": "上海音乐学院",
+    "code": "0503",
+    "name": "上海音乐学院",
+    "leafCount": 0,
+    "ranges": {},
+    "isShuangYiLiu": true
   },
   {
-    "code": "0075",
-    "name": "大连海事大学",
-    "leafCount": 2,
+    "key": "上饶师范学院",
+    "code": "0537",
+    "name": "上饶师范学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "东北农业大学",
+    "code": "0448",
+    "name": "东北农业大学",
+    "leafCount": 3,
     "ranges": {
       "文科": {
         "year": 2025,
-        "minScore": 365,
-        "maxScore": 413,
+        "minScore": 384,
+        "maxScore": 466,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 312,
+        "maxScore": 315,
         "minRank": 0,
         "maxRank": 0
       }
@@ -470,200 +420,17 @@
     "isShuangYiLiu": true
   },
   {
-    "code": "0076",
-    "name": "沈阳建筑大学",
-    "leafCount": 1,
-    "ranges": {
-      "理科": {
-        "year": 2025,
-        "minScore": 422,
-        "maxScore": 422,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0078",
-    "name": "中国医科大学",
-    "leafCount": 6,
-    "ranges": {
-      "理科": {
-        "year": 2024,
-        "minScore": 379,
-        "maxScore": 510,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0079",
-    "name": "大连医科大学",
-    "leafCount": 1,
-    "ranges": {
-      "理科": {
-        "year": 2025,
-        "minScore": 433,
-        "maxScore": 433,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0080",
-    "name": "辽宁师范大学",
-    "leafCount": 15,
-    "ranges": {
-      "文科": {
-        "year": 2022,
-        "minScore": 350,
-        "maxScore": 425,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2022,
-        "minScore": 310,
-        "maxScore": 366,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0083",
-    "name": "中国刑事警察学院",
-    "leafCount": 11,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 371,
-        "maxScore": 407,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 335,
-        "maxScore": 488,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0085",
-    "name": "吉林大学",
-    "leafCount": 6,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 562,
-        "maxScore": 562,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 532,
-        "maxScore": 564,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
+    "key": "东北大学",
+    "code": "0070",
+    "name": "东北大学",
+    "leafCount": 0,
+    "ranges": {},
     "is985": true,
     "is211": true,
     "isShuangYiLiu": true
   },
   {
-    "code": "0086",
-    "name": "延边大学",
-    "leafCount": 1,
-    "ranges": {
-      "理科": {
-        "year": 2025,
-        "minScore": 365,
-        "maxScore": 365,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "is211": true,
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0088",
-    "name": "东北电力大学",
-    "leafCount": 2,
-    "ranges": {
-      "理科": {
-        "year": 2025,
-        "minScore": 321,
-        "maxScore": 374,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0090",
-    "name": "吉林建筑大学",
-    "leafCount": 2,
-    "ranges": {
-      "理科": {
-        "year": 2025,
-        "minScore": 272,
-        "maxScore": 274,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0091",
-    "name": "吉林化工大学",
-    "leafCount": 17,
-    "ranges": {
-      "理科": {
-        "year": 2025,
-        "minScore": 269,
-        "maxScore": 317,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0092",
-    "name": "吉林农业大学",
-    "leafCount": 8,
-    "ranges": {
-      "理科": {
-        "year": 2025,
-        "minScore": 270,
-        "maxScore": 280,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0093",
-    "name": "长春中医药大学",
-    "leafCount": 4,
-    "ranges": {
-      "理科": {
-        "year": 2024,
-        "minScore": 291,
-        "maxScore": 317,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
+    "key": "东北师范大学",
     "code": "0094",
     "name": "东北师范大学",
     "leafCount": 9,
@@ -687,176 +454,7 @@
     "isShuangYiLiu": true
   },
   {
-    "code": "0095",
-    "name": "北华大学",
-    "leafCount": 16,
-    "ranges": {
-      "理科": {
-        "year": 2025,
-        "minScore": 272,
-        "maxScore": 353,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0097",
-    "name": "吉林师范大学",
-    "leafCount": 11,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 319,
-        "maxScore": 341,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 286,
-        "maxScore": 318,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0098",
-    "name": "吉林工程技术师范学院",
-    "leafCount": 3,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 304,
-        "maxScore": 304,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 266,
-        "maxScore": 267,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0099",
-    "name": "长春师范大学",
-    "leafCount": 14,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 317,
-        "maxScore": 365,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 276,
-        "maxScore": 293,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0101",
-    "name": "吉林财经大学",
-    "leafCount": 12,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 351,
-        "maxScore": 393,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 315,
-        "maxScore": 396,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0102",
-    "name": "黑龙江大学",
-    "leafCount": 3,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 344,
-        "maxScore": 356,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 380,
-        "maxScore": 387,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0105",
-    "name": "哈尔滨工程大学",
-    "leafCount": 5,
-    "ranges": {
-      "理科": {
-        "year": 2025,
-        "minScore": 372,
-        "maxScore": 592,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "is211": true,
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0106",
-    "name": "东北石油大学",
-    "leafCount": 16,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 344,
-        "maxScore": 358,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 304,
-        "maxScore": 403,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0107",
-    "name": "佳木斯大学",
-    "leafCount": 3,
-    "ranges": {
-      "理科": {
-        "year": 2025,
-        "minScore": 269,
-        "maxScore": 273,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
+    "key": "东北林业大学",
     "code": "0108",
     "name": "东北林业大学",
     "leafCount": 16,
@@ -880,216 +478,29 @@
     "isShuangYiLiu": true
   },
   {
-    "code": "0110",
-    "name": "齐齐哈尔大学",
-    "leafCount": 11,
+    "key": "东北电力大学",
+    "code": "0088",
+    "name": "东北电力大学",
+    "leafCount": 2,
     "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 309,
-        "maxScore": 328,
-        "minRank": 0,
-        "maxRank": 0
-      },
       "理科": {
-        "year": 2024,
-        "minScore": 266,
-        "maxScore": 292,
+        "year": 2025,
+        "minScore": 321,
+        "maxScore": 374,
         "minRank": 0,
         "maxRank": 0
       }
     }
   },
   {
-    "code": "0114",
-    "name": "华东理工大学",
-    "leafCount": 17,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 393,
-        "maxScore": 448,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 394,
-        "maxScore": 495,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "is211": true,
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0115",
-    "name": "上海理工大学",
-    "leafCount": 4,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 376,
-        "maxScore": 480,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 341,
-        "maxScore": 367,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0116",
-    "name": "上海海事大学",
-    "leafCount": 13,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 380,
-        "maxScore": 463,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 338,
-        "maxScore": 429,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0119",
-    "name": "上海应用技术大学",
-    "leafCount": 4,
-    "ranges": {
-      "文科": {
-        "year": 2023,
-        "minScore": 325,
-        "maxScore": 353,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2023,
-        "minScore": 302,
-        "maxScore": 322,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0120",
-    "name": "上海海洋大学",
-    "leafCount": 12,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 370,
-        "maxScore": 440,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 301,
-        "maxScore": 432,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0122",
-    "name": "上海师范大学",
-    "leafCount": 6,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 355,
-        "maxScore": 363,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 337,
-        "maxScore": 371,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0124",
-    "name": "上海财经大学",
-    "leafCount": 3,
-    "ranges": {
-      "理科": {
-        "year": 2025,
-        "minScore": 339,
-        "maxScore": 604,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "is211": true,
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0127",
-    "name": "华东政法大学",
-    "leafCount": 5,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 383,
-        "maxScore": 535,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 373,
-        "maxScore": 535,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0135",
-    "name": "南京理工大学",
-    "leafCount": 1,
-    "ranges": {
-      "理科": {
-        "year": 2025,
-        "minScore": 375,
-        "maxScore": 375,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "is211": true,
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0136",
-    "name": "江苏科技大学",
+    "key": "东北石油大学",
+    "code": "0106",
+    "name": "东北石油大学",
     "leafCount": 16,
     "ranges": {
       "文科": {
         "year": 2025,
-        "minScore": 345,
+        "minScore": 344,
         "maxScore": 358,
         "minRank": 0,
         "maxRank": 0
@@ -1097,28 +508,311 @@
       "理科": {
         "year": 2025,
         "minScore": 304,
-        "maxScore": 354,
+        "maxScore": 403,
         "minRank": 0,
         "maxRank": 0
       }
     }
   },
   {
-    "code": "0139",
-    "name": "江南大学",
+    "key": "东北财经大学",
+    "code": "0150",
+    "name": "东北财经大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "东华大学",
+    "code": "0117",
+    "name": "东华大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "东南大学",
+    "code": "0133",
+    "name": "东南大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "东莞理工学院",
+    "code": "0757",
+    "name": "东莞理工学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "中北大学",
+    "code": "0060",
+    "name": "中北大学",
+    "leafCount": 2,
+    "ranges": {
+      "文科": {
+        "year": 2022,
+        "minScore": 350,
+        "maxScore": 350,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2022,
+        "minScore": 342,
+        "maxScore": 342,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "中南大学",
+    "code": "0210",
+    "name": "中南大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "中南林业科技大学",
+    "code": "0257",
+    "name": "中南林业科技大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "中南林业科技大学涉外学院",
+    "code": "0704",
+    "name": "中南林业科技大学涉外学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "中南民族大学",
+    "code": "0207",
+    "name": "中南民族大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "中南财经政法大学",
+    "code": "0204",
+    "name": "中南财经政法大学",
+    "leafCount": 2,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 418,
+        "maxScore": 418,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 550,
+        "maxScore": 550,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "中国人民公安大学",
+    "code": "0034",
+    "name": "中国人民公安大学",
+    "leafCount": 15,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 404,
+        "maxScore": 537,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 396,
+        "maxScore": 556,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "中国人民大学",
+    "code": "0002",
+    "name": "中国人民大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "中国人民武装警察部队特种警察学院",
+    "code": "0795",
+    "name": "中国人民武装警察部队特种警察学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "中国人民解放军国防科技大学",
+    "code": "0920",
+    "name": "中国人民解放军国防科技大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "中国人民解放军陆军军医大学",
+    "code": "0791",
+    "name": "中国人民解放军陆军军医大学",
+    "leafCount": 2,
+    "ranges": {
+      "理科": {
+        "year": 2024,
+        "minScore": 366,
+        "maxScore": 373,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "中国人民解放军陆军步兵学院",
+    "code": "0921",
+    "name": "中国人民解放军陆军步兵学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "中国人民解放军陆军特种作战学院",
+    "code": "0856",
+    "name": "中国人民解放军陆军特种作战学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "中国人民解放军陆军边海防学院",
+    "code": "0789",
+    "name": "中国人民解放军陆军边海防学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "中国人民警察大学",
+    "code": "0754",
+    "name": "中国人民警察大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "中国传媒大学",
+    "code": "0029",
+    "name": "中国传媒大学",
     "leafCount": 3,
     "ranges": {
       "文科": {
         "year": 2025,
-        "minScore": 339,
+        "minScore": 410,
+        "maxScore": 437,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 394,
+        "maxScore": 394,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "中国农业大学",
+    "code": "0018",
+    "name": "中国农业大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "中国刑事警察学院",
+    "code": "0083",
+    "name": "中国刑事警察学院",
+    "leafCount": 11,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 371,
         "maxScore": 407,
         "minRank": 0,
         "maxRank": 0
       },
       "理科": {
         "year": 2025,
-        "minScore": 391,
-        "maxScore": 391,
+        "minScore": 335,
+        "maxScore": 488,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "中国劳动关系学院",
+    "code": "0430",
+    "name": "中国劳动关系学院",
+    "leafCount": 4,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 393,
+        "maxScore": 430,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "中国医科大学",
+    "code": "0078",
+    "name": "中国医科大学",
+    "leafCount": 6,
+    "ranges": {
+      "理科": {
+        "year": 2024,
+        "minScore": 379,
+        "maxScore": 510,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "中国地质大学(北京)",
+    "code": "0355",
+    "name": "中国地质大学（北京）",
+    "leafCount": 1,
+    "ranges": {
+      "理科": {
+        "year": 2025,
+        "minScore": 534,
+        "maxScore": 534,
         "minRank": 0,
         "maxRank": 0
       }
@@ -1127,200 +821,53 @@
     "isShuangYiLiu": true
   },
   {
-    "code": "0140",
-    "name": "南京林业大学",
-    "leafCount": 27,
-    "ranges": {
-      "文科": {
-        "year": 2023,
-        "minScore": 358,
-        "maxScore": 428,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2023,
-        "minScore": 329,
-        "maxScore": 379,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0141",
-    "name": "江苏大学",
-    "leafCount": 18,
+    "key": "中国地质大学(武汉)",
+    "code": "0199",
+    "name": "中国地质大学（武汉）",
+    "leafCount": 7,
     "ranges": {
       "文科": {
         "year": 2025,
-        "minScore": 382,
-        "maxScore": 458,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 352,
-        "maxScore": 478,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0142",
-    "name": "南京信息工程大学",
-    "leafCount": 26,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 376,
-        "maxScore": 459,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 351,
-        "maxScore": 493,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0145",
-    "name": "南京农业大学",
-    "leafCount": 2,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 369,
-        "maxScore": 370,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 340,
-        "maxScore": 340,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "is211": true,
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0149",
-    "name": "盐城师范学院",
-    "leafCount": 8,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 265,
-        "maxScore": 332,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 265,
-        "maxScore": 269,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0156",
-    "name": "浙江中医药大学",
-    "leafCount": 12,
-    "ranges": {
-      "理科": {
-        "year": 2025,
-        "minScore": 329,
-        "maxScore": 424,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0157",
-    "name": "浙江师范大学",
-    "leafCount": 8,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 373,
-        "maxScore": 382,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 324,
+        "minScore": 392,
         "maxScore": 392,
         "minRank": 0,
         "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0158",
-    "name": "湖州师范学院",
-    "leafCount": 9,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 341,
-        "maxScore": 361,
-        "minRank": 0,
-        "maxRank": 0
       },
       "理科": {
-        "year": 2024,
-        "minScore": 314,
-        "maxScore": 318,
+        "year": 2025,
+        "minScore": 362,
+        "maxScore": 517,
         "minRank": 0,
         "maxRank": 0
       }
-    }
+    },
+    "is211": true,
+    "isShuangYiLiu": true
   },
   {
-    "code": "0160",
-    "name": "台州学院",
-    "leafCount": 5,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 327,
-        "maxScore": 342,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 286,
-        "maxScore": 290,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
+    "key": "中国戏曲学院",
+    "code": "0294",
+    "name": "中国戏曲学院",
+    "leafCount": 0,
+    "ranges": {}
   },
   {
-    "code": "0163",
-    "name": "合肥工业大学",
+    "key": "中国政法大学",
+    "code": "0043",
+    "name": "中国政法大学",
     "leafCount": 4,
     "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 455,
+        "maxScore": 498,
+        "minRank": 0,
+        "maxRank": 0
+      },
       "理科": {
-        "year": 2025,
-        "minScore": 312,
-        "maxScore": 369,
+        "year": 2024,
+        "minScore": 490,
+        "maxScore": 490,
         "minRank": 0,
         "maxRank": 0
       }
@@ -1329,217 +876,51 @@
     "isShuangYiLiu": true
   },
   {
-    "code": "0165",
-    "name": "厦门大学",
-    "leafCount": 2,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 401,
-        "maxScore": 401,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 411,
-        "maxScore": 411,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "is985": true,
-    "is211": true,
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0166",
-    "name": "福州大学",
-    "leafCount": 22,
+    "key": "中国民用航空飞行学院",
+    "code": "0237",
+    "name": "中国民用航空飞行学院",
+    "leafCount": 16,
     "ranges": {
       "文科": {
         "year": 2024,
-        "minScore": 398,
-        "maxScore": 404,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 306,
-        "maxScore": 518,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "is211": true,
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0167",
-    "name": "福建理工大学",
-    "leafCount": 13,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 336,
-        "maxScore": 336,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 288,
-        "maxScore": 354,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0168",
-    "name": "福建农林大学",
-    "leafCount": 5,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 336,
+        "minScore": 335,
         "maxScore": 338,
         "minRank": 0,
         "maxRank": 0
       },
       "理科": {
         "year": 2024,
-        "minScore": 308,
-        "maxScore": 318,
+        "minScore": 310,
+        "maxScore": 412,
         "minRank": 0,
         "maxRank": 0
       }
     }
   },
   {
-    "code": "0169",
-    "name": "集美大学",
-    "leafCount": 17,
+    "key": "中国民航大学",
+    "code": "0049",
+    "name": "中国民航大学",
+    "leafCount": 13,
     "ranges": {
       "文科": {
         "year": 2025,
-        "minScore": 389,
-        "maxScore": 401,
+        "minScore": 401,
+        "maxScore": 456,
         "minRank": 0,
         "maxRank": 0
       },
       "理科": {
         "year": 2025,
         "minScore": 348,
-        "maxScore": 366,
+        "maxScore": 522,
         "minRank": 0,
         "maxRank": 0
       }
     }
   },
   {
-    "code": "0170",
-    "name": "福建医科大学",
-    "leafCount": 5,
-    "ranges": {
-      "理科": {
-        "year": 2025,
-        "minScore": 366,
-        "maxScore": 445,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0176",
-    "name": "泉州师范学院",
-    "leafCount": 1,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 323,
-        "maxScore": 323,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 304,
-        "maxScore": 304,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0177",
-    "name": "闽南师范大学",
-    "leafCount": 9,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 331,
-        "maxScore": 391,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 303,
-        "maxScore": 313,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0180",
-    "name": "江西理工大学",
-    "leafCount": 4,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 335,
-        "maxScore": 335,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 300,
-        "maxScore": 310,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0183",
-    "name": "山东大学",
-    "leafCount": 4,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 449,
-        "maxScore": 569,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 389,
-        "maxScore": 590,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "is985": true,
-    "is211": true,
-    "isShuangYiLiu": true
-  },
-  {
+    "key": "中国海洋大学",
     "code": "0184",
     "name": "中国海洋大学",
     "leafCount": 6,
@@ -1564,20 +945,61 @@
     "isShuangYiLiu": true
   },
   {
-    "code": "0185",
-    "name": "山东科技大学",
-    "leafCount": 2,
+    "key": "中国消防救援学院",
+    "code": "0750",
+    "name": "中国消防救援学院",
+    "leafCount": 6,
     "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 420,
+        "maxScore": 420,
+        "minRank": 0,
+        "maxRank": 0
+      },
       "理科": {
         "year": 2025,
-        "minScore": 327,
-        "maxScore": 346,
+        "minScore": 375,
+        "maxScore": 429,
         "minRank": 0,
         "maxRank": 0
       }
     }
   },
   {
+    "key": "中国石油大学(北京)",
+    "code": "0354",
+    "name": "中国石油大学（北京）",
+    "leafCount": 3,
+    "ranges": {
+      "理科": {
+        "year": 2025,
+        "minScore": 343,
+        "maxScore": 530,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "中国石油大学(北京)克拉玛依校区",
+    "code": "0835",
+    "name": "中国石油大学（北京）克拉玛依校区",
+    "leafCount": 1,
+    "ranges": {
+      "理科": {
+        "year": 2024,
+        "minScore": 406,
+        "maxScore": 406,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "中国石油大学(华东)",
     "code": "0186",
     "name": "中国石油大学（华东）",
     "leafCount": 6,
@@ -1594,141 +1016,24 @@
     "isShuangYiLiu": true
   },
   {
-    "code": "0187",
-    "name": "济南大学",
-    "leafCount": 5,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 343,
-        "maxScore": 355,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 330,
-        "maxScore": 331,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0191",
-    "name": "聊城大学",
-    "leafCount": 6,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 334,
-        "maxScore": 375,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 265,
-        "maxScore": 271,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0193",
-    "name": "温州医科大学",
-    "leafCount": 13,
-    "ranges": {
-      "理科": {
-        "year": 2025,
-        "minScore": 341,
-        "maxScore": 444,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0195",
-    "name": "河南科技大学",
-    "leafCount": 4,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 346,
-        "maxScore": 353,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 306,
-        "maxScore": 353,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0196",
-    "name": "河南大学",
-    "leafCount": 3,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 340,
-        "maxScore": 346,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 339,
-        "maxScore": 339,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
+    "key": "中国矿业大学",
+    "code": "0137",
+    "name": "中国矿业大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is211": true,
     "isShuangYiLiu": true
   },
   {
-    "code": "0198",
-    "name": "长江大学",
-    "leafCount": 11,
+    "key": "中国矿业大学(北京)",
+    "code": "0353",
+    "name": "中国矿业大学（北京）",
+    "leafCount": 2,
     "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 369,
-        "maxScore": 377,
-        "minRank": 0,
-        "maxRank": 0
-      },
       "理科": {
         "year": 2024,
-        "minScore": 321,
-        "maxScore": 391,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0199",
-    "name": "中国地质大学（武汉）",
-    "leafCount": 7,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 392,
-        "maxScore": 392,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 362,
-        "maxScore": 517,
+        "minScore": 359,
+        "maxScore": 475,
         "minRank": 0,
         "maxRank": 0
       }
@@ -1737,21 +1042,86 @@
     "isShuangYiLiu": true
   },
   {
-    "code": "0202",
-    "name": "华中师范大学",
-    "leafCount": 18,
+    "key": "中国美术学院",
+    "code": "0519",
+    "name": "中国美术学院",
+    "leafCount": 0,
+    "ranges": {},
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "中国药科大学",
+    "code": "0147",
+    "name": "中国药科大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "中国计量大学",
+    "code": "0162",
+    "name": "中国计量大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "中国音乐学院",
+    "code": "0159",
+    "name": "中国音乐学院",
+    "leafCount": 0,
+    "ranges": {},
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "中央司法警官学院",
+    "code": "0399",
+    "name": "中央司法警官学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "中央民族大学",
+    "code": "0042",
+    "name": "中央民族大学",
+    "leafCount": 13,
     "ranges": {
       "文科": {
         "year": 2025,
-        "minScore": 408,
-        "maxScore": 552,
+        "minScore": 425,
+        "maxScore": 545,
         "minRank": 0,
         "maxRank": 0
       },
       "理科": {
         "year": 2025,
         "minScore": 385,
-        "maxScore": 567,
+        "maxScore": 553,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "中央财经大学",
+    "code": "0030",
+    "name": "中央财经大学",
+    "leafCount": 5,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 586,
+        "maxScore": 592,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 581,
+        "maxScore": 591,
         "minRank": 0,
         "maxRank": 0
       }
@@ -1760,184 +1130,7 @@
     "isShuangYiLiu": true
   },
   {
-    "code": "0204",
-    "name": "中南财经政法大学",
-    "leafCount": 2,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 418,
-        "maxScore": 418,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 550,
-        "maxScore": 550,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "is211": true,
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0205",
-    "name": "杭州师范大学",
-    "leafCount": 14,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 353,
-        "maxScore": 387,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 306,
-        "maxScore": 406,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0208",
-    "name": "湘潭大学",
-    "leafCount": 4,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 419,
-        "maxScore": 473,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 305,
-        "maxScore": 328,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0211",
-    "name": "湖南科技大学",
-    "leafCount": 7,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 367,
-        "maxScore": 386,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 317,
-        "maxScore": 322,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0212",
-    "name": "长沙理工大学",
-    "leafCount": 8,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 371,
-        "maxScore": 371,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 354,
-        "maxScore": 503,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0216",
-    "name": "湖南理工学院",
-    "leafCount": 4,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 336,
-        "maxScore": 343,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 306,
-        "maxScore": 331,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0217",
-    "name": "湖南文理学院",
-    "leafCount": 2,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 306,
-        "maxScore": 307,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0218",
-    "name": "湖南人文科技学院",
-    "leafCount": 2,
-    "ranges": {
-      "文科": {
-        "year": 2023,
-        "minScore": 296,
-        "maxScore": 296,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2023,
-        "minScore": 253,
-        "maxScore": 253,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0219",
-    "name": "南华大学",
-    "leafCount": 2,
-    "ranges": {
-      "文科": {
-        "year": 2023,
-        "minScore": 357,
-        "maxScore": 357,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
+    "key": "中山大学",
     "code": "0220",
     "name": "中山大学",
     "leafCount": 12,
@@ -1962,536 +1155,44 @@
     "isShuangYiLiu": true
   },
   {
-    "code": "0221",
-    "name": "华南理工大学",
-    "leafCount": 2,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 424,
-        "maxScore": 429,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "is985": true,
-    "is211": true,
-    "isShuangYiLiu": true
+    "key": "乐山师范学院",
+    "code": "0575",
+    "name": "乐山师范学院",
+    "leafCount": 0,
+    "ranges": {}
   },
   {
-    "code": "0224",
-    "name": "海南大学",
-    "leafCount": 5,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 402,
-        "maxScore": 490,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 362,
-        "maxScore": 362,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "is211": true,
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0228",
-    "name": "重庆大学",
-    "leafCount": 4,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 412,
-        "maxScore": 413,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 386,
-        "maxScore": 399,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "is985": true,
-    "is211": true,
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0229",
-    "name": "西南交通大学",
-    "leafCount": 10,
-    "ranges": {
-      "理科": {
-        "year": 2024,
-        "minScore": 341,
-        "maxScore": 413,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "is211": true,
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0230",
-    "name": "电子科技大学",
-    "leafCount": 4,
-    "ranges": {
-      "理科": {
-        "year": 2024,
-        "minScore": 431,
-        "maxScore": 666,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "is985": true,
-    "is211": true,
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0231",
-    "name": "成都理工大学",
-    "leafCount": 10,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 349,
-        "maxScore": 439,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 345,
-        "maxScore": 416,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0233",
-    "name": "重庆交通大学",
-    "leafCount": 10,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 361,
-        "maxScore": 364,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 311,
-        "maxScore": 447,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0234",
-    "name": "西南科技大学",
-    "leafCount": 6,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 363,
-        "maxScore": 412,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 311,
-        "maxScore": 342,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0237",
-    "name": "中国民用航空飞行学院",
-    "leafCount": 16,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 335,
-        "maxScore": 338,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 310,
-        "maxScore": 412,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0239",
-    "name": "重庆医科大学",
-    "leafCount": 9,
+    "key": "云南农业大学",
+    "code": "1043",
+    "name": "云南农业大学",
+    "leafCount": 3,
     "ranges": {
       "理科": {
         "year": 2025,
-        "minScore": 378,
-        "maxScore": 594,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0240",
-    "name": "西南医科大学",
-    "leafCount": 1,
-    "ranges": {
-      "理科": {
-        "year": 2024,
-        "minScore": 408,
-        "maxScore": 408,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0241",
-    "name": "成都中医药大学",
-    "leafCount": 7,
-    "ranges": {
-      "理科": {
-        "year": 2024,
-        "minScore": 305,
-        "maxScore": 411,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0242",
-    "name": "川北医学院",
-    "leafCount": 1,
-    "ranges": {
-      "理科": {
-        "year": 2024,
-        "minScore": 389,
-        "maxScore": 389,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0243",
-    "name": "西南大学",
-    "leafCount": 9,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 390,
-        "maxScore": 556,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 363,
-        "maxScore": 552,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "is211": true,
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0244",
-    "name": "四川师范大学",
-    "leafCount": 13,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 402,
-        "maxScore": 472,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 320,
-        "maxScore": 410,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0247",
-    "name": "绵阳师范学院",
-    "leafCount": 7,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 310,
-        "maxScore": 342,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 300,
-        "maxScore": 304,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0248",
-    "name": "内江师范学院",
-    "leafCount": 8,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 317,
-        "maxScore": 353,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 293,
-        "maxScore": 324,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0250",
-    "name": "重庆三峡学院",
-    "leafCount": 1,
-    "ranges": {
-      "文科": {
-        "year": 2022,
-        "minScore": 313,
-        "maxScore": 313,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0251",
-    "name": "长江师范学院",
-    "leafCount": 4,
-    "ranges": {
-      "文科": {
-        "year": 2023,
-        "minScore": 299,
-        "maxScore": 354,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2023,
-        "minScore": 270,
-        "maxScore": 377,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0252",
-    "name": "河南中医药大学",
-    "leafCount": 1,
-    "ranges": {
-      "文科": {
-        "year": 2024,
         "minScore": 334,
-        "maxScore": 334,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 280,
-        "maxScore": 280,
+        "maxScore": 371,
         "minRank": 0,
         "maxRank": 0
       }
     }
   },
   {
-    "code": "0254",
-    "name": "西南财经大学",
-    "leafCount": 11,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 394,
-        "maxScore": 553,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 374,
-        "maxScore": 582,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "is211": true,
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0255",
-    "name": "西南政法大学",
-    "leafCount": 4,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 408,
-        "maxScore": 450,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 409,
-        "maxScore": 420,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0258",
-    "name": "湘南学院",
-    "leafCount": 2,
-    "ranges": {
-      "文科": {
-        "year": 2023,
-        "minScore": 290,
-        "maxScore": 290,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2023,
-        "minScore": 340,
-        "maxScore": 340,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0259",
-    "name": "西南民族大学",
-    "leafCount": 31,
-    "ranges": {
-      "文科": {
-        "year": 2023,
-        "minScore": 338,
-        "maxScore": 404,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2023,
-        "minScore": 300,
-        "maxScore": 457,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0261",
-    "name": "昆明理工大学",
-    "leafCount": 5,
-    "ranges": {
-      "理科": {
-        "year": 2025,
-        "minScore": 302,
-        "maxScore": 306,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0267",
-    "name": "西安交通大学",
-    "leafCount": 1,
-    "ranges": {
-      "理科": {
-        "year": 2025,
-        "minScore": 427,
-        "maxScore": 427,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "is985": true,
-    "is211": true,
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0268",
-    "name": "西北工业大学",
-    "leafCount": 2,
-    "ranges": {
-      "理科": {
-        "year": 2024,
-        "minScore": 391,
-        "maxScore": 417,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "is985": true,
-    "is211": true,
-    "isShuangYiLiu": true
-  },
-  {
-    "code": "0274",
-    "name": "陕西师范大学",
+    "key": "云南大学",
+    "code": "0692",
+    "name": "云南大学",
     "leafCount": 9,
     "ranges": {
       "文科": {
-        "year": 2025,
-        "minScore": 422,
-        "maxScore": 538,
+        "year": 2024,
+        "minScore": 401,
+        "maxScore": 497,
         "minRank": 0,
         "maxRank": 0
       },
       "理科": {
-        "year": 2025,
-        "minScore": 496,
-        "maxScore": 538,
+        "year": 2024,
+        "minScore": 364,
+        "maxScore": 524,
         "minRank": 0,
         "maxRank": 0
       }
@@ -2500,76 +1201,93 @@
     "isShuangYiLiu": true
   },
   {
-    "code": "0277",
-    "name": "咸阳师范学院",
-    "leafCount": 10,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 321,
-        "maxScore": 348,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 301,
-        "maxScore": 317,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
+    "key": "云南民族大学",
+    "code": "0265",
+    "name": "云南民族大学",
+    "leafCount": 0,
+    "ranges": {}
   },
   {
-    "code": "0278",
-    "name": "渭南师范学院",
-    "leafCount": 5,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 329,
-        "maxScore": 339,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0279",
-    "name": "西安外国语大学",
-    "leafCount": 6,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 381,
-        "maxScore": 394,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 326,
-        "maxScore": 328,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0280",
-    "name": "西北政法大学",
+    "key": "云南警官学院",
+    "code": "0350",
+    "name": "云南警官学院",
     "leafCount": 1,
     "ranges": {
       "文科": {
-        "year": 2025,
-        "minScore": 347,
-        "maxScore": 347,
+        "year": 2024,
+        "minScore": 376,
+        "maxScore": 376,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 322,
+        "maxScore": 322,
         "minRank": 0,
         "maxRank": 0
       }
     }
   },
   {
+    "key": "云南财经大学",
+    "code": "0264",
+    "name": "云南财经大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "井冈山大学",
+    "code": "0182",
+    "name": "井冈山大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "仲恺农业工程学院",
+    "code": "0616",
+    "name": "仲恺农业工程学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "伊犁师范大学",
+    "code": "0292",
+    "name": "伊犁师范大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "佳木斯大学",
+    "code": "0107",
+    "name": "佳木斯大学",
+    "leafCount": 3,
+    "ranges": {
+      "理科": {
+        "year": 2025,
+        "minScore": 269,
+        "maxScore": 273,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "兰州交通大学",
+    "code": "0282",
+    "name": "兰州交通大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "兰州城市学院",
+    "code": "0284",
+    "name": "兰州城市学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "兰州大学",
     "code": "0281",
     "name": "兰州大学",
     "leafCount": 5,
@@ -2594,359 +1312,81 @@
     "isShuangYiLiu": true
   },
   {
-    "code": "0286",
-    "name": "西北民族大学",
-    "leafCount": 30,
-    "ranges": {
-      "文科": {
-        "year": 2023,
-        "minScore": 267,
-        "maxScore": 357,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2023,
-        "minScore": 279,
-        "maxScore": 316,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
+    "key": "兰州文理学院",
+    "code": "0377",
+    "name": "兰州文理学院",
+    "leafCount": 0,
+    "ranges": {}
   },
   {
-    "code": "0291",
-    "name": "石河子大学",
-    "leafCount": 1,
-    "ranges": {
-      "理科": {
-        "year": 2025,
-        "minScore": 360,
-        "maxScore": 360,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "is211": true,
-    "isShuangYiLiu": true
+    "key": "兰州资源环境职业技术大学",
+    "code": "0912",
+    "name": "兰州资源环境职业技术大学",
+    "leafCount": 0,
+    "ranges": {}
   },
   {
-    "code": "0296",
-    "name": "邵阳学院",
-    "leafCount": 1,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 305,
-        "maxScore": 305,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0299",
-    "name": "怀化学院",
-    "leafCount": 2,
-    "ranges": {
-      "文科": {
-        "year": 2023,
-        "minScore": 340,
-        "maxScore": 340,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0305",
-    "name": "天津财经大学",
-    "leafCount": 3,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 344,
-        "maxScore": 344,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 323,
-        "maxScore": 355,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0307",
-    "name": "上海工程技术大学",
-    "leafCount": 1,
-    "ranges": {
-      "理科": {
-        "year": 2025,
-        "minScore": 343,
-        "maxScore": 343,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0322",
-    "name": "金陵科技学院",
-    "leafCount": 40,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 313,
-        "maxScore": 348,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 283,
-        "maxScore": 391,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0326",
-    "name": "厦门理工学院",
-    "leafCount": 14,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 328,
-        "maxScore": 339,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 284,
-        "maxScore": 358,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0327",
-    "name": "青岛大学",
-    "leafCount": 5,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 398,
-        "maxScore": 471,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 315,
-        "maxScore": 320,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0329",
-    "name": "三峡大学",
-    "leafCount": 14,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 339,
-        "maxScore": 354,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 297,
-        "maxScore": 493,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0330",
-    "name": "西安文理学院",
+    "key": "内江师范学院",
+    "code": "0248",
+    "name": "内江师范学院",
     "leafCount": 8,
     "ranges": {
       "文科": {
         "year": 2024,
-        "minScore": 337,
-        "maxScore": 343,
+        "minScore": 317,
+        "maxScore": 353,
         "minRank": 0,
         "maxRank": 0
       },
       "理科": {
         "year": 2024,
-        "minScore": 298,
-        "maxScore": 316,
+        "minScore": 293,
+        "maxScore": 324,
         "minRank": 0,
         "maxRank": 0
       }
     }
   },
   {
-    "code": "0331",
-    "name": "海南热带海洋学院",
-    "leafCount": 27,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 313,
-        "maxScore": 323,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 274,
-        "maxScore": 325,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
+    "key": "内蒙古农业大学",
+    "code": "0065",
+    "name": "内蒙古农业大学",
+    "leafCount": 0,
+    "ranges": {}
   },
   {
-    "code": "0340",
-    "name": "吉林工商学院",
-    "leafCount": 16,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 306,
-        "maxScore": 334,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 268,
-        "maxScore": 285,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
+    "key": "内蒙古大学",
+    "code": "0063",
+    "name": "内蒙古大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is211": true,
+    "isShuangYiLiu": true
   },
   {
-    "code": "0342",
-    "name": "西安科技大学",
-    "leafCount": 6,
-    "ranges": {
-      "理科": {
-        "year": 2024,
-        "minScore": 305,
-        "maxScore": 400,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
+    "key": "内蒙古科技大学",
+    "code": "0064",
+    "name": "内蒙古科技大学",
+    "leafCount": 0,
+    "ranges": {}
   },
   {
-    "code": "0343",
-    "name": "三明学院",
-    "leafCount": 7,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 307,
-        "maxScore": 308,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 271,
-        "maxScore": 282,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
+    "key": "内蒙古科技大学包头医学院",
+    "code": "0916",
+    "name": "内蒙古科技大学包头医学院",
+    "leafCount": 0,
+    "ranges": {}
   },
   {
-    "code": "0345",
-    "name": "陕西科技大学",
-    "leafCount": 3,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 385,
-        "maxScore": 385,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 332,
-        "maxScore": 337,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0349",
-    "name": "攀枝花学院",
+    "key": "北京中医药大学",
+    "code": "0022",
+    "name": "北京中医药大学",
     "leafCount": 4,
     "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 327,
-        "maxScore": 339,
-        "minRank": 0,
-        "maxRank": 0
-      },
       "理科": {
-        "year": 2024,
-        "minScore": 281,
-        "maxScore": 296,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0350",
-    "name": "云南警官学院",
-    "leafCount": 1,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 376,
-        "maxScore": 376,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 322,
-        "maxScore": 322,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0353",
-    "name": "中国矿业大学（北京）",
-    "leafCount": 2,
-    "ranges": {
-      "理科": {
-        "year": 2024,
-        "minScore": 359,
-        "maxScore": 475,
+        "year": 2025,
+        "minScore": 369,
+        "maxScore": 560,
         "minRank": 0,
         "maxRank": 0
       }
@@ -2955,13 +1395,52 @@
     "isShuangYiLiu": true
   },
   {
-    "code": "0354",
-    "name": "中国石油大学（北京）",
-    "leafCount": 3,
+    "key": "北京交通大学",
+    "code": "0004",
+    "name": "北京交通大学",
+    "leafCount": 1,
     "ranges": {
       "理科": {
+        "year": 2024,
+        "minScore": 422,
+        "maxScore": 422,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "北京信息科技大学",
+    "code": "0338",
+    "name": "北京信息科技大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "北京农学院",
+    "code": "0019",
+    "name": "北京农学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "北京化工大学",
+    "code": "0010",
+    "name": "北京化工大学",
+    "leafCount": 1,
+    "ranges": {
+      "文科": {
         "year": 2025,
-        "minScore": 343,
+        "minScore": 400,
+        "maxScore": 400,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 530,
         "maxScore": 530,
         "minRank": 0,
         "maxRank": 0
@@ -2971,14 +1450,107 @@
     "isShuangYiLiu": true
   },
   {
-    "code": "0355",
-    "name": "中国地质大学（北京）",
+    "key": "北京印刷学院",
+    "code": "0014",
+    "name": "北京印刷学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "北京外国语大学",
+    "code": "0026",
+    "name": "北京外国语大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "北京大学",
+    "code": "0001",
+    "name": "北京大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "北京大学医学部",
+    "code": "0783",
+    "name": "北京大学医学部",
     "leafCount": 1,
     "ranges": {
       "理科": {
         "year": 2025,
-        "minScore": 534,
-        "maxScore": 534,
+        "minScore": 663,
+        "maxScore": 663,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "北京工业大学",
+    "code": "0005",
+    "name": "北京工业大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "北京工商大学",
+    "code": "0011",
+    "name": "北京工商大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "北京师范大学(珠海校区)",
+    "code": "0023",
+    "name": "北京师范大学（珠海校区）",
+    "leafCount": 0,
+    "ranges": {},
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "北京建筑大学",
+    "code": "0015",
+    "name": "北京建筑大学",
+    "leafCount": 3,
+    "ranges": {
+      "理科": {
+        "year": 2025,
+        "minScore": 361,
+        "maxScore": 435,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "北京服装学院",
+    "code": "0012",
+    "name": "北京服装学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "北京林业大学",
+    "code": "0020",
+    "name": "北京林业大学",
+    "leafCount": 2,
+    "ranges": {
+      "理科": {
+        "year": 2023,
+        "minScore": 444,
+        "maxScore": 449,
         "minRank": 0,
         "maxRank": 0
       }
@@ -2987,203 +1559,333 @@
     "isShuangYiLiu": true
   },
   {
-    "code": "0361",
-    "name": "吉林警察学院",
+    "key": "北京物资学院",
+    "code": "0032",
+    "name": "北京物资学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "北京理工大学",
+    "code": "0007",
+    "name": "北京理工大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "北京电子科技学院",
+    "code": "0017",
+    "name": "北京电子科技学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "北京石油化工学院",
+    "code": "0016",
+    "name": "北京石油化工学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "北京科技大学",
+    "code": "0008",
+    "name": "北京科技大学",
+    "leafCount": 2,
+    "ranges": {
+      "理科": {
+        "year": 2025,
+        "minScore": 366,
+        "maxScore": 572,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "北京科技大学天津学院",
+    "code": "0879",
+    "name": "北京科技大学天津学院",
     "leafCount": 3,
     "ranges": {
       "文科": {
-        "year": 2025,
-        "minScore": 342,
-        "maxScore": 342,
+        "year": 2024,
+        "minScore": 288,
+        "maxScore": 288,
         "minRank": 0,
         "maxRank": 0
       },
       "理科": {
-        "year": 2025,
-        "minScore": 295,
-        "maxScore": 350,
+        "year": 2024,
+        "minScore": 271,
+        "maxScore": 271,
         "minRank": 0,
         "maxRank": 0
       }
     }
   },
   {
-    "code": "0364",
-    "name": "绍兴文理学院",
-    "leafCount": 4,
+    "key": "北京第二外国语学院",
+    "code": "0027",
+    "name": "北京第二外国语学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "北京联合大学",
+    "code": "0356",
+    "name": "北京联合大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "北京航空航天大学",
+    "code": "0006",
+    "name": "北京航空航天大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "北京语言大学",
+    "code": "0028",
+    "name": "北京语言大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "北京邮电大学",
+    "code": "0013",
+    "name": "北京邮电大学",
+    "leafCount": 1,
     "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 361,
-        "maxScore": 361,
+      "理科": {
+        "year": 2025,
+        "minScore": 601,
+        "maxScore": 601,
         "minRank": 0,
         "maxRank": 0
-      },
+      }
+    },
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "北华大学",
+    "code": "0095",
+    "name": "北华大学",
+    "leafCount": 16,
+    "ranges": {
       "理科": {
-        "year": 2024,
-        "minScore": 309,
-        "maxScore": 321,
+        "year": 2025,
+        "minScore": 272,
+        "maxScore": 353,
         "minRank": 0,
         "maxRank": 0
       }
     }
   },
   {
-    "code": "0368",
-    "name": "延安大学",
-    "leafCount": 6,
+    "key": "北方工业大学",
+    "code": "0009",
+    "name": "北方工业大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "北方民族大学",
+    "code": "0352",
+    "name": "北方民族大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "华东师范大学",
+    "code": "0954",
+    "name": "华东师范大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "华东政法大学",
+    "code": "0127",
+    "name": "华东政法大学",
+    "leafCount": 5,
     "ranges": {
       "文科": {
         "year": 2025,
-        "minScore": 361,
-        "maxScore": 364,
+        "minScore": 383,
+        "maxScore": 535,
         "minRank": 0,
         "maxRank": 0
       },
       "理科": {
         "year": 2025,
-        "minScore": 316,
-        "maxScore": 326,
+        "minScore": 373,
+        "maxScore": 535,
         "minRank": 0,
         "maxRank": 0
       }
     }
   },
   {
-    "code": "0380",
-    "name": "海南师范大学",
-    "leafCount": 9,
+    "key": "华东理工大学",
+    "code": "0114",
+    "name": "华东理工大学",
+    "leafCount": 17,
     "ranges": {
       "文科": {
-        "year": 2024,
-        "minScore": 391,
-        "maxScore": 407,
+        "year": 2025,
+        "minScore": 393,
+        "maxScore": 448,
         "minRank": 0,
         "maxRank": 0
       },
       "理科": {
-        "year": 2024,
-        "minScore": 369,
-        "maxScore": 377,
+        "year": 2025,
+        "minScore": 394,
+        "maxScore": 495,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "华中农业大学",
+    "code": "0201",
+    "name": "华中农业大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "华中师范大学",
+    "code": "0202",
+    "name": "华中师范大学",
+    "leafCount": 18,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 408,
+        "maxScore": 552,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 385,
+        "maxScore": 567,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "华中科技大学",
+    "code": "0197",
+    "name": "华中科技大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "华北水利水电大学",
+    "code": "0057",
+    "name": "华北水利水电大学",
+    "leafCount": 10,
+    "ranges": {
+      "理科": {
+        "year": 2025,
+        "minScore": 339,
+        "maxScore": 381,
         "minRank": 0,
         "maxRank": 0
       }
     }
   },
   {
-    "code": "0381",
-    "name": "重庆理工大学",
-    "leafCount": 4,
+    "key": "华北理工大学",
+    "code": "0388",
+    "name": "华北理工大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "华北电力大学(保定)",
+    "code": "0058",
+    "name": "华北电力大学（保定）",
+    "leafCount": 0,
+    "ranges": {},
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "华北电力大学(北京)",
+    "code": "0044",
+    "name": "华北电力大学（北京）",
+    "leafCount": 0,
+    "ranges": {},
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "华北科技学院",
+    "code": "0332",
+    "name": "华北科技学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "华南理工大学",
+    "code": "0221",
+    "name": "华南理工大学",
+    "leafCount": 2,
     "ranges": {
       "文科": {
-        "year": 2025,
-        "minScore": 356,
-        "maxScore": 362,
+        "year": 2024,
+        "minScore": 424,
+        "maxScore": 429,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "南京信息工程大学",
+    "code": "0142",
+    "name": "南京信息工程大学",
+    "leafCount": 26,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 376,
+        "maxScore": 459,
         "minRank": 0,
         "maxRank": 0
       },
       "理科": {
         "year": 2025,
         "minScore": 351,
-        "maxScore": 355,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0384",
-    "name": "长春大学",
-    "leafCount": 12,
-    "ranges": {
-      "文科": {
-        "year": 2023,
-        "minScore": 296,
-        "maxScore": 336,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2023,
-        "minScore": 252,
-        "maxScore": 270,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0392",
-    "name": "黑龙江工程学院",
-    "leafCount": 8,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 307,
-        "maxScore": 307,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 265,
-        "maxScore": 278,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0395",
-    "name": "上海政法学院",
-    "leafCount": 3,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 385,
-        "maxScore": 479,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 353,
-        "maxScore": 463,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0398",
-    "name": "广东工业大学",
-    "leafCount": 10,
-    "ranges": {
-      "文科": {
-        "year": 2023,
-        "minScore": 323,
-        "maxScore": 333,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2023,
-        "minScore": 292,
-        "maxScore": 416,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0401",
-    "name": "山西大学",
-    "leafCount": 4,
-    "ranges": {
-      "理科": {
-        "year": 2022,
-        "minScore": 422,
-        "maxScore": 440,
+        "maxScore": 493,
         "minRank": 0,
         "maxRank": 0
       }
@@ -3191,55 +1893,92 @@
     "isShuangYiLiu": true
   },
   {
-    "code": "0402",
-    "name": "泰州学院",
-    "leafCount": 3,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 301,
-        "maxScore": 310,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0405",
-    "name": "郑州师范学院",
+    "key": "南京农业大学",
+    "code": "0145",
+    "name": "南京农业大学",
     "leafCount": 2,
     "ranges": {
       "文科": {
         "year": 2024,
-        "minScore": 315,
-        "maxScore": 315,
+        "minScore": 369,
+        "maxScore": 370,
         "minRank": 0,
         "maxRank": 0
       },
       "理科": {
         "year": 2024,
-        "minScore": 269,
-        "maxScore": 269,
+        "minScore": 340,
+        "maxScore": 340,
         "minRank": 0,
         "maxRank": 0
       }
-    }
+    },
+    "is211": true,
+    "isShuangYiLiu": true
   },
   {
-    "code": "0409",
-    "name": "上海第二工业大学",
-    "leafCount": 2,
+    "key": "南京医科大学康达学院",
+    "code": "0884",
+    "name": "南京医科大学康达学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "南京大学",
+    "code": "0132",
+    "name": "南京大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "南京审计大学",
+    "code": "0341",
+    "name": "南京审计大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "南京审计大学金审学院",
+    "code": "0888",
+    "name": "南京审计大学金审学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "南京晓庄学院",
+    "code": "0363",
+    "name": "南京晓庄学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "南京林业大学",
+    "code": "0140",
+    "name": "南京林业大学",
+    "leafCount": 27,
     "ranges": {
+      "文科": {
+        "year": 2023,
+        "minScore": 358,
+        "maxScore": 428,
+        "minRank": 0,
+        "maxRank": 0
+      },
       "理科": {
-        "year": 2025,
-        "minScore": 302,
-        "maxScore": 302,
+        "year": 2023,
+        "minScore": 329,
+        "maxScore": 379,
         "minRank": 0,
         "maxRank": 0
       }
-    }
+    },
+    "isShuangYiLiu": true
   },
   {
+    "key": "南京特殊教育师范学院",
     "code": "0411",
     "name": "南京特殊教育师范学院",
     "leafCount": 10,
@@ -3261,154 +2000,15 @@
     }
   },
   {
-    "code": "0414",
-    "name": "长沙学院",
+    "key": "南京理工大学",
+    "code": "0135",
+    "name": "南京理工大学",
     "leafCount": 1,
     "ranges": {
-      "文科": {
-        "year": 2023,
-        "minScore": 286,
-        "maxScore": 286,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0415",
-    "name": "大连大学",
-    "leafCount": 4,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 311,
-        "maxScore": 346,
-        "minRank": 0,
-        "maxRank": 0
-      },
       "理科": {
         "year": 2025,
-        "minScore": 296,
-        "maxScore": 296,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0416",
-    "name": "安庆师范大学",
-    "leafCount": 2,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 329,
-        "maxScore": 337,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0421",
-    "name": "沈阳工业大学",
-    "leafCount": 7,
-    "ranges": {
-      "理科": {
-        "year": 2024,
-        "minScore": 306,
-        "maxScore": 364,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0430",
-    "name": "中国劳动关系学院",
-    "leafCount": 4,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 393,
-        "maxScore": 430,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0431",
-    "name": "商洛学院",
-    "leafCount": 10,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 316,
-        "maxScore": 318,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 287,
-        "maxScore": 292,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0440",
-    "name": "湖南警察学院",
-    "leafCount": 3,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 342,
-        "maxScore": 342,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 349,
-        "maxScore": 349,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0444",
-    "name": "湖南女子学院",
-    "leafCount": 2,
-    "ranges": {
-      "文科": {
-        "year": 2023,
-        "minScore": 297,
-        "maxScore": 304,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0448",
-    "name": "东北农业大学",
-    "leafCount": 3,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 384,
-        "maxScore": 466,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 312,
-        "maxScore": 315,
+        "minScore": 375,
+        "maxScore": 375,
         "minRank": 0,
         "maxRank": 0
       }
@@ -3417,104 +2017,30 @@
     "isShuangYiLiu": true
   },
   {
-    "code": "0465",
-    "name": "哈尔滨师范大学",
-    "leafCount": 5,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 319,
-        "maxScore": 322,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 288,
-        "maxScore": 291,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
+    "key": "南京航空航天大学",
+    "code": "0134",
+    "name": "南京航空航天大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is211": true,
+    "isShuangYiLiu": true
   },
   {
-    "code": "0472",
-    "name": "牡丹江师范学院",
-    "leafCount": 5,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 309,
-        "maxScore": 316,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 266,
-        "maxScore": 267,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
+    "key": "南京艺术学院",
+    "code": "0181",
+    "name": "南京艺术学院",
+    "leafCount": 0,
+    "ranges": {}
   },
   {
-    "code": "0480",
-    "name": "哈尔滨学院",
-    "leafCount": 5,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 316,
-        "maxScore": 326,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 292,
-        "maxScore": 294,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
+    "key": "南京警察学院",
+    "code": "0533",
+    "name": "南京警察学院",
+    "leafCount": 0,
+    "ranges": {}
   },
   {
-    "code": "0481",
-    "name": "大庆师范学院",
-    "leafCount": 5,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 306,
-        "maxScore": 308,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 272,
-        "maxScore": 278,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0482",
-    "name": "绥化学院",
-    "leafCount": 2,
-    "ranges": {
-      "理科": {
-        "year": 2024,
-        "minScore": 292,
-        "maxScore": 295,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
+    "key": "南京邮电大学",
     "code": "0512",
     "name": "南京邮电大学",
     "leafCount": 1,
@@ -3530,35 +2056,182 @@
     "isShuangYiLiu": true
   },
   {
-    "code": "0518",
-    "name": "温州大学",
-    "leafCount": 19,
+    "key": "南华大学",
+    "code": "0219",
+    "name": "南华大学",
+    "leafCount": 2,
     "ranges": {
       "文科": {
-        "year": 2024,
-        "minScore": 355,
-        "maxScore": 426,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 308,
-        "maxScore": 355,
+        "year": 2023,
+        "minScore": 357,
+        "maxScore": 357,
         "minRank": 0,
         "maxRank": 0
       }
     }
   },
   {
-    "code": "0520",
-    "name": "安徽大学",
-    "leafCount": 1,
+    "key": "南华大学船山学院",
+    "code": "0684",
+    "name": "南华大学船山学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "南开大学",
+    "code": "0045",
+    "name": "南开大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "南方医科大学",
+    "code": "0417",
+    "name": "南方医科大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "南昌大学",
+    "code": "0178",
+    "name": "南昌大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "南昌工学院",
+    "code": "0846",
+    "name": "南昌工学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "南昌理工学院",
+    "code": "0735",
+    "name": "南昌理工学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "南通理工学院",
+    "code": "0645",
+    "name": "南通理工学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "厦门大学",
+    "code": "0165",
+    "name": "厦门大学",
+    "leafCount": 2,
     "ranges": {
       "文科": {
         "year": 2025,
-        "minScore": 404,
-        "maxScore": 404,
+        "minScore": 401,
+        "maxScore": 401,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 411,
+        "maxScore": 411,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "厦门大学嘉庚学院",
+    "code": "0847",
+    "name": "厦门大学嘉庚学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "厦门工学院",
+    "code": "0761",
+    "name": "厦门工学院",
+    "leafCount": 2,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 295,
+        "maxScore": 295,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 273,
+        "maxScore": 273,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "厦门理工学院",
+    "code": "0326",
+    "name": "厦门理工学院",
+    "leafCount": 14,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 328,
+        "maxScore": 339,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 284,
+        "maxScore": 358,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "台州学院",
+    "code": "0160",
+    "name": "台州学院",
+    "leafCount": 5,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 327,
+        "maxScore": 342,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 286,
+        "maxScore": 290,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "合肥工业大学",
+    "code": "0163",
+    "name": "合肥工业大学",
+    "leafCount": 4,
+    "ranges": {
+      "理科": {
+        "year": 2025,
+        "minScore": 312,
+        "maxScore": 369,
         "minRank": 0,
         "maxRank": 0
       }
@@ -3567,258 +2240,14 @@
     "isShuangYiLiu": true
   },
   {
-    "code": "0522",
-    "name": "西安航空学院",
-    "leafCount": 10,
+    "key": "吉林农业大学",
+    "code": "0092",
+    "name": "吉林农业大学",
+    "leafCount": 8,
     "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 302,
-        "maxScore": 302,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 265,
-        "maxScore": 277,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0543",
-    "name": "武汉工程大学",
-    "leafCount": 5,
-    "ranges": {
-      "文科": {
-        "year": 2023,
-        "minScore": 320,
-        "maxScore": 330,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2023,
-        "minScore": 304,
-        "maxScore": 304,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0547",
-    "name": "湖北工业大学",
-    "leafCount": 3,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 351,
-        "maxScore": 351,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 308,
-        "maxScore": 308,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0549",
-    "name": "湖北师范大学",
-    "leafCount": 5,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 357,
-        "maxScore": 391,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 321,
-        "maxScore": 325,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0550",
-    "name": "黄冈师范学院",
-    "leafCount": 6,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 332,
-        "maxScore": 333,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0556",
-    "name": "湖北工程学院",
-    "leafCount": 9,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 312,
-        "maxScore": 320,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0560",
-    "name": "广东医科大学",
-    "leafCount": 3,
-    "ranges": {
-      "理科": {
-        "year": 2024,
-        "minScore": 398,
-        "maxScore": 413,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0561",
-    "name": "肇庆学院",
-    "leafCount": 3,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 306,
-        "maxScore": 310,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0569",
-    "name": "广东技术师范大学",
-    "leafCount": 13,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 324,
-        "maxScore": 343,
-        "minRank": 0,
-        "maxRank": 0
-      },
       "理科": {
         "year": 2025,
-        "minScore": 278,
-        "maxScore": 291,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0571",
-    "name": "广西师范大学",
-    "leafCount": 4,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 338,
-        "maxScore": 407,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 276,
-        "maxScore": 276,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0583",
-    "name": "福建江夏学院",
-    "leafCount": 7,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 317,
-        "maxScore": 358,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 269,
-        "maxScore": 313,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0595",
-    "name": "琼台师范学院",
-    "leafCount": 18,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 317,
-        "maxScore": 330,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 282,
-        "maxScore": 354,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0605",
-    "name": "辽宁对外经贸学院",
-    "leafCount": 1,
-    "ranges": {
-      "理科": {
-        "year": 2024,
-        "minScore": 282,
-        "maxScore": 282,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0607",
-    "name": "湖北科技学院",
-    "leafCount": 2,
-    "ranges": {
-      "文科": {
-        "year": 2023,
-        "minScore": 308,
-        "maxScore": 308,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2023,
-        "minScore": 275,
+        "minScore": 270,
         "maxScore": 280,
         "minRank": 0,
         "maxRank": 0
@@ -3826,55 +2255,105 @@
     }
   },
   {
-    "code": "0609",
-    "name": "江汉大学",
-    "leafCount": 2,
+    "key": "吉林农业科技学院",
+    "code": "0359",
+    "name": "吉林农业科技学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "吉林化工大学",
+    "code": "0091",
+    "name": "吉林化工大学",
+    "leafCount": 17,
     "ranges": {
-      "文科": {
+      "理科": {
         "year": 2025,
-        "minScore": 372,
-        "maxScore": 376,
+        "minScore": 269,
+        "maxScore": 317,
         "minRank": 0,
         "maxRank": 0
       }
     }
   },
   {
-    "code": "0612",
-    "name": "广州航海学院",
+    "key": "吉林医药学院",
+    "code": "1157",
+    "name": "吉林医药学院",
+    "leafCount": 2,
+    "ranges": {
+      "理科": {
+        "year": 2025,
+        "minScore": 311,
+        "maxScore": 316,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "吉林大学",
+    "code": "0085",
+    "name": "吉林大学",
     "leafCount": 6,
     "ranges": {
       "文科": {
         "year": 2025,
-        "minScore": 315,
-        "maxScore": 373,
+        "minScore": 562,
+        "maxScore": 562,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 532,
+        "maxScore": 564,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "吉林工商学院",
+    "code": "0340",
+    "name": "吉林工商学院",
+    "leafCount": 16,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 306,
+        "maxScore": 334,
         "minRank": 0,
         "maxRank": 0
       },
       "理科": {
         "year": 2025,
         "minScore": 268,
-        "maxScore": 281,
+        "maxScore": 285,
         "minRank": 0,
         "maxRank": 0
       }
     }
   },
   {
-    "code": "0629",
-    "name": "衢州学院",
-    "leafCount": 1,
+    "key": "吉林工程技术师范学院",
+    "code": "0098",
+    "name": "吉林工程技术师范学院",
+    "leafCount": 3,
     "ranges": {
       "文科": {
-        "year": 2024,
-        "minScore": 301,
-        "maxScore": 301,
+        "year": 2025,
+        "minScore": 304,
+        "maxScore": 304,
         "minRank": 0,
         "maxRank": 0
       },
       "理科": {
-        "year": 2024,
-        "minScore": 267,
+        "year": 2025,
+        "minScore": 266,
         "maxScore": 267,
         "minRank": 0,
         "maxRank": 0
@@ -3882,20 +2361,21 @@
     }
   },
   {
-    "code": "0652",
-    "name": "浙江外国语学院",
-    "leafCount": 9,
+    "key": "吉林师范大学",
+    "code": "0097",
+    "name": "吉林师范大学",
+    "leafCount": 11,
     "ranges": {
       "文科": {
         "year": 2025,
-        "minScore": 339,
-        "maxScore": 373,
+        "minScore": 319,
+        "maxScore": 341,
         "minRank": 0,
         "maxRank": 0
       },
       "理科": {
         "year": 2025,
-        "minScore": 303,
+        "minScore": 286,
         "maxScore": 318,
         "minRank": 0,
         "maxRank": 0
@@ -3903,71 +2383,66 @@
     }
   },
   {
-    "code": "0667",
-    "name": "山西传媒学院",
-    "leafCount": 4,
+    "key": "吉林建筑大学",
+    "code": "0090",
+    "name": "吉林建筑大学",
+    "leafCount": 2,
     "ranges": {
-      "文科": {
-        "year": 2022,
-        "minScore": 306,
-        "maxScore": 325,
-        "minRank": 0,
-        "maxRank": 0
-      },
       "理科": {
-        "year": 2022,
-        "minScore": 266,
-        "maxScore": 279,
+        "year": 2025,
+        "minScore": 272,
+        "maxScore": 274,
         "minRank": 0,
         "maxRank": 0
       }
     }
   },
   {
-    "code": "0691",
-    "name": "汉江师范学院",
-    "leafCount": 15,
+    "key": "吉林警察学院",
+    "code": "0361",
+    "name": "吉林警察学院",
+    "leafCount": 3,
     "ranges": {
       "文科": {
-        "year": 2024,
-        "minScore": 322,
-        "maxScore": 327,
+        "year": 2025,
+        "minScore": 342,
+        "maxScore": 342,
         "minRank": 0,
         "maxRank": 0
       },
       "理科": {
-        "year": 2024,
-        "minScore": 282,
-        "maxScore": 377,
+        "year": 2025,
+        "minScore": 295,
+        "maxScore": 350,
         "minRank": 0,
         "maxRank": 0
       }
     }
   },
   {
-    "code": "0692",
-    "name": "云南大学",
-    "leafCount": 9,
+    "key": "吉林财经大学",
+    "code": "0101",
+    "name": "吉林财经大学",
+    "leafCount": 12,
     "ranges": {
       "文科": {
-        "year": 2024,
-        "minScore": 401,
-        "maxScore": 497,
+        "year": 2025,
+        "minScore": 351,
+        "maxScore": 393,
         "minRank": 0,
         "maxRank": 0
       },
       "理科": {
-        "year": 2024,
-        "minScore": 364,
-        "maxScore": 524,
+        "year": 2025,
+        "minScore": 315,
+        "maxScore": 396,
         "minRank": 0,
         "maxRank": 0
       }
-    },
-    "is211": true,
-    "isShuangYiLiu": true
+    }
   },
   {
+    "key": "吉首大学",
     "code": "0744",
     "name": "吉首大学",
     "leafCount": 4,
@@ -3989,27 +2464,2771 @@
     }
   },
   {
-    "code": "0750",
-    "name": "中国消防救援学院",
-    "leafCount": 6,
+    "key": "同济大学",
+    "code": "0112",
+    "name": "同济大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "呼和浩特民族学院",
+    "code": "0383",
+    "name": "呼和浩特民族学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "咸阳师范学院",
+    "code": "0277",
+    "name": "咸阳师范学院",
+    "leafCount": 10,
     "ranges": {
       "文科": {
         "year": 2024,
-        "minScore": 420,
-        "maxScore": 420,
+        "minScore": 321,
+        "maxScore": 348,
         "minRank": 0,
         "maxRank": 0
       },
       "理科": {
-        "year": 2025,
-        "minScore": 375,
-        "maxScore": 429,
+        "year": 2024,
+        "minScore": 301,
+        "maxScore": 317,
         "minRank": 0,
         "maxRank": 0
       }
     }
   },
   {
+    "key": "哈尔滨信息工程学院",
+    "code": "0632",
+    "name": "哈尔滨信息工程学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "哈尔滨商业大学",
+    "code": "0484",
+    "name": "哈尔滨商业大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "哈尔滨学院",
+    "code": "0480",
+    "name": "哈尔滨学院",
+    "leafCount": 5,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 316,
+        "maxScore": 326,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 292,
+        "maxScore": 294,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "哈尔滨工业大学",
+    "code": "0103",
+    "name": "哈尔滨工业大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "哈尔滨工程大学",
+    "code": "0105",
+    "name": "哈尔滨工程大学",
+    "leafCount": 5,
+    "ranges": {
+      "理科": {
+        "year": 2025,
+        "minScore": 372,
+        "maxScore": 592,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "哈尔滨师范大学",
+    "code": "0465",
+    "name": "哈尔滨师范大学",
+    "leafCount": 5,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 319,
+        "maxScore": 322,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 288,
+        "maxScore": 291,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "哈尔滨理工大学",
+    "code": "0104",
+    "name": "哈尔滨理工大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "哈尔滨远东理工学院",
+    "code": "0841",
+    "name": "哈尔滨远东理工学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "哈尔滨金融学院",
+    "code": "0498",
+    "name": "哈尔滨金融学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "商洛学院",
+    "code": "0431",
+    "name": "商洛学院",
+    "leafCount": 10,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 316,
+        "maxScore": 318,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 287,
+        "maxScore": 292,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "喀什大学",
+    "code": "1060",
+    "name": "喀什大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "嘉兴大学",
+    "code": "1019",
+    "name": "嘉兴大学",
+    "leafCount": 6,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 340,
+        "maxScore": 389,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 303,
+        "maxScore": 369,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "四川农业大学",
+    "code": "0238",
+    "name": "四川农业大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "四川外国语大学",
+    "code": "0253",
+    "name": "四川外国语大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "四川大学",
+    "code": "0227",
+    "name": "四川大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "四川工业科技学院",
+    "code": "0659",
+    "name": "四川工业科技学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "四川工程职业技术大学",
+    "code": "1116",
+    "name": "四川工程职业技术大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "四川师范大学",
+    "code": "0244",
+    "name": "四川师范大学",
+    "leafCount": 13,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 402,
+        "maxScore": 472,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 320,
+        "maxScore": 410,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "四川民族学院",
+    "code": "0382",
+    "name": "四川民族学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "四川警察学院",
+    "code": "0400",
+    "name": "四川警察学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "四川轻化工大学",
+    "code": "0236",
+    "name": "四川轻化工大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "塔里木大学",
+    "code": "0753",
+    "name": "塔里木大学",
+    "leafCount": 2,
+    "ranges": {
+      "理科": {
+        "year": 2025,
+        "minScore": 314,
+        "maxScore": 336,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "复旦大学",
+    "code": "0111",
+    "name": "复旦大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "复旦大学上海医学院",
+    "code": "0687",
+    "name": "复旦大学上海医学院",
+    "leafCount": 0,
+    "ranges": {},
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "大庆师范学院",
+    "code": "0481",
+    "name": "大庆师范学院",
+    "leafCount": 5,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 306,
+        "maxScore": 308,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 272,
+        "maxScore": 278,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "大连交通大学",
+    "code": "0039",
+    "name": "大连交通大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "大连医科大学",
+    "code": "0079",
+    "name": "大连医科大学",
+    "leafCount": 1,
+    "ranges": {
+      "理科": {
+        "year": 2025,
+        "minScore": 433,
+        "maxScore": 433,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "大连医科大学中山学院",
+    "code": "0778",
+    "name": "大连医科大学中山学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "大连外国语大学",
+    "code": "0423",
+    "name": "大连外国语大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "大连大学",
+    "code": "0415",
+    "name": "大连大学",
+    "leafCount": 4,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 311,
+        "maxScore": 346,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 296,
+        "maxScore": 296,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "大连工业大学",
+    "code": "0040",
+    "name": "大连工业大学",
+    "leafCount": 2,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 325,
+        "maxScore": 325,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 286,
+        "maxScore": 286,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "大连海事大学",
+    "code": "0075",
+    "name": "大连海事大学",
+    "leafCount": 2,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 365,
+        "maxScore": 413,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "大连海洋大学",
+    "code": "0077",
+    "name": "大连海洋大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "大连理工大学",
+    "code": "0067",
+    "name": "大连理工大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "大连理工大学城市学院",
+    "code": "0769",
+    "name": "大连理工大学城市学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "大连财经学院",
+    "code": "0784",
+    "name": "大连财经学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "天津仁爱学院",
+    "code": "0892",
+    "name": "天津仁爱学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "天津农学院",
+    "code": "0051",
+    "name": "天津农学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "天津商业大学",
+    "code": "0055",
+    "name": "天津商业大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "天津城建大学",
+    "code": "0293",
+    "name": "天津城建大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "天津外国语大学",
+    "code": "0054",
+    "name": "天津外国语大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "天津大学",
+    "code": "0046",
+    "name": "天津大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "天津工业大学",
+    "code": "0048",
+    "name": "天津工业大学",
+    "leafCount": 1,
+    "ranges": {
+      "理科": {
+        "year": 2025,
+        "minScore": 345,
+        "maxScore": 345,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "天津师范大学",
+    "code": "0052",
+    "name": "天津师范大学",
+    "leafCount": 10,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 403,
+        "maxScore": 441,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 388,
+        "maxScore": 410,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "天津理工大学",
+    "code": "0050",
+    "name": "天津理工大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "天津理工大学中环信息学院",
+    "code": "0878",
+    "name": "天津理工大学中环信息学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "天津科技大学",
+    "code": "0047",
+    "name": "天津科技大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "天津职业技术师范大学",
+    "code": "0053",
+    "name": "天津职业技术师范大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "天津财经大学",
+    "code": "0305",
+    "name": "天津财经大学",
+    "leafCount": 3,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 344,
+        "maxScore": 344,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 323,
+        "maxScore": 355,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "天津财经大学珠江学院",
+    "code": "0895",
+    "name": "天津财经大学珠江学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "太原学院",
+    "code": "1078",
+    "name": "太原学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "太原理工大学",
+    "code": "0061",
+    "name": "太原理工大学",
+    "leafCount": 5,
+    "ranges": {
+      "理科": {
+        "year": 2022,
+        "minScore": 405,
+        "maxScore": 470,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "宁德师范学院",
+    "code": "0175",
+    "name": "宁德师范学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "宁波大学",
+    "code": "0477",
+    "name": "宁波大学",
+    "leafCount": 0,
+    "ranges": {},
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "宁波工程学院",
+    "code": "0378",
+    "name": "宁波工程学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "安庆师范大学",
+    "code": "0416",
+    "name": "安庆师范大学",
+    "leafCount": 2,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 329,
+        "maxScore": 337,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "安康学院",
+    "code": "0617",
+    "name": "安康学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "安徽农业大学",
+    "code": "0164",
+    "name": "安徽农业大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "安徽医科大学",
+    "code": "0215",
+    "name": "安徽医科大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "安徽大学",
+    "code": "0520",
+    "name": "安徽大学",
+    "leafCount": 1,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 404,
+        "maxScore": 404,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "安徽师范大学",
+    "code": "0222",
+    "name": "安徽师范大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "安徽财经大学",
+    "code": "0223",
+    "name": "安徽财经大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "安阳工学院",
+    "code": "0347",
+    "name": "安阳工学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "宝鸡文理学院",
+    "code": "0276",
+    "name": "宝鸡文理学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "对外经济贸易大学",
+    "code": "0031",
+    "name": "对外经济贸易大学",
+    "leafCount": 2,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 436,
+        "maxScore": 436,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 380,
+        "maxScore": 380,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "山东交通学院",
+    "code": "0369",
+    "name": "山东交通学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "山东农业大学",
+    "code": "0189",
+    "name": "山东农业大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "山东农业工程学院",
+    "code": "0669",
+    "name": "山东农业工程学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "山东协和学院",
+    "code": "0844",
+    "name": "山东协和学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "山东大学",
+    "code": "0183",
+    "name": "山东大学",
+    "leafCount": 4,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 449,
+        "maxScore": 569,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 389,
+        "maxScore": 590,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "山东科技大学",
+    "code": "0185",
+    "name": "山东科技大学",
+    "leafCount": 2,
+    "ranges": {
+      "理科": {
+        "year": 2025,
+        "minScore": 327,
+        "maxScore": 346,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "山东第二医科大学",
+    "code": "1026",
+    "name": "山东第二医科大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "山东管理学院",
+    "code": "0668",
+    "name": "山东管理学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "山东英才学院",
+    "code": "0759",
+    "name": "山东英才学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "山东青年政治学院",
+    "code": "1219",
+    "name": "山东青年政治学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "山西传媒学院",
+    "code": "0667",
+    "name": "山西传媒学院",
+    "leafCount": 4,
+    "ranges": {
+      "文科": {
+        "year": 2022,
+        "minScore": 306,
+        "maxScore": 325,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2022,
+        "minScore": 266,
+        "maxScore": 279,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "山西农业大学",
+    "code": "0062",
+    "name": "山西农业大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "山西医科大学",
+    "code": "1005",
+    "name": "山西医科大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "山西大学",
+    "code": "0401",
+    "name": "山西大学",
+    "leafCount": 4,
+    "ranges": {
+      "理科": {
+        "year": 2022,
+        "minScore": 422,
+        "maxScore": 440,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "山西工学院",
+    "code": "0851",
+    "name": "山西工学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "山西工程技术学院",
+    "code": "0797",
+    "name": "山西工程技术学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "岭南师范学院",
+    "code": "0333",
+    "name": "岭南师范学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "岳阳学院",
+    "code": "0707",
+    "name": "岳阳学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "川北医学院",
+    "code": "0242",
+    "name": "川北医学院",
+    "leafCount": 1,
+    "ranges": {
+      "理科": {
+        "year": 2024,
+        "minScore": 389,
+        "maxScore": 389,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "常德学院",
+    "code": "0706",
+    "name": "常德学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "广东医科大学",
+    "code": "0560",
+    "name": "广东医科大学",
+    "leafCount": 3,
+    "ranges": {
+      "理科": {
+        "year": 2024,
+        "minScore": 398,
+        "maxScore": 413,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "广东工业大学",
+    "code": "0398",
+    "name": "广东工业大学",
+    "leafCount": 10,
+    "ranges": {
+      "文科": {
+        "year": 2023,
+        "minScore": 323,
+        "maxScore": 333,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2023,
+        "minScore": 292,
+        "maxScore": 416,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "广东技术师范大学",
+    "code": "0569",
+    "name": "广东技术师范大学",
+    "leafCount": 13,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 324,
+        "maxScore": 343,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 278,
+        "maxScore": 291,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "广东海洋大学",
+    "code": "0558",
+    "name": "广东海洋大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "广东白云学院",
+    "code": "1071",
+    "name": "广东白云学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "广东石油化工学院",
+    "code": "0502",
+    "name": "广东石油化工学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "广东第二师范学院",
+    "code": "0898",
+    "name": "广东第二师范学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "广东财经大学",
+    "code": "0225",
+    "name": "广东财经大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "广东金融学院",
+    "code": "0372",
+    "name": "广东金融学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "广州商学院",
+    "code": "0862",
+    "name": "广州商学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "广州城市理工学院",
+    "code": "0677",
+    "name": "广州城市理工学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "广州工商学院",
+    "code": "0866",
+    "name": "广州工商学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "广州新华学院",
+    "code": "0880",
+    "name": "广州新华学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "广州航海学院",
+    "code": "0612",
+    "name": "广州航海学院",
+    "leafCount": 6,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 315,
+        "maxScore": 373,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 268,
+        "maxScore": 281,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "广西大学",
+    "code": "1039",
+    "name": "广西大学",
+    "leafCount": 2,
+    "ranges": {
+      "理科": {
+        "year": 2025,
+        "minScore": 307,
+        "maxScore": 462,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "广西师范大学",
+    "code": "0571",
+    "name": "广西师范大学",
+    "leafCount": 4,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 338,
+        "maxScore": 407,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 276,
+        "maxScore": 276,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "广西民族大学",
+    "code": "0226",
+    "name": "广西民族大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "广西艺术学院",
+    "code": "0572",
+    "name": "广西艺术学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "延安大学",
+    "code": "0368",
+    "name": "延安大学",
+    "leafCount": 6,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 361,
+        "maxScore": 364,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 316,
+        "maxScore": 326,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "延边大学",
+    "code": "0086",
+    "name": "延边大学",
+    "leafCount": 1,
+    "ranges": {
+      "理科": {
+        "year": 2025,
+        "minScore": 365,
+        "maxScore": 365,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "张家界学院",
+    "code": "1110",
+    "name": "张家界学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "徐州医科大学",
+    "code": "0146",
+    "name": "徐州医科大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "怀化学院",
+    "code": "0299",
+    "name": "怀化学院",
+    "leafCount": 2,
+    "ranges": {
+      "文科": {
+        "year": 2023,
+        "minScore": 340,
+        "maxScore": 340,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "成都中医药大学",
+    "code": "0241",
+    "name": "成都中医药大学",
+    "leafCount": 7,
+    "ranges": {
+      "理科": {
+        "year": 2024,
+        "minScore": 305,
+        "maxScore": 411,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "成都信息工程大学",
+    "code": "0235",
+    "name": "成都信息工程大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "成都工业学院",
+    "code": "0335",
+    "name": "成都工业学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "成都理工大学",
+    "code": "0231",
+    "name": "成都理工大学",
+    "leafCount": 10,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 349,
+        "maxScore": 439,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 345,
+        "maxScore": 416,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "扬州大学",
+    "code": "1077",
+    "name": "扬州大学",
+    "leafCount": 7,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 395,
+        "maxScore": 416,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 327,
+        "maxScore": 433,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "扬州大学广陵学院",
+    "code": "0886",
+    "name": "扬州大学广陵学院",
+    "leafCount": 1,
+    "ranges": {
+      "理科": {
+        "year": 2024,
+        "minScore": 255,
+        "maxScore": 255,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "拉萨师范学院",
+    "code": "1103",
+    "name": "拉萨师范学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "攀枝花学院",
+    "code": "0349",
+    "name": "攀枝花学院",
+    "leafCount": 4,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 327,
+        "maxScore": 339,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 281,
+        "maxScore": 296,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "新疆农业大学",
+    "code": "1066",
+    "name": "新疆农业大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "新疆和田学院",
+    "code": "1067",
+    "name": "新疆和田学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "新疆大学",
+    "code": "0598",
+    "name": "新疆大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "新疆政法学院",
+    "code": "0857",
+    "name": "新疆政法学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "新疆理工学院",
+    "code": "0852",
+    "name": "新疆理工学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "新疆警察学院",
+    "code": "0721",
+    "name": "新疆警察学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "无锡学院",
+    "code": "0885",
+    "name": "无锡学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "昆明医科大学",
+    "code": "0263",
+    "name": "昆明医科大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "昆明医科大学海源学院",
+    "code": "0845",
+    "name": "昆明医科大学海源学院",
+    "leafCount": 2,
+    "ranges": {
+      "理科": {
+        "year": 2024,
+        "minScore": 267,
+        "maxScore": 342,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "昆明理工大学",
+    "code": "0261",
+    "name": "昆明理工大学",
+    "leafCount": 5,
+    "ranges": {
+      "理科": {
+        "year": 2025,
+        "minScore": 302,
+        "maxScore": 306,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "昌吉学院",
+    "code": "1075",
+    "name": "昌吉学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "杭州师范大学",
+    "code": "0205",
+    "name": "杭州师范大学",
+    "leafCount": 14,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 353,
+        "maxScore": 387,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 306,
+        "maxScore": 406,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "杭州电子科技大学",
+    "code": "0152",
+    "name": "杭州电子科技大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "桂林理工大学",
+    "code": "0752",
+    "name": "桂林理工大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "桂林电子科技大学",
+    "code": "0748",
+    "name": "桂林电子科技大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "榆林学院",
+    "code": "0428",
+    "name": "榆林学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "武夷学院",
+    "code": "0174",
+    "name": "武夷学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "武汉商学院",
+    "code": "0379",
+    "name": "武汉商学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "武汉城市学院",
+    "code": "0787",
+    "name": "武汉城市学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "武汉工程大学",
+    "code": "0543",
+    "name": "武汉工程大学",
+    "leafCount": 5,
+    "ranges": {
+      "文科": {
+        "year": 2023,
+        "minScore": 320,
+        "maxScore": 330,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2023,
+        "minScore": 304,
+        "maxScore": 304,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "武汉文理学院",
+    "code": "0790",
+    "name": "武汉文理学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "武汉理工大学",
+    "code": "0200",
+    "name": "武汉理工大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "武汉生物工程学院",
+    "code": "0661",
+    "name": "武汉生物工程学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "武汉纺织大学",
+    "code": "0544",
+    "name": "武汉纺织大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "武汉轻工大学",
+    "code": "0545",
+    "name": "武汉轻工大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "武警工程大学",
+    "code": "1237",
+    "name": "武警工程大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "武警海警学院",
+    "code": "0799",
+    "name": "武警海警学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "武警警官学院",
+    "code": "0794",
+    "name": "武警警官学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "汉江师范学院",
+    "code": "0691",
+    "name": "汉江师范学院",
+    "leafCount": 15,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 322,
+        "maxScore": 327,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 282,
+        "maxScore": 377,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "江南大学",
+    "code": "0139",
+    "name": "江南大学",
+    "leafCount": 3,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 339,
+        "maxScore": 407,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 391,
+        "maxScore": 391,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "江汉大学",
+    "code": "0609",
+    "name": "江汉大学",
+    "leafCount": 2,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 372,
+        "maxScore": 376,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "江苏大学",
+    "code": "0141",
+    "name": "江苏大学",
+    "leafCount": 18,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 382,
+        "maxScore": 458,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 352,
+        "maxScore": 478,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "江苏师范大学科文学院",
+    "code": "0887",
+    "name": "江苏师范大学科文学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "江苏科技大学",
+    "code": "0136",
+    "name": "江苏科技大学",
+    "leafCount": 16,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 345,
+        "maxScore": 358,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 304,
+        "maxScore": 354,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "江西水利电力大学",
+    "code": "0346",
+    "name": "江西水利电力大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "江西理工大学",
+    "code": "0180",
+    "name": "江西理工大学",
+    "leafCount": 4,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 335,
+        "maxScore": 335,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 300,
+        "maxScore": 310,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "江西科技学院",
+    "code": "0606",
+    "name": "江西科技学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "江西警察学院",
+    "code": "1085",
+    "name": "江西警察学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "沈阳农业大学",
+    "code": "0041",
+    "name": "沈阳农业大学",
+    "leafCount": 1,
+    "ranges": {
+      "理科": {
+        "year": 2025,
+        "minScore": 349,
+        "maxScore": 349,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "沈阳化工大学",
+    "code": "0074",
+    "name": "沈阳化工大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "沈阳医学院",
+    "code": "0130",
+    "name": "沈阳医学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "沈阳大学",
+    "code": "0370",
+    "name": "沈阳大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "沈阳工业大学",
+    "code": "0421",
+    "name": "沈阳工业大学",
+    "leafCount": 7,
+    "ranges": {
+      "理科": {
+        "year": 2024,
+        "minScore": 306,
+        "maxScore": 364,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "沈阳工程学院",
+    "code": "0463",
+    "name": "沈阳工程学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "沈阳师范大学",
+    "code": "0081",
+    "name": "沈阳师范大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "沈阳建筑大学",
+    "code": "0076",
+    "name": "沈阳建筑大学",
+    "leafCount": 1,
+    "ranges": {
+      "理科": {
+        "year": 2025,
+        "minScore": 422,
+        "maxScore": 422,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "沈阳理工大学",
+    "code": "0069",
+    "name": "沈阳理工大学",
+    "leafCount": 24,
+    "ranges": {
+      "理科": {
+        "year": 2022,
+        "minScore": 275,
+        "maxScore": 379,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "沈阳航空航天大学",
+    "code": "0068",
+    "name": "沈阳航空航天大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "沈阳药科大学",
+    "code": "0129",
+    "name": "沈阳药科大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "河北农业大学",
+    "code": "0391",
+    "name": "河北农业大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "河北北方学院",
+    "code": "0037",
+    "name": "河北北方学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "河北医科大学",
+    "code": "0396",
+    "name": "河北医科大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "河北地质大学",
+    "code": "0056",
+    "name": "河北地质大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "河北大学",
+    "code": "0036",
+    "name": "河北大学",
+    "leafCount": 8,
+    "ranges": {
+      "文科": {
+        "year": 2023,
+        "minScore": 351,
+        "maxScore": 359,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2023,
+        "minScore": 326,
+        "maxScore": 375,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "河北工业大学",
+    "code": "0059",
+    "name": "河北工业大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "河北工程大学",
+    "code": "0336",
+    "name": "河北工程大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "河北师范大学",
+    "code": "0038",
+    "name": "河北师范大学",
+    "leafCount": 4,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 369,
+        "maxScore": 377,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 372,
+        "maxScore": 372,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "河北石油职业技术大学",
+    "code": "0911",
+    "name": "河北石油职业技术大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "河北科技大学",
+    "code": "0389",
+    "name": "河北科技大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "河北金融学院",
+    "code": "0433",
+    "name": "河北金融学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "河南中医药大学",
+    "code": "0252",
+    "name": "河南中医药大学",
+    "leafCount": 1,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 334,
+        "maxScore": 334,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 280,
+        "maxScore": 280,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "河南农业大学",
+    "code": "1030",
+    "name": "河南农业大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "河南城建学院",
+    "code": "0386",
+    "name": "河南城建学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "河南大学",
+    "code": "0196",
+    "name": "河南大学",
+    "leafCount": 3,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 340,
+        "maxScore": 346,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 339,
+        "maxScore": 339,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "河南师范大学",
+    "code": "0690",
+    "name": "河南师范大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "河南科技大学",
+    "code": "0195",
+    "name": "河南科技大学",
+    "leafCount": 4,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 346,
+        "maxScore": 353,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 306,
+        "maxScore": 353,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "河海大学",
+    "code": "0138",
+    "name": "河海大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "河西学院",
+    "code": "0285",
+    "name": "河西学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "泉州信息工程学院",
+    "code": "0872",
+    "name": "泉州信息工程学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "泉州师范学院",
+    "code": "0176",
+    "name": "泉州师范学院",
+    "leafCount": 1,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 323,
+        "maxScore": 323,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 304,
+        "maxScore": 304,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "泰州学院",
+    "code": "0402",
+    "name": "泰州学院",
+    "leafCount": 3,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 301,
+        "maxScore": 310,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "济南大学",
+    "code": "0187",
+    "name": "济南大学",
+    "leafCount": 5,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 343,
+        "maxScore": 355,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 330,
+        "maxScore": 331,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "浙江中医药大学",
+    "code": "0156",
+    "name": "浙江中医药大学",
+    "leafCount": 12,
+    "ranges": {
+      "理科": {
+        "year": 2025,
+        "minScore": 329,
+        "maxScore": 424,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "浙江农林大学",
+    "code": "0155",
+    "name": "浙江农林大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "浙江外国语学院",
+    "code": "0652",
+    "name": "浙江外国语学院",
+    "leafCount": 9,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 339,
+        "maxScore": 373,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 303,
+        "maxScore": 318,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "浙江大学",
+    "code": "0151",
+    "name": "浙江大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "浙江工业大学",
+    "code": "0153",
+    "name": "浙江工业大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "浙江师范大学",
+    "code": "0157",
+    "name": "浙江师范大学",
+    "leafCount": 8,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 373,
+        "maxScore": 382,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 324,
+        "maxScore": 392,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "浙江水利水电学院",
+    "code": "0438",
+    "name": "浙江水利水电学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "浙江海洋大学",
+    "code": "0192",
+    "name": "浙江海洋大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "浙江理工大学",
+    "code": "0154",
+    "name": "浙江理工大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "浙江警察学院",
+    "code": "0625",
+    "name": "浙江警察学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "海南医科大学",
+    "code": "1093",
+    "name": "海南医科大学",
+    "leafCount": 7,
+    "ranges": {
+      "理科": {
+        "year": 2025,
+        "minScore": 327,
+        "maxScore": 408,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "海南大学",
+    "code": "0224",
+    "name": "海南大学",
+    "leafCount": 5,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 402,
+        "maxScore": 490,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 362,
+        "maxScore": 362,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "海南师范大学",
+    "code": "0380",
+    "name": "海南师范大学",
+    "leafCount": 9,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 391,
+        "maxScore": 407,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 369,
+        "maxScore": 377,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "海南热带海洋学院",
+    "code": "0331",
+    "name": "海南热带海洋学院",
+    "leafCount": 27,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 313,
+        "maxScore": 323,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 274,
+        "maxScore": 325,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "海南科技职业大学",
+    "code": "0897",
+    "name": "海南科技职业大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "海口经济学院",
+    "code": "0650",
+    "name": "海口经济学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "深圳大学",
+    "code": "0570",
+    "name": "深圳大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "清华大学",
+    "code": "0003",
+    "name": "清华大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "渤海大学",
+    "code": "0082",
+    "name": "渤海大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "温州医科大学",
+    "code": "0193",
+    "name": "温州医科大学",
+    "leafCount": 13,
+    "ranges": {
+      "理科": {
+        "year": 2025,
+        "minScore": 341,
+        "maxScore": 444,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "温州大学",
+    "code": "0518",
+    "name": "温州大学",
+    "leafCount": 19,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 355,
+        "maxScore": 426,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 308,
+        "maxScore": 355,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "渭南师范学院",
+    "code": "0278",
+    "name": "渭南师范学院",
+    "leafCount": 5,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 329,
+        "maxScore": 339,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "湖北中医药大学",
+    "code": "0548",
+    "name": "湖北中医药大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湖北医药学院",
+    "code": "0608",
+    "name": "湖北医药学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湖北医药学院药护学院",
+    "code": "0829",
+    "name": "湖北医药学院药护学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湖北大学知行学院",
+    "code": "0786",
+    "name": "湖北大学知行学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湖北工业大学",
+    "code": "0547",
+    "name": "湖北工业大学",
+    "leafCount": 3,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 351,
+        "maxScore": 351,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 308,
+        "maxScore": 308,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "湖北工程学院",
+    "code": "0556",
+    "name": "湖北工程学院",
+    "leafCount": 9,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 312,
+        "maxScore": 320,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "湖北工程学院新技术学院",
+    "code": "0834",
+    "name": "湖北工程学院新技术学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湖北师范大学",
+    "code": "0549",
+    "name": "湖北师范大学",
+    "leafCount": 5,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 357,
+        "maxScore": 391,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 321,
+        "maxScore": 325,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "湖北恩施学院",
+    "code": "0830",
+    "name": "湖北恩施学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湖北文理学院",
+    "code": "0203",
+    "name": "湖北文理学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湖北文理学院理工学院",
+    "code": "0833",
+    "name": "湖北文理学院理工学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湖北民族大学",
+    "code": "0551",
+    "name": "湖北民族大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湖北汽车工业学院",
+    "code": "0555",
+    "name": "湖北汽车工业学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湖北理工学院",
+    "code": "0313",
+    "name": "湖北理工学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湖北科技学院",
+    "code": "0607",
+    "name": "湖北科技学院",
+    "leafCount": 2,
+    "ranges": {
+      "文科": {
+        "year": 2023,
+        "minScore": 308,
+        "maxScore": 308,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2023,
+        "minScore": 275,
+        "maxScore": 280,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "湖北第二师范学院",
+    "code": "0816",
+    "name": "湖北第二师范学院",
+    "leafCount": 10,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 308,
+        "maxScore": 357,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 286,
+        "maxScore": 310,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "湖北经济学院",
+    "code": "0631",
+    "name": "湖北经济学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湖北经济学院法商学院",
+    "code": "0831",
+    "name": "湖北经济学院法商学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湖南中医药大学",
+    "code": "0214",
+    "name": "湖南中医药大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湖南中医药大学湘杏学院",
+    "code": "0711",
+    "name": "湖南中医药大学湘杏学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湖南交通工程学院",
+    "code": "0882",
+    "name": "湖南交通工程学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湖南人文科技学院",
+    "code": "0218",
+    "name": "湖南人文科技学院",
+    "leafCount": 2,
+    "ranges": {
+      "文科": {
+        "year": 2023,
+        "minScore": 296,
+        "maxScore": 296,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2023,
+        "minScore": 253,
+        "maxScore": 253,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "湖南信息学院",
+    "code": "0874",
+    "name": "湖南信息学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湖南农业大学",
+    "code": "0213",
+    "name": "湖南农业大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湖南农业大学东方科技学院",
+    "code": "0699",
+    "name": "湖南农业大学东方科技学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湖南医药学院",
+    "code": "0566",
+    "name": "湖南医药学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湖南城市学院",
+    "code": "0371",
+    "name": "湖南城市学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湖南大学",
+    "code": "0209",
+    "name": "湖南大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "湖南女子学院",
+    "code": "0444",
+    "name": "湖南女子学院",
+    "leafCount": 2,
+    "ranges": {
+      "文科": {
+        "year": 2023,
+        "minScore": 297,
+        "maxScore": 304,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "湖南工业大学",
+    "code": "0755",
+    "name": "湖南工业大学",
+    "leafCount": 5,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 327,
+        "maxScore": 374,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 296,
+        "maxScore": 329,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "湖南工业大学科技学院",
+    "code": "0673",
+    "name": "湖南工业大学科技学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湖南工商大学",
+    "code": "0312",
+    "name": "湖南工商大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湖南工学院",
+    "code": "0745",
+    "name": "湖南工学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湖南工程学院应用技术学院",
+    "code": "0710",
+    "name": "湖南工程学院应用技术学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湖南师范大学",
     "code": "0751",
     "name": "湖南师范大学",
     "leafCount": 9,
@@ -4033,84 +5252,291 @@
     "isShuangYiLiu": true
   },
   {
-    "code": "0753",
-    "name": "塔里木大学",
+    "key": "湖南应用技术学院",
+    "code": "0873",
+    "name": "湖南应用技术学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湖南文理学院",
+    "code": "0217",
+    "name": "湖南文理学院",
     "leafCount": 2,
     "ranges": {
-      "理科": {
-        "year": 2025,
-        "minScore": 314,
-        "maxScore": 336,
+      "文科": {
+        "year": 2024,
+        "minScore": 306,
+        "maxScore": 307,
         "minRank": 0,
         "maxRank": 0
       }
     }
   },
   {
-    "code": "0755",
-    "name": "湖南工业大学",
+    "key": "湖南汽车工程职业大学",
+    "code": "1213",
+    "name": "湖南汽车工程职业大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湖南涉外经济学院",
+    "code": "0649",
+    "name": "湖南涉外经济学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湖南理工学院",
+    "code": "0216",
+    "name": "湖南理工学院",
+    "leafCount": 4,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 336,
+        "maxScore": 343,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 306,
+        "maxScore": 331,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "湖南科技大学",
+    "code": "0211",
+    "name": "湖南科技大学",
+    "leafCount": 7,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 367,
+        "maxScore": 386,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 317,
+        "maxScore": 322,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "湖南科技大学潇湘学院",
+    "code": "0682",
+    "name": "湖南科技大学潇湘学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湖南第一师范学院",
+    "code": "0534",
+    "name": "湖南第一师范学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湖南警察学院",
+    "code": "0440",
+    "name": "湖南警察学院",
+    "leafCount": 3,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 342,
+        "maxScore": 342,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 349,
+        "maxScore": 349,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "湖州师范学院",
+    "code": "0158",
+    "name": "湖州师范学院",
+    "leafCount": 9,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 341,
+        "maxScore": 361,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 314,
+        "maxScore": 318,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "湘南学院",
+    "code": "0258",
+    "name": "湘南学院",
+    "leafCount": 2,
+    "ranges": {
+      "文科": {
+        "year": 2023,
+        "minScore": 290,
+        "maxScore": 290,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2023,
+        "minScore": 340,
+        "maxScore": 340,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "湘潭大学",
+    "code": "0208",
+    "name": "湘潭大学",
+    "leafCount": 4,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 419,
+        "maxScore": 473,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 305,
+        "maxScore": 328,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "湘潭理工学院",
+    "code": "0686",
+    "name": "湘潭理工学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "湛江科技学院",
+    "code": "1109",
+    "name": "湛江科技学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "烟台大学",
+    "code": "1074",
+    "name": "烟台大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "牡丹江医科大学",
+    "code": "1014",
+    "name": "牡丹江医科大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "牡丹江师范学院",
+    "code": "0472",
+    "name": "牡丹江师范学院",
     "leafCount": 5,
     "ranges": {
       "文科": {
-        "year": 2025,
-        "minScore": 327,
-        "maxScore": 374,
+        "year": 2024,
+        "minScore": 309,
+        "maxScore": 316,
         "minRank": 0,
         "maxRank": 0
       },
       "理科": {
-        "year": 2025,
-        "minScore": 296,
-        "maxScore": 329,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0756",
-    "name": "福州工商学院",
-    "leafCount": 1,
-    "ranges": {
-      "理科": {
         "year": 2024,
-        "minScore": 252,
-        "maxScore": 252,
+        "minScore": 266,
+        "maxScore": 267,
         "minRank": 0,
         "maxRank": 0
       }
     }
   },
   {
-    "code": "0761",
-    "name": "厦门工学院",
-    "leafCount": 2,
+    "key": "琼台师范学院",
+    "code": "0595",
+    "name": "琼台师范学院",
+    "leafCount": 18,
     "ranges": {
       "文科": {
-        "year": 2024,
-        "minScore": 295,
-        "maxScore": 295,
+        "year": 2025,
+        "minScore": 317,
+        "maxScore": 330,
         "minRank": 0,
         "maxRank": 0
       },
       "理科": {
-        "year": 2024,
-        "minScore": 273,
-        "maxScore": 273,
+        "year": 2025,
+        "minScore": 282,
+        "maxScore": 354,
         "minRank": 0,
         "maxRank": 0
       }
     }
   },
   {
-    "code": "0783",
-    "name": "北京大学医学部",
-    "leafCount": 1,
+    "key": "甘肃政法大学",
+    "code": "0351",
+    "name": "甘肃政法大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "甘肃林业职业技术大学",
+    "code": "1119",
+    "name": "甘肃林业职业技术大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "甘肃民族师范学院",
+    "code": "0376",
+    "name": "甘肃民族师范学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "电子科技大学",
+    "code": "0230",
+    "name": "电子科技大学",
+    "leafCount": 4,
     "ranges": {
       "理科": {
-        "year": 2025,
-        "minScore": 663,
-        "maxScore": 663,
+        "year": 2024,
+        "minScore": 431,
+        "maxScore": 666,
         "minRank": 0,
         "maxRank": 0
       }
@@ -4120,167 +5546,60 @@
     "isShuangYiLiu": true
   },
   {
-    "code": "0785",
-    "name": "长沙师范学院",
+    "key": "白城师范学院",
+    "code": "0100",
+    "name": "白城师范学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "盐城工学院",
+    "code": "0144",
+    "name": "盐城工学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "盐城师范学院",
+    "code": "0149",
+    "name": "盐城师范学院",
+    "leafCount": 8,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 265,
+        "maxScore": 332,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 265,
+        "maxScore": 269,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "石河子大学",
+    "code": "0291",
+    "name": "石河子大学",
     "leafCount": 1,
     "ranges": {
-      "文科": {
-        "year": 2023,
-        "minScore": 318,
-        "maxScore": 318,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0788",
-    "name": "三峡大学科技学院",
-    "leafCount": 2,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 297,
-        "maxScore": 297,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 286,
-        "maxScore": 286,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0791",
-    "name": "中国人民解放军陆军军医大学",
-    "leafCount": 2,
-    "ranges": {
-      "理科": {
-        "year": 2024,
-        "minScore": 366,
-        "maxScore": 373,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0796",
-    "name": "陆军工程大学",
-    "leafCount": 3,
-    "ranges": {
-      "理科": {
-        "year": 2024,
-        "minScore": 399,
-        "maxScore": 444,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0816",
-    "name": "湖北第二师范学院",
-    "leafCount": 10,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 308,
-        "maxScore": 357,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 286,
-        "maxScore": 310,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0818",
-    "name": "陕西学前师范学院",
-    "leafCount": 7,
-    "ranges": {
-      "文科": {
-        "year": 2025,
-        "minScore": 322,
-        "maxScore": 340,
-        "minRank": 0,
-        "maxRank": 0
-      },
       "理科": {
         "year": 2025,
-        "minScore": 284,
-        "maxScore": 284,
+        "minScore": 360,
+        "maxScore": 360,
         "minRank": 0,
         "maxRank": 0
       }
-    }
+    },
+    "is211": true,
+    "isShuangYiLiu": true
   },
   {
-    "code": "0835",
-    "name": "中国石油大学（北京）克拉玛依校区",
-    "leafCount": 1,
-    "ranges": {
-      "理科": {
-        "year": 2024,
-        "minScore": 406,
-        "maxScore": 406,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0845",
-    "name": "昆明医科大学海源学院",
-    "leafCount": 2,
-    "ranges": {
-      "理科": {
-        "year": 2024,
-        "minScore": 267,
-        "maxScore": 342,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0848",
-    "name": "福州大学至诚学院",
-    "leafCount": 1,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 308,
-        "maxScore": 308,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0870",
-    "name": "黑河学院",
-    "leafCount": 5,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 302,
-        "maxScore": 314,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
+    "key": "福州外语外贸学院",
     "code": "0871",
     "name": "福州外语外贸学院",
     "leafCount": 2,
@@ -4302,77 +5621,22 @@
     }
   },
   {
-    "code": "0875",
-    "name": "三亚学院",
-    "leafCount": 4,
+    "key": "福州大学",
+    "code": "0166",
+    "name": "福州大学",
+    "leafCount": 22,
     "ranges": {
       "文科": {
         "year": 2024,
-        "minScore": 283,
-        "maxScore": 292,
+        "minScore": 398,
+        "maxScore": 404,
         "minRank": 0,
         "maxRank": 0
       },
       "理科": {
         "year": 2024,
-        "minScore": 251,
-        "maxScore": 252,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0879",
-    "name": "北京科技大学天津学院",
-    "leafCount": 3,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 288,
-        "maxScore": 288,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 271,
-        "maxScore": 271,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0886",
-    "name": "扬州大学广陵学院",
-    "leafCount": 1,
-    "ranges": {
-      "理科": {
-        "year": 2024,
-        "minScore": 255,
-        "maxScore": 255,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    }
-  },
-  {
-    "code": "0973",
-    "name": "陕西师范大学",
-    "leafCount": 12,
-    "ranges": {
-      "文科": {
-        "year": 2024,
-        "minScore": 415,
-        "maxScore": 488,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2024,
-        "minScore": 432,
-        "maxScore": 540,
+        "minScore": 306,
+        "maxScore": 518,
         "minRank": 0,
         "maxRank": 0
       }
@@ -4381,27 +5645,1620 @@
     "isShuangYiLiu": true
   },
   {
-    "code": "1019",
-    "name": "嘉兴大学",
-    "leafCount": 6,
+    "key": "福州大学至诚学院",
+    "code": "0848",
+    "name": "福州大学至诚学院",
+    "leafCount": 1,
     "ranges": {
       "文科": {
-        "year": 2025,
-        "minScore": 340,
-        "maxScore": 389,
-        "minRank": 0,
-        "maxRank": 0
-      },
-      "理科": {
-        "year": 2025,
-        "minScore": 303,
-        "maxScore": 369,
+        "year": 2024,
+        "minScore": 308,
+        "maxScore": 308,
         "minRank": 0,
         "maxRank": 0
       }
     }
   },
   {
+    "key": "福州工商学院",
+    "code": "0756",
+    "name": "福州工商学院",
+    "leafCount": 1,
+    "ranges": {
+      "理科": {
+        "year": 2024,
+        "minScore": 252,
+        "maxScore": 252,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "福建中医药大学",
+    "code": "0171",
+    "name": "福建中医药大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "福建农林大学",
+    "code": "0168",
+    "name": "福建农林大学",
+    "leafCount": 5,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 336,
+        "maxScore": 338,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 308,
+        "maxScore": 318,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "福建农林大学金山学院",
+    "code": "0894",
+    "name": "福建农林大学金山学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "福建医科大学",
+    "code": "0170",
+    "name": "福建医科大学",
+    "leafCount": 5,
+    "ranges": {
+      "理科": {
+        "year": 2025,
+        "minScore": 366,
+        "maxScore": 445,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "福建商学院",
+    "code": "0615",
+    "name": "福建商学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "福建师范大学",
+    "code": "0172",
+    "name": "福建师范大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "福建师范大学协和学院",
+    "code": "0850",
+    "name": "福建师范大学协和学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "福建技术师范学院",
+    "code": "0910",
+    "name": "福建技术师范学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "福建江夏学院",
+    "code": "0583",
+    "name": "福建江夏学院",
+    "leafCount": 7,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 317,
+        "maxScore": 358,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 269,
+        "maxScore": 313,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "福建理工大学",
+    "code": "0167",
+    "name": "福建理工大学",
+    "leafCount": 13,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 336,
+        "maxScore": 336,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 288,
+        "maxScore": 354,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "空军预警学院",
+    "code": "0922",
+    "name": "空军预警学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "绍兴文理学院",
+    "code": "0364",
+    "name": "绍兴文理学院",
+    "leafCount": 4,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 361,
+        "maxScore": 361,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 309,
+        "maxScore": 321,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "绥化学院",
+    "code": "0482",
+    "name": "绥化学院",
+    "leafCount": 2,
+    "ranges": {
+      "理科": {
+        "year": 2024,
+        "minScore": 292,
+        "maxScore": 295,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "绵阳师范学院",
+    "code": "0247",
+    "name": "绵阳师范学院",
+    "leafCount": 7,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 310,
+        "maxScore": 342,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 300,
+        "maxScore": 304,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "网络空间部队信息工程大学",
+    "code": "0923",
+    "name": "网络空间部队信息工程大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "聊城大学",
+    "code": "0191",
+    "name": "聊城大学",
+    "leafCount": 6,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 334,
+        "maxScore": 375,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 265,
+        "maxScore": 271,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "联勤保障部队工程大学",
+    "code": "1236",
+    "name": "联勤保障部队工程大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "肇庆学院",
+    "code": "0561",
+    "name": "肇庆学院",
+    "leafCount": 3,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 306,
+        "maxScore": 310,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "荆楚理工学院",
+    "code": "0348",
+    "name": "荆楚理工学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "莆田学院",
+    "code": "0366",
+    "name": "莆田学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "营口理工学院",
+    "code": "0901",
+    "name": "营口理工学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "衡阳师范学院",
+    "code": "0290",
+    "name": "衡阳师范学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "衡阳师范学院南岳学院",
+    "code": "0708",
+    "name": "衡阳师范学院南岳学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "衢州学院",
+    "code": "0629",
+    "name": "衢州学院",
+    "leafCount": 1,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 301,
+        "maxScore": 301,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 267,
+        "maxScore": 267,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "西交利物浦大学",
+    "code": "0914",
+    "name": "西交利物浦大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "西北农林科技大学",
+    "code": "0273",
+    "name": "西北农林科技大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "西北大学",
+    "code": "0266",
+    "name": "西北大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "西北工业大学",
+    "code": "0268",
+    "name": "西北工业大学",
+    "leafCount": 2,
+    "ranges": {
+      "理科": {
+        "year": 2024,
+        "minScore": 391,
+        "maxScore": 417,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "西北师范大学",
+    "code": "0283",
+    "name": "西北师范大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "西北政法大学",
+    "code": "0280",
+    "name": "西北政法大学",
+    "leafCount": 1,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 347,
+        "maxScore": 347,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "西北民族大学",
+    "code": "0286",
+    "name": "西北民族大学",
+    "leafCount": 30,
+    "ranges": {
+      "文科": {
+        "year": 2023,
+        "minScore": 267,
+        "maxScore": 357,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2023,
+        "minScore": 279,
+        "maxScore": 316,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "西华大学",
+    "code": "0749",
+    "name": "西华大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "西南交通大学",
+    "code": "0229",
+    "name": "西南交通大学",
+    "leafCount": 10,
+    "ranges": {
+      "理科": {
+        "year": 2024,
+        "minScore": 341,
+        "maxScore": 413,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "西南医科大学",
+    "code": "0240",
+    "name": "西南医科大学",
+    "leafCount": 1,
+    "ranges": {
+      "理科": {
+        "year": 2024,
+        "minScore": 408,
+        "maxScore": 408,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "西南大学",
+    "code": "0243",
+    "name": "西南大学",
+    "leafCount": 9,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 390,
+        "maxScore": 556,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 363,
+        "maxScore": 552,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "西南政法大学",
+    "code": "0255",
+    "name": "西南政法大学",
+    "leafCount": 4,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 408,
+        "maxScore": 450,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 409,
+        "maxScore": 420,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "西南民族大学",
+    "code": "0259",
+    "name": "西南民族大学",
+    "leafCount": 31,
+    "ranges": {
+      "文科": {
+        "year": 2023,
+        "minScore": 338,
+        "maxScore": 404,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2023,
+        "minScore": 300,
+        "maxScore": 457,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "西南石油大学",
+    "code": "0573",
+    "name": "西南石油大学",
+    "leafCount": 0,
+    "ranges": {},
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "西南科技大学",
+    "code": "0234",
+    "name": "西南科技大学",
+    "leafCount": 6,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 363,
+        "maxScore": 412,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 311,
+        "maxScore": 342,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "西南财经大学",
+    "code": "0254",
+    "name": "西南财经大学",
+    "leafCount": 11,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 394,
+        "maxScore": 553,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 374,
+        "maxScore": 582,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "西南财经大学天府学院",
+    "code": "0891",
+    "name": "西南财经大学天府学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "西安交通大学",
+    "code": "0267",
+    "name": "西安交通大学",
+    "leafCount": 1,
+    "ranges": {
+      "理科": {
+        "year": 2025,
+        "minScore": 427,
+        "maxScore": 427,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "西安信息职业大学",
+    "code": "0889",
+    "name": "西安信息职业大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "西安医学院",
+    "code": "0397",
+    "name": "西安医学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "西安外国语大学",
+    "code": "0279",
+    "name": "西安外国语大学",
+    "leafCount": 6,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 381,
+        "maxScore": 394,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 326,
+        "maxScore": 328,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "西安工业大学",
+    "code": "0693",
+    "name": "西安工业大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "西安工程大学",
+    "code": "0694",
+    "name": "西安工程大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "西安建筑科技大学",
+    "code": "0270",
+    "name": "西安建筑科技大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "西安思源学院",
+    "code": "0762",
+    "name": "西安思源学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "西安文理学院",
+    "code": "0330",
+    "name": "西安文理学院",
+    "leafCount": 8,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 337,
+        "maxScore": 343,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 298,
+        "maxScore": 316,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "西安理工大学",
+    "code": "0586",
+    "name": "西安理工大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "西安电子科技大学",
+    "code": "0269",
+    "name": "西安电子科技大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "西安石油大学",
+    "code": "0271",
+    "name": "西安石油大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "西安科技大学",
+    "code": "0342",
+    "name": "西安科技大学",
+    "leafCount": 6,
+    "ranges": {
+      "理科": {
+        "year": 2024,
+        "minScore": 305,
+        "maxScore": 400,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "西安航空学院",
+    "code": "0522",
+    "name": "西安航空学院",
+    "leafCount": 10,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 302,
+        "maxScore": 302,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 265,
+        "maxScore": 277,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "西安财经大学",
+    "code": "0375",
+    "name": "西安财经大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "西安邮电大学",
+    "code": "0634",
+    "name": "西安邮电大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "西藏农牧大学",
+    "code": "0802",
+    "name": "西藏农牧大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "西藏大学",
+    "code": "0801",
+    "name": "西藏大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "西藏民族大学",
+    "code": "0803",
+    "name": "西藏民族大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "西藏藏医药大学",
+    "code": "0804",
+    "name": "西藏藏医药大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "贵州民族大学",
+    "code": "1052",
+    "name": "贵州民族大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "辽东学院",
+    "code": "0531",
+    "name": "辽东学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "辽宁中医药大学杏林学院",
+    "code": "0854",
+    "name": "辽宁中医药大学杏林学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "辽宁大学",
+    "code": "0066",
+    "name": "辽宁大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "辽宁对外经贸学院",
+    "code": "0605",
+    "name": "辽宁对外经贸学院",
+    "leafCount": 1,
+    "ranges": {
+      "理科": {
+        "year": 2024,
+        "minScore": 282,
+        "maxScore": 282,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "辽宁工业大学",
+    "code": "0422",
+    "name": "辽宁工业大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "辽宁工程技术大学",
+    "code": "0072",
+    "name": "辽宁工程技术大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "辽宁师范大学",
+    "code": "0080",
+    "name": "辽宁师范大学",
+    "leafCount": 15,
+    "ranges": {
+      "文科": {
+        "year": 2022,
+        "minScore": 350,
+        "maxScore": 425,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2022,
+        "minScore": 310,
+        "maxScore": 366,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "辽宁石油化工大学",
+    "code": "0073",
+    "name": "辽宁石油化工大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "辽宁科技大学",
+    "code": "0071",
+    "name": "辽宁科技大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "辽宁科技学院",
+    "code": "0622",
+    "name": "辽宁科技学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "通化师范学院",
+    "code": "0096",
+    "name": "通化师范学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "遵义师范学院",
+    "code": "1050",
+    "name": "遵义师范学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "邵阳学院",
+    "code": "0296",
+    "name": "邵阳学院",
+    "leafCount": 1,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 305,
+        "maxScore": 305,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "郑州大学",
+    "code": "0194",
+    "name": "郑州大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "郑州工业应用技术学院",
+    "code": "0723",
+    "name": "郑州工业应用技术学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "郑州师范学院",
+    "code": "0405",
+    "name": "郑州师范学院",
+    "leafCount": 2,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 315,
+        "maxScore": 315,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 269,
+        "maxScore": 269,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "郑州航空工业管理学院",
+    "code": "0542",
+    "name": "郑州航空工业管理学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "郑州警察学院",
+    "code": "0562",
+    "name": "郑州警察学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "郑州轻工业大学",
+    "code": "1029",
+    "name": "郑州轻工业大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "重庆三峡学院",
+    "code": "0250",
+    "name": "重庆三峡学院",
+    "leafCount": 1,
+    "ranges": {
+      "文科": {
+        "year": 2022,
+        "minScore": 313,
+        "maxScore": 313,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "重庆交通大学",
+    "code": "0233",
+    "name": "重庆交通大学",
+    "leafCount": 10,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 361,
+        "maxScore": 364,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 311,
+        "maxScore": 447,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "重庆医科大学",
+    "code": "0239",
+    "name": "重庆医科大学",
+    "leafCount": 9,
+    "ranges": {
+      "理科": {
+        "year": 2025,
+        "minScore": 378,
+        "maxScore": 594,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "重庆大学",
+    "code": "0228",
+    "name": "重庆大学",
+    "leafCount": 4,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 412,
+        "maxScore": 413,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 386,
+        "maxScore": 399,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "is985": true,
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "重庆工商大学",
+    "code": "0390",
+    "name": "重庆工商大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "重庆文理学院",
+    "code": "0249",
+    "name": "重庆文理学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "重庆机电职业技术大学",
+    "code": "0674",
+    "name": "重庆机电职业技术大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "重庆理工大学",
+    "code": "0381",
+    "name": "重庆理工大学",
+    "leafCount": 4,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 356,
+        "maxScore": 362,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 351,
+        "maxScore": 355,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "重庆电子科技职业大学",
+    "code": "1108",
+    "name": "重庆电子科技职业大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "重庆科技大学",
+    "code": "1087",
+    "name": "重庆科技大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "重庆邮电大学",
+    "code": "0232",
+    "name": "重庆邮电大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "金陵科技学院",
+    "code": "0322",
+    "name": "金陵科技学院",
+    "leafCount": 40,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 313,
+        "maxScore": 348,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 283,
+        "maxScore": 391,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "锦州医科大学",
+    "code": "0084",
+    "name": "锦州医科大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "锦州医科大学医疗学院",
+    "code": "0781",
+    "name": "锦州医科大学医疗学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "长安大学",
+    "code": "0272",
+    "name": "长安大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "长春中医药大学",
+    "code": "0093",
+    "name": "长春中医药大学",
+    "leafCount": 4,
+    "ranges": {
+      "理科": {
+        "year": 2024,
+        "minScore": 291,
+        "maxScore": 317,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "长春大学",
+    "code": "0384",
+    "name": "长春大学",
+    "leafCount": 12,
+    "ranges": {
+      "文科": {
+        "year": 2023,
+        "minScore": 296,
+        "maxScore": 336,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2023,
+        "minScore": 252,
+        "maxScore": 270,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "长春工业大学",
+    "code": "0089",
+    "name": "长春工业大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "长春工程学院",
+    "code": "0358",
+    "name": "长春工程学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "长春师范大学",
+    "code": "0099",
+    "name": "长春师范大学",
+    "leafCount": 14,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 317,
+        "maxScore": 365,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 276,
+        "maxScore": 293,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "长春汽车职业技术大学",
+    "code": "1086",
+    "name": "长春汽车职业技术大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "长春理工大学",
+    "code": "0087",
+    "name": "长春理工大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "长江大学",
+    "code": "0198",
+    "name": "长江大学",
+    "leafCount": 11,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 369,
+        "maxScore": 377,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 321,
+        "maxScore": 391,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "长江师范学院",
+    "code": "0251",
+    "name": "长江师范学院",
+    "leafCount": 4,
+    "ranges": {
+      "文科": {
+        "year": 2023,
+        "minScore": 299,
+        "maxScore": 354,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2023,
+        "minScore": 270,
+        "maxScore": 377,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "长沙医学院",
+    "code": "0603",
+    "name": "长沙医学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "长沙学院",
+    "code": "0414",
+    "name": "长沙学院",
+    "leafCount": 1,
+    "ranges": {
+      "文科": {
+        "year": 2023,
+        "minScore": 286,
+        "maxScore": 286,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "长沙工业学院",
+    "code": "1130",
+    "name": "长沙工业学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "长沙师范学院",
+    "code": "0785",
+    "name": "长沙师范学院",
+    "leafCount": 1,
+    "ranges": {
+      "文科": {
+        "year": 2023,
+        "minScore": 318,
+        "maxScore": 318,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "长沙理工大学",
+    "code": "0212",
+    "name": "长沙理工大学",
+    "leafCount": 8,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 371,
+        "maxScore": 371,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 354,
+        "maxScore": 503,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "长沙理工大学城南学院",
+    "code": "0860",
+    "name": "长沙理工大学城南学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "闽南师范大学",
+    "code": "0177",
+    "name": "闽南师范大学",
+    "leafCount": 9,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 331,
+        "maxScore": 391,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 303,
+        "maxScore": 313,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "闽南理工学院",
+    "code": "0715",
+    "name": "闽南理工学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "闽南科技学院",
+    "code": "0746",
+    "name": "闽南科技学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "闽江学院",
+    "code": "0173",
+    "name": "闽江学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "防灾科技学院",
+    "code": "0387",
+    "name": "防灾科技学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "陆军工程大学",
+    "code": "0796",
+    "name": "陆军工程大学",
+    "leafCount": 3,
+    "ranges": {
+      "理科": {
+        "year": 2024,
+        "minScore": 399,
+        "maxScore": 444,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "陇东学院",
+    "code": "0590",
+    "name": "陇东学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "陕西中医药大学",
+    "code": "0365",
+    "name": "陕西中医药大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "陕西学前师范学院",
+    "code": "0818",
+    "name": "陕西学前师范学院",
+    "leafCount": 7,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 322,
+        "maxScore": 340,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 284,
+        "maxScore": 284,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "陕西师范大学",
+    "code": "0274",
+    "name": "陕西师范大学",
+    "leafCount": 12,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 422,
+        "maxScore": 538,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 496,
+        "maxScore": 538,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    },
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "陕西理工大学",
+    "code": "0275",
+    "name": "陕西理工大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "陕西科技大学",
+    "code": "0345",
+    "name": "陕西科技大学",
+    "leafCount": 3,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 385,
+        "maxScore": 385,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 332,
+        "maxScore": 337,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "集美大学",
+    "code": "0169",
+    "name": "集美大学",
+    "leafCount": 17,
+    "ranges": {
+      "文科": {
+        "year": 2025,
+        "minScore": 389,
+        "maxScore": 401,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2025,
+        "minScore": 348,
+        "maxScore": 366,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "集美大学诚毅学院",
+    "code": "0849",
+    "name": "集美大学诚毅学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "青岛大学",
+    "code": "0327",
+    "name": "青岛大学",
+    "leafCount": 5,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 398,
+        "maxScore": 471,
+        "minRank": 0,
+        "maxRank": 0
+      },
+      "理科": {
+        "year": 2024,
+        "minScore": 315,
+        "maxScore": 320,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "青岛理工大学",
+    "code": "0188",
+    "name": "青岛理工大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "青海大学",
+    "code": "0287",
+    "name": "青海大学",
+    "leafCount": 0,
+    "ranges": {},
+    "is211": true,
+    "isShuangYiLiu": true
+  },
+  {
+    "key": "青海师范大学",
+    "code": "0288",
+    "name": "青海师范大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "青海民族大学",
+    "code": "0289",
+    "name": "青海民族大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "鞍山师范学院",
+    "code": "0148",
+    "name": "鞍山师范学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "韩山师范学院",
     "code": "1037",
     "name": "韩山师范学院",
     "leafCount": 4,
@@ -4416,82 +7273,233 @@
     }
   },
   {
-    "code": "1039",
-    "name": "广西大学",
-    "leafCount": 2,
-    "ranges": {
-      "理科": {
-        "year": 2025,
-        "minScore": 307,
-        "maxScore": 462,
-        "minRank": 0,
-        "maxRank": 0
-      }
-    },
-    "is211": true,
+    "key": "首都医科大学",
+    "code": "0021",
+    "name": "首都医科大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "首都师范大学",
+    "code": "0024",
+    "name": "首都师范大学",
+    "leafCount": 0,
+    "ranges": {},
     "isShuangYiLiu": true
   },
   {
-    "code": "1043",
-    "name": "云南农业大学",
-    "leafCount": 3,
+    "key": "首都经济贸易大学",
+    "code": "0033",
+    "name": "首都经济贸易大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "香港中文大学",
+    "code": "0998",
+    "name": "香港中文大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "香港城市大学",
+    "code": "0999",
+    "name": "香港城市大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "黄冈师范学院",
+    "code": "0550",
+    "name": "黄冈师范学院",
+    "leafCount": 6,
     "ranges": {
-      "理科": {
+      "文科": {
         "year": 2025,
-        "minScore": 334,
-        "maxScore": 371,
+        "minScore": 332,
+        "maxScore": 333,
         "minRank": 0,
         "maxRank": 0
       }
     }
   },
   {
-    "code": "1077",
-    "name": "扬州大学",
-    "leafCount": 7,
+    "key": "黑河学院",
+    "code": "0870",
+    "name": "黑河学院",
+    "leafCount": 5,
     "ranges": {
       "文科": {
         "year": 2024,
-        "minScore": 395,
-        "maxScore": 416,
+        "minScore": 302,
+        "maxScore": 314,
+        "minRank": 0,
+        "maxRank": 0
+      }
+    }
+  },
+  {
+    "key": "黑龙江东方学院",
+    "code": "0623",
+    "name": "黑龙江东方学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "黑龙江中医药大学",
+    "code": "0464",
+    "name": "黑龙江中医药大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "黑龙江八一农垦大学",
+    "code": "0437",
+    "name": "黑龙江八一农垦大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "黑龙江外国语学院",
+    "code": "0837",
+    "name": "黑龙江外国语学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "黑龙江大学",
+    "code": "0102",
+    "name": "黑龙江大学",
+    "leafCount": 3,
+    "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 344,
+        "maxScore": 356,
         "minRank": 0,
         "maxRank": 0
       },
       "理科": {
         "year": 2024,
-        "minScore": 327,
-        "maxScore": 433,
+        "minScore": 380,
+        "maxScore": 387,
         "minRank": 0,
         "maxRank": 0
       }
     }
   },
   {
-    "code": "1093",
-    "name": "海南医科大学",
-    "leafCount": 7,
+    "key": "黑龙江工业学院",
+    "code": "0700",
+    "name": "黑龙江工业学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "黑龙江工商学院",
+    "code": "0840",
+    "name": "黑龙江工商学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "黑龙江工程学院",
+    "code": "0392",
+    "name": "黑龙江工程学院",
+    "leafCount": 8,
     "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 307,
+        "maxScore": 307,
+        "minRank": 0,
+        "maxRank": 0
+      },
       "理科": {
-        "year": 2025,
-        "minScore": 327,
-        "maxScore": 408,
+        "year": 2024,
+        "minScore": 265,
+        "maxScore": 278,
         "minRank": 0,
         "maxRank": 0
       }
     }
   },
   {
-    "code": "1157",
-    "name": "吉林医药学院",
-    "leafCount": 2,
+    "key": "黑龙江工程学院昆仑旅游学院",
+    "code": "0842",
+    "name": "黑龙江工程学院昆仑旅游学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "黑龙江科技大学",
+    "code": "0436",
+    "name": "黑龙江科技大学",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "黑龙江财经学院",
+    "code": "0838",
+    "name": "黑龙江财经学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "黔南民族师范学院",
+    "code": "0260",
+    "name": "黔南民族师范学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "齐鲁医药学院",
+    "code": "0604",
+    "name": "齐鲁医药学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "齐齐哈尔医学院",
+    "code": "0337",
+    "name": "齐齐哈尔医学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "齐齐哈尔大学",
+    "code": "0110",
+    "name": "齐齐哈尔大学",
+    "leafCount": 11,
     "ranges": {
+      "文科": {
+        "year": 2024,
+        "minScore": 309,
+        "maxScore": 328,
+        "minRank": 0,
+        "maxRank": 0
+      },
       "理科": {
-        "year": 2025,
-        "minScore": 311,
-        "maxScore": 316,
+        "year": 2024,
+        "minScore": 266,
+        "maxScore": 292,
         "minRank": 0,
         "maxRank": 0
       }
     }
+  },
+  {
+    "key": "齐齐哈尔工程学院",
+    "code": "0720",
+    "name": "齐齐哈尔工程学院",
+    "leafCount": 0,
+    "ranges": {}
+  },
+  {
+    "key": "龙岩学院",
+    "code": "0344",
+    "name": "龙岩学院",
+    "leafCount": 0,
+    "ranges": {}
   }
 ]

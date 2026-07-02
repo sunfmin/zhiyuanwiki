@@ -1,0 +1,311 @@
+{
+  "key": "浙江师范大学",
+  "code": "H008",
+  "name": "浙江师范大学",
+  "leaves": [
+    {
+      "schoolKey": "浙江师范大学",
+      "schoolCode": "H008",
+      "majorKey": "904549c4",
+      "majorName": "交通运输",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 569,
+          "minRank": 30847,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "浙江师范大学",
+      "schoolCode": "H008",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 578,
+          "minRank": 25417,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "浙江师范大学",
+      "schoolCode": "H008",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 542,
+          "minRank": 15841,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 473,
+          "minRank": 110381,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "浙江师范大学",
+      "schoolCode": "H008",
+      "majorKey": "b74128f4",
+      "majorName": "工商管理类",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 586,
+          "minRank": 5391,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 568,
+          "minRank": 31498,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "浙江师范大学",
+      "schoolCode": "H008",
+      "majorKey": "59687759",
+      "majorName": "应用心理学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 569,
+          "minRank": 30847,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "浙江师范大学",
+      "schoolCode": "H008",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 585,
+          "minRank": 21489,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "浙江师范大学",
+      "schoolCode": "H008",
+      "majorKey": "301e14e8",
+      "majorName": "机器人工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 577,
+          "minRank": 25989,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "浙江师范大学",
+      "schoolCode": "H008",
+      "majorKey": "c425ce53",
+      "majorName": "材料科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 575,
+          "minRank": 27123,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "工商管理类",
+          "majorKey": "b74128f4",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "5300",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 5391,
+          "equivRank": 5391
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "63000",
+          "menlei": "教",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 15841,
+          "equivRank": 15841
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "工商管理类",
+          "majorKey": "b74128f4",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "5300",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 31498,
+          "equivRank": 31498
+        },
+        {
+          "majorName": "应用心理学",
+          "majorKey": "59687759",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "5300",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 30847,
+          "equivRank": 30847
+        }
+      ]
+    },
+    {
+      "groupCode": "04",
+      "groupName": "04",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "材料科学与工程",
+          "majorKey": "c425ce53",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 27123,
+          "equivRank": 27123
+        },
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 25417,
+          "equivRank": 25417
+        },
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6095",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 21489,
+          "equivRank": 21489
+        },
+        {
+          "majorName": "机器人工程",
+          "majorKey": "301e14e8",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 25989,
+          "equivRank": 25989
+        }
+      ]
+    },
+    {
+      "groupCode": "05",
+      "groupName": "05",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "交通运输",
+          "majorKey": "904549c4",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 30847,
+          "equivRank": 30847
+        }
+      ]
+    },
+    {
+      "groupCode": "06",
+      "groupName": "06",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "小学教育",
+          "majorKey": "c240892f",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "63000",
+          "menlei": "教",
+          "coop": true,
+          "prevYear": 2025,
+          "prevRank": 110381,
+          "equivRank": 110381
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "key": "沈阳药科大学",
+  "code": "0352",
+  "name": "沈阳药科大学",
+  "leaves": [
+    {
+      "schoolKey": "沈阳药科大学",
+      "schoolCode": "0352",
+      "majorKey": "97b7b689",
+      "majorName": "生物制药",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 531,
+          "minRank": 15514,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "沈阳药科大学",
+      "schoolCode": "0352",
+      "majorKey": "e9e6a481",
+      "majorName": "药学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 542,
+          "minRank": 12532,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "生物制药",
+          "majorKey": "97b7b689",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 15514,
+          "equivRank": 15514
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "6050",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 12532,
+          "equivRank": 12532
+        }
+      ]
+    }
+  ]
+}

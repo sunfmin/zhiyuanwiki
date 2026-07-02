@@ -1,0 +1,79 @@
+{
+  "key": "喀什大学",
+  "code": "2880",
+  "name": "喀什大学",
+  "leaves": [
+    {
+      "schoolKey": "喀什大学",
+      "schoolCode": "2880",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "思想政治必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 565,
+          "minRank": 19738,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "喀什大学",
+      "schoolCode": "2880",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 510,
+          "minRank": 34670,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "3500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 34670,
+          "equivRank": 34670
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "政治",
+          "plan": 2,
+          "tuition": "3100",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 19738,
+          "equivRank": 19738
+        }
+      ]
+    }
+  ]
+}

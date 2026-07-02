@@ -72,7 +72,8 @@ func TestAggregateLeavesLatestYearWins(t *testing.T) {
 	}
 }
 
-// TestAggregateLeavesSkipsBlankCode：无院校代码的行被跳过，叶子按 (院校代码,专业名) 排序。
+// TestAggregateLeavesSkipsBlankCode：无院校代码的行被跳过；院校与叶子按 院校实体键(归一化校名) 升序
+// （ADR-0021 起主键是校名而非代号，故「乙大学」<「甲大学」按字符序排前）。
 func TestAggregateLeavesSkipsBlankCode(t *testing.T) {
 	schools, leaves := AggregateLeaves([]MajorScoreRow{
 		{Year: 2025, Track: "物理", SchoolCode: "", SchoolName: "无代码校", MajorName: "X", MinRank: 1},
@@ -82,10 +83,10 @@ func TestAggregateLeavesSkipsBlankCode(t *testing.T) {
 	if len(schools) != 2 {
 		t.Fatalf("空院校代码行应跳过，got %d 校", len(schools))
 	}
-	if schools[0].Code != "1101" || schools[1].Code != "1102" {
-		t.Errorf("院校应按代码升序: %+v", schools)
+	if schools[0].Key != NormName("乙大学") || schools[1].Key != NormName("甲大学") {
+		t.Errorf("院校应按实体键(校名)升序: %+v", schools)
 	}
-	if len(leaves) != 2 || leaves[0].SchoolCode != "1101" || leaves[1].SchoolCode != "1102" {
-		t.Errorf("叶子应按 (院校代码,专业名) 升序: %+v", leaves)
+	if len(leaves) != 2 || leaves[0].SchoolKey != NormName("乙大学") || leaves[1].SchoolKey != NormName("甲大学") {
+		t.Errorf("叶子应按 (院校实体键,专业名) 升序: %+v", leaves)
 	}
 }

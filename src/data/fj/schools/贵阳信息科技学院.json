@@ -1,0 +1,56 @@
+{
+  "key": "贵阳信息科技学院",
+  "code": "2558",
+  "name": "贵阳信息科技学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "18500",
+          "menlei": "工"
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "18500",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "城乡规划",
+          "majorKey": "2a1f2fe5",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "18500",
+          "menlei": "工"
+        },
+        {
+          "majorName": "工程管理",
+          "majorKey": "4166f1ff",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "16700",
+          "menlei": "管"
+        }
+      ]
+    }
+  ]
+}

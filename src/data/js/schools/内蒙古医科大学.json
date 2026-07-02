@@ -1,0 +1,155 @@
+{
+  "key": "内蒙古医科大学",
+  "code": "3516",
+  "name": "内蒙古医科大学",
+  "leaves": [
+    {
+      "schoolKey": "内蒙古医科大学",
+      "schoolCode": "3516",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2022,
+          "track": "物理",
+          "minScore": 547,
+          "minRank": 58087,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 571,
+          "minRank": 56968,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 577,
+          "minRank": 51190,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 573,
+          "minRank": 63454,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "内蒙古医科大学",
+      "schoolCode": "3516",
+      "majorKey": "c69b91ea",
+      "majorName": "临床药学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 567,
+          "minRank": 60724,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 535,
+          "minRank": 99843,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 524,
+          "minRank": 129305,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "内蒙古医科大学",
+      "schoolCode": "3516",
+      "majorKey": "a507c400",
+      "majorName": "康复治疗学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 500,
+          "minRank": 127538,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 532,
+          "minRank": 103671,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 525,
+          "minRank": 127836,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "首选物理，再选化学、生物(2科必选)",
+          "plan": 3,
+          "tuition": "5000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 63454,
+          "equivRank": 63454
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "majors": [
+        {
+          "majorName": "康复治疗学",
+          "majorKey": "a507c400",
+          "selKe": "首选物理，再选化学、生物(2科必选)",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 127836,
+          "equivRank": 127836
+        },
+        {
+          "majorName": "临床药学",
+          "majorKey": "c69b91ea",
+          "selKe": "首选物理，再选化学、生物(2科必选)",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 129305,
+          "equivRank": 129305
+        }
+      ]
+    }
+  ]
+}

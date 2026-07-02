@@ -1,0 +1,160 @@
+{
+  "key": "沈阳农业大学",
+  "code": "2016",
+  "name": "沈阳农业大学",
+  "leaves": [
+    {
+      "schoolKey": "沈阳农业大学",
+      "schoolCode": "2016",
+      "majorKey": "6726c2e9",
+      "majorName": "中草药栽培与鉴定",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 477,
+          "minRank": 70989,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "沈阳农业大学",
+      "schoolCode": "2016",
+      "majorKey": "25624660",
+      "majorName": "应用化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 488,
+          "minRank": 63327,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "沈阳农业大学",
+      "schoolCode": "2016",
+      "majorKey": "97f88c14",
+      "majorName": "水土保持与荒漠化防治",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 479,
+          "minRank": 69569,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "沈阳农业大学",
+      "schoolCode": "2016",
+      "majorKey": "0ac1da59",
+      "majorName": "生物技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 486,
+          "minRank": 64720,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "沈阳农业大学",
+      "schoolCode": "2016",
+      "majorKey": "e2472a71",
+      "majorName": "生物科学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 495,
+          "minRank": 58484,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "中草药栽培与鉴定",
+          "majorKey": "6726c2e9",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "5200",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 70989,
+          "equivRank": 70989
+        },
+        {
+          "majorName": "应用化学",
+          "majorKey": "25624660",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 63327,
+          "equivRank": 63327
+        },
+        {
+          "majorName": "水土保持与荒漠化防治",
+          "majorKey": "97f88c14",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "农",
+          "prevYear": 2025,
+          "prevRank": 69569,
+          "equivRank": 69569
+        }
+      ]
+    },
+    {
+      "groupCode": "201",
+      "groupName": "201",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "生物科学",
+          "majorKey": "e2472a71",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "5200",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 58484,
+          "equivRank": 58484
+        },
+        {
+          "majorName": "生物技术",
+          "majorKey": "0ac1da59",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5200",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 64720,
+          "equivRank": 64720
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "key": "怀化学院",
+  "code": "4276",
+  "name": "怀化学院",
+  "leaves": [
+    {
+      "schoolKey": "怀化学院",
+      "schoolCode": "4276",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 388,
+          "minRank": 14619,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "怀化学院",
+      "schoolCode": "4276",
+      "majorKey": "c240892f",
+      "majorName": "小学教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 442,
+          "minRank": 3686,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "怀化学院",
+      "schoolCode": "4276",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 395,
+          "minRank": 13698,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "怀化学院",
+      "schoolCode": "4276",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 458,
+          "minRank": 2778,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "怀化学院",
+      "schoolCode": "4276",
+      "majorKey": "8b6a817b",
+      "majorName": "物流管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 433,
+          "minRank": 4235,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "法学",
+      "majorKey": "a1113a1f",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 1,
+      "tuition": "4000",
+      "schooling": "四年",
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevRank": 2778,
+      "equivRank": 2778,
+      "prevScore": 458
+    },
+    {
+      "majorName": "小学教育",
+      "majorKey": "c240892f",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 2,
+      "tuition": "4000",
+      "schooling": "四年",
+      "menlei": "教",
+      "prevYear": 2025,
+      "prevRank": 3686,
+      "equivRank": 3686,
+      "prevScore": 442
+    },
+    {
+      "majorName": "物流管理",
+      "majorKey": "8b6a817b",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 2,
+      "tuition": "4000",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 4235,
+      "equivRank": 4235,
+      "prevScore": 433
+    },
+    {
+      "majorName": "数据科学与大数据技术",
+      "majorKey": "bb0a25bd",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 2,
+      "tuition": "4800",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 13698,
+      "equivRank": 13698,
+      "prevScore": 395
+    },
+    {
+      "majorName": "化学",
+      "majorKey": "04ab47fe",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 2,
+      "tuition": "4000",
+      "schooling": "四年",
+      "menlei": "理",
+      "prevYear": 2025,
+      "prevRank": 14619,
+      "equivRank": 14619,
+      "prevScore": 388
+    }
+  ]
+}

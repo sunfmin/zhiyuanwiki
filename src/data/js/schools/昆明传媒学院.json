@@ -1,0 +1,142 @@
+{
+  "key": "昆明传媒学院",
+  "code": "8874",
+  "name": "昆明传媒学院",
+  "leaves": [
+    {
+      "schoolKey": "昆明传媒学院",
+      "schoolCode": "8874",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2022,
+          "track": "历史",
+          "minScore": 471,
+          "minRank": 56251,
+          "maxScore": 0
+        },
+        {
+          "year": 2023,
+          "track": "历史",
+          "minScore": 474,
+          "minRank": 53767,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "昆明传媒学院",
+      "schoolCode": "8874",
+      "majorKey": "fff04889",
+      "majorName": "网络与新媒体",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 479,
+          "minRank": 50547,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 478,
+          "minRank": 171387,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 490,
+          "minRank": 52535,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 484,
+          "minRank": 183221,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "昆明传媒学院",
+      "schoolCode": "8874",
+      "majorKey": "b54c1697",
+      "majorName": "网络工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 480,
+          "minRank": 187938,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "majors": [
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "首选历史，再选不限",
+          "plan": 2,
+          "tuition": "19500",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 52535,
+          "equivRank": 52535
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "网络与新媒体",
+          "majorKey": "fff04889",
+          "selKe": "首选物理，再选不限",
+          "plan": 2,
+          "tuition": "19500",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 183221,
+          "equivRank": 183221
+        }
+      ]
+    },
+    {
+      "groupCode": "（03）",
+      "groupName": "（03）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "网络工程",
+          "majorKey": "b54c1697",
+          "selKe": "首选物理，再选化学",
+          "plan": 1,
+          "tuition": "19500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 187938,
+          "equivRank": 187938
+        }
+      ]
+    }
+  ]
+}

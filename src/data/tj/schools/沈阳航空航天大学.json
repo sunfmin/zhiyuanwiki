@@ -1,0 +1,160 @@
+{
+  "key": "沈阳航空航天大学",
+  "code": "1105",
+  "name": "沈阳航空航天大学",
+  "leaves": [
+    {
+      "schoolKey": "沈阳航空航天大学",
+      "schoolCode": "1105",
+      "majorKey": "e16fbe20",
+      "majorName": "安全工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 606,
+          "minRank": 11588,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "沈阳航空航天大学",
+      "schoolCode": "1105",
+      "majorKey": "bb0a25bd",
+      "majorName": "数据科学与大数据技术",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 609,
+          "minRank": 10891,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "沈阳航空航天大学",
+      "schoolCode": "1105",
+      "majorKey": "c0c8480c",
+      "majorName": "能源与环境系统工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 609,
+          "minRank": 10891,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "沈阳航空航天大学",
+      "schoolCode": "1105",
+      "majorKey": "5a699e63",
+      "majorName": "金融学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 574,
+          "minRank": 19332,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "沈阳航空航天大学",
+      "schoolCode": "1105",
+      "majorKey": "263043c1",
+      "majorName": "飞行器制造工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 611,
+          "minRank": 10462,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "飞行器制造工程",
+          "majorKey": "263043c1",
+          "selKe": "物理加化学",
+          "plan": 1,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 10462,
+          "equivRank": 10462
+        },
+        {
+          "majorName": "安全工程",
+          "majorKey": "e16fbe20",
+          "selKe": "物理加化学",
+          "plan": 1,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 11588,
+          "equivRank": 11588
+        },
+        {
+          "majorName": "能源与环境系统工程",
+          "majorKey": "c0c8480c",
+          "selKe": "物理加化学",
+          "plan": 1,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 10891,
+          "equivRank": 10891
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "物理加化学",
+          "plan": 1,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 10891,
+          "equivRank": 10891
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融学",
+          "majorKey": "5a699e63",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "5200",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 19332,
+          "equivRank": 19332
+        }
+      ]
+    }
+  ]
+}

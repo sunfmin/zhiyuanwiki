@@ -1,0 +1,168 @@
+{
+  "key": "宁夏师范大学",
+  "code": "3097",
+  "name": "宁夏师范大学",
+  "leaves": [
+    {
+      "schoolKey": "宁夏师范大学",
+      "schoolCode": "3097",
+      "majorKey": "1f59c989",
+      "majorName": "化学工程与工艺",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 489,
+          "minRank": 78616,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "宁夏师范大学",
+      "schoolCode": "3097",
+      "majorKey": "6a15bc12",
+      "majorName": "思想政治教育",
+      "selKe": "首选历史，再选思想政治",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 513,
+          "minRank": 12412,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "宁夏师范大学",
+      "schoolCode": "3097",
+      "majorKey": "3e2b336a",
+      "majorName": "教育技术学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 488,
+          "minRank": 79451,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "宁夏师范大学",
+      "schoolCode": "3097",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 491,
+          "minRank": 76979,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "宁夏师范大学",
+      "schoolCode": "3097",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 493,
+          "minRank": 75303,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "700",
+      "groupName": "专业组：700 (选考思想政治)",
+      "track": "历史",
+      "selKe": "政治",
+      "majors": [
+        {
+          "majorName": "思想政治教育",
+          "majorKey": "6a15bc12",
+          "selKe": "政治",
+          "plan": 2,
+          "tuition": "4400",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 12412,
+          "equivRank": 12412
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4840",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 76979,
+          "equivRank": 76979
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4400",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 75303,
+          "equivRank": 75303
+        },
+        {
+          "majorName": "化学工程与工艺",
+          "majorKey": "1f59c989",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4400",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 78616,
+          "equivRank": 78616
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "教育技术学",
+          "majorKey": "3e2b336a",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4400",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 79451,
+          "equivRank": 79451
+        }
+      ]
+    }
+  ]
+}

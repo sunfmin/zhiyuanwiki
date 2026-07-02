@@ -1,0 +1,107 @@
+{
+  "key": "赤峰大学",
+  "code": "1252",
+  "name": "赤峰大学",
+  "leaves": [
+    {
+      "schoolKey": "赤峰大学",
+      "schoolCode": "1252",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 377,
+          "minRank": 49503,
+          "maxScore": 386
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 450,
+          "minRank": 51983,
+          "maxScore": 452
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 443,
+          "minRank": 52639,
+          "maxScore": 444
+        }
+      ]
+    },
+    {
+      "schoolKey": "赤峰大学",
+      "schoolCode": "1252",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 379,
+          "minRank": 48736,
+          "maxScore": 385
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 447,
+          "minRank": 53074,
+          "maxScore": 450
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 446,
+          "minRank": 51508,
+          "maxScore": 450
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 51508,
+          "equivRank": 48176
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4600",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 52639,
+          "equivRank": 49233
+        }
+      ]
+    }
+  ]
+}

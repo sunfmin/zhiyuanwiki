@@ -1,0 +1,160 @@
+{
+  "key": "国际关系学院",
+  "code": "0056",
+  "name": "国际关系学院",
+  "leaves": [
+    {
+      "schoolKey": "国际关系学院",
+      "schoolCode": "0056",
+      "majorKey": "2fec4169",
+      "majorName": "人工智能",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 534,
+          "minRank": 14696,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "国际关系学院",
+      "schoolCode": "0056",
+      "majorKey": "f8a1727e",
+      "majorName": "国际经济与贸易",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 533,
+          "minRank": 14978,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "国际关系学院",
+      "schoolCode": "0056",
+      "majorKey": "8f1def37",
+      "majorName": "日语",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 532,
+          "minRank": 15236,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "国际关系学院",
+      "schoolCode": "0056",
+      "majorKey": "e5fc6283",
+      "majorName": "法语",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 508,
+          "minRank": 21944,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "国际关系学院",
+      "schoolCode": "0056",
+      "majorKey": "3093c484",
+      "majorName": "网络空间安全",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 545,
+          "minRank": 11777,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "日语",
+          "majorKey": "8f1def37",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 15236,
+          "equivRank": 15236
+        },
+        {
+          "majorName": "法语",
+          "majorKey": "e5fc6283",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 21944,
+          "equivRank": 21944
+        },
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 14978,
+          "equivRank": 14978
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 14696,
+          "equivRank": 14696
+        },
+        {
+          "majorName": "网络空间安全",
+          "majorKey": "3093c484",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 11777,
+          "equivRank": 11777
+        }
+      ]
+    }
+  ]
+}

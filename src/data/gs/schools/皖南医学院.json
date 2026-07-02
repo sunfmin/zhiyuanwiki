@@ -1,0 +1,125 @@
+{
+  "key": "皖南医学院",
+  "code": "2063",
+  "name": "皖南医学院",
+  "leaves": [
+    {
+      "schoolKey": "皖南医学院",
+      "schoolCode": "2063",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 539,
+          "minRank": 15054,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "皖南医学院",
+      "schoolCode": "2063",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 526,
+          "minRank": 19010,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "皖南医学院",
+      "schoolCode": "2063",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 540,
+          "minRank": 14775,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "皖南医学院",
+      "schoolCode": "2063",
+      "majorKey": "83eea431",
+      "majorName": "麻醉学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 527,
+          "minRank": 18718,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5720",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 15054,
+          "equivRank": 15054
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5720",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 14775,
+          "equivRank": 14775
+        },
+        {
+          "majorName": "麻醉学",
+          "majorKey": "83eea431",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5720",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 18718,
+          "equivRank": 18718
+        },
+        {
+          "majorName": "医学影像学",
+          "majorKey": "5780af73",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "5720",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 19010,
+          "equivRank": 19010
+        }
+      ]
+    }
+  ]
+}

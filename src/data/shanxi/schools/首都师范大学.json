@@ -1,0 +1,162 @@
+{
+  "key": "首都师范大学",
+  "code": "1025",
+  "name": "首都师范大学",
+  "leaves": [
+    {
+      "schoolKey": "首都师范大学",
+      "schoolCode": "1025",
+      "majorKey": "a9584ad9",
+      "majorName": "中国语言文学类",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 552,
+          "minRank": 3119,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都师范大学",
+      "schoolCode": "1025",
+      "majorKey": "41438d10",
+      "majorName": "劳动与社会保障",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 530,
+          "minRank": 32116,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都师范大学",
+      "schoolCode": "1025",
+      "majorKey": "33b3d741",
+      "majorName": "数学类",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 602,
+          "minRank": 7342,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都师范大学",
+      "schoolCode": "1025",
+      "majorKey": "ec77cae2",
+      "majorName": "旅游管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 528,
+          "minRank": 33079,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "首都师范大学",
+      "schoolCode": "1025",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 549,
+          "minRank": 3389,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "中国语言文学类",
+          "majorKey": "a9584ad9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 3119,
+          "equivRank": 3119
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 3389,
+          "equivRank": 3389
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "数学类",
+          "majorKey": "33b3d741",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 7342,
+          "equivRank": 7342
+        },
+        {
+          "majorName": "生物科学类",
+          "majorKey": "d47d0996",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "理"
+        },
+        {
+          "majorName": "生物科学类",
+          "majorKey": "d47d0996",
+          "selKe": "化",
+          "plan": 1,
+          "tuition": "5000",
+          "menlei": "理"
+        },
+        {
+          "majorName": "应用化学",
+          "majorKey": "25624660",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "理"
+        }
+      ]
+    }
+  ]
+}

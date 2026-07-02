@@ -1,0 +1,99 @@
+{
+  "key": "合肥城市学院",
+  "code": "3615",
+  "name": "合肥城市学院",
+  "leaves": [
+    {
+      "schoolKey": "合肥城市学院",
+      "schoolCode": "3615",
+      "majorKey": "2a1f2fe5",
+      "majorName": "城乡规划",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 432,
+          "minRank": 90516,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "合肥城市学院",
+      "schoolCode": "3615",
+      "majorKey": "e16fbe20",
+      "majorName": "安全工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 420,
+          "minRank": 96160,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "合肥城市学院",
+      "schoolCode": "3615",
+      "majorKey": "e9cb8b0a",
+      "majorName": "汽车服务工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 434,
+          "minRank": 89565,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "汽车服务工程",
+      "majorKey": "e9cb8b0a",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 2,
+      "tuition": "22700",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 89565,
+      "equivRank": 89565,
+      "prevScore": 434
+    },
+    {
+      "majorName": "城乡规划",
+      "majorKey": "2a1f2fe5",
+      "track": "物理",
+      "selKe": "物理",
+      "plan": 1,
+      "tuition": "22700",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 90516,
+      "equivRank": 90516,
+      "prevScore": 432
+    },
+    {
+      "majorName": "安全工程",
+      "majorKey": "e16fbe20",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 2,
+      "tuition": "22700",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 96160,
+      "equivRank": 96160,
+      "prevScore": 420
+    }
+  ]
+}

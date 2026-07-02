@@ -1,0 +1,114 @@
+{
+  "key": "豫北医学院",
+  "code": "2830",
+  "name": "豫北医学院",
+  "leaves": [
+    {
+      "schoolKey": "豫北医学院",
+      "schoolCode": "2830",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 532,
+          "minRank": 91376,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "豫北医学院",
+      "schoolCode": "2830",
+      "majorKey": "a507c400",
+      "majorName": "康复治疗学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 489,
+          "minRank": 151358,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "豫北医学院",
+      "schoolCode": "2830",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "首选物理，再选生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 488,
+          "minRank": 152846,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001专业组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "康复治疗学",
+          "majorKey": "a507c400",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "17000元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 151358,
+          "equivRank": 151358
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002专业组",
+      "track": "物理",
+      "selKe": "化学+生物学",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学+生物学",
+          "plan": 2,
+          "tuition": "17000元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 91376,
+          "equivRank": 91376
+        }
+      ]
+    },
+    {
+      "groupCode": "003",
+      "groupName": "003专业组",
+      "track": "物理",
+      "selKe": "生物学",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生物学",
+          "plan": 2,
+          "tuition": "17000元/年",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 152846,
+          "equivRank": 152846
+        }
+      ]
+    }
+  ]
+}

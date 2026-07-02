@@ -1,0 +1,237 @@
+{
+  "key": "武汉工商学院",
+  "code": "5047",
+  "name": "武汉工商学院",
+  "leaves": [
+    {
+      "schoolKey": "武汉工商学院",
+      "schoolCode": "5047",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 468,
+          "minRank": 25991,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 434,
+          "minRank": 102255,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "武汉工商学院",
+      "schoolCode": "5047",
+      "majorKey": "ca37000f",
+      "majorName": "数字经济",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 431,
+          "minRank": 104340,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "武汉工商学院",
+      "schoolCode": "5047",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 472,
+          "minRank": 24766,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "武汉工商学院",
+      "schoolCode": "5047",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 431,
+          "minRank": 104340,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "武汉工商学院",
+      "schoolCode": "5047",
+      "majorKey": "0c33cbdd",
+      "majorName": "软件工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 444,
+          "minRank": 95089,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "武汉工商学院",
+      "schoolCode": "5047",
+      "majorKey": "1c1ee3f7",
+      "majorName": "通信工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 444,
+          "minRank": 95089,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "24800",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 24766,
+          "equivRank": 24766
+        },
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "历史",
+          "plan": 2,
+          "tuition": "24800",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 25991,
+          "equivRank": 25991
+        }
+      ]
+    },
+    {
+      "groupCode": "103",
+      "groupName": "103",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "物理",
+          "plan": 4,
+          "tuition": "24800",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 102255,
+          "equivRank": 102255
+        },
+        {
+          "majorName": "数字经济",
+          "majorKey": "ca37000f",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "22800",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 104340,
+          "equivRank": 104340
+        },
+        {
+          "majorName": "物流工程",
+          "majorKey": "803b1149",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "22800",
+          "menlei": "管"
+        },
+        {
+          "majorName": "电子商务",
+          "majorKey": "0b52f20f",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "22800",
+          "menlei": "管"
+        },
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "22800",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 104340,
+          "equivRank": 104340
+        }
+      ]
+    },
+    {
+      "groupCode": "105",
+      "groupName": "105",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "机械电子工程",
+          "majorKey": "4ef2a1b4",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "23800",
+          "menlei": "工"
+        },
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "23800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 95089,
+          "equivRank": 95089
+        },
+        {
+          "majorName": "通信工程",
+          "majorKey": "1c1ee3f7",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "23800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 95089,
+          "equivRank": 95089
+        }
+      ]
+    }
+  ]
+}

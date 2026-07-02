@@ -1,0 +1,133 @@
+{
+  "key": "昆明理工大学",
+  "code": "0892",
+  "name": "昆明理工大学",
+  "leaves": [
+    {
+      "schoolKey": "昆明理工大学",
+      "schoolCode": "0892",
+      "majorKey": "bdb5a180",
+      "majorName": "机械工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 493,
+          "minRank": 26212,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "昆明理工大学",
+      "schoolCode": "0892",
+      "majorKey": "c425ce53",
+      "majorName": "材料科学与工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 491,
+          "minRank": 26773,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "昆明理工大学",
+      "schoolCode": "0892",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 496,
+          "minRank": 25365,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "昆明理工大学",
+      "schoolCode": "0892",
+      "majorKey": "da95770c",
+      "majorName": "自动化",
+      "selKe": "物理和化学和生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 494,
+          "minRank": 25917,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "机械工程",
+          "majorKey": "bdb5a180",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "5900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 26212,
+          "equivRank": 26212
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 25365,
+          "equivRank": 25365
+        },
+        {
+          "majorName": "材料科学与工程",
+          "majorKey": "c425ce53",
+          "selKe": "物理和化学",
+          "plan": 3,
+          "tuition": "5900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 26773,
+          "equivRank": 26773
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学和生物学",
+      "majors": [
+        {
+          "majorName": "自动化",
+          "majorKey": "da95770c",
+          "selKe": "物理和化学和生物学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 25917,
+          "equivRank": 25917
+        }
+      ]
+    }
+  ]
+}

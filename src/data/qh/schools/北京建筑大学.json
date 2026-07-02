@@ -1,0 +1,99 @@
+{
+  "key": "北京建筑大学",
+  "code": "1015",
+  "name": "北京建筑大学",
+  "leaves": [
+    {
+      "schoolKey": "北京建筑大学",
+      "schoolCode": "1015",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 444,
+          "minRank": 7712,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京建筑大学",
+      "schoolCode": "1015",
+      "majorKey": "7faf2092",
+      "majorName": "环境工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 436,
+          "minRank": 8546,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京建筑大学",
+      "schoolCode": "1015",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 517,
+          "minRank": 2450,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "电气工程及其自动化",
+      "majorKey": "45947d31",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 1,
+      "tuition": "4600",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 2450,
+      "equivRank": 2450,
+      "prevScore": 517
+    },
+    {
+      "majorName": "土木工程",
+      "majorKey": "320e7128",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 3,
+      "tuition": "4600",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 7712,
+      "equivRank": 7712,
+      "prevScore": 444
+    },
+    {
+      "majorName": "环境工程",
+      "majorKey": "7faf2092",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "plan": 1,
+      "tuition": "4600",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 8546,
+      "equivRank": 8546,
+      "prevScore": 436
+    }
+  ]
+}

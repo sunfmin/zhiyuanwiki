@@ -1,0 +1,79 @@
+{
+  "key": "马鞍山学院",
+  "code": "3233",
+  "name": "马鞍山学院",
+  "leaves": [
+    {
+      "schoolKey": "马鞍山学院",
+      "schoolCode": "3233",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 445,
+          "minRank": 94094,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "马鞍山学院",
+      "schoolCode": "3233",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 453,
+          "minRank": 30222,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "历史",
+          "plan": 5,
+          "tuition": "22500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 30222,
+          "equivRank": 30222
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "22500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 94094,
+          "equivRank": 94094
+        }
+      ]
+    }
+  ]
+}

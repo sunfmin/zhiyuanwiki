@@ -1,0 +1,195 @@
+{
+  "key": "石家庄铁道大学四方学院",
+  "code": "1345",
+  "name": "石家庄铁道大学四方学院",
+  "leaves": [
+    {
+      "schoolKey": "石家庄铁道大学四方学院",
+      "schoolCode": "1345",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 526,
+          "minRank": 30546,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "石家庄铁道大学四方学院",
+      "schoolCode": "1345",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 443,
+          "minRank": 51510,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "石家庄铁道大学四方学院",
+      "schoolCode": "1345",
+      "majorKey": "4166f1ff",
+      "majorName": "工程管理",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 491,
+          "minRank": 39912,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "石家庄铁道大学四方学院",
+      "schoolCode": "1345",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 510,
+          "minRank": 34871,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "石家庄铁道大学四方学院",
+      "schoolCode": "1345",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 467,
+          "minRank": 46071,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "石家庄铁道大学四方学院",
+      "schoolCode": "1345",
+      "majorKey": "da95770c",
+      "majorName": "自动化",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 452,
+          "minRank": 49558,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "会计学",
+          "majorKey": "8aa56116",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "10000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 30546,
+          "equivRank": 30546
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "工程管理",
+          "majorKey": "4166f1ff",
+          "selKe": "物理",
+          "plan": 1,
+          "tuition": "10000",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 39912,
+          "equivRank": 39912
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "10000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 51510,
+          "equivRank": 51510
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "10000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 46071,
+          "equivRank": 46071
+        },
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "10000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 34871,
+          "equivRank": 34871
+        },
+        {
+          "majorName": "自动化",
+          "majorKey": "da95770c",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "10000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 49558,
+          "equivRank": 49558
+        }
+      ]
+    }
+  ]
+}

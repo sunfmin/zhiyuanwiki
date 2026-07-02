@@ -1,0 +1,130 @@
+{
+  "key": "哈尔滨工业大学(深圳)",
+  "code": "8213",
+  "name": "哈尔滨工业大学(深圳)",
+  "leaves": [
+    {
+      "schoolKey": "哈尔滨工业大学(深圳)",
+      "schoolCode": "8213",
+      "majorKey": "b363aa3d",
+      "majorName": "工科试验班",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 669,
+          "minRank": 788,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "哈尔滨工业大学(深圳)",
+      "schoolCode": "8213",
+      "majorKey": "caa6f3a9",
+      "majorName": "建筑类",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 613,
+          "minRank": 1262,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "哈尔滨工业大学(深圳)",
+      "schoolCode": "8213",
+      "majorKey": "47abff30",
+      "majorName": "经济管理试验班",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 628,
+          "minRank": 601,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "哈尔滨工业大学(深圳)",
+      "schoolCode": "8213",
+      "majorKey": "1c1ee3f7",
+      "majorName": "通信工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 648,
+          "minRank": 2729,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "经济管理试验班",
+      "majorKey": "47abff30",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 8,
+      "tuition": "5510",
+      "schooling": "4",
+      "menlei": "经",
+      "prevYear": 2025,
+      "prevRank": 601,
+      "equivRank": 601,
+      "prevScore": 628
+    },
+    {
+      "majorName": "工科试验班",
+      "majorKey": "b363aa3d",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 30,
+      "tuition": "6230",
+      "schooling": "4",
+      "menlei": "他",
+      "prevYear": 2025,
+      "prevRank": 788,
+      "equivRank": 788,
+      "prevScore": 669
+    },
+    {
+      "majorName": "建筑类",
+      "majorKey": "caa6f3a9",
+      "track": "历史",
+      "selKe": "历史",
+      "plan": 9,
+      "tuition": "6230",
+      "schooling": "4",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevRank": 1262,
+      "equivRank": 1262,
+      "prevScore": 613
+    },
+    {
+      "majorName": "通信工程",
+      "majorKey": "1c1ee3f7",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "plan": 10,
+      "tuition": "待定",
+      "schooling": "4",
+      "menlei": "工",
+      "coop": true,
+      "prevYear": 2025,
+      "prevRank": 2729,
+      "equivRank": 2729,
+      "prevScore": 648
+    }
+  ]
+}

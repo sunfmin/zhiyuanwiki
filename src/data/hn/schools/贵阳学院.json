@@ -1,0 +1,127 @@
+{
+  "key": "贵阳学院",
+  "code": "5215",
+  "name": "贵阳学院",
+  "leaves": [
+    {
+      "schoolKey": "贵阳学院",
+      "schoolCode": "5215",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 475,
+          "minRank": 119538,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "贵阳学院",
+      "schoolCode": "5215",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 477,
+          "minRank": 116805,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "贵阳学院",
+      "schoolCode": "5215",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 476,
+          "minRank": 118172,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "贵阳学院",
+      "schoolCode": "5215",
+      "majorKey": "0c33cbdd",
+      "majorName": "软件工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 475,
+          "minRank": 119538,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（104）",
+      "groupName": "（104）",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "majors": [
+        {
+          "majorName": "科学教育",
+          "majorKey": "b534555a",
+          "selKe": "首选物理，再选不限",
+          "plan": 4,
+          "tuition": "4100",
+          "menlei": "教"
+        }
+      ]
+    },
+    {
+      "groupCode": "（105）",
+      "groupName": "（105）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "机械电子工程",
+          "majorKey": "4ef2a1b4",
+          "selKe": "首选物理，再选化学",
+          "plan": 6,
+          "tuition": "4200",
+          "menlei": "工"
+        },
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "首选物理，再选化学",
+          "plan": 4,
+          "tuition": "4200",
+          "menlei": "工",
+          "prevYear": 2024,
+          "prevRank": 118172,
+          "equivRank": 131340
+        },
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "首选物理，再选化学",
+          "plan": 2,
+          "tuition": "4200",
+          "menlei": "工",
+          "prevYear": 2024,
+          "prevRank": 119538,
+          "equivRank": 132858
+        }
+      ]
+    }
+  ]
+}

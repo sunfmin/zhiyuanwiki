@@ -1,0 +1,56 @@
+{
+  "key": "青海理工学院",
+  "code": "14881",
+  "name": "青海理工学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "100",
+      "groupName": "专业组:100(首选科目:物理。再选科目:化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "新能源科学与工程",
+          "majorKey": "42b22d93",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200元/年",
+          "menlei": "工"
+        },
+        {
+          "majorName": "自动化",
+          "majorKey": "da95770c",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200元/年",
+          "menlei": "工"
+        },
+        {
+          "majorName": "环境生态工程",
+          "majorKey": "2698a02f",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200元/年",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "101",
+      "groupName": "专业组:101(首选科目:物理。再选科目:不限)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "数字经济",
+          "majorKey": "ca37000f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4500元/年",
+          "menlei": "经"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "key": "北京服装学院",
+  "code": "1112",
+  "name": "北京服装学院",
+  "leaves": [
+    {
+      "schoolKey": "北京服装学院",
+      "schoolCode": "1112",
+      "majorKey": "fee47c1b",
+      "majorName": "工业设计",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 541,
+          "minRank": 36341,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "北京服装学院",
+      "schoolCode": "1112",
+      "majorKey": "90cd213e",
+      "majorName": "服装设计与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 539,
+          "minRank": 37443,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "服装设计与工程",
+          "majorKey": "90cd213e",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "4600元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 37443,
+          "equivRank": 37443
+        },
+        {
+          "majorName": "工业设计",
+          "majorKey": "fee47c1b",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4600元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 36341,
+          "equivRank": 36341
+        }
+      ]
+    }
+  ]
+}

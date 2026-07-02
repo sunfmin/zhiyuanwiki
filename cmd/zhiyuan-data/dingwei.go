@@ -73,7 +73,7 @@ func dingweiCmd(args []string) {
 					rank = m.PrevRank
 				}
 				byTrack[g.Track] = append(byTrack[g.Track], locatorEntry{
-					SchoolCode: d.Code, SchoolName: d.Name,
+					SchoolCode: d.Key, SchoolName: d.Name,
 					GroupCode: g.GroupCode, GroupName: g.GroupName,
 					MajorName: m.MajorName, MajorKey: m.MajorKey,
 					SelKe: m.SelKe, Plan: m.Plan,
@@ -89,7 +89,7 @@ func dingweiCmd(args []string) {
 				track = zjTrack
 			}
 			e := locatorEntry{
-				SchoolCode: d.Code, SchoolName: d.Name,
+				SchoolCode: d.Key, SchoolName: d.Name,
 				MajorName: m.MajorName, MajorKey: m.MajorKey,
 				SelKe: m.SelKe, Plan: m.Plan,
 				PrevYear: m.PrevYear,

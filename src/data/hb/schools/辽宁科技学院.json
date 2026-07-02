@@ -1,0 +1,71 @@
+{
+  "key": "辽宁科技学院",
+  "code": "F493",
+  "name": "辽宁科技学院",
+  "leaves": [
+    {
+      "schoolKey": "辽宁科技学院",
+      "schoolCode": "F493",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 520,
+          "minRank": 69316,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "辽宁科技学院",
+      "schoolCode": "F493",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 518,
+          "minRank": 71061,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 69316,
+          "equivRank": 69316
+        },
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "4900",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 71061,
+          "equivRank": 71061
+        }
+      ]
+    }
+  ]
+}

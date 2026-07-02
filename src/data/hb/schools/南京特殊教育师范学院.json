@@ -1,0 +1,187 @@
+{
+  "key": "南京特殊教育师范学院",
+  "code": "F905",
+  "name": "南京特殊教育师范学院",
+  "leaves": [
+    {
+      "schoolKey": "南京特殊教育师范学院",
+      "schoolCode": "F905",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 535,
+          "minRank": 17868,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "南京特殊教育师范学院",
+      "schoolCode": "F905",
+      "majorKey": "ed301a2a",
+      "majorName": "手语翻译",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 562,
+          "minRank": 10567,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "南京特殊教育师范学院",
+      "schoolCode": "F905",
+      "majorKey": "618fdffd",
+      "majorName": "数学与应用数学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 507,
+          "minRank": 80494,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "南京特殊教育师范学院",
+      "schoolCode": "F905",
+      "majorKey": "e0d708da",
+      "majorName": "特殊教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 566,
+          "minRank": 9556,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "南京特殊教育师范学院",
+      "schoolCode": "F905",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 508,
+          "minRank": 79629,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "南京特殊教育师范学院",
+      "schoolCode": "F905",
+      "majorKey": "0c33cbdd",
+      "majorName": "软件工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 508,
+          "minRank": 79629,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "历史",
+          "plan": 4,
+          "tuition": "5200",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 17868,
+          "equivRank": 17868
+        },
+        {
+          "majorName": "手语翻译",
+          "majorKey": "ed301a2a",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "5200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 10567,
+          "equivRank": 10567
+        },
+        {
+          "majorName": "特殊教育",
+          "majorKey": "e0d708da",
+          "selKe": "历史",
+          "plan": 1,
+          "tuition": "5200",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 9556,
+          "equivRank": 9556
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "计算机科学与技术",
+          "majorKey": "1d486608",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 79629,
+          "equivRank": 79629
+        },
+        {
+          "majorName": "数学与应用数学",
+          "majorKey": "618fdffd",
+          "selKe": "物理,化学",
+          "plan": 4,
+          "tuition": "5500",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 80494,
+          "equivRank": 80494
+        },
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "5800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 79629,
+          "equivRank": 79629
+        }
+      ]
+    }
+  ]
+}

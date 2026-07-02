@@ -1,0 +1,79 @@
+{
+  "key": "肇庆学院",
+  "code": "5484",
+  "name": "肇庆学院",
+  "leaves": [
+    {
+      "schoolKey": "肇庆学院",
+      "schoolCode": "5484",
+      "majorKey": "55ff9da5",
+      "majorName": "机械设计制造及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 521,
+          "minRank": 133470,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "肇庆学院",
+      "schoolCode": "5484",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 534,
+          "minRank": 115115,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（01）",
+      "groupName": "（01）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "首选物理，再选化学",
+          "plan": 3,
+          "tuition": "5710",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 115115,
+          "equivRank": 115115
+        }
+      ]
+    },
+    {
+      "groupCode": "（02）",
+      "groupName": "（02）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "机械设计制造及其自动化",
+          "majorKey": "55ff9da5",
+          "selKe": "首选物理，再选化学",
+          "plan": 2,
+          "tuition": "5710",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 133470,
+          "equivRank": 133470
+        }
+      ]
+    }
+  ]
+}

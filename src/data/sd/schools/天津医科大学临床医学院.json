@@ -1,0 +1,99 @@
+{
+  "key": "天津医科大学临床医学院",
+  "code": "D661",
+  "name": "天津医科大学临床医学院",
+  "leaves": [
+    {
+      "schoolKey": "天津医科大学临床医学院",
+      "schoolCode": "D661",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物化生(3科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 512,
+          "minRank": 156885,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "天津医科大学临床医学院",
+      "schoolCode": "D661",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "物化生(3科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 541,
+          "minRank": 97374,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "天津医科大学临床医学院",
+      "schoolCode": "D661",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "化学必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 484,
+          "minRank": 224707,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "口腔医学",
+      "majorKey": "c162bced",
+      "track": "综合",
+      "selKe": "物理,化学,生物",
+      "plan": 4,
+      "tuition": "20000",
+      "schooling": "5",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 97374,
+      "equivRank": 97374,
+      "prevScore": 541
+    },
+    {
+      "majorName": "临床医学",
+      "majorKey": "618f7040",
+      "track": "综合",
+      "selKe": "物理,化学,生物",
+      "plan": 4,
+      "tuition": "20000",
+      "schooling": "5",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 156885,
+      "equivRank": 156885,
+      "prevScore": 512
+    },
+    {
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "综合",
+      "selKe": "化学",
+      "plan": 9,
+      "tuition": "20000",
+      "schooling": "4",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 224707,
+      "equivRank": 224707,
+      "prevScore": 484
+    }
+  ]
+}

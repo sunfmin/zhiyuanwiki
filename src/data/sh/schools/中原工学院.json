@@ -1,0 +1,98 @@
+{
+  "key": "中原工学院",
+  "code": "0687",
+  "name": "中原工学院",
+  "leaves": [
+    {
+      "schoolKey": "中原工学院",
+      "schoolCode": "0687",
+      "majorKey": "1bd76ba8",
+      "majorName": "测控技术与仪器",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 426,
+          "minRank": 44086,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中原工学院",
+      "schoolCode": "0687",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 429,
+          "minRank": 43379,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "中原工学院",
+      "schoolCode": "0687",
+      "majorKey": "0c33cbdd",
+      "majorName": "软件工程",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 429,
+          "minRank": 43379,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "物理和化学",
+          "plan": 3,
+          "tuition": "28000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 43379,
+          "equivRank": 43379
+        },
+        {
+          "majorName": "测控技术与仪器",
+          "majorKey": "1bd76ba8",
+          "selKe": "物理和化学",
+          "plan": 4,
+          "tuition": "28000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 44086,
+          "equivRank": 44086
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理和化学",
+          "plan": 3,
+          "tuition": "28000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 43379,
+          "equivRank": 43379
+        }
+      ]
+    }
+  ]
+}

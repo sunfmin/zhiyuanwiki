@@ -1,0 +1,69 @@
+{
+  "key": "南京信息工程大学(中外合作)",
+  "code": "3057",
+  "name": "南京信息工程大学(中外合作)",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "国际经济与贸易",
+          "majorKey": "f8a1727e",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "57000",
+          "menlei": "经",
+          "coop": true
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "应用化学",
+          "majorKey": "25624660",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "57000",
+          "menlei": "理",
+          "coop": true
+        },
+        {
+          "majorName": "地理信息科学",
+          "majorKey": "f9ecceea",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "57000",
+          "menlei": "理",
+          "coop": true
+        },
+        {
+          "majorName": "大气科学",
+          "majorKey": "40735902",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "57000",
+          "menlei": "理",
+          "coop": true
+        },
+        {
+          "majorName": "数据科学与大数据技术",
+          "majorKey": "bb0a25bd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "57000",
+          "menlei": "工",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

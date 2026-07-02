@@ -1,0 +1,106 @@
+{
+  "key": "文山学院",
+  "code": "7287",
+  "name": "文山学院",
+  "leaves": [
+    {
+      "schoolKey": "文山学院",
+      "schoolCode": "7287",
+      "majorKey": "8a0736ce",
+      "majorName": "冶金工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 494,
+          "minRank": 221305,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "文山学院",
+      "schoolCode": "7287",
+      "majorKey": "e16fbe20",
+      "majorName": "安全工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 495,
+          "minRank": 219377,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "文山学院",
+      "schoolCode": "7287",
+      "majorKey": "9c5f4a34",
+      "majorName": "新闻学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 521,
+          "minRank": 45878,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "新闻学",
+          "majorKey": "9c5f4a34",
+          "selKe": "不限",
+          "plan": 5,
+          "tuition": "4200",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 45878,
+          "equivRank": 45878
+        }
+      ]
+    },
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "冶金工程",
+          "majorKey": "8a0736ce",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 221305,
+          "equivRank": 221305
+        },
+        {
+          "majorName": "安全工程",
+          "majorKey": "e16fbe20",
+          "selKe": "化",
+          "plan": 5,
+          "tuition": "5000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 219377,
+          "equivRank": 219377
+        }
+      ]
+    }
+  ]
+}

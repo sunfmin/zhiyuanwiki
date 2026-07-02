@@ -1,0 +1,153 @@
+{
+  "key": "浙江大学医学院",
+  "code": "1592",
+  "name": "浙江大学医学院",
+  "leaves": [
+    {
+      "schoolKey": "浙江大学医学院",
+      "schoolCode": "1592",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 657,
+          "minRank": 260,
+          "maxScore": 658
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 684,
+          "minRank": 340,
+          "maxScore": 689
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 652,
+          "minRank": 861,
+          "maxScore": 669
+        }
+      ]
+    },
+    {
+      "schoolKey": "浙江大学医学院",
+      "schoolCode": "1592",
+      "majorKey": "a191bc68",
+      "majorName": "医学试验班类",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 657,
+          "minRank": 260,
+          "maxScore": 657
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 682,
+          "minRank": 399,
+          "maxScore": 683
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 644,
+          "minRank": 1255,
+          "maxScore": 656
+        }
+      ]
+    },
+    {
+      "schoolKey": "浙江大学医学院",
+      "schoolCode": "1592",
+      "majorKey": "41174006",
+      "majorName": "药学类",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 654,
+          "minRank": 308,
+          "maxScore": 655
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 681,
+          "minRank": 429,
+          "maxScore": 682
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 639,
+          "minRank": 1575,
+          "maxScore": 643
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "医学试验班",
+          "majorKey": "696c3187",
+          "selKe": "化学",
+          "plan": 1,
+          "tuition": "6900",
+          "menlei": "医"
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 861,
+          "equivRank": 805
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 861,
+          "equivRank": 805
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "医"
+        },
+        {
+          "majorName": "药学",
+          "majorKey": "e9e6a481",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6000",
+          "menlei": "医"
+        }
+      ]
+    }
+  ]
+}

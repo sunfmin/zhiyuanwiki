@@ -1,0 +1,133 @@
+{
+  "key": "长春职业技术大学",
+  "code": "2244",
+  "name": "长春职业技术大学",
+  "leaves": [
+    {
+      "schoolKey": "长春职业技术大学",
+      "schoolCode": "2244",
+      "majorKey": "a8fb44ce",
+      "majorName": "新能源汽车工程技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 443,
+          "minRank": 162957,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春职业技术大学",
+      "schoolCode": "2244",
+      "majorKey": "57377dd0",
+      "majorName": "智能制造工程技术",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 444,
+          "minRank": 161624,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春职业技术大学",
+      "schoolCode": "2244",
+      "majorKey": "02164ef1",
+      "majorName": "电气工程及自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 445,
+          "minRank": 160297,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长春职业技术大学",
+      "schoolCode": "2244",
+      "majorKey": "94699a4b",
+      "majorName": "食品工程技术",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 438,
+          "minRank": 169715,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "（101）",
+      "groupName": "（101）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学",
+      "majors": [
+        {
+          "majorName": "电气工程及自动化",
+          "majorKey": "02164ef1",
+          "selKe": "首选物理，再选化学",
+          "plan": 8,
+          "tuition": "8800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 160297,
+          "equivRank": 160297
+        },
+        {
+          "majorName": "新能源汽车工程技术",
+          "majorKey": "a8fb44ce",
+          "selKe": "首选物理，再选化学",
+          "plan": 7,
+          "tuition": "8800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 162957,
+          "equivRank": 162957
+        },
+        {
+          "majorName": "智能制造工程技术",
+          "majorKey": "57377dd0",
+          "selKe": "首选物理，再选化学",
+          "plan": 7,
+          "tuition": "8800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 161624,
+          "equivRank": 161624
+        }
+      ]
+    },
+    {
+      "groupCode": "（102）",
+      "groupName": "（102）",
+      "track": "物理",
+      "selKe": "首选物理，再选化学、生物(2科必选)",
+      "majors": [
+        {
+          "majorName": "食品工程技术",
+          "majorKey": "94699a4b",
+          "selKe": "首选物理，再选化学、生物(2科必选)",
+          "plan": 8,
+          "tuition": "8800",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 169715,
+          "equivRank": 169715
+        }
+      ]
+    }
+  ]
+}

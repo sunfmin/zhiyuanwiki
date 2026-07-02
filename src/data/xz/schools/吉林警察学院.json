@@ -1,0 +1,112 @@
+{
+  "key": "吉林警察学院",
+  "code": "0361",
+  "name": "吉林警察学院",
+  "leaves": [
+    {
+      "schoolKey": "吉林警察学院",
+      "schoolCode": "0361",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "",
+      "years": [
+        {
+          "year": 2025,
+          "track": "文科",
+          "minScore": 342,
+          "minRank": 0,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "理科",
+          "minScore": 350,
+          "minRank": 0,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "吉林警察学院",
+      "schoolCode": "0361",
+      "majorKey": "1d486608",
+      "majorName": "计算机科学与技术",
+      "selKe": "",
+      "years": [
+        {
+          "year": 2025,
+          "track": "理科",
+          "minScore": 295,
+          "minRank": 0,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "吉林警察学院",
+      "schoolCode": "0361",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "",
+      "years": [
+        {
+          "year": 2025,
+          "track": "理科",
+          "minScore": 298,
+          "minRank": 0,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "法学",
+      "majorKey": "a1113a1f",
+      "track": "理科",
+      "selKe": "",
+      "plan": 1,
+      "tuition": "5280",
+      "schooling": "四年",
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevScore": 350
+    },
+    {
+      "majorName": "法学",
+      "majorKey": "a1113a1f",
+      "track": "文科",
+      "selKe": "",
+      "plan": 2,
+      "tuition": "5280",
+      "schooling": "四年",
+      "menlei": "法",
+      "prevYear": 2025,
+      "prevScore": 342
+    },
+    {
+      "majorName": "财务管理",
+      "majorKey": "8220c852",
+      "track": "理科",
+      "selKe": "",
+      "plan": 1,
+      "tuition": "5280",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevScore": 298
+    },
+    {
+      "majorName": "计算机科学与技术",
+      "majorKey": "1d486608",
+      "track": "理科",
+      "selKe": "",
+      "plan": 4,
+      "tuition": "5940",
+      "schooling": "四年",
+      "menlei": "工",
+      "prevYear": 2025,
+      "prevScore": 295
+    }
+  ]
+}

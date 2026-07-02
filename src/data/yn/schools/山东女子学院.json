@@ -1,0 +1,70 @@
+{
+  "key": "山东女子学院",
+  "code": "37A7",
+  "name": "山东女子学院",
+  "leaves": [
+    {
+      "schoolKey": "山东女子学院",
+      "schoolCode": "37A7",
+      "majorKey": "97716b64",
+      "majorName": "学前教育",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 501,
+          "minRank": 27096,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 471,
+          "minRank": 84481,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "历史",
+          "plan": 20,
+          "tuition": "5200元",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 27096,
+          "equivRank": 27096
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "学前教育",
+          "majorKey": "97716b64",
+          "selKe": "物理",
+          "plan": 10,
+          "tuition": "5200元",
+          "menlei": "教",
+          "prevYear": 2025,
+          "prevRank": 84481,
+          "equivRank": 84481
+        }
+      ]
+    }
+  ]
+}

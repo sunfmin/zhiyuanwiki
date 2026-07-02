@@ -1,0 +1,74 @@
+{
+  "key": "仰恩大学",
+  "code": "2676",
+  "name": "仰恩大学",
+  "leaves": [
+    {
+      "schoolKey": "仰恩大学",
+      "schoolCode": "2676",
+      "majorKey": "8aa56116",
+      "majorName": "会计学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 476,
+          "minRank": 27705,
+          "maxScore": 0
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 420,
+          "minRank": 119102,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 486,
+          "minRank": 27057,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 431,
+          "minRank": 116202,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "会计学",
+      "majorKey": "8aa56116",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 5,
+      "tuition": "23000",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 27057,
+      "equivRank": 27057,
+      "prevScore": 486
+    },
+    {
+      "majorName": "会计学",
+      "majorKey": "8aa56116",
+      "track": "物理",
+      "selKe": "首选物理，再选不限",
+      "plan": 4,
+      "tuition": "23000",
+      "schooling": "四年",
+      "menlei": "管",
+      "prevYear": 2025,
+      "prevRank": 116202,
+      "equivRank": 116202,
+      "prevScore": 431
+    }
+  ]
+}

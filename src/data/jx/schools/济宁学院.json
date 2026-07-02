@@ -1,0 +1,79 @@
+{
+  "key": "济宁学院",
+  "code": "2495",
+  "name": "济宁学院",
+  "leaves": [
+    {
+      "schoolKey": "济宁学院",
+      "schoolCode": "2495",
+      "majorKey": "45947d31",
+      "majorName": "电气工程及其自动化",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 514,
+          "minRank": 68184,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "济宁学院",
+      "schoolCode": "2495",
+      "majorKey": "e6a89fa4",
+      "majorName": "金融工程",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 472,
+          "minRank": 120774,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "第501组",
+      "groupName": "第501组",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "金融工程",
+          "majorKey": "e6a89fa4",
+          "selKe": "物理",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 120774,
+          "equivRank": 120774
+        }
+      ]
+    },
+    {
+      "groupCode": "第502组",
+      "groupName": "第502组",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "5500",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 68184,
+          "equivRank": 68184
+        }
+      ]
+    }
+  ]
+}

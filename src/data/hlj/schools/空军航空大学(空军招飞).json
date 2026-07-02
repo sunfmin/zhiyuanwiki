@@ -1,0 +1,169 @@
+{
+  "key": "空军航空大学(空军招飞)",
+  "code": "1354",
+  "name": "空军航空大学",
+  "leaves": [
+    {
+      "schoolKey": "空军航空大学(空军招飞)",
+      "schoolCode": "1354",
+      "majorKey": "65a5527d",
+      "majorName": "侦察情报",
+      "selKe": "地理",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 518,
+          "minRank": 12251,
+          "maxScore": 518
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 587,
+          "minRank": 11271,
+          "maxScore": 587
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 595,
+          "minRank": 6822,
+          "maxScore": 595
+        }
+      ]
+    },
+    {
+      "schoolKey": "空军航空大学(空军招飞)",
+      "schoolCode": "1354",
+      "majorKey": "720a9a37",
+      "majorName": "目标保障",
+      "selKe": "地理",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 546,
+          "minRank": 17836,
+          "maxScore": 551
+        }
+      ]
+    },
+    {
+      "schoolKey": "空军航空大学(空军招飞)",
+      "schoolCode": "1354",
+      "majorKey": "ba49bf2b",
+      "majorName": "目标工程",
+      "selKe": "地理",
+      "years": [
+        {
+          "year": 2023,
+          "track": "物理",
+          "minScore": 477,
+          "minRank": 19938,
+          "maxScore": 485
+        },
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 581,
+          "minRank": 12527,
+          "maxScore": 581
+        }
+      ]
+    },
+    {
+      "schoolKey": "空军航空大学(空军招飞)",
+      "schoolCode": "0105",
+      "majorKey": "df925025",
+      "majorName": "飞行技术",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "物理",
+          "minScore": 507,
+          "minRank": 32378,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 574,
+          "minRank": 10983,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "地理",
+      "majors": [
+        {
+          "majorName": "侦察情报",
+          "majorKey": "65a5527d",
+          "selKe": "地理",
+          "plan": 3,
+          "tuition": "待定",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 6822,
+          "equivRank": 6381
+        },
+        {
+          "majorName": "目标保障",
+          "majorKey": "720a9a37",
+          "selKe": "地理",
+          "plan": 1,
+          "tuition": "待定",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 17836,
+          "equivRank": 16682
+        }
+      ]
+    },
+    {
+      "groupCode": "001",
+      "groupName": "第001组",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "飞行技术",
+          "majorKey": "df925025",
+          "selKe": "不限",
+          "plan": 35,
+          "tuition": "待定",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 10983,
+          "equivRank": 10272
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "第002组",
+      "track": "物理",
+      "selKe": "地理",
+      "majors": [
+        {
+          "majorName": "侦察情报",
+          "majorKey": "65a5527d",
+          "selKe": "地理",
+          "plan": 1,
+          "tuition": "待定",
+          "menlei": "他",
+          "prevYear": 2025,
+          "prevRank": 6822,
+          "equivRank": 6381
+        }
+      ]
+    }
+  ]
+}

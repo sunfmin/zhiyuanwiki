@@ -1,0 +1,99 @@
+{
+  "key": "河南中医药大学",
+  "code": "A471",
+  "name": "河南中医药大学",
+  "leaves": [
+    {
+      "schoolKey": "河南中医药大学",
+      "schoolCode": "A471",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "生物必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 551,
+          "minRank": 80045,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河南中医药大学",
+      "schoolCode": "A471",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 526,
+          "minRank": 127723,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河南中医药大学",
+      "schoolCode": "A471",
+      "majorKey": "1954d9c9",
+      "majorName": "预防医学",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 514,
+          "minRank": 152455,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "护理学",
+      "majorKey": "c7acab0a",
+      "track": "综合",
+      "selKe": "生物",
+      "plan": 2,
+      "tuition": "5500",
+      "schooling": "4",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 80045,
+      "equivRank": 80045,
+      "prevScore": 551
+    },
+    {
+      "majorName": "英语",
+      "majorKey": "49c5cdf9",
+      "track": "综合",
+      "selKe": "不限",
+      "plan": 3,
+      "tuition": "4400",
+      "schooling": "4",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevRank": 127723,
+      "equivRank": 127723,
+      "prevScore": 526
+    },
+    {
+      "majorName": "预防医学",
+      "majorKey": "1954d9c9",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "plan": 5,
+      "tuition": "5500",
+      "schooling": "5",
+      "menlei": "医",
+      "prevYear": 2025,
+      "prevRank": 152455,
+      "equivRank": 152455,
+      "prevScore": 514
+    }
+  ]
+}

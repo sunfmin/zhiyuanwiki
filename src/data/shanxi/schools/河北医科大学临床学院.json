@@ -1,0 +1,168 @@
+{
+  "key": "河北医科大学临床学院",
+  "code": "1233",
+  "name": "河北医科大学临床学院",
+  "leaves": [
+    {
+      "schoolKey": "河北医科大学临床学院",
+      "schoolCode": "1233",
+      "majorKey": "8a499b4f",
+      "majorName": "中西医临床医学",
+      "selKe": "化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 467,
+          "minRank": 67425,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北医科大学临床学院",
+      "schoolCode": "1233",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "化学和生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 434,
+          "minRank": 89969,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北医科大学临床学院",
+      "schoolCode": "1233",
+      "majorKey": "f106fa76",
+      "majorName": "医学检验技术",
+      "selKe": "化学和生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 426,
+          "minRank": 95402,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "河北医科大学临床学院",
+      "schoolCode": "1233",
+      "majorKey": "c7acab0a",
+      "majorName": "护理学",
+      "selKe": "生物",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 425,
+          "minRank": 96051,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "生",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生",
+          "plan": 4,
+          "tuition": "10000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 96051,
+          "equivRank": 28649
+        }
+      ]
+    },
+    {
+      "groupCode": "301",
+      "groupName": "301",
+      "track": "物理",
+      "selKe": "化且生",
+      "majors": [
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "化且生",
+          "plan": 3,
+          "tuition": "10000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 89969,
+          "equivRank": 89969
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "化且生",
+          "plan": 2,
+          "tuition": "10000",
+          "menlei": "医"
+        },
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "化且生",
+          "plan": 4,
+          "tuition": "10000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 95402,
+          "equivRank": 95402
+        }
+      ]
+    },
+    {
+      "groupCode": "302",
+      "groupName": "302",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "中西医临床医学",
+          "majorKey": "8a499b4f",
+          "selKe": "化",
+          "plan": 3,
+          "tuition": "10000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 67425,
+          "equivRank": 67425
+        }
+      ]
+    },
+    {
+      "groupCode": "303",
+      "groupName": "303",
+      "track": "物理",
+      "selKe": "生",
+      "majors": [
+        {
+          "majorName": "护理学",
+          "majorKey": "c7acab0a",
+          "selKe": "生",
+          "plan": 4,
+          "tuition": "10000",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 96051,
+          "equivRank": 96051
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "key": "湖北文理学院",
+  "code": "2752",
+  "name": "湖北文理学院",
+  "leaves": [
+    {
+      "schoolKey": "湖北文理学院",
+      "schoolCode": "2752",
+      "majorKey": "04ab47fe",
+      "majorName": "化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 513,
+          "minRank": 59514,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北文理学院",
+      "schoolCode": "2752",
+      "majorKey": "1f59c989",
+      "majorName": "化学工程与工艺",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 513,
+          "minRank": 59514,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北文理学院",
+      "schoolCode": "2752",
+      "majorKey": "b86f75b5",
+      "majorName": "广播电视编导",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 498,
+          "minRank": 15098,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "湖北文理学院",
+      "schoolCode": "2752",
+      "majorKey": "0c33cbdd",
+      "majorName": "软件工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 520,
+          "minRank": 54409,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "广播电视编导",
+          "majorKey": "b86f75b5",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "9000",
+          "menlei": "艺",
+          "prevYear": 2025,
+          "prevRank": 15098,
+          "equivRank": 15098
+        }
+      ]
+    },
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "化学",
+          "majorKey": "04ab47fe",
+          "selKe": "化学",
+          "plan": 3,
+          "tuition": "4000",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 59514,
+          "equivRank": 59514
+        },
+        {
+          "majorName": "软件工程",
+          "majorKey": "0c33cbdd",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 54409,
+          "equivRank": 54409
+        },
+        {
+          "majorName": "化学工程与工艺",
+          "majorKey": "1f59c989",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "4000",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 59514,
+          "equivRank": 59514
+        }
+      ]
+    }
+  ]
+}

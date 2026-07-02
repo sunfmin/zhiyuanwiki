@@ -1,0 +1,115 @@
+{
+  "key": "云南财经大学",
+  "code": "B24",
+  "name": "云南财经大学",
+  "leaves": [
+    {
+      "schoolKey": "云南财经大学",
+      "schoolCode": "B24",
+      "majorKey": "2e55aa48",
+      "majorName": "税收学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 551,
+          "minRank": 4741,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 529,
+          "minRank": 21608,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "云南财经大学",
+      "schoolCode": "B24",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 557,
+          "minRank": 4273,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 530,
+          "minRank": 21342,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "001",
+      "groupName": "001",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 4273,
+          "equivRank": 4273
+        },
+        {
+          "majorName": "税收学",
+          "majorKey": "2e55aa48",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 4741,
+          "equivRank": 4741
+        }
+      ]
+    },
+    {
+      "groupCode": "002",
+      "groupName": "002",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4500",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 21342,
+          "equivRank": 21342
+        },
+        {
+          "majorName": "税收学",
+          "majorKey": "2e55aa48",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "4500",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 21608,
+          "equivRank": 21608
+        }
+      ]
+    }
+  ]
+}

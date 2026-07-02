@@ -1,0 +1,176 @@
+{
+  "key": "郑州工程技术学院",
+  "code": "4120",
+  "name": "郑州工程技术学院",
+  "leaves": [
+    {
+      "schoolKey": "郑州工程技术学院",
+      "schoolCode": "4120",
+      "majorKey": "4428fd77",
+      "majorName": "商务英语",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 502,
+          "minRank": 26699,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "郑州工程技术学院",
+      "schoolCode": "4120",
+      "majorKey": "7201e1a9",
+      "majorName": "城市地下空间工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 478,
+          "minRank": 79199,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "郑州工程技术学院",
+      "schoolCode": "4120",
+      "majorKey": "25624660",
+      "majorName": "应用化学",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 476,
+          "minRank": 80652,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "郑州工程技术学院",
+      "schoolCode": "4120",
+      "majorKey": "287bdd33",
+      "majorName": "投资学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 501,
+          "minRank": 27096,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "郑州工程技术学院",
+      "schoolCode": "4120",
+      "majorKey": "803b1149",
+      "majorName": "物流工程",
+      "selKe": "首选物理，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 465,
+          "minRank": 89168,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "历史",
+      "selKe": "历史",
+      "majors": [
+        {
+          "majorName": "商务英语",
+          "majorKey": "4428fd77",
+          "selKe": "历史",
+          "plan": 10,
+          "tuition": "4400元",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 26699,
+          "equivRank": 26699
+        },
+        {
+          "majorName": "投资学",
+          "majorKey": "287bdd33",
+          "selKe": "历史",
+          "plan": 10,
+          "tuition": "4400元",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 27096,
+          "equivRank": 27096
+        }
+      ]
+    },
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "物理",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "物流工程",
+          "majorKey": "803b1149",
+          "selKe": "物理",
+          "plan": 15,
+          "tuition": "4400元",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 89168,
+          "equivRank": 89168
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "应用化学",
+          "majorKey": "25624660",
+          "selKe": "物理,化学",
+          "plan": 10,
+          "tuition": "5000元",
+          "menlei": "理",
+          "prevYear": 2025,
+          "prevRank": 80652,
+          "equivRank": 80652
+        }
+      ]
+    },
+    {
+      "groupCode": "03",
+      "groupName": "03",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "城市地下空间工程",
+          "majorKey": "7201e1a9",
+          "selKe": "物理,化学",
+          "plan": 5,
+          "tuition": "5000元",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 79199,
+          "equivRank": 79199
+        }
+      ]
+    }
+  ]
+}

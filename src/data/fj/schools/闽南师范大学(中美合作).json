@@ -1,0 +1,40 @@
+{
+  "key": "闽南师范大学(中美合作)",
+  "code": "1132",
+  "name": "闽南师范大学(中美合作)",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "数据计算及应用",
+          "majorKey": "d5543eac",
+          "selKe": "化学",
+          "plan": 16,
+          "tuition": "5460",
+          "menlei": "理"
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "心理学",
+          "majorKey": "17c0dc67",
+          "selKe": "不限",
+          "plan": 17,
+          "tuition": "5460",
+          "menlei": "理"
+        }
+      ]
+    }
+  ]
+}

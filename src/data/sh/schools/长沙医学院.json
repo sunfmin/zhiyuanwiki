@@ -1,0 +1,176 @@
+{
+  "key": "长沙医学院",
+  "code": "0757",
+  "name": "长沙医学院",
+  "leaves": [
+    {
+      "schoolKey": "长沙医学院",
+      "schoolCode": "0757",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 447,
+          "minRank": 38962,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长沙医学院",
+      "schoolCode": "0757",
+      "majorKey": "618f7040",
+      "majorName": "临床医学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 417,
+          "minRank": 46139,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长沙医学院",
+      "schoolCode": "0757",
+      "majorKey": "5780af73",
+      "majorName": "医学影像学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 411,
+          "minRank": 47401,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长沙医学院",
+      "schoolCode": "0757",
+      "majorKey": "c162bced",
+      "majorName": "口腔医学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 438,
+          "minRank": 41209,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "长沙医学院",
+      "schoolCode": "0757",
+      "majorKey": "1954d9c9",
+      "majorName": "预防医学",
+      "selKe": "物理和化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 433,
+          "minRank": 42400,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限科目",
+      "majors": [
+        {
+          "majorName": "针灸推拿学",
+          "majorKey": "c744f66e",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "41544",
+          "menlei": "医"
+        },
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "不限科目",
+          "plan": 2,
+          "tuition": "41544",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 38962,
+          "equivRank": 38962
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理和化学",
+      "majors": [
+        {
+          "majorName": "预防医学",
+          "majorKey": "1954d9c9",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "41544",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 42400,
+          "equivRank": 42400
+        },
+        {
+          "majorName": "医学检验技术",
+          "majorKey": "f106fa76",
+          "selKe": "物理和化学",
+          "plan": 2,
+          "tuition": "39819",
+          "menlei": "医"
+        },
+        {
+          "majorName": "口腔医学",
+          "majorKey": "c162bced",
+          "selKe": "物理和化学",
+          "plan": 4,
+          "tuition": "41544",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 41209,
+          "equivRank": 41209
+        },
+        {
+          "majorName": "临床医学",
+          "majorKey": "618f7040",
+          "selKe": "物理和化学",
+          "plan": 4,
+          "tuition": "41544",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 46139,
+          "equivRank": 46139
+        },
+        {
+          "majorName": "医学影像学",
+          "majorKey": "5780af73",
+          "selKe": "物理和化学",
+          "plan": 4,
+          "tuition": "41544",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 47401,
+          "equivRank": 47401
+        }
+      ]
+    }
+  ]
+}

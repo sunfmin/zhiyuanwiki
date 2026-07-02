@@ -1,0 +1,64 @@
+{
+  "key": "空军预警学院",
+  "code": "9826",
+  "name": "空军预警学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "第J31组(通用标准合格)",
+      "groupName": "第J31组(通用标准合格)",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "预警探测",
+          "majorKey": "0f8fe605",
+          "selKe": "物理,化学",
+          "plan": 9,
+          "tuition": "免费",
+          "menlei": "法"
+        },
+        {
+          "majorName": "侦察情报",
+          "majorKey": "65a5527d",
+          "selKe": "物理,化学",
+          "plan": 1,
+          "tuition": "免费",
+          "menlei": "他"
+        },
+        {
+          "majorName": "空天防御指挥与控制工程",
+          "majorKey": "625783f7",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "免费",
+          "menlei": "工"
+        },
+        {
+          "majorName": "雷达工程",
+          "majorKey": "67950403",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "免费",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "第J32组(电子对抗岗位合格)",
+      "groupName": "第J32组(电子对抗岗位合格)",
+      "track": "物理",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "网电指挥与工程",
+          "majorKey": "256d95cd",
+          "selKe": "物理,化学",
+          "plan": 2,
+          "tuition": "免费",
+          "menlei": "工"
+        }
+      ]
+    }
+  ]
+}

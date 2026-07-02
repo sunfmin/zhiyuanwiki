@@ -1,0 +1,220 @@
+{
+  "key": "成都体育学院",
+  "code": "0335",
+  "name": "成都体育学院",
+  "leaves": [
+    {
+      "schoolKey": "成都体育学院",
+      "schoolCode": "0335",
+      "majorKey": "2285e5ca",
+      "majorName": "中医学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 569,
+          "minRank": 3359,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 527,
+          "minRank": 22165,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "成都体育学院",
+      "schoolCode": "0335",
+      "majorKey": "0d418e8e",
+      "majorName": "中医骨伤科学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 583,
+          "minRank": 2470,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 527,
+          "minRank": 22165,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "成都体育学院",
+      "schoolCode": "0335",
+      "majorKey": "a507c400",
+      "majorName": "康复治疗学",
+      "selKe": "物理,化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 508,
+          "minRank": 27496,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "成都体育学院",
+      "schoolCode": "0335",
+      "majorKey": "9c5f4a34",
+      "majorName": "新闻学",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 525,
+          "minRank": 7117,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "成都体育学院",
+      "schoolCode": "0335",
+      "majorKey": "49c5cdf9",
+      "majorName": "英语",
+      "selKe": "历史",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 511,
+          "minRank": 8638,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "034",
+      "groupName": "034",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "英语",
+          "majorKey": "49c5cdf9",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "5760",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 8638,
+          "equivRank": 8638
+        }
+      ]
+    },
+    {
+      "groupCode": "035",
+      "groupName": "035",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "新闻学",
+          "majorKey": "9c5f4a34",
+          "selKe": "不限",
+          "plan": 3,
+          "tuition": "5760",
+          "menlei": "文",
+          "prevYear": 2025,
+          "prevRank": 7117,
+          "equivRank": 7117
+        }
+      ]
+    },
+    {
+      "groupCode": "036",
+      "groupName": "036",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "6960",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 3359,
+          "equivRank": 3359
+        },
+        {
+          "majorName": "中医骨伤科学",
+          "majorKey": "0d418e8e",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "6960",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 2470,
+          "equivRank": 2470
+        }
+      ]
+    },
+    {
+      "groupCode": "031",
+      "groupName": "031",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "中医学",
+          "majorKey": "2285e5ca",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6960",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 22165,
+          "equivRank": 22165
+        },
+        {
+          "majorName": "中医骨伤科学",
+          "majorKey": "0d418e8e",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6960",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 22165,
+          "equivRank": 22165
+        }
+      ]
+    },
+    {
+      "groupCode": "032",
+      "groupName": "032",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "康复治疗学",
+          "majorKey": "a507c400",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "6960",
+          "menlei": "医",
+          "prevYear": 2025,
+          "prevRank": 27496,
+          "equivRank": 27496
+        }
+      ]
+    }
+  ]
+}

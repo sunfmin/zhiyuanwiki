@@ -1,0 +1,229 @@
+{
+  "key": "五邑大学",
+  "code": "4444",
+  "name": "五邑大学",
+  "leaves": [
+    {
+      "schoolKey": "五邑大学",
+      "schoolCode": "4444",
+      "majorKey": "24d6dbdf",
+      "majorName": "交通工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 522,
+          "minRank": 98269,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "五邑大学",
+      "schoolCode": "4444",
+      "majorKey": "28bd788f",
+      "majorName": "制药工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 528,
+          "minRank": 90690,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "五邑大学",
+      "schoolCode": "4444",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 522,
+          "minRank": 98269,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "五邑大学",
+      "schoolCode": "4444",
+      "majorKey": "c425ce53",
+      "majorName": "材料科学与工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 535,
+          "minRank": 82339,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "五邑大学",
+      "schoolCode": "4444",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 563,
+          "minRank": 14706,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 558,
+          "minRank": 57388,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "五邑大学",
+      "schoolCode": "4444",
+      "majorKey": "fd603692",
+      "majorName": "电子信息工程",
+      "selKe": "首选物理，再选化学",
+      "years": [
+        {
+          "year": 2025,
+          "track": "物理",
+          "minScore": 535,
+          "minRank": 82339,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "历史",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4年",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 14706,
+          "equivRank": 14706
+        }
+      ]
+    },
+    {
+      "groupCode": "101",
+      "groupName": "101",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "法学",
+          "majorKey": "a1113a1f",
+          "selKe": "不限",
+          "plan": 1,
+          "tuition": "4年",
+          "menlei": "法",
+          "prevYear": 2025,
+          "prevRank": 57388,
+          "equivRank": 57388
+        }
+      ]
+    },
+    {
+      "groupCode": "102",
+      "groupName": "102",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "制药工程",
+          "majorKey": "28bd788f",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "4年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 90690,
+          "equivRank": 90690
+        }
+      ]
+    },
+    {
+      "groupCode": "103",
+      "groupName": "103",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "电子信息工程",
+          "majorKey": "fd603692",
+          "selKe": "化",
+          "plan": 7,
+          "tuition": "4年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 82339,
+          "equivRank": 82339
+        },
+        {
+          "majorName": "材料科学与工程",
+          "majorKey": "c425ce53",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "4年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 82339,
+          "equivRank": 82339
+        }
+      ]
+    },
+    {
+      "groupCode": "104",
+      "groupName": "104",
+      "track": "物理",
+      "selKe": "化",
+      "majors": [
+        {
+          "majorName": "交通工程",
+          "majorKey": "24d6dbdf",
+          "selKe": "化",
+          "plan": 6,
+          "tuition": "4年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 98269,
+          "equivRank": 98269
+        },
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "化",
+          "plan": 2,
+          "tuition": "4年",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 98269,
+          "equivRank": 98269
+        }
+      ]
+    }
+  ]
+}

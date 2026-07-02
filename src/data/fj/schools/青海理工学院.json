@@ -1,0 +1,72 @@
+{
+  "key": "青海理工学院",
+  "code": "3123",
+  "name": "青海理工学院",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "大气科学",
+          "majorKey": "40735902",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "理"
+        },
+        {
+          "majorName": "材料科学与工程",
+          "majorKey": "c425ce53",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "工"
+        },
+        {
+          "majorName": "电气工程及其自动化",
+          "majorKey": "45947d31",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "工"
+        },
+        {
+          "majorName": "信息工程",
+          "majorKey": "68209f46",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5200",
+          "menlei": "工"
+        },
+        {
+          "majorName": "环境科学",
+          "majorKey": "37356fa4",
+          "selKe": "化学",
+          "plan": 2,
+          "tuition": "5000",
+          "menlei": "工"
+        }
+      ]
+    },
+    {
+      "groupCode": "999",
+      "groupName": "专业组：999 (不限选考科目)",
+      "track": "物理",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "金融科技",
+          "majorKey": "683be8da",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "4500",
+          "menlei": "经"
+        }
+      ]
+    }
+  ]
+}

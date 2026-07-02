@@ -1,0 +1,187 @@
+{
+  "key": "广东工业大学",
+  "code": "0304",
+  "name": "广东工业大学",
+  "leaves": [
+    {
+      "schoolKey": "广东工业大学",
+      "schoolCode": "0304",
+      "majorKey": "320e7128",
+      "majorName": "土木工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 580,
+          "minRank": 17773,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "广东工业大学",
+      "schoolCode": "0304",
+      "majorKey": "ca37000f",
+      "majorName": "数字经济",
+      "selKe": "物理必选",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 580,
+          "minRank": 17773,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "广东工业大学",
+      "schoolCode": "0304",
+      "majorKey": "98867766",
+      "majorName": "材料成型及控制工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 588,
+          "minRank": 15802,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "广东工业大学",
+      "schoolCode": "0304",
+      "majorKey": "7faf2092",
+      "majorName": "环境工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 583,
+          "minRank": 17050,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "广东工业大学",
+      "schoolCode": "0304",
+      "majorKey": "3f8d675b",
+      "majorName": "能源动力类",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 598,
+          "minRank": 13411,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "广东工业大学",
+      "schoolCode": "0304",
+      "majorKey": "7b7511cd",
+      "majorName": "食品科学与工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 583,
+          "minRank": 17050,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "物理加化学",
+      "majors": [
+        {
+          "majorName": "材料成型及控制工程",
+          "majorKey": "98867766",
+          "selKe": "物理加化学",
+          "plan": 1,
+          "tuition": "6850",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 15802,
+          "equivRank": 15802
+        },
+        {
+          "majorName": "环境工程",
+          "majorKey": "7faf2092",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "6850",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 17050,
+          "equivRank": 17050
+        },
+        {
+          "majorName": "食品科学与工程",
+          "majorKey": "7b7511cd",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "6850",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 17050,
+          "equivRank": 17050
+        },
+        {
+          "majorName": "能源动力类",
+          "majorKey": "3f8d675b",
+          "selKe": "物理加化学",
+          "plan": 1,
+          "tuition": "6850",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 13411,
+          "equivRank": 13411
+        },
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "物理加化学",
+          "plan": 2,
+          "tuition": "6850",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 17773,
+          "equivRank": 17773
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理",
+      "majors": [
+        {
+          "majorName": "数字经济",
+          "majorKey": "ca37000f",
+          "selKe": "物理",
+          "plan": 2,
+          "tuition": "待定",
+          "menlei": "经",
+          "prevYear": 2025,
+          "prevRank": 17773,
+          "equivRank": 17773
+        }
+      ]
+    }
+  ]
+}

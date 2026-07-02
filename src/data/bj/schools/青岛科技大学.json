@@ -1,0 +1,79 @@
+{
+  "key": "青岛科技大学",
+  "code": "3721",
+  "name": "青岛科技大学",
+  "leaves": [
+    {
+      "schoolKey": "青岛科技大学",
+      "schoolCode": "3721",
+      "majorKey": "bdb5a180",
+      "majorName": "机械工程",
+      "selKe": "物理、化学(2科必选)",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 528,
+          "minRank": 30009,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "青岛科技大学",
+      "schoolCode": "3721",
+      "majorKey": "8220c852",
+      "majorName": "财务管理",
+      "selKe": "不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "综合",
+          "minScore": 533,
+          "minRank": 28595,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "groups2026": [
+    {
+      "groupCode": "01",
+      "groupName": "01",
+      "track": "综合",
+      "selKe": "不限",
+      "majors": [
+        {
+          "majorName": "财务管理",
+          "majorKey": "8220c852",
+          "selKe": "不限",
+          "plan": 2,
+          "tuition": "6600",
+          "menlei": "管",
+          "prevYear": 2025,
+          "prevRank": 28595,
+          "equivRank": 28595
+        }
+      ]
+    },
+    {
+      "groupCode": "02",
+      "groupName": "02",
+      "track": "综合",
+      "selKe": "物理,化学",
+      "majors": [
+        {
+          "majorName": "机械工程",
+          "majorKey": "bdb5a180",
+          "selKe": "物理,化学",
+          "plan": 3,
+          "tuition": "6600",
+          "menlei": "工",
+          "prevYear": 2025,
+          "prevRank": 30009,
+          "equivRank": 30009
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "key": "江汉大学",
+  "code": "0609",
+  "name": "江汉大学",
+  "leaves": [
+    {
+      "schoolKey": "江汉大学",
+      "schoolCode": "0609",
+      "majorKey": "4272328b",
+      "majorName": "教育学",
+      "selKe": "",
+      "years": [
+        {
+          "year": 2025,
+          "track": "文科",
+          "minScore": 372,
+          "minRank": 0,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "江汉大学",
+      "schoolCode": "0609",
+      "majorKey": "97bc5998",
+      "majorName": "汉语言文学",
+      "selKe": "",
+      "years": [
+        {
+          "year": 2025,
+          "track": "文科",
+          "minScore": 376,
+          "minRank": 0,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "汉语言文学",
+      "majorKey": "97bc5998",
+      "track": "文科",
+      "selKe": "",
+      "plan": 6,
+      "tuition": "4000",
+      "schooling": "四年",
+      "menlei": "文",
+      "prevYear": 2025,
+      "prevScore": 376
+    },
+    {
+      "majorName": "教育学",
+      "majorKey": "4272328b",
+      "track": "文科",
+      "selKe": "",
+      "plan": 4,
+      "tuition": "4000",
+      "schooling": "四年",
+      "menlei": "教",
+      "prevYear": 2025,
+      "prevScore": 372
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "key": "云南大学(中外合作)",
+  "code": "3558",
+  "name": "云南大学(中外合作)",
+  "leaves": [],
+  "groups2026": [
+    {
+      "groupCode": "500",
+      "groupName": "专业组：500 (选考化学)",
+      "track": "物理",
+      "selKe": "化学",
+      "majors": [
+        {
+          "majorName": "材料科学与工程",
+          "majorKey": "c425ce53",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "65000",
+          "menlei": "工",
+          "coop": true
+        },
+        {
+          "majorName": "土木工程",
+          "majorKey": "320e7128",
+          "selKe": "化学",
+          "plan": 5,
+          "tuition": "35000",
+          "menlei": "工",
+          "coop": true
+        },
+        {
+          "majorName": "化学工程与工艺",
+          "majorKey": "1f59c989",
+          "selKe": "化学",
+          "plan": 4,
+          "tuition": "65000",
+          "menlei": "工",
+          "coop": true
+        }
+      ]
+    },
+    {
+      "groupCode": "516",
+      "groupName": "专业组：516 (选考化学且生物学)",
+      "track": "物理",
+      "selKe": "化学和生物",
+      "majors": [
+        {
+          "majorName": "人工智能",
+          "majorKey": "2fec4169",
+          "selKe": "化学和生物",
+          "plan": 4,
+          "tuition": "65000",
+          "menlei": "工",
+          "coop": true
+        }
+      ]
+    }
+  ]
+}

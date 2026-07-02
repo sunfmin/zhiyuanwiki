@@ -1,0 +1,53 @@
+{
+  "key": "北京交通大学",
+  "code": "0004",
+  "name": "北京交通大学",
+  "leaves": [
+    {
+      "schoolKey": "北京交通大学",
+      "schoolCode": "0004",
+      "majorKey": "a1113a1f",
+      "majorName": "法学",
+      "selKe": "",
+      "years": [
+        {
+          "year": 2023,
+          "track": "理科",
+          "minScore": 373,
+          "minRank": 0,
+          "maxScore": 483
+        },
+        {
+          "year": 2024,
+          "track": "理科",
+          "minScore": 422,
+          "minRank": 0,
+          "maxScore": 463
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "法学",
+      "majorKey": "a1113a1f",
+      "track": "文科",
+      "selKe": "",
+      "plan": 4,
+      "tuition": "5000",
+      "schooling": "四年",
+      "menlei": "法",
+      "prevYear": 2024
+    },
+    {
+      "majorName": "交通运输类",
+      "majorKey": "6c44bcf9",
+      "track": "理科",
+      "selKe": "",
+      "plan": 3,
+      "tuition": "5500",
+      "schooling": "四年",
+      "menlei": "工"
+    }
+  ]
+}

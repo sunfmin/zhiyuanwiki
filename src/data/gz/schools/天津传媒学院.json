@@ -1,0 +1,76 @@
+{
+  "key": "天津传媒学院",
+  "code": "2276",
+  "name": "天津传媒学院",
+  "leaves": [
+    {
+      "schoolKey": "天津传媒学院",
+      "schoolCode": "2276",
+      "majorKey": "b86f75b5",
+      "majorName": "广播电视编导",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2024,
+          "track": "历史",
+          "minScore": 443,
+          "minRank": 42160,
+          "maxScore": 0
+        },
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 458,
+          "minRank": 39011,
+          "maxScore": 0
+        }
+      ]
+    },
+    {
+      "schoolKey": "天津传媒学院",
+      "schoolCode": "2276",
+      "majorKey": "b8236e06",
+      "majorName": "戏剧影视文学",
+      "selKe": "首选历史，再选不限",
+      "years": [
+        {
+          "year": 2025,
+          "track": "历史",
+          "minScore": 460,
+          "minRank": 38357,
+          "maxScore": 0
+        }
+      ]
+    }
+  ],
+  "plan2026": [
+    {
+      "majorName": "戏剧影视文学",
+      "majorKey": "b8236e06",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 10,
+      "tuition": "30000",
+      "schooling": "四年",
+      "menlei": "艺",
+      "prevYear": 2025,
+      "prevRank": 38357,
+      "equivRank": 38357,
+      "prevScore": 460
+    },
+    {
+      "majorName": "广播电视编导",
+      "majorKey": "b86f75b5",
+      "track": "历史",
+      "selKe": "首选历史，再选不限",
+      "plan": 15,
+      "tuition": "33000",
+      "schooling": "四年",
+      "menlei": "艺",
+      "prevYear": 2025,
+      "prevRank": 39011,
+      "equivRank": 39011,
+      "prevScore": 458
+    }
+  ]
+}
