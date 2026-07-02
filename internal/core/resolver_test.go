@@ -2,6 +2,25 @@ package core
 
 import "testing"
 
+// TestMajorReportName：报考视图显示名补「书院/方向」限定以区分同组同名拆分行（清华工科试验班），
+// 但不补「专业列表/批次/专项/办学地点」这类噪声、也不补过长限定。
+func TestMajorReportName(t *testing.T) {
+	cases := []struct{ major, full, want string }{
+		{"工科试验班", "工科试验班(笃实书院)(包含：交叉工程 等专业)", "工科试验班(笃实书院)"},
+		{"工科试验班", "工科试验班(智能制造与装备类)(包含：机械工程 专业)", "工科试验班(智能制造与装备类)"},
+		{"工科试验班", "工科试验班(无穹书院)(国家专项计划。包含：人工智能)", "工科试验班(无穹书院)"},
+		{"计算机类", "计算机类", "计算机类"},                                // 无括号 → 裸名
+		{"数学类", "数学类(数学与应用数学、统计学、信息与计算科学、数据科学)", "数学类"}, // 过长专业列表 → 裸名
+		{"临床医学", "临床医学(国家专项计划)", "临床医学"},                       // 批次噪声 → 裸名
+		{"软件工程", "软件工程(中外合作办学)", "软件工程"},                       // 中外噪声 → 裸名
+	}
+	for _, c := range cases {
+		if got := MajorReportName(c.major, c.full); got != c.want {
+			t.Errorf("MajorReportName(%q,%q)=%q, want %q", c.major, c.full, got, c.want)
+		}
+	}
+}
+
 // TestResolverReformMerge：同校跨老/新高考换号（年份不相交）归为一个渠道，历史不劈断。
 // 深圳大学 2023 用 2046、2024-25 用 2044 —— 一个普通渠道。
 func TestResolverReformMerge(t *testing.T) {

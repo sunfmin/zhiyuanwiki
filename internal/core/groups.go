@@ -115,7 +115,7 @@ func BuildGroups2026R(plan []PlanRow, leaves []MajorLeaf, r *SchoolResolver, tot
 			g.SelKe = "" // 组内选科不统一
 		}
 		gm := GroupMajor{
-			MajorName: NormalizeMajorName(row.MajorName),
+			MajorName: MajorReportName(row.MajorName, row.FullName),
 			MajorKey:  MajorKey(row.MajorName),
 			SelKe:     row.SelKe,
 			Plan:      row.Plan,

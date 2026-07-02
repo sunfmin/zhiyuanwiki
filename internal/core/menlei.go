@@ -32,6 +32,40 @@ const MenleiOther = "他"
 // firstParenRe 切掉首个括号及其后全部内容（旧表「专业」常带括号注记的子专业列表）。
 var firstParenRe = regexp.MustCompile(`[(（].*$`)
 
+// firstParenContentRe 取首个「无嵌套」括号内的内容（「工科试验班(笃实书院)(包含…)」→「笃实书院」）。
+var firstParenContentRe = regexp.MustCompile(`[(（]([^()（）]*)[)）]`)
+
+// reportNameNoise 是首括号里不作「方向/书院」限定的关键词：专业列表、批次、专项、办学地点等。
+var reportNameNoise = []string{
+	"包含", "含：", "含:", "专项", "中外", "合作", "定向", "民族",
+	"办学", "地点", "就读", "学费", "招生", "计划", "其中", "主要", "等专业",
+}
+
+// MajorReportName 报考视图的专业显示名：归一化专业名 + full_name 首个「有意义」括号（书院/方向名），
+// 使同一院校专业组内按方向拆分、裸名相同的行（如清华「工科试验班」按 9 个书院拆）在页面上可区分。
+// 只补「短且非（专业列表/批次/专项/办学地点…）」的限定；否则回退裸名。往年位次挂接仍按裸名（MajorKey
+// 不变），故只影响显示、不影响历史挂接与定位去重。
+func MajorReportName(major, fullName string) string {
+	base := NormalizeMajorName(major)
+	m := firstParenContentRe.FindStringSubmatch(fullName)
+	if m == nil {
+		return base
+	}
+	q := strings.TrimSpace(m[1])
+	if q == "" || strings.Contains(base, q) {
+		return base
+	}
+	for _, kw := range reportNameNoise {
+		if strings.Contains(q, kw) {
+			return base
+		}
+	}
+	if len([]rune(q)) > 12 { // 过长多半是「专业列表」而非方向名
+		return base
+	}
+	return base + "(" + q + ")"
+}
+
 // MajorBase 归一化专业名并切到首个括号前，作为跨表挂接的稳定基名。
 func MajorBase(s string) string {
 	return strings.TrimSpace(firstParenRe.ReplaceAllString(NormName(s), ""))
