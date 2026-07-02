@@ -12,6 +12,32 @@ func findLeaf(leaves []MajorLeaf, code, major string) *MajorLeaf {
 	return nil
 }
 
+// TestLeafKey：叶子复合键格式（schoolKey/channel/majorKey），且 MajorLeaf.Key() 与之一致。
+// 挂接往年位次两侧（建索引 / 查表）都靠此键同形，格式一改必须只改这一处。
+func TestLeafKey(t *testing.T) {
+	cases := []struct {
+		name                         string
+		schoolKey, channel, majorKey string
+		want                         string
+	}{
+		{"常规", "北京大学", "1101", "0a1b2c3d", "北京大学/1101/0a1b2c3d"},
+		{"空字段", "", "", "", "//"},
+		{"含空渠道", "清华大学", "", "deadbeef", "清华大学//deadbeef"},
+	}
+	for _, c := range cases {
+		t.Run(c.name, func(t *testing.T) {
+			if got := LeafKey(c.schoolKey, c.channel, c.majorKey); got != c.want {
+				t.Errorf("LeafKey(%q,%q,%q) = %q, want %q", c.schoolKey, c.channel, c.majorKey, got, c.want)
+			}
+			// MajorLeaf.Key() 必须与 LeafKey 逐字节一致（同为唯一格式定义）。
+			l := MajorLeaf{SchoolKey: c.schoolKey, SchoolCode: c.channel, MajorKey: c.majorKey}
+			if got := l.Key(); got != c.want {
+				t.Errorf("MajorLeaf.Key() = %q, want %q", got, c.want)
+			}
+		})
+	}
+}
+
 // TestAggregateLeavesDedupMinRank：同一 (院校,专业,年,科类) 多行取最低位次（最难那条）。
 func TestAggregateLeavesDedupMinRank(t *testing.T) {
 	_, leaves := AggregateLeaves([]MajorScoreRow{

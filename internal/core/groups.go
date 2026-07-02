@@ -122,7 +122,7 @@ func BuildGroups2026(plan []PlanRow, leaves []MajorLeaf, totals map[YearTrack]in
 func BuildGroups2026R(plan []PlanRow, leaves []MajorLeaf, r *SchoolResolver, totals map[YearTrack]int, menlei func(string) string) map[string][]Group2026 {
 	leafIdx := map[string]*MajorLeaf{}
 	for i := range leaves {
-		leafIdx[leaves[i].SchoolKey+"/"+leaves[i].SchoolCode+"/"+leaves[i].MajorKey] = &leaves[i]
+		leafIdx[leaves[i].Key()] = &leaves[i]
 	}
 
 	// 组在 3+1+2 下按 (渠道, 科类, 组代码) 一等：同校同号的物理组与历史组是两个组；普通/专项两渠道
@@ -158,7 +158,7 @@ func BuildGroups2026R(plan []PlanRow, leaves []MajorLeaf, r *SchoolResolver, tot
 		if menlei != nil {
 			gm.Menlei = menlei(row.MajorName)
 		}
-		if lf := leafIdx[ent+"/"+ch+"/"+gm.MajorKey]; lf != nil {
+		if lf := leafIdx[LeafKey(ent, ch, gm.MajorKey)]; lf != nil {
 			if p := LeafLatestForTrack(lf, row.Track); p != nil {
 				gm.PrevYear = p.Year
 				gm.PrevRank = p.MinRank
