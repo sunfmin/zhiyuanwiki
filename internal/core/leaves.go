@@ -49,6 +49,13 @@ func MajorKey(majorName string) string {
 	return fmt.Sprintf("%08x", h.Sum32())
 }
 
+// LeafKey 构造 院校×专业 叶子的复合身份键：院校实体键 / 渠道代表代号 / 专业名哈希。
+// 这是叶子键格式的唯一定义处——聚合时建 leafID、挂接往年位次时按此键查 leafIdx，
+// 两侧务必同形，否则挂接静默失效（PrevRank 空而无报错）。故所有拼接一律走此函数。
+func LeafKey(schoolKey, channel, majorKey string) string {
+	return schoolKey + "/" + channel + "/" + majorKey
+}
+
 // majorSlugUnsafe 剔除会破坏 URL 路径段或文件名的字符（路径分隔 / URL 保留符）。
 // 真实专业名里仅个别被截断的括号尾注混入了 `/`（如「…2+2/3+1双学位…」）。
 var majorSlugUnsafe = strings.NewReplacer("/", "", "\\", "", "?", "", "#", "", "%", "")
@@ -91,6 +98,9 @@ type MajorLeaf struct {
 
 	yearSeen int // 内部：用于取最新年份选科要求，不序列化
 }
+
+// Key 返回该叶子的复合身份键（见 LeafKey）——供挂接往年位次时建索引/查表。
+func (l MajorLeaf) Key() string { return LeafKey(l.SchoolKey, l.SchoolCode, l.MajorKey) }
 
 // rankOrInf 把「无位次」(≤0) 视作正无穷，便于「取最低位次」比较里让有位次的行总胜出。
 func rankOrInf(rank int) int {
@@ -147,7 +157,7 @@ func AggregateLeavesR(rows []MajorScoreRow, r *SchoolResolver) ([]School, []Majo
 		ent := r.Entity(row.SchoolName)
 		ch := r.Channel(row.SchoolName, row.SchoolCode)
 		key := MajorKey(row.MajorName)
-		leafID := ent + "/" + ch + "/" + key
+		leafID := LeafKey(ent, ch, key)
 		if leafMeta[leafID] == nil {
 			leafMeta[leafID] = &MajorLeaf{
 				SchoolKey:  ent,

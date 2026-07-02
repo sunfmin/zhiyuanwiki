@@ -108,7 +108,7 @@ func buildMajorBundle(dbPath string, p province) schoolBundle {
 func buildPlanMajorsTracked(plan []core.PlanRow, leaves []core.MajorLeaf, r *core.SchoolResolver, totals map[core.YearTrack]int, refYear int, menlei func(string) string) map[string][]zj.PlanMajor {
 	leafIdx := map[string]*core.MajorLeaf{}
 	for i := range leaves {
-		leafIdx[leaves[i].SchoolKey+"/"+leaves[i].SchoolCode+"/"+leaves[i].MajorKey] = &leaves[i]
+		leafIdx[leaves[i].Key()] = &leaves[i]
 	}
 
 	type mkey struct{ channel, major, selke, track string }
@@ -138,7 +138,7 @@ func buildPlanMajorsTracked(plan []core.PlanRow, leaves []core.MajorLeaf, r *cor
 		if menlei != nil {
 			pm.Menlei = menlei(row.MajorName)
 		}
-		if lf := leafIdx[ent+"/"+ch+"/"+key]; lf != nil {
+		if lf := leafIdx[core.LeafKey(ent, ch, key)]; lf != nil {
 			if ys := core.LeafLatestForTrack(lf, row.Track); ys != nil {
 				pm.PrevYear = ys.Year
 				pm.PrevRank = ys.MinRank
