@@ -17,6 +17,32 @@ const { prov, major } = Astro.props as { prov: string; major: MajorDetail };
 const cfg = provinceConfig(prov);
 const scoreMode = cfg.locatorBasis === "score"; // 西藏：无位次，按最低分横向比较
 
+const schools = major.schools;
+const fmt = (n: number) => n.toLocaleString();
+// 决策量：位次省用最低位次（小=难），西藏用最低分（高=难）。
+const metric = (s: (typeof schools)[number]) => (scoreMode ? s.minScore : s.minRank);
+const vals = schools.map(metric).filter((v) => v > 0);
+const vMin = vals.length ? Math.min(...vals) : 0; // 位次省=最小位次（最难）；西藏=最低分下界
+const vMax = vals.length ? Math.max(...vals) : 0;
+
+// 签名件：每所院校一条「相对竞争度」条。越难 → 越长。位次跨度常达十几倍，故位次省用对数刻度。
+function barFrac(s: (typeof schools)[number]): number {
+  const v = metric(s);
+  if (v <= 0) return 0;
+  if (vMax === vMin) return 1;
+  if (scoreMode) return (v - vMin) / (vMax - vMin); // 分越高 → 越长
+  const hi = Math.log(vMax);
+  const lo = Math.log(vMin);
+  return (hi - Math.log(v)) / (hi - lo); // 位次越小(越难) → 越长
+}
+
+// 「顶点」院校 = 最难考/录取分最高（schools 已按此序，故取首条）；报考区间 = 全表跨度。
+const top = schools[0];
+const dirOf = (mn: string | undefined) =>
+  mn && mn.startsWith(major.name) ? mn.slice(major.name.length) : "";
+const topDir = top ? dirOf(top.mn) : "";
+const multiTrack = new Set(schools.map((s) => s.track)).size > 1;
+
 // 结构化数据：本页主体是「开设该专业的院校按录取水平排序」→ ItemList（已按 major.schools 的展示顺序）。
 // 条目上限 CAP，避免大热门专业清单过长；numberOfItems 记全量。位次省升序（位次小=靠前），西藏降序（分高=靠前）。
 const pageDesc = `开设 ${major.name} 的各院校在${cfg.name}的录取最低${scoreMode ? "分" : "位次"}横向比较。`;
@@ -26,11 +52,11 @@ const majorLd = {
   "@type": "ItemList",
   name: `${cfg.name}开设${major.name}的院校（按最近最低${scoreMode ? "分" : "位次"}排序）`,
   url: new URL(`/${prov}/zhuanye/${major.key}/`, Astro.site).href,
-  numberOfItems: major.schools.length,
+  numberOfItems: schools.length,
   itemListOrder: scoreMode
     ? "https://schema.org/ItemListOrderDescending"
     : "https://schema.org/ItemListOrderAscending",
-  itemListElement: major.schools.slice(0, LD_CAP).map((s, i) => ({
+  itemListElement: schools.slice(0, LD_CAP).map((s, i) => ({
     "@type": "ListItem",
     position: i + 1,
     name: s.sn,
@@ -45,51 +71,331 @@ const majorLd = {
   description={pageDesc}
   jsonLd={majorLd}
 >
-  <section class="mx-auto max-w-3xl px-4 py-12">
-    <a href={`/${prov}/zhuanye/`} class="text-sm text-slate-500 hover:text-slate-800">← 专业浏览</a>
-    <h1 class="mt-2 text-2xl font-bold">{major.name}</h1>
-    <p class="mt-1 text-sm text-slate-500">
-      {major.schools.length} 所院校开设（按最近最低{scoreMode ? "分（高→低）" : "位次"}排序）
-    </p>
+  <div class="zy-page">
+    <div class="zy-wrap">
+      <a href={`/${prov}/zhuanye/`} class="zy-back">← 专业浏览</a>
 
-    <div class="mt-6 overflow-x-auto">
-      <table class="w-full border-collapse text-sm">
-        <thead>
-          <tr class="border-b border-slate-300 text-left text-slate-500">
-            <th class="py-2 pr-4">院校</th>
-            <th class="py-2 pr-4">{scoreMode ? "最近最低分" : "最近最低位次"}</th>
-            <th class="py-2 pr-4">科类</th>
-            <th class="py-2 pr-4">年份</th>
-          </tr>
-        </thead>
-        <tbody>
+      {/* ───────── 专业身份头：先报最难考的院校位次（站名即「位次」） ───────── */}
+      <header class="zy-masthead">
+        <div class="zy-eyebrow">{cfg.name} · 专业 · {schools.length} 所院校开设</div>
+        <h1 class="zy-name">{major.name}</h1>
+
+        {
+          top && (
+            <a class="zy-apex" href={`/${prov}/yuanxiao/${top.sc}/#z-${top.mk}`}>
+              <div class="zy-apex-label">
+                {scoreMode ? "录取分最高的院校" : "最难考的院校"}
+                {multiTrack ? ` · ${top.track}类` : ""} · {top.year}
+              </div>
+              <div class="zy-apex-num">
+                <span class="zy-apex-unit">{scoreMode ? "最低分" : "位次"}</span>
+                <span class="zy-apex-val">
+                  {scoreMode ? top.minScore : fmt(top.minRank)}
+                </span>
+              </div>
+              <div class="zy-apex-school">
+                {top.sn}
+                {topDir && <span class="zy-apex-dir">{topDir}</span>}
+              </div>
+              <div class="zy-apex-range">
+                {vals.length
+                  ? scoreMode
+                    ? `录取最低分 ${vMin}–${vMax} 分 · 跨 ${schools.length} 所院校`
+                    : `录取位次 ${fmt(vMin)}–${fmt(vMax)} · 跨 ${schools.length} 所院校`
+                  : `共 ${schools.length} 所院校开设`}
+              </div>
+            </a>
+          )
+        }
+      </header>
+
+      {/* ───────── 签名件：开设院校按位次从难到易，条长示意相对竞争度 ───────── */}
+      <section class="zy-section">
+        <h2 class="zy-h2">
+          开设院校 · 按{scoreMode ? "录取分从高到低" : "录取位次从难到易"}
+        </h2>
+        <p class="zy-lede">
+          同一专业跨院校横向比录取水平。右侧条形示意相对{scoreMode ? "分数" : "竞争"}高低（{
+            scoreMode ? "分越高越靠前" : "位次越小越难，对数刻度"
+          }）；点院校名跳到该校页的历年录取区。
+        </p>
+
+        <div class="zy-ranklist">
+          <div class="zy-cap">↑ {scoreMode ? "录取分更高" : "更难考"}</div>
           {
-            major.schools.map((s) => {
-              const dir = s.mn && s.mn.startsWith(major.name) ? s.mn.slice(major.name.length) : "";
+            schools.map((s, i) => {
+              const dir = dirOf(s.mn);
+              const pct = (barFrac(s) * 100).toFixed(1);
               return (
-              <tr class="border-b border-slate-100">
-                <td class="py-2 pr-4">
-                  <a
-                    href={`/${prov}/yuanxiao/${s.sc}/#z-${s.mk}`}
-                    class="font-medium text-slate-900 hover:underline"
-                  >
-                    {s.sn}
-                  </a>
-                  {dir && <span class="ml-1 text-xs text-slate-400">{dir}</span>}
-                </td>
-                <td class="py-2 pr-4 tabular-nums">
-                  {scoreMode ? (s.minScore ? `${s.minScore} 分` : "—") : s.minRank.toLocaleString()}
-                </td>
-                <td class="py-2 pr-4">{s.track}</td>
-                <td class="py-2 pr-4 tabular-nums">{s.year}</td>
-              </tr>
+                <a class="zy-row" href={`/${prov}/yuanxiao/${s.sc}/#z-${s.mk}`}>
+                  <span class="zy-ord">{i + 1}</span>
+                  <span class="zy-main">
+                    <span class="zy-school">{s.sn}</span>
+                    {dir && <span class="zy-dir">{dir}</span>}
+                    {multiTrack && <span class="zy-chip">{s.track}</span>}
+                  </span>
+                  <span class="zy-bar" aria-hidden="true">
+                    <span class="zy-bar-fill" style={`width:${pct}%`} />
+                  </span>
+                  <span class="zy-r">
+                    {scoreMode
+                      ? `${s.minScore} 分`
+                      : s.minRank > 0
+                        ? fmt(s.minRank)
+                        : "—"}
+                    <span class="zy-yr">{s.year}</span>
+                  </span>
+                </a>
               );
             })
           }
-        </tbody>
-      </table>
-    </div>
+          <div class="zy-cap">{scoreMode ? "录取分更低" : "更易考"} ↓</div>
+        </div>
+      </section>
 
-    <p class="mt-10 text-xs text-slate-400">仅供参考，以官方及院校最新公布为准。</p>
-  </section>
+      <p class="zy-foot">仅供参考，以官方及院校最新公布为准。</p>
+    </div>
+  </div>
 </Base>
+
+<style>
+  /* 与院校页同一「墨纸」体系：slate 中性色 + 朱砂红只给决策量「位次」。签名件是每校一条
+     的对数刻度竞争度条——把同一专业里各校 十几倍 的位次跨度一眼可比。 */
+  .zy-page {
+    --paper: #f8fafc;
+    --card: #ffffff;
+    --ink: #0f172a;
+    --ink-soft: #64748b;
+    --ink-faint: #94a3b8;
+    --seal: #c0202e; /* 朱红：位次高亮 */
+    --seal-deep: #9f1239;
+    --rule: #e2e8f0;
+    --rule-strong: #cbd5e1;
+    background: var(--paper);
+    color: var(--ink);
+    min-height: 100%;
+    padding-bottom: 4rem;
+  }
+  .zy-wrap {
+    max-width: 56rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 0;
+  }
+  .zy-back {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: 0.8125rem;
+    color: var(--ink-faint);
+    text-decoration: none;
+    transition: color 0.15s;
+  }
+  .zy-back:hover {
+    color: var(--seal);
+  }
+
+  /* 键盘可达：所有可点块给清晰的朱红焦点框（达质量底线）。 */
+  .zy-back:focus-visible,
+  .zy-apex:focus-visible,
+  .zy-row:focus-visible {
+    outline: 2px solid var(--seal);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  /* ── 专业身份头 ── */
+  .zy-masthead {
+    padding: 1rem 0 0;
+  }
+  .zy-eyebrow {
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    color: var(--ink-faint);
+    font-weight: 600;
+  }
+  .zy-name {
+    font-size: clamp(2rem, 5.5vw, 3rem);
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: -0.025em;
+    margin: 0.5rem 0 0;
+  }
+
+  /* ── 顶点：最难考院校的位次（首屏主角，整块可点进该校页） ── */
+  .zy-apex {
+    display: block;
+    margin-top: 1.5rem;
+    padding-top: 1.4rem;
+    border-top: 2px solid var(--ink);
+    text-decoration: none;
+    color: inherit;
+  }
+  .zy-apex-label {
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    color: var(--ink-soft);
+    font-weight: 600;
+  }
+  .zy-apex-num {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin-top: 0.25rem;
+    color: var(--seal);
+  }
+  .zy-apex-unit {
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+  }
+  .zy-apex-val {
+    font-size: clamp(2.25rem, 6vw, 3.5rem);
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    font-variant-numeric: tabular-nums;
+  }
+  .zy-apex-school {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-top: 0.55rem;
+    color: var(--ink);
+  }
+  .zy-apex:hover .zy-apex-school {
+    color: var(--seal);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .zy-apex-dir {
+    margin-left: 0.35rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--ink-faint);
+  }
+  .zy-apex-range {
+    font-size: 0.8rem;
+    color: var(--ink-soft);
+    margin-top: 0.3rem;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ── 区块 ── */
+  .zy-section {
+    margin-top: 3rem;
+  }
+  .zy-h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid var(--rule-strong);
+  }
+  .zy-lede {
+    margin: 0.7rem 0 0;
+    font-size: 0.8rem;
+    line-height: 1.65;
+    color: var(--ink-soft);
+    max-width: 46rem;
+  }
+
+  /* ── 排行（签名件） ── */
+  .zy-ranklist {
+    margin-top: 1.2rem;
+  }
+  .zy-cap {
+    font-size: 0.72rem;
+    color: var(--ink-faint);
+    font-weight: 600;
+    padding: 0.3rem 0;
+  }
+  .zy-row {
+    display: grid;
+    grid-template-columns: 1.75rem 1fr 8rem auto;
+    align-items: center;
+    gap: 0 0.85rem;
+    padding: 0.6rem 0; /* 左右不缩进：序号左缘与「更难考／更易考」caption 对齐 */
+    border-bottom: 1px solid var(--rule);
+    text-decoration: none;
+    color: inherit;
+    transition: background 0.12s;
+  }
+  .zy-row:hover {
+    background: var(--card);
+  }
+  .zy-ord {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--ink-faint);
+    text-align: left; /* 序号左对齐 → 左缘与 caption 齐平 */
+    font-variant-numeric: tabular-nums;
+  }
+  .zy-main {
+    min-width: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.15rem 0.4rem;
+  }
+  .zy-school {
+    font-weight: 600;
+    color: var(--ink);
+  }
+  .zy-row:hover .zy-school {
+    color: var(--seal);
+  }
+  .zy-dir {
+    font-size: 0.72rem;
+    color: var(--ink-faint);
+  }
+  .zy-chip {
+    font-size: 0.66rem;
+    font-weight: 600;
+    color: var(--ink-soft);
+    background: rgba(15, 23, 42, 0.05);
+    border-radius: 3px;
+    padding: 0.05rem 0.35rem;
+    line-height: 1.5;
+  }
+  .zy-bar {
+    height: 6px;
+    background: var(--rule);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .zy-bar-fill {
+    display: block;
+    height: 100%;
+    min-width: 2px;
+    background: linear-gradient(90deg, var(--seal-deep), var(--seal));
+    border-radius: 3px;
+  }
+  .zy-r {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--seal-deep);
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+  }
+  .zy-yr {
+    margin-left: 0.35rem;
+    font-size: 0.72rem;
+    font-weight: 500;
+    color: var(--ink-faint);
+  }
+
+  .zy-foot {
+    margin-top: 2.5rem;
+    font-size: 0.72rem;
+    color: var(--ink-faint);
+  }
+
+  /* 窄屏：藏起竞争度条，位次读数自身已够比较。 */
+  @media (max-width: 640px) {
+    .zy-row {
+      grid-template-columns: 1.5rem 1fr auto;
+    }
+    .zy-bar {
+      display: none;
+    }
+  }
+</style>

@@ -41,11 +41,22 @@ func StripParenTail(s string) string {
 	return strings.TrimSpace(s)
 }
 
-// MajorKey 由归一化专业名生成确定性短哈希，作为叶子页 URL 段（ascii、跨重建稳定）。
+// MajorKey 由归一化专业名生成确定性短哈希。用作叶子标识与叶子锚点 mk（`#z-<mk>`，
+// ascii、跨重建稳定）；专业页 URL 段改用可读的 MajorSlug（名字即 slug，与院校一致）。
 func MajorKey(majorName string) string {
 	h := fnv.New32a()
 	_, _ = h.Write([]byte(NormalizeMajorName(majorName)))
 	return fmt.Sprintf("%08x", h.Sum32())
+}
+
+// majorSlugUnsafe 剔除会破坏 URL 路径段或文件名的字符（路径分隔 / URL 保留符）。
+// 真实专业名里仅个别被截断的括号尾注混入了 `/`（如「…2+2/3+1双学位…」）。
+var majorSlugUnsafe = strings.NewReplacer("/", "", "\\", "", "?", "", "#", "", "%", "")
+
+// MajorSlug 由归一化专业名生成专业页的 URL 段/文件名：保留中文（名字即 slug，与院校
+// 归一化校名一致，见 ADR-0021），仅剔除会破坏路径的字符。
+func MajorSlug(majorName string) string {
+	return majorSlugUnsafe.Replace(NormalizeMajorName(majorName))
 }
 
 // ── 聚合：把多年行表整理成院校与院校×专业叶子 ──────────────────

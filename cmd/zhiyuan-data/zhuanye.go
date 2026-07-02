@@ -35,7 +35,7 @@ type majorIndexEntry struct {
 	SchoolCount int    `json:"schoolCount"`
 }
 
-// zhuanyeCmd 按归一化专业名（majorKey）跨校聚合院校×专业叶子 → 专业索引与专业详情（按省份分目录）。
+// zhuanyeCmd 按归一化专业名（MajorSlug，名字即 URL 段）跨校聚合院校×专业叶子 → 专业索引与专业详情（按省份分目录）。
 // 依赖先跑过 `yuanxiao -prov <slug>`。科类无关，黑龙江/浙江通用。
 func zhuanyeCmd(args []string) {
 	fs := flag.NewFlagSet("zhuanye", flag.ExitOnError)
@@ -76,7 +76,7 @@ func zhuanyeCmd(args []string) {
 			if p.slug == "zj" {
 				baseName = zj.BaseMajorName(lf.MajorName)
 			}
-			baseKey := core.MajorKey(baseName)
+			baseKey := core.MajorSlug(baseName)
 			md := details[baseKey]
 			if md == nil {
 				md = &majorDetail{Key: baseKey, Name: baseName}

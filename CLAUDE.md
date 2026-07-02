@@ -4,11 +4,14 @@
 
 每次改完代码，**先用测试确认通过**，然后**打开浏览器交给我手动测试**——绿测试不等于完工。
 
-1. 测试：逻辑改动跑 `npm test`（单元）；任何 UI 改动跑 `npm run build && npm run test:render`（渲染，慢，serve `dist/`）。必须全绿。
-2. 通过后起 dev server 并打开改动的页面：
+1. 测试：逻辑改动跑 `npm test`（单元）；任何 UI 改动跑 `npm run build && npm run test:render`（渲染，慢）。必须全绿。
+   - 渲染测试的机制：**先 `npm run build` 出 `dist/`，测试再用 `astro preview` serve 这份 `dist/`，Playwright 开真浏览器截图断言**（见 `tests/render/render-glue.ts` 的 `startPreview`）。
+   - 故 `dist/` 是构建产物、非实时：**改完代码必须重新 `npm run build`，否则渲染测试跑的还是旧页面**。（dev server `npm run dev` 才是实时 HMR，那是给人工看的、不是渲染测试用的。）
+2. 通过后起 **`astro preview`**（不是 `npm run dev`）并打开改动的页面——交人工测试统一用 preview serve 那份刚 build 的 `dist/`，跟渲染测试同源，所见即测过的：
 
    ```
-   npm run dev              # 打印 URL，如 http://localhost:4321（端口被占会自增）
+   npm run build            # 若上一步已 build 过可略；preview serve 的是 dist/
+   npm run preview          # 打印 URL，如 http://localhost:4321（端口被占会自增）
    open <打印出的 URL>/zj/   # 改了哪个页面就开哪个；macOS 用 open
    ```
 
