@@ -237,3 +237,32 @@ func TestParseYiFenYiDuan(t *testing.T) {
 		t.Errorf("控制线未取本科批: %d", wuli.ControlLine)
 	}
 }
+
+// TestParseYiFenYiDuanNoBatchLaowenli 覆盖新疆一分一段：源表无「批次」列，不能被批次过滤清零；
+// 老文理 keep={理科,文科} 两科类都应留下分段（原 internal/xj 专属包删除后，此行为归 group3p12.*With）。
+func TestParseYiFenYiDuanNoBatchLaowenli(t *testing.T) {
+	header := []string{"年份", "科类", "分数(分)", "本段人数(人)", "累计人数(人)", "排名区间"}
+	rows := [][]string{
+		header,
+		{"2025", "理科", "670~750", "9", "9", "1~9"},
+		{"2025", "理科", "669", "5", "14", "10~14"},
+		{"2025", "文科", "640~750", "3", "3", "1~3"},
+	}
+	got := parseYiFenYiDuan(sheet(t, rows, yfdHeader), "新疆", 2025, laowenliKeep)
+	if len(got) != 2 { // 理科 + 文科，无批次列不应清零
+		t.Fatalf("want 2 个(科类)，got %d", len(got))
+	}
+	byTrack := map[string]int{}
+	for _, y := range got {
+		byTrack[y.Track] = len(y.Entries)
+	}
+	if byTrack["理科"] != 2 {
+		t.Errorf("理科分段数 = %d, want 2", byTrack["理科"])
+	}
+	if byTrack["文科"] != 1 {
+		t.Errorf("文科分段数 = %d, want 1", byTrack["文科"])
+	}
+}
+
+// laowenliKeep 是老文理省（新疆/西藏）放行的科类，与 cmd/zhiyuan-data 的 laowenli 同义，测试内本地声明。
+var laowenliKeep = map[string]bool{"理科": true, "文科": true}
